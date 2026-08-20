@@ -14,10 +14,6 @@
 
   <style>
 
-    /* =========================================================
-       BASE
-    ========================================================= */
-
     * {
       box-sizing: border-box;
       margin: 0;
@@ -29,15 +25,7 @@
     }
 
     body {
-      font-family:
-        -apple-system,
-        BlinkMacSystemFont,
-        "Segoe UI",
-        Roboto,
-        Helvetica,
-        Arial,
-        sans-serif;
-
+      font-family: Arial, Helvetica, sans-serif;
       background: #06101c;
       color: #ffffff;
       line-height: 1.6;
@@ -59,30 +47,22 @@
     }
 
 
-    /* =========================================================
-       HEADER
-    ========================================================= */
+    /* HEADER */
 
     header {
       position: sticky;
       top: 0;
       z-index: 1000;
-
       background: rgba(3, 10, 18, 0.96);
-
-      border-bottom:
-        1px solid rgba(255, 255, 255, 0.08);
-
+      border-bottom: 1px solid rgba(255,255,255,0.08);
       backdrop-filter: blur(12px);
     }
 
     .navbar {
       min-height: 74px;
-
       display: flex;
       align-items: center;
       justify-content: space-between;
-
       gap: 28px;
     }
 
@@ -90,7 +70,6 @@
       display: flex;
       align-items: center;
       gap: 12px;
-
       flex-shrink: 0;
     }
 
@@ -107,10 +86,8 @@
 
     .brand-subtitle {
       display: block;
-
       color: #9bacbe;
       font-size: 0.68rem;
-      letter-spacing: 0;
       font-weight: 400;
     }
 
@@ -118,18 +95,10 @@
       display: flex;
       align-items: center;
       justify-content: flex-end;
-
       flex-wrap: wrap;
-
       gap: 18px;
-
       list-style: none;
-
       font-size: 0.83rem;
-    }
-
-    nav a {
-      transition: color 0.2s ease;
     }
 
     nav a:hover {
@@ -137,48 +106,42 @@
     }
 
     nav a.active {
-      color: #ffffff;
       border-bottom: 2px solid #3099ff;
       padding-bottom: 8px;
     }
 
 
-    /* =========================================================
-       HERO
-    ========================================================= */
+    /* HERO */
 
     .hero {
       min-height: 620px;
-
       display: flex;
       align-items: center;
-
       position: relative;
 
       background:
         linear-gradient(
           90deg,
-          rgba(3, 10, 18, 0.88) 0%,
-          rgba(3, 10, 18, 0.58) 48%,
-          rgba(3, 10, 18, 0.20) 100%
+          rgba(3, 10, 18, 0.78) 0%,
+          rgba(3, 10, 18, 0.40) 45%,
+          rgba(3, 10, 18, 0.10) 100%
         ),
-        url("https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?auto=format&fit=crop&w=2000&q=90")
-        center / cover no-repeat;
+        url("home-ad-astra.png")
+        center center / cover no-repeat;
     }
 
     .hero::after {
       content: "";
-
       position: absolute;
       left: 0;
       right: 0;
       bottom: 0;
-
-      height: 120px;
+      height: 150px;
 
       background:
         linear-gradient(
-          transparent,
+          to bottom,
+          rgba(6, 16, 28, 0),
           #06101c
         );
     }
@@ -186,65 +149,44 @@
     .hero-content {
       position: relative;
       z-index: 2;
-
       max-width: 720px;
-
       padding: 100px 0 130px;
     }
 
     .hero h1 {
-      font-size: clamp(4rem, 9vw, 7.3rem);
-
+      font-size: clamp(4rem, 9vw, 7rem);
       line-height: 0.95;
-
       letter-spacing: 0.08em;
-
       margin-bottom: 20px;
     }
 
     .hero h2 {
       font-size: clamp(1.55rem, 3vw, 2.35rem);
-
       font-weight: 500;
-
       color: #55aaff;
-
       margin-bottom: 18px;
     }
 
     .hero p {
       max-width: 650px;
-
       font-size: 1.08rem;
-
       color: #d4dce5;
-
       margin-bottom: 30px;
     }
 
 
-    /* =========================================================
-       BOTTONI
-    ========================================================= */
+    /* BOTTONI */
 
     .button {
       display: inline-flex;
       align-items: center;
       gap: 10px;
-
       padding: 13px 22px;
-
       border-radius: 6px;
-
       background: #1673d1;
-
       color: #ffffff;
-
       font-weight: 600;
-
-      transition:
-        transform 0.2s ease,
-        background 0.2s ease;
+      transition: 0.2s ease;
     }
 
     .button:hover {
@@ -254,14 +196,11 @@
 
     .button-outline {
       background: transparent;
-
       border: 1px solid #318bdc;
     }
 
 
-    /* =========================================================
-       SEZIONI
-    ========================================================= */
+    /* SEZIONI */
 
     section {
       padding: 70px 0;
@@ -269,72 +208,45 @@
 
     .section-title {
       text-align: center;
-
       font-size: clamp(1.8rem, 4vw, 2.5rem);
-
       margin-bottom: 8px;
     }
 
     .section-description {
       max-width: 720px;
-
       margin: 0 auto 32px;
-
       text-align: center;
-
       color: #b9c6d5;
     }
 
 
-    /* =========================================================
-       TRE PERCORSI PRINCIPALI
-    ========================================================= */
+    /* PERCORSI */
 
     .main-grid {
       display: grid;
-
-      grid-template-columns:
-        repeat(3, 1fr);
-
+      grid-template-columns: repeat(3, 1fr);
       gap: 18px;
     }
 
     .main-card {
       min-height: 225px;
-
       display: flex;
       gap: 20px;
-
       padding: 28px;
-
-      background:
-        linear-gradient(
-          145deg,
-          #0d1c2d,
-          #0a1624
-        );
-
-      border:
-        1px solid rgba(255, 255, 255, 0.11);
-
+      background: linear-gradient(145deg, #0d1c2d, #0a1624);
+      border: 1px solid rgba(255,255,255,0.11);
       border-radius: 8px;
     }
 
     .card-icon {
       width: 58px;
       height: 58px;
-
       flex-shrink: 0;
-
       display: grid;
       place-items: center;
-
       border-radius: 50%;
-
       border: 1px solid #409cf2;
-
       font-size: 1.8rem;
-
       color: #63b5ff;
     }
 
@@ -350,15 +262,12 @@
 
     .main-card h3 {
       font-size: 1.15rem;
-
       margin-bottom: 8px;
     }
 
     .main-card p {
       color: #c3ceda;
-
       font-size: 0.92rem;
-
       margin-bottom: 14px;
     }
 
@@ -377,25 +286,17 @@
     }
 
 
-    /* =========================================================
-       CIELO DEL MESE
-    ========================================================= */
+    /* CIELO DEL MESE */
 
     .monthly-sky {
       margin-top: 18px;
-
       min-height: 260px;
-
       display: flex;
       align-items: center;
-
       position: relative;
       overflow: hidden;
-
       border-radius: 9px;
-
-      border:
-        1px solid rgba(255, 255, 255, 0.14);
+      border: 1px solid rgba(255,255,255,0.14);
 
       background:
         linear-gradient(
@@ -409,54 +310,39 @@
 
     .monthly-content {
       width: 60%;
-
       padding: 38px;
     }
 
     .monthly-content h2 {
       font-size: 2rem;
-
       margin-bottom: 8px;
     }
 
     .monthly-content p {
       color: #d1dae4;
-
       margin-bottom: 20px;
     }
 
 
-    /* =========================================================
-       STRUMENTI
-    ========================================================= */
+    /* STRUMENTI */
 
     .tools-grid {
       display: grid;
-
-      grid-template-columns:
-        repeat(4, 1fr);
-
+      grid-template-columns: repeat(4, 1fr);
       gap: 16px;
-
       margin-top: 26px;
     }
 
     .tool-card {
       min-height: 180px;
-
       padding: 22px;
-
       background: #0b1828;
-
-      border:
-        1px solid rgba(255, 255, 255, 0.11);
-
+      border: 1px solid rgba(255,255,255,0.11);
       border-radius: 8px;
     }
 
     .tool-icon {
       font-size: 2rem;
-
       margin-bottom: 12px;
     }
 
@@ -486,22 +372,17 @@
 
     .tool-card p {
       color: #becbd8;
-
       font-size: 0.88rem;
-
       margin-bottom: 13px;
     }
 
     .tool-link {
       font-size: 0.88rem;
-
       font-weight: 600;
     }
 
 
-    /* =========================================================
-       NOTIZIE
-    ========================================================= */
+    /* NOTIZIE */
 
     .news-section {
       background: #071321;
@@ -509,30 +390,21 @@
 
     .news-grid {
       display: grid;
-
-      grid-template-columns:
-        repeat(3, 1fr);
-
+      grid-template-columns: repeat(3, 1fr);
       gap: 18px;
-
       margin-top: 26px;
     }
 
     .news-card {
       overflow: hidden;
-
       background: #0c1a2b;
-
-      border:
-        1px solid rgba(255, 255, 255, 0.10);
-
+      border: 1px solid rgba(255,255,255,0.10);
       border-radius: 8px;
     }
 
     .news-card img {
       width: 100%;
       height: 190px;
-
       object-fit: cover;
     }
 
@@ -542,69 +414,48 @@
 
     .news-date {
       color: #51a9f8;
-
       font-size: 0.78rem;
-
       margin-bottom: 8px;
     }
 
     .news-content h3 {
       margin-bottom: 9px;
-
       font-size: 1.05rem;
     }
 
     .news-content p {
       color: #bac7d3;
-
       font-size: 0.87rem;
-
       margin-bottom: 12px;
     }
 
     .news-link {
       color: #54abf7;
-
       font-size: 0.87rem;
-
       font-weight: 600;
     }
 
     .all-news {
       text-align: center;
-
       margin-top: 24px;
     }
 
 
-    /* =========================================================
-       POSTER + FUMETTO
-    ========================================================= */
+    /* POSTER + FUMETTO */
 
     .editorial-grid {
       display: grid;
-
-      grid-template-columns:
-        1fr 1fr;
-
+      grid-template-columns: 1fr 1fr;
       gap: 18px;
     }
 
     .editorial-card {
       min-height: 260px;
-
       display: grid;
-
-      grid-template-columns:
-        1.3fr 0.7fr;
-
+      grid-template-columns: 1.3fr 0.7fr;
       overflow: hidden;
-
       border-radius: 8px;
-
-      border:
-        1px solid rgba(255, 255, 255, 0.11);
-
+      border: 1px solid rgba(255,255,255,0.11);
       background: #0b1828;
     }
 
@@ -618,91 +469,62 @@
 
     .editorial-text p {
       color: #bcc9d5;
-
       font-size: 0.91rem;
-
       margin-bottom: 16px;
     }
 
     .editorial-image {
       width: 100%;
       height: 100%;
-
       object-fit: cover;
     }
 
     .poster-placeholder {
       min-height: 100%;
-
       display: grid;
       place-items: center;
-
       padding: 20px;
-
       color: #9cacbc;
-
       text-align: center;
 
       background:
-        radial-gradient(
-          circle,
-          #18304a,
-          #07111d
-        );
+        radial-gradient(circle, #18304a, #07111d);
     }
 
 
-    /* =========================================================
-       FOOTER
-    ========================================================= */
+    /* FOOTER */
 
     footer {
       padding: 38px 0 24px;
-
       background: #030a12;
-
-      border-top:
-        1px solid rgba(255, 255, 255, 0.08);
+      border-top: 1px solid rgba(255,255,255,0.08);
     }
 
     .footer-grid {
       display: grid;
-
-      grid-template-columns:
-        1fr 2fr 0.6fr;
-
+      grid-template-columns: 1fr 2fr 0.6fr;
       gap: 30px;
-
       align-items: start;
     }
 
     .footer-brand {
       font-size: 1.3rem;
-
       font-weight: 700;
-
       letter-spacing: 0.08em;
-
       margin-bottom: 8px;
     }
 
     .footer-description {
       color: #aab8c6;
-
       font-size: 0.84rem;
     }
 
     .footer-links {
       display: flex;
-
       justify-content: center;
-
       flex-wrap: wrap;
-
       gap: 12px 18px;
-
       font-size: 0.8rem;
-
       color: #c5ced7;
     }
 
@@ -712,59 +534,39 @@
 
     .social-area p {
       font-size: 0.78rem;
-
       color: #9baaba;
-
       margin-bottom: 9px;
     }
 
     .facebook-button {
       width: 42px;
       height: 42px;
-
       display: inline-grid;
       place-items: center;
-
       border-radius: 50%;
-
       background: #1877f2;
-
       color: white;
-
-      font-family: Arial, sans-serif;
-
       font-size: 1.45rem;
-
       font-weight: 700;
     }
 
     .copyright {
       margin-top: 30px;
-
       padding-top: 20px;
-
-      border-top:
-        1px solid rgba(255, 255, 255, 0.07);
-
+      border-top: 1px solid rgba(255,255,255,0.07);
       text-align: center;
-
       font-size: 0.76rem;
-
       color: #8492a0;
     }
 
 
-    /* =========================================================
-       TABLET
-    ========================================================= */
+    /* TABLET */
 
     @media (max-width: 1000px) {
 
       .navbar {
         flex-direction: column;
-
         align-items: flex-start;
-
         padding: 15px 0;
       }
 
@@ -799,18 +601,16 @@
       .footer-links {
         justify-content: flex-start;
       }
-
     }
 
 
-    /* =========================================================
-       SMARTPHONE
-    ========================================================= */
+    /* SMARTPHONE */
 
     @media (max-width: 650px) {
 
       .hero {
         min-height: 520px;
+        background-position: 62% center;
       }
 
       .hero-content {
@@ -823,7 +623,6 @@
 
       nav ul {
         gap: 10px;
-
         font-size: 0.75rem;
       }
 
@@ -833,7 +632,6 @@
 
       .monthly-content {
         width: 100%;
-
         padding: 28px;
       }
 
@@ -852,286 +650,181 @@
       .editorial-image {
         max-height: 420px;
       }
-
     }
 
   </style>
 
 </head>
 
-
 <body>
 
 
-  <!-- =======================================================
-       HEADER
-  ======================================================== -->
+<header>
 
-  <header>
+  <div class="container navbar">
 
-    <div class="container navbar">
+    <a class="brand" href="#">
 
-      <a class="brand" href="#">
+      <div class="brand-symbol">✦</div>
 
-        <div class="brand-symbol">✦</div>
+      <div>
+        <div class="brand-name">AD ASTRA</div>
 
-        <div>
-          <div class="brand-name">AD ASTRA</div>
-          <span class="brand-subtitle">
-            Imparare a conoscere il cielo
-          </span>
-        </div>
+        <span class="brand-subtitle">
+          Imparare a conoscere il cielo
+        </span>
+      </div>
 
-      </a>
+    </a>
 
 
-      <nav>
+    <nav>
 
-        <ul>
+      <ul>
 
-          <li>
-            <a class="active" href="#">
-              Home
-            </a>
-          </li>
+        <li><a class="active" href="#">Home</a></li>
+        <li><a href="#">Scuola di Astronomia</a></li>
+        <li><a href="#">Guide</a></li>
+        <li><a href="#">Astrofotografia</a></li>
+        <li><a href="#">Poster</a></li>
+        <li><a href="#">Il Cielo del Mese</a></li>
+        <li><a href="#">Effemeridi</a></li>
+        <li><a href="#">Software</a></li>
+        <li><a href="#">Biblioteca</a></li>
+        <li><a href="#">Notizie</a></li>
+        <li><a href="#">Il Gatto di Schrödinger</a></li>
 
-          <li>
-            <a href="#">
-              Scuola di Astronomia
-            </a>
-          </li>
+      </ul>
 
-          <li>
-            <a href="#">
-              Guide
-            </a>
-          </li>
+    </nav>
 
-          <li>
-            <a href="#">
-              Astrofotografia
-            </a>
-          </li>
+  </div>
 
-          <li>
-            <a href="#">
-              Poster
-            </a>
-          </li>
-
-          <li>
-            <a href="#">
-              Il Cielo del Mese
-            </a>
-          </li>
-
-          <li>
-            <a href="#">
-              Effemeridi
-            </a>
-          </li>
-
-          <li>
-            <a href="#">
-              Software
-            </a>
-          </li>
-
-          <li>
-            <a href="#">
-              Biblioteca
-            </a>
-          </li>
-
-          <li>
-            <a href="#">
-              Notizie
-            </a>
-          </li>
-
-          <li>
-            <a href="#">
-              Il Gatto di Schrödinger
-            </a>
-          </li>
-
-        </ul>
-
-      </nav>
-
-    </div>
-
-  </header>
+</header>
 
 
 
-  <main>
+<main>
 
 
-    <!-- =====================================================
-         HERO
-    ====================================================== -->
+  <!-- HERO -->
 
-    <section class="hero">
+  <section class="hero">
 
-      <div class="container">
+    <div class="container">
 
-        <div class="hero-content">
+      <div class="hero-content">
 
-          <h1>AD ASTRA</h1>
+        <h1>AD ASTRA</h1>
 
-          <h2>
-            Imparare a conoscere il cielo
-          </h2>
+        <h2>
+          Imparare a conoscere il cielo
+        </h2>
 
-          <p>
-            Un percorso nell'astronomia, dall'orientamento
-            sotto le stelle alle basi dell'osservazione
-            e dell'astrofotografia.
-          </p>
+        <p>
+          Un percorso nell'astronomia,
+          dall'orientamento sotto le stelle
+          alle basi dell'osservazione
+          e dell'astrofotografia.
+        </p>
 
-          <a class="button" href="#">
-            Esplora la Scuola di Astronomia →
-          </a>
-
-        </div>
+        <a class="button" href="#">
+          Esplora la Scuola di Astronomia →
+        </a>
 
       </div>
 
-    </section>
+    </div>
+
+  </section>
 
 
 
-    <!-- =====================================================
-         DA DOVE INIZIARE
-    ====================================================== -->
+  <!-- DA DOVE INIZIARE -->
 
-    <section>
+  <section>
 
-      <div class="container">
+    <div class="container">
 
-        <h2 class="section-title">
-          Da dove vuoi iniziare?
-        </h2>
+      <h2 class="section-title">
+        Da dove vuoi iniziare?
+      </h2>
 
-        <p class="section-description">
-
-          AD ASTRA nasce per chi vuole comprendere il cielo
-          partendo dalle basi, imparare a osservare e acquisire
-          progressivamente gli strumenti necessari per
-          avvicinarsi all'astronomia e all'astrofotografia.
-
-        </p>
+      <p class="section-description">
+        AD ASTRA nasce per chi vuole comprendere il cielo
+        partendo dalle basi, imparare a osservare
+        e acquisire progressivamente gli strumenti necessari
+        per avvicinarsi all'astronomia e all'astrofotografia.
+      </p>
 
 
-        <div class="main-grid">
+      <div class="main-grid">
 
 
-          <article class="main-card">
+        <article class="main-card">
 
-            <div class="card-icon">
-              ◈
-            </div>
+          <div class="card-icon">◈</div>
 
-            <div>
+          <div>
 
-              <h3>
-                Scuola di Astronomia
-              </h3>
-
-              <p>
-                Lezioni strutturate per comprendere stelle,
-                pianeti, galassie, nebulose, ammassi,
-                coordinate celesti e fenomeni astronomici.
-              </p>
-
-              <a class="card-link" href="#">
-                Inizia a studiare →
-              </a>
-
-            </div>
-
-          </article>
-
-
-
-          <article class="main-card">
-
-            <div class="card-icon">
-              ✧
-            </div>
-
-            <div>
-
-              <h3>
-                Osservare il cielo
-              </h3>
-
-              <p>
-                Impara a orientarti, riconoscere le
-                costellazioni, utilizzare mappe celesti
-                e programmare una sessione osservativa.
-              </p>
-
-              <a class="card-link" href="#">
-                Vai alle guide →
-              </a>
-
-            </div>
-
-          </article>
-
-
-
-          <article class="main-card">
-
-            <div class="card-icon">
-              ◉
-            </div>
-
-            <div>
-
-              <h3>
-                Astrofotografia
-              </h3>
-
-              <p>
-                Dalle prime immagini del cielo ai concetti
-                fondamentali di acquisizione, inseguimento,
-                stacking ed elaborazione.
-              </p>
-
-              <a class="card-link" href="#">
-                Scopri come iniziare →
-              </a>
-
-            </div>
-
-          </article>
-
-
-        </div>
-
-
-        <!-- CIELO DEL MESE -->
-
-        <article class="monthly-sky">
-
-          <div class="monthly-content">
-
-            <h2>
-              Il Cielo del Mese
-            </h2>
+            <h3>Scuola di Astronomia</h3>
 
             <p>
-              Una guida periodica per sapere cosa osservare:
-              costellazioni, pianeti, Luna, congiunzioni,
-              sciami meteorici e principali oggetti
-              del cielo profondo.
+              Lezioni strutturate per comprendere stelle,
+              pianeti, galassie, nebulose, ammassi,
+              coordinate celesti e fenomeni astronomici.
             </p>
 
-            <a class="button" href="#">
-              Scopri il cielo di questo mese →
+            <a class="card-link" href="#">
+              Inizia a studiare →
+            </a>
+
+          </div>
+
+        </article>
+
+
+
+        <article class="main-card">
+
+          <div class="card-icon">✧</div>
+
+          <div>
+
+            <h3>Osservare il cielo</h3>
+
+            <p>
+              Impara a orientarti, riconoscere
+              le costellazioni, utilizzare mappe celesti
+              e programmare una sessione osservativa.
+            </p>
+
+            <a class="card-link" href="#">
+              Vai alle guide →
+            </a>
+
+          </div>
+
+        </article>
+
+
+
+        <article class="main-card">
+
+          <div class="card-icon">◉</div>
+
+          <div>
+
+            <h3>Astrofotografia</h3>
+
+            <p>
+              Dalle prime immagini del cielo
+              ai concetti fondamentali di acquisizione,
+              inseguimento, stacking ed elaborazione.
+            </p>
+
+            <a class="card-link" href="#">
+              Scopri come iniziare →
             </a>
 
           </div>
@@ -1141,463 +834,425 @@
 
       </div>
 
-    </section>
 
 
+      <!-- CIELO DEL MESE -->
 
-    <!-- =====================================================
-         STRUMENTI
-    ====================================================== -->
+      <article class="monthly-sky">
 
-    <section>
+        <div class="monthly-content">
 
-      <div class="container">
+          <h2>
+            Il Cielo del Mese
+          </h2>
 
-        <h2 class="section-title">
-          Strumenti per studiare e osservare
-        </h2>
+          <p>
+            Una guida periodica per sapere cosa osservare:
+            costellazioni, pianeti, Luna, congiunzioni,
+            sciami meteorici e principali oggetti
+            del cielo profondo.
+          </p>
 
-
-        <div class="tools-grid">
-
-
-          <article class="tool-card">
-
-            <div class="tool-icon">
-              ◎
-            </div>
-
-            <h3>
-              Stellarium Web
-            </h3>
-
-            <p>
-              Planetario online per esplorare il cielo
-              direttamente dal browser.
-            </p>
-
-            <a
-              class="tool-link"
-              href="https://stellarium-web.org/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Apri Stellarium Web →
-            </a>
-
-          </article>
-
-
-
-          <article class="tool-card">
-
-            <div class="tool-icon">
-              ▣
-            </div>
-
-            <h3>
-              Effemeridi
-            </h3>
-
-            <p>
-              Dati astronomici, fasi lunari, pianeti,
-              eventi e fenomeni celesti.
-            </p>
-
-            <a class="tool-link" href="#">
-              Consulta le effemeridi →
-            </a>
-
-          </article>
-
-
-
-          <article class="tool-card">
-
-            <div class="tool-icon">
-              ▱
-            </div>
-
-            <h3>
-              Software
-            </h3>
-
-            <p>
-              Programmi selezionati per astronomia
-              e astrofotografia, con link alle fonti ufficiali.
-            </p>
-
-            <a class="tool-link" href="#">
-              Scopri i software →
-            </a>
-
-          </article>
-
-
-
-          <article class="tool-card">
-
-            <div class="tool-icon">
-              ◫
-            </div>
-
-            <h3>
-              Biblioteca
-            </h3>
-
-            <p>
-              Una raccolta essenziale di materiali didattici,
-              manuali, documenti e risorse.
-            </p>
-
-            <a class="tool-link" href="#">
-              Vai alla biblioteca →
-            </a>
-
-          </article>
-
-
-        </div>
-
-      </div>
-
-    </section>
-
-
-
-    <!-- =====================================================
-         NOTIZIE
-    ====================================================== -->
-
-    <section class="news-section">
-
-      <div class="container">
-
-        <h2 class="section-title">
-          Ultime Notizie
-        </h2>
-
-        <p class="section-description">
-          Astronomia, ricerca scientifica,
-          missioni spaziali e fenomeni celesti.
-        </p>
-
-
-        <div class="news-grid">
-
-
-          <article class="news-card">
-
-            <img
-              src="https://images.unsplash.com/photo-1462331940025-496dfbfc7564?auto=format&fit=crop&w=1000&q=85"
-              alt="Nebulosa nello spazio"
-            >
-
-            <div class="news-content">
-
-              <div class="news-date">
-                Notizie AD ASTRA
-              </div>
-
-              <h3>
-                Astronomia e ricerca
-              </h3>
-
-              <p>
-                In questo spazio compariranno
-                le notizie e gli approfondimenti
-                più recenti.
-              </p>
-
-              <a class="news-link" href="#">
-                Leggi di più →
-              </a>
-
-            </div>
-
-          </article>
-
-
-
-          <article class="news-card">
-
-            <img
-              src="https://images.unsplash.com/photo-1517976547714-720226b864c1?auto=format&fit=crop&w=1000&q=85"
-              alt="Lancio di un razzo"
-            >
-
-            <div class="news-content">
-
-              <div class="news-date">
-                Missioni spaziali
-              </div>
-
-              <h3>
-                Esplorazione dello spazio
-              </h3>
-
-              <p>
-                Missioni, sonde, telescopi
-                e nuove esplorazioni del Sistema Solare.
-              </p>
-
-              <a class="news-link" href="#">
-                Leggi di più →
-              </a>
-
-            </div>
-
-          </article>
-
-
-
-          <article class="news-card">
-
-            <img
-              src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=1000&q=85"
-              alt="Spazio e Terra"
-            >
-
-            <div class="news-content">
-
-              <div class="news-date">
-                Il cielo
-              </div>
-
-              <h3>
-                Eventi astronomici
-              </h3>
-
-              <p>
-                Fenomeni osservabili,
-                eventi celesti e appuntamenti
-                da non perdere.
-              </p>
-
-              <a class="news-link" href="#">
-                Leggi di più →
-              </a>
-
-            </div>
-
-          </article>
-
-
-        </div>
-
-
-        <div class="all-news">
-
-          <a class="button button-outline" href="#">
-            Vai a tutte le notizie →
+          <a class="button" href="#">
+            Scopri il cielo di questo mese →
           </a>
 
         </div>
 
-      </div>
-
-    </section>
+      </article>
 
 
+    </div>
 
-    <!-- =====================================================
-         POSTER + FUMETTO
-    ====================================================== -->
-
-    <section>
-
-      <div class="container">
-
-        <div class="editorial-grid">
-
-
-          <!-- POSTER -->
-
-          <article class="editorial-card">
-
-            <div class="editorial-text">
-
-              <h2>
-                Poster e materiali divulgativi
-              </h2>
-
-              <p>
-                Schede, poster e materiali visuali dedicati
-                ai principali argomenti astronomici,
-                pensati per studio, divulgazione
-                e consultazione.
-              </p>
-
-              <a class="card-link" href="#">
-                Vai ai Poster →
-              </a>
-
-            </div>
-
-            <div class="poster-placeholder">
-
-              Poster
-              <br>
-              AD ASTRA
-
-            </div>
-
-          </article>
+  </section>
 
 
 
-          <!-- GATTO DI SCHRÖDINGER -->
+  <!-- STRUMENTI -->
 
-          <article class="editorial-card">
-
-            <div class="editorial-text">
-
-              <h2>
-                Il Gatto di Schrödinger
-              </h2>
-
-              <p>
-                Un fumetto che racconta astronomia,
-                scienza e curiosità sull'Universo
-                attraverso avventura, ironia
-                e divulgazione.
-              </p>
-
-              <a class="card-link" href="#">
-                Scopri il fumetto →
-              </a>
-
-            </div>
-
-
-            <img
-              class="editorial-image"
-              src="copertina-gatto-schrodinger.png"
-              alt="Copertina del fumetto Il Gatto di Schrödinger"
-            >
-
-          </article>
-
-
-        </div>
-
-      </div>
-
-    </section>
-
-
-  </main>
-
-
-
-  <!-- =======================================================
-       FOOTER
-  ======================================================== -->
-
-  <footer>
+  <section>
 
     <div class="container">
 
-
-      <div class="footer-grid">
-
-
-        <div>
-
-          <div class="footer-brand">
-            ✦ AD ASTRA
-          </div>
-
-          <p class="footer-description">
-            Astronomia, osservazione del cielo,
-            astrofotografia e divulgazione scientifica.
-          </p>
-
-        </div>
+      <h2 class="section-title">
+        Strumenti per studiare e osservare
+      </h2>
 
 
-
-        <div class="footer-links">
-
-          <a href="#">Home</a>
-
-          <a href="#">
-            Scuola di Astronomia
-          </a>
-
-          <a href="#">Guide</a>
-
-          <a href="#">
-            Astrofotografia
-          </a>
-
-          <a href="#">Poster</a>
-
-          <a href="#">
-            Il Cielo del Mese
-          </a>
-
-          <a href="#">
-            Effemeridi
-          </a>
-
-          <a href="#">
-            Software
-          </a>
-
-          <a href="#">
-            Biblioteca
-          </a>
-
-          <a href="#">
-            Notizie
-          </a>
-
-          <a href="#">
-            Il Gatto di Schrödinger
-          </a>
-
-        </div>
+      <div class="tools-grid">
 
 
+        <article class="tool-card">
 
-        <div class="social-area">
+          <div class="tool-icon">◎</div>
+
+          <h3>Stellarium Web</h3>
 
           <p>
-            Seguici su
+            Planetario online per esplorare
+            il cielo direttamente dal browser.
           </p>
 
-          <!--
-               Quando mi dai il link esatto
-               della pagina/gruppo Facebook
-               sostituiamo il simbolo #
-          -->
-
           <a
-            class="facebook-button"
-            href="#"
-            aria-label="Facebook AD ASTRA"
+            class="tool-link"
+            href="https://stellarium-web.org/"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            f
+            Apri Stellarium Web →
           </a>
 
-        </div>
+        </article>
+
+
+
+        <article class="tool-card">
+
+          <div class="tool-icon">▣</div>
+
+          <h3>Effemeridi</h3>
+
+          <p>
+            Dati astronomici, fasi lunari,
+            pianeti, eventi e fenomeni celesti.
+          </p>
+
+          <a class="tool-link" href="#">
+            Consulta le effemeridi →
+          </a>
+
+        </article>
+
+
+
+        <article class="tool-card">
+
+          <div class="tool-icon">▱</div>
+
+          <h3>Software</h3>
+
+          <p>
+            Programmi selezionati per astronomia
+            e astrofotografia, con link alle fonti ufficiali.
+          </p>
+
+          <a class="tool-link" href="#">
+            Scopri i software →
+          </a>
+
+        </article>
+
+
+
+        <article class="tool-card">
+
+          <div class="tool-icon">◫</div>
+
+          <h3>Biblioteca</h3>
+
+          <p>
+            Una raccolta essenziale
+            di materiali didattici, manuali,
+            documenti e risorse.
+          </p>
+
+          <a class="tool-link" href="#">
+            Vai alla biblioteca →
+          </a>
+
+        </article>
+
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  <!-- NOTIZIE -->
+
+  <section class="news-section">
+
+    <div class="container">
+
+      <h2 class="section-title">
+        Ultime Notizie
+      </h2>
+
+      <p class="section-description">
+        Astronomia, ricerca scientifica,
+        missioni spaziali e fenomeni celesti.
+      </p>
+
+
+      <div class="news-grid">
+
+
+        <article class="news-card">
+
+          <img
+            src="https://images.unsplash.com/photo-1462331940025-496dfbfc7564?auto=format&fit=crop&w=1000&q=85"
+            alt="Nebulosa nello spazio"
+          >
+
+          <div class="news-content">
+
+            <div class="news-date">
+              Notizie AD ASTRA
+            </div>
+
+            <h3>
+              Astronomia e ricerca
+            </h3>
+
+            <p>
+              In questo spazio compariranno
+              le notizie e gli approfondimenti
+              più recenti.
+            </p>
+
+            <a class="news-link" href="#">
+              Leggi di più →
+            </a>
+
+          </div>
+
+        </article>
+
+
+
+        <article class="news-card">
+
+          <img
+            src="https://images.unsplash.com/photo-1517976547714-720226b864c1?auto=format&fit=crop&w=1000&q=85"
+            alt="Lancio di un razzo"
+          >
+
+          <div class="news-content">
+
+            <div class="news-date">
+              Missioni spaziali
+            </div>
+
+            <h3>
+              Esplorazione dello spazio
+            </h3>
+
+            <p>
+              Missioni, sonde, telescopi
+              e nuove esplorazioni del Sistema Solare.
+            </p>
+
+            <a class="news-link" href="#">
+              Leggi di più →
+            </a>
+
+          </div>
+
+        </article>
+
+
+
+        <article class="news-card">
+
+          <img
+            src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=1000&q=85"
+            alt="Spazio e Terra"
+          >
+
+          <div class="news-content">
+
+            <div class="news-date">
+              Il cielo
+            </div>
+
+            <h3>
+              Eventi astronomici
+            </h3>
+
+            <p>
+              Fenomeni osservabili,
+              eventi celesti e appuntamenti
+              da non perdere.
+            </p>
+
+            <a class="news-link" href="#">
+              Leggi di più →
+            </a>
+
+          </div>
+
+        </article>
 
 
       </div>
 
 
+      <div class="all-news">
 
-      <div class="copyright">
+        <a class="button button-outline" href="#">
+          Vai a tutte le notizie →
+        </a>
 
-        © 2026 AD ASTRA — Tutti i diritti riservati
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  <!-- POSTER + FUMETTO -->
+
+  <section>
+
+    <div class="container">
+
+      <div class="editorial-grid">
+
+
+        <article class="editorial-card">
+
+          <div class="editorial-text">
+
+            <h2>
+              Poster e materiali divulgativi
+            </h2>
+
+            <p>
+              Schede, poster e materiali visuali
+              dedicati ai principali argomenti astronomici,
+              pensati per studio, divulgazione
+              e consultazione.
+            </p>
+
+            <a class="card-link" href="#">
+              Vai ai Poster →
+            </a>
+
+          </div>
+
+          <div class="poster-placeholder">
+            Poster
+            <br>
+            AD ASTRA
+          </div>
+
+        </article>
+
+
+
+        <article class="editorial-card">
+
+          <div class="editorial-text">
+
+            <h2>
+              Il Gatto di Schrödinger
+            </h2>
+
+            <p>
+              Un fumetto che racconta astronomia,
+              scienza e curiosità sull'Universo
+              attraverso avventura, ironia
+              e divulgazione.
+            </p>
+
+            <a class="card-link" href="#">
+              Scopri il fumetto →
+            </a>
+
+          </div>
+
+          <img
+            class="editorial-image"
+            src="copertina-gatto-schrodinger.png"
+            alt="Copertina del fumetto Il Gatto di Schrödinger"
+          >
+
+        </article>
+
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+</main>
+
+
+
+<footer>
+
+  <div class="container">
+
+
+    <div class="footer-grid">
+
+
+      <div>
+
+        <div class="footer-brand">
+          ✦ AD ASTRA
+        </div>
+
+        <p class="footer-description">
+          Astronomia, osservazione del cielo,
+          astrofotografia e divulgazione scientifica.
+        </p>
+
+      </div>
+
+
+
+      <div class="footer-links">
+
+        <a href="#">Home</a>
+        <a href="#">Scuola di Astronomia</a>
+        <a href="#">Guide</a>
+        <a href="#">Astrofotografia</a>
+        <a href="#">Poster</a>
+        <a href="#">Il Cielo del Mese</a>
+        <a href="#">Effemeridi</a>
+        <a href="#">Software</a>
+        <a href="#">Biblioteca</a>
+        <a href="#">Notizie</a>
+        <a href="#">Il Gatto di Schrödinger</a>
+
+      </div>
+
+
+
+      <div class="social-area">
+
+        <p>Seguici su</p>
+
+        <a
+          class="facebook-button"
+          href="#"
+          aria-label="Facebook AD ASTRA"
+        >
+          f
+        </a>
 
       </div>
 
 
     </div>
 
-  </footer>
+
+
+    <div class="copyright">
+      © 2026 AD ASTRA — Tutti i diritti riservati
+    </div>
+
+
+  </div>
+
+</footer>
 
 
 </body>
