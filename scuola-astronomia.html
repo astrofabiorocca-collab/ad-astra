@@ -1,0 +1,1687 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>Scuola di Astronomia | AD ASTRA</title>
+
+  <meta
+    name="description"
+    content="Scuola di Astronomia AD ASTRA: un percorso progressivo per imparare a conoscere il cielo, dalle basi dell'orientamento alle stelle, nebulose, galassie e osservazione astronomica."
+  >
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  >
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+
+  <style>
+
+    /* =========================================================
+       BASE
+    ========================================================= */
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Helvetica,
+        Arial,
+        sans-serif;
+
+      background: #f4f7fa;
+      color: #18222d;
+      line-height: 1.65;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+    }
+
+    .container {
+      width: min(1180px, 92%);
+      margin: 0 auto;
+    }
+
+
+    /* =========================================================
+       BANNER SUPERIORE AD ASTRA
+    ========================================================= */
+
+    .site-banner {
+      position: relative;
+      overflow: hidden;
+
+      color: #ffffff;
+
+      background:
+        radial-gradient(
+          circle at 72% 40%,
+          rgba(74, 128, 200, 0.35),
+          transparent 32%
+        ),
+        radial-gradient(
+          circle at 28% 25%,
+          rgba(255, 255, 255, 0.10),
+          transparent 25%
+        ),
+        linear-gradient(
+          120deg,
+          #071528 0%,
+          #102a4a 48%,
+          #071426 100%
+        );
+    }
+
+    .site-banner::before {
+      content: "";
+
+      position: absolute;
+      inset: 0;
+
+      opacity: 0.55;
+
+      background-image:
+        radial-gradient(
+          circle,
+          rgba(255,255,255,0.9) 1px,
+          transparent 1.3px
+        );
+
+      background-size: 48px 48px;
+
+      pointer-events: none;
+    }
+
+    .banner-main {
+      position: relative;
+      z-index: 2;
+
+      min-height: 155px;
+
+      display: grid;
+      grid-template-columns: 0.9fr 1px 1.5fr;
+
+      align-items: center;
+
+      gap: 42px;
+
+      padding: 32px 0;
+    }
+
+
+    /* LOGO / BRAND */
+
+    .banner-brand {
+      display: flex;
+      align-items: center;
+
+      gap: 20px;
+    }
+
+    .logo-symbol {
+      width: 82px;
+      height: 82px;
+
+      flex-shrink: 0;
+
+      display: grid;
+      place-items: center;
+
+      border:
+        2px solid rgba(255,255,255,0.82);
+
+      border-radius: 50%;
+
+      color: #ffffff;
+
+      font-size: 2.8rem;
+
+      box-shadow:
+        0 0 22px rgba(88, 168, 255, 0.25);
+    }
+
+    .logo-text {
+      font-family: "Orbitron", sans-serif;
+
+      font-size:
+        clamp(1.65rem, 3vw, 2.6rem);
+
+      font-weight: 600;
+
+      letter-spacing: 0.08em;
+
+      white-space: nowrap;
+    }
+
+    .banner-divider {
+      width: 1px;
+      height: 85px;
+
+      background:
+        rgba(255,255,255,0.40);
+    }
+
+
+    /* TITOLO SEZIONE */
+
+    .banner-section h1 {
+      margin-bottom: 5px;
+
+      color: #f3c84b;
+
+      font-family: "Orbitron", sans-serif;
+
+      font-size:
+        clamp(1.65rem, 3vw, 2.7rem);
+
+      font-weight: 600;
+
+      letter-spacing: 0.025em;
+    }
+
+    .banner-section p {
+      color: #d9e2ec;
+
+      font-size: 1rem;
+    }
+
+
+    /* =========================================================
+       NAVIGAZIONE
+    ========================================================= */
+
+    .navigation {
+      position: relative;
+      z-index: 5;
+
+      border-top:
+        1px solid rgba(255,255,255,0.08);
+
+      border-bottom:
+        1px solid rgba(255,255,255,0.08);
+
+      background:
+        rgba(3, 12, 23, 0.82);
+    }
+
+    .navigation ul {
+      min-height: 52px;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      flex-wrap: wrap;
+
+      gap: 8px 24px;
+
+      list-style: none;
+
+      font-size: 0.82rem;
+    }
+
+    .navigation a {
+      display: inline-block;
+
+      padding: 16px 0 13px;
+
+      color: #d8e0e8;
+
+      transition: color 0.2s ease;
+    }
+
+    .navigation a:hover {
+      color: #ffffff;
+    }
+
+    .navigation a.active {
+      color: #ffffff;
+
+      border-bottom:
+        2px solid #f3c84b;
+    }
+
+
+    /* =========================================================
+       INTRODUZIONE
+    ========================================================= */
+
+    .intro {
+      padding: 64px 0 52px;
+
+      background: #ffffff;
+    }
+
+    .intro-grid {
+      display: grid;
+
+      grid-template-columns:
+        1fr 1.05fr;
+
+      align-items: center;
+
+      gap: 55px;
+    }
+
+    .intro-text {
+      color: #465360;
+
+      font-size: 1.03rem;
+    }
+
+    .intro-text p + p {
+      margin-top: 18px;
+    }
+
+    .intro-lead {
+      color: #1b2936;
+
+      font-size: 1.14rem;
+      font-weight: 500;
+    }
+
+
+    /* IMMAGINE INTRODUTTIVA */
+
+    .intro-image {
+      min-height: 300px;
+
+      display: flex;
+      align-items: flex-end;
+
+      overflow: hidden;
+
+      border-radius: 8px;
+
+      background:
+        radial-gradient(
+          circle at 70% 25%,
+          rgba(78, 138, 211, 0.40),
+          transparent 27%
+        ),
+        linear-gradient(
+          to bottom,
+          #142b49,
+          #081523 70%,
+          #050b12
+        );
+
+      box-shadow:
+        0 14px 32px rgba(14, 33, 52, 0.15);
+    }
+
+    .intro-image-caption {
+      width: 100%;
+
+      padding: 24px;
+
+      color: rgba(255,255,255,0.85);
+
+      font-size: 0.85rem;
+
+      background:
+        linear-gradient(
+          transparent,
+          rgba(0,0,0,0.60)
+        );
+    }
+
+
+    /* =========================================================
+       PRINCIPI
+    ========================================================= */
+
+    .principles {
+      padding: 10px 0 62px;
+
+      background: #ffffff;
+    }
+
+    .principles-grid {
+      display: grid;
+
+      grid-template-columns:
+        repeat(3, 1fr);
+
+      gap: 30px;
+    }
+
+    .principle {
+      display: flex;
+
+      gap: 16px;
+    }
+
+    .principle-icon {
+      width: 45px;
+      height: 45px;
+
+      flex-shrink: 0;
+
+      display: grid;
+      place-items: center;
+
+      border-radius: 50%;
+
+      background: #e9f3ff;
+      color: #1673d1;
+
+      font-size: 1.25rem;
+    }
+
+    .principle h3 {
+      margin-bottom: 4px;
+
+      color: #162330;
+
+      font-size: 1rem;
+    }
+
+    .principle p {
+      color: #697684;
+
+      font-size: 0.88rem;
+    }
+
+
+    /* =========================================================
+       PERCORSO DIDATTICO
+    ========================================================= */
+
+    .programme {
+      padding: 66px 0 72px;
+
+      background: #f4f7fa;
+    }
+
+    .section-heading {
+      margin-bottom: 12px;
+
+      color: #162330;
+
+      text-align: center;
+
+      font-size:
+        clamp(1.7rem, 3vw, 2.15rem);
+
+      font-weight: 600;
+    }
+
+    .section-line {
+      width: 52px;
+      height: 3px;
+
+      margin: 0 auto 13px;
+
+      border-radius: 10px;
+
+      background: #1673d1;
+    }
+
+    .section-intro {
+      max-width: 700px;
+
+      margin: 0 auto 38px;
+
+      color: #687582;
+
+      text-align: center;
+
+      font-size: 0.95rem;
+    }
+
+
+    /* CARD SEZIONI */
+
+    .programme-grid {
+      display: grid;
+
+      grid-template-columns:
+        repeat(2, 1fr);
+
+      gap: 18px;
+    }
+
+    .programme-card {
+      min-height: 175px;
+
+      display: grid;
+
+      grid-template-columns:
+        58px 1fr;
+
+      gap: 18px;
+
+      padding: 25px;
+
+      border:
+        1px solid #dce3e9;
+
+      border-radius: 8px;
+
+      background: #ffffff;
+
+      box-shadow:
+        0 4px 12px rgba(20, 38, 55, 0.04);
+
+      transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease,
+        border-color 0.2s ease;
+    }
+
+    .programme-card:hover {
+      transform: translateY(-3px);
+
+      border-color: #b8d4ee;
+
+      box-shadow:
+        0 9px 22px rgba(20, 38, 55, 0.08);
+    }
+
+    .programme-number {
+      width: 52px;
+      height: 52px;
+
+      display: grid;
+      place-items: center;
+
+      border-radius: 50%;
+
+      background: #e9f3ff;
+      color: #1673d1;
+
+      font-weight: 700;
+    }
+
+    .programme-card h2 {
+      margin-bottom: 7px;
+
+      color: #172431;
+
+      font-size: 1.08rem;
+    }
+
+    .programme-card p {
+      margin-bottom: 10px;
+
+      color: #667481;
+
+      font-size: 0.88rem;
+    }
+
+    .programme-link {
+      color: #1673d1;
+
+      font-size: 0.86rem;
+      font-weight: 600;
+    }
+
+
+    /* =========================================================
+       BLOCCO FINALE
+    ========================================================= */
+
+    .study-box {
+      padding: 20px 0 72px;
+
+      background: #f4f7fa;
+    }
+
+    .study-box-inner {
+      padding: 34px 38px;
+
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      gap: 30px;
+
+      border:
+        1px solid #cfe1f2;
+
+      border-radius: 8px;
+
+      background: #eaf4fd;
+    }
+
+    .study-box h2 {
+      margin-bottom: 5px;
+
+      color: #172431;
+
+      font-size: 1.35rem;
+    }
+
+    .study-box p {
+      max-width: 720px;
+
+      color: #5f6f7d;
+
+      font-size: 0.92rem;
+    }
+
+    .button {
+      flex-shrink: 0;
+
+      display: inline-flex;
+      align-items: center;
+
+      padding: 12px 21px;
+
+      border-radius: 5px;
+
+      background: #1673d1;
+      color: #ffffff;
+
+      font-weight: 600;
+
+      transition:
+        background 0.2s ease,
+        transform 0.2s ease;
+    }
+
+    .button:hover {
+      background: #2288ee;
+      transform: translateY(-2px);
+    }
+
+
+    /* =========================================================
+       FOOTER AD ASTRA
+    ========================================================= */
+
+    footer {
+      padding: 46px 0 22px;
+
+      color: #ffffff;
+
+      background:
+        linear-gradient(
+          135deg,
+          #061427,
+          #0c2745
+        );
+    }
+
+    .footer-grid {
+      display: grid;
+
+      grid-template-columns:
+        1.3fr 1fr 1fr 1fr 0.8fr;
+
+      gap: 35px;
+    }
+
+    .footer-brand {
+      font-family: "Orbitron", sans-serif;
+
+      margin-bottom: 10px;
+
+      font-size: 1.15rem;
+      font-weight: 600;
+
+      letter-spacing: 0.06em;
+    }
+
+    .footer-description {
+      max-width: 260px;
+
+      color: #9fb0c1;
+
+      font-size: 0.82rem;
+    }
+
+    .footer-column h3 {
+      margin-bottom: 12px;
+
+      color: #ffffff;
+
+      font-size: 0.83rem;
+    }
+
+    .footer-column ul {
+      list-style: none;
+    }
+
+    .footer-column li {
+      margin-bottom: 7px;
+    }
+
+    .footer-column a {
+      color: #9fb0c1;
+
+      font-size: 0.79rem;
+    }
+
+    .footer-column a:hover {
+      color: #ffffff;
+    }
+
+    .social-area h3 {
+      margin-bottom: 12px;
+
+      font-size: 0.83rem;
+    }
+
+    .facebook-button {
+      width: 40px;
+      height: 40px;
+
+      display: grid;
+      place-items: center;
+
+      border-radius: 50%;
+
+      background: #1877f2;
+      color: #ffffff;
+
+      font-family: Arial, sans-serif;
+
+      font-size: 1.35rem;
+      font-weight: 700;
+    }
+
+    .copyright {
+      margin-top: 38px;
+
+      padding-top: 20px;
+
+      border-top:
+        1px solid rgba(255,255,255,0.10);
+
+      color: #7f92a5;
+
+      text-align: center;
+
+      font-size: 0.74rem;
+    }
+
+
+    /* =========================================================
+       TABLET
+    ========================================================= */
+
+    @media (max-width: 950px) {
+
+      .banner-main {
+        grid-template-columns:
+          1fr;
+        gap: 18px;
+      }
+
+      .banner-divider {
+        display: none;
+      }
+
+      .banner-section {
+        padding-top: 16px;
+
+        border-top:
+          1px solid rgba(255,255,255,0.20);
+      }
+
+      .intro-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .principles-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .footer-grid {
+        grid-template-columns:
+          repeat(2, 1fr);
+      }
+
+    }
+
+
+    /* =========================================================
+       SMARTPHONE
+    ========================================================= */
+
+    @media (max-width: 650px) {
+
+      .banner-main {
+        min-height: auto;
+
+        padding: 25px 0;
+      }
+
+      .logo-symbol {
+        width: 62px;
+        height: 62px;
+
+        font-size: 2rem;
+      }
+
+      .logo-text {
+        font-size: 1.45rem;
+      }
+
+      .banner-section h1 {
+        font-size: 1.45rem;
+      }
+
+      .navigation ul {
+        justify-content: flex-start;
+
+        padding: 0 4%;
+
+        gap: 4px 18px;
+      }
+
+      .intro {
+        padding-top: 42px;
+      }
+
+      .intro-grid {
+        gap: 30px;
+      }
+
+      .intro-image {
+        min-height: 230px;
+      }
+
+      .programme-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .study-box-inner {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .footer-grid {
+        grid-template-columns: 1fr;
+      }
+
+    }
+
+  </style>
+
+</head>
+
+
+<body>
+
+
+  <!-- =====================================================
+       BANNER SUPERIORE
+  ====================================================== -->
+
+  <header class="site-banner">
+
+    <div class="container banner-main">
+
+      <a
+        class="banner-brand"
+        href="index.html"
+      >
+
+        <div class="logo-symbol">
+          ✦
+        </div>
+
+        <div class="logo-text">
+          AD ASTRA
+        </div>
+
+      </a>
+
+
+      <div class="banner-divider"></div>
+
+
+      <div class="banner-section">
+
+        <h1>
+          SCUOLA DI ASTRONOMIA
+        </h1>
+
+        <p>
+          Dalle basi alla comprensione del cielo
+        </p>
+
+      </div>
+
+    </div>
+
+
+    <!-- NAVIGAZIONE -->
+
+    <nav class="navigation">
+
+      <div class="container">
+
+        <ul>
+
+          <li>
+            <a href="index.html">
+              Home
+            </a>
+          </li>
+
+          <li>
+            <a
+              class="active"
+              href="scuola-astronomia.html"
+            >
+              Scuola di Astronomia
+            </a>
+          </li>
+
+          <li>
+            <a href="guide.html">
+              Guide
+            </a>
+          </li>
+
+          <li>
+            <a href="strumentazione.html">
+              Strumentazione
+            </a>
+          </li>
+
+          <li>
+            <a href="astrofotografia.html">
+              Astrofotografia
+            </a>
+          </li>
+
+          <li>
+            <a href="poster.html">
+              Poster
+            </a>
+          </li>
+
+          <li>
+            <a href="cielo-del-mese.html">
+              Il Cielo del Mese
+            </a>
+          </li>
+
+          <li>
+            <a href="effemeridi.html">
+              Effemeridi
+            </a>
+          </li>
+
+          <li>
+            <a href="software.html">
+              Software
+            </a>
+          </li>
+
+          <li>
+            <a href="biblioteca.html">
+              Biblioteca
+            </a>
+          </li>
+
+          <li>
+            <a href="notizie.html">
+              Notizie
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </nav>
+
+  </header>
+
+
+
+  <main>
+
+
+    <!-- =====================================================
+         INTRODUZIONE
+    ====================================================== -->
+
+    <section class="intro">
+
+      <div class="container intro-grid">
+
+        <div class="intro-text">
+
+          <p class="intro-lead">
+            Un percorso didattico progressivo
+            per imparare a orientarsi nel cielo,
+            comprenderne i principali fenomeni
+            e acquisire le conoscenze fondamentali
+            dell'astronomia.
+          </p>
+
+          <p>
+            Le lezioni sono organizzate per argomenti
+            e seguono una progressione logica:
+            dalle basi dell'orientamento celeste
+            fino alla comprensione delle stelle,
+            delle nebulose, delle galassie
+            e dell'Universo su grande scala.
+          </p>
+
+          <p>
+            Non è necessario possedere un telescopio
+            né avere conoscenze precedenti:
+            il percorso parte dai concetti fondamentali
+            e introduce gradualmente termini,
+            strumenti e metodi dell'astronomia.
+          </p>
+
+        </div>
+
+
+        <div class="intro-image">
+
+          <div class="intro-image-caption">
+            Imparare il cielo significa prima di tutto
+            comprenderne movimenti, strutture e fenomeni.
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         PRINCIPI
+    ====================================================== -->
+
+    <section class="principles">
+
+      <div class="container principles-grid">
+
+
+        <article class="principle">
+
+          <div class="principle-icon">
+            ▤
+          </div>
+
+          <div>
+
+            <h3>
+              Lezioni strutturate
+            </h3>
+
+            <p>
+              Argomenti organizzati progressivamente,
+              dalle conoscenze fondamentali
+              agli approfondimenti.
+            </p>
+
+          </div>
+
+        </article>
+
+
+
+        <article class="principle">
+
+          <div class="principle-icon">
+            ◎
+          </div>
+
+          <div>
+
+            <h3>
+              Approccio pratico
+            </h3>
+
+            <p>
+              Esempi e osservazioni
+              per collegare la teoria
+              a ciò che realmente vediamo nel cielo.
+            </p>
+
+          </div>
+
+        </article>
+
+
+
+        <article class="principle">
+
+          <div class="principle-icon">
+            ◇
+          </div>
+
+          <div>
+
+            <h3>
+              Per tutti
+            </h3>
+
+            <p>
+              Un percorso accessibile
+              anche a chi parte da zero,
+              con possibilità di approfondimento.
+            </p>
+
+          </div>
+
+        </article>
+
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         PERCORSO DIDATTICO
+    ====================================================== -->
+
+    <section class="programme">
+
+      <div class="container">
+
+        <h2 class="section-heading">
+          Percorso didattico
+        </h2>
+
+        <div class="section-line"></div>
+
+        <p class="section-intro">
+          Dieci grandi aree organizzano
+          il percorso della Scuola di Astronomia.
+          Ogni sezione raccoglierà progressivamente
+          lezioni e approfondimenti dedicati.
+        </p>
+
+
+        <div class="programme-grid">
+
+
+          <a
+            class="programme-card"
+            href="#"
+          >
+
+            <div class="programme-number">
+              01
+            </div>
+
+            <div>
+
+              <h2>
+                Fondamenti e orientamento del cielo
+              </h2>
+
+              <p>
+                Sfera celeste, punti cardinali,
+                orizzonte, zenit, coordinate,
+                movimenti apparenti,
+                costellazioni e cielo stagionale.
+              </p>
+
+              <span class="programme-link">
+                Esplora la sezione →
+              </span>
+
+            </div>
+
+          </a>
+
+
+
+          <a
+            class="programme-card"
+            href="#"
+          >
+
+            <div class="programme-number">
+              02
+            </div>
+
+            <div>
+
+              <h2>
+                Terra, Sole e Luna
+              </h2>
+
+              <p>
+                Moti terrestri, stagioni,
+                giorno e notte, Sole,
+                fasi lunari, librazioni
+                ed eclissi.
+              </p>
+
+              <span class="programme-link">
+                Esplora la sezione →
+              </span>
+
+            </div>
+
+          </a>
+
+
+
+          <a
+            class="programme-card"
+            href="#"
+          >
+
+            <div class="programme-number">
+              03
+            </div>
+
+            <div>
+
+              <h2>
+                Sistema Solare
+              </h2>
+
+              <p>
+                Pianeti, pianeti nani,
+                satelliti naturali,
+                asteroidi, comete,
+                meteoroidi e piccoli corpi.
+              </p>
+
+              <span class="programme-link">
+                Esplora la sezione →
+              </span>
+
+            </div>
+
+          </a>
+
+
+
+          <a
+            class="programme-card"
+            href="#"
+          >
+
+            <div class="programme-number">
+              04
+            </div>
+
+            <div>
+
+              <h2>
+                Stelle e fisica stellare
+              </h2>
+
+              <p>
+                Magnitudine, colore,
+                temperatura, spettro,
+                classificazione,
+                formazione ed evoluzione stellare.
+              </p>
+
+              <span class="programme-link">
+                Esplora la sezione →
+              </span>
+
+            </div>
+
+          </a>
+
+
+
+          <a
+            class="programme-card"
+            href="#"
+          >
+
+            <div class="programme-number">
+              05
+            </div>
+
+            <div>
+
+              <h2>
+                Ammassi, nebulose e cielo profondo
+              </h2>
+
+              <p>
+                Ammassi aperti e globulari,
+                nebulose a emissione,
+                riflessione e oscure,
+                resti di supernova.
+              </p>
+
+              <span class="programme-link">
+                Esplora la sezione →
+              </span>
+
+            </div>
+
+          </a>
+
+
+
+          <a
+            class="programme-card"
+            href="#"
+          >
+
+            <div class="programme-number">
+              06
+            </div>
+
+            <div>
+
+              <h2>
+                Galassie e Universo
+              </h2>
+
+              <p>
+                Via Lattea, classificazione
+                delle galassie, distanze cosmiche,
+                struttura su grande scala
+                e cosmologia di base.
+              </p>
+
+              <span class="programme-link">
+                Esplora la sezione →
+              </span>
+
+            </div>
+
+          </a>
+
+
+
+          <a
+            class="programme-card"
+            href="#"
+          >
+
+            <div class="programme-number">
+              07
+            </div>
+
+            <div>
+
+              <h2>
+                Osservazione astronomica
+              </h2>
+
+              <p>
+                Osservazione a occhio nudo,
+                binocolo e telescopio,
+                seeing, trasparenza,
+                inquinamento luminoso
+                e preparazione delle osservazioni.
+              </p>
+
+              <span class="programme-link">
+                Esplora la sezione →
+              </span>
+
+            </div>
+
+          </a>
+
+
+
+          <a
+            class="programme-card"
+            href="#"
+          >
+
+            <div class="programme-number">
+              08
+            </div>
+
+            <div>
+
+              <h2>
+                Fenomeni del cielo e dell'atmosfera
+              </h2>
+
+              <p>
+                Meteore, sciami meteorici,
+                aurore, rifrazione,
+                aloni e principali
+                fenomeni ottici atmosferici.
+              </p>
+
+              <span class="programme-link">
+                Esplora la sezione →
+              </span>
+
+            </div>
+
+          </a>
+
+
+
+          <a
+            class="programme-card"
+            href="#"
+          >
+
+            <div class="programme-number">
+              09
+            </div>
+
+            <div>
+
+              <h2>
+                Astronomia pratica e strumenti digitali
+              </h2>
+
+              <p>
+                Carte celesti, Stellarium,
+                effemeridi, cataloghi,
+                coordinate e pianificazione
+                di una sessione osservativa.
+              </p>
+
+              <span class="programme-link">
+                Esplora la sezione →
+              </span>
+
+            </div>
+
+          </a>
+
+
+
+          <a
+            class="programme-card"
+            href="#"
+          >
+
+            <div class="programme-number">
+              10
+            </div>
+
+            <div>
+
+              <h2>
+                Approfondimenti e temi speciali
+              </h2>
+
+              <p>
+                Esopianeti, buchi neri,
+                supernove, missioni spaziali,
+                astronautica e argomenti
+                dell'astronomia contemporanea.
+              </p>
+
+              <span class="programme-link">
+                Esplora la sezione →
+              </span>
+
+            </div>
+
+          </a>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         BLOCCO CONCLUSIVO
+    ====================================================== -->
+
+    <section class="study-box">
+
+      <div class="container">
+
+        <div class="study-box-inner">
+
+          <div>
+
+            <h2>
+              Impara · Osserva · Comprendi
+            </h2>
+
+            <p>
+              Le lezioni della Scuola di Astronomia
+              saranno accompagnate progressivamente
+              da approfondimenti, materiali didattici
+              e strumenti per mettere in pratica
+              ciò che hai imparato.
+            </p>
+
+          </div>
+
+
+          <a
+            class="button"
+            href="#"
+          >
+            Vai alle lezioni →
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+  </main>
+
+
+
+  <!-- =====================================================
+       FOOTER
+  ====================================================== -->
+
+  <footer>
+
+    <div class="container">
+
+
+      <div class="footer-grid">
+
+
+        <div>
+
+          <div class="footer-brand">
+            ✦ AD ASTRA
+          </div>
+
+          <p class="footer-description">
+            Astronomia, osservazione del cielo,
+            astrofotografia e divulgazione scientifica.
+          </p>
+
+        </div>
+
+
+
+        <div class="footer-column">
+
+          <h3>
+            Scuola di Astronomia
+          </h3>
+
+          <ul>
+
+            <li>
+              <a href="#">
+                Fondamenti
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                Sistema Solare
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                Stelle
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                Galassie e Universo
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+
+
+        <div class="footer-column">
+
+          <h3>
+            Esplora
+          </h3>
+
+          <ul>
+
+            <li>
+              <a href="guide.html">
+                Guide
+              </a>
+            </li>
+
+            <li>
+              <a href="strumentazione.html">
+                Strumentazione
+              </a>
+            </li>
+
+            <li>
+              <a href="astrofotografia.html">
+                Astrofotografia
+              </a>
+            </li>
+
+            <li>
+              <a href="cielo-del-mese.html">
+                Il Cielo del Mese
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+
+
+        <div class="footer-column">
+
+          <h3>
+            Risorse
+          </h3>
+
+          <ul>
+
+            <li>
+              <a href="effemeridi.html">
+                Effemeridi
+              </a>
+            </li>
+
+            <li>
+              <a href="software.html">
+                Software
+              </a>
+            </li>
+
+            <li>
+              <a href="biblioteca.html">
+                Biblioteca
+              </a>
+            </li>
+
+            <li>
+              <a href="notizie.html">
+                Notizie
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+
+
+        <div class="social-area">
+
+          <h3>
+            Seguici su
+          </h3>
+
+          <a
+            class="facebook-button"
+            href="#"
+            aria-label="Facebook AD ASTRA"
+          >
+            f
+          </a>
+
+        </div>
+
+
+      </div>
+
+
+
+      <div class="copyright">
+        © 2026 AD ASTRA — Tutti i diritti riservati
+      </div>
+
+
+    </div>
+
+  </footer>
+
+
+</body>
+
+</html>
