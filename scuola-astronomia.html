@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html lang="it">
-
 <head>
   <meta charset="UTF-8">
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>Scuola di Astronomia | AD ASTRA</title>
@@ -14,11 +12,6 @@
   >
 
   <style>
-
-    /* =========================================================
-       RESET E STRUTTURA GENERALE
-    ========================================================= */
-
     * {
       box-sizing: border-box;
       margin: 0;
@@ -31,7 +24,7 @@
 
     body {
       font-family: Arial, Helvetica, sans-serif;
-      background: #ffffff;
+      background: #f7f9fc;
       color: #102342;
       line-height: 1.65;
     }
@@ -51,150 +44,132 @@
       margin: 0 auto;
     }
 
+    /* =========================
+       BANNER SUPERIORE
+    ========================= */
 
-    /* =========================================================
-       BANNER SUPERIORE UFFICIALE
-    ========================================================= */
-
-    .banner-superiore {
+    .top-banner {
       width: 100%;
+      background: #07152a;
       overflow: hidden;
-      background: #06152c;
     }
 
-    .banner-superiore img {
-      display: block;
+    .top-banner img {
       width: 100%;
       height: auto;
+      display: block;
     }
 
-
-    /* =========================================================
+    /* =========================
        INTRODUZIONE
-    ========================================================= */
+    ========================= */
 
     .intro {
-      padding: 58px 0 42px;
       background: #ffffff;
+      padding: 58px 0 44px;
     }
 
     .intro-grid {
       display: grid;
       grid-template-columns: 1.15fr 0.85fr;
+      gap: 54px;
       align-items: center;
-      gap: 58px;
     }
 
     .intro-text {
-      color: #37475b;
+      color: #39495c;
+      font-size: 0.98rem;
     }
 
     .intro-lead {
-      margin-bottom: 15px;
-      color: #174db9;
+      color: #174fb9;
       font-size: 1.12rem;
       font-weight: 600;
+      margin-bottom: 12px;
     }
 
     .intro-line {
-      width: 75px;
+      width: 72px;
       height: 3px;
-      margin-bottom: 24px;
       background: #2864d7;
+      margin-bottom: 22px;
     }
 
     .intro-text p {
       margin-bottom: 15px;
-      font-size: 0.98rem;
     }
 
-
-    /* =========================================================
-       IMMAGINE INTRODUTTIVA
-    ========================================================= */
-
     .intro-image {
+      min-height: 290px;
       position: relative;
-      min-height: 285px;
-      overflow: hidden;
-
       border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 12px 30px rgba(17, 39, 67, 0.14);
 
       background:
         radial-gradient(
-          circle at 70% 25%,
-          rgba(88, 143, 222, 0.55),
-          transparent 25%
-        ),
-        radial-gradient(
-          circle at 30% 20%,
-          rgba(255, 255, 255, 0.15),
-          transparent 20%
+          circle at 68% 26%,
+          rgba(95, 151, 230, 0.55),
+          transparent 24%
         ),
         linear-gradient(
           to bottom,
-          #132e54 0%,
-          #081b35 55%,
+          #15335d 0%,
+          #0a1d39 55%,
           #06101e 100%
         );
-
-      box-shadow:
-        0 12px 28px rgba(12, 32, 60, 0.15);
     }
 
     .intro-image::before {
       content: "";
       position: absolute;
       inset: 0;
+      opacity: 0.4;
 
       background-image:
         radial-gradient(
           circle,
-          rgba(255, 255, 255, 0.9) 1px,
+          rgba(255,255,255,0.95) 1px,
           transparent 1.4px
         );
 
-      background-size: 43px 43px;
-      opacity: 0.4;
+      background-size: 42px 42px;
     }
 
     .intro-image-caption {
       position: absolute;
-      left: 25px;
-      right: 25px;
-      bottom: 22px;
-
-      color: rgba(255, 255, 255, 0.9);
+      left: 24px;
+      right: 24px;
+      bottom: 20px;
+      color: rgba(255,255,255,0.9);
       font-size: 0.82rem;
     }
 
+    /* =========================
+       PRINCIPI
+    ========================= */
 
-    /* =========================================================
-       TRE PRINCIPI
-    ========================================================= */
-
-    .principi {
-      padding: 12px 0 58px;
+    .principles {
       background: #ffffff;
+      padding: 10px 0 58px;
     }
 
-    .principi-grid {
+    .principles-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       gap: 34px;
     }
 
-    .principio {
+    .principle {
       display: flex;
+      gap: 16px;
       align-items: flex-start;
-      gap: 17px;
     }
 
-    .principio-icona {
-      width: 58px;
-      height: 58px;
+    .principle-icon {
+      width: 56px;
+      height: 56px;
       flex-shrink: 0;
-
       display: grid;
       place-items: center;
 
@@ -202,98 +177,78 @@
       border-radius: 50%;
 
       color: #2465d5;
-      font-size: 1.45rem;
+      font-size: 1.35rem;
     }
 
-    .principio h2 {
-      margin-bottom: 5px;
-      color: #102342;
+    .principle h2 {
       font-size: 1rem;
+      margin-bottom: 4px;
+      color: #102342;
     }
 
-    .principio p {
-      color: #536276;
+    .principle p {
       font-size: 0.86rem;
+      color: #566477;
     }
 
-
-    /* =========================================================
+    /* =========================
        PERCORSO DIDATTICO
-    ========================================================= */
+    ========================= */
 
-    .percorso {
-      padding: 54px 0 68px;
-
+    .programme {
+      padding: 56px 0 70px;
+      border-top: 1px solid #e3e9f0;
       background: #f7f9fc;
-
-      border-top:
-        1px solid #e3e9f0;
     }
 
-    .titolo-sezione {
+    .programme-heading {
       display: flex;
       align-items: center;
-      gap: 15px;
-
+      gap: 14px;
       margin-bottom: 12px;
     }
 
-    .titolo-sezione-icona {
-      color: #2465d5;
-      font-size: 1.6rem;
+    .programme-heading-icon {
+      color: #2864d7;
+      font-size: 1.5rem;
     }
 
-    .titolo-sezione h2 {
-      white-space: nowrap;
-      color: #102342;
+    .programme-heading h2 {
       font-size: 1.45rem;
+      color: #102342;
+      white-space: nowrap;
     }
 
-    .titolo-sezione-linea {
+    .programme-heading-line {
       width: 100%;
       height: 1px;
       background: #9ab8e8;
     }
 
-    .percorso-intro {
-      max-width: 790px;
-
-      margin-bottom: 32px;
-
+    .programme-intro {
+      max-width: 800px;
+      margin-bottom: 30px;
       color: #526174;
       font-size: 0.93rem;
     }
 
-
-    /* =========================================================
-       CARD DEL PERCORSO
-    ========================================================= */
-
     .cards {
       display: grid;
       grid-template-columns: repeat(5, 1fr);
-      gap: 20px;
+      gap: 18px;
     }
 
     .card {
-      position: relative;
-
-      min-height: 260px;
-
+      min-height: 258px;
       display: flex;
       flex-direction: column;
-
-      padding: 24px 20px 20px;
-
-      border:
-        1px solid #dce3ec;
-
-      border-radius: 8px;
+      padding: 22px 19px 20px;
 
       background: #ffffff;
+      border: 1px solid #dce3ec;
+      border-radius: 8px;
 
-      box-shadow:
-        0 5px 15px rgba(12, 35, 65, 0.05);
+      box-shadow: 0 5px 14px rgba(14, 35, 62, 0.05);
 
       transition:
         transform 0.2s ease,
@@ -303,24 +258,19 @@
 
     .card:hover {
       transform: translateY(-4px);
-
-      border-color: #aac6ef;
-
-      box-shadow:
-        0 10px 24px rgba(12, 35, 65, 0.10);
+      border-color: #aec9ef;
+      box-shadow: 0 10px 24px rgba(14, 35, 62, 0.10);
     }
 
-    .numero {
+    .card-number {
       width: 38px;
       height: 38px;
-
       display: grid;
       place-items: center;
 
-      margin-bottom: 18px;
+      margin-bottom: 16px;
 
       border-radius: 5px;
-
       background: #2864d7;
       color: #ffffff;
 
@@ -329,94 +279,80 @@
     }
 
     .card h3 {
-      margin-bottom: 10px;
-
       color: #102342;
-
-      font-size: 1rem;
+      font-size: 0.98rem;
       line-height: 1.35;
+      margin-bottom: 10px;
     }
 
     .card p {
-      margin-bottom: 18px;
-
-      color: #566477;
-
-      font-size: 0.83rem;
+      color: #58677a;
+      font-size: 0.82rem;
       line-height: 1.55;
+      margin-bottom: 16px;
     }
 
     .card-link {
       margin-top: auto;
-
       color: #205ecf;
-
       font-size: 0.82rem;
       font-weight: 700;
     }
 
-
-    /* =========================================================
+    /* =========================
        BLOCCO CONCLUSIVO
-    ========================================================= */
+    ========================= */
 
-    .conclusione {
-      padding: 0 0 64px;
+    .closing {
       background: #f7f9fc;
+      padding: 0 0 64px;
     }
 
-    .conclusione-box {
+    .closing-box {
       display: flex;
       align-items: center;
       justify-content: space-between;
-
-      gap: 35px;
+      gap: 34px;
 
       padding: 28px 34px;
 
-      border:
-        1px solid #d8e6f7;
-
+      border: 1px solid #d8e6f7;
       border-radius: 8px;
 
       background:
         linear-gradient(
           100deg,
           #eaf3ff,
-          #f4f8fd
+          #f5f8fc
         );
     }
 
-    .conclusione-testo {
+    .closing-content {
       display: flex;
       align-items: center;
-      gap: 22px;
+      gap: 20px;
     }
 
-    .conclusione-icona {
+    .closing-icon {
+      color: #2864d7;
+      font-size: 2rem;
       flex-shrink: 0;
-
-      color: #2465d5;
-      font-size: 2.2rem;
     }
 
-    .conclusione h2 {
-      margin-bottom: 4px;
-
+    .closing h2 {
       color: #102342;
       font-size: 1.08rem;
+      margin-bottom: 4px;
     }
 
-    .conclusione p {
-      max-width: 720px;
-
+    .closing p {
       color: #536276;
       font-size: 0.87rem;
+      max-width: 720px;
     }
 
-    .pulsante {
+    .button {
       flex-shrink: 0;
-
       display: inline-block;
 
       padding: 12px 21px;
@@ -426,7 +362,7 @@
       background: #2864d7;
       color: #ffffff;
 
-      font-size: 0.88rem;
+      font-size: 0.87rem;
       font-weight: 700;
 
       transition:
@@ -434,64 +370,55 @@
         transform 0.2s ease;
     }
 
-    .pulsante:hover {
+    .button:hover {
       background: #174fb9;
       transform: translateY(-2px);
     }
 
+    /* =========================
+       BANNER INFERIORE
+    ========================= */
 
-    /* =========================================================
-       BANNER INFERIORE UFFICIALE
-    ========================================================= */
-
-    .banner-inferiore {
+    .bottom-banner {
       width: 100%;
+      background: #041529;
       overflow: hidden;
-      background: #031426;
     }
 
-    .banner-inferiore img {
-      display: block;
+    .bottom-banner img {
       width: 100%;
       height: auto;
+      display: block;
     }
 
-
-    /* =========================================================
+    /* =========================
        RESPONSIVE
-    ========================================================= */
+    ========================= */
 
     @media (max-width: 1100px) {
-
       .cards {
         grid-template-columns: repeat(2, 1fr);
       }
-
     }
 
-
     @media (max-width: 850px) {
-
       .intro-grid {
         grid-template-columns: 1fr;
         gap: 32px;
       }
 
-      .principi-grid {
+      .principles-grid {
         grid-template-columns: 1fr;
-        gap: 25px;
+        gap: 24px;
       }
 
-      .conclusione-box {
-        align-items: flex-start;
+      .closing-box {
         flex-direction: column;
+        align-items: flex-start;
       }
-
     }
 
-
     @media (max-width: 600px) {
-
       .intro {
         padding-top: 38px;
       }
@@ -500,15 +427,15 @@
         min-height: 220px;
       }
 
-      .percorso {
+      .programme {
         padding-top: 42px;
       }
 
-      .titolo-sezione {
+      .programme-heading {
         align-items: flex-start;
       }
 
-      .titolo-sezione-linea {
+      .programme-heading-line {
         display: none;
       }
 
@@ -520,49 +447,28 @@
         min-height: auto;
       }
 
-      .conclusione-testo {
+      .closing-content {
         align-items: flex-start;
       }
-
     }
-
   </style>
-
 </head>
-
 
 <body>
 
-
-  <!-- =======================================================
-       BANNER SUPERIORE AD ASTRA
-       FILE REALE: banner.png
-  ======================================================== -->
-
-  <header class="banner-superiore">
-
+  <!-- BANNER SUPERIORE REALE -->
+  <header class="top-banner">
     <img
       src="banner.png"
       alt="AD ASTRA - Scuola di Astronomia"
     >
-
   </header>
-
-
 
   <main>
 
-
-    <!-- =====================================================
-         INTRODUZIONE
-         NON RIPETIAMO IL TITOLO SCUOLA DI ASTRONOMIA:
-         È GIÀ PRESENTE NEL BANNER
-    ====================================================== -->
-
+    <!-- INTRODUZIONE -->
     <section class="intro">
-
       <div class="container intro-grid">
-
 
         <div class="intro-text">
 
@@ -597,154 +503,92 @@
 
         </div>
 
-
         <div class="intro-image">
-
           <div class="intro-image-caption">
             Osservare il cielo significa prima di tutto
             imparare a comprenderlo.
           </div>
-
         </div>
 
-
       </div>
-
     </section>
 
+    <!-- PRINCIPI -->
+    <section class="principles">
+      <div class="container principles-grid">
 
-
-    <!-- =====================================================
-         TRE PRINCIPI
-    ====================================================== -->
-
-    <section class="principi">
-
-      <div class="container principi-grid">
-
-
-        <article class="principio">
-
-          <div class="principio-icona">
-            ◫
-          </div>
+        <article class="principle">
+          <div class="principle-icon">◫</div>
 
           <div>
-
-            <h2>
-              Lezioni strutturate
-            </h2>
+            <h2>Lezioni strutturate</h2>
 
             <p>
               Argomenti chiari e progressivi
               per costruire solide basi
               di astronomia.
             </p>
-
           </div>
-
         </article>
 
-
-
-        <article class="principio">
-
-          <div class="principio-icona">
-            ⌖
-          </div>
+        <article class="principle">
+          <div class="principle-icon">⌖</div>
 
           <div>
-
-            <h2>
-              Approccio pratico
-            </h2>
+            <h2>Approccio pratico</h2>
 
             <p>
               Esempi e osservazioni
               per collegare la teoria
               alla realtà del cielo.
             </p>
-
           </div>
-
         </article>
 
-
-
-        <article class="principio">
-
-          <div class="principio-icona">
-            ◎
-          </div>
+        <article class="principle">
+          <div class="principle-icon">◎</div>
 
           <div>
-
-            <h2>
-              Per tutti
-            </h2>
+            <h2>Per tutti</h2>
 
             <p>
               Dai principianti a chi desidera
               approfondire e ampliare
               le proprie conoscenze.
             </p>
-
           </div>
-
         </article>
 
-
       </div>
-
     </section>
 
-
-
-    <!-- =====================================================
-         PERCORSO DIDATTICO
-    ====================================================== -->
-
-    <section class="percorso">
-
+    <!-- PERCORSO DIDATTICO -->
+    <section class="programme">
       <div class="container">
 
+        <div class="programme-heading">
 
-        <div class="titolo-sezione">
+          <div class="programme-heading-icon">◫</div>
 
-          <div class="titolo-sezione-icona">
-            ◫
-          </div>
+          <h2>PERCORSO DIDATTICO</h2>
 
-          <h2>
-            PERCORSO DIDATTICO
-          </h2>
-
-          <div class="titolo-sezione-linea"></div>
+          <div class="programme-heading-line"></div>
 
         </div>
 
-
-        <p class="percorso-intro">
+        <p class="programme-intro">
           La Scuola di Astronomia è organizzata
           in dieci grandi aree tematiche.
           Ogni sezione raccoglierà lezioni,
           approfondimenti e materiali didattici dedicati.
         </p>
 
-
-
         <div class="cards">
 
-
           <a class="card" href="#">
+            <div class="card-number">01</div>
 
-            <div class="numero">
-              01
-            </div>
-
-            <h3>
-              Fondamenti e orientamento del cielo
-            </h3>
+            <h3>Fondamenti e orientamento del cielo</h3>
 
             <p>
               Sfera celeste, punti cardinali,
@@ -756,20 +600,12 @@
             <span class="card-link">
               Scopri →
             </span>
-
           </a>
 
-
-
           <a class="card" href="#">
+            <div class="card-number">02</div>
 
-            <div class="numero">
-              02
-            </div>
-
-            <h3>
-              Terra, Sole e Luna
-            </h3>
+            <h3>Terra, Sole e Luna</h3>
 
             <p>
               Moti terrestri, stagioni,
@@ -781,20 +617,12 @@
             <span class="card-link">
               Scopri →
             </span>
-
           </a>
 
-
-
           <a class="card" href="#">
+            <div class="card-number">03</div>
 
-            <div class="numero">
-              03
-            </div>
-
-            <h3>
-              Sistema Solare
-            </h3>
+            <h3>Sistema Solare</h3>
 
             <p>
               Pianeti, pianeti nani,
@@ -806,20 +634,12 @@
             <span class="card-link">
               Scopri →
             </span>
-
           </a>
 
-
-
           <a class="card" href="#">
+            <div class="card-number">04</div>
 
-            <div class="numero">
-              04
-            </div>
-
-            <h3>
-              Stelle e fisica stellare
-            </h3>
+            <h3>Stelle e fisica stellare</h3>
 
             <p>
               Magnitudine, colore,
@@ -831,20 +651,12 @@
             <span class="card-link">
               Scopri →
             </span>
-
           </a>
 
-
-
           <a class="card" href="#">
+            <div class="card-number">05</div>
 
-            <div class="numero">
-              05
-            </div>
-
-            <h3>
-              Ammassi, nebulose e cielo profondo
-            </h3>
+            <h3>Ammassi, nebulose e cielo profondo</h3>
 
             <p>
               Ammassi aperti e globulari,
@@ -856,20 +668,12 @@
             <span class="card-link">
               Scopri →
             </span>
-
           </a>
 
-
-
           <a class="card" href="#">
+            <div class="card-number">06</div>
 
-            <div class="numero">
-              06
-            </div>
-
-            <h3>
-              Galassie e Universo
-            </h3>
+            <h3>Galassie e Universo</h3>
 
             <p>
               Via Lattea, classificazione
@@ -881,20 +685,12 @@
             <span class="card-link">
               Scopri →
             </span>
-
           </a>
 
-
-
           <a class="card" href="#">
+            <div class="card-number">07</div>
 
-            <div class="numero">
-              07
-            </div>
-
-            <h3>
-              Osservazione astronomica
-            </h3>
+            <h3>Osservazione astronomica</h3>
 
             <p>
               Occhio nudo, binocolo,
@@ -906,20 +702,12 @@
             <span class="card-link">
               Scopri →
             </span>
-
           </a>
 
-
-
           <a class="card" href="#">
+            <div class="card-number">08</div>
 
-            <div class="numero">
-              08
-            </div>
-
-            <h3>
-              Fenomeni del cielo e dell'atmosfera
-            </h3>
+            <h3>Fenomeni del cielo e dell'atmosfera</h3>
 
             <p>
               Meteore, sciami meteorici,
@@ -931,20 +719,12 @@
             <span class="card-link">
               Scopri →
             </span>
-
           </a>
 
-
-
           <a class="card" href="#">
+            <div class="card-number">09</div>
 
-            <div class="numero">
-              09
-            </div>
-
-            <h3>
-              Astronomia pratica e strumenti digitali
-            </h3>
+            <h3>Astronomia pratica e strumenti digitali</h3>
 
             <p>
               Carte celesti, Stellarium,
@@ -956,20 +736,12 @@
             <span class="card-link">
               Scopri →
             </span>
-
           </a>
 
-
-
           <a class="card" href="#">
+            <div class="card-number">10</div>
 
-            <div class="numero">
-              10
-            </div>
-
-            <h3>
-              Approfondimenti e temi speciali
-            </h3>
+            <h3>Approfondimenti e temi speciali</h3>
 
             <p>
               Esopianeti, buchi neri,
@@ -981,37 +753,26 @@
             <span class="card-link">
               Scopri →
             </span>
-
           </a>
-
 
         </div>
 
       </div>
-
     </section>
 
-
-
-    <!-- =====================================================
-         BLOCCO CONCLUSIVO
-    ====================================================== -->
-
-    <section class="conclusione">
-
+    <!-- CONCLUSIONE -->
+    <section class="closing">
       <div class="container">
 
-        <div class="conclusione-box">
+        <div class="closing-box">
 
+          <div class="closing-content">
 
-          <div class="conclusione-testo">
-
-            <div class="conclusione-icona">
+            <div class="closing-icon">
               ◇
             </div>
 
             <div>
-
               <h2>
                 Impara, osserva, comprendi
               </h2>
@@ -1024,46 +785,28 @@
                 per continuare a studiare
                 in autonomia.
               </p>
-
             </div>
 
           </div>
 
-
-          <a
-            class="pulsante"
-            href="#"
-          >
+          <a class="button" href="#">
             Vai alle lezioni
           </a>
-
 
         </div>
 
       </div>
-
     </section>
-
 
   </main>
 
-
-
-  <!-- =======================================================
-       BANNER INFERIORE AD ASTRA
-       FILE REALE: banner 2.png
-  ======================================================== -->
-
-  <footer class="banner-inferiore">
-
+  <!-- BANNER INFERIORE REALE -->
+  <footer class="bottom-banner">
     <img
       src="banner 2.png"
       alt="AD ASTRA - Astronomia, osservazione del cielo, astrofotografia e divulgazione scientifica"
     >
-
   </footer>
 
-
 </body>
-
 </html>
