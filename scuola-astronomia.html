@@ -53,11 +53,12 @@
 
 
     /* =========================================================
-       BANNER SUPERIORE REALE
+       BANNER SUPERIORE UFFICIALE
     ========================================================= */
 
     .banner-superiore {
       width: 100%;
+      overflow: hidden;
       background: #06152c;
     }
 
@@ -84,11 +85,15 @@
       gap: 58px;
     }
 
-    .intro-text h1 {
-      margin-bottom: 14px;
-      font-size: clamp(1.8rem, 3vw, 2.55rem);
-      line-height: 1.15;
-      color: #102342;
+    .intro-text {
+      color: #37475b;
+    }
+
+    .intro-lead {
+      margin-bottom: 15px;
+      color: #174db9;
+      font-size: 1.12rem;
+      font-weight: 600;
     }
 
     .intro-line {
@@ -98,30 +103,21 @@
       background: #2864d7;
     }
 
-    .intro-lead {
-      margin-bottom: 17px;
-      font-size: 1.08rem;
-      color: #174db9;
-      font-weight: 500;
-    }
-
     .intro-text p {
-      margin-bottom: 14px;
-      color: #37475b;
+      margin-bottom: 15px;
       font-size: 0.98rem;
     }
 
 
     /* =========================================================
        IMMAGINE INTRODUTTIVA
-       Per ora è un riquadro grafico leggero.
-       Potremo poi sostituirlo con una fotografia reale.
     ========================================================= */
 
     .intro-image {
-      min-height: 285px;
       position: relative;
+      min-height: 285px;
       overflow: hidden;
+
       border-radius: 10px;
 
       background:
@@ -142,7 +138,8 @@
           #06101e 100%
         );
 
-      box-shadow: 0 12px 28px rgba(12, 32, 60, 0.15);
+      box-shadow:
+        0 12px 28px rgba(12, 32, 60, 0.15);
     }
 
     .intro-image::before {
@@ -153,7 +150,7 @@
       background-image:
         radial-gradient(
           circle,
-          rgba(255,255,255,0.9) 1px,
+          rgba(255, 255, 255, 0.9) 1px,
           transparent 1.4px
         );
 
@@ -167,7 +164,7 @@
       right: 25px;
       bottom: 22px;
 
-      color: rgba(255,255,255,0.9);
+      color: rgba(255, 255, 255, 0.9);
       font-size: 0.82rem;
     }
 
@@ -210,13 +207,13 @@
 
     .principio h2 {
       margin-bottom: 5px;
-      font-size: 1rem;
       color: #102342;
+      font-size: 1rem;
     }
 
     .principio p {
-      font-size: 0.86rem;
       color: #536276;
+      font-size: 0.86rem;
     }
 
 
@@ -226,14 +223,18 @@
 
     .percorso {
       padding: 54px 0 68px;
+
       background: #f7f9fc;
-      border-top: 1px solid #e3e9f0;
+
+      border-top:
+        1px solid #e3e9f0;
     }
 
     .titolo-sezione {
       display: flex;
       align-items: center;
       gap: 15px;
+
       margin-bottom: 12px;
     }
 
@@ -244,8 +245,8 @@
 
     .titolo-sezione h2 {
       white-space: nowrap;
-      font-size: 1.45rem;
       color: #102342;
+      font-size: 1.45rem;
     }
 
     .titolo-sezione-linea {
@@ -256,14 +257,16 @@
 
     .percorso-intro {
       max-width: 790px;
+
       margin-bottom: 32px;
+
       color: #526174;
       font-size: 0.93rem;
     }
 
 
     /* =========================================================
-       CARD DELLE 10 SEZIONI
+       CARD DEL PERCORSO
     ========================================================= */
 
     .cards {
@@ -274,6 +277,7 @@
 
     .card {
       position: relative;
+
       min-height: 260px;
 
       display: flex;
@@ -281,12 +285,15 @@
 
       padding: 24px 20px 20px;
 
-      border: 1px solid #dce3ec;
+      border:
+        1px solid #dce3ec;
+
       border-radius: 8px;
 
       background: #ffffff;
 
-      box-shadow: 0 5px 15px rgba(12, 35, 65, 0.05);
+      box-shadow:
+        0 5px 15px rgba(12, 35, 65, 0.05);
 
       transition:
         transform 0.2s ease,
@@ -296,8 +303,11 @@
 
     .card:hover {
       transform: translateY(-4px);
+
       border-color: #aac6ef;
-      box-shadow: 0 10px 24px rgba(12, 35, 65, 0.10);
+
+      box-shadow:
+        0 10px 24px rgba(12, 35, 65, 0.10);
     }
 
     .numero {
@@ -320,21 +330,27 @@
 
     .card h3 {
       margin-bottom: 10px;
+
       color: #102342;
+
       font-size: 1rem;
       line-height: 1.35;
     }
 
     .card p {
       margin-bottom: 18px;
+
       color: #566477;
+
       font-size: 0.83rem;
       line-height: 1.55;
     }
 
     .card-link {
       margin-top: auto;
+
       color: #205ecf;
+
       font-size: 0.82rem;
       font-weight: 700;
     }
@@ -353,9 +369,13 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
+
       gap: 35px;
 
       padding: 28px 34px;
+
+      border:
+        1px solid #d8e6f7;
 
       border-radius: 8px;
 
@@ -365,8 +385,6 @@
           #eaf3ff,
           #f4f8fd
         );
-
-      border: 1px solid #d8e6f7;
     }
 
     .conclusione-testo {
@@ -377,18 +395,21 @@
 
     .conclusione-icona {
       flex-shrink: 0;
-      font-size: 2.2rem;
+
       color: #2465d5;
+      font-size: 2.2rem;
     }
 
     .conclusione h2 {
       margin-bottom: 4px;
-      font-size: 1.08rem;
+
       color: #102342;
+      font-size: 1.08rem;
     }
 
     .conclusione p {
       max-width: 720px;
+
       color: #536276;
       font-size: 0.87rem;
     }
@@ -420,11 +441,12 @@
 
 
     /* =========================================================
-       BANNER INFERIORE / FOOTER REALE
+       BANNER INFERIORE UFFICIALE
     ========================================================= */
 
     .banner-inferiore {
       width: 100%;
+      overflow: hidden;
       background: #031426;
     }
 
@@ -436,7 +458,7 @@
 
 
     /* =========================================================
-       RESPONSIVE TABLET
+       RESPONSIVE
     ========================================================= */
 
     @media (max-width: 1100px) {
@@ -468,18 +490,10 @@
     }
 
 
-    /* =========================================================
-       RESPONSIVE SMARTPHONE
-    ========================================================= */
-
     @media (max-width: 600px) {
 
       .intro {
         padding-top: 38px;
-      }
-
-      .intro-text h1 {
-        font-size: 1.75rem;
       }
 
       .intro-image {
@@ -513,6 +527,7 @@
     }
 
   </style>
+
 </head>
 
 
@@ -520,13 +535,14 @@
 
 
   <!-- =======================================================
-       BANNER SUPERIORE UFFICIALE AD ASTRA
+       BANNER SUPERIORE AD ASTRA
+       FILE REALE: banner.png
   ======================================================== -->
 
   <header class="banner-superiore">
 
     <img
-      src="banner-superiore.png"
+      src="banner.png"
       alt="AD ASTRA - Scuola di Astronomia"
     >
 
@@ -539,8 +555,8 @@
 
     <!-- =====================================================
          INTRODUZIONE
-         Il titolo NON viene ripetuto qui.
-         È già presente nel banner superiore.
+         NON RIPETIAMO IL TITOLO SCUOLA DI ASTRONOMIA:
+         È GIÀ PRESENTE NEL BANNER
     ====================================================== -->
 
     <section class="intro">
@@ -615,7 +631,9 @@
 
           <div>
 
-            <h2>Lezioni strutturate</h2>
+            <h2>
+              Lezioni strutturate
+            </h2>
 
             <p>
               Argomenti chiari e progressivi
@@ -628,6 +646,7 @@
         </article>
 
 
+
         <article class="principio">
 
           <div class="principio-icona">
@@ -636,7 +655,9 @@
 
           <div>
 
-            <h2>Approccio pratico</h2>
+            <h2>
+              Approccio pratico
+            </h2>
 
             <p>
               Esempi e osservazioni
@@ -649,6 +670,7 @@
         </article>
 
 
+
         <article class="principio">
 
           <div class="principio-icona">
@@ -657,7 +679,9 @@
 
           <div>
 
-            <h2>Per tutti</h2>
+            <h2>
+              Per tutti
+            </h2>
 
             <p>
               Dai principianti a chi desidera
@@ -704,8 +728,7 @@
           La Scuola di Astronomia è organizzata
           in dieci grandi aree tematiche.
           Ogni sezione raccoglierà lezioni,
-          approfondimenti e materiali didattici
-          dedicati.
+          approfondimenti e materiali didattici dedicati.
         </p>
 
 
@@ -713,11 +736,11 @@
         <div class="cards">
 
 
-          <!-- 01 -->
-
           <a class="card" href="#">
 
-            <div class="numero">01</div>
+            <div class="numero">
+              01
+            </div>
 
             <h3>
               Fondamenti e orientamento del cielo
@@ -738,11 +761,11 @@
 
 
 
-          <!-- 02 -->
-
           <a class="card" href="#">
 
-            <div class="numero">02</div>
+            <div class="numero">
+              02
+            </div>
 
             <h3>
               Terra, Sole e Luna
@@ -763,11 +786,11 @@
 
 
 
-          <!-- 03 -->
-
           <a class="card" href="#">
 
-            <div class="numero">03</div>
+            <div class="numero">
+              03
+            </div>
 
             <h3>
               Sistema Solare
@@ -788,11 +811,11 @@
 
 
 
-          <!-- 04 -->
-
           <a class="card" href="#">
 
-            <div class="numero">04</div>
+            <div class="numero">
+              04
+            </div>
 
             <h3>
               Stelle e fisica stellare
@@ -801,8 +824,8 @@
             <p>
               Magnitudine, colore,
               temperatura, spettro,
-              classificazione, formazione
-              ed evoluzione stellare.
+              classificazione,
+              formazione ed evoluzione stellare.
             </p>
 
             <span class="card-link">
@@ -813,11 +836,11 @@
 
 
 
-          <!-- 05 -->
-
           <a class="card" href="#">
 
-            <div class="numero">05</div>
+            <div class="numero">
+              05
+            </div>
 
             <h3>
               Ammassi, nebulose e cielo profondo
@@ -838,11 +861,11 @@
 
 
 
-          <!-- 06 -->
-
           <a class="card" href="#">
 
-            <div class="numero">06</div>
+            <div class="numero">
+              06
+            </div>
 
             <h3>
               Galassie e Universo
@@ -863,11 +886,11 @@
 
 
 
-          <!-- 07 -->
-
           <a class="card" href="#">
 
-            <div class="numero">07</div>
+            <div class="numero">
+              07
+            </div>
 
             <h3>
               Osservazione astronomica
@@ -888,11 +911,11 @@
 
 
 
-          <!-- 08 -->
-
           <a class="card" href="#">
 
-            <div class="numero">08</div>
+            <div class="numero">
+              08
+            </div>
 
             <h3>
               Fenomeni del cielo e dell'atmosfera
@@ -913,11 +936,11 @@
 
 
 
-          <!-- 09 -->
-
           <a class="card" href="#">
 
-            <div class="numero">09</div>
+            <div class="numero">
+              09
+            </div>
 
             <h3>
               Astronomia pratica e strumenti digitali
@@ -938,11 +961,11 @@
 
 
 
-          <!-- 10 -->
-
           <a class="card" href="#">
 
-            <div class="numero">10</div>
+            <div class="numero">
+              10
+            </div>
 
             <h3>
               Approfondimenti e temi speciali
@@ -1007,7 +1030,10 @@
           </div>
 
 
-          <a class="pulsante" href="#">
+          <a
+            class="pulsante"
+            href="#"
+          >
             Vai alle lezioni
           </a>
 
@@ -1024,13 +1050,14 @@
 
 
   <!-- =======================================================
-       BANNER INFERIORE UFFICIALE AD ASTRA
+       BANNER INFERIORE AD ASTRA
+       FILE REALE: banner 2.png
   ======================================================== -->
 
   <footer class="banner-inferiore">
 
     <img
-      src="banner-inferiore.png"
+      src="banner 2.png"
       alt="AD ASTRA - Astronomia, osservazione del cielo, astrofotografia e divulgazione scientifica"
     >
 
