@@ -17,7 +17,6 @@
     content="AD ASTRA: astronomia, osservazione del cielo, astrofotografia, guide, effemeridi, software, biblioteca e divulgazione scientifica."
   >
 
-  <!-- FONT ORBITRON -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
 
   <link
@@ -84,61 +83,82 @@
     ========================================================= */
 
     header {
-      position: sticky;
-      top: 0;
+      position: relative;
       z-index: 1000;
 
-      background: rgba(3, 10, 18, 0.95);
+      width: 100%;
+
+      background: #030a12;
 
       border-bottom:
         1px solid rgba(255, 255, 255, 0.08);
-
-      backdrop-filter: blur(12px);
     }
 
     .navbar {
-      min-height: 96px;
+      width: min(1640px, 96%);
+      min-height: 112px;
+
+      margin: 0 auto;
 
       display: flex;
       align-items: center;
-      justify-content: space-between;
-
-      gap: 22px;
+      justify-content: flex-end;
     }
 
-    .brand {
-      display: flex;
-      align-items: center;
 
-      flex-shrink: 0;
+    /* =========================================================
+       LOGO
+       Sovrapposto alla hero nella zona della galassia
+    ========================================================= */
+
+    .brand {
+      position: absolute;
+
+      left: clamp(65px, 6vw, 120px);
+      top: 105px;
+
+      z-index: 20;
+
+      display: block;
     }
 
     .brand-logo {
       display: block;
 
-      width: 86px;
-      height: 86px;
+      width: 150px;
+      height: 150px;
 
       object-fit: contain;
+
+      filter:
+        drop-shadow(0 5px 12px rgba(0, 0, 0, 0.55));
     }
 
+
+    /* =========================================================
+       NAVIGAZIONE
+    ========================================================= */
+
     nav {
-      flex: 1;
-      min-width: 0;
+      width: 100%;
     }
 
     nav ul {
+      width: 100%;
+
       display: flex;
       align-items: center;
-      justify-content: flex-end;
+      justify-content: center;
 
       flex-wrap: nowrap;
 
-      gap: 13px;
+      gap: clamp(13px, 1.25vw, 24px);
 
       list-style: none;
 
-      font-size: 0.76rem;
+      font-size:
+        clamp(0.74rem, 0.84vw, 0.88rem);
+
       white-space: nowrap;
     }
 
@@ -164,7 +184,7 @@
     .hero {
       position: relative;
 
-      min-height: 620px;
+      min-height: 760px;
 
       display: flex;
       align-items: center;
@@ -210,7 +230,7 @@
 
       max-width: 760px;
 
-      padding: 100px 0 145px;
+      padding: 150px 0 145px;
     }
 
     .hero h1 {
@@ -693,80 +713,68 @@
 
 
     /* =========================================================
-       FOOTER
+       FOOTER / BANNER 2
     ========================================================= */
 
     footer {
-      padding: 38px 0 24px;
-
-      border-top:
-        1px solid rgba(255, 255, 255, 0.08);
+      width: 100%;
 
       background: #030a12;
+
+      overflow: hidden;
     }
 
-    .footer-grid {
+    .footer-banner {
+      position: relative;
+
+      width: 100%;
+      min-height: 300px;
+
+      background:
+        url("banner 2.png")
+        center center / cover no-repeat;
+    }
+
+    .footer-menu {
+      position: absolute;
+
+      top: 50%;
+      right: 5%;
+
+      width: 58%;
+
+      transform: translateY(-50%);
+
       display: grid;
 
       grid-template-columns:
-        1fr 2fr 0.6fr;
+        repeat(3, 1fr);
 
-      gap: 30px;
-
-      align-items: start;
+      gap: 12px 28px;
     }
 
-    .footer-brand {
-      margin-bottom: 8px;
+    .footer-menu a {
+      color: #d8e1eb;
 
-      font-family: "Orbitron", sans-serif;
+      font-size: 0.83rem;
 
-      font-size: 1.15rem;
-      font-weight: 600;
-
-      letter-spacing: 0.06em;
+      transition: color 0.2s ease;
     }
 
-    .footer-description {
-      color: #aab8c6;
-
-      font-size: 0.84rem;
-    }
-
-    .footer-links {
-      display: flex;
-
-      justify-content: center;
-      flex-wrap: wrap;
-
-      gap: 12px 18px;
-
-      color: #c5ced7;
-
-      font-size: 0.8rem;
-    }
-
-    .footer-links a:hover {
+    .footer-menu a:hover {
       color: #66b6ff;
     }
 
-    .social-area {
-      text-align: right;
-    }
+    .footer-facebook {
+      position: absolute;
 
-    .social-area p {
-      margin-bottom: 9px;
+      right: 5%;
+      bottom: 28px;
 
-      color: #9baaba;
+      width: 40px;
+      height: 40px;
 
-      font-size: 0.78rem;
-    }
-
-    .facebook-button {
-      width: 42px;
-      height: 42px;
-
-      display: inline-grid;
+      display: grid;
       place-items: center;
 
       border-radius: 50%;
@@ -776,23 +784,8 @@
 
       font-family: Arial, sans-serif;
 
-      font-size: 1.45rem;
+      font-size: 1.35rem;
       font-weight: 700;
-    }
-
-    .copyright {
-      margin-top: 30px;
-
-      padding-top: 20px;
-
-      border-top:
-        1px solid rgba(255, 255, 255, 0.07);
-
-      color: #8492a0;
-
-      text-align: center;
-
-      font-size: 0.76rem;
     }
 
 
@@ -800,17 +793,52 @@
        TABLET
     ========================================================= */
 
+    @media (max-width: 1200px) {
+
+      nav ul {
+        gap: 11px;
+
+        font-size: 0.72rem;
+      }
+
+      .brand-logo {
+        width: 130px;
+        height: 130px;
+      }
+
+    }
+
+
     @media (max-width: 1000px) {
 
       .navbar {
-        flex-direction: column;
-        align-items: flex-start;
+        min-height: auto;
 
-        padding: 15px 0;
+        padding: 20px 0;
+
+        overflow-x: auto;
+      }
+
+      nav {
+        overflow-x: auto;
       }
 
       nav ul {
+        width: max-content;
+
         justify-content: flex-start;
+
+        padding: 0 10px;
+      }
+
+      .brand {
+        left: 25px;
+        top: 95px;
+      }
+
+      .brand-logo {
+        width: 110px;
+        height: 110px;
       }
 
       .main-grid {
@@ -829,16 +857,19 @@
         grid-template-columns: 1fr;
       }
 
-      .footer-grid {
-        grid-template-columns: 1fr;
+      .footer-banner {
+        min-height: 360px;
+
+        background-position: left center;
       }
 
-      .footer-links {
-        justify-content: flex-start;
-      }
+      .footer-menu {
+        right: 4%;
 
-      .social-area {
-        text-align: left;
+        width: 58%;
+
+        grid-template-columns:
+          repeat(2, 1fr);
       }
 
     }
@@ -850,6 +881,16 @@
 
     @media (max-width: 650px) {
 
+      .brand {
+        left: 18px;
+        top: 78px;
+      }
+
+      .brand-logo {
+        width: 90px;
+        height: 90px;
+      }
+
       .hero {
         min-height: 540px;
 
@@ -858,7 +899,7 @@
       }
 
       .hero-content {
-        padding: 75px 0 120px;
+        padding: 125px 0 120px;
       }
 
       .hero h1 {
@@ -870,12 +911,6 @@
 
       .hero h2 {
         font-size: 1.45rem;
-      }
-
-      nav ul {
-        gap: 10px;
-
-        font-size: 0.75rem;
       }
 
       section {
@@ -904,6 +939,36 @@
         max-height: 450px;
       }
 
+      .footer-banner {
+        min-height: 500px;
+
+        background-size: auto 100%;
+        background-position: left center;
+      }
+
+      .footer-menu {
+        top: auto;
+        right: 7%;
+        bottom: 85px;
+
+        width: 48%;
+
+        transform: none;
+
+        grid-template-columns: 1fr;
+
+        gap: 5px;
+      }
+
+      .footer-menu a {
+        font-size: 0.72rem;
+      }
+
+      .footer-facebook {
+        right: 7%;
+        bottom: 25px;
+      }
+
     }
 
   </style>
@@ -920,7 +985,7 @@
 
   <header>
 
-    <div class="container navbar">
+    <div class="navbar">
 
       <a
         class="brand"
@@ -1515,8 +1580,6 @@
         <div class="editorial-grid">
 
 
-          <!-- POSTER -->
-
           <article class="editorial-card">
 
             <div class="editorial-text">
@@ -1553,8 +1616,6 @@
           </article>
 
 
-
-          <!-- IL GATTO DI SCHRÖDINGER -->
 
           <article class="editorial-card">
 
@@ -1602,112 +1663,74 @@
 
 
   <!-- =====================================================
-       FOOTER
+       FOOTER: BANNER 2
   ====================================================== -->
 
   <footer>
 
-    <div class="container">
+    <div class="footer-banner">
 
 
-      <div class="footer-grid">
+      <div class="footer-menu">
 
+        <a href="index.html">
+          Home
+        </a>
 
-        <div>
+        <a href="scuola-astronomia.html">
+          Scuola di Astronomia
+        </a>
 
-          <div class="footer-brand">
-            ✦ AD ASTRA
-          </div>
+        <a href="guide.html">
+          Guide
+        </a>
 
-          <p class="footer-description">
-            Astronomia, osservazione del cielo,
-            astrofotografia e divulgazione scientifica.
-          </p>
+        <a href="strumentazione.html">
+          Strumentazione
+        </a>
 
-        </div>
+        <a href="#">
+          Astrofotografia
+        </a>
 
+        <a href="#">
+          Poster
+        </a>
 
+        <a href="#">
+          Il Cielo del Mese
+        </a>
 
-        <div class="footer-links">
+        <a href="#">
+          Effemeridi
+        </a>
 
-          <a href="index.html">
-            Home
-          </a>
+        <a href="#">
+          Software
+        </a>
 
-          <a href="scuola-astronomia.html">
-            Scuola di Astronomia
-          </a>
+        <a href="#">
+          Biblioteca
+        </a>
 
-          <a href="guide.html">
-            Guide
-          </a>
+        <a href="#">
+          Notizie
+        </a>
 
-          <a href="strumentazione.html">
-            Strumentazione
-          </a>
-
-          <a href="#">
-            Astrofotografia
-          </a>
-
-          <a href="#">
-            Poster
-          </a>
-
-          <a href="#">
-            Il Cielo del Mese
-          </a>
-
-          <a href="#">
-            Effemeridi
-          </a>
-
-          <a href="#">
-            Software
-          </a>
-
-          <a href="#">
-            Biblioteca
-          </a>
-
-          <a href="#">
-            Notizie
-          </a>
-
-          <a href="#">
-            Il Gatto di Schrödinger
-          </a>
-
-        </div>
-
-
-
-        <div class="social-area">
-
-          <p>
-            Seguici su
-          </p>
-
-          <a
-            class="facebook-button"
-            href="#"
-            aria-label="Facebook AD ASTRA"
-          >
-            f
-          </a>
-
-        </div>
-
+        <a href="#">
+          Il Gatto di Schrödinger
+        </a>
 
       </div>
 
 
-
-      <div class="copyright">
-
-        © 2026 AD ASTRA — Tutti i diritti riservati
-
-      </div>
+      <a
+        class="footer-facebook"
+        href="#"
+        aria-label="Facebook AD ASTRA"
+      >
+        f
+      </a>
 
 
     </div>
