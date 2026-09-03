@@ -160,9 +160,6 @@
 
       min-height: 760px;
 
-      display: flex;
-      align-items: center;
-
       overflow: hidden;
 
       background:
@@ -200,84 +197,116 @@
 
 
     /* =========================================================
-       LOGO SULLA HERO
+       CONTENUTO HERO
     ========================================================= */
 
+    .hero-layout {
+      position: relative;
+      z-index: 2;
+
+      width: min(1180px, 92%);
+
+      margin: 0 auto;
+
+      padding-top: 34px;
+    }
+
+
+    /* =========================================================
+       LOGO + AD ASTRA
+       BLOCCO SUPERIORE
+    ========================================================= */
+
+    .hero-brand {
+      display: flex;
+      align-items: center;
+
+      gap: 28px;
+
+      width: min(1080px, 82%);
+
+      min-height: 235px;
+    }
+
     .hero-logo {
-      position: absolute;
+      width: 205px;
+      height: 205px;
 
-      top: 18px;
-      left: clamp(55px, 5.5vw, 115px);
-
-      z-index: 10;
-
-      width: 200px;
-      height: 200px;
+      flex-shrink: 0;
 
       object-fit: contain;
-
-      /*
-         Il file originale ha fondo nero.
-         Screen fa scomparire il nero sul cielo,
-         preservando il simbolo argentato e la stella.
-      */
 
       mix-blend-mode: screen;
 
       filter:
-        drop-shadow(0 5px 14px rgba(0, 0, 0, 0.45));
+        drop-shadow(
+          0 5px 14px
+          rgba(0, 0, 0, 0.45)
+        );
     }
 
-
-    .hero-content {
-      position: relative;
-      z-index: 2;
-
-      max-width: 760px;
-
-      padding: 150px 0 145px;
-    }
-
-    .hero h1 {
+    .hero-brand-name {
       font-family: "Orbitron", sans-serif;
 
       font-size:
-        clamp(3.8rem, 8vw, 7rem);
+        clamp(4rem, 7.2vw, 7.2rem);
 
       font-weight: 600;
 
       line-height: 1;
 
-      letter-spacing: 0.07em;
+      letter-spacing: 0.065em;
 
-      margin-bottom: 22px;
+      white-space: nowrap;
 
       text-shadow:
-        0 4px 18px rgba(0, 0, 0, 0.35);
+        0 4px 18px
+        rgba(0, 0, 0, 0.35);
     }
 
-    .hero h2 {
-      margin-bottom: 18px;
+
+    /* =========================================================
+       SOTTOTITOLO + DESCRIZIONE
+       SALE AL POSTO DEL VECCHIO AD ASTRA
+    ========================================================= */
+
+    .hero-copy {
+      max-width: 780px;
+
+      margin-top: 12px;
+      margin-left: 30px;
+    }
+
+    .hero-copy h1 {
+      margin-bottom: 20px;
 
       color: #55aaff;
 
       font-size:
-        clamp(1.55rem, 3vw, 2.3rem);
+        clamp(2.1rem, 3.5vw, 3.4rem);
 
       font-weight: 500;
+
+      line-height: 1.15;
+
+      text-shadow:
+        0 3px 12px
+        rgba(0, 0, 0, 0.40);
     }
 
-    .hero p {
-      max-width: 650px;
-
-      margin-bottom: 30px;
+    .hero-copy p {
+      max-width: 730px;
 
       color: #e0e6ed;
 
-      font-size: 1.08rem;
+      font-size:
+        clamp(1rem, 1.25vw, 1.18rem);
+
+      line-height: 1.75;
 
       text-shadow:
-        0 2px 8px rgba(0, 0, 0, 0.45);
+        0 2px 8px
+        rgba(0, 0, 0, 0.45);
     }
 
 
@@ -323,6 +352,10 @@
 
     section {
       padding: 70px 0;
+    }
+
+    .hero {
+      padding: 0;
     }
 
     .section-title {
@@ -692,7 +725,6 @@
       height: 100%;
 
       object-fit: cover;
-
       object-position: center top;
     }
 
@@ -719,7 +751,7 @@
 
     /* =========================================================
        FOOTER
-       BANNER 2 INTEGRALE - NESSUN RITAGLIO
+       BANNER 2
     ========================================================= */
 
     footer {
@@ -730,34 +762,39 @@
       overflow: hidden;
     }
 
+
+    /*
+       Il banner originale resta intatto.
+       Il contenitore ne mostra solo la fascia utile.
+       In questo modo eliminiamo il grande vuoto inferiore
+       senza alterare il file banner 2.png.
+    */
+
     .footer-banner {
       position: relative;
 
       width: 100%;
 
-      line-height: 0;
-    }
+      aspect-ratio: 2048 / 405;
 
-    .footer-banner-image {
-      width: 100%;
-      height: auto;
+      overflow: hidden;
 
-      display: block;
-
-      object-fit: contain;
+      background:
+        url("banner 2.png")
+        left top / 100% auto
+        no-repeat;
     }
 
 
     /* =========================================================
-       MENU SOPRA IL BANNER 2
-       SOLO NELLA PARTE DESTRA LIBERA
+       MENU FOOTER
     ========================================================= */
 
     .footer-menu {
       position: absolute;
 
       top: 31%;
-      right: 4%;
+      right: 8%;
 
       width: 48%;
 
@@ -768,8 +805,6 @@
 
       column-gap: 34px;
       row-gap: 21px;
-
-      line-height: 1.35;
     }
 
     .footer-menu a {
@@ -777,6 +812,8 @@
 
       font-size:
         clamp(0.72rem, 0.85vw, 0.92rem);
+
+      line-height: 1.35;
 
       transition: color 0.2s ease;
     }
@@ -787,17 +824,19 @@
 
 
     /* =========================================================
-       FACEBOOK FOOTER
+       FACEBOOK - PIÙ IN ALTO
     ========================================================= */
 
     .footer-facebook {
       position: absolute;
 
-      right: 4%;
-      bottom: 12%;
+      right: 4.5%;
+      top: 54%;
 
-      width: 42px;
-      height: 42px;
+      transform: translateY(-50%);
+
+      width: 48px;
+      height: 48px;
 
       display: grid;
       place-items: center;
@@ -809,7 +848,7 @@
 
       font-family: Arial, sans-serif;
 
-      font-size: 1.4rem;
+      font-size: 1.55rem;
       font-weight: 700;
 
       line-height: 1;
@@ -824,21 +863,27 @@
 
       nav ul {
         gap: 11px;
-
         font-size: 0.72rem;
       }
 
-      .hero-logo {
-        width: 175px;
-        height: 175px;
+      .hero-brand {
+        width: 90%;
+      }
 
-        left: 40px;
+      .hero-logo {
+        width: 180px;
+        height: 180px;
+      }
+
+      .hero-brand-name {
+        font-size:
+          clamp(3.6rem, 7vw, 6rem);
       }
 
       .footer-menu {
-        width: 50%;
+        right: 7%;
 
-        right: 3%;
+        width: 50%;
 
         column-gap: 20px;
         row-gap: 14px;
@@ -869,12 +914,32 @@
         padding: 0 20px;
       }
 
-      .hero-logo {
-        width: 150px;
-        height: 150px;
+      .hero {
+        min-height: 680px;
+      }
 
-        left: 25px;
-        top: 20px;
+      .hero-layout {
+        padding-top: 25px;
+      }
+
+      .hero-brand {
+        min-height: 190px;
+
+        gap: 20px;
+      }
+
+      .hero-logo {
+        width: 155px;
+        height: 155px;
+      }
+
+      .hero-brand-name {
+        font-size:
+          clamp(3.2rem, 8vw, 5rem);
+      }
+
+      .hero-copy {
+        margin-left: 10px;
       }
 
       .main-grid {
@@ -893,15 +958,23 @@
         grid-template-columns: 1fr;
       }
 
+      .footer-banner {
+        aspect-ratio: 2048 / 450;
+      }
+
       .footer-menu {
-        top: 27%;
+        top: 25%;
 
         width: 51%;
 
         grid-template-columns:
           repeat(2, 1fr);
 
-        row-gap: 9px;
+        row-gap: 8px;
+      }
+
+      .footer-facebook {
+        top: 70%;
       }
 
     }
@@ -918,37 +991,60 @@
       }
 
       .hero {
-        min-height: 540px;
+        min-height: 560px;
 
         background-position:
           63% center;
       }
 
+      .hero-layout {
+        width: 94%;
+
+        padding-top: 20px;
+      }
+
+      .hero-brand {
+        width: 100%;
+
+        min-height: 135px;
+
+        gap: 12px;
+      }
+
       .hero-logo {
-        width: 115px;
-        height: 115px;
-
-        left: 16px;
-        top: 16px;
+        width: 110px;
+        height: 110px;
       }
 
-      .hero-content {
-        padding: 130px 0 120px;
-      }
-
-      .hero h1 {
+      .hero-brand-name {
         font-size:
-          clamp(3rem, 15vw, 4rem);
+          clamp(2.3rem, 11vw, 3.5rem);
 
-        letter-spacing: 0.04em;
+        letter-spacing: 0.035em;
       }
 
-      .hero h2 {
-        font-size: 1.45rem;
+      .hero-copy {
+        margin-top: 12px;
+        margin-left: 5px;
+
+        max-width: 90%;
+      }
+
+      .hero-copy h1 {
+        font-size:
+          clamp(1.75rem, 8vw, 2.4rem);
+      }
+
+      .hero-copy p {
+        font-size: 0.95rem;
       }
 
       section {
         padding: 50px 0;
+      }
+
+      .hero {
+        padding: 0;
       }
 
       .monthly-content {
@@ -974,15 +1070,19 @@
       }
 
 
-      /* Banner comunque intero */
+      /* Footer compatto */
 
-      .footer-banner-image {
-        width: 100%;
-        height: auto;
+      .footer-banner {
+        min-height: 285px;
+
+        aspect-ratio: auto;
+
+        background-size: auto 285px;
+        background-position: left top;
       }
 
       .footer-menu {
-        top: 22%;
+        top: 20%;
         right: 3%;
 
         width: 51%;
@@ -997,11 +1097,14 @@
       }
 
       .footer-facebook {
-        width: 32px;
-        height: 32px;
-
+        top: auto;
         right: 4%;
-        bottom: 7%;
+        bottom: 20px;
+
+        transform: none;
+
+        width: 34px;
+        height: 34px;
 
         font-size: 1rem;
       }
@@ -1017,7 +1120,7 @@
 
 
   <!-- =====================================================
-       HEADER
+       HEADER STICKY
   ====================================================== -->
 
   <header>
@@ -1122,27 +1225,33 @@
 
     <section class="hero">
 
-
-      <!-- LOGO SOLO SIMBOLO -->
-
-      <img
-        class="hero-logo"
-        src="logo-ad-astra.png"
-        alt="Logo AD ASTRA"
-      >
+      <div class="hero-layout">
 
 
-      <div class="container">
+        <!-- LOGO + AD ASTRA -->
 
-        <div class="hero-content">
+        <div class="hero-brand">
+
+          <img
+            class="hero-logo"
+            src="logo-ad-astra.png"
+            alt="Logo AD ASTRA"
+          >
+
+          <div class="hero-brand-name">
+            AD ASTRA
+          </div>
+
+        </div>
+
+
+        <!-- SOTTOTITOLO E DESCRIZIONE -->
+
+        <div class="hero-copy">
 
           <h1>
-            AD ASTRA
-          </h1>
-
-          <h2>
             Imparare a conoscere il cielo
-          </h2>
+          </h1>
 
           <p>
             Un percorso nell'astronomia,
@@ -1152,6 +1261,7 @@
           </p>
 
         </div>
+
 
       </div>
 
@@ -1696,24 +1806,12 @@
 
   <!-- =====================================================
        FOOTER
-       BANNER 2 COMPLETO
   ====================================================== -->
 
   <footer>
 
     <div class="footer-banner">
 
-
-      <!-- IMMAGINE ORIGINALE COMPLETA -->
-
-      <img
-        class="footer-banner-image"
-        src="banner 2.png"
-        alt="AD ASTRA"
-      >
-
-
-      <!-- MENU NELLO SPAZIO LIBERO A DESTRA -->
 
       <div class="footer-menu">
 
