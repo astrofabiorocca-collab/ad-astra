@@ -97,46 +97,34 @@
     }
 
     .navbar {
-      min-height: 74px;
+      min-height: 96px;
 
       display: flex;
       align-items: center;
       justify-content: space-between;
 
-      gap: 28px;
+      gap: 22px;
     }
 
     .brand {
       display: flex;
       align-items: center;
-      gap: 12px;
 
       flex-shrink: 0;
     }
 
-    .brand-symbol {
-      color: #55aaff;
-      font-size: 2rem;
-    }
-
-    .brand-name {
-      font-family: "Orbitron", sans-serif;
-      font-size: 1.35rem;
-      font-weight: 600;
-      letter-spacing: 0.08em;
-    }
-
-    .brand-subtitle {
+    .brand-logo {
       display: block;
 
-      margin-top: 2px;
+      width: 86px;
+      height: 86px;
 
-      color: #9bacbe;
+      object-fit: contain;
+    }
 
-      font-size: 0.66rem;
-      font-weight: 400;
-
-      letter-spacing: 0.02em;
+    nav {
+      flex: 1;
+      min-width: 0;
     }
 
     nav ul {
@@ -144,13 +132,14 @@
       align-items: center;
       justify-content: flex-end;
 
-      flex-wrap: wrap;
+      flex-wrap: nowrap;
 
-      gap: 17px;
+      gap: 13px;
 
       list-style: none;
 
-      font-size: 0.82rem;
+      font-size: 0.76rem;
+      white-space: nowrap;
     }
 
     nav a {
@@ -936,23 +925,14 @@
       <a
         class="brand"
         href="index.html"
+        aria-label="AD ASTRA - Home"
       >
 
-        <div class="brand-symbol">
-          ✦
-        </div>
-
-        <div>
-
-          <div class="brand-name">
-            AD ASTRA
-          </div>
-
-          <span class="brand-subtitle">
-            Imparare a conoscere il cielo
-          </span>
-
-        </div>
+        <img
+          class="brand-logo"
+          src="logo-ad-astra.png"
+          alt="Logo AD ASTRA"
+        >
 
       </a>
 
@@ -977,8 +957,14 @@
           </li>
 
           <li>
-           <a href="guide.html">
+            <a href="guide.html">
               Guide
+            </a>
+          </li>
+
+          <li>
+            <a href="strumentazione.html">
+              Strumentazione
             </a>
           </li>
 
@@ -1068,13 +1054,6 @@
             e dell'astrofotografia.
           </p>
 
-          <a
-            class="button"
-            href="scuola-astronomia.html"
-          >
-            Esplora la Scuola di Astronomia →
-          </a>
-
         </div>
 
       </div>
@@ -1163,7 +1142,7 @@
 
               <a
                 class="card-link"
-               href="guide.html"
+                href="guide.html"
               >
                 Vai alle guide →
               </a>
@@ -1659,8 +1638,12 @@
             Scuola di Astronomia
           </a>
 
-         <a href="guide.html">
+          <a href="guide.html">
             Guide
+          </a>
+
+          <a href="strumentazione.html">
+            Strumentazione
           </a>
 
           <a href="#">
