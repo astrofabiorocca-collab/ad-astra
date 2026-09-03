@@ -213,7 +213,7 @@
 
 
     /* =========================================================
-       LOGO + WORDMARK
+       LOGO + AD ASTRA
     ========================================================= */
 
     .hero-brand {
@@ -227,10 +227,6 @@
       min-height: 235px;
     }
 
-
-    /* Logo circolare:
-       blend screen elimina il fondo nero sulla hero
-    */
 
     .hero-logo-wrap {
       width: 205px;
@@ -246,6 +242,7 @@
 
       border-radius: 50%;
     }
+
 
     .hero-logo {
       width: 205px;
@@ -263,25 +260,47 @@
     }
 
 
-    /* Immagine originale AD ASTRA argentata */
+    /*
+       AD ASTRA È TESTO HTML.
+       FONT ORBITRON.
+       NESSUNA IMMAGINE.
+    */
 
-    .hero-wordmark {
-      width: min(650px, 58vw);
-      height: auto;
+    .hero-brand-name {
+      font-family: "Orbitron", sans-serif;
 
-      object-fit: contain;
+      font-size:
+        clamp(3.5rem, 5.6vw, 5.6rem);
 
-      /*
-        Screen integra il fondo scuro dell'immagine
-        con il cielo della hero.
-      */
+      font-weight: 600;
 
-      mix-blend-mode: screen;
+      line-height: 1;
+
+      letter-spacing: 0.075em;
+
+      white-space: nowrap;
+
+      background:
+        linear-gradient(
+          to bottom,
+          #ffffff 0%,
+          #f5f6f7 20%,
+          #c7ccd2 47%,
+          #8e959e 65%,
+          #e7e9ec 82%,
+          #ffffff 100%
+        );
+
+      -webkit-background-clip: text;
+      background-clip: text;
+
+      -webkit-text-fill-color: transparent;
+      color: transparent;
 
       filter:
         drop-shadow(
-          0 4px 12px
-          rgba(0, 0, 0, 0.30)
+          0 4px 7px
+          rgba(0, 0, 0, 0.38)
         );
     }
 
@@ -893,8 +912,9 @@
         height: 180px;
       }
 
-      .hero-wordmark {
-        width: min(570px, 58vw);
+      .hero-brand-name {
+        font-size:
+          clamp(3.2rem, 5.4vw, 5rem);
       }
 
       .footer-menu {
@@ -957,8 +977,9 @@
         height: 155px;
       }
 
-      .hero-wordmark {
-        width: min(490px, 58vw);
+      .hero-brand-name {
+        font-size:
+          clamp(2.8rem, 6vw, 4.4rem);
       }
 
       .hero-copy {
@@ -1046,8 +1067,11 @@
         height: 110px;
       }
 
-      .hero-wordmark {
-        width: min(330px, 62vw);
+      .hero-brand-name {
+        font-size:
+          clamp(2rem, 10vw, 3.2rem);
+
+        letter-spacing: 0.04em;
       }
 
       .hero-copy {
@@ -1156,10 +1180,7 @@
         <ul>
 
           <li>
-            <a
-              class="active"
-              href="index.html"
-            >
+            <a class="active" href="index.html">
               Home
             </a>
           </li>
@@ -1252,10 +1273,9 @@
       <div class="hero-layout">
 
 
-        <!-- LOGO + WORDMARK ORIGINALE -->
+        <!-- LOGO + AD ASTRA SCRITTO IN HTML -->
 
         <div class="hero-brand">
-
 
           <div class="hero-logo-wrap">
 
@@ -1268,12 +1288,9 @@
           </div>
 
 
-          <img
-            class="hero-wordmark"
-            src="ad-astra-title.png"
-            alt="AD ASTRA"
-          >
-
+          <div class="hero-brand-name">
+            AD ASTRA
+          </div>
 
         </div>
 
