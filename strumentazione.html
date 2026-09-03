@@ -1,0 +1,1337 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>Strumentazione | AD ASTRA</title>
+
+  <meta
+    name="description"
+    content="Strumentazione AD ASTRA: guida agli strumenti per l'osservazione astronomica, dai binocoli ai telescopi tradizionali e digitali."
+  >
+
+  <style>
+
+    /* =========================================================
+       RESET E BASE
+    ========================================================= */
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f7f9fc;
+      color: #102342;
+      line-height: 1.65;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+    }
+
+    .container {
+      width: min(1180px, 92%);
+      margin: 0 auto;
+    }
+
+
+    /* =========================================================
+       BANNER SUPERIORE
+    ========================================================= */
+
+    .top-banner {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      background: #07152a;
+    }
+
+    .top-banner-image {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    /*
+      Il banner è volutamente privo
+      del titolo della sezione.
+      Titolo e sottotitolo sono quindi HTML reali.
+    */
+
+    .banner-section-title {
+      position: absolute;
+
+      left: 55%;
+      top: 50%;
+
+      transform: translateY(-50%);
+
+      z-index: 2;
+      max-width: 42%;
+
+      color: #ffffff;
+    }
+
+    .banner-section-title h1 {
+      margin-bottom: 5px;
+
+      color: #f4c84e;
+
+      font-size: clamp(1.45rem, 2.6vw, 2.55rem);
+      line-height: 1.15;
+      font-weight: 700;
+
+      text-shadow:
+        0 2px 8px rgba(0, 0, 0, 0.55);
+    }
+
+    .banner-section-title p {
+      color: #ffffff;
+
+      font-size: clamp(0.78rem, 1.35vw, 1.08rem);
+
+      text-shadow:
+        0 2px 6px rgba(0, 0, 0, 0.65);
+    }
+
+
+    /* =========================================================
+       MENU PRINCIPALE REALE
+    ========================================================= */
+
+    .main-navigation {
+      width: 100%;
+
+      background:
+        linear-gradient(
+          180deg,
+          #07182d 0%,
+          #041326 100%
+        );
+
+      border-top:
+        1px solid rgba(255, 255, 255, 0.08);
+
+      border-bottom:
+        1px solid rgba(255, 255, 255, 0.12);
+    }
+
+    .main-navigation ul {
+      min-height: 54px;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      flex-wrap: wrap;
+
+      gap: 0;
+
+      list-style: none;
+    }
+
+    .main-navigation li {
+      display: flex;
+      align-items: center;
+    }
+
+    .main-navigation a {
+      position: relative;
+
+      display: block;
+
+      padding:
+        18px
+        12px
+        15px;
+
+      color: #dbe8f5;
+
+      font-size: 0.69rem;
+      font-weight: 700;
+
+      letter-spacing: 0.055em;
+
+      text-align: center;
+
+      transition:
+        color 0.2s ease,
+        background 0.2s ease;
+    }
+
+    .main-navigation a:hover {
+      color: #f4c84e;
+
+      background:
+        rgba(255, 255, 255, 0.035);
+    }
+
+    .main-navigation a.active {
+      color: #f4c84e;
+    }
+
+    .main-navigation a.active::after {
+      content: "";
+
+      position: absolute;
+
+      left: 12px;
+      right: 12px;
+      bottom: 8px;
+
+      height: 2px;
+
+      border-radius: 999px;
+
+      background: #f4c84e;
+    }
+
+
+    /* =========================================================
+       INTRO
+    ========================================================= */
+
+    .intro {
+      padding: 68px 0 74px;
+      background: #ffffff;
+    }
+
+    .intro-grid {
+      display: grid;
+
+      grid-template-columns:
+        minmax(0, 1.15fr)
+        minmax(280px, 0.85fr);
+
+      gap: 52px;
+
+      align-items: center;
+    }
+
+    .intro-text {
+      max-width: 720px;
+    }
+
+    .intro-lead {
+      margin-bottom: 12px;
+
+      color: #0b3763;
+
+      font-size: clamp(1.5rem, 3vw, 2.25rem);
+      font-weight: 700;
+
+      line-height: 1.25;
+    }
+
+    .intro-line {
+      width: 72px;
+      height: 3px;
+
+      margin: 0 0 26px;
+
+      background: #e2b940;
+
+      border-radius: 999px;
+    }
+
+    .intro-text p:not(.intro-lead) {
+      margin-bottom: 18px;
+
+      color: #40516a;
+
+      font-size: 1.04rem;
+    }
+
+    .intro-text p:last-child {
+      margin-bottom: 0;
+    }
+
+
+    /* =========================================================
+       AREA VISIVA INTRO
+    ========================================================= */
+
+    .intro-image {
+      position: relative;
+
+      min-height: 315px;
+
+      border-radius: 4px;
+
+      overflow: hidden;
+
+      background:
+        radial-gradient(
+          circle at 72% 30%,
+          rgba(244, 200, 78, 0.12),
+          transparent 17%
+        ),
+        radial-gradient(
+          circle at 32% 36%,
+          rgba(87, 152, 211, 0.14),
+          transparent 24%
+        ),
+        linear-gradient(
+          135deg,
+          #071a31 0%,
+          #0d3153 48%,
+          #081a30 100%
+        );
+
+      box-shadow:
+        0 14px 34px rgba(17, 42, 76, 0.13);
+    }
+
+    .intro-image::before {
+      content: "";
+
+      position: absolute;
+
+      inset: 0;
+
+      opacity: 0.74;
+
+      background-image:
+        radial-gradient(
+          circle at 12% 20%,
+          #ffffff 0 1px,
+          transparent 1.3px
+        ),
+        radial-gradient(
+          circle at 31% 73%,
+          #ffffff 0 1px,
+          transparent 1.3px
+        ),
+        radial-gradient(
+          circle at 57% 18%,
+          #ffffff 0 1px,
+          transparent 1.3px
+        ),
+        radial-gradient(
+          circle at 77% 66%,
+          #ffffff 0 1px,
+          transparent 1.3px
+        ),
+        radial-gradient(
+          circle at 88% 38%,
+          #ffffff 0 1px,
+          transparent 1.3px
+        ),
+        radial-gradient(
+          circle at 48% 53%,
+          rgba(255, 255, 255, 0.85) 0 1px,
+          transparent 1.4px
+        );
+
+      background-size:
+        180px 150px,
+        220px 190px,
+        260px 210px,
+        190px 160px,
+        230px 200px,
+        280px 230px;
+    }
+
+    .intro-image::after {
+      content: "";
+
+      position: absolute;
+
+      width: 120px;
+      height: 120px;
+
+      right: 18%;
+      top: 22%;
+
+      border:
+        1px solid rgba(244, 200, 78, 0.44);
+
+      border-radius: 50%;
+
+      box-shadow:
+        0 0 0 28px rgba(244, 200, 78, 0.035),
+        0 0 0 58px rgba(244, 200, 78, 0.018);
+    }
+
+    .intro-image-caption {
+      position: absolute;
+
+      left: 24px;
+      right: 24px;
+      bottom: 22px;
+
+      z-index: 2;
+
+      padding: 15px 18px;
+
+      border-left:
+        3px solid #f4c84e;
+
+      background:
+        rgba(5, 19, 38, 0.78);
+
+      color: #eef5fb;
+
+      font-size: 0.9rem;
+
+      backdrop-filter:
+        blur(3px);
+    }
+
+
+    /* =========================================================
+       PROGRAMMA / STRUTTURA FUTURA
+    ========================================================= */
+
+    .programme {
+      padding: 70px 0 78px;
+
+      background:
+        linear-gradient(
+          180deg,
+          #f7f9fc 0%,
+          #edf2f7 100%
+        );
+    }
+
+    .programme-heading {
+      display: flex;
+
+      align-items: center;
+
+      gap: 18px;
+
+      margin-bottom: 38px;
+    }
+
+    .programme-heading h2 {
+      flex-shrink: 0;
+
+      color: #092d55;
+
+      font-size: clamp(1.45rem, 2.5vw, 2.05rem);
+
+      line-height: 1.2;
+    }
+
+    .programme-heading-line {
+      flex: 1;
+
+      height: 1px;
+
+      background:
+        linear-gradient(
+          90deg,
+          #d6b041,
+          rgba(214, 176, 65, 0.06)
+        );
+    }
+
+    .cards {
+      display: grid;
+
+      grid-template-columns:
+        repeat(3, minmax(0, 1fr));
+
+      gap: 22px;
+    }
+
+    .card {
+      position: relative;
+
+      min-height: 225px;
+
+      padding: 27px 25px;
+
+      background: #ffffff;
+
+      border:
+        1px solid rgba(20, 56, 93, 0.09);
+
+      border-top:
+        3px solid #d8b33f;
+
+      box-shadow:
+        0 9px 26px rgba(25, 50, 81, 0.07);
+
+      transition:
+        transform 0.18s ease,
+        box-shadow 0.18s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-3px);
+
+      box-shadow:
+        0 13px 30px rgba(25, 50, 81, 0.11);
+    }
+
+    .card-number {
+      display: block;
+
+      margin-bottom: 12px;
+
+      color: #d0a72f;
+
+      font-size: 0.72rem;
+      font-weight: 700;
+
+      letter-spacing: 0.15em;
+    }
+
+    .card h3 {
+      margin-bottom: 11px;
+
+      color: #0a315b;
+
+      font-size: 1.07rem;
+
+      line-height: 1.35;
+    }
+
+    .card p {
+      color: #59697c;
+
+      font-size: 0.92rem;
+    }
+
+
+    /* =========================================================
+       CHIUSURA
+    ========================================================= */
+
+    .closing {
+      padding: 55px 0 62px;
+      background: #ffffff;
+    }
+
+    .closing-content {
+      display: flex;
+      align-items: center;
+
+      gap: 24px;
+    }
+
+    .closing-mark {
+      flex-shrink: 0;
+
+      width: 48px;
+      height: 48px;
+
+      display: grid;
+      place-items: center;
+
+      border:
+        1px solid #d8b33f;
+
+      border-radius: 50%;
+
+      color: #c69d27;
+
+      font-size: 1.25rem;
+      font-weight: 700;
+    }
+
+    .closing p {
+      max-width: 850px;
+
+      color: #4f6074;
+
+      font-size: 0.98rem;
+    }
+
+
+    /* =========================================================
+       FOOTER CON BANNER INFERIORE
+    ========================================================= */
+
+    .site-footer {
+      position: relative;
+
+      width: 100%;
+
+      min-height: 310px;
+
+      overflow: hidden;
+
+      background: #06172b;
+
+      color: #dce8f4;
+    }
+
+    .bottom-banner-image {
+      position: absolute;
+
+      inset: 0;
+
+      width: 100%;
+      height: 100%;
+
+      object-fit: cover;
+
+      z-index: 0;
+    }
+
+    .site-footer::after {
+      content: "";
+
+      position: absolute;
+
+      inset: 0;
+
+      z-index: 1;
+
+      pointer-events: none;
+
+      background:
+        linear-gradient(
+          90deg,
+          rgba(2, 13, 28, 0.12) 0%,
+          rgba(2, 13, 28, 0.1) 37%,
+          rgba(2, 13, 28, 0.5) 56%,
+          rgba(2, 13, 28, 0.8) 100%
+        );
+    }
+
+    .footer-navigation {
+      position: relative;
+
+      z-index: 2;
+
+      width: min(1120px, 92%);
+
+      min-height: 310px;
+
+      margin: 0 auto;
+
+      padding:
+        44px 0
+        38px
+        44%;
+
+      display: grid;
+
+      grid-template-columns:
+        repeat(4, minmax(120px, 1fr));
+
+      gap: 28px;
+    }
+
+    .footer-column h3 {
+      margin-bottom: 14px;
+
+      color: #f4c84e;
+
+      font-size: 0.91rem;
+
+      letter-spacing: 0.045em;
+    }
+
+    .footer-column ul {
+      list-style: none;
+    }
+
+    .footer-column li {
+      margin-bottom: 8px;
+    }
+
+    .footer-column a {
+      color: #dfe8f1;
+
+      font-size: 0.82rem;
+
+      transition: color 0.2s ease;
+    }
+
+    .footer-column a:hover {
+      color: #f4c84e;
+    }
+
+    .footer-facebook {
+      width: 35px;
+      height: 35px;
+
+      display: grid;
+      place-items: center;
+
+      border:
+        1px solid rgba(255, 255, 255, 0.35);
+
+      border-radius: 50%;
+
+      color: #ffffff !important;
+
+      font-weight: 700;
+
+      background:
+        rgba(255, 255, 255, 0.06);
+    }
+
+
+    /* =========================================================
+       RESPONSIVE
+    ========================================================= */
+
+    @media (max-width: 1050px) {
+
+      .main-navigation a {
+        padding:
+          16px
+          10px
+          14px;
+
+        font-size: 0.64rem;
+      }
+
+      .footer-navigation {
+        padding-left: 38%;
+
+        grid-template-columns:
+          repeat(2, minmax(150px, 1fr));
+      }
+
+    }
+
+    @media (max-width: 850px) {
+
+      .banner-section-title {
+        left: 50%;
+
+        max-width: 47%;
+      }
+
+      .intro-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .cards {
+        grid-template-columns:
+          repeat(2, minmax(0, 1fr));
+      }
+
+      .site-footer {
+        min-height: auto;
+      }
+
+      .bottom-banner-image {
+        position: absolute;
+
+        object-position: left center;
+      }
+
+      .site-footer::after {
+        background:
+          linear-gradient(
+            180deg,
+            rgba(4, 17, 34, 0.53),
+            rgba(4, 17, 34, 0.9)
+          );
+      }
+
+      .footer-navigation {
+        min-height: 310px;
+
+        padding:
+          38px 5%;
+
+        background:
+          rgba(3, 17, 35, 0.65);
+      }
+
+    }
+
+    @media (max-width: 600px) {
+
+      .banner-section-title {
+        position: static;
+
+        transform: none;
+
+        max-width: none;
+
+        padding: 18px 5%;
+
+        background: #07182d;
+      }
+
+      .banner-section-title h1 {
+        font-size: 1.35rem;
+      }
+
+      .main-navigation ul {
+        justify-content: flex-start;
+
+        flex-wrap: nowrap;
+
+        overflow-x: auto;
+
+        padding: 0 4%;
+      }
+
+      .main-navigation li {
+        flex-shrink: 0;
+      }
+
+      .main-navigation a {
+        white-space: nowrap;
+      }
+
+      .intro {
+        padding-top: 38px;
+      }
+
+      .intro-image {
+        min-height: 220px;
+      }
+
+      .programme {
+        padding-top: 42px;
+      }
+
+      .programme-heading {
+        align-items: flex-start;
+      }
+
+      .programme-heading-line {
+        display: none;
+      }
+
+      .cards {
+        grid-template-columns: 1fr;
+      }
+
+      .card {
+        min-height: auto;
+      }
+
+      .closing-content {
+        align-items: flex-start;
+      }
+
+      .footer-navigation {
+        grid-template-columns: 1fr;
+      }
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+
+  <!-- =====================================================
+       BANNER SUPERIORE
+  ====================================================== -->
+
+  <header class="top-banner">
+
+    <img
+      class="top-banner-image"
+      src="banner.png"
+      alt="AD ASTRA"
+    >
+
+
+    <div class="banner-section-title">
+
+      <h1>
+        STRUMENTAZIONE
+      </h1>
+
+      <p>
+        Conoscere gli strumenti per osservare il cielo
+      </p>
+
+    </div>
+
+  </header>
+
+
+
+  <!-- =====================================================
+       MENU PRINCIPALE
+  ====================================================== -->
+
+  <nav
+    class="main-navigation"
+    aria-label="Navigazione principale"
+  >
+
+    <ul>
+
+      <li>
+        <a href="index.html">
+          HOME
+        </a>
+      </li>
+
+      <li>
+        <a href="scuola-astronomia.html">
+          SCUOLA DI ASTRONOMIA
+        </a>
+      </li>
+
+      <li>
+        <a href="guide.html">
+          GUIDE
+        </a>
+      </li>
+
+      <li>
+        <a
+          class="active"
+          href="strumentazione.html"
+        >
+          STRUMENTAZIONE
+        </a>
+      </li>
+
+      <li>
+        <a href="#">
+          ASTROFOTOGRAFIA
+        </a>
+      </li>
+
+      <li>
+        <a href="#">
+          POSTER
+        </a>
+      </li>
+
+      <li>
+        <a href="#">
+          IL CIELO DEL MESE
+        </a>
+      </li>
+
+      <li>
+        <a href="#">
+          EFFEMERIDI
+        </a>
+      </li>
+
+      <li>
+        <a href="#">
+          SOFTWARE
+        </a>
+      </li>
+
+      <li>
+        <a href="#">
+          BIBLIOTECA
+        </a>
+      </li>
+
+      <li>
+        <a href="#">
+          NOTIZIE
+        </a>
+      </li>
+
+      <li>
+        <a href="#">
+          IL GATTO DI SCHRÖDINGER
+        </a>
+      </li>
+
+    </ul>
+
+  </nav>
+
+
+
+  <main>
+
+    <!-- =====================================================
+         PAGINA STRUMENTAZIONE - STRUTTURA BASE
+    ====================================================== -->
+
+    <section class="intro">
+
+      <div class="container intro-grid">
+
+        <div class="intro-text">
+
+          <p class="intro-lead">
+            Strumentazione astronomica
+          </p>
+
+          <div class="intro-line"></div>
+
+          <p>
+            Questa sezione sarà dedicata agli strumenti utilizzati
+            per osservare e fotografare il cielo, partendo dai
+            binocoli fino ai telescopi tradizionali e ai moderni
+            sistemi digitali.
+          </p>
+
+          <p>
+            L'obiettivo sarà comprendere come funzionano gli strumenti,
+            quali caratteristiche tecniche contano realmente e quale
+            configurazione può essere più adatta alle diverse esigenze
+            osservative.
+          </p>
+
+        </div>
+
+
+        <div class="intro-image">
+
+          <div class="intro-image-caption">
+            Binocoli, rifrattori, Newton, catadiottrici,
+            apocromatici e smart telescope: strumenti diversi
+            per obiettivi osservativi differenti.
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         SEZIONI FUTURE
+    ====================================================== -->
+
+    <section class="programme">
+
+      <div class="container">
+
+        <div class="programme-heading">
+
+          <h2>
+            Esplorare la strumentazione
+          </h2>
+
+          <div class="programme-heading-line"></div>
+
+        </div>
+
+
+        <div class="cards">
+
+          <article class="card">
+
+            <span class="card-number">
+              01
+            </span>
+
+            <h3>
+              Binocoli
+            </h3>
+
+            <p>
+              Apertura, ingrandimenti, pupilla d'uscita
+              e criteri per scegliere un binocolo
+              adatto all'osservazione astronomica.
+            </p>
+
+          </article>
+
+
+          <article class="card">
+
+            <span class="card-number">
+              02
+            </span>
+
+            <h3>
+              Telescopi rifrattori
+            </h3>
+
+            <p>
+              Come funziona un rifrattore,
+              differenze tra acromatici e apocromatici
+              e principali campi di utilizzo.
+            </p>
+
+          </article>
+
+
+          <article class="card">
+
+            <span class="card-number">
+              03
+            </span>
+
+            <h3>
+              Telescopi Newton
+            </h3>
+
+            <p>
+              Schema ottico, rapporto focale,
+              collimazione e caratteristiche
+              dei telescopi riflettori Newton.
+            </p>
+
+          </article>
+
+
+          <article class="card">
+
+            <span class="card-number">
+              04
+            </span>
+
+            <h3>
+              Catadiottrici
+            </h3>
+
+            <p>
+              Schmidt-Cassegrain, Maksutov e altri
+              sistemi compatti che combinano
+              elementi rifrattivi e riflettenti.
+            </p>
+
+          </article>
+
+
+          <article class="card">
+
+            <span class="card-number">
+              05
+            </span>
+
+            <h3>
+              Montature e accessori
+            </h3>
+
+            <p>
+              Montature altazimutali ed equatoriali,
+              oculari, filtri, diagonali
+              e accessori per l'osservazione.
+            </p>
+
+          </article>
+
+
+          <article class="card">
+
+            <span class="card-number">
+              06
+            </span>
+
+            <h3>
+              Smart telescope
+            </h3>
+
+            <p>
+              Telescopi automatizzati e sistemi
+              digitali integrati: possibilità,
+              limiti e ruolo nell'astronomia amatoriale.
+            </p>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         CHIUSURA
+    ====================================================== -->
+
+    <section class="closing">
+
+      <div class="container closing-content">
+
+        <div class="closing-mark">
+          ✦
+        </div>
+
+        <p>
+          La sezione verrà sviluppata progressivamente con schede,
+          confronti e guide dedicate alla scelta e all'utilizzo
+          consapevole della strumentazione astronomica.
+        </p>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+
+  <!-- =====================================================
+       BANNER INFERIORE + MENU FOOTER
+  ====================================================== -->
+
+  <footer class="site-footer">
+
+    <img
+      class="bottom-banner-image"
+      src="banner 2.png"
+      alt="AD ASTRA - Astronomia, osservazione del cielo, astrofotografia e divulgazione scientifica"
+    >
+
+
+    <div class="footer-navigation">
+
+
+      <div class="footer-column">
+
+        <h3>
+          Scuola di Astronomia
+        </h3>
+
+        <ul>
+
+          <li>
+            <a href="scuola-astronomia.html">
+              Scuola di Astronomia
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              Lezioni
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              Approfondimenti
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+
+
+      <div class="footer-column">
+
+        <h3>
+          Esplora
+        </h3>
+
+        <ul>
+
+          <li>
+            <a href="index.html">
+              Home
+            </a>
+          </li>
+
+          <li>
+            <a href="guide.html">
+              Guide
+            </a>
+          </li>
+
+          <li>
+            <a href="strumentazione.html">
+              Strumentazione
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              Il Cielo del Mese
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+
+
+      <div class="footer-column">
+
+        <h3>
+          Risorse
+        </h3>
+
+        <ul>
+
+          <li>
+            <a href="#">
+              Astrofotografia
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              Effemeridi
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              Software
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              Biblioteca
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              Notizie
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+
+
+      <div class="footer-column">
+
+        <h3>
+          Seguici su
+        </h3>
+
+        <a
+          class="footer-facebook"
+          href="#"
+          aria-label="Facebook AD ASTRA"
+        >
+          f
+        </a>
+
+      </div>
+
+
+    </div>
+
+  </footer>
+
+
+</body>
+
+</html>
