@@ -79,59 +79,33 @@
 
 
     /* =========================================================
-       HEADER
+       HEADER STICKY
     ========================================================= */
 
     header {
-      position: relative;
+      position: sticky;
+      top: 0;
       z-index: 1000;
 
       width: 100%;
 
-      background: #030a12;
+      background: rgba(3, 10, 18, 0.97);
 
       border-bottom:
         1px solid rgba(255, 255, 255, 0.08);
+
+      backdrop-filter: blur(10px);
     }
 
     .navbar {
-      width: min(1640px, 96%);
-      min-height: 112px;
+      width: min(1780px, 94%);
+      min-height: 108px;
 
       margin: 0 auto;
 
       display: flex;
       align-items: center;
-      justify-content: flex-end;
-    }
-
-
-    /* =========================================================
-       LOGO
-       Sovrapposto alla hero nella zona della galassia
-    ========================================================= */
-
-    .brand {
-      position: absolute;
-
-      left: clamp(65px, 6vw, 120px);
-      top: 105px;
-
-      z-index: 20;
-
-      display: block;
-    }
-
-    .brand-logo {
-      display: block;
-
-      width: 150px;
-      height: 150px;
-
-      object-fit: contain;
-
-      filter:
-        drop-shadow(0 5px 12px rgba(0, 0, 0, 0.55));
+      justify-content: center;
     }
 
 
@@ -152,12 +126,12 @@
 
       flex-wrap: nowrap;
 
-      gap: clamp(13px, 1.25vw, 24px);
+      gap: clamp(14px, 1.25vw, 25px);
 
       list-style: none;
 
       font-size:
-        clamp(0.74rem, 0.84vw, 0.88rem);
+        clamp(0.75rem, 0.83vw, 0.9rem);
 
       white-space: nowrap;
     }
@@ -223,6 +197,37 @@
           #06101c 100%
         );
     }
+
+
+    /* =========================================================
+       LOGO SULLA HERO
+    ========================================================= */
+
+    .hero-logo {
+      position: absolute;
+
+      top: 18px;
+      left: clamp(55px, 5.5vw, 115px);
+
+      z-index: 10;
+
+      width: 200px;
+      height: 200px;
+
+      object-fit: contain;
+
+      /*
+         Il file originale ha fondo nero.
+         Screen fa scomparire il nero sul cielo,
+         preservando il simbolo argentato e la stella.
+      */
+
+      mix-blend-mode: screen;
+
+      filter:
+        drop-shadow(0 5px 14px rgba(0, 0, 0, 0.45));
+    }
+
 
     .hero-content {
       position: relative;
@@ -713,13 +718,14 @@
 
 
     /* =========================================================
-       FOOTER / BANNER 2
+       FOOTER
+       BANNER 2 INTEGRALE - NESSUN RITAGLIO
     ========================================================= */
 
     footer {
       width: 100%;
 
-      background: #030a12;
+      background: #020b18;
 
       overflow: hidden;
     }
@@ -728,35 +734,49 @@
       position: relative;
 
       width: 100%;
-      min-height: 300px;
 
-      background:
-        url("banner 2.png")
-        center center / cover no-repeat;
+      line-height: 0;
     }
+
+    .footer-banner-image {
+      width: 100%;
+      height: auto;
+
+      display: block;
+
+      object-fit: contain;
+    }
+
+
+    /* =========================================================
+       MENU SOPRA IL BANNER 2
+       SOLO NELLA PARTE DESTRA LIBERA
+    ========================================================= */
 
     .footer-menu {
       position: absolute;
 
-      top: 50%;
-      right: 5%;
+      top: 31%;
+      right: 4%;
 
-      width: 58%;
-
-      transform: translateY(-50%);
+      width: 48%;
 
       display: grid;
 
       grid-template-columns:
         repeat(3, 1fr);
 
-      gap: 12px 28px;
+      column-gap: 34px;
+      row-gap: 21px;
+
+      line-height: 1.35;
     }
 
     .footer-menu a {
-      color: #d8e1eb;
+      color: #e1e8f0;
 
-      font-size: 0.83rem;
+      font-size:
+        clamp(0.72rem, 0.85vw, 0.92rem);
 
       transition: color 0.2s ease;
     }
@@ -765,14 +785,19 @@
       color: #66b6ff;
     }
 
+
+    /* =========================================================
+       FACEBOOK FOOTER
+    ========================================================= */
+
     .footer-facebook {
       position: absolute;
 
-      right: 5%;
-      bottom: 28px;
+      right: 4%;
+      bottom: 12%;
 
-      width: 40px;
-      height: 40px;
+      width: 42px;
+      height: 42px;
 
       display: grid;
       place-items: center;
@@ -784,8 +809,10 @@
 
       font-family: Arial, sans-serif;
 
-      font-size: 1.35rem;
+      font-size: 1.4rem;
       font-weight: 700;
+
+      line-height: 1;
     }
 
 
@@ -801,9 +828,20 @@
         font-size: 0.72rem;
       }
 
-      .brand-logo {
-        width: 130px;
-        height: 130px;
+      .hero-logo {
+        width: 175px;
+        height: 175px;
+
+        left: 40px;
+      }
+
+      .footer-menu {
+        width: 50%;
+
+        right: 3%;
+
+        column-gap: 20px;
+        row-gap: 14px;
       }
 
     }
@@ -812,11 +850,11 @@
     @media (max-width: 1000px) {
 
       .navbar {
-        min-height: auto;
-
-        padding: 20px 0;
+        min-height: 92px;
 
         overflow-x: auto;
+
+        justify-content: flex-start;
       }
 
       nav {
@@ -828,17 +866,15 @@
 
         justify-content: flex-start;
 
-        padding: 0 10px;
+        padding: 0 20px;
       }
 
-      .brand {
+      .hero-logo {
+        width: 150px;
+        height: 150px;
+
         left: 25px;
-        top: 95px;
-      }
-
-      .brand-logo {
-        width: 110px;
-        height: 110px;
+        top: 20px;
       }
 
       .main-grid {
@@ -857,19 +893,15 @@
         grid-template-columns: 1fr;
       }
 
-      .footer-banner {
-        min-height: 360px;
-
-        background-position: left center;
-      }
-
       .footer-menu {
-        right: 4%;
+        top: 27%;
 
-        width: 58%;
+        width: 51%;
 
         grid-template-columns:
           repeat(2, 1fr);
+
+        row-gap: 9px;
       }
 
     }
@@ -881,14 +913,8 @@
 
     @media (max-width: 650px) {
 
-      .brand {
-        left: 18px;
-        top: 78px;
-      }
-
-      .brand-logo {
-        width: 90px;
-        height: 90px;
+      .navbar {
+        min-height: 78px;
       }
 
       .hero {
@@ -898,8 +924,16 @@
           63% center;
       }
 
+      .hero-logo {
+        width: 115px;
+        height: 115px;
+
+        left: 16px;
+        top: 16px;
+      }
+
       .hero-content {
-        padding: 125px 0 120px;
+        padding: 130px 0 120px;
       }
 
       .hero h1 {
@@ -939,34 +973,37 @@
         max-height: 450px;
       }
 
-      .footer-banner {
-        min-height: 500px;
 
-        background-size: auto 100%;
-        background-position: left center;
+      /* Banner comunque intero */
+
+      .footer-banner-image {
+        width: 100%;
+        height: auto;
       }
 
       .footer-menu {
-        top: auto;
-        right: 7%;
-        bottom: 85px;
+        top: 22%;
+        right: 3%;
 
-        width: 48%;
-
-        transform: none;
+        width: 51%;
 
         grid-template-columns: 1fr;
 
-        gap: 5px;
+        row-gap: 3px;
       }
 
       .footer-menu a {
-        font-size: 0.72rem;
+        font-size: 0.54rem;
       }
 
       .footer-facebook {
-        right: 7%;
-        bottom: 25px;
+        width: 32px;
+        height: 32px;
+
+        right: 4%;
+        bottom: 7%;
+
+        font-size: 1rem;
       }
 
     }
@@ -986,21 +1023,6 @@
   <header>
 
     <div class="navbar">
-
-      <a
-        class="brand"
-        href="index.html"
-        aria-label="AD ASTRA - Home"
-      >
-
-        <img
-          class="brand-logo"
-          src="logo-ad-astra.png"
-          alt="Logo AD ASTRA"
-        >
-
-      </a>
-
 
       <nav>
 
@@ -1099,6 +1121,16 @@
     ====================================================== -->
 
     <section class="hero">
+
+
+      <!-- LOGO SOLO SIMBOLO -->
+
+      <img
+        class="hero-logo"
+        src="logo-ad-astra.png"
+        alt="Logo AD ASTRA"
+      >
+
 
       <div class="container">
 
@@ -1663,13 +1695,25 @@
 
 
   <!-- =====================================================
-       FOOTER: BANNER 2
+       FOOTER
+       BANNER 2 COMPLETO
   ====================================================== -->
 
   <footer>
 
     <div class="footer-banner">
 
+
+      <!-- IMMAGINE ORIGINALE COMPLETA -->
+
+      <img
+        class="footer-banner-image"
+        src="banner 2.png"
+        alt="AD ASTRA"
+      >
+
+
+      <!-- MENU NELLO SPAZIO LIBERO A DESTRA -->
 
       <div class="footer-menu">
 
