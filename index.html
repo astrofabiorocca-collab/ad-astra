@@ -103,7 +103,11 @@
       align-items: center;
       justify-content: space-between;
 
-      gap: 28px;
+      gap: 18px;
+    }
+
+    header .container.navbar {
+      width: min(1880px, 96%);
     }
 
     .brand {
@@ -139,18 +143,34 @@
       letter-spacing: 0.02em;
     }
 
+    nav {
+      min-width: 0;
+      flex: 1;
+      overflow-x: auto;
+      scrollbar-width: none;
+    }
+
+    nav::-webkit-scrollbar {
+      display: none;
+    }
+
     nav ul {
       display: flex;
       align-items: center;
       justify-content: flex-end;
 
-      flex-wrap: wrap;
+      flex-wrap: nowrap;
 
-      gap: 17px;
+      gap: clamp(8px, 0.85vw, 16px);
 
       list-style: none;
 
-      font-size: 0.82rem;
+      font-size: clamp(0.67rem, 0.72vw, 0.82rem);
+      white-space: nowrap;
+    }
+
+    nav li {
+      flex-shrink: 0;
     }
 
     nav a {
@@ -820,6 +840,10 @@
         padding: 15px 0;
       }
 
+      nav {
+        width: 100%;
+      }
+
       nav ul {
         justify-content: flex-start;
       }
@@ -977,8 +1001,14 @@
           </li>
 
           <li>
-           <a href="guide.html">
+            <a href="guide.html">
               Guide
+            </a>
+          </li>
+
+          <li>
+            <a href="strumentazione.html">
+              Strumentazione
             </a>
           </li>
 
@@ -1163,7 +1193,7 @@
 
               <a
                 class="card-link"
-               href="guide.html"
+                href="guide.html"
               >
                 Vai alle guide →
               </a>
@@ -1659,8 +1689,12 @@
             Scuola di Astronomia
           </a>
 
-         <a href="guide.html">
+          <a href="guide.html">
             Guide
+          </a>
+
+          <a href="strumentazione.html">
+            Strumentazione
           </a>
 
           <a href="#">
