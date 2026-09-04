@@ -1,0 +1,1771 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>Astrofotografia | AD ASTRA</title>
+
+  <meta
+    name="description"
+    content="Astrofotografia AD ASTRA: principi dell'acquisizione astronomica, rapporto segnale-rumore, tecniche di ripresa, calibrazione, integrazione ed elaborazione delle immagini astronomiche."
+  >
+
+  <style>
+
+    /* =========================================================
+       RESET E BASE
+    ========================================================= */
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f7f9fc;
+      color: #102342;
+      line-height: 1.65;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+    }
+
+    .container {
+      width: min(1180px, 92%);
+      margin: 0 auto;
+    }
+
+
+    /* =========================================================
+       BANNER SUPERIORE
+    ========================================================= */
+
+    .top-banner {
+      position: relative;
+      width: 100%;
+      height: clamp(270px, 16.6vw, 340px);
+      overflow: hidden;
+      background: #07152a;
+    }
+
+    .top-banner-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: top center;
+      display: block;
+    }
+
+    .banner-section-title {
+      position: absolute;
+      left: 55%;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 2;
+      max-width: 42%;
+      color: #ffffff;
+    }
+
+    .banner-section-title h1 {
+      margin-bottom: 5px;
+      color: #f4c84e;
+      font-size: clamp(1.45rem, 2.6vw, 2.55rem);
+      line-height: 1.15;
+      font-weight: 700;
+      text-shadow:
+        0 2px 8px rgba(0, 0, 0, 0.55);
+    }
+
+    .banner-section-title p {
+      color: #ffffff;
+      font-size: clamp(0.78rem, 1.35vw, 1.08rem);
+      text-shadow:
+        0 2px 6px rgba(0, 0, 0, 0.65);
+    }
+
+
+    /* =========================================================
+       MENU PRINCIPALE
+    ========================================================= */
+
+    .main-navigation {
+      width: 100%;
+      background:
+        linear-gradient(
+          180deg,
+          #07182d 0%,
+          #041326 100%
+        );
+      border-top:
+        1px solid rgba(255, 255, 255, 0.08);
+      border-bottom:
+        1px solid rgba(255, 255, 255, 0.12);
+    }
+
+    .main-navigation ul {
+      min-height: 54px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: nowrap;
+      gap: 0;
+      list-style: none;
+    }
+
+    .main-navigation li {
+      position: relative;
+      flex-shrink: 0;
+    }
+
+    .main-navigation li + li::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 50%;
+      width: 1px;
+      height: 22px;
+      transform: translateY(-50%);
+      background:
+        rgba(255, 255, 255, 0.28);
+    }
+
+    .main-navigation a {
+      display: block;
+      padding: 14px 11px 12px;
+      color: #e6edf5;
+      font-size: 0.68rem;
+      white-space: nowrap;
+      font-weight: 600;
+      transition:
+        color 0.2s ease,
+        background 0.2s ease;
+    }
+
+    .main-navigation a:hover {
+      color: #5eb5ff;
+    }
+
+    .main-navigation a.active {
+      color: #ffffff;
+      box-shadow:
+        inset 0 -3px 0 #4aa7ff;
+    }
+
+
+    /* =========================================================
+       INTRODUZIONE
+    ========================================================= */
+
+    .intro {
+      background: #ffffff;
+      padding: 58px 0 44px;
+    }
+
+    .intro-grid {
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 54px;
+      align-items: center;
+    }
+
+    .intro-text {
+      color: #39495c;
+      font-size: 0.98rem;
+    }
+
+    .intro-lead {
+      color: #174fb9;
+      font-size: 1.12rem;
+      font-weight: 600;
+      margin-bottom: 12px;
+    }
+
+    .intro-line {
+      width: 72px;
+      height: 3px;
+      background: #2864d7;
+      margin-bottom: 22px;
+    }
+
+    .intro-text p {
+      margin-bottom: 15px;
+    }
+
+
+    /* =========================================================
+       IMMAGINE INTRODUTTIVA
+    ========================================================= */
+
+    .intro-image {
+      min-height: 290px;
+      position: relative;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow:
+        0 12px 30px rgba(17, 39, 67, 0.14);
+      background:
+        radial-gradient(
+          circle at 68% 26%,
+          rgba(95, 151, 230, 0.55),
+          transparent 24%
+        ),
+        linear-gradient(
+          to bottom,
+          #15335d 0%,
+          #0a1d39 55%,
+          #06101e 100%
+        );
+    }
+
+    .intro-image::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      opacity: 0.4;
+      background-image:
+        radial-gradient(
+          circle,
+          rgba(255, 255, 255, 0.95) 1px,
+          transparent 1.4px
+        );
+      background-size: 42px 42px;
+    }
+
+    .intro-image-caption {
+      position: absolute;
+      left: 24px;
+      right: 24px;
+      bottom: 20px;
+      color: rgba(255, 255, 255, 0.9);
+      font-size: 0.82rem;
+    }
+
+
+    /* =========================================================
+       PRINCIPI FONDAMENTALI
+    ========================================================= */
+
+    .principles {
+      background: #ffffff;
+      padding: 10px 0 58px;
+    }
+
+    .principles-heading {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 12px;
+    }
+
+    .principles-heading-icon {
+      color: #2864d7;
+      font-size: 1.5rem;
+    }
+
+    .principles-heading h2 {
+      font-size: 1.45rem;
+      color: #102342;
+      white-space: nowrap;
+    }
+
+    .principles-heading-line {
+      width: 100%;
+      height: 1px;
+      background: #9ab8e8;
+    }
+
+    .principles-intro {
+      max-width: 820px;
+      margin-bottom: 30px;
+      color: #526174;
+      font-size: 0.93rem;
+    }
+
+    .principles-grid {
+      display: grid;
+      grid-template-columns:
+        repeat(3, 1fr);
+      gap: 22px;
+    }
+
+    .principle {
+      padding: 24px 22px;
+      background: #f8faff;
+      border:
+        1px solid #dce5f2;
+      border-radius: 8px;
+    }
+
+    .principle-icon {
+      width: 48px;
+      height: 48px;
+      display: grid;
+      place-items: center;
+      margin-bottom: 15px;
+      border:
+        1.5px solid #3475e8;
+      border-radius: 50%;
+      color: #2465d5;
+      font-size: 1.2rem;
+    }
+
+    .principle h3 {
+      font-size: 0.98rem;
+      margin-bottom: 8px;
+      color: #102342;
+    }
+
+    .principle p {
+      font-size: 0.84rem;
+      color: #566477;
+    }
+
+
+    /* =========================================================
+       ARGOMENTI
+    ========================================================= */
+
+    .catalogue {
+      padding: 56px 0 70px;
+      border-top:
+        1px solid #e3e9f0;
+      background: #f7f9fc;
+    }
+
+    .catalogue-heading {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 12px;
+    }
+
+    .catalogue-heading-icon {
+      color: #2864d7;
+      font-size: 1.5rem;
+    }
+
+    .catalogue-heading h2 {
+      font-size: 1.45rem;
+      color: #102342;
+      white-space: nowrap;
+    }
+
+    .catalogue-heading-line {
+      width: 100%;
+      height: 1px;
+      background: #9ab8e8;
+    }
+
+    .catalogue-intro {
+      max-width: 800px;
+      margin-bottom: 30px;
+      color: #526174;
+      font-size: 0.93rem;
+    }
+
+
+    /* =========================================================
+       CARD DEGLI ARGOMENTI
+    ========================================================= */
+
+    .cards {
+      display: grid;
+      grid-template-columns:
+        repeat(5, 1fr);
+      gap: 18px;
+    }
+
+    .card {
+      min-height: 290px;
+      display: flex;
+      flex-direction: column;
+      padding: 22px 19px 20px;
+      background: #ffffff;
+      border:
+        1px solid #dce3ec;
+      border-radius: 8px;
+      box-shadow:
+        0 5px 14px rgba(14, 35, 62, 0.05);
+      transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease,
+        border-color 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      border-color: #aec9ef;
+      box-shadow:
+        0 10px 24px rgba(14, 35, 62, 0.10);
+    }
+
+    .card-number {
+      width: 38px;
+      height: 38px;
+      display: grid;
+      place-items: center;
+      margin-bottom: 16px;
+      border-radius: 5px;
+      background: #2864d7;
+      color: #ffffff;
+      font-size: 0.82rem;
+      font-weight: 700;
+    }
+
+    .card h3 {
+      color: #102342;
+      font-size: 0.98rem;
+      line-height: 1.35;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      color: #58677a;
+      font-size: 0.82rem;
+      line-height: 1.55;
+      margin-bottom: 16px;
+    }
+
+    .card-link {
+      margin-top: auto;
+      color: #205ecf;
+      font-size: 0.82rem;
+      font-weight: 700;
+    }
+
+
+    /* =========================================================
+       COME SI COSTRUISCE UN'IMMAGINE
+    ========================================================= */
+
+    .assembly {
+      background: #ffffff;
+      padding: 60px 0 68px;
+      border-top:
+        1px solid #e3e9f0;
+    }
+
+    .assembly-heading {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 12px;
+    }
+
+    .assembly-heading-icon {
+      color: #2864d7;
+      font-size: 1.5rem;
+    }
+
+    .assembly-heading h2 {
+      font-size: 1.45rem;
+      color: #102342;
+      white-space: nowrap;
+    }
+
+    .assembly-heading-line {
+      width: 100%;
+      height: 1px;
+      background: #9ab8e8;
+    }
+
+    .assembly-intro {
+      max-width: 820px;
+      margin-bottom: 32px;
+      color: #526174;
+      font-size: 0.93rem;
+    }
+
+    .image-workflow {
+      display: flex;
+      align-items: stretch;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .workflow-step {
+      width: 112px;
+      min-height: 92px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 14px 10px;
+      text-align: center;
+      background: #f7f9fc;
+      border:
+        1px solid #d7e2ef;
+      border-radius: 7px;
+      color: #18365f;
+      font-size: 0.78rem;
+      font-weight: 700;
+      line-height: 1.35;
+    }
+
+    .workflow-arrow {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #2864d7;
+      font-size: 1.25rem;
+      font-weight: 700;
+    }
+
+
+    /* =========================================================
+       BLOCCO CONCLUSIVO
+    ========================================================= */
+
+    .closing {
+      background: #f7f9fc;
+      padding: 60px 0 64px;
+    }
+
+    .closing-box {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      padding: 28px 34px;
+      border:
+        1px solid #d8e6f7;
+      border-radius: 8px;
+      background:
+        linear-gradient(
+          100deg,
+          #eaf3ff,
+          #f5f8fc
+        );
+    }
+
+    .closing-icon {
+      color: #2864d7;
+      font-size: 2rem;
+      flex-shrink: 0;
+    }
+
+    .closing h2 {
+      color: #102342;
+      font-size: 1.08rem;
+      margin-bottom: 4px;
+    }
+
+    .closing p {
+      color: #536276;
+      font-size: 0.87rem;
+      max-width: 850px;
+    }
+
+
+    /* =========================================================
+       FOOTER / BANNER INFERIORE
+    ========================================================= */
+
+    .site-footer {
+      position: relative;
+      width: 100%;
+      height: clamp(300px, 19.8vw, 405px);
+      overflow: hidden;
+      background: #041529;
+    }
+
+    .bottom-banner-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: top center;
+      display: block;
+    }
+
+    .footer-navigation {
+      position: absolute;
+      top: 47%;
+      right: 3%;
+      transform: translateY(-50%);
+      width: 53%;
+      display: grid;
+      grid-template-columns:
+        repeat(4, 1fr);
+      gap: 18px;
+      color: #ffffff;
+    }
+
+    .footer-column h3 {
+      margin-bottom: 10px;
+      color: #ffffff;
+      font-size: 0.82rem;
+    }
+
+    .footer-column ul {
+      list-style: none;
+    }
+
+    .footer-column li {
+      margin-bottom: 6px;
+    }
+
+    .footer-column a {
+      color: #bcc8d5;
+      font-size: 0.76rem;
+      transition:
+        color 0.2s ease;
+    }
+
+    .footer-column a:hover {
+      color: #5eb5ff;
+    }
+
+    .footer-facebook {
+      width: 38px;
+      height: 38px;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      background: #1877f2;
+      color: #ffffff;
+      font-size: 1.25rem;
+      font-weight: 700;
+      font-family: Arial, sans-serif;
+    }
+
+
+    /* =========================================================
+       RESPONSIVE
+    ========================================================= */
+
+    @media (max-width: 1100px) {
+
+      .cards {
+        grid-template-columns:
+          repeat(2, 1fr);
+      }
+
+      .principles-grid {
+        grid-template-columns:
+          repeat(2, 1fr);
+      }
+
+      .main-navigation ul {
+        justify-content: flex-start;
+        overflow-x: auto;
+      }
+
+      .main-navigation a {
+        padding-left: 9px;
+        padding-right: 9px;
+        font-size: 0.64rem;
+      }
+
+      .footer-navigation {
+        width: 55%;
+        right: 2%;
+        gap: 12px;
+      }
+
+      .footer-column h3 {
+        font-size: 0.75rem;
+      }
+
+      .footer-column a {
+        font-size: 0.69rem;
+      }
+
+    }
+
+
+    @media (max-width: 850px) {
+
+      .top-banner {
+        height: clamp(210px, 29vw, 250px);
+      }
+
+      .banner-section-title {
+        left: 54%;
+        max-width: 43%;
+      }
+
+      .intro-grid {
+        grid-template-columns: 1fr;
+        gap: 32px;
+      }
+
+      .principles-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .site-footer {
+        height: auto;
+      }
+
+      .bottom-banner-image {
+        width: 100%;
+        height: auto;
+        object-fit: initial;
+      }
+
+      .footer-navigation {
+        position: static;
+        width: 100%;
+        transform: none;
+        grid-template-columns:
+          repeat(2, 1fr);
+        padding: 30px 5%;
+        background: #041529;
+      }
+
+    }
+
+
+    @media (max-width: 600px) {
+
+      .top-banner {
+        height: auto;
+      }
+
+      .top-banner-image {
+        width: 100%;
+        height: auto;
+        object-fit: initial;
+      }
+
+      .banner-section-title {
+        position: static;
+        transform: none;
+        max-width: none;
+        padding: 18px 5%;
+        background: #07182d;
+      }
+
+      .banner-section-title h1 {
+        font-size: 1.35rem;
+      }
+
+      .main-navigation ul {
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        padding: 0 4%;
+      }
+
+      .main-navigation li {
+        flex-shrink: 0;
+      }
+
+      .main-navigation a {
+        white-space: nowrap;
+      }
+
+      .intro {
+        padding-top: 38px;
+      }
+
+      .intro-image {
+        min-height: 220px;
+      }
+
+      .principles-heading {
+        align-items: flex-start;
+      }
+
+      .principles-heading-line {
+        display: none;
+      }
+
+      .catalogue {
+        padding-top: 42px;
+      }
+
+      .catalogue-heading {
+        align-items: flex-start;
+      }
+
+      .catalogue-heading-line {
+        display: none;
+      }
+
+      .cards {
+        grid-template-columns: 1fr;
+      }
+
+      .card {
+        min-height: auto;
+      }
+
+      .assembly-heading {
+        align-items: flex-start;
+      }
+
+      .assembly-heading-line {
+        display: none;
+      }
+
+      .image-workflow {
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+      .workflow-step {
+        width: 100%;
+        min-height: auto;
+      }
+
+      .workflow-arrow {
+        transform: rotate(90deg);
+      }
+
+      .footer-navigation {
+        grid-template-columns: 1fr;
+      }
+
+    }
+
+  </style>
+
+</head>
+
+
+<body>
+
+
+  <!-- =====================================================
+       BANNER SUPERIORE
+  ====================================================== -->
+
+  <header class="top-banner">
+
+    <img
+      class="top-banner-image"
+      src="banner.png"
+      alt="AD ASTRA"
+    >
+
+    <div class="banner-section-title">
+
+      <h1>
+        ASTROFOTOGRAFIA
+      </h1>
+
+      <p>
+        Dalla luce raccolta all'immagine astronomica
+      </p>
+
+    </div>
+
+  </header>
+
+
+
+  <!-- =====================================================
+       MENU PRINCIPALE
+  ====================================================== -->
+
+  <nav
+    class="main-navigation"
+    aria-label="Navigazione principale"
+  >
+
+    <ul>
+
+      <li>
+        <a href="index.html">
+          HOME
+        </a>
+      </li>
+
+      <li>
+        <a href="scuola-astronomia.html">
+          SCUOLA DI ASTRONOMIA
+        </a>
+      </li>
+
+      <li>
+        <a href="guide.html">
+          GUIDE
+        </a>
+      </li>
+
+      <li>
+        <a href="strumentazione.html">
+          STRUMENTAZIONE
+        </a>
+      </li>
+
+      <li>
+        <a
+          class="active"
+          href="astrofotografia.html"
+        >
+          ASTROFOTOGRAFIA
+        </a>
+      </li>
+
+      <li>
+        <a href="#">
+          POSTER
+        </a>
+      </li>
+
+      <li>
+        <a href="#">
+          IL CIELO DEL MESE
+        </a>
+      </li>
+
+      <li>
+        <a href="#">
+          EFFEMERIDI
+        </a>
+      </li>
+
+      <li>
+        <a href="#">
+          SOFTWARE
+        </a>
+      </li>
+
+      <li>
+        <a href="#">
+          BIBLIOTECA
+        </a>
+      </li>
+
+      <li>
+        <a href="#">
+          NOTIZIE
+        </a>
+      </li>
+
+      <li>
+        <a href="#">
+          IL GATTO DI SCHRÖDINGER
+        </a>
+      </li>
+
+    </ul>
+
+  </nav>
+
+
+
+  <main>
+
+
+    <!-- =====================================================
+         INTRODUZIONE / CAMEO
+    ====================================================== -->
+
+    <section class="intro">
+
+      <div class="container intro-grid">
+
+        <div class="intro-text">
+
+          <p class="intro-lead">
+            Fotografare il cielo significa raccogliere luce.
+          </p>
+
+          <div class="intro-line"></div>
+
+          <p>
+            L'astrofotografia non consiste semplicemente
+            nel puntare una fotocamera verso il cielo.
+            Ogni immagine nasce dalla raccolta di un segnale
+            estremamente debole, registrato da un sensore
+            attraverso un sistema ottico, meccanico
+            ed elettronico.
+          </p>
+
+          <p>
+            Comprendere come nasce quel segnale è il primo passo
+            per capire esposizione, rumore, integrazione,
+            calibrazione e successiva elaborazione.
+          </p>
+
+          <p>
+            Prima delle tecniche dedicate a Luna, Sole,
+            pianeti, Via Lattea e cielo profondo,
+            è quindi necessario comprendere che cosa
+            stiamo realmente chiedendo ai nostri strumenti
+            di registrare.
+          </p>
+
+        </div>
+
+
+        <div class="intro-image">
+
+          <div class="intro-image-caption">
+            Un'immagine astronomica nasce dalla luce:
+            prima si acquisisce il dato, poi lo si elabora.
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         PRINCIPI FONDAMENTALI
+    ====================================================== -->
+
+    <section class="principles">
+
+      <div class="container">
+
+        <div class="principles-heading">
+
+          <div class="principles-heading-icon">
+            ◇
+          </div>
+
+          <h2>
+            PRINCIPI DELL'ASTROFOTOGRAFIA
+          </h2>
+
+          <div class="principles-heading-line"></div>
+
+        </div>
+
+        <p class="principles-intro">
+          Prima di affrontare strumenti e tecniche di ripresa,
+          è utile comprendere alcuni principi comuni
+          a qualunque immagine astronomica.
+        </p>
+
+
+        <div class="principles-grid">
+
+
+          <article class="principle">
+
+            <div class="principle-icon">
+              ◎
+            </div>
+
+            <h3>
+              L'occhio non è una fotocamera
+            </h3>
+
+            <p>
+              La visione umana è continua, adattiva
+              e capace di percepire scene con forti differenze
+              di luminosità. Un sensore, invece, registra
+              quantitativamente la luce ricevuta entro
+              una determinata gamma dinamica.
+            </p>
+
+          </article>
+
+
+          <article class="principle">
+
+            <div class="principle-icon">
+              ⚙
+            </div>
+
+            <h3>
+              Il limite della catena
+            </h3>
+
+            <p>
+              Ottica, montatura, inseguimento, meccanica,
+              sensore ed elettronica lavorano insieme.
+              La qualità finale dipende dall'intera catena
+              di acquisizione e non da un singolo componente.
+            </p>
+
+          </article>
+
+
+          <article class="principle">
+
+            <div class="principle-icon">
+              ◫
+            </div>
+
+            <h3>
+              Dalla grana al rumore
+            </h3>
+
+            <p>
+              La granulosità della pellicola e il rumore
+              di un sensore digitale non sono lo stesso
+              fenomeno fisico, ma l'analogia aiuta
+              a comprendere perché un'immagine può apparire
+              irregolare e perdere informazione fine.
+            </p>
+
+          </article>
+
+
+          <article class="principle">
+
+            <div class="principle-icon">
+              ✦
+            </div>
+
+            <h3>
+              Raccogliere segnale
+            </h3>
+
+            <p>
+              Il sensore non vede il cielo come l'occhio:
+              registra la luce che lo raggiunge.
+              Tempo di esposizione, apertura, ISO o gain
+              e caratteristiche del sensore determinano
+              come quel segnale viene acquisito.
+            </p>
+
+          </article>
+
+
+          <article class="principle">
+
+            <div class="principle-icon">
+              ≋
+            </div>
+
+            <h3>
+              Più integrazione, più informazione
+            </h3>
+
+            <p>
+              Come una parete nera richiede più mani
+              di pittura bianca per diventare uniforme,
+              più esposizioni permettono di consolidare
+              il segnale utile rispetto alle fluttuazioni
+              casuali, migliorando il rapporto segnale-rumore.
+            </p>
+
+          </article>
+
+
+          <article class="principle">
+
+            <div class="principle-icon">
+              ↯
+            </div>
+
+            <h3>
+              Garbage in, garbage out
+            </h3>
+
+            <p>
+              Il software può valorizzare l'informazione
+              realmente acquisita, ma non può ricreare
+              ciò che è stato perso. Fuoco errato, mosso,
+              saturazione o dati insufficienti condizionano
+              inevitabilmente le elaborazioni successive.
+            </p>
+
+          </article>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         ARGOMENTI
+    ====================================================== -->
+
+    <section class="catalogue">
+
+      <div class="container">
+
+        <div class="catalogue-heading">
+
+          <div class="catalogue-heading-icon">
+            ◫
+          </div>
+
+          <h2>
+            ARGOMENTI
+          </h2>
+
+          <div class="catalogue-heading-line"></div>
+
+        </div>
+
+        <p class="catalogue-intro">
+          Dalle prime riprese con strumenti semplici
+          fino all'acquisizione e all'elaborazione
+          delle immagini astronomiche.
+        </p>
+
+
+        <div class="cards">
+
+
+          <article class="card">
+
+            <div class="card-number">
+              01
+            </div>
+
+            <h3>
+              Astrofotografia con smartphone
+            </h3>
+
+            <p>
+              Luna, cielo stellato, modalità manuale,
+              adattatori e possibilità offerte
+              dai piccoli sensori dei dispositivi mobili.
+            </p>
+
+            <span class="card-link">
+              Schede in preparazione
+            </span>
+
+          </article>
+
+
+          <article class="card">
+
+            <div class="card-number">
+              02
+            </div>
+
+            <h3>
+              Fotografia su cavalletto
+            </h3>
+
+            <p>
+              Fotocamera, obiettivo, tempi di posa,
+              focali e tecniche di base per fotografare
+              il cielo mantenendo le stelle puntiformi.
+            </p>
+
+            <span class="card-link">
+              Schede in preparazione
+            </span>
+
+          </article>
+
+
+          <article class="card">
+
+            <div class="card-number">
+              03
+            </div>
+
+            <h3>
+              Astroinseguitore e largo campo
+            </h3>
+
+            <p>
+              Inseguimento del cielo, pose più lunghe,
+              costellazioni, Via Lattea e grandi regioni
+              del cielo riprese con focali contenute.
+            </p>
+
+            <span class="card-link">
+              Schede in preparazione
+            </span>
+
+          </article>
+
+
+          <article class="card">
+
+            <div class="card-number">
+              04
+            </div>
+
+            <h3>
+              Astrofotografia con telescopio
+            </h3>
+
+            <p>
+              Fuoco diretto, focale, rapporto focale,
+              campo inquadrato, campionamento
+              e configurazione del treno ottico.
+            </p>
+
+            <span class="card-link">
+              Schede in preparazione
+            </span>
+
+          </article>
+
+
+          <article class="card">
+
+            <div class="card-number">
+              05
+            </div>
+
+            <h3>
+              Luna e Sole
+            </h3>
+
+            <p>
+              Tecniche dedicate agli oggetti più luminosi,
+              singoli scatti, sequenze e mosaici.
+              Per il Sole, osservazione e ripresa
+              esclusivamente con filtrazione appropriata.
+            </p>
+
+            <span class="card-link">
+              Schede in preparazione
+            </span>
+
+          </article>
+
+
+          <article class="card">
+
+            <div class="card-number">
+              06
+            </div>
+
+            <h3>
+              Pianeti
+            </h3>
+
+            <p>
+              Acquisizioni video ad alta frequenza,
+              seeing, selezione dei fotogrammi,
+              stacking e principi del lucky imaging.
+            </p>
+
+            <span class="card-link">
+              Schede in preparazione
+            </span>
+
+          </article>
+
+
+          <article class="card">
+
+            <div class="card-number">
+              07
+            </div>
+
+            <h3>
+              Deep Sky
+            </h3>
+
+            <p>
+              Nebulose, galassie e ammassi:
+              pose multiple, lunghe integrazioni,
+              camere astronomiche, filtri,
+              inseguimento e autoguida.
+            </p>
+
+            <span class="card-link">
+              Schede in preparazione
+            </span>
+
+          </article>
+
+
+          <article class="card">
+
+            <div class="card-number">
+              08
+            </div>
+
+            <h3>
+              Paesaggio notturno e Via Lattea
+            </h3>
+
+            <p>
+              Nightscape, cielo e primo piano,
+              esposizioni dedicate, panoramiche
+              e costruzione dell'inquadratura
+              tra paesaggio e cielo.
+            </p>
+
+            <span class="card-link">
+              Schede in preparazione
+            </span>
+
+          </article>
+
+
+          <article class="card">
+
+            <div class="card-number">
+              09
+            </div>
+
+            <h3>
+              Acquisizione e calibrazione
+            </h3>
+
+            <p>
+              Light, dark, flat, bias o dark-flat,
+              esposizione, ISO, gain, temperatura,
+              dithering e organizzazione
+              dei dati di una sessione.
+            </p>
+
+            <span class="card-link">
+              Schede in preparazione
+            </span>
+
+          </article>
+
+
+          <article class="card">
+
+            <div class="card-number">
+              10
+            </div>
+
+            <h3>
+              Dai dati grezzi all'immagine finale
+            </h3>
+
+            <p>
+              Selezione, calibrazione, registrazione,
+              stacking, stretching, colore,
+              contrasto e riduzione del rumore:
+              dal dato acquisito all'immagine elaborata.
+            </p>
+
+            <span class="card-link">
+              Schede in preparazione
+            </span>
+
+          </article>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         COME SI COSTRUISCE UN'IMMAGINE ASTRONOMICA
+    ====================================================== -->
+
+    <section class="assembly">
+
+      <div class="container">
+
+        <div class="assembly-heading">
+
+          <div class="assembly-heading-icon">
+            ↔
+          </div>
+
+          <h2>
+            COME SI COSTRUISCE UN'IMMAGINE ASTRONOMICA
+          </h2>
+
+          <div class="assembly-heading-line"></div>
+
+        </div>
+
+        <p class="assembly-intro">
+          Dalla luce proveniente dall'oggetto celeste
+          fino all'immagine finale, ogni fase contribuisce
+          alla costruzione del risultato.
+        </p>
+
+
+        <div class="image-workflow">
+
+          <div class="workflow-step">
+            LUCE
+          </div>
+
+          <div class="workflow-arrow">
+            →
+          </div>
+
+          <div class="workflow-step">
+            OTTICA
+          </div>
+
+          <div class="workflow-arrow">
+            →
+          </div>
+
+          <div class="workflow-step">
+            SENSORE
+          </div>
+
+          <div class="workflow-arrow">
+            →
+          </div>
+
+          <div class="workflow-step">
+            ACQUISIZIONE
+          </div>
+
+          <div class="workflow-arrow">
+            →
+          </div>
+
+          <div class="workflow-step">
+            CALIBRAZIONE
+          </div>
+
+          <div class="workflow-arrow">
+            →
+          </div>
+
+          <div class="workflow-step">
+            ALLINEAMENTO
+          </div>
+
+          <div class="workflow-arrow">
+            →
+          </div>
+
+          <div class="workflow-step">
+            INTEGRAZIONE
+          </div>
+
+          <div class="workflow-arrow">
+            →
+          </div>
+
+          <div class="workflow-step">
+            ELABORAZIONE
+          </div>
+
+          <div class="workflow-arrow">
+            →
+          </div>
+
+          <div class="workflow-step">
+            IMMAGINE FINALE
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         CONCLUSIONE
+    ====================================================== -->
+
+    <section class="closing">
+
+      <div class="container">
+
+        <div class="closing-box">
+
+          <div class="closing-icon">
+            ◇
+          </div>
+
+          <div>
+
+            <h2>
+              Prima il dato, poi l'immagine
+            </h2>
+
+            <p>
+              Una buona elaborazione comincia durante
+              l'acquisizione. Comprendere come viene raccolto
+              il segnale permette di ottenere dati migliori
+              e di utilizzare consapevolmente gli strumenti
+              di elaborazione.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+  </main>
+
+
+
+  <!-- =====================================================
+       BANNER INFERIORE + MENU FOOTER
+  ====================================================== -->
+
+  <footer class="site-footer">
+
+    <img
+      class="bottom-banner-image"
+      src="banner 2.png"
+      alt="AD ASTRA - Astronomia, osservazione del cielo, astrofotografia e divulgazione scientifica"
+    >
+
+
+    <div class="footer-navigation">
+
+
+      <div class="footer-column">
+
+        <h3>
+          Scuola di Astronomia
+        </h3>
+
+        <ul>
+
+          <li>
+            <a href="scuola-astronomia.html">
+              Scuola di Astronomia
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              Lezioni
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              Approfondimenti
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+
+
+      <div class="footer-column">
+
+        <h3>
+          Esplora
+        </h3>
+
+        <ul>
+
+          <li>
+            <a href="index.html">
+              Home
+            </a>
+          </li>
+
+          <li>
+            <a href="guide.html">
+              Guide
+            </a>
+          </li>
+
+          <li>
+            <a href="strumentazione.html">
+              Strumentazione
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              Il Cielo del Mese
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+
+
+      <div class="footer-column">
+
+        <h3>
+          Risorse
+        </h3>
+
+        <ul>
+
+          <li>
+            <a href="astrofotografia.html">
+              Astrofotografia
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              Effemeridi
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              Software
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              Biblioteca
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              Notizie
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+
+
+      <div class="footer-column">
+
+        <h3>
+          Seguici su
+        </h3>
+
+        <a
+          class="footer-facebook"
+          href="#"
+          aria-label="Facebook AD ASTRA"
+        >
+          f
+        </a>
+
+      </div>
+
+
+    </div>
+
+  </footer>
+
+
+</body>
+
+</html>
