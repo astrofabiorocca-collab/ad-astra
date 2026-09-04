@@ -14,7 +14,7 @@
 
   <meta
     name="description"
-    content="Strumentazione AD ASTRA: guida agli strumenti per l'osservazione astronomica, dai binocoli ai telescopi tradizionali e digitali."
+    content="Strumentazione AD ASTRA: guida agli strumenti, ai componenti meccanici, ottici ed elettronici utilizzati nell'osservazione astronomica e nell'astrofotografia."
   >
 
   <style>
@@ -63,589 +63,545 @@
     .top-banner {
       position: relative;
       width: 100%;
+      height: clamp(270px, 16.6vw, 340px);
       overflow: hidden;
       background: #07152a;
     }
 
     .top-banner-image {
       width: 100%;
-      height: auto;
+      height: 100%;
+      object-fit: cover;
+      object-position: top center;
       display: block;
     }
 
-    /*
-      Il banner è volutamente privo
-      del titolo della sezione.
-      Titolo e sottotitolo sono quindi HTML reali.
-    */
-
     .banner-section-title {
       position: absolute;
-
       left: 55%;
       top: 50%;
-
       transform: translateY(-50%);
-
       z-index: 2;
       max-width: 42%;
-
       color: #ffffff;
     }
 
     .banner-section-title h1 {
       margin-bottom: 5px;
-
       color: #f4c84e;
-
       font-size: clamp(1.45rem, 2.6vw, 2.55rem);
       line-height: 1.15;
       font-weight: 700;
-
       text-shadow:
         0 2px 8px rgba(0, 0, 0, 0.55);
     }
 
     .banner-section-title p {
       color: #ffffff;
-
       font-size: clamp(0.78rem, 1.35vw, 1.08rem);
-
       text-shadow:
         0 2px 6px rgba(0, 0, 0, 0.65);
     }
 
 
     /* =========================================================
-       MENU PRINCIPALE REALE
+       MENU PRINCIPALE
     ========================================================= */
 
     .main-navigation {
       width: 100%;
-
       background:
         linear-gradient(
           180deg,
           #07182d 0%,
           #041326 100%
         );
-
       border-top:
         1px solid rgba(255, 255, 255, 0.08);
-
       border-bottom:
         1px solid rgba(255, 255, 255, 0.12);
     }
 
     .main-navigation ul {
       min-height: 54px;
-
       display: flex;
       align-items: center;
       justify-content: center;
-
-      flex-wrap: wrap;
-
+      flex-wrap: nowrap;
       gap: 0;
-
       list-style: none;
     }
 
     .main-navigation li {
-      display: flex;
-      align-items: center;
+      position: relative;
+      flex-shrink: 0;
+    }
+
+    .main-navigation li + li::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 50%;
+      width: 1px;
+      height: 22px;
+      transform: translateY(-50%);
+      background:
+        rgba(255, 255, 255, 0.28);
     }
 
     .main-navigation a {
-      position: relative;
-
       display: block;
-
-      padding:
-        18px
-        12px
-        15px;
-
-      color: #dbe8f5;
-
-      font-size: 0.69rem;
-      font-weight: 700;
-
-      letter-spacing: 0.055em;
-
-      text-align: center;
-
+      padding: 14px 11px 12px;
+      color: #e6edf5;
+      font-size: 0.68rem;
+      white-space: nowrap;
+      font-weight: 600;
       transition:
         color 0.2s ease,
         background 0.2s ease;
     }
 
     .main-navigation a:hover {
-      color: #f4c84e;
-
-      background:
-        rgba(255, 255, 255, 0.035);
+      color: #5eb5ff;
     }
 
     .main-navigation a.active {
-      color: #f4c84e;
-    }
-
-    .main-navigation a.active::after {
-      content: "";
-
-      position: absolute;
-
-      left: 12px;
-      right: 12px;
-      bottom: 8px;
-
-      height: 2px;
-
-      border-radius: 999px;
-
-      background: #f4c84e;
+      color: #ffffff;
+      box-shadow:
+        inset 0 -3px 0 #4aa7ff;
     }
 
 
     /* =========================================================
-       INTRO
+       INTRODUZIONE
     ========================================================= */
 
     .intro {
-      padding: 68px 0 74px;
       background: #ffffff;
+      padding: 58px 0 44px;
     }
 
     .intro-grid {
       display: grid;
-
-      grid-template-columns:
-        minmax(0, 1.15fr)
-        minmax(280px, 0.85fr);
-
-      gap: 52px;
-
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 54px;
       align-items: center;
     }
 
     .intro-text {
-      max-width: 720px;
+      color: #39495c;
+      font-size: 0.98rem;
     }
 
     .intro-lead {
+      color: #174fb9;
+      font-size: 1.12rem;
+      font-weight: 600;
       margin-bottom: 12px;
-
-      color: #0b3763;
-
-      font-size: clamp(1.5rem, 3vw, 2.25rem);
-      font-weight: 700;
-
-      line-height: 1.25;
     }
 
     .intro-line {
       width: 72px;
       height: 3px;
-
-      margin: 0 0 26px;
-
-      background: #e2b940;
-
-      border-radius: 999px;
+      background: #2864d7;
+      margin-bottom: 22px;
     }
 
-    .intro-text p:not(.intro-lead) {
-      margin-bottom: 18px;
-
-      color: #40516a;
-
-      font-size: 1.04rem;
-    }
-
-    .intro-text p:last-child {
-      margin-bottom: 0;
+    .intro-text p {
+      margin-bottom: 15px;
     }
 
 
     /* =========================================================
-       AREA VISIVA INTRO
+       IMMAGINE INTRODUTTIVA - SPAZIO PREDISPOSTO
     ========================================================= */
 
     .intro-image {
+      min-height: 290px;
       position: relative;
-
-      min-height: 315px;
-
-      border-radius: 4px;
-
+      border-radius: 10px;
       overflow: hidden;
-
+      box-shadow:
+        0 12px 30px rgba(17, 39, 67, 0.14);
       background:
         radial-gradient(
-          circle at 72% 30%,
-          rgba(244, 200, 78, 0.12),
-          transparent 17%
-        ),
-        radial-gradient(
-          circle at 32% 36%,
-          rgba(87, 152, 211, 0.14),
+          circle at 68% 26%,
+          rgba(95, 151, 230, 0.55),
           transparent 24%
         ),
         linear-gradient(
-          135deg,
-          #071a31 0%,
-          #0d3153 48%,
-          #081a30 100%
+          to bottom,
+          #15335d 0%,
+          #0a1d39 55%,
+          #06101e 100%
         );
-
-      box-shadow:
-        0 14px 34px rgba(17, 42, 76, 0.13);
     }
 
     .intro-image::before {
       content: "";
-
       position: absolute;
-
       inset: 0;
-
-      opacity: 0.74;
-
+      opacity: 0.4;
       background-image:
         radial-gradient(
-          circle at 12% 20%,
-          #ffffff 0 1px,
-          transparent 1.3px
-        ),
-        radial-gradient(
-          circle at 31% 73%,
-          #ffffff 0 1px,
-          transparent 1.3px
-        ),
-        radial-gradient(
-          circle at 57% 18%,
-          #ffffff 0 1px,
-          transparent 1.3px
-        ),
-        radial-gradient(
-          circle at 77% 66%,
-          #ffffff 0 1px,
-          transparent 1.3px
-        ),
-        radial-gradient(
-          circle at 88% 38%,
-          #ffffff 0 1px,
-          transparent 1.3px
-        ),
-        radial-gradient(
-          circle at 48% 53%,
-          rgba(255, 255, 255, 0.85) 0 1px,
+          circle,
+          rgba(255, 255, 255, 0.95) 1px,
           transparent 1.4px
         );
-
-      background-size:
-        180px 150px,
-        220px 190px,
-        260px 210px,
-        190px 160px,
-        230px 200px,
-        280px 230px;
-    }
-
-    .intro-image::after {
-      content: "";
-
-      position: absolute;
-
-      width: 120px;
-      height: 120px;
-
-      right: 18%;
-      top: 22%;
-
-      border:
-        1px solid rgba(244, 200, 78, 0.44);
-
-      border-radius: 50%;
-
-      box-shadow:
-        0 0 0 28px rgba(244, 200, 78, 0.035),
-        0 0 0 58px rgba(244, 200, 78, 0.018);
+      background-size: 42px 42px;
     }
 
     .intro-image-caption {
       position: absolute;
-
       left: 24px;
       right: 24px;
-      bottom: 22px;
-
-      z-index: 2;
-
-      padding: 15px 18px;
-
-      border-left:
-        3px solid #f4c84e;
-
-      background:
-        rgba(5, 19, 38, 0.78);
-
-      color: #eef5fb;
-
-      font-size: 0.9rem;
-
-      backdrop-filter:
-        blur(3px);
+      bottom: 20px;
+      color: rgba(255, 255, 255, 0.9);
+      font-size: 0.82rem;
     }
 
 
     /* =========================================================
-       PROGRAMMA / STRUTTURA FUTURA
+       PRINCIPI DELLA SEZIONE
     ========================================================= */
 
-    .programme {
-      padding: 70px 0 78px;
-
-      background:
-        linear-gradient(
-          180deg,
-          #f7f9fc 0%,
-          #edf2f7 100%
-        );
+    .principles {
+      background: #ffffff;
+      padding: 10px 0 58px;
     }
 
-    .programme-heading {
+    .principles-grid {
+      display: grid;
+      grid-template-columns:
+        repeat(3, 1fr);
+      gap: 34px;
+    }
+
+    .principle {
       display: flex;
-
-      align-items: center;
-
-      gap: 18px;
-
-      margin-bottom: 38px;
+      gap: 16px;
+      align-items: flex-start;
     }
 
-    .programme-heading h2 {
+    .principle-icon {
+      width: 56px;
+      height: 56px;
       flex-shrink: 0;
-
-      color: #092d55;
-
-      font-size: clamp(1.45rem, 2.5vw, 2.05rem);
-
-      line-height: 1.2;
+      display: grid;
+      place-items: center;
+      border:
+        1.5px solid #3475e8;
+      border-radius: 50%;
+      color: #2465d5;
+      font-size: 1.35rem;
     }
 
-    .programme-heading-line {
-      flex: 1;
+    .principle h2 {
+      font-size: 1rem;
+      margin-bottom: 4px;
+      color: #102342;
+    }
 
+    .principle p {
+      font-size: 0.86rem;
+      color: #566477;
+    }
+
+
+    /* =========================================================
+       CATALOGO STRUMENTAZIONE
+    ========================================================= */
+
+    .catalogue {
+      padding: 56px 0 70px;
+      border-top:
+        1px solid #e3e9f0;
+      background: #f7f9fc;
+    }
+
+    .catalogue-heading {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 12px;
+    }
+
+    .catalogue-heading-icon {
+      color: #2864d7;
+      font-size: 1.5rem;
+    }
+
+    .catalogue-heading h2 {
+      font-size: 1.45rem;
+      color: #102342;
+      white-space: nowrap;
+    }
+
+    .catalogue-heading-line {
+      width: 100%;
       height: 1px;
-
-      background:
-        linear-gradient(
-          90deg,
-          #d6b041,
-          rgba(214, 176, 65, 0.06)
-        );
+      background: #9ab8e8;
     }
+
+    .catalogue-intro {
+      max-width: 850px;
+      margin-bottom: 30px;
+      color: #526174;
+      font-size: 0.93rem;
+    }
+
+
+    /* =========================================================
+       CARD DEL CATALOGO
+    ========================================================= */
 
     .cards {
       display: grid;
-
       grid-template-columns:
-        repeat(3, minmax(0, 1fr));
-
-      gap: 22px;
+        repeat(5, 1fr);
+      gap: 18px;
     }
 
     .card {
-      position: relative;
-
-      min-height: 225px;
-
-      padding: 27px 25px;
-
+      min-height: 258px;
+      display: flex;
+      flex-direction: column;
+      padding: 22px 19px 20px;
       background: #ffffff;
-
       border:
-        1px solid rgba(20, 56, 93, 0.09);
-
-      border-top:
-        3px solid #d8b33f;
-
+        1px solid #dce3ec;
+      border-radius: 8px;
       box-shadow:
-        0 9px 26px rgba(25, 50, 81, 0.07);
-
+        0 5px 14px rgba(14, 35, 62, 0.05);
       transition:
-        transform 0.18s ease,
-        box-shadow 0.18s ease;
+        transform 0.2s ease,
+        box-shadow 0.2s ease,
+        border-color 0.2s ease;
     }
 
     .card:hover {
-      transform: translateY(-3px);
-
+      transform: translateY(-4px);
+      border-color: #aec9ef;
       box-shadow:
-        0 13px 30px rgba(25, 50, 81, 0.11);
+        0 10px 24px rgba(14, 35, 62, 0.10);
     }
 
     .card-number {
-      display: block;
-
-      margin-bottom: 12px;
-
-      color: #d0a72f;
-
-      font-size: 0.72rem;
+      width: 38px;
+      height: 38px;
+      display: grid;
+      place-items: center;
+      margin-bottom: 16px;
+      border-radius: 5px;
+      background: #2864d7;
+      color: #ffffff;
+      font-size: 0.82rem;
       font-weight: 700;
-
-      letter-spacing: 0.15em;
     }
 
     .card h3 {
-      margin-bottom: 11px;
-
-      color: #0a315b;
-
-      font-size: 1.07rem;
-
+      color: #102342;
+      font-size: 0.98rem;
       line-height: 1.35;
+      margin-bottom: 10px;
     }
 
     .card p {
-      color: #59697c;
+      color: #58677a;
+      font-size: 0.82rem;
+      line-height: 1.55;
+      margin-bottom: 16px;
+    }
 
-      font-size: 0.92rem;
+    .card-link {
+      margin-top: auto;
+      color: #205ecf;
+      font-size: 0.82rem;
+      font-weight: 700;
     }
 
 
     /* =========================================================
-       CHIUSURA
+       SCHEMA DI ASSEMBLAGGIO
+    ========================================================= */
+
+    .assembly {
+      background: #f7f9fc;
+      padding: 0 0 64px;
+    }
+
+    .assembly-heading {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 12px;
+    }
+
+    .assembly-heading-icon {
+      color: #2864d7;
+      font-size: 1.5rem;
+    }
+
+    .assembly-heading h2 {
+      font-size: 1.45rem;
+      color: #102342;
+      white-space: nowrap;
+    }
+
+    .assembly-heading-line {
+      width: 100%;
+      height: 1px;
+      background: #9ab8e8;
+    }
+
+    .assembly-intro {
+      max-width: 850px;
+      margin-bottom: 28px;
+      color: #526174;
+      font-size: 0.93rem;
+    }
+
+    .assembly-grid {
+      display: grid;
+      grid-template-columns:
+        repeat(3, 1fr);
+      gap: 18px;
+    }
+
+    .assembly-card {
+      min-height: 230px;
+      padding: 24px 22px;
+      background: #ffffff;
+      border:
+        1px solid #dce3ec;
+      border-radius: 8px;
+      box-shadow:
+        0 5px 14px rgba(14, 35, 62, 0.05);
+    }
+
+    .assembly-number {
+      width: 38px;
+      height: 38px;
+      display: grid;
+      place-items: center;
+      margin-bottom: 16px;
+      border-radius: 50%;
+      border:
+        1.5px solid #3475e8;
+      color: #2465d5;
+      font-size: 0.82rem;
+      font-weight: 700;
+    }
+
+    .assembly-card h3 {
+      color: #102342;
+      font-size: 1rem;
+      margin-bottom: 12px;
+    }
+
+    .assembly-card p {
+      color: #58677a;
+      font-size: 0.84rem;
+      line-height: 1.6;
+    }
+
+    .assembly-sequence {
+      margin-top: 16px;
+      color: #205ecf;
+      font-size: 0.82rem;
+      font-weight: 700;
+      line-height: 1.7;
+    }
+
+
+    /* =========================================================
+       BLOCCO CONCLUSIVO
     ========================================================= */
 
     .closing {
-      padding: 55px 0 62px;
-      background: #ffffff;
+      background: #f7f9fc;
+      padding: 0 0 64px;
+    }
+
+    .closing-box {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 34px;
+      padding: 28px 34px;
+      border:
+        1px solid #d8e6f7;
+      border-radius: 8px;
+      background:
+        linear-gradient(
+          100deg,
+          #eaf3ff,
+          #f5f8fc
+        );
     }
 
     .closing-content {
       display: flex;
       align-items: center;
-
-      gap: 24px;
+      gap: 20px;
     }
 
-    .closing-mark {
+    .closing-icon {
+      color: #2864d7;
+      font-size: 2rem;
       flex-shrink: 0;
+    }
 
-      width: 48px;
-      height: 48px;
-
-      display: grid;
-      place-items: center;
-
-      border:
-        1px solid #d8b33f;
-
-      border-radius: 50%;
-
-      color: #c69d27;
-
-      font-size: 1.25rem;
-      font-weight: 700;
+    .closing h2 {
+      color: #102342;
+      font-size: 1.08rem;
+      margin-bottom: 4px;
     }
 
     .closing p {
+      color: #536276;
+      font-size: 0.87rem;
       max-width: 850px;
-
-      color: #4f6074;
-
-      font-size: 0.98rem;
     }
 
 
     /* =========================================================
-       FOOTER CON BANNER INFERIORE
+       FOOTER / BANNER INFERIORE
     ========================================================= */
 
     .site-footer {
       position: relative;
-
       width: 100%;
-
-      min-height: 310px;
-
+      height: clamp(300px, 19.8vw, 405px);
       overflow: hidden;
-
-      background: #06172b;
-
-      color: #dce8f4;
+      background: #041529;
     }
 
     .bottom-banner-image {
-      position: absolute;
-
-      inset: 0;
-
       width: 100%;
       height: 100%;
-
       object-fit: cover;
-
-      z-index: 0;
-    }
-
-    .site-footer::after {
-      content: "";
-
-      position: absolute;
-
-      inset: 0;
-
-      z-index: 1;
-
-      pointer-events: none;
-
-      background:
-        linear-gradient(
-          90deg,
-          rgba(2, 13, 28, 0.12) 0%,
-          rgba(2, 13, 28, 0.1) 37%,
-          rgba(2, 13, 28, 0.5) 56%,
-          rgba(2, 13, 28, 0.8) 100%
-        );
+      object-position: top center;
+      display: block;
     }
 
     .footer-navigation {
-      position: relative;
-
-      z-index: 2;
-
-      width: min(1120px, 92%);
-
-      min-height: 310px;
-
-      margin: 0 auto;
-
-      padding:
-        44px 0
-        38px
-        44%;
-
+      position: absolute;
+      top: 47%;
+      right: 3%;
+      transform: translateY(-50%);
+      width: 53%;
       display: grid;
-
       grid-template-columns:
-        repeat(4, minmax(120px, 1fr));
-
-      gap: 28px;
+        repeat(4, 1fr);
+      gap: 18px;
+      color: #ffffff;
     }
 
     .footer-column h3 {
-      margin-bottom: 14px;
-
-      color: #f4c84e;
-
-      font-size: 0.91rem;
-
-      letter-spacing: 0.045em;
+      margin-bottom: 10px;
+      color: #ffffff;
+      font-size: 0.82rem;
     }
 
     .footer-column ul {
@@ -653,39 +609,30 @@
     }
 
     .footer-column li {
-      margin-bottom: 8px;
+      margin-bottom: 6px;
     }
 
     .footer-column a {
-      color: #dfe8f1;
-
-      font-size: 0.82rem;
-
+      color: #bcc8d5;
+      font-size: 0.76rem;
       transition: color 0.2s ease;
     }
 
     .footer-column a:hover {
-      color: #f4c84e;
+      color: #5eb5ff;
     }
 
     .footer-facebook {
-      width: 35px;
-      height: 35px;
-
+      width: 38px;
+      height: 38px;
       display: grid;
       place-items: center;
-
-      border:
-        1px solid rgba(255, 255, 255, 0.35);
-
       border-radius: 50%;
-
-      color: #ffffff !important;
-
+      background: #1877f2;
+      color: #ffffff;
+      font-size: 1.25rem;
       font-weight: 700;
-
-      background:
-        rgba(255, 255, 255, 0.06);
+      font-family: Arial, sans-serif;
     }
 
 
@@ -693,85 +640,116 @@
        RESPONSIVE
     ========================================================= */
 
-    @media (max-width: 1050px) {
+    @media (max-width: 1100px) {
+
+      .cards {
+        grid-template-columns:
+          repeat(2, 1fr);
+      }
+
+      .assembly-grid {
+        grid-template-columns:
+          repeat(2, 1fr);
+      }
+
+      .main-navigation ul {
+        justify-content: flex-start;
+        overflow-x: auto;
+      }
 
       .main-navigation a {
-        padding:
-          16px
-          10px
-          14px;
-
+        padding-left: 9px;
+        padding-right: 9px;
         font-size: 0.64rem;
       }
 
       .footer-navigation {
-        padding-left: 38%;
+        width: 55%;
+        right: 2%;
+        gap: 12px;
+      }
 
-        grid-template-columns:
-          repeat(2, minmax(150px, 1fr));
+      .footer-column h3 {
+        font-size: 0.75rem;
+      }
+
+      .footer-column a {
+        font-size: 0.69rem;
       }
 
     }
 
+
     @media (max-width: 850px) {
 
-      .banner-section-title {
-        left: 50%;
+      .top-banner {
+        height: clamp(210px, 29vw, 250px);
+      }
 
-        max-width: 47%;
+      .banner-section-title {
+        left: 54%;
+        max-width: 43%;
       }
 
       .intro-grid {
         grid-template-columns: 1fr;
+        gap: 32px;
       }
 
-      .cards {
-        grid-template-columns:
-          repeat(2, minmax(0, 1fr));
+      .principles-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+      }
+
+      .assembly-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .closing-box {
+        flex-direction: column;
+        align-items: flex-start;
       }
 
       .site-footer {
-        min-height: auto;
+        height: auto;
       }
 
       .bottom-banner-image {
-        position: absolute;
-
-        object-position: left center;
-      }
-
-      .site-footer::after {
-        background:
-          linear-gradient(
-            180deg,
-            rgba(4, 17, 34, 0.53),
-            rgba(4, 17, 34, 0.9)
-          );
+        width: 100%;
+        height: auto;
+        object-fit: initial;
       }
 
       .footer-navigation {
-        min-height: 310px;
-
-        padding:
-          38px 5%;
-
-        background:
-          rgba(3, 17, 35, 0.65);
+        position: static;
+        width: 100%;
+        transform: none;
+        grid-template-columns:
+          repeat(2, 1fr);
+        padding: 30px 5%;
+        background: #041529;
       }
 
     }
 
+
     @media (max-width: 600px) {
+
+      .top-banner {
+        height: auto;
+      }
+
+      .top-banner-image {
+        width: 100%;
+        height: auto;
+        object-fit: initial;
+      }
 
       .banner-section-title {
         position: static;
-
         transform: none;
-
         max-width: none;
-
         padding: 18px 5%;
-
         background: #07182d;
       }
 
@@ -781,11 +759,8 @@
 
       .main-navigation ul {
         justify-content: flex-start;
-
         flex-wrap: nowrap;
-
         overflow-x: auto;
-
         padding: 0 4%;
       }
 
@@ -805,16 +780,23 @@
         min-height: 220px;
       }
 
-      .programme {
+      .catalogue {
         padding-top: 42px;
       }
 
-      .programme-heading {
+      .catalogue-heading,
+      .assembly-heading {
         align-items: flex-start;
       }
 
-      .programme-heading-line {
+      .catalogue-heading-line,
+      .assembly-heading-line {
         display: none;
+      }
+
+      .catalogue-heading h2,
+      .assembly-heading h2 {
+        white-space: normal;
       }
 
       .cards {
@@ -823,10 +805,6 @@
 
       .card {
         min-height: auto;
-      }
-
-      .closing-content {
-        align-items: flex-start;
       }
 
       .footer-navigation {
@@ -838,6 +816,7 @@
   </style>
 
 </head>
+
 
 <body>
 
@@ -854,7 +833,6 @@
       alt="AD ASTRA"
     >
 
-
     <div class="banner-section-title">
 
       <h1>
@@ -862,7 +840,7 @@
       </h1>
 
       <p>
-        Conoscere gli strumenti per osservare il cielo
+        Conoscere gli strumenti dell'astronomia
       </p>
 
     </div>
@@ -965,45 +943,603 @@
 
   <main>
 
+
     <!-- =====================================================
-         PAGINA STRUMENTAZIONE - STRUTTURA BASE
+         INTRODUZIONE
     ====================================================== -->
 
     <section class="intro">
 
       <div class="container intro-grid">
 
+
         <div class="intro-text">
 
           <p class="intro-lead">
-            Strumentazione astronomica
+            Un telescopio raramente lavora da solo.
           </p>
 
           <div class="intro-line"></div>
 
-          <p>
-            Questa sezione sarà dedicata agli strumenti utilizzati
-            per osservare e fotografare il cielo, partendo dai
-            binocoli fino ai telescopi tradizionali e ai moderni
-            sistemi digitali.
-          </p>
 
           <p>
-            L'obiettivo sarà comprendere come funzionano gli strumenti,
-            quali caratteristiche tecniche contano realmente e quale
-            configurazione può essere più adatta alle diverse esigenze
-            osservative.
+            Una postazione astronomica può apparire,
+            soprattutto a chi si avvicina per la prima volta
+            all'osservazione del cielo, come un insieme complesso
+            di tubi, supporti, camere, cavi, raccordi
+            e piccoli dispositivi dalle funzioni poco evidenti.
+          </p>
+
+
+          <p>
+            Questa sezione nasce per riconoscere gli strumenti
+            e i componenti che formano una postazione astronomica:
+            che cosa sono, come sono fatti, a che cosa servono
+            e quale posizione occupano all'interno del sistema.
+          </p>
+
+
+          <p>
+            Dall'oculare alla montatura, dalla coda di rondine
+            alla camera astronomica, ogni elemento svolge
+            una funzione precisa. Il catalogo permette
+            di identificarlo e comprenderne il ruolo
+            senza entrare nelle procedure di osservazione,
+            allineamento o utilizzo del software.
           </p>
 
         </div>
 
 
+
         <div class="intro-image">
 
           <div class="intro-image-caption">
-            Binocoli, rifrattori, Newton, catadiottrici,
-            apocromatici e smart telescope: strumenti diversi
-            per obiettivi osservativi differenti.
+            Una postazione astronomica è un sistema composto
+            da elementi ottici, meccanici ed elettronici
+            che lavorano insieme.
+          </div>
+
+        </div>
+
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         PRINCIPI
+    ====================================================== -->
+
+    <section class="principles">
+
+      <div class="container principles-grid">
+
+
+        <article class="principle">
+
+          <div class="principle-icon">
+            ◎
+          </div>
+
+          <div>
+
+            <h2>
+              Riconoscere
+            </h2>
+
+            <p>
+              Imparare a identificare strumenti,
+              accessori e componenti di una
+              postazione astronomica.
+            </p>
+
+          </div>
+
+        </article>
+
+
+
+        <article class="principle">
+
+          <div class="principle-icon">
+            ⚙
+          </div>
+
+          <div>
+
+            <h2>
+              Comprendere
+            </h2>
+
+            <p>
+              Capire come è fatto ogni componente
+              e quale funzione svolge
+              all'interno del sistema.
+            </p>
+
+          </div>
+
+        </article>
+
+
+
+        <article class="principle">
+
+          <div class="principle-icon">
+            ↔
+          </div>
+
+          <div>
+
+            <h2>
+              Collegare
+            </h2>
+
+            <p>
+              Comprendere come strumenti,
+              supporti e accessori vengono
+              fisicamente collegati tra loro.
+            </p>
+
+          </div>
+
+        </article>
+
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         CATALOGO
+    ====================================================== -->
+
+    <section class="catalogue">
+
+      <div class="container">
+
+
+        <div class="catalogue-heading">
+
+          <div class="catalogue-heading-icon">
+            ◫
+          </div>
+
+          <h2>
+            CATALOGO DELLA STRUMENTAZIONE
+          </h2>
+
+          <div class="catalogue-heading-line"></div>
+
+        </div>
+
+
+        <p class="catalogue-intro">
+          Una raccolta organizzata degli strumenti e dei componenti
+          più comuni nell'osservazione visuale e nella ripresa astronomica.
+          Ogni sezione sarà dedicata al riconoscimento,
+          alla struttura e alla funzione dei diversi elementi.
+        </p>
+
+
+
+        <div class="cards">
+
+
+          <div class="card">
+
+            <div class="card-number">
+              01
+            </div>
+
+            <h3>
+              Telescopi
+            </h3>
+
+            <p>
+              Rifrattori, Newton, Dobson e catadiottrici:
+              le principali architetture dei telescopi
+              e gli elementi che ne costituiscono
+              la struttura ottica e meccanica.
+            </p>
+
+            <span class="card-link">
+              Schede in preparazione
+            </span>
+
+          </div>
+
+
+
+          <div class="card">
+
+            <div class="card-number">
+              02
+            </div>
+
+            <h3>
+              Binocoli e cannocchiali
+            </h3>
+
+            <p>
+              Binocoli, cannocchiali e piccoli strumenti
+              portatili, compresi i supporti
+              e gli adattatori necessari
+              per il montaggio su cavalletto.
+            </p>
+
+            <span class="card-link">
+              Schede in preparazione
+            </span>
+
+          </div>
+
+
+
+          <div class="card">
+
+            <div class="card-number">
+              03
+            </div>
+
+            <h3>
+              Cavalletti, treppiedi e supporti
+            </h3>
+
+            <p>
+              Cavalletti, treppiedi, colonne,
+              teste e strutture di sostegno:
+              cosa cambia tra i diversi sistemi
+              e quale parte della strumentazione sostengono.
+            </p>
+
+            <span class="card-link">
+              Schede in preparazione
+            </span>
+
+          </div>
+
+
+
+          <div class="card">
+
+            <div class="card-number">
+              04
+            </div>
+
+            <h3>
+              Montature e astroinseguitori
+            </h3>
+
+            <p>
+              Montature altazimutali, equatoriali,
+              a forcella e astroinseguitori:
+              struttura, assi, movimenti
+              e principali componenti meccanici.
+            </p>
+
+            <span class="card-link">
+              Schede in preparazione
+            </span>
+
+          </div>
+
+
+
+          <div class="card">
+
+            <div class="card-number">
+              05
+            </div>
+
+            <h3>
+              Fissaggio e meccanica
+            </h3>
+
+            <p>
+              Code di rondine, slitte, morsetti,
+              anelli, piastre e adattatori:
+              gli elementi che permettono
+              di fissare saldamente strumenti e accessori.
+            </p>
+
+            <span class="card-link">
+              Schede in preparazione
+            </span>
+
+          </div>
+
+
+
+          <div class="card">
+
+            <div class="card-number">
+              06
+            </div>
+
+            <h3>
+              Oculari e accessori ottici
+            </h3>
+
+            <p>
+              Oculari, lenti di Barlow,
+              diagonali e filtri:
+              i principali componenti
+              che vengono inseriti
+              nel percorso ottico del telescopio.
+            </p>
+
+            <span class="card-link">
+              Schede in preparazione
+            </span>
+
+          </div>
+
+
+
+          <div class="card">
+
+            <div class="card-number">
+              07
+            </div>
+
+            <h3>
+              Focheggiatura e treno ottico
+            </h3>
+
+            <p>
+              Focheggiatori manuali e motorizzati,
+              correttori di coma, spianatori,
+              riduttori, prolunghe e distanziatori
+              utilizzati lungo il treno ottico.
+            </p>
+
+            <span class="card-link">
+              Schede in preparazione
+            </span>
+
+          </div>
+
+
+
+          <div class="card">
+
+            <div class="card-number">
+              08
+            </div>
+
+            <h3>
+              Camere e sistemi di ripresa
+            </h3>
+
+            <p>
+              DSLR, mirrorless, camere astronomiche,
+              camere planetarie e raffreddate,
+              camere guida e piccoli telescopi
+              utilizzati per l'autoguida.
+            </p>
+
+            <span class="card-link">
+              Schede in preparazione
+            </span>
+
+          </div>
+
+
+
+          <div class="card">
+
+            <div class="card-number">
+              09
+            </div>
+
+            <h3>
+              Adattatori, collegamenti e alimentazione
+            </h3>
+
+            <p>
+              Anelli T e T2, raccordi, filettature,
+              connettori, cavi, alimentatori,
+              batterie, centraline di distribuzione
+              e sistemi anticondensa.
+            </p>
+
+            <span class="card-link">
+              Schede in preparazione
+            </span>
+
+          </div>
+
+
+
+          <div class="card">
+
+            <div class="card-number">
+              10
+            </div>
+
+            <h3>
+              Controllo dello scatto e accessori
+            </h3>
+
+            <p>
+              Telecomandi, intervallometri,
+              temporizzatori di scatto
+              e piccoli dispositivi fisici
+              utilizzati durante le sessioni di ripresa.
+            </p>
+
+            <span class="card-link">
+              Schede in preparazione
+            </span>
+
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         COME SI ASSEMBLA UNA POSTAZIONE
+    ====================================================== -->
+
+    <section class="assembly">
+
+      <div class="container">
+
+
+        <div class="assembly-heading">
+
+          <div class="assembly-heading-icon">
+            ⚙
+          </div>
+
+          <h2>
+            COME SI ASSEMBLA UNA POSTAZIONE
+          </h2>
+
+          <div class="assembly-heading-line"></div>
+
+        </div>
+
+
+        <p class="assembly-intro">
+          Una guida essenziale all'assemblaggio fisico
+          dei componenti. Non riguarda l'allineamento,
+          il puntamento o la configurazione della strumentazione:
+          mostra semplicemente quali pezzi vengono montati
+          e in quale ordine generale.
+        </p>
+
+
+
+        <div class="assembly-grid">
+
+
+          <article class="assembly-card">
+
+            <div class="assembly-number">
+              01
+            </div>
+
+            <h3>
+              Postazione visuale base
+            </h3>
+
+            <p>
+              La struttura essenziale di una postazione
+              destinata all'osservazione visuale
+              con telescopio.
+            </p>
+
+            <div class="assembly-sequence">
+              Treppiede → Montatura → Contrappesi se previsti →
+              Tubo ottico → Diagonale se prevista → Oculare
+            </div>
+
+          </article>
+
+
+
+          <article class="assembly-card">
+
+            <div class="assembly-number">
+              02
+            </div>
+
+            <h3>
+              Binocolo su cavalletto
+            </h3>
+
+            <p>
+              Anche uno strumento semplice come il binocolo
+              può richiedere un elemento intermedio
+              per essere fissato stabilmente a un supporto.
+            </p>
+
+            <div class="assembly-sequence">
+              Cavalletto → Testa → Adattatore per binocolo → Binocolo
+            </div>
+
+          </article>
+
+
+
+          <article class="assembly-card">
+
+            <div class="assembly-number">
+              03
+            </div>
+
+            <h3>
+              Postazione base per ripresa
+            </h3>
+
+            <p>
+              La sequenza generale dei principali componenti
+              meccanici, ottici ed elettronici
+              di una semplice postazione fotografica astronomica.
+            </p>
+
+            <div class="assembly-sequence">
+              Treppiede → Montatura → Contrappesi → Tubo ottico →
+              Treno ottico → Camera → Eventuale sistema guida →
+              Alimentazione e cablaggio
+            </div>
+
+          </article>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         CONCLUSIONE
+    ====================================================== -->
+
+    <section class="closing">
+
+      <div class="container">
+
+        <div class="closing-box">
+
+          <div class="closing-content">
+
+            <div class="closing-icon">
+              ◇
+            </div>
+
+            <div>
+
+              <h2>
+                Ogni componente ha una funzione
+              </h2>
+
+              <p>
+                Quando in una fotografia, in una didascalia
+                o nella descrizione di una ripresa astronomica
+                compare il nome di uno strumento o di un accessorio,
+                questa sezione permette di riconoscerlo
+                e comprenderne il ruolo all'interno della postazione.
+              </p>
+
+            </div>
+
           </div>
 
         </div>
@@ -1012,169 +1548,6 @@
 
     </section>
 
-
-    <!-- =====================================================
-         SEZIONI FUTURE
-    ====================================================== -->
-
-    <section class="programme">
-
-      <div class="container">
-
-        <div class="programme-heading">
-
-          <h2>
-            Esplorare la strumentazione
-          </h2>
-
-          <div class="programme-heading-line"></div>
-
-        </div>
-
-
-        <div class="cards">
-
-          <article class="card">
-
-            <span class="card-number">
-              01
-            </span>
-
-            <h3>
-              Binocoli
-            </h3>
-
-            <p>
-              Apertura, ingrandimenti, pupilla d'uscita
-              e criteri per scegliere un binocolo
-              adatto all'osservazione astronomica.
-            </p>
-
-          </article>
-
-
-          <article class="card">
-
-            <span class="card-number">
-              02
-            </span>
-
-            <h3>
-              Telescopi rifrattori
-            </h3>
-
-            <p>
-              Come funziona un rifrattore,
-              differenze tra acromatici e apocromatici
-              e principali campi di utilizzo.
-            </p>
-
-          </article>
-
-
-          <article class="card">
-
-            <span class="card-number">
-              03
-            </span>
-
-            <h3>
-              Telescopi Newton
-            </h3>
-
-            <p>
-              Schema ottico, rapporto focale,
-              collimazione e caratteristiche
-              dei telescopi riflettori Newton.
-            </p>
-
-          </article>
-
-
-          <article class="card">
-
-            <span class="card-number">
-              04
-            </span>
-
-            <h3>
-              Catadiottrici
-            </h3>
-
-            <p>
-              Schmidt-Cassegrain, Maksutov e altri
-              sistemi compatti che combinano
-              elementi rifrattivi e riflettenti.
-            </p>
-
-          </article>
-
-
-          <article class="card">
-
-            <span class="card-number">
-              05
-            </span>
-
-            <h3>
-              Montature e accessori
-            </h3>
-
-            <p>
-              Montature altazimutali ed equatoriali,
-              oculari, filtri, diagonali
-              e accessori per l'osservazione.
-            </p>
-
-          </article>
-
-
-          <article class="card">
-
-            <span class="card-number">
-              06
-            </span>
-
-            <h3>
-              Smart telescope
-            </h3>
-
-            <p>
-              Telescopi automatizzati e sistemi
-              digitali integrati: possibilità,
-              limiti e ruolo nell'astronomia amatoriale.
-            </p>
-
-          </article>
-
-        </div>
-
-      </div>
-
-    </section>
-
-
-    <!-- =====================================================
-         CHIUSURA
-    ====================================================== -->
-
-    <section class="closing">
-
-      <div class="container closing-content">
-
-        <div class="closing-mark">
-          ✦
-        </div>
-
-        <p>
-          La sezione verrà sviluppata progressivamente con schede,
-          confronti e guide dedicate alla scelta e all'utilizzo
-          consapevole della strumentazione astronomica.
-        </p>
-
-      </div>
-
-    </section>
 
   </main>
 
