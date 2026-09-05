@@ -183,8 +183,8 @@
 
     .intro-grid {
       display: grid;
-      grid-template-columns: 1fr 390px;
-      gap: 54px;
+      grid-template-columns: minmax(0, 1fr) 490px;
+      gap: 42px;
       align-items: center;
     }
 
@@ -204,11 +204,52 @@
       width: 72px;
       height: 3px;
       background: #2864d7;
-      margin-bottom: 22px;
+      margin-bottom: 25px;
     }
 
-    .intro-text p {
-      margin-bottom: 15px;
+
+    /* =========================================================
+       PUNTI INTRODUTTIVI
+    ========================================================= */
+
+    .intro-points {
+      display: flex;
+      flex-direction: column;
+      gap: 22px;
+    }
+
+    .intro-point {
+      display: grid;
+      grid-template-columns: 34px 1fr;
+      gap: 14px;
+      align-items: start;
+    }
+
+    .intro-point-icon {
+      width: 34px;
+      height: 34px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #2864d7;
+      font-size: 1.15rem;
+      line-height: 1;
+      font-weight: 700;
+    }
+
+    .intro-point-content strong {
+      display: block;
+      margin-bottom: 3px;
+      color: #17365f;
+      font-size: 0.98rem;
+      font-weight: 700;
+    }
+
+    .intro-point-content p {
+      margin: 0;
+      color: #526174;
+      font-size: 0.93rem;
+      line-height: 1.65;
     }
 
 
@@ -226,7 +267,7 @@
     .poster-decoration img {
       width: 100%;
       height: auto;
-      max-height: 390px;
+      max-height: 500px;
       object-fit: contain;
       object-position: center;
     }
@@ -479,8 +520,12 @@
       }
 
       .intro-grid {
-        grid-template-columns: 1fr 320px;
-        gap: 42px;
+        grid-template-columns: minmax(0, 1fr) 390px;
+        gap: 34px;
+      }
+
+      .poster-decoration img {
+        max-height: 430px;
       }
 
       .footer-navigation {
@@ -512,12 +557,12 @@
       }
 
       .intro-grid {
-        grid-template-columns: 1fr 270px;
-        gap: 30px;
+        grid-template-columns: 1fr 300px;
+        gap: 28px;
       }
 
       .poster-decoration img {
-        max-height: 330px;
+        max-height: 360px;
       }
 
       .collection {
@@ -592,11 +637,25 @@
 
       .intro-grid {
         grid-template-columns: 1fr;
-        gap: 12px;
+        gap: 24px;
+      }
+
+      .intro-points {
+        gap: 18px;
+      }
+
+      .intro-point {
+        grid-template-columns: 30px 1fr;
+        gap: 11px;
+      }
+
+      .intro-point-icon {
+        width: 30px;
+        height: 30px;
       }
 
       .poster-decoration {
-        max-width: 360px;
+        max-width: 430px;
         margin: 0 auto;
       }
 
@@ -781,26 +840,89 @@
 
           <div class="intro-line"></div>
 
-          <p>
-            I poster AD ASTRA raccolgono concetti, fenomeni
-            e strumenti dell'astronomia in tavole visuali
-            pensate per unire sintesi, chiarezza
-            e rigore scientifico.
-          </p>
 
-          <p>
-            Ogni raccolta affronta un'area dell'astronomia
-            attraverso poster autonomi, utilizzabili
-            per lo studio, la consultazione
-            e la divulgazione.
-          </p>
+          <div class="intro-points">
 
-          <p>
-            Alcuni poster nascono come contenuti originali
-            dedicati, altri possono svilupparsi
-            dagli argomenti affrontati negli articoli
-            e negli approfondimenti AD ASTRA.
-          </p>
+
+            <div class="intro-point">
+
+              <div
+                class="intro-point-icon"
+                aria-hidden="true"
+              >
+                ◉
+              </div>
+
+              <div class="intro-point-content">
+
+                <strong>
+                  Sintesi visuale
+                </strong>
+
+                <p>
+                  Concetti, fenomeni e strumenti dell'astronomia
+                  condensati in tavole chiare e scientificamente
+                  rigorose.
+                </p>
+
+              </div>
+
+            </div>
+
+
+            <div class="intro-point">
+
+              <div
+                class="intro-point-icon"
+                aria-hidden="true"
+              >
+                ✦
+              </div>
+
+              <div class="intro-point-content">
+
+                <strong>
+                  Percorsi tematici
+                </strong>
+
+                <p>
+                  Ogni raccolta affronta un'area dell'astronomia
+                  attraverso poster autonomi per lo studio,
+                  la consultazione e la divulgazione.
+                </p>
+
+              </div>
+
+            </div>
+
+
+            <div class="intro-point">
+
+              <div
+                class="intro-point-icon"
+                aria-hidden="true"
+              >
+                ◌
+              </div>
+
+              <div class="intro-point-content">
+
+                <strong>
+                  Contenuti originali
+                </strong>
+
+                <p>
+                  Tavole progettate per AD ASTRA o sviluppate
+                  dagli argomenti trattati negli articoli
+                  e negli approfondimenti.
+                </p>
+
+              </div>
+
+            </div>
+
+
+          </div>
 
         </div>
 
