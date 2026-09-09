@@ -178,25 +178,26 @@
 
     .intro {
       background: #ffffff;
-      padding: 58px 0 50px;
+      padding: 42px 0 38px;
     }
 
     .intro-grid {
       display: grid;
-      grid-template-columns: minmax(0, 1fr) 490px;
-      gap: 42px;
-      align-items: center;
+      grid-template-columns: minmax(0, 1fr) 500px;
+      gap: 34px;
+      align-items: stretch;
     }
 
     .intro-text {
       color: #39495c;
       font-size: 0.98rem;
+      padding: 6px 0;
     }
 
     .intro-lead {
       color: #174fb9;
-      font-size: 1.12rem;
-      font-weight: 600;
+      font-size: 1.18rem;
+      font-weight: 700;
       margin-bottom: 12px;
     }
 
@@ -204,7 +205,7 @@
       width: 72px;
       height: 3px;
       background: #2864d7;
-      margin-bottom: 25px;
+      margin-bottom: 24px;
     }
 
 
@@ -215,41 +216,43 @@
     .intro-points {
       display: flex;
       flex-direction: column;
-      gap: 22px;
+      gap: 20px;
     }
 
     .intro-point {
       display: grid;
-      grid-template-columns: 34px 1fr;
-      gap: 14px;
+      grid-template-columns: 42px minmax(0, 1fr);
+      gap: 15px;
       align-items: start;
     }
 
     .intro-point-icon {
-      width: 34px;
-      height: 34px;
+      width: 42px;
+      height: 42px;
       display: flex;
       align-items: center;
       justify-content: center;
       color: #2864d7;
-      font-size: 1.15rem;
+      font-size: 1.2rem;
       line-height: 1;
       font-weight: 700;
     }
 
     .intro-point-content strong {
       display: block;
-      margin-bottom: 3px;
+      margin-bottom: 5px;
       color: #17365f;
-      font-size: 0.98rem;
+      font-size: 1rem;
       font-weight: 700;
     }
 
     .intro-point-content p {
       margin: 0;
       color: #526174;
-      font-size: 0.93rem;
-      line-height: 1.65;
+      font-size: 0.92rem;
+      line-height: 1.62;
+      text-align: justify;
+      text-justify: inter-word;
     }
 
 
@@ -260,16 +263,19 @@
     .poster-decoration {
       width: 100%;
       display: flex;
-      align-items: center;
-      justify-content: center;
+      align-items: stretch;
+      padding-left: 32px;
+      border-left: 2px solid #d5a821;
     }
 
     .poster-decoration img {
       width: 100%;
-      height: auto;
-      max-height: 500px;
-      object-fit: contain;
+      height: 100%;
+      min-height: 470px;
+      max-height: 540px;
+      object-fit: cover;
       object-position: center;
+      border-radius: 8px;
     }
 
 
@@ -520,12 +526,17 @@
       }
 
       .intro-grid {
-        grid-template-columns: minmax(0, 1fr) 390px;
-        gap: 34px;
+        grid-template-columns: minmax(0, 1fr) 410px;
+        gap: 28px;
+      }
+
+      .poster-decoration {
+        padding-left: 26px;
       }
 
       .poster-decoration img {
-        max-height: 430px;
+        min-height: 450px;
+        max-height: 520px;
       }
 
       .footer-navigation {
@@ -556,13 +567,36 @@
         max-width: 43%;
       }
 
+      .intro {
+        padding: 38px 0 34px;
+      }
+
       .intro-grid {
-        grid-template-columns: 1fr 300px;
-        gap: 28px;
+        grid-template-columns: 1fr 320px;
+        gap: 24px;
+      }
+
+      .intro-point {
+        grid-template-columns: 34px 1fr;
+        gap: 11px;
+      }
+
+      .intro-point-icon {
+        width: 34px;
+        height: 34px;
+      }
+
+      .intro-point-content p {
+        font-size: 0.86rem;
+      }
+
+      .poster-decoration {
+        padding-left: 20px;
       }
 
       .poster-decoration img {
-        max-height: 360px;
+        min-height: 430px;
+        max-height: 500px;
       }
 
       .collection {
@@ -632,16 +666,16 @@
       }
 
       .intro {
-        padding-top: 38px;
+        padding: 34px 0 30px;
       }
 
       .intro-grid {
         grid-template-columns: 1fr;
-        gap: 24px;
+        gap: 26px;
       }
 
       .intro-points {
-        gap: 18px;
+        gap: 19px;
       }
 
       .intro-point {
@@ -654,13 +688,24 @@
         height: 30px;
       }
 
+      .intro-point-content p {
+        text-align: left;
+      }
+
       .poster-decoration {
-        max-width: 430px;
+        max-width: 500px;
         margin: 0 auto;
+        padding-left: 0;
+        padding-top: 24px;
+        border-left: 0;
+        border-top: 2px solid #d5a821;
       }
 
       .poster-decoration img {
+        min-height: 0;
         max-height: none;
+        aspect-ratio: 4 / 3;
+        object-fit: cover;
       }
 
       .collections {
@@ -860,9 +905,12 @@
                 </strong>
 
                 <p>
-                  Concetti, fenomeni e strumenti dell'astronomia
-                  condensati in tavole chiare e scientificamente
-                  rigorose.
+                  Un poster scientifico permette di riunire in un'unica
+                  tavola concetti, fenomeni, dati e relazioni che nel testo
+                  richiederebbero una spiegazione più estesa. L'immagine
+                  non sostituisce lo studio: organizza l'informazione e
+                  rende immediatamente riconoscibili i suoi elementi
+                  fondamentali.
                 </p>
 
               </div>
@@ -886,9 +934,12 @@
                 </strong>
 
                 <p>
-                  Ogni raccolta affronta un'area dell'astronomia
-                  attraverso poster autonomi per lo studio,
-                  la consultazione e la divulgazione.
+                  Le raccolte seguono differenti aree dell'astronomia,
+                  dall'orientamento nel cielo alla struttura dell'Universo,
+                  dal Sistema Solare agli strumenti di osservazione e
+                  all'astrofotografia. Ogni poster costituisce un contenuto
+                  autonomo, pensato per lo studio, la consultazione
+                  e la divulgazione.
                 </p>
 
               </div>
@@ -912,9 +963,11 @@
                 </strong>
 
                 <p>
-                  Tavole progettate per AD ASTRA o sviluppate
-                  dagli argomenti trattati negli articoli
-                  e negli approfondimenti.
+                  Le tavole sono progettate per AD ASTRA come materiali
+                  didattici indipendenti oppure sviluppate a partire dagli
+                  argomenti affrontati negli articoli e negli approfondimenti.
+                  Testo, immagini e schemi concorrono alla costruzione di una
+                  sintesi scientificamente rigorosa ma accessibile.
                 </p>
 
               </div>
@@ -930,8 +983,8 @@
         <div class="poster-decoration">
 
           <img
-            src="poster-decor.png"
-            alt="Illustrazione astronomica AD ASTRA con telescopio, pianeti e oggetti del cielo profondo"
+            src="poster-lezione-universo.png"
+            alt="Lezione di astronomia AD ASTRA con poster dedicato all'Universo"
           >
 
         </div>
