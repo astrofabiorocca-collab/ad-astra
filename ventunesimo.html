@@ -1,0 +1,1643 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>VENTUNESIMO | AD ASTRA</title>
+
+  <meta
+    name="description"
+    content="VENTUNESIMO — IL NOSTRO SECOLO. Collana digitale di approfondimento di AD ASTRA dedicata a scienza, tecnologia, spazio, energia, ambiente e trasformazioni del XXI secolo."
+  >
+
+
+  <style>
+
+    /* =========================================================
+       RESET E BASE
+    ========================================================= */
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f7f9fc;
+      color: #102342;
+      line-height: 1.65;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+    }
+
+    .container {
+      width: min(1180px, 92%);
+      margin: 0 auto;
+    }
+
+
+    /* =========================================================
+       BANNER SUPERIORE AD ASTRA
+    ========================================================= */
+
+    .top-banner {
+      position: relative;
+      width: 100%;
+      height: clamp(270px, 16.6vw, 340px);
+      overflow: hidden;
+      background: #07152a;
+    }
+
+    .top-banner-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: top center;
+      display: block;
+    }
+
+    .banner-section-title {
+      position: absolute;
+      left: 55%;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 2;
+      max-width: 42%;
+      color: #ffffff;
+    }
+
+    .banner-section-title h1 {
+      margin-bottom: 5px;
+      color: #f4c84e;
+      font-size: clamp(1.45rem, 2.6vw, 2.55rem);
+      line-height: 1.15;
+      font-weight: 700;
+      text-shadow: 0 2px 8px rgba(0,0,0,.55);
+    }
+
+    .banner-section-title p {
+      color: #ffffff;
+      font-size: clamp(.78rem,1.35vw,1.08rem);
+      text-shadow: 0 2px 6px rgba(0,0,0,.65);
+    }
+
+
+    /* =========================================================
+       MENU PRINCIPALE
+    ========================================================= */
+
+    .main-navigation {
+      width: 100%;
+      background: linear-gradient(
+        180deg,
+        #07182d 0%,
+        #041326 100%
+      );
+      border-top: 1px solid rgba(255,255,255,.08);
+      border-bottom: 1px solid rgba(255,255,255,.12);
+    }
+
+    .main-navigation ul {
+      min-height: 54px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: nowrap;
+      gap: 0;
+      list-style: none;
+    }
+
+    .main-navigation li {
+      position: relative;
+      flex-shrink: 0;
+    }
+
+    .main-navigation li + li::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 50%;
+      width: 1px;
+      height: 22px;
+      transform: translateY(-50%);
+      background: rgba(255,255,255,.28);
+    }
+
+    .main-navigation a {
+      display: block;
+      padding: 14px 9px 12px;
+      color: #e6edf5;
+      font-size: .64rem;
+      white-space: nowrap;
+      font-weight: 600;
+      transition:
+        color .2s ease,
+        background .2s ease;
+    }
+
+    .main-navigation a:hover {
+      color: #5eb5ff;
+    }
+
+    .main-navigation a.active {
+      color: #ffffff;
+      box-shadow: inset 0 -3px 0 #4aa7ff;
+    }
+
+
+    /* =========================================================
+       TESTATA VENTUNESIMO
+    ========================================================= */
+
+    .ventunesimo-header {
+      position: relative;
+      overflow: hidden;
+      padding: 70px 0 76px;
+      background:
+        linear-gradient(
+          135deg,
+          #0a1727 0%,
+          #101c2e 55%,
+          #091321 100%
+        );
+      color: #ffffff;
+    }
+
+    .ventunesimo-header::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      opacity: .13;
+      background-image:
+        linear-gradient(
+          rgba(255,255,255,.15) 1px,
+          transparent 1px
+        ),
+        linear-gradient(
+          90deg,
+          rgba(255,255,255,.15) 1px,
+          transparent 1px
+        );
+      background-size: 36px 36px;
+      pointer-events: none;
+    }
+
+    .ventunesimo-header::after {
+      content: "";
+      position: absolute;
+      width: 430px;
+      height: 430px;
+      right: -80px;
+      top: 50%;
+      transform: translateY(-50%);
+      border: 1px solid rgba(99,177,236,.30);
+      border-radius: 50%;
+      box-shadow:
+        0 0 0 55px rgba(99,177,236,.025),
+        0 0 0 110px rgba(99,177,236,.018);
+      pointer-events: none;
+    }
+
+    .ventunesimo-brand {
+      position: relative;
+      z-index: 2;
+      max-width: 900px;
+    }
+
+    .ventunesimo-kicker {
+      margin-bottom: 8px;
+      color: #e2a34a;
+      font-size: .82rem;
+      font-weight: 700;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+    }
+
+    .ventunesimo-name {
+      margin-bottom: 8px;
+      color: #f4f1e8;
+      font-size: clamp(3rem,7vw,6.2rem);
+      line-height: .98;
+      font-family: Georgia, "Times New Roman", serif;
+      font-weight: 700;
+      letter-spacing: .02em;
+    }
+
+    .ventunesimo-subtitle {
+      margin-bottom: 28px;
+      color: #e2a34a;
+      font-size: clamp(1rem,1.8vw,1.45rem);
+      font-weight: 700;
+      letter-spacing: .13em;
+      text-transform: uppercase;
+    }
+
+    .ventunesimo-description {
+      max-width: 710px;
+      color: #cfdae5;
+      font-size: 1rem;
+      line-height: 1.75;
+    }
+
+
+    /* =========================================================
+       INTRODUZIONE
+    ========================================================= */
+
+    .intro {
+      padding: 58px 0 55px;
+      background: #ffffff;
+      border-bottom: 1px solid #dce4ed;
+    }
+
+    .intro-grid {
+      display: grid;
+      grid-template-columns: minmax(0,1fr) 360px;
+      gap: 46px;
+      align-items: stretch;
+    }
+
+    .intro-lead {
+      margin-bottom: 11px;
+      color: #174fb9;
+      font-size: 1.17rem;
+      font-weight: 700;
+    }
+
+    .intro-line {
+      width: 72px;
+      height: 3px;
+      margin-bottom: 22px;
+      background: #2864d7;
+    }
+
+    .intro-text {
+      color: #48596c;
+      font-size: .96rem;
+    }
+
+    .intro-text p {
+      margin-bottom: 15px;
+      text-align: justify;
+    }
+
+    .intro-text p:last-child {
+      margin-bottom: 0;
+    }
+
+    .intro-box {
+      padding: 30px;
+      border-radius: 9px;
+      background:
+        linear-gradient(
+          145deg,
+          #102b4d,
+          #07182d
+        );
+      color: #ffffff;
+      box-shadow:
+        0 10px 28px rgba(9,30,55,.16);
+    }
+
+    .intro-box-symbol {
+      margin-bottom: 14px;
+      color: #e2a34a;
+      font-size: 2.45rem;
+      line-height: 1;
+    }
+
+    .intro-box h2 {
+      margin-bottom: 11px;
+      font-size: 1.05rem;
+    }
+
+    .intro-box p {
+      color: #d8e2ed;
+      font-size: .86rem;
+    }
+
+
+    /* =========================================================
+       ULTIMA USCITA
+    ========================================================= */
+
+    .latest-section {
+      padding: 68px 0 72px;
+      background: #f4f6f8;
+    }
+
+    .section-heading {
+      display: grid;
+      grid-template-columns: 62px minmax(0,1fr);
+      gap: 18px;
+      align-items: center;
+      margin-bottom: 12px;
+    }
+
+    .section-number {
+      width: 52px;
+      height: 52px;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      background: #2864d7;
+      color: #ffffff;
+      font-size: .82rem;
+      font-weight: 700;
+    }
+
+    .section-heading h2 {
+      color: #102342;
+      font-size: clamp(1.45rem,2.4vw,1.95rem);
+      line-height: 1.2;
+    }
+
+    .section-description {
+      max-width: 850px;
+      margin: 0 0 32px 80px;
+      color: #58687a;
+      font-size: .92rem;
+    }
+
+    .latest-card {
+      display: grid;
+      grid-template-columns: 380px minmax(0,1fr);
+      gap: 44px;
+      align-items: center;
+      padding: 38px;
+      border-radius: 10px;
+      background: #ffffff;
+      border: 1px solid #dce4ed;
+      box-shadow:
+        0 8px 24px rgba(18,39,67,.07);
+    }
+
+    .latest-cover-wrap {
+      display: flex;
+      justify-content: center;
+    }
+
+    .latest-cover {
+      width: min(100%, 320px);
+      box-shadow:
+        0 12px 28px rgba(9,22,38,.23);
+    }
+
+    .latest-label {
+      margin-bottom: 8px;
+      color: #e08f25;
+      font-size: .74rem;
+      font-weight: 700;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
+    .latest-content h3 {
+      margin-bottom: 10px;
+      color: #17365f;
+      font-size: clamp(1.65rem,3vw,2.4rem);
+      line-height: 1.2;
+    }
+
+    .latest-subtitle {
+      margin-bottom: 19px;
+      color: #657486;
+      font-size: .91rem;
+      font-weight: 700;
+    }
+
+    .latest-content p {
+      margin-bottom: 17px;
+      color: #5b6a7c;
+      font-size: .93rem;
+    }
+
+    .latest-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 11px;
+      margin-top: 23px;
+    }
+
+    .primary-button,
+    .secondary-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 42px;
+      padding: 10px 17px;
+      border-radius: 5px;
+      font-size: .8rem;
+      font-weight: 700;
+    }
+
+    .primary-button {
+      background: #2864d7;
+      color: #ffffff;
+    }
+
+    .secondary-button {
+      border: 1px solid #2864d7;
+      color: #2864d7;
+      background: #ffffff;
+    }
+
+
+    /* =========================================================
+       ARCHIVIO USCITE
+    ========================================================= */
+
+    .archive-section {
+      padding: 66px 0 72px;
+      background: #ffffff;
+      border-top: 1px solid #e0e7ee;
+      border-bottom: 1px solid #e0e7ee;
+    }
+
+    .issues-grid {
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      gap: 24px;
+    }
+
+    .issue-card {
+      display: grid;
+      grid-template-columns: 125px minmax(0,1fr);
+      gap: 19px;
+      align-items: start;
+      padding: 22px;
+      background: #f8fafc;
+      border: 1px solid #dce4ed;
+      border-radius: 8px;
+    }
+
+    .issue-cover-placeholder {
+      width: 125px;
+      height: 176px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 12px;
+      background:
+        linear-gradient(
+          145deg,
+          #18283d,
+          #091523
+        );
+      color: #e7edf4;
+      text-align: center;
+      font-size: .7rem;
+      font-weight: 700;
+    }
+
+    .issue-number {
+      margin-bottom: 4px;
+      color: #e08f25;
+      font-size: .68rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .06em;
+    }
+
+    .issue-card h3 {
+      margin-bottom: 7px;
+      color: #17365f;
+      font-size: 1rem;
+      line-height: 1.35;
+    }
+
+    .issue-date {
+      margin-bottom: 11px;
+      color: #8793a2;
+      font-size: .72rem;
+    }
+
+    .issue-card p {
+      margin-bottom: 13px;
+      color: #657486;
+      font-size: .78rem;
+      line-height: 1.5;
+    }
+
+    .issue-link {
+      color: #2864d7;
+      font-size: .76rem;
+      font-weight: 700;
+    }
+
+
+    /* =========================================================
+       IDENTITÀ EDITORIALE
+    ========================================================= */
+
+    .identity-section {
+      padding: 64px 0 70px;
+      background: #eef3f7;
+    }
+
+    .identity-grid {
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      gap: 22px;
+      margin-top: 30px;
+    }
+
+    .identity-card {
+      padding: 26px;
+      background: #ffffff;
+      border: 1px solid #dbe4ec;
+      border-radius: 8px;
+    }
+
+    .identity-card h3 {
+      margin-bottom: 9px;
+      color: #17365f;
+      font-size: 1rem;
+    }
+
+    .identity-card p {
+      color: #5d6d7f;
+      font-size: .82rem;
+    }
+
+
+    /* =========================================================
+       NOTA EDITORIALE
+    ========================================================= */
+
+    .editorial-note {
+      padding: 48px 0 58px;
+      background: #ffffff;
+    }
+
+    .editorial-note-box {
+      padding: 28px 31px;
+      background: #f7f9fc;
+      border-left: 4px solid #e08f25;
+    }
+
+    .editorial-note-box h2 {
+      margin-bottom: 9px;
+      color: #17365f;
+      font-size: 1.05rem;
+    }
+
+    .editorial-note-box p {
+      margin-bottom: 9px;
+      color: #59697b;
+      font-size: .84rem;
+    }
+
+    .editorial-note-box p:last-child {
+      margin-bottom: 0;
+    }
+
+
+    /* =========================================================
+       FOOTER
+    ========================================================= */
+
+    .site-footer {
+      position:relative;
+      width:100%;
+      height:clamp(300px,19.8vw,405px);
+      overflow:hidden;
+      background:#041529;
+    }
+
+    .bottom-banner-image {
+      width:100%;
+      height:100%;
+      object-fit:cover;
+      object-position:top center;
+      display:block;
+    }
+
+    .footer-navigation {
+      position:absolute;
+      top:47%;
+      right:3%;
+      transform:translateY(-50%);
+      width:53%;
+      display:grid;
+      grid-template-columns:repeat(4,1fr);
+      gap:18px;
+      color:#fff;
+    }
+
+    .footer-column h3 {
+      margin-bottom:10px;
+      color:#fff;
+      font-size:.82rem;
+    }
+
+    .footer-column ul {
+      list-style:none;
+    }
+
+    .footer-column li {
+      margin-bottom:6px;
+    }
+
+    .footer-column a {
+      color:#bcc8d5;
+      font-size:.72rem;
+      transition:color .2s ease;
+    }
+
+    .footer-column a:hover {
+      color:#5eb5ff;
+    }
+
+    .footer-facebook {
+      width:38px;
+      height:38px;
+      display:grid;
+      place-items:center;
+      border-radius:50%;
+      background:#1877f2;
+      color:#fff;
+      font-size:1.25rem;
+      font-weight:700;
+      font-family:Arial,sans-serif;
+    }
+
+
+    /* =========================================================
+       RESPONSIVE
+    ========================================================= */
+
+    @media (max-width:1100px) {
+
+      .main-navigation ul {
+        justify-content:flex-start;
+        overflow-x:auto;
+      }
+
+      .latest-card {
+        grid-template-columns:300px minmax(0,1fr);
+      }
+
+      .issues-grid {
+        grid-template-columns:repeat(2,1fr);
+      }
+
+      .footer-navigation {
+        width:55%;
+        right:2%;
+        gap:12px;
+      }
+
+    }
+
+
+    @media (max-width:850px) {
+
+      .top-banner {
+        height:clamp(210px,29vw,250px);
+      }
+
+      .banner-section-title {
+        left:54%;
+        max-width:43%;
+      }
+
+      .intro-grid {
+        grid-template-columns:1fr;
+        gap:28px;
+      }
+
+      .latest-card {
+        grid-template-columns:1fr;
+      }
+
+      .identity-grid {
+        grid-template-columns:1fr;
+      }
+
+      .site-footer {
+        height:auto;
+      }
+
+      .bottom-banner-image {
+        width:100%;
+        height:auto;
+        object-fit:initial;
+      }
+
+      .footer-navigation {
+        position:static;
+        width:100%;
+        transform:none;
+        grid-template-columns:repeat(2,1fr);
+        padding:30px 5%;
+        background:#041529;
+      }
+
+    }
+
+
+    @media (max-width:650px) {
+
+      .top-banner {
+        height:auto;
+      }
+
+      .top-banner-image {
+        width:100%;
+        height:auto;
+        object-fit:initial;
+      }
+
+      .banner-section-title {
+        position:static;
+        transform:none;
+        max-width:none;
+        padding:18px 5%;
+        background:#07182d;
+      }
+
+      .banner-section-title h1 {
+        font-size:1.35rem;
+      }
+
+      .main-navigation ul {
+        justify-content:flex-start;
+        flex-wrap:nowrap;
+        overflow-x:auto;
+        padding:0 4%;
+      }
+
+      .ventunesimo-header {
+        padding:52px 0 57px;
+      }
+
+      .ventunesimo-header::after {
+        width:280px;
+        height:280px;
+        right:-140px;
+      }
+
+      .section-heading {
+        grid-template-columns:48px 1fr;
+        gap:13px;
+      }
+
+      .section-number {
+        width:44px;
+        height:44px;
+      }
+
+      .section-description {
+        margin-left:61px;
+      }
+
+      .latest-card {
+        padding:24px;
+      }
+
+      .issues-grid {
+        grid-template-columns:1fr;
+      }
+
+      .issue-card {
+        grid-template-columns:100px minmax(0,1fr);
+      }
+
+      .issue-cover-placeholder {
+        width:100px;
+        height:142px;
+      }
+
+      .footer-navigation {
+        grid-template-columns:1fr;
+      }
+
+    }
+
+  </style>
+
+</head>
+
+
+<body>
+
+
+  <!-- =====================================================
+       BANNER SUPERIORE AD ASTRA
+  ====================================================== -->
+
+  <header class="top-banner">
+
+    <img
+      class="top-banner-image"
+      src="banner.png"
+      alt="AD ASTRA"
+    >
+
+    <div class="banner-section-title">
+
+      <h1>
+        VENTUNESIMO
+      </h1>
+
+      <p>
+        Il nostro secolo
+      </p>
+
+    </div>
+
+  </header>
+
+
+
+  <!-- =====================================================
+       MENU PRINCIPALE
+  ====================================================== -->
+
+  <nav
+    class="main-navigation"
+    aria-label="Navigazione principale"
+  >
+
+    <ul>
+
+      <li>
+        <a href="index.html">
+          HOME
+        </a>
+      </li>
+
+      <li>
+        <a href="scuola-astronomia.html">
+          SCUOLA DI ASTRONOMIA
+        </a>
+      </li>
+
+      <li>
+        <a href="guide.html">
+          GUIDE
+        </a>
+      </li>
+
+      <li>
+        <a href="strumentazione.html">
+          STRUMENTAZIONE
+        </a>
+      </li>
+
+      <li>
+        <a href="astrofotografia.html">
+          ASTROFOTOGRAFIA
+        </a>
+      </li>
+
+      <li>
+        <a href="poster.html">
+          POSTER
+        </a>
+      </li>
+
+      <li>
+        <a href="cielo-del-mese.html">
+          IL CIELO DEL MESE
+        </a>
+      </li>
+
+      <li>
+        <a href="effemeridi.html">
+          EFFEMERIDI
+        </a>
+      </li>
+
+      <li>
+        <a href="software.html">
+          SOFTWARE
+        </a>
+      </li>
+
+      <li>
+        <a href="biblioteca.html">
+          BIBLIOTECA
+        </a>
+      </li>
+
+      <li>
+        <a href="pubblicazioni-ad-astra.html">
+          PUBBLICAZIONI
+        </a>
+      </li>
+
+      <li>
+        <a href="notizie.html">
+          NOTIZIE
+        </a>
+      </li>
+
+      <li>
+        <a
+          class="active"
+          href="ventunesimo.html"
+        >
+          VENTUNESIMO
+        </a>
+      </li>
+
+    </ul>
+
+  </nav>
+
+
+
+  <main>
+
+
+    <!-- =====================================================
+         IDENTITÀ VENTUNESIMO
+    ====================================================== -->
+
+    <section class="ventunesimo-header">
+
+      <div class="container">
+
+        <div class="ventunesimo-brand">
+
+          <div class="ventunesimo-kicker">
+            AD ASTRA · PROGETTO EDITORIALE
+          </div>
+
+          <div class="ventunesimo-name">
+            VENTUNESIMO
+          </div>
+
+          <div class="ventunesimo-subtitle">
+            IL NOSTRO SECOLO
+          </div>
+
+          <p class="ventunesimo-description">
+            Scienza, tecnologia, spazio,
+            energia, ambiente e società.
+            Una collana digitale dedicata
+            alle trasformazioni che stanno definendo
+            il XXI secolo e alle domande
+            che accompagneranno il nostro futuro.
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         INTRODUZIONE
+    ====================================================== -->
+
+    <section class="intro">
+
+      <div class="container intro-grid">
+
+
+        <div class="intro-text">
+
+          <p class="intro-lead">
+            Approfondire senza inseguire il calendario.
+          </p>
+
+          <div class="intro-line"></div>
+
+          <p>
+            VENTUNESIMO è una collana digitale
+            di approfondimento collegata ad AD ASTRA,
+            ma distinta dai normali contenuti social.
+          </p>
+
+          <p>
+            I post, le notizie brevi e gli aggiornamenti
+            rimangono la vetrina immediata del progetto.
+            Qui trovano invece spazio articoli più estesi,
+            riflessioni e dossier dedicati
+            ai grandi cambiamenti del nostro tempo.
+          </p>
+
+          <p>
+            Non esiste una periodicità prestabilita.
+            Una nuova uscita viene pubblicata
+            quando l'argomento, la ricerca
+            e il lavoro editoriale la giustificano.
+          </p>
+
+        </div>
+
+
+        <aside class="intro-box">
+
+          <div class="intro-box-symbol">
+            XXI
+          </div>
+
+          <h2>
+            Una collana, non un calendario
+          </h2>
+
+          <p>
+            Più articoli possono uscire
+            nello stesso mese oppure può trascorrere
+            un periodo più lungo fra due pubblicazioni.
+            La priorità resta il contenuto.
+          </p>
+
+        </aside>
+
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         ULTIMA USCITA
+    ====================================================== -->
+
+    <section class="latest-section">
+
+      <div class="container">
+
+
+        <div class="section-heading">
+
+          <div class="section-number">
+            01
+          </div>
+
+          <h2>
+            ULTIMA USCITA
+          </h2>
+
+        </div>
+
+        <p class="section-description">
+          L'articolo più recente pubblicato
+          nella collana VENTUNESIMO.
+        </p>
+
+
+        <article class="latest-card">
+
+
+          <div class="latest-cover-wrap">
+
+            <img
+              class="latest-cover"
+              src="VENTUNESIMO_01_pietra_miliare.png"
+              alt="Copertina di VENTUNESIMO — Il nostro secolo"
+            >
+
+          </div>
+
+
+          <div class="latest-content">
+
+            <div class="latest-label">
+              VENTUNESIMO · 01
+            </div>
+
+            <h3>
+              Titolo dell'uscita
+            </h3>
+
+            <div class="latest-subtitle">
+              Sottotitolo dell'articolo
+            </div>
+
+            <p>
+              In questo spazio verrà inserita
+              una breve introduzione al contenuto
+              della prima uscita.
+              Non un semplice abstract,
+              ma poche righe capaci di spiegare
+              il tema e la prospettiva
+              con cui viene affrontato.
+            </p>
+
+            <p>
+              Ogni uscita sarà progettata
+              come un vero prodotto editoriale:
+              copertina, testo su colonne,
+              immagini, didascalie,
+              approfondimenti e gerarchia
+              tipografica coerente.
+            </p>
+
+
+            <div class="latest-actions">
+
+              <a
+                class="primary-button"
+                href="#"
+              >
+                LEGGI L'ARTICOLO
+              </a>
+
+              <a
+                class="secondary-button"
+                href="#"
+              >
+                SCARICA PDF
+              </a>
+
+            </div>
+
+          </div>
+
+
+        </article>
+
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         ARCHIVIO
+    ====================================================== -->
+
+    <section class="archive-section">
+
+      <div class="container">
+
+
+        <div class="section-heading">
+
+          <div class="section-number">
+            02
+          </div>
+
+          <h2>
+            ARCHIVIO DELLE USCITE
+          </h2>
+
+        </div>
+
+        <p class="section-description">
+          Tutti gli articoli pubblicati
+          verranno raccolti qui,
+          mantenendo accessibile l'intero percorso
+          editoriale di VENTUNESIMO.
+        </p>
+
+
+        <div class="issues-grid">
+
+
+          <article class="issue-card">
+
+            <div class="issue-cover-placeholder">
+              USCITA
+              <br>
+              01
+            </div>
+
+            <div>
+
+              <div class="issue-number">
+                VENTUNESIMO 01
+              </div>
+
+              <h3>
+                Titolo da inserire
+              </h3>
+
+              <div class="issue-date">
+                Data da inserire
+              </div>
+
+              <p>
+                Breve presentazione
+                dell'articolo.
+              </p>
+
+              <a
+                class="issue-link"
+                href="#"
+              >
+                Apri →
+              </a>
+
+            </div>
+
+          </article>
+
+
+
+          <article class="issue-card">
+
+            <div class="issue-cover-placeholder">
+              PROSSIMA
+              <br>
+              USCITA
+            </div>
+
+            <div>
+
+              <div class="issue-number">
+                Archivio
+              </div>
+
+              <h3>
+                Spazio per una nuova uscita
+              </h3>
+
+              <div class="issue-date">
+                —
+              </div>
+
+              <p>
+                La scheda verrà aggiunta
+                quando sarà pubblicato
+                un nuovo articolo.
+              </p>
+
+            </div>
+
+          </article>
+
+
+
+          <article class="issue-card">
+
+            <div class="issue-cover-placeholder">
+              PROSSIMA
+              <br>
+              USCITA
+            </div>
+
+            <div>
+
+              <div class="issue-number">
+                Archivio
+              </div>
+
+              <h3>
+                Spazio per una nuova uscita
+              </h3>
+
+              <div class="issue-date">
+                —
+              </div>
+
+              <p>
+                L'archivio crescerà
+                senza una periodicità obbligatoria.
+              </p>
+
+            </div>
+
+          </article>
+
+
+        </div>
+
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         IDENTITÀ EDITORIALE
+    ====================================================== -->
+
+    <section class="identity-section">
+
+      <div class="container">
+
+
+        <div class="section-heading">
+
+          <div class="section-number">
+            03
+          </div>
+
+          <h2>
+            IDENTITÀ EDITORIALE
+          </h2>
+
+        </div>
+
+
+        <p class="section-description">
+          Tre principi definiscono
+          il progetto VENTUNESIMO.
+        </p>
+
+
+        <div class="identity-grid">
+
+
+          <article class="identity-card">
+
+            <h3>
+              Approfondimento
+            </h3>
+
+            <p>
+              Ogni uscita nasce per sviluppare
+              un argomento con maggiore profondità
+              rispetto ai normali contenuti social.
+            </p>
+
+          </article>
+
+
+
+          <article class="identity-card">
+
+            <h3>
+              Impaginazione editoriale
+            </h3>
+
+            <p>
+              Testo, immagini, didascalie,
+              dati e richiami vengono organizzati
+              con una vera struttura da pubblicazione.
+            </p>
+
+          </article>
+
+
+
+          <article class="identity-card">
+
+            <h3>
+              Libertà di pubblicazione
+            </h3>
+
+            <p>
+              Nessuna uscita viene prodotta
+              per rispettare una scadenza.
+              Il ritmo segue le idee
+              e la qualità del lavoro.
+            </p>
+
+          </article>
+
+
+        </div>
+
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         NOTA EDITORIALE
+    ====================================================== -->
+
+    <section class="editorial-note">
+
+      <div class="container">
+
+        <div class="editorial-note-box">
+
+          <h2>
+            Nota editoriale
+          </h2>
+
+          <p>
+            Progetto a cura di Fabio Rocca.
+            Contenuti editoriali originali.
+          </p>
+
+          <p>
+            Revisione editoriale e generazione
+            delle immagini realizzate
+            con il supporto dell'intelligenza artificiale.
+          </p>
+
+          <p>
+            VENTUNESIMO non è una rivista periodica.
+            È una collana digitale di approfondimento
+            pubblicata da AD ASTRA
+            senza cadenza prestabilita.
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+  </main>
+
+
+
+  <!-- =====================================================
+       FOOTER
+  ====================================================== -->
+
+  <footer class="site-footer">
+
+    <img
+      class="bottom-banner-image"
+      src="banner 2.png"
+      alt="AD ASTRA - Astronomia, osservazione del cielo, astrofotografia e divulgazione scientifica"
+    >
+
+
+    <div class="footer-navigation">
+
+
+      <div class="footer-column">
+
+        <h3>
+          Scuola di Astronomia
+        </h3>
+
+        <ul>
+
+          <li>
+            <a href="scuola-astronomia.html">
+              Scuola di Astronomia
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              Lezioni
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              Approfondimenti
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+
+
+      <div class="footer-column">
+
+        <h3>
+          Esplora
+        </h3>
+
+        <ul>
+
+          <li>
+            <a href="index.html">
+              Home
+            </a>
+          </li>
+
+          <li>
+            <a href="guide.html">
+              Guide
+            </a>
+          </li>
+
+          <li>
+            <a href="strumentazione.html">
+              Strumentazione
+            </a>
+          </li>
+
+          <li>
+            <a href="cielo-del-mese.html">
+              Il Cielo del Mese
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+
+
+      <div class="footer-column">
+
+        <h3>
+          Risorse
+        </h3>
+
+        <ul>
+
+          <li>
+            <a href="astrofotografia.html">
+              Astrofotografia
+            </a>
+          </li>
+
+          <li>
+            <a href="poster.html">
+              Poster
+            </a>
+          </li>
+
+          <li>
+            <a href="effemeridi.html">
+              Effemeridi
+            </a>
+          </li>
+
+          <li>
+            <a href="software.html">
+              Software
+            </a>
+          </li>
+
+          <li>
+            <a href="biblioteca.html">
+              Biblioteca
+            </a>
+          </li>
+
+          <li>
+            <a href="pubblicazioni-ad-astra.html">
+              Pubblicazioni
+            </a>
+          </li>
+
+          <li>
+            <a href="notizie.html">
+              Notizie
+            </a>
+          </li>
+
+          <li>
+            <a href="ventunesimo.html">
+              VENTUNESIMO
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              Contatti
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+
+
+      <div class="footer-column">
+
+        <h3>
+          Seguici su
+        </h3>
+
+        <a
+          class="footer-facebook"
+          href="#"
+          aria-label="Facebook AD ASTRA"
+        >
+          f
+        </a>
+
+      </div>
+
+
+    </div>
+
+  </footer>
+
+
+</body>
+
+</html>
