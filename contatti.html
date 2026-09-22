@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>Contatti | AD ASTRA</title>
+
+  <meta
+    name="description"
+    content="Contatti AD ASTRA - Centro di Ricerca e Divulgazione Astronomica."
+  >
+
+
+  <style>
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f7f9fc;
+      color: #102342;
+      line-height: 1.65;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+    }
+
+    .container {
+      width: min(980px, 92%);
+      margin: 0 auto;
+    }
+
+    .top-banner {
+      position: relative;
+      width: 100%;
+      height: clamp(270px, 16.6vw, 340px);
+      overflow: hidden;
+      background: #07152a;
+    }
+
+    .top-banner-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: top center;
+      display: block;
+    }
+
+    .banner-section-title {
+      position: absolute;
+      left: 55%;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 2;
+      max-width: 42%;
+      color: #ffffff;
+    }
+
+    .banner-section-title h1 {
+      margin-bottom: 5px;
+      color: #f4c84e;
+      font-size: clamp(1.45rem, 2.6vw, 2.55rem);
+      line-height: 1.15;
+      font-weight: 700;
+      text-shadow: 0 2px 8px rgba(0,0,0,.55);
+    }
+
+    .banner-section-title p {
+      color:#fff;
+      font-size:clamp(.78rem,1.35vw,1.08rem);
+      text-shadow:0 2px 6px rgba(0,0,0,.65);
+    }
+
+    .main-navigation {
+      width:100%;
+      background:linear-gradient(180deg,#07182d 0%,#041326 100%);
+      border-top:1px solid rgba(255,255,255,.08);
+      border-bottom:1px solid rgba(255,255,255,.12);
+    }
+
+    .main-navigation ul {
+      min-height:54px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      flex-wrap:nowrap;
+      gap:0;
+      list-style:none;
+    }
+
+    .main-navigation li {
+      position:relative;
+      flex-shrink:0;
+    }
+
+    .main-navigation li + li::before {
+      content:"";
+      position:absolute;
+      left:0;
+      top:50%;
+      width:1px;
+      height:22px;
+      transform:translateY(-50%);
+      background:rgba(255,255,255,.28);
+    }
+
+    .main-navigation a {
+      display:block;
+      padding:14px 9px 12px;
+      color:#e6edf5;
+      font-size:.64rem;
+      white-space:nowrap;
+      font-weight:600;
+      transition:color .2s ease,background .2s ease;
+    }
+
+    .main-navigation a:hover {
+      color:#5eb5ff;
+    }
+
+    .contact-section {
+      padding: 66px 0 72px;
+      background: #ffffff;
+    }
+
+    .contact-intro {
+      max-width: 760px;
+      margin-bottom: 34px;
+    }
+
+    .contact-intro h2 {
+      margin-bottom: 10px;
+      color: #17365f;
+      font-size: clamp(1.5rem, 2.8vw, 2rem);
+    }
+
+    .contact-intro p {
+      color: #59697b;
+      font-size: .95rem;
+    }
+
+    .contact-form {
+      padding: 32px;
+      background: #f7f9fc;
+      border: 1px solid #dce4ed;
+      border-radius: 9px;
+      box-shadow: 0 7px 22px rgba(18,39,67,.06);
+    }
+
+    .form-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+
+    .form-field {
+      display: flex;
+      flex-direction: column;
+      gap: 7px;
+    }
+
+    .form-field.full {
+      grid-column: 1 / -1;
+    }
+
+    .form-field label {
+      color: #17365f;
+      font-size: .82rem;
+      font-weight: 700;
+    }
+
+    .form-field input,
+    .form-field textarea {
+      width: 100%;
+      border: 1px solid #cfd9e4;
+      border-radius: 5px;
+      background: #ffffff;
+      color: #102342;
+      font: inherit;
+      padding: 12px 13px;
+      outline: none;
+    }
+
+    .form-field input:focus,
+    .form-field textarea:focus {
+      border-color: #2864d7;
+      box-shadow: 0 0 0 2px rgba(40,100,215,.10);
+    }
+
+    .form-field textarea {
+      min-height: 180px;
+      resize: vertical;
+    }
+
+    .form-actions {
+      margin-top: 22px;
+    }
+
+    .form-submit {
+      min-height: 43px;
+      padding: 10px 18px;
+      border: 0;
+      border-radius: 5px;
+      background: #2864d7;
+      color: #ffffff;
+      font-weight: 700;
+      cursor: not-allowed;
+      opacity: .58;
+    }
+
+    .form-note {
+      margin-top: 12px;
+      color: #7a8797;
+      font-size: .76rem;
+    }
+
+    .site-footer {
+      position:relative;
+      width:100%;
+      height:clamp(300px,19.8vw,405px);
+      overflow:hidden;
+      background:#041529;
+    }
+
+    .bottom-banner-image {
+      width:100%;
+      height:100%;
+      object-fit:cover;
+      object-position:top center;
+      display:block;
+    }
+
+    .footer-navigation {
+      position:absolute;
+      top:47%;
+      right:3%;
+      transform:translateY(-50%);
+      width:53%;
+      display:grid;
+      grid-template-columns:repeat(4,1fr);
+      gap:18px;
+      color:#fff;
+    }
+
+    .footer-column h3 {
+      margin-bottom:10px;
+      color:#fff;
+      font-size:.82rem;
+    }
+
+    .footer-column ul {
+      list-style:none;
+    }
+
+    .footer-column li {
+      margin-bottom:6px;
+    }
+
+    .footer-column a {
+      color:#bcc8d5;
+      font-size:.72rem;
+      transition:color .2s ease;
+    }
+
+    .footer-column a:hover {
+      color:#5eb5ff;
+    }
+
+    .footer-facebook {
+      width:38px;
+      height:38px;
+      display:grid;
+      place-items:center;
+      border-radius:50%;
+      background:#1877f2;
+      color:#fff;
+      font-size:1.25rem;
+      font-weight:700;
+      font-family:Arial,sans-serif;
+    }
+
+    @media (max-width:1100px) {
+      .main-navigation ul {
+        justify-content:flex-start;
+        overflow-x:auto;
+      }
+      .footer-navigation {
+        width:55%;
+        right:2%;
+        gap:12px;
+      }
+    }
+
+    @media (max-width:850px) {
+      .top-banner {
+        height:clamp(210px,29vw,250px);
+      }
+      .banner-section-title {
+        left:54%;
+        max-width:43%;
+      }
+      .site-footer {
+        height:auto;
+      }
+      .bottom-banner-image {
+        width:100%;
+        height:auto;
+        object-fit:initial;
+      }
+      .footer-navigation {
+        position:static;
+        width:100%;
+        transform:none;
+        grid-template-columns:repeat(2,1fr);
+        padding:30px 5%;
+        background:#041529;
+      }
+    }
+
+    @media (max-width:650px) {
+      .top-banner {
+        height:auto;
+      }
+      .top-banner-image {
+        width:100%;
+        height:auto;
+        object-fit:initial;
+      }
+      .banner-section-title {
+        position:static;
+        transform:none;
+        max-width:none;
+        padding:18px 5%;
+        background:#07182d;
+      }
+      .main-navigation ul {
+        justify-content:flex-start;
+        flex-wrap:nowrap;
+        overflow-x:auto;
+        padding:0 4%;
+      }
+      .form-grid {
+        grid-template-columns:1fr;
+      }
+      .form-field.full {
+        grid-column:auto;
+      }
+      .contact-form {
+        padding:24px 20px;
+      }
+      .footer-navigation {
+        grid-template-columns:1fr;
+      }
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <header class="top-banner">
+
+    <img
+      class="top-banner-image"
+      src="banner.png"
+      alt="AD ASTRA"
+    >
+
+    <div class="banner-section-title">
+
+      <h1>
+        CONTATTI
+      </h1>
+
+      <p>
+        Scrivi ad AD ASTRA
+      </p>
+
+    </div>
+
+  </header>
+
+  <nav
+    class="main-navigation"
+    aria-label="Navigazione principale"
+  >
+
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="scuola-astronomia.html">SCUOLA DI ASTRONOMIA</a></li>
+      <li><a href="guide.html">GUIDE</a></li>
+      <li><a href="strumentazione.html">STRUMENTAZIONE</a></li>
+      <li><a href="astrofotografia.html">ASTROFOTOGRAFIA</a></li>
+      <li><a href="poster.html">POSTER</a></li>
+      <li><a href="cielo-del-mese.html">IL CIELO DEL MESE</a></li>
+      <li><a href="effemeridi.html">EFFEMERIDI</a></li>
+      <li><a href="software.html">SOFTWARE</a></li>
+      <li><a href="biblioteca.html">BIBLIOTECA</a></li>
+      <li><a href="pubblicazioni-ad-astra.html">PUBBLICAZIONI</a></li>
+      <li><a href="notizie.html">NOTIZIE</a></li>
+      <li><a href="ventunesimo.html">VENTUNESIMO</a></li>
+    </ul>
+
+  </nav>
+
+  <main>
+
+    <section class="contact-section">
+
+      <div class="container">
+
+        <div class="contact-intro">
+
+          <h2>
+            Contatta AD ASTRA
+          </h2>
+
+          <p>
+            Per informazioni, proposte, collaborazioni o richieste relative
+            ai contenuti del progetto puoi utilizzare il modulo sottostante.
+          </p>
+
+        </div>
+
+        <form class="contact-form">
+
+          <div class="form-grid">
+
+            <div class="form-field">
+              <label for="nome">Nome</label>
+              <input id="nome" name="nome" type="text" autocomplete="name">
+            </div>
+
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" autocomplete="email">
+            </div>
+
+            <div class="form-field full">
+              <label for="oggetto">Oggetto</label>
+              <input id="oggetto" name="oggetto" type="text">
+            </div>
+
+            <div class="form-field full">
+              <label for="messaggio">Messaggio</label>
+              <textarea id="messaggio" name="messaggio"></textarea>
+            </div>
+
+          </div>
+
+          <div class="form-actions">
+
+            <button
+              class="form-submit"
+              type="button"
+              disabled
+            >
+              INVIA MESSAGGIO
+            </button>
+
+            <p class="form-note">
+              Il modulo è predisposto graficamente; l'invio verrà attivato
+              dopo la scelta del servizio di recapito.
+            </p>
+
+          </div>
+
+        </form>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+
+    <img
+      class="bottom-banner-image"
+      src="banner 2.png"
+      alt="AD ASTRA - Astronomia, osservazione del cielo, astrofotografia e divulgazione scientifica"
+    >
+
+    <div class="footer-navigation">
+
+      <div class="footer-column">
+        <h3>Scuola di Astronomia</h3>
+        <ul>
+          <li><a href="scuola-astronomia.html">Scuola di Astronomia</a></li>
+          <li><a href="#">Lezioni</a></li>
+          <li><a href="#">Approfondimenti</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h3>Esplora</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="guide.html">Guide</a></li>
+          <li><a href="strumentazione.html">Strumentazione</a></li>
+          <li><a href="cielo-del-mese.html">Il Cielo del Mese</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h3>Risorse</h3>
+        <ul>
+          <li><a href="astrofotografia.html">Astrofotografia</a></li>
+          <li><a href="poster.html">Poster</a></li>
+          <li><a href="effemeridi.html">Effemeridi</a></li>
+          <li><a href="software.html">Software</a></li>
+          <li><a href="biblioteca.html">Biblioteca</a></li>
+          <li><a href="pubblicazioni-ad-astra.html">Pubblicazioni</a></li>
+          <li><a href="notizie.html">Notizie</a></li>
+          <li><a href="ventunesimo.html">VENTUNESIMO</a></li>
+          <li><a href="contatti.html">Contatti</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h3>Seguici su</h3>
+        <a
+          class="footer-facebook"
+          href="#"
+          aria-label="Facebook AD ASTRA"
+        >
+          f
+        </a>
+      </div>
+
+    </div>
+
+  </footer>
+
+</body>
+
+</html>
