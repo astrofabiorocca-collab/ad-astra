@@ -435,11 +435,7 @@
     .main-card {
       min-height: 225px;
 
-      display: flex;
-
-      gap: 20px;
-
-      padding: 28px;
+      overflow: hidden;
 
       border:
         1px solid rgba(255, 255, 255, 0.11);
@@ -452,6 +448,21 @@
           #0d1c2d,
           #0a1624
         );
+    }
+
+    .main-card-image {
+      width: 100%;
+      height: 180px;
+
+      object-fit: cover;
+    }
+
+    .main-card-body {
+      display: flex;
+
+      gap: 20px;
+
+      padding: 28px;
     }
 
     .card-icon {
@@ -581,7 +592,7 @@
     .tool-card {
       min-height: 180px;
 
-      padding: 22px;
+      overflow: hidden;
 
       border:
         1px solid rgba(255, 255, 255, 0.11);
@@ -589,6 +600,17 @@
       border-radius: 8px;
 
       background: #0b1828;
+    }
+
+    .tool-card-image {
+      width: 100%;
+      height: 150px;
+
+      object-fit: cover;
+    }
+
+    .tool-card-body {
+      padding: 22px;
     }
 
     .tool-icon {
@@ -1310,14 +1332,13 @@
         <div class="hero-copy">
 
           <h1>
-            Imparare a conoscere il cielo
+            Conoscere il cielo. Comprendere l’Universo.
           </h1>
 
           <p>
-            Un percorso nell'astronomia,
-            dall'orientamento sotto le stelle
-            alle basi dell'osservazione
-            e dell'astrofotografia.
+            Un percorso tra osservazione, conoscenza e divulgazione
+            per comprendere il cielo, l’Universo e le scoperte
+            che ne ampliano i confini.
           </p>
 
         </div>
@@ -1343,12 +1364,12 @@
 
         <p class="section-description">
 
-          AD ASTRA nasce per chi vuole comprendere
-          il cielo partendo dalle basi,
-          imparare a osservare e acquisire
-          progressivamente gli strumenti necessari
-          per avvicinarsi all'astronomia
-          e all'astrofotografia.
+          AD ASTRA accompagna chi vuole conoscere il cielo,
+          osservare con maggiore consapevolezza e approfondire
+          i temi dell’astronomia e della ricerca contemporanea.
+          Dalle basi agli argomenti più avanzati, il percorso resta aperto
+          all’apprendimento, alla divulgazione e al contributo
+          di competenze ed esperienze diverse.
 
         </p>
 
@@ -1358,11 +1379,19 @@
 
           <article class="main-card">
 
-            <div class="card-icon">
-              ◈
-            </div>
+            <img
+              class="main-card-image"
+              src="assets/immagini/home-scuola-astronomia.png"
+              alt="Lezione di astronomia"
+            >
 
-            <div>
+            <div class="main-card-body">
+
+              <div class="card-icon">
+                ◈
+              </div>
+
+              <div>
 
               <h3>
                 Scuola di Astronomia
@@ -1382,6 +1411,12 @@
                 Inizia a studiare →
               </a>
 
+              </div>
+
+              </div>
+
+              </div>
+
             </div>
 
           </article>
@@ -1390,11 +1425,19 @@
 
           <article class="main-card">
 
-            <div class="card-icon">
-              ✧
-            </div>
+            <img
+              class="main-card-image"
+              src="assets/immagini/home-osservare-cielo.png"
+              alt="Preparazione di una sessione osservativa"
+            >
 
-            <div>
+            <div class="main-card-body">
+
+              <div class="card-icon">
+                ✧
+              </div>
+
+              <div>
 
               <h3>
                 Osservare il cielo
@@ -1422,11 +1465,19 @@
 
           <article class="main-card">
 
-            <div class="card-icon">
-              ◉
-            </div>
+            <img
+              class="main-card-image"
+              src="assets/immagini/home-astrofotografia.png"
+              alt="Astrofotografia e acquisizione delle immagini"
+            >
 
-            <div>
+            <div class="main-card-body">
+
+              <div class="card-icon">
+                ◉
+              </div>
+
+              <div>
 
               <h3>
                 Astrofotografia
@@ -1510,13 +1561,21 @@
 
           <article class="tool-card">
 
-            <div class="tool-icon">
-              ◎
-            </div>
+            <img
+              class="tool-card-image"
+              src="assets/immagini/home-stellarium-web.png"
+              alt="Stellarium Web"
+            >
 
-            <h3>
-              Stellarium Web
-            </h3>
+            <div class="tool-card-body">
+
+              <div class="tool-icon">
+                ◎
+              </div>
+
+              <h3>
+                Stellarium Web
+              </h3>
 
             <p>
               Planetario online per esplorare
@@ -1532,19 +1591,29 @@
               Apri Stellarium Web →
             </a>
 
+            </div>
+
           </article>
 
 
 
           <article class="tool-card">
 
-            <div class="tool-icon">
-              ▣
-            </div>
+            <img
+              class="tool-card-image"
+              src="assets/immagini/home-effemeridi.png"
+              alt="Consultazione delle effemeridi astronomiche"
+            >
 
-            <h3>
-              Effemeridi
-            </h3>
+            <div class="tool-card-body">
+
+              <div class="tool-icon">
+                ▣
+              </div>
+
+              <h3>
+                Effemeridi
+              </h3>
 
             <p>
               Dati astronomici, fasi lunari,
@@ -1558,19 +1627,29 @@
               Consulta le effemeridi →
             </a>
 
+            </div>
+
           </article>
 
 
 
           <article class="tool-card">
 
-            <div class="tool-icon">
-              ▱
-            </div>
+            <img
+              class="tool-card-image"
+              src="assets/immagini/home-software.png"
+              alt="Software per astronomia ed elaborazione"
+            >
 
-            <h3>
-              Software
-            </h3>
+            <div class="tool-card-body">
+
+              <div class="tool-icon">
+                ▱
+              </div>
+
+              <h3>
+                Software
+              </h3>
 
             <p>
               Programmi selezionati
@@ -1585,19 +1664,29 @@
               Scopri i software →
             </a>
 
+            </div>
+
           </article>
 
 
 
           <article class="tool-card">
 
-            <div class="tool-icon">
-              ◫
-            </div>
+            <img
+              class="tool-card-image"
+              src="assets/immagini/home-biblioteca.png"
+              alt="Biblioteca di astronomia e cultura scientifica"
+            >
 
-            <h3>
-              Biblioteca
-            </h3>
+            <div class="tool-card-body">
+
+              <div class="tool-icon">
+                ◫
+              </div>
+
+              <h3>
+                Biblioteca
+              </h3>
 
             <p>
               Una raccolta essenziale
@@ -1611,6 +1700,8 @@
             >
               Vai alla biblioteca →
             </a>
+
+            </div>
 
           </article>
 
@@ -1683,8 +1774,8 @@
           <article class="news-card">
 
             <img
-              src="https://images.unsplash.com/photo-1517976547714-720226b864c1?auto=format&fit=crop&w=1000&q=85"
-              alt="Lancio di un razzo"
+              src="assets/immagini/home-esplorazione-spazio.png"
+              alt="Esplorazione spaziale"
             >
 
             <div class="news-content">
@@ -1719,8 +1810,8 @@
           <article class="news-card">
 
             <img
-              src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=1000&q=85"
-              alt="Terra osservata dallo spazio"
+              src="assets/immagini/home-eventi-astronomici-eclissi.png"
+              alt="Persone osservano un’eclissi totale di Sole"
             >
 
             <div class="news-content">
@@ -1807,13 +1898,11 @@
             </div>
 
 
-            <div class="poster-placeholder">
-
-              Poster
-              <br>
-              AD ASTRA
-
-            </div>
+            <img
+              class="editorial-image"
+              src="assets/immagini/home-poster-divulgazione.png"
+              alt="Poster divulgativo AD ASTRA"
+            >
 
           </article>
 
