@@ -888,6 +888,27 @@
 
     }
 
+
+    /* Fotografia e didascalia nel riquadro introduttivo. */
+    .intro-image {
+      background: url("scuola-astronomia-lezione.png") center / cover no-repeat;
+    }
+    .intro-image::before {
+      opacity: 1;
+      background: linear-gradient(rgba(6, 16, 28, 0.76), rgba(6, 16, 28, 0.86));
+      pointer-events: none;
+      transition: opacity 0.25s ease;
+    }
+    .intro-image-caption {
+      transition: opacity 0.25s ease;
+    }
+    @media (hover: hover) and (pointer: fine) {
+      .intro-image::before,
+      .intro-image-caption { opacity: 0; }
+      .intro-image:hover::before,
+      .intro-image:hover .intro-image-caption { opacity: 1; }
+    }
+
   </style>
 
 </head>
