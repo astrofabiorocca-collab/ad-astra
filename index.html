@@ -512,6 +512,27 @@
       color: #cb8bff;
     }
 
+    /* Immagini di sfondo delle tre card principali.
+       La geometria originale delle card resta invariata. */
+
+    .main-card:nth-child(1) {
+      background:
+        linear-gradient(rgba(6, 16, 28, 0.76), rgba(6, 16, 28, 0.86)),
+        url("home-scuola-astronomia.png") center / cover no-repeat;
+    }
+
+    .main-card:nth-child(2) {
+      background:
+        linear-gradient(rgba(6, 16, 28, 0.76), rgba(6, 16, 28, 0.86)),
+        url("home-osservare-cielo.png") center / cover no-repeat;
+    }
+
+    .main-card:nth-child(3) {
+      background:
+        linear-gradient(rgba(6, 16, 28, 0.76), rgba(6, 16, 28, 0.86)),
+        url("home-astrofotografia.png") center / cover no-repeat;
+    }
+
 
     /* =========================================================
        CIELO DEL MESE
@@ -632,6 +653,33 @@
     .tool-link {
       font-size: 0.88rem;
       font-weight: 600;
+    }
+
+    /* Immagini di sfondo delle quattro card Strumenti.
+       Dimensioni, griglia e spaziature restano quelle originali. */
+
+    .tool-card:nth-child(1) {
+      background:
+        linear-gradient(rgba(6, 16, 28, 0.78), rgba(6, 16, 28, 0.88)),
+        url("home-stellarium-web.png") center / cover no-repeat;
+    }
+
+    .tool-card:nth-child(2) {
+      background:
+        linear-gradient(rgba(6, 16, 28, 0.78), rgba(6, 16, 28, 0.88)),
+        url("home-effemeridi.png") center / cover no-repeat;
+    }
+
+    .tool-card:nth-child(3) {
+      background:
+        linear-gradient(rgba(6, 16, 28, 0.78), rgba(6, 16, 28, 0.88)),
+        url("home-software.png") center / cover no-repeat;
+    }
+
+    .tool-card:nth-child(4) {
+      background:
+        linear-gradient(rgba(6, 16, 28, 0.78), rgba(6, 16, 28, 0.88)),
+        url("home-biblioteca.png") center / cover no-repeat;
     }
 
 
@@ -1243,11 +1291,11 @@
             </a>
           </li>
 
-      <li>
-        <a href="pubblicazioni-ad-astra.html">
-          PUBBLICAZIONI
-        </a>
-      </li>
+          <li>
+            <a href="pubblicazioni-ad-astra.html">
+              PUBBLICAZIONI
+            </a>
+          </li>
 
           <li>
             <a href="notizie.html">
@@ -1683,8 +1731,8 @@
           <article class="news-card">
 
             <img
-              src="https://images.unsplash.com/photo-1517976547714-720226b864c1?auto=format&fit=crop&w=1000&q=85"
-              alt="Lancio di un razzo"
+              src="home-esplorazione-spazio.png"
+              alt="Esplorazione dello spazio"
             >
 
             <div class="news-content">
@@ -1719,8 +1767,8 @@
           <article class="news-card">
 
             <img
-              src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=1000&q=85"
-              alt="Terra osservata dallo spazio"
+              src="home-eventi-astronomici-eclissi.png"
+              alt="Evento astronomico ed eclissi"
             >
 
             <div class="news-content">
@@ -1807,13 +1855,11 @@
             </div>
 
 
-            <div class="poster-placeholder">
-
-              Poster
-              <br>
-              AD ASTRA
-
-            </div>
+            <img
+              class="editorial-image"
+              src="home-poster-divulgazione.png"
+              alt="Poster divulgativo AD ASTRA"
+            >
 
           </article>
 
