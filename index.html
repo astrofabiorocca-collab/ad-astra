@@ -1252,6 +1252,86 @@
 
     }
 
+
+    /* Banner superiore: composizione e testi approvati. */
+    .hero {
+      background: url("home-ad-astra.png") center center / cover no-repeat;
+    }
+    .hero-layout {
+      width: min(1440px, 94%);
+      padding-top: 48px;
+    }
+    .hero-brand {
+      width: 100%;
+      min-height: 250px;
+      gap: 34px;
+      align-items: center;
+    }
+    .hero-logo-wrap,
+    .hero-logo {
+      width: 240px;
+      height: 240px;
+    }
+    .hero-logo-wrap { flex-basis: 240px; }
+    .hero-brand-text { min-width: 0; }
+    .hero-brand-name {
+      font-size: clamp(3.5rem, 6.5vw, 7rem);
+      font-weight: 600;
+      letter-spacing: 0.055em;
+    }
+    .hero-copy {
+      max-width: none;
+      margin: 20px 0 0;
+    }
+    .hero-copy h1 {
+      margin: 0;
+      font-size: clamp(1.6rem, 2.8vw, 3rem);
+      color: #69bdff;
+      font-weight: 400;
+      line-height: 1.25;
+    }
+    .hero-quotation {
+      width: fit-content;
+      max-width: min(1080px, 88%);
+      margin: 22px 0 0;
+      color: #f0eef0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(1.05rem, 1.5vw, 1.5rem);
+      line-height: 1.5;
+      text-shadow: 0 2px 8px rgba(0,0,0,.7);
+    }
+    .hero-quotation blockquote { font-style: italic; }
+    .hero-quotation figcaption {
+      margin-top: 6px;
+      text-align: right;
+    }
+    @media (min-width: 1001px) {
+      .hero-quotation blockquote {
+        font-size: clamp(1rem, 1.2vw, 1.125rem);
+      }
+    }
+    @media (max-width: 1000px) {
+      .hero-layout { padding-top: 30px; }
+      .hero-brand { min-height: 190px; gap: 22px; }
+      .hero-logo-wrap, .hero-logo { width: 170px; height: 170px; }
+      .hero-logo-wrap { flex-basis: 170px; }
+      .hero-brand-name { font-size: clamp(2.8rem, 7vw, 5rem); }
+      .hero-copy { margin: 15px 0 0; }
+      .hero-copy h1 { font-size: clamp(1.5rem, 3.2vw, 2.2rem); }
+      .hero-quotation { max-width: 90%; margin-top: 20px; }
+    }
+    @media (max-width: 650px) {
+      .hero { background-position: 63% center; }
+      .hero-layout { padding-top: 20px; }
+      .hero-brand { min-height: 110px; gap: 12px; }
+      .hero-logo-wrap, .hero-logo { width: 92px; height: 92px; }
+      .hero-logo-wrap { flex-basis: 92px; }
+      .hero-brand-name { font-size: clamp(1.7rem, 7vw, 3.2rem); letter-spacing: .04em; }
+      .hero-copy { max-width: 100%; margin: 12px 0 0; }
+      .hero-copy h1 { font-size: clamp(1.02rem, 4.3vw, 1.65rem); }
+      .hero-quotation { max-width: 100%; margin-top: 24px; font-size: 1rem; }
+    }
+
   </style>
 
 </head>
@@ -1368,52 +1448,23 @@
     ====================================================== -->
 
     <section class="hero">
-
       <div class="hero-layout">
-
-
-        <!-- LOGO + AD ASTRA SCRITTO IN HTML -->
-
         <div class="hero-brand">
-
           <div class="hero-logo-wrap">
-
-            <img
-              class="hero-logo"
-              src="logo-ad-astra.png"
-              alt="Logo AD ASTRA"
-            >
-
+            <img class="hero-logo" src="logo-ad-astra.png" alt="Logo AD ASTRA">
           </div>
-
-
-          <div class="hero-brand-name">
-            AD ASTRA
+          <div class="hero-brand-text">
+            <div class="hero-brand-name">AD ASTRA</div>
+            <div class="hero-copy">
+              <h1>Capire il cielo, raccontare la scienza</h1>
+            </div>
           </div>
-
         </div>
-
-
-        <!-- SOTTOTITOLO E DESCRIZIONE -->
-
-        <div class="hero-copy">
-
-          <h1>
-            Imparare a conoscere il cielo
-          </h1>
-
-          <p>
-            Un percorso nell'astronomia,
-            dall'orientamento sotto le stelle
-            alle basi dell'osservazione
-            e dell'astrofotografia.
-          </p>
-
-        </div>
-
-
+        <figure class="hero-quotation">
+          <blockquote>“Il mio obiettivo è semplice. È la completa comprensione dell’universo, perché è fatto così com’è e perché in effetti esiste.”</blockquote>
+          <figcaption>Stephen Hawking</figcaption>
+        </figure>
       </div>
-
     </section>
 
 
