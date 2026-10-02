@@ -816,6 +816,36 @@
 
     }
 
+
+    /* Fotografia e contenuti nel riquadro introduttivo. */
+    .intro-visual {
+      position: relative;
+      isolation: isolate;
+      background: url("software-osservare-elaborare-rifinire.png") center / cover no-repeat;
+    }
+    .intro-visual::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      border-radius: inherit;
+      background: linear-gradient(rgba(6, 16, 28, 0.76), rgba(6, 16, 28, 0.86));
+      opacity: 1;
+      pointer-events: none;
+      z-index: -1;
+      transition: opacity 0.25s ease;
+    }
+    .intro-visual > * {
+      transition: opacity 0.25s ease;
+    }
+    @media (hover: hover) and (pointer: fine) {
+      .intro-visual::before,
+      .intro-visual > * { opacity: 0; }
+      .intro-visual:hover::before,
+      .intro-visual:hover > *,
+      .intro-visual:focus-within::before,
+      .intro-visual:focus-within > * { opacity: 1; }
+    }
+
   </style>
 
 </head>

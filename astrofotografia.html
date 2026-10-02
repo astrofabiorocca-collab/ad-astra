@@ -838,6 +838,36 @@
 
     }
 
+
+    /* Fotografia e contenuti nel riquadro introduttivo. */
+    .intro-image {
+      position: relative;
+      isolation: isolate;
+      background: url("astrofotografia-luce-stacking.png") center / cover no-repeat;
+    }
+    .intro-image::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      border-radius: inherit;
+      background: linear-gradient(rgba(6, 16, 28, 0.76), rgba(6, 16, 28, 0.86));
+      opacity: 1;
+      pointer-events: none;
+      z-index: -1;
+      transition: opacity 0.25s ease;
+    }
+    .intro-image-caption {
+      transition: opacity 0.25s ease;
+    }
+    @media (hover: hover) and (pointer: fine) {
+      .intro-image::before,
+      .intro-image-caption { opacity: 0; }
+      .intro-image:hover::before,
+      .intro-image:hover .intro-image-caption,
+      .intro-image:focus-within::before,
+      .intro-image:focus-within .intro-image-caption { opacity: 1; }
+    }
+
   </style>
 
 </head>
