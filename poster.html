@@ -738,6 +738,42 @@
 
     }
 
+
+    /* Immagini delle quattro raccolte Poster con contenuti su hover. */
+    .collection:nth-child(1) .collection-image {
+      background: url("poster-raccolta-imparare-cielo.png") center / cover no-repeat;
+    }
+    .collection:nth-child(2) .collection-image {
+      background: url("poster-raccolta-universo.png") center / cover no-repeat;
+    }
+    .collection:nth-child(3) .collection-image {
+      background: url("poster-raccolta-sistema-solare-spazio.png") center / cover no-repeat;
+    }
+    .collection:nth-child(4) .collection-image {
+      background: url("poster-raccolta-strumenti-astrofotografia.png") center / cover no-repeat;
+    }
+    .collection-image::before {
+      opacity: 1;
+      background: linear-gradient(to bottom, rgba(4,13,25,.22), rgba(4,13,25,0) 35%, rgba(4,13,25,.82) 100%);
+      pointer-events: none;
+      transition: opacity 0.25s ease;
+    }
+    .collection-number,
+    .collection-image-title {
+      transition: opacity 0.25s ease;
+    }
+    @media (hover: hover) and (pointer: fine) {
+      .collection-image::before,
+      .collection-number,
+      .collection-image-title { opacity: 0; }
+      .collection-image-link:hover .collection-image::before,
+      .collection-image-link:focus-within .collection-image::before,
+      .collection-image-link:hover .collection-number,
+      .collection-image-link:focus-within .collection-number,
+      .collection-image-link:hover .collection-image-title,
+      .collection-image-link:focus-within .collection-image-title { opacity: 1; }
+    }
+
   </style>
 
 </head>
