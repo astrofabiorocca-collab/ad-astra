@@ -1,0 +1,170 @@
+{
+  "eclissiLuna": {
+    "id": "NHQ202211080005",
+    "title": "Total Lunar Eclipse",
+    "original": "https://images-assets.nasa.gov/image/NHQ202211080005/NHQ202211080005~medium.jpg",
+    "file": "assets/cielo/foto/eclissiLuna.jpg",
+    "credit": "NASA/Joel Kowsky",
+    "description": "The Moon is seen during a total lunar eclipse, Tuesday, Nov. 8, 2022, at NASA’s Kennedy Space Center in Florida.  Photo Credit: (NASA/Joel Kowsky)",
+    "source": "https://images.nasa.gov/details/NHQ202211080005",
+    "license": "NASA media usage guidelines"
+  },
+  "costellazione-Her": {
+    "license": "CC BY 4.0",
+    "original": "https://storage.noirlab.edu/media/archives/images/screen/hercules.jpg",
+    "file": "assets/cielo/foto/costellazione-Her.jpg",
+    "title": "hercules",
+    "credit": "E. Slawik/NOIRLab/NSF/AURA/M. Zamani",
+    "source": "https://noirlab.edu/public/images/hercules/"
+  },
+  "costellazione-Cas": {
+    "license": "CC BY 4.0",
+    "original": "https://storage.noirlab.edu/media/archives/images/screen/cassiopeia.jpg",
+    "file": "assets/cielo/foto/costellazione-Cas.jpg",
+    "title": "cassiopeia",
+    "credit": "E. Slawik/NOIRLab/NSF/AURA/M. Zaman",
+    "source": "https://noirlab.edu/public/images/cassiopeia/"
+  },
+  "Moon": {
+    "id": "PIA00405",
+    "title": "Earth Moon",
+    "original": "https://images-assets.nasa.gov/image/PIA00405/PIA00405~medium.jpg",
+    "file": "assets/cielo/foto/Moon.jpg",
+    "credit": "NASA/JPL",
+    "description": "NASA Galileo spacecraft took this image of Earth moon on December 7, 1992 on its way to explore the Jupiter system in 1995-97. The distinct bright ray crater at the bottom of the image is the Tycho impact basin.  http://photojournal.jpl.nasa.gov/catalog/PIA00405",
+    "source": "https://images.nasa.gov/details/PIA00405",
+    "license": "NASA media usage guidelines"
+  },
+  "costellazione-Vir": {
+    "license": "CC BY 4.0",
+    "original": "https://storage.noirlab.edu/media/archives/images/screen/virgo.jpg",
+    "file": "assets/cielo/foto/costellazione-Vir.jpg",
+    "title": "virgo",
+    "credit": "E. Slawik/NOIRLab/NSF/AURA/M. Zamani",
+    "source": "https://noirlab.edu/public/images/virgo/"
+  },
+  "Saturn": {
+    "id": "PIA11141",
+    "title": "Saturn … Four Years On",
+    "original": "https://images-assets.nasa.gov/image/PIA11141/PIA11141~medium.jpg",
+    "file": "assets/cielo/foto/Saturn.jpg",
+    "credit": "NASA/JPL/Space Science Institute",
+    "description": "Saturn … Four Years On",
+    "source": "https://images.nasa.gov/details/PIA11141",
+    "license": "NASA media usage guidelines"
+  },
+  "costellazione-Tau": {
+    "license": "CC BY 4.0",
+    "original": "https://storage.noirlab.edu/media/archives/images/screen/taurus.jpg",
+    "file": "assets/cielo/foto/costellazione-Tau.jpg",
+    "title": "taurus",
+    "credit": "E. Slawik/NOIRLab/NSF/AURA/M. Zamani",
+    "source": "https://noirlab.edu/public/images/taurus/"
+  },
+  "Mercury": {
+    "id": "PIA11245",
+    "title": "Mercury as Never Seen Before",
+    "original": "https://images-assets.nasa.gov/image/PIA11245/PIA11245~small.jpg",
+    "file": "assets/cielo/foto/Mercury.jpg",
+    "credit": "NASA/Johns Hopkins University Applied Physics Laboratory/Carnegie Institution of Washington",
+    "description": "Mercury as Never Seen Before",
+    "source": "https://images.nasa.gov/details/PIA11245",
+    "license": "NASA media usage guidelines"
+  },
+  "costellazione-Gem": {
+    "license": "CC BY 4.0",
+    "original": "https://storage.noirlab.edu/media/archives/images/screen/gemini.jpg",
+    "file": "assets/cielo/foto/costellazione-Gem.jpg",
+    "title": "gemini",
+    "credit": "E. Slawik/NOIRLab/NSF/AURA/M. Zamani",
+    "source": "https://noirlab.edu/public/images/gemini/"
+  },
+  "Venus": {
+    "id": "PIA00072",
+    "title": "Venus Cloud Patterns colorized and filtered",
+    "original": "https://images-assets.nasa.gov/image/PIA00072/PIA00072~small.jpg",
+    "file": "assets/cielo/foto/Venus.jpg",
+    "credit": "NASA/JPL",
+    "description": "This picture of Venus was taken by the NASA Galileo spacecraft Solid State Imaging System on February 14, 1990, at a range of almost 1.7 million miles from the planet.  http://photojournal.jpl.nasa.gov/catalog/PIA00072",
+    "source": "https://images.nasa.gov/details/PIA00072",
+    "license": "NASA media usage guidelines"
+  },
+  "costellazione-Cyg": {
+    "license": "CC BY 4.0",
+    "original": "https://storage.noirlab.edu/media/archives/images/screen/cygnus.jpg",
+    "file": "assets/cielo/foto/costellazione-Cyg.jpg",
+    "title": "cygnus",
+    "credit": "E. Slawik/NOIRLab/NSF/AURA/M. Zamani",
+    "source": "https://noirlab.edu/public/images/cygnus/"
+  },
+  "costellazione-Peg": {
+    "license": "CC BY 4.0",
+    "original": "https://storage.noirlab.edu/media/archives/images/screen/pegasus.jpg",
+    "file": "assets/cielo/foto/costellazione-Peg.jpg",
+    "title": "pegasus",
+    "credit": "E. Slawik/NOIRLab/NSF/AURA/M. Zamani",
+    "source": "https://noirlab.edu/public/images/pegasus/"
+  },
+  "costellazione-Ori": {
+    "license": "CC BY 4.0",
+    "original": "https://storage.noirlab.edu/media/archives/images/screen/orion.jpg",
+    "file": "assets/cielo/foto/costellazione-Ori.jpg",
+    "title": "orion",
+    "credit": "E. Slawik/NOIRLab/NSF/AURA/M. Zamani",
+    "source": "https://noirlab.edu/public/images/orion/"
+  },
+  "costellazione-And": {
+    "license": "CC BY 4.0",
+    "original": "https://storage.noirlab.edu/media/archives/images/screen/andromeda.jpg",
+    "file": "assets/cielo/foto/costellazione-And.jpg",
+    "title": "andromeda",
+    "credit": "E. Slawik/NOIRLab/NSF/AURA/M. Zamani",
+    "source": "https://noirlab.edu/public/images/andromeda/"
+  },
+  "costellazione-Boo": {
+    "license": "CC BY 4.0",
+    "original": "https://storage.noirlab.edu/media/archives/images/screen/bootes.jpg",
+    "file": "assets/cielo/foto/costellazione-Boo.jpg",
+    "title": "bootes",
+    "credit": "E. Slawik/NOIRLab/NSF/AURA/M. Zamani",
+    "source": "https://noirlab.edu/public/images/bootes/"
+  },
+  "Mars": {
+    "id": "PIA00407",
+    "title": "Global Color Views of Mars",
+    "original": "https://images-assets.nasa.gov/image/PIA00407/PIA00407~medium.jpg",
+    "file": "assets/cielo/foto/Mars.jpg",
+    "credit": "NASA/JPL-Caltech/USGS",
+    "description": "Global Color Views of Mars  http://photojournal.jpl.nasa.gov/catalog/PIA00407",
+    "source": "https://images.nasa.gov/details/PIA00407",
+    "license": "NASA media usage guidelines"
+  },
+  "eclissiSole": {
+    "id": "NHQ201708210116",
+    "title": "2017 Total Solar Eclipse",
+    "original": "https://images-assets.nasa.gov/image/NHQ201708210116/NHQ201708210116~medium.jpg",
+    "file": "assets/cielo/foto/eclissiSole.jpg",
+    "credit": "NASA/Aubrey Gemignani",
+    "description": "This composite image of thirteen photographs shows the progression of a total solar eclipse at Madras High School in Madras, Oregon on Monday, August 21, 2017. A total solar eclipse swept across a narrow portion of the contiguous United States from Lincoln Beach, Oregon to Charleston, South Carolina. A partial solar eclipse was visible across the entire North American continent along with parts of South America, Africa, and Europe. Photo Credit: (NASA/Aubrey Gemignani)",
+    "source": "https://images.nasa.gov/details/NHQ201708210116",
+    "license": "NASA media usage guidelines"
+  },
+  "Jupiter": {
+    "id": "PIA04866",
+    "title": "Cassini Jupiter Portrait",
+    "original": "https://images-assets.nasa.gov/image/PIA04866/PIA04866~medium.jpg",
+    "file": "assets/cielo/foto/Jupiter.jpg",
+    "credit": "NASA/JPL/Space Science Institute",
+    "description": "This true color mosaic of Jupiter was constructed from images taken by the narrow angle camera onboard NASA Cassini spacecraft, during its closest approach to the giant planet and is its most detailed portrait.",
+    "source": "https://images.nasa.gov/details/PIA04866",
+    "license": "NASA media usage guidelines"
+  },
+  "costellazione-Leo": {
+    "license": "CC BY-SA 3.0",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/a/a8/LeoCC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "file": "assets/cielo/foto/costellazione-Leo.jpg",
+    "title": "Leo — fotografia della costellazione",
+    "credit": "Till Credner / AlltheSky.com",
+    "source": "https://commons.wikimedia.org/wiki/File:LeoCC.jpg"
+  }
+}

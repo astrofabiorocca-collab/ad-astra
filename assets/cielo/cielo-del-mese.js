@@ -103,6 +103,17 @@ function map(date,obs,deep){
  return svg;
 }
 
+
+function cardPhoto(card){
+ const keys=card.image==='congiunzione'?Object.keys(names).filter(key=>card.title.includes(names[key])).sort((a,b)=>card.title.indexOf(names[a])-card.title.indexOf(names[b])):[card.image==='eclissi'?(card.title.includes('Sole')?'eclissiSole':'eclissiLuna'):card.image];
+ const chosen=keys.map(key=>({key,photo:window.CieloFoto[key]})).filter(item=>item.photo);
+ if(!chosen.length)throw new Error('Fotografia mancante per '+card.title);
+ const pair=chosen.length>1;
+ const images=chosen.map(({key,photo})=>'<img src="'+esc(photo.file)+'" alt="'+esc(names[key]||card.title)+' — fotografia di archivio" width="640" height="360" loading="lazy">').join('');
+ const credit=chosen.map(({key,photo})=>'<a href="'+esc(photo.source)+'">'+esc(pair?(names[key]+': '+photo.credit):photo.credit)+'</a>'+ (photo.license==='CC BY 4.0'?' · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>':photo.license==='CC BY-SA 3.0'?' · <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>':'')).join('<br>');
+ return {html:'<div class="protagonist-image'+(pair?' photo-pair':'')+'">'+images+'</div>',credit:'<p class="photo-credit">'+(pair?'Fotografie separate dei due astri. ':'Fotografia di archivio. ')+credit+'</p>'};
+}
+
 function visibleText(body,y,m,obs){const at22=horizon(body,localDate(y,m,15),obs);if(at22.altitude>=15)return `Il 15 del mese alle 22:00 si trova verso ${direction(at22.azimuth)}${at22.altitude<25?', piuttosto basso sull’orizzonte':''}.`;
 let best=null;for(const day of [5,15,25])for(const hr of [18,19,20,21,23,0,1,2,3,4,5,6]){const d=localDate(y,m,day,hr),h=horizon(body,d,obs),sun=horizon('Sun',d,obs);if(sun.altitude<-8&&h.altitude>15&&(!best||h.altitude>best.h.altitude))best={d,h,hr,day};}if(!best)return 'Nel mese è poco favorevole: troppo vicino al Sole oppure basso nelle ore buie.';
 return `Intorno al ${best.day} del mese, cercalo verso ${direction(best.h.azimuth)} alle ${String(best.hr).padStart(2,'0')}:00${best.hr<7?', nelle ore dopo mezzanotte':''}. Alle 22:00 del giorno 15 ${at22.altitude<=0?'è sotto l’orizzonte':'è basso sull’orizzonte'}.`;}
@@ -134,7 +145,7 @@ $('.sky-chart-title').textContent=`Carta del cielo · ${month}`;$('#sky-map').in
 const sun=horizon('Sun',date,obs),illum=Math.round(A.Illumination('Moon',date).phase_fraction*100),moon=horizon('Moon',date,obs);
 $('#sky-caption').textContent=`${city[0]} · 15 ${label} · ore 22:00 (${timeParts(date).hour===date.getUTCHours()+2?'ora legale':'ora solare'}). Per gli oggetti del cielo profondo scegli un luogo lontano dalle luci cittadine. Carta vista guardando verso l’alto: est a sinistra, ovest a destra; il centro è lo zenit. Punti dorati: pianeti; anelli azzurri: oggetti consigliati. Reticolo equatoriale J2000: ascensione retta (AR) in ore e declinazione (Dec) in gradi. ${sun.altitude>-18?'A quest’ora può essere ancora presente il crepuscolo. ':''}${moon.altitude>0?`Luna sopra l’orizzonte, illuminata al ${illum}%: gli oggetti deboli possono risultare meno visibili.`:'La Luna è sotto l’orizzonte.'}`;
 $('#deep-sky-list').innerHTML=deep.map(o=>{const h=starHorizon(o[2],o[3],date,obs,rot);return `<li class="object-item"><strong>${esc(o[0]+' · '+o[1])}</strong><p>${esc(o[5])} Il 15 alle 22:00 cercalo verso ${direction(h.azimuth)}. Strumento: ${esc(o[4])}.</p><small class="object-coordinates">${coordinates(o[2],o[3])} · J2000</small></li>`;}).join('');
-$('#monthly-protagonists').innerHTML=cards.slice(0,4).map(c=>`<article class="protagonist-card"><div class="protagonist-image"><img src="assets/cielo/${c.image}.svg" alt="${esc(c.title)} — illustrazione schematica" width="640" height="360"></div><div class="protagonist-content"><h3>${esc(c.title)}</h3><p>${esc(c.description)}</p></div></article>`).join('');
+$('#monthly-protagonists').innerHTML=cards.slice(0,4).map(c=>{const photo=cardPhoto(c);return '<article class="protagonist-card">'+photo.html+'<div class="protagonist-content"><h3>'+esc(c.title)+'</h3><p>'+esc(c.description)+'</p>'+photo.credit+'</div></article>';}).join('');
 $('#month-events').innerHTML=eventList.map(e=>`<li><strong>${esc(e.type==='meteor'?new Intl.DateTimeFormat('it-IT',{timeZone:tz,day:'numeric',month:'long'}).format(e.date):stamp(e.date))} · ${esc(e.title)}</strong> — ${esc(e.text)}</li>`).join('');
 $('#sky-status').textContent=`${city[0]} · ${city[1].toFixed(2)}° N, ${city[2].toFixed(2)}° E · ${month}. Mappa e schede aggiornate insieme.`;
 monthKey=y+'-'+m;window.CieloMese={year:y,month:m,city:city[0],reference:date.toISOString(),objects:deep.map(o=>o[0]),events:eventList.map(e=>({title:e.title,date:e.date.toISOString()})),cards:cards.map(c=>c.title),ready:true};
