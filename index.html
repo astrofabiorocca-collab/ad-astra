@@ -1332,9 +1332,31 @@
       .hero-quotation { max-width: 100%; margin-top: 24px; font-size: 1rem; }
     }
 
+
+    /* Banner inferiore comune: titoli leggibili, con margine superiore regolare. */
+    .site-footer{position:relative;width:100%;height:clamp(350px,22vw,510px);min-height:350px;overflow:hidden;background:#041529}
+    .site-footer .bottom-banner-image{display:block;width:100%;height:100%;object-fit:contain;object-position:left center}
+    .site-footer .footer-navigation{position:absolute;top:36px;right:3%;transform:none;width:53%;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;padding:0;background:transparent;color:#fff;align-items:start}
+    .site-footer .footer-column{min-width:0}
+    .site-footer .footer-column h3{margin:0 0 14px;color:#fff;font-size:.82rem;font-weight:700;line-height:1.4}
+    .site-footer .footer-column ul{list-style:none;margin:0;padding:0}
+    .site-footer .footer-column li{margin:0 0 7px;font-size:.76rem;line-height:1.5}
+    .site-footer .footer-column a{color:#bcc8d5;font-size:.76rem;line-height:1.5;text-decoration:none;transition:color .2s ease}
+    .site-footer .footer-column a:hover{color:#5eb5ff}
+    .site-footer .footer-column .footer-facebook{position:static;transform:none;margin:0;width:38px;height:38px;display:grid;place-items:center;border-radius:50%;background:#1877f2;color:#fff;font-size:1.25rem;font-weight:700;font-family:Arial,sans-serif}
+    @media(max-width:1100px) and (min-width:901px){.site-footer .footer-navigation{top:32px;right:2%;width:55%;gap:12px}.site-footer .footer-column h3{font-size:.75rem}.site-footer .footer-column a{font-size:.69rem}}
+    @media(max-width:900px){.site-footer{height:auto;min-height:0;overflow:visible}.site-footer .bottom-banner-image{width:100%;height:auto;object-fit:initial}.site-footer .footer-navigation{position:static;top:auto;right:auto;transform:none;width:100%;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 22px;padding:32px 5%;background:#041529}.site-footer .footer-column h3{font-size:.85rem}.site-footer .footer-column a{font-size:.8rem}}
+    @media(max-width:520px){.site-footer .footer-navigation{grid-template-columns:1fr;gap:26px;padding:30px 7%}}
+
   </style>
 
-</head>
+<style>
+/* Home: banner approvato e raccordo graduale al fondo della pagina. */
+.hero-banner11 + section .section-title,.hero-banner11 + section .section-description{position:relative;top:-22px}
+.hero.hero-banner11{--raccordo:clamp(130px,17vw,340px);position:relative;min-height:0;height:auto;aspect-ratio:auto;padding:0 0 var(--raccordo);background:#000;overflow:hidden;border:0}
+.hero-banner11 .banner11-image{display:block;width:100%;max-width:none;height:auto;object-fit:contain;margin:0;mask-image:linear-gradient(to bottom,#000 0%,#000 92%,rgba(0,0,0,.97) 94%,rgba(0,0,0,.8) 96%,rgba(0,0,0,.35) 98%,transparent 100%)}
+.hero.hero-banner11::after{content:'';position:absolute;left:0;right:0;bottom:0;height:var(--raccordo);background:linear-gradient(to bottom,#000 0%,#000 5%,#000102 15%,#010305 28%,#020609 43%,#03090f 59%,#050d16 76%,#06101b 91%,#06101c 100%);pointer-events:none}
+</style></head>
 
 
 <body>
@@ -1447,25 +1469,9 @@
          HERO
     ====================================================== -->
 
-    <section class="hero">
-      <div class="hero-layout">
-        <div class="hero-brand">
-          <div class="hero-logo-wrap">
-            <img class="hero-logo" src="logo-ad-astra.png" alt="Logo AD ASTRA">
-          </div>
-          <div class="hero-brand-text">
-            <div class="hero-brand-name">AD ASTRA</div>
-            <div class="hero-copy">
-              <h1>Capire il cielo, raccontare la scienza</h1>
-            </div>
-          </div>
-        </div>
-        <figure class="hero-quotation">
-          <blockquote>“Il mio obiettivo è semplice. È la completa comprensione dell’universo, perché è fatto così com’è e perché in effetti esiste.”</blockquote>
-          <figcaption>Stephen Hawking</figcaption>
-        </figure>
-      </div>
-    </section>
+    <section class="hero hero-banner11" aria-label="AD ASTRA — Raccontare Mondi">
+<img class="banner11-image" src="banner-home-1.1.png" alt="AD ASTRA — Raccontare Mondi. Astronauta tra galassie e Saturno, con citazione di Stephen Hawking: Il mio obiettivo è semplice. È una comprensione completa dell’universo, perché è così com’è e perché esiste.">
+</section>
 
 
 
@@ -2007,79 +2013,122 @@
        FOOTER
   ====================================================== -->
 
-  <footer>
+  <footer class="site-footer">
 
-    <div class="footer-banner">
+    <img
+      class="bottom-banner-image"
+      src="banner 2.png"
+      alt="AD ASTRA - Astronomia, osservazione del cielo, astrofotografia e divulgazione scientifica"
+    >
 
 
-      <div class="footer-menu">
+    <div class="footer-navigation">
 
-        <a href="index.html">
-          Home
-        </a>
 
-        <a href="scuola-astronomia.html">
+      <div class="footer-column">
+
+        <h3>
           Scuola di Astronomia
-        </a>
+        </h3>
 
-        <a href="guide.html">
-          Guide
-        </a>
+        <ul>
 
-        <a href="strumentazione.html">
-          Strumentazione
-        </a>
+          <li>
+            <a href="scuola-astronomia.html">
+              Scuola di Astronomia
+            </a>
+          </li>
 
-        <a href="astrofotografia.html">
-          Astrofotografia
-        </a>
+          <li><a href="#">Lezioni</a></li>
 
-        <a href="poster.html">
-          Poster
-        </a>
+          <li><a href="#">Approfondimenti</a></li>
 
-        <a href="cielo-del-mese.html">
-          Il Cielo del Mese
-        </a>
-
-        <a href="effemeridi.html">
-          Effemeridi
-        </a>
-
-        <a href="software.html">
-          Software
-        </a>
-
-        <a href="biblioteca.html">
-          Biblioteca
-        </a>
-
-        <a href="pubblicazioni-ad-astra.html">
-          Pubblicazioni
-        </a>
-
-        <a href="notizie.html">
-          Notizie
-        </a>
-
-        <a href="ventunesimo.html">
-          VENTUNESIMO
-        </a>
-
-        <a href="contatti.html">
-          Contatti
-        </a>
+        </ul>
 
       </div>
 
 
-      <a
-        class="footer-facebook"
-        href="#"
-        aria-label="Facebook AD ASTRA"
-      >
-        f
-      </a>
+      <div class="footer-column">
+
+        <h3>
+          Esplora
+        </h3>
+
+        <ul>
+
+          <li><a href="index.html">Home</a></li>
+
+          <li><a href="guide.html">Guide</a></li>
+
+          <li><a href="strumentazione.html">Strumentazione</a></li>
+
+          <li><a href="cielo-del-mese.html">Il Cielo del Mese</a></li>
+
+        </ul>
+
+      </div>
+
+
+      <div class="footer-column">
+
+        <h3>
+          Risorse
+        </h3>
+
+        <ul>
+
+          <li><a href="astrofotografia.html">Astrofotografia</a></li>
+
+          <li><a href="poster.html">Poster</a></li>
+
+          <li><a href="effemeridi.html">Effemeridi</a></li>
+
+          <li><a href="software.html">Software</a></li>
+
+          <li><a href="biblioteca.html">Biblioteca</a></li>
+
+          <li>
+            <a href="pubblicazioni-ad-astra.html">
+              Pubblicazioni
+            </a>
+          </li>
+
+          <li><a href="notizie.html">Notizie</a></li>
+
+          <li>
+            <a href="ventunesimo.html">
+              VENTUNESIMO
+            </a>
+          </li>
+
+
+
+          <li>
+            <a href="contatti.html">
+              Contatti
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+
+      <div class="footer-column">
+
+        <h3>
+          Seguici su
+        </h3>
+
+        <a
+          class="footer-facebook"
+          href="#"
+          aria-label="Facebook AD ASTRA"
+        >
+          f
+        </a>
+
+      </div>
 
 
     </div>
