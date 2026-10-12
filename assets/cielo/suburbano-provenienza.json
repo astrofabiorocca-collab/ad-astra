@@ -1,0 +1,7129 @@
+{
+  "source": "https://djlorenz.github.io/astronomy/lp/",
+  "map": "https://djlorenz.github.io/astronomy/lp2025/Europe2025.png",
+  "legend": "https://djlorenz.github.io/astronomy/lp/colors.html",
+  "bortleExplanation": "https://djlorenz.github.io/astronomy/lp/bortle.html",
+  "year": 2025,
+  "method": "Median atlas color zone of land points at 5, 10 and 15 km from the city centre. Descriptive suburban approximation; sampled points are not classified by land use. No conversion to observed Bortle class.",
+  "mapSha256": "b69e20c274cff050d58331116030d3b6ca7a6f01000a3f97c3e5b867c56d2596",
+  "landSource": "https://naturalearth.s3.amazonaws.com/10m_physical/ne_10m_land.zip",
+  "landLicense": "Public domain",
+  "cities": {
+    "Ancona": {
+      "zone": "6a",
+      "index": 11,
+      "color": "rgb(251,90,73)",
+      "lpi": [
+        9,
+        15.59
+      ],
+      "brightnessMag": [
+        18.95,
+        19.5
+      ],
+      "samples": 20,
+      "sampleZoneRange": [
+        "5b",
+        "6b"
+      ],
+      "sampling": [
+        {
+          "lat": 43.584,
+          "lon": 13.56279,
+          "radiusKm": 5,
+          "bearing": 135.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 43.57425,
+          "lon": 13.54265,
+          "radiusKm": 5,
+          "bearing": 157.5,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 43.57083,
+          "lon": 13.5189,
+          "radiusKm": 5,
+          "bearing": 180.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 43.57425,
+          "lon": 13.49515,
+          "radiusKm": 5,
+          "bearing": 202.5,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 43.584,
+          "lon": 13.47501,
+          "radiusKm": 5,
+          "bearing": 225.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 43.59858,
+          "lon": 13.46153,
+          "radiusKm": 5,
+          "bearing": 247.5,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 43.61578,
+          "lon": 13.45679,
+          "radiusKm": 5,
+          "bearing": 270.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 43.55217,
+          "lon": 13.60664,
+          "radiusKm": 10,
+          "bearing": 135.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 43.5327,
+          "lon": 13.56637,
+          "radiusKm": 10,
+          "bearing": 157.5,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 43.52587,
+          "lon": 13.5189,
+          "radiusKm": 10,
+          "bearing": 180.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 43.5327,
+          "lon": 13.47143,
+          "radiusKm": 10,
+          "bearing": 202.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 43.55217,
+          "lon": 13.43116,
+          "radiusKm": 10,
+          "bearing": 225.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 43.58133,
+          "lon": 13.4042,
+          "radiusKm": 10,
+          "bearing": 247.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 43.61573,
+          "lon": 13.39468,
+          "radiusKm": 10,
+          "bearing": 270.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 43.49115,
+          "lon": 13.59006,
+          "radiusKm": 15,
+          "bearing": 157.5,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 43.4809,
+          "lon": 13.5189,
+          "radiusKm": 15,
+          "bearing": 180.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 43.49115,
+          "lon": 13.44774,
+          "radiusKm": 15,
+          "bearing": 202.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 43.52034,
+          "lon": 13.38735,
+          "radiusKm": 15,
+          "bearing": 225.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 43.56405,
+          "lon": 13.3469,
+          "radiusKm": 15,
+          "bearing": 247.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 43.61565,
+          "lon": 13.33257,
+          "radiusKm": 15,
+          "bearing": 270.0,
+          "zoneIndex": 11
+        }
+      ]
+    },
+    "Aosta": {
+      "zone": "4b",
+      "index": 8,
+      "color": "rgb(184,166,37)",
+      "lpi": [
+        1.73,
+        3
+      ],
+      "brightnessMag": [
+        20.49,
+        20.91
+      ],
+      "samples": 48,
+      "sampleZoneRange": [
+        "3b",
+        "5b"
+      ],
+      "sampling": [
+        {
+          "lat": 45.78197,
+          "lon": 7.32,
+          "radiusKm": 5,
+          "bearing": 0.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 45.77854,
+          "lon": 7.34467,
+          "radiusKm": 5,
+          "bearing": 22.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 45.76879,
+          "lon": 7.36558,
+          "radiusKm": 5,
+          "bearing": 45.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 45.75419,
+          "lon": 7.37954,
+          "radiusKm": 5,
+          "bearing": 67.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 45.73698,
+          "lon": 7.38443,
+          "radiusKm": 5,
+          "bearing": 90.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 45.71978,
+          "lon": 7.3795,
+          "radiusKm": 5,
+          "bearing": 112.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 45.7052,
+          "lon": 7.36553,
+          "radiusKm": 5,
+          "bearing": 135.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 45.69545,
+          "lon": 7.34464,
+          "radiusKm": 5,
+          "bearing": 157.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 45.69203,
+          "lon": 7.32,
+          "radiusKm": 5,
+          "bearing": 180.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 45.69545,
+          "lon": 7.29536,
+          "radiusKm": 5,
+          "bearing": 202.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 45.7052,
+          "lon": 7.27447,
+          "radiusKm": 5,
+          "bearing": 225.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 45.71978,
+          "lon": 7.2605,
+          "radiusKm": 5,
+          "bearing": 247.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 45.73698,
+          "lon": 7.25557,
+          "radiusKm": 5,
+          "bearing": 270.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 45.75419,
+          "lon": 7.26046,
+          "radiusKm": 5,
+          "bearing": 292.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 45.76879,
+          "lon": 7.27442,
+          "radiusKm": 5,
+          "bearing": 315.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 45.77854,
+          "lon": 7.29533,
+          "radiusKm": 5,
+          "bearing": 337.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 45.82693,
+          "lon": 7.32,
+          "radiusKm": 10,
+          "bearing": 0.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 45.82008,
+          "lon": 7.36938,
+          "radiusKm": 10,
+          "bearing": 22.5,
+          "zoneIndex": 7
+        },
+        {
+          "lat": 45.80056,
+          "lon": 7.41122,
+          "radiusKm": 10,
+          "bearing": 45.0,
+          "zoneIndex": 7
+        },
+        {
+          "lat": 45.77135,
+          "lon": 7.43912,
+          "radiusKm": 10,
+          "bearing": 67.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 45.73693,
+          "lon": 7.44885,
+          "radiusKm": 10,
+          "bearing": 90.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 45.70252,
+          "lon": 7.43897,
+          "radiusKm": 10,
+          "bearing": 112.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 45.67337,
+          "lon": 7.41101,
+          "radiusKm": 10,
+          "bearing": 135.0,
+          "zoneIndex": 7
+        },
+        {
+          "lat": 45.6539,
+          "lon": 7.36924,
+          "radiusKm": 10,
+          "bearing": 157.5,
+          "zoneIndex": 7
+        },
+        {
+          "lat": 45.64707,
+          "lon": 7.32,
+          "radiusKm": 10,
+          "bearing": 180.0,
+          "zoneIndex": 7
+        },
+        {
+          "lat": 45.6539,
+          "lon": 7.27076,
+          "radiusKm": 10,
+          "bearing": 202.5,
+          "zoneIndex": 7
+        },
+        {
+          "lat": 45.67337,
+          "lon": 7.22899,
+          "radiusKm": 10,
+          "bearing": 225.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 45.70252,
+          "lon": 7.20103,
+          "radiusKm": 10,
+          "bearing": 247.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 45.73693,
+          "lon": 7.19115,
+          "radiusKm": 10,
+          "bearing": 270.0,
+          "zoneIndex": 7
+        },
+        {
+          "lat": 45.77135,
+          "lon": 7.20088,
+          "radiusKm": 10,
+          "bearing": 292.5,
+          "zoneIndex": 7
+        },
+        {
+          "lat": 45.80056,
+          "lon": 7.22878,
+          "radiusKm": 10,
+          "bearing": 315.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 45.82008,
+          "lon": 7.27062,
+          "radiusKm": 10,
+          "bearing": 337.5,
+          "zoneIndex": 7
+        },
+        {
+          "lat": 45.8719,
+          "lon": 7.32,
+          "radiusKm": 15,
+          "bearing": 0.0,
+          "zoneIndex": 6
+        },
+        {
+          "lat": 45.86161,
+          "lon": 7.39413,
+          "radiusKm": 15,
+          "bearing": 22.5,
+          "zoneIndex": 7
+        },
+        {
+          "lat": 45.83231,
+          "lon": 7.4569,
+          "radiusKm": 15,
+          "bearing": 45.0,
+          "zoneIndex": 6
+        },
+        {
+          "lat": 45.78848,
+          "lon": 7.49873,
+          "radiusKm": 15,
+          "bearing": 67.5,
+          "zoneIndex": 7
+        },
+        {
+          "lat": 45.73684,
+          "lon": 7.51328,
+          "radiusKm": 15,
+          "bearing": 90.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 45.68524,
+          "lon": 7.4984,
+          "radiusKm": 15,
+          "bearing": 112.5,
+          "zoneIndex": 7
+        },
+        {
+          "lat": 45.64153,
+          "lon": 7.45643,
+          "radiusKm": 15,
+          "bearing": 135.0,
+          "zoneIndex": 7
+        },
+        {
+          "lat": 45.61235,
+          "lon": 7.3938,
+          "radiusKm": 15,
+          "bearing": 157.5,
+          "zoneIndex": 7
+        },
+        {
+          "lat": 45.6021,
+          "lon": 7.32,
+          "radiusKm": 15,
+          "bearing": 180.0,
+          "zoneIndex": 7
+        },
+        {
+          "lat": 45.61235,
+          "lon": 7.2462,
+          "radiusKm": 15,
+          "bearing": 202.5,
+          "zoneIndex": 6
+        },
+        {
+          "lat": 45.64153,
+          "lon": 7.18357,
+          "radiusKm": 15,
+          "bearing": 225.0,
+          "zoneIndex": 7
+        },
+        {
+          "lat": 45.68524,
+          "lon": 7.1416,
+          "radiusKm": 15,
+          "bearing": 247.5,
+          "zoneIndex": 7
+        },
+        {
+          "lat": 45.73684,
+          "lon": 7.12672,
+          "radiusKm": 15,
+          "bearing": 270.0,
+          "zoneIndex": 7
+        },
+        {
+          "lat": 45.78848,
+          "lon": 7.14127,
+          "radiusKm": 15,
+          "bearing": 292.5,
+          "zoneIndex": 6
+        },
+        {
+          "lat": 45.83231,
+          "lon": 7.1831,
+          "radiusKm": 15,
+          "bearing": 315.0,
+          "zoneIndex": 7
+        },
+        {
+          "lat": 45.86161,
+          "lon": 7.24587,
+          "radiusKm": 15,
+          "bearing": 337.5,
+          "zoneIndex": 6
+        }
+      ]
+    },
+    "Bari": {
+      "zone": "6b",
+      "index": 12,
+      "color": "rgb(251,153,138)",
+      "lpi": [
+        15.59,
+        27
+      ],
+      "brightnessMag": [
+        18.38,
+        18.95
+      ],
+      "samples": 27,
+      "sampleZoneRange": [
+        "6a",
+        "7a"
+      ],
+      "sampling": [
+        {
+          "lat": 41.09988,
+          "lon": 16.92703,
+          "radiusKm": 5,
+          "bearing": 112.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 41.0853,
+          "lon": 16.91408,
+          "radiusKm": 5,
+          "bearing": 135.0,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 41.07555,
+          "lon": 16.89473,
+          "radiusKm": 5,
+          "bearing": 157.5,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 41.07213,
+          "lon": 16.8719,
+          "radiusKm": 5,
+          "bearing": 180.0,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 41.07555,
+          "lon": 16.84907,
+          "radiusKm": 5,
+          "bearing": 202.5,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 41.0853,
+          "lon": 16.82972,
+          "radiusKm": 5,
+          "bearing": 225.0,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 41.09988,
+          "lon": 16.81677,
+          "radiusKm": 5,
+          "bearing": 247.5,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 41.11708,
+          "lon": 16.81221,
+          "radiusKm": 5,
+          "bearing": 270.0,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 41.13429,
+          "lon": 16.81674,
+          "radiusKm": 5,
+          "bearing": 292.5,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 41.08263,
+          "lon": 16.98213,
+          "radiusKm": 10,
+          "bearing": 112.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 41.05348,
+          "lon": 16.95623,
+          "radiusKm": 10,
+          "bearing": 135.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 41.034,
+          "lon": 16.91752,
+          "radiusKm": 10,
+          "bearing": 157.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 41.02717,
+          "lon": 16.8719,
+          "radiusKm": 10,
+          "bearing": 180.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 41.034,
+          "lon": 16.82628,
+          "radiusKm": 10,
+          "bearing": 202.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 41.05348,
+          "lon": 16.78757,
+          "radiusKm": 10,
+          "bearing": 225.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 41.08263,
+          "lon": 16.76167,
+          "radiusKm": 10,
+          "bearing": 247.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 41.11704,
+          "lon": 16.75253,
+          "radiusKm": 10,
+          "bearing": 270.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 41.15146,
+          "lon": 16.76156,
+          "radiusKm": 10,
+          "bearing": 292.5,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 41.06536,
+          "lon": 17.0372,
+          "radiusKm": 15,
+          "bearing": 112.5,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 41.02164,
+          "lon": 16.99833,
+          "radiusKm": 15,
+          "bearing": 135.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 40.99245,
+          "lon": 16.94029,
+          "radiusKm": 15,
+          "bearing": 157.5,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 40.9822,
+          "lon": 16.8719,
+          "radiusKm": 15,
+          "bearing": 180.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 40.99245,
+          "lon": 16.80351,
+          "radiusKm": 15,
+          "bearing": 202.5,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 41.02164,
+          "lon": 16.74547,
+          "radiusKm": 15,
+          "bearing": 225.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 41.06536,
+          "lon": 16.7066,
+          "radiusKm": 15,
+          "bearing": 247.5,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 41.11696,
+          "lon": 16.69284,
+          "radiusKm": 15,
+          "bearing": 270.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 41.1686,
+          "lon": 16.70634,
+          "radiusKm": 15,
+          "bearing": 292.5,
+          "zoneIndex": 11
+        }
+      ]
+    },
+    "Bologna": {
+      "zone": "6a",
+      "index": 11,
+      "color": "rgb(251,90,73)",
+      "lpi": [
+        9,
+        15.59
+      ],
+      "brightnessMag": [
+        18.95,
+        19.5
+      ],
+      "samples": 48,
+      "sampleZoneRange": [
+        "5a",
+        "6b"
+      ],
+      "sampling": [
+        {
+          "lat": 44.53987,
+          "lon": 11.3426,
+          "radiusKm": 5,
+          "bearing": 0.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 44.53644,
+          "lon": 11.36674,
+          "radiusKm": 5,
+          "bearing": 22.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 44.52669,
+          "lon": 11.3872,
+          "radiusKm": 5,
+          "bearing": 45.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 44.51209,
+          "lon": 11.40086,
+          "radiusKm": 5,
+          "bearing": 67.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 44.49488,
+          "lon": 11.40564,
+          "radiusKm": 5,
+          "bearing": 90.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 44.47768,
+          "lon": 11.40082,
+          "radiusKm": 5,
+          "bearing": 112.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 44.4631,
+          "lon": 11.38715,
+          "radiusKm": 5,
+          "bearing": 135.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 44.45335,
+          "lon": 11.36671,
+          "radiusKm": 5,
+          "bearing": 157.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 44.44993,
+          "lon": 11.3426,
+          "radiusKm": 5,
+          "bearing": 180.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 44.45335,
+          "lon": 11.31849,
+          "radiusKm": 5,
+          "bearing": 202.5,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 44.4631,
+          "lon": 11.29805,
+          "radiusKm": 5,
+          "bearing": 225.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 44.47768,
+          "lon": 11.28438,
+          "radiusKm": 5,
+          "bearing": 247.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 44.49488,
+          "lon": 11.27956,
+          "radiusKm": 5,
+          "bearing": 270.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 44.51209,
+          "lon": 11.28434,
+          "radiusKm": 5,
+          "bearing": 292.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 44.52669,
+          "lon": 11.298,
+          "radiusKm": 5,
+          "bearing": 315.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 44.53644,
+          "lon": 11.31846,
+          "radiusKm": 5,
+          "bearing": 337.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 44.58483,
+          "lon": 11.3426,
+          "radiusKm": 10,
+          "bearing": 0.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 44.57798,
+          "lon": 11.39092,
+          "radiusKm": 10,
+          "bearing": 22.5,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 44.55846,
+          "lon": 11.43185,
+          "radiusKm": 10,
+          "bearing": 45.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 44.52926,
+          "lon": 11.45915,
+          "radiusKm": 10,
+          "bearing": 67.5,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 44.49483,
+          "lon": 11.46868,
+          "radiusKm": 10,
+          "bearing": 90.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 44.46043,
+          "lon": 11.45901,
+          "radiusKm": 10,
+          "bearing": 112.5,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 44.43127,
+          "lon": 11.43165,
+          "radiusKm": 10,
+          "bearing": 135.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 44.4118,
+          "lon": 11.39078,
+          "radiusKm": 10,
+          "bearing": 157.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 44.40497,
+          "lon": 11.3426,
+          "radiusKm": 10,
+          "bearing": 180.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 44.4118,
+          "lon": 11.29442,
+          "radiusKm": 10,
+          "bearing": 202.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 44.43127,
+          "lon": 11.25355,
+          "radiusKm": 10,
+          "bearing": 225.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 44.46043,
+          "lon": 11.22619,
+          "radiusKm": 10,
+          "bearing": 247.5,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 44.49483,
+          "lon": 11.21652,
+          "radiusKm": 10,
+          "bearing": 270.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 44.52926,
+          "lon": 11.22605,
+          "radiusKm": 10,
+          "bearing": 292.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 44.55846,
+          "lon": 11.25335,
+          "radiusKm": 10,
+          "bearing": 315.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 44.57798,
+          "lon": 11.29428,
+          "radiusKm": 10,
+          "bearing": 337.5,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 44.6298,
+          "lon": 11.3426,
+          "radiusKm": 15,
+          "bearing": 0.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 44.61951,
+          "lon": 11.41513,
+          "radiusKm": 15,
+          "bearing": 22.5,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 44.59021,
+          "lon": 11.47654,
+          "radiusKm": 15,
+          "bearing": 45.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 44.54639,
+          "lon": 11.51747,
+          "radiusKm": 15,
+          "bearing": 67.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 44.49474,
+          "lon": 11.53171,
+          "radiusKm": 15,
+          "bearing": 90.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 44.44314,
+          "lon": 11.51716,
+          "radiusKm": 15,
+          "bearing": 112.5,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 44.39943,
+          "lon": 11.47611,
+          "radiusKm": 15,
+          "bearing": 135.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 44.37025,
+          "lon": 11.41482,
+          "radiusKm": 15,
+          "bearing": 157.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 44.36,
+          "lon": 11.3426,
+          "radiusKm": 15,
+          "bearing": 180.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 44.37025,
+          "lon": 11.27038,
+          "radiusKm": 15,
+          "bearing": 202.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 44.39943,
+          "lon": 11.20909,
+          "radiusKm": 15,
+          "bearing": 225.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 44.44314,
+          "lon": 11.16804,
+          "radiusKm": 15,
+          "bearing": 247.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 44.49474,
+          "lon": 11.15349,
+          "radiusKm": 15,
+          "bearing": 270.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 44.54639,
+          "lon": 11.16773,
+          "radiusKm": 15,
+          "bearing": 292.5,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 44.59021,
+          "lon": 11.20866,
+          "radiusKm": 15,
+          "bearing": 315.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 44.61951,
+          "lon": 11.27007,
+          "radiusKm": 15,
+          "bearing": 337.5,
+          "zoneIndex": 11
+        }
+      ]
+    },
+    "Bolzano": {
+      "zone": "4b",
+      "index": 8,
+      "color": "rgb(184,166,37)",
+      "lpi": [
+        1.73,
+        3
+      ],
+      "brightnessMag": [
+        20.49,
+        20.91
+      ],
+      "samples": 48,
+      "sampleZoneRange": [
+        "3b",
+        "5b"
+      ],
+      "sampling": [
+        {
+          "lat": 46.54397,
+          "lon": 11.354,
+          "radiusKm": 5,
+          "bearing": 0.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 46.54054,
+          "lon": 11.37902,
+          "radiusKm": 5,
+          "bearing": 22.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 46.53079,
+          "lon": 11.40022,
+          "radiusKm": 5,
+          "bearing": 45.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 46.51619,
+          "lon": 11.41437,
+          "radiusKm": 5,
+          "bearing": 67.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 46.49898,
+          "lon": 11.41932,
+          "radiusKm": 5,
+          "bearing": 90.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 46.48178,
+          "lon": 11.41433,
+          "radiusKm": 5,
+          "bearing": 112.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 46.46719,
+          "lon": 11.40016,
+          "radiusKm": 5,
+          "bearing": 135.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 46.45745,
+          "lon": 11.37898,
+          "radiusKm": 5,
+          "bearing": 157.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 46.45403,
+          "lon": 11.354,
+          "radiusKm": 5,
+          "bearing": 180.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 46.45745,
+          "lon": 11.32902,
+          "radiusKm": 5,
+          "bearing": 202.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 46.46719,
+          "lon": 11.30784,
+          "radiusKm": 5,
+          "bearing": 225.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 46.48178,
+          "lon": 11.29367,
+          "radiusKm": 5,
+          "bearing": 247.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 46.49898,
+          "lon": 11.28868,
+          "radiusKm": 5,
+          "bearing": 270.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 46.51619,
+          "lon": 11.29363,
+          "radiusKm": 5,
+          "bearing": 292.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 46.53079,
+          "lon": 11.30778,
+          "radiusKm": 5,
+          "bearing": 315.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 46.54054,
+          "lon": 11.32898,
+          "radiusKm": 5,
+          "bearing": 337.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 46.58893,
+          "lon": 11.354,
+          "radiusKm": 10,
+          "bearing": 0.0,
+          "zoneIndex": 7
+        },
+        {
+          "lat": 46.58208,
+          "lon": 11.40407,
+          "radiusKm": 10,
+          "bearing": 22.5,
+          "zoneIndex": 7
+        },
+        {
+          "lat": 46.56255,
+          "lon": 11.44649,
+          "radiusKm": 10,
+          "bearing": 45.0,
+          "zoneIndex": 7
+        },
+        {
+          "lat": 46.53335,
+          "lon": 11.47478,
+          "radiusKm": 10,
+          "bearing": 67.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 46.49893,
+          "lon": 11.48465,
+          "radiusKm": 10,
+          "bearing": 90.0,
+          "zoneIndex": 7
+        },
+        {
+          "lat": 46.46452,
+          "lon": 11.47462,
+          "radiusKm": 10,
+          "bearing": 112.5,
+          "zoneIndex": 7
+        },
+        {
+          "lat": 46.43537,
+          "lon": 11.44627,
+          "radiusKm": 10,
+          "bearing": 135.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 46.4159,
+          "lon": 11.40392,
+          "radiusKm": 10,
+          "bearing": 157.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 46.40907,
+          "lon": 11.354,
+          "radiusKm": 10,
+          "bearing": 180.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 46.4159,
+          "lon": 11.30408,
+          "radiusKm": 10,
+          "bearing": 202.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 46.43537,
+          "lon": 11.26173,
+          "radiusKm": 10,
+          "bearing": 225.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 46.46452,
+          "lon": 11.23338,
+          "radiusKm": 10,
+          "bearing": 247.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 46.49893,
+          "lon": 11.22335,
+          "radiusKm": 10,
+          "bearing": 270.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 46.53335,
+          "lon": 11.23322,
+          "radiusKm": 10,
+          "bearing": 292.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 46.56255,
+          "lon": 11.26151,
+          "radiusKm": 10,
+          "bearing": 315.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 46.58208,
+          "lon": 11.30393,
+          "radiusKm": 10,
+          "bearing": 337.5,
+          "zoneIndex": 7
+        },
+        {
+          "lat": 46.6339,
+          "lon": 11.354,
+          "radiusKm": 15,
+          "bearing": 0.0,
+          "zoneIndex": 7
+        },
+        {
+          "lat": 46.62361,
+          "lon": 11.42917,
+          "radiusKm": 15,
+          "bearing": 22.5,
+          "zoneIndex": 6
+        },
+        {
+          "lat": 46.5943,
+          "lon": 11.49281,
+          "radiusKm": 15,
+          "bearing": 45.0,
+          "zoneIndex": 7
+        },
+        {
+          "lat": 46.55048,
+          "lon": 11.53522,
+          "radiusKm": 15,
+          "bearing": 67.5,
+          "zoneIndex": 7
+        },
+        {
+          "lat": 46.49883,
+          "lon": 11.54997,
+          "radiusKm": 15,
+          "bearing": 90.0,
+          "zoneIndex": 7
+        },
+        {
+          "lat": 46.44723,
+          "lon": 11.53488,
+          "radiusKm": 15,
+          "bearing": 112.5,
+          "zoneIndex": 7
+        },
+        {
+          "lat": 46.40353,
+          "lon": 11.49233,
+          "radiusKm": 15,
+          "bearing": 135.0,
+          "zoneIndex": 7
+        },
+        {
+          "lat": 46.37435,
+          "lon": 11.42882,
+          "radiusKm": 15,
+          "bearing": 157.5,
+          "zoneIndex": 7
+        },
+        {
+          "lat": 46.3641,
+          "lon": 11.354,
+          "radiusKm": 15,
+          "bearing": 180.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 46.37435,
+          "lon": 11.27918,
+          "radiusKm": 15,
+          "bearing": 202.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 46.40353,
+          "lon": 11.21567,
+          "radiusKm": 15,
+          "bearing": 225.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 46.44723,
+          "lon": 11.17312,
+          "radiusKm": 15,
+          "bearing": 247.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 46.49883,
+          "lon": 11.15803,
+          "radiusKm": 15,
+          "bearing": 270.0,
+          "zoneIndex": 7
+        },
+        {
+          "lat": 46.55048,
+          "lon": 11.17278,
+          "radiusKm": 15,
+          "bearing": 292.5,
+          "zoneIndex": 7
+        },
+        {
+          "lat": 46.5943,
+          "lon": 11.21519,
+          "radiusKm": 15,
+          "bearing": 315.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 46.62361,
+          "lon": 11.27883,
+          "radiusKm": 15,
+          "bearing": 337.5,
+          "zoneIndex": 7
+        }
+      ]
+    },
+    "Cagliari": {
+      "zone": "6a",
+      "index": 11,
+      "color": "rgb(251,90,73)",
+      "lpi": [
+        9,
+        15.59
+      ],
+      "brightnessMag": [
+        18.95,
+        19.5
+      ],
+      "samples": 31,
+      "sampleZoneRange": [
+        "5a",
+        "6b"
+      ],
+      "sampling": [
+        {
+          "lat": 39.26877,
+          "lon": 9.1217,
+          "radiusKm": 5,
+          "bearing": 0.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 39.26534,
+          "lon": 9.14393,
+          "radiusKm": 5,
+          "bearing": 22.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 39.25559,
+          "lon": 9.16276,
+          "radiusKm": 5,
+          "bearing": 45.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 39.241,
+          "lon": 9.17534,
+          "radiusKm": 5,
+          "bearing": 67.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 39.22379,
+          "lon": 9.17974,
+          "radiusKm": 5,
+          "bearing": 90.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 39.20658,
+          "lon": 9.17531,
+          "radiusKm": 5,
+          "bearing": 112.5,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 39.192,
+          "lon": 9.16273,
+          "radiusKm": 5,
+          "bearing": 135.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 39.20658,
+          "lon": 9.06809,
+          "radiusKm": 5,
+          "bearing": 247.5,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 39.22379,
+          "lon": 9.06366,
+          "radiusKm": 5,
+          "bearing": 270.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 39.25559,
+          "lon": 9.08064,
+          "radiusKm": 5,
+          "bearing": 315.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 39.26534,
+          "lon": 9.09947,
+          "radiusKm": 5,
+          "bearing": 337.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 39.31373,
+          "lon": 9.1217,
+          "radiusKm": 10,
+          "bearing": 0.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 39.30688,
+          "lon": 9.16618,
+          "radiusKm": 10,
+          "bearing": 22.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 39.28736,
+          "lon": 9.20386,
+          "radiusKm": 10,
+          "bearing": 45.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 39.25817,
+          "lon": 9.229,
+          "radiusKm": 10,
+          "bearing": 67.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 39.18934,
+          "lon": 9.0145,
+          "radiusKm": 10,
+          "bearing": 247.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 39.22374,
+          "lon": 9.00561,
+          "radiusKm": 10,
+          "bearing": 270.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 39.25817,
+          "lon": 9.0144,
+          "radiusKm": 10,
+          "bearing": 292.5,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 39.28736,
+          "lon": 9.03954,
+          "radiusKm": 10,
+          "bearing": 315.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 39.30688,
+          "lon": 9.07722,
+          "radiusKm": 10,
+          "bearing": 337.5,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 39.3587,
+          "lon": 9.1217,
+          "radiusKm": 15,
+          "bearing": 0.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 39.34841,
+          "lon": 9.18846,
+          "radiusKm": 15,
+          "bearing": 22.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 39.31912,
+          "lon": 9.245,
+          "radiusKm": 15,
+          "bearing": 45.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 39.27531,
+          "lon": 9.2827,
+          "radiusKm": 15,
+          "bearing": 67.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 39.22367,
+          "lon": 9.29583,
+          "radiusKm": 15,
+          "bearing": 90.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 39.12835,
+          "lon": 8.99874,
+          "radiusKm": 15,
+          "bearing": 225.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 39.17207,
+          "lon": 8.96094,
+          "radiusKm": 15,
+          "bearing": 247.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 39.22367,
+          "lon": 8.94757,
+          "radiusKm": 15,
+          "bearing": 270.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 39.27531,
+          "lon": 8.9607,
+          "radiusKm": 15,
+          "bearing": 292.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 39.31912,
+          "lon": 8.9984,
+          "radiusKm": 15,
+          "bearing": 315.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 39.34841,
+          "lon": 9.05494,
+          "radiusKm": 15,
+          "bearing": 337.5,
+          "zoneIndex": 10
+        }
+      ]
+    },
+    "Campobasso": {
+      "zone": "4b",
+      "index": 8,
+      "color": "rgb(184,166,37)",
+      "lpi": [
+        1.73,
+        3
+      ],
+      "brightnessMag": [
+        20.49,
+        20.91
+      ],
+      "samples": 48,
+      "sampleZoneRange": [
+        "4a",
+        "5b"
+      ],
+      "sampling": [
+        {
+          "lat": 41.60497,
+          "lon": 14.66,
+          "radiusKm": 5,
+          "bearing": 0.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 41.60154,
+          "lon": 14.68301,
+          "radiusKm": 5,
+          "bearing": 22.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 41.59179,
+          "lon": 14.70251,
+          "radiusKm": 5,
+          "bearing": 45.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 41.57719,
+          "lon": 14.71553,
+          "radiusKm": 5,
+          "bearing": 67.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 41.55998,
+          "lon": 14.72009,
+          "radiusKm": 5,
+          "bearing": 90.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 41.54278,
+          "lon": 14.7155,
+          "radiusKm": 5,
+          "bearing": 112.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 41.5282,
+          "lon": 14.70247,
+          "radiusKm": 5,
+          "bearing": 135.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 41.51845,
+          "lon": 14.68298,
+          "radiusKm": 5,
+          "bearing": 157.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 41.51503,
+          "lon": 14.66,
+          "radiusKm": 5,
+          "bearing": 180.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 41.51845,
+          "lon": 14.63702,
+          "radiusKm": 5,
+          "bearing": 202.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 41.5282,
+          "lon": 14.61753,
+          "radiusKm": 5,
+          "bearing": 225.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 41.54278,
+          "lon": 14.6045,
+          "radiusKm": 5,
+          "bearing": 247.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 41.55998,
+          "lon": 14.59991,
+          "radiusKm": 5,
+          "bearing": 270.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 41.57719,
+          "lon": 14.60447,
+          "radiusKm": 5,
+          "bearing": 292.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 41.59179,
+          "lon": 14.61749,
+          "radiusKm": 5,
+          "bearing": 315.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 41.60154,
+          "lon": 14.63699,
+          "radiusKm": 5,
+          "bearing": 337.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 41.64993,
+          "lon": 14.66,
+          "radiusKm": 10,
+          "bearing": 0.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 41.64308,
+          "lon": 14.70605,
+          "radiusKm": 10,
+          "bearing": 22.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 41.62356,
+          "lon": 14.74507,
+          "radiusKm": 10,
+          "bearing": 45.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 41.59436,
+          "lon": 14.7711,
+          "radiusKm": 10,
+          "bearing": 67.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 41.55994,
+          "lon": 14.78019,
+          "radiusKm": 10,
+          "bearing": 90.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 41.52553,
+          "lon": 14.77098,
+          "radiusKm": 10,
+          "bearing": 112.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 41.49638,
+          "lon": 14.7449,
+          "radiusKm": 10,
+          "bearing": 135.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 41.4769,
+          "lon": 14.70593,
+          "radiusKm": 10,
+          "bearing": 157.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 41.47007,
+          "lon": 14.66,
+          "radiusKm": 10,
+          "bearing": 180.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 41.4769,
+          "lon": 14.61407,
+          "radiusKm": 10,
+          "bearing": 202.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 41.49638,
+          "lon": 14.5751,
+          "radiusKm": 10,
+          "bearing": 225.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 41.52553,
+          "lon": 14.54902,
+          "radiusKm": 10,
+          "bearing": 247.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 41.55994,
+          "lon": 14.53981,
+          "radiusKm": 10,
+          "bearing": 270.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 41.59436,
+          "lon": 14.5489,
+          "radiusKm": 10,
+          "bearing": 292.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 41.62356,
+          "lon": 14.57493,
+          "radiusKm": 10,
+          "bearing": 315.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 41.64308,
+          "lon": 14.61395,
+          "radiusKm": 10,
+          "bearing": 337.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 41.6949,
+          "lon": 14.66,
+          "radiusKm": 15,
+          "bearing": 0.0,
+          "zoneIndex": 7
+        },
+        {
+          "lat": 41.68461,
+          "lon": 14.72912,
+          "radiusKm": 15,
+          "bearing": 22.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 41.65532,
+          "lon": 14.78767,
+          "radiusKm": 15,
+          "bearing": 45.0,
+          "zoneIndex": 7
+        },
+        {
+          "lat": 41.6115,
+          "lon": 14.82669,
+          "radiusKm": 15,
+          "bearing": 67.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 41.55986,
+          "lon": 14.84028,
+          "radiusKm": 15,
+          "bearing": 90.0,
+          "zoneIndex": 7
+        },
+        {
+          "lat": 41.50826,
+          "lon": 14.82643,
+          "radiusKm": 15,
+          "bearing": 112.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 41.46454,
+          "lon": 14.78729,
+          "radiusKm": 15,
+          "bearing": 135.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 41.43535,
+          "lon": 14.72886,
+          "radiusKm": 15,
+          "bearing": 157.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 41.4251,
+          "lon": 14.66,
+          "radiusKm": 15,
+          "bearing": 180.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 41.43535,
+          "lon": 14.59114,
+          "radiusKm": 15,
+          "bearing": 202.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 41.46454,
+          "lon": 14.53271,
+          "radiusKm": 15,
+          "bearing": 225.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 41.50826,
+          "lon": 14.49357,
+          "radiusKm": 15,
+          "bearing": 247.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 41.55986,
+          "lon": 14.47972,
+          "radiusKm": 15,
+          "bearing": 270.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 41.6115,
+          "lon": 14.49331,
+          "radiusKm": 15,
+          "bearing": 292.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 41.65532,
+          "lon": 14.53233,
+          "radiusKm": 15,
+          "bearing": 315.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 41.68461,
+          "lon": 14.59088,
+          "radiusKm": 15,
+          "bearing": 337.5,
+          "zoneIndex": 8
+        }
+      ]
+    },
+    "Catania": {
+      "zone": "6b",
+      "index": 12,
+      "color": "rgb(251,153,138)",
+      "lpi": [
+        15.59,
+        27
+      ],
+      "brightnessMag": [
+        18.38,
+        18.95
+      ],
+      "samples": 32,
+      "sampleZoneRange": [
+        "5b",
+        "6b"
+      ],
+      "sampling": [
+        {
+          "lat": 37.55287,
+          "lon": 15.083,
+          "radiusKm": 5,
+          "bearing": 0.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 37.54944,
+          "lon": 15.1047,
+          "radiusKm": 5,
+          "bearing": 22.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 37.53969,
+          "lon": 15.1231,
+          "radiusKm": 5,
+          "bearing": 45.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 37.46293,
+          "lon": 15.083,
+          "radiusKm": 5,
+          "bearing": 180.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 37.46635,
+          "lon": 15.06132,
+          "radiusKm": 5,
+          "bearing": 202.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 37.4761,
+          "lon": 15.04294,
+          "radiusKm": 5,
+          "bearing": 225.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 37.49068,
+          "lon": 15.03064,
+          "radiusKm": 5,
+          "bearing": 247.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 37.50789,
+          "lon": 15.02632,
+          "radiusKm": 5,
+          "bearing": 270.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 37.5251,
+          "lon": 15.03062,
+          "radiusKm": 5,
+          "bearing": 292.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 37.53969,
+          "lon": 15.0429,
+          "radiusKm": 5,
+          "bearing": 315.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 37.54944,
+          "lon": 15.0613,
+          "radiusKm": 5,
+          "bearing": 337.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 37.59783,
+          "lon": 15.083,
+          "radiusKm": 10,
+          "bearing": 0.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 37.59098,
+          "lon": 15.12643,
+          "radiusKm": 10,
+          "bearing": 22.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 37.57146,
+          "lon": 15.16323,
+          "radiusKm": 10,
+          "bearing": 45.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 37.41797,
+          "lon": 15.083,
+          "radiusKm": 10,
+          "bearing": 180.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 37.42481,
+          "lon": 15.03966,
+          "radiusKm": 10,
+          "bearing": 202.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 37.44428,
+          "lon": 15.0029,
+          "radiusKm": 10,
+          "bearing": 225.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 37.47344,
+          "lon": 14.97831,
+          "radiusKm": 10,
+          "bearing": 247.5,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 37.50785,
+          "lon": 14.96963,
+          "radiusKm": 10,
+          "bearing": 270.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 37.54227,
+          "lon": 14.97821,
+          "radiusKm": 10,
+          "bearing": 292.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 37.57146,
+          "lon": 15.00277,
+          "radiusKm": 10,
+          "bearing": 315.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 37.59098,
+          "lon": 15.03957,
+          "radiusKm": 10,
+          "bearing": 337.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 37.6428,
+          "lon": 15.083,
+          "radiusKm": 15,
+          "bearing": 0.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 37.63251,
+          "lon": 15.14819,
+          "radiusKm": 15,
+          "bearing": 22.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 37.373,
+          "lon": 15.083,
+          "radiusKm": 15,
+          "bearing": 180.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 37.38325,
+          "lon": 15.01803,
+          "radiusKm": 15,
+          "bearing": 202.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 37.41245,
+          "lon": 14.96291,
+          "radiusKm": 15,
+          "bearing": 225.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 37.45617,
+          "lon": 14.926,
+          "radiusKm": 15,
+          "bearing": 247.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 37.50778,
+          "lon": 14.91295,
+          "radiusKm": 15,
+          "bearing": 270.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 37.55942,
+          "lon": 14.92578,
+          "radiusKm": 15,
+          "bearing": 292.5,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 37.60323,
+          "lon": 14.9626,
+          "radiusKm": 15,
+          "bearing": 315.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 37.63251,
+          "lon": 15.01781,
+          "radiusKm": 15,
+          "bearing": 337.5,
+          "zoneIndex": 11
+        }
+      ]
+    },
+    "Catanzaro": {
+      "zone": "5a",
+      "index": 9,
+      "color": "rgb(191,100,30)",
+      "lpi": [
+        3,
+        5.2
+      ],
+      "brightnessMag": [
+        20.02,
+        20.49
+      ],
+      "samples": 44,
+      "sampleZoneRange": [
+        "4a",
+        "5b"
+      ],
+      "sampling": [
+        {
+          "lat": 38.95497,
+          "lon": 16.587,
+          "radiusKm": 5,
+          "bearing": 0.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 38.95154,
+          "lon": 16.60913,
+          "radiusKm": 5,
+          "bearing": 22.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 38.94179,
+          "lon": 16.62788,
+          "radiusKm": 5,
+          "bearing": 45.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 38.9272,
+          "lon": 16.6404,
+          "radiusKm": 5,
+          "bearing": 67.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 38.90999,
+          "lon": 16.64479,
+          "radiusKm": 5,
+          "bearing": 90.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 38.89278,
+          "lon": 16.64038,
+          "radiusKm": 5,
+          "bearing": 112.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 38.8782,
+          "lon": 16.62784,
+          "radiusKm": 5,
+          "bearing": 135.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 38.86845,
+          "lon": 16.6091,
+          "radiusKm": 5,
+          "bearing": 157.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 38.86503,
+          "lon": 16.587,
+          "radiusKm": 5,
+          "bearing": 180.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 38.86845,
+          "lon": 16.5649,
+          "radiusKm": 5,
+          "bearing": 202.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 38.8782,
+          "lon": 16.54616,
+          "radiusKm": 5,
+          "bearing": 225.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 38.89278,
+          "lon": 16.53362,
+          "radiusKm": 5,
+          "bearing": 247.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 38.90999,
+          "lon": 16.52921,
+          "radiusKm": 5,
+          "bearing": 270.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 38.9272,
+          "lon": 16.5336,
+          "radiusKm": 5,
+          "bearing": 292.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 38.94179,
+          "lon": 16.54612,
+          "radiusKm": 5,
+          "bearing": 315.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 38.95154,
+          "lon": 16.56487,
+          "radiusKm": 5,
+          "bearing": 337.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 38.99993,
+          "lon": 16.587,
+          "radiusKm": 10,
+          "bearing": 0.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 38.99308,
+          "lon": 16.63128,
+          "radiusKm": 10,
+          "bearing": 22.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 38.97356,
+          "lon": 16.6688,
+          "radiusKm": 10,
+          "bearing": 45.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 38.94437,
+          "lon": 16.69383,
+          "radiusKm": 10,
+          "bearing": 67.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 38.90994,
+          "lon": 16.70257,
+          "radiusKm": 10,
+          "bearing": 90.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 38.87554,
+          "lon": 16.69372,
+          "radiusKm": 10,
+          "bearing": 112.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 38.84638,
+          "lon": 16.66865,
+          "radiusKm": 10,
+          "bearing": 135.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 38.82691,
+          "lon": 16.63118,
+          "radiusKm": 10,
+          "bearing": 157.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 38.82007,
+          "lon": 16.587,
+          "radiusKm": 10,
+          "bearing": 180.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 38.82691,
+          "lon": 16.54282,
+          "radiusKm": 10,
+          "bearing": 202.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 38.84638,
+          "lon": 16.50535,
+          "radiusKm": 10,
+          "bearing": 225.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 38.87554,
+          "lon": 16.48028,
+          "radiusKm": 10,
+          "bearing": 247.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 38.90994,
+          "lon": 16.47143,
+          "radiusKm": 10,
+          "bearing": 270.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 38.94437,
+          "lon": 16.48017,
+          "radiusKm": 10,
+          "bearing": 292.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 38.97356,
+          "lon": 16.5052,
+          "radiusKm": 10,
+          "bearing": 315.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 38.99308,
+          "lon": 16.54272,
+          "radiusKm": 10,
+          "bearing": 337.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 39.0449,
+          "lon": 16.587,
+          "radiusKm": 15,
+          "bearing": 0.0,
+          "zoneIndex": 7
+        },
+        {
+          "lat": 39.03461,
+          "lon": 16.65346,
+          "radiusKm": 15,
+          "bearing": 22.5,
+          "zoneIndex": 7
+        },
+        {
+          "lat": 39.00532,
+          "lon": 16.70975,
+          "radiusKm": 15,
+          "bearing": 45.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 38.96151,
+          "lon": 16.74728,
+          "radiusKm": 15,
+          "bearing": 67.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 38.90987,
+          "lon": 16.76036,
+          "radiusKm": 15,
+          "bearing": 90.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 38.78535,
+          "lon": 16.52077,
+          "radiusKm": 15,
+          "bearing": 202.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 38.81455,
+          "lon": 16.46458,
+          "radiusKm": 15,
+          "bearing": 225.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 38.85827,
+          "lon": 16.42695,
+          "radiusKm": 15,
+          "bearing": 247.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 38.90987,
+          "lon": 16.41364,
+          "radiusKm": 15,
+          "bearing": 270.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 38.96151,
+          "lon": 16.42672,
+          "radiusKm": 15,
+          "bearing": 292.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 39.00532,
+          "lon": 16.46425,
+          "radiusKm": 15,
+          "bearing": 315.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 39.03461,
+          "lon": 16.52054,
+          "radiusKm": 15,
+          "bearing": 337.5,
+          "zoneIndex": 7
+        }
+      ]
+    },
+    "Firenze": {
+      "zone": "6a",
+      "index": 11,
+      "color": "rgb(251,90,73)",
+      "lpi": [
+        9,
+        15.59
+      ],
+      "brightnessMag": [
+        18.95,
+        19.5
+      ],
+      "samples": 48,
+      "sampleZoneRange": [
+        "5a",
+        "7a"
+      ],
+      "sampling": [
+        {
+          "lat": 43.81457,
+          "lon": 11.2558,
+          "radiusKm": 5,
+          "bearing": 0.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 43.81114,
+          "lon": 11.27965,
+          "radiusKm": 5,
+          "bearing": 22.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 43.80139,
+          "lon": 11.29985,
+          "radiusKm": 5,
+          "bearing": 45.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 43.78679,
+          "lon": 11.31335,
+          "radiusKm": 5,
+          "bearing": 67.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 43.76958,
+          "lon": 11.31807,
+          "radiusKm": 5,
+          "bearing": 90.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 43.75238,
+          "lon": 11.31331,
+          "radiusKm": 5,
+          "bearing": 112.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 43.7378,
+          "lon": 11.29981,
+          "radiusKm": 5,
+          "bearing": 135.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 43.72805,
+          "lon": 11.27961,
+          "radiusKm": 5,
+          "bearing": 157.5,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 43.72463,
+          "lon": 11.2558,
+          "radiusKm": 5,
+          "bearing": 180.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 43.72805,
+          "lon": 11.23199,
+          "radiusKm": 5,
+          "bearing": 202.5,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 43.7378,
+          "lon": 11.21179,
+          "radiusKm": 5,
+          "bearing": 225.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 43.75238,
+          "lon": 11.19829,
+          "radiusKm": 5,
+          "bearing": 247.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 43.76958,
+          "lon": 11.19353,
+          "radiusKm": 5,
+          "bearing": 270.0,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 43.78679,
+          "lon": 11.19825,
+          "radiusKm": 5,
+          "bearing": 292.5,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 43.80139,
+          "lon": 11.21175,
+          "radiusKm": 5,
+          "bearing": 315.0,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 43.81114,
+          "lon": 11.23195,
+          "radiusKm": 5,
+          "bearing": 337.5,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 43.85953,
+          "lon": 11.2558,
+          "radiusKm": 10,
+          "bearing": 0.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 43.85268,
+          "lon": 11.30352,
+          "radiusKm": 10,
+          "bearing": 22.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 43.83316,
+          "lon": 11.34396,
+          "radiusKm": 10,
+          "bearing": 45.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 43.80396,
+          "lon": 11.37092,
+          "radiusKm": 10,
+          "bearing": 67.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 43.76953,
+          "lon": 11.38034,
+          "radiusKm": 10,
+          "bearing": 90.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 43.73513,
+          "lon": 11.37079,
+          "radiusKm": 10,
+          "bearing": 112.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 43.70597,
+          "lon": 11.34377,
+          "radiusKm": 10,
+          "bearing": 135.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 43.6865,
+          "lon": 11.30339,
+          "radiusKm": 10,
+          "bearing": 157.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 43.67967,
+          "lon": 11.2558,
+          "radiusKm": 10,
+          "bearing": 180.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 43.6865,
+          "lon": 11.20821,
+          "radiusKm": 10,
+          "bearing": 202.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 43.70597,
+          "lon": 11.16783,
+          "radiusKm": 10,
+          "bearing": 225.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 43.73513,
+          "lon": 11.14081,
+          "radiusKm": 10,
+          "bearing": 247.5,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 43.76953,
+          "lon": 11.13126,
+          "radiusKm": 10,
+          "bearing": 270.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 43.80396,
+          "lon": 11.14068,
+          "radiusKm": 10,
+          "bearing": 292.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 43.83316,
+          "lon": 11.16764,
+          "radiusKm": 10,
+          "bearing": 315.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 43.85268,
+          "lon": 11.20808,
+          "radiusKm": 10,
+          "bearing": 337.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 43.9045,
+          "lon": 11.2558,
+          "radiusKm": 15,
+          "bearing": 0.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 43.89421,
+          "lon": 11.32744,
+          "radiusKm": 15,
+          "bearing": 22.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 43.86491,
+          "lon": 11.3881,
+          "radiusKm": 15,
+          "bearing": 45.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 43.82109,
+          "lon": 11.42854,
+          "radiusKm": 15,
+          "bearing": 67.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 43.76945,
+          "lon": 11.44261,
+          "radiusKm": 15,
+          "bearing": 90.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 43.71785,
+          "lon": 11.42824,
+          "radiusKm": 15,
+          "bearing": 112.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 43.67414,
+          "lon": 11.38768,
+          "radiusKm": 15,
+          "bearing": 135.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 43.64495,
+          "lon": 11.32714,
+          "radiusKm": 15,
+          "bearing": 157.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 43.6347,
+          "lon": 11.2558,
+          "radiusKm": 15,
+          "bearing": 180.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 43.64495,
+          "lon": 11.18446,
+          "radiusKm": 15,
+          "bearing": 202.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 43.67414,
+          "lon": 11.12392,
+          "radiusKm": 15,
+          "bearing": 225.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 43.71785,
+          "lon": 11.08336,
+          "radiusKm": 15,
+          "bearing": 247.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 43.76945,
+          "lon": 11.06899,
+          "radiusKm": 15,
+          "bearing": 270.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 43.82109,
+          "lon": 11.08306,
+          "radiusKm": 15,
+          "bearing": 292.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 43.86491,
+          "lon": 11.1235,
+          "radiusKm": 15,
+          "bearing": 315.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 43.89421,
+          "lon": 11.18416,
+          "radiusKm": 15,
+          "bearing": 337.5,
+          "zoneIndex": 11
+        }
+      ]
+    },
+    "Genova": {
+      "zone": "5b",
+      "index": 10,
+      "color": "rgb(253,150,80)",
+      "lpi": [
+        5.2,
+        9
+      ],
+      "brightnessMag": [
+        19.5,
+        20.02
+      ],
+      "samples": 25,
+      "sampleZoneRange": [
+        "4b",
+        "6b"
+      ],
+      "sampling": [
+        {
+          "lat": 44.45057,
+          "lon": 8.9463,
+          "radiusKm": 5,
+          "bearing": 0.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 44.44714,
+          "lon": 8.9704,
+          "radiusKm": 5,
+          "bearing": 22.5,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 44.43739,
+          "lon": 8.99083,
+          "radiusKm": 5,
+          "bearing": 45.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 44.42279,
+          "lon": 9.00447,
+          "radiusKm": 5,
+          "bearing": 67.5,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 44.40558,
+          "lon": 9.00924,
+          "radiusKm": 5,
+          "bearing": 90.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 44.38838,
+          "lon": 9.00443,
+          "radiusKm": 5,
+          "bearing": 112.5,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 44.42279,
+          "lon": 8.88813,
+          "radiusKm": 5,
+          "bearing": 292.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 44.43739,
+          "lon": 8.90177,
+          "radiusKm": 5,
+          "bearing": 315.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 44.44714,
+          "lon": 8.9222,
+          "radiusKm": 5,
+          "bearing": 337.5,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 44.49553,
+          "lon": 8.9463,
+          "radiusKm": 10,
+          "bearing": 0.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 44.48868,
+          "lon": 8.99454,
+          "radiusKm": 10,
+          "bearing": 22.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 44.46916,
+          "lon": 9.03541,
+          "radiusKm": 10,
+          "bearing": 45.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 44.43996,
+          "lon": 9.06267,
+          "radiusKm": 10,
+          "bearing": 67.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 44.40553,
+          "lon": 9.07218,
+          "radiusKm": 10,
+          "bearing": 90.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 44.43996,
+          "lon": 8.82993,
+          "radiusKm": 10,
+          "bearing": 292.5,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 44.46916,
+          "lon": 8.85719,
+          "radiusKm": 10,
+          "bearing": 315.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 44.48868,
+          "lon": 8.89806,
+          "radiusKm": 10,
+          "bearing": 337.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 44.5405,
+          "lon": 8.9463,
+          "radiusKm": 15,
+          "bearing": 0.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 44.53021,
+          "lon": 9.01872,
+          "radiusKm": 15,
+          "bearing": 22.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 44.50091,
+          "lon": 9.08004,
+          "radiusKm": 15,
+          "bearing": 45.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 44.45709,
+          "lon": 9.12091,
+          "radiusKm": 15,
+          "bearing": 67.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 44.40544,
+          "lon": 9.13513,
+          "radiusKm": 15,
+          "bearing": 90.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 44.45709,
+          "lon": 8.77169,
+          "radiusKm": 15,
+          "bearing": 292.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 44.50091,
+          "lon": 8.81256,
+          "radiusKm": 15,
+          "bearing": 315.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 44.53021,
+          "lon": 8.87388,
+          "radiusKm": 15,
+          "bearing": 337.5,
+          "zoneIndex": 9
+        }
+      ]
+    },
+    "L’Aquila": {
+      "zone": "5a",
+      "index": 9,
+      "color": "rgb(191,100,30)",
+      "lpi": [
+        3,
+        5.2
+      ],
+      "brightnessMag": [
+        20.02,
+        20.49
+      ],
+      "samples": 48,
+      "sampleZoneRange": [
+        "4a",
+        "5b"
+      ],
+      "sampling": [
+        {
+          "lat": 42.39477,
+          "lon": 13.3995,
+          "radiusKm": 5,
+          "bearing": 0.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 42.39134,
+          "lon": 13.4228,
+          "radiusKm": 5,
+          "bearing": 22.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 42.38159,
+          "lon": 13.44254,
+          "radiusKm": 5,
+          "bearing": 45.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 42.36699,
+          "lon": 13.45573,
+          "radiusKm": 5,
+          "bearing": 67.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 42.34978,
+          "lon": 13.46034,
+          "radiusKm": 5,
+          "bearing": 90.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 42.33258,
+          "lon": 13.4557,
+          "radiusKm": 5,
+          "bearing": 112.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 42.318,
+          "lon": 13.4425,
+          "radiusKm": 5,
+          "bearing": 135.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 42.30825,
+          "lon": 13.42277,
+          "radiusKm": 5,
+          "bearing": 157.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 42.30483,
+          "lon": 13.3995,
+          "radiusKm": 5,
+          "bearing": 180.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 42.30825,
+          "lon": 13.37623,
+          "radiusKm": 5,
+          "bearing": 202.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 42.318,
+          "lon": 13.3565,
+          "radiusKm": 5,
+          "bearing": 225.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 42.33258,
+          "lon": 13.3433,
+          "radiusKm": 5,
+          "bearing": 247.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 42.34978,
+          "lon": 13.33866,
+          "radiusKm": 5,
+          "bearing": 270.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 42.36699,
+          "lon": 13.34327,
+          "radiusKm": 5,
+          "bearing": 292.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 42.38159,
+          "lon": 13.35646,
+          "radiusKm": 5,
+          "bearing": 315.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 42.39134,
+          "lon": 13.3762,
+          "radiusKm": 5,
+          "bearing": 337.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 42.43973,
+          "lon": 13.3995,
+          "radiusKm": 10,
+          "bearing": 0.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 42.43288,
+          "lon": 13.44613,
+          "radiusKm": 10,
+          "bearing": 22.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 42.41336,
+          "lon": 13.48563,
+          "radiusKm": 10,
+          "bearing": 45.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 42.38416,
+          "lon": 13.51199,
+          "radiusKm": 10,
+          "bearing": 67.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 42.34974,
+          "lon": 13.52119,
+          "radiusKm": 10,
+          "bearing": 90.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 42.31533,
+          "lon": 13.51186,
+          "radiusKm": 10,
+          "bearing": 112.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 42.28618,
+          "lon": 13.48546,
+          "radiusKm": 10,
+          "bearing": 135.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 42.2667,
+          "lon": 13.44601,
+          "radiusKm": 10,
+          "bearing": 157.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 42.25987,
+          "lon": 13.3995,
+          "radiusKm": 10,
+          "bearing": 180.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 42.2667,
+          "lon": 13.35299,
+          "radiusKm": 10,
+          "bearing": 202.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 42.28618,
+          "lon": 13.31354,
+          "radiusKm": 10,
+          "bearing": 225.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 42.31533,
+          "lon": 13.28714,
+          "radiusKm": 10,
+          "bearing": 247.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 42.34974,
+          "lon": 13.27781,
+          "radiusKm": 10,
+          "bearing": 270.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 42.38416,
+          "lon": 13.28701,
+          "radiusKm": 10,
+          "bearing": 292.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 42.41336,
+          "lon": 13.31337,
+          "radiusKm": 10,
+          "bearing": 315.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 42.43288,
+          "lon": 13.35287,
+          "radiusKm": 10,
+          "bearing": 337.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 42.4847,
+          "lon": 13.3995,
+          "radiusKm": 15,
+          "bearing": 0.0,
+          "zoneIndex": 7
+        },
+        {
+          "lat": 42.47441,
+          "lon": 13.46949,
+          "radiusKm": 15,
+          "bearing": 22.5,
+          "zoneIndex": 7
+        },
+        {
+          "lat": 42.44511,
+          "lon": 13.52876,
+          "radiusKm": 15,
+          "bearing": 45.0,
+          "zoneIndex": 7
+        },
+        {
+          "lat": 42.4013,
+          "lon": 13.56827,
+          "radiusKm": 15,
+          "bearing": 67.5,
+          "zoneIndex": 7
+        },
+        {
+          "lat": 42.34966,
+          "lon": 13.58203,
+          "radiusKm": 15,
+          "bearing": 90.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 42.29805,
+          "lon": 13.568,
+          "radiusKm": 15,
+          "bearing": 112.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 42.25434,
+          "lon": 13.52837,
+          "radiusKm": 15,
+          "bearing": 135.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 42.22515,
+          "lon": 13.46921,
+          "radiusKm": 15,
+          "bearing": 157.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 42.2149,
+          "lon": 13.3995,
+          "radiusKm": 15,
+          "bearing": 180.0,
+          "zoneIndex": 7
+        },
+        {
+          "lat": 42.22515,
+          "lon": 13.32979,
+          "radiusKm": 15,
+          "bearing": 202.5,
+          "zoneIndex": 7
+        },
+        {
+          "lat": 42.25434,
+          "lon": 13.27063,
+          "radiusKm": 15,
+          "bearing": 225.0,
+          "zoneIndex": 7
+        },
+        {
+          "lat": 42.29805,
+          "lon": 13.231,
+          "radiusKm": 15,
+          "bearing": 247.5,
+          "zoneIndex": 7
+        },
+        {
+          "lat": 42.34966,
+          "lon": 13.21697,
+          "radiusKm": 15,
+          "bearing": 270.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 42.4013,
+          "lon": 13.23073,
+          "radiusKm": 15,
+          "bearing": 292.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 42.44511,
+          "lon": 13.27024,
+          "radiusKm": 15,
+          "bearing": 315.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 42.47441,
+          "lon": 13.32951,
+          "radiusKm": 15,
+          "bearing": 337.5,
+          "zoneIndex": 8
+        }
+      ]
+    },
+    "Milano": {
+      "zone": "7a",
+      "index": 13,
+      "color": "rgb(160,160,160)",
+      "lpi": [
+        27,
+        46.77
+      ],
+      "brightnessMag": [
+        17.8,
+        18.38
+      ],
+      "samples": 48,
+      "sampleZoneRange": [
+        "6a",
+        "7b"
+      ],
+      "sampling": [
+        {
+          "lat": 45.50917,
+          "lon": 9.19,
+          "radiusKm": 5,
+          "bearing": 0.0,
+          "zoneIndex": 14
+        },
+        {
+          "lat": 45.50574,
+          "lon": 9.21455,
+          "radiusKm": 5,
+          "bearing": 22.5,
+          "zoneIndex": 14
+        },
+        {
+          "lat": 45.49599,
+          "lon": 9.23536,
+          "radiusKm": 5,
+          "bearing": 45.0,
+          "zoneIndex": 14
+        },
+        {
+          "lat": 45.48139,
+          "lon": 9.24925,
+          "radiusKm": 5,
+          "bearing": 67.5,
+          "zoneIndex": 14
+        },
+        {
+          "lat": 45.46418,
+          "lon": 9.25411,
+          "radiusKm": 5,
+          "bearing": 90.0,
+          "zoneIndex": 14
+        },
+        {
+          "lat": 45.44698,
+          "lon": 9.24921,
+          "radiusKm": 5,
+          "bearing": 112.5,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 45.4324,
+          "lon": 9.23531,
+          "radiusKm": 5,
+          "bearing": 135.0,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 45.42265,
+          "lon": 9.21452,
+          "radiusKm": 5,
+          "bearing": 157.5,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 45.41923,
+          "lon": 9.19,
+          "radiusKm": 5,
+          "bearing": 180.0,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 45.42265,
+          "lon": 9.16548,
+          "radiusKm": 5,
+          "bearing": 202.5,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 45.4324,
+          "lon": 9.14469,
+          "radiusKm": 5,
+          "bearing": 225.0,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 45.44698,
+          "lon": 9.13079,
+          "radiusKm": 5,
+          "bearing": 247.5,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 45.46418,
+          "lon": 9.12589,
+          "radiusKm": 5,
+          "bearing": 270.0,
+          "zoneIndex": 14
+        },
+        {
+          "lat": 45.48139,
+          "lon": 9.13075,
+          "radiusKm": 5,
+          "bearing": 292.5,
+          "zoneIndex": 14
+        },
+        {
+          "lat": 45.49599,
+          "lon": 9.14464,
+          "radiusKm": 5,
+          "bearing": 315.0,
+          "zoneIndex": 14
+        },
+        {
+          "lat": 45.50574,
+          "lon": 9.16545,
+          "radiusKm": 5,
+          "bearing": 337.5,
+          "zoneIndex": 14
+        },
+        {
+          "lat": 45.55413,
+          "lon": 9.19,
+          "radiusKm": 10,
+          "bearing": 0.0,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 45.54728,
+          "lon": 9.23914,
+          "radiusKm": 10,
+          "bearing": 22.5,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 45.52776,
+          "lon": 9.28077,
+          "radiusKm": 10,
+          "bearing": 45.0,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 45.49855,
+          "lon": 9.30854,
+          "radiusKm": 10,
+          "bearing": 67.5,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 45.46413,
+          "lon": 9.31823,
+          "radiusKm": 10,
+          "bearing": 90.0,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 45.42972,
+          "lon": 9.30839,
+          "radiusKm": 10,
+          "bearing": 112.5,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 45.40057,
+          "lon": 9.28057,
+          "radiusKm": 10,
+          "bearing": 135.0,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 45.3811,
+          "lon": 9.239,
+          "radiusKm": 10,
+          "bearing": 157.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 45.37427,
+          "lon": 9.19,
+          "radiusKm": 10,
+          "bearing": 180.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 45.3811,
+          "lon": 9.141,
+          "radiusKm": 10,
+          "bearing": 202.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 45.40057,
+          "lon": 9.09943,
+          "radiusKm": 10,
+          "bearing": 225.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 45.42972,
+          "lon": 9.07161,
+          "radiusKm": 10,
+          "bearing": 247.5,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 45.46413,
+          "lon": 9.06177,
+          "radiusKm": 10,
+          "bearing": 270.0,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 45.49855,
+          "lon": 9.07146,
+          "radiusKm": 10,
+          "bearing": 292.5,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 45.52776,
+          "lon": 9.09923,
+          "radiusKm": 10,
+          "bearing": 315.0,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 45.54728,
+          "lon": 9.14086,
+          "radiusKm": 10,
+          "bearing": 337.5,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 45.5991,
+          "lon": 9.19,
+          "radiusKm": 15,
+          "bearing": 0.0,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 45.58881,
+          "lon": 9.26377,
+          "radiusKm": 15,
+          "bearing": 22.5,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 45.55951,
+          "lon": 9.32624,
+          "radiusKm": 15,
+          "bearing": 45.0,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 45.51569,
+          "lon": 9.36786,
+          "radiusKm": 15,
+          "bearing": 67.5,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 45.46404,
+          "lon": 9.38234,
+          "radiusKm": 15,
+          "bearing": 90.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 45.41244,
+          "lon": 9.36754,
+          "radiusKm": 15,
+          "bearing": 112.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 45.36873,
+          "lon": 9.32577,
+          "radiusKm": 15,
+          "bearing": 135.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 45.33955,
+          "lon": 9.26344,
+          "radiusKm": 15,
+          "bearing": 157.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 45.3293,
+          "lon": 9.19,
+          "radiusKm": 15,
+          "bearing": 180.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 45.33955,
+          "lon": 9.11656,
+          "radiusKm": 15,
+          "bearing": 202.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 45.36873,
+          "lon": 9.05423,
+          "radiusKm": 15,
+          "bearing": 225.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 45.41244,
+          "lon": 9.01246,
+          "radiusKm": 15,
+          "bearing": 247.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 45.46404,
+          "lon": 8.99766,
+          "radiusKm": 15,
+          "bearing": 270.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 45.51569,
+          "lon": 9.01214,
+          "radiusKm": 15,
+          "bearing": 292.5,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 45.55951,
+          "lon": 9.05376,
+          "radiusKm": 15,
+          "bearing": 315.0,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 45.58881,
+          "lon": 9.11623,
+          "radiusKm": 15,
+          "bearing": 337.5,
+          "zoneIndex": 13
+        }
+      ]
+    },
+    "Napoli": {
+      "zone": "7a",
+      "index": 13,
+      "color": "rgb(160,160,160)",
+      "lpi": [
+        27,
+        46.77
+      ],
+      "brightnessMag": [
+        17.8,
+        18.38
+      ],
+      "samples": 32,
+      "sampleZoneRange": [
+        "6b",
+        "7b"
+      ],
+      "sampling": [
+        {
+          "lat": 40.89677,
+          "lon": 14.2681,
+          "radiusKm": 5,
+          "bearing": 0.0,
+          "zoneIndex": 14
+        },
+        {
+          "lat": 40.89334,
+          "lon": 14.29086,
+          "radiusKm": 5,
+          "bearing": 22.5,
+          "zoneIndex": 14
+        },
+        {
+          "lat": 40.88359,
+          "lon": 14.31016,
+          "radiusKm": 5,
+          "bearing": 45.0,
+          "zoneIndex": 14
+        },
+        {
+          "lat": 40.86899,
+          "lon": 14.32304,
+          "radiusKm": 5,
+          "bearing": 67.5,
+          "zoneIndex": 14
+        },
+        {
+          "lat": 40.85178,
+          "lon": 14.32755,
+          "radiusKm": 5,
+          "bearing": 90.0,
+          "zoneIndex": 14
+        },
+        {
+          "lat": 40.83458,
+          "lon": 14.32301,
+          "radiusKm": 5,
+          "bearing": 112.5,
+          "zoneIndex": 14
+        },
+        {
+          "lat": 40.83458,
+          "lon": 14.21319,
+          "radiusKm": 5,
+          "bearing": 247.5,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 40.85178,
+          "lon": 14.20865,
+          "radiusKm": 5,
+          "bearing": 270.0,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 40.86899,
+          "lon": 14.21316,
+          "radiusKm": 5,
+          "bearing": 292.5,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 40.88359,
+          "lon": 14.22604,
+          "radiusKm": 5,
+          "bearing": 315.0,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 40.89334,
+          "lon": 14.24534,
+          "radiusKm": 5,
+          "bearing": 337.5,
+          "zoneIndex": 14
+        },
+        {
+          "lat": 40.94173,
+          "lon": 14.2681,
+          "radiusKm": 10,
+          "bearing": 0.0,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 40.93488,
+          "lon": 14.31366,
+          "radiusKm": 10,
+          "bearing": 22.5,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 40.91536,
+          "lon": 14.35225,
+          "radiusKm": 10,
+          "bearing": 45.0,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 40.88616,
+          "lon": 14.378,
+          "radiusKm": 10,
+          "bearing": 67.5,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 40.85174,
+          "lon": 14.38699,
+          "radiusKm": 10,
+          "bearing": 90.0,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 40.81733,
+          "lon": 14.37789,
+          "radiusKm": 10,
+          "bearing": 112.5,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 40.81733,
+          "lon": 14.15831,
+          "radiusKm": 10,
+          "bearing": 247.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 40.85174,
+          "lon": 14.14921,
+          "radiusKm": 10,
+          "bearing": 270.0,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 40.88616,
+          "lon": 14.1582,
+          "radiusKm": 10,
+          "bearing": 292.5,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 40.91536,
+          "lon": 14.18395,
+          "radiusKm": 10,
+          "bearing": 315.0,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 40.93488,
+          "lon": 14.22254,
+          "radiusKm": 10,
+          "bearing": 337.5,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 40.9867,
+          "lon": 14.2681,
+          "radiusKm": 15,
+          "bearing": 0.0,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 40.97641,
+          "lon": 14.33648,
+          "radiusKm": 15,
+          "bearing": 22.5,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 40.94712,
+          "lon": 14.39439,
+          "radiusKm": 15,
+          "bearing": 45.0,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 40.90331,
+          "lon": 14.43299,
+          "radiusKm": 15,
+          "bearing": 67.5,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 40.85166,
+          "lon": 14.44644,
+          "radiusKm": 15,
+          "bearing": 90.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 40.80006,
+          "lon": 14.43274,
+          "radiusKm": 15,
+          "bearing": 112.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 40.85166,
+          "lon": 14.08976,
+          "radiusKm": 15,
+          "bearing": 270.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 40.90331,
+          "lon": 14.10321,
+          "radiusKm": 15,
+          "bearing": 292.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 40.94712,
+          "lon": 14.14181,
+          "radiusKm": 15,
+          "bearing": 315.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 40.97641,
+          "lon": 14.19972,
+          "radiusKm": 15,
+          "bearing": 337.5,
+          "zoneIndex": 13
+        }
+      ]
+    },
+    "Palermo": {
+      "zone": "6a",
+      "index": 11,
+      "color": "rgb(251,90,73)",
+      "lpi": [
+        9,
+        15.59
+      ],
+      "brightnessMag": [
+        18.95,
+        19.5
+      ],
+      "samples": 32,
+      "sampleZoneRange": [
+        "5a",
+        "7a"
+      ],
+      "sampling": [
+        {
+          "lat": 38.16067,
+          "lon": 13.3615,
+          "radiusKm": 5,
+          "bearing": 0.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 38.09848,
+          "lon": 13.41429,
+          "radiusKm": 5,
+          "bearing": 112.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 38.0839,
+          "lon": 13.4019,
+          "radiusKm": 5,
+          "bearing": 135.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 38.07415,
+          "lon": 13.38336,
+          "radiusKm": 5,
+          "bearing": 157.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 38.07073,
+          "lon": 13.3615,
+          "radiusKm": 5,
+          "bearing": 180.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 38.07415,
+          "lon": 13.33964,
+          "radiusKm": 5,
+          "bearing": 202.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 38.0839,
+          "lon": 13.3211,
+          "radiusKm": 5,
+          "bearing": 225.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 38.09848,
+          "lon": 13.30871,
+          "radiusKm": 5,
+          "bearing": 247.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 38.11569,
+          "lon": 13.30435,
+          "radiusKm": 5,
+          "bearing": 270.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 38.1329,
+          "lon": 13.30869,
+          "radiusKm": 5,
+          "bearing": 292.5,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 38.14749,
+          "lon": 13.32107,
+          "radiusKm": 5,
+          "bearing": 315.0,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 38.15724,
+          "lon": 13.33962,
+          "radiusKm": 5,
+          "bearing": 337.5,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 38.08124,
+          "lon": 13.46706,
+          "radiusKm": 10,
+          "bearing": 112.5,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 38.05208,
+          "lon": 13.44226,
+          "radiusKm": 10,
+          "bearing": 135.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 38.03261,
+          "lon": 13.40519,
+          "radiusKm": 10,
+          "bearing": 157.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 38.02577,
+          "lon": 13.3615,
+          "radiusKm": 10,
+          "bearing": 180.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 38.03261,
+          "lon": 13.31781,
+          "radiusKm": 10,
+          "bearing": 202.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 38.05208,
+          "lon": 13.28074,
+          "radiusKm": 10,
+          "bearing": 225.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 38.08124,
+          "lon": 13.25594,
+          "radiusKm": 10,
+          "bearing": 247.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 38.11564,
+          "lon": 13.24719,
+          "radiusKm": 10,
+          "bearing": 270.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 38.15007,
+          "lon": 13.25585,
+          "radiusKm": 10,
+          "bearing": 292.5,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 38.17926,
+          "lon": 13.2806,
+          "radiusKm": 10,
+          "bearing": 315.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 38.19878,
+          "lon": 13.31771,
+          "radiusKm": 10,
+          "bearing": 337.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 38.06397,
+          "lon": 13.5198,
+          "radiusKm": 15,
+          "bearing": 112.5,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 38.02025,
+          "lon": 13.48258,
+          "radiusKm": 15,
+          "bearing": 135.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 37.99105,
+          "lon": 13.427,
+          "radiusKm": 15,
+          "bearing": 157.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 37.9808,
+          "lon": 13.3615,
+          "radiusKm": 15,
+          "bearing": 180.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 37.99105,
+          "lon": 13.296,
+          "radiusKm": 15,
+          "bearing": 202.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 38.02025,
+          "lon": 13.24042,
+          "radiusKm": 15,
+          "bearing": 225.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 38.06397,
+          "lon": 13.2032,
+          "radiusKm": 15,
+          "bearing": 247.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 38.11558,
+          "lon": 13.19004,
+          "radiusKm": 15,
+          "bearing": 270.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 38.16722,
+          "lon": 13.20298,
+          "radiusKm": 15,
+          "bearing": 292.5,
+          "zoneIndex": 11
+        }
+      ]
+    },
+    "Perugia": {
+      "zone": "5b",
+      "index": 10,
+      "color": "rgb(253,150,80)",
+      "lpi": [
+        5.2,
+        9
+      ],
+      "brightnessMag": [
+        19.5,
+        20.02
+      ],
+      "samples": 48,
+      "sampleZoneRange": [
+        "4b",
+        "6a"
+      ],
+      "sampling": [
+        {
+          "lat": 43.15567,
+          "lon": 12.3908,
+          "radiusKm": 5,
+          "bearing": 0.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 43.15224,
+          "lon": 12.41439,
+          "radiusKm": 5,
+          "bearing": 22.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 43.14249,
+          "lon": 12.43438,
+          "radiusKm": 5,
+          "bearing": 45.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 43.12789,
+          "lon": 12.44772,
+          "radiusKm": 5,
+          "bearing": 67.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 43.11068,
+          "lon": 12.45239,
+          "radiusKm": 5,
+          "bearing": 90.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 43.09348,
+          "lon": 12.44769,
+          "radiusKm": 5,
+          "bearing": 112.5,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 43.0789,
+          "lon": 12.43433,
+          "radiusKm": 5,
+          "bearing": 135.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 43.06915,
+          "lon": 12.41436,
+          "radiusKm": 5,
+          "bearing": 157.5,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 43.06573,
+          "lon": 12.3908,
+          "radiusKm": 5,
+          "bearing": 180.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 43.06915,
+          "lon": 12.36724,
+          "radiusKm": 5,
+          "bearing": 202.5,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 43.0789,
+          "lon": 12.34727,
+          "radiusKm": 5,
+          "bearing": 225.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 43.09348,
+          "lon": 12.33391,
+          "radiusKm": 5,
+          "bearing": 247.5,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 43.11068,
+          "lon": 12.32921,
+          "radiusKm": 5,
+          "bearing": 270.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 43.12789,
+          "lon": 12.33388,
+          "radiusKm": 5,
+          "bearing": 292.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 43.14249,
+          "lon": 12.34722,
+          "radiusKm": 5,
+          "bearing": 315.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 43.15224,
+          "lon": 12.36721,
+          "radiusKm": 5,
+          "bearing": 337.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 43.20063,
+          "lon": 12.3908,
+          "radiusKm": 10,
+          "bearing": 0.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 43.19378,
+          "lon": 12.43801,
+          "radiusKm": 10,
+          "bearing": 22.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 43.17426,
+          "lon": 12.478,
+          "radiusKm": 10,
+          "bearing": 45.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 43.14506,
+          "lon": 12.50468,
+          "radiusKm": 10,
+          "bearing": 67.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 43.11063,
+          "lon": 12.51399,
+          "radiusKm": 10,
+          "bearing": 90.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 43.07623,
+          "lon": 12.50455,
+          "radiusKm": 10,
+          "bearing": 112.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 43.04708,
+          "lon": 12.47782,
+          "radiusKm": 10,
+          "bearing": 135.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 43.0276,
+          "lon": 12.43788,
+          "radiusKm": 10,
+          "bearing": 157.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 43.02077,
+          "lon": 12.3908,
+          "radiusKm": 10,
+          "bearing": 180.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 43.0276,
+          "lon": 12.34372,
+          "radiusKm": 10,
+          "bearing": 202.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 43.04708,
+          "lon": 12.30378,
+          "radiusKm": 10,
+          "bearing": 225.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 43.07623,
+          "lon": 12.27705,
+          "radiusKm": 10,
+          "bearing": 247.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 43.11063,
+          "lon": 12.26761,
+          "radiusKm": 10,
+          "bearing": 270.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 43.14506,
+          "lon": 12.27692,
+          "radiusKm": 10,
+          "bearing": 292.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 43.17426,
+          "lon": 12.3036,
+          "radiusKm": 10,
+          "bearing": 315.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 43.19378,
+          "lon": 12.34359,
+          "radiusKm": 10,
+          "bearing": 337.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 43.2456,
+          "lon": 12.3908,
+          "radiusKm": 15,
+          "bearing": 0.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 43.23531,
+          "lon": 12.46166,
+          "radiusKm": 15,
+          "bearing": 22.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 43.20601,
+          "lon": 12.52167,
+          "radiusKm": 15,
+          "bearing": 45.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 43.1622,
+          "lon": 12.56166,
+          "radiusKm": 15,
+          "bearing": 67.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 43.11055,
+          "lon": 12.57558,
+          "radiusKm": 15,
+          "bearing": 90.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 43.05895,
+          "lon": 12.56137,
+          "radiusKm": 15,
+          "bearing": 112.5,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 43.01524,
+          "lon": 12.52126,
+          "radiusKm": 15,
+          "bearing": 135.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 42.98605,
+          "lon": 12.46137,
+          "radiusKm": 15,
+          "bearing": 157.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 42.9758,
+          "lon": 12.3908,
+          "radiusKm": 15,
+          "bearing": 180.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 42.98605,
+          "lon": 12.32023,
+          "radiusKm": 15,
+          "bearing": 202.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 43.01524,
+          "lon": 12.26034,
+          "radiusKm": 15,
+          "bearing": 225.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 43.05895,
+          "lon": 12.22023,
+          "radiusKm": 15,
+          "bearing": 247.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 43.11055,
+          "lon": 12.20602,
+          "radiusKm": 15,
+          "bearing": 270.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 43.1622,
+          "lon": 12.21994,
+          "radiusKm": 15,
+          "bearing": 292.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 43.20601,
+          "lon": 12.25993,
+          "radiusKm": 15,
+          "bearing": 315.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 43.23531,
+          "lon": 12.31994,
+          "radiusKm": 15,
+          "bearing": 337.5,
+          "zoneIndex": 8
+        }
+      ]
+    },
+    "Potenza": {
+      "zone": "4b",
+      "index": 8,
+      "color": "rgb(184,166,37)",
+      "lpi": [
+        1.73,
+        3
+      ],
+      "brightnessMag": [
+        20.49,
+        20.91
+      ],
+      "samples": 48,
+      "sampleZoneRange": [
+        "4a",
+        "5b"
+      ],
+      "sampling": [
+        {
+          "lat": 40.68497,
+          "lon": 15.805,
+          "radiusKm": 5,
+          "bearing": 0.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 40.68154,
+          "lon": 15.82769,
+          "radiusKm": 5,
+          "bearing": 22.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 40.67179,
+          "lon": 15.84692,
+          "radiusKm": 5,
+          "bearing": 45.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 40.65719,
+          "lon": 15.85976,
+          "radiusKm": 5,
+          "bearing": 67.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 40.63998,
+          "lon": 15.86426,
+          "radiusKm": 5,
+          "bearing": 90.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 40.62278,
+          "lon": 15.85973,
+          "radiusKm": 5,
+          "bearing": 112.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 40.6082,
+          "lon": 15.84688,
+          "radiusKm": 5,
+          "bearing": 135.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 40.59845,
+          "lon": 15.82766,
+          "radiusKm": 5,
+          "bearing": 157.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 40.59503,
+          "lon": 15.805,
+          "radiusKm": 5,
+          "bearing": 180.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 40.59845,
+          "lon": 15.78234,
+          "radiusKm": 5,
+          "bearing": 202.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 40.6082,
+          "lon": 15.76312,
+          "radiusKm": 5,
+          "bearing": 225.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 40.62278,
+          "lon": 15.75027,
+          "radiusKm": 5,
+          "bearing": 247.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 40.63998,
+          "lon": 15.74574,
+          "radiusKm": 5,
+          "bearing": 270.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 40.65719,
+          "lon": 15.75024,
+          "radiusKm": 5,
+          "bearing": 292.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 40.67179,
+          "lon": 15.76308,
+          "radiusKm": 5,
+          "bearing": 315.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 40.68154,
+          "lon": 15.78231,
+          "radiusKm": 5,
+          "bearing": 337.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 40.72993,
+          "lon": 15.805,
+          "radiusKm": 10,
+          "bearing": 0.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 40.72308,
+          "lon": 15.85041,
+          "radiusKm": 10,
+          "bearing": 22.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 40.70356,
+          "lon": 15.88888,
+          "radiusKm": 10,
+          "bearing": 45.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 40.67436,
+          "lon": 15.91455,
+          "radiusKm": 10,
+          "bearing": 67.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 40.63994,
+          "lon": 15.92352,
+          "radiusKm": 10,
+          "bearing": 90.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 40.60553,
+          "lon": 15.91444,
+          "radiusKm": 10,
+          "bearing": 112.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 40.57638,
+          "lon": 15.88872,
+          "radiusKm": 10,
+          "bearing": 135.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 40.5569,
+          "lon": 15.8503,
+          "radiusKm": 10,
+          "bearing": 157.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 40.55007,
+          "lon": 15.805,
+          "radiusKm": 10,
+          "bearing": 180.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 40.5569,
+          "lon": 15.7597,
+          "radiusKm": 10,
+          "bearing": 202.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 40.57638,
+          "lon": 15.72128,
+          "radiusKm": 10,
+          "bearing": 225.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 40.60553,
+          "lon": 15.69556,
+          "radiusKm": 10,
+          "bearing": 247.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 40.63994,
+          "lon": 15.68648,
+          "radiusKm": 10,
+          "bearing": 270.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 40.67436,
+          "lon": 15.69545,
+          "radiusKm": 10,
+          "bearing": 292.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 40.70356,
+          "lon": 15.72112,
+          "radiusKm": 10,
+          "bearing": 315.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 40.72308,
+          "lon": 15.75959,
+          "radiusKm": 10,
+          "bearing": 337.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 40.7749,
+          "lon": 15.805,
+          "radiusKm": 15,
+          "bearing": 0.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 40.76461,
+          "lon": 15.87316,
+          "radiusKm": 15,
+          "bearing": 22.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 40.73532,
+          "lon": 15.93089,
+          "radiusKm": 15,
+          "bearing": 45.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 40.69151,
+          "lon": 15.96937,
+          "radiusKm": 15,
+          "bearing": 67.5,
+          "zoneIndex": 7
+        },
+        {
+          "lat": 40.63986,
+          "lon": 15.98277,
+          "radiusKm": 15,
+          "bearing": 90.0,
+          "zoneIndex": 7
+        },
+        {
+          "lat": 40.58826,
+          "lon": 15.96912,
+          "radiusKm": 15,
+          "bearing": 112.5,
+          "zoneIndex": 7
+        },
+        {
+          "lat": 40.54454,
+          "lon": 15.93053,
+          "radiusKm": 15,
+          "bearing": 135.0,
+          "zoneIndex": 7
+        },
+        {
+          "lat": 40.51535,
+          "lon": 15.8729,
+          "radiusKm": 15,
+          "bearing": 157.5,
+          "zoneIndex": 7
+        },
+        {
+          "lat": 40.5051,
+          "lon": 15.805,
+          "radiusKm": 15,
+          "bearing": 180.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 40.51535,
+          "lon": 15.7371,
+          "radiusKm": 15,
+          "bearing": 202.5,
+          "zoneIndex": 7
+        },
+        {
+          "lat": 40.54454,
+          "lon": 15.67947,
+          "radiusKm": 15,
+          "bearing": 225.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 40.58826,
+          "lon": 15.64088,
+          "radiusKm": 15,
+          "bearing": 247.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 40.63986,
+          "lon": 15.62723,
+          "radiusKm": 15,
+          "bearing": 270.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 40.69151,
+          "lon": 15.64063,
+          "radiusKm": 15,
+          "bearing": 292.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 40.73532,
+          "lon": 15.67911,
+          "radiusKm": 15,
+          "bearing": 315.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 40.76461,
+          "lon": 15.73684,
+          "radiusKm": 15,
+          "bearing": 337.5,
+          "zoneIndex": 8
+        }
+      ]
+    },
+    "Reggio Calabria": {
+      "zone": "5b",
+      "index": 10,
+      "color": "rgb(253,150,80)",
+      "lpi": [
+        5.2,
+        9
+      ],
+      "brightnessMag": [
+        19.5,
+        20.02
+      ],
+      "samples": 28,
+      "sampleZoneRange": [
+        "4b",
+        "6a"
+      ],
+      "sampling": [
+        {
+          "lat": 38.15627,
+          "lon": 15.6473,
+          "radiusKm": 5,
+          "bearing": 0.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 38.15284,
+          "lon": 15.66918,
+          "radiusKm": 5,
+          "bearing": 22.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 38.14309,
+          "lon": 15.68773,
+          "radiusKm": 5,
+          "bearing": 45.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 38.1285,
+          "lon": 15.70011,
+          "radiusKm": 5,
+          "bearing": 67.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 38.11129,
+          "lon": 15.70445,
+          "radiusKm": 5,
+          "bearing": 90.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 38.09408,
+          "lon": 15.70009,
+          "radiusKm": 5,
+          "bearing": 112.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 38.0795,
+          "lon": 15.68769,
+          "radiusKm": 5,
+          "bearing": 135.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 38.06975,
+          "lon": 15.66916,
+          "radiusKm": 5,
+          "bearing": 157.5,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 38.06633,
+          "lon": 15.6473,
+          "radiusKm": 5,
+          "bearing": 180.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 38.20123,
+          "lon": 15.6473,
+          "radiusKm": 10,
+          "bearing": 0.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 38.19438,
+          "lon": 15.69109,
+          "radiusKm": 10,
+          "bearing": 22.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 38.17486,
+          "lon": 15.72819,
+          "radiusKm": 10,
+          "bearing": 45.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 38.14567,
+          "lon": 15.75295,
+          "radiusKm": 10,
+          "bearing": 67.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 38.11124,
+          "lon": 15.7616,
+          "radiusKm": 10,
+          "bearing": 90.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 38.07684,
+          "lon": 15.75285,
+          "radiusKm": 10,
+          "bearing": 112.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 38.04768,
+          "lon": 15.72805,
+          "radiusKm": 10,
+          "bearing": 135.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 38.02821,
+          "lon": 15.69099,
+          "radiusKm": 10,
+          "bearing": 157.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 38.02137,
+          "lon": 15.6473,
+          "radiusKm": 10,
+          "bearing": 180.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 38.23591,
+          "lon": 15.71302,
+          "radiusKm": 15,
+          "bearing": 22.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 38.20663,
+          "lon": 15.76869,
+          "radiusKm": 15,
+          "bearing": 45.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 38.16282,
+          "lon": 15.80581,
+          "radiusKm": 15,
+          "bearing": 67.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 38.11118,
+          "lon": 15.81875,
+          "radiusKm": 15,
+          "bearing": 90.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 38.05957,
+          "lon": 15.80559,
+          "radiusKm": 15,
+          "bearing": 112.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 38.01585,
+          "lon": 15.76837,
+          "radiusKm": 15,
+          "bearing": 135.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 37.98665,
+          "lon": 15.7128,
+          "radiusKm": 15,
+          "bearing": 157.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 38.11118,
+          "lon": 15.47585,
+          "radiusKm": 15,
+          "bearing": 270.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 38.16282,
+          "lon": 15.48879,
+          "radiusKm": 15,
+          "bearing": 292.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 38.20663,
+          "lon": 15.52591,
+          "radiusKm": 15,
+          "bearing": 315.0,
+          "zoneIndex": 11
+        }
+      ]
+    },
+    "Roma": {
+      "zone": "7a",
+      "index": 13,
+      "color": "rgb(160,160,160)",
+      "lpi": [
+        27,
+        46.77
+      ],
+      "brightnessMag": [
+        17.8,
+        18.38
+      ],
+      "samples": 48,
+      "sampleZoneRange": [
+        "6a",
+        "7b"
+      ],
+      "sampling": [
+        {
+          "lat": 41.94777,
+          "lon": 12.4964,
+          "radiusKm": 5,
+          "bearing": 0.0,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 41.94434,
+          "lon": 12.51954,
+          "radiusKm": 5,
+          "bearing": 22.5,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 41.93459,
+          "lon": 12.53914,
+          "radiusKm": 5,
+          "bearing": 45.0,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 41.91999,
+          "lon": 12.55223,
+          "radiusKm": 5,
+          "bearing": 67.5,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 41.90278,
+          "lon": 12.55682,
+          "radiusKm": 5,
+          "bearing": 90.0,
+          "zoneIndex": 14
+        },
+        {
+          "lat": 41.88558,
+          "lon": 12.5522,
+          "radiusKm": 5,
+          "bearing": 112.5,
+          "zoneIndex": 14
+        },
+        {
+          "lat": 41.871,
+          "lon": 12.5391,
+          "radiusKm": 5,
+          "bearing": 135.0,
+          "zoneIndex": 14
+        },
+        {
+          "lat": 41.86125,
+          "lon": 12.51951,
+          "radiusKm": 5,
+          "bearing": 157.5,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 41.85783,
+          "lon": 12.4964,
+          "radiusKm": 5,
+          "bearing": 180.0,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 41.86125,
+          "lon": 12.47329,
+          "radiusKm": 5,
+          "bearing": 202.5,
+          "zoneIndex": 14
+        },
+        {
+          "lat": 41.871,
+          "lon": 12.4537,
+          "radiusKm": 5,
+          "bearing": 225.0,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 41.88558,
+          "lon": 12.4406,
+          "radiusKm": 5,
+          "bearing": 247.5,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 41.90278,
+          "lon": 12.43598,
+          "radiusKm": 5,
+          "bearing": 270.0,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 41.91999,
+          "lon": 12.44057,
+          "radiusKm": 5,
+          "bearing": 292.5,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 41.93459,
+          "lon": 12.45366,
+          "radiusKm": 5,
+          "bearing": 315.0,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 41.94434,
+          "lon": 12.47326,
+          "radiusKm": 5,
+          "bearing": 337.5,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 41.99273,
+          "lon": 12.4964,
+          "radiusKm": 10,
+          "bearing": 0.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 41.98588,
+          "lon": 12.5427,
+          "radiusKm": 10,
+          "bearing": 22.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 41.96636,
+          "lon": 12.58193,
+          "radiusKm": 10,
+          "bearing": 45.0,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 41.93716,
+          "lon": 12.60809,
+          "radiusKm": 10,
+          "bearing": 67.5,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 41.90274,
+          "lon": 12.61723,
+          "radiusKm": 10,
+          "bearing": 90.0,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 41.86833,
+          "lon": 12.60797,
+          "radiusKm": 10,
+          "bearing": 112.5,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 41.83918,
+          "lon": 12.58176,
+          "radiusKm": 10,
+          "bearing": 135.0,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 41.8197,
+          "lon": 12.54258,
+          "radiusKm": 10,
+          "bearing": 157.5,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 41.81287,
+          "lon": 12.4964,
+          "radiusKm": 10,
+          "bearing": 180.0,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 41.8197,
+          "lon": 12.45022,
+          "radiusKm": 10,
+          "bearing": 202.5,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 41.83918,
+          "lon": 12.41104,
+          "radiusKm": 10,
+          "bearing": 225.0,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 41.86833,
+          "lon": 12.38483,
+          "radiusKm": 10,
+          "bearing": 247.5,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 41.90274,
+          "lon": 12.37557,
+          "radiusKm": 10,
+          "bearing": 270.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 41.93716,
+          "lon": 12.38471,
+          "radiusKm": 10,
+          "bearing": 292.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 41.96636,
+          "lon": 12.41087,
+          "radiusKm": 10,
+          "bearing": 315.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 41.98588,
+          "lon": 12.4501,
+          "radiusKm": 10,
+          "bearing": 337.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 42.0377,
+          "lon": 12.4964,
+          "radiusKm": 15,
+          "bearing": 0.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 42.02741,
+          "lon": 12.5659,
+          "radiusKm": 15,
+          "bearing": 22.5,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 41.99812,
+          "lon": 12.62475,
+          "radiusKm": 15,
+          "bearing": 45.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 41.9543,
+          "lon": 12.66399,
+          "radiusKm": 15,
+          "bearing": 67.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 41.90266,
+          "lon": 12.67765,
+          "radiusKm": 15,
+          "bearing": 90.0,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 41.85106,
+          "lon": 12.66371,
+          "radiusKm": 15,
+          "bearing": 112.5,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 41.80734,
+          "lon": 12.62437,
+          "radiusKm": 15,
+          "bearing": 135.0,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 41.77815,
+          "lon": 12.56563,
+          "radiusKm": 15,
+          "bearing": 157.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 41.7679,
+          "lon": 12.4964,
+          "radiusKm": 15,
+          "bearing": 180.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 41.77815,
+          "lon": 12.42717,
+          "radiusKm": 15,
+          "bearing": 202.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 41.80734,
+          "lon": 12.36843,
+          "radiusKm": 15,
+          "bearing": 225.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 41.85106,
+          "lon": 12.32909,
+          "radiusKm": 15,
+          "bearing": 247.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 41.90266,
+          "lon": 12.31515,
+          "radiusKm": 15,
+          "bearing": 270.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 41.9543,
+          "lon": 12.32881,
+          "radiusKm": 15,
+          "bearing": 292.5,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 41.99812,
+          "lon": 12.36805,
+          "radiusKm": 15,
+          "bearing": 315.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 42.02741,
+          "lon": 12.4269,
+          "radiusKm": 15,
+          "bearing": 337.5,
+          "zoneIndex": 11
+        }
+      ]
+    },
+    "Sassari": {
+      "zone": "5a",
+      "index": 9,
+      "color": "rgb(191,100,30)",
+      "lpi": [
+        3,
+        5.2
+      ],
+      "brightnessMag": [
+        20.02,
+        20.49
+      ],
+      "samples": 46,
+      "sampleZoneRange": [
+        "4a",
+        "5b"
+      ],
+      "sampling": [
+        {
+          "lat": 40.77087,
+          "lon": 8.5557,
+          "radiusKm": 5,
+          "bearing": 0.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 40.76744,
+          "lon": 8.57842,
+          "radiusKm": 5,
+          "bearing": 22.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 40.75769,
+          "lon": 8.59768,
+          "radiusKm": 5,
+          "bearing": 45.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 40.74309,
+          "lon": 8.61053,
+          "radiusKm": 5,
+          "bearing": 67.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 40.72588,
+          "lon": 8.61503,
+          "radiusKm": 5,
+          "bearing": 90.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 40.70868,
+          "lon": 8.6105,
+          "radiusKm": 5,
+          "bearing": 112.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 40.6941,
+          "lon": 8.59764,
+          "radiusKm": 5,
+          "bearing": 135.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 40.68435,
+          "lon": 8.57839,
+          "radiusKm": 5,
+          "bearing": 157.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 40.68093,
+          "lon": 8.5557,
+          "radiusKm": 5,
+          "bearing": 180.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 40.68435,
+          "lon": 8.53301,
+          "radiusKm": 5,
+          "bearing": 202.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 40.6941,
+          "lon": 8.51376,
+          "radiusKm": 5,
+          "bearing": 225.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 40.70868,
+          "lon": 8.5009,
+          "radiusKm": 5,
+          "bearing": 247.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 40.72588,
+          "lon": 8.49637,
+          "radiusKm": 5,
+          "bearing": 270.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 40.74309,
+          "lon": 8.50087,
+          "radiusKm": 5,
+          "bearing": 292.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 40.75769,
+          "lon": 8.51372,
+          "radiusKm": 5,
+          "bearing": 315.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 40.76744,
+          "lon": 8.53298,
+          "radiusKm": 5,
+          "bearing": 337.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 40.81583,
+          "lon": 8.5557,
+          "radiusKm": 10,
+          "bearing": 0.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 40.80898,
+          "lon": 8.60117,
+          "radiusKm": 10,
+          "bearing": 22.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 40.78946,
+          "lon": 8.63969,
+          "radiusKm": 10,
+          "bearing": 45.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 40.76026,
+          "lon": 8.66539,
+          "radiusKm": 10,
+          "bearing": 67.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 40.72584,
+          "lon": 8.67437,
+          "radiusKm": 10,
+          "bearing": 90.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 40.69143,
+          "lon": 8.66528,
+          "radiusKm": 10,
+          "bearing": 112.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 40.66228,
+          "lon": 8.63953,
+          "radiusKm": 10,
+          "bearing": 135.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 40.6428,
+          "lon": 8.60106,
+          "radiusKm": 10,
+          "bearing": 157.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 40.63597,
+          "lon": 8.5557,
+          "radiusKm": 10,
+          "bearing": 180.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 40.6428,
+          "lon": 8.51034,
+          "radiusKm": 10,
+          "bearing": 202.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 40.66228,
+          "lon": 8.47187,
+          "radiusKm": 10,
+          "bearing": 225.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 40.69143,
+          "lon": 8.44612,
+          "radiusKm": 10,
+          "bearing": 247.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 40.72584,
+          "lon": 8.43703,
+          "radiusKm": 10,
+          "bearing": 270.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 40.76026,
+          "lon": 8.44601,
+          "radiusKm": 10,
+          "bearing": 292.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 40.78946,
+          "lon": 8.47171,
+          "radiusKm": 10,
+          "bearing": 315.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 40.80898,
+          "lon": 8.51023,
+          "radiusKm": 10,
+          "bearing": 337.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 40.85051,
+          "lon": 8.62395,
+          "radiusKm": 15,
+          "bearing": 22.5,
+          "zoneIndex": 7
+        },
+        {
+          "lat": 40.82122,
+          "lon": 8.68175,
+          "radiusKm": 15,
+          "bearing": 45.0,
+          "zoneIndex": 7
+        },
+        {
+          "lat": 40.77741,
+          "lon": 8.72028,
+          "radiusKm": 15,
+          "bearing": 67.5,
+          "zoneIndex": 7
+        },
+        {
+          "lat": 40.72576,
+          "lon": 8.7337,
+          "radiusKm": 15,
+          "bearing": 90.0,
+          "zoneIndex": 7
+        },
+        {
+          "lat": 40.67416,
+          "lon": 8.72003,
+          "radiusKm": 15,
+          "bearing": 112.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 40.63044,
+          "lon": 8.68139,
+          "radiusKm": 15,
+          "bearing": 135.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 40.60125,
+          "lon": 8.62369,
+          "radiusKm": 15,
+          "bearing": 157.5,
+          "zoneIndex": 7
+        },
+        {
+          "lat": 40.591,
+          "lon": 8.5557,
+          "radiusKm": 15,
+          "bearing": 180.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 40.60125,
+          "lon": 8.48771,
+          "radiusKm": 15,
+          "bearing": 202.5,
+          "zoneIndex": 7
+        },
+        {
+          "lat": 40.63044,
+          "lon": 8.43001,
+          "radiusKm": 15,
+          "bearing": 225.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 40.67416,
+          "lon": 8.39137,
+          "radiusKm": 15,
+          "bearing": 247.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 40.72576,
+          "lon": 8.3777,
+          "radiusKm": 15,
+          "bearing": 270.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 40.77741,
+          "lon": 8.39112,
+          "radiusKm": 15,
+          "bearing": 292.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 40.82122,
+          "lon": 8.42965,
+          "radiusKm": 15,
+          "bearing": 315.0,
+          "zoneIndex": 10
+        }
+      ]
+    },
+    "Torino": {
+      "zone": "6b",
+      "index": 12,
+      "color": "rgb(251,153,138)",
+      "lpi": [
+        15.59,
+        27
+      ],
+      "brightnessMag": [
+        18.38,
+        18.95
+      ],
+      "samples": 48,
+      "sampleZoneRange": [
+        "5b",
+        "7a"
+      ],
+      "sampling": [
+        {
+          "lat": 45.11527,
+          "lon": 7.6869,
+          "radiusKm": 5,
+          "bearing": 0.0,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 45.11184,
+          "lon": 7.71128,
+          "radiusKm": 5,
+          "bearing": 22.5,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 45.10209,
+          "lon": 7.73195,
+          "radiusKm": 5,
+          "bearing": 45.0,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 45.08749,
+          "lon": 7.74574,
+          "radiusKm": 5,
+          "bearing": 67.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 45.07028,
+          "lon": 7.75057,
+          "radiusKm": 5,
+          "bearing": 90.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 45.05308,
+          "lon": 7.74571,
+          "radiusKm": 5,
+          "bearing": 112.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 45.0385,
+          "lon": 7.7319,
+          "radiusKm": 5,
+          "bearing": 135.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 45.02875,
+          "lon": 7.71125,
+          "radiusKm": 5,
+          "bearing": 157.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 45.02533,
+          "lon": 7.6869,
+          "radiusKm": 5,
+          "bearing": 180.0,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 45.02875,
+          "lon": 7.66255,
+          "radiusKm": 5,
+          "bearing": 202.5,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 45.0385,
+          "lon": 7.6419,
+          "radiusKm": 5,
+          "bearing": 225.0,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 45.05308,
+          "lon": 7.62809,
+          "radiusKm": 5,
+          "bearing": 247.5,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 45.07028,
+          "lon": 7.62323,
+          "radiusKm": 5,
+          "bearing": 270.0,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 45.08749,
+          "lon": 7.62806,
+          "radiusKm": 5,
+          "bearing": 292.5,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 45.10209,
+          "lon": 7.64185,
+          "radiusKm": 5,
+          "bearing": 315.0,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 45.11184,
+          "lon": 7.66252,
+          "radiusKm": 5,
+          "bearing": 337.5,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 45.16023,
+          "lon": 7.6869,
+          "radiusKm": 10,
+          "bearing": 0.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 45.15338,
+          "lon": 7.7357,
+          "radiusKm": 10,
+          "bearing": 22.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 45.13386,
+          "lon": 7.77704,
+          "radiusKm": 10,
+          "bearing": 45.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 45.10466,
+          "lon": 7.80462,
+          "radiusKm": 10,
+          "bearing": 67.5,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 45.07023,
+          "lon": 7.81424,
+          "radiusKm": 10,
+          "bearing": 90.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 45.03582,
+          "lon": 7.80448,
+          "radiusKm": 10,
+          "bearing": 112.5,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 45.00667,
+          "lon": 7.77684,
+          "radiusKm": 10,
+          "bearing": 135.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 44.9872,
+          "lon": 7.73556,
+          "radiusKm": 10,
+          "bearing": 157.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 44.98037,
+          "lon": 7.6869,
+          "radiusKm": 10,
+          "bearing": 180.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 44.9872,
+          "lon": 7.63824,
+          "radiusKm": 10,
+          "bearing": 202.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 45.00667,
+          "lon": 7.59696,
+          "radiusKm": 10,
+          "bearing": 225.0,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 45.03582,
+          "lon": 7.56932,
+          "radiusKm": 10,
+          "bearing": 247.5,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 45.07023,
+          "lon": 7.55956,
+          "radiusKm": 10,
+          "bearing": 270.0,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 45.10466,
+          "lon": 7.56918,
+          "radiusKm": 10,
+          "bearing": 292.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 45.13386,
+          "lon": 7.59676,
+          "radiusKm": 10,
+          "bearing": 315.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 45.15338,
+          "lon": 7.6381,
+          "radiusKm": 10,
+          "bearing": 337.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 45.2052,
+          "lon": 7.6869,
+          "radiusKm": 15,
+          "bearing": 0.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 45.19491,
+          "lon": 7.76016,
+          "radiusKm": 15,
+          "bearing": 22.5,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 45.16561,
+          "lon": 7.82219,
+          "radiusKm": 15,
+          "bearing": 45.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 45.12179,
+          "lon": 7.86353,
+          "radiusKm": 15,
+          "bearing": 67.5,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 45.07014,
+          "lon": 7.87791,
+          "radiusKm": 15,
+          "bearing": 90.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 45.01854,
+          "lon": 7.86321,
+          "radiusKm": 15,
+          "bearing": 112.5,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 44.97483,
+          "lon": 7.82174,
+          "radiusKm": 15,
+          "bearing": 135.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 44.94565,
+          "lon": 7.75984,
+          "radiusKm": 15,
+          "bearing": 157.5,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 44.9354,
+          "lon": 7.6869,
+          "radiusKm": 15,
+          "bearing": 180.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 44.94565,
+          "lon": 7.61396,
+          "radiusKm": 15,
+          "bearing": 202.5,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 44.97483,
+          "lon": 7.55206,
+          "radiusKm": 15,
+          "bearing": 225.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 45.01854,
+          "lon": 7.51059,
+          "radiusKm": 15,
+          "bearing": 247.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 45.07014,
+          "lon": 7.49589,
+          "radiusKm": 15,
+          "bearing": 270.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 45.12179,
+          "lon": 7.51027,
+          "radiusKm": 15,
+          "bearing": 292.5,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 45.16561,
+          "lon": 7.55161,
+          "radiusKm": 15,
+          "bearing": 315.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 45.19491,
+          "lon": 7.61364,
+          "radiusKm": 15,
+          "bearing": 337.5,
+          "zoneIndex": 11
+        }
+      ]
+    },
+    "Trento": {
+      "zone": "5a",
+      "index": 9,
+      "color": "rgb(191,100,30)",
+      "lpi": [
+        3,
+        5.2
+      ],
+      "brightnessMag": [
+        20.02,
+        20.49
+      ],
+      "samples": 48,
+      "sampleZoneRange": [
+        "4b",
+        "6a"
+      ],
+      "sampling": [
+        {
+          "lat": 46.11197,
+          "lon": 11.121,
+          "radiusKm": 5,
+          "bearing": 0.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 46.10854,
+          "lon": 11.14582,
+          "radiusKm": 5,
+          "bearing": 22.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 46.09879,
+          "lon": 11.16685,
+          "radiusKm": 5,
+          "bearing": 45.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 46.08419,
+          "lon": 11.1809,
+          "radiusKm": 5,
+          "bearing": 67.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 46.06698,
+          "lon": 11.18581,
+          "radiusKm": 5,
+          "bearing": 90.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 46.04978,
+          "lon": 11.18086,
+          "radiusKm": 5,
+          "bearing": 112.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 46.0352,
+          "lon": 11.1668,
+          "radiusKm": 5,
+          "bearing": 135.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 46.02545,
+          "lon": 11.14578,
+          "radiusKm": 5,
+          "bearing": 157.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 46.02203,
+          "lon": 11.121,
+          "radiusKm": 5,
+          "bearing": 180.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 46.02545,
+          "lon": 11.09622,
+          "radiusKm": 5,
+          "bearing": 202.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 46.0352,
+          "lon": 11.0752,
+          "radiusKm": 5,
+          "bearing": 225.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 46.04978,
+          "lon": 11.06114,
+          "radiusKm": 5,
+          "bearing": 247.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 46.06698,
+          "lon": 11.05619,
+          "radiusKm": 5,
+          "bearing": 270.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 46.08419,
+          "lon": 11.0611,
+          "radiusKm": 5,
+          "bearing": 292.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 46.09879,
+          "lon": 11.07515,
+          "radiusKm": 5,
+          "bearing": 315.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 46.10854,
+          "lon": 11.09618,
+          "radiusKm": 5,
+          "bearing": 337.5,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 46.15693,
+          "lon": 11.121,
+          "radiusKm": 10,
+          "bearing": 0.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 46.15008,
+          "lon": 11.17068,
+          "radiusKm": 10,
+          "bearing": 22.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 46.13055,
+          "lon": 11.21276,
+          "radiusKm": 10,
+          "bearing": 45.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 46.10135,
+          "lon": 11.24083,
+          "radiusKm": 10,
+          "bearing": 67.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 46.06693,
+          "lon": 11.25062,
+          "radiusKm": 10,
+          "bearing": 90.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 46.03252,
+          "lon": 11.24068,
+          "radiusKm": 10,
+          "bearing": 112.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 46.00337,
+          "lon": 11.21255,
+          "radiusKm": 10,
+          "bearing": 135.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 45.9839,
+          "lon": 11.17053,
+          "radiusKm": 10,
+          "bearing": 157.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 45.97707,
+          "lon": 11.121,
+          "radiusKm": 10,
+          "bearing": 180.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 45.9839,
+          "lon": 11.07147,
+          "radiusKm": 10,
+          "bearing": 202.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 46.00337,
+          "lon": 11.02945,
+          "radiusKm": 10,
+          "bearing": 225.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 46.03252,
+          "lon": 11.00132,
+          "radiusKm": 10,
+          "bearing": 247.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 46.06693,
+          "lon": 10.99138,
+          "radiusKm": 10,
+          "bearing": 270.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 46.10135,
+          "lon": 11.00117,
+          "radiusKm": 10,
+          "bearing": 292.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 46.13055,
+          "lon": 11.02924,
+          "radiusKm": 10,
+          "bearing": 315.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 46.15008,
+          "lon": 11.07132,
+          "radiusKm": 10,
+          "bearing": 337.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 46.2019,
+          "lon": 11.121,
+          "radiusKm": 15,
+          "bearing": 0.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 46.19161,
+          "lon": 11.19557,
+          "radiusKm": 15,
+          "bearing": 22.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 46.1623,
+          "lon": 11.25872,
+          "radiusKm": 15,
+          "bearing": 45.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 46.11848,
+          "lon": 11.3008,
+          "radiusKm": 15,
+          "bearing": 67.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 46.06684,
+          "lon": 11.31543,
+          "radiusKm": 15,
+          "bearing": 90.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 46.01524,
+          "lon": 11.30046,
+          "radiusKm": 15,
+          "bearing": 112.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 45.97153,
+          "lon": 11.25825,
+          "radiusKm": 15,
+          "bearing": 135.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 45.94235,
+          "lon": 11.19524,
+          "radiusKm": 15,
+          "bearing": 157.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 45.9321,
+          "lon": 11.121,
+          "radiusKm": 15,
+          "bearing": 180.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 45.94235,
+          "lon": 11.04676,
+          "radiusKm": 15,
+          "bearing": 202.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 45.97153,
+          "lon": 10.98375,
+          "radiusKm": 15,
+          "bearing": 225.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 46.01524,
+          "lon": 10.94154,
+          "radiusKm": 15,
+          "bearing": 247.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 46.06684,
+          "lon": 10.92657,
+          "radiusKm": 15,
+          "bearing": 270.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 46.11848,
+          "lon": 10.9412,
+          "radiusKm": 15,
+          "bearing": 292.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 46.1623,
+          "lon": 10.98328,
+          "radiusKm": 15,
+          "bearing": 315.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 46.19161,
+          "lon": 11.04643,
+          "radiusKm": 15,
+          "bearing": 337.5,
+          "zoneIndex": 9
+        }
+      ]
+    },
+    "Trieste": {
+      "zone": "5b",
+      "index": 10,
+      "color": "rgb(253,150,80)",
+      "lpi": [
+        5.2,
+        9
+      ],
+      "brightnessMag": [
+        19.5,
+        20.02
+      ],
+      "samples": 32,
+      "sampleZoneRange": [
+        "4b",
+        "6b"
+      ],
+      "sampling": [
+        {
+          "lat": 45.69447,
+          "lon": 13.7768,
+          "radiusKm": 5,
+          "bearing": 0.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 45.69104,
+          "lon": 13.80143,
+          "radiusKm": 5,
+          "bearing": 22.5,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 45.68129,
+          "lon": 13.82231,
+          "radiusKm": 5,
+          "bearing": 45.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 45.66669,
+          "lon": 13.83625,
+          "radiusKm": 5,
+          "bearing": 67.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 45.64948,
+          "lon": 13.84112,
+          "radiusKm": 5,
+          "bearing": 90.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 45.63228,
+          "lon": 13.83621,
+          "radiusKm": 5,
+          "bearing": 112.5,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 45.6177,
+          "lon": 13.82226,
+          "radiusKm": 5,
+          "bearing": 135.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 45.60795,
+          "lon": 13.8014,
+          "radiusKm": 5,
+          "bearing": 157.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 45.60453,
+          "lon": 13.7768,
+          "radiusKm": 5,
+          "bearing": 180.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 45.60795,
+          "lon": 13.7522,
+          "radiusKm": 5,
+          "bearing": 202.5,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 45.69104,
+          "lon": 13.75217,
+          "radiusKm": 5,
+          "bearing": 337.5,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 45.73943,
+          "lon": 13.7768,
+          "radiusKm": 10,
+          "bearing": 0.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 45.73258,
+          "lon": 13.82611,
+          "radiusKm": 10,
+          "bearing": 22.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 45.71306,
+          "lon": 13.86787,
+          "radiusKm": 10,
+          "bearing": 45.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 45.68385,
+          "lon": 13.89573,
+          "radiusKm": 10,
+          "bearing": 67.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 45.64943,
+          "lon": 13.90545,
+          "radiusKm": 10,
+          "bearing": 90.0,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 45.61502,
+          "lon": 13.89558,
+          "radiusKm": 10,
+          "bearing": 112.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 45.58587,
+          "lon": 13.86767,
+          "radiusKm": 10,
+          "bearing": 135.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 45.5664,
+          "lon": 13.82596,
+          "radiusKm": 10,
+          "bearing": 157.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 45.55957,
+          "lon": 13.7768,
+          "radiusKm": 10,
+          "bearing": 180.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 45.73258,
+          "lon": 13.72749,
+          "radiusKm": 10,
+          "bearing": 337.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 45.7844,
+          "lon": 13.7768,
+          "radiusKm": 15,
+          "bearing": 0.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 45.77411,
+          "lon": 13.85081,
+          "radiusKm": 15,
+          "bearing": 22.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 45.74481,
+          "lon": 13.91349,
+          "radiusKm": 15,
+          "bearing": 45.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 45.70098,
+          "lon": 13.95525,
+          "radiusKm": 15,
+          "bearing": 67.5,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 45.64934,
+          "lon": 13.96977,
+          "radiusKm": 15,
+          "bearing": 90.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 45.59774,
+          "lon": 13.95492,
+          "radiusKm": 15,
+          "bearing": 112.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 45.55403,
+          "lon": 13.91302,
+          "radiusKm": 15,
+          "bearing": 135.0,
+          "zoneIndex": 8
+        },
+        {
+          "lat": 45.52485,
+          "lon": 13.85048,
+          "radiusKm": 15,
+          "bearing": 157.5,
+          "zoneIndex": 9
+        },
+        {
+          "lat": 45.5146,
+          "lon": 13.7768,
+          "radiusKm": 15,
+          "bearing": 180.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 45.52485,
+          "lon": 13.70312,
+          "radiusKm": 15,
+          "bearing": 202.5,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 45.77411,
+          "lon": 13.70279,
+          "radiusKm": 15,
+          "bearing": 337.5,
+          "zoneIndex": 8
+        }
+      ]
+    },
+    "Venezia": {
+      "zone": "6b",
+      "index": 12,
+      "color": "rgb(251,153,138)",
+      "lpi": [
+        15.59,
+        27
+      ],
+      "brightnessMag": [
+        18.38,
+        18.95
+      ],
+      "samples": 23,
+      "sampleZoneRange": [
+        "5b",
+        "7a"
+      ],
+      "sampling": [
+        {
+          "lat": 45.42358,
+          "lon": 12.37469,
+          "radiusKm": 5,
+          "bearing": 112.5,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 45.409,
+          "lon": 12.36079,
+          "radiusKm": 5,
+          "bearing": 135.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 45.44078,
+          "lon": 12.25141,
+          "radiusKm": 5,
+          "bearing": 270.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 45.45799,
+          "lon": 12.25627,
+          "radiusKm": 5,
+          "bearing": 292.5,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 45.47259,
+          "lon": 12.27016,
+          "radiusKm": 5,
+          "bearing": 315.0,
+          "zoneIndex": 13
+        },
+        {
+          "lat": 45.48234,
+          "lon": 12.29096,
+          "radiusKm": 5,
+          "bearing": 337.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 45.53073,
+          "lon": 12.3155,
+          "radiusKm": 10,
+          "bearing": 0.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 45.52388,
+          "lon": 12.36462,
+          "radiusKm": 10,
+          "bearing": 22.5,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 45.50436,
+          "lon": 12.40623,
+          "radiusKm": 10,
+          "bearing": 45.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 45.37717,
+          "lon": 12.22497,
+          "radiusKm": 10,
+          "bearing": 225.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 45.40632,
+          "lon": 12.19716,
+          "radiusKm": 10,
+          "bearing": 247.5,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 45.44073,
+          "lon": 12.18733,
+          "radiusKm": 10,
+          "bearing": 270.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 45.47515,
+          "lon": 12.19701,
+          "radiusKm": 10,
+          "bearing": 292.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 45.50436,
+          "lon": 12.22477,
+          "radiusKm": 10,
+          "bearing": 315.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 45.52388,
+          "lon": 12.26638,
+          "radiusKm": 10,
+          "bearing": 337.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 45.5757,
+          "lon": 12.3155,
+          "radiusKm": 15,
+          "bearing": 0.0,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 45.56541,
+          "lon": 12.38924,
+          "radiusKm": 15,
+          "bearing": 22.5,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 45.34533,
+          "lon": 12.17978,
+          "radiusKm": 15,
+          "bearing": 225.0,
+          "zoneIndex": 10
+        },
+        {
+          "lat": 45.38904,
+          "lon": 12.13804,
+          "radiusKm": 15,
+          "bearing": 247.5,
+          "zoneIndex": 11
+        },
+        {
+          "lat": 45.44064,
+          "lon": 12.12324,
+          "radiusKm": 15,
+          "bearing": 270.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 45.49229,
+          "lon": 12.13771,
+          "radiusKm": 15,
+          "bearing": 292.5,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 45.53611,
+          "lon": 12.17932,
+          "radiusKm": 15,
+          "bearing": 315.0,
+          "zoneIndex": 12
+        },
+        {
+          "lat": 45.56541,
+          "lon": 12.24176,
+          "radiusKm": 15,
+          "bearing": 337.5,
+          "zoneIndex": 12
+        }
+      ]
+    }
+  }
+}

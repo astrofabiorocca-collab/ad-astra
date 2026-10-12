@@ -1,21 +1,13 @@
 <!DOCTYPE html>
-<html lang="it">
-
-<head>
+<html lang="it"><head>
 
   <meta charset="UTF-8">
 
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1.0"
-  >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>Effemeridi | AD ASTRA</title>
 
-  <meta
-    name="description"
-    content="Effemeridi astronomiche AD ASTRA: Sole, Luna, pianeti, fenomeni astronomici e calendario mensile con dati di riferimento per Pistoia."
-  >
+  <meta name="description" content="Effemeridi astronomiche AD ASTRA: Sole, Luna, pianeti, fenomeni astronomici e calendario mensile con città italiana selezionabile.">
 
   <style>
 
@@ -1019,6 +1011,28 @@
 
     }
 
+  /* Effemeridi operative: colori pastello e fotografie astronomiche. */
+.data-card{min-width:0}.data-card:nth-child(1) .section-card-heading{background:#fff1d6;border-radius:10px;padding:14px;color:#815d27}.data-card:nth-child(2) .section-card-heading{background:#eaeafa;border-radius:10px;padding:14px;color:#50567f}.data-card:nth-child(1) .section-card-icon{color:#d49c40}.data-card:nth-child(2) .section-card-icon{color:#999fd0}.moon-symbol{background:#eeedf9;color:#656d9e}.moon-symbol svg{width:34px;height:34px}.reference-content{display:block}.reference-map{display:none}.city-label{display:block;font-weight:700;margin-bottom:8px}.city-select{width:100%;font:inherit;color:#12365c;border:1px solid #b8cce2;border-radius:8px;background:#eef5fb;padding:10px;margin-bottom:14px}.reference-list p{overflow-wrap:anywhere}.planet-banner{background:#edf3fb;border-radius:12px;padding:18px;margin-bottom:20px}.planet-strip{display:grid;grid-template-columns:repeat(8,minmax(0,1fr));gap:10px}.planet-portrait{margin:0;text-align:center;min-width:0}.planet-portrait img{width:100%;height:88px;object-fit:contain;background:#071323;border-radius:9px}.planet-portrait figcaption{font-size:.78rem;font-weight:700;margin-top:6px}.photo-credit{font-size:.64rem;line-height:1.45;color:#64768a;margin-top:10px;overflow-wrap:anywhere}.photo-credit a{color:inherit;text-decoration:underline}.event-image{display:flex;background:#071323;height:160px;overflow:hidden}.event-image::before{display:none}.event-image img{width:100%;height:100%;object-fit:contain;min-width:0}.event-image.photo-pair img{width:50%}.event-content .event-time{font-weight:600;margin-bottom:8px}.calendar-item{grid-template-columns:110px minmax(0,1fr)}.calendar-date{line-height:1.5}.cal-time{display:block;font-weight:400}.wide-heading h2{white-space:normal}.eff-status{font-size:.77rem;color:#61738a;margin-top:10px}.planet-reference{font-size:.77rem;margin-bottom:12px}.moon-local{font-size:.78rem;line-height:1.6;margin-top:15px}.planet-table{min-width:850px}
+@media(max-width:700px){.planet-strip{grid-template-columns:repeat(4,minmax(0,1fr))}.planet-portrait img{height:75px}.event-image{height:175px}.calendar-item{grid-template-columns:100px minmax(0,1fr)}}
+/* Allineamenti, margini fotografici e finestra lunare giornaliera. */
+.planet-table td:first-child{vertical-align:middle;white-space:nowrap}.planet-name{display:inline-flex;align-items:center;gap:10px;line-height:1.4}.planet-symbol{display:inline-flex;align-items:center;justify-content:center;flex:0 0 26px;width:26px;height:30px;margin:0;line-height:1;vertical-align:middle}.events-card .wide-heading h2{white-space:nowrap;flex:0 0 auto;font-size:clamp(.95rem,2vw,1.3rem)}.events-card .wide-heading-line{flex:1;min-width:0}.event-image{padding:12px;align-items:center;justify-content:center;gap:10px}.event-image img{height:100%;max-width:100%;object-fit:contain}.event-image.photo-pair img{width:calc(50% - 5px)}.planet-portrait img{padding:7px}.event-image.phase-photo .lunar-phase-picture{height:100%;max-width:100%;width:auto}.calendar-card{display:flex;flex-direction:column}.daily-moon{margin-top:26px;padding:20px 16px;border:1px solid #dce3ec;border-radius:10px;background:#f3f6fc;color:#526174}.daily-moon h3{color:#17365f;font-size:1rem;margin-bottom:8px}.daily-moon h4{color:#17365f;font-size:.83rem;margin:16px 0 6px}.daily-moon p{font-size:.8rem;line-height:1.6}.daily-moon-image{background:#071323;border-radius:9px;text-align:center;padding:12px;margin:14px 0}.daily-moon-image svg{display:block;width:min(170px,100%);height:auto;margin:auto}.daily-moon-phase{color:#17365f}.daily-moon .photo-credit{font-size:.64rem}.daily-moon-date,.daily-moon-reference{font-size:.73rem!important}.lunar-phase-picture{display:block}
+@media(max-width:380px){.events-card .wide-heading{gap:8px}.events-card .wide-heading h2{font-size:.88rem}.daily-moon{padding:16px 12px}}
+
+    /* Banner inferiore comune: titoli leggibili, con margine superiore regolare. */
+    .site-footer{position:relative;width:100%;height:clamp(350px,22vw,510px);min-height:350px;overflow:hidden;background:#041529}
+    .site-footer .bottom-banner-image{display:block;width:100%;height:100%;object-fit:contain;object-position:left center}
+    .site-footer .footer-navigation{position:absolute;top:36px;right:3%;transform:none;width:53%;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;padding:0;background:transparent;color:#fff;align-items:start}
+    .site-footer .footer-column{min-width:0}
+    .site-footer .footer-column h3{margin:0 0 14px;color:#fff;font-size:.82rem;font-weight:700;line-height:1.4}
+    .site-footer .footer-column ul{list-style:none;margin:0;padding:0}
+    .site-footer .footer-column li{margin:0 0 7px;font-size:.76rem;line-height:1.5}
+    .site-footer .footer-column a{color:#bcc8d5;font-size:.76rem;line-height:1.5;text-decoration:none;transition:color .2s ease}
+    .site-footer .footer-column a:hover{color:#5eb5ff}
+    .site-footer .footer-column .footer-facebook{position:static;transform:none;margin:0;width:38px;height:38px;display:grid;place-items:center;border-radius:50%;background:#1877f2;color:#fff;font-size:1.25rem;font-weight:700;font-family:Arial,sans-serif}
+    @media(max-width:1100px) and (min-width:901px){.site-footer .footer-navigation{top:32px;right:2%;width:55%;gap:12px}.site-footer .footer-column h3{font-size:.75rem}.site-footer .footer-column a{font-size:.69rem}}
+    @media(max-width:900px){.site-footer{height:auto;min-height:0;overflow:visible}.site-footer .bottom-banner-image{width:100%;height:auto;object-fit:initial}.site-footer .footer-navigation{position:static;top:auto;right:auto;transform:none;width:100%;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 22px;padding:32px 5%;background:#041529}.site-footer .footer-column h3{font-size:.85rem}.site-footer .footer-column a{font-size:.8rem}}
+    @media(max-width:520px){.site-footer .footer-navigation{grid-template-columns:1fr;gap:26px;padding:30px 7%}}
+
   </style>
 
 </head>
@@ -1033,11 +1047,7 @@
 
   <header class="top-banner">
 
-    <img
-      class="top-banner-image"
-      src="banner.png"
-      alt="AD ASTRA"
-    >
+    <img class="top-banner-image" src="banner.png" alt="AD ASTRA" loading="eager">
 
     <div class="banner-section-title">
 
@@ -1059,10 +1069,7 @@
        MENU PRINCIPALE
   ====================================================== -->
 
-  <nav
-    class="main-navigation"
-    aria-label="Navigazione principale"
-  >
+  <nav class="main-navigation" aria-label="Navigazione principale">
 
     <ul>
 
@@ -1109,10 +1116,7 @@
       </li>
 
       <li>
-        <a
-          class="active"
-          href="effemeridi.html"
-        >
+        <a class="active" href="effemeridi.html">
           EFFEMERIDI
         </a>
       </li>
@@ -1175,9 +1179,7 @@
             EFFEMERIDI
           </h1>
 
-          <div class="intro-month">
-            SETTEMBRE 2026
-          </div>
+          <div class="intro-month">OTTOBRE 2026</div>
 
           <div class="intro-line"></div>
 
@@ -1185,14 +1187,7 @@
             Date, orari e posizioni dei principali fenomeni astronomici.
           </p>
 
-          <p class="intro-text">
-            Le effemeridi raccolgono in una sola pagina
-            i principali dati astronomici del mese:
-            movimento apparente del Sole e della Luna,
-            fasi lunari, visibilità dei pianeti
-            e fenomeni astronomici di maggiore interesse.
-            I dati locali sono riferiti a Pistoia.
-          </p>
+          <p class="intro-text">Le effemeridi raccolgono in una sola pagina i principali dati astronomici del mese: movimento apparente del Sole e della Luna, fasi lunari, visibilità dei pianeti e fenomeni di maggiore interesse. Scegli la città nei dati di riferimento per adattare gli orari e la visibilità al tuo luogo di osservazione.</p>
 
         </div>
 
@@ -1212,29 +1207,7 @@
 
           </div>
 
-          <ul>
-
-            <li>
-              Fenomeno principale del mese
-            </li>
-
-            <li>
-              Fase lunare di maggiore interesse
-            </li>
-
-            <li>
-              Pianeta con migliore visibilità
-            </li>
-
-            <li>
-              Evento osservativo significativo
-            </li>
-
-            <li>
-              Condizioni generali del cielo planetario
-            </li>
-
-          </ul>
+          <ul><li>Località: Roma</li><li>Sole: alba il 1° alle 07:06</li><li>Luna: 3 ottobre — Ultimo quarto; 10 ottobre — Luna nuova; 18 ottobre — Primo quarto; 26 ottobre — Luna piena</li><li>Pianeti: sette schede, compresi Urano e Nettuno</li><li>Calendario: sei fenomeni selezionati</li></ul>
 
         </aside>
 
@@ -1275,39 +1248,27 @@
 
           <div class="sun-row">
 
-            <span>
-              Alba — inizio mese
-            </span>
+            <span>Alba — inizio mese (1)</span>
 
-            <strong>
-              --:--
-            </strong>
+            <strong>07:06</strong>
 
           </div>
 
 
           <div class="sun-row">
 
-            <span>
-              Tramonto — inizio mese
-            </span>
+            <span>Tramonto — inizio mese (1)</span>
 
-            <strong>
-              --:--
-            </strong>
+            <strong>18:51</strong>
 
           </div>
 
 
           <div class="sun-row">
 
-            <span>
-              Durata del giorno
-            </span>
+            <span>Durata del giorno</span>
 
-            <strong>
-              -- h -- min
-            </strong>
+            <strong>11 h 45 min</strong>
 
           </div>
 
@@ -1317,47 +1278,32 @@
 
           <div class="sun-row">
 
-            <span>
-              Alba — fine mese
-            </span>
+            <span>Alba — fine mese (31)</span>
 
-            <strong>
-              --:--
-            </strong>
+            <strong>06:41</strong>
 
           </div>
 
 
           <div class="sun-row">
 
-            <span>
-              Tramonto — fine mese
-            </span>
+            <span>Tramonto — fine mese (31)</span>
 
-            <strong>
-              --:--
-            </strong>
+            <strong>17:05</strong>
 
           </div>
 
 
           <div class="sun-row">
 
-            <span>
-              Durata del giorno
-            </span>
+            <span>Durata del giorno</span>
 
-            <strong>
-              -- h -- min
-            </strong>
+            <strong>10 h 25 min</strong>
 
           </div>
 
 
-          <p class="card-note">
-            Gli orari sono riferiti alla località di Pistoia
-            e verranno aggiornati mensilmente.
-          </p>
+          <p class="card-note">Orari di Roma, riferiti al bordo del Sole e a un orizzonte libero. La durata è il tempo tra alba e tramonto.</p>
 
         </article>
 
@@ -1382,94 +1328,7 @@
           </div>
 
 
-          <div class="moon-list">
-
-
-            <div class="moon-phase">
-
-              <div class="moon-symbol">
-                ◐
-              </div>
-
-              <div>
-
-                <strong>
-                  Ultimo quarto
-                </strong>
-
-                <span>
-                  -- settembre · --:--
-                </span>
-
-              </div>
-
-            </div>
-
-
-            <div class="moon-phase">
-
-              <div class="moon-symbol">
-                ●
-              </div>
-
-              <div>
-
-                <strong>
-                  Luna nuova
-                </strong>
-
-                <span>
-                  -- settembre · --:--
-                </span>
-
-              </div>
-
-            </div>
-
-
-            <div class="moon-phase">
-
-              <div class="moon-symbol">
-                ◑
-              </div>
-
-              <div>
-
-                <strong>
-                  Primo quarto
-                </strong>
-
-                <span>
-                  -- settembre · --:--
-                </span>
-
-              </div>
-
-            </div>
-
-
-            <div class="moon-phase">
-
-              <div class="moon-symbol">
-                ○
-              </div>
-
-              <div>
-
-                <strong>
-                  Luna piena
-                </strong>
-
-                <span>
-                  -- settembre · --:--
-                </span>
-
-              </div>
-
-            </div>
-
-
-          </div>
+          <div class="moon-list"><div class="moon-phase"><div class="moon-symbol" aria-hidden="true"><svg viewBox="0 0 40 40"><circle cx="20" cy="20" r="16" fill="#afb5d7"></circle><path d="M20 4A16 16 0 0 020 36Z" fill="#f9e8ba"></path></svg></div><div><strong>Ultimo quarto</strong><span>3 ottobre alle ore 15:25</span></div></div><div class="moon-phase"><div class="moon-symbol" aria-hidden="true"><svg viewBox="0 0 40 40"><circle cx="20" cy="20" r="16" fill="#afb5d7"></circle></svg></div><div><strong>Luna nuova</strong><span>10 ottobre alle ore 17:50</span></div></div><div class="moon-phase"><div class="moon-symbol" aria-hidden="true"><svg viewBox="0 0 40 40"><circle cx="20" cy="20" r="16" fill="#afb5d7"></circle><path d="M20 4A16 16 0 0 120 36Z" fill="#f9e8ba"></path></svg></div><div><strong>Primo quarto</strong><span>18 ottobre alle ore 18:13</span></div></div><div class="moon-phase"><div class="moon-symbol" aria-hidden="true"><svg viewBox="0 0 40 40"><circle cx="20" cy="20" r="16" fill="#f9e8ba"></circle></svg></div><div><strong>Luna piena</strong><span>26 ottobre alle ore 05:12</span></div></div></div><p class="moon-local">Luna il 15 a Roma: sorge 12:27, tramonta 20:58. Le fasi avvengono nello stesso istante per tutte le città.</p>
 
         </article>
 
@@ -1502,44 +1361,7 @@
             </div>
 
 
-            <div class="reference-list">
-
-              <p>
-                <strong>
-                  Località:
-                </strong>
-                Pistoia (PT)
-              </p>
-
-              <p>
-                <strong>
-                  Coordinate:
-                </strong>
-                circa 43,93° N · 10,92° E
-              </p>
-
-              <p>
-                <strong>
-                  Fuso orario:
-                </strong>
-                Europe/Rome
-              </p>
-
-              <p>
-                <strong>
-                  Riferimento:
-                </strong>
-                orizzonte locale
-              </p>
-
-              <p>
-                <strong>
-                  Orari:
-                </strong>
-                ora civile locale
-              </p>
-
-            </div>
+            <label class="city-label" for="eff-city">Scegli la città italiana</label><select class="city-select" id="eff-city" aria-describedby="eff-status"><option value="Ancona">Ancona</option><option value="Aosta">Aosta</option><option value="Bari">Bari</option><option value="Bologna">Bologna</option><option value="Bolzano">Bolzano</option><option value="Cagliari">Cagliari</option><option value="Campobasso">Campobasso</option><option value="Catania">Catania</option><option value="Catanzaro">Catanzaro</option><option value="Firenze">Firenze</option><option value="Genova">Genova</option><option value="L’Aquila">L’Aquila</option><option value="Milano">Milano</option><option value="Napoli">Napoli</option><option value="Palermo">Palermo</option><option value="Perugia">Perugia</option><option value="Potenza">Potenza</option><option value="Reggio Calabria">Reggio Calabria</option><option value="Roma">Roma</option><option value="Sassari">Sassari</option><option value="Torino">Torino</option><option value="Trento">Trento</option><option value="Trieste">Trieste</option><option value="Venezia">Venezia</option></select><div class="reference-list"><p><strong>Località:</strong> Roma</p><p><strong>Coordinate:</strong> 41,9028° N · 12,4964° E</p><p><strong>Fuso orario:</strong> Europe/Rome</p><p><strong>Riferimento:</strong> orizzonte locale libero</p><p><strong>Orari:</strong> ora civile, con ora legale quando prevista</p></div>
 
 
           </div>
@@ -1550,7 +1372,7 @@
             in funzione della posizione geografica.
           </p>
 
-        </article>
+        <p id="eff-status" class="eff-status" role="status">Roma · ottobre 2026 · dati e calendario aggiornati.</p></article>
 
 
       </div>
@@ -1587,7 +1409,7 @@
 
           <div class="planet-table-wrapper">
 
-            <table class="planet-table">
+            <div class="planet-banner"><div class="planet-strip" id="planet-strip"><figure class="planet-portrait"><img src="assets/cielo/foto/Mercury.jpg" alt="Mercurio — foto NASA" width="160" height="160"><figcaption>Mercurio</figcaption></figure><figure class="planet-portrait"><img src="assets/cielo/foto/Venus.jpg" alt="Venere — foto NASA" width="160" height="160"><figcaption>Venere</figcaption></figure><figure class="planet-portrait"><img src="assets/cielo/foto/Earth.jpg" alt="Terra — foto NASA" width="160" height="160"><figcaption>Terra</figcaption></figure><figure class="planet-portrait"><img src="assets/cielo/foto/Mars.jpg" alt="Marte — foto NASA" width="160" height="160"><figcaption>Marte</figcaption></figure><figure class="planet-portrait"><img src="assets/cielo/foto/Jupiter.jpg" alt="Giove — foto NASA" width="160" height="160"><figcaption>Giove</figcaption></figure><figure class="planet-portrait"><img src="assets/cielo/foto/Saturn.jpg" alt="Saturno — foto NASA" width="160" height="160"><figcaption>Saturno</figcaption></figure><figure class="planet-portrait"><img src="assets/cielo/foto/Uranus.jpg" alt="Urano — foto NASA" width="160" height="160"><figcaption>Urano</figcaption></figure><figure class="planet-portrait"><img src="assets/cielo/foto/Neptune.jpg" alt="Nettuno — foto NASA" width="160" height="160"><figcaption>Nettuno</figcaption></figure></div><p class="photo-credit" id="planet-credit">Fotografie e mosaici d’archivio; dimensioni illustrative, non in scala. <a href="https://images.nasa.gov/details/PIA11245">Mercurio: NASA/Johns Hopkins University Applied Physics Laboratory/Carnegie Institution of Washington</a> · <a href="https://images.nasa.gov/details/PIA00072">Venere: NASA/JPL</a> · <a href="https://images.nasa.gov/details/PIA18033">Terra: NASA</a> · <a href="https://images.nasa.gov/details/PIA00407">Marte: NASA/JPL-Caltech/USGS</a> · <a href="https://images.nasa.gov/details/PIA04866">Giove: NASA/JPL/Space Science Institute</a> · <a href="https://images.nasa.gov/details/PIA11141">Saturno: NASA/JPL/Space Science Institute</a> · <a href="https://images.nasa.gov/details/PIA18182">Urano: NASA/JPL-Caltech</a> · <a href="https://images.nasa.gov/details/PIA01492">Nettuno: NASA/JPL</a>. Venere: fotografia UV colorizzata; Nettuno: colori elaborati delle riprese Voyager.</p></div><p class="planet-reference" id="planet-reference">Notte di riferimento: 15–16 ottobre 2026 · Roma. Finestre indicative al minuto, campionate ogni 10 minuti: pianeta almeno 10° sopra l’orizzonte e Sole almeno 6° sotto. (15) e (16) indicano il giorno; la posizione è riferita al 15 alle 22:00. Le condizioni cambiano durante il mese.</p><table class="planet-table">
 
               <thead>
 
@@ -1618,150 +1440,7 @@
               </thead>
 
 
-              <tbody>
-
-
-                <tr>
-
-                  <td class="planet-name">
-                    <span class="planet-symbol">
-                      ☿
-                    </span>
-                    Mercurio
-                  </td>
-
-                  <td>
-                    Da aggiornare
-                  </td>
-
-                  <td>
-                    Da aggiornare
-                  </td>
-
-                  <td>
-                    Da aggiornare
-                  </td>
-
-                  <td>
-                    Da aggiornare
-                  </td>
-
-                </tr>
-
-
-                <tr>
-
-                  <td class="planet-name">
-                    <span class="planet-symbol">
-                      ♀
-                    </span>
-                    Venere
-                  </td>
-
-                  <td>
-                    Da aggiornare
-                  </td>
-
-                  <td>
-                    Da aggiornare
-                  </td>
-
-                  <td>
-                    Da aggiornare
-                  </td>
-
-                  <td>
-                    Da aggiornare
-                  </td>
-
-                </tr>
-
-
-                <tr>
-
-                  <td class="planet-name">
-                    <span class="planet-symbol">
-                      ♂
-                    </span>
-                    Marte
-                  </td>
-
-                  <td>
-                    Da aggiornare
-                  </td>
-
-                  <td>
-                    Da aggiornare
-                  </td>
-
-                  <td>
-                    Da aggiornare
-                  </td>
-
-                  <td>
-                    Da aggiornare
-                  </td>
-
-                </tr>
-
-
-                <tr>
-
-                  <td class="planet-name">
-                    <span class="planet-symbol">
-                      ♃
-                    </span>
-                    Giove
-                  </td>
-
-                  <td>
-                    Da aggiornare
-                  </td>
-
-                  <td>
-                    Da aggiornare
-                  </td>
-
-                  <td>
-                    Da aggiornare
-                  </td>
-
-                  <td>
-                    Da aggiornare
-                  </td>
-
-                </tr>
-
-
-                <tr>
-
-                  <td class="planet-name">
-                    <span class="planet-symbol">
-                      ♄
-                    </span>
-                    Saturno
-                  </td>
-
-                  <td>
-                    Da aggiornare
-                  </td>
-
-                  <td>
-                    Da aggiornare
-                  </td>
-
-                  <td>
-                    Da aggiornare
-                  </td>
-
-                  <td>
-                    Da aggiornare
-                  </td>
-
-                </tr>
-
-
-              </tbody>
+              <tbody><tr><td><span class="planet-name"><span class="planet-symbol">☿</span>Mercurio</span></td><td>Poco favorevole nella notte di riferimento</td><td>Nessuna finestra con altezza ≥ 10° e Sole ≤ −6°</td><td>Bilancia · sotto l’orizzonte alle 22:00</td><td>Vicino al Sole: osservare solo dopo il tramonto o prima dell’alba, con il Sole sotto l’orizzonte. Magnitudine -0,0.</td></tr><tr><td><span class="planet-name"><span class="planet-symbol">♀</span>Venere</span></td><td>Poco favorevole nella notte di riferimento</td><td>Nessuna finestra con altezza ≥ 10° e Sole ≤ −6°</td><td>Vergine · sotto l’orizzonte alle 22:00</td><td>Molto luminoso; al telescopio mostra le fasi. Magnitudine -4,3.</td></tr><tr><td><span class="planet-name"><span class="planet-symbol">♂</span>Marte</span></td><td>Osservabile nelle ore buie</td><td>02:10–06:50 (16)</td><td>Cancro · sotto l’orizzonte alle 22:00</td><td>Il colore rossastro aiuta a riconoscerlo; i dettagli richiedono un telescopio. Magnitudine 1,0.</td></tr><tr><td><span class="planet-name"><span class="planet-symbol">♃</span>Giove</span></td><td>Osservabile nelle ore buie</td><td>03:20–06:50 (16)</td><td>Leone · sotto l’orizzonte alle 22:00</td><td>Un binocolo stabile può mostrare i satelliti maggiori; al telescopio le fasce nuvolose. Magnitudine -1,9.</td></tr><tr><td><span class="planet-name"><span class="planet-symbol">♄</span>Saturno</span></td><td>Osservabile nelle ore buie</td><td>19:10–05:20 (16)</td><td>Balena · sud-est, 40° di altezza alle 22:00</td><td>Gli anelli si riconoscono al telescopio. Magnitudine 0,3.</td></tr><tr><td><span class="planet-name"><span class="planet-symbol">♅</span>Urano</span></td><td>Osservabile nelle ore buie</td><td>21:30–06:50 (16)</td><td>Toro · est, 16° di altezza alle 22:00</td><td>Consigliati binocolo e carta di riferimento; il piccolo disco si distingue al telescopio. Magnitudine 5,6.</td></tr><tr><td><span class="planet-name"><span class="planet-symbol">♆</span>Nettuno</span></td><td>Osservabile nelle ore buie</td><td>19:10–04:40 (16)</td><td>Pesci · sud-est, 42° di altezza alle 22:00</td><td>Serve un telescopio e una carta di riferimento; non è visibile a occhio nudo. Magnitudine 7,8.</td></tr></tbody>
 
             </table>
 
@@ -1807,130 +1486,7 @@
           </div>
 
 
-          <div class="events-grid">
-
-
-            <div class="event-item">
-
-              <div class="event-image"></div>
-
-              <div class="event-content">
-
-                <h3>
-                  Fenomeno 01
-                </h3>
-
-                <p>
-                  Data, orario e breve descrizione
-                  del fenomeno astronomico.
-                </p>
-
-              </div>
-
-            </div>
-
-
-            <div class="event-item">
-
-              <div class="event-image"></div>
-
-              <div class="event-content">
-
-                <h3>
-                  Fenomeno 02
-                </h3>
-
-                <p>
-                  Data, orario e breve descrizione
-                  del fenomeno astronomico.
-                </p>
-
-              </div>
-
-            </div>
-
-
-            <div class="event-item">
-
-              <div class="event-image"></div>
-
-              <div class="event-content">
-
-                <h3>
-                  Fenomeno 03
-                </h3>
-
-                <p>
-                  Data, orario e breve descrizione
-                  del fenomeno astronomico.
-                </p>
-
-              </div>
-
-            </div>
-
-
-            <div class="event-item">
-
-              <div class="event-image"></div>
-
-              <div class="event-content">
-
-                <h3>
-                  Fenomeno 04
-                </h3>
-
-                <p>
-                  Data, orario e breve descrizione
-                  del fenomeno astronomico.
-                </p>
-
-              </div>
-
-            </div>
-
-
-            <div class="event-item">
-
-              <div class="event-image"></div>
-
-              <div class="event-content">
-
-                <h3>
-                  Fenomeno 05
-                </h3>
-
-                <p>
-                  Data, orario e breve descrizione
-                  del fenomeno astronomico.
-                </p>
-
-              </div>
-
-            </div>
-
-
-            <div class="event-item">
-
-              <div class="event-image"></div>
-
-              <div class="event-content">
-
-                <h3>
-                  Fenomeno 06
-                </h3>
-
-                <p>
-                  Data, orario e breve descrizione
-                  del fenomeno astronomico.
-                </p>
-
-              </div>
-
-            </div>
-
-
-          </div>
+          <div class="events-grid"><article class="event-item"><div class="event-image"><img src="assets/cielo/foto/Saturn.jpg" alt="Saturno — fotografia d’archivio" width="640" height="360" loading="lazy"></div><div class="event-content"><h3>Saturno in opposizione</h3><p class="event-time">4 ottobre alle ore 14:12</p><p>Il pianeta si trova dalla parte opposta al Sole nel cielo: un periodo favorevole per osservarlo.</p><p class="photo-credit">Fotografia di archivio. <a href="https://images.nasa.gov/details/PIA11141">NASA/JPL/Space Science Institute</a></p></div></article><article class="event-item"><div class="event-image photo-pair"><img src="assets/cielo/foto/Moon.jpg" alt="Luna — fotografia d’archivio" width="640" height="360" loading="lazy"><img src="assets/cielo/foto/Mars.jpg" alt="Marte — fotografia d’archivio" width="640" height="360" loading="lazy"></div><div class="event-content"><h3>Luna e Marte</h3><p class="event-time">5 ottobre alle ore 08:01</p><p>I due astri appaiono vicini nel cielo. Cercali il 5 alle 05:00 verso est; la distanza apparente a quell’ora sarà diversa.</p><p class="photo-credit">Fotografie separate dei due astri. <a href="https://images.nasa.gov/details/PIA00405">NASA/JPL</a><br><a href="https://images.nasa.gov/details/PIA00407">NASA/JPL-Caltech/USGS</a></p></div></article><article class="event-item"><div class="event-image photo-pair"><img src="assets/cielo/foto/Moon.jpg" alt="Luna — fotografia d’archivio" width="640" height="360" loading="lazy"><img src="assets/cielo/foto/Jupiter.jpg" alt="Giove — fotografia d’archivio" width="640" height="360" loading="lazy"></div><div class="event-content"><h3>Luna e Giove</h3><p class="event-time">6 ottobre alle ore 12:21</p><p>I due astri appaiono vicini nel cielo. Cercali il 6 alle 05:00 verso est; la distanza apparente a quell’ora sarà diversa.</p><p class="photo-credit">Fotografie separate dei due astri. <a href="https://images.nasa.gov/details/PIA00405">NASA/JPL</a><br><a href="https://images.nasa.gov/details/PIA04866">NASA/JPL/Space Science Institute</a></p></div></article><article class="event-item"><div class="event-image phase-photo"><svg class="lunar-phase-picture" viewBox="0 0 200 200" role="img" aria-label="Luna nuova — fase calcolata su fotografia NASA" data-illumination="0.00112"><defs><clipPath id="lunar-phase-1-disc"><circle cx="100" cy="100" r="96"></circle></clipPath><clipPath id="lunar-phase-1-lit"><path d="M100.00,4.00L80.51,6.00L72.58,8.00L66.59,10.00L61.63,12.00L57.34,14.00L53.52,16.00L50.08,18.00L46.93,20.00L44.04,22.00L41.35,24.00L38.84,26.00L36.50,28.00L34.30,30.00L32.24,32.00L30.29,34.00L28.45,36.00L26.71,38.00L25.06,40.00L23.50,42.00L22.03,44.00L20.63,46.00L19.30,48.00L18.05,50.00L16.86,52.00L15.74,54.00L14.68,56.00L13.68,58.00L12.73,60.00L11.84,62.00L11.01,64.00L10.22,66.00L9.49,68.00L8.81,70.00L8.17,72.00L7.59,74.00L7.05,76.00L6.55,78.00L6.11,80.00L5.70,82.00L5.34,84.00L5.03,86.00L4.75,88.00L4.52,90.00L4.33,92.00L4.19,94.00L4.08,96.00L4.02,98.00L4.00,100.00L4.02,102.00L4.08,104.00L4.19,106.00L4.33,108.00L4.52,110.00L4.75,112.00L5.03,114.00L5.34,116.00L5.70,118.00L6.11,120.00L6.55,122.00L7.05,124.00L7.59,126.00L8.17,128.00L8.81,130.00L9.49,132.00L10.22,134.00L11.01,136.00L11.84,138.00L12.73,140.00L13.68,142.00L14.68,144.00L15.74,146.00L16.86,148.00L18.05,150.00L19.30,152.00L20.63,154.00L22.03,156.00L23.50,158.00L25.06,160.00L26.71,162.00L28.45,164.00L30.29,166.00L32.24,168.00L34.30,170.00L36.50,172.00L38.84,174.00L41.35,176.00L44.04,178.00L46.93,180.00L50.08,182.00L53.52,184.00L57.34,186.00L61.63,188.00L66.59,190.00L72.58,192.00L80.51,194.00L100.00,196.00L100.00,196.00L80.55,194.00L72.64,192.00L66.67,190.00L61.72,188.00L57.43,186.00L53.63,184.00L50.19,182.00L47.05,180.00L44.16,178.00L41.48,176.00L38.98,174.00L36.64,172.00L34.45,170.00L32.39,168.00L30.44,166.00L28.61,164.00L26.87,162.00L25.23,160.00L23.67,158.00L22.20,156.00L20.81,154.00L19.48,152.00L18.23,150.00L17.05,148.00L15.93,146.00L14.87,144.00L13.87,142.00L12.93,140.00L12.04,138.00L11.21,136.00L10.42,134.00L9.69,132.00L9.01,130.00L8.38,128.00L7.80,126.00L7.26,124.00L6.76,122.00L6.32,120.00L5.91,118.00L5.56,116.00L5.24,114.00L4.97,112.00L4.74,110.00L4.55,108.00L4.40,106.00L4.30,104.00L4.24,102.00L4.22,100.00L4.24,98.00L4.30,96.00L4.40,94.00L4.55,92.00L4.74,90.00L4.97,88.00L5.24,86.00L5.56,84.00L5.91,82.00L6.32,80.00L6.76,78.00L7.26,76.00L7.80,74.00L8.38,72.00L9.01,70.00L9.69,68.00L10.42,66.00L11.21,64.00L12.04,62.00L12.93,60.00L13.87,58.00L14.87,56.00L15.93,54.00L17.05,52.00L18.23,50.00L19.48,48.00L20.81,46.00L22.20,44.00L23.67,42.00L25.23,40.00L26.87,38.00L28.61,36.00L30.44,34.00L32.39,32.00L34.45,30.00L36.64,28.00L38.98,26.00L41.48,24.00L44.16,22.00L47.05,20.00L50.19,18.00L53.63,16.00L57.43,14.00L61.72,12.00L66.67,10.00L72.64,8.00L80.55,6.00L100.00,4.00Z"></path></clipPath></defs><circle cx="100" cy="100" r="97" fill="#050a12" stroke="#39455b" stroke-width=".6"></circle><g clip-path="url(#lunar-phase-1-disc)"><image href="assets/cielo/foto/Moon.jpg" x="0" y="0" width="200" height="200" opacity=".035" style="filter:grayscale(1)"></image><g clip-path="url(#lunar-phase-1-lit)"><image href="assets/cielo/foto/Moon.jpg" x="0" y="0" width="200" height="200" style="filter:grayscale(1)"></image></g></g></svg></div><div class="event-content"><h3>Luna nuova</h3><p class="event-time">10 ottobre alle ore 17:50</p><p>Periodo favorevole per il cielo profondo, nelle notti senza Luna.</p><p class="photo-credit">Illuminazione calcolata su fotografia di archivio <a href="https://images.nasa.gov/details/PIA00405">NASA/JPL</a>; fase riferita all’istante indicato.</p></div></article><article class="event-item"><div class="event-image photo-pair"><img src="assets/cielo/foto/Moon.jpg" alt="Luna — fotografia d’archivio" width="640" height="360" loading="lazy"><img src="assets/cielo/foto/Saturn.jpg" alt="Saturno — fotografia d’archivio" width="640" height="360" loading="lazy"></div><div class="event-content"><h3>Luna e Saturno</h3><p class="event-time">24 ottobre alle ore 15:05</p><p>I due astri appaiono vicini nel cielo. Cercali il 24 alle 22:00 verso sud-est; la distanza apparente a quell’ora sarà diversa.</p><p class="photo-credit">Fotografie separate dei due astri. <a href="https://images.nasa.gov/details/PIA00405">NASA/JPL</a><br><a href="https://images.nasa.gov/details/PIA11141">NASA/JPL/Space Science Institute</a></p></div></article><article class="event-item"><div class="event-image phase-photo"><svg class="lunar-phase-picture" viewBox="0 0 200 200" role="img" aria-label="Luna piena — fase calcolata su fotografia NASA" data-illumination="0.99841"><defs><clipPath id="lunar-phase-2-disc"><circle cx="100" cy="100" r="96"></circle></clipPath><clipPath id="lunar-phase-2-lit"><path d="M100.00,4.00L119.49,6.00L127.42,8.00L133.41,10.00L138.37,12.00L142.66,14.00L146.48,16.00L149.92,18.00L153.07,20.00L155.96,22.00L158.65,24.00L161.16,26.00L163.50,28.00L165.70,30.00L167.76,32.00L169.71,34.00L171.55,36.00L173.29,38.00L174.94,40.00L176.50,42.00L177.97,44.00L179.37,46.00L180.70,48.00L181.95,50.00L183.14,52.00L184.26,54.00L185.32,56.00L186.32,58.00L187.27,60.00L188.16,62.00L188.99,64.00L189.78,66.00L190.51,68.00L191.19,70.00L191.83,72.00L192.41,74.00L192.95,76.00L193.45,78.00L193.89,80.00L194.30,82.00L194.66,84.00L194.97,86.00L195.25,88.00L195.48,90.00L195.67,92.00L195.81,94.00L195.92,96.00L195.98,98.00L196.00,100.00L195.98,102.00L195.92,104.00L195.81,106.00L195.67,108.00L195.48,110.00L195.25,112.00L194.97,114.00L194.66,116.00L194.30,118.00L193.89,120.00L193.45,122.00L192.95,124.00L192.41,126.00L191.83,128.00L191.19,130.00L190.51,132.00L189.78,134.00L188.99,136.00L188.16,138.00L187.27,140.00L186.32,142.00L185.32,144.00L184.26,146.00L183.14,148.00L181.95,150.00L180.70,152.00L179.37,154.00L177.97,156.00L176.50,158.00L174.94,160.00L173.29,162.00L171.55,164.00L169.71,166.00L167.76,168.00L165.70,170.00L163.50,172.00L161.16,174.00L158.65,176.00L155.96,178.00L153.07,180.00L149.92,182.00L146.48,184.00L142.66,186.00L138.37,188.00L133.41,190.00L127.42,192.00L119.49,194.00L100.00,196.00L100.00,196.00L80.57,194.00L72.66,192.00L66.70,190.00L61.76,188.00L57.47,186.00L53.67,184.00L50.24,182.00L47.10,180.00L44.21,178.00L41.53,176.00L39.04,174.00L36.70,172.00L34.51,170.00L32.45,168.00L30.51,166.00L28.67,164.00L26.94,162.00L25.30,160.00L23.74,158.00L22.27,156.00L20.88,154.00L19.56,152.00L18.31,150.00L17.13,148.00L16.01,146.00L14.95,144.00L13.95,142.00L13.01,140.00L12.12,138.00L11.29,136.00L10.51,134.00L9.78,132.00L9.10,130.00L8.47,128.00L7.88,126.00L7.34,124.00L6.85,122.00L6.40,120.00L6.00,118.00L5.64,116.00L5.33,114.00L5.06,112.00L4.83,110.00L4.64,108.00L4.49,106.00L4.39,104.00L4.33,102.00L4.30,100.00L4.33,98.00L4.39,96.00L4.49,94.00L4.64,92.00L4.83,90.00L5.06,88.00L5.33,86.00L5.64,84.00L6.00,82.00L6.40,80.00L6.85,78.00L7.34,76.00L7.88,74.00L8.47,72.00L9.10,70.00L9.78,68.00L10.51,66.00L11.29,64.00L12.12,62.00L13.01,60.00L13.95,58.00L14.95,56.00L16.01,54.00L17.13,52.00L18.31,50.00L19.56,48.00L20.88,46.00L22.27,44.00L23.74,42.00L25.30,40.00L26.94,38.00L28.67,36.00L30.51,34.00L32.45,32.00L34.51,30.00L36.70,28.00L39.04,26.00L41.53,24.00L44.21,22.00L47.10,20.00L50.24,18.00L53.67,16.00L57.47,14.00L61.76,12.00L66.70,10.00L72.66,8.00L80.57,6.00L100.00,4.00Z"></path></clipPath></defs><circle cx="100" cy="100" r="97" fill="#050a12" stroke="#39455b" stroke-width=".6"></circle><g clip-path="url(#lunar-phase-2-disc)"><image href="assets/cielo/foto/Moon.jpg" x="0" y="0" width="200" height="200" opacity=".035" style="filter:grayscale(1)"></image><g clip-path="url(#lunar-phase-2-lit)"><image href="assets/cielo/foto/Moon.jpg" x="0" y="0" width="200" height="200" style="filter:grayscale(1)"></image></g></g></svg></div><div class="event-content"><h3>Luna piena</h3><p class="event-time">26 ottobre alle ore 05:12</p><p>La luce lunare rende meno visibili galassie e nebulose.</p><p class="photo-credit">Illuminazione calcolata su fotografia di archivio <a href="https://images.nasa.gov/details/PIA00405">NASA/JPL</a>; fase riferita all’istante indicato.</p></div></article></div>
 
 
         </article>
@@ -1959,101 +1515,8 @@
           </div>
 
 
-          <ul class="calendar-list">
-
-
-            <li class="calendar-item">
-
-              <span class="calendar-date">
-                -- settembre
-              </span>
-
-              <span class="calendar-event">
-                Evento astronomico
-              </span>
-
-            </li>
-
-
-            <li class="calendar-item">
-
-              <span class="calendar-date">
-                -- settembre
-              </span>
-
-              <span class="calendar-event">
-                Evento astronomico
-              </span>
-
-            </li>
-
-
-            <li class="calendar-item">
-
-              <span class="calendar-date">
-                -- settembre
-              </span>
-
-              <span class="calendar-event">
-                Evento astronomico
-              </span>
-
-            </li>
-
-
-            <li class="calendar-item">
-
-              <span class="calendar-date">
-                -- settembre
-              </span>
-
-              <span class="calendar-event">
-                Evento astronomico
-              </span>
-
-            </li>
-
-
-            <li class="calendar-item">
-
-              <span class="calendar-date">
-                -- settembre
-              </span>
-
-              <span class="calendar-event">
-                Evento astronomico
-              </span>
-
-            </li>
-
-
-            <li class="calendar-item">
-
-              <span class="calendar-date">
-                -- settembre
-              </span>
-
-              <span class="calendar-event">
-                Evento astronomico
-              </span>
-
-            </li>
-
-
-            <li class="calendar-item">
-
-              <span class="calendar-date">
-                -- settembre
-              </span>
-
-              <span class="calendar-event">
-                Evento astronomico
-              </span>
-
-            </li>
-
-
-          </ul>
+          <ul class="calendar-list"><li class="calendar-item"><span class="calendar-date">4 ottobre<span class="cal-time">14:12</span></span><span class="calendar-event">Saturno in opposizione</span></li><li class="calendar-item"><span class="calendar-date">5 ottobre<span class="cal-time">08:01</span></span><span class="calendar-event">Luna e Marte</span></li><li class="calendar-item"><span class="calendar-date">6 ottobre<span class="cal-time">12:21</span></span><span class="calendar-event">Luna e Giove</span></li><li class="calendar-item"><span class="calendar-date">10 ottobre<span class="cal-time">17:50</span></span><span class="calendar-event">Luna nuova</span></li><li class="calendar-item"><span class="calendar-date">24 ottobre<span class="cal-time">15:05</span></span><span class="calendar-event">Luna e Saturno</span></li><li class="calendar-item"><span class="calendar-date">26 ottobre<span class="cal-time">05:12</span></span><span class="calendar-event">Luna piena</span></li></ul>
+<section class="daily-moon" id="daily-moon" aria-label="Fase lunare di oggi"><h3>LA LUNA OGGI</h3><p class="daily-moon-date">3 ottobre 2026 · Roma</p><div class="daily-moon-image"><svg class="lunar-phase-picture" viewBox="0 0 200 200" role="img" aria-label="Falce calante — fase calcolata su fotografia NASA" data-illumination="0.46987"><defs><clipPath id="lunar-phase-3-disc"><circle cx="100" cy="100" r="96"></circle></clipPath><clipPath id="lunar-phase-3-lit"><path d="M100.00,4.00L80.51,6.00L72.58,8.00L66.59,10.00L61.63,12.00L57.34,14.00L53.52,16.00L50.08,18.00L46.93,20.00L44.04,22.00L41.35,24.00L38.84,26.00L36.50,28.00L34.30,30.00L32.24,32.00L30.29,34.00L28.45,36.00L26.71,38.00L25.06,40.00L23.50,42.00L22.03,44.00L20.63,46.00L19.30,48.00L18.05,50.00L16.86,52.00L15.74,54.00L14.68,56.00L13.68,58.00L12.73,60.00L11.84,62.00L11.01,64.00L10.22,66.00L9.49,68.00L8.81,70.00L8.17,72.00L7.59,74.00L7.05,76.00L6.55,78.00L6.11,80.00L5.70,82.00L5.34,84.00L5.03,86.00L4.75,88.00L4.52,90.00L4.33,92.00L4.19,94.00L4.08,96.00L4.02,98.00L4.00,100.00L4.02,102.00L4.08,104.00L4.19,106.00L4.33,108.00L4.52,110.00L4.75,112.00L5.03,114.00L5.34,116.00L5.70,118.00L6.11,120.00L6.55,122.00L7.05,124.00L7.59,126.00L8.17,128.00L8.81,130.00L9.49,132.00L10.22,134.00L11.01,136.00L11.84,138.00L12.73,140.00L13.68,142.00L14.68,144.00L15.74,146.00L16.86,148.00L18.05,150.00L19.30,152.00L20.63,154.00L22.03,156.00L23.50,158.00L25.06,160.00L26.71,162.00L28.45,164.00L30.29,166.00L32.24,168.00L34.30,170.00L36.50,172.00L38.84,174.00L41.35,176.00L44.04,178.00L46.93,180.00L50.08,182.00L53.52,184.00L57.34,186.00L61.63,188.00L66.59,190.00L72.58,192.00L80.51,194.00L100.00,196.00L100.00,196.00L98.83,194.00L98.35,192.00L97.99,190.00L97.69,188.00L97.43,186.00L97.20,184.00L96.99,182.00L96.80,180.00L96.63,178.00L96.47,176.00L96.31,174.00L96.17,172.00L96.04,170.00L95.92,168.00L95.80,166.00L95.69,164.00L95.58,162.00L95.48,160.00L95.39,158.00L95.30,156.00L95.22,154.00L95.14,152.00L95.06,150.00L94.99,148.00L94.92,146.00L94.86,144.00L94.80,142.00L94.74,140.00L94.69,138.00L94.64,136.00L94.59,134.00L94.55,132.00L94.50,130.00L94.47,128.00L94.43,126.00L94.40,124.00L94.37,122.00L94.34,120.00L94.32,118.00L94.30,116.00L94.28,114.00L94.26,112.00L94.25,110.00L94.23,108.00L94.23,106.00L94.22,104.00L94.22,102.00L94.21,100.00L94.22,98.00L94.22,96.00L94.23,94.00L94.23,92.00L94.25,90.00L94.26,88.00L94.28,86.00L94.30,84.00L94.32,82.00L94.34,80.00L94.37,78.00L94.40,76.00L94.43,74.00L94.47,72.00L94.50,70.00L94.55,68.00L94.59,66.00L94.64,64.00L94.69,62.00L94.74,60.00L94.80,58.00L94.86,56.00L94.92,54.00L94.99,52.00L95.06,50.00L95.14,48.00L95.22,46.00L95.30,44.00L95.39,42.00L95.48,40.00L95.58,38.00L95.69,36.00L95.80,34.00L95.92,32.00L96.04,30.00L96.17,28.00L96.31,26.00L96.47,24.00L96.63,22.00L96.80,20.00L96.99,18.00L97.20,16.00L97.43,14.00L97.69,12.00L97.99,10.00L98.35,8.00L98.83,6.00L100.00,4.00Z"></path></clipPath></defs><circle cx="100" cy="100" r="97" fill="#050a12" stroke="#39455b" stroke-width=".6"></circle><g clip-path="url(#lunar-phase-3-disc)"><image href="assets/cielo/foto/Moon.jpg" x="0" y="0" width="200" height="200" opacity=".035" style="filter:grayscale(1)"></image><g clip-path="url(#lunar-phase-3-lit)"><image href="assets/cielo/foto/Moon.jpg" x="0" y="0" width="200" height="200" style="filter:grayscale(1)"></image></g></g></svg></div><p class="daily-moon-phase"><strong>Falce calante</strong> · 47% illuminata</p><p class="daily-moon-reference">Fase riferita alle 22:00 locali. Alle 22:00 è sotto l’orizzonte: il suo disturbo diretto è ridotto. Sorge 23:44, tramonta 14:53.</p><h4>Osservazione</h4><p>Il terminatore, il confine tra luce e ombra, mette in risalto crateri e rilievi: è un buon momento per osservare la Luna. Per gli oggetti deboli scegli le ore senza Luna.</p><h4>Astrofotografia</h4><p>Per riprendere i rilievi lunari usa esposizioni brevi, evitando le alte luci bruciate. Per il cielo profondo attendi le ore in cui la Luna è sotto l’orizzonte.</p><p class="photo-credit">Illuminazione calcolata su fotografia di archivio <a href="https://images.nasa.gov/details/PIA00405">NASA/JPL · PIA00405</a>. Orientamento illustrativo; non è una ripresa di oggi.</p></section>
 
 
         </aside>
@@ -2090,32 +1553,7 @@
           </div>
 
 
-          <ul>
-
-            <li>
-              Gli orari sono espressi in ora civile locale.
-            </li>
-
-            <li>
-              Le posizioni dei pianeti sono indicative
-              e si riferiscono alla loro collocazione apparente nel cielo.
-            </li>
-
-            <li>
-              I dati locali sono riferiti a Pistoia.
-            </li>
-
-            <li>
-              Per una lettura osservativa del cielo
-              consulta anche la sezione Il Cielo del Mese.
-            </li>
-
-            <li>
-              Le effemeridi vengono aggiornate mensilmente
-              mantenendo invariata la struttura della pagina.
-            </li>
-
-          </ul>
+          <ul><li>Orari in Europe/Rome, con il passaggio automatico tra ora solare e legale. Il mese cambia il primo giorno alle 00:00, insieme a Il cielo del mese; ottobre 2026 è il mese iniziale.</li><li>Calcoli con <a href="https://github.com/cosinekitty/astronomy">Astronomy Engine</a>. Coordinate geografiche dei centri cittadini, quota convenzionale zero: rilievi, edifici e atmosfera possono modificare l’osservazione.</li><li>Congiunzioni: istante di uguale longitudine eclittica; l’orario consigliato di osservazione può essere diverso. Fasi e istanti geocentrici sono comuni; posizione, orizzonte e visibilità dipendono dalla città.</li><li>Fotografie d’archivio con fonte e crediti; non sono riprese degli eventi annunciati. I massimi meteorici sono date indicative del <a href="https://www.imo.net/resources/calendar/">calendario IMO 2026</a>, limitate all’anno verificato.</li><li>Per una lettura osservativa e la carta delle 22:00 consulta <a href="cielo-del-mese.html">Il cielo del mese</a>. Gli eventi si ricalcolano all’apertura e al cambio del mese anche se il dispositivo è stato spento.</li></ul>
 
 
         </div>
@@ -2136,11 +1574,7 @@
 
   <footer class="site-footer">
 
-    <img
-      class="bottom-banner-image"
-      src="banner 2.png"
-      alt="AD ASTRA - Astronomia, osservazione del cielo, astrofotografia e divulgazione scientifica"
-    >
+    <img class="bottom-banner-image" src="banner 2.png" alt="AD ASTRA - Astronomia, osservazione del cielo, astrofotografia e divulgazione scientifica" loading="eager">
 
 
     <div class="footer-navigation">
@@ -2272,7 +1706,7 @@
             </a>
           </li>
 
-        
+
 
           <li>
             <a href="contatti.html">
@@ -2292,11 +1726,7 @@
           Seguici su
         </h3>
 
-        <a
-          class="footer-facebook"
-          href="#"
-          aria-label="Facebook AD ASTRA"
-        >
+        <a class="footer-facebook" href="#" aria-label="Facebook AD ASTRA">
           f
         </a>
 
@@ -2308,6 +1738,8 @@
   </footer>
 
 
-</body>
+<script src="assets/cielo/astronomy.browser.min.js"></script><script src="assets/cielo/astro-core.js"></script><script src="assets/cielo/foto/catalogo-foto.js"></script><script src="assets/cielo/foto/effemeridi-foto.js"></script><script src="assets/cielo/luna-fase.js"></script><script src="assets/cielo/effemeridi.js"></script>
 
-</html>
+
+<script src="assets/cielo/luna-oggi.js"></script>
+</body></html>

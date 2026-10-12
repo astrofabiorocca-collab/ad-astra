@@ -769,7 +769,26 @@
 .month-note{display:block;margin-bottom:14px}.month-note:last-child{margin-bottom:0}.object-coordinates{display:block;margin-top:9px;font-size:.72rem;line-height:1.5;color:#557391}.month-description{text-align:left}
 /* Fotografie reali, con crediti e archivio mensile locale. */
 .protagonist-image{height:190px;min-height:190px;background:#000}.protagonist-image img{height:190px;min-height:0;object-fit:contain}.photo-pair{display:grid;grid-template-columns:1fr 1fr;gap:0}.photo-pair img{min-width:0;width:100%}.protagonist-content .photo-credit{margin-top:15px;font-size:.65rem;line-height:1.45;color:#6a7b91}.photo-credit a{color:#557391;text-decoration:underline;text-underline-offset:2px;overflow-wrap:anywhere}
-</style>
+/* Fotografie intere, con margini armonici anche nelle coppie. */
+.protagonist-image{padding:14px!important;gap:10px}.protagonist-image img{height:100%;max-width:100%;object-fit:contain}.protagonist-image.photo-pair{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:10px}.protagonist-image.photo-pair img{height:100%;width:100%}.protagonist-image .lunar-phase-picture{height:100%;width:auto;max-width:100%}
+.suburban-sky{margin-top:24px;border:1px solid #d7e3ef;border-radius:10px;background:#f3f7fc;padding:22px 24px;text-align:left;color:#526174}.suburban-sky h3{font-size:1.05rem;color:#17365f;margin-bottom:10px}.suburban-sky p{font-size:.82rem;line-height:1.6;margin-bottom:12px}.suburban-location{color:#17365f;font-weight:600}.sky-quality-scale{position:relative;margin:27px 0 7px}.sky-quality-colors{display:grid;grid-template-columns:repeat(15,1fr);height:24px;border-radius:5px;overflow:hidden;border:1px solid #bdcddd}.sky-quality-needle{position:absolute;top:-22px;transform:translateX(-50%);color:#17365f;font-size:23px;line-height:1;text-shadow:0 1px 1px #fff;transition:left .35s ease}.sky-quality-ends{display:flex;justify-content:space-between;gap:16px;font-size:.65rem;margin-bottom:14px}.suburban-sky .sky-quality-note{font-size:.72rem}.suburban-sky .sky-quality-source{font-size:.66rem;margin-top:14px;margin-bottom:0}.suburban-sky a{color:#2864d7;text-decoration:underline}.bortle-guide{border-top:1px solid #d7e3ef;margin-top:16px;padding-top:12px;font-size:.78rem}.bortle-guide summary{font-weight:600;cursor:pointer;color:#17365f}.bortle-guide p{margin-top:12px;font-size:.74rem}.bortle-guide ul{columns:2;list-style:none;padding:0;font-size:.72rem;line-height:1.7}.bortle-guide li{break-inside:avoid}.bortle-reference{display:grid;grid-template-columns:repeat(9,1fr);margin-top:12px;overflow:hidden;border-radius:5px}.bortle-reference span{text-align:center;padding:7px 0;background:var(--bortle-color);color:#fff;font-weight:700}@media(max-width:500px){.suburban-sky{padding:18px 16px}.bortle-guide ul{columns:1}}
+
+    /* Banner inferiore comune: titoli leggibili, con margine superiore regolare. */
+    .site-footer{position:relative;width:100%;height:clamp(350px,22vw,510px);min-height:350px;overflow:hidden;background:#041529}
+    .site-footer .bottom-banner-image{display:block;width:100%;height:100%;object-fit:contain;object-position:left center}
+    .site-footer .footer-navigation{position:absolute;top:36px;right:3%;transform:none;width:53%;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;padding:0;background:transparent;color:#fff;align-items:start}
+    .site-footer .footer-column{min-width:0}
+    .site-footer .footer-column h3{margin:0 0 14px;color:#fff;font-size:.82rem;font-weight:700;line-height:1.4}
+    .site-footer .footer-column ul{list-style:none;margin:0;padding:0}
+    .site-footer .footer-column li{margin:0 0 7px;font-size:.76rem;line-height:1.5}
+    .site-footer .footer-column a{color:#bcc8d5;font-size:.76rem;line-height:1.5;text-decoration:none;transition:color .2s ease}
+    .site-footer .footer-column a:hover{color:#5eb5ff}
+    .site-footer .footer-column .footer-facebook{position:static;transform:none;margin:0;width:38px;height:38px;display:grid;place-items:center;border-radius:50%;background:#1877f2;color:#fff;font-size:1.25rem;font-weight:700;font-family:Arial,sans-serif}
+    @media(max-width:1100px) and (min-width:901px){.site-footer .footer-navigation{top:32px;right:2%;width:55%;gap:12px}.site-footer .footer-column h3{font-size:.75rem}.site-footer .footer-column a{font-size:.69rem}}
+    @media(max-width:900px){.site-footer{height:auto;min-height:0;overflow:visible}.site-footer .bottom-banner-image{width:100%;height:auto;object-fit:initial}.site-footer .footer-navigation{position:static;top:auto;right:auto;transform:none;width:100%;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 22px;padding:32px 5%;background:#041529}.site-footer .footer-column h3{font-size:.85rem}.site-footer .footer-column a{font-size:.8rem}}
+    @media(max-width:520px){.site-footer .footer-navigation{grid-template-columns:1fr;gap:26px;padding:30px 7%}}
+
+  </style>
 
 </head>
 
@@ -968,7 +987,7 @@
         <p class="section-intro">La carta mostra il cielo del 15 del mese alle 22:00, ora italiana. Scegli una città: mappa e indicazioni di visibilità si aggiornano insieme.</p>
 
 
-        <div class="sky-controls"><label for="sky-city">Da dove osservi?</label><select id="sky-city" aria-describedby="sky-city-help"><option value="Ancona">Ancona</option><option value="Aosta">Aosta</option><option value="Bari">Bari</option><option value="Bologna">Bologna</option><option value="Bolzano">Bolzano</option><option value="Cagliari">Cagliari</option><option value="Campobasso">Campobasso</option><option value="Catania">Catania</option><option value="Catanzaro">Catanzaro</option><option value="Firenze">Firenze</option><option value="Genova">Genova</option><option value="L’Aquila">L’Aquila</option><option value="Milano">Milano</option><option value="Napoli">Napoli</option><option value="Palermo">Palermo</option><option value="Perugia">Perugia</option><option value="Potenza">Potenza</option><option value="Reggio Calabria">Reggio Calabria</option><option value="Roma" selected="">Roma</option><option value="Sassari">Sassari</option><option value="Torino">Torino</option><option value="Trento">Trento</option><option value="Trieste">Trieste</option><option value="Venezia">Venezia</option></select><span id="sky-city-help">Città italiana · coordinate automatiche · ore 22:00</span></div><p id="sky-status" role="status" aria-live="polite">Roma · 41.90° N, 12.50° E · Ottobre 2026. Mappa e schede aggiornate insieme.</p>
+        <div class="sky-controls"><label for="sky-city">Da dove osservi?</label><select id="sky-city" aria-describedby="sky-city-help"><option value="Ancona">Ancona</option><option value="Aosta">Aosta</option><option value="Bari">Bari</option><option value="Bologna">Bologna</option><option value="Bolzano">Bolzano</option><option value="Cagliari">Cagliari</option><option value="Campobasso">Campobasso</option><option value="Catania">Catania</option><option value="Catanzaro">Catanzaro</option><option value="Firenze">Firenze</option><option value="Genova">Genova</option><option value="L’Aquila">L’Aquila</option><option value="Milano">Milano</option><option value="Napoli">Napoli</option><option value="Palermo">Palermo</option><option value="Perugia">Perugia</option><option value="Potenza">Potenza</option><option value="Reggio Calabria">Reggio Calabria</option><option value="Roma">Roma</option><option value="Sassari">Sassari</option><option value="Torino">Torino</option><option value="Trento">Trento</option><option value="Trieste">Trieste</option><option value="Venezia">Venezia</option></select><span id="sky-city-help">Città italiana · coordinate automatiche · ore 22:00</span></div><p id="sky-status" role="status" aria-live="polite">Roma · 41.90° N, 12.50° E · Ottobre 2026. Mappa e schede aggiornate insieme.</p>
 <div class="sky-layout">
 
 
@@ -1006,6 +1025,7 @@
 
 
             <p class="sky-chart-caption" id="sky-caption">Roma · 15 ottobre 2026 · ore 22:00 (ora legale). Per gli oggetti del cielo profondo scegli un luogo lontano dalle luci cittadine. Carta vista guardando verso l’alto: est a sinistra, ovest a destra; il centro è lo zenit. Punti dorati: pianeti; anelli azzurri: oggetti consigliati. Reticolo equatoriale J2000: ascensione retta (AR) in ore e declinazione (Dec) in gradi. La Luna è sotto l’orizzonte.</p>
+<section class="suburban-sky" id="suburban-sky" aria-label="Qualità del cielo e guida Bortle"><h3>QUALITÀ DEL CIELO · GUIDA BORTLE</h3><p class="suburban-location">Roma · intorno suburbano indicativo</p><p>Stima della luminosità allo zenit: zona <strong>7a</strong> dell’atlante 2025.</p><div class="sky-quality-scale" role="img" aria-label="Luminosità stimata: zona 7a. La scala va da meno a più luce artificiale."><div class="sky-quality-colors"><span style="background:#000"></span><span style="background:#222"></span><span style="background:#424242"></span><span style="background:#142f72"></span><span style="background:#2154d8"></span><span style="background:#0f5714"></span><span style="background:#1fa12a"></span><span style="background:#6e641e"></span><span style="background:#b8a625"></span><span style="background:#bf641e"></span><span style="background:#fd9650"></span><span style="background:#fb5a49"></span><span style="background:#fb998a"></span><span style="background:#a0a0a0"></span><span style="background:#f2f2f2"></span></div><span class="sky-quality-needle" style="left:90.00%" aria-hidden="true">▼</span></div><div class="sky-quality-ends"><span>Meno luce artificiale</span><span>Più luce artificiale</span></div><p class="sky-quality-value">Luminosità modellata: <strong>17,8–18,38 mag/arcsec²</strong> · rapporto luce artificiale/naturale: 27–46,77.</p><p>Un fondo cielo molto luminoso riduce il contrasto degli oggetti deboli: privilegia Luna, pianeti e ammassi luminosi, oppure cerca una zona più buia.</p><p class="sky-quality-note">Indicazione generale dell’intorno a 5–15 km dal centro, non misura del tuo punto di osservazione né previsione della serata. Mediana di 48 campioni su terraferma; le zone campionate variano da 6a a 7b. Le aree comprendono contesti diversi; il valore può cambiare molto anche a breve distanza.</p><p class="sky-quality-note">Scala Bortle di riferimento (1–9). L’ago indica la luminosità dell’atlante sopra, non una classe Bortle misurata.</p><div class="bortle-reference" aria-label="Scala Bortle descrittiva da 1 a 9"><span style="--bortle-color:#172132" title="Cielo eccezionalmente buio">1</span><span style="--bortle-color:#263764" title="Cielo veramente buio">2</span><span style="--bortle-color:#345a8e" title="Cielo rurale">3</span><span style="--bortle-color:#3c8465" title="Transizione rurale/suburbana">4</span><span style="--bortle-color:#9b9b45" title="Cielo suburbano">5</span><span style="--bortle-color:#cbb956" title="Cielo suburbano luminoso">6</span><span style="--bortle-color:#de9747" title="Transizione suburbana/urbana">7</span><span style="--bortle-color:#d86443" title="Cielo urbano">8</span><span style="--bortle-color:#ad343d" title="Centro urbano molto luminoso">9</span></div><details class="bortle-guide"><summary>Scala Bortle 1–9: come leggere il cielo</summary><p>La classe Bortle si valuta osservando stelle, Via Lattea e bagliori lungo tutto il cielo. L’ago sopra indica la luminosità dell’atlante, non una classe Bortle misurata.</p><ul><li><strong>1</strong> · Cielo eccezionalmente buio</li><li><strong>2</strong> · Cielo veramente buio</li><li><strong>3</strong> · Cielo rurale</li><li><strong>4</strong> · Transizione rurale/suburbana</li><li><strong>5</strong> · Cielo suburbano</li><li><strong>6</strong> · Cielo suburbano luminoso</li><li><strong>7</strong> · Transizione suburbana/urbana</li><li><strong>8</strong> · Cielo urbano</li><li><strong>9</strong> · Centro urbano molto luminoso</li></ul></details><p class="sky-quality-source">Fonte: <a href="https://djlorenz.github.io/astronomy/lp/">David Lorenz, Light Pollution Atlas · dati 2025</a>. <a href="https://djlorenz.github.io/astronomy/lp/colors.html">Legenda</a> · <a href="https://djlorenz.github.io/astronomy/lp/bortle.html">Luminosità e Bortle sono metriche diverse</a>.</p></section>
 
           </div>
 
@@ -1215,7 +1235,7 @@
             </a>
           </li>
 
-        
+
 
           <li>
             <a href="contatti.html">
@@ -1251,10 +1271,12 @@
 <script src="assets/cielo/astronomy.browser.min.js"></script>
 <script src="assets/cielo/catalogo-stelle.js"></script>
 <script src="assets/cielo/foto/catalogo-foto.js"></script>
-<script src="assets/cielo/cielo-del-mese.js"></script>
+<script src="assets/cielo/astro-core.js"></script>
+<script src="assets/cielo/luna-fase.js"></script><script src="assets/cielo/cielo-del-mese.js"></script>
 
 
 
 
 
+<script src="assets/cielo/suburbano-dati.js"></script><script src="assets/cielo/suburbano.js"></script>
 </body></html>
