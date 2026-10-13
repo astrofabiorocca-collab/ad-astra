@@ -1,0 +1,71 @@
+{
+  "source": "https://github.com/ofrohn/d3-celestial",
+  "license": "BSD-3-Clause; licenza in assets/cielo/LICENSE-celestial.txt",
+  "engine": "Astronomy Engine; licenza MIT in assets/cielo",
+  "projection": "azimutale equidistante; boreale centrata sul polo J2000, stagioni centrate sullo zenit",
+  "starMagnitudeLimit": 5,
+  "figures": "Linee convenzionali; non confini IAU né gruppi fisici",
+  "seasons": [
+    {
+      "file": "carta-inverno-base.svg",
+      "date": "2026-01-15T21:00:00Z",
+      "lat": 41.9028,
+      "lon": 12.4964,
+      "refraction": false,
+      "ids": [
+        "Ori",
+        "Tau",
+        "Gem",
+        "Aur",
+        "CMa",
+        "Cas",
+        "UMa"
+      ]
+    },
+    {
+      "file": "carta-primavera-base.svg",
+      "date": "2026-04-15T20:00:00Z",
+      "lat": 41.9028,
+      "lon": 12.4964,
+      "refraction": false,
+      "ids": [
+        "Leo",
+        "Vir",
+        "Boo",
+        "Com",
+        "UMa",
+        "Cas"
+      ]
+    },
+    {
+      "file": "carta-estate-base.svg",
+      "date": "2026-07-15T20:00:00Z",
+      "lat": 41.9028,
+      "lon": 12.4964,
+      "refraction": false,
+      "ids": [
+        "Cyg",
+        "Lyr",
+        "Aql",
+        "Sco",
+        "UMa",
+        "Cas"
+      ]
+    },
+    {
+      "file": "carta-autunno-base.svg",
+      "date": "2026-10-15T20:00:00Z",
+      "lat": 41.9028,
+      "lon": 12.4964,
+      "refraction": false,
+      "ids": [
+        "Peg",
+        "And",
+        "Per",
+        "Psc",
+        "Cas",
+        "UMa"
+      ]
+    }
+  ]
+}

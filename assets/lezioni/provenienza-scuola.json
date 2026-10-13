@@ -1,0 +1,12 @@
+{
+ "reviewed":"2026-10-13",
+ "images":[
+ {"file":"assets/lezioni/tracce-paranal-fondamenti.jpg","source":"https://www.eso.org/public/images/potw2040a/","original":"https://cdn.eso.org/images/screen/potw2040a.jpg","credit":"ESO/F. Kamphues","license":"CC BY 4.0","licenseSource":"https://www.eso.org/public/outreach/copyright/","changes":"Nessuna; utilizzata versione screen ufficiale","interpretation":"Polo sud celeste; fascia laser dell’osservatorio, combinazione di esposizioni"},
+ {"file":"assets/lezioni/tracce-movimento-wesson.jpg","source":"https://www.eso.org/public/images/rwesson-paranal-11jan2014-cc/","original":"https://cdn.eso.org/images/screen/rwesson-paranal-11jan2014-cc.jpg","credit":"R. Wesson/ESO","license":"CC BY 4.0","licenseSource":"https://www.eso.org/public/outreach/copyright/","changes":"Nessuna; utilizzata versione screen ufficiale","interpretation":"Tracce attorno al polo sud celeste da Paranal"}
+ ],
+ "diagrams":[
+ {"file":"assets/lezioni/polare-guide.svg","author":"AD ASTRA","basis":"catalogo d3-celestial J2000, BSD-3-Clause; proiezione azimutale equidistante centrata sul polo nord","limits":"orientamento convenzionale, non carta locale; percorso Merak–Dubhe–Polare approssimativo"},
+ {"file":"assets/lezioni/terra-giorno-notte.svg","author":"AD ASTRA","limits":"vista equinoziale dal polo nord, raggi paralleli, atmosfera trascurata"},
+ {"file":"assets/lezioni/stagioni-assi-paralleli.svg","author":"AD ASTRA","limits":"schema concettuale, corpi e distanze non in scala, assi paralleli"}
+ ]
+}

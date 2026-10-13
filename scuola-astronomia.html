@@ -925,7 +925,28 @@
     @media(max-width:900px){.site-footer{height:auto;min-height:0;overflow:visible}.site-footer .bottom-banner-image{width:100%;height:auto;object-fit:initial}.site-footer .footer-navigation{position:static;top:auto;right:auto;transform:none;width:100%;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 22px;padding:32px 5%;background:#041529}.site-footer .footer-column h3{font-size:.85rem}.site-footer .footer-column a{font-size:.8rem}}
     @media(max-width:520px){.site-footer .footer-navigation{grid-template-columns:1fr;gap:26px;padding:30px 7%}}
 
-  </style>
+
+/* Icone tematiche e collegamenti fra Scuola e indice delle lezioni. */
+.area-icon{width:54px;height:54px;flex-shrink:0;display:grid;place-items:center;background:var(--area-bg);color:var(--area-ink);border-radius:15px;margin-bottom:18px}.area-icon svg{width:36px;height:36px}.learning-area .area-icon{width:48px;height:48px;margin:0;border-radius:13px}.learning-area .area-icon svg{width:32px;height:32px}.learning-area{scroll-margin-top:24px}.programme .card{scroll-margin-top:28px}.learning-area-back{display:inline-block;margin-top:18px;font-size:.8rem;color:#58718f!important;text-decoration:underline;text-underline-offset:3px}
+
+/* Miniature fotografiche e sfondo astronomico dissolto. */
+.area-icon.area-photo{width:72px;height:64px;padding:0;border-radius:9px;background:#0a1726;overflow:hidden;border:1px solid #dce3ec}.area-photo img{display:block;width:100%;height:100%;object-fit:cover}.area-photo-contained img{object-fit:contain;padding:5px}.learning-area .area-icon.area-photo{width:68px;height:60px;margin:0;border-radius:8px}.learning-photo-credits{margin:35px 0 0;color:#64768a;font-size:.72rem;line-height:1.65}.learning-photo-credits summary{cursor:pointer}.learning-photo-credits p{margin-top:12px}.learning-photo-credits a{color:#506b8a;text-decoration:underline}.learning-intro.cosmic-intro{position:relative;isolation:isolate;max-width:none;padding:25px 0 30px;margin-bottom:4px}.cosmic-intro:before{content:"";position:absolute;inset:-35px 0 -35px;z-index:-1;background:url('assets/lezioni/andromeda.jpg') center 48%/cover no-repeat;opacity:.12;filter:saturate(.5) brightness(1.25);mask-image:radial-gradient(ellipse 75% 75% at 68% 50%,#000 0%,rgba(0,0,0,.9) 25%,rgba(0,0,0,.5) 48%,transparent 75%);-webkit-mask-image:radial-gradient(ellipse 75% 75% at 68% 50%,#000 0%,rgba(0,0,0,.9) 25%,rgba(0,0,0,.5) 48%,transparent 75%)}.cosmic-intro h2,.cosmic-intro>p{max-width:800px}.cosmic-intro:after{content:"";position:absolute;inset:-35px 0 -35px;z-index:-1;pointer-events:none;background:linear-gradient(90deg,rgba(247,249,252,.62),rgba(247,249,252,.12) 65%,transparent)}@media(max-width:760px){.learning-area .area-icon.area-photo{width:58px;height:54px}.cosmic-intro:before{opacity:.09;background-position:65% center}.learning-intro.cosmic-intro{padding:16px 0 24px}}
+
+.learning-photo-credits{width:min(1180px,92%);margin:35px auto}.learning-wrap>.learning-photo-credits{width:100%}
+
+/* Dissolvenza completa ai quattro bordi dello sfondo. */
+.cosmic-intro:after{background:linear-gradient(90deg,#f7f9fc,rgba(247,249,252,0) 22%,rgba(247,249,252,0) 78%,#f7f9fc),linear-gradient(180deg,#f7f9fc,rgba(247,249,252,0) 30%,rgba(247,249,252,0) 65%,#f7f9fc)}
+
+
+
+
+
+
+
+/* Visibilita calibrata dello sfondo astronomico. */
+.cosmic-intro:before{background-image:url('assets/lezioni/carina.jpg');background-position:center 42%;opacity:.52;filter:saturate(.75) brightness(1.2);mask-image:radial-gradient(ellipse 85% 85% at 65% 50%,#000 0%,#000 40%,rgba(0,0,0,.7) 60%,transparent 88%);-webkit-mask-image:radial-gradient(ellipse 85% 85% at 65% 50%,#000 0%,#000 40%,rgba(0,0,0,.7) 60%,transparent 88%)}.cosmic-intro:after{background:linear-gradient(90deg,#f7f9fc,rgba(247,249,252,.8) 10%,rgba(247,249,252,.35) 40%,rgba(247,249,252,0) 75%,#f7f9fc),linear-gradient(180deg,#f7f9fc,rgba(247,249,252,0) 28%,rgba(247,249,252,0) 70%,#f7f9fc)}@media(max-width:760px){.cosmic-intro:before{opacity:.38}}
+/* Fine visibilita sfondo. */
+</style>
 
 </head>
 
@@ -1248,11 +1269,9 @@
         <div class="cards">
 
 
-          <a class="card" href="#">
+          <a class="card" id="area-01" data-area="01" href="area-01.html">
 
-            <div class="card-number">
-              01
-            </div>
+            <span class="area-icon area-photo" aria-hidden="true"><img src="assets/cielo/foto/costellazione-Cas.jpg" alt="" loading="lazy" title="Cassiopea"/></span>
 
             <h3>
               Fondamenti e orientamento del cielo
@@ -1273,11 +1292,9 @@
 
 
 
-          <a class="card" href="#">
+          <a class="card" id="area-02" data-area="02" href="area-02.html">
 
-            <div class="card-number">
-              02
-            </div>
+            <span class="area-icon area-photo area-photo-contained" aria-hidden="true"><img src="assets/cielo/foto/Earth.jpg" alt="" loading="lazy" title="Terra"/></span>
 
             <h3>
               Terra, Sole e Luna
@@ -1298,11 +1315,9 @@
 
 
 
-          <a class="card" href="#">
+          <a class="card" id="area-03" data-area="03" href="area-03.html">
 
-            <div class="card-number">
-              03
-            </div>
+            <span class="area-icon area-photo area-photo-contained" aria-hidden="true"><img src="assets/cielo/foto/Saturn.jpg" alt="" loading="lazy" title="Saturno"/></span>
 
             <h3>
               Sistema Solare
@@ -1323,11 +1338,9 @@
 
 
 
-          <a class="card" href="#">
+          <a class="card" id="area-04" data-area="04" href="area-04.html">
 
-            <div class="card-number">
-              04
-            </div>
+            <span class="area-icon area-photo" aria-hidden="true"><img src="assets/cielo/foto/costellazione-Ori.jpg" alt="" loading="lazy" title="Campo stellare di Orione"/></span>
 
             <h3>
               Stelle e fisica stellare
@@ -1348,11 +1361,9 @@
 
 
 
-          <a class="card" href="#">
+          <a class="card" id="area-05" data-area="05" href="area-05.html">
 
-            <div class="card-number">
-              05
-            </div>
+            <span class="area-icon area-photo" aria-hidden="true"><img src="assets/lezioni/carina.jpg" alt="" loading="lazy" title="Nebulosa della Carena"/></span>
 
             <h3>
               Ammassi, nebulose e cielo profondo
@@ -1373,11 +1384,9 @@
 
 
 
-          <a class="card" href="#">
+          <a class="card" id="area-06" data-area="06" href="area-06.html">
 
-            <div class="card-number">
-              06
-            </div>
+            <span class="area-icon area-photo" aria-hidden="true"><img src="assets/lezioni/andromeda.jpg" alt="" loading="lazy" title="Galassia di Andromeda"/></span>
 
             <h3>
               Galassie e Universo
@@ -1398,11 +1407,9 @@
 
 
 
-          <a class="card" href="#">
+          <a class="card" id="area-07" data-area="07" href="area-07.html">
 
-            <div class="card-number">
-              07
-            </div>
+            <span class="area-icon area-photo" aria-hidden="true"><img src="assets/lezioni/hubble.jpg" alt="" loading="lazy" title="Telescopio spaziale Hubble"/></span>
 
             <h3>
               Osservazione astronomica
@@ -1423,11 +1430,9 @@
 
 
 
-          <a class="card" href="#">
+          <a class="card" id="area-08" data-area="08" href="area-08.html">
 
-            <div class="card-number">
-              08
-            </div>
+            <span class="area-icon area-photo" aria-hidden="true"><img src="assets/cielo/foto/eclissiLuna.jpg" alt="" loading="lazy" title="Eclissi lunare"/></span>
 
             <h3>
               Fenomeni del cielo e dell'atmosfera
@@ -1448,11 +1453,9 @@
 
 
 
-          <a class="card" href="effemeridi.html">
+          <a class="card" id="area-09" data-area="09" href="area-09.html">
 
-            <div class="card-number">
-              09
-            </div>
+            <span class="area-icon area-photo" aria-hidden="true"><img src="assets/lezioni/archivio-digitale.jpg" alt="" loading="lazy" title="Archivio digitale ESO"/></span>
 
             <h3>
               Astronomia pratica e strumenti digitali
@@ -1473,11 +1476,9 @@
 
 
 
-          <a class="card" href="#">
+          <a class="card" id="area-10" data-area="10" href="area-10.html">
 
-            <div class="card-number">
-              10
-            </div>
+            <span class="area-icon area-photo" aria-hidden="true"><img src="assets/lezioni/astronauti-hubble.jpg" alt="" loading="lazy" title="Astronauti al lavoro su Hubble"/></span>
 
             <h3>
               Approfondimenti e temi speciali
@@ -1543,12 +1544,7 @@
           </div>
 
 
-          <a
-            class="button"
-            href="#"
-          >
-            Vai alle lezioni
-          </a>
+          <a class="button" href="lezioni.html">Vai alle lezioni</a>
 
 
         </div>
@@ -1558,7 +1554,8 @@
     </section>
 
 
-  </main>
+  <details class="learning-photo-credits" open><summary>Fotografie e crediti</summary><p>Andromeda: <a href="https://esahubble.org/images/heic1502a/">NASA, ESA, J. Dalcanton (University of Washington, USA), B. F. Williams (University of Washington, USA), L. C. Johnson (University of Washington, USA), the PHAT team, and R. Gendler.</a><br>Sfondo e Carena: <a href="https://esahubble.org/images/heic1007a/">NASA, ESA, M. Livio and the Hubble 20th Anniversary Team (STScI)</a>. Hubble: <a href="https://esahubble.org/images/heic0908c/">NASA/ESA</a>. Astronauti: <a href="https://esahubble.org/images/heic0908a/">NASA</a>. Immagini ESA/Hubble: <a href="https://esahubble.org/copyright/">CC BY 4.0</a>; miniature ritagliate, sfondo attenuato con maschera CSS.<br>Archivio digitale: <a href="https://www.eso.org/public/images/eso-data-centre-9107/">ESO</a>. Terra: NASA. Saturno: NASA/JPL/Space Science Institute. Eclissi lunare: NASA/Joel Kowsky. Cassiopea e Orione: E. Slawik/NOIRLab/NSF/AURA/M. Zamani, CC BY 4.0. <a href="assets/lezioni/provenienza.json">Provenienza delle immagini</a>.</p></details>
+</main>
 
 
 
@@ -1593,15 +1590,11 @@
           </li>
 
           <li>
-            <a href="#">
-              Lezioni
-            </a>
+            <a href="lezioni.html">Lezioni</a>
           </li>
 
           <li>
-            <a href="#">
-              Approfondimenti
-            </a>
+            <a href="lezioni.html">Approfondimenti delle lezioni</a>
           </li>
 
         </ul>
@@ -1720,8 +1713,8 @@
 
         <a
           class="footer-facebook"
-          href="#"
-          aria-label="Facebook AD ASTRA"
+          href="contatti.html"
+          aria-label="Contatti AD ASTRA"
         >
           f
         </a>
