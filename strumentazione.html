@@ -14,7 +14,7 @@
 
   <meta
     name="description"
-    content="Strumentazione AD ASTRA: guida agli strumenti, ai componenti meccanici, ottici ed elettronici utilizzati nell'osservazione astronomica e nell'astrofotografia."
+    content="Un telescopio non è soltanto un tubo che ingrandisce. È una catena di elementi: raccoglie luce, forma un’immagine, la mantiene orientata e permette all’occhio o al sensore di studiarla. Conoscere il ruolo di ciascun componente aiuta a scegliere, montare e usare la postazione senza confondere una promessa commerciale con una prestazione osservativa."
   >
 
   <style>
@@ -63,7 +63,13 @@
     .top-banner {
       position: relative;
       width: 100%;
+
+      /*
+        Riduzione della sola altezza visibile.
+        L'immagine banner.png non viene modificata.
+      */
       height: clamp(270px, 16.6vw, 340px);
+
       overflow: hidden;
       background: #07152a;
     }
@@ -71,34 +77,51 @@
     .top-banner-image {
       width: 100%;
       height: 100%;
+
       object-fit: cover;
       object-position: top center;
+
       display: block;
     }
 
+    /*
+      Il banner è privo del titolo della sezione.
+      Titolo e sottotitolo rimangono HTML reali.
+    */
+
     .banner-section-title {
       position: absolute;
+
       left: 55%;
       top: 50%;
+
       transform: translateY(-50%);
+
       z-index: 2;
+
       max-width: 42%;
+
       color: #ffffff;
     }
 
     .banner-section-title h1 {
       margin-bottom: 5px;
+
       color: #f4c84e;
+
       font-size: clamp(1.45rem, 2.6vw, 2.55rem);
       line-height: 1.15;
       font-weight: 700;
+
       text-shadow:
         0 2px 8px rgba(0, 0, 0, 0.55);
     }
 
     .banner-section-title p {
       color: #ffffff;
+
       font-size: clamp(0.78rem, 1.35vw, 1.08rem);
+
       text-shadow:
         0 2px 6px rgba(0, 0, 0, 0.65);
     }
@@ -110,25 +133,35 @@
 
     .main-navigation {
       width: 100%;
+
       background:
         linear-gradient(
           180deg,
           #07182d 0%,
           #041326 100%
         );
+
       border-top:
         1px solid rgba(255, 255, 255, 0.08);
+
       border-bottom:
         1px solid rgba(255, 255, 255, 0.12);
     }
 
     .main-navigation ul {
       min-height: 54px;
+
       display: flex;
       align-items: center;
       justify-content: center;
+
+      /*
+        Desktop: tutte le voci su una sola riga.
+      */
       flex-wrap: nowrap;
+
       gap: 0;
+
       list-style: none;
     }
 
@@ -139,23 +172,35 @@
 
     .main-navigation li + li::before {
       content: "";
+
       position: absolute;
       left: 0;
       top: 50%;
+
       width: 1px;
       height: 22px;
+
       transform: translateY(-50%);
+
       background:
         rgba(255, 255, 255, 0.28);
     }
 
     .main-navigation a {
       display: block;
+
+      /*
+        Riduzione controllata di spaziatura
+        e carattere per mantenere una riga.
+      */
       padding: 14px 11px 12px;
+
       color: #e6edf5;
+
       font-size: 0.68rem;
       white-space: nowrap;
       font-weight: 600;
+
       transition:
         color 0.2s ease,
         background 0.2s ease;
@@ -167,6 +212,7 @@
 
     .main-navigation a.active {
       color: #ffffff;
+
       box-shadow:
         inset 0 -3px 0 #4aa7ff;
     }
@@ -213,16 +259,19 @@
 
 
     /* =========================================================
-       IMMAGINE INTRODUTTIVA - SPAZIO PREDISPOSTO
+       IMMAGINE INTRODUTTIVA
     ========================================================= */
 
     .intro-image {
       min-height: 290px;
       position: relative;
+
       border-radius: 10px;
       overflow: hidden;
+
       box-shadow:
         0 12px 30px rgba(17, 39, 67, 0.14);
+
       background:
         radial-gradient(
           circle at 68% 26%,
@@ -239,30 +288,37 @@
 
     .intro-image::before {
       content: "";
+
       position: absolute;
       inset: 0;
+
       opacity: 0.4;
+
       background-image:
         radial-gradient(
           circle,
           rgba(255, 255, 255, 0.95) 1px,
           transparent 1.4px
         );
+
       background-size: 42px 42px;
     }
 
     .intro-image-caption {
       position: absolute;
+
       left: 24px;
       right: 24px;
       bottom: 20px;
+
       color: rgba(255, 255, 255, 0.9);
+
       font-size: 0.82rem;
     }
 
 
     /* =========================================================
-       PRINCIPI DELLA SEZIONE
+       PRINCIPI
     ========================================================= */
 
     .principles {
@@ -272,8 +328,10 @@
 
     .principles-grid {
       display: grid;
+
       grid-template-columns:
         repeat(3, 1fr);
+
       gap: 34px;
     }
 
@@ -286,13 +344,19 @@
     .principle-icon {
       width: 56px;
       height: 56px;
+
       flex-shrink: 0;
+
       display: grid;
       place-items: center;
+
       border:
         1.5px solid #3475e8;
+
       border-radius: 50%;
+
       color: #2465d5;
+
       font-size: 1.35rem;
     }
 
@@ -309,70 +373,87 @@
 
 
     /* =========================================================
-       CATALOGO STRUMENTAZIONE
+       PERCORSO DIDATTICO
     ========================================================= */
 
-    .catalogue {
+    .programme {
       padding: 56px 0 70px;
+
       border-top:
         1px solid #e3e9f0;
+
       background: #f7f9fc;
     }
 
-    .catalogue-heading {
+    .programme-heading {
       display: flex;
       align-items: center;
+
       gap: 14px;
+
       margin-bottom: 12px;
     }
 
-    .catalogue-heading-icon {
+    .programme-heading-icon {
       color: #2864d7;
       font-size: 1.5rem;
     }
 
-    .catalogue-heading h2 {
+    .programme-heading h2 {
       font-size: 1.45rem;
       color: #102342;
       white-space: nowrap;
     }
 
-    .catalogue-heading-line {
+    .programme-heading-line {
       width: 100%;
       height: 1px;
+
       background: #9ab8e8;
     }
 
-    .catalogue-intro {
-      max-width: 850px;
+    .programme-intro {
+      max-width: 800px;
+
       margin-bottom: 30px;
+
       color: #526174;
+
       font-size: 0.93rem;
     }
 
 
     /* =========================================================
-       CARD DEL CATALOGO
+       CARD DEL PROGRAMMA
     ========================================================= */
 
     .cards {
       display: grid;
+
       grid-template-columns:
         repeat(5, 1fr);
+
       gap: 18px;
     }
 
     .card {
       min-height: 258px;
+
       display: flex;
       flex-direction: column;
+
       padding: 22px 19px 20px;
+
       background: #ffffff;
+
       border:
         1px solid #dce3ec;
+
       border-radius: 8px;
+
       box-shadow:
         0 5px 14px rgba(14, 35, 62, 0.05);
+
       transition:
         transform 0.2s ease,
         box-shadow 0.2s ease,
@@ -381,7 +462,9 @@
 
     .card:hover {
       transform: translateY(-4px);
+
       border-color: #aec9ef;
+
       box-shadow:
         0 10px 24px rgba(14, 35, 62, 0.10);
     }
@@ -389,128 +472,46 @@
     .card-number {
       width: 38px;
       height: 38px;
+
       display: grid;
       place-items: center;
+
       margin-bottom: 16px;
+
       border-radius: 5px;
+
       background: #2864d7;
       color: #ffffff;
+
       font-size: 0.82rem;
       font-weight: 700;
     }
 
     .card h3 {
       color: #102342;
+
       font-size: 0.98rem;
       line-height: 1.35;
+
       margin-bottom: 10px;
     }
 
     .card p {
       color: #58677a;
+
       font-size: 0.82rem;
       line-height: 1.55;
+
       margin-bottom: 16px;
     }
 
     .card-link {
       margin-top: auto;
+
       color: #205ecf;
+
       font-size: 0.82rem;
       font-weight: 700;
-    }
-
-
-    /* =========================================================
-       SCHEMA DI ASSEMBLAGGIO
-    ========================================================= */
-
-    .assembly {
-      background: #f7f9fc;
-      padding: 0 0 64px;
-    }
-
-    .assembly-heading {
-      display: flex;
-      align-items: center;
-      gap: 14px;
-      margin-bottom: 12px;
-    }
-
-    .assembly-heading-icon {
-      color: #2864d7;
-      font-size: 1.5rem;
-    }
-
-    .assembly-heading h2 {
-      font-size: 1.45rem;
-      color: #102342;
-      white-space: nowrap;
-    }
-
-    .assembly-heading-line {
-      width: 100%;
-      height: 1px;
-      background: #9ab8e8;
-    }
-
-    .assembly-intro {
-      max-width: 850px;
-      margin-bottom: 28px;
-      color: #526174;
-      font-size: 0.93rem;
-    }
-
-    .assembly-grid {
-      display: grid;
-      grid-template-columns:
-        repeat(3, 1fr);
-      gap: 18px;
-    }
-
-    .assembly-card {
-      min-height: 230px;
-      padding: 24px 22px;
-      background: #ffffff;
-      border:
-        1px solid #dce3ec;
-      border-radius: 8px;
-      box-shadow:
-        0 5px 14px rgba(14, 35, 62, 0.05);
-    }
-
-    .assembly-number {
-      width: 38px;
-      height: 38px;
-      display: grid;
-      place-items: center;
-      margin-bottom: 16px;
-      border-radius: 50%;
-      border:
-        1.5px solid #3475e8;
-      color: #2465d5;
-      font-size: 0.82rem;
-      font-weight: 700;
-    }
-
-    .assembly-card h3 {
-      color: #102342;
-      font-size: 1rem;
-      margin-bottom: 12px;
-    }
-
-    .assembly-card p {
-      color: #58677a;
-      font-size: 0.84rem;
-      line-height: 1.6;
-    }
-
-    .assembly-sequence {
-      margin-top: 16px;
-      color: #205ecf;
-      font-size: 0.82rem;
-      font-weight: 700;
-      line-height: 1.7;
     }
 
 
@@ -525,13 +526,19 @@
 
     .closing-box {
       display: flex;
+
       align-items: center;
       justify-content: space-between;
+
       gap: 34px;
+
       padding: 28px 34px;
+
       border:
         1px solid #d8e6f7;
+
       border-radius: 8px;
+
       background:
         linear-gradient(
           100deg,
@@ -543,25 +550,57 @@
     .closing-content {
       display: flex;
       align-items: center;
+
       gap: 20px;
     }
 
     .closing-icon {
       color: #2864d7;
+
       font-size: 2rem;
+
       flex-shrink: 0;
     }
 
     .closing h2 {
       color: #102342;
+
       font-size: 1.08rem;
+
       margin-bottom: 4px;
     }
 
     .closing p {
       color: #536276;
+
       font-size: 0.87rem;
-      max-width: 850px;
+
+      max-width: 720px;
+    }
+
+    .button {
+      flex-shrink: 0;
+
+      display: inline-block;
+
+      padding: 12px 21px;
+
+      border-radius: 5px;
+
+      background: #2864d7;
+      color: #ffffff;
+
+      font-size: 0.87rem;
+      font-weight: 700;
+
+      transition:
+        background 0.2s ease,
+        transform 0.2s ease;
+    }
+
+    .button:hover {
+      background: #174fb9;
+      transform: translateY(-2px);
     }
 
 
@@ -571,36 +610,63 @@
 
     .site-footer {
       position: relative;
+
       width: 100%;
+
+      /*
+        Riduzione della sola altezza visibile
+        del banner inferiore.
+        banner 2.png rimane invariato.
+      */
       height: clamp(300px, 19.8vw, 405px);
+
       overflow: hidden;
+
       background: #041529;
     }
 
     .bottom-banner-image {
       width: 100%;
       height: 100%;
+
       object-fit: cover;
       object-position: top center;
+
       display: block;
     }
 
+
+    /*
+      Il lato sinistro rimane riservato
+      alla grafica originale del banner.
+      Le voci HTML occupano la zona libera a destra.
+    */
+
     .footer-navigation {
       position: absolute;
+
       top: 47%;
       right: 3%;
+
       transform: translateY(-50%);
+
       width: 53%;
+
       display: grid;
+
       grid-template-columns:
         repeat(4, 1fr);
+
       gap: 18px;
+
       color: #ffffff;
     }
 
     .footer-column h3 {
       margin-bottom: 10px;
+
       color: #ffffff;
+
       font-size: 0.82rem;
     }
 
@@ -614,7 +680,9 @@
 
     .footer-column a {
       color: #bcc8d5;
+
       font-size: 0.76rem;
+
       transition: color 0.2s ease;
     }
 
@@ -625,13 +693,18 @@
     .footer-facebook {
       width: 38px;
       height: 38px;
+
       display: grid;
       place-items: center;
+
       border-radius: 50%;
+
       background: #1877f2;
       color: #ffffff;
+
       font-size: 1.25rem;
       font-weight: 700;
+
       font-family: Arial, sans-serif;
     }
 
@@ -647,11 +720,6 @@
           repeat(2, 1fr);
       }
 
-      .assembly-grid {
-        grid-template-columns:
-          repeat(2, 1fr);
-      }
-
       .main-navigation ul {
         justify-content: flex-start;
         overflow-x: auto;
@@ -660,12 +728,14 @@
       .main-navigation a {
         padding-left: 9px;
         padding-right: 9px;
+
         font-size: 0.64rem;
       }
 
       .footer-navigation {
         width: 55%;
         right: 2%;
+
         gap: 12px;
       }
 
@@ -701,10 +771,6 @@
         gap: 24px;
       }
 
-      .assembly-grid {
-        grid-template-columns: 1fr;
-      }
-
       .closing-box {
         flex-direction: column;
         align-items: flex-start;
@@ -722,11 +788,16 @@
 
       .footer-navigation {
         position: static;
+
         width: 100%;
+
         transform: none;
+
         grid-template-columns:
           repeat(2, 1fr);
+
         padding: 30px 5%;
+
         background: #041529;
       }
 
@@ -747,9 +818,13 @@
 
       .banner-section-title {
         position: static;
+
         transform: none;
+
         max-width: none;
+
         padding: 18px 5%;
+
         background: #07182d;
       }
 
@@ -759,8 +834,11 @@
 
       .main-navigation ul {
         justify-content: flex-start;
+
         flex-wrap: nowrap;
+
         overflow-x: auto;
+
         padding: 0 4%;
       }
 
@@ -780,23 +858,16 @@
         min-height: 220px;
       }
 
-      .catalogue {
+      .programme {
         padding-top: 42px;
       }
 
-      .catalogue-heading,
-      .assembly-heading {
+      .programme-heading {
         align-items: flex-start;
       }
 
-      .catalogue-heading-line,
-      .assembly-heading-line {
+      .programme-heading-line {
         display: none;
-      }
-
-      .catalogue-heading h2,
-      .assembly-heading h2 {
-        white-space: normal;
       }
 
       .cards {
@@ -805,6 +876,10 @@
 
       .card {
         min-height: auto;
+      }
+
+      .closing-content {
+        align-items: flex-start;
       }
 
       .footer-navigation {
@@ -816,7 +891,7 @@
 
     /* Fotografia e didascalia nel riquadro introduttivo. */
     .intro-image {
-      background: url("strumentazione-preparazione-osservazione.png") center / cover no-repeat;
+      background: url("scuola-astronomia-lezione.png") center / cover no-repeat;
     }
     .intro-image::before {
       opacity: 1;
@@ -850,8 +925,72 @@
     @media(max-width:900px){.site-footer{height:auto;min-height:0;overflow:visible}.site-footer .bottom-banner-image{width:100%;height:auto;object-fit:initial}.site-footer .footer-navigation{position:static;top:auto;right:auto;transform:none;width:100%;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 22px;padding:32px 5%;background:#041529}.site-footer .footer-column h3{font-size:.85rem}.site-footer .footer-column a{font-size:.8rem}}
     @media(max-width:520px){.site-footer .footer-navigation{grid-template-columns:1fr;gap:26px;padding:30px 7%}}
 
-  </style>
 
+/* Icone tematiche e collegamenti fra Scuola e indice delle lezioni. */
+.area-icon{width:54px;height:54px;flex-shrink:0;display:grid;place-items:center;background:var(--area-bg);color:var(--area-ink);border-radius:15px;margin-bottom:18px}.area-icon svg{width:36px;height:36px}.learning-area .area-icon{width:48px;height:48px;margin:0;border-radius:13px}.learning-area .area-icon svg{width:32px;height:32px}.learning-area{scroll-margin-top:24px}.programme .card{scroll-margin-top:28px}.learning-area-back{display:inline-block;margin-top:18px;font-size:.8rem;color:#58718f!important;text-decoration:underline;text-underline-offset:3px}
+
+/* Miniature fotografiche e sfondo astronomico dissolto. */
+.area-icon.area-photo{width:72px;height:64px;padding:0;border-radius:9px;background:#0a1726;overflow:hidden;border:1px solid #dce3ec}.area-photo img{display:block;width:100%;height:100%;object-fit:cover}.area-photo-contained img{object-fit:contain;padding:5px}.learning-area .area-icon.area-photo{width:68px;height:60px;margin:0;border-radius:8px}.learning-photo-credits{margin:35px 0 0;color:#64768a;font-size:.72rem;line-height:1.65}.learning-photo-credits summary{cursor:pointer}.learning-photo-credits p{margin-top:12px}.learning-photo-credits a{color:#506b8a;text-decoration:underline}.learning-intro.cosmic-intro{position:relative;isolation:isolate;max-width:none;padding:25px 0 30px;margin-bottom:4px}.cosmic-intro:before{content:"";position:absolute;inset:-35px 0 -35px;z-index:-1;background:url('assets/lezioni/andromeda.jpg') center 48%/cover no-repeat;opacity:.12;filter:saturate(.5) brightness(1.25);mask-image:radial-gradient(ellipse 75% 75% at 68% 50%,#000 0%,rgba(0,0,0,.9) 25%,rgba(0,0,0,.5) 48%,transparent 75%);-webkit-mask-image:radial-gradient(ellipse 75% 75% at 68% 50%,#000 0%,rgba(0,0,0,.9) 25%,rgba(0,0,0,.5) 48%,transparent 75%)}.cosmic-intro h2,.cosmic-intro>p{max-width:800px}.cosmic-intro:after{content:"";position:absolute;inset:-35px 0 -35px;z-index:-1;pointer-events:none;background:linear-gradient(90deg,rgba(247,249,252,.62),rgba(247,249,252,.12) 65%,transparent)}@media(max-width:760px){.learning-area .area-icon.area-photo{width:58px;height:54px}.cosmic-intro:before{opacity:.09;background-position:65% center}.learning-intro.cosmic-intro{padding:16px 0 24px}}
+
+.learning-photo-credits{width:min(1180px,92%);margin:35px auto}.learning-wrap>.learning-photo-credits{width:100%}
+
+/* Dissolvenza completa ai quattro bordi dello sfondo. */
+.cosmic-intro:after{background:linear-gradient(90deg,#f7f9fc,rgba(247,249,252,0) 22%,rgba(247,249,252,0) 78%,#f7f9fc),linear-gradient(180deg,#f7f9fc,rgba(247,249,252,0) 30%,rgba(247,249,252,0) 65%,#f7f9fc)}
+
+
+
+
+
+
+
+.lesson-preview{background:#eaf1fa;border-bottom:1px solid #d4e0ee;padding:9px 4%;font-size:.76rem;color:#47617e;text-align:center}
+.learning-wrap{width:min(1180px,92%);margin:auto;padding:30px 0 72px}.learning-crumbs{display:flex;flex-wrap:wrap;gap:8px;color:#58718f;font-size:.8rem;margin-bottom:34px}.learning-crumbs a{text-decoration:underline;text-underline-offset:3px}
+.learning-eyebrow{color:#2864d7;font-weight:700;font-size:.75rem;letter-spacing:.11em;text-transform:uppercase;margin-bottom:10px}.learning-intro{max-width:800px;margin-bottom:34px}.learning-intro h2{font-size:clamp(1.7rem,3vw,2.45rem);line-height:1.18;margin-bottom:18px}.learning-intro p{color:#526174;font-size:1.04rem;line-height:1.8}
+.learning-start{border-left:3px solid #2864d7;padding:18px 23px;background:#edf3fb;border-radius:0 8px 8px 0;display:flex;gap:24px;justify-content:space-between;align-items:center;margin:30px 0 38px}.learning-start p{color:#526174;font-size:.9rem}.learning-button{background:#2864d7;color:white;padding:11px 19px;border-radius:5px;font-size:.87rem;white-space:nowrap;display:inline-block;font-weight:700}.learning-button:hover{background:#174cab}.learning-button:focus-visible,.learning-area summary:focus-visible{outline:3px solid #f4c84e;outline-offset:4px}
+.learning-areas{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.learning-area{background:#fff;border:1px solid #dce3ec;border-radius:10px;overflow:hidden;align-self:start}.learning-area summary{display:flex;gap:18px;align-items:center;padding:23px;cursor:pointer;list-style:none}.learning-area summary::-webkit-details-marker{display:none}.learning-number{width:42px;height:42px;flex-shrink:0;display:grid;place-items:center;background:#edf3fb;color:#2864d7;font-size:.82rem;font-weight:700;border-radius:50%}.learning-area h3{font-size:1.05rem;line-height:1.35}.learning-area small{color:#75869a;font-size:.77rem}.learning-chevron{margin-left:auto;color:#2864d7;font-size:1.3rem}.learning-area[open] .learning-chevron{transform:rotate(90deg)}.learning-area-content{border-top:1px solid #e7edf5;padding:20px 25px}.learning-area-content ol{padding-left:20px;color:#526174;font-size:.9rem}.learning-area-content li+li{margin-top:9px}.learning-area-content a{color:#2864d7;text-decoration:underline}.learning-area-content .learning-button{color:white;text-decoration:none;margin-bottom:18px}
+.learning-columns{display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:45px;align-items:start}.learning-list{list-style:none;counter-reset:lessons}.learning-list li{background:white;border:1px solid #dce3ec;border-radius:9px;padding:25px;margin-bottom:16px;display:flex;gap:19px}.learning-list h3{font-size:1.14rem;margin-bottom:7px}.learning-list p{color:#526174;font-size:.9rem;line-height:1.7}.learning-list a{display:inline-block;color:#2864d7;font-size:.86rem;font-weight:700;margin-top:12px}.learning-sidebar{border-top:3px solid #2864d7;background:#edf3fb;border-radius:0 0 8px 8px;padding:25px}.learning-sidebar h3{font-size:1rem;margin-bottom:12px}.learning-sidebar p,.learning-sidebar li{font-size:.86rem;color:#526174;line-height:1.7}.learning-sidebar ul{padding-left:18px}.learning-sidebar a{color:#2864d7;text-decoration:underline}.learning-sidebar ol{list-style:none;counter-reset:item}.learning-sidebar ol li{padding:10px 0;border-bottom:1px solid #d8e4f1}.learning-sidebar ol li:last-child{border:0}.learning-sidebar .current{font-weight:700;color:#17365f}
+.learning-article{font-size:1.02rem;line-height:1.9;color:#526174;max-width:780px}.learning-article h3{color:#17365f;font-size:1.42rem;line-height:1.3;margin:32px 0 13px}.learning-article p{margin-bottom:18px}.learning-objective{padding:18px 23px;background:#edf3fb;border-radius:7px;color:#17365f;font-size:.93rem;margin-bottom:30px}.learning-figure{background:#0d2742;padding:24px;border-radius:10px;margin:25px 0}.learning-figure svg{display:block;width:100%;max-height:300px}.learning-figure figcaption{color:#b8cee4;font-size:.77rem;line-height:1.7;margin-top:12px}.learning-practice{margin-top:30px;background:#edf5f1;border-left:3px solid #5d917c;padding:22px}.learning-practice strong{color:#264d40}.learning-sources{border-top:1px solid #dce3ec;margin-top:32px;padding-top:20px;font-size:.8rem}.learning-sources a{color:#2864d7;text-decoration:underline}.learning-navigation{border-top:1px solid #dce3ec;margin-top:40px;padding-top:24px;display:grid;grid-template-columns:1fr 1fr;gap:18px}.learning-navigation a{border:1px solid #dce3ec;border-radius:8px;background:white;padding:20px;font-size:.85rem;color:#2864d7}.learning-navigation a:last-child{text-align:right}.learning-navigation strong{color:#17365f;display:block;margin-top:5px;font-size:.97rem}
+@media(max-width:760px){.learning-areas,.learning-columns{grid-template-columns:1fr}.learning-columns{gap:28px}.learning-start{align-items:flex-start;flex-direction:column;gap:15px}.learning-wrap{padding-top:22px}.learning-crumbs{margin-bottom:26px}.learning-area summary{padding:20px 17px;gap:13px}.learning-list li{padding:20px 16px;gap:13px}.learning-sidebar{position:static}.learning-navigation a{padding:14px}.learning-navigation strong{font-size:.86rem}.learning-figure{padding:14px}.learning-preview{font-size:.7rem}.banner-section-title h1{font-size:clamp(1.1rem,4vw,1.8rem)}}
+
+
+/* Visibilita calibrata dello sfondo astronomico. */
+.cosmic-intro:before{background-image:url('assets/lezioni/carina.jpg');background-position:center 42%;opacity:.52;filter:saturate(.75) brightness(1.2);mask-image:radial-gradient(ellipse 85% 85% at 65% 50%,#000 0%,#000 40%,rgba(0,0,0,.7) 60%,transparent 88%);-webkit-mask-image:radial-gradient(ellipse 85% 85% at 65% 50%,#000 0%,#000 40%,rgba(0,0,0,.7) 60%,transparent 88%)}.cosmic-intro:after{background:linear-gradient(90deg,#f7f9fc,rgba(247,249,252,.8) 10%,rgba(247,249,252,.35) 40%,rgba(247,249,252,0) 75%,#f7f9fc),linear-gradient(180deg,#f7f9fc,rgba(247,249,252,0) 28%,rgba(247,249,252,0) 70%,#f7f9fc)}@media(max-width:760px){.cosmic-intro:before{opacity:.38}}
+/* Fine visibilita sfondo. */
+
+/* Didattica: livello secondario, testo giustificato e apparato visuale. */
+.learning-article p,.learning-intro>p:not(.learning-eyebrow),.learning-list p{text-align:justify;hyphens:auto;overflow-wrap:break-word}.learning-article .lesson-reference,.learning-article figcaption,.learning-article .learning-sources p{text-align:left;hyphens:none}.learning-article{line-height:1.85}.lesson-section{scroll-margin-top:24px}.lesson-reference{font-size:.73rem;color:#64768a;margin:14px 0 27px!important}.lesson-reference a,.lesson-photo a{color:#46678e;text-decoration:underline}.lesson-photo,.lesson-diagram{margin:26px 0;border:1px solid #dce3ec;border-radius:10px;overflow:hidden;background:white}.lesson-photo img{width:100%;max-height:440px;object-fit:contain;background:#061320}.lesson-diagram img{width:100%;height:auto}.lesson-photo figcaption,.lesson-diagram figcaption{padding:15px 18px;color:#526174;font-size:.8rem;line-height:1.7;text-align:left}.lesson-interactive{padding:20px;background:#edf3f9}.lesson-interactive svg{width:100%;display:block}.lesson-interactive label{display:block;color:#17365f;font-weight:700;font-size:.85rem;margin:12px 0}.lesson-interactive input{width:100%;accent-color:#2864d7}.lesson-interactive figcaption{padding:16px 0 0}.lesson-questions{padding-left:24px;font-size:.94rem}.lesson-questions li+li{margin-top:12px}.lesson-solutions{border:1px solid #dce3ec;padding:16px 20px;border-radius:7px;margin-top:22px;font-size:.9rem}.lesson-solutions summary{cursor:pointer;color:#17365f;font-weight:700}.lesson-solutions p{margin-top:14px}.learning-sidebar .lesson-page-links{list-style:none;padding:0;margin-top:15px}.lesson-page-links li{margin-bottom:10px}.lesson-page-links a{display:block}.learning-sidebar .current a{font-weight:700;color:#17365f}.lesson-miniature{width:82px;height:72px;flex-shrink:0;border-radius:9px;border:1px solid #dce3ec;object-fit:cover;background:#0a1726}.learning-list h3 a{font-size:inherit;color:#17365f;margin:0}.learning-sidebar h4{font-size:.84rem;color:#17365f;margin:24px 0 10px}.learning-sidebar .section-list{padding:0;list-style:none}.section-list li{font-size:.79rem;line-height:1.55}.learning-sidebar .section-list a{text-decoration:none}.lesson-page-note{font-size:.8rem;color:#6b7d91;margin-top:12px}.learning-list li>div{min-width:0}.learning-sources ul{padding-left:18px}@media(max-width:760px){.lesson-miniature{width:65px;height:60px}.learning-list li{gap:14px}.learning-article{font-size:.98rem}.learning-article p{text-align:justify;hyphens:auto}.lesson-interactive{padding:12px}.lesson-photo figcaption,.lesson-diagram figcaption{padding:13px}.learning-columns{grid-template-columns:1fr}}
+
+/* Didattica: livello secondario, testo giustificato e apparato visuale. */
+.learning-article p,.learning-intro>p:not(.learning-eyebrow),.learning-list p{text-align:justify;hyphens:auto;overflow-wrap:break-word}.learning-article .lesson-reference,.learning-article figcaption,.learning-article .learning-sources p{text-align:left;hyphens:none}.learning-article{line-height:1.85}.lesson-section{scroll-margin-top:24px}.lesson-reference{font-size:.73rem;color:#64768a;margin:14px 0 27px!important}.lesson-reference a,.lesson-photo a{color:#46678e;text-decoration:underline}.lesson-photo,.lesson-diagram{margin:26px 0;border:1px solid #dce3ec;border-radius:10px;overflow:hidden;background:white}.lesson-photo img{width:100%;max-height:440px;object-fit:contain;background:#061320}.lesson-diagram img{width:100%;height:auto}.lesson-photo figcaption,.lesson-diagram figcaption{padding:15px 18px;color:#526174;font-size:.8rem;line-height:1.7;text-align:left}.lesson-interactive{padding:20px;background:#edf3f9}.lesson-interactive svg{width:100%;display:block}.lesson-interactive label{display:block;color:#17365f;font-weight:700;font-size:.85rem;margin:12px 0}.lesson-interactive input{width:100%;accent-color:#2864d7}.lesson-interactive figcaption{padding:16px 0 0}.lesson-questions{padding-left:24px;font-size:.94rem}.lesson-questions li+li{margin-top:12px}.lesson-solutions{border:1px solid #dce3ec;padding:16px 20px;border-radius:7px;margin-top:22px;font-size:.9rem}.lesson-solutions summary{cursor:pointer;color:#17365f;font-weight:700}.lesson-solutions p{margin-top:14px}.learning-sidebar .lesson-page-links{list-style:none;padding:0;margin-top:15px}.lesson-page-links li{margin-bottom:10px}.lesson-page-links a{display:block}.learning-sidebar .current a{font-weight:700;color:#17365f}.lesson-miniature{width:82px;height:72px;flex-shrink:0;border-radius:9px;border:1px solid #dce3ec;object-fit:cover;background:#0a1726}.learning-list h3 a{font-size:inherit;color:#17365f;margin:0}.learning-sidebar h4{font-size:.84rem;color:#17365f;margin:24px 0 10px}.learning-sidebar .section-list{padding:0;list-style:none}.section-list li{font-size:.79rem;line-height:1.55}.learning-sidebar .section-list a{text-decoration:none}.lesson-page-note{font-size:.8rem;color:#6b7d91;margin-top:12px}.learning-list li>div{min-width:0}.learning-sources ul{padding-left:18px}@media(max-width:760px){.lesson-miniature{width:65px;height:60px}.learning-list li{gap:14px}.learning-article{font-size:.98rem}.learning-article p{text-align:justify;hyphens:auto}.lesson-interactive{padding:12px}.lesson-photo figcaption,.lesson-diagram figcaption{padding:13px}.learning-columns{grid-template-columns:1fr}}
+
+/* Didattica: livello secondario, testo giustificato e apparato visuale. */
+.learning-article p,.learning-intro>p:not(.learning-eyebrow),.learning-list p{text-align:justify;hyphens:auto;overflow-wrap:break-word}.learning-article .lesson-reference,.learning-article figcaption,.learning-article .learning-sources p{text-align:left;hyphens:none}.learning-article{line-height:1.85}.lesson-section{scroll-margin-top:24px}.lesson-reference{font-size:.73rem;color:#64768a;margin:14px 0 27px!important}.lesson-reference a,.lesson-photo a{color:#46678e;text-decoration:underline}.lesson-photo,.lesson-diagram{margin:26px 0;border:1px solid #dce3ec;border-radius:10px;overflow:hidden;background:white}.lesson-photo img{width:100%;max-height:440px;object-fit:contain;background:#061320}.lesson-diagram img{width:100%;height:auto}.lesson-photo figcaption,.lesson-diagram figcaption{padding:15px 18px;color:#526174;font-size:.8rem;line-height:1.7;text-align:left}.lesson-interactive{padding:20px;background:#edf3f9}.lesson-interactive svg{width:100%;display:block}.lesson-interactive label{display:block;color:#17365f;font-weight:700;font-size:.85rem;margin:12px 0}.lesson-interactive input{width:100%;accent-color:#2864d7}.lesson-interactive figcaption{padding:16px 0 0}.lesson-questions{padding-left:24px;font-size:.94rem}.lesson-questions li+li{margin-top:12px}.lesson-solutions{border:1px solid #dce3ec;padding:16px 20px;border-radius:7px;margin-top:22px;font-size:.9rem}.lesson-solutions summary{cursor:pointer;color:#17365f;font-weight:700}.lesson-solutions p{margin-top:14px}.learning-sidebar .lesson-page-links{list-style:none;padding:0;margin-top:15px}.lesson-page-links li{margin-bottom:10px}.lesson-page-links a{display:block}.learning-sidebar .current a{font-weight:700;color:#17365f}.lesson-miniature{width:82px;height:72px;flex-shrink:0;border-radius:9px;border:1px solid #dce3ec;object-fit:cover;background:#0a1726}.learning-list h3 a{font-size:inherit;color:#17365f;margin:0}.learning-sidebar h4{font-size:.84rem;color:#17365f;margin:24px 0 10px}.learning-sidebar .section-list{padding:0;list-style:none}.section-list li{font-size:.79rem;line-height:1.55}.learning-sidebar .section-list a{text-decoration:none}.lesson-page-note{font-size:.8rem;color:#6b7d91;margin-top:12px}.learning-list li>div{min-width:0}.learning-sources ul{padding-left:18px}@media(max-width:760px){.lesson-miniature{width:65px;height:60px}.learning-list li{gap:14px}.learning-article{font-size:.98rem}.learning-article p{text-align:justify;hyphens:auto}.lesson-interactive{padding:12px}.lesson-photo figcaption,.lesson-diagram figcaption{padding:13px}.learning-columns{grid-template-columns:1fr}}
+
+/* Didattica: livello secondario, testo giustificato e apparato visuale. */
+.learning-article p,.learning-intro>p:not(.learning-eyebrow),.learning-list p{text-align:justify;hyphens:auto;overflow-wrap:break-word}.learning-article .lesson-reference,.learning-article figcaption,.learning-article .learning-sources p{text-align:left;hyphens:none}.learning-article{line-height:1.85}.lesson-section{scroll-margin-top:24px}.lesson-reference{font-size:.73rem;color:#64768a;margin:14px 0 27px!important}.lesson-reference a,.lesson-photo a{color:#46678e;text-decoration:underline}.lesson-photo,.lesson-diagram{margin:26px 0;border:1px solid #dce3ec;border-radius:10px;overflow:hidden;background:white}.lesson-photo img{width:100%;max-height:440px;object-fit:contain;background:#061320}.lesson-diagram img{width:100%;height:auto}.lesson-photo figcaption,.lesson-diagram figcaption{padding:15px 18px;color:#526174;font-size:.8rem;line-height:1.7;text-align:left}.lesson-interactive{padding:20px;background:#edf3f9}.lesson-interactive svg{width:100%;display:block}.lesson-interactive label{display:block;color:#17365f;font-weight:700;font-size:.85rem;margin:12px 0}.lesson-interactive input{width:100%;accent-color:#2864d7}.lesson-interactive figcaption{padding:16px 0 0}.lesson-questions{padding-left:24px;font-size:.94rem}.lesson-questions li+li{margin-top:12px}.lesson-solutions{border:1px solid #dce3ec;padding:16px 20px;border-radius:7px;margin-top:22px;font-size:.9rem}.lesson-solutions summary{cursor:pointer;color:#17365f;font-weight:700}.lesson-solutions p{margin-top:14px}.learning-sidebar .lesson-page-links{list-style:none;padding:0;margin-top:15px}.lesson-page-links li{margin-bottom:10px}.lesson-page-links a{display:block}.learning-sidebar .current a{font-weight:700;color:#17365f}.lesson-miniature{width:82px;height:72px;flex-shrink:0;border-radius:9px;border:1px solid #dce3ec;object-fit:cover;background:#0a1726}.learning-list h3 a{font-size:inherit;color:#17365f;margin:0}.learning-sidebar h4{font-size:.84rem;color:#17365f;margin:24px 0 10px}.learning-sidebar .section-list{padding:0;list-style:none}.section-list li{font-size:.79rem;line-height:1.55}.learning-sidebar .section-list a{text-decoration:none}.lesson-page-note{font-size:.8rem;color:#6b7d91;margin-top:12px}.learning-list li>div{min-width:0}.learning-sources ul{padding-left:18px}@media(max-width:760px){.lesson-miniature{width:65px;height:60px}.learning-list li{gap:14px}.learning-article{font-size:.98rem}.learning-article p{text-align:justify;hyphens:auto}.lesson-interactive{padding:12px}.lesson-photo figcaption,.lesson-diagram figcaption{padding:13px}.learning-columns{grid-template-columns:1fr}}
+
+/* Didattica: livello secondario, testo giustificato e apparato visuale. */
+.learning-article p,.learning-intro>p:not(.learning-eyebrow),.learning-list p{text-align:justify;hyphens:auto;overflow-wrap:break-word}.learning-article .lesson-reference,.learning-article figcaption,.learning-article .learning-sources p{text-align:left;hyphens:none}.learning-article{line-height:1.85}.lesson-section{scroll-margin-top:24px}.lesson-reference{font-size:.73rem;color:#64768a;margin:14px 0 27px!important}.lesson-reference a,.lesson-photo a{color:#46678e;text-decoration:underline}.lesson-photo,.lesson-diagram{margin:26px 0;border:1px solid #dce3ec;border-radius:10px;overflow:hidden;background:white}.lesson-photo img{width:100%;max-height:440px;object-fit:contain;background:#061320}.lesson-diagram img{width:100%;height:auto}.lesson-photo figcaption,.lesson-diagram figcaption{padding:15px 18px;color:#526174;font-size:.8rem;line-height:1.7;text-align:left}.lesson-interactive{padding:20px;background:#edf3f9}.lesson-interactive svg{width:100%;display:block}.lesson-interactive label{display:block;color:#17365f;font-weight:700;font-size:.85rem;margin:12px 0}.lesson-interactive input{width:100%;accent-color:#2864d7}.lesson-interactive figcaption{padding:16px 0 0}.lesson-questions{padding-left:24px;font-size:.94rem}.lesson-questions li+li{margin-top:12px}.lesson-solutions{border:1px solid #dce3ec;padding:16px 20px;border-radius:7px;margin-top:22px;font-size:.9rem}.lesson-solutions summary{cursor:pointer;color:#17365f;font-weight:700}.lesson-solutions p{margin-top:14px}.learning-sidebar .lesson-page-links{list-style:none;padding:0;margin-top:15px}.lesson-page-links li{margin-bottom:10px}.lesson-page-links a{display:block}.learning-sidebar .current a{font-weight:700;color:#17365f}.lesson-miniature{width:82px;height:72px;flex-shrink:0;border-radius:9px;border:1px solid #dce3ec;object-fit:cover;background:#0a1726}.learning-list h3 a{font-size:inherit;color:#17365f;margin:0}.learning-sidebar h4{font-size:.84rem;color:#17365f;margin:24px 0 10px}.learning-sidebar .section-list{padding:0;list-style:none}.section-list li{font-size:.79rem;line-height:1.55}.learning-sidebar .section-list a{text-decoration:none}.lesson-page-note{font-size:.8rem;color:#6b7d91;margin-top:12px}.learning-list li>div{min-width:0}.learning-sources ul{padding-left:18px}@media(max-width:760px){.lesson-miniature{width:65px;height:60px}.learning-list li{gap:14px}.learning-article{font-size:.98rem}.learning-article p{text-align:justify;hyphens:auto}.lesson-interactive{padding:12px}.lesson-photo figcaption,.lesson-diagram figcaption{padding:13px}.learning-columns{grid-template-columns:1fr}}
+
+/* Didattica: livello secondario, testo giustificato e apparato visuale. */
+.learning-article p,.learning-intro>p:not(.learning-eyebrow),.learning-list p{text-align:justify;hyphens:auto;overflow-wrap:break-word}.learning-article .lesson-reference,.learning-article figcaption,.learning-article .learning-sources p{text-align:left;hyphens:none}.learning-article{line-height:1.85}.lesson-section{scroll-margin-top:24px}.lesson-reference{font-size:.73rem;color:#64768a;margin:14px 0 27px!important}.lesson-reference a,.lesson-photo a{color:#46678e;text-decoration:underline}.lesson-photo,.lesson-diagram{margin:26px 0;border:1px solid #dce3ec;border-radius:10px;overflow:hidden;background:white}.lesson-photo img{width:100%;max-height:440px;object-fit:contain;background:#061320}.lesson-diagram img{width:100%;height:auto}.lesson-photo figcaption,.lesson-diagram figcaption{padding:15px 18px;color:#526174;font-size:.8rem;line-height:1.7;text-align:left}.lesson-interactive{padding:20px;background:#edf3f9}.lesson-interactive svg{width:100%;display:block}.lesson-interactive label{display:block;color:#17365f;font-weight:700;font-size:.85rem;margin:12px 0}.lesson-interactive input{width:100%;accent-color:#2864d7}.lesson-interactive figcaption{padding:16px 0 0}.lesson-questions{padding-left:24px;font-size:.94rem}.lesson-questions li+li{margin-top:12px}.lesson-solutions{border:1px solid #dce3ec;padding:16px 20px;border-radius:7px;margin-top:22px;font-size:.9rem}.lesson-solutions summary{cursor:pointer;color:#17365f;font-weight:700}.lesson-solutions p{margin-top:14px}.learning-sidebar .lesson-page-links{list-style:none;padding:0;margin-top:15px}.lesson-page-links li{margin-bottom:10px}.lesson-page-links a{display:block}.learning-sidebar .current a{font-weight:700;color:#17365f}.lesson-miniature{width:82px;height:72px;flex-shrink:0;border-radius:9px;border:1px solid #dce3ec;object-fit:cover;background:#0a1726}.learning-list h3 a{font-size:inherit;color:#17365f;margin:0}.learning-sidebar h4{font-size:.84rem;color:#17365f;margin:24px 0 10px}.learning-sidebar .section-list{padding:0;list-style:none}.section-list li{font-size:.79rem;line-height:1.55}.learning-sidebar .section-list a{text-decoration:none}.lesson-page-note{font-size:.8rem;color:#6b7d91;margin-top:12px}.learning-list li>div{min-width:0}.learning-sources ul{padding-left:18px}@media(max-width:760px){.lesson-miniature{width:65px;height:60px}.learning-list li{gap:14px}.learning-article{font-size:.98rem}.learning-article p{text-align:justify;hyphens:auto}.lesson-interactive{padding:12px}.lesson-photo figcaption,.lesson-diagram figcaption{padding:13px}.learning-columns{grid-template-columns:1fr}}
+
+/* Didattica: livello secondario, testo giustificato e apparato visuale. */
+.learning-article p,.learning-intro>p:not(.learning-eyebrow),.learning-list p{text-align:justify;hyphens:auto;overflow-wrap:break-word}.learning-article .lesson-reference,.learning-article figcaption,.learning-article .learning-sources p{text-align:left;hyphens:none}.learning-article{line-height:1.85}.lesson-section{scroll-margin-top:24px}.lesson-reference{font-size:.73rem;color:#64768a;margin:14px 0 27px!important}.lesson-reference a,.lesson-photo a{color:#46678e;text-decoration:underline}.lesson-photo,.lesson-diagram{margin:26px 0;border:1px solid #dce3ec;border-radius:10px;overflow:hidden;background:white}.lesson-photo img{width:100%;max-height:440px;object-fit:contain;background:#061320}.lesson-diagram img{width:100%;height:auto}.lesson-photo figcaption,.lesson-diagram figcaption{padding:15px 18px;color:#526174;font-size:.8rem;line-height:1.7;text-align:left}.lesson-interactive{padding:20px;background:#edf3f9}.lesson-interactive svg{width:100%;display:block}.lesson-interactive label{display:block;color:#17365f;font-weight:700;font-size:.85rem;margin:12px 0}.lesson-interactive input{width:100%;accent-color:#2864d7}.lesson-interactive figcaption{padding:16px 0 0}.lesson-questions{padding-left:24px;font-size:.94rem}.lesson-questions li+li{margin-top:12px}.lesson-solutions{border:1px solid #dce3ec;padding:16px 20px;border-radius:7px;margin-top:22px;font-size:.9rem}.lesson-solutions summary{cursor:pointer;color:#17365f;font-weight:700}.lesson-solutions p{margin-top:14px}.learning-sidebar .lesson-page-links{list-style:none;padding:0;margin-top:15px}.lesson-page-links li{margin-bottom:10px}.lesson-page-links a{display:block}.learning-sidebar .current a{font-weight:700;color:#17365f}.lesson-miniature{width:82px;height:72px;flex-shrink:0;border-radius:9px;border:1px solid #dce3ec;object-fit:cover;background:#0a1726}.learning-list h3 a{font-size:inherit;color:#17365f;margin:0}.learning-sidebar h4{font-size:.84rem;color:#17365f;margin:24px 0 10px}.learning-sidebar .section-list{padding:0;list-style:none}.section-list li{font-size:.79rem;line-height:1.55}.learning-sidebar .section-list a{text-decoration:none}.lesson-page-note{font-size:.8rem;color:#6b7d91;margin-top:12px}.learning-list li>div{min-width:0}.learning-sources ul{padding-left:18px}@media(max-width:760px){.lesson-miniature{width:65px;height:60px}.learning-list li{gap:14px}.learning-article{font-size:.98rem}.learning-article p{text-align:justify;hyphens:auto}.lesson-interactive{padding:12px}.lesson-photo figcaption,.lesson-diagram figcaption{padding:13px}.learning-columns{grid-template-columns:1fr}}
+
+/* Immagini didattiche di base, indipendenti dai laboratori */
+.lesson-basic,.lesson-chart{margin:26px 0;padding:16px;background:#f2f6fa;border:1px solid #dae4ef;border-radius:14px;min-width:0}.lesson-basic img,.chart-picture svg{display:block;width:100%;height:auto;max-height:850px;object-fit:contain}.lesson-basic figcaption{font-size:.92rem;line-height:1.65;text-align:left;margin-top:12px}.lesson-chart .lesson-basic{padding:0;margin:0;border:0}.chart-controls{display:flex;flex-wrap:wrap;gap:14px;align-items:center;margin-top:18px}.chart-controls label{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:.95rem;line-height:1.5}.chart-controls select,.chart-controls button{font:inherit;padding:8px 12px;border:1px solid #91a8c0;border-radius:7px;background:white;color:#15385a;max-width:100%}.chart-controls input[type=checkbox]{width:18px;height:18px}.chart-reading{font-size:.95rem;text-align:left!important;margin-top:16px!important}.chart-picture svg[hidden]{display:none}.lesson-chart button:focus-visible,.lesson-chart select:focus-visible{outline:3px solid #2864d7;outline-offset:3px}
+
+/* Didattica: livello secondario, testo giustificato e apparato visuale. */
+.learning-article p,.learning-intro>p:not(.learning-eyebrow),.learning-list p{text-align:justify;hyphens:auto;overflow-wrap:break-word}.learning-article .lesson-reference,.learning-article figcaption,.learning-article .learning-sources p{text-align:left;hyphens:none}.learning-article{line-height:1.85}.lesson-section{scroll-margin-top:24px}.lesson-reference{font-size:.73rem;color:#64768a;margin:14px 0 27px!important}.lesson-reference a,.lesson-photo a{color:#46678e;text-decoration:underline}.lesson-photo,.lesson-diagram{margin:26px 0;border:1px solid #dce3ec;border-radius:10px;overflow:hidden;background:white}.lesson-photo img{width:100%;max-height:440px;object-fit:contain;background:#061320}.lesson-diagram img{width:100%;height:auto}.lesson-photo figcaption,.lesson-diagram figcaption{padding:15px 18px;color:#526174;font-size:.8rem;line-height:1.7;text-align:left}.lesson-interactive{padding:20px;background:#edf3f9}.lesson-interactive svg{width:100%;display:block}.lesson-interactive label{display:block;color:#17365f;font-weight:700;font-size:.85rem;margin:12px 0}.lesson-interactive input{width:100%;accent-color:#2864d7}.lesson-interactive figcaption{padding:16px 0 0}.lesson-questions{padding-left:24px;font-size:.94rem}.lesson-questions li+li{margin-top:12px}.lesson-solutions{border:1px solid #dce3ec;padding:16px 20px;border-radius:7px;margin-top:22px;font-size:.9rem}.lesson-solutions summary{cursor:pointer;color:#17365f;font-weight:700}.lesson-solutions p{margin-top:14px}.learning-sidebar .lesson-page-links{list-style:none;padding:0;margin-top:15px}.lesson-page-links li{margin-bottom:10px}.lesson-page-links a{display:block}.learning-sidebar .current a{font-weight:700;color:#17365f}.lesson-miniature{width:82px;height:72px;flex-shrink:0;border-radius:9px;border:1px solid #dce3ec;object-fit:cover;background:#0a1726}.learning-list h3 a{font-size:inherit;color:#17365f;margin:0}.learning-sidebar h4{font-size:.84rem;color:#17365f;margin:24px 0 10px}.learning-sidebar .section-list{padding:0;list-style:none}.section-list li{font-size:.79rem;line-height:1.55}.learning-sidebar .section-list a{text-decoration:none}.lesson-page-note{font-size:.8rem;color:#6b7d91;margin-top:12px}.learning-list li>div{min-width:0}.learning-sources ul{padding-left:18px}@media(max-width:760px){.lesson-miniature{width:65px;height:60px}.learning-list li{gap:14px}.learning-article{font-size:.98rem}.learning-article p{text-align:justify;hyphens:auto}.lesson-interactive{padding:12px}.lesson-photo figcaption,.lesson-diagram figcaption{padding:13px}.learning-columns{grid-template-columns:1fr}}
+
+/* Didattica: livello secondario, testo giustificato e apparato visuale. */
+.learning-article p,.learning-intro>p:not(.learning-eyebrow),.learning-list p{text-align:justify;hyphens:auto;overflow-wrap:break-word}.learning-article .lesson-reference,.learning-article figcaption,.learning-article .learning-sources p{text-align:left;hyphens:none}.learning-article{line-height:1.85}.lesson-section{scroll-margin-top:24px}.lesson-reference{font-size:.73rem;color:#64768a;margin:14px 0 27px!important}.lesson-reference a,.lesson-photo a{color:#46678e;text-decoration:underline}.lesson-photo,.lesson-diagram{margin:26px 0;border:1px solid #dce3ec;border-radius:10px;overflow:hidden;background:white}.lesson-photo img{width:100%;max-height:440px;object-fit:contain;background:#061320}.lesson-diagram img{width:100%;height:auto}.lesson-photo figcaption,.lesson-diagram figcaption{padding:15px 18px;color:#526174;font-size:.8rem;line-height:1.7;text-align:left}.lesson-interactive{padding:20px;background:#edf3f9}.lesson-interactive svg{width:100%;display:block}.lesson-interactive label{display:block;color:#17365f;font-weight:700;font-size:.85rem;margin:12px 0}.lesson-interactive input{width:100%;accent-color:#2864d7}.lesson-interactive figcaption{padding:16px 0 0}.lesson-questions{padding-left:24px;font-size:.94rem}.lesson-questions li+li{margin-top:12px}.lesson-solutions{border:1px solid #dce3ec;padding:16px 20px;border-radius:7px;margin-top:22px;font-size:.9rem}.lesson-solutions summary{cursor:pointer;color:#17365f;font-weight:700}.lesson-solutions p{margin-top:14px}.learning-sidebar .lesson-page-links{list-style:none;padding:0;margin-top:15px}.lesson-page-links li{margin-bottom:10px}.lesson-page-links a{display:block}.learning-sidebar .current a{font-weight:700;color:#17365f}.lesson-miniature{width:82px;height:72px;flex-shrink:0;border-radius:9px;border:1px solid #dce3ec;object-fit:cover;background:#0a1726}.learning-list h3 a{font-size:inherit;color:#17365f;margin:0}.learning-sidebar h4{font-size:.84rem;color:#17365f;margin:24px 0 10px}.learning-sidebar .section-list{padding:0;list-style:none}.section-list li{font-size:.79rem;line-height:1.55}.learning-sidebar .section-list a{text-decoration:none}.lesson-page-note{font-size:.8rem;color:#6b7d91;margin-top:12px}.learning-list li>div{min-width:0}.learning-sources ul{padding-left:18px}@media(max-width:760px){.lesson-miniature{width:65px;height:60px}.learning-list li{gap:14px}.learning-article{font-size:.98rem}.learning-article p{text-align:justify;hyphens:auto}.lesson-interactive{padding:12px}.lesson-photo figcaption,.lesson-diagram figcaption{padding:13px}.learning-columns{grid-template-columns:1fr}}
+</style>
+
+<meta name="robots" content="noindex,nofollow"><link rel="stylesheet" href="assets/lezioni/interazioni-didattiche.css">
+<link rel="stylesheet" href="assets/lezioni/percorsi-pratici.css">
+<meta name="ad-astra-revision" content="percorsi-20261013">
 </head>
 
 
@@ -870,17 +1009,8 @@
       alt="AD ASTRA"
     >
 
-    <div class="banner-section-title">
 
-      <h1>
-        STRUMENTAZIONE
-      </h1>
-
-      <p>
-        Conoscere gli strumenti dell'astronomia
-      </p>
-
-    </div>
+    <div class="banner-section-title"><h1>STRUMENTAZIONE</h1><p>Impara, osserva, verifica</p></div>
 
   </header>
 
@@ -904,7 +1034,10 @@
       </li>
 
       <li>
-        <a href="scuola-astronomia.html">
+        <a
+
+          href="scuola-astronomia.html"
+        >
           SCUOLA DI ASTRONOMIA
         </a>
       </li>
@@ -916,10 +1049,7 @@
       </li>
 
       <li>
-        <a
-          class="active"
-          href="strumentazione.html"
-        >
+        <a class="active" aria-current="page" href="strumentazione.html">
           STRUMENTAZIONE
         </a>
       </li>
@@ -984,615 +1114,13 @@
 
 
 
-  <main>
-
-
-    <!-- =====================================================
-         INTRODUZIONE
-    ====================================================== -->
-
-    <section class="intro">
-
-      <div class="container intro-grid">
-
-
-        <div class="intro-text">
-
-          <p class="intro-lead">
-            Un telescopio raramente lavora da solo.
-          </p>
-
-          <div class="intro-line"></div>
-
-
-          <p>
-            Una postazione astronomica può apparire,
-            soprattutto a chi si avvicina per la prima volta
-            all'osservazione del cielo, come un insieme complesso
-            di tubi, supporti, camere, cavi, raccordi
-            e piccoli dispositivi dalle funzioni poco evidenti.
-          </p>
-
-
-          <p>
-            Questa sezione nasce per riconoscere gli strumenti
-            e i componenti che formano una postazione astronomica:
-            che cosa sono, come sono fatti, a che cosa servono
-            e quale posizione occupano all'interno del sistema.
-          </p>
-
-
-          <p>
-            Dall'oculare alla montatura, dalla coda di rondine
-            alla camera astronomica, ogni elemento svolge
-            una funzione precisa. Il catalogo permette
-            di identificarlo e comprenderne il ruolo
-            senza entrare nelle procedure di osservazione,
-            allineamento o utilizzo del software.
-          </p>
-
-        </div>
-
-
-
-        <div class="intro-image">
-
-          <div class="intro-image-caption">
-            Una postazione astronomica è un sistema composto
-            da elementi ottici, meccanici ed elettronici
-            che lavorano insieme.
-          </div>
-
-        </div>
-
-
-      </div>
-
-    </section>
-
-
-
-    <!-- =====================================================
-         PRINCIPI
-    ====================================================== -->
-
-    <section class="principles">
-
-      <div class="container principles-grid">
-
-
-        <article class="principle">
-
-          <div class="principle-icon">
-            ◎
-          </div>
-
-          <div>
-
-            <h2>
-              Riconoscere
-            </h2>
-
-            <p>
-              Imparare a identificare strumenti,
-              accessori e componenti di una
-              postazione astronomica.
-            </p>
-
-          </div>
-
-        </article>
-
-
-
-        <article class="principle">
-
-          <div class="principle-icon">
-            ⚙
-          </div>
-
-          <div>
-
-            <h2>
-              Comprendere
-            </h2>
-
-            <p>
-              Capire come è fatto ogni componente
-              e quale funzione svolge
-              all'interno del sistema.
-            </p>
-
-          </div>
-
-        </article>
-
-
-
-        <article class="principle">
-
-          <div class="principle-icon">
-            ↔
-          </div>
-
-          <div>
-
-            <h2>
-              Collegare
-            </h2>
-
-            <p>
-              Comprendere come strumenti,
-              supporti e accessori vengono
-              fisicamente collegati tra loro.
-            </p>
-
-          </div>
-
-        </article>
-
-
-      </div>
-
-    </section>
-
-
-
-    <!-- =====================================================
-         CATALOGO
-    ====================================================== -->
-
-    <section class="catalogue">
-
-      <div class="container">
-
-
-        <div class="catalogue-heading">
-
-          <div class="catalogue-heading-icon">
-            ◫
-          </div>
-
-          <h2>
-            CATALOGO DELLA STRUMENTAZIONE
-          </h2>
-
-          <div class="catalogue-heading-line"></div>
-
-        </div>
-
-
-        <p class="catalogue-intro">
-          Una raccolta organizzata degli strumenti e dei componenti
-          più comuni nell'osservazione visuale e nella ripresa astronomica.
-          Ogni sezione sarà dedicata al riconoscimento,
-          alla struttura e alla funzione dei diversi elementi.
-        </p>
-
-
-
-        <div class="cards">
-
-
-          <div class="card">
-
-            <div class="card-number">
-              01
-            </div>
-
-            <h3>
-              Telescopi
-            </h3>
-
-            <p>
-              Rifrattori, Newton, Dobson e catadiottrici:
-              le principali architetture dei telescopi
-              e gli elementi che ne costituiscono
-              la struttura ottica e meccanica.
-            </p>
-
-            <span class="card-link">
-              Schede in preparazione
-            </span>
-
-          </div>
-
-
-
-          <div class="card">
-
-            <div class="card-number">
-              02
-            </div>
-
-            <h3>
-              Binocoli e cannocchiali
-            </h3>
-
-            <p>
-              Binocoli, cannocchiali e piccoli strumenti
-              portatili, compresi i supporti
-              e gli adattatori necessari
-              per il montaggio su cavalletto.
-            </p>
-
-            <span class="card-link">
-              Schede in preparazione
-            </span>
-
-          </div>
-
-
-
-          <div class="card">
-
-            <div class="card-number">
-              03
-            </div>
-
-            <h3>
-              Cavalletti, treppiedi e supporti
-            </h3>
-
-            <p>
-              Cavalletti, treppiedi, colonne,
-              teste e strutture di sostegno:
-              cosa cambia tra i diversi sistemi
-              e quale parte della strumentazione sostengono.
-            </p>
-
-            <span class="card-link">
-              Schede in preparazione
-            </span>
-
-          </div>
-
-
-
-          <div class="card">
-
-            <div class="card-number">
-              04
-            </div>
-
-            <h3>
-              Montature e astroinseguitori
-            </h3>
-
-            <p>
-              Montature altazimutali, equatoriali,
-              a forcella e astroinseguitori:
-              struttura, assi, movimenti
-              e principali componenti meccanici.
-            </p>
-
-            <span class="card-link">
-              Schede in preparazione
-            </span>
-
-          </div>
-
-
-
-          <div class="card">
-
-            <div class="card-number">
-              05
-            </div>
-
-            <h3>
-              Fissaggio e meccanica
-            </h3>
-
-            <p>
-              Code di rondine, slitte, morsetti,
-              anelli, piastre e adattatori:
-              gli elementi che permettono
-              di fissare saldamente strumenti e accessori.
-            </p>
-
-            <span class="card-link">
-              Schede in preparazione
-            </span>
-
-          </div>
-
-
-
-          <div class="card">
-
-            <div class="card-number">
-              06
-            </div>
-
-            <h3>
-              Oculari e accessori ottici
-            </h3>
-
-            <p>
-              Oculari, lenti di Barlow,
-              diagonali e filtri:
-              i principali componenti
-              che vengono inseriti
-              nel percorso ottico del telescopio.
-            </p>
-
-            <span class="card-link">
-              Schede in preparazione
-            </span>
-
-          </div>
-
-
-
-          <div class="card">
-
-            <div class="card-number">
-              07
-            </div>
-
-            <h3>
-              Focheggiatura e treno ottico
-            </h3>
-
-            <p>
-              Focheggiatori manuali e motorizzati,
-              correttori di coma, spianatori,
-              riduttori, prolunghe e distanziatori
-              utilizzati lungo il treno ottico.
-            </p>
-
-            <span class="card-link">
-              Schede in preparazione
-            </span>
-
-          </div>
-
-
-
-          <div class="card">
-
-            <div class="card-number">
-              08
-            </div>
-
-            <h3>
-              Camere e sistemi di ripresa
-            </h3>
-
-            <p>
-              DSLR, mirrorless, camere astronomiche,
-              camere planetarie e raffreddate,
-              camere guida e piccoli telescopi
-              utilizzati per l'autoguida.
-            </p>
-
-            <span class="card-link">
-              Schede in preparazione
-            </span>
-
-          </div>
-
-
-
-          <div class="card">
-
-            <div class="card-number">
-              09
-            </div>
-
-            <h3>
-              Adattatori, collegamenti e alimentazione
-            </h3>
-
-            <p>
-              Anelli T e T2, raccordi, filettature,
-              connettori, cavi, alimentatori,
-              batterie, centraline di distribuzione
-              e sistemi anticondensa.
-            </p>
-
-            <span class="card-link">
-              Schede in preparazione
-            </span>
-
-          </div>
-
-
-
-          <div class="card">
-
-            <div class="card-number">
-              10
-            </div>
-
-            <h3>
-              Controllo dello scatto e accessori
-            </h3>
-
-            <p>
-              Telecomandi, intervallometri,
-              temporizzatori di scatto
-              e piccoli dispositivi fisici
-              utilizzati durante le sessioni di ripresa.
-            </p>
-
-            <span class="card-link">
-              Schede in preparazione
-            </span>
-
-          </div>
-
-
-        </div>
-
-      </div>
-
-    </section>
-
-
-
-    <!-- =====================================================
-         COME SI ASSEMBLA UNA POSTAZIONE
-    ====================================================== -->
-
-    <section class="assembly">
-
-      <div class="container">
-
-
-        <div class="assembly-heading">
-
-          <div class="assembly-heading-icon">
-            ⚙
-          </div>
-
-          <h2>
-            COME SI ASSEMBLA UNA POSTAZIONE
-          </h2>
-
-          <div class="assembly-heading-line"></div>
-
-        </div>
-
-
-        <p class="assembly-intro">
-          Una guida essenziale all'assemblaggio fisico
-          dei componenti. Non riguarda l'allineamento,
-          il puntamento o la configurazione della strumentazione:
-          mostra semplicemente quali pezzi vengono montati
-          e in quale ordine generale.
-        </p>
-
-
-
-        <div class="assembly-grid">
-
-
-          <article class="assembly-card">
-
-            <div class="assembly-number">
-              01
-            </div>
-
-            <h3>
-              Postazione visuale base
-            </h3>
-
-            <p>
-              La struttura essenziale di una postazione
-              destinata all'osservazione visuale
-              con telescopio.
-            </p>
-
-            <div class="assembly-sequence">
-              Treppiede → Montatura → Contrappesi se previsti →
-              Tubo ottico → Diagonale se prevista → Oculare
-            </div>
-
-          </article>
-
-
-
-          <article class="assembly-card">
-
-            <div class="assembly-number">
-              02
-            </div>
-
-            <h3>
-              Binocolo su cavalletto
-            </h3>
-
-            <p>
-              Anche uno strumento semplice come il binocolo
-              può richiedere un elemento intermedio
-              per essere fissato stabilmente a un supporto.
-            </p>
-
-            <div class="assembly-sequence">
-              Cavalletto → Testa → Adattatore per binocolo → Binocolo
-            </div>
-
-          </article>
-
-
-
-          <article class="assembly-card">
-
-            <div class="assembly-number">
-              03
-            </div>
-
-            <h3>
-              Postazione base per ripresa
-            </h3>
-
-            <p>
-              La sequenza generale dei principali componenti
-              meccanici, ottici ed elettronici
-              di una semplice postazione fotografica astronomica.
-            </p>
-
-            <div class="assembly-sequence">
-              Treppiede → Montatura → Contrappesi → Tubo ottico →
-              Treno ottico → Camera → Eventuale sistema guida →
-              Alimentazione e cablaggio
-            </div>
-
-          </article>
-
-
-        </div>
-
-      </div>
-
-    </section>
-
-
-
-    <!-- =====================================================
-         CONCLUSIONE
-    ====================================================== -->
-
-    <section class="closing">
-
-      <div class="container">
-
-        <div class="closing-box">
-
-          <div class="closing-content">
-
-            <div class="closing-icon">
-              ◇
-            </div>
-
-            <div>
-
-              <h2>
-                Ogni componente ha una funzione
-              </h2>
-
-              <p>
-                Quando in una fotografia, in una didascalia
-                o nella descrizione di una ripresa astronomica
-                compare il nome di uno strumento o di un accessorio,
-                questa sezione permette di riconoscerlo
-                e comprenderne il ruolo all'interno della postazione.
-              </p>
-
-            </div>
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </section>
-
-
-  </main>
+  <main class="learning-wrap"><nav class="learning-crumbs" aria-label="Percorso"><a href="index.html">Home</a> › <span aria-current="page">Strumentazione</span></nav><div class="learning-intro"><p class="learning-eyebrow">Riconoscere · comprendere · collegare</p><h2>Ogni componente ha una funzione</h2><p>Un telescopio non è soltanto un tubo che ingrandisce. È una catena di elementi: raccoglie luce, forma un’immagine, la mantiene orientata e permette all’occhio o al sensore di studiarla. Conoscere il ruolo di ciascun componente aiuta a scegliere, montare e usare la postazione senza confondere una promessa commerciale con una prestazione osservativa.</p></div><nav class="course-cards" aria-label="Scegli un passaggio del percorso"><a class="course-card" href="#telescopi"><img src="assets/lezioni/rifrattore.jpg" alt="" loading="lazy"><span><strong>Telescopi</strong><span>Apertura, focale e schemi ottici.</span></span></a><a class="course-card" href="#binocoli"><img src="assets/lezioni/binocolo.jpg" alt="" loading="lazy"><span><strong>Binocoli e cannocchiali</strong><span>Sigle, campo e stabilità.</span></span></a><a class="course-card" href="#supporti"><img src="assets/lezioni/cavalletto.jpg" alt="" loading="lazy"><span><strong>Cavalletti e supporti</strong><span>La stabilità prima dell’ingrandimento.</span></span></a><a class="course-card" href="#montature"><img src="assets/lezioni/montatura.jpg" alt="" loading="lazy"><span><strong>Montature e astroinseguitori</strong><span>Puntamento, allineamento e inseguimento.</span></span></a><a class="course-card" href="#smart-telescope"><img src="assets/lezioni/smart-seestar-s50.jpg" alt="" loading="lazy"><span><strong>Smart telescope</strong><span>Ottica, sensore, puntamento ed elaborazione integrati.</span></span></a><a class="course-card" href="#meccanica"><img src="assets/lezioni/adattatore.jpg" alt="" loading="lazy"><span><strong>Fissaggio e meccanica</strong><span>Connessioni solide e compatibili.</span></span></a><a class="course-card" href="#oculari"><img src="assets/lezioni/oculare.jpg" alt="" loading="lazy"><span><strong>Oculari e accessori ottici</strong><span>Ingrandimento, pupilla e campo.</span></span></a><a class="course-card" href="#fuoco"><img src="assets/lezioni/focheggiatore.jpg" alt="" loading="lazy"><span><strong>Focheggiatura e treno ottico</strong><span>Posizione del fuoco e distanze utili.</span></span></a><a class="course-card" href="#camere"><img src="assets/lezioni/camera.jpg" alt="" loading="lazy"><span><strong>Camere e ripresa</strong><span>Sensore, campionamento e dati.</span></span></a><a class="course-card" href="#alimentazione"><img src="assets/lezioni/connettori.jpg" alt="" loading="lazy"><span><strong>Collegamenti e alimentazione</strong><span>Cavi, connettori e tensioni.</span></span></a><a class="course-card" href="#scatto"><img src="assets/lezioni/scatto.jpg" alt="" loading="lazy"><span><strong>Controllo dello scatto</strong><span>Tempi, sequenze e vibrazioni.</span></span></a></nav><details class="thumbnail-credits"><summary>Crediti delle miniature fotografiche</summary><ul><li>Telescopi: <a href="https://commons.wikimedia.org/wiki/File:Takahashi_TSA-102S_refractor.jpg" target="_blank" rel="noopener noreferrer">Marie-Lan Nguyen ( Jastrow )</a> · CC BY 3.0 · <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noopener noreferrer">Licenza</a></li><li>Binocoli e cannocchiali: <a href="https://commons.wikimedia.org/wiki/File:Binocular_with_8x_magnification_and_42_mm_lens_diameter.jpg" target="_blank" rel="noopener noreferrer">Andreas Klehr</a> · CC BY-SA 4.0 · <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">Licenza</a></li><li>Cavalletti e supporti: <a href="https://commons.wikimedia.org/wiki/File:Canon_EOS_600D_on_tripod.jpg" target="_blank" rel="noopener noreferrer">Lionel Allorge</a> · CC BY-SA 3.0 · <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener noreferrer">Licenza</a></li><li>Montature e astroinseguitori: <a href="https://commons.wikimedia.org/wiki/File:Vixen_GP-DX_equatorial_mount.jpg" target="_blank" rel="noopener noreferrer">Marie-Lan Nguyen</a> · CC BY-SA 4.0 · <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">Licenza</a></li><li>Smart telescope: <a href="https://commons.wikimedia.org/wiki/File:Seestar_S50_smart_telescope.jpg" target="_blank" rel="noopener noreferrer">El Mexicano</a> · CC BY-SA 4.0 · <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">Licenza</a></li><li>Fissaggio e meccanica: <a href="https://commons.wikimedia.org/wiki/File:Nikon_Canon_adapter_ring.jpg" target="_blank" rel="noopener noreferrer">Marie-Lan Nguyen / Jastrow</a> · CC BY 2.5 · <a href="https://creativecommons.org/licenses/by/2.5/" target="_blank" rel="noopener noreferrer">Licenza</a></li><li>Oculari e accessori ottici: <a href="https://commons.wikimedia.org/wiki/File:Baader_Hyperion_21mm_eyepiece.jpg" target="_blank" rel="noopener noreferrer">Marie-Lan Nguyen</a> · CC BY-SA 4.0 · <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">Licenza</a></li><li>Focheggiatura e treno ottico: <a href="https://commons.wikimedia.org/wiki/File:Baader_Crayford_focuser_SCT.jpg" target="_blank" rel="noopener noreferrer">Marie-Lan Nguyen / Jastrow</a> · CC BY 2.5 · <a href="https://creativecommons.org/licenses/by/2.5/" target="_blank" rel="noopener noreferrer">Licenza</a></li><li>Camere e ripresa: <a href="https://commons.wikimedia.org/wiki/File:Canon_EOS_20Da.jpg" target="_blank" rel="noopener noreferrer">Flickr user joka2000</a> · CC BY-SA 4.0 · <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">Licenza</a></li><li>Collegamenti e alimentazione: <a href="https://commons.wikimedia.org/wiki/File:Usb_connectors.JPG" target="_blank" rel="noopener noreferrer">Viljo Viitanen</a> · CC BY-SA 4.0 · <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">Licenza</a></li><li>Controllo dello scatto: <a href="https://commons.wikimedia.org/wiki/File:Pocket_Shutter_sequencer.jpg" target="_blank" rel="noopener noreferrer">Marie-Lan Nguyen</a> · CC BY-SA 4.0 · <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">Licenza</a></li></ul><p>Miniature ritagliate mediante CSS. Fotografie di archivio e di componenti esemplificativi, senza raccomandazione commerciale.</p></details><div class="learning-columns"><article class="learning-article"><div class="learning-objective"><strong>Che cosa imparerai.</strong> Leggere i parametri di un’ottica, distinguere le montature, associare gli accessori a uno scopo e verificare una configurazione visuale o fotografica. I calcolatori servono a comprendere relazioni; non sostituiscono specifiche e manuali del proprio modello.</div><section id="telescopi" class="lesson-section"><h3>1. Il telescopio raccoglie luce prima di ingrandire</h3><p>Davanti a uno strumento nuovo, il primo numero che attira l’attenzione è spesso l’ingrandimento. Eppure il compito fondamentale del telescopio comincia altrove: intercettare luce e formare un’immagine sul piano focale. L’apertura è il diametro utile dell’obiettivo o dello specchio principale. A parità delle altre condizioni, un diametro maggiore raccoglie più luce e rende disponibile una risoluzione angolare migliore. Il vantaggio deve però attraversare atmosfera, meccanica e qualità ottica prima di arrivare al tuo occhio.</p><p>La focale descrive la scala dell’immagine formata. Una focale più lunga proietta lo stesso angolo del cielo su una dimensione lineare maggiore al piano focale. Il rapporto focale F/D confronta focale e apertura, usando le stesse unità. Un telescopio con F=1000 mm e D=200 mm è f/5. Il valore non esprime da solo quanto un’immagine visuale sia luminosa, perché in visuale intervengono anche ingrandimento e pupilla d’uscita.</p><figure class="lesson-photo"><img src="assets/lezioni/rifrattore.jpg" alt="Un rifrattore reale e i suoi elementi esterni" loading="lazy"><figcaption>Rifrattore fotografato a scopo documentativo. Il modello mostrato serve a riconoscere tubo, paraluce, focheggiatore e accessori: non è una proposta di acquisto né una garanzia di prestazione in ogni configurazione.<br><a href="https://commons.wikimedia.org/wiki/File:Takahashi_TSA-102S_refractor.jpg" target="_blank" rel="noopener noreferrer">Marie-Lan Nguyen ( Jastrow )</a> · CC BY 3.0 · <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noopener noreferrer">Licenza e condizioni</a></figcaption></figure><p>Nel rifrattore una lente o un gruppo di lenti forma l’immagine. Nel riflettore il ruolo principale spetta a uno specchio; in un Newton uno specchio secondario devia il fascio verso il focheggiatore laterale. I catadiottrici combinano elementi riflettenti e correttivi: una focale relativamente lunga può stare in un tubo compatto. Queste famiglie descrivono percorsi della luce, non una classifica assoluta. Apertura, ingombro, campo corretto, manutenzione ed equilibrio termico entrano nella scelta.</p><p>Una lente semplice non porta tutti i colori allo stesso fuoco: i rifrattori possono usare gruppi progettati per ridurre l’aberrazione cromatica. Un riflettore può avere ostruzione centrale e aberrazioni fuori asse; i correttori lavorano su problemi specifici. Nessuna etichetta rende un’ottica esente da ogni difetto. Impara a distinguere un errore di fuoco, un disallineamento e un limite atmosferico prima di giudicare lo strumento da una singola immagine.</p><aside class="course-curiosity"><h4>Curiosità: il dettaglio non cresce all’infinito</h4><p>Aumentare l’ingrandimento rende più grande ciò che l’ottica ha già formato. Se un particolare è stato confuso da diffrazione, seeing o difetti, una scala maggiore non lo ricostruisce. Lo stesso principio spiega perché ingrandire digitalmente una fotografia non crea automaticamente informazione nuova.</p></aside><p>Per un confronto iniziale, pensa alla superficie di raccolta come proporzionale a D² in un’apertura circolare libera. Raddoppiare il diametro significa quadruplicare l’area geometrica, non ottenere quattro volte la risoluzione né vedere ogni oggetto quattro volte meglio. Trasmissione, ostruzioni e contrasto richiedono ulteriori considerazioni. Nella prima scelta è spesso più utile uno strumento che puoi usare regolarmente di uno più grande che non riesci a montare o trasportare.</p><p class="lesson-reference">Riferimenti: <a href="https://www.treccani.it/enciclopedia/telescopio_(Dizionario-delle-Scienze-Fisiche)/" target="_blank" rel="noopener noreferrer">Treccani · Telescopio</a> · <a href="https://www.treccani.it/enciclopedia/telescopio_(Dizionario-delle-Scienze-Fisiche)/" target="_blank" rel="noopener noreferrer">Treccani · Telescopio e risoluzione</a></p></section><section id="binocoli" class="lesson-section"><h3>2. Due occhi, un campo ampio: leggere un binocolo</h3><p>Un binocolo può essere il primo strumento astronomico senza essere soltanto un passaggio provvisorio. Offre un campo ampio, permette di osservare con entrambi gli occhi e mantiene un legame immediato con le figure riconosciute a occhio nudo. Ammassi estesi, campi della Via Lattea e cambiamenti della Luna possono diventare esperienze molto istruttive. Non aspettarti invece che un piccolo binocolo mostri i dettagli planetari di un telescopio ad alto ingrandimento.</p><figure class="lesson-photo"><img src="assets/lezioni/binocolo.jpg" alt="Un binocolo con ingrandimento e diametro dichiarati" loading="lazy"><figcaption>Binocolo 8×42: il primo numero è l’ingrandimento, il secondo il diametro degli obiettivi in millimetri. La fotografia mostra un modello reale, utilizzato soltanto come esempio di lettura delle caratteristiche.<br><a href="https://commons.wikimedia.org/wiki/File:Binocular_with_8x_magnification_and_42_mm_lens_diameter.jpg" target="_blank" rel="noopener noreferrer">Andreas Klehr</a> · CC BY-SA 4.0 · <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">Licenza e condizioni</a></figcaption></figure><p>La sigla 8×42 indica otto ingrandimenti e obiettivi da 42 mm. Il rapporto D/M fornisce la pupilla d’uscita geometrica: qui 5,25 mm. È il diametro del fascio che emerge dall’oculare. La pupilla del tuo occhio non ha una dimensione universale: dipende da luce, età e condizioni individuali. Se il fascio è più largo della pupilla disponibile, una parte della luce non entra nell’occhio e l’apertura effettivamente usata si riduce.</p><p>Il campo reale, dichiarato in gradi o come ampiezza a una distanza, indica quanto panorama rientra nella visione. Leggi anche distanza pupillare, estrazione pupillare, massa e regolazioni. Se porti occhiali, la comodità dipende da quanto puoi avvicinare gli occhi senza perdere il campo; se i due occhi richiedono correzioni differenti, la regolazione diottrica va impostata secondo il manuale. Un’immagine sdoppiata persistente non deve essere compensata sforzando la vista.</p><p>La stabilità è decisiva. Un ingrandimento maggiore amplifica anche il movimento delle mani. Appoggiare i gomiti, usare una seduta o un supporto adatto può rivelare stelle che a mano libera erano nascoste dal tremolio. Un binocolo pesante o ad alto ingrandimento può richiedere una montatura dedicata. Non valutare la comodità soltanto guardando diritto davanti a te: prova una direzione alta, dove posizione del collo e altezza del supporto diventano evidenti.</p><form class="course-quiz" data-answer="1"><fieldset><legend>Che cosa significa 10×50?</legend><label><input type="radio" name="s-binocolo" value="0"> <span>Dieci centimetri di focale e cinquanta ingrandimenti</span></label><label><input type="radio" name="s-binocolo" value="1"> <span>Dieci ingrandimenti e obiettivi da 50 mm</span></label><label><input type="radio" name="s-binocolo" value="2"> <span>Un campo di dieci gradi e una massa di 50 g</span></label></fieldset><div class="quiz-actions"><button type="submit">Verifica e comprendi</button><button type="reset">Riprova</button></div><p class="quiz-feedback" aria-live="polite"></p><details class="quiz-solution"><summary>Leggi la spiegazione</summary><p>La sigla combina ingrandimento e diametro degli obiettivi. Il campo reale è un’altra caratteristica, che deve essere dichiarata separatamente.</p></details></form><p>Prima di cercare una nebulosa, impara a rendere comoda la visione. Regola la distanza fra i due tubi finché percepisci un unico campo circolare; imposta poi il fuoco e la compensazione diottrica nella sequenza indicata dal costruttore. La regolazione diottrica compensa una differenza fra i due occhi, mentre la messa a fuoco porta il bersaglio alla distanza ottica corretta. Su modelli a fuoco individuale la procedura è diversa: una sola manopola centrale non è una caratteristica universale.</p><p>I prismi raddrizzano l’immagine e ripiegano il percorso della luce. Nei binocoli a prismi di Porro i tubi hanno spesso un profilo sfalsato; nei modelli a tetto il corpo può essere più lineare. La forma non basta a stabilire qualità o luminosità: contano progetto, trattamenti, allineamento e comfort. Verifica una stella al centro e poi verso il bordo, senza confondere la perdita di nitidezza fuori asse con il tremolio delle mani.</p><p>Confronta un 8×42 e un 10×50 attraverso una domanda concreta: riesci a riconoscere meglio le stelle deboli del medesimo ammasso? Le pupille geometriche sono simili, 5,25 e 5 mm; il secondo offre scala maggiore e più apertura, ma richiede maggiore stabilità. Non basta confrontare i numeri stampati: ripeti l’osservazione appoggiato e a mano libera. Il miglioramento ottenuto dal supporto può essere più evidente della differenza fra i due strumenti.</p><aside class="course-curiosity"><h4>Esperimento: un dettaglio alla volta</h4><p>Scegli la stessa regione lontana dal Sole. Per trenta secondi osserva a mano libera, poi ripeti con i gomiti appoggiati o con un supporto compatibile. Annota quante stelle riconosci con sicurezza e quanto è facile ritrovarle. Ripeti la sequenza invertendo l’ordine: l’esperienza acquisita nella prima osservazione può influenzare il confronto.</p></aside><p class="lesson-reference">Riferimenti: <a href="https://www.treccani.it/enciclopedia/binocolo/" target="_blank" rel="noopener noreferrer">Treccani · Binocolo</a> · <a href="https://science.nasa.gov/solar-system/skywatching/night-sky-network/binoculars-a-great-first-telescope/" target="_blank" rel="noopener noreferrer">NASA · Binoculars: A Great First Telescope</a></p></section><section id="supporti" class="lesson-section"><h3>3. La stabilità è una prestazione osservativa</h3><p>Lo strumento sembra fermo quando nessuno lo tocca; appena regoli il fuoco, però, l’immagine comincia a oscillare. Questa scena mostra perché il supporto non è un accessorio marginale. Treppiede, testa, montatura e terreno formano una struttura elastica. La vibrazione dipende dalla massa, dalle leve, dalla distribuzione del carico e dal modo in cui il sistema smorza il movimento. Una capacità dichiarata in chilogrammi non racconta da sola tutte queste condizioni.</p><p>Estendere molto le gambe può ridurre la rigidità; appoggiarle su una superficie che flette introduce un’altra sorgente di movimento. Il vento agisce su tubo, paraluce e cavi, non soltanto sul peso verticale. In fotografia anche piccoli spostamenti contano durante una posa. In visuale puoi attendere che una vibrazione si smorzi; in una ripresa lunga la stessa oscillazione può lasciare una traccia irreversibile nel fotogramma.</p><p>Prepara il terreno e verifica i serraggi secondo il manuale. Non stringere qualunque parte con la massima forza possibile: alcune regolazioni hanno limiti e componenti delicati. Il livellamento può essere richiesto per determinate procedure, ma non rende da solo una montatura equatoriale allineata al polo. Conserva la distinzione fra base stabile, geometria degli assi e modello di puntamento del software.</p><p>Osserva come cambia l’immagine quando tocchi il focheggiatore, quando appoggi un piede vicino al supporto e quando passa una raffica. Questi confronti aiutano a individuare la sorgente, purché il bersaglio e l’ingrandimento restino gli stessi. Se la vibrazione nasce dal balcone, cambiare soltanto l’oculare non risolve la struttura; se nasce da un cavo teso, puoi migliorare il risultato organizzandone il percorso.</p><aside class="course-curiosity"><h4>Prova guidata</h4><p>Su una stella luminosa, a un ingrandimento moderato, esegui una piccola regolazione del fuoco e osserva il tempo di stabilizzazione. Ripeti dopo aver accorciato il treppiede, se il modello lo permette. Annota la differenza senza trasformarla in una portata certificata: è un confronto della tua postazione.</p></aside><p>La testa governa il movimento; le gambe sostengono la base. Una testa fotografica può funzionare bene a bassa altezza ma rendere scomodo un binocolo rivolto vicino allo zenit. Una colonna molto estratta aumenta l’altezza e spesso anche la flessibilità. Un parallelogramma ben bilanciato consente di variare la quota dell’oculare conservando approssimativamente il puntamento: è utile quando più persone osservano, ma richiede spazio e carichi previsti dal progetto.</p><p>Prima del buio prova tutta l’escursione necessaria. Controlla se tubo, contrappesi o cavi possono incontrare gambe e accessori. Un carico appeso al treppiede non è una soluzione universale: se oscilla al vento può peggiorare la stabilità. La scelta efficace deriva da una prova controllata, dal manuale e dal terreno, non da una portata nominale letta isolatamente.</p><figure class="lesson-photo"><img src="assets/lezioni/cavalletto.jpg" alt="Testa fotografica e gambe di un treppiede" loading="lazy"><figcaption>Esempio documentativo di supporto fotografico: la geometria di testa, colonna e gambe è distinta dall’elettronica della camera. La fotografia d’archivio non rappresenta una selezione dei modelli più recenti.<br><a href="https://commons.wikimedia.org/wiki/File:Canon_EOS_600D_on_tripod.jpg" target="_blank" rel="noopener noreferrer">Lionel Allorge</a> · CC BY-SA 3.0 · <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener noreferrer">Licenza e condizioni</a></figcaption></figure><p class="lesson-reference">Riferimenti: <a href="https://skywatcher.com/download/manual/goto-mounts/" target="_blank" rel="noopener noreferrer">Sky-Watcher · Manuali ufficiali delle montature</a></p></section><section id="montature" class="lesson-section"><h3>4. Puntare e inseguire sono due compiti differenti</h3><p>La montatura permette di orientare il tubo e di mantenerlo diretto verso un bersaglio. Puntare significa raggiungere una direzione; inseguire significa compensarne il cambiamento nel tempo. Un sistema può eseguire bene una di queste operazioni e richiedere ancora lavoro sull’altra. La rotazione terrestre resta presente anche quando il bersaglio appare fermo al centro di un’immagine seguita automaticamente.</p><figure class="lesson-basic"><a href="assets/lezioni/montature-base.svg"><img src="assets/lezioni/montature-base.svg" alt="Orientamento degli assi altazimutali ed equatoriali" loading="lazy"></a><figcaption>Schema qualitativo: l’altazimutale usa un asse verticale e uno orizzontale; l’equatoriale usa un asse polare e uno perpendicolare. Non è un manuale di assemblaggio. <a href="assets/lezioni/montature-base.svg">Apri lo schema intero</a>.</figcaption></figure><figure class="lesson-photo"><img src="assets/lezioni/montatura.jpg" alt="Montatura equatoriale tedesca con contrappeso" loading="lazy"><figcaption>Una montatura reale permette di riconoscere assi, contrappeso e base. La presenza di scale non garantisce da sola un puntamento preciso: occorrono preparazione e procedura coerenti con il modello.<br><a href="https://commons.wikimedia.org/wiki/File:Vixen_GP-DX_equatorial_mount.jpg" target="_blank" rel="noopener noreferrer">Marie-Lan Nguyen</a> · CC BY-SA 4.0 · <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">Licenza e condizioni</a></figcaption></figure><p>Nell’altazimutale i due movimenti corrispondono intuitivamente a direzione lungo l’orizzonte e altezza. Per seguire una stella durante la notte devono essere normalmente coordinati. Un Dobson è una soluzione altazimutale pratica per molti impieghi visuali. La geometria può produrre rotazione del campo rispetto al sensore durante l’inseguimento: per pose lunghe si considera una montatura equatoriale oppure una derotazione appropriata, non soltanto la presenza di motori.</p><p>Nell’equatoriale l’asse polare viene orientato parallelamente all’asse terrestre. All’emisfero boreale il polo è sopra l’orizzonte nord a un’altezza pari alla latitudine nel modello geometrico. Una volta raggiunta la direzione della stella, l’inseguimento siderale avviene principalmente ruotando quell’asse. La Polare è vicina al polo, ma non coincide con esso: puntare il tubo alla stella non è la stessa cosa che allineare l’asse meccanico.</p><p>GoTo, motorizzazione, guida e allineamento polare risolvono problemi differenti. Il GoTo usa un modello per raggiungere un oggetto; il motore produce movimento; la guida misura e corregge deviazioni; l’allineamento definisce la geometria rispetto alla Terra. Non usare questi nomi come sinonimi. Per i principi geometrici torna alla <a href="strumentazione.html#montature">lezione sulle coordinate</a>.</p><form class="course-quiz" data-answer="1"><fieldset><legend>Hai acceso il GoTo: l’allineamento polare è automaticamente inutile?</legend><label><input type="radio" name="s-montatura" value="0"> <span>Sì, il software sostituisce l’orientamento degli assi</span></label><label><input type="radio" name="s-montatura" value="1"> <span>No: puntamento e allineamento risolvono problemi diversi</span></label><label><input type="radio" name="s-montatura" value="2"> <span>Sì, se il telescopio ha una focale corta</span></label></fieldset><div class="quiz-actions"><button type="submit">Verifica e comprendi</button><button type="reset">Riprova</button></div><p class="quiz-feedback" aria-live="polite"></p><details class="quiz-solution"><summary>Leggi la spiegazione</summary><p>Un buon modello di puntamento non rende necessariamente l’asse polare parallelo a quello terrestre. Le esigenze dipendono dalla geometria e dall’impiego, soprattutto durante una lunga ripresa.</p></details></form><figure class="mount-explorer" data-mount-explorer>
+<h4>Riconosci gli assi, poi confronta il movimento</h4>
+<div class="mount-buttons"><button type="button" data-mount="ra" aria-pressed="true">Equatoriale · asse AR</button><button type="button" data-mount="dec" aria-pressed="false">Equatoriale · declinazione</button><button type="button" data-mount="altaz" aria-pressed="false">Altazimutale · due movimenti</button></div>
+<svg data-mount-photo viewBox="0 0 1000 751" role="img" aria-label="Foto di una montatura equatoriale con assi meccanici evidenziati"><defs><marker id="mount-arrow-ra" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0 0L6 3L0 6" fill="none" stroke="#66dbff" stroke-width="2"/></marker><marker id="mount-arrow-dec" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0 0L6 3L0 6" fill="none" stroke="#ffe190" stroke-width="2"/></marker></defs><image href="assets/lezioni/postazione-equatoriale-2024.jpg" width="1000" height="751"/><path data-mount-ra d="M560 576L410 485L235 379" stroke="#66dbff" stroke-width="6" fill="none" marker-end="url(#mount-arrow-ra)"/><path data-mount-dec d="M315 595L440 380L485 303" stroke="#ffe190" stroke-width="6" fill="none" marker-end="url(#mount-arrow-dec)" style="display:none"/></svg>
+<svg data-mount-altaz hidden style="display:none" viewBox="0 0 640 470" role="img" aria-label="Schema altazimutale, asse verticale di azimut e asse orizzontale di altezza"><defs><marker id="mount-arrow-az" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0 0L6 3L0 6" fill="none" stroke="#2473a4" stroke-width="2"/></marker></defs><rect width="640" height="470" fill="#eef4f8" rx="16"/><path d="M320 315L245 430M320 315L395 430M320 315V440" stroke="#6a7d90" stroke-width="12"/><path d="M320 315V205" stroke="#173b59" stroke-width="22"/><path d="M228 260L412 137" stroke="#314f6f" stroke-width="42"/><path d="M228 251L398 137" stroke="#c6d7e7" stroke-width="12"/><circle cx="320" cy="205" r="12" fill="#e0b453"/><path d="M320 340V50" stroke="#2473a4" stroke-dasharray="9 8" stroke-width="3" marker-end="url(#mount-arrow-az)"/><path d="M253 335C145 286 490 272 402 336" fill="none" stroke="#2473a4" stroke-width="4" marker-end="url(#mount-arrow-az)"/><path d="M402 245A92 92 0 0 0 333 115" stroke="#ae771b" stroke-width="4" fill="none"/><g font-family="Arial,sans-serif" font-size="21" fill="#173b59"><text x="347" y="65">Asse verticale</text><text x="370" y="372">Azimut</text><text x="445" y="170">Altezza</text><text x="22" y="463" font-size="16">Il perno orizzontale è visto di fronte; schema non in scala.</text></g></svg>
+<p data-mount-reading aria-live="polite">Azzurro: asse AR, diretto verso il polo celeste dopo l’allineamento. La Polare è un riferimento vicino al polo, non la sua posizione esatta.</p>
+<figcaption>Foto 2 ottobre 2024: <a href="https://commons.wikimedia.org/wiki/File:PXL_20241002_110953897.MP_(54062297694).jpg" target="_blank" rel="noopener noreferrer">Brandon Ghany / Horizon Productions SFL</a>, <a href="https://creativecommons.org/publicdomain/mark/1.0/">Public Domain Mark, dichiarazione dell’autore</a>. Frecce sovrapposte e schema altazimutale AD ASTRA: indicazioni qualitative degli assi proiettati; non misurano la precisione di allineamento.</figcaption></figure><p>Nella foto, la freccia azzurra prolunga la direzione dell’asse polare della montatura; quella dorata segue l’asse di declinazione e il contrappeso. Il tubo può puntare altrove: non deve restare parallelo all’asse polare durante l’osservazione. Le frecce sono indicazioni sulla proiezione fotografica, non una misura dell’allineamento della postazione ripresa. Non possiamo ricavare dalla sola foto il suo errore polare.</p><p>L’ascensione retta è una coordinata del cielo; l’asse chiamato AR compensa la rotazione apparente attraverso una variazione dell’angolo orario. Seguendo una stella, la sua ascensione retta resta quasi costante nell’intervallo della serata, mentre cambia l’angolo orario. La declinazione serve a scegliere il parallelo celeste. Questa distinzione spiega perché inseguire non significhi cambiare continuamente le coordinate di catalogo del bersaglio.</p><form class="course-quiz" data-answer="1"><fieldset><legend>Hai puntato Saturno con una montatura equatoriale allineata: dove resta diretto l’asse polare?</legend><label><input type="radio" name="s-assi" value="0"> <span>Verso Saturno, insieme al tubo</span></label><label><input type="radio" name="s-assi" value="1"> <span>Parallelamente all’asse terrestre, verso il polo celeste</span></label><label><input type="radio" name="s-assi" value="2"> <span>Sempre verso lo zenit</span></label></fieldset><div class="quiz-actions"><button type="submit">Verifica e comprendi</button><button type="reset">Riprova</button></div><p class="quiz-feedback" aria-live="polite"></p><details class="quiz-solution"><summary>Leggi la spiegazione</summary><p>Il tubo cambia puntamento ruotando sui due assi. L’orientamento della base equatoriale rispetto al polo resta quello impostato: tubo e asse polare hanno funzioni differenti.</p></details></form><p class="lesson-reference">Riferimenti: <a href="https://skywatcher.com/download/manual/goto-mounts/" target="_blank" rel="noopener noreferrer">Sky-Watcher · Manuali ufficiali delle montature</a> · <a href="https://static.treccani.it/export/sites/default/Portale/resources/multimedia/Lezioni_Astrofisica/Coordinate/Lezione.pdf" target="_blank" rel="noopener noreferrer">Treccani · Coordinate astronomiche, PDF</a></p></section><section id="smart-telescope" class="lesson-section"><h3>5. Smart telescope: comprendere una postazione integrata</h3><p>Immagina una serata in cui lo strumento riconosce il campo stellare, raggiunge un bersaglio e aggiorna sullo schermo un’immagine che diventa progressivamente più leggibile. Il primo risultato può arrivare senza costruire un treno ottico separato e senza regolare manualmente ogni operazione. Per capire quello che stai osservando, però, è utile ricostruire la catena nascosta dentro la scatola: ottica, sensore, motori, elaborazione e interfaccia continuano a svolgere funzioni differenti.</p><figure class="lesson-photo"><img src="assets/lezioni/smart-seestar-s50.jpg" alt="Uno smart telescope Seestar S50 all’aperto su un treppiede" loading="lazy"><figcaption>Fotografia documentativa del 12 agosto 2025. Il Seestar S50 è un esempio concreto di strumento integrato; il modello fotografato non rappresenta tutti gli smart telescope. Immagine intera, senza ricostruzioni generate.<br><a href="https://commons.wikimedia.org/wiki/File:Seestar_S50_smart_telescope.jpg" target="_blank" rel="noopener noreferrer">El Mexicano</a> · CC BY-SA 4.0 · <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">Licenza e condizioni</a></figcaption></figure><p>Uno smart telescope riunisce normalmente un sistema ottico, una camera, una montatura motorizzata e un computer di controllo. Il dispositivo può gestire puntamento, messa a fuoco e combinazione delle immagini attraverso un’applicazione. Le funzioni disponibili variano con modello, accessori e versione del software. Non è sufficiente la parola “smart” per dedurre apertura, campo, qualità del sensore, presenza di un oculare o possibilità di esportare i dati originali.</p><p>La distinzione più utile è fra esperienza visuale e osservazione assistita dal sensore. Quando l’immagine arriva da una camera e si accumula sullo schermo, la sua leggibilità dipende anche da esposizione ed elaborazione. Una nebulosa colorata sul telefono non descrive automaticamente ciò che vedresti a occhio attraverso un piccolo telescopio. Entrambe le esperienze possono essere interessanti: bisogna sapere quale informazione produce lo strumento e come viene rappresentata.</p><aside class="course-curiosity"><h4>Prima domanda: dove nasce l’immagine?</h4><p>Segui il percorso ottica → sensore → immagini singole → allineamento → combinazione → visualizzazione. A ogni passaggio chiediti quale informazione viene registrata e quale viene trasformata. Lo schermo non è la finestra di un oculare: mostra un risultato elaborato.</p></aside><p>Il riconoscimento del campo, spesso chiamato plate solving, confronta le posizioni delle stelle nell’immagine con un catalogo. Serve a ricostruire dove sta guardando la camera. Non dimostra da solo che la montatura sia allineata al polo, che l’inseguimento sia perfetto o che il bersaglio presenti dettaglio sufficiente. Un campo coperto da nubi, troppo povero di stelle o attraversato da ostacoli può rendere più difficile il riconoscimento. Per questo luogo e cielo rimangono parte della postazione anche quando il puntamento è automatico.</p><p>Dopo aver raggiunto il bersaglio, lo strumento può acquisire immagini successive e combinarle. In un caso ideale, molte misure indipendenti permettono di distinguere meglio un segnale debole dal rumore casuale. L’operazione non aggiunge apertura all’ottica e non garantisce la rimozione di ogni difetto. Fuoco errato, saturazione, gradienti luminosi, vibrazioni e errori sistematici richiedono controlli specifici. L’automazione rende più agevoli alcuni passaggi, ma non modifica le cause fisiche che limitano la ripresa.</p><p>Molti sistemi compatti lavorano con una geometria altazimutale. Per seguire un astro variano altezza e azimut, mentre l’orientamento del campo può cambiare rispetto alle stelle. È la rotazione di campo: mantenere il bersaglio vicino al centro e mantenere tutto il fotogramma orientato nello stesso modo sono due problemi diversi. Un programma può riallineare immagini successive; se il singolo fotogramma contiene già una scia o è mosso, il riallineamento non lo rende automaticamente equivalente a una posa nitida.</p><figure class="course-lab smart-registration" data-smart-registration><div class="smart-panels"><div><h4>Scatti sovrapposti</h4><svg viewBox="0 35 350 230" role="img" aria-labelledby="smart-field-raw-title smart-field-raw-desc"><title id="smart-field-raw-title">Scatti sovrapposti</title><desc id="smart-field-raw-desc">Blu: primo scatto, oro: secondo scatto. Posizioni sintetiche; gli orientamenti cambiano con i comandi del laboratorio.</desc><defs><clipPath id="smart-field-raw-clip"><rect x="35" y="50" width="280" height="200"/></clipPath></defs><rect x="35" y="50" width="280" height="200" rx="8" fill="#112840"/><g clip-path="url(#smart-field-raw-clip)"><g fill="#75bdf0"><circle cx="105" cy="95" r="5"/><circle cx="255" cy="115" r="5"/><circle cx="175" cy="150" r="6"/><circle cx="220" cy="215" r="4"/><circle cx="95" cy="195" r="4"/></g><g data-smart-rotating transform="rotate(20 175 150)" fill="#f1c65c"><circle cx="105" cy="95" r="3"/><circle cx="255" cy="115" r="3"/><circle cx="175" cy="150" r="4"/><circle cx="220" cy="215" r="2"/><circle cx="95" cy="195" r="2"/></g></g></svg></div><div><h4>Registrazione</h4><svg viewBox="0 35 350 230" role="img" aria-labelledby="smart-field-aligned-title smart-field-aligned-desc"><title id="smart-field-aligned-title">Registrazione</title><desc id="smart-field-aligned-desc">Blu: primo scatto, oro: secondo scatto. Posizioni sintetiche; gli orientamenti cambiano con i comandi del laboratorio.</desc><defs><clipPath id="smart-field-aligned-clip"><rect x="35" y="50" width="280" height="200"/></clipPath></defs><rect x="35" y="50" width="280" height="200" rx="8" fill="#112840"/><g clip-path="url(#smart-field-aligned-clip)"><g fill="#75bdf0"><circle cx="105" cy="95" r="5"/><circle cx="255" cy="115" r="5"/><circle cx="175" cy="150" r="6"/><circle cx="220" cy="215" r="4"/><circle cx="95" cy="195" r="4"/></g><g data-smart-aligned transform="rotate(0 175 150)" fill="#f1c65c"><circle cx="105" cy="95" r="3"/><circle cx="255" cy="115" r="3"/><circle cx="175" cy="150" r="4"/><circle cx="220" cy="215" r="2"/><circle cx="95" cy="195" r="2"/></g></g></svg></div></div><p class="smart-legend">Blu: primo scatto · Oro: secondo scatto.</p><div class="notebook-grid"><label>Rotazione dimostrativa fra scatti <input type="range" min="0" max="40" step="1" value="20" data-smart-angle><output data-smart-angle-label>20°</output></label><label><input type="checkbox" data-smart-register checked> Riallinea il secondo scatto</label></div><button type="button" data-smart-reset>Ripristina il confronto</button><p data-smart-reading aria-live="polite"></p><figcaption>Schema originale AD ASTRA: stelle sintetiche, rotazione amplificata per rendere leggibile il fenomeno. Scatti idealmente istantanei e sola rotazione nel piano: niente rumore, distorsioni, rifrazione o mosso durante l’esposizione. Non è una simulazione delle prestazioni di un modello commerciale.</figcaption></figure><p>Nel confronto disattiva il riallineamento, cambia l’angolo e osserva soprattutto le stelle lontane dal centro. Poi attiva la registrazione. La stella centrale può coincidere già prima, mentre le altre si spostano: un centro stabile non prova che l’intero campo mantenga orientamento costante. Le aree ai bordi non rimangono necessariamente comuni a tutti gli scatti; in una ripresa reale la registrazione può comportare margini irregolari o ritagli. Lo schema mostra la geometria, non il modo specifico in cui un’app decide di esportare il risultato.</p><p>Alcuni strumenti offrono anche una modalità equatoriale con un supporto e una procedura adatti. Non bisogna dedurla da una recensione di un altro modello o da una vecchia FAQ. Per il sistema illustrato, il produttore pubblica un tutorial dedicato alla modalità equatoriale: la procedura riguarda l’orientamento e la stabilità dell’insieme, non una semplice impostazione capace di correggere qualsiasi montaggio. Consulta la documentazione della versione usata e verifica peso, fissaggio e disposizione del treppiede; inclinare uno strumento cambia anche il suo equilibrio meccanico.</p><p>Prima di programmare una sessione, scegli un bersaglio compatibile con campo e scala dell’immagine. Un oggetto esteso può richiedere un mosaico, se il sistema lo supporta; un pianeta piccolo non acquista dettaglio soltanto perché il software ne riconosce il nome. L’interesse didattico di questi strumenti comprende proprio il confronto fra obiettivo, campo, risoluzione e durata dell’integrazione. Non esiste una configurazione che renda ugualmente favorevoli galassie, Luna, pianeti e grandi porzioni di Via Lattea.</p><p>Per proseguire nell’elaborazione, controlla quali file puoi conservare e trasferire. Una fotografia pronta per la condivisione e una sequenza di dati originali hanno ruoli differenti. Formato, calibrazione già eseguita, metadati, singoli fotogrammi e immagine integrata dipendono dal dispositivo. Conservare il prodotto sul telefono non dimostra automaticamente che siano stati salvati anche tutti i file scientifici: verifica l’esportazione effettiva prima di una serata importante.</p><form class="course-quiz" data-answer="1"><fieldset><legend>Il bersaglio rimane al centro, ma le stelle periferiche cambiano orientamento. Quale conclusione è corretta?</legend><label><input type="radio" name="smart-center" value="0"> <span>Il sensore ha cambiato focale</span></label><label><input type="radio" name="smart-center" value="1"> <span>Può esserci rotazione di campo anche con il centro stabile</span></label><label><input type="radio" name="smart-center" value="2"> <span>Il cielo ha smesso di ruotare</span></label></fieldset><div class="quiz-actions"><button type="submit">Verifica e comprendi</button><button type="reset">Riprova</button></div><p class="quiz-feedback" aria-live="polite"></p><details class="quiz-solution"><summary>Leggi la spiegazione</summary><p>Centrare il bersaglio e mantenere l’orientamento del campo sono problemi diversi. La registrazione può riallineare scatti successivi, ma non elimina automaticamente il mosso contenuto in una singola esposizione.</p></details></form><form class="course-quiz" data-answer="0"><fieldset><legend>Vuoi rielaborare la ripresa: quale verifica è più utile?</legend><label><input type="radio" name="smart-data" value="0"> <span>Controllare file esportabili, metadati e operazioni già applicate</span></label><label><input type="radio" name="smart-data" value="1"> <span>Conservare soltanto lo screenshot più colorato</span></label><label><input type="radio" name="smart-data" value="2"> <span>Supporre che ogni smart telescope produca gli stessi dati</span></label></fieldset><div class="quiz-actions"><button type="submit">Verifica e comprendi</button><button type="reset">Riprova</button></div><p class="quiz-feedback" aria-live="polite"></p><details class="quiz-solution"><summary>Leggi la spiegazione</summary><p>Verifica dati e versione della procedura. Screenshot, immagine integrata e singoli fotogrammi non sono prodotti equivalenti.</p></details></form><aside class="course-curiosity"><h4>Una piccola indagine, prima e dopo la serata</h4><p>Annota bersaglio, luogo, orario, versione dell’app, durata di acquisizione e condizioni. Prevedi quale miglioramento ti aspetti con più immagini e controlla se compare davvero. Se non compare, cerca una causa osservativa o tecnica prima di aumentare soltanto il tempo.</p></aside><p>Lo smart telescope può essere un ponte fra prima osservazione e studio dei dati, anche quando non si vuole montare una postazione modulare. Per utilizzarlo con consapevolezza, torna ai principi delle coordinate, della luce e del sensore. Per osservare il Sole servono comunque filtro e procedura specificamente approvati per l’ottica: la presenza di una modalità nell’app non rende sicuro un dispositivo privo della protezione corretta.</p><p>Continua con <a href="astrofotografia.html#elaborazione">segnale, rumore e integrazione</a> e con <a href="software.html">le funzioni dei programmi di elaborazione</a>. Per il bersaglio della serata, confronta <a href="cielo-del-mese.html">la carta del cielo del mese</a> e <a href="effemeridi.html">le effemeridi locali</a>.</p><p class="lesson-reference">Riferimenti: <a href="https://us.seestar.com/blogs/tutorial/equatorial-mode" target="_blank" rel="noopener noreferrer">Seestar/ZWO · Tutorial ufficiale della modalità equatoriale</a> · <a href="https://eclipse.aas.org/eye-safety" target="_blank" rel="noopener noreferrer">AAS · Sicurezza nell’osservazione solare</a></p></section><section id="meccanica" class="lesson-section"><h3>6. Fissare non significa soltanto far combaciare</h3><p>Anelli, barre, morsetti e adattatori collegano parti che hanno masse e leve differenti. Un raccordo può avere il diametro giusto ma una battuta insufficiente, una filettatura diversa o una lunghezza che modifica il treno ottico. Prima di assemblare identifica standard, passo, profondità utile e modalità di bloccaggio. Non dedurre la compatibilità soltanto dall’aspetto di due pezzi o da un nome commerciale simile.</p><figure class="lesson-photo"><img src="assets/lezioni/adattatore.jpg" alt="Un anello adattatore reale" loading="lazy"><figcaption>Esempio fotografico di raccordo fra sistemi. L’immagine serve a riconoscere filettature e battute: la compatibilità della tua postazione va verificata sulle specifiche dei componenti effettivi.<br><a href="https://commons.wikimedia.org/wiki/File:Nikon_Canon_adapter_ring.jpg" target="_blank" rel="noopener noreferrer">Marie-Lan Nguyen / Jastrow</a> · CC BY 2.5 · <a href="https://creativecommons.org/licenses/by/2.5/" target="_blank" rel="noopener noreferrer">Licenza e condizioni</a></figcaption></figure><p>Il baricentro della configurazione cambia quando aggiungi camera, diagonale, cercatore o ruota portafiltri. Il bilanciamento deve riferirsi alla postazione completa e seguire le indicazioni del produttore. Non liberare un asse senza mantenere il controllo del carico, e non considerare il contrappeso una decorazione. La sua posizione modifica il momento rispetto all’asse, non soltanto il peso complessivo.</p><p>Un componente fissato male può scivolare; un fissaggio molto lungo o flessibile può cambiare posizione durante il movimento. Nelle riprese, flessioni relative fra telescopio principale e sistema di guida possono produrre errori anche se la guida sembra precisa. La stabilità deve attraversare tutti i collegamenti. Riduci le parti inutili, evita cavi che tirano e controlla il serraggio dopo avere modificato la configurazione.</p><p>La pulizia meccanica e la protezione delle superfici ottiche sono lavori differenti. Non usare un prodotto adatto a una filettatura come detergente per una lente. Conserva tappi e accessori in modo ordinato e intervieni sulle ottiche soltanto con materiali e procedure appropriate. Una piccola quantità di polvere visibile non è automaticamente una ragione per smontare un sistema che funziona.</p><p class="lesson-reference">Riferimenti: <a href="https://skywatcher.com/download/manual/goto-mounts/" target="_blank" rel="noopener noreferrer">Sky-Watcher · Manuali ufficiali delle montature</a></p></section><section id="oculari" class="lesson-section"><h3>7. L’oculare cambia il modo di leggere l’immagine</h3><p>Il telescopio forma l’immagine; l’oculare la presenta all’occhio con una certa scala apparente. Nel modello semplice l’ingrandimento è M=F/f, dove F è la focale del telescopio e f quella dell’oculare. Con 1000 mm e un oculare da 25 mm ottieni 40×. Sostituendo l’oculare con uno da 10 mm ottieni 100×. Le unità devono essere coerenti, e accessori come una Barlow modificano la focale effettiva da considerare.</p><figure class="lesson-photo"><img src="assets/lezioni/oculare.jpg" alt="Un oculare astronomico fotografato" loading="lazy"><figcaption>L’oculare è un sistema ottico progettato: focale, campo apparente, estrazione pupillare e diametro del barilotto descrivono aspetti diversi. Il modello illustrato è soltanto un esempio reale.<br><a href="https://commons.wikimedia.org/wiki/File:Baader_Hyperion_21mm_eyepiece.jpg" target="_blank" rel="noopener noreferrer">Marie-Lan Nguyen</a> · CC BY-SA 4.0 · <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">Licenza e condizioni</a></figcaption></figure><figure class="course-lab" data-practical="eyepiece"><svg viewBox="0 0 760 380" role="img" aria-label="Campo visuale e diametro lunare apparente"><defs><clipPath id="eyepiece-field"><circle cx="190" cy="185" r="145"/></clipPath></defs><circle cx="190" cy="185" r="145" fill="#09182a"/><g clip-path="url(#eyepiece-field)"><svg data-moon viewBox="0 0 100 100"><circle cx="50" cy="50" r="49" fill="#dbe4ec"/><path d="M15 50H85M50 15V85" stroke="#97aabd" stroke-width="1.5"/></svg></g><g font-family="Arial" font-size="20" fill="#15385a"><text x="365" y="100" data-mag></text><text x="365" y="140" data-pupil></text><text x="365" y="180" data-field></text><text x="365" y="220" data-ratio></text><text x="45" y="363" font-size="16">Bersaglio circolare convenzionale di 0,5° · Schema AD ASTRA</text></g></svg><div class="notebook-grid"><label>Apertura D (mm)<input data-optics="D" type="number" min="30" max="600" value="150" step="10"></label><label>Focale F (mm)<input data-optics="F" type="number" min="100" max="5000" value="750" step="50"></label><label>Focale oculare f (mm)<input data-optics="f" type="number" min="2" max="80" value="25" step="1"></label><label>Campo apparente (gradi)<input data-optics="afov" type="number" min="30" max="120" value="60" step="5"></label></div><p data-reading aria-live="polite"></p><figcaption>M=F/f; pupilla D/M; campo reale≈campo apparente/M. La visualizzazione confronta una scala angolare, non simula dettagli garantiti all’oculare. Bersaglio geometrico originale: diametro simile a quello apparente della Luna, senza rappresentarne la superficie.</figcaption></figure><p>La pupilla d’uscita è D/M, nel modello geometrico. Con apertura da 200 mm e 100× vale 2 mm. Un ingrandimento alto produce una pupilla piccola; gli oggetti estesi risultano meno luminosi per unità di area apparente, mentre la loro immagine è più grande. Un equilibrio favorevole dipende dal dettaglio, dall’occhio e dalla serata. La frase “più ingrandimenti uguale migliore” ignora questo confronto.</p><p>Il campo reale si può stimare come campo apparente dell’oculare diviso M, ma è un’approssimazione. Per un calcolo più accurato si usa il diaframma di campo e si considera il progetto ottico. Due oculari con la stessa focale possono avere campi apparenti e comodità molto differenti. Non confondere il campo con la risoluzione: vedere più panorama non aumenta automaticamente la capacità di separare due stelle vicine.</p><p>Una Barlow aumenta la focale effettiva con un fattore che può dipendere dalla distanza di lavoro; un riduttore fa il contrario in una configurazione compatibile. Un filtro seleziona parte della radiazione, non aggiunge fotoni. Filtri per nebulose, filtri fotografici e filtri solari hanno funzioni distinte. Controlla anche la messa a fuoco raggiungibile: un accessorio può richiedere uno spostamento che il tuo focheggiatore non offre.</p><form class="course-quiz" data-answer="0"><fieldset><legend>Su F=900 mm passi da 30 mm a 10 mm. Quale ingrandimento ottieni?</legend><label><input type="radio" name="s-oculare" value="0"> <span>Da 30× a 90×</span></label><label><input type="radio" name="s-oculare" value="1"> <span>Da 90× a 30×</span></label><label><input type="radio" name="s-oculare" value="2"> <span>Sempre 30×, cambia soltanto il colore</span></label></fieldset><div class="quiz-actions"><button type="submit">Verifica e comprendi</button><button type="reset">Riprova</button></div><p class="quiz-feedback" aria-live="polite"></p><details class="quiz-solution"><summary>Leggi la spiegazione</summary><p>M=F/f: 900/30=30 e 900/10=90. Il risultato geometrico non garantisce che a 90× il dettaglio sia sempre migliore: verifica atmosfera e immagine.</p></details></form><p class="lesson-reference">Riferimenti: <a href="https://www.treccani.it/enciclopedia/telescopio_(Dizionario-delle-Scienze-Fisiche)/" target="_blank" rel="noopener noreferrer">Treccani · Telescopio</a> · <a href="https://www.treccani.it/enciclopedia/telescopio_(Dizionario-delle-Scienze-Fisiche)/" target="_blank" rel="noopener noreferrer">Treccani · Telescopio e risoluzione</a></p></section><section id="fuoco" class="lesson-section"><h3>8. Il fuoco è una posizione, non un livello di nitidezza arbitrario</h3><p>Focheggiare significa collocare occhio e oculare oppure sensore nella relazione corretta con l’immagine formata dal telescopio. Quando una stella appare come un disco sfocato, spostare il sistema lungo l’asse ottico porta verso la posizione utile. Non cercare il punto più piccolo soltanto una volta: avvicinati da entrambi i lati e confronta in condizioni stabili. Una manopola precisa aiuta a controllare il movimento, ma non elimina la turbolenza.</p><figure class="lesson-photo"><img src="assets/lezioni/focheggiatore.jpg" alt="Il focheggiatore come collegamento mobile" loading="lazy"><figcaption>Focheggiatore Crayford documentato: consente di spostare il piano di lavoro lungo l’asse e deve sostenere il carico effettivo. La fotografia aiuta a riconoscere regolazioni e connessioni, senza suggerire serraggi universali.<br><a href="https://commons.wikimedia.org/wiki/File:Baader_Crayford_focuser_SCT.jpg" target="_blank" rel="noopener noreferrer">Marie-Lan Nguyen / Jastrow</a> · CC BY 2.5 · <a href="https://creativecommons.org/licenses/by/2.5/" target="_blank" rel="noopener noreferrer">Licenza e condizioni</a></figcaption></figure><p>Il treno ottico comprende tutti i componenti attraversati dalla luce dopo l’ottica principale e prima dell’occhio o del sensore. Una diagonale, un filtro, un raccordo, un correttore e una camera introducono percorsi e distanze. L’ordine non è casuale: alcuni correttori richiedono una distanza definita dalla loro battuta di riferimento al sensore. Il termine backfocus viene usato in contesti differenti; leggi sempre quale riferimento e quale misura siano specificati.</p><figure class="lesson-photo"><img src="assets/lezioni/correttore.jpg" alt="Un correttore fotografico e la sua connessione" loading="lazy"><figcaption>Un correttore di campo è un elemento ottico, non un semplice distanziale. La funzione e la distanza di lavoro dipendono dal sistema per cui è progettato.<br><a href="https://commons.wikimedia.org/wiki/File:Takahashi_TOA-35_flattener.jpg" target="_blank" rel="noopener noreferrer">Marie-Lan Nguyen / Jastrow</a> · CC BY 2.5 · <a href="https://creativecommons.org/licenses/by/2.5/" target="_blank" rel="noopener noreferrer">Licenza e condizioni</a></figcaption></figure><p>Non trasformare una distanza frequente, come 55 mm in alcune configurazioni fotografiche, in una legge per tutte le ottiche. Una camera può avere una sua profondità del sensore; filtri e raccordi entrano nel conteggio secondo il progetto. La corsa del focheggiatore e la distanza richiesta da un correttore sono questioni collegate ma diverse: raggiungere il fuoco non dimostra che tutto il campo sia corretto.</p><p>Se il centro è a fuoco ma i bordi mostrano stelle deformate, considera curvatura, coma, astigmatismo, inclinazione del sensore e distanze. Non diagnosticare ogni forma come lo stesso problema. Confronta campi e direzioni, controlla una modifica alla volta e conserva i dati originali. In fotografia una maschera di Bahtinov o una misura della stella possono aiutare, ma l’interpretazione deve restare legata alla configurazione e al seeing.</p><p class="lesson-reference">Riferimenti: <a href="https://skywatcher.com/download/manual/goto-mounts/" target="_blank" rel="noopener noreferrer">Sky-Watcher · Manuali ufficiali delle montature</a> · <a href="https://www.treccani.it/enciclopedia/telescopio_(Dizionario-delle-Scienze-Fisiche)/" target="_blank" rel="noopener noreferrer">Treccani · Telescopio</a></p></section><section id="camere" class="lesson-section"><h3>9. Il sensore non è soltanto un numero di megapixel</h3><p>Una camera registra la distribuzione della luce sul piano focale. Area sensibile, dimensione dei pixel, risposta spettrale, elettronica, formato dei file e temperatura descrivono aspetti differenti. Un numero maggiore di pixel non è automaticamente più informazione sul bersaglio: dipende da quanto dettaglio l’ottica e l’atmosfera portano a quel piano e da come viene campionato.</p><figure class="lesson-photo"><img src="assets/lezioni/camera.jpg" alt="Una fotocamera impiegabile nella ripresa astronomica" loading="lazy"><figcaption>Fotocamera Canon EOS 20Da d’archivio, di una generazione precedente alle camere attuali: serve a riconoscere corpo, attacco e sensore come parte della catena: non viene presentato come scelta attuale migliore o come requisito obbligatorio.<br><a href="https://commons.wikimedia.org/wiki/File:Canon_EOS_20Da.jpg" target="_blank" rel="noopener noreferrer">Flickr user joka2000</a> · CC BY-SA 4.0 · <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">Licenza e condizioni</a></figcaption></figure><p>Il campionamento approssimato è 206,265 × dimensione del pixel in micrometri divisa per focale in millimetri, espresso in secondi d’arco per pixel. Il fattore nasce dalla conversione fra radianti e secondi d’arco. È una scala geometrica, non la risoluzione reale della ripresa. Un pixel molto piccolo può descrivere finemente un’immagine già sfumata senza restituire il dettaglio perduto.</p><figure class="course-lab" data-practical="camera-field"><svg viewBox="0 0 760 380" role="img" aria-label="Dimensioni angolari del campo inquadrato"><rect x="20" y="30" width="720" height="300" rx="10" fill="#0b2340"/><path d="M400 40V320M40 180H720" stroke="#526e8d" stroke-dasharray="5 6"/><rect data-sensor fill="#2978bb66" stroke="#b3dbff" stroke-width="3"/><g font-family="Arial" font-size="18" fill="#15385a"><text x="30" y="359" data-field></text></g></svg><div class="notebook-grid"><label>Focale (mm)<input data-sensor-control="F" type="number" min="200" max="4000" value="750" step="50"></label><label>Pixel (µm)<input data-sensor-control="pixel" type="number" min="1" max="15" value="3.76" step="0.01"></label><label>Larghezza sensore (mm)<input data-sensor-control="width" type="number" min="5" max="40" value="23.5" step="0.5"></label><label>Altezza sensore (mm)<input data-sensor-control="height" type="number" min="4" max="30" value="15.7" step="0.1"></label></div><p data-reading aria-live="polite"></p><figcaption>Campo=2 atan(dimensione sensore/2F); campionamento≈206,265 p/F. Il rettangolo usa una scala fissa di 30 pixel grafici per grado, senza rappresentare una scena stellare reale o la qualità ottica ai bordi.</figcaption></figure><p>Il sensore più largo inquadra un campo maggiore a parità di focale. Una focale lunga mostra invece un campo più piccolo con lo stesso sensore. Per capire se un oggetto esteso rientra, confronta entrambe le dimensioni e l’orientamento; considera margine per dithering e registrazione. Il cerchio d’immagine corretto dell’ottica può essere più piccolo del sensore: la geometria del campo non garantisce qualità uniforme ai bordi.</p><p>Una camera raffreddata permette di controllare la temperatura e facilitare la ripetibilità delle calibrazioni, ma non elimina ogni rumore. Rumore di lettura, conteggio dei fotoni, corrente di buio e difetti del sensore richiedono trattamenti differenti. In visuale l’occhio fa un altro lavoro; per l’intero processo fotografico consulta il percorso <a href="astrofotografia.html">Astrofotografia</a>.</p><p class="lesson-reference">Riferimenti: <a href="https://www.treccani.it/enciclopedia/telescopio_(Dizionario-delle-Scienze-Fisiche)/" target="_blank" rel="noopener noreferrer">Treccani · Telescopio</a> · <a href="https://www.eso.org/public/blog/50-years-of-ccds/" target="_blank" rel="noopener noreferrer">ESO · Rivelatori astronomici</a></p></section><section id="alimentazione" class="lesson-section"><h3>10. La postazione deve continuare a funzionare quando si muove</h3><p>Cavi e alimentazioni sembrano una fase preliminare, ma durante una sessione possono diventare il punto più fragile. La montatura cambia posizione, un raccordo ruota e il tubo attraversa direzioni differenti. Un cavo ordinato da fermo può tendersi durante il moto o raggiungere un punto dove si impiglia. Pianifica il percorso per l’intero intervallo previsto, lasciando margine senza creare anelli pericolosi.</p><p>Per ogni dispositivo controlla tensione, polarità, connettore, corrente richiesta e istruzioni. Connettori che entrano fisicamente non sono necessariamente equivalenti dal punto di vista elettrico. Non collegare una sorgente perché la tensione sembra “quasi giusta”, e non alimentare accessori oltre le possibilità del sistema. Usa componenti appropriati, protezioni previste e una disposizione che tenga conto dell’umidità.</p><p>Una porta dati e una porta di alimentazione possono avere forme simili ma funzioni differenti. La velocità del trasferimento, la lunghezza del cavo e la disponibilità di un hub alimentato possono influire su una camera. Se una connessione è instabile, cambia un elemento alla volta e registra il risultato. Riavviare tutti i dispositivi contemporaneamente può risolvere momentaneamente il problema senza dirti quale componente lo produceva.</p><p>Prepara una configurazione minima funzionante prima di aggiungere automazione. Ottica, montatura e camera devono comunicare e operare in modo stabile; poi inserisci guida, focheggiatore motorizzato e altri accessori. Questa progressione non serve a limitare il progetto: permette di individuare la causa quando compare una difficoltà. Le istruzioni del produttore restano il riferimento per limiti e compatibilità.</p><p class="lesson-reference">Riferimenti: <a href="https://skywatcher.com/download/manual/goto-mounts/" target="_blank" rel="noopener noreferrer">Sky-Watcher · Manuali ufficiali delle montature</a> · <a href="https://www.eso.org/public/blog/50-years-of-ccds/" target="_blank" rel="noopener noreferrer">ESO · Rivelatori astronomici</a></p></section><section id="scatto" class="lesson-section"><h3>11. Controllare una sequenza significa conservare il contesto</h3><p>Uno scatto singolo e una sessione di acquisizione non sono la stessa cosa. Un intervallometro o un programma può definire durata, numero delle pose, intervallo e modalità di attivazione. Durante una serie devi però continuare a considerare fuoco, temperatura, posizione del bersaglio e comportamento della montatura. Automatizzare la sequenza non rende costanti tutte le condizioni.</p><figure class="lesson-photo"><img src="assets/lezioni/scatto.jpg" alt="Un intervallometro come comando di sequenza" loading="lazy"><figcaption>Dispositivo di comando dello scatto: imposta una ripetizione, ma non misura la qualità del cielo o l’efficienza dell’inseguimento. Il collegamento deve essere compatibile con la fotocamera effettiva.<br><a href="https://commons.wikimedia.org/wiki/File:Pocket_Shutter_sequencer.jpg" target="_blank" rel="noopener noreferrer">Marie-Lan Nguyen</a> · CC BY-SA 4.0 · <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">Licenza e condizioni</a></figcaption></figure><p>Su cavalletto fermo il moto apparente può allungare le stelle durante una posa. La soglia dipende da focale, pixel, declinazione, posizione nel campo e ingrandimento finale dell’immagine. Regole come “500 diviso focale” sono stime grossolane, non una garanzia di stelle puntiformi. Verifica sui fotogrammi e scegli una tolleranza coerente con lo scopo. Un tempo apparentemente breve può già essere lungo a una grande scala d’immagine.</p><p>In una serie seguita, il tempo di ogni posa va scelto considerando fondo cielo, saturazione, rumore di lettura, guida e risultato cercato. Il tempo totale è la somma delle pose effettivamente utilizzabili; non confonderlo con la durata dell’uscita. Scartare immagini mosse riduce integrazione ma conserva la qualità della combinazione. Prima di una lunga serie, controlla campione e impostazioni e salva un riferimento delle condizioni.</p><p>Un ritardo dello scatto o un comando remoto può ridurre vibrazioni introdotte dall’operatore. Non elimina vento, flessioni o errori di tracking. Il controllo serve a rendere la misura più ripetibile e a documentare le scelte. Per calibrazione, registrazione e integrazione il percorso successivo spiega perché una buona immagine finale comincia dalla raccolta di dati coerenti.</p><p class="lesson-reference">Riferimenti: <a href="https://skywatcher.com/download/manual/goto-mounts/" target="_blank" rel="noopener noreferrer">Sky-Watcher · Manuali ufficiali delle montature</a> · <a href="https://www.eso.org/public/blog/50-years-of-ccds/" target="_blank" rel="noopener noreferrer">ESO · Rivelatori astronomici</a></p></section><section id="postazioni" class="lesson-section"><h3>12. Assemblare tre postazioni e capire le differenze</h3><p>Una postazione visuale di base comprende ottica, supporto stabile, accessori per l’occhio e un modo affidabile di trovare il campo. Un oculare a campo ampio e un cercatore ben allineato possono essere più utili di molti oculari mai confrontati. Monta e riconosci i comandi in luce diurna, controlla le battute e prepara la disposizione dei tappi. Alla sera comincia con un bersaglio luminoso e un ingrandimento moderato.</p><p>Per il binocolo su cavalletto serve un collegamento idoneo e una testa che sostenga il carico anche verso direzioni alte. Verifica se il supporto permette di collocare gli occhi senza sforzo e se entrambi i canali sono utilizzabili. Un sistema meccanicamente stabile ma scomodo può ridurre il tempo osservativo utile. Il vantaggio delle due immagini emerge quando puoi mantenerle ferme e confrontarle con la scena ampia del cielo.</p><p>Una postazione fotografica a largo campo può iniziare con camera, obiettivo e supporto, eventualmente con astroinseguitore. Un sistema con telescopio aggiunge esigenze sul campionamento e sulla precisione del movimento. La guida può diventare utile, ma non è un rituale obbligatorio identico in ogni configurazione. La domanda giusta è quale errore tolleri e quale elemento misura o corregge quell’errore nella tua sessione.</p><p>Costruisci un elenco dei componenti con le rispettive funzioni: raccogliere, sostenere, puntare, inseguire, focheggiare, registrare, alimentare. Se un accessorio non risponde a un’esigenza identificata, chiediti se sia necessario adesso. Se manca una funzione essenziale, non compensarla acquistando qualcosa che risolve un’altra questione. Una postazione equilibrata nasce dalla relazione fra parti, non dal numero di oggetti montati.</p><aside class="course-curiosity"><h4>La prova finale</h4><p>Descrivi a un’altra persona il percorso della luce dall’ingresso al sensore o all’occhio. Poi descrivi il percorso meccanico che sostiene gli stessi componenti. Se sai raccontare entrambi, puoi distinguere molto meglio un problema ottico da una flessione o da un errore di puntamento.</p></aside><p class="lesson-reference">Riferimenti: <a href="https://skywatcher.com/download/manual/goto-mounts/" target="_blank" rel="noopener noreferrer">Sky-Watcher · Manuali ufficiali delle montature</a> · <a href="https://divulgazione.uai.it/index.php/Apprendista_Astrofilo_Introduzione" target="_blank" rel="noopener noreferrer">UAI · Apprendista astrofilo</a></p></section><section id="verifica" class="lesson-section"><h3>13. Verifica una scelta prima di aggiungere un accessorio</h3><p>Prendi una configurazione immaginaria: apertura 150 mm, focale 750 mm, oculare 25 mm e campo apparente 60°. Calcola rapporto focale, ingrandimento e pupilla d’uscita con il laboratorio. Poi sostituisci soltanto l’oculare con uno da 5 mm. La maggiore scala apparente modifica comodità e campo: spiega perché non puoi concludere che la seconda configurazione sia sempre migliore per un ammasso esteso.</p><form class="course-quiz" data-answer="0"><fieldset><legend>Con D=150 mm e F=750 mm il rapporto focale è…</legend><label><input type="radio" name="s-rapporto" value="0"> <span>f/5</span></label><label><input type="radio" name="s-rapporto" value="1"> <span>f/150</span></label><label><input type="radio" name="s-rapporto" value="2"> <span>f/0,2</span></label></fieldset><div class="quiz-actions"><button type="submit">Verifica e comprendi</button><button type="reset">Riprova</button></div><p class="quiz-feedback" aria-live="polite"></p><details class="quiz-solution"><summary>Leggi la spiegazione</summary><p>F/D=750/150=5. Il rapporto focale è adimensionale: focale e diametro devono essere espressi nella stessa unità.</p></details></form><form class="course-quiz" data-answer="1"><fieldset><legend>Il centro è nitido, i bordi deformati. Una distanza standard universale risolve sempre?</legend><label><input type="radio" name="s-fuoco" value="0"> <span>Sì: ogni correttore usa lo stesso valore</span></label><label><input type="radio" name="s-fuoco" value="1"> <span>No: verifica progetto, inclinazione e distanza specifica</span></label><label><input type="radio" name="s-fuoco" value="2"> <span>Sì: basta aumentare gli ingrandimenti</span></label></fieldset><div class="quiz-actions"><button type="submit">Verifica e comprendi</button><button type="reset">Riprova</button></div><p class="quiz-feedback" aria-live="polite"></p><details class="quiz-solution"><summary>Leggi la spiegazione</summary><p>Non esiste una distanza di lavoro unica per tutti i sistemi. Fuoco centrale, campo corretto e allineamento del sensore sono verifiche differenti.</p></details></form><p>Se l’immagine vibra dopo una regolazione, identifica prima il percorso meccanico. Se il campo cambia forma ai bordi, indaga il treno ottico. Se una serie fotografica perde stelle durante il moto, controlla inseguimento e cavi. Collegare una difficoltà a una funzione è un metodo trasferibile: ti consente di usare meglio la postazione attuale e di formulare una scelta futura motivata.</p><p class="lesson-reference">Riferimenti: <a href="https://www.treccani.it/enciclopedia/telescopio_(Dizionario-delle-Scienze-Fisiche)/" target="_blank" rel="noopener noreferrer">Treccani · Telescopio</a> · <a href="https://skywatcher.com/download/manual/goto-mounts/" target="_blank" rel="noopener noreferrer">Sky-Watcher · Manuali ufficiali delle montature</a></p></section><section id="approfondimenti" class="learning-sources"><h3>Fonti e percorsi per approfondire</h3><p>Testo originale AD ASTRA: confronto di fonti e materiali didattici, con controllo delle convenzioni e distinzione fra diagrammi e fotografie. Le attività mostrano modelli con limiti dichiarati; le immagini conservano fonte e crediti.</p><ul><li><a href="https://www.treccani.it/enciclopedia/telescopio_(Dizionario-delle-Scienze-Fisiche)/" target="_blank" rel="noopener noreferrer">Treccani · Telescopio</a></li><li><a href="https://www.treccani.it/enciclopedia/telescopio_(Dizionario-delle-Scienze-Fisiche)/" target="_blank" rel="noopener noreferrer">Treccani · Telescopio e risoluzione</a></li><li><a href="https://www.treccani.it/enciclopedia/binocolo/" target="_blank" rel="noopener noreferrer">Treccani · Binocolo</a></li><li><a href="https://science.nasa.gov/solar-system/skywatching/night-sky-network/binoculars-a-great-first-telescope/" target="_blank" rel="noopener noreferrer">NASA · Binoculars: A Great First Telescope</a></li><li><a href="https://skywatcher.com/download/manual/goto-mounts/" target="_blank" rel="noopener noreferrer">Sky-Watcher · Manuali ufficiali delle montature</a></li><li><a href="https://static.treccani.it/export/sites/default/Portale/resources/multimedia/Lezioni_Astrofisica/Coordinate/Lezione.pdf" target="_blank" rel="noopener noreferrer">Treccani · Coordinate astronomiche, PDF</a></li><li><a href="https://us.seestar.com/blogs/tutorial/equatorial-mode" target="_blank" rel="noopener noreferrer">Seestar/ZWO · Tutorial ufficiale della modalità equatoriale</a></li><li><a href="https://eclipse.aas.org/eye-safety" target="_blank" rel="noopener noreferrer">AAS · Sicurezza nell’osservazione solare</a></li><li><a href="https://www.eso.org/public/blog/50-years-of-ccds/" target="_blank" rel="noopener noreferrer">ESO · Rivelatori astronomici</a></li><li><a href="https://divulgazione.uai.it/index.php/Apprendista_Astrofilo_Introduzione" target="_blank" rel="noopener noreferrer">UAI · Apprendista astrofilo</a></li></ul><p><a href="scuola-astronomia.html">Scopri la Scuola di Astronomia</a> · <a href="guide.html">Prepara una serata</a> · <a href="strumentazione.html">Comprendi gli strumenti</a> · <a href="astrofotografia.html">Dall’osservazione alla ripresa</a></p></section></article><aside class="learning-sidebar"><h3>Il percorso</h3><ol><li><a href="#telescopi">Il telescopio raccoglie luce prima di ingrandire</a></li><li><a href="#binocoli">Due occhi, un campo ampio: leggere un binocolo</a></li><li><a href="#supporti">La stabilità è una prestazione osservativa</a></li><li><a href="#montature">Puntare e inseguire sono due compiti differenti</a></li><li><a href="#smart-telescope">Smart telescope: comprendere una postazione integrata</a></li><li><a href="#meccanica">Fissare non significa soltanto far combaciare</a></li><li><a href="#oculari">L’oculare cambia il modo di leggere l’immagine</a></li><li><a href="#fuoco">Il fuoco è una posizione, non un livello di nitidezza arbitrario</a></li><li><a href="#camere">Il sensore non è soltanto un numero di megapixel</a></li><li><a href="#alimentazione">La postazione deve continuare a funzionare quando si muove</a></li><li><a href="#scatto">Controllare una sequenza significa conservare il contesto</a></li><li><a href="#postazioni">Assemblare tre postazioni e capire le differenze</a></li><li><a href="#verifica">Verifica una scelta prima di aggiungere un accessorio</a></li></ol><h4>Riprendi i principi</h4><p><a href="guide.html#carte">Leggere una carta del cielo</a></p><p><a href="strumentazione.html#montature">Coordinate e montature</a></p><p><a href="cielo-del-mese.html">Cerca gli oggetti del mese</a></p></aside></div><nav class="learning-navigation" aria-label="Passa a un altro percorso"><a href="guide.html">← Guide<strong>Prepara la serata</strong></a><a href="astrofotografia.html">Prosegui →<strong>Astrofotografia</strong></a></nav></main>
 
 
 
@@ -1627,15 +1155,11 @@
           </li>
 
           <li>
-            <a href="#">
-              Lezioni
-            </a>
+            <a href="scuola-astronomia.html">Lezioni</a>
           </li>
 
           <li>
-            <a href="#">
-              Approfondimenti
-            </a>
+            <a href="#approfondimenti">Approfondimenti</a>
           </li>
 
         </ul>
@@ -1754,11 +1278,9 @@
 
         <a
           class="footer-facebook"
-          href="#"
-          aria-label="Facebook AD ASTRA"
-        >
-          f
-        </a>
+          href="contatti.html"
+          aria-label="Contatti e canali AD ASTRA"
+        >@</a>
 
       </div>
 
@@ -1768,6 +1290,20 @@
   </footer>
 
 
-</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script defer src="assets/lezioni/smart-registration.js"></script><script defer src="assets/lezioni/interazioni-didattiche.js"></script><script defer src="assets/lezioni/carte-base.js"></script><script defer src="assets/lezioni/percorsi-pratici.js"></script><script defer src="assets/lezioni/fotografia-attiva.js"></script>
+<script defer src="assets/lezioni/montature-attive.js"></script></body>
 
 </html>

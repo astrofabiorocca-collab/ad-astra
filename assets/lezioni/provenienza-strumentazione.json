@@ -1,0 +1,194 @@
+{
+  "focheggiatore": {
+    "file": "assets/lezioni/focheggiatore.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Baader_Crayford_focuser_SCT.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Baader_Crayford_focuser_SCT.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "credit": "Marie-Lan Nguyen / Jastrow",
+    "license": "CC BY 2.5",
+    "licenseSource": "https://creativecommons.org/licenses/by/2.5/",
+    "adaptation": "Originale conservato; ritaglio delle miniature tramite CSS. Nessuna raccomandazione commerciale."
+  },
+  "binocolo": {
+    "file": "assets/lezioni/binocolo.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Binocular_with_8x_magnification_and_42_mm_lens_diameter.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/9/90/Binocular_with_8x_magnification_and_42_mm_lens_diameter.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "credit": "Andreas Klehr",
+    "license": "CC BY-SA 4.0",
+    "licenseSource": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "adaptation": "Originale conservato; ritaglio delle miniature tramite CSS. Nessuna raccomandazione commerciale."
+  },
+  "oculare": {
+    "file": "assets/lezioni/oculare.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Baader_Hyperion_21mm_eyepiece.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Baader_Hyperion_21mm_eyepiece.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Baader_Hyperion_21mm_eyepiece.jpg/500px-Baader_Hyperion_21mm_eyepiece.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20120903160929",
+    "credit": "Marie-Lan Nguyen",
+    "license": "CC BY-SA 4.0",
+    "licenseSource": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "adaptation": "Immagine nella risoluzione di anteprima fornita da Commons; ritaglio delle miniature tramite CSS. Nessuna raccomandazione commerciale."
+  },
+  "montatura": {
+    "file": "assets/lezioni/montatura.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Vixen_GP-DX_equatorial_mount.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Vixen_GP-DX_equatorial_mount.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Vixen_GP-DX_equatorial_mount.jpg/960px-Vixen_GP-DX_equatorial_mount.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20070711170443",
+    "credit": "Marie-Lan Nguyen",
+    "license": "CC BY-SA 4.0",
+    "licenseSource": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "adaptation": "Immagine nella risoluzione di anteprima fornita da Commons; ritaglio delle miniature tramite CSS. Nessuna raccomandazione commerciale."
+  },
+  "rifrattore": {
+    "file": "assets/lezioni/rifrattore.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Takahashi_TSA-102S_refractor.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/7/79/Takahashi_TSA-102S_refractor.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Takahashi_TSA-102S_refractor.jpg/500px-Takahashi_TSA-102S_refractor.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20080330193837",
+    "credit": "Marie-Lan Nguyen ( Jastrow )",
+    "license": "CC BY 3.0",
+    "licenseSource": "https://creativecommons.org/licenses/by/3.0/",
+    "adaptation": "Immagine nella risoluzione di anteprima fornita da Commons; ritaglio delle miniature tramite CSS. Nessuna raccomandazione commerciale."
+  },
+  "camera": {
+    "file": "assets/lezioni/camera.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Canon_EOS_20Da.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/2/24/Canon_EOS_20Da.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/2/24/Canon_EOS_20Da.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled&_=20060727050723",
+    "credit": "Flickr user joka2000",
+    "license": "CC BY-SA 4.0",
+    "licenseSource": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "adaptation": "Immagine nella risoluzione di anteprima fornita da Commons; ritaglio delle miniature tramite CSS. Nessuna raccomandazione commerciale."
+  },
+  "scatto": {
+    "file": "assets/lezioni/scatto.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Pocket_Shutter_sequencer.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Pocket_Shutter_sequencer.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Pocket_Shutter_sequencer.jpg/960px-Pocket_Shutter_sequencer.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20080103180700",
+    "credit": "Marie-Lan Nguyen",
+    "license": "CC BY-SA 4.0",
+    "licenseSource": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "adaptation": "Immagine nella risoluzione di anteprima fornita da Commons; ritaglio delle miniature tramite CSS. Nessuna raccomandazione commerciale."
+  },
+  "adattatore": {
+    "file": "assets/lezioni/adattatore.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Nikon_Canon_adapter_ring.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/2/27/Nikon_Canon_adapter_ring.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Nikon_Canon_adapter_ring.jpg/960px-Nikon_Canon_adapter_ring.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20080102100419",
+    "credit": "Marie-Lan Nguyen / Jastrow",
+    "license": "CC BY 2.5",
+    "licenseSource": "https://creativecommons.org/licenses/by/2.5/",
+    "adaptation": "Immagine nella risoluzione di anteprima fornita da Commons; ritaglio delle miniature tramite CSS. Nessuna raccomandazione commerciale."
+  },
+  "correttore": {
+    "file": "assets/lezioni/correttore.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Takahashi_TOA-35_flattener.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Takahashi_TOA-35_flattener.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Takahashi_TOA-35_flattener.jpg/500px-Takahashi_TOA-35_flattener.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20080102113717",
+    "credit": "Marie-Lan Nguyen / Jastrow",
+    "license": "CC BY 2.5",
+    "licenseSource": "https://creativecommons.org/licenses/by/2.5/",
+    "adaptation": "Immagine nella risoluzione di anteprima fornita da Commons; ritaglio delle miniature tramite CSS. Nessuna raccomandazione commerciale."
+  },
+  "newton": {
+    "file": "assets/lezioni/newton.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:150mm_Texereau_telescope_n1.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/e/ec/150mm_Texereau_telescope_n1.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/150mm_Texereau_telescope_n1.jpg/500px-150mm_Texereau_telescope_n1.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20070822230433",
+    "credit": "Gil-Estel",
+    "license": "CC BY 2.5",
+    "licenseSource": "https://creativecommons.org/licenses/by/2.5/",
+    "adaptation": "Immagine nella risoluzione di anteprima fornita da Commons; ritaglio delle miniature tramite CSS. Nessuna raccomandazione commerciale."
+  },
+  "cavalletto": {
+    "file": "assets/lezioni/cavalletto.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Canon_EOS_600D_on_tripod.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Canon_EOS_600D_on_tripod.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Canon_EOS_600D_on_tripod.jpg/960px-Canon_EOS_600D_on_tripod.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20130207130620",
+    "credit": "Lionel Allorge",
+    "license": "CC BY-SA 3.0",
+    "licenseSource": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "adaptation": "Immagine nella risoluzione di anteprima fornita da Commons; ritaglio delle miniature tramite CSS. Nessuna raccomandazione commerciale."
+  },
+  "connettori": {
+    "file": "assets/lezioni/connettori.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Usb_connectors.JPG",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Usb_connectors.JPG?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Usb_connectors.JPG/960px-Usb_connectors.JPG?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20100619145138",
+    "credit": "Viljo Viitanen",
+    "license": "CC BY-SA 4.0",
+    "licenseSource": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "adaptation": "Immagine nella risoluzione di anteprima fornita da Commons; ritaglio delle miniature tramite CSS. Nessuna raccomandazione commerciale."
+  },
+  "smartphone": {
+    "file": "assets/lezioni/smartphone.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Fairphone_03_grey_phone_from_back_Kera_0114_C1_RGB_(51534193662).jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Fairphone_03_grey_phone_from_back_Kera_0114_C1_RGB_%2851534193662%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Fairphone_03_grey_phone_from_back_Kera_0114_C1_RGB_%2851534193662%29.jpg/960px-Fairphone_03_grey_phone_from_back_Kera_0114_C1_RGB_%2851534193662%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20211028054640",
+    "credit": "Fairphone",
+    "license": "CC BY-SA 2.0",
+    "licenseSource": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "adaptation": "Immagine nella risoluzione di anteprima fornita da Commons; ritaglio delle miniature tramite CSS. Nessuna raccomandazione commerciale."
+  },
+  "smart-seestar": {
+    "file": "assets/lezioni/smart-seestar-s50.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Seestar_S50_smart_telescope.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Seestar_S50_smart_telescope.jpg",
+    "credit": "El Mexicano",
+    "license": "CC BY-SA 4.0",
+    "licenseSource": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "date": "2025-08-12",
+    "adaptation": "File originale conservato intero. Miniatura ritagliata mediante CSS; attribuzione e licenza mantenute. Modello illustrativo, nessuna raccomandazione commerciale."
+  },
+  "postazione-2024": {
+    "file": "assets/lezioni/postazione-equatoriale-2024.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:PXL_20241002_110953897.MP_(54062297694).jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/a/a0/PXL_20241002_110953897.MP_(54062297694).jpg",
+    "credit": "Brandon Ghany / Horizon Productions SFL",
+    "license": "Public Domain Mark, dichiarazione dell’autore",
+    "licenseSource": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "date": "2024-10-02",
+    "adaptation": "Originale conservato; ritaglio CSS nelle miniature. Nella tavola degli assi, frecce qualitative AD ASTRA sovrapposte via SVG."
+  },
+  "posa-tracce": {
+    "file": "assets/lezioni/posa-tracce.jpg",
+    "source": "https://iauarchive.eso.org/public/images/detail/ann23043ab/",
+    "original": "https://iauarchive.eso.org/static/archives/images/screen/ann23043ab.jpg",
+    "credit": "Govind Gurjar / IAU OAE",
+    "license": "CC BY 4.0",
+    "licenseSource": "https://creativecommons.org/licenses/by/4.0/",
+    "date": "2022-10",
+    "adaptation": "Versione screen dell’archivio, fotografia intera. Miniature ritagliate tramite CSS.",
+    "sha256": "bb1a28a72bf108d98a6d24928cb8e7a7b53c86f4ce0b19c9efbd28d72f1405bb"
+  },
+  "paesaggio-namibia": {
+    "file": "assets/lezioni/paesaggio-namibia.jpg",
+    "source": "https://iauarchive.eso.org/public/images/detail/ann23043o/",
+    "original": "https://iauarchive.eso.org/static/archives/images/screen/ann23043o.jpg",
+    "credit": "Jianfeng Dai / IAU OAE",
+    "license": "CC BY 4.0",
+    "licenseSource": "https://creativecommons.org/licenses/by/4.0/",
+    "date": "2023-06-17",
+    "adaptation": "Versione screen dell’archivio, fotografia intera. Miniature ritagliate tramite CSS.",
+    "sha256": "5dcdd28f41d96907d9f36b0f0684a13c40f0bfd02801ac330638b2cd2e5bbf33"
+  },
+  "orione-fotografico": {
+    "file": "assets/lezioni/orione-fotografico.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Orion_wide_field.jpg",
+    "original": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Orion_wide_field.jpg/1280px-Orion_wide_field.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+    "credit": "Martinbernardi",
+    "license": "CC BY 4.0",
+    "licenseSource": "https://creativecommons.org/licenses/by/4.0/",
+    "date": "2024-12-24",
+    "adaptation": "Anteprima fornita da Commons, senza alterazione del contenuto. Miniature ritagliate tramite CSS.",
+    "sha256": "f5cd60fb773d4a80c285da7361d63019aeeee66bcd3e5e71e3ca4c1adccf102a"
+  },
+  "luna-torva": {
+    "file": "assets/lezioni/luna-torva.png",
+    "source": "https://commons.wikimedia.org/wiki/File:Moon_in_T%C3%B5rva.png",
+    "original": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Moon_in_T%C3%B5rva.png/1280px-Moon_in_T%C3%B5rva.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+    "credit": "Taavi Niittee / Tõrva Astronomyclub",
+    "license": "CC0 1.0",
+    "licenseSource": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "date": "2024-04-17",
+    "adaptation": "Anteprima fornita da Commons, senza alterazione del contenuto. Miniature ritagliate tramite CSS.",
+    "sha256": "14712fca9ee4881bf319fe2cd5e9610f2d2ed8e7ff2d62cf9c0fdb1b263b9b00"
+  }
+}

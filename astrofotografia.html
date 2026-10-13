@@ -14,7 +14,7 @@
 
   <meta
     name="description"
-    content="Astrofotografia AD ASTRA: principi dell'acquisizione astronomica, rapporto segnale-rumore, tecniche di ripresa, calibrazione, integrazione ed elaborazione delle immagini astronomiche."
+    content="Una fotografia astronomica è l’incontro fra una scena lontana e una catena di misure vicine: ottica, atmosfera, movimento, sensore e scelte di elaborazione. Il fascino del risultato nasce anche dal percorso. Qui impariamo a raccogliere dati coerenti, riconoscere i limiti e rendere leggibile ciò che la luce ha effettivamente registrato."
   >
 
   <style>
@@ -63,7 +63,13 @@
     .top-banner {
       position: relative;
       width: 100%;
+
+      /*
+        Riduzione della sola altezza visibile.
+        L'immagine banner.png non viene modificata.
+      */
       height: clamp(270px, 16.6vw, 340px);
+
       overflow: hidden;
       background: #07152a;
     }
@@ -71,34 +77,51 @@
     .top-banner-image {
       width: 100%;
       height: 100%;
+
       object-fit: cover;
       object-position: top center;
+
       display: block;
     }
 
+    /*
+      Il banner è privo del titolo della sezione.
+      Titolo e sottotitolo rimangono HTML reali.
+    */
+
     .banner-section-title {
       position: absolute;
+
       left: 55%;
       top: 50%;
+
       transform: translateY(-50%);
+
       z-index: 2;
+
       max-width: 42%;
+
       color: #ffffff;
     }
 
     .banner-section-title h1 {
       margin-bottom: 5px;
+
       color: #f4c84e;
+
       font-size: clamp(1.45rem, 2.6vw, 2.55rem);
       line-height: 1.15;
       font-weight: 700;
+
       text-shadow:
         0 2px 8px rgba(0, 0, 0, 0.55);
     }
 
     .banner-section-title p {
       color: #ffffff;
+
       font-size: clamp(0.78rem, 1.35vw, 1.08rem);
+
       text-shadow:
         0 2px 6px rgba(0, 0, 0, 0.65);
     }
@@ -110,25 +133,35 @@
 
     .main-navigation {
       width: 100%;
+
       background:
         linear-gradient(
           180deg,
           #07182d 0%,
           #041326 100%
         );
+
       border-top:
         1px solid rgba(255, 255, 255, 0.08);
+
       border-bottom:
         1px solid rgba(255, 255, 255, 0.12);
     }
 
     .main-navigation ul {
       min-height: 54px;
+
       display: flex;
       align-items: center;
       justify-content: center;
+
+      /*
+        Desktop: tutte le voci su una sola riga.
+      */
       flex-wrap: nowrap;
+
       gap: 0;
+
       list-style: none;
     }
 
@@ -139,23 +172,35 @@
 
     .main-navigation li + li::before {
       content: "";
+
       position: absolute;
       left: 0;
       top: 50%;
+
       width: 1px;
       height: 22px;
+
       transform: translateY(-50%);
+
       background:
         rgba(255, 255, 255, 0.28);
     }
 
     .main-navigation a {
       display: block;
+
+      /*
+        Riduzione controllata di spaziatura
+        e carattere per mantenere una riga.
+      */
       padding: 14px 11px 12px;
+
       color: #e6edf5;
+
       font-size: 0.68rem;
       white-space: nowrap;
       font-weight: 600;
+
       transition:
         color 0.2s ease,
         background 0.2s ease;
@@ -167,6 +212,7 @@
 
     .main-navigation a.active {
       color: #ffffff;
+
       box-shadow:
         inset 0 -3px 0 #4aa7ff;
     }
@@ -219,10 +265,13 @@
     .intro-image {
       min-height: 290px;
       position: relative;
+
       border-radius: 10px;
       overflow: hidden;
+
       box-shadow:
         0 12px 30px rgba(17, 39, 67, 0.14);
+
       background:
         radial-gradient(
           circle at 68% 26%,
@@ -239,30 +288,37 @@
 
     .intro-image::before {
       content: "";
+
       position: absolute;
       inset: 0;
+
       opacity: 0.4;
+
       background-image:
         radial-gradient(
           circle,
           rgba(255, 255, 255, 0.95) 1px,
           transparent 1.4px
         );
+
       background-size: 42px 42px;
     }
 
     .intro-image-caption {
       position: absolute;
+
       left: 24px;
       right: 24px;
       bottom: 20px;
+
       color: rgba(255, 255, 255, 0.9);
+
       font-size: 0.82rem;
     }
 
 
     /* =========================================================
-       PRINCIPI FONDAMENTALI
+       PRINCIPI
     ========================================================= */
 
     .principles {
@@ -270,142 +326,134 @@
       padding: 10px 0 58px;
     }
 
-    .principles-heading {
-      display: flex;
-      align-items: center;
-      gap: 14px;
-      margin-bottom: 12px;
-    }
-
-    .principles-heading-icon {
-      color: #2864d7;
-      font-size: 1.5rem;
-    }
-
-    .principles-heading h2 {
-      font-size: 1.45rem;
-      color: #102342;
-      white-space: nowrap;
-    }
-
-    .principles-heading-line {
-      width: 100%;
-      height: 1px;
-      background: #9ab8e8;
-    }
-
-    .principles-intro {
-      max-width: 820px;
-      margin-bottom: 30px;
-      color: #526174;
-      font-size: 0.93rem;
-    }
-
     .principles-grid {
       display: grid;
+
       grid-template-columns:
         repeat(3, 1fr);
-      gap: 22px;
+
+      gap: 34px;
     }
 
     .principle {
-      padding: 24px 22px;
-      background: #f8faff;
-      border:
-        1px solid #dce5f2;
-      border-radius: 8px;
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
     }
 
     .principle-icon {
-      width: 48px;
-      height: 48px;
+      width: 56px;
+      height: 56px;
+
+      flex-shrink: 0;
+
       display: grid;
       place-items: center;
-      margin-bottom: 15px;
+
       border:
         1.5px solid #3475e8;
+
       border-radius: 50%;
+
       color: #2465d5;
-      font-size: 1.2rem;
+
+      font-size: 1.35rem;
     }
 
-    .principle h3 {
-      font-size: 0.98rem;
-      margin-bottom: 8px;
+    .principle h2 {
+      font-size: 1rem;
+      margin-bottom: 4px;
       color: #102342;
     }
 
     .principle p {
-      font-size: 0.84rem;
+      font-size: 0.86rem;
       color: #566477;
     }
 
 
     /* =========================================================
-       ARGOMENTI
+       PERCORSO DIDATTICO
     ========================================================= */
 
-    .catalogue {
+    .programme {
       padding: 56px 0 70px;
+
       border-top:
         1px solid #e3e9f0;
+
       background: #f7f9fc;
     }
 
-    .catalogue-heading {
+    .programme-heading {
       display: flex;
       align-items: center;
+
       gap: 14px;
+
       margin-bottom: 12px;
     }
 
-    .catalogue-heading-icon {
+    .programme-heading-icon {
       color: #2864d7;
       font-size: 1.5rem;
     }
 
-    .catalogue-heading h2 {
+    .programme-heading h2 {
       font-size: 1.45rem;
       color: #102342;
       white-space: nowrap;
     }
 
-    .catalogue-heading-line {
+    .programme-heading-line {
       width: 100%;
       height: 1px;
+
       background: #9ab8e8;
     }
 
-    .catalogue-intro {
+    .programme-intro {
       max-width: 800px;
+
       margin-bottom: 30px;
+
       color: #526174;
+
       font-size: 0.93rem;
     }
 
 
     /* =========================================================
-       CARD DEGLI ARGOMENTI
+       CARD DEL PROGRAMMA
     ========================================================= */
 
     .cards {
       display: grid;
+
       grid-template-columns:
         repeat(5, 1fr);
+
       gap: 18px;
     }
 
     .card {
-      min-height: 290px;
+      min-height: 258px;
+
       display: flex;
       flex-direction: column;
+
       padding: 22px 19px 20px;
+
       background: #ffffff;
+
       border:
         1px solid #dce3ec;
+
       border-radius: 8px;
+
       box-shadow:
         0 5px 14px rgba(14, 35, 62, 0.05);
+
       transition:
         transform 0.2s ease,
         box-shadow 0.2s ease,
@@ -414,7 +462,9 @@
 
     .card:hover {
       transform: translateY(-4px);
+
       border-color: #aec9ef;
+
       box-shadow:
         0 10px 24px rgba(14, 35, 62, 0.10);
     }
@@ -422,112 +472,45 @@
     .card-number {
       width: 38px;
       height: 38px;
+
       display: grid;
       place-items: center;
+
       margin-bottom: 16px;
+
       border-radius: 5px;
+
       background: #2864d7;
       color: #ffffff;
+
       font-size: 0.82rem;
       font-weight: 700;
     }
 
     .card h3 {
       color: #102342;
+
       font-size: 0.98rem;
       line-height: 1.35;
+
       margin-bottom: 10px;
     }
 
     .card p {
       color: #58677a;
+
       font-size: 0.82rem;
       line-height: 1.55;
+
       margin-bottom: 16px;
     }
 
     .card-link {
       margin-top: auto;
+
       color: #205ecf;
+
       font-size: 0.82rem;
-      font-weight: 700;
-    }
-
-
-    /* =========================================================
-       COME SI COSTRUISCE UN'IMMAGINE
-    ========================================================= */
-
-    .assembly {
-      background: #ffffff;
-      padding: 60px 0 68px;
-      border-top:
-        1px solid #e3e9f0;
-    }
-
-    .assembly-heading {
-      display: flex;
-      align-items: center;
-      gap: 14px;
-      margin-bottom: 12px;
-    }
-
-    .assembly-heading-icon {
-      color: #2864d7;
-      font-size: 1.5rem;
-    }
-
-    .assembly-heading h2 {
-      font-size: 1.45rem;
-      color: #102342;
-      white-space: nowrap;
-    }
-
-    .assembly-heading-line {
-      width: 100%;
-      height: 1px;
-      background: #9ab8e8;
-    }
-
-    .assembly-intro {
-      max-width: 820px;
-      margin-bottom: 32px;
-      color: #526174;
-      font-size: 0.93rem;
-    }
-
-    .image-workflow {
-      display: flex;
-      align-items: stretch;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 10px;
-    }
-
-    .workflow-step {
-      width: 112px;
-      min-height: 92px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 14px 10px;
-      text-align: center;
-      background: #f7f9fc;
-      border:
-        1px solid #d7e2ef;
-      border-radius: 7px;
-      color: #18365f;
-      font-size: 0.78rem;
-      font-weight: 700;
-      line-height: 1.35;
-    }
-
-    .workflow-arrow {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: #2864d7;
-      font-size: 1.25rem;
       font-weight: 700;
     }
 
@@ -538,17 +521,24 @@
 
     .closing {
       background: #f7f9fc;
-      padding: 60px 0 64px;
+      padding: 0 0 64px;
     }
 
     .closing-box {
       display: flex;
+
       align-items: center;
-      gap: 20px;
+      justify-content: space-between;
+
+      gap: 34px;
+
       padding: 28px 34px;
+
       border:
         1px solid #d8e6f7;
+
       border-radius: 8px;
+
       background:
         linear-gradient(
           100deg,
@@ -557,22 +547,60 @@
         );
     }
 
+    .closing-content {
+      display: flex;
+      align-items: center;
+
+      gap: 20px;
+    }
+
     .closing-icon {
       color: #2864d7;
+
       font-size: 2rem;
+
       flex-shrink: 0;
     }
 
     .closing h2 {
       color: #102342;
+
       font-size: 1.08rem;
+
       margin-bottom: 4px;
     }
 
     .closing p {
       color: #536276;
+
       font-size: 0.87rem;
-      max-width: 850px;
+
+      max-width: 720px;
+    }
+
+    .button {
+      flex-shrink: 0;
+
+      display: inline-block;
+
+      padding: 12px 21px;
+
+      border-radius: 5px;
+
+      background: #2864d7;
+      color: #ffffff;
+
+      font-size: 0.87rem;
+      font-weight: 700;
+
+      transition:
+        background 0.2s ease,
+        transform 0.2s ease;
+    }
+
+    .button:hover {
+      background: #174fb9;
+      transform: translateY(-2px);
     }
 
 
@@ -582,36 +610,63 @@
 
     .site-footer {
       position: relative;
+
       width: 100%;
+
+      /*
+        Riduzione della sola altezza visibile
+        del banner inferiore.
+        banner 2.png rimane invariato.
+      */
       height: clamp(300px, 19.8vw, 405px);
+
       overflow: hidden;
+
       background: #041529;
     }
 
     .bottom-banner-image {
       width: 100%;
       height: 100%;
+
       object-fit: cover;
       object-position: top center;
+
       display: block;
     }
 
+
+    /*
+      Il lato sinistro rimane riservato
+      alla grafica originale del banner.
+      Le voci HTML occupano la zona libera a destra.
+    */
+
     .footer-navigation {
       position: absolute;
+
       top: 47%;
       right: 3%;
+
       transform: translateY(-50%);
+
       width: 53%;
+
       display: grid;
+
       grid-template-columns:
         repeat(4, 1fr);
+
       gap: 18px;
+
       color: #ffffff;
     }
 
     .footer-column h3 {
       margin-bottom: 10px;
+
       color: #ffffff;
+
       font-size: 0.82rem;
     }
 
@@ -625,9 +680,10 @@
 
     .footer-column a {
       color: #bcc8d5;
+
       font-size: 0.76rem;
-      transition:
-        color 0.2s ease;
+
+      transition: color 0.2s ease;
     }
 
     .footer-column a:hover {
@@ -637,13 +693,18 @@
     .footer-facebook {
       width: 38px;
       height: 38px;
+
       display: grid;
       place-items: center;
+
       border-radius: 50%;
+
       background: #1877f2;
       color: #ffffff;
+
       font-size: 1.25rem;
       font-weight: 700;
+
       font-family: Arial, sans-serif;
     }
 
@@ -659,11 +720,6 @@
           repeat(2, 1fr);
       }
 
-      .principles-grid {
-        grid-template-columns:
-          repeat(2, 1fr);
-      }
-
       .main-navigation ul {
         justify-content: flex-start;
         overflow-x: auto;
@@ -672,12 +728,14 @@
       .main-navigation a {
         padding-left: 9px;
         padding-right: 9px;
+
         font-size: 0.64rem;
       }
 
       .footer-navigation {
         width: 55%;
         right: 2%;
+
         gap: 12px;
       }
 
@@ -710,6 +768,12 @@
 
       .principles-grid {
         grid-template-columns: 1fr;
+        gap: 24px;
+      }
+
+      .closing-box {
+        flex-direction: column;
+        align-items: flex-start;
       }
 
       .site-footer {
@@ -724,11 +788,16 @@
 
       .footer-navigation {
         position: static;
+
         width: 100%;
+
         transform: none;
+
         grid-template-columns:
           repeat(2, 1fr);
+
         padding: 30px 5%;
+
         background: #041529;
       }
 
@@ -749,9 +818,13 @@
 
       .banner-section-title {
         position: static;
+
         transform: none;
+
         max-width: none;
+
         padding: 18px 5%;
+
         background: #07182d;
       }
 
@@ -761,8 +834,11 @@
 
       .main-navigation ul {
         justify-content: flex-start;
+
         flex-wrap: nowrap;
+
         overflow-x: auto;
+
         padding: 0 4%;
       }
 
@@ -782,23 +858,15 @@
         min-height: 220px;
       }
 
-      .principles-heading {
-        align-items: flex-start;
-      }
-
-      .principles-heading-line {
-        display: none;
-      }
-
-      .catalogue {
+      .programme {
         padding-top: 42px;
       }
 
-      .catalogue-heading {
+      .programme-heading {
         align-items: flex-start;
       }
 
-      .catalogue-heading-line {
+      .programme-heading-line {
         display: none;
       }
 
@@ -810,26 +878,8 @@
         min-height: auto;
       }
 
-      .assembly-heading {
+      .closing-content {
         align-items: flex-start;
-      }
-
-      .assembly-heading-line {
-        display: none;
-      }
-
-      .image-workflow {
-        flex-direction: column;
-        align-items: stretch;
-      }
-
-      .workflow-step {
-        width: 100%;
-        min-height: auto;
-      }
-
-      .workflow-arrow {
-        transform: rotate(90deg);
       }
 
       .footer-navigation {
@@ -839,21 +889,14 @@
     }
 
 
-    /* Fotografia e contenuti nel riquadro introduttivo. */
+    /* Fotografia e didascalia nel riquadro introduttivo. */
     .intro-image {
-      position: relative;
-      isolation: isolate;
-      background: url("astrofotografia-luce-stacking.png") center / cover no-repeat;
+      background: url("scuola-astronomia-lezione.png") center / cover no-repeat;
     }
     .intro-image::before {
-      content: "";
-      position: absolute;
-      inset: 0;
-      border-radius: inherit;
-      background: linear-gradient(rgba(6, 16, 28, 0.76), rgba(6, 16, 28, 0.86));
       opacity: 1;
+      background: linear-gradient(rgba(6, 16, 28, 0.76), rgba(6, 16, 28, 0.86));
       pointer-events: none;
-      z-index: -1;
       transition: opacity 0.25s ease;
     }
     .intro-image-caption {
@@ -863,9 +906,7 @@
       .intro-image::before,
       .intro-image-caption { opacity: 0; }
       .intro-image:hover::before,
-      .intro-image:hover .intro-image-caption,
-      .intro-image:focus-within::before,
-      .intro-image:focus-within .intro-image-caption { opacity: 1; }
+      .intro-image:hover .intro-image-caption { opacity: 1; }
     }
 
 
@@ -884,8 +925,72 @@
     @media(max-width:900px){.site-footer{height:auto;min-height:0;overflow:visible}.site-footer .bottom-banner-image{width:100%;height:auto;object-fit:initial}.site-footer .footer-navigation{position:static;top:auto;right:auto;transform:none;width:100%;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 22px;padding:32px 5%;background:#041529}.site-footer .footer-column h3{font-size:.85rem}.site-footer .footer-column a{font-size:.8rem}}
     @media(max-width:520px){.site-footer .footer-navigation{grid-template-columns:1fr;gap:26px;padding:30px 7%}}
 
-  </style>
 
+/* Icone tematiche e collegamenti fra Scuola e indice delle lezioni. */
+.area-icon{width:54px;height:54px;flex-shrink:0;display:grid;place-items:center;background:var(--area-bg);color:var(--area-ink);border-radius:15px;margin-bottom:18px}.area-icon svg{width:36px;height:36px}.learning-area .area-icon{width:48px;height:48px;margin:0;border-radius:13px}.learning-area .area-icon svg{width:32px;height:32px}.learning-area{scroll-margin-top:24px}.programme .card{scroll-margin-top:28px}.learning-area-back{display:inline-block;margin-top:18px;font-size:.8rem;color:#58718f!important;text-decoration:underline;text-underline-offset:3px}
+
+/* Miniature fotografiche e sfondo astronomico dissolto. */
+.area-icon.area-photo{width:72px;height:64px;padding:0;border-radius:9px;background:#0a1726;overflow:hidden;border:1px solid #dce3ec}.area-photo img{display:block;width:100%;height:100%;object-fit:cover}.area-photo-contained img{object-fit:contain;padding:5px}.learning-area .area-icon.area-photo{width:68px;height:60px;margin:0;border-radius:8px}.learning-photo-credits{margin:35px 0 0;color:#64768a;font-size:.72rem;line-height:1.65}.learning-photo-credits summary{cursor:pointer}.learning-photo-credits p{margin-top:12px}.learning-photo-credits a{color:#506b8a;text-decoration:underline}.learning-intro.cosmic-intro{position:relative;isolation:isolate;max-width:none;padding:25px 0 30px;margin-bottom:4px}.cosmic-intro:before{content:"";position:absolute;inset:-35px 0 -35px;z-index:-1;background:url('assets/lezioni/andromeda.jpg') center 48%/cover no-repeat;opacity:.12;filter:saturate(.5) brightness(1.25);mask-image:radial-gradient(ellipse 75% 75% at 68% 50%,#000 0%,rgba(0,0,0,.9) 25%,rgba(0,0,0,.5) 48%,transparent 75%);-webkit-mask-image:radial-gradient(ellipse 75% 75% at 68% 50%,#000 0%,rgba(0,0,0,.9) 25%,rgba(0,0,0,.5) 48%,transparent 75%)}.cosmic-intro h2,.cosmic-intro>p{max-width:800px}.cosmic-intro:after{content:"";position:absolute;inset:-35px 0 -35px;z-index:-1;pointer-events:none;background:linear-gradient(90deg,rgba(247,249,252,.62),rgba(247,249,252,.12) 65%,transparent)}@media(max-width:760px){.learning-area .area-icon.area-photo{width:58px;height:54px}.cosmic-intro:before{opacity:.09;background-position:65% center}.learning-intro.cosmic-intro{padding:16px 0 24px}}
+
+.learning-photo-credits{width:min(1180px,92%);margin:35px auto}.learning-wrap>.learning-photo-credits{width:100%}
+
+/* Dissolvenza completa ai quattro bordi dello sfondo. */
+.cosmic-intro:after{background:linear-gradient(90deg,#f7f9fc,rgba(247,249,252,0) 22%,rgba(247,249,252,0) 78%,#f7f9fc),linear-gradient(180deg,#f7f9fc,rgba(247,249,252,0) 30%,rgba(247,249,252,0) 65%,#f7f9fc)}
+
+
+
+
+
+
+
+.lesson-preview{background:#eaf1fa;border-bottom:1px solid #d4e0ee;padding:9px 4%;font-size:.76rem;color:#47617e;text-align:center}
+.learning-wrap{width:min(1180px,92%);margin:auto;padding:30px 0 72px}.learning-crumbs{display:flex;flex-wrap:wrap;gap:8px;color:#58718f;font-size:.8rem;margin-bottom:34px}.learning-crumbs a{text-decoration:underline;text-underline-offset:3px}
+.learning-eyebrow{color:#2864d7;font-weight:700;font-size:.75rem;letter-spacing:.11em;text-transform:uppercase;margin-bottom:10px}.learning-intro{max-width:800px;margin-bottom:34px}.learning-intro h2{font-size:clamp(1.7rem,3vw,2.45rem);line-height:1.18;margin-bottom:18px}.learning-intro p{color:#526174;font-size:1.04rem;line-height:1.8}
+.learning-start{border-left:3px solid #2864d7;padding:18px 23px;background:#edf3fb;border-radius:0 8px 8px 0;display:flex;gap:24px;justify-content:space-between;align-items:center;margin:30px 0 38px}.learning-start p{color:#526174;font-size:.9rem}.learning-button{background:#2864d7;color:white;padding:11px 19px;border-radius:5px;font-size:.87rem;white-space:nowrap;display:inline-block;font-weight:700}.learning-button:hover{background:#174cab}.learning-button:focus-visible,.learning-area summary:focus-visible{outline:3px solid #f4c84e;outline-offset:4px}
+.learning-areas{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.learning-area{background:#fff;border:1px solid #dce3ec;border-radius:10px;overflow:hidden;align-self:start}.learning-area summary{display:flex;gap:18px;align-items:center;padding:23px;cursor:pointer;list-style:none}.learning-area summary::-webkit-details-marker{display:none}.learning-number{width:42px;height:42px;flex-shrink:0;display:grid;place-items:center;background:#edf3fb;color:#2864d7;font-size:.82rem;font-weight:700;border-radius:50%}.learning-area h3{font-size:1.05rem;line-height:1.35}.learning-area small{color:#75869a;font-size:.77rem}.learning-chevron{margin-left:auto;color:#2864d7;font-size:1.3rem}.learning-area[open] .learning-chevron{transform:rotate(90deg)}.learning-area-content{border-top:1px solid #e7edf5;padding:20px 25px}.learning-area-content ol{padding-left:20px;color:#526174;font-size:.9rem}.learning-area-content li+li{margin-top:9px}.learning-area-content a{color:#2864d7;text-decoration:underline}.learning-area-content .learning-button{color:white;text-decoration:none;margin-bottom:18px}
+.learning-columns{display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:45px;align-items:start}.learning-list{list-style:none;counter-reset:lessons}.learning-list li{background:white;border:1px solid #dce3ec;border-radius:9px;padding:25px;margin-bottom:16px;display:flex;gap:19px}.learning-list h3{font-size:1.14rem;margin-bottom:7px}.learning-list p{color:#526174;font-size:.9rem;line-height:1.7}.learning-list a{display:inline-block;color:#2864d7;font-size:.86rem;font-weight:700;margin-top:12px}.learning-sidebar{border-top:3px solid #2864d7;background:#edf3fb;border-radius:0 0 8px 8px;padding:25px}.learning-sidebar h3{font-size:1rem;margin-bottom:12px}.learning-sidebar p,.learning-sidebar li{font-size:.86rem;color:#526174;line-height:1.7}.learning-sidebar ul{padding-left:18px}.learning-sidebar a{color:#2864d7;text-decoration:underline}.learning-sidebar ol{list-style:none;counter-reset:item}.learning-sidebar ol li{padding:10px 0;border-bottom:1px solid #d8e4f1}.learning-sidebar ol li:last-child{border:0}.learning-sidebar .current{font-weight:700;color:#17365f}
+.learning-article{font-size:1.02rem;line-height:1.9;color:#526174;max-width:780px}.learning-article h3{color:#17365f;font-size:1.42rem;line-height:1.3;margin:32px 0 13px}.learning-article p{margin-bottom:18px}.learning-objective{padding:18px 23px;background:#edf3fb;border-radius:7px;color:#17365f;font-size:.93rem;margin-bottom:30px}.learning-figure{background:#0d2742;padding:24px;border-radius:10px;margin:25px 0}.learning-figure svg{display:block;width:100%;max-height:300px}.learning-figure figcaption{color:#b8cee4;font-size:.77rem;line-height:1.7;margin-top:12px}.learning-practice{margin-top:30px;background:#edf5f1;border-left:3px solid #5d917c;padding:22px}.learning-practice strong{color:#264d40}.learning-sources{border-top:1px solid #dce3ec;margin-top:32px;padding-top:20px;font-size:.8rem}.learning-sources a{color:#2864d7;text-decoration:underline}.learning-navigation{border-top:1px solid #dce3ec;margin-top:40px;padding-top:24px;display:grid;grid-template-columns:1fr 1fr;gap:18px}.learning-navigation a{border:1px solid #dce3ec;border-radius:8px;background:white;padding:20px;font-size:.85rem;color:#2864d7}.learning-navigation a:last-child{text-align:right}.learning-navigation strong{color:#17365f;display:block;margin-top:5px;font-size:.97rem}
+@media(max-width:760px){.learning-areas,.learning-columns{grid-template-columns:1fr}.learning-columns{gap:28px}.learning-start{align-items:flex-start;flex-direction:column;gap:15px}.learning-wrap{padding-top:22px}.learning-crumbs{margin-bottom:26px}.learning-area summary{padding:20px 17px;gap:13px}.learning-list li{padding:20px 16px;gap:13px}.learning-sidebar{position:static}.learning-navigation a{padding:14px}.learning-navigation strong{font-size:.86rem}.learning-figure{padding:14px}.learning-preview{font-size:.7rem}.banner-section-title h1{font-size:clamp(1.1rem,4vw,1.8rem)}}
+
+
+/* Visibilita calibrata dello sfondo astronomico. */
+.cosmic-intro:before{background-image:url('assets/lezioni/carina.jpg');background-position:center 42%;opacity:.52;filter:saturate(.75) brightness(1.2);mask-image:radial-gradient(ellipse 85% 85% at 65% 50%,#000 0%,#000 40%,rgba(0,0,0,.7) 60%,transparent 88%);-webkit-mask-image:radial-gradient(ellipse 85% 85% at 65% 50%,#000 0%,#000 40%,rgba(0,0,0,.7) 60%,transparent 88%)}.cosmic-intro:after{background:linear-gradient(90deg,#f7f9fc,rgba(247,249,252,.8) 10%,rgba(247,249,252,.35) 40%,rgba(247,249,252,0) 75%,#f7f9fc),linear-gradient(180deg,#f7f9fc,rgba(247,249,252,0) 28%,rgba(247,249,252,0) 70%,#f7f9fc)}@media(max-width:760px){.cosmic-intro:before{opacity:.38}}
+/* Fine visibilita sfondo. */
+
+/* Didattica: livello secondario, testo giustificato e apparato visuale. */
+.learning-article p,.learning-intro>p:not(.learning-eyebrow),.learning-list p{text-align:justify;hyphens:auto;overflow-wrap:break-word}.learning-article .lesson-reference,.learning-article figcaption,.learning-article .learning-sources p{text-align:left;hyphens:none}.learning-article{line-height:1.85}.lesson-section{scroll-margin-top:24px}.lesson-reference{font-size:.73rem;color:#64768a;margin:14px 0 27px!important}.lesson-reference a,.lesson-photo a{color:#46678e;text-decoration:underline}.lesson-photo,.lesson-diagram{margin:26px 0;border:1px solid #dce3ec;border-radius:10px;overflow:hidden;background:white}.lesson-photo img{width:100%;max-height:440px;object-fit:contain;background:#061320}.lesson-diagram img{width:100%;height:auto}.lesson-photo figcaption,.lesson-diagram figcaption{padding:15px 18px;color:#526174;font-size:.8rem;line-height:1.7;text-align:left}.lesson-interactive{padding:20px;background:#edf3f9}.lesson-interactive svg{width:100%;display:block}.lesson-interactive label{display:block;color:#17365f;font-weight:700;font-size:.85rem;margin:12px 0}.lesson-interactive input{width:100%;accent-color:#2864d7}.lesson-interactive figcaption{padding:16px 0 0}.lesson-questions{padding-left:24px;font-size:.94rem}.lesson-questions li+li{margin-top:12px}.lesson-solutions{border:1px solid #dce3ec;padding:16px 20px;border-radius:7px;margin-top:22px;font-size:.9rem}.lesson-solutions summary{cursor:pointer;color:#17365f;font-weight:700}.lesson-solutions p{margin-top:14px}.learning-sidebar .lesson-page-links{list-style:none;padding:0;margin-top:15px}.lesson-page-links li{margin-bottom:10px}.lesson-page-links a{display:block}.learning-sidebar .current a{font-weight:700;color:#17365f}.lesson-miniature{width:82px;height:72px;flex-shrink:0;border-radius:9px;border:1px solid #dce3ec;object-fit:cover;background:#0a1726}.learning-list h3 a{font-size:inherit;color:#17365f;margin:0}.learning-sidebar h4{font-size:.84rem;color:#17365f;margin:24px 0 10px}.learning-sidebar .section-list{padding:0;list-style:none}.section-list li{font-size:.79rem;line-height:1.55}.learning-sidebar .section-list a{text-decoration:none}.lesson-page-note{font-size:.8rem;color:#6b7d91;margin-top:12px}.learning-list li>div{min-width:0}.learning-sources ul{padding-left:18px}@media(max-width:760px){.lesson-miniature{width:65px;height:60px}.learning-list li{gap:14px}.learning-article{font-size:.98rem}.learning-article p{text-align:justify;hyphens:auto}.lesson-interactive{padding:12px}.lesson-photo figcaption,.lesson-diagram figcaption{padding:13px}.learning-columns{grid-template-columns:1fr}}
+
+/* Didattica: livello secondario, testo giustificato e apparato visuale. */
+.learning-article p,.learning-intro>p:not(.learning-eyebrow),.learning-list p{text-align:justify;hyphens:auto;overflow-wrap:break-word}.learning-article .lesson-reference,.learning-article figcaption,.learning-article .learning-sources p{text-align:left;hyphens:none}.learning-article{line-height:1.85}.lesson-section{scroll-margin-top:24px}.lesson-reference{font-size:.73rem;color:#64768a;margin:14px 0 27px!important}.lesson-reference a,.lesson-photo a{color:#46678e;text-decoration:underline}.lesson-photo,.lesson-diagram{margin:26px 0;border:1px solid #dce3ec;border-radius:10px;overflow:hidden;background:white}.lesson-photo img{width:100%;max-height:440px;object-fit:contain;background:#061320}.lesson-diagram img{width:100%;height:auto}.lesson-photo figcaption,.lesson-diagram figcaption{padding:15px 18px;color:#526174;font-size:.8rem;line-height:1.7;text-align:left}.lesson-interactive{padding:20px;background:#edf3f9}.lesson-interactive svg{width:100%;display:block}.lesson-interactive label{display:block;color:#17365f;font-weight:700;font-size:.85rem;margin:12px 0}.lesson-interactive input{width:100%;accent-color:#2864d7}.lesson-interactive figcaption{padding:16px 0 0}.lesson-questions{padding-left:24px;font-size:.94rem}.lesson-questions li+li{margin-top:12px}.lesson-solutions{border:1px solid #dce3ec;padding:16px 20px;border-radius:7px;margin-top:22px;font-size:.9rem}.lesson-solutions summary{cursor:pointer;color:#17365f;font-weight:700}.lesson-solutions p{margin-top:14px}.learning-sidebar .lesson-page-links{list-style:none;padding:0;margin-top:15px}.lesson-page-links li{margin-bottom:10px}.lesson-page-links a{display:block}.learning-sidebar .current a{font-weight:700;color:#17365f}.lesson-miniature{width:82px;height:72px;flex-shrink:0;border-radius:9px;border:1px solid #dce3ec;object-fit:cover;background:#0a1726}.learning-list h3 a{font-size:inherit;color:#17365f;margin:0}.learning-sidebar h4{font-size:.84rem;color:#17365f;margin:24px 0 10px}.learning-sidebar .section-list{padding:0;list-style:none}.section-list li{font-size:.79rem;line-height:1.55}.learning-sidebar .section-list a{text-decoration:none}.lesson-page-note{font-size:.8rem;color:#6b7d91;margin-top:12px}.learning-list li>div{min-width:0}.learning-sources ul{padding-left:18px}@media(max-width:760px){.lesson-miniature{width:65px;height:60px}.learning-list li{gap:14px}.learning-article{font-size:.98rem}.learning-article p{text-align:justify;hyphens:auto}.lesson-interactive{padding:12px}.lesson-photo figcaption,.lesson-diagram figcaption{padding:13px}.learning-columns{grid-template-columns:1fr}}
+
+/* Didattica: livello secondario, testo giustificato e apparato visuale. */
+.learning-article p,.learning-intro>p:not(.learning-eyebrow),.learning-list p{text-align:justify;hyphens:auto;overflow-wrap:break-word}.learning-article .lesson-reference,.learning-article figcaption,.learning-article .learning-sources p{text-align:left;hyphens:none}.learning-article{line-height:1.85}.lesson-section{scroll-margin-top:24px}.lesson-reference{font-size:.73rem;color:#64768a;margin:14px 0 27px!important}.lesson-reference a,.lesson-photo a{color:#46678e;text-decoration:underline}.lesson-photo,.lesson-diagram{margin:26px 0;border:1px solid #dce3ec;border-radius:10px;overflow:hidden;background:white}.lesson-photo img{width:100%;max-height:440px;object-fit:contain;background:#061320}.lesson-diagram img{width:100%;height:auto}.lesson-photo figcaption,.lesson-diagram figcaption{padding:15px 18px;color:#526174;font-size:.8rem;line-height:1.7;text-align:left}.lesson-interactive{padding:20px;background:#edf3f9}.lesson-interactive svg{width:100%;display:block}.lesson-interactive label{display:block;color:#17365f;font-weight:700;font-size:.85rem;margin:12px 0}.lesson-interactive input{width:100%;accent-color:#2864d7}.lesson-interactive figcaption{padding:16px 0 0}.lesson-questions{padding-left:24px;font-size:.94rem}.lesson-questions li+li{margin-top:12px}.lesson-solutions{border:1px solid #dce3ec;padding:16px 20px;border-radius:7px;margin-top:22px;font-size:.9rem}.lesson-solutions summary{cursor:pointer;color:#17365f;font-weight:700}.lesson-solutions p{margin-top:14px}.learning-sidebar .lesson-page-links{list-style:none;padding:0;margin-top:15px}.lesson-page-links li{margin-bottom:10px}.lesson-page-links a{display:block}.learning-sidebar .current a{font-weight:700;color:#17365f}.lesson-miniature{width:82px;height:72px;flex-shrink:0;border-radius:9px;border:1px solid #dce3ec;object-fit:cover;background:#0a1726}.learning-list h3 a{font-size:inherit;color:#17365f;margin:0}.learning-sidebar h4{font-size:.84rem;color:#17365f;margin:24px 0 10px}.learning-sidebar .section-list{padding:0;list-style:none}.section-list li{font-size:.79rem;line-height:1.55}.learning-sidebar .section-list a{text-decoration:none}.lesson-page-note{font-size:.8rem;color:#6b7d91;margin-top:12px}.learning-list li>div{min-width:0}.learning-sources ul{padding-left:18px}@media(max-width:760px){.lesson-miniature{width:65px;height:60px}.learning-list li{gap:14px}.learning-article{font-size:.98rem}.learning-article p{text-align:justify;hyphens:auto}.lesson-interactive{padding:12px}.lesson-photo figcaption,.lesson-diagram figcaption{padding:13px}.learning-columns{grid-template-columns:1fr}}
+
+/* Didattica: livello secondario, testo giustificato e apparato visuale. */
+.learning-article p,.learning-intro>p:not(.learning-eyebrow),.learning-list p{text-align:justify;hyphens:auto;overflow-wrap:break-word}.learning-article .lesson-reference,.learning-article figcaption,.learning-article .learning-sources p{text-align:left;hyphens:none}.learning-article{line-height:1.85}.lesson-section{scroll-margin-top:24px}.lesson-reference{font-size:.73rem;color:#64768a;margin:14px 0 27px!important}.lesson-reference a,.lesson-photo a{color:#46678e;text-decoration:underline}.lesson-photo,.lesson-diagram{margin:26px 0;border:1px solid #dce3ec;border-radius:10px;overflow:hidden;background:white}.lesson-photo img{width:100%;max-height:440px;object-fit:contain;background:#061320}.lesson-diagram img{width:100%;height:auto}.lesson-photo figcaption,.lesson-diagram figcaption{padding:15px 18px;color:#526174;font-size:.8rem;line-height:1.7;text-align:left}.lesson-interactive{padding:20px;background:#edf3f9}.lesson-interactive svg{width:100%;display:block}.lesson-interactive label{display:block;color:#17365f;font-weight:700;font-size:.85rem;margin:12px 0}.lesson-interactive input{width:100%;accent-color:#2864d7}.lesson-interactive figcaption{padding:16px 0 0}.lesson-questions{padding-left:24px;font-size:.94rem}.lesson-questions li+li{margin-top:12px}.lesson-solutions{border:1px solid #dce3ec;padding:16px 20px;border-radius:7px;margin-top:22px;font-size:.9rem}.lesson-solutions summary{cursor:pointer;color:#17365f;font-weight:700}.lesson-solutions p{margin-top:14px}.learning-sidebar .lesson-page-links{list-style:none;padding:0;margin-top:15px}.lesson-page-links li{margin-bottom:10px}.lesson-page-links a{display:block}.learning-sidebar .current a{font-weight:700;color:#17365f}.lesson-miniature{width:82px;height:72px;flex-shrink:0;border-radius:9px;border:1px solid #dce3ec;object-fit:cover;background:#0a1726}.learning-list h3 a{font-size:inherit;color:#17365f;margin:0}.learning-sidebar h4{font-size:.84rem;color:#17365f;margin:24px 0 10px}.learning-sidebar .section-list{padding:0;list-style:none}.section-list li{font-size:.79rem;line-height:1.55}.learning-sidebar .section-list a{text-decoration:none}.lesson-page-note{font-size:.8rem;color:#6b7d91;margin-top:12px}.learning-list li>div{min-width:0}.learning-sources ul{padding-left:18px}@media(max-width:760px){.lesson-miniature{width:65px;height:60px}.learning-list li{gap:14px}.learning-article{font-size:.98rem}.learning-article p{text-align:justify;hyphens:auto}.lesson-interactive{padding:12px}.lesson-photo figcaption,.lesson-diagram figcaption{padding:13px}.learning-columns{grid-template-columns:1fr}}
+
+/* Didattica: livello secondario, testo giustificato e apparato visuale. */
+.learning-article p,.learning-intro>p:not(.learning-eyebrow),.learning-list p{text-align:justify;hyphens:auto;overflow-wrap:break-word}.learning-article .lesson-reference,.learning-article figcaption,.learning-article .learning-sources p{text-align:left;hyphens:none}.learning-article{line-height:1.85}.lesson-section{scroll-margin-top:24px}.lesson-reference{font-size:.73rem;color:#64768a;margin:14px 0 27px!important}.lesson-reference a,.lesson-photo a{color:#46678e;text-decoration:underline}.lesson-photo,.lesson-diagram{margin:26px 0;border:1px solid #dce3ec;border-radius:10px;overflow:hidden;background:white}.lesson-photo img{width:100%;max-height:440px;object-fit:contain;background:#061320}.lesson-diagram img{width:100%;height:auto}.lesson-photo figcaption,.lesson-diagram figcaption{padding:15px 18px;color:#526174;font-size:.8rem;line-height:1.7;text-align:left}.lesson-interactive{padding:20px;background:#edf3f9}.lesson-interactive svg{width:100%;display:block}.lesson-interactive label{display:block;color:#17365f;font-weight:700;font-size:.85rem;margin:12px 0}.lesson-interactive input{width:100%;accent-color:#2864d7}.lesson-interactive figcaption{padding:16px 0 0}.lesson-questions{padding-left:24px;font-size:.94rem}.lesson-questions li+li{margin-top:12px}.lesson-solutions{border:1px solid #dce3ec;padding:16px 20px;border-radius:7px;margin-top:22px;font-size:.9rem}.lesson-solutions summary{cursor:pointer;color:#17365f;font-weight:700}.lesson-solutions p{margin-top:14px}.learning-sidebar .lesson-page-links{list-style:none;padding:0;margin-top:15px}.lesson-page-links li{margin-bottom:10px}.lesson-page-links a{display:block}.learning-sidebar .current a{font-weight:700;color:#17365f}.lesson-miniature{width:82px;height:72px;flex-shrink:0;border-radius:9px;border:1px solid #dce3ec;object-fit:cover;background:#0a1726}.learning-list h3 a{font-size:inherit;color:#17365f;margin:0}.learning-sidebar h4{font-size:.84rem;color:#17365f;margin:24px 0 10px}.learning-sidebar .section-list{padding:0;list-style:none}.section-list li{font-size:.79rem;line-height:1.55}.learning-sidebar .section-list a{text-decoration:none}.lesson-page-note{font-size:.8rem;color:#6b7d91;margin-top:12px}.learning-list li>div{min-width:0}.learning-sources ul{padding-left:18px}@media(max-width:760px){.lesson-miniature{width:65px;height:60px}.learning-list li{gap:14px}.learning-article{font-size:.98rem}.learning-article p{text-align:justify;hyphens:auto}.lesson-interactive{padding:12px}.lesson-photo figcaption,.lesson-diagram figcaption{padding:13px}.learning-columns{grid-template-columns:1fr}}
+
+/* Didattica: livello secondario, testo giustificato e apparato visuale. */
+.learning-article p,.learning-intro>p:not(.learning-eyebrow),.learning-list p{text-align:justify;hyphens:auto;overflow-wrap:break-word}.learning-article .lesson-reference,.learning-article figcaption,.learning-article .learning-sources p{text-align:left;hyphens:none}.learning-article{line-height:1.85}.lesson-section{scroll-margin-top:24px}.lesson-reference{font-size:.73rem;color:#64768a;margin:14px 0 27px!important}.lesson-reference a,.lesson-photo a{color:#46678e;text-decoration:underline}.lesson-photo,.lesson-diagram{margin:26px 0;border:1px solid #dce3ec;border-radius:10px;overflow:hidden;background:white}.lesson-photo img{width:100%;max-height:440px;object-fit:contain;background:#061320}.lesson-diagram img{width:100%;height:auto}.lesson-photo figcaption,.lesson-diagram figcaption{padding:15px 18px;color:#526174;font-size:.8rem;line-height:1.7;text-align:left}.lesson-interactive{padding:20px;background:#edf3f9}.lesson-interactive svg{width:100%;display:block}.lesson-interactive label{display:block;color:#17365f;font-weight:700;font-size:.85rem;margin:12px 0}.lesson-interactive input{width:100%;accent-color:#2864d7}.lesson-interactive figcaption{padding:16px 0 0}.lesson-questions{padding-left:24px;font-size:.94rem}.lesson-questions li+li{margin-top:12px}.lesson-solutions{border:1px solid #dce3ec;padding:16px 20px;border-radius:7px;margin-top:22px;font-size:.9rem}.lesson-solutions summary{cursor:pointer;color:#17365f;font-weight:700}.lesson-solutions p{margin-top:14px}.learning-sidebar .lesson-page-links{list-style:none;padding:0;margin-top:15px}.lesson-page-links li{margin-bottom:10px}.lesson-page-links a{display:block}.learning-sidebar .current a{font-weight:700;color:#17365f}.lesson-miniature{width:82px;height:72px;flex-shrink:0;border-radius:9px;border:1px solid #dce3ec;object-fit:cover;background:#0a1726}.learning-list h3 a{font-size:inherit;color:#17365f;margin:0}.learning-sidebar h4{font-size:.84rem;color:#17365f;margin:24px 0 10px}.learning-sidebar .section-list{padding:0;list-style:none}.section-list li{font-size:.79rem;line-height:1.55}.learning-sidebar .section-list a{text-decoration:none}.lesson-page-note{font-size:.8rem;color:#6b7d91;margin-top:12px}.learning-list li>div{min-width:0}.learning-sources ul{padding-left:18px}@media(max-width:760px){.lesson-miniature{width:65px;height:60px}.learning-list li{gap:14px}.learning-article{font-size:.98rem}.learning-article p{text-align:justify;hyphens:auto}.lesson-interactive{padding:12px}.lesson-photo figcaption,.lesson-diagram figcaption{padding:13px}.learning-columns{grid-template-columns:1fr}}
+
+/* Didattica: livello secondario, testo giustificato e apparato visuale. */
+.learning-article p,.learning-intro>p:not(.learning-eyebrow),.learning-list p{text-align:justify;hyphens:auto;overflow-wrap:break-word}.learning-article .lesson-reference,.learning-article figcaption,.learning-article .learning-sources p{text-align:left;hyphens:none}.learning-article{line-height:1.85}.lesson-section{scroll-margin-top:24px}.lesson-reference{font-size:.73rem;color:#64768a;margin:14px 0 27px!important}.lesson-reference a,.lesson-photo a{color:#46678e;text-decoration:underline}.lesson-photo,.lesson-diagram{margin:26px 0;border:1px solid #dce3ec;border-radius:10px;overflow:hidden;background:white}.lesson-photo img{width:100%;max-height:440px;object-fit:contain;background:#061320}.lesson-diagram img{width:100%;height:auto}.lesson-photo figcaption,.lesson-diagram figcaption{padding:15px 18px;color:#526174;font-size:.8rem;line-height:1.7;text-align:left}.lesson-interactive{padding:20px;background:#edf3f9}.lesson-interactive svg{width:100%;display:block}.lesson-interactive label{display:block;color:#17365f;font-weight:700;font-size:.85rem;margin:12px 0}.lesson-interactive input{width:100%;accent-color:#2864d7}.lesson-interactive figcaption{padding:16px 0 0}.lesson-questions{padding-left:24px;font-size:.94rem}.lesson-questions li+li{margin-top:12px}.lesson-solutions{border:1px solid #dce3ec;padding:16px 20px;border-radius:7px;margin-top:22px;font-size:.9rem}.lesson-solutions summary{cursor:pointer;color:#17365f;font-weight:700}.lesson-solutions p{margin-top:14px}.learning-sidebar .lesson-page-links{list-style:none;padding:0;margin-top:15px}.lesson-page-links li{margin-bottom:10px}.lesson-page-links a{display:block}.learning-sidebar .current a{font-weight:700;color:#17365f}.lesson-miniature{width:82px;height:72px;flex-shrink:0;border-radius:9px;border:1px solid #dce3ec;object-fit:cover;background:#0a1726}.learning-list h3 a{font-size:inherit;color:#17365f;margin:0}.learning-sidebar h4{font-size:.84rem;color:#17365f;margin:24px 0 10px}.learning-sidebar .section-list{padding:0;list-style:none}.section-list li{font-size:.79rem;line-height:1.55}.learning-sidebar .section-list a{text-decoration:none}.lesson-page-note{font-size:.8rem;color:#6b7d91;margin-top:12px}.learning-list li>div{min-width:0}.learning-sources ul{padding-left:18px}@media(max-width:760px){.lesson-miniature{width:65px;height:60px}.learning-list li{gap:14px}.learning-article{font-size:.98rem}.learning-article p{text-align:justify;hyphens:auto}.lesson-interactive{padding:12px}.lesson-photo figcaption,.lesson-diagram figcaption{padding:13px}.learning-columns{grid-template-columns:1fr}}
+
+/* Immagini didattiche di base, indipendenti dai laboratori */
+.lesson-basic,.lesson-chart{margin:26px 0;padding:16px;background:#f2f6fa;border:1px solid #dae4ef;border-radius:14px;min-width:0}.lesson-basic img,.chart-picture svg{display:block;width:100%;height:auto;max-height:850px;object-fit:contain}.lesson-basic figcaption{font-size:.92rem;line-height:1.65;text-align:left;margin-top:12px}.lesson-chart .lesson-basic{padding:0;margin:0;border:0}.chart-controls{display:flex;flex-wrap:wrap;gap:14px;align-items:center;margin-top:18px}.chart-controls label{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:.95rem;line-height:1.5}.chart-controls select,.chart-controls button{font:inherit;padding:8px 12px;border:1px solid #91a8c0;border-radius:7px;background:white;color:#15385a;max-width:100%}.chart-controls input[type=checkbox]{width:18px;height:18px}.chart-reading{font-size:.95rem;text-align:left!important;margin-top:16px!important}.chart-picture svg[hidden]{display:none}.lesson-chart button:focus-visible,.lesson-chart select:focus-visible{outline:3px solid #2864d7;outline-offset:3px}
+
+/* Didattica: livello secondario, testo giustificato e apparato visuale. */
+.learning-article p,.learning-intro>p:not(.learning-eyebrow),.learning-list p{text-align:justify;hyphens:auto;overflow-wrap:break-word}.learning-article .lesson-reference,.learning-article figcaption,.learning-article .learning-sources p{text-align:left;hyphens:none}.learning-article{line-height:1.85}.lesson-section{scroll-margin-top:24px}.lesson-reference{font-size:.73rem;color:#64768a;margin:14px 0 27px!important}.lesson-reference a,.lesson-photo a{color:#46678e;text-decoration:underline}.lesson-photo,.lesson-diagram{margin:26px 0;border:1px solid #dce3ec;border-radius:10px;overflow:hidden;background:white}.lesson-photo img{width:100%;max-height:440px;object-fit:contain;background:#061320}.lesson-diagram img{width:100%;height:auto}.lesson-photo figcaption,.lesson-diagram figcaption{padding:15px 18px;color:#526174;font-size:.8rem;line-height:1.7;text-align:left}.lesson-interactive{padding:20px;background:#edf3f9}.lesson-interactive svg{width:100%;display:block}.lesson-interactive label{display:block;color:#17365f;font-weight:700;font-size:.85rem;margin:12px 0}.lesson-interactive input{width:100%;accent-color:#2864d7}.lesson-interactive figcaption{padding:16px 0 0}.lesson-questions{padding-left:24px;font-size:.94rem}.lesson-questions li+li{margin-top:12px}.lesson-solutions{border:1px solid #dce3ec;padding:16px 20px;border-radius:7px;margin-top:22px;font-size:.9rem}.lesson-solutions summary{cursor:pointer;color:#17365f;font-weight:700}.lesson-solutions p{margin-top:14px}.learning-sidebar .lesson-page-links{list-style:none;padding:0;margin-top:15px}.lesson-page-links li{margin-bottom:10px}.lesson-page-links a{display:block}.learning-sidebar .current a{font-weight:700;color:#17365f}.lesson-miniature{width:82px;height:72px;flex-shrink:0;border-radius:9px;border:1px solid #dce3ec;object-fit:cover;background:#0a1726}.learning-list h3 a{font-size:inherit;color:#17365f;margin:0}.learning-sidebar h4{font-size:.84rem;color:#17365f;margin:24px 0 10px}.learning-sidebar .section-list{padding:0;list-style:none}.section-list li{font-size:.79rem;line-height:1.55}.learning-sidebar .section-list a{text-decoration:none}.lesson-page-note{font-size:.8rem;color:#6b7d91;margin-top:12px}.learning-list li>div{min-width:0}.learning-sources ul{padding-left:18px}@media(max-width:760px){.lesson-miniature{width:65px;height:60px}.learning-list li{gap:14px}.learning-article{font-size:.98rem}.learning-article p{text-align:justify;hyphens:auto}.lesson-interactive{padding:12px}.lesson-photo figcaption,.lesson-diagram figcaption{padding:13px}.learning-columns{grid-template-columns:1fr}}
+
+/* Didattica: livello secondario, testo giustificato e apparato visuale. */
+.learning-article p,.learning-intro>p:not(.learning-eyebrow),.learning-list p{text-align:justify;hyphens:auto;overflow-wrap:break-word}.learning-article .lesson-reference,.learning-article figcaption,.learning-article .learning-sources p{text-align:left;hyphens:none}.learning-article{line-height:1.85}.lesson-section{scroll-margin-top:24px}.lesson-reference{font-size:.73rem;color:#64768a;margin:14px 0 27px!important}.lesson-reference a,.lesson-photo a{color:#46678e;text-decoration:underline}.lesson-photo,.lesson-diagram{margin:26px 0;border:1px solid #dce3ec;border-radius:10px;overflow:hidden;background:white}.lesson-photo img{width:100%;max-height:440px;object-fit:contain;background:#061320}.lesson-diagram img{width:100%;height:auto}.lesson-photo figcaption,.lesson-diagram figcaption{padding:15px 18px;color:#526174;font-size:.8rem;line-height:1.7;text-align:left}.lesson-interactive{padding:20px;background:#edf3f9}.lesson-interactive svg{width:100%;display:block}.lesson-interactive label{display:block;color:#17365f;font-weight:700;font-size:.85rem;margin:12px 0}.lesson-interactive input{width:100%;accent-color:#2864d7}.lesson-interactive figcaption{padding:16px 0 0}.lesson-questions{padding-left:24px;font-size:.94rem}.lesson-questions li+li{margin-top:12px}.lesson-solutions{border:1px solid #dce3ec;padding:16px 20px;border-radius:7px;margin-top:22px;font-size:.9rem}.lesson-solutions summary{cursor:pointer;color:#17365f;font-weight:700}.lesson-solutions p{margin-top:14px}.learning-sidebar .lesson-page-links{list-style:none;padding:0;margin-top:15px}.lesson-page-links li{margin-bottom:10px}.lesson-page-links a{display:block}.learning-sidebar .current a{font-weight:700;color:#17365f}.lesson-miniature{width:82px;height:72px;flex-shrink:0;border-radius:9px;border:1px solid #dce3ec;object-fit:cover;background:#0a1726}.learning-list h3 a{font-size:inherit;color:#17365f;margin:0}.learning-sidebar h4{font-size:.84rem;color:#17365f;margin:24px 0 10px}.learning-sidebar .section-list{padding:0;list-style:none}.section-list li{font-size:.79rem;line-height:1.55}.learning-sidebar .section-list a{text-decoration:none}.lesson-page-note{font-size:.8rem;color:#6b7d91;margin-top:12px}.learning-list li>div{min-width:0}.learning-sources ul{padding-left:18px}@media(max-width:760px){.lesson-miniature{width:65px;height:60px}.learning-list li{gap:14px}.learning-article{font-size:.98rem}.learning-article p{text-align:justify;hyphens:auto}.lesson-interactive{padding:12px}.lesson-photo figcaption,.lesson-diagram figcaption{padding:13px}.learning-columns{grid-template-columns:1fr}}
+</style>
+
+<meta name="robots" content="noindex,nofollow"><link rel="stylesheet" href="assets/lezioni/interazioni-didattiche.css">
+<link rel="stylesheet" href="assets/lezioni/percorsi-pratici.css">
+<meta name="ad-astra-revision" content="percorsi-20261013">
 </head>
 
 
@@ -904,17 +1009,8 @@
       alt="AD ASTRA"
     >
 
-    <div class="banner-section-title">
 
-      <h1>
-        ASTROFOTOGRAFIA
-      </h1>
-
-      <p>
-        Dalla luce raccolta all'immagine astronomica
-      </p>
-
-    </div>
+    <div class="banner-section-title"><h1>ASTROFOTOGRAFIA</h1><p>Impara, osserva, verifica</p></div>
 
   </header>
 
@@ -938,7 +1034,10 @@
       </li>
 
       <li>
-        <a href="scuola-astronomia.html">
+        <a
+
+          href="scuola-astronomia.html"
+        >
           SCUOLA DI ASTRONOMIA
         </a>
       </li>
@@ -956,10 +1055,7 @@
       </li>
 
       <li>
-        <a
-          class="active"
-          href="astrofotografia.html"
-        >
+        <a class="active" aria-current="page" href="astrofotografia.html">
           ASTROFOTOGRAFIA
         </a>
       </li>
@@ -1018,651 +1114,7 @@
 
 
 
-  <main>
-
-
-    <!-- =====================================================
-         INTRODUZIONE / CAMEO
-    ====================================================== -->
-
-    <section class="intro">
-
-      <div class="container intro-grid">
-
-        <div class="intro-text">
-
-          <p class="intro-lead">
-            Fotografare il cielo significa raccogliere luce.
-          </p>
-
-          <div class="intro-line"></div>
-
-          <p>
-            L'astrofotografia non consiste semplicemente
-            nel puntare una fotocamera verso il cielo.
-            Ogni immagine nasce dalla raccolta di un segnale
-            estremamente debole, registrato da un sensore
-            attraverso un sistema ottico, meccanico
-            ed elettronico.
-          </p>
-
-          <p>
-            Comprendere come nasce quel segnale è il primo passo
-            per capire esposizione, rumore, integrazione,
-            calibrazione e successiva elaborazione.
-          </p>
-
-          <p>
-            Prima delle tecniche dedicate a Luna, Sole,
-            pianeti, Via Lattea e cielo profondo,
-            è quindi necessario comprendere che cosa
-            stiamo realmente chiedendo ai nostri strumenti
-            di registrare.
-          </p>
-
-        </div>
-
-
-        <div class="intro-image">
-
-          <div class="intro-image-caption">
-            Un'immagine astronomica nasce dalla luce:
-            prima si acquisisce il dato, poi lo si elabora.
-          </div>
-
-        </div>
-
-      </div>
-
-    </section>
-
-
-
-    <!-- =====================================================
-         PRINCIPI FONDAMENTALI
-    ====================================================== -->
-
-    <section class="principles">
-
-      <div class="container">
-
-        <div class="principles-heading">
-
-          <div class="principles-heading-icon">
-            ◇
-          </div>
-
-          <h2>
-            PRINCIPI DELL'ASTROFOTOGRAFIA
-          </h2>
-
-          <div class="principles-heading-line"></div>
-
-        </div>
-
-        <p class="principles-intro">
-          Prima di affrontare strumenti e tecniche di ripresa,
-          è utile comprendere alcuni principi comuni
-          a qualunque immagine astronomica.
-        </p>
-
-
-        <div class="principles-grid">
-
-
-          <article class="principle">
-
-            <div class="principle-icon">
-              ◎
-            </div>
-
-            <h3>
-              L'occhio non è una fotocamera
-            </h3>
-
-            <p>
-              La visione umana è continua, adattiva
-              e capace di percepire scene con forti differenze
-              di luminosità. Un sensore, invece, registra
-              quantitativamente la luce ricevuta entro
-              una determinata gamma dinamica.
-            </p>
-
-          </article>
-
-
-          <article class="principle">
-
-            <div class="principle-icon">
-              ⚙
-            </div>
-
-            <h3>
-              Il limite della catena
-            </h3>
-
-            <p>
-              Ottica, montatura, inseguimento, meccanica,
-              sensore ed elettronica lavorano insieme.
-              La qualità finale dipende dall'intera catena
-              di acquisizione e non da un singolo componente.
-            </p>
-
-          </article>
-
-
-          <article class="principle">
-
-            <div class="principle-icon">
-              ◫
-            </div>
-
-            <h3>
-              Dalla grana al rumore
-            </h3>
-
-            <p>
-              La granulosità della pellicola e il rumore
-              di un sensore digitale non sono lo stesso
-              fenomeno fisico, ma l'analogia aiuta
-              a comprendere perché un'immagine può apparire
-              irregolare e perdere informazione fine.
-            </p>
-
-          </article>
-
-
-          <article class="principle">
-
-            <div class="principle-icon">
-              ✦
-            </div>
-
-            <h3>
-              Raccogliere segnale
-            </h3>
-
-            <p>
-              Il sensore non vede il cielo come l'occhio:
-              registra la luce che lo raggiunge.
-              Tempo di esposizione, apertura, ISO o gain
-              e caratteristiche del sensore determinano
-              come quel segnale viene acquisito.
-            </p>
-
-          </article>
-
-
-          <article class="principle">
-
-            <div class="principle-icon">
-              ≋
-            </div>
-
-            <h3>
-              Più integrazione, più informazione
-            </h3>
-
-            <p>
-              Come una parete nera richiede più mani
-              di pittura bianca per diventare uniforme,
-              più esposizioni permettono di consolidare
-              il segnale utile rispetto alle fluttuazioni
-              casuali, migliorando il rapporto segnale-rumore.
-            </p>
-
-          </article>
-
-
-          <article class="principle">
-
-            <div class="principle-icon">
-              ↯
-            </div>
-
-            <h3>
-              Garbage in, garbage out
-            </h3>
-
-            <p>
-              Il software può valorizzare l'informazione
-              realmente acquisita, ma non può ricreare
-              ciò che è stato perso. Fuoco errato, mosso,
-              saturazione o dati insufficienti condizionano
-              inevitabilmente le elaborazioni successive.
-            </p>
-
-          </article>
-
-
-        </div>
-
-      </div>
-
-    </section>
-
-
-
-    <!-- =====================================================
-         ARGOMENTI
-    ====================================================== -->
-
-    <section class="catalogue">
-
-      <div class="container">
-
-        <div class="catalogue-heading">
-
-          <div class="catalogue-heading-icon">
-            ◫
-          </div>
-
-          <h2>
-            ARGOMENTI
-          </h2>
-
-          <div class="catalogue-heading-line"></div>
-
-        </div>
-
-        <p class="catalogue-intro">
-          Dalle prime riprese con strumenti semplici
-          fino all'acquisizione e all'elaborazione
-          delle immagini astronomiche.
-        </p>
-
-
-        <div class="cards">
-
-
-          <article class="card">
-
-            <div class="card-number">
-              01
-            </div>
-
-            <h3>
-              Astrofotografia con smartphone
-            </h3>
-
-            <p>
-              Luna, cielo stellato, modalità manuale,
-              adattatori e possibilità offerte
-              dai piccoli sensori dei dispositivi mobili.
-            </p>
-
-            <span class="card-link">
-              Schede in preparazione
-            </span>
-
-          </article>
-
-
-          <article class="card">
-
-            <div class="card-number">
-              02
-            </div>
-
-            <h3>
-              Fotografia su cavalletto
-            </h3>
-
-            <p>
-              Fotocamera, obiettivo, tempi di posa,
-              focali e tecniche di base per fotografare
-              il cielo mantenendo le stelle puntiformi.
-            </p>
-
-            <span class="card-link">
-              Schede in preparazione
-            </span>
-
-          </article>
-
-
-          <article class="card">
-
-            <div class="card-number">
-              03
-            </div>
-
-            <h3>
-              Astroinseguitore e largo campo
-            </h3>
-
-            <p>
-              Inseguimento del cielo, pose più lunghe,
-              costellazioni, Via Lattea e grandi regioni
-              del cielo riprese con focali contenute.
-            </p>
-
-            <span class="card-link">
-              Schede in preparazione
-            </span>
-
-          </article>
-
-
-          <article class="card">
-
-            <div class="card-number">
-              04
-            </div>
-
-            <h3>
-              Astrofotografia con telescopio
-            </h3>
-
-            <p>
-              Fuoco diretto, focale, rapporto focale,
-              campo inquadrato, campionamento
-              e configurazione del treno ottico.
-            </p>
-
-            <span class="card-link">
-              Schede in preparazione
-            </span>
-
-          </article>
-
-
-          <article class="card">
-
-            <div class="card-number">
-              05
-            </div>
-
-            <h3>
-              Luna e Sole
-            </h3>
-
-            <p>
-              Tecniche dedicate agli oggetti più luminosi,
-              singoli scatti, sequenze e mosaici.
-              Per il Sole, osservazione e ripresa
-              esclusivamente con filtrazione appropriata.
-            </p>
-
-            <span class="card-link">
-              Schede in preparazione
-            </span>
-
-          </article>
-
-
-          <article class="card">
-
-            <div class="card-number">
-              06
-            </div>
-
-            <h3>
-              Pianeti
-            </h3>
-
-            <p>
-              Acquisizioni video ad alta frequenza,
-              seeing, selezione dei fotogrammi,
-              stacking e principi del lucky imaging.
-            </p>
-
-            <span class="card-link">
-              Schede in preparazione
-            </span>
-
-          </article>
-
-
-          <article class="card">
-
-            <div class="card-number">
-              07
-            </div>
-
-            <h3>
-              Deep Sky
-            </h3>
-
-            <p>
-              Nebulose, galassie e ammassi:
-              pose multiple, lunghe integrazioni,
-              camere astronomiche, filtri,
-              inseguimento e autoguida.
-            </p>
-
-            <span class="card-link">
-              Schede in preparazione
-            </span>
-
-          </article>
-
-
-          <article class="card">
-
-            <div class="card-number">
-              08
-            </div>
-
-            <h3>
-              Paesaggio notturno e Via Lattea
-            </h3>
-
-            <p>
-              Nightscape, cielo e primo piano,
-              esposizioni dedicate, panoramiche
-              e costruzione dell'inquadratura
-              tra paesaggio e cielo.
-            </p>
-
-            <span class="card-link">
-              Schede in preparazione
-            </span>
-
-          </article>
-
-
-          <article class="card">
-
-            <div class="card-number">
-              09
-            </div>
-
-            <h3>
-              Acquisizione e calibrazione
-            </h3>
-
-            <p>
-              Light, dark, flat, bias o dark-flat,
-              esposizione, ISO, gain, temperatura,
-              dithering e organizzazione
-              dei dati di una sessione.
-            </p>
-
-            <span class="card-link">
-              Schede in preparazione
-            </span>
-
-          </article>
-
-
-          <article class="card">
-
-            <div class="card-number">
-              10
-            </div>
-
-            <h3>
-              Dai dati grezzi all'immagine finale
-            </h3>
-
-            <p>
-              Selezione, calibrazione, registrazione,
-              stacking, stretching, colore,
-              contrasto e riduzione del rumore:
-              dal dato acquisito all'immagine elaborata.
-            </p>
-
-            <span class="card-link">
-              Schede in preparazione
-            </span>
-
-          </article>
-
-
-        </div>
-
-      </div>
-
-    </section>
-
-
-
-    <!-- =====================================================
-         COME SI COSTRUISCE UN'IMMAGINE ASTRONOMICA
-    ====================================================== -->
-
-    <section class="assembly">
-
-      <div class="container">
-
-        <div class="assembly-heading">
-
-          <div class="assembly-heading-icon">
-            ↔
-          </div>
-
-          <h2>
-            COME SI COSTRUISCE UN'IMMAGINE ASTRONOMICA
-          </h2>
-
-          <div class="assembly-heading-line"></div>
-
-        </div>
-
-        <p class="assembly-intro">
-          Dalla luce proveniente dall'oggetto celeste
-          fino all'immagine finale, ogni fase contribuisce
-          alla costruzione del risultato.
-        </p>
-
-
-        <div class="image-workflow">
-
-          <div class="workflow-step">
-            LUCE
-          </div>
-
-          <div class="workflow-arrow">
-            →
-          </div>
-
-          <div class="workflow-step">
-            OTTICA
-          </div>
-
-          <div class="workflow-arrow">
-            →
-          </div>
-
-          <div class="workflow-step">
-            SENSORE
-          </div>
-
-          <div class="workflow-arrow">
-            →
-          </div>
-
-          <div class="workflow-step">
-            ACQUISIZIONE
-          </div>
-
-          <div class="workflow-arrow">
-            →
-          </div>
-
-          <div class="workflow-step">
-            CALIBRAZIONE
-          </div>
-
-          <div class="workflow-arrow">
-            →
-          </div>
-
-          <div class="workflow-step">
-            ALLINEAMENTO
-          </div>
-
-          <div class="workflow-arrow">
-            →
-          </div>
-
-          <div class="workflow-step">
-            INTEGRAZIONE
-          </div>
-
-          <div class="workflow-arrow">
-            →
-          </div>
-
-          <div class="workflow-step">
-            ELABORAZIONE
-          </div>
-
-          <div class="workflow-arrow">
-            →
-          </div>
-
-          <div class="workflow-step">
-            IMMAGINE FINALE
-          </div>
-
-        </div>
-
-      </div>
-
-    </section>
-
-
-
-    <!-- =====================================================
-         CONCLUSIONE
-    ========================================================= -->
-
-    <section class="closing">
-
-      <div class="container">
-
-        <div class="closing-box">
-
-          <div class="closing-icon">
-            ◇
-          </div>
-
-          <div>
-
-            <h2>
-              Prima il dato, poi l'immagine
-            </h2>
-
-            <p>
-              Una buona elaborazione comincia durante
-              l'acquisizione. Comprendere come viene raccolto
-              il segnale permette di ottenere dati migliori
-              e di utilizzare consapevolmente gli strumenti
-              di elaborazione.
-            </p>
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </section>
-
-
-  </main>
+  <main class="learning-wrap"><nav class="learning-crumbs" aria-label="Percorso"><a href="index.html">Home</a> › <span aria-current="page">Astrofotografia</span></nav><div class="learning-intro"><p class="learning-eyebrow">Comprendere il processo prima di inseguire il risultato</p><h2>Dalla luce al dato, dal dato all’immagine</h2><p>Una fotografia astronomica è l’incontro fra una scena lontana e una catena di misure vicine: ottica, atmosfera, movimento, sensore e scelte di elaborazione. Il fascino del risultato nasce anche dal percorso. Qui impariamo a raccogliere dati coerenti, riconoscere i limiti e rendere leggibile ciò che la luce ha effettivamente registrato.</p></div><nav class="course-cards" aria-label="Scegli un passaggio del percorso"><a class="course-card" href="#smartphone"><img src="assets/lezioni/smartphone.jpg" alt="" loading="lazy"><span><strong>Smartphone</strong><span>Una prima misura con controlli essenziali.</span></span></a><a class="course-card" href="#cavalletto"><img src="assets/lezioni/posa-tracce.jpg" alt="" loading="lazy"><span><strong>Fotografia su cavalletto</strong><span>Stelle, movimento e tempi di posa.</span></span></a><a class="course-card" href="#inseguitore"><img src="assets/lezioni/orione-fotografico.jpg" alt="" loading="lazy"><span><strong>Astroinseguitore e largo campo</strong><span>Seguire il cielo con un obiettivo.</span></span></a><a class="course-card" href="#telescopio"><img src="assets/lezioni/postazione-equatoriale-2024.jpg" alt="" loading="lazy"><span><strong>Ripresa con telescopio</strong><span>Scala, fuoco e meccanica della catena.</span></span></a><a class="course-card" href="#luna-sole"><img src="assets/lezioni/luna-torva.png" alt="" loading="lazy"><span><strong>Luna e Sole</strong><span>Illuminazione e percorsi di ripresa distinti.</span></span></a><a class="course-card" href="#pianeti"><img src="assets/cielo/foto/Jupiter.jpg" alt="" loading="lazy"><span><strong>Pianeti</strong><span>Sequenze brevi e selezione dei fotogrammi.</span></span></a><a class="course-card" href="#deep-sky"><img src="assets/lezioni/andromeda.jpg" alt="" loading="lazy"><span><strong>Deep Sky</strong><span>Raccogliere luce da strutture deboli.</span></span></a><a class="course-card" href="#paesaggio"><img src="assets/lezioni/paesaggio-namibia.jpg" alt="" loading="lazy"><span><strong>Paesaggio e Via Lattea</strong><span>Cielo e terreno nello stesso progetto.</span></span></a><a class="course-card" href="#calibrazione"><img src="assets/lezioni/focheggiatore.jpg" alt="" loading="lazy"><span><strong>Acquisizione e calibrazione</strong><span>Dati grezzi, dark, flat e offset.</span></span></a><a class="course-card" href="#elaborazione"><img src="assets/lezioni/carina.jpg" alt="" loading="lazy"><span><strong>Dai dati all’immagine</strong><span>Allineare, integrare e interpretare.</span></span></a><a class="course-card" href="#sessione-guidata"><img src="assets/lezioni/camera.jpg" alt="" loading="lazy"><span><strong>La prima elaborazione</strong><span>Originali, controlli e risultato riproducibile.</span></span></a></nav><details class="thumbnail-credits"><summary>Crediti delle miniature fotografiche</summary><ul><li>Smartphone: <a href="https://commons.wikimedia.org/wiki/File:Fairphone_03_grey_phone_from_back_Kera_0114_C1_RGB_(51534193662).jpg" target="_blank" rel="noopener noreferrer">Fairphone</a> · CC BY-SA 2.0 · <a href="https://creativecommons.org/licenses/by-sa/2.0/" target="_blank" rel="noopener noreferrer">Licenza</a></li><li>Fotografia su cavalletto: <a href="https://iauarchive.eso.org/public/images/detail/ann23043ab/" target="_blank" rel="noopener noreferrer">Govind Gurjar / IAU OAE</a> · CC BY 4.0 · <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">Licenza</a></li><li>Astroinseguitore e largo campo: <a href="https://commons.wikimedia.org/wiki/File:Orion_wide_field.jpg" target="_blank" rel="noopener noreferrer">Martinbernardi</a> · CC BY 4.0 · <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">Licenza</a></li><li>Ripresa con telescopio: <a href="https://commons.wikimedia.org/wiki/File:PXL_20241002_110953897.MP_(54062297694).jpg" target="_blank" rel="noopener noreferrer">Brandon Ghany / Horizon Productions SFL</a> · Public Domain Mark, dichiarazione dell’autore · <a href="https://creativecommons.org/publicdomain/mark/1.0/" target="_blank" rel="noopener noreferrer">Licenza</a></li><li>Luna e Sole: <a href="https://commons.wikimedia.org/wiki/File:Moon_in_T%C3%B5rva.png" target="_blank" rel="noopener noreferrer">Taavi Niittee / Tõrva Astronomyclub</a> · CC0 1.0 · <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener noreferrer">Licenza</a></li><li>Pianeti: <a href="https://images.nasa.gov/details/PIA04866" target="_blank" rel="noopener noreferrer">NASA/JPL/Space Science Institute</a> · NASA media usage guidelines</li><li>Deep Sky: <a href="https://esahubble.org/images/heic1502a/" target="_blank" rel="noopener noreferrer">NASA, ESA, J. Dalcanton (University of Washington, USA), B. F. Williams (University of Washington, USA), L. C. Johnson (University of Washington, USA), the PHAT team, and R. Gendler.</a> · CC BY 4.0 · <a href="https://esahubble.org/copyright/" target="_blank" rel="noopener noreferrer">Licenza</a></li><li>Paesaggio e Via Lattea: <a href="https://iauarchive.eso.org/public/images/detail/ann23043o/" target="_blank" rel="noopener noreferrer">Jianfeng Dai / IAU OAE</a> · CC BY 4.0 · <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">Licenza</a></li><li>Acquisizione e calibrazione: <a href="https://commons.wikimedia.org/wiki/File:Baader_Crayford_focuser_SCT.jpg" target="_blank" rel="noopener noreferrer">Marie-Lan Nguyen / Jastrow</a> · CC BY 2.5 · <a href="https://creativecommons.org/licenses/by/2.5/" target="_blank" rel="noopener noreferrer">Licenza</a></li><li>Dai dati all’immagine: <a href="https://esahubble.org/images/heic1007a/" target="_blank" rel="noopener noreferrer">NASA, ESA, M. Livio and the Hubble 20th Anniversary Team (STScI)</a> · CC BY 4.0 · <a href="https://esahubble.org/copyright/" target="_blank" rel="noopener noreferrer">Licenza</a></li><li>La prima elaborazione: <a href="https://commons.wikimedia.org/wiki/File:Canon_EOS_20Da.jpg" target="_blank" rel="noopener noreferrer">Flickr user joka2000</a> · CC BY-SA 4.0 · <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">Licenza</a></li></ul><p>Miniature ritagliate mediante CSS. Fotografie di archivio e di componenti esemplificativi, senza raccomandazione commerciale.</p></details><div class="learning-columns"><article class="learning-article"><div class="learning-objective"><strong>Che cosa imparerai.</strong> Distinguere osservazione e ripresa, preparare una sessione, leggere segnale e rumore, comprendere calibrazione e integrazione e valutare una trasformazione senza attribuirle dettagli inventati. Gli esempi numerici e sintetici dichiarano le proprie semplificazioni.</div><section id="occhio-camera" class="lesson-section"><h3>1. L’occhio non è una fotocamera</h3><p>Sotto un cielo buio, una debole nebulosità può comparire soltanto con attenzione. In una fotografia la stessa regione mostra strutture e colori evidenti. Non significa che uno dei due risultati sia falso: occhio e sensore raccolgono e organizzano l’informazione in modi differenti. La fotografia può integrare luce per un tempo molto maggiore e combinare molte riprese; la visione visuale restituisce una percezione immediata, legata all’adattamento e al contrasto.</p><figure class="lesson-photo"><img src="assets/lezioni/andromeda.jpg" alt="Un’immagine profonda mette in evidenza strutture deboli" loading="lazy"><figcaption>Andromeda in una fotografia scientifica di archivio: la ricchezza di dettaglio deriva da acquisizione ed elaborazione documentate. Non rappresenta la visione garantita a occhio nudo o il risultato di una singola posa con attrezzatura amatoriale.<br><a href="https://esahubble.org/images/heic1502a/" target="_blank" rel="noopener noreferrer">NASA, ESA, J. Dalcanton (University of Washington, USA), B. F. Williams (University of Washington, USA), L. C. Johnson (University of Washington, USA), the PHAT team, and R. Gendler.</a> · CC BY 4.0 · <a href="https://esahubble.org/copyright/" target="_blank" rel="noopener noreferrer">Licenza e condizioni</a></figcaption></figure><p>Un’immagine astronomica può essere realizzata in bande diverse dal visibile o assegnare colori a filtri selezionati. Per interpretarla bisogna leggere la descrizione, non soltanto riconoscere una tonalità. Anche nelle riprese amatoriali, bilanciamento e trasformazioni del contrasto modificano la presentazione. “Più rosso” non dimostra automaticamente che l’oggetto sia cambiato: potresti aver cambiato la risposta del sistema o il modo di mostrare i dati.</p><p>La camera registra valori che devono essere messi in relazione con tempo di posa, risposta del sensore, filtri e condizioni. Conservare gli originali permette di tornare alla misura prima delle trasformazioni. Un JPEG pronto può essere utile come documento di una scena, ma offre meno margine rispetto a dati grezzi adatti al processo scelto. Il formato non garantisce qualità: deve essere coerente con ciò che vuoi misurare e con il software che userai.</p><aside class="course-curiosity"><h4>Curiosità</h4><p>Un’immagine lineare molto scura può contenere informazioni che una trasformazione del contrasto rende visibili. Il monitor mostra una rappresentazione dei valori, non tutti i fotoni della scena. Imparare a leggere istogramma e saturazione aiuta a distinguere un file debole da un file vuoto.</p></aside><p>Parti da una domanda osservativa: vuoi registrare la forma della Luna, confrontare una stella, mostrare un campo ampio o evidenziare una nebulosità? Ogni scopo richiede una scala e un processo. Copiare una lista di impostazioni senza questa domanda può portare a dati inutili anche se i numeri sembrano professionali.</p><p class="lesson-reference">Riferimenti: <a href="https://www.eso.org/public/blog/50-years-of-ccds/" target="_blank" rel="noopener noreferrer">ESO · Rivelatori astronomici</a> · <a href="https://fits.gsfc.nasa.gov/fits_primer.html" target="_blank" rel="noopener noreferrer">NASA/GSFC · Introduzione al formato FITS</a></p></section><section id="catena" class="lesson-section"><h3>2. Il limite della catena e il significato del dato</h3><p>L’atmosfera modifica la luce prima che raggiunga l’ottica. L’ottica la distribuisce sul sensore; il movimento della postazione può spostarne la direzione durante la posa; il sensore e l’elettronica traducono la raccolta in numeri. Un errore in uno di questi passaggi non è necessariamente riparabile dopo. Se il nucleo di una stella è saturato, aumentare il contrasto non ricostruisce i conteggi perduti. Se la stella è allungata da una deriva, il tempo raccolto non è equivalente a una posa perfettamente seguita.</p><p>La parola rumore descrive fluttuazioni e incertezze, non un materiale da togliere come polvere. L’arrivo dei fotoni ha una componente statistica: anche con un segnale medio stabile, i conteggi variano. L’elettronica introduce altri contributi. La corrente di buio produce un segnale legato al sensore e alla temperatura, con proprie fluttuazioni. Una struttura ripetibile e una variazione casuale richiedono ragionamenti diversi.</p><p>Una buona calibrazione può correggere contributi sistematici, ma anche i riferimenti di calibrazione sono misure con incertezza. Per questo un master costruito da più riprese è preferibile a un riferimento molto rumoroso, quando la procedura lo richiede. Non pensare al dark come a una fotografia perfetta del rumore da sottrarre pixel per pixel: un’altra esposizione non contiene la stessa realizzazione casuale delle fluttuazioni del light.</p><p>Qualità e quantità devono collaborare. Raccogliere molte pose sfocate non crea il dettaglio di una serie nitida. Una posa lunga può diventare inefficiente se il fondo satura o se molti fotogrammi vengono scartati. Controlla prima un campione rappresentativo: fuoco, stelle nei bordi, livello del fondo, tracciamento e contesto del bersaglio. Il tempo dedicato a questa verifica può conservare una parte importante della sessione.</p><form class="course-quiz" data-answer="1"><fieldset><legend>Un dettaglio saturato torna misurabile abbassando la luminosità sul monitor?</legend><label><input type="radio" name="a-catena" value="0"> <span>Sì: il dato era soltanto troppo chiaro</span></label><label><input type="radio" name="a-catena" value="1"> <span>No: la rappresentazione non ricrea i conteggi persi</span></label><label><input type="radio" name="a-catena" value="2"> <span>Sì, se salvo in un formato più grande</span></label></fieldset><div class="quiz-actions"><button type="submit">Verifica e comprendi</button><button type="reset">Riprova</button></div><p class="quiz-feedback" aria-live="polite"></p><details class="quiz-solution"><summary>Leggi la spiegazione</summary><p>Un valore saturato ha superato il limite utile della misura. Cambiare visualizzazione o formato non ricostruisce la distribuzione originaria del segnale.</p></details></form><p class="lesson-reference">Riferimenti: <a href="https://www.eso.org/public/blog/50-years-of-ccds/" target="_blank" rel="noopener noreferrer">ESO · Rivelatori astronomici</a> · <a href="https://siril.readthedocs.io/en/stable/preprocessing/calibration.html" target="_blank" rel="noopener noreferrer">Siril · Calibrazione</a></p></section><section id="smartphone" class="lesson-section"><h3>3. Smartphone: cominciare con un bersaglio controllabile</h3><p>Il telefono è disponibile quando compare una bella Luna o quando una prima osservazione ti sorprende. Può registrare una scena senza richiedere subito una postazione complessa, ma la sua automatizzazione rende importante capire che cosa stia facendo. Esposizione, messa a fuoco, riduzione del rumore e combinazioni interne possono essere gestite dal sistema. Un’immagine pronta non descrive automaticamente tutti quei passaggi.</p><p>Comincia dalla Luna, da una congiunzione luminosa con paesaggio oppure da una costellazione evidente, se il dispositivo e il cielo lo consentono. Stabilizza il telefono e confronta una posa breve con una più lunga, evitando di cambiare tutto contemporaneamente. Se i controlli manuali sono disponibili, annotali; se non lo sono, conserva le informazioni del file e la modalità utilizzata. Non attribuire al cielo ogni differenza prodotta dall’elaborazione interna.</p><p>La ripresa attraverso un oculare richiede che camera e pupilla d’uscita siano allineate. Un adattatore stabile evita di inseguire con le mani una piccola finestra luminosa. Controlla il campo, il fuoco e la presenza di vignettatura prima di registrare una serie. Un cerchio scuro o un’immagine parziale può nascere dal disallineamento del telefono, non da una forma anomala della Luna.</p><p>Lo zoom digitale ritaglia o ricampiona la rappresentazione e non equivale a una maggiore apertura del telescopio. Una camera del telefono con un’altra focale è un caso differente, ma anche qui occorre capire quale sistema venga usato. Per imparare il processo, un risultato semplice e documentato è più utile di una trasformazione automatica spettacolare che non riesci a descrivere.</p><p class="lesson-reference">Riferimenti: <a href="https://www.eso.org/public/blog/50-years-of-ccds/" target="_blank" rel="noopener noreferrer">ESO · Rivelatori astronomici</a> · <a href="https://divulgazione.uai.it/index.php/Apprendista_Astrofilo_Introduzione" target="_blank" rel="noopener noreferrer">UAI · Apprendista astrofilo</a></p></section><section id="cavalletto" class="lesson-section"><h3>4. Cavalletto fermo: il cielo si muove comunque</h3><p>Fissare bene la camera al terreno elimina il movimento delle mani, non la rotazione apparente del cielo. Durante una posa le stelle percorrono un arco sul sensore. Una focale più lunga e pixel piccoli rendono più evidente lo stesso spostamento angolare. La declinazione e la posizione nel campo entrano inoltre nella geometria: una durata unica non vale per tutti i bersagli.</p><figure class="lesson-photo"><img src="assets/lezioni/posa-tracce.jpg" alt="Archi stellari fotografati con smartphone su treppiede" loading="lazy"><figcaption>Panotiya, India, ottobre 2022: le tracce documentano il moto apparente durante l’acquisizione. La fonte descrive una ripresa con smartphone e treppiede; questa fotografia è distinta dalla simulazione numerica sottostante.<br><a href="https://iauarchive.eso.org/public/images/detail/ann23043ab/" target="_blank" rel="noopener noreferrer">Govind Gurjar / IAU OAE</a> · CC BY 4.0 · <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">Licenza e condizioni</a></figcaption></figure><figure class="course-lab" data-practical="trail"><h4>Il moto stellare sul sensore</h4><canvas width="720" height="300" aria-label="Il moto stellare sul sensore"></canvas><div class="notebook-grid"><label>Focale (mm)<input type="number" data-photo-control="F" min="20" max="600" value="50" step="1"></label><label>Pixel (µm)<input type="number" data-photo-control="pixel" min="2" max="10" value="4" step="0.1"></label><label>Esposizione (s)<input type="number" data-photo-control="time" min="1" max="60" value="10" step="1"></label><label>Declinazione (°)<input type="number" data-photo-control="dec" min="0" max="75" value="30" step="1"></label></div><p data-reading aria-live="polite"></p><figcaption>Modello locale per piccoli campi: moto diurno 15,041 cos(δ) secondi d’arco al secondo; scala 206,265 p/F. Esclude distorsione, rifrazione e rotazione del campo su grandi estensioni. Il disegno è sintetico e non una fotografia.</figcaption></figure><p>Il laboratorio usa la velocità siderale media e una proiezione locale per confrontare una deriva angolare con il campionamento. Non include distorsione dell’obiettivo, curvatura delle traiettorie in un campo ampio, stabilizzazione o elaborazioni interne. Il risultato è una dimostrazione del principio, non una prescrizione universale del tempo massimo. Una stella che si sposta di pochi pixel può essere accettabile per una piccola stampa e inadatta a una misura precisa.</p><p>Prova una breve serie modificando soltanto il tempo di posa. Ingrandisci gli originali alla stessa scala e confronta stelle al centro e ai bordi. Le regole empiriche basate soltanto su focale e una costante possono aiutare una prima stima, ma non sostituiscono la verifica. Annotare la tolleranza scelta rende la conclusione più utile della frase “con questo obiettivo non si vedono mai scie”.</p><p>Per un paesaggio notturno può essere desiderabile proprio la traccia del movimento. In quel caso definisci il risultato prima: stelle puntiformi e star trails sono progetti differenti. La rotazione non è un errore quando è il fenomeno che vuoi rappresentare.</p><p class="lesson-reference">Riferimenti: <a href="https://static.treccani.it/export/sites/default/Portale/resources/multimedia/Lezioni_Astrofisica/Coordinate/Lezione.pdf" target="_blank" rel="noopener noreferrer">Treccani · Coordinate astronomiche, PDF</a> · <a href="https://www.eso.org/public/blog/50-years-of-ccds/" target="_blank" rel="noopener noreferrer">ESO · Rivelatori astronomici</a></p></section><section id="inseguitore" class="lesson-section"><h3>5. Astroinseguitore: il cielo seguito, il terreno che cambia</h3><p>Un astroinseguitore ruota la camera per compensare il moto apparente. Per farlo in modo efficace deve avere un orientamento dell’asse e una stabilità adeguati alla scala fotografica. Una focale corta può tollerare errori che diventano evidenti con un teleobiettivo. La facilità del montaggio non elimina il bisogno di conoscere il riferimento polare e di controllare la serie.</p><figure class="lesson-photo"><img src="assets/lezioni/orione-fotografico.jpg" alt="Orione ripreso con obiettivo e astroinseguitore" loading="lazy"><figcaption>Ripresa amatoriale del 24 dicembre 2024: obiettivo da 50 mm e astroinseguitore. L’autore documenta circa 278 pose da 30 secondi, integrazione in Siril ed elaborazione in Darktable. Sono dati di questa immagine, non impostazioni universali.<br><a href="https://commons.wikimedia.org/wiki/File:Orion_wide_field.jpg" target="_blank" rel="noopener noreferrer">Martinbernardi</a> · CC BY 4.0 · <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">Licenza e condizioni</a></figcaption></figure><p>L’allineamento polare, il bilanciamento e i limiti di movimento devono seguire il manuale del modello. La Polare non coincide con il polo geometrico; un reticolo o un software usa informazioni specifiche di luogo e istante. Non riutilizzare una figura stampata molto vecchia come se fosse una posizione attuale esatta. Per la relazione fra latitudine e polo puoi tornare alle <a href="strumentazione.html#montature">lezioni di Fondamenti</a>.</p><p>Inseguendo il cielo, il terreno non rimane nello stesso posto sul sensore durante una posa lunga. Se vuoi un paesaggio nitido con cielo seguito, puoi progettare riprese separate e una composizione dichiarata, controllando prospettiva e contesto. La composizione non deve essere presentata come un unico istante se raccoglie tempi o configurazioni differenti. L’attenzione alla provenienza riguarda anche le tue immagini.</p><p>Verifica stelle, fuoco e margini prima di una serie. Un tempo più lungo può raccogliere più segnale per fotogramma, ma aumentare saturazione e sensibilità agli errori. La scelta si inserisce nel confronto fra tempo totale, numero di pose, fondo e qualità dei dati utilizzabili. Non è il possesso di un inseguitore a decidere automaticamente quella scelta.</p><p class="lesson-reference">Riferimenti: <a href="https://skywatcher.com/download/manual/goto-mounts/" target="_blank" rel="noopener noreferrer">Sky-Watcher · Manuali ufficiali delle montature</a> · <a href="https://static.treccani.it/export/sites/default/Portale/resources/multimedia/Lezioni_Astrofisica/Coordinate/Lezione.pdf" target="_blank" rel="noopener noreferrer">Treccani · Coordinate astronomiche, PDF</a></p></section><section id="telescopio" class="lesson-section"><h3>6. Al telescopio: la scala amplifica anche le esigenze</h3><p>Una focale lunga può rendere un bersaglio piccolo più grande sul sensore, ma restringe il campo e amplifica l’effetto di errori angolari. La scelta nasce dalla dimensione del soggetto e dal dettaglio realisticamente disponibile. Se il seeing confonde l’immagine a una scala molto maggiore dei pixel, aumentare ancora la focale può aggiungere campioni senza aggiungere informazione indipendente.</p><figure class="lesson-basic"><a href="assets/lezioni/treno-ottico-fotografico.svg"><img src="assets/lezioni/treno-ottico-fotografico.svg" alt="Dall’obiettivo al sensore: posizione del fuoco e connessioni" loading="lazy"></a><figcaption>Schema didattico originale di un rifrattore fotografico. Percorso assiale semplificato; il correttore è eventuale e richiede le distanze del suo progetto, non una misura universale. <a href="assets/lezioni/treno-ottico-fotografico.svg">Apri lo schema intero</a>.</figcaption></figure><p>Controlla campo corretto, posizione del sensore e distanze richieste dagli accessori. Una nitidezza buona al centro non basta per un campo ampio. La forma delle stelle ai bordi può dipendere da progetto ottico, correttore, inclinazione e distanza di lavoro. Confronta variazioni piccole e documentate, evitando di attribuire ogni problema al seeing o al software.</p><figure class="course-lab" data-practical="camera-field"><svg viewBox="0 0 760 380" role="img" aria-label="Dimensioni angolari del campo inquadrato"><rect x="20" y="30" width="720" height="300" rx="10" fill="#0b2340"/><path d="M400 40V320M40 180H720" stroke="#526e8d" stroke-dasharray="5 6"/><rect data-sensor fill="#2978bb66" stroke="#b3dbff" stroke-width="3"/><g font-family="Arial" font-size="18" fill="#15385a"><text x="30" y="359" data-field></text></g></svg><div class="notebook-grid"><label>Focale (mm)<input data-sensor-control="F" type="number" min="200" max="4000" value="750" step="50"></label><label>Pixel (µm)<input data-sensor-control="pixel" type="number" min="1" max="15" value="3.76" step="0.01"></label><label>Larghezza sensore (mm)<input data-sensor-control="width" type="number" min="5" max="40" value="23.5" step="0.5"></label><label>Altezza sensore (mm)<input data-sensor-control="height" type="number" min="4" max="30" value="15.7" step="0.1"></label></div><p data-reading aria-live="polite"></p><figcaption>Campo=2 atan(dimensione sensore/2F); campionamento≈206,265 p/F. Il rettangolo usa una scala fissa di 30 pixel grafici per grado, senza rappresentare una scena stellare reale o la qualità ottica ai bordi.</figcaption></figure><p>Guida e inseguimento vanno valutati insieme alla meccanica. Correggere il moto misurato da un sistema di guida non elimina necessariamente una flessione relativa rispetto alla camera principale. Fuoco e temperatura possono variare durante una notte: programma controlli adeguati e guarda campioni dei dati. Il risultato di un grafico di guida non deve sostituire l’ispezione dei fotogrammi.</p><p>La pagina <a href="strumentazione.html#camere">Strumentazione</a> spiega scala del sensore e ruolo dei componenti. Qui il principio diventa operativo: scegli una configurazione che inquadri il soggetto, produca dati sufficientemente campionati e mantenga le condizioni durante la raccolta. Una catena più complessa richiede verifiche più chiare, non soltanto più accessori.</p><p class="lesson-reference">Riferimenti: <a href="https://www.treccani.it/enciclopedia/telescopio_(Dizionario-delle-Scienze-Fisiche)/" target="_blank" rel="noopener noreferrer">Treccani · Telescopio</a> · <a href="https://skywatcher.com/download/manual/goto-mounts/" target="_blank" rel="noopener noreferrer">Sky-Watcher · Manuali ufficiali delle montature</a></p></section><section id="luna-sole" class="lesson-section"><h3>7. Luna e Sole: illuminazione e sicurezza non sono la stessa questione</h3><p>Sulla Luna il terminatore modifica il modo in cui i rilievi si mostrano. Ombre e luce radente evidenziano bordi e dislivelli; al plenilunio la luce più frontale mette in risalto altre caratteristiche, come differenze di albedo. Scegli una regione e confrontala in fasi differenti, evitando di descrivere ogni cambiamento di contrasto come un cambiamento del terreno.</p><figure class="lesson-photo"><img src="assets/lezioni/luna-torva.png" alt="Crateri e ombre lungo il terminatore lunare" loading="lazy"><figcaption>Fotografia amatoriale da Tõrva, Estonia, 17 aprile 2024, con Celestron EdgeHD 9.25 e camera ZWO ASI071MC Pro. Confronta il bordo fra luce e ombra con le regioni illuminate: le ombre aiutano a leggere il rilievo. L’orientamento del file non è una carta con nord in alto.<br><a href="https://commons.wikimedia.org/wiki/File:Moon_in_T%C3%B5rva.png" target="_blank" rel="noopener noreferrer">Taavi Niittee / Tõrva Astronomyclub</a> · CC0 1.0 · <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener noreferrer">Licenza e condizioni</a></figcaption></figure><p>Per la Luna puoi usare pose singole o sequenze brevi secondo lo scopo e lo strumento. Controlla la saturazione delle zone luminose e il fuoco; se realizzi un mosaico, conserva sovrapposizione e informazioni delle riprese. Differenze di illuminazione, seeing e impostazioni possono rendere difficile unire campi registrati in condizioni differenti.</p><p>Il Sole richiede invece una configurazione specifica e verificata. Una camera o un telescopio non filtrati possono concentrare luce pericolosa. I comuni filtri fotografici e gli occhiali da sole non rendono sicuro il sistema; gli occhiali per eclissi non si usano come protezione davanti agli occhi attraverso uno strumento non filtrato. Segui le indicazioni del costruttore e quelle ufficiali <a href="https://eclipse.aas.org/eye-safety" target="_blank" rel="noopener noreferrer">AAS</a> e <a href="https://science.nasa.gov/eclipses/safety/" target="_blank" rel="noopener noreferrer">NASA</a>.</p><p>Non trasferire alla ripresa solare il metodo appreso sulla Luna senza questa verifica. Per un primo incontro è utile operare con un’associazione competente e una postazione predisposta. In questa pagina i modelli riguardano il processo di misura: non autorizzano o certificano l’uso di una configurazione solare.</p><p class="lesson-reference">Riferimenti: <a href="https://eclipse.aas.org/eye-safety" target="_blank" rel="noopener noreferrer">AAS · Sicurezza nell’osservazione solare</a></p></section><section id="pianeti" class="lesson-section"><h3>8. Pianeti: molti istanti per comprendere la stabilità</h3><p>Un pianeta brillante permette riprese brevi, durante le quali l’effetto della turbolenza può cambiare rapidamente. L’imaging planetario sfrutta spesso una sequenza di fotogrammi: si valuta la qualità, si registra il movimento e si combinano quelli appropriati. L’idea non è scegliere immagini “più belle” senza criterio, ma ridurre l’influenza degli istanti in cui la figura risulta maggiormente deformata.</p><figure class="lesson-photo"><img src="assets/cielo/foto/Jupiter.jpg" alt="Un pianeta da confrontare con aspettative realistiche" loading="lazy"><figcaption>Fotografia di Giove documentata dalla fonte. Il dettaglio dell’immagine d’archivio non è una previsione del risultato amatoriale: atmosfera, apertura, scala e processo incidono sulla ripresa.<br><a href="https://images.nasa.gov/details/PIA04866" target="_blank" rel="noopener noreferrer">NASA/JPL/Space Science Institute</a> · NASA media usage guidelines</figcaption></figure><p>Una sequenza troppo lunga può introdurre cambiamenti del soggetto: i pianeti ruotano, le loro configurazioni e le ombre possono evolvere. Il tempo utile dipende da bersaglio, risoluzione, metodo di registrazione ed eventuale derotazione. Evita una durata massima identica per ogni pianeta e ogni scala. Prima confronta un campione breve, conserva tempi e controlla che la combinazione non confonda fenomeni di istanti diversi.</p><p>Un trattamento di nitidezza può rendere più evidenti le transizioni, ma può anche produrre bordi, anelli e falsi particolari. Verifica un dettaglio in più selezioni o in dati indipendenti e confrontalo con le condizioni. Se compare soltanto con una trasformazione molto aggressiva, il grado di fiducia deve essere più basso. L’obiettivo è distinguere il segnale dalla forma introdotta dal trattamento.</p><aside class="course-curiosity"><h4>Una domanda utile</h4><p>Se due selezioni indipendenti di fotogrammi mostrano la stessa struttura nella stessa posizione, l’evidenza è più forte di un particolare presente soltanto in un’elaborazione molto spinta. Non è una certificazione automatica, ma un controllo ripetibile.</p></aside><p class="lesson-reference">Riferimenti: <a href="https://www.treccani.it/enciclopedia/seeing_(Dizionario-delle-Scienze-Fisiche)/" target="_blank" rel="noopener noreferrer">Treccani · Seeing</a> · <a href="https://www.eso.org/public/blog/50-years-of-ccds/" target="_blank" rel="noopener noreferrer">ESO · Rivelatori astronomici</a></p></section><section id="deep-sky" class="lesson-section"><h3>9. Il cielo profondo: tempo, contrasto e pazienza</h3><p>Nebulose e galassie distribuiscono la luce su regioni estese. Per far emergere strutture deboli occorre raccogliere un segnale sufficiente rispetto al fondo e agli altri contributi. Il tempo totale di integrazione è una grandezza centrale, ma deve riferirsi alle pose effettivamente usate. Una notte di tre ore non equivale a tre ore di dati se molti intervalli sono dedicati a preparazione o se i fotogrammi vengono scartati.</p><figure class="course-lab" data-practical="integration"><h4>Integrare immagini indipendenti</h4><canvas width="720" height="300" aria-label="Integrare immagini indipendenti"></canvas><div class="notebook-grid"><label>Numero di esposizioni<input type="number" data-photo-control="count" min="1" max="64" value="1" step="1"></label><label>Rumore iniziale (unità arbitrarie)<input type="number" data-photo-control="noise" min="5" max="40" value="25" step="1"></label><label><input type="checkbox" data-fixed-pattern> Aggiungi un difetto sistematico non corretto</label></div><p data-reading aria-live="polite"></p><figcaption>Scena sintetica e rumore gaussiano illustrativo: dispersione casuale proporzionale a 1/√N. Le pose sono equivalenti e indipendenti; il difetto sistematico resta. Non rappresenta una previsione strumentale né una fotografia elaborata.</figcaption></figure><p>Nel caso ideale di misure indipendenti equivalenti, con errori casuali e condizioni coerenti, il rapporto segnale/rumore cresce come la radice quadrata del numero di pose. Per raddoppiarlo servono circa quattro volte le pose o il tempo, non due. Questa regola non corregge un errore sistematico stabile, una saturazione o un dettaglio ottico mancante. Anche normalizzazione, rejection e pesi possono modificare l’efficienza rispetto alla media ideale.</p><p>Una posa molto breve può rendere importante il rumore di lettura rispetto al segnale; una molto lunga può saturare parti dell’immagine o essere sensibile a errori di inseguimento. La scelta va confrontata con fondo, dinamica, camera e bersaglio. Non esiste un ISO o un gain universale valido per tutte le camere. Le curve e le istruzioni del modello spiegano quale compromesso stai adottando.</p><p>Conserva il risultato intermedio dell’integrazione prima di lavorare sul contrasto. Una buona esposizione cumulativa può sembrare scura sul monitor finché non viene visualizzata con un trattamento appropriato. Questo non giustifica inventare una struttura: il processo deve rendere leggibile ciò che i dati sostengono. La distinzione fra raccolta e presentazione sarà ripresa nelle ultime sezioni.</p><p class="lesson-reference">Riferimenti: <a href="https://siril.readthedocs.io/en/stable/preprocessing/stacking.html" target="_blank" rel="noopener noreferrer">Siril · Integrazione</a> · <a href="https://www.eso.org/public/blog/50-years-of-ccds/" target="_blank" rel="noopener noreferrer">ESO · Rivelatori astronomici</a></p></section><section id="paesaggio" class="lesson-section"><h3>10. Via Lattea e paesaggio: raccontare anche il metodo</h3><p>Un paesaggio notturno collega l’esperienza terrestre a una scena celeste. La composizione può mostrare dove eri e quali riferimenti rendevano riconoscibile il cielo. Prima scegli direzione, orizzonte e periodo appropriati: non ogni porzione della Via Lattea è nella stessa posizione durante tutte le notti. La carta e la pianificazione precedono le impostazioni della camera.</p><figure class="lesson-photo"><img src="assets/lezioni/paesaggio-namibia.jpg" alt="La Via Lattea sopra gli alberi faretra della Namibia" loading="lazy"><figcaption>Paesaggio astronomico del 17 giugno 2023 vicino a Keetmanshoop, Namibia, realizzato con smartphone secondo la fonte IAU OAE. È un cielo australe e una composizione panoramica: non rappresenta la volta celeste visibile dall’Italia.<br><a href="https://iauarchive.eso.org/public/images/detail/ann23043o/" target="_blank" rel="noopener noreferrer">Jianfeng Dai / IAU OAE</a> · CC BY 4.0 · <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">Licenza e condizioni</a></figcaption></figure><p>Il terreno e il cielo possono richiedere tempi differenti. Se combini riprese separate, dichiaralo e mantieni un contesto coerente; se sposti il primo piano o cambi l’istante celeste, il risultato diventa una composizione con quelle scelte. La didascalia può raccontare il processo senza togliere fascino all’immagine. La trasparenza permette al lettore di comprendere il rapporto fra scena e rappresentazione.</p><p>La riduzione del rumore sul terreno non dimostra che ogni piccolo punto del cielo sia una stella. Trasformazioni aggressive possono eliminare sorgenti deboli o produrre artefatti. Controlla gli originali e confronta una carta quando un dettaglio diventa interpretazione astronomica. Una scena evocativa e un dato affidabile possono convivere, se il metodo è dichiarato.</p><p>Prepara anche il luogo: accessi, ostacoli e illuminazioni devono essere conosciuti. Non lasciare che una composizione desiderata ti porti a lavorare in una posizione instabile o poco controllabile al buio. Il percorso <a href="guide.html">Guide</a> aiuta a costruire una serata nella quale il progetto fotografico rimane compatibile con il contesto reale.</p><p class="lesson-reference">Riferimenti: <a href="https://edu.inaf.it/le-costellazioni/mappe-stagionali/" target="_blank" rel="noopener noreferrer">EduINAF · Mappe stagionali e orientamento</a> · <a href="https://divulgazione.uai.it/index.php/Apprendista_Astrofilo_Introduzione" target="_blank" rel="noopener noreferrer">UAI · Apprendista astrofilo</a></p></section><section id="calibrazione" class="lesson-section"><h3>11. Light, dark, flat e offset: correggere il sistema</h3><p>Un light registra il soggetto insieme al fondo e ai contributi del sistema. Un dark acquisito senza luce misura contributi legati a elettronica e sensore nelle condizioni della posa. Un flat descrive la risposta relativa a un’illuminazione uniforme, compresi effetti di vignettatura e strutture dovute a polvere. Un bias o una misura dell’offset riguarda il livello elettronico di riferimento secondo il metodo adatto alla camera.</p><p>Questi termini non sono una ricetta identica per tutti i dispositivi. Alcune camere richiedono procedure specifiche per flats e dark-flats; un offset uniforme sintetico può essere appropriato in determinate condizioni documentate. Non usare una costante trovata in un tutorial come se fosse una proprietà del tuo sensore. Prima stabilisci quali contributi siano già presenti nei master e quali impostazioni debbano corrispondere.</p><figure class="course-lab" data-practical="calibration"><h4>Separare risposta e contributi additivi</h4><canvas width="720" height="300" aria-label="Separare risposta e contributi additivi"></canvas><div class="notebook-grid"><label><input type="checkbox" data-dark-correction> Sottrai contributo medio dark e offset</label><label><input type="checkbox" data-flat-correction> Dividi per il flat normalizzato</label></div><p data-reading aria-live="polite"></p><figcaption>Scena sintetica: grezzo=(sorgente+fondo)×risposta + dark + offset. Il flat descrive la risposta relativa; il dark comprende qui l’offset. Il modello trascura rumore casuale e incertezza dei master per isolare le operazioni: una calibrazione reale non elimina tutto il rumore.</figcaption></figure><p>Nel laboratorio sintetico l’immagine contiene una risposta moltiplicativa e un contributo additivo. Sottrarre il secondo e dividere per la prima corregge due problemi differenti. Il modello rende evidente perché sottrarre un flat non sia equivalente a usarlo correttamente. Ignora intenzionalmente il rumore dei riferimenti per isolare l’algebra; la calibrazione reale usa misure con incertezze e non elimina il rumore casuale già presente.</p><p>Un master-dark non calibrato può contenere già l’offset elettronico. Se lo sottrai e sottrai di nuovo lo stesso bias senza un motivo previsto dal metodo, correggi due volte un contributo. Prima di qualsiasi formula controlla come sono costruiti i master. Un flat deve essere corretto e normalizzato nella procedura appropriata: l’illuminazione utile si confronta per rapporti, non come una quantità arbitraria da sottrarre.</p><p>Mantieni coerenti temperatura, durata, gain o ISO e modalità rilevanti secondo camera e procedura. Un flat richiede la stessa geometria utile del treno ottico, incluse condizioni che producono polvere e vignettatura. Se modifichi la postazione, valuta se il riferimento rimanga valido. Dati di calibrazione incompatibili possono peggiorare il risultato pur usando un software corretto.</p><form class="course-quiz" data-answer="1"><fieldset><legend>Sottrarre un altro dark elimina la stessa fluttuazione casuale presente nel light?</legend><label><input type="radio" name="a-cal" value="0"> <span>Sì, il rumore è identico in ogni posa</span></label><label><input type="radio" name="a-cal" value="1"> <span>No: corregge contributi misurabili, ma le fluttuazioni casuali non sono identiche</span></label><label><input type="radio" name="a-cal" value="2"> <span>Sì, se il dark è visualizzato molto scuro</span></label></fieldset><div class="quiz-actions"><button type="submit">Verifica e comprendi</button><button type="reset">Riprova</button></div><p class="quiz-feedback" aria-live="polite"></p><details class="quiz-solution"><summary>Leggi la spiegazione</summary><p>Un riferimento di calibrazione non contiene la stessa realizzazione casuale del light. I master riducono l’incertezza dei riferimenti, ma la sottrazione non cancella il rumore dei fotoni già registrato.</p></details></form><p class="lesson-reference">Riferimenti: <a href="https://siril.readthedocs.io/en/stable/preprocessing/calibration.html" target="_blank" rel="noopener noreferrer">Siril · Calibrazione</a> · <a href="https://siril.org/tutorials/synthetic-biases/" target="_blank" rel="noopener noreferrer">Siril · Bias sintetici e limiti</a> · <a href="https://siril.org/tutorials/tuto-manual/" target="_blank" rel="noopener noreferrer">Siril · Elaborazione manuale</a></p></section><section id="registrazione" class="lesson-section"><h3>12. Allineare prima di sommare</h3><p>Nelle pose successive le stelle possono cadere su pixel differenti. Registrare significa trovare una trasformazione geometrica che metta in corrispondenza gli stessi riferimenti celesti. Può richiedere traslazione, rotazione o modelli più complessi secondo campo e dati. L’algoritmo deve distinguere le sorgenti utili dai difetti: un pixel caldo non è una stella soltanto perché appare brillante.</p><p>Una serie deve avere sovrapposizione sufficiente e riferimenti riconoscibili. Cambiamenti di scala, inquadratura, distorsione o struttura del campo richiedono un metodo appropriato. Non trattare come equivalenti una sequenza planetaria, un mosaico e un campo stellare ampio. In alcuni processi entrano anche demosaicizzazione e trattamento dei canali; l’ordine va scelto secondo il tipo di dati e il programma.</p><p>Il dithering introduce piccoli spostamenti fra pose per aiutare a distinguere difetti legati al sensore dal segnale celeste durante la successiva combinazione. Non è un movimento casuale da ignorare: deve rimanere compatibile con la registrazione e con i margini. Senza una combinazione appropriata, spostare il campo non cancella magicamente ogni difetto.</p><p>Controlla la qualità del risultato registrato prima di integrare. Stelle doppie prodotte dall’allineamento, bordi senza copertura e trasformazioni errate devono essere riconosciuti come problemi del processo. Conserva un campione per confrontare originale e trasformato e annota quali fotogrammi siano stati esclusi. Una lista di file “elaborati” non è una verifica di correttezza.</p><p class="lesson-reference">Riferimenti: <a href="https://siril.readthedocs.io/en/stable/preprocessing/registration.html" target="_blank" rel="noopener noreferrer">Siril · Registrazione</a></p></section><section id="elaborazione" class="lesson-section"><h3>13. Integrare e rendere leggibile senza confondere le operazioni</h3><p>Integrare significa combinare misure corrispondenti. La media, la mediana e metodi con rejection hanno proprietà differenti: la scelta dipende da numero di pose, qualità e contaminazioni. Normalizzazioni e pesi possono compensare differenze dei dati, ma richiedono ipotesi. Un valore anomalo non deve essere rimosso senza criterio se potrebbe rappresentare un fenomeno reale che vuoi studiare.</p><p>Una trasformazione del contrasto cambia la rappresentazione dei livelli per adattarli alla visione e al monitor. Può rivelare strutture deboli già sostenute dai dati, ma non aumenta il tempo raccolto. Prima valuta il fondo e i gradienti, evitando che una sottrazione aggressiva elimini una nebulosità reale estesa. Calibrare il sensore, correggere un gradiente e trasformare il contrasto sono operazioni distinte.</p><figure class="lesson-photo"><img src="assets/lezioni/carina.jpg" alt="Un’immagine può raccontare una struttura senza nascondere il metodo" loading="lazy"><figcaption>Nebulosa della Carena in una fotografia scientifica documentata. Per interpretarne i colori e i dettagli occorre leggere filtri e processo della fonte. Il file non rappresenta il risultato dei modelli sintetici di questa pagina.<br><a href="https://esahubble.org/images/heic1007a/" target="_blank" rel="noopener noreferrer">NASA, ESA, M. Livio and the Hubble 20th Anniversary Team (STScI)</a> · CC BY 4.0 · <a href="https://esahubble.org/copyright/" target="_blank" rel="noopener noreferrer">Licenza e condizioni</a></figcaption></figure><p>Nitidezza e riduzione del rumore richiedono confronti. Cerca bordi innaturali, aloni, stelle con profili alterati e texture ripetute. Se lavori per una presentazione estetica, descrivi il trattamento; se lavori per misure scientifiche, conserva una versione e un percorso appropriati a quelle misure. Un risultato gradevole non certifica automaticamente un valore fotometrico o una posizione.</p><p>Non sostituire una struttura astronomica con dettagli generati senza dichiarazione e non presentare una composizione come un evento fotografato. La provenienza riguarda file, tempi, filtri e trasformazioni. Conserva originali, master, integrazione lineare e versione finale; una didascalia essenziale può rendere leggibile la catena anche a chi guarda per la prima volta.</p><p class="lesson-reference">Riferimenti: <a href="https://siril.readthedocs.io/en/stable/preprocessing/stacking.html" target="_blank" rel="noopener noreferrer">Siril · Integrazione</a> · <a href="https://fits.gsfc.nasa.gov/fits_primer.html" target="_blank" rel="noopener noreferrer">NASA/GSFC · Introduzione al formato FITS</a></p></section><section id="sessione-guidata" class="lesson-section"><h3>14. Una piccola sessione: dai file originali alla verifica</h3><p>Immagina di tornare da una serata con venti pose dello stesso campo. Prima di aprire un comando di integrazione, crea una copia degli originali e un diario della sessione. Separa i light dai riferimenti di calibrazione; conserva data, filtro, durata, temperatura disponibile e impostazioni del sensore. Venti file non dimostrano ancora venti misure compatibili: controlla stelle, nuvole, deriva e saturazione alla stessa scala di visualizzazione.</p><ol class="workflow-readable"><li><strong>Seleziona.</strong> Esamina centro e bordi di ciascun fotogramma. Registra il motivo di uno scarto; non eliminare gli originali per ottenere una cartella apparentemente ordinata.</li><li><strong>Calibra.</strong> In un programma come Siril prepara master compatibili e verifica su un campione il risultato. Confronta ombre di polvere, fondo e livelli: un comando eseguito senza errori non prova che il master fosse corretto.</li><li><strong>Registra e integra.</strong> Allinea le stelle prima di combinare. Controlla copertura e bordi della sovrapposizione; conserva l’integrazione lineare prima delle trasformazioni estetiche.</li><li><strong>Interpreta.</strong> Confronta il risultato con gli originali e con una carta. Una struttura presente soltanto dopo una regolazione molto aggressiva richiede prudenza e ulteriori riscontri.</li></ol><p>Il flusso planetario ha un’altra logica: da una sequenza breve si valutano qualità e allineamento dei fotogrammi del disco, poi si combinano quelli utili. Non trasferire automaticamente parametri pensati per stelle puntiformi a un pianeta esteso. Anche Sole, Luna, comete e mosaici richiedono metodi appropriati al loro movimento e alla struttura del soggetto.</p><aside class="course-curiosity"><h4>Domanda da portare al monitor</h4><p>Il fondo appare più uniforme dopo la correzione, ma una nebulosità estesa è scomparsa. Hai tolto un difetto o il soggetto? Riapri la versione precedente, esamina dove hai stimato il fondo e consulta un riferimento indipendente. La reversibilità del lavoro permette di correggere un’interpretazione.</p></aside><p>Per gli smart telescope distingui l’immagine pronta dall’eventuale esportazione dei singoli dati. Verifica nel manuale del modello quali operazioni sono già applicate: calibrare nuovamente un file già corretto può introdurre errori. Il percorso <a href="strumentazione.html#smart-telescope">smart telescope</a> chiarisce automazione, registrazione e limiti geometrici senza confondere semplicità d’uso e assenza di decisioni.</p><p class="lesson-reference">Riferimenti: <a href="https://siril.org/tutorials/tuto-manual/" target="_blank" rel="noopener noreferrer">Siril · Elaborazione manuale</a></p></section><section id="processo" class="lesson-section"><h3>15. Ripercorri le operazioni e verifica la comprensione</h3><div class="course-lab" data-practical="workflow"><h4>Segui il percorso del dato</h4><div class="quiz-actions"><button type="button" data-work-step="0" aria-pressed="false">1. Luce e ottica</button><button type="button" data-work-step="1" aria-pressed="false">2. Sensore</button><button type="button" data-work-step="2" aria-pressed="false">3. Acquisizione</button><button type="button" data-work-step="3" aria-pressed="false">4. Calibrazione</button><button type="button" data-work-step="4" aria-pressed="false">5. Registrazione</button><button type="button" data-work-step="5" aria-pressed="false">6. Integrazione</button><button type="button" data-work-step="6" aria-pressed="false">7. Contrasto</button></div><p data-reading aria-live="polite"></p></div><p>Seleziona ogni passaggio e spiega quale problema risolve. Torna poi a un passaggio precedente e chiediti se un errore introdotto lì possa essere corretto alla fine. Una posa sfocata, un flat incompatibile, una registrazione sbagliata e un contrasto troppo aggressivo non sono lo stesso problema. La catena aiuta a individuare la causa invece di tentare regolazioni casuali.</p><form class="course-quiz" data-answer="1"><fieldset><legend>Nell’ideale statistico, per raddoppiare il rapporto segnale/rumore di pose equivalenti servono circa…</legend><label><input type="radio" name="a-snr" value="0"> <span>Il doppio delle pose</span></label><label><input type="radio" name="a-snr" value="1"> <span>Quattro volte le pose</span></label><label><input type="radio" name="a-snr" value="2"> <span>Lo stesso numero, con uno stretch più forte</span></label></fieldset><div class="quiz-actions"><button type="submit">Verifica e comprendi</button><button type="reset">Riprova</button></div><p class="quiz-feedback" aria-live="polite"></p><details class="quiz-solution"><summary>Leggi la spiegazione</summary><p>La crescita ideale è proporzionale a √N. Per ottenere un fattore due servono quattro volte le misure equivalenti. La regola non elimina errori sistematici né recupera dettagli perduti.</p></details></form><form class="course-quiz" data-answer="0"><fieldset><legend>Quale ruolo ha un flat ben costruito?</legend><label><input type="radio" name="a-flat" value="0"> <span>Descrivere la risposta relativa e correggere effetti moltiplicativi</span></label><label><input type="radio" name="a-flat" value="1"> <span>Misurare la traiettoria della montatura</span></label><label><input type="radio" name="a-flat" value="2"> <span>Sostituire il segnale della nebulosa</span></label></fieldset><div class="quiz-actions"><button type="submit">Verifica e comprendi</button><button type="reset">Riprova</button></div><p class="quiz-feedback" aria-live="polite"></p><details class="quiz-solution"><summary>Leggi la spiegazione</summary><p>Il flat riguarda risposta del sistema e distribuzione relativa della luce. Non contiene una misura del soggetto che possa sostituire il light.</p></details></form><p>Il percorso continua con una piccola sessione documentata. Scegli un soggetto controllabile, raccogli una serie breve, verifica i dati prima di proseguire e conserva ogni fase. I collegamenti alla pagina <a href="software.html">Software</a> conducono ai siti ufficiali dei programmi; scaricamento e documentazione sono gestiti dagli sviluppatori. Le immagini qui presenti illustrano fenomeni o componenti reali, mentre i laboratori sono modelli espliciti: imparare a distinguere i due è già parte del lavoro astronomico.</p><p class="lesson-reference">Riferimenti: <a href="https://siril.org/tutorials/tuto-manual/" target="_blank" rel="noopener noreferrer">Siril · Elaborazione manuale</a> · <a href="https://siril.readthedocs.io/en/stable/preprocessing/stacking.html" target="_blank" rel="noopener noreferrer">Siril · Integrazione</a></p></section><section id="approfondimenti" class="learning-sources"><h3>Fonti e percorsi per approfondire</h3><p>Testo originale AD ASTRA: confronto di fonti e materiali didattici, con controllo delle convenzioni e distinzione fra diagrammi e fotografie. Le attività mostrano modelli con limiti dichiarati; le immagini conservano fonte e crediti.</p><ul><li><a href="https://www.eso.org/public/blog/50-years-of-ccds/" target="_blank" rel="noopener noreferrer">ESO · Rivelatori astronomici</a></li><li><a href="https://fits.gsfc.nasa.gov/fits_primer.html" target="_blank" rel="noopener noreferrer">NASA/GSFC · Introduzione al formato FITS</a></li><li><a href="https://siril.readthedocs.io/en/stable/preprocessing/calibration.html" target="_blank" rel="noopener noreferrer">Siril · Calibrazione</a></li><li><a href="https://divulgazione.uai.it/index.php/Apprendista_Astrofilo_Introduzione" target="_blank" rel="noopener noreferrer">UAI · Apprendista astrofilo</a></li><li><a href="https://static.treccani.it/export/sites/default/Portale/resources/multimedia/Lezioni_Astrofisica/Coordinate/Lezione.pdf" target="_blank" rel="noopener noreferrer">Treccani · Coordinate astronomiche, PDF</a></li><li><a href="https://skywatcher.com/download/manual/goto-mounts/" target="_blank" rel="noopener noreferrer">Sky-Watcher · Manuali ufficiali delle montature</a></li><li><a href="https://www.treccani.it/enciclopedia/telescopio_(Dizionario-delle-Scienze-Fisiche)/" target="_blank" rel="noopener noreferrer">Treccani · Telescopio</a></li><li><a href="https://eclipse.aas.org/eye-safety" target="_blank" rel="noopener noreferrer">AAS · Sicurezza nell’osservazione solare</a></li><li><a href="https://www.treccani.it/enciclopedia/seeing_(Dizionario-delle-Scienze-Fisiche)/" target="_blank" rel="noopener noreferrer">Treccani · Seeing</a></li><li><a href="https://siril.readthedocs.io/en/stable/preprocessing/stacking.html" target="_blank" rel="noopener noreferrer">Siril · Integrazione</a></li><li><a href="https://edu.inaf.it/le-costellazioni/mappe-stagionali/" target="_blank" rel="noopener noreferrer">EduINAF · Mappe stagionali e orientamento</a></li><li><a href="https://siril.org/tutorials/synthetic-biases/" target="_blank" rel="noopener noreferrer">Siril · Bias sintetici e limiti</a></li><li><a href="https://siril.org/tutorials/tuto-manual/" target="_blank" rel="noopener noreferrer">Siril · Elaborazione manuale</a></li><li><a href="https://siril.readthedocs.io/en/stable/preprocessing/registration.html" target="_blank" rel="noopener noreferrer">Siril · Registrazione</a></li></ul><p><a href="scuola-astronomia.html">Scopri la Scuola di Astronomia</a> · <a href="guide.html">Prepara una serata</a> · <a href="strumentazione.html">Comprendi gli strumenti</a> · <a href="astrofotografia.html">Dall’osservazione alla ripresa</a></p></section></article><aside class="learning-sidebar"><h3>Il percorso</h3><ol><li><a href="#occhio-camera">L’occhio non è una fotocamera</a></li><li><a href="#catena">Il limite della catena e il significato del dato</a></li><li><a href="#smartphone">Smartphone: cominciare con un bersaglio controllabile</a></li><li><a href="#cavalletto">Cavalletto fermo: il cielo si muove comunque</a></li><li><a href="#inseguitore">Astroinseguitore: il cielo seguito, il terreno che cambia</a></li><li><a href="#telescopio">Al telescopio: la scala amplifica anche le esigenze</a></li><li><a href="#luna-sole">Luna e Sole: illuminazione e sicurezza non sono la stessa questione</a></li><li><a href="#pianeti">Pianeti: molti istanti per comprendere la stabilità</a></li><li><a href="#deep-sky">Il cielo profondo: tempo, contrasto e pazienza</a></li><li><a href="#paesaggio">Via Lattea e paesaggio: raccontare anche il metodo</a></li><li><a href="#calibrazione">Light, dark, flat e offset: correggere il sistema</a></li><li><a href="#registrazione">Allineare prima di sommare</a></li><li><a href="#elaborazione">Integrare e rendere leggibile senza confondere le operazioni</a></li><li><a href="#sessione-guidata">Una piccola sessione: dai file originali alla verifica</a></li><li><a href="#processo">Ripercorri le operazioni e verifica la comprensione</a></li></ol><h4>Riprendi i principi</h4><p><a href="guide.html#carte">Leggere una carta del cielo</a></p><p><a href="strumentazione.html#montature">Coordinate e montature</a></p><p><a href="cielo-del-mese.html">Cerca gli oggetti del mese</a></p></aside></div><nav class="learning-navigation" aria-label="Passa a un altro percorso"><a href="strumentazione.html">← Strumentazione<strong>Comprendi gli strumenti</strong></a><a href="guide.html">Torna al campo →<strong>Guide osservative</strong></a></nav></main>
 
 
 
@@ -1697,15 +1149,11 @@
           </li>
 
           <li>
-            <a href="#">
-              Lezioni
-            </a>
+            <a href="scuola-astronomia.html">Lezioni</a>
           </li>
 
           <li>
-            <a href="#">
-              Approfondimenti
-            </a>
+            <a href="#approfondimenti">Approfondimenti</a>
           </li>
 
         </ul>
@@ -1824,11 +1272,9 @@
 
         <a
           class="footer-facebook"
-          href="#"
-          aria-label="Facebook AD ASTRA"
-        >
-          f
-        </a>
+          href="contatti.html"
+          aria-label="Contatti e canali AD ASTRA"
+        >@</a>
 
       </div>
 
@@ -1838,6 +1284,20 @@
   </footer>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script defer src="assets/lezioni/interazioni-didattiche.js"></script><script defer src="assets/lezioni/carte-base.js"></script><script defer src="assets/lezioni/percorsi-pratici.js"></script><script defer src="assets/lezioni/fotografia-attiva.js"></script>
 </body>
 
 </html>

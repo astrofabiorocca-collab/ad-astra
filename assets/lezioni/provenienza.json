@@ -1,0 +1,131 @@
+{
+  "date": "2026-10-12",
+  "images": [
+    {
+      "file": "assets/lezioni/andromeda.jpg",
+      "source": "https://esahubble.org/images/heic1502a/",
+      "original": "https://cdn.esahubble.org/archives/images/screen/heic1502a.jpg",
+      "credit": "NASA, ESA, J. Dalcanton (University of Washington, USA), B. F. Williams (University of Washington, USA), L. C. Johnson (University of Washington, USA), the PHAT team, and R. Gendler.",
+      "license": "CC BY 4.0",
+      "licenseSource": "https://esahubble.org/copyright/",
+      "adaptation": "Miniatura ritagliata via CSS"
+    },
+    {
+      "file": "assets/lezioni/carina.jpg",
+      "source": "https://esahubble.org/images/heic1007a/",
+      "original": "https://cdn.esahubble.org/archives/images/screen/heic1007a.jpg",
+      "credit": "NASA, ESA, M. Livio and the Hubble 20th Anniversary Team (STScI)",
+      "license": "CC BY 4.0",
+      "licenseSource": "https://esahubble.org/copyright/",
+      "adaptation": "Miniatura e sfondo attenuato con maschere CSS"
+    },
+    {
+      "file": "assets/lezioni/hubble.jpg",
+      "source": "https://esahubble.org/images/heic0908c/",
+      "original": "https://cdn.esahubble.org/archives/images/screen/heic0908c.jpg",
+      "credit": "NASA/ESA",
+      "license": "CC BY 4.0",
+      "licenseSource": "https://esahubble.org/copyright/",
+      "adaptation": "Miniatura ritagliata via CSS"
+    },
+    {
+      "file": "assets/lezioni/astronauti-hubble.jpg",
+      "source": "https://esahubble.org/images/heic0908a/",
+      "original": "https://cdn.esahubble.org/archives/images/screen/heic0908a.jpg",
+      "credit": "NASA",
+      "license": "CC BY 4.0",
+      "licenseSource": "https://esahubble.org/copyright/",
+      "adaptation": "Miniatura ritagliata via CSS"
+    },
+    {
+      "file": "assets/lezioni/archivio-digitale.jpg",
+      "source": "https://www.eso.org/public/images/eso-data-centre-9107/",
+      "credit": "ESO",
+      "license": "CC BY 4.0",
+      "licenseSource": "https://www.eso.org/public/outreach/copyright/",
+      "adaptation": "Miniatura ritagliata via CSS"
+    },
+    {
+      "license": "CC BY 4.0",
+      "original": "https://storage.noirlab.edu/media/archives/images/screen/cassiopeia.jpg",
+      "file": "assets/cielo/foto/costellazione-Cas.jpg",
+      "title": "cassiopeia",
+      "credit": "E. Slawik/NOIRLab/NSF/AURA/M. Zaman",
+      "source": "https://noirlab.edu/public/images/cassiopeia/"
+    },
+    {
+      "id": "PIA11141",
+      "title": "Saturn … Four Years On",
+      "original": "https://images-assets.nasa.gov/image/PIA11141/PIA11141~medium.jpg",
+      "file": "assets/cielo/foto/Saturn.jpg",
+      "credit": "NASA/JPL/Space Science Institute",
+      "description": "Saturn … Four Years On",
+      "source": "https://images.nasa.gov/details/PIA11141",
+      "license": "NASA media usage guidelines"
+    },
+    {
+      "license": "CC BY 4.0",
+      "original": "https://storage.noirlab.edu/media/archives/images/screen/orion.jpg",
+      "file": "assets/cielo/foto/costellazione-Ori.jpg",
+      "title": "orion",
+      "credit": "E. Slawik/NOIRLab/NSF/AURA/M. Zamani",
+      "source": "https://noirlab.edu/public/images/orion/"
+    },
+    {
+      "id": "NHQ202211080005",
+      "title": "Total Lunar Eclipse",
+      "original": "https://images-assets.nasa.gov/image/NHQ202211080005/NHQ202211080005~medium.jpg",
+      "file": "assets/cielo/foto/eclissiLuna.jpg",
+      "credit": "NASA/Joel Kowsky",
+      "description": "The Moon is seen during a total lunar eclipse, Tuesday, Nov. 8, 2022, at NASA’s Kennedy Space Center in Florida.  Photo Credit: (NASA/Joel Kowsky)",
+      "source": "https://images.nasa.gov/details/NHQ202211080005",
+      "license": "NASA media usage guidelines"
+    },
+    {
+      "id": "PIA18033",
+      "title": "Earth",
+      "credit": "NASA",
+      "description": "Behold one of the more detailed images of the Earth yet created. This Blue Marble Earth montage shown above -- created from photographs taken by the Visible/Infrared Imager Radiometer Suite (VIIRS) instrument on board the new Suomi NPP satellite -- shows many stunning details of our home planet. The Suomi NPP satellite was launched last October and renamed last week after Verner Suomi, commonly deemed the father of satellite meteorology. The composite was created from the data collected during four orbits of the robotic satellite taken earlier this month and digitally projected onto the globe. Many features of North America and the Western Hemisphere are particularly visible on a high resolution version of the image.  http://photojournal.jpl.nasa.gov/catalog/PIA18033",
+      "source": "https://images.nasa.gov/details/PIA18033",
+      "original": "https://images-assets.nasa.gov/image/PIA18033/PIA18033~medium.jpg",
+      "file": "assets/cielo/foto/Earth.jpg",
+      "license": "NASA media usage guidelines"
+    },
+    {
+      "file": "assets/lezioni/tracce-stellari.jpg",
+      "source": "https://www.eso.org/public/images/potw1043a/",
+      "original": "https://cdn.eso.org/images/screen/potw1043a.jpg",
+      "credit": "Iztok Bončina/ESO",
+      "license": "CC BY 4.0",
+      "licenseSource": "https://www.eso.org/public/outreach/copyright/"
+    },
+    {
+      "license": "CC BY 4.0",
+      "original": "https://storage.noirlab.edu/media/archives/images/screen/cygnus.jpg",
+      "file": "assets/cielo/foto/costellazione-Cyg.jpg",
+      "title": "cygnus",
+      "credit": "E. Slawik/NOIRLab/NSF/AURA/M. Zamani",
+      "source": "https://noirlab.edu/public/images/cygnus/"
+    },
+    {
+      "license": "CC BY 4.0",
+      "original": "https://storage.noirlab.edu/media/archives/images/screen/taurus.jpg",
+      "file": "assets/cielo/foto/costellazione-Tau.jpg",
+      "title": "taurus",
+      "credit": "E. Slawik/NOIRLab/NSF/AURA/M. Zamani",
+      "source": "https://noirlab.edu/public/images/taurus/"
+    },
+    {
+      "file": "assets/lezioni/uai-altazimutale.png",
+      "source": "Materiale fornito dall’autore con Impariamo il cielo — Prima dell’oculare",
+      "credit": "Fabio Rocca / AD ASTRA; file originale conservato",
+      "usage": "Inserimento nel progetto richiesto dall’autore. Illustrazione didattica, non fotografia o calcolo astronomico."
+    },
+    {
+      "file": "assets/lezioni/uai-polare.png",
+      "source": "Materiale fornito dall’autore con Impariamo il cielo — Prima dell’oculare",
+      "credit": "Fabio Rocca / AD ASTRA; file originale conservato",
+      "usage": "Inserimento nel progetto richiesto dall’autore. Illustrazione di orientamento, non carta metrica."
+    }
+  ]
+}
