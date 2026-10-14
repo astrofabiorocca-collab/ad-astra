@@ -1,0 +1,16 @@
+/* Menu comune: resta nel flusso, poi aderisce al bordo superiore. */
+.main-navigation {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, .12);
+}
+html {
+  scroll-padding-top: calc(var(--site-menu-height, 64px) + 16px);
+}
+@media (min-width: 851px) {
+  .learning-sidebar {
+    top: calc(var(--site-menu-height, 64px) + 24px) !important;
+    max-height: calc(100vh - var(--site-menu-height, 64px) - 48px);
+  }
+}

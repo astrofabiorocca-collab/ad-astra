@@ -989,6 +989,7 @@
 </style>
 
 <meta name="robots" content="noindex,nofollow"><link rel="stylesheet" href="assets/lezioni/interazioni-didattiche.css">
+<link rel="stylesheet" href="assets/menu-persistente.css">
 </head>
 
 
@@ -1328,6 +1329,7 @@
 <script>(()=>{const input=document.getElementById('altitude-range');if(!input)return;function update(){const h=+input.value,a=h*Math.PI/180,x=105+215*Math.cos(a),y=252-215*Math.sin(a),ax=105+64*Math.cos(a),ay=252-64*Math.sin(a);document.getElementById('altitude-ray').setAttribute('d','M105 252L'+x+' '+y);document.getElementById('altitude-point').setAttribute('cx',x);document.getElementById('altitude-point').setAttribute('cy',y);document.getElementById('altitude-arc').setAttribute('d','M169 252A64 64 0 0 0 '+ax+' '+ay);document.getElementById('altitude-label').textContent='h = '+h+'°';document.getElementById('altitude-output').value=h+'°';}input.addEventListener('input',update);update();})();</script><script defer src="assets/lezioni/laboratori-fondamenti.js"></script>
 <script defer src="assets/lezioni/interazioni-didattiche.js"></script>
 <script defer src="assets/lezioni/carte-base.js"></script>
+<script defer src="assets/menu-persistente.js"></script>
 </body>
 
 </html>
