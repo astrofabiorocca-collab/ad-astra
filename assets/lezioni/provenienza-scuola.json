@@ -280,6 +280,66 @@
       "licenseSource": "https://www.esa.int/ESA_Multimedia/Terms_and_conditions_of_use_of_images_and_videos_available_on_the_esa_website",
       "changes": "Nessuna",
       "interpretation": "Mappa anisotropie Legacy2018, colori convenzionali; ovale cartografico, non forma Universo"
+    },
+    {
+      "file": "assets/lezioni/osservatori-notte-2024.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:%22Star_Party%22_Ranger_Program_-_53906875865.jpg",
+      "original": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/%22Star_Party%22_Ranger_Program_-_53906875865.jpg/1280px-%22Star_Party%22_Ranger_Program_-_53906875865.jpg",
+      "credit": "NPS/Luca Pfeiffer, ShenandoahNPS",
+      "license": "Public domain",
+      "licenseSource": "https://commons.wikimedia.org/wiki/File:%22Star_Party%22_Ranger_Program_-_53906875865.jpg",
+      "changes": "Nessuna",
+      "interpretation": "Osservazione serale 2024, fotografia non misura del limite visuale"
+    },
+    {
+      "file": "assets/lezioni/binocolo-prismi-tetto.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Vortex_Diamonback_roof_prism_binoculars.jpg",
+      "original": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Vortex_Diamonback_roof_prism_binoculars.jpg/1280px-Vortex_Diamonback_roof_prism_binoculars.jpg",
+      "credit": "pxhere.com",
+      "license": "CC0",
+      "licenseSource": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "changes": "Nessuna",
+      "interpretation": "Binocolo a prismi a tetto, archivio2017, non una recensione"
+    },
+    {
+      "file": "assets/lezioni/telescopi-osservazione-2025.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Seestar_50_Meade_ETX-125EC_(54420682823).jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/4/46/Seestar_50_Meade_ETX-125EC_%2854420682823%29.jpg",
+      "credit": "Steve Elliott",
+      "license": "CC BY-SA 2.0",
+      "licenseSource": "https://creativecommons.org/licenses/by-sa/2.0",
+      "changes": "Nessuna",
+      "interpretation": "S50 e MeadeETX125EC con filtri frontali secondo fonte, sessione2025; non due novità di mercato"
+    },
+    {
+      "file": "assets/lezioni/oculari-confronto.png",
+      "source": "https://commons.wikimedia.org/wiki/File:TeleVue_Eyepieces.png",
+      "original": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/TeleVue_Eyepieces.png/1280px-TeleVue_Eyepieces.png",
+      "credit": "CusterDome",
+      "license": "CC0",
+      "licenseSource": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "changes": "Nessuna",
+      "interpretation": "Esemplari2025, famiglie e campi differenti; non classifica di marchio"
+    },
+    {
+      "file": "assets/lezioni/misura-cielo-sqm.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Sky_Quality_Meter_(SQM_KP_install2-CC).jpg",
+      "original": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Sky_Quality_Meter_%28SQM_KP_install2-CC%29.jpg/1280px-Sky_Quality_Meter_%28SQM_KP_install2-CC%29.jpg",
+      "credit": "KPNO/NOIRLab/NSF/AURA/W. Liu",
+      "license": "CC BY 4.0",
+      "licenseSource": "https://creativecommons.org/licenses/by/4.0",
+      "changes": "Nessuna",
+      "interpretation": "SQM direzione Tucson altezza30°, non zenitale né valore italiano"
+    },
+    {
+      "file": "assets/lezioni/preparazione-serata-2024.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:%22Star_Party%22_Ranger_Program_-_53906773964.jpg",
+      "original": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/%22Star_Party%22_Ranger_Program_-_53906773964.jpg/1280px-%22Star_Party%22_Ranger_Program_-_53906773964.jpg",
+      "credit": "NPS/Luca Pfeiffer, ShenandoahNPS",
+      "license": "Public domain",
+      "licenseSource": "https://commons.wikimedia.org/wiki/File:%22Star_Party%22_Ranger_Program_-_53906773964.jpg",
+      "changes": "Nessuna",
+      "interpretation": "Preparazione2024 al crepuscolo; non procedura universale"
     }
   ],
   "diagrams": [
