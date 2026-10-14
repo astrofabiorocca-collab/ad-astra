@@ -390,6 +390,156 @@
       "licenseSource": "https://creativecommons.org/licenses/by-sa/4.0/",
       "changes": "Nessuna",
       "interpretation": "Akamas, primario evidente e secondario tenue; geometria dell’osservatore"
+    },
+    {
+      "file": "assets/lezioni/esopianeta-2m1207.jpg",
+      "source": "https://www.eso.org/public/images/eso0428a/",
+      "original": "https://cdn.eso.org/images/screen/eso0428a.jpg",
+      "credit": "ESO",
+      "license": "CC BY 4.0",
+      "licenseSource": "https://www.eso.org/public/outreach/copyright/",
+      "changes": "Nessuna; versione distribuita dalla fonte",
+      "interpretation": "Immagine infrarossa di 2M1207 e compagno; pubblicazione 2004 inizialmente candidato. Colori assegnati, non superficie del pianeta."
+    },
+    {
+      "file": "assets/lezioni/terra-blue-marble.jpg",
+      "source": "https://science.nasa.gov/resource/blue-marble/",
+      "original": "https://assets.science.nasa.gov/content/dam/science/esd/climate/2023/12/Blue-marble_700x525.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+      "credit": "NASA — Visible Earth; Reto Stöckli e team MODIS",
+      "license": "Linee guida NASA",
+      "licenseSource": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "changes": "Nessuna; versione distribuita dalla fonte",
+      "interpretation": "Composito Blue Marble di dati terrestri; non fotografia di un esopianeta né un singolo scatto istantaneo."
+    },
+    {
+      "file": "assets/lezioni/m87-eht-2019.jpg",
+      "source": "https://www.eso.org/public/images/eso1907a/",
+      "original": "https://cdn.eso.org/images/screen/eso1907a.jpg",
+      "credit": "EHT Collaboration",
+      "license": "CC BY 4.0",
+      "licenseSource": "https://www.eso.org/public/outreach/copyright/",
+      "changes": "Nessuna; versione distribuita dalla fonte",
+      "interpretation": "Ricostruzione interferometrica radio M87*, pubblicata 2019 da osservazioni 2017; colori assegnati. Ombra distinta dall’orizzonte."
+    },
+    {
+      "file": "assets/lezioni/tycho-raggi-x-2019.jpg",
+      "source": "https://chandra.harvard.edu/photo/2019/tycho/",
+      "original": "https://chandra.harvard.edu/photo/2019/tycho/tycho_xray.jpg",
+      "credit": "NASA/CXC/RIKEN & GSFC/T. Sato et al.",
+      "license": "Uso con credito secondo Chandra",
+      "licenseSource": "https://chandra.harvard.edu/photo/image_use.html",
+      "changes": "Nessuna; versione distribuita dalla fonte",
+      "interpretation": "Solo dati X Chandra, colori assegnati; pubblicazione 2019, osservazioni 2001–2016. Non esplosione in tempo reale né colori visibili."
+    },
+    {
+      "file": "assets/lezioni/webb-ispezione-2017.jpg",
+      "source": "https://www.nasa.gov/image-article/nasas-webb-telescope-ghostly-lights-out-inspection/",
+      "original": "https://www.nasa.gov/wp-content/uploads/2023/03/lightsout.jpg",
+      "credit": "NASA/Chris Gunn",
+      "license": "Linee guida NASA",
+      "licenseSource": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "changes": "Nessuna; versione distribuita dalla fonte",
+      "interpretation": "Fotografia a lunga esposizione dell’ispezione a terra, 2017: figure sfumate dei tecnici dovute al movimento, non telescopio in orbita."
+    },
+    {
+      "file": "assets/lezioni/esopianeti-metodi-originale.png",
+      "source": "AD ASTRA — schema originale",
+      "original": "assets/lezioni/esopianeti-metodi-originale.png",
+      "credit": "AD ASTRA",
+      "license": "Produzione originale AD ASTRA",
+      "changes": "Nessuna",
+      "interpretation": "Tavola didattica originale, ipotesi dichiarate; non fotografia né dato osservativo.",
+      "sha256": "ccf9516997e1df284efc0df3a946fd52ae310d7ad9cb2306b6b25b98d482678c"
+    },
+    {
+      "file": "assets/lezioni/bilancio-pianeta-originale.png",
+      "source": "AD ASTRA — schema originale",
+      "original": "assets/lezioni/bilancio-pianeta-originale.png",
+      "credit": "AD ASTRA",
+      "license": "Produzione originale AD ASTRA",
+      "changes": "Nessuna",
+      "interpretation": "Tavola didattica originale, ipotesi dichiarate; non fotografia né dato osservativo.",
+      "sha256": "0a2e741efd3cbc700e8465af5686b13029bf48483e1eb7799382b067f361e4ea"
+    },
+    {
+      "file": "assets/lezioni/oggetti-compatti-originale.png",
+      "source": "AD ASTRA — schema originale",
+      "original": "assets/lezioni/oggetti-compatti-originale.png",
+      "credit": "AD ASTRA",
+      "license": "Produzione originale AD ASTRA",
+      "changes": "Nessuna",
+      "interpretation": "Tavola didattica originale, ipotesi dichiarate; non fotografia né dato osservativo.",
+      "sha256": "091572a79c32160996c3642ab59d79503ccbc7c402d882ebf8b910e7c020e6f1"
+    },
+    {
+      "file": "assets/lezioni/supernove-canali-originale.png",
+      "source": "AD ASTRA — schema originale",
+      "original": "assets/lezioni/supernove-canali-originale.png",
+      "credit": "AD ASTRA",
+      "license": "Produzione originale AD ASTRA",
+      "changes": "Nessuna",
+      "interpretation": "Tavola didattica originale, ipotesi dichiarate; non fotografia né dato osservativo.",
+      "sha256": "8ded59564cb03548c51d5bc37c9644e4212756443c0ede79564eb02f05257645"
+    },
+    {
+      "file": "assets/lezioni/spettro-osservatori-originale.png",
+      "source": "AD ASTRA — schema originale",
+      "original": "assets/lezioni/spettro-osservatori-originale.png",
+      "credit": "AD ASTRA",
+      "license": "Produzione originale AD ASTRA",
+      "changes": "Nessuna",
+      "interpretation": "Tavola didattica originale, ipotesi dichiarate; non fotografia né dato osservativo.",
+      "sha256": "7f380784f75424de9eac9c6b06a3ce09d6484ee784cc452d5201bd6a09300bfa"
+    },
+    {
+      "file": "assets/lezioni/carta-lettura-originale.png",
+      "source": "AD ASTRA — schema originale",
+      "original": "assets/lezioni/carta-lettura-originale.png",
+      "credit": "AD ASTRA",
+      "license": "Produzione originale AD ASTRA",
+      "changes": "Nessuna",
+      "interpretation": "Tavola didattica originale, ipotesi dichiarate; non fotografia né dato osservativo.",
+      "sha256": "ee98c7d44287137e4e8495bc2d12200d21812f5d0e2fb626ab65cae46409530b"
+    },
+    {
+      "file": "assets/lezioni/stellarium-percorso-originale.png",
+      "source": "AD ASTRA — schema originale",
+      "original": "assets/lezioni/stellarium-percorso-originale.png",
+      "credit": "AD ASTRA",
+      "license": "Produzione originale AD ASTRA",
+      "changes": "Nessuna",
+      "interpretation": "Tavola didattica originale, ipotesi dichiarate; non fotografia né dato osservativo.",
+      "sha256": "4ddef6c971b705f8f62bf75f12e78d0b2d43b74b937daf8e15260954e6a411de"
+    },
+    {
+      "file": "assets/lezioni/effemeridi-tempo-originale.png",
+      "source": "AD ASTRA — schema originale",
+      "original": "assets/lezioni/effemeridi-tempo-originale.png",
+      "credit": "AD ASTRA",
+      "license": "Produzione originale AD ASTRA",
+      "changes": "Nessuna",
+      "interpretation": "Tavola didattica originale, ipotesi dichiarate; non fotografia né dato osservativo.",
+      "sha256": "a8b5a90232f0249e03743eba42138ae03c34c1ca5d460be43d460101ea49f327"
+    },
+    {
+      "file": "assets/lezioni/catalogo-coordinate-originale.png",
+      "source": "AD ASTRA — schema originale",
+      "original": "assets/lezioni/catalogo-coordinate-originale.png",
+      "credit": "AD ASTRA",
+      "license": "Produzione originale AD ASTRA",
+      "changes": "Nessuna",
+      "interpretation": "Tavola didattica originale, ipotesi dichiarate; non fotografia né dato osservativo.",
+      "sha256": "81644d809453cd9302c94a6450615b55693736a35e162acd792a2e5058ffc320"
+    },
+    {
+      "file": "assets/lezioni/piano-notte-originale.png",
+      "source": "AD ASTRA — schema originale",
+      "original": "assets/lezioni/piano-notte-originale.png",
+      "credit": "AD ASTRA",
+      "license": "Produzione originale AD ASTRA",
+      "changes": "Nessuna",
+      "interpretation": "Tavola didattica originale, ipotesi dichiarate; non fotografia né dato osservativo.",
+      "sha256": "f8ed080eae46b0ffd7031b52d198d19f2bff5fd4d418e51f5f47f1df980e58bc"
     }
   ],
   "diagrams": [
