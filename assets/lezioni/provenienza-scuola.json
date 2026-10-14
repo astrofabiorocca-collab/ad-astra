@@ -120,6 +120,66 @@
       "licenseSource": "https://www.eso.org/public/outreach/copyright/",
       "changes": "Nessuna; versione screen ufficiale",
       "interpretation": "Segnale millimetrico 1.28 mm del disco HL Tauri; strutture non identificate automaticamente come pianeti"
+    },
+    {
+      "file": "assets/lezioni/betelgeuse-alma-2026.jpg",
+      "source": "https://www.eso.org/public/images/potw2634a/",
+      "original": "https://cdn.eso.org/images/screen/potw2634a.jpg",
+      "credit": "ALMA(ESO/NAOJ/NRAO)/W. Dent et al.",
+      "license": "CC BY 4.0",
+      "licenseSource": "https://www.eso.org/public/outreach/copyright/",
+      "changes": "Nessuna; screen ufficiale",
+      "interpretation": "Osservazioni submillimetriche, rilascio 24 agosto 2026; colori assegnati al segnale, non fotografia del nucleo"
+    },
+    {
+      "file": "assets/lezioni/sirio-compagna-hubble.jpg",
+      "source": "https://esahubble.org/images/heic0516a/",
+      "original": "https://cdn.esahubble.org/archives/images/screen/heic0516a.jpg",
+      "credit": "NASA, ESA, H. Bond (STScI), and M. Barstow (University of Leicester)",
+      "license": "CC BY 4.0",
+      "licenseSource": "https://esahubble.org/copyright/",
+      "changes": "Nessuna; screen ufficiale",
+      "interpretation": "Sirio A sovraesposta per Sirio B, ripresa 15 ottobre 2003; raggi e anelli sono artefatti ottici"
+    },
+    {
+      "file": "assets/lezioni/spettro-solare-osservato.jpg",
+      "source": "https://www.eso.org/public/images/sunspectrum-noao/",
+      "original": "https://cdn.eso.org/images/screen/sunspectrum-noao.jpg",
+      "credit": "NOAO/AURA/NSF",
+      "license": "CC BY 4.0, pubblicazione ESO con credito conservato",
+      "licenseSource": "https://www.eso.org/public/outreach/copyright/",
+      "changes": "Nessuna; screen ufficiale",
+      "interpretation": "Visualizzazione colorata di dati spettrali disposti in segmenti; catalogo ESO Type Simulation, non fotografia di una superficie striata"
+    },
+    {
+      "file": "assets/lezioni/gaia-diagramma-hr.jpg",
+      "source": "https://www.esa.int/ESA_Multimedia/Images/2018/04/Gaia_s_Hertzsprung-Russell_diagram",
+      "original": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2018/04/gaia_s_hertzsprung-russell_diagram/17476330-1-eng-GB/Gaia_s_Hertzsprung-Russell_diagram.jpg",
+      "credit": "ESA/Gaia/DPAC; acknowledgement Carine Babusiaux e collaboratori",
+      "license": "CC BY-SA IGO 3.0",
+      "licenseSource": "https://creativecommons.org/licenses/by-sa/3.0/igo/",
+      "changes": "Nessuna",
+      "interpretation": "DR2 selezione osservativa; assi G assoluta e BP-RP, colori densità del campione"
+    },
+    {
+      "file": "assets/lezioni/hh24-getti-protostellari.jpg",
+      "source": "https://esahubble.org/images/heic1526a/",
+      "original": "https://cdn.esahubble.org/archives/images/screen/heic1526a.jpg",
+      "credit": "ESA/Hubble & NASA, D. Padgett (GSFC), T. Megeath (University of Toledo), B. Reipurth (University of Hawaii)",
+      "license": "CC BY 4.0",
+      "licenseSource": "https://esahubble.org/copyright/",
+      "changes": "Nessuna",
+      "interpretation": "Osservazioni infrarosse con colori assegnati; getti e nodi in sistema giovane"
+    },
+    {
+      "file": "assets/lezioni/ngc6302-involucro-stellare.jpg",
+      "source": "https://esahubble.org/images/heic0910h/",
+      "original": "https://cdn.esahubble.org/archives/images/screen/heic0910h.jpg",
+      "credit": "NASA, ESA and the Hubble SM4 ERO Team",
+      "license": "CC BY 4.0",
+      "licenseSource": "https://esahubble.org/copyright/",
+      "changes": "Nessuna",
+      "interpretation": "Nebulosa planetaria, non resto di supernova; composite bande ultravioletto/ottico"
     }
   ],
   "diagrams": [
