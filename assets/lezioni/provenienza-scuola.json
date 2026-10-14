@@ -230,6 +230,56 @@
       "licenseSource": "https://esahubble.org/copyright/",
       "changes": "Nessuna",
       "interpretation": "Dettaglio NGC6960, non tutto Cygnus Loop; bande dichiarate"
+    },
+    {
+      "file": "assets/lezioni/via-lattea-panorama.jpg",
+      "source": "https://www.eso.org/public/images/eso0932a/",
+      "original": "https://cdn.eso.org/images/screen/eso0932a.jpg",
+      "credit": "ESO/S. Brunier",
+      "license": "CC BY 4.0, versione resa disponibile da ESO",
+      "licenseSource": "https://www.eso.org/public/outreach/copyright/",
+      "changes": "Nessuna",
+      "interpretation": "Panorama assemblato del cielo dall’interno; non vista esterna della Galassia"
+    },
+    {
+      "file": "assets/lezioni/m51-struttura-galassia.jpg",
+      "source": "https://esahubble.org/images/heic0506a/",
+      "original": "https://cdn.esahubble.org/archives/images/screen/heic0506a.jpg",
+      "credit": "NASA, ESA, S. Beckwith (STScI), Hubble Heritage Team (STScI/AURA)",
+      "license": "CC BY 4.0",
+      "licenseSource": "https://esahubble.org/copyright/",
+      "changes": "Nessuna",
+      "interpretation": "M51 e NGC5195, filtri ottici e vicino IR; non dinamica misurata dalla sola forma"
+    },
+    {
+      "file": "assets/lezioni/rs-puppis-cefeide.jpg",
+      "source": "https://esahubble.org/images/heic1323a/",
+      "original": "https://cdn.esahubble.org/archives/images/screen/heic1323a.jpg",
+      "credit": "NASA, ESA, Hubble Heritage Team (STScI/AURA)-Hubble/Europe Collaboration; H. Bond (STScI e Penn State University)",
+      "license": "CC BY 4.0",
+      "licenseSource": "https://esahubble.org/copyright/",
+      "changes": "Nessuna",
+      "interpretation": "Cefeide e polvere riflettente; immagine singola, non curva di luce"
+    },
+    {
+      "file": "assets/lezioni/abell1689-galassie.jpg",
+      "source": "https://esahubble.org/images/heic1317a/",
+      "original": "https://cdn.esahubble.org/archives/images/screen/heic1317a.jpg",
+      "credit": "NASA, ESA, Hubble Heritage Team (STScI/AURA), J. Blakeslee (NRC Herzberg Astrophysics Program, Dominion Astrophysical Observatory), H. Ford (JHU)",
+      "license": "CC BY 4.0",
+      "licenseSource": "https://esahubble.org/copyright/",
+      "changes": "Nessuna",
+      "interpretation": "Membri, stelle di primo piano e immagini lensed di fondo; non una profondità unica"
+    },
+    {
+      "file": "assets/lezioni/planck-fondo-microonde.jpg",
+      "source": "https://www.esa.int/ESA_Multimedia/Images/2018/07/Planck_s_view_of_the_cosmic_microwave_background",
+      "original": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2018/07/planck_s_view_of_the_cosmic_microwave_background/17601794-1-eng-GB/Planck_s_view_of_the_cosmic_microwave_background_pillars.jpg",
+      "credit": "© ESA/Planck Collaboration",
+      "license": "ESA Standard Licence, uso educativo",
+      "licenseSource": "https://www.esa.int/ESA_Multimedia/Terms_and_conditions_of_use_of_images_and_videos_available_on_the_esa_website",
+      "changes": "Nessuna",
+      "interpretation": "Mappa anisotropie Legacy2018, colori convenzionali; ovale cartografico, non forma Universo"
     }
   ],
   "diagrams": [
