@@ -1,0 +1,1338 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>Il Sole, la nostra stella | AD ASTRA</title>
+
+  <meta
+    name="description"
+    content="Dalle macchie sul disco al nucleo invisibile: osservare una stella vicina, distinguendo immagini, modelli e processi fisici."
+  >
+
+  <style>
+
+    /* =========================================================
+       RESET E BASE
+    ========================================================= */
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f7f9fc;
+      color: #102342;
+      line-height: 1.65;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+    }
+
+    .container {
+      width: min(1180px, 92%);
+      margin: 0 auto;
+    }
+
+
+    /* =========================================================
+       BANNER SUPERIORE
+    ========================================================= */
+
+    .top-banner {
+      position: relative;
+      width: 100%;
+
+      /*
+        Riduzione della sola altezza visibile.
+        L'immagine banner.png non viene modificata.
+      */
+      height: clamp(270px, 16.6vw, 340px);
+
+      overflow: hidden;
+      background: #07152a;
+    }
+
+    .top-banner-image {
+      width: 100%;
+      height: 100%;
+
+      object-fit: cover;
+      object-position: top center;
+
+      display: block;
+    }
+
+    /*
+      Il banner è privo del titolo della sezione.
+      Titolo e sottotitolo rimangono HTML reali.
+    */
+
+    .banner-section-title {
+      position: absolute;
+
+      left: 55%;
+      top: 50%;
+
+      transform: translateY(-50%);
+
+      z-index: 2;
+
+      max-width: 42%;
+
+      color: #ffffff;
+    }
+
+    .banner-section-title h1 {
+      margin-bottom: 5px;
+
+      color: #f4c84e;
+
+      font-size: clamp(1.45rem, 2.6vw, 2.55rem);
+      line-height: 1.15;
+      font-weight: 700;
+
+      text-shadow:
+        0 2px 8px rgba(0, 0, 0, 0.55);
+    }
+
+    .banner-section-title p {
+      color: #ffffff;
+
+      font-size: clamp(0.78rem, 1.35vw, 1.08rem);
+
+      text-shadow:
+        0 2px 6px rgba(0, 0, 0, 0.65);
+    }
+
+
+    /* =========================================================
+       MENU PRINCIPALE
+    ========================================================= */
+
+    .main-navigation {
+      width: 100%;
+
+      background:
+        linear-gradient(
+          180deg,
+          #07182d 0%,
+          #041326 100%
+        );
+
+      border-top:
+        1px solid rgba(255, 255, 255, 0.08);
+
+      border-bottom:
+        1px solid rgba(255, 255, 255, 0.12);
+    }
+
+    .main-navigation ul {
+      min-height: 54px;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      /*
+        Desktop: tutte le voci su una sola riga.
+      */
+      flex-wrap: nowrap;
+
+      gap: 0;
+
+      list-style: none;
+    }
+
+    .main-navigation li {
+      position: relative;
+      flex-shrink: 0;
+    }
+
+    .main-navigation li + li::before {
+      content: "";
+
+      position: absolute;
+      left: 0;
+      top: 50%;
+
+      width: 1px;
+      height: 22px;
+
+      transform: translateY(-50%);
+
+      background:
+        rgba(255, 255, 255, 0.28);
+    }
+
+    .main-navigation a {
+      display: block;
+
+      /*
+        Riduzione controllata di spaziatura
+        e carattere per mantenere una riga.
+      */
+      padding: 14px 11px 12px;
+
+      color: #e6edf5;
+
+      font-size: 0.68rem;
+      white-space: nowrap;
+      font-weight: 600;
+
+      transition:
+        color 0.2s ease,
+        background 0.2s ease;
+    }
+
+    .main-navigation a:hover {
+      color: #5eb5ff;
+    }
+
+    .main-navigation a.active {
+      color: #ffffff;
+
+      box-shadow:
+        inset 0 -3px 0 #4aa7ff;
+    }
+
+
+    /* =========================================================
+       INTRODUZIONE
+    ========================================================= */
+
+    .intro {
+      background: #ffffff;
+      padding: 58px 0 44px;
+    }
+
+    .intro-grid {
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 54px;
+      align-items: center;
+    }
+
+    .intro-text {
+      color: #39495c;
+      font-size: 0.98rem;
+    }
+
+    .intro-lead {
+      color: #174fb9;
+      font-size: 1.12rem;
+      font-weight: 600;
+      margin-bottom: 12px;
+    }
+
+    .intro-line {
+      width: 72px;
+      height: 3px;
+      background: #2864d7;
+      margin-bottom: 22px;
+    }
+
+    .intro-text p {
+      margin-bottom: 15px;
+    }
+
+
+    /* =========================================================
+       IMMAGINE INTRODUTTIVA
+    ========================================================= */
+
+    .intro-image {
+      min-height: 290px;
+      position: relative;
+
+      border-radius: 10px;
+      overflow: hidden;
+
+      box-shadow:
+        0 12px 30px rgba(17, 39, 67, 0.14);
+
+      background:
+        radial-gradient(
+          circle at 68% 26%,
+          rgba(95, 151, 230, 0.55),
+          transparent 24%
+        ),
+        linear-gradient(
+          to bottom,
+          #15335d 0%,
+          #0a1d39 55%,
+          #06101e 100%
+        );
+    }
+
+    .intro-image::before {
+      content: "";
+
+      position: absolute;
+      inset: 0;
+
+      opacity: 0.4;
+
+      background-image:
+        radial-gradient(
+          circle,
+          rgba(255, 255, 255, 0.95) 1px,
+          transparent 1.4px
+        );
+
+      background-size: 42px 42px;
+    }
+
+    .intro-image-caption {
+      position: absolute;
+
+      left: 24px;
+      right: 24px;
+      bottom: 20px;
+
+      color: rgba(255, 255, 255, 0.9);
+
+      font-size: 0.82rem;
+    }
+
+
+    /* =========================================================
+       PRINCIPI
+    ========================================================= */
+
+    .principles {
+      background: #ffffff;
+      padding: 10px 0 58px;
+    }
+
+    .principles-grid {
+      display: grid;
+
+      grid-template-columns:
+        repeat(3, 1fr);
+
+      gap: 34px;
+    }
+
+    .principle {
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+    }
+
+    .principle-icon {
+      width: 56px;
+      height: 56px;
+
+      flex-shrink: 0;
+
+      display: grid;
+      place-items: center;
+
+      border:
+        1.5px solid #3475e8;
+
+      border-radius: 50%;
+
+      color: #2465d5;
+
+      font-size: 1.35rem;
+    }
+
+    .principle h2 {
+      font-size: 1rem;
+      margin-bottom: 4px;
+      color: #102342;
+    }
+
+    .principle p {
+      font-size: 0.86rem;
+      color: #566477;
+    }
+
+
+    /* =========================================================
+       PERCORSO DIDATTICO
+    ========================================================= */
+
+    .programme {
+      padding: 56px 0 70px;
+
+      border-top:
+        1px solid #e3e9f0;
+
+      background: #f7f9fc;
+    }
+
+    .programme-heading {
+      display: flex;
+      align-items: center;
+
+      gap: 14px;
+
+      margin-bottom: 12px;
+    }
+
+    .programme-heading-icon {
+      color: #2864d7;
+      font-size: 1.5rem;
+    }
+
+    .programme-heading h2 {
+      font-size: 1.45rem;
+      color: #102342;
+      white-space: nowrap;
+    }
+
+    .programme-heading-line {
+      width: 100%;
+      height: 1px;
+
+      background: #9ab8e8;
+    }
+
+    .programme-intro {
+      max-width: 800px;
+
+      margin-bottom: 30px;
+
+      color: #526174;
+
+      font-size: 0.93rem;
+    }
+
+
+    /* =========================================================
+       CARD DEL PROGRAMMA
+    ========================================================= */
+
+    .cards {
+      display: grid;
+
+      grid-template-columns:
+        repeat(5, 1fr);
+
+      gap: 18px;
+    }
+
+    .card {
+      min-height: 258px;
+
+      display: flex;
+      flex-direction: column;
+
+      padding: 22px 19px 20px;
+
+      background: #ffffff;
+
+      border:
+        1px solid #dce3ec;
+
+      border-radius: 8px;
+
+      box-shadow:
+        0 5px 14px rgba(14, 35, 62, 0.05);
+
+      transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease,
+        border-color 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+
+      border-color: #aec9ef;
+
+      box-shadow:
+        0 10px 24px rgba(14, 35, 62, 0.10);
+    }
+
+    .card-number {
+      width: 38px;
+      height: 38px;
+
+      display: grid;
+      place-items: center;
+
+      margin-bottom: 16px;
+
+      border-radius: 5px;
+
+      background: #2864d7;
+      color: #ffffff;
+
+      font-size: 0.82rem;
+      font-weight: 700;
+    }
+
+    .card h3 {
+      color: #102342;
+
+      font-size: 0.98rem;
+      line-height: 1.35;
+
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      color: #58677a;
+
+      font-size: 0.82rem;
+      line-height: 1.55;
+
+      margin-bottom: 16px;
+    }
+
+    .card-link {
+      margin-top: auto;
+
+      color: #205ecf;
+
+      font-size: 0.82rem;
+      font-weight: 700;
+    }
+
+
+    /* =========================================================
+       BLOCCO CONCLUSIVO
+    ========================================================= */
+
+    .closing {
+      background: #f7f9fc;
+      padding: 0 0 64px;
+    }
+
+    .closing-box {
+      display: flex;
+
+      align-items: center;
+      justify-content: space-between;
+
+      gap: 34px;
+
+      padding: 28px 34px;
+
+      border:
+        1px solid #d8e6f7;
+
+      border-radius: 8px;
+
+      background:
+        linear-gradient(
+          100deg,
+          #eaf3ff,
+          #f5f8fc
+        );
+    }
+
+    .closing-content {
+      display: flex;
+      align-items: center;
+
+      gap: 20px;
+    }
+
+    .closing-icon {
+      color: #2864d7;
+
+      font-size: 2rem;
+
+      flex-shrink: 0;
+    }
+
+    .closing h2 {
+      color: #102342;
+
+      font-size: 1.08rem;
+
+      margin-bottom: 4px;
+    }
+
+    .closing p {
+      color: #536276;
+
+      font-size: 0.87rem;
+
+      max-width: 720px;
+    }
+
+    .button {
+      flex-shrink: 0;
+
+      display: inline-block;
+
+      padding: 12px 21px;
+
+      border-radius: 5px;
+
+      background: #2864d7;
+      color: #ffffff;
+
+      font-size: 0.87rem;
+      font-weight: 700;
+
+      transition:
+        background 0.2s ease,
+        transform 0.2s ease;
+    }
+
+    .button:hover {
+      background: #174fb9;
+      transform: translateY(-2px);
+    }
+
+
+    /* =========================================================
+       FOOTER / BANNER INFERIORE
+    ========================================================= */
+
+    .site-footer {
+      position: relative;
+
+      width: 100%;
+
+      /*
+        Riduzione della sola altezza visibile
+        del banner inferiore.
+        banner 2.png rimane invariato.
+      */
+      height: clamp(300px, 19.8vw, 405px);
+
+      overflow: hidden;
+
+      background: #041529;
+    }
+
+    .bottom-banner-image {
+      width: 100%;
+      height: 100%;
+
+      object-fit: cover;
+      object-position: top center;
+
+      display: block;
+    }
+
+
+    /*
+      Il lato sinistro rimane riservato
+      alla grafica originale del banner.
+      Le voci HTML occupano la zona libera a destra.
+    */
+
+    .footer-navigation {
+      position: absolute;
+
+      top: 47%;
+      right: 3%;
+
+      transform: translateY(-50%);
+
+      width: 53%;
+
+      display: grid;
+
+      grid-template-columns:
+        repeat(4, 1fr);
+
+      gap: 18px;
+
+      color: #ffffff;
+    }
+
+    .footer-column h3 {
+      margin-bottom: 10px;
+
+      color: #ffffff;
+
+      font-size: 0.82rem;
+    }
+
+    .footer-column ul {
+      list-style: none;
+    }
+
+    .footer-column li {
+      margin-bottom: 6px;
+    }
+
+    .footer-column a {
+      color: #bcc8d5;
+
+      font-size: 0.76rem;
+
+      transition: color 0.2s ease;
+    }
+
+    .footer-column a:hover {
+      color: #5eb5ff;
+    }
+
+    .footer-facebook {
+      width: 38px;
+      height: 38px;
+
+      display: grid;
+      place-items: center;
+
+      border-radius: 50%;
+
+      background: #1877f2;
+      color: #ffffff;
+
+      font-size: 1.25rem;
+      font-weight: 700;
+
+      font-family: Arial, sans-serif;
+    }
+
+
+    /* =========================================================
+       RESPONSIVE
+    ========================================================= */
+
+    @media (max-width: 1100px) {
+
+      .cards {
+        grid-template-columns:
+          repeat(2, 1fr);
+      }
+
+      .main-navigation ul {
+        justify-content: flex-start;
+        overflow-x: auto;
+      }
+
+      .main-navigation a {
+        padding-left: 9px;
+        padding-right: 9px;
+
+        font-size: 0.64rem;
+      }
+
+      .footer-navigation {
+        width: 55%;
+        right: 2%;
+
+        gap: 12px;
+      }
+
+      .footer-column h3 {
+        font-size: 0.75rem;
+      }
+
+      .footer-column a {
+        font-size: 0.69rem;
+      }
+
+    }
+
+
+    @media (max-width: 850px) {
+
+      .top-banner {
+        height: clamp(210px, 29vw, 250px);
+      }
+
+      .banner-section-title {
+        left: 54%;
+        max-width: 43%;
+      }
+
+      .intro-grid {
+        grid-template-columns: 1fr;
+        gap: 32px;
+      }
+
+      .principles-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+      }
+
+      .closing-box {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .site-footer {
+        height: auto;
+      }
+
+      .bottom-banner-image {
+        width: 100%;
+        height: auto;
+        object-fit: initial;
+      }
+
+      .footer-navigation {
+        position: static;
+
+        width: 100%;
+
+        transform: none;
+
+        grid-template-columns:
+          repeat(2, 1fr);
+
+        padding: 30px 5%;
+
+        background: #041529;
+      }
+
+    }
+
+
+    @media (max-width: 600px) {
+
+      .top-banner {
+        height: auto;
+      }
+
+      .top-banner-image {
+        width: 100%;
+        height: auto;
+        object-fit: initial;
+      }
+
+      .banner-section-title {
+        position: static;
+
+        transform: none;
+
+        max-width: none;
+
+        padding: 18px 5%;
+
+        background: #07182d;
+      }
+
+      .banner-section-title h1 {
+        font-size: 1.35rem;
+      }
+
+      .main-navigation ul {
+        justify-content: flex-start;
+
+        flex-wrap: nowrap;
+
+        overflow-x: auto;
+
+        padding: 0 4%;
+      }
+
+      .main-navigation li {
+        flex-shrink: 0;
+      }
+
+      .main-navigation a {
+        white-space: nowrap;
+      }
+
+      .intro {
+        padding-top: 38px;
+      }
+
+      .intro-image {
+        min-height: 220px;
+      }
+
+      .programme {
+        padding-top: 42px;
+      }
+
+      .programme-heading {
+        align-items: flex-start;
+      }
+
+      .programme-heading-line {
+        display: none;
+      }
+
+      .cards {
+        grid-template-columns: 1fr;
+      }
+
+      .card {
+        min-height: auto;
+      }
+
+      .closing-content {
+        align-items: flex-start;
+      }
+
+      .footer-navigation {
+        grid-template-columns: 1fr;
+      }
+
+    }
+
+
+    /* Fotografia e didascalia nel riquadro introduttivo. */
+    .intro-image {
+      background: url("scuola-astronomia-lezione.png") center / cover no-repeat;
+    }
+    .intro-image::before {
+      opacity: 1;
+      background: linear-gradient(rgba(6, 16, 28, 0.76), rgba(6, 16, 28, 0.86));
+      pointer-events: none;
+      transition: opacity 0.25s ease;
+    }
+    .intro-image-caption {
+      transition: opacity 0.25s ease;
+    }
+    @media (hover: hover) and (pointer: fine) {
+      .intro-image::before,
+      .intro-image-caption { opacity: 0; }
+      .intro-image:hover::before,
+      .intro-image:hover .intro-image-caption { opacity: 1; }
+    }
+
+
+    /* Banner inferiore comune: titoli leggibili, con margine superiore regolare. */
+    .site-footer{position:relative;width:100%;height:clamp(350px,22vw,510px);min-height:350px;overflow:hidden;background:#041529}
+    .site-footer .bottom-banner-image{display:block;width:100%;height:100%;object-fit:contain;object-position:left center}
+    .site-footer .footer-navigation{position:absolute;top:36px;right:3%;transform:none;width:53%;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;padding:0;background:transparent;color:#fff;align-items:start}
+    .site-footer .footer-column{min-width:0}
+    .site-footer .footer-column h3{margin:0 0 14px;color:#fff;font-size:.82rem;font-weight:700;line-height:1.4}
+    .site-footer .footer-column ul{list-style:none;margin:0;padding:0}
+    .site-footer .footer-column li{margin:0 0 7px;font-size:.76rem;line-height:1.5}
+    .site-footer .footer-column a{color:#bcc8d5;font-size:.76rem;line-height:1.5;text-decoration:none;transition:color .2s ease}
+    .site-footer .footer-column a:hover{color:#5eb5ff}
+    .site-footer .footer-column .footer-facebook{position:static;transform:none;margin:0;width:38px;height:38px;display:grid;place-items:center;border-radius:50%;background:#1877f2;color:#fff;font-size:1.25rem;font-weight:700;font-family:Arial,sans-serif}
+    @media(max-width:1100px) and (min-width:901px){.site-footer .footer-navigation{top:32px;right:2%;width:55%;gap:12px}.site-footer .footer-column h3{font-size:.75rem}.site-footer .footer-column a{font-size:.69rem}}
+    @media(max-width:900px){.site-footer{height:auto;min-height:0;overflow:visible}.site-footer .bottom-banner-image{width:100%;height:auto;object-fit:initial}.site-footer .footer-navigation{position:static;top:auto;right:auto;transform:none;width:100%;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 22px;padding:32px 5%;background:#041529}.site-footer .footer-column h3{font-size:.85rem}.site-footer .footer-column a{font-size:.8rem}}
+    @media(max-width:520px){.site-footer .footer-navigation{grid-template-columns:1fr;gap:26px;padding:30px 7%}}
+
+
+/* Icone tematiche e collegamenti fra Scuola e indice delle lezioni. */
+.area-icon{width:54px;height:54px;flex-shrink:0;display:grid;place-items:center;background:var(--area-bg);color:var(--area-ink);border-radius:15px;margin-bottom:18px}.area-icon svg{width:36px;height:36px}.learning-area .area-icon{width:48px;height:48px;margin:0;border-radius:13px}.learning-area .area-icon svg{width:32px;height:32px}.learning-area{scroll-margin-top:24px}.programme .card{scroll-margin-top:28px}.learning-area-back{display:inline-block;margin-top:18px;font-size:.8rem;color:#58718f!important;text-decoration:underline;text-underline-offset:3px}
+
+/* Miniature fotografiche e sfondo astronomico dissolto. */
+.area-icon.area-photo{width:72px;height:64px;padding:0;border-radius:9px;background:#0a1726;overflow:hidden;border:1px solid #dce3ec}.area-photo img{display:block;width:100%;height:100%;object-fit:cover}.area-photo-contained img{object-fit:contain;padding:5px}.learning-area .area-icon.area-photo{width:68px;height:60px;margin:0;border-radius:8px}.learning-photo-credits{margin:35px 0 0;color:#64768a;font-size:.72rem;line-height:1.65}.learning-photo-credits summary{cursor:pointer}.learning-photo-credits p{margin-top:12px}.learning-photo-credits a{color:#506b8a;text-decoration:underline}.learning-intro.cosmic-intro{position:relative;isolation:isolate;max-width:none;padding:25px 0 30px;margin-bottom:4px}.cosmic-intro:before{content:"";position:absolute;inset:-35px 0 -35px;z-index:-1;background:url('assets/lezioni/andromeda.jpg') center 48%/cover no-repeat;opacity:.12;filter:saturate(.5) brightness(1.25);mask-image:radial-gradient(ellipse 75% 75% at 68% 50%,#000 0%,rgba(0,0,0,.9) 25%,rgba(0,0,0,.5) 48%,transparent 75%);-webkit-mask-image:radial-gradient(ellipse 75% 75% at 68% 50%,#000 0%,rgba(0,0,0,.9) 25%,rgba(0,0,0,.5) 48%,transparent 75%)}.cosmic-intro h2,.cosmic-intro>p{max-width:800px}.cosmic-intro:after{content:"";position:absolute;inset:-35px 0 -35px;z-index:-1;pointer-events:none;background:linear-gradient(90deg,rgba(247,249,252,.62),rgba(247,249,252,.12) 65%,transparent)}@media(max-width:760px){.learning-area .area-icon.area-photo{width:58px;height:54px}.cosmic-intro:before{opacity:.09;background-position:65% center}.learning-intro.cosmic-intro{padding:16px 0 24px}}
+
+.learning-photo-credits{width:min(1180px,92%);margin:35px auto}.learning-wrap>.learning-photo-credits{width:100%}
+
+/* Dissolvenza completa ai quattro bordi dello sfondo. */
+.cosmic-intro:after{background:linear-gradient(90deg,#f7f9fc,rgba(247,249,252,0) 22%,rgba(247,249,252,0) 78%,#f7f9fc),linear-gradient(180deg,#f7f9fc,rgba(247,249,252,0) 30%,rgba(247,249,252,0) 65%,#f7f9fc)}
+
+
+
+
+
+
+
+.lesson-preview{background:#eaf1fa;border-bottom:1px solid #d4e0ee;padding:9px 4%;font-size:.76rem;color:#47617e;text-align:center}
+.learning-wrap{width:min(1180px,92%);margin:auto;padding:30px 0 72px}.learning-crumbs{display:flex;flex-wrap:wrap;gap:8px;color:#58718f;font-size:.8rem;margin-bottom:34px}.learning-crumbs a{text-decoration:underline;text-underline-offset:3px}
+.learning-eyebrow{color:#2864d7;font-weight:700;font-size:.75rem;letter-spacing:.11em;text-transform:uppercase;margin-bottom:10px}.learning-intro{max-width:800px;margin-bottom:34px}.learning-intro h2{font-size:clamp(1.7rem,3vw,2.45rem);line-height:1.18;margin-bottom:18px}.learning-intro p{color:#526174;font-size:1.04rem;line-height:1.8}
+.learning-start{border-left:3px solid #2864d7;padding:18px 23px;background:#edf3fb;border-radius:0 8px 8px 0;display:flex;gap:24px;justify-content:space-between;align-items:center;margin:30px 0 38px}.learning-start p{color:#526174;font-size:.9rem}.learning-button{background:#2864d7;color:white;padding:11px 19px;border-radius:5px;font-size:.87rem;white-space:nowrap;display:inline-block;font-weight:700}.learning-button:hover{background:#174cab}.learning-button:focus-visible,.learning-area summary:focus-visible{outline:3px solid #f4c84e;outline-offset:4px}
+.learning-areas{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.learning-area{background:#fff;border:1px solid #dce3ec;border-radius:10px;overflow:hidden;align-self:start}.learning-area summary{display:flex;gap:18px;align-items:center;padding:23px;cursor:pointer;list-style:none}.learning-area summary::-webkit-details-marker{display:none}.learning-number{width:42px;height:42px;flex-shrink:0;display:grid;place-items:center;background:#edf3fb;color:#2864d7;font-size:.82rem;font-weight:700;border-radius:50%}.learning-area h3{font-size:1.05rem;line-height:1.35}.learning-area small{color:#75869a;font-size:.77rem}.learning-chevron{margin-left:auto;color:#2864d7;font-size:1.3rem}.learning-area[open] .learning-chevron{transform:rotate(90deg)}.learning-area-content{border-top:1px solid #e7edf5;padding:20px 25px}.learning-area-content ol{padding-left:20px;color:#526174;font-size:.9rem}.learning-area-content li+li{margin-top:9px}.learning-area-content a{color:#2864d7;text-decoration:underline}.learning-area-content .learning-button{color:white;text-decoration:none;margin-bottom:18px}
+.learning-columns{display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:45px;align-items:start}.learning-list{list-style:none;counter-reset:lessons}.learning-list li{background:white;border:1px solid #dce3ec;border-radius:9px;padding:25px;margin-bottom:16px;display:flex;gap:19px}.learning-list h3{font-size:1.14rem;margin-bottom:7px}.learning-list p{color:#526174;font-size:.9rem;line-height:1.7}.learning-list a{display:inline-block;color:#2864d7;font-size:.86rem;font-weight:700;margin-top:12px}.learning-sidebar{border-top:3px solid #2864d7;background:#edf3fb;border-radius:0 0 8px 8px;padding:25px}.learning-sidebar h3{font-size:1rem;margin-bottom:12px}.learning-sidebar p,.learning-sidebar li{font-size:.86rem;color:#526174;line-height:1.7}.learning-sidebar ul{padding-left:18px}.learning-sidebar a{color:#2864d7;text-decoration:underline}.learning-sidebar ol{list-style:none;counter-reset:item}.learning-sidebar ol li{padding:10px 0;border-bottom:1px solid #d8e4f1}.learning-sidebar ol li:last-child{border:0}.learning-sidebar .current{font-weight:700;color:#17365f}
+.learning-article{font-size:1.02rem;line-height:1.9;color:#526174;max-width:780px}.learning-article h3{color:#17365f;font-size:1.42rem;line-height:1.3;margin:32px 0 13px}.learning-article p{margin-bottom:18px}.learning-objective{padding:18px 23px;background:#edf3fb;border-radius:7px;color:#17365f;font-size:.93rem;margin-bottom:30px}.learning-figure{background:#0d2742;padding:24px;border-radius:10px;margin:25px 0}.learning-figure svg{display:block;width:100%;max-height:300px}.learning-figure figcaption{color:#b8cee4;font-size:.77rem;line-height:1.7;margin-top:12px}.learning-practice{margin-top:30px;background:#edf5f1;border-left:3px solid #5d917c;padding:22px}.learning-practice strong{color:#264d40}.learning-sources{border-top:1px solid #dce3ec;margin-top:32px;padding-top:20px;font-size:.8rem}.learning-sources a{color:#2864d7;text-decoration:underline}.learning-navigation{border-top:1px solid #dce3ec;margin-top:40px;padding-top:24px;display:grid;grid-template-columns:1fr 1fr;gap:18px}.learning-navigation a{border:1px solid #dce3ec;border-radius:8px;background:white;padding:20px;font-size:.85rem;color:#2864d7}.learning-navigation a:last-child{text-align:right}.learning-navigation strong{color:#17365f;display:block;margin-top:5px;font-size:.97rem}
+@media(max-width:760px){.learning-areas,.learning-columns{grid-template-columns:1fr}.learning-columns{gap:28px}.learning-start{align-items:flex-start;flex-direction:column;gap:15px}.learning-wrap{padding-top:22px}.learning-crumbs{margin-bottom:26px}.learning-area summary{padding:20px 17px;gap:13px}.learning-list li{padding:20px 16px;gap:13px}.learning-sidebar{position:static}.learning-navigation a{padding:14px}.learning-navigation strong{font-size:.86rem}.learning-figure{padding:14px}.learning-preview{font-size:.7rem}.banner-section-title h1{font-size:clamp(1.1rem,4vw,1.8rem)}}
+
+
+/* Visibilita calibrata dello sfondo astronomico. */
+.cosmic-intro:before{background-image:url('assets/lezioni/carina.jpg');background-position:center 42%;opacity:.52;filter:saturate(.75) brightness(1.2);mask-image:radial-gradient(ellipse 85% 85% at 65% 50%,#000 0%,#000 40%,rgba(0,0,0,.7) 60%,transparent 88%);-webkit-mask-image:radial-gradient(ellipse 85% 85% at 65% 50%,#000 0%,#000 40%,rgba(0,0,0,.7) 60%,transparent 88%)}.cosmic-intro:after{background:linear-gradient(90deg,#f7f9fc,rgba(247,249,252,.8) 10%,rgba(247,249,252,.35) 40%,rgba(247,249,252,0) 75%,#f7f9fc),linear-gradient(180deg,#f7f9fc,rgba(247,249,252,0) 28%,rgba(247,249,252,0) 70%,#f7f9fc)}@media(max-width:760px){.cosmic-intro:before{opacity:.38}}
+/* Fine visibilita sfondo. */
+
+/* Didattica: livello secondario, testo giustificato e apparato visuale. */
+.learning-article p,.learning-intro>p:not(.learning-eyebrow),.learning-list p{text-align:justify;hyphens:auto;overflow-wrap:break-word}.learning-article .lesson-reference,.learning-article figcaption,.learning-article .learning-sources p{text-align:left;hyphens:none}.learning-article{line-height:1.85}.lesson-section{scroll-margin-top:24px}.lesson-reference{font-size:.73rem;color:#64768a;margin:14px 0 27px!important}.lesson-reference a,.lesson-photo a{color:#46678e;text-decoration:underline}.lesson-photo,.lesson-diagram{margin:26px 0;border:1px solid #dce3ec;border-radius:10px;overflow:hidden;background:white}.lesson-photo img{width:100%;max-height:440px;object-fit:contain;background:#061320}.lesson-diagram img{width:100%;height:auto}.lesson-photo figcaption,.lesson-diagram figcaption{padding:15px 18px;color:#526174;font-size:.8rem;line-height:1.7;text-align:left}.lesson-interactive{padding:20px;background:#edf3f9}.lesson-interactive svg{width:100%;display:block}.lesson-interactive label{display:block;color:#17365f;font-weight:700;font-size:.85rem;margin:12px 0}.lesson-interactive input{width:100%;accent-color:#2864d7}.lesson-interactive figcaption{padding:16px 0 0}.lesson-questions{padding-left:24px;font-size:.94rem}.lesson-questions li+li{margin-top:12px}.lesson-solutions{border:1px solid #dce3ec;padding:16px 20px;border-radius:7px;margin-top:22px;font-size:.9rem}.lesson-solutions summary{cursor:pointer;color:#17365f;font-weight:700}.lesson-solutions p{margin-top:14px}.learning-sidebar .lesson-page-links{list-style:none;padding:0;margin-top:15px}.lesson-page-links li{margin-bottom:10px}.lesson-page-links a{display:block}.learning-sidebar .current a{font-weight:700;color:#17365f}.lesson-miniature{width:82px;height:72px;flex-shrink:0;border-radius:9px;border:1px solid #dce3ec;object-fit:cover;background:#0a1726}.learning-list h3 a{font-size:inherit;color:#17365f;margin:0}.learning-sidebar h4{font-size:.84rem;color:#17365f;margin:24px 0 10px}.learning-sidebar .section-list{padding:0;list-style:none}.section-list li{font-size:.79rem;line-height:1.55}.learning-sidebar .section-list a{text-decoration:none}.lesson-page-note{font-size:.8rem;color:#6b7d91;margin-top:12px}.learning-list li>div{min-width:0}.learning-sources ul{padding-left:18px}@media(max-width:760px){.lesson-miniature{width:65px;height:60px}.learning-list li{gap:14px}.learning-article{font-size:.98rem}.learning-article p{text-align:justify;hyphens:auto}.lesson-interactive{padding:12px}.lesson-photo figcaption,.lesson-diagram figcaption{padding:13px}.learning-columns{grid-template-columns:1fr}}
+
+/* Didattica: livello secondario, testo giustificato e apparato visuale. */
+.learning-article p,.learning-intro>p:not(.learning-eyebrow),.learning-list p{text-align:justify;hyphens:auto;overflow-wrap:break-word}.learning-article .lesson-reference,.learning-article figcaption,.learning-article .learning-sources p{text-align:left;hyphens:none}.learning-article{line-height:1.85}.lesson-section{scroll-margin-top:24px}.lesson-reference{font-size:.73rem;color:#64768a;margin:14px 0 27px!important}.lesson-reference a,.lesson-photo a{color:#46678e;text-decoration:underline}.lesson-photo,.lesson-diagram{margin:26px 0;border:1px solid #dce3ec;border-radius:10px;overflow:hidden;background:white}.lesson-photo img{width:100%;max-height:440px;object-fit:contain;background:#061320}.lesson-diagram img{width:100%;height:auto}.lesson-photo figcaption,.lesson-diagram figcaption{padding:15px 18px;color:#526174;font-size:.8rem;line-height:1.7;text-align:left}.lesson-interactive{padding:20px;background:#edf3f9}.lesson-interactive svg{width:100%;display:block}.lesson-interactive label{display:block;color:#17365f;font-weight:700;font-size:.85rem;margin:12px 0}.lesson-interactive input{width:100%;accent-color:#2864d7}.lesson-interactive figcaption{padding:16px 0 0}.lesson-questions{padding-left:24px;font-size:.94rem}.lesson-questions li+li{margin-top:12px}.lesson-solutions{border:1px solid #dce3ec;padding:16px 20px;border-radius:7px;margin-top:22px;font-size:.9rem}.lesson-solutions summary{cursor:pointer;color:#17365f;font-weight:700}.lesson-solutions p{margin-top:14px}.learning-sidebar .lesson-page-links{list-style:none;padding:0;margin-top:15px}.lesson-page-links li{margin-bottom:10px}.lesson-page-links a{display:block}.learning-sidebar .current a{font-weight:700;color:#17365f}.lesson-miniature{width:82px;height:72px;flex-shrink:0;border-radius:9px;border:1px solid #dce3ec;object-fit:cover;background:#0a1726}.learning-list h3 a{font-size:inherit;color:#17365f;margin:0}.learning-sidebar h4{font-size:.84rem;color:#17365f;margin:24px 0 10px}.learning-sidebar .section-list{padding:0;list-style:none}.section-list li{font-size:.79rem;line-height:1.55}.learning-sidebar .section-list a{text-decoration:none}.lesson-page-note{font-size:.8rem;color:#6b7d91;margin-top:12px}.learning-list li>div{min-width:0}.learning-sources ul{padding-left:18px}@media(max-width:760px){.lesson-miniature{width:65px;height:60px}.learning-list li{gap:14px}.learning-article{font-size:.98rem}.learning-article p{text-align:justify;hyphens:auto}.lesson-interactive{padding:12px}.lesson-photo figcaption,.lesson-diagram figcaption{padding:13px}.learning-columns{grid-template-columns:1fr}}
+
+/* Didattica: livello secondario, testo giustificato e apparato visuale. */
+.learning-article p,.learning-intro>p:not(.learning-eyebrow),.learning-list p{text-align:justify;hyphens:auto;overflow-wrap:break-word}.learning-article .lesson-reference,.learning-article figcaption,.learning-article .learning-sources p{text-align:left;hyphens:none}.learning-article{line-height:1.85}.lesson-section{scroll-margin-top:24px}.lesson-reference{font-size:.73rem;color:#64768a;margin:14px 0 27px!important}.lesson-reference a,.lesson-photo a{color:#46678e;text-decoration:underline}.lesson-photo,.lesson-diagram{margin:26px 0;border:1px solid #dce3ec;border-radius:10px;overflow:hidden;background:white}.lesson-photo img{width:100%;max-height:440px;object-fit:contain;background:#061320}.lesson-diagram img{width:100%;height:auto}.lesson-photo figcaption,.lesson-diagram figcaption{padding:15px 18px;color:#526174;font-size:.8rem;line-height:1.7;text-align:left}.lesson-interactive{padding:20px;background:#edf3f9}.lesson-interactive svg{width:100%;display:block}.lesson-interactive label{display:block;color:#17365f;font-weight:700;font-size:.85rem;margin:12px 0}.lesson-interactive input{width:100%;accent-color:#2864d7}.lesson-interactive figcaption{padding:16px 0 0}.lesson-questions{padding-left:24px;font-size:.94rem}.lesson-questions li+li{margin-top:12px}.lesson-solutions{border:1px solid #dce3ec;padding:16px 20px;border-radius:7px;margin-top:22px;font-size:.9rem}.lesson-solutions summary{cursor:pointer;color:#17365f;font-weight:700}.lesson-solutions p{margin-top:14px}.learning-sidebar .lesson-page-links{list-style:none;padding:0;margin-top:15px}.lesson-page-links li{margin-bottom:10px}.lesson-page-links a{display:block}.learning-sidebar .current a{font-weight:700;color:#17365f}.lesson-miniature{width:82px;height:72px;flex-shrink:0;border-radius:9px;border:1px solid #dce3ec;object-fit:cover;background:#0a1726}.learning-list h3 a{font-size:inherit;color:#17365f;margin:0}.learning-sidebar h4{font-size:.84rem;color:#17365f;margin:24px 0 10px}.learning-sidebar .section-list{padding:0;list-style:none}.section-list li{font-size:.79rem;line-height:1.55}.learning-sidebar .section-list a{text-decoration:none}.lesson-page-note{font-size:.8rem;color:#6b7d91;margin-top:12px}.learning-list li>div{min-width:0}.learning-sources ul{padding-left:18px}@media(max-width:760px){.lesson-miniature{width:65px;height:60px}.learning-list li{gap:14px}.learning-article{font-size:.98rem}.learning-article p{text-align:justify;hyphens:auto}.lesson-interactive{padding:12px}.lesson-photo figcaption,.lesson-diagram figcaption{padding:13px}.learning-columns{grid-template-columns:1fr}}
+
+/* Didattica: livello secondario, testo giustificato e apparato visuale. */
+.learning-article p,.learning-intro>p:not(.learning-eyebrow),.learning-list p{text-align:justify;hyphens:auto;overflow-wrap:break-word}.learning-article .lesson-reference,.learning-article figcaption,.learning-article .learning-sources p{text-align:left;hyphens:none}.learning-article{line-height:1.85}.lesson-section{scroll-margin-top:24px}.lesson-reference{font-size:.73rem;color:#64768a;margin:14px 0 27px!important}.lesson-reference a,.lesson-photo a{color:#46678e;text-decoration:underline}.lesson-photo,.lesson-diagram{margin:26px 0;border:1px solid #dce3ec;border-radius:10px;overflow:hidden;background:white}.lesson-photo img{width:100%;max-height:440px;object-fit:contain;background:#061320}.lesson-diagram img{width:100%;height:auto}.lesson-photo figcaption,.lesson-diagram figcaption{padding:15px 18px;color:#526174;font-size:.8rem;line-height:1.7;text-align:left}.lesson-interactive{padding:20px;background:#edf3f9}.lesson-interactive svg{width:100%;display:block}.lesson-interactive label{display:block;color:#17365f;font-weight:700;font-size:.85rem;margin:12px 0}.lesson-interactive input{width:100%;accent-color:#2864d7}.lesson-interactive figcaption{padding:16px 0 0}.lesson-questions{padding-left:24px;font-size:.94rem}.lesson-questions li+li{margin-top:12px}.lesson-solutions{border:1px solid #dce3ec;padding:16px 20px;border-radius:7px;margin-top:22px;font-size:.9rem}.lesson-solutions summary{cursor:pointer;color:#17365f;font-weight:700}.lesson-solutions p{margin-top:14px}.learning-sidebar .lesson-page-links{list-style:none;padding:0;margin-top:15px}.lesson-page-links li{margin-bottom:10px}.lesson-page-links a{display:block}.learning-sidebar .current a{font-weight:700;color:#17365f}.lesson-miniature{width:82px;height:72px;flex-shrink:0;border-radius:9px;border:1px solid #dce3ec;object-fit:cover;background:#0a1726}.learning-list h3 a{font-size:inherit;color:#17365f;margin:0}.learning-sidebar h4{font-size:.84rem;color:#17365f;margin:24px 0 10px}.learning-sidebar .section-list{padding:0;list-style:none}.section-list li{font-size:.79rem;line-height:1.55}.learning-sidebar .section-list a{text-decoration:none}.lesson-page-note{font-size:.8rem;color:#6b7d91;margin-top:12px}.learning-list li>div{min-width:0}.learning-sources ul{padding-left:18px}@media(max-width:760px){.lesson-miniature{width:65px;height:60px}.learning-list li{gap:14px}.learning-article{font-size:.98rem}.learning-article p{text-align:justify;hyphens:auto}.lesson-interactive{padding:12px}.lesson-photo figcaption,.lesson-diagram figcaption{padding:13px}.learning-columns{grid-template-columns:1fr}}
+
+/* Didattica: livello secondario, testo giustificato e apparato visuale. */
+.learning-article p,.learning-intro>p:not(.learning-eyebrow),.learning-list p{text-align:justify;hyphens:auto;overflow-wrap:break-word}.learning-article .lesson-reference,.learning-article figcaption,.learning-article .learning-sources p{text-align:left;hyphens:none}.learning-article{line-height:1.85}.lesson-section{scroll-margin-top:24px}.lesson-reference{font-size:.73rem;color:#64768a;margin:14px 0 27px!important}.lesson-reference a,.lesson-photo a{color:#46678e;text-decoration:underline}.lesson-photo,.lesson-diagram{margin:26px 0;border:1px solid #dce3ec;border-radius:10px;overflow:hidden;background:white}.lesson-photo img{width:100%;max-height:440px;object-fit:contain;background:#061320}.lesson-diagram img{width:100%;height:auto}.lesson-photo figcaption,.lesson-diagram figcaption{padding:15px 18px;color:#526174;font-size:.8rem;line-height:1.7;text-align:left}.lesson-interactive{padding:20px;background:#edf3f9}.lesson-interactive svg{width:100%;display:block}.lesson-interactive label{display:block;color:#17365f;font-weight:700;font-size:.85rem;margin:12px 0}.lesson-interactive input{width:100%;accent-color:#2864d7}.lesson-interactive figcaption{padding:16px 0 0}.lesson-questions{padding-left:24px;font-size:.94rem}.lesson-questions li+li{margin-top:12px}.lesson-solutions{border:1px solid #dce3ec;padding:16px 20px;border-radius:7px;margin-top:22px;font-size:.9rem}.lesson-solutions summary{cursor:pointer;color:#17365f;font-weight:700}.lesson-solutions p{margin-top:14px}.learning-sidebar .lesson-page-links{list-style:none;padding:0;margin-top:15px}.lesson-page-links li{margin-bottom:10px}.lesson-page-links a{display:block}.learning-sidebar .current a{font-weight:700;color:#17365f}.lesson-miniature{width:82px;height:72px;flex-shrink:0;border-radius:9px;border:1px solid #dce3ec;object-fit:cover;background:#0a1726}.learning-list h3 a{font-size:inherit;color:#17365f;margin:0}.learning-sidebar h4{font-size:.84rem;color:#17365f;margin:24px 0 10px}.learning-sidebar .section-list{padding:0;list-style:none}.section-list li{font-size:.79rem;line-height:1.55}.learning-sidebar .section-list a{text-decoration:none}.lesson-page-note{font-size:.8rem;color:#6b7d91;margin-top:12px}.learning-list li>div{min-width:0}.learning-sources ul{padding-left:18px}@media(max-width:760px){.lesson-miniature{width:65px;height:60px}.learning-list li{gap:14px}.learning-article{font-size:.98rem}.learning-article p{text-align:justify;hyphens:auto}.lesson-interactive{padding:12px}.lesson-photo figcaption,.lesson-diagram figcaption{padding:13px}.learning-columns{grid-template-columns:1fr}}
+
+/* Didattica: livello secondario, testo giustificato e apparato visuale. */
+.learning-article p,.learning-intro>p:not(.learning-eyebrow),.learning-list p{text-align:justify;hyphens:auto;overflow-wrap:break-word}.learning-article .lesson-reference,.learning-article figcaption,.learning-article .learning-sources p{text-align:left;hyphens:none}.learning-article{line-height:1.85}.lesson-section{scroll-margin-top:24px}.lesson-reference{font-size:.73rem;color:#64768a;margin:14px 0 27px!important}.lesson-reference a,.lesson-photo a{color:#46678e;text-decoration:underline}.lesson-photo,.lesson-diagram{margin:26px 0;border:1px solid #dce3ec;border-radius:10px;overflow:hidden;background:white}.lesson-photo img{width:100%;max-height:440px;object-fit:contain;background:#061320}.lesson-diagram img{width:100%;height:auto}.lesson-photo figcaption,.lesson-diagram figcaption{padding:15px 18px;color:#526174;font-size:.8rem;line-height:1.7;text-align:left}.lesson-interactive{padding:20px;background:#edf3f9}.lesson-interactive svg{width:100%;display:block}.lesson-interactive label{display:block;color:#17365f;font-weight:700;font-size:.85rem;margin:12px 0}.lesson-interactive input{width:100%;accent-color:#2864d7}.lesson-interactive figcaption{padding:16px 0 0}.lesson-questions{padding-left:24px;font-size:.94rem}.lesson-questions li+li{margin-top:12px}.lesson-solutions{border:1px solid #dce3ec;padding:16px 20px;border-radius:7px;margin-top:22px;font-size:.9rem}.lesson-solutions summary{cursor:pointer;color:#17365f;font-weight:700}.lesson-solutions p{margin-top:14px}.learning-sidebar .lesson-page-links{list-style:none;padding:0;margin-top:15px}.lesson-page-links li{margin-bottom:10px}.lesson-page-links a{display:block}.learning-sidebar .current a{font-weight:700;color:#17365f}.lesson-miniature{width:82px;height:72px;flex-shrink:0;border-radius:9px;border:1px solid #dce3ec;object-fit:cover;background:#0a1726}.learning-list h3 a{font-size:inherit;color:#17365f;margin:0}.learning-sidebar h4{font-size:.84rem;color:#17365f;margin:24px 0 10px}.learning-sidebar .section-list{padding:0;list-style:none}.section-list li{font-size:.79rem;line-height:1.55}.learning-sidebar .section-list a{text-decoration:none}.lesson-page-note{font-size:.8rem;color:#6b7d91;margin-top:12px}.learning-list li>div{min-width:0}.learning-sources ul{padding-left:18px}@media(max-width:760px){.lesson-miniature{width:65px;height:60px}.learning-list li{gap:14px}.learning-article{font-size:.98rem}.learning-article p{text-align:justify;hyphens:auto}.lesson-interactive{padding:12px}.lesson-photo figcaption,.lesson-diagram figcaption{padding:13px}.learning-columns{grid-template-columns:1fr}}
+
+/* Didattica: livello secondario, testo giustificato e apparato visuale. */
+.learning-article p,.learning-intro>p:not(.learning-eyebrow),.learning-list p{text-align:justify;hyphens:auto;overflow-wrap:break-word}.learning-article .lesson-reference,.learning-article figcaption,.learning-article .learning-sources p{text-align:left;hyphens:none}.learning-article{line-height:1.85}.lesson-section{scroll-margin-top:24px}.lesson-reference{font-size:.73rem;color:#64768a;margin:14px 0 27px!important}.lesson-reference a,.lesson-photo a{color:#46678e;text-decoration:underline}.lesson-photo,.lesson-diagram{margin:26px 0;border:1px solid #dce3ec;border-radius:10px;overflow:hidden;background:white}.lesson-photo img{width:100%;max-height:440px;object-fit:contain;background:#061320}.lesson-diagram img{width:100%;height:auto}.lesson-photo figcaption,.lesson-diagram figcaption{padding:15px 18px;color:#526174;font-size:.8rem;line-height:1.7;text-align:left}.lesson-interactive{padding:20px;background:#edf3f9}.lesson-interactive svg{width:100%;display:block}.lesson-interactive label{display:block;color:#17365f;font-weight:700;font-size:.85rem;margin:12px 0}.lesson-interactive input{width:100%;accent-color:#2864d7}.lesson-interactive figcaption{padding:16px 0 0}.lesson-questions{padding-left:24px;font-size:.94rem}.lesson-questions li+li{margin-top:12px}.lesson-solutions{border:1px solid #dce3ec;padding:16px 20px;border-radius:7px;margin-top:22px;font-size:.9rem}.lesson-solutions summary{cursor:pointer;color:#17365f;font-weight:700}.lesson-solutions p{margin-top:14px}.learning-sidebar .lesson-page-links{list-style:none;padding:0;margin-top:15px}.lesson-page-links li{margin-bottom:10px}.lesson-page-links a{display:block}.learning-sidebar .current a{font-weight:700;color:#17365f}.lesson-miniature{width:82px;height:72px;flex-shrink:0;border-radius:9px;border:1px solid #dce3ec;object-fit:cover;background:#0a1726}.learning-list h3 a{font-size:inherit;color:#17365f;margin:0}.learning-sidebar h4{font-size:.84rem;color:#17365f;margin:24px 0 10px}.learning-sidebar .section-list{padding:0;list-style:none}.section-list li{font-size:.79rem;line-height:1.55}.learning-sidebar .section-list a{text-decoration:none}.lesson-page-note{font-size:.8rem;color:#6b7d91;margin-top:12px}.learning-list li>div{min-width:0}.learning-sources ul{padding-left:18px}@media(max-width:760px){.lesson-miniature{width:65px;height:60px}.learning-list li{gap:14px}.learning-article{font-size:.98rem}.learning-article p{text-align:justify;hyphens:auto}.lesson-interactive{padding:12px}.lesson-photo figcaption,.lesson-diagram figcaption{padding:13px}.learning-columns{grid-template-columns:1fr}}
+
+/* Immagini didattiche di base, indipendenti dai laboratori */
+.lesson-basic,.lesson-chart{margin:26px 0;padding:16px;background:#f2f6fa;border:1px solid #dae4ef;border-radius:14px;min-width:0}.lesson-basic img,.chart-picture svg{display:block;width:100%;height:auto;max-height:850px;object-fit:contain}.lesson-basic figcaption{font-size:.92rem;line-height:1.65;text-align:left;margin-top:12px}.lesson-chart .lesson-basic{padding:0;margin:0;border:0}.chart-controls{display:flex;flex-wrap:wrap;gap:14px;align-items:center;margin-top:18px}.chart-controls label{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:.95rem;line-height:1.5}.chart-controls select,.chart-controls button{font:inherit;padding:8px 12px;border:1px solid #91a8c0;border-radius:7px;background:white;color:#15385a;max-width:100%}.chart-controls input[type=checkbox]{width:18px;height:18px}.chart-reading{font-size:.95rem;text-align:left!important;margin-top:16px!important}.chart-picture svg[hidden]{display:none}.lesson-chart button:focus-visible,.lesson-chart select:focus-visible{outline:3px solid #2864d7;outline-offset:3px}
+
+/* Didattica: livello secondario, testo giustificato e apparato visuale. */
+.learning-article p,.learning-intro>p:not(.learning-eyebrow),.learning-list p{text-align:justify;hyphens:auto;overflow-wrap:break-word}.learning-article .lesson-reference,.learning-article figcaption,.learning-article .learning-sources p{text-align:left;hyphens:none}.learning-article{line-height:1.85}.lesson-section{scroll-margin-top:24px}.lesson-reference{font-size:.73rem;color:#64768a;margin:14px 0 27px!important}.lesson-reference a,.lesson-photo a{color:#46678e;text-decoration:underline}.lesson-photo,.lesson-diagram{margin:26px 0;border:1px solid #dce3ec;border-radius:10px;overflow:hidden;background:white}.lesson-photo img{width:100%;max-height:440px;object-fit:contain;background:#061320}.lesson-diagram img{width:100%;height:auto}.lesson-photo figcaption,.lesson-diagram figcaption{padding:15px 18px;color:#526174;font-size:.8rem;line-height:1.7;text-align:left}.lesson-interactive{padding:20px;background:#edf3f9}.lesson-interactive svg{width:100%;display:block}.lesson-interactive label{display:block;color:#17365f;font-weight:700;font-size:.85rem;margin:12px 0}.lesson-interactive input{width:100%;accent-color:#2864d7}.lesson-interactive figcaption{padding:16px 0 0}.lesson-questions{padding-left:24px;font-size:.94rem}.lesson-questions li+li{margin-top:12px}.lesson-solutions{border:1px solid #dce3ec;padding:16px 20px;border-radius:7px;margin-top:22px;font-size:.9rem}.lesson-solutions summary{cursor:pointer;color:#17365f;font-weight:700}.lesson-solutions p{margin-top:14px}.learning-sidebar .lesson-page-links{list-style:none;padding:0;margin-top:15px}.lesson-page-links li{margin-bottom:10px}.lesson-page-links a{display:block}.learning-sidebar .current a{font-weight:700;color:#17365f}.lesson-miniature{width:82px;height:72px;flex-shrink:0;border-radius:9px;border:1px solid #dce3ec;object-fit:cover;background:#0a1726}.learning-list h3 a{font-size:inherit;color:#17365f;margin:0}.learning-sidebar h4{font-size:.84rem;color:#17365f;margin:24px 0 10px}.learning-sidebar .section-list{padding:0;list-style:none}.section-list li{font-size:.79rem;line-height:1.55}.learning-sidebar .section-list a{text-decoration:none}.lesson-page-note{font-size:.8rem;color:#6b7d91;margin-top:12px}.learning-list li>div{min-width:0}.learning-sources ul{padding-left:18px}@media(max-width:760px){.lesson-miniature{width:65px;height:60px}.learning-list li{gap:14px}.learning-article{font-size:.98rem}.learning-article p{text-align:justify;hyphens:auto}.lesson-interactive{padding:12px}.lesson-photo figcaption,.lesson-diagram figcaption{padding:13px}.learning-columns{grid-template-columns:1fr}}
+
+/* Didattica: livello secondario, testo giustificato e apparato visuale. */
+.learning-article p,.learning-intro>p:not(.learning-eyebrow),.learning-list p{text-align:justify;hyphens:auto;overflow-wrap:break-word}.learning-article .lesson-reference,.learning-article figcaption,.learning-article .learning-sources p{text-align:left;hyphens:none}.learning-article{line-height:1.85}.lesson-section{scroll-margin-top:24px}.lesson-reference{font-size:.73rem;color:#64768a;margin:14px 0 27px!important}.lesson-reference a,.lesson-photo a{color:#46678e;text-decoration:underline}.lesson-photo,.lesson-diagram{margin:26px 0;border:1px solid #dce3ec;border-radius:10px;overflow:hidden;background:white}.lesson-photo img{width:100%;max-height:440px;object-fit:contain;background:#061320}.lesson-diagram img{width:100%;height:auto}.lesson-photo figcaption,.lesson-diagram figcaption{padding:15px 18px;color:#526174;font-size:.8rem;line-height:1.7;text-align:left}.lesson-interactive{padding:20px;background:#edf3f9}.lesson-interactive svg{width:100%;display:block}.lesson-interactive label{display:block;color:#17365f;font-weight:700;font-size:.85rem;margin:12px 0}.lesson-interactive input{width:100%;accent-color:#2864d7}.lesson-interactive figcaption{padding:16px 0 0}.lesson-questions{padding-left:24px;font-size:.94rem}.lesson-questions li+li{margin-top:12px}.lesson-solutions{border:1px solid #dce3ec;padding:16px 20px;border-radius:7px;margin-top:22px;font-size:.9rem}.lesson-solutions summary{cursor:pointer;color:#17365f;font-weight:700}.lesson-solutions p{margin-top:14px}.learning-sidebar .lesson-page-links{list-style:none;padding:0;margin-top:15px}.lesson-page-links li{margin-bottom:10px}.lesson-page-links a{display:block}.learning-sidebar .current a{font-weight:700;color:#17365f}.lesson-miniature{width:82px;height:72px;flex-shrink:0;border-radius:9px;border:1px solid #dce3ec;object-fit:cover;background:#0a1726}.learning-list h3 a{font-size:inherit;color:#17365f;margin:0}.learning-sidebar h4{font-size:.84rem;color:#17365f;margin:24px 0 10px}.learning-sidebar .section-list{padding:0;list-style:none}.section-list li{font-size:.79rem;line-height:1.55}.learning-sidebar .section-list a{text-decoration:none}.lesson-page-note{font-size:.8rem;color:#6b7d91;margin-top:12px}.learning-list li>div{min-width:0}.learning-sources ul{padding-left:18px}@media(max-width:760px){.lesson-miniature{width:65px;height:60px}.learning-list li{gap:14px}.learning-article{font-size:.98rem}.learning-article p{text-align:justify;hyphens:auto}.lesson-interactive{padding:12px}.lesson-photo figcaption,.lesson-diagram figcaption{padding:13px}.learning-columns{grid-template-columns:1fr}}
+</style>
+
+<meta name="robots" content="noindex,nofollow"><link rel="stylesheet" href="assets/lezioni/interazioni-didattiche.css">
+<link rel="stylesheet" href="assets/lezioni/percorsi-pratici.css">
+<meta name="ad-astra-revision" content="scuola-20261013">
+<style>.course-lab{padding:24px;background:#edf4fa;border:1px solid #ccddeb;border-radius:12px}.course-lab label{display:block}.course-lab input{max-width:100%}.course-lab svg{display:block;width:100%;height:auto}.course-lab output{display:block;margin:15px 0;font-weight:bold}.course-lab button{padding:10px 15px;margin-top:10px}.lesson-basic img{display:block;width:100%;height:auto}.learning-article details{margin:20px 0;padding:16px;border:1px solid #d4e1ed;border-radius:10px}</style></head>
+
+
+<body>
+
+
+  <!-- =====================================================
+       BANNER SUPERIORE
+  ====================================================== -->
+
+  <header class="top-banner">
+
+    <img
+      class="top-banner-image"
+      src="banner.png"
+      alt="AD ASTRA"
+    >
+
+
+    <div class="banner-section-title"><h1>Il Sole, la nostra stella</h1><p>Scuola di Astronomia</p></div>
+
+  </header>
+
+
+
+  <!-- =====================================================
+       MENU PRINCIPALE
+  ====================================================== -->
+
+  <nav
+    class="main-navigation"
+    aria-label="Navigazione principale"
+  >
+
+    <ul>
+
+      <li>
+        <a href="index.html">
+          HOME
+        </a>
+      </li>
+
+      <li>
+        <a
+
+          href="scuola-astronomia.html"
+        >
+          SCUOLA DI ASTRONOMIA
+        </a>
+      </li>
+
+      <li>
+        <a href="guide.html">
+          GUIDE
+        </a>
+      </li>
+
+      <li>
+        <a href="strumentazione.html">
+          STRUMENTAZIONE
+        </a>
+      </li>
+
+      <li>
+        <a href="astrofotografia.html">
+          ASTROFOTOGRAFIA
+        </a>
+      </li>
+
+      <li>
+        <a href="poster.html">
+          POSTER
+        </a>
+      </li>
+
+      <li>
+        <a href="cielo-del-mese.html">
+          IL CIELO DEL MESE
+        </a>
+      </li>
+
+      <li>
+        <a href="effemeridi.html">
+          EFFEMERIDI
+        </a>
+      </li>
+
+      <li>
+        <a href="software.html">
+          SOFTWARE
+        </a>
+      </li>
+
+      <li>
+        <a href="biblioteca.html">
+          BIBLIOTECA
+        </a>
+      </li>
+
+      <li>
+        <a href="pubblicazioni-ad-astra.html">
+          PUBBLICAZIONI
+        </a>
+      </li>
+
+      <li>
+        <a href="notizie.html">
+          NOTIZIE
+        </a>
+      </li>
+
+      <li>
+        <a href="ventunesimo.html">
+          VENTUNESIMO
+        </a>
+      </li>
+
+    </ul>
+
+  </nav>
+
+
+
+  <main class="learning-wrap"><nav class="learning-crumbs"><a href="scuola-astronomia.html">Scuola</a> › <a href="lezioni.html">Lezioni</a> › <a href="area-02.html">Macroarea 02</a></nav><div class="learning-intro"><p class="learning-eyebrow">Lezione 2.3</p><h2>Il Sole, la nostra stella</h2><p>Dalle macchie sul disco al nucleo invisibile: osservare una stella vicina, distinguendo immagini, modelli e processi fisici.</p></div><div class="learning-columns"><article class="learning-article"><div class="learning-objective"><strong>Che cosa imparerai.</strong> Distinguere fusione e combustione, produzione e trasporto dell’energia, fotosfera e atmosfera; leggere una fotografia solare e calcolare il tempo di viaggio della luce.</div><section id="stella-vicina"><h3>Una stella che cambia il nostro modo di leggere il cielo</h3>
+<p>Di sera le stelle sembrano punti; di giorno una sola stella domina il paesaggio, scalda una parete e determina la direzione delle ombre. Il Sole appartiene alla stessa famiglia degli astri notturni. La differenza più evidente è la distanza: trovandosi molto più vicino di qualsiasi altra stella, ci permette di studiare un disco, strutture superficiali e variazioni che su molti altri astri dobbiamo dedurre indirettamente. Questa vicinanza è un privilegio scientifico, ma impone una regola pratica: il Sole non si esplora guardandolo attraverso un normale strumento astronomico.</p>
+<p>Una stella è un corpo autogravitante capace, durante una parte importante della propria evoluzione, di sostenere reazioni nucleari nel suo interno. Il Sole contiene soprattutto idrogeno ed elio. Nelle sue regioni calde molti atomi sono ionizzati: nuclei ed elettroni non rimangono tutti legati insieme, e la materia si comporta come un <strong>plasma</strong>. Non è una palla di fuoco alimentata dall’ossigeno. La parola «bruciare», se usata per l’idrogeno stellare, descrive informalmente una trasformazione nucleare, non una combustione chimica.</p>
+<p>La sua gravità domina i moti del Sistema solare. Un pianeta resta in orbita perché la gravità modifica continuamente la direzione della sua velocità: non è fermo a una distanza fissata da un sostegno. Allo stesso tempo, il Sole emette energia che attraversa lo spazio e interagisce con suoli, atmosfere e superfici. La distanza influisce sul flusso ricevuto; la risposta di un pianeta dipende anche dall’atmosfera, dalla riflettività e dalla redistribuzione del calore. Per questo una descrizione del Sole prepara sia lo studio delle stelle sia quello dei pianeti.</p>
+<details><summary>Perché «nana gialla» non significa una piccola lampadina gialla?</summary><p>È una classificazione tradizionale, non una descrizione fotografica rigorosa. Il Sole appartiene alla sequenza principale ed è di classe spettrale G2 V. Osservato dall’esterno dell’atmosfera, il suo insieme di radiazioni visibili appare sostanzialmente bianco. L’atmosfera terrestre e i filtri modificano il colore percepito. «Nana» distingue questa famiglia dalle giganti: non confronta la stella con la Terra.</p></details></section>
+<section id="superficie"><h3>La fotosfera: una superficie senza terreno</h3>
+<p>Quando parliamo di superficie solare non intendiamo una crosta su cui si potrebbe atterrare. La <strong>fotosfera</strong> è la regione dalla quale emerge gran parte della luce visibile che riceviamo. In profondità la materia è tanto opaca che la radiazione viene continuamente assorbita e riemessa; andando verso l’esterno diventa possibile vedere l’emissione che sfugge nello spazio. Il bordo del disco appare abbastanza definito proprio perché questa transizione si svolge in uno spessore relativamente piccolo rispetto al raggio della stella.</p>
+<p>La fotosfera non è liscia. La <strong>granulazione</strong> è il disegno di celle luminose e margini più scuri associato alla convezione: plasma più caldo arriva dall’interno, perde energia e materiale più freddo ridiscende. È un fenomeno dinamico. Una fotografia congela un istante; un filmato rende evidente che il disegno cambia. La risoluzione del telescopio e la turbolenza atmosferica decidono quanto di questa struttura sia distinguibile da terra.</p>
+<p>Le macchie solari appaiono scure rispetto al fondo fotosferico perché sono più fredde delle regioni circostanti. Non sono buchi e non sono fredde nel senso quotidiano. La loro struttura è legata a campi magnetici intensi che ostacolano parte del trasporto convettivo. Un nucleo più scuro, l’<strong>ombra</strong>, può essere circondato dalla <strong>penombra</strong>. La forma e il contrasto osservati dipendono anche dalla lunghezza d’onda e dalla posizione sul disco.</p>
+<figure class="lesson-photo"><img src="assets/lezioni/macchia-solare-sdo.jpg" alt="Disco solare con un gruppo di macchie ben visibile contro la fotosfera" loading="lazy"><figcaption>Il disco solare con un gruppo di macchie: le zone scure continuano a emettere luce. Questa immagine non risolve la granulazione, da studiare con riprese a maggiore risoluzione. Immagine d’archivio NASA Scientific Visualization Studio/SDO; non rappresenta il disco solare di oggi. <a href="https://science.nasa.gov/sun/facts/">Fonte e credito originali</a>. Colori e contrasto della visualizzazione non sono una misura autonoma della temperatura.</figcaption></figure>
+<p>Osservando una serie di riprese professionali, prima di confrontare due macchie verifica data, orientamento, strumento e banda. Due immagini in luce visibile e nell’ultravioletto non mostrano necessariamente la stessa regione dell’atmosfera con lo stesso contrasto. Un colore rosso assegnato a una banda invisibile è una scelta di rappresentazione: non dimostra che quel plasma sarebbe rosso ai nostri occhi.</p></section>
+<section id="interno"><h3>Dall’interno alla luce: produrre energia e trasportarla</h3>
+<p>Nel nucleo le condizioni consentono la fusione: attraverso una catena di reazioni, nuclei di idrogeno contribuiscono alla formazione di elio. Una parte della massa iniziale si ritrova come energia, secondo la relazione E = Δm c². La massa non scompare senza conseguenze: cambia il bilancio fra energia e massa dei prodotti. Le reazioni coinvolgono anche particelle che non possiamo rappresentare con una semplice fotografia del disco.</p>
+<p>Produrre energia e trasportarla sono due problemi diversi. La <strong>zona radiativa</strong> trasferisce energia mediante interazioni della radiazione con la materia; non immaginare un unico fotone che percorre indisturbato una linea dal centro alla Terra. Assorbimenti, emissioni e diffusione rendono il viaggio un processo complesso. Più all’esterno il trasporto convettivo diventa importante: il plasma si muove, portando energia. La luce che oggi esce dalla fotosfera non è una fotografia istantanea della reazione nucleare appena avvenuta nel nucleo.</p>
+<p>Le regioni del Sole sono distinte dal processo fisico prevalente, non da pareti. Un disegno a strati può aiutare a orientarsi, ma rischia di suggerire gusci rigidi. Nel modello seguente i confini sono schematici; gli strati atmosferici sono ingranditi per poter essere selezionati. Non usare gli spessori disegnati per ricavare dimensioni reali.</p>
+<div class="course-lab" data-solar-layers><h4>Esplora uno strato alla volta</h4><svg viewBox="0 0 760 440" role="img" aria-label="Sezione schematica dei principali strati solari"><rect width="760" height="440" rx="12" fill="#071829"/><g transform="translate(270 215)"><circle r="190" fill="#314e78"/><circle r="160" fill="#dc653f"/><circle r="146" fill="#ffca68"/><circle r="130" fill="#f29444"/><circle r="92" fill="#d96541"/><circle r="40" fill="#fff0b0"/><circle data-layer-ring r="40" fill="none" stroke="white" stroke-width="4" stroke-dasharray="10 5"/></g><g fill="white" font-family="Arial" font-size="20"><text x="485" y="110">Nucleo</text><text x="485" y="150">Zona radiativa</text><text x="485" y="190">Zona convettiva</text><text x="485" y="230">Fotosfera</text><text x="485" y="270">Cromosfera</text><text x="485" y="310">Corona</text><text x="25" y="425">Strati atmosferici ingranditi; confini schematici.</text></g></svg><label>Regione da studiare <select data-layer-select><option value="0">Nucleo</option><option value="1">Zona radiativa</option><option value="2">Zona convettiva</option><option value="3">Fotosfera</option><option value="4">Cromosfera</option><option value="5">Corona</option></select></label><output data-layer-reading aria-live="polite"></output><p>Prima di leggere la spiegazione, prevedi se la regione produce energia nucleare, la trasporta o contribuisce alla radiazione atmosferica osservata.</p></div>
+<p>Come conosciamo l’interno se non possiamo vederlo? Modelli della struttura stellare, composizione, luminosità e misure delle oscillazioni solari devono accordarsi fra loro. L’<strong>eliosismologia</strong> studia onde e oscillazioni che portano informazioni sul plasma attraversato. I neutrini prodotti nelle reazioni nucleari forniscono un riscontro complementare. La conoscenza dell’interno nasce da prove convergenti, non dall’immagine di un Sole tagliato a metà.</p></section>
+<section id="atmosfera"><h3>Oltre il disco: cromosfera e corona</h3>
+<p>La cromosfera e la corona si estendono sopra la fotosfera, con una regione di transizione fra condizioni fisiche molto diverse. La corona è estremamente rarefatta e può raggiungere temperature molto più elevate di quelle fotosferiche. Temperatura e quantità totale di energia non sono sinonimi: un plasma tenue può avere particelle molto energetiche senza contenere l’energia termica di un grande volume di materiale denso.</p>
+<p>Il riscaldamento coronale coinvolge processi magnetici e onde. Questa complessità è un buon esempio del confine fra una spiegazione introduttiva e una ricerca ancora attiva: dire «il campo magnetico conta» non equivale ad aver risolto ogni meccanismo quantitativo. Le immagini spaziali in bande differenti permettono di seguire strutture e condizioni del plasma, ma richiedono una legenda scientifica.</p>
+<p>Una protuberanza è plasma sostenuto da configurazioni magnetiche sopra la superficie apparente. Vista proiettata sul disco può presentarsi come filamento scuro; vista contro lo spazio può risaltare luminosa. Il fondo cambia il contrasto. In modo analogo, una struttura che sembra assente in una fotografia può diventare evidente in una banda adatta. Prima di concludere che due foto si contraddicono, chiediti quali proprietà stanno misurando.</p></section>
+<section id="magnetismo"><h3>Rotazione e attività: un Sole vivo, senza previsioni inventate</h3>
+<p>Il Sole ruota e, essendo un plasma, non si comporta come una sfera rigida: regioni a diverse latitudini hanno tempi diversi. Dalla Terra si aggiunge il movimento del nostro punto di vista. La rotazione siderale, riferita alle stelle, e quella apparente rispetto alla Terra non devono essere confuse quando si interpretano spostamenti delle macchie.</p>
+<p>L’attività varia su un ciclo di durata approssimativa, non su un calendario esatto. Il numero delle macchie è un indicatore, ma non esaurisce il comportamento solare. Brillamenti ed espulsioni di massa coronale sono fenomeni distinti: il primo descrive un rapido rilascio di energia, la seconda un’espulsione di plasma magnetizzato. Possono essere associati, ma una macchia non è una promessa automatica di una tempesta sulla Terra.</p>
+<p>Il vento solare è un flusso di particelle; la luce è radiazione elettromagnetica. I loro tempi di viaggio sono differenti. La direzione, la velocità e la configurazione magnetica influenzano le conseguenze terrestri. Una fotografia spettacolare, da sola, non basta per prevedere un’aurora visibile dalla propria città. Per le condizioni attuali servono osservazioni e bollettini aggiornati; qui studiamo il meccanismo generale.</p></section>
+<section id="misure"><h3>Un conto concreto: gli otto minuti della luce</h3>
+<p>Usiamo una distanza media di circa 149,6 milioni di chilometri e una velocità della luce nel vuoto di circa 299.792 chilometri al secondo. Dividendo distanza per velocità otteniamo circa 499 secondi, poco più di otto minuti. Il risultato riguarda il tragitto nello spazio dopo l’emissione: non il trasferimento dell’energia attraverso l’interno solare.</p>
+<p>Questo esempio obbliga a controllare le unità. Se la distanza è in chilometri e la velocità in chilometri al secondo, il risultato è in secondi. Un errore di un fattore mille si introduce subito mescolando metri e chilometri. Inoltre la distanza Terra–Sole varia nell’orbita: «otto minuti» è una descrizione utile, non un valore immutabile fino all’ultimo decimale.</p>
+<div class="course-lab" data-light-travel><h4>La distanza cambia il ritardo</h4><label>Distanza dal Sole, in unità astronomiche <input data-light-distance type="range" min="0.4" max="5.2" step="0.1" value="1"></label><output data-light-reading aria-live="polite"></output><p>Modello del solo percorso della luce nel vuoto: 1 UA = 149.597.870,7 km. Lo slider non riproduce orbite o effemeridi. Prevedi il risultato a 2 UA prima di spostarlo: raddoppia il tempo, non il quadrato del tempo.</p></div></section>
+<section id="osservare"><h3>Osservare con metodo e protezione appropriata</h3>
+<p>Il percorso più semplice per iniziare è analizzare immagini professionali documentate. Per l’osservazione diretta con binocolo, telescopio o teleobiettivo serve un sistema solare specifico e correttamente montato: il filtro deve essere davanti all’ottica, saldamente fissato, e il cercatore deve essere protetto o rimosso. Gli occhiali da eclissi non rendono sicuro guardare attraverso un’ottica non filtrata. Non usare filtri improvvisati o piccoli filtri da avvitare all’oculare.</p>
+<p>Organizza l’attività con una persona competente e con le istruzioni del costruttore. L’osservazione in una banda stretta richiede strumenti dedicati e non si ottiene aggiungendo un comune filtro fotografico. La sicurezza precede il puntamento e ogni prova. Le procedure per le eclissi sono trattate nella lezione dedicata, con i riferimenti dell’American Astronomical Society.</p>
+<p>Per un esercizio senza esposizione oculare, scegli tre immagini d’archivio dello stesso strumento e della stessa banda, distanziate nel tempo. Registra data, orientamento e posizione di una regione riconoscibile. Descrivi che cosa cambia e quali interpretazioni restano incerte. Una macchia vicina al bordo è deformata dalla proiezione: la sua larghezza nella foto non coincide con la dimensione sulla superficie.</p>
+<details><summary>Una domanda da ricercatore: una macchia è scomparsa oppure ha girato oltre il bordo?</summary><p>Una sola immagine non distingue le due possibilità. Cerca una sequenza temporale, controlla la continuità del movimento e confronta strutture circostanti. La rotazione porta regioni sul lato non visibile, mentre la loro evoluzione può cambiarle o dissolverle. La risposta richiede dati, non soltanto una descrizione convincente.</p></details></section>
+<section id="verifica"><h3>Metti alla prova la comprensione</h3><p>Spiega prima la tua scelta, poi confrontala con il ragionamento. Se una risposta è sbagliata, cerca quale distinzione hai perso: produzione e trasporto, contrasto e temperatura, luce e particelle.</p><form class="course-quiz" data-answer="1"><fieldset><legend>Perché una macchia appare scura?</legend><label><input type="radio" name="lezione-2-3-q0" value="0"><span>Non emette alcuna luce</span></label><label><input type="radio" name="lezione-2-3-q0" value="1"><span>È più fredda della fotosfera circostante</span></label><label><input type="radio" name="lezione-2-3-q0" value="2"><span>È un foro che mostra lo spazio dietro il Sole</span></label></fieldset><div class="quiz-actions"><button type="submit">Verifica e comprendi</button><button type="reset">Riprova</button></div><p class="quiz-feedback" aria-live="polite"></p><details class="quiz-solution"><summary>Leggi il ragionamento</summary><p>Il contrasto è relativo. La macchia resta molto calda e luminosa, ma emette meno della regione fotosferica circostante.</p></details></form><form class="course-quiz" data-answer="1"><fieldset><legend>Gli otto minuti della luce misurano quale percorso?</legend><label><input type="radio" name="lezione-2-3-q1" value="0"><span>Dal nucleo alla fotosfera</span></label><label><input type="radio" name="lezione-2-3-q1" value="1"><span>Dalla fotosfera alla Terra attraverso lo spazio</span></label><label><input type="radio" name="lezione-2-3-q1" value="2"><span>Dal Sole alla Terra insieme al vento solare</span></label></fieldset><div class="quiz-actions"><button type="submit">Verifica e comprendi</button><button type="reset">Riprova</button></div><p class="quiz-feedback" aria-live="polite"></p><details class="quiz-solution"><summary>Leggi il ragionamento</summary><p>Il conto distanza/velocità riguarda la radiazione nel vuoto. Il trasporto interno e il viaggio delle particelle sono processi diversi.</p></details></form><form class="course-quiz" data-answer="1"><fieldset><legend>Quale misura protegge nell’osservazione attraverso un normale telescopio?</legend><label><input type="radio" name="lezione-2-3-q2" value="0"><span>Occhiali da eclissi davanti agli occhi e telescopio non filtrato</span></label><label><input type="radio" name="lezione-2-3-q2" value="1"><span>Filtro solare idoneo davanti all’ottica, fissato correttamente e con cercatore protetto</span></label><label><input type="radio" name="lezione-2-3-q2" value="2"><span>Un piccolo filtro fotografico all’oculare</span></label></fieldset><div class="quiz-actions"><button type="submit">Verifica e comprendi</button><button type="reset">Riprova</button></div><p class="quiz-feedback" aria-live="polite"></p><details class="quiz-solution"><summary>Leggi il ragionamento</summary><p>L’ottica concentra la radiazione. La protezione deve impedire che entri nell’ottica secondo le procedure del sistema solare specifico; gli occhiali non rendono sicuro uno strumento non filtrato.</p></details></form><p>Prosegui verso le fasi lunari: la Luna non produce luce come una stella, e la geometria dell’illuminazione permette di comprendere perché il suo aspetto cambia.</p></section>
+<section id="fonti" class="learning-sources"><h3>Fonti e approfondimenti</h3><p>Testo e schemi originali AD ASTRA. Le fonti indicate sono riferimenti dei concetti trattati; i modelli sono didattici e dichiarano i propri limiti.</p><ul><li><a href="https://www.lorenzoroi.net/prelievi/CorsoAstro1.pdf">Lorenzo Roi — Corso di astronomia 1, lezione Il Sole e le stelle; quadro di base confrontato con fonti attuali</a></li><li><a href="https://www.treccani.it/vocabolario/sole/">Treccani — Sole: terminologia e struttura</a></li><li><a href="https://science.nasa.gov/sun/facts/">NASA — Sun Facts: riscontro della struttura e provenienza della fotografia SDO</a></li><li><a href="https://eclipse.aas.org/eye-safety/optics-filters">American Astronomical Society — Filtri per strumenti ottici</a></li></ul></section></article><aside class="learning-sidebar"><h3>In questa lezione</h3><ol><li><a href="#stella-vicina">Una stella che cambia il nostro modo di leggere il cielo</a></li><li><a href="#superficie">La fotosfera: una superficie senza terreno</a></li><li><a href="#interno">Dall’interno alla luce: produrre energia e trasportarla</a></li><li><a href="#atmosfera">Oltre il disco: cromosfera e corona</a></li><li><a href="#magnetismo">Rotazione e attività: un Sole vivo, senza previsioni inventate</a></li><li><a href="#misure">Un conto concreto: gli otto minuti della luce</a></li><li><a href="#osservare">Osservare con metodo e protezione appropriata</a></li><li><a href="#verifica">Metti alla prova la comprensione</a></li></ol><p><a href="area-02.html">Tutte le lezioni della macroarea</a></p></aside></div><nav class="learning-navigation" aria-label="Navigazione fra lezioni"><a href="lezione-2-2.html">← Lezione precedente<strong>Perché esistono le stagioni</strong></a><a href="lezione-2-4.html">Lezione successiva →<strong>La Luna e le sue fasi</strong></a></nav></main>
+
+
+
+  <!-- =====================================================
+       BANNER INFERIORE + MENU FOOTER
+  ====================================================== -->
+
+  <footer class="site-footer">
+
+    <img
+      class="bottom-banner-image"
+      src="banner 2.png"
+      alt="AD ASTRA - Astronomia, osservazione del cielo, astrofotografia e divulgazione scientifica"
+    >
+
+
+    <div class="footer-navigation">
+
+
+      <div class="footer-column">
+
+        <h3>
+          Scuola di Astronomia
+        </h3>
+
+        <ul>
+
+          <li>
+            <a href="scuola-astronomia.html">
+              Scuola di Astronomia
+            </a>
+          </li>
+
+          <li>
+            <a href="scuola-astronomia.html">Lezioni</a>
+          </li>
+
+          <li>
+            <a href="#fonti">Approfondimenti</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+
+
+      <div class="footer-column">
+
+        <h3>
+          Esplora
+        </h3>
+
+        <ul>
+
+          <li>
+            <a href="index.html">
+              Home
+            </a>
+          </li>
+
+          <li>
+            <a href="guide.html">
+              Guide
+            </a>
+          </li>
+
+          <li>
+            <a href="strumentazione.html">
+              Strumentazione
+            </a>
+          </li>
+
+          <li>
+            <a href="cielo-del-mese.html">
+              Il Cielo del Mese
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+
+
+      <div class="footer-column">
+
+        <h3>
+          Risorse
+        </h3>
+
+        <ul>
+
+          <li>
+            <a href="astrofotografia.html">
+              Astrofotografia
+            </a>
+          </li>
+
+          <li>
+            <a href="effemeridi.html">
+              Effemeridi
+            </a>
+          </li>
+
+          <li>
+            <a href="software.html">
+              Software
+            </a>
+          </li>
+
+          <li>
+            <a href="biblioteca.html">
+              Biblioteca
+            </a>
+          </li>
+
+          <li>
+            <a href="pubblicazioni-ad-astra.html">
+              Pubblicazioni
+            </a>
+          </li>
+
+          <li>
+            <a href="notizie.html">
+              Notizie
+            </a>
+          </li>
+
+          <li>
+            <a href="ventunesimo.html">
+              VENTUNESIMO
+            </a>
+          </li>
+
+
+
+          <li>
+            <a href="contatti.html">
+              Contatti
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+
+
+      <div class="footer-column">
+
+        <h3>
+          Seguici su
+        </h3>
+
+        <a
+          class="footer-facebook"
+          href="contatti.html"
+          aria-label="Contatti e canali AD ASTRA"
+        >@</a>
+
+      </div>
+
+
+    </div>
+
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script defer src="assets/lezioni/interazioni-didattiche.js"></script><script defer src="assets/lezioni/carte-base.js"></script><script defer src="assets/lezioni/percorsi-pratici.js"></script><script defer src="assets/lezioni/fotografia-attiva.js"></script>
+<script defer src="assets/lezioni/laboratori-terra.js"></script><script defer src="assets/lezioni/laboratori-sole.js"></script><script defer src="assets/lezioni/laboratori-luna.js"></script><script defer src="assets/lezioni/laboratori-eclissi.js"></script></body>
+
+</html>

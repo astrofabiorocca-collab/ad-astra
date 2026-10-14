@@ -1,0 +1,8 @@
+(()=>{'use strict';const descriptions=[
+'Nucleo: la fusione contribuisce alla produzione di energia. Non è la regione fotografata nelle immagini del disco.',
+'Zona radiativa: l’energia viene trasferita tramite interazioni della radiazione con la materia; non è un percorso rettilineo di un unico fotone.',
+'Zona convettiva: il movimento del plasma trasporta energia verso l’esterno. La granulazione ne mostra una manifestazione superficiale.',
+'Fotosfera: emerge gran parte della luce visibile; non è una superficie solida. Qui si riconoscono granulazione e macchie.',
+'Cromosfera: regione atmosferica sopra la fotosfera, studiata con bande e strumenti appropriati.',
+'Corona: atmosfera esterna tenue e molto calda. Temperatura elevata e bassa densità possono coesistere.'
+];const radii=[40,92,130,146,160,190];document.querySelectorAll('[data-solar-layers]').forEach(root=>{const s=root.querySelector('[data-layer-select]');function update(){const i=Number(s.value);root.querySelector('[data-layer-ring]').setAttribute('r',radii[i]);root.querySelector('[data-layer-reading]').textContent=descriptions[i]}s.addEventListener('change',update);update()});document.querySelectorAll('[data-light-travel]').forEach(root=>{const s=root.querySelector('[data-light-distance]');function update(){const ua=Number(s.value),seconds=ua*149597870.7/299792.458;root.querySelector('[data-light-reading]').textContent=ua.toLocaleString('it-IT',{maximumFractionDigits:1})+' UA → '+Math.floor(seconds/60)+' min '+(seconds%60).toFixed(0)+' s (solo percorso nel vuoto).'}s.addEventListener('input',update);update()});})();
