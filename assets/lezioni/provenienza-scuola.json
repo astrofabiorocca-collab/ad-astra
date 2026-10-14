@@ -60,6 +60,66 @@
       "licenseSource": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
       "changes": "Nessuna",
       "interpretation": "Eclisse totale del 21 agosto 2017 a Madras Oregon, fotografia d’archivio"
+    },
+    {
+      "file": "assets/lezioni/terra-voyager-pia23645.jpg",
+      "source": "https://www.jpl.nasa.gov/images/pia23645-pale-blue-dot-revisited/",
+      "original": "https://d2pn8kiwq2w21t.cloudfront.net/original_images/jpegPIA23645.jpg",
+      "credit": "NASA/JPL-Caltech; elaborazione Kevin M. Gill",
+      "license": "JPL image use policy",
+      "licenseSource": "https://www.jpl.nasa.gov/jpl-image-use-policy/",
+      "changes": "Nessuna; rielaborazione ufficiale del 2020 di dati Voyager del 14 febbraio 1990",
+      "interpretation": "Terra non risolta; falso colore, bande dovute a luce diffusa nell’ottica"
+    },
+    {
+      "file": "assets/lezioni/marte-hottah-curiosity.jpg",
+      "source": "https://science.nasa.gov/mission/msl-curiosity/science-highlights/",
+      "original": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/mars/resources/detail_files/5316_pia17062_Hottah_WB-full2.jpg?w=1000&fit=clip",
+      "credit": "NASA/JPL-Caltech/MSSS",
+      "license": "NASA media guidelines, immagine della missione con credito esplicito",
+      "licenseSource": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "changes": "Versione ufficiale w=1000 fit=clip, nessuna modifica locale",
+      "interpretation": "Affioramento Hottah, roccia e frammenti; interpretazione di acqua passata, non acqua attuale"
+    },
+    {
+      "file": "assets/lezioni/nettuno-webb-nircam.jpg",
+      "source": "https://esawebb.org/images/weic2214c/",
+      "original": "https://cdn.esawebb.org/archives/images/screen/weic2214c.jpg",
+      "credit": "NASA, ESA, CSA, and STScI",
+      "license": "CC BY 4.0",
+      "licenseSource": "https://esawebb.org/copyright/",
+      "changes": "Nessuna; versione screen ufficiale",
+      "interpretation": "NIRCam 12 luglio 2022, bande infrarosse assegnate a colori visibili; non vista oculare"
+    },
+    {
+      "file": "assets/lezioni/encelado-pennacchi-cassini.jpg",
+      "source": "https://www.nasa.gov/image-article/enceladus-jets/",
+      "original": "https://www.nasa.gov/wp-content/uploads/2023/03/514158main_enceladus20110201-43_full.jpg",
+      "credit": "NASA/JPL/SSI",
+      "license": "NASA media guidelines; immagine della missione con credito esplicito",
+      "licenseSource": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "changes": "Nessuna",
+      "interpretation": "Cassini, 31 gennaio 2011, getti polari sud; non osservazione terrestre"
+    },
+    {
+      "file": "assets/lezioni/cometa67p-navcam.jpg",
+      "source": "https://www.esa.int/ESA_Multimedia/Images/2015/03/Comet_on_21_March_2015_NavCam",
+      "original": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2015/03/comet_on_21_march_2015_navcam/15333813-1-eng-GB/Comet_on_21_March_2015_NavCam.jpg",
+      "credit": "ESA/Rosetta/NAVCAM",
+      "license": "CC BY-SA IGO 3.0",
+      "licenseSource": "https://creativecommons.org/licenses/by-sa/3.0/igo/",
+      "changes": "Nessuna",
+      "interpretation": "67P 21 marzo 2015, ripresa ravvicinata NAVCAM; non vista terrestre"
+    },
+    {
+      "file": "assets/lezioni/hltauri-alma-disco.jpg",
+      "source": "https://www.eso.org/public/images/eso1436a/",
+      "original": "https://cdn.eso.org/images/screen/eso1436a.jpg",
+      "credit": "ALMA (ESO/NAOJ/NRAO)",
+      "license": "CC BY 4.0",
+      "licenseSource": "https://www.eso.org/public/outreach/copyright/",
+      "changes": "Nessuna; versione screen ufficiale",
+      "interpretation": "Segnale millimetrico 1.28 mm del disco HL Tauri; strutture non identificate automaticamente come pianeti"
     }
   ],
   "diagrams": [
