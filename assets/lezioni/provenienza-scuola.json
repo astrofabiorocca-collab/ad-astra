@@ -340,6 +340,56 @@
       "licenseSource": "https://commons.wikimedia.org/wiki/File:%22Star_Party%22_Ranger_Program_-_53906773964.jpg",
       "changes": "Nessuna",
       "interpretation": "Preparazione2024 al crepuscolo; non procedura universale"
+    },
+    {
+      "file": "assets/lezioni/meteorite-hoba.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Hoba_meteorite,_Namibia_(2014).jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Hoba_meteorite%2C_Namibia_%282014%29.jpg/1280px-Hoba_meteorite%2C_Namibia_%282014%29.jpg",
+      "credit": "Olga Ernst",
+      "license": "CC BY-SA 4.0",
+      "licenseSource": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "Nessuna",
+      "interpretation": "Campione Hoba, foto2014; area visitatori non cratere"
+    },
+    {
+      "file": "assets/lezioni/perseide-vlt-2010.jpg",
+      "source": "https://www.eso.org/public/images/potw1033a/",
+      "original": "https://cdn.eso.org/images/screen/potw1033a.jpg",
+      "credit": "ESO/S. Guisard",
+      "license": "CC BY 4.0",
+      "licenseSource": "https://www.eso.org/public/outreach/copyright/",
+      "changes": "Nessuna",
+      "interpretation": "Una esposizione del13–14agosto2010, non previsione attuale né composito di molte meteore"
+    },
+    {
+      "file": "assets/lezioni/aurora-iss-2025.jpg",
+      "source": "https://images.nasa.gov/details/iss072e451023",
+      "original": "https://images-assets.nasa.gov/image/iss072e451023/iss072e451023~medium.jpg",
+      "credit": "NASA/JSC",
+      "license": "Uso educativo, linee guida NASA",
+      "licenseSource": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "changes": "Nessuna",
+      "interpretation": "Ontario/JamesBay4gennaio2025; vistaISS non scena visuale da terra"
+    },
+    {
+      "file": "assets/lezioni/luna-rifrazione-iss.jpg",
+      "source": "https://www.nasa.gov/image-article/moon-sets-below-earths-horizon/",
+      "original": "https://images-assets.nasa.gov/image/iss067e139457/iss067e139457~medium.jpg",
+      "credit": "NASA/JSC",
+      "license": "Uso educativo, linee guida NASA",
+      "licenseSource": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "changes": "Nessuna",
+      "interpretation": "15giugno2022, geometria orbitale attraverso atmosfera, non deformazione fisica della Luna"
+    },
+    {
+      "file": "assets/lezioni/arcobaleno-doppio-cipro.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:A_double_rainbow_in_Akamas_Peninsula,_Cyprus.jpg",
+      "original": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/A_double_rainbow_in_Akamas_Peninsula%2C_Cyprus.jpg/1280px-A_double_rainbow_in_Akamas_Peninsula%2C_Cyprus.jpg",
+      "credit": "Michal Klajban",
+      "license": "CC BY-SA 4.0",
+      "licenseSource": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "Nessuna",
+      "interpretation": "Akamas, primario evidente e secondario tenue; geometria dell’osservatore"
     }
   ],
   "diagrams": [
