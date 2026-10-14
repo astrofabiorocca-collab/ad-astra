@@ -180,6 +180,56 @@
       "licenseSource": "https://esahubble.org/copyright/",
       "changes": "Nessuna",
       "interpretation": "Nebulosa planetaria, non resto di supernova; composite bande ultravioletto/ottico"
+    },
+    {
+      "file": "assets/lezioni/m33-cielo-profondo.jpg",
+      "source": "https://www.eso.org/public/images/eso1424a/",
+      "original": "https://cdn.eso.org/images/screen/eso1424a.jpg",
+      "credit": "ESO",
+      "license": "CC BY 4.0",
+      "licenseSource": "https://www.eso.org/public/outreach/copyright/",
+      "changes": "Nessuna",
+      "interpretation": "M33, bande g r Hα, non resa visuale"
+    },
+    {
+      "file": "assets/lezioni/m11-ammasso-aperto.jpg",
+      "source": "https://esahubble.org/images/potw1912a/",
+      "original": "https://cdn.esahubble.org/archives/images/screen/potw1912a.jpg",
+      "credit": "ESA/Hubble & NASA, P. Dobbie et al.",
+      "license": "CC BY 4.0",
+      "licenseSource": "https://esahubble.org/copyright/",
+      "changes": "Nessuna",
+      "interpretation": "Porzione di M11, F336W/F555W; non tutto il campo"
+    },
+    {
+      "file": "assets/lezioni/47tuc-globulare.jpg",
+      "source": "https://www.eso.org/public/images/eso1302a/",
+      "original": "https://cdn.eso.org/images/screen/eso1302a.jpg",
+      "credit": "ESO/M.-R. Cioni/VISTA Magellanic Cloud survey; Cambridge Astronomical Survey Unit",
+      "license": "CC BY 4.0",
+      "licenseSource": "https://www.eso.org/public/outreach/copyright/",
+      "changes": "Nessuna",
+      "interpretation": "Bande Y J Ks, colori assegnati; non osservabile dall’Italia"
+    },
+    {
+      "file": "assets/lezioni/trifida-emissione-polveri.jpg",
+      "source": "https://www.eso.org/public/images/eso0930a/",
+      "original": "https://cdn.eso.org/images/screen/eso0930a.jpg",
+      "credit": "ESO",
+      "license": "CC BY 4.0",
+      "licenseSource": "https://www.eso.org/public/outreach/copyright/",
+      "changes": "Nessuna",
+      "interpretation": "Componenti emissive, diffondenti e oscuranti; contesto WFI"
+    },
+    {
+      "file": "assets/lezioni/velo-resto-supernova.jpg",
+      "source": "https://esahubble.org/images/heic1520a/",
+      "original": "https://cdn.esahubble.org/archives/images/screen/heic1520a.jpg",
+      "credit": "NASA, ESA, Hubble Heritage Team",
+      "license": "CC BY 4.0",
+      "licenseSource": "https://esahubble.org/copyright/",
+      "changes": "Nessuna",
+      "interpretation": "Dettaglio NGC6960, non tutto Cygnus Loop; bande dichiarate"
     }
   ],
   "diagrams": [
