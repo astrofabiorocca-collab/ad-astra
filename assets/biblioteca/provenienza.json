@@ -1,19 +1,5 @@
 [
   {
-    "isbn": "9788817190022",
-    "image_url": "https://www.rizzolilibri.it/content/uploads/2024/10/978881719002GRA.webp?x30388",
-    "size": [
-      457,
-      700
-    ],
-    "status": "ok",
-    "source_page": "https://www.rizzolilibri.it/libri/il-cosmo-in-brevi-lezioni/",
-    "checked": "2026-10-15",
-    "file": "assets/biblioteca/9788817190022.jpg",
-    "rights": "Copertina © rispettivi aventi diritto; identificazione editoriale, nessuna licenza libera dichiarata.",
-    "sha256": "63cfe6ab0bc8d18895efa733c558298c123a054246c03fe23af135abec108205"
-  },
-  {
     "isbn": "9788893643337",
     "image_url": "https://www.inriga.it/wp-content/uploads/2021/07/image12-324x415.png",
     "size": [
@@ -126,20 +112,6 @@
     "sha256": "ee4c63317d1a9dfcec8ebe46b1e1f72e020277da4fcbd583930326991f51914a"
   },
   {
-    "isbn": "9788808820174",
-    "image_url": "https://img2.libreriauniversitaria.it/BIT/500/017/9788808820174.jpg",
-    "size": [
-      353,
-      500
-    ],
-    "status": "ok",
-    "source_page": "https://www.zanichelli.it/ricerca/prodotti/astronomia-per-gli-studenti-di-scienze-della-formazione-primaria",
-    "checked": "2026-10-15",
-    "file": "assets/biblioteca/9788808820174.jpg",
-    "rights": "Copertina © rispettivi aventi diritto; identificazione editoriale, nessuna licenza libera dichiarata.",
-    "sha256": "fc10258f7b1465e3e662370e2cadac75765cdee5bc3a6996cc7798afd6fecd27"
-  },
-  {
     "isbn": "9788836014378",
     "image_url": "https://img2.libreriauniversitaria.it/BIT/500/437/9788836014378.jpg",
     "size": [
@@ -166,5 +138,33 @@
     "file": "assets/biblioteca/9788836016846.jpg",
     "rights": "Copertina © rispettivi aventi diritto; identificazione editoriale, nessuna licenza libera dichiarata.",
     "sha256": "7562b0cbd77c33e6bde7339c2b28bd32773ad749d66d1d2b0b520a1bcae340fd"
+  },
+  {
+    "isbn": "9791221202540",
+    "image_url": "https://www.deagostinilibri.it/uploads/2016/03/71rfjaxm8dl_082d2ffc8c2013a6dcded5c698ad485b.jpg",
+    "status": "ok",
+    "size": [
+      520,
+      735
+    ],
+    "source_page": "https://www.deagostinilibri.it/libri/tutto-astronomia",
+    "checked": "2026-10-15",
+    "file": "assets/biblioteca/9791221202540.jpg",
+    "rights": "Copertina © rispettivi aventi diritto; identificazione editoriale, nessuna licenza libera dichiarata.",
+    "sha256": "5ed7faf85b0824e27b262a919e5f24047d37eb90ec23b35e909943c780ecafe2"
+  },
+  {
+    "isbn": "9788893054539",
+    "image_url": "https://img2.libreriauniversitaria.it/BIT/500/453/9788893054539.jpg",
+    "status": "ok",
+    "size": [
+      324,
+      500
+    ],
+    "source_page": "https://www.lafeltrinelli.it/astronomia-divulgativa-libro-carla-gatti/e/9788893054539",
+    "checked": "2026-10-15",
+    "file": "assets/biblioteca/9788893054539.jpg",
+    "rights": "Copertina © rispettivi aventi diritto; identificazione editoriale, nessuna licenza libera dichiarata.",
+    "sha256": "d893de2728733b8c7d5a253fae84436c5f6e51837e14a9af054759aeca5a35b1"
   }
 ]

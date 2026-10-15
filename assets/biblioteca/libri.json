@@ -2,68 +2,46 @@
   "fondamenti1": {
     "section": "01 — Fondamenti di astronomia",
     "rank": 1,
-    "author": "Samuele Straulino; Barbara Olmi",
-    "title": "Astronomia. Per gli studenti di Scienze della formazione primaria",
-    "publisher": "Zanichelli",
-    "year": 2020,
-    "isbn": "9788808820174",
+    "author": "Carla Gatti",
+    "title": "Astronomia divulgativa. Guida alla scoperta dei segreti e dei misteri dell’Universo",
+    "publisher": "How2",
+    "year": 2021,
+    "isbn": "9788893054539",
     "language": "Italiano",
-    "level": "Base solida / intermedio",
-    "function": "Un percorso ordinato fra gravitazione, stelle, Sistema solare, Terra, Luna e coordinate. Schede e quesiti accompagnano una trattazione con matematica essenziale, rivolta a lettori adulti.",
-    "limit": "Un corso compatto per costruire le basi, non un trattato avanzato o una guida all’attrezzatura contemporanea.",
-    "official": "https://www.zanichelli.it/ricerca/prodotti/astronomia-per-gli-studenti-di-scienze-della-formazione-primaria",
+    "level": "Introduzione divulgativa",
+    "function": "Un viaggio narrativo fra stelle, pianeti e grandi interrogativi del cosmo. Una lettura discorsiva per avvicinarsi all’astronomia e trovare domande da approfondire nelle lezioni.",
+    "limit": "Scheda basata sulla presentazione editoriale, non sulla lettura integrale del libro. L’edizione è del 2021. Fra i temi annunciati compaiono anche stringhe e multiverso: le ipotesi teoriche vanno distinte dai risultati sostenuti da prove osservative. Il grado di formalismo matematico non è stato verificato integralmente.",
+    "official": "https://www.lafeltrinelli.it/astronomia-divulgativa-libro-carla-gatti/e/9788893054539",
     "key": "fondamenti1",
-    "description": "Perché i pianeti rimangono in orbita? Come nasce una stella e come si misura il tempo attraverso il cielo? Questo testo costruisce le risposte a partire da pochi principi fisici, per poi affrontare il Sistema solare, i moti della Terra, la Luna e le coordinate celesti. Il formalismo matematico è contenuto; schede, curiosità e quesiti accompagnano la spiegazione. Pensato per la formazione universitaria dei futuri insegnanti, offre al lettore adulto un ingresso ordinato nello studio dell’astronomia.",
-    "short": "Un percorso ordinato fra gravitazione, stelle, Sistema solare, Terra, Luna e coordinate. Schede e quesiti accompagnano una trattazione con matematica essenziale, rivolta a lettori adulti.",
-    "cover": "assets/biblioteca/9788808820174.jpg",
+    "description": "Un viaggio narrativo attraverso il cosmo, costruito per accompagnare il lettore fra stelle, pianeti e grandi domande sull’universo. La presentazione del volume propone l’esplorazione a bordo di un’astronave immaginaria, affiancando il racconto alle immagini del telescopio Hubble. Il percorso si estende dall’origine dell’universo al futuro del Sole, della Terra e del cosmo, affrontando anche buchi neri, onde gravitazionali, materia ed energia oscura. Nella Biblioteca AD ASTRA affianca il compendio Tutto astronomia con una lettura più discorsiva, dalla quale far nascere domande da approfondire nelle lezioni.",
+    "short": "Un viaggio narrativo fra stelle, pianeti e grandi interrogativi del cosmo. Una lettura discorsiva per avvicinarsi all’astronomia e trovare domande da approfondire nelle lezioni.",
+    "cover": "assets/biblioteca/9788893054539.jpg",
     "lesson": "lezioni.html#area-01",
-    "bio": [
-      "Samuele Straulino e Barbara Olmi sono gli autori di questo testo di astronomia per la formazione universitaria dei futuri insegnanti. Straulino presenta il volume e le proprie attività didattiche nella sua pagina universitaria.",
-      "https://sites.google.com/unifi.it/samuelestraulino/libro-di-astronomia"
-    ],
-    "preview_link": [
-      "Introduzione ufficiale · PDF",
-      "https://staticmy.zanichelli.it/catalogo/assets/a04.9788808820174.pdf"
-    ],
-    "cover_source": "https://img2.libreriauniversitaria.it/BIT/500/017/9788808820174.jpg",
-    "review_url": "https://www.zanichelli.it/ricerca/prodotti/astronomia-per-gli-studenti-di-scienze-della-formazione-primaria",
-    "rating": null
+    "bio": null,
+    "preview_link": null,
+    "cover_source": "https://img2.libreriauniversitaria.it/BIT/500/453/9788893054539.jpg"
   },
   "fondamenti2": {
     "section": "01 — Fondamenti di astronomia",
     "rank": 2,
-    "author": "Amedeo Balbi",
-    "title": "Il cosmo in brevi lezioni. Big bang, pianeti, galassie e buchi neri: i segreti dell'astrofisica",
-    "publisher": "Rizzoli / BUR",
-    "year": 2024,
-    "isbn": "9788817190022",
+    "author": "AA.VV.",
+    "title": "Tutto astronomia",
+    "publisher": "De Agostini",
+    "year": 2022,
+    "isbn": "9791221202540",
     "language": "Italiano",
-    "level": "Base / intermedio",
-    "function": "Dalle stelle alla ricerca della vita: brevi letture per esplorare le domande dell’astrofisica e collegare le nozioni alle scoperte. Adatto alla consultazione per temi.",
-    "limit": "Raccoglie interventi divulgativi rivisti per il volume: non segue la progressione di un corso di astronomia posizionale.",
-    "official": "https://www.rizzolilibri.it/libri/il-cosmo-in-brevi-lezioni/",
+    "level": "Introduzione / ripasso",
+    "function": "Un quadro compatto delle conoscenze astronomiche, dalle osservazioni antiche alle teorie fondamentali. Scelto come introduzione e ripasso, anche sulla base della lettura diretta del curatore AD ASTRA.",
+    "limit": "Edizione indicata dall’editore: 2022, 288 pagine. Non è documentato un aggiornamento scientifico integrale rispetto alle edizioni precedenti. Il cartaceo risulta al momento non disponibile nelle librerie consultate: verificare la reperibilità sulla fonte.",
+    "official": "https://www.deagostinilibri.it/libri/tutto-astronomia",
     "key": "fondamenti2",
-    "description": "Il cosmo diventa una raccolta di domande da esplorare: come nascono e muoiono le stelle, che cosa sappiamo delle galassie, quali problemi affronta la ricerca della vita e che cosa ci insegnano le missioni spaziali. Balbi riunisce interventi pubblicati su Le Scienze e rivisti per il volume. I capitoli brevi favoriscono una lettura per argomenti: si può partire da una curiosità e seguire i collegamenti con le altre lezioni, senza cercare necessariamente un corso da leggere in ordine.",
-    "short": "Dalle stelle alla ricerca della vita: brevi letture per esplorare le domande dell’astrofisica e collegare le nozioni alle scoperte. Adatto alla consultazione per temi.",
-    "cover": "assets/biblioteca/9788817190022.jpg",
+    "description": "Un volume compatto per avvicinarsi alle conoscenze fondamentali dell’astronomia e ritrovarne i concetti durante lo studio. La presentazione editoriale propone un quadro generale che collega le osservazioni delle culture antiche alle teorie della scienza contemporanea. Nella Biblioteca AD ASTRA viene scelto come lettura introduttiva e strumento di ripasso, anche sulla base dell’esperienza diretta di lettura del curatore. Può accompagnare le lezioni, aiutando a ricomporre il quadro complessivo prima di affrontare approfondimenti più specialistici.",
+    "short": "Un quadro compatto delle conoscenze astronomiche, dalle osservazioni antiche alle teorie fondamentali. Scelto come introduzione e ripasso, anche sulla base della lettura diretta del curatore AD ASTRA.",
+    "cover": "assets/biblioteca/9791221202540.jpg",
     "lesson": "lezioni.html",
-    "bio": [
-      "Amedeo Balbi è un astrofisico e divulgatore dell’Università di Roma Tor Vergata. Si occupa di cosmologia e di ricerca della vita nell’universo e collabora con Le Scienze.",
-      "https://www.utetlibri.it/libri/lultimo-orizzonte-3/"
-    ],
-    "preview_link": [
-      "Estratto ufficiale · PDF",
-      "https://www.rizzolilibri.it/content/uploads/2024/10/978881719002_abstract.pdf"
-    ],
-    "cover_source": "https://www.rizzolilibri.it/content/uploads/2024/10/978881719002GRA.webp?x30388",
-    "review_url": "https://www.rizzolilibri.it/libri/il-cosmo-in-brevi-lezioni/",
-    "rating": {
-      "value": 3,
-      "count": 1,
-      "source": "IBS",
-      "checked": "15 ottobre 2026",
-      "url": "https://www.ibs.it/cosmo-in-brevi-lezioni-big-libro-amedeo-balbi/e/9788817190022"
-    }
+    "bio": null,
+    "preview_link": null,
+    "cover_source": "https://www.deagostinilibri.it/uploads/2016/03/71rfjaxm8dl_082d2ffc8c2013a6dcded5c698ad485b.jpg"
   },
   "osservazione1": {
     "section": "02 — Osservazione del cielo",
@@ -86,9 +64,7 @@
     "lesson": "guide.html",
     "bio": null,
     "preview_link": null,
-    "cover_source": "https://img2.libreriauniversitaria.it/BIT/500/669/9788869856693.jpg",
-    "review_url": "https://www.libreriauniversitaria.it/atlante-astronomia-guida-pratica-osservazione/libro/9788869856693",
-    "rating": null
+    "cover_source": "https://img2.libreriauniversitaria.it/BIT/500/669/9788869856693.jpg"
   },
   "osservazione2": {
     "section": "02 — Osservazione del cielo",
@@ -115,9 +91,7 @@
       "https://www.coelum.com/articoli/libri-e-recensioni/ai-confini-della-via-lattea-di-albino-carbognani"
     ],
     "preview_link": null,
-    "cover_source": "https://www.inriga.it/wp-content/uploads/2021/07/image12-324x415.png",
-    "review_url": "https://www.inriga.it/astronomia/",
-    "rating": null
+    "cover_source": "https://www.inriga.it/wp-content/uploads/2021/07/image12-324x415.png"
   },
   "astrofisica1": {
     "section": "03 — Astrofisica e cosmologia",
@@ -142,9 +116,7 @@
       "https://www.hoepli.it/libro/l-universo-come-non-si-era-mai-visto/9788836014378.html"
     ],
     "preview_link": null,
-    "cover_source": "https://img2.libreriauniversitaria.it/BIT/500/437/9788836014378.jpg",
-    "review_url": "https://www.hoepli.it/libro/l-universo-come-non-si-era-mai-visto/9788836014378.html",
-    "rating": null
+    "cover_source": "https://img2.libreriauniversitaria.it/BIT/500/437/9788836014378.jpg"
   },
   "cosmologia1": {
     "section": "03 — Astrofisica e cosmologia",
@@ -170,9 +142,7 @@
       "https://www.utetlibri.it/libri/lultimo-orizzonte-3/"
     ],
     "preview_link": null,
-    "cover_source": "https://www.utetlibri.it/uploads/2025/02/piatto_balbi-1_c430c9e65b04e52d365ac62fa47c5264.jpg",
-    "review_url": "https://www.utetlibri.it/libri/lultimo-orizzonte-3/",
-    "rating": null
+    "cover_source": "https://www.utetlibri.it/uploads/2025/02/piatto_balbi-1_c430c9e65b04e52d365ac62fa47c5264.jpg"
   },
   "strumentazione1": {
     "section": "04 — Strumentazione e astrofotografia",
@@ -201,9 +171,7 @@
       "Introduzione ufficiale · PDF",
       "https://www.apogeonline.com/contrib/uploads/fotografia-astronomica-introduzione.pdf"
     ],
-    "cover_source": "https://www.apogeonline.com/contrib/uploads/Copertina_definitiva-116752.jpg",
-    "review_url": "https://www.apogeonline.com/libri/fotografia-astronomica-luca-fornaciari/",
-    "rating": null
+    "cover_source": "https://www.apogeonline.com/contrib/uploads/Copertina_definitiva-116752.jpg"
   },
   "astrofotografia1": {
     "section": "04 — Strumentazione e astrofotografia",
@@ -229,9 +197,7 @@
       "https://www.deepskymethod.com/"
     ],
     "preview_link": null,
-    "cover_source": "https://www.deepskymethod.com/wp-content/uploads/2026/08/astrofotografia-digitale-dal-sensore-all-immagine.jpg",
-    "review_url": "https://www.deepskymethod.com/libro-di-astrofotografia-digitale/",
-    "rating": null
+    "cover_source": "https://www.deepskymethod.com/wp-content/uploads/2026/08/astrofotografia-digitale-dal-sensore-all-immagine.jpg"
   },
   "storia1": {
     "section": "05 — Storia dell'astronomia",
@@ -256,9 +222,7 @@
       "https://www.media.inaf.it/2021/03/08/recensione-incanto-di-urania/"
     ],
     "preview_link": null,
-    "cover_source": "https://www.carocci.it/wp-content/uploads/2020/09/9788829001217-600x880.jpg",
-    "review_url": "https://www.carocci.it/prodotto/lincanto-di-urania",
-    "rating": null
+    "cover_source": "https://www.carocci.it/wp-content/uploads/2020/09/9788829001217-600x880.jpg"
   },
   "storia2": {
     "section": "05 — Storia dell'astronomia",
@@ -283,9 +247,7 @@
       "https://www.laterza.it/scheda-libro/?isbn=9788858158951"
     ],
     "preview_link": null,
-    "cover_source": "https://www.laterza.it/immagini/copertine-big/9788858158951.jpg",
-    "review_url": "https://www.laterza.it/scheda-libro/?isbn=9788858158951",
-    "rating": null
+    "cover_source": "https://www.laterza.it/immagini/copertine-big/9788858158951.jpg"
   },
   "divulgazione1": {
     "section": "06 — Divulgazione scientifica",
@@ -310,9 +272,7 @@
       "https://www.hoepli.it/libro/perche-il-cielo-non-ci-cade-sulla-testa/9788836016846.html"
     ],
     "preview_link": null,
-    "cover_source": "https://img2.libreriauniversitaria.it/BIT/500/684/9788836016846.jpg",
-    "review_url": "https://www.hoepli.it/libro/perche-il-cielo-non-ci-cade-sulla-testa/9788836016846.html",
-    "rating": null
+    "cover_source": "https://img2.libreriauniversitaria.it/BIT/500/684/9788836016846.jpg"
   },
   "divulgazione2": {
     "section": "06 — Divulgazione scientifica",
@@ -338,8 +298,6 @@
       "https://www.harpercollins.it/9791259855152/altre-terre/"
     ],
     "preview_link": null,
-    "cover_source": "https://i.harperapps.com/hcity/covers/9791259855152/x648.jpg",
-    "review_url": "https://www.harpercollins.it/9791259855152/altre-terre/",
-    "rating": null
+    "cover_source": "https://i.harperapps.com/hcity/covers/9791259855152/x648.jpg"
   }
 }

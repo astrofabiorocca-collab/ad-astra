@@ -10,9 +10,6 @@
 .book-level{display:flex;gap:7px;align-items:center;font-size:.8rem;line-height:1.5;margin:12px 0}
 .detail-button{color:#2461d7;font-weight:700;border-bottom:1px solid #b8cdef;padding:8px 0;font-size:.92rem;margin-top:6px}
 .book-open:focus-visible,.book-links a:focus-visible,.modal-close:focus-visible{outline:3px solid #2461d7;outline-offset:4px;border-radius:3px}
-.stars{color:#9c6900;letter-spacing:.08em;font-size:1.15rem}.stars span{color:#697b90}
-.reader-rating{font-size:.78rem;line-height:1.6;margin-top:12px}.reader-rating a{color:#245fb8;text-decoration:underline}.reader-rating small{display:block;font-size:.73rem;color:#617185}
-.rating-missing{font-size:.76rem;color:#65758b;margin:12px 0 0}
 .library-rating-note{max-width:1180px;width:92%;margin:0 auto 50px;font-size:.8rem;color:#607086;line-height:1.7}
 .book-modal{z-index:12000;overscroll-behavior:contain}.book-modal-window{position:relative;max-height:90dvh;overflow:auto;padding:38px;overscroll-behavior:contain;scrollbar-gutter:stable}
 .modal-close{position:sticky;top:0;margin-left:auto;display:block;z-index:2;background:#eef3fb;color:#123458;box-shadow:0 2px 8px #1232}
