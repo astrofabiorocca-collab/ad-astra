@@ -864,6 +864,7 @@
   </style>
 
 <link rel="stylesheet" href="assets/menu-persistente.css">
+<link rel="stylesheet" href="assets/software/icone.css">
 </head>
 
 
@@ -1049,9 +1050,7 @@
                 aria-label="Apri la scheda di Stellarium"
               >
 
-                <div class="software-icon">
-                  ST
-                </div>
+                <div class="software-icon"><img src="assets/software/stellarium.png" alt="Icona originale di Stellarium" width="64" height="64"></div>
 
                 <div>
 
@@ -1119,9 +1118,7 @@
                 aria-label="Apri la scheda di Cartes du Ciel"
               >
 
-                <div class="software-icon">
-                  CDC
-                </div>
+                <div class="software-icon"><img src="assets/software/cartesduciel.png" alt="Icona originale di Cartes du Ciel" width="64" height="64"></div>
 
                 <div>
 
@@ -1223,9 +1220,7 @@
                 aria-label="Apri la scheda di Siril"
               >
 
-                <div class="software-icon">
-                  SI
-                </div>
+                <div class="software-icon"><img src="assets/software/siril.svg" alt="Icona originale di Siril" width="64" height="64"></div>
 
                 <div>
 
@@ -1293,9 +1288,7 @@
                 aria-label="Apri la scheda di DeepSkyStacker"
               >
 
-                <div class="software-icon">
-                  DSS
-                </div>
+                <div class="software-icon"><img src="assets/software/deepskystacker.png" alt="Icona originale di DeepSkyStacker" width="64" height="64"></div>
 
                 <div>
 
@@ -1363,9 +1356,7 @@
                 aria-label="Apri la scheda di AutoStakkert"
               >
 
-                <div class="software-icon">
-                  AS
-                </div>
+                <div class="software-icon"><img src="assets/software/autostakkert.png" alt="Icona originale di AutoStakkert!" width="64" height="64"></div>
 
                 <div>
 
@@ -1432,9 +1423,7 @@
                 aria-label="Apri la scheda di RegiStax"
               >
 
-                <div class="software-icon">
-                  RS
-                </div>
+                <div class="software-icon"><img src="assets/software/registax.ico" alt="Icona originale di RegiStax" width="64" height="64"></div>
 
                 <div>
 
@@ -1502,9 +1491,7 @@
                 aria-label="Apri la scheda di AstroSurface"
               >
 
-                <div class="software-icon">
-                  AST
-                </div>
+                <div class="software-icon"><img src="assets/software/astrosurface.png" alt="Icona originale di AstroSurface" width="64" height="64"></div>
 
                 <div>
 
@@ -1607,9 +1594,7 @@
                 aria-label="Apri la scheda di GIMP"
               >
 
-                <div class="software-icon">
-                  GI
-                </div>
+                <div class="software-icon"><img src="assets/software/gimp.png" alt="Icona originale di GIMP" width="64" height="64"></div>
 
                 <div>
 
@@ -2422,6 +2407,7 @@
     const modalSubtitle = document.getElementById("modalSubtitle");
     const modalContent = document.getElementById("modalContent");
 
+    const softwareIconFiles = {"stellarium": "stellarium.png", "cartes": "cartesduciel.png", "siril": "siril.svg", "dss": "deepskystacker.png", "autostakkert": "autostakkert.png", "registax": "registax.ico", "astrosurface": "astrosurface.png", "gimp": "gimp.png"};
     const softwareButtons =
       document.querySelectorAll(".software-open");
 
@@ -2434,7 +2420,17 @@
         return;
       }
 
-      modalIcon.textContent = item.icon;
+      modalIcon.replaceChildren();
+      if (softwareIconFiles[key]) {
+        const image = document.createElement("img");
+        image.src = "assets/software/" + softwareIconFiles[key];
+        image.alt = "Icona originale di " + item.title;
+        image.width = 72;
+        image.height = 72;
+        modalIcon.append(image);
+      } else {
+        modalIcon.textContent = item.icon;
+      }
       modalTitle.textContent = item.title;
       modalSubtitle.textContent = item.subtitle;
       modalContent.innerHTML = item.content;

@@ -1,0 +1,10 @@
+.software-icon:has(img), .modal-icon:has(img) {
+  background: #f0f4fa;
+  padding: 8px;
+}
+.software-icon img, .modal-icon img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
