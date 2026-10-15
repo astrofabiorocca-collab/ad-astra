@@ -110,7 +110,7 @@
     "description": "Il cielo visibile è soltanto una parte del racconto. Onde radio, infrarosso, raggi X e raggi gamma permettono di studiare ambienti e processi che l’occhio umano non può percepire. Ghisellini segue lo sviluppo di queste astronomie, collegando strumenti e scoperte alla comprensione di stelle di neutroni, buchi neri e regioni di formazione stellare. È una lettura per chi desidera capire perché immagini dello stesso oggetto, ottenute in bande differenti, mostrino strutture e fenomeni diversi.",
     "short": "Radio, infrarosso, raggi X e gamma aprono finestre diverse sull’universo. Un viaggio fra strumenti e scoperte per comprendere ciò che la luce visibile non rivela.",
     "cover": "assets/biblioteca/9788836014378.jpg",
-    "lesson": "lezioni.html#area-08",
+    "lesson": "lezioni.html#area-04",
     "bio": [
       "Gabriele Ghisellini è un astrofisico dell’INAF, Osservatorio di Brera. Studia buchi neri, getti cosmici e radiazione di alta energia.",
       "https://www.hoepli.it/libro/l-universo-come-non-si-era-mai-visto/9788836014378.html"
@@ -136,7 +136,7 @@
     "description": "Come siamo arrivati a conoscere l’età e l’evoluzione dell’universo? Balbi ricostruisce il percorso che lega relatività, espansione cosmica e radiazione di fondo al modello del Big Bang. Il lettore incontra tanto le prove osservative quanto i limiti delle spiegazioni disponibili, dalla materia oscura alle domande sullo spazio e sul tempo. Un percorso concettuale per distinguere ciò che sappiamo da ciò che resta da indagare. L’edizione indicata è del 2025; l’opera originale è del 2019 e non è documentata una revisione scientifica integrale.",
     "short": "Le prove e le idee della cosmologia moderna, dall’espansione alla radiazione di fondo. Una lettura per distinguere conoscenze consolidate e domande ancora aperte.",
     "cover": "assets/biblioteca/9791221213607.jpg",
-    "lesson": "lezioni.html#area-08",
+    "lesson": "lezioni.html#area-06",
     "bio": [
       "Amedeo Balbi è un astrofisico e divulgatore dell’Università di Roma Tor Vergata. Si occupa di cosmologia e di ricerca della vita nell’universo e collabora con Le Scienze.",
       "https://www.utetlibri.it/libri/lultimo-orizzonte-3/"
@@ -292,7 +292,7 @@
     "description": "Come si scopre un pianeta che non possiamo osservare direttamente e che cosa possiamo sapere della sua natura? Covone racconta la ricerca degli esopianeti attraverso idee, strumenti e scoperte, mettendo in relazione mondi molto diversi dalla Terra e domande sulla presenza della vita. La lettura aiuta a separare misure, interpretazioni e possibilità ancora da verificare: un pianeta nella zona abitabile non è automaticamente abitato. L’edizione tascabile indicata è del 2025 e riprende un’opera pubblicata nel 2023.",
     "short": "Come si scoprono e si studiano i pianeti di altre stelle? Metodi, scoperte e domande sulla vita aiutano a distinguere ciò che misuriamo da ciò che immaginiamo.",
     "cover": "assets/biblioteca/9791259855152.jpg",
-    "lesson": "lezioni.html#area-07",
+    "lesson": "lezioni.html#area-10",
     "bio": [
       "Giovanni Covone è un astrofisico e docente universitario. Si occupa di ricerca astronomica e di divulgazione, con particolare attenzione ai pianeti extrasolari e al nostro posto nell’universo.",
       "https://www.harpercollins.it/9791259855152/altre-terre/"

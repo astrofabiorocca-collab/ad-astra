@@ -22,3 +22,21 @@
 @media(max-width:760px){.books-grid{grid-template-columns:minmax(0,1fr)}}
 @media(max-width:600px){.book-card{padding:20px;grid-template-columns:90px minmax(0,1fr);gap:16px}.book-cover{width:90px;height:140px}.book-title{font-size:1.06rem}.book-category{font-size:.65rem}.book-modal{padding:10px}.book-modal-window{padding:18px;max-height:94dvh}.modal-grid{grid-template-columns:minmax(0,1fr);gap:20px}.modal-cover{max-width:150px;margin:auto}.modal-cover img{max-height:205px}.modal-title{font-size:1.35rem}.modal-data-row{grid-template-columns:1fr}.modal-content p{font-size:.95rem}.book-level{font-size:.74rem}}
 @media(prefers-reduced-motion:reduce){.book-cover{transition:none!important}.book-open:hover .book-cover{transform:none}}
+/* Accesso alla Biblioteca online: immagine concettuale e testo HTML. */
+.portal-section{padding:54px 0;background:#f7f9fc;border-top:1px solid #dce6f1}
+.portal-banner{position:relative;isolation:isolate;overflow:hidden;min-height:365px;border:1px solid #c5d6eb;border-radius:17px;background:#eef4fb}
+.portal-visual{position:absolute;inset:0 auto 0 0;width:45%;overflow:hidden;z-index:-1;mask-image:linear-gradient(90deg,#000 66%,transparent 100%)}
+.portal-visual img{width:235%;max-width:none;height:100%;object-fit:cover;object-position:left center}
+.portal-copy{padding:40px 36px 34px;margin-left:43%}
+.portal-eyebrow{color:#2863d8;font-size:.69rem;font-weight:700;letter-spacing:.19em;margin-bottom:12px;line-height:1.6}
+.portal-copy h2{font-size:clamp(25px,2.6vw,39px);line-height:1.15;letter-spacing:-.025em;color:#102342;margin:0 0 10px}
+.portal-subtitle{font-size:clamp(18px,1.6vw,24px);line-height:1.35;margin-bottom:17px}
+.portal-description{font-size:.95rem;line-height:1.7;margin-bottom:21px;color:#324965}
+.portal-cta{display:inline-flex;align-items:center;gap:16px;padding:12px 21px;background:#2863d8;color:#fff;border-radius:7px;font-weight:700;font-size:.94rem;line-height:1.5;transition:background .2s}
+.portal-cta:hover{background:#174eaf}.portal-cta:focus-visible{outline:3px solid #102342;outline-offset:4px}
+.portal-topics{margin-top:16px;font-size:.73rem;line-height:1.7;color:#53677f}.portal-topics span{padding:0 7px}
+.online-intro{padding:45px 0;background:#eef4fb}.online-intro nav{margin-bottom:35px;font-size:.88rem}.online-intro nav a{text-decoration:underline}.online-intro nav span{margin:0 10px}
+.online-intro h1{font-size:clamp(29px,4vw,46px);line-height:1.2;margin-bottom:20px}.online-intro p:not(.portal-eyebrow){max-width:900px;line-height:1.8}.catalog-status{margin-top:24px;padding:18px 22px;border-left:3px solid #3263c5;background:#fff;font-size:.9rem}
+.online-portals{padding:48px 0 65px}.online-guidance{margin:14px 0 28px;max-width:880px;color:#516780}.institution-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}.institution-grid article{padding:27px;background:#fff;border:1px solid #d5e1ef;border-radius:10px;display:flex;flex-direction:column;align-items:flex-start}.institution-grid h3{font-size:1.4rem;margin-bottom:12px}.institution-grid small{display:block;color:#64768c;margin:15px 0}.institution-grid a{margin-top:auto;color:#245fb8;font-weight:700;text-decoration:underline}.online-back{display:inline-block;margin-top:32px;color:#245fb8;text-decoration:underline}
+@media(max-width:900px){.portal-copy{padding:30px 25px;margin-left:38%}.portal-visual{width:41%}.portal-visual img{width:265%}.portal-description{font-size:.89rem}}
+@media(max-width:600px){.portal-section{padding:30px 0}.portal-banner{min-height:0}.portal-visual{position:relative;width:100%;height:195px;mask-image:linear-gradient(#000 55%,transparent 100%)}.portal-visual img{width:240%;height:auto;min-height:100%;object-position:left top;transform:translateY(-9%)}.portal-copy{margin:0;padding:0 23px 27px}.portal-copy h2{font-size:27px}.portal-description{font-size:.94rem}.portal-eyebrow{font-size:.62rem}.portal-topics{font-size:.7rem}.portal-cta{padding:12px 16px;font-size:.88rem}.institution-grid{grid-template-columns:minmax(0,1fr)}.institution-grid article{padding:22px}}
