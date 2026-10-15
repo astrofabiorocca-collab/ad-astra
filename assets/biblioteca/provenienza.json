@@ -1,0 +1,170 @@
+[
+  {
+    "isbn": "9788817190022",
+    "image_url": "https://www.rizzolilibri.it/content/uploads/2024/10/978881719002GRA.webp?x30388",
+    "size": [
+      457,
+      700
+    ],
+    "status": "ok",
+    "source_page": "https://www.rizzolilibri.it/libri/il-cosmo-in-brevi-lezioni/",
+    "checked": "2026-10-15",
+    "file": "assets/biblioteca/9788817190022.jpg",
+    "rights": "Copertina © rispettivi aventi diritto; identificazione editoriale, nessuna licenza libera dichiarata.",
+    "sha256": "63cfe6ab0bc8d18895efa733c558298c123a054246c03fe23af135abec108205"
+  },
+  {
+    "isbn": "9788893643337",
+    "image_url": "https://www.inriga.it/wp-content/uploads/2021/07/image12-324x415.png",
+    "size": [
+      324,
+      415
+    ],
+    "status": "ok",
+    "source_page": "https://www.inriga.it/astronomia/",
+    "checked": "2026-10-15",
+    "file": "assets/biblioteca/9788893643337.jpg",
+    "rights": "Copertina © rispettivi aventi diritto; identificazione editoriale, nessuna licenza libera dichiarata.",
+    "sha256": "bb9d5f2c77039cad3d141b4aaac8a1a3a68ec19cf19fbf43f155e09690384ed3"
+  },
+  {
+    "isbn": "9791221213607",
+    "image_url": "https://www.utetlibri.it/uploads/2025/02/piatto_balbi-1_c430c9e65b04e52d365ac62fa47c5264.jpg",
+    "size": [
+      220,
+      333
+    ],
+    "status": "ok",
+    "source_page": "https://www.utetlibri.it/libri/lultimo-orizzonte-3/",
+    "checked": "2026-10-15",
+    "file": "assets/biblioteca/9791221213607.jpg",
+    "rights": "Copertina © rispettivi aventi diritto; identificazione editoriale, nessuna licenza libera dichiarata.",
+    "sha256": "b45e8f26a2529f3f81a5f371ab651d09b34aa31752cfa6becae1b78a17f7399d"
+  },
+  {
+    "isbn": "9788850337460",
+    "image_url": "https://www.apogeonline.com/contrib/uploads/Copertina_definitiva-116752.jpg",
+    "size": [
+      520,
+      673
+    ],
+    "status": "ok",
+    "source_page": "https://www.apogeonline.com/libri/fotografia-astronomica-luca-fornaciari/",
+    "checked": "2026-10-15",
+    "file": "assets/biblioteca/9788850337460.jpg",
+    "rights": "Copertina © rispettivi aventi diritto; identificazione editoriale, nessuna licenza libera dichiarata.",
+    "sha256": "abe282e1e17fa16c0a35f26f6c5af5c2fc247114abd00196ebc42ace65feea4f"
+  },
+  {
+    "isbn": "9798197348951",
+    "image_url": "https://www.deepskymethod.com/wp-content/uploads/2026/08/astrofotografia-digitale-dal-sensore-all-immagine.jpg",
+    "size": [
+      505,
+      728
+    ],
+    "status": "ok",
+    "source_page": "https://www.deepskymethod.com/libro-di-astrofotografia-digitale/",
+    "checked": "2026-10-15",
+    "file": "assets/biblioteca/9798197348951.jpg",
+    "rights": "Copertina © rispettivi aventi diritto; identificazione editoriale, nessuna licenza libera dichiarata.",
+    "sha256": "027ee277371de93362f9a7239ae35a8775e8dbc1093912b96d34a2da77685d26"
+  },
+  {
+    "isbn": "9788829001217",
+    "image_url": "https://www.carocci.it/wp-content/uploads/2020/09/9788829001217-600x880.jpg",
+    "size": [
+      518,
+      760
+    ],
+    "status": "ok",
+    "source_page": "https://www.carocci.it/prodotto/lincanto-di-urania",
+    "checked": "2026-10-15",
+    "file": "assets/biblioteca/9788829001217.jpg",
+    "rights": "Copertina © rispettivi aventi diritto; identificazione editoriale, nessuna licenza libera dichiarata.",
+    "sha256": "96239eb21ab79319b9b5d543971825ffb66a2867bbe0e0f557bf6259dd6309e4"
+  },
+  {
+    "isbn": "9788858158951",
+    "image_url": "https://www.laterza.it/immagini/copertine-big/9788858158951.jpg",
+    "size": [
+      507,
+      760
+    ],
+    "status": "ok",
+    "source_page": "https://www.laterza.it/scheda-libro/?isbn=9788858158951",
+    "checked": "2026-10-15",
+    "file": "assets/biblioteca/9788858158951.jpg",
+    "rights": "Copertina © rispettivi aventi diritto; identificazione editoriale, nessuna licenza libera dichiarata.",
+    "sha256": "f23b49ed936d4b519a04ec71f7acf88e65e9f2008a25dbf34cac168436419619"
+  },
+  {
+    "isbn": "9791259855152",
+    "image_url": "https://i.harperapps.com/hcity/covers/9791259855152/x648.jpg",
+    "size": [
+      490,
+      760
+    ],
+    "status": "ok",
+    "source_page": "https://www.harpercollins.it/9791259855152/altre-terre/",
+    "checked": "2026-10-15",
+    "file": "assets/biblioteca/9791259855152.jpg",
+    "rights": "Copertina © rispettivi aventi diritto; identificazione editoriale, nessuna licenza libera dichiarata.",
+    "sha256": "5d8e41cee83ae0c08604f208a880d84ed7b1470d6ca741a165650ef6ba4e5864"
+  },
+  {
+    "isbn": "9788869856693",
+    "image_url": "https://img2.libreriauniversitaria.it/BIT/500/669/9788869856693.jpg",
+    "size": [
+      500,
+      716
+    ],
+    "status": "ok",
+    "source_page": "https://www.libreriauniversitaria.it/atlante-astronomia-guida-pratica-osservazione/libro/9788869856693",
+    "checked": "2026-10-15",
+    "file": "assets/biblioteca/9788869856693.jpg",
+    "rights": "Copertina © rispettivi aventi diritto; identificazione editoriale, nessuna licenza libera dichiarata.",
+    "sha256": "ee4c63317d1a9dfcec8ebe46b1e1f72e020277da4fcbd583930326991f51914a"
+  },
+  {
+    "isbn": "9788808820174",
+    "image_url": "https://img2.libreriauniversitaria.it/BIT/500/017/9788808820174.jpg",
+    "size": [
+      353,
+      500
+    ],
+    "status": "ok",
+    "source_page": "https://www.zanichelli.it/ricerca/prodotti/astronomia-per-gli-studenti-di-scienze-della-formazione-primaria",
+    "checked": "2026-10-15",
+    "file": "assets/biblioteca/9788808820174.jpg",
+    "rights": "Copertina © rispettivi aventi diritto; identificazione editoriale, nessuna licenza libera dichiarata.",
+    "sha256": "fc10258f7b1465e3e662370e2cadac75765cdee5bc3a6996cc7798afd6fecd27"
+  },
+  {
+    "isbn": "9788836014378",
+    "image_url": "https://img2.libreriauniversitaria.it/BIT/500/437/9788836014378.jpg",
+    "size": [
+      500,
+      738
+    ],
+    "status": "ok",
+    "source_page": "https://www.hoepli.it/libro/l-universo-come-non-si-era-mai-visto/9788836014378.html",
+    "checked": "2026-10-15",
+    "file": "assets/biblioteca/9788836014378.jpg",
+    "rights": "Copertina © rispettivi aventi diritto; identificazione editoriale, nessuna licenza libera dichiarata.",
+    "sha256": "401f3cc3fceebdcb6510270749e7ba0de7cd5f938fa9052bde80fca525987a73"
+  },
+  {
+    "isbn": "9788836016846",
+    "image_url": "https://img2.libreriauniversitaria.it/BIT/500/684/9788836016846.jpg",
+    "size": [
+      500,
+      758
+    ],
+    "status": "ok",
+    "source_page": "https://www.hoepli.it/libro/perche-il-cielo-non-ci-cade-sulla-testa/9788836016846.html",
+    "checked": "2026-10-15",
+    "file": "assets/biblioteca/9788836016846.jpg",
+    "rights": "Copertina © rispettivi aventi diritto; identificazione editoriale, nessuna licenza libera dichiarata.",
+    "sha256": "7562b0cbd77c33e6bde7339c2b28bd32773ad749d66d1d2b0b520a1bcae340fd"
+  }
+]
