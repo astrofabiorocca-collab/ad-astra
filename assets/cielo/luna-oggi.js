@@ -14,4 +14,5 @@ function render(){try{const p=timeParts(new Date()),date=localDate(p.year,p.mont
  }catch(e){console.error('Luna oggi:',e);box.textContent='Dati lunari momentaneamente non disponibili.';window.LunaOggi={ready:false};}}
 function check(){const p=timeParts(new Date());if(key!==[p.year,p.month,p.day,$('#eff-city').value].join('-'))render();}
 function schedule(){clearTimeout(timer);const p=timeParts(new Date()),next=localDate(p.year,p.month,p.day+1,0);timer=setTimeout(()=>{render();schedule();},Math.min(2147483647,Math.max(100,next-Date.now()+100)));}
+window.addEventListener('ad-astra:refresh',()=>{render();schedule();});
 $('#eff-city').addEventListener('change',render);window.addEventListener('storage',e=>{if(e.key==='ad-astra-city')check();});window.addEventListener('pageshow',()=>{check();schedule();});document.addEventListener('visibilitychange',()=>{if(!document.hidden){check();schedule();}});render();schedule();})();

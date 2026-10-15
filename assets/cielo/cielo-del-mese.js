@@ -138,5 +138,6 @@ function schedule(){clearTimeout(timer);const p=timeParts(new Date()),next=p.mon
 function check(){const p=activeMonth();if(monthKey!==p.year+'-'+p.month)render();}
 select.addEventListener('change',()=>{try{localStorage.setItem('ad-astra-city',select.value);}catch(e){}render();});document.addEventListener('visibilitychange',()=>{if(!document.hidden){check();schedule();}});window.addEventListener('pageshow',check);
 window.addEventListener('storage',e=>{if(e.key==='ad-astra-city'&&cities.some(c=>c[0]===e.newValue)){select.value=e.newValue;render();}});
+window.addEventListener('ad-astra:refresh',()=>{render();schedule();});
 render();schedule();
 })();
