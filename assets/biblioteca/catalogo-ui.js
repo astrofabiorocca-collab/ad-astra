@@ -12,14 +12,16 @@
  addOptions(type,data.resources.map(r=>r.type));addOptions(language,data.resources.map(r=>r.language));addOptions(level,data.resources.map(r=>r.level));addOptions(source,data.resources.map(r=>r.source));
  const params=new URLSearchParams(location.search);for(const [key,control]of Object.entries({q,area,type,language,level,source,sort})){const v=params.get(key);if(v!==null && (control===q||[...control.options].some(o=>o.value===v)))control.value=v;}
  const indexed=data.resources.map(r=>({...r,search:normalized([r.title,r.description,r.source,r.year,r.note,r.scope,...r.areas.map(a=>names[a])].join(' '))}));
- let limit=24,rows=[],timer;
+ const controls={q,area,type,language,level,source,sort};
+ const readFilters=()=>Object.fromEntries(Object.entries(controls).map(([key,c])=>[key,c.value]));
+ let applied=readFilters(),limit=24,rows=[];
  function storeFilters(){const u=new URL(location.href);for(const[key,c]of Object.entries({q,area,type,language,level,source,sort})){if(c.value && !(key==='sort'&&c.value==='recommended'))u.searchParams.set(key,c.value);else u.searchParams.delete(key);}try{history.replaceState(null,'',u);}catch{}}
  function resourceCard(r){
   const article=el('article',undefined,'catalog-card');article.id='risorsa-'+r.id;
   const meta=el('div',undefined,'catalog-card-meta');meta.append(el('span',r.type,'resource-type'),el('span',r.language));
   const h=el('h3');h.append(link(r.title,r.url));const credit=el('p',r.source+(r.year?' · '+r.year:''),'catalog-credit');
   article.append(meta,h,credit);if(['restricted','unverified'].includes(r.linkState))article.append(el('p','Accesso alla fonte da verificare','catalog-access-note'));article.append(el('p',r.description,'catalog-description'));
-  const tags=el('div',undefined,'catalog-tags');r.areas.forEach(a=>{const button=el('button',names[a]);button.type='button';button.addEventListener('click',()=>{area.value=a;limit=24;draw(true);$('library-query').focus({preventScroll:true});root.scrollIntoView({behavior:'auto',block:'start'});});tags.append(button);});article.append(tags);
+  const tags=el('div',undefined,'catalog-tags');r.areas.forEach(a=>{const button=el('button',names[a]);button.type='button';button.addEventListener('click',()=>{area.value=a;$('library-query').focus({preventScroll:true});root.scrollIntoView({behavior:'auto',block:'start'});});tags.append(button);});article.append(tags);
   const details=el('details',undefined,'resource-details');details.append(el('summary','Contenuti, livello e provenienza'));
   const dl=el('dl');for(const[label,value]of [['Formato',r.scope],['Livello',r.level],['Fonte / autore',r.source],['Consultazione',r.review],['Link',r.linkLabel||'Collegamento alla fonte originale']]){dl.append(el('dt',label),el('dd',value));}details.append(dl);
   if(r.note)details.append(el('p',r.note,'resource-note'));
@@ -33,20 +35,19 @@
   const a=r.areas[0];const lesson=link('Percorso AD ASTRA →','area-'+a+'.html');lesson.setAttribute('aria-label','Esplora '+names[a]+' su AD ASTRA');actions.append(lesson);article.append(actions);return article;
  }
  function draw(update){
-  const words=normalized(q.value.trim()).split(/\s+/).filter(Boolean);
-  rows=indexed.filter(r=>words.every(w=>r.search.includes(w))&&(!area.value||r.areas.includes(area.value))&&(!type.value||type.value===r.type)&&(!language.value||language.value===r.language)&&(!level.value||level.value===r.level)&&(!source.value||source.value===r.source));
+  const words=normalized(applied.q.trim()).split(/\s+/).filter(Boolean);
+  rows=indexed.filter(r=>words.every(w=>r.search.includes(w))&&(!applied.area||r.areas.includes(applied.area))&&(!applied.type||applied.type===r.type)&&(!applied.language||applied.language===r.language)&&(!applied.level||applied.level===r.level)&&(!applied.source||applied.source===r.source));
   const order={'PDF e dispense':0,'Corsi e lezioni':1,'Portali e strumenti':2,'Approfondimenti':3,'Playlist':4,'Video':5};
-  rows.sort((a,b)=>sort.value==='title'?a.title.localeCompare(b.title,'it'):sort.value==='source'?a.source.localeCompare(b.source,'it')||a.title.localeCompare(b.title,'it'):(Number(['restricted','unverified'].includes(a.linkState))-Number(['restricted','unverified'].includes(b.linkState)))||(order[a.type]-order[b.type])||(a.language==='Italiano'?0:1)-(b.language==='Italiano'?0:1)||a.title.localeCompare(b.title,'it'));
+  rows.sort((a,b)=>applied.sort==='title'?a.title.localeCompare(b.title,'it'):applied.sort==='source'?a.source.localeCompare(b.source,'it')||a.title.localeCompare(b.title,'it'):(Number(['restricted','unverified'].includes(a.linkState))-Number(['restricted','unverified'].includes(b.linkState)))||(order[a.type]-order[b.type])||(a.language==='Italiano'?0:1)-(b.language==='Italiano'?0:1)||a.title.localeCompare(b.title,'it'));
   cards.replaceChildren(...rows.slice(0,limit).map(resourceCard));
   count.textContent=rows.length+' risors'+(rows.length===1?'a trovata':'e trovate')+' · '+Math.min(limit,rows.length)+' mostrat'+(Math.min(limit,rows.length)===1?'a':'e');
   $('library-empty').hidden=rows.length!==0;more.hidden=rows.length<=limit;
   if(update)storeFilters();
  }
- q.addEventListener('input',()=>{clearTimeout(timer);timer=setTimeout(()=>{limit=24;draw(true);},140);});
- for(const c of[area,type,language,level,source,sort])c.addEventListener('change',()=>{limit=24;draw(true);});
- reset.addEventListener('click',()=>{for(const c of[q,area,type,language,level,source])c.value='';sort.value='recommended';limit=24;draw(true);q.focus();});
- document.querySelectorAll('[data-library-type]').forEach(b=>b.addEventListener('click',()=>{type.value=b.dataset.libraryType;limit=24;draw(true);root.scrollIntoView({behavior:'auto',block:'start'});}));
+ root.querySelector('form').addEventListener('submit',event=>{event.preventDefault();applied=readFilters();limit=24;draw(true);count.scrollIntoView({behavior:'auto',block:'center'});});
+ reset.addEventListener('click',()=>{for(const c of[q,area,type,language,level,source])c.value='';sort.value='recommended';applied=readFilters();limit=24;draw(true);q.focus();});
+ document.querySelectorAll('[data-library-type]').forEach(b=>b.addEventListener('click',()=>{type.value=b.dataset.libraryType;q.focus({preventScroll:true});root.scrollIntoView({behavior:'auto',block:'start'});}));
  more.addEventListener('click',()=>{const old=limit;limit+=24;draw(false);const target=cards.children[old]?.querySelector('h3 a');target?.focus({preventScroll:true});});
- $('library-export').addEventListener('click',()=>{const selected=rows.map(({title,source,type,language,year,url})=>({title,source,type,language,year,url}));const cell=value=>{let s=String(value);if(/^[=+@\-\t\r]/.test(s))s="'"+s;return '"'+s.replaceAll('"','""')+'"';};const csv='\ufeffTitolo;Fonte;Formato;Lingua;Anno;URL\r\n'+selected.map(r=>Object.values(r).map(cell).join(';')).join('\r\n');const a=document.createElement('a');a.href='data:text/csv;charset=utf-8,'+encodeURIComponent(csv);a.download='ad-astra-risorse-selezionate.csv';document.body.append(a);a.click();a.remove();});
+ document.querySelectorAll('[data-library-source]').forEach(button=>button.addEventListener('click',()=>{for(const c of[q,area,type,language,level])c.value='';source.value=button.dataset.librarySource;root.scrollIntoView({behavior:'auto',block:'start'});$('library-search').focus({preventScroll:true});}));
  $('library-total').textContent=data.resources.length;draw(false);
 })();
