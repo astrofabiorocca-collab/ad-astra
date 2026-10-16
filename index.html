@@ -1357,6 +1357,7 @@
 .hero-banner11 .banner11-image{display:block;width:100%;max-width:none;height:auto;object-fit:contain;margin:0;mask-image:linear-gradient(to bottom,#000 0%,#000 92%,rgba(0,0,0,.97) 94%,rgba(0,0,0,.8) 96%,rgba(0,0,0,.35) 98%,transparent 100%)}
 .hero.hero-banner11::after{content:'';position:absolute;left:0;right:0;bottom:0;height:var(--raccordo);background:linear-gradient(to bottom,#000 0%,#000 5%,#000102 15%,#010305 28%,#020609 43%,#03090f 59%,#050d16 76%,#06101b 91%,#06101c 100%);pointer-events:none}
 </style><link rel="stylesheet" href="assets/menu-persistente.css">
+<link rel="stylesheet" href="assets/biblioteca/giovani-richiami.css">
 </head>
 
 
@@ -1736,29 +1737,12 @@
 
 
 
-          <article class="tool-card">
-
-            <div class="tool-icon">
-              ◫
-            </div>
-
-            <h3>
-              Biblioteca
-            </h3>
-
-            <p>
-              Una raccolta essenziale
-              di materiali didattici,
-              manuali, documenti e risorse.
-            </p>
-
-            <a
-              class="tool-link"
-              href="biblioteca.html"
-            >
-              Vai alla biblioteca →
-            </a>
-
+          <article class="tool-card tool-library-card" aria-labelledby="home-library-title">
+            <div class="tool-icon" aria-hidden="true">◫</div>
+            <h3 id="home-library-title">Biblioteca</h3>
+            <p>Libri consigliati, risorse online e attività per bambini e ragazzi.</p>
+            <a class="tool-link" href="biblioteca.html">Esplora la biblioteca →</a>
+            <nav class="home-library-shortcuts" aria-label="Percorsi della Biblioteca"><a href="biblioteca-online.html">Biblioteca online</a><a href="giovani-esploratori.html">Giovani esploratori</a></nav>
           </article>
 
 
@@ -1774,7 +1758,8 @@
          NOTIZIE
     ====================================================== -->
 
-    <section class="news-section">
+
+<section class="news-section">
 
       <div class="container">
 
