@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "15 ottobre 2026",
+  "updated": "18 ottobre 2026",
   "areas": [
     {
       "id": "01",
@@ -41,6 +41,10 @@
     {
       "id": "10",
       "title": "Approfondimenti e temi speciali"
+    },
+    {
+      "id": "astronautica",
+      "title": "Astronautica e missioni spaziali"
     }
   ],
   "resources": [
@@ -58,7 +62,7 @@
         "04",
         "06"
       ],
-      "level": "Intermedio",
+      "level": "Medio",
       "year": "2022",
       "description": "Un compendio di astronomia per ripassare i concetti e preparare uno studio più sistematico. Il documento comprende anche passaggi quantitativi.",
       "note": "",
@@ -71,20 +75,20 @@
     },
     {
       "id": "lattanzi",
-      "title": "Dispense di astrofisica — INAF Torino, Technical Report 078",
+      "title": "Lezioni di astronomia fondamentale — Lattanzi e Pannunzio",
       "url": "https://www.oato.inaf.it/biblioteca/pdf/TechRep078_Lattanzi.pdf",
       "type": "PDF e dispense",
       "source": "INAF – Osservatorio di Torino",
       "language": "Italiano",
       "areas": [
-        "04",
-        "06",
+        "01",
+        "09",
         "10"
       ],
       "level": "Avanzato",
-      "year": "2006–2007",
-      "description": "Dispense di astrofisica per uno studio articolato. La matematica e il contesto universitario richiedono una preparazione maggiore rispetto alle letture introduttive.",
-      "note": "Documento storico: non usarlo come aggiornamento sulle ultime misure.",
+      "year": "2007",
+      "description": "Coordinate, riferimenti e metodi dell’astronomia fondamentale: dispense universitarie di Mario G. Lattanzi e Renato Pannunzio.",
+      "note": "Copertina datata 24 aprile 2007. Richiede trigonometria e preparazione universitaria; non è un corso aggiornato di astrofisica generale.",
       "sourcePage": "https://www.oato.inaf.it/biblioteca/pdf/TechRep078_Lattanzi.pdf",
       "scope": "Dispense",
       "review": "Scheda di orientamento; non recensione integrale",
@@ -105,7 +109,7 @@
         "03",
         "04"
       ],
-      "level": "Intermedio",
+      "level": "Medio",
       "year": "",
       "description": "Appunti per approfondire i principi astronomici e collegare geometria, moti e caratteristiche degli astri.",
       "note": "Materiale storico: il riferimento a Plutone inesplorato è superato dal sorvolo New Horizons del 2015. Sono presenti passaggi sulle eclissi da confrontare con fonti aggiornate.",
@@ -127,7 +131,7 @@
         "01",
         "03"
       ],
-      "level": "Introduzione",
+      "level": "Facile",
       "year": "",
       "description": "Un capitolo editoriale per affiancare lo studio scolastico dell’astronomia. È un estratto, non la copia integrale del manuale.",
       "note": "",
@@ -150,7 +154,7 @@
         "04",
         "06"
       ],
-      "level": "Intermedio",
+      "level": "Medio",
       "year": "",
       "description": "Materiale di approfondimento astronomico da affiancare alle lezioni e alle voci enciclopediche.",
       "note": "Il percorso URL contiene 2018: non è assunto come data certa dell’opera.",
@@ -172,7 +176,7 @@
         "01",
         "07"
       ],
-      "level": "Introduzione",
+      "level": "Facile",
       "year": "",
       "description": "Estratto di un atlante tascabile: un esempio di consultazione delle carte e dei riferimenti del cielo.",
       "note": "Anteprima editoriale, non libro completo.",
@@ -217,7 +221,7 @@
       "areas": [
         "03"
       ],
-      "level": "Introduzione",
+      "level": "Facile",
       "year": "",
       "description": "Materiale scolastico sul Sistema solare, conservato come risorsa storica di confronto.",
       "note": "La classificazione che include Plutone fra i pianeti è superata: oggi i pianeti sono otto; Plutone è un pianeta nano.",
@@ -262,7 +266,7 @@
         "07",
         "09"
       ],
-      "level": "Introduzione",
+      "level": "Facile",
       "year": "",
       "description": "Introduzione all’uso di Stellarium come aiuto per riconoscere il cielo e preparare le osservazioni.",
       "note": "Interfaccia e funzioni possono differire nelle versioni attuali: consultare anche il manuale aggiornato.",
@@ -285,7 +289,7 @@
         "03",
         "04"
       ],
-      "level": "Introduzione",
+      "level": "Facile",
       "year": "2014–2015",
       "description": "Presentazione introduttiva del percorso L’Universo in fiore, utile per accompagnare un primo studio dell’astronomia.",
       "note": "Presentazione storica: dati e riferimenti tecnologici possono essere superati.",
@@ -308,7 +312,7 @@
         "02",
         "03"
       ],
-      "level": "Intermedio",
+      "level": "Medio",
       "year": "",
       "description": "Primo corso di astronomia: nozioni di base, geometria e interpretazione dei fenomeni. Una lettura da affiancare a carte ed esercizi.",
       "note": "Materiale storico: distingue i fondamenti dagli aggiornamenti delle scoperte e della strumentazione.",
@@ -331,7 +335,7 @@
         "05",
         "06"
       ],
-      "level": "Intermedio",
+      "level": "Medio",
       "year": "",
       "description": "Secondo corso di astronomia, per proseguire lo studio oltre le basi e approfondire i fenomeni celesti.",
       "note": "Materiale storico: dati e tecnologie vanno confrontati con fonti recenti.",
@@ -352,7 +356,7 @@
       "areas": [
         "01"
       ],
-      "level": "Introduzione",
+      "level": "Facile",
       "year": "2015",
       "description": "Estratto editoriale di Sette lezioni di astronomia: un assaggio del percorso introduttivo proposto dall’autore.",
       "note": "Il PDF comprende 22 pagine, non il libro intero.",
@@ -374,7 +378,7 @@
         "07",
         "09"
       ],
-      "level": "Intermedio",
+      "level": "Medio",
       "year": "2024",
       "description": "Introduzione alla pratica con smart telescope, focalizzata sul Seestar S50 e sull’osservazione assistita da acquisizione digitale.",
       "note": "In inglese. Le caratteristiche del modello non si trasferiscono automaticamente ai dispositivi successivi.",
@@ -417,7 +421,7 @@
       "areas": [
         "09"
       ],
-      "level": "Intermedio",
+      "level": "Medio",
       "year": "",
       "description": "Un comunicato aziendale sulla collaborazione e sull’investimento Nikon in Unistellar.",
       "note": "Fonte aziendale, non prova indipendente delle prestazioni. Il percorso URL non certifica la data editoriale.",
@@ -439,7 +443,7 @@
         "01",
         "09"
       ],
-      "level": "Intermedio",
+      "level": "Medio",
       "year": "",
       "description": "Coordinate e riferimenti per descrivere la posizione degli astri: una dispensa da affiancare alle attività di orientamento.",
       "note": "Controllare la convenzione dell’azimut: AD ASTRA misura da Nord verso Est; altre fonti possono partire da Sud.",
@@ -460,7 +464,7 @@
       "areas": [
         "04"
       ],
-      "level": "Intermedio",
+      "level": "Medio",
       "year": "",
       "description": "Proprietà delle stelle e relazioni fra le grandezze fisiche, per approfondire luce, temperatura e luminosità.",
       "note": "A pagina 18 è stato verificato un refuso nella didascalia massa–luminosità: la figura riporta L ∝ M⁴, non il contrario. È un modello con ambito limitato.",
@@ -481,7 +485,7 @@
       "areas": [
         "06"
       ],
-      "level": "Intermedio",
+      "level": "Medio",
       "year": "",
       "description": "Una presentazione per approfondire le galassie e collegarne le caratteristiche al quadro dell’universo.",
       "note": "",
@@ -503,7 +507,7 @@
         "06",
         "10"
       ],
-      "level": "Intermedio",
+      "level": "Medio",
       "year": "",
       "description": "Materiale introduttivo ai temi dell’astrofisica e della cosmologia, da leggere insieme alle osservazioni che sostengono i modelli.",
       "note": "Per dati cosmologici recenti consultare anche le pubblicazioni aggiornate.",
@@ -20888,7 +20892,7 @@
         "06",
         "10"
       ],
-      "level": "Intermedio",
+      "level": "Medio",
       "year": "2026",
       "description": "Lezione 1 del corso di formazione INAF Torino 2025/2026. Prof. P. Ugliengo, UniTo / Dip. Chimica. Il programma ufficiale contiene i riferimenti agli organizzatori e ai materiali resi disponibili.",
       "note": "Materiali consultabili presso le fonti ufficiali. Nessuna copia di slide o registrazioni ospitata da AD ASTRA; autorizzazione alla ripubblicazione non ancora ricevuta.",
@@ -20921,7 +20925,7 @@
         "06",
         "10"
       ],
-      "level": "Intermedio",
+      "level": "Medio",
       "year": "2026",
       "description": "Lezione 2 del corso di formazione INAF Torino 2025/2026. Prof.ssa L. Ostorero, UniTo / Dip. Fisica. Il programma ufficiale contiene i riferimenti agli organizzatori e ai materiali resi disponibili.",
       "note": "Materiali consultabili presso le fonti ufficiali. Nessuna copia di slide o registrazioni ospitata da AD ASTRA; autorizzazione alla ripubblicazione non ancora ricevuta.",
@@ -20953,7 +20957,7 @@
       "areas": [
         "07"
       ],
-      "level": "Intermedio",
+      "level": "Medio",
       "year": "2026",
       "description": "Lezione 3 del corso di formazione INAF Torino 2025/2026. Team NOCTIS-INAF, primo collegamento. Il programma ufficiale contiene i riferimenti agli organizzatori e ai materiali resi disponibili.",
       "note": "Materiali consultabili presso le fonti ufficiali. Nessuna copia di slide o registrazioni ospitata da AD ASTRA; autorizzazione alla ripubblicazione non ancora ricevuta.",
@@ -20985,7 +20989,7 @@
       "areas": [
         "10"
       ],
-      "level": "Intermedio",
+      "level": "Medio",
       "year": "2026",
       "description": "Lezione 4 del corso di formazione INAF Torino 2025/2026. Dr.ssa G. Bernardi, Science Journalist e Associata INAF. Il programma ufficiale contiene i riferimenti agli organizzatori e ai materiali resi disponibili.",
       "note": "Materiali consultabili presso le fonti ufficiali. Nessuna copia di slide o registrazioni ospitata da AD ASTRA; autorizzazione alla ripubblicazione non ancora ricevuta. Il programma dichiara che la presentazione non è scaricabile.",
@@ -21013,7 +21017,7 @@
       "areas": [
         "06"
       ],
-      "level": "Intermedio",
+      "level": "Medio",
       "year": "2026",
       "description": "Lezione 5 del corso di formazione INAF Torino 2025/2026. Dr. A. Vecchiato, INAF-OATo. Il programma ufficiale contiene i riferimenti agli organizzatori e ai materiali resi disponibili.",
       "note": "Materiali consultabili presso le fonti ufficiali. Nessuna copia di slide o registrazioni ospitata da AD ASTRA; autorizzazione alla ripubblicazione non ancora ricevuta.",
@@ -21045,7 +21049,7 @@
       "areas": [
         "10"
       ],
-      "level": "Intermedio",
+      "level": "Medio",
       "year": "2026",
       "description": "Lezione 6 del corso di formazione INAF Torino 2025/2026. Don L. Peyron, Pastorale Tec. Scient. Arcidiocesi To / Uni. Cattolica Mi. Il programma ufficiale contiene i riferimenti agli organizzatori e ai materiali resi disponibili.",
       "note": "Materiali consultabili presso le fonti ufficiali. Nessuna copia di slide o registrazioni ospitata da AD ASTRA; autorizzazione alla ripubblicazione non ancora ricevuta.",
@@ -21077,7 +21081,7 @@
       "areas": [
         "10"
       ],
-      "level": "Intermedio",
+      "level": "Medio",
       "year": "2026",
       "description": "Lezione 7 del corso di formazione INAF Torino 2025/2026. Prof.ssa S. Zarrinchang, Associata INAF / NAEC IAU. Il programma ufficiale contiene i riferimenti agli organizzatori e ai materiali resi disponibili.",
       "note": "Materiali consultabili presso le fonti ufficiali. Nessuna copia di slide o registrazioni ospitata da AD ASTRA; autorizzazione alla ripubblicazione non ancora ricevuta.",
@@ -21109,7 +21113,7 @@
       "areas": [
         "10"
       ],
-      "level": "Intermedio",
+      "level": "Medio",
       "year": "2026",
       "description": "Lezione 8 del corso di formazione INAF Torino 2025/2026. Prof. A. Tartaglia, PoliTo. Il programma ufficiale contiene i riferimenti agli organizzatori e ai materiali resi disponibili.",
       "note": "Materiali consultabili presso le fonti ufficiali. Nessuna copia di slide o registrazioni ospitata da AD ASTRA; autorizzazione alla ripubblicazione non ancora ricevuta.",
@@ -21141,7 +21145,7 @@
       "areas": [
         "06"
       ],
-      "level": "Intermedio",
+      "level": "Medio",
       "year": "2026",
       "description": "Lezione 9 del corso di formazione INAF Torino 2025/2026. Dr. R. Soria, INAF-OATo. Il programma ufficiale contiene i riferimenti agli organizzatori e ai materiali resi disponibili.",
       "note": "Materiali consultabili presso le fonti ufficiali. Nessuna copia di slide o registrazioni ospitata da AD ASTRA; autorizzazione alla ripubblicazione non ancora ricevuta.",
@@ -21173,7 +21177,7 @@
       "areas": [
         "02"
       ],
-      "level": "Intermedio",
+      "level": "Medio",
       "year": "2026",
       "description": "Lezione 10 del corso di formazione INAF Torino 2025/2026. Dr. L. Zangrilli, INAF-OATo. Il programma ufficiale contiene i riferimenti agli organizzatori e ai materiali resi disponibili.",
       "note": "Materiali consultabili presso le fonti ufficiali. Nessuna copia di slide o registrazioni ospitata da AD ASTRA; autorizzazione alla ripubblicazione non ancora ricevuta.",
@@ -21205,7 +21209,7 @@
       "areas": [
         "07"
       ],
-      "level": "Intermedio",
+      "level": "Medio",
       "year": "2026",
       "description": "Lezione 11 del corso di formazione INAF Torino 2025/2026. Team NOCTIS-INAF, secondo collegamento. Il programma ufficiale contiene i riferimenti agli organizzatori e ai materiali resi disponibili.",
       "note": "Materiali consultabili presso le fonti ufficiali. Nessuna copia di slide o registrazioni ospitata da AD ASTRA; autorizzazione alla ripubblicazione non ancora ricevuta.",
@@ -21238,7 +21242,7 @@
         "03",
         "10"
       ],
-      "level": "Intermedio",
+      "level": "Medio",
       "year": "2026",
       "description": "Lezione 12 del corso di formazione INAF Torino 2025/2026. Dr. A. Frassà, UniTo / Dip. Fisica / U.B.A.. Il programma ufficiale contiene i riferimenti agli organizzatori e ai materiali resi disponibili.",
       "note": "Materiali consultabili presso le fonti ufficiali. Nessuna copia di slide o registrazioni ospitata da AD ASTRA; autorizzazione alla ripubblicazione non ancora ricevuta.",
@@ -21270,7 +21274,7 @@
       "areas": [
         "09"
       ],
-      "level": "Intermedio",
+      "level": "Medio",
       "year": "2026",
       "description": "Lezione 13 del corso di formazione INAF Torino 2025/2026. P. Matassa, Ariel / ExoClock. Il programma ufficiale contiene i riferimenti agli organizzatori e ai materiali resi disponibili.",
       "note": "Materiali consultabili presso le fonti ufficiali. Nessuna copia di slide o registrazioni ospitata da AD ASTRA; autorizzazione alla ripubblicazione non ancora ricevuta.",
@@ -21302,7 +21306,7 @@
       "areas": [
         "10"
       ],
-      "level": "Introduzione",
+      "level": "Facile",
       "year": "2026",
       "description": "Lezione 14 del corso di formazione INAF Torino 2025/2026. Relatore indicato nel programma ufficiale. Il programma ufficiale contiene i riferimenti agli organizzatori e ai materiali resi disponibili.",
       "note": "Materiali consultabili presso le fonti ufficiali. Nessuna copia di slide o registrazioni ospitata da AD ASTRA; autorizzazione alla ripubblicazione non ancora ricevuta. Attività rivolte a classi più giovani, segnalate per chi prepara percorsi didattici.",
@@ -21334,7 +21338,7 @@
       "areas": [
         "10"
       ],
-      "level": "Introduzione",
+      "level": "Facile",
       "year": "2026",
       "description": "Lezione 15 del corso di formazione INAF Torino 2025/2026. Relatore indicato nel programma ufficiale. Il programma ufficiale contiene i riferimenti agli organizzatori e ai materiali resi disponibili.",
       "note": "Materiali consultabili presso le fonti ufficiali. Nessuna copia di slide o registrazioni ospitata da AD ASTRA; autorizzazione alla ripubblicazione non ancora ricevuta. Attività rivolte a classi più giovani, segnalate per chi prepara percorsi didattici.",
@@ -21366,7 +21370,7 @@
       "areas": [
         "10"
       ],
-      "level": "Intermedio",
+      "level": "Medio",
       "year": "2026",
       "description": "Lezione 16 del corso di formazione INAF Torino 2025/2026. Relatore indicato nel programma ufficiale. Il programma ufficiale contiene i riferimenti agli organizzatori e ai materiali resi disponibili.",
       "note": "Materiali consultabili presso le fonti ufficiali. Nessuna copia di slide o registrazioni ospitata da AD ASTRA; autorizzazione alla ripubblicazione non ancora ricevuta.",
@@ -21398,7 +21402,7 @@
       "areas": [
         "10"
       ],
-      "level": "Intermedio",
+      "level": "Medio",
       "year": "2026",
       "description": "Lezione 17 del corso di formazione INAF Torino 2025/2026. Prof. L. Burderi, INAF-IASF, Relatività e Dei – come il Paradosso dei Gemelli ed il Principio Copernicano forniscono una. Il programma ufficiale contiene i riferimenti agli organizzatori e ai materiali resi disponibili.",
       "note": "Materiali consultabili presso le fonti ufficiali. Nessuna copia di slide o registrazioni ospitata da AD ASTRA; autorizzazione alla ripubblicazione non ancora ricevuta.",
@@ -21431,7 +21435,7 @@
         "03",
         "08"
       ],
-      "level": "Intermedio",
+      "level": "Medio",
       "year": "2026",
       "description": "Lezione 18 del corso di formazione INAF Torino 2025/2026. Dr.ssa G. Guilluy, INAF-OATo. Il programma ufficiale contiene i riferimenti agli organizzatori e ai materiali resi disponibili.",
       "note": "Materiali consultabili presso le fonti ufficiali. Nessuna copia di slide o registrazioni ospitata da AD ASTRA; autorizzazione alla ripubblicazione non ancora ricevuta.",
@@ -21463,7 +21467,7 @@
       "areas": [
         "08"
       ],
-      "level": "Intermedio",
+      "level": "Medio",
       "year": "2026",
       "description": "Lezione 19 del corso di formazione INAF Torino 2025/2026. F. Lavarino, UniTo / Dip. Fisica / O.A.C.. Il programma ufficiale contiene i riferimenti agli organizzatori e ai materiali resi disponibili.",
       "note": "Materiali consultabili presso le fonti ufficiali. Nessuna copia di slide o registrazioni ospitata da AD ASTRA; autorizzazione alla ripubblicazione non ancora ricevuta.",
@@ -21495,7 +21499,7 @@
       "areas": [
         "03"
       ],
-      "level": "Intermedio",
+      "level": "Medio",
       "year": "2026",
       "description": "Lezione 20 del corso di formazione INAF Torino 2025/2026. Prof.ssa A. Zanini, UniTo / Dip. Fisica. Il programma ufficiale contiene i riferimenti agli organizzatori e ai materiali resi disponibili.",
       "note": "Materiali consultabili presso le fonti ufficiali. Nessuna copia di slide o registrazioni ospitata da AD ASTRA; autorizzazione alla ripubblicazione non ancora ricevuta. Nel programma la presentazione è annunciata, ma il relativo collegamento non è disponibile.",
@@ -21524,7 +21528,7 @@
         "06",
         "10"
       ],
-      "level": "Intermedio",
+      "level": "Medio",
       "year": "2026",
       "description": "Lezione 21 del corso di formazione INAF Torino 2025/2026. Prof. C. Vigorito, UniTo / Dip. Fisica. Il programma ufficiale contiene i riferimenti agli organizzatori e ai materiali resi disponibili.",
       "note": "Materiali consultabili presso le fonti ufficiali. Nessuna copia di slide o registrazioni ospitata da AD ASTRA; autorizzazione alla ripubblicazione non ancora ricevuta.",
@@ -21556,7 +21560,7 @@
       "areas": [
         "10"
       ],
-      "level": "Intermedio",
+      "level": "Medio",
       "year": "2026",
       "description": "Lezione 22 del corso di formazione INAF Torino 2025/2026. Dr. S. Lera e Prof. D. Mazza, URANIA e PoliTo. Il programma ufficiale contiene i riferimenti agli organizzatori e ai materiali resi disponibili.",
       "note": "Materiali consultabili presso le fonti ufficiali. Nessuna copia di slide o registrazioni ospitata da AD ASTRA; autorizzazione alla ripubblicazione non ancora ricevuta.",
@@ -21589,7 +21593,7 @@
         "03",
         "04"
       ],
-      "level": "Intermedio",
+      "level": "Medio",
       "year": "2026",
       "description": "Lezione 23 del corso di formazione INAF Torino 2025/2026. Dr.ssa E. Piacentino, CfA / Harvard. Il programma ufficiale contiene i riferimenti agli organizzatori e ai materiali resi disponibili.",
       "note": "Materiali consultabili presso le fonti ufficiali. Nessuna copia di slide o registrazioni ospitata da AD ASTRA; autorizzazione alla ripubblicazione non ancora ricevuta. Nel programma la presentazione è annunciata, ma il relativo collegamento non è disponibile.",
@@ -21617,7 +21621,7 @@
       "areas": [
         "04"
       ],
-      "level": "Intermedio",
+      "level": "Medio",
       "year": "2026",
       "description": "Lezione 24 del corso di formazione INAF Torino 2025/2026. Dr. C. Benna, INAF-OATo. Il programma ufficiale contiene i riferimenti agli organizzatori e ai materiali resi disponibili.",
       "note": "Materiali consultabili presso le fonti ufficiali. Nessuna copia di slide o registrazioni ospitata da AD ASTRA; autorizzazione alla ripubblicazione non ancora ricevuta.",
@@ -21636,6 +21640,414 @@
       ],
       "linkState": "ok",
       "linkLabel": "Controllato il 15 ottobre 2026"
+    },
+    {
+      "id": "unimi-dispense",
+      "title": "Introduzione all’astrofisica — dispense e slide",
+      "url": "https://astro.fisica.unimi.it/introduzione-allastrofisica/",
+      "source": "Università degli Studi di Milano",
+      "language": "Italiano",
+      "areas": [
+        "04",
+        "06",
+        "10"
+      ],
+      "level": "Avanzato",
+      "type": "Corsi e lezioni",
+      "description": "Raccolta universitaria con dispense e presentazioni di astrofisica.",
+      "note": "Date e livello variano fra i materiali; controllare la versione del singolo PDF.",
+      "year": "",
+      "sourcePage": "https://astro.fisica.unimi.it/introduzione-allastrofisica/",
+      "scope": "Scheda e raccolta ufficiale",
+      "review": "Selezione documentaria; livello indicativo, non revisione integrale",
+      "acquired": "2026-10-18",
+      "linkState": "ok",
+      "linkLabel": "Fonte reperita nella ricerca del 18 ottobre 2026"
+    },
+    {
+      "id": "pisa-paolicchi",
+      "title": "Astronomia — dispense di Paolo Paolicchi",
+      "url": "https://osiris.df.unipi.it/~paolic/dispense.html",
+      "source": "Università di Pisa",
+      "language": "Italiano",
+      "areas": [
+        "01",
+        "03",
+        "04"
+      ],
+      "level": "Avanzato",
+      "type": "Corsi e lezioni",
+      "description": "Capitoli di astronomia e meccanica celeste, con trattazione quantitativa.",
+      "note": "La pagina indica una versione 2014 in lavorazione; distinguere principi e dati storici.",
+      "year": "",
+      "sourcePage": "https://osiris.df.unipi.it/~paolic/dispense.html",
+      "scope": "Scheda e raccolta ufficiale",
+      "review": "Selezione documentaria; livello indicativo, non revisione integrale",
+      "acquired": "2026-10-18",
+      "linkState": "ok",
+      "linkLabel": "Fonte reperita nella ricerca del 18 ottobre 2026"
+    },
+    {
+      "id": "cam-dispense",
+      "title": "Corso di astronomia — dispense per astrofili",
+      "url": "https://www.astrofilimilano.org/le-dispense.html",
+      "source": "Circolo Astrofili di Milano",
+      "language": "Italiano",
+      "areas": [
+        "01",
+        "03",
+        "04",
+        "09"
+      ],
+      "level": "Più livelli",
+      "type": "Corsi e lezioni",
+      "description": "Raccolta di sedici dispense: Luna, ottica, telescopi, luce, stelle e cosmologia.",
+      "note": "Livello da valutare sul singolo documento; materiali fotografici e osservazione solare richiedono verifica specifica.",
+      "year": "",
+      "sourcePage": "https://www.astrofilimilano.org/le-dispense.html",
+      "scope": "Scheda e raccolta ufficiale",
+      "review": "Selezione documentaria; livello indicativo, non revisione integrale",
+      "acquired": "2026-10-18",
+      "linkState": "ok",
+      "linkLabel": "Fonte reperita nella ricerca del 18 ottobre 2026"
+    },
+    {
+      "id": "piombino-dispense",
+      "title": "Dispense pratiche e presentazioni — NINA e osservazione",
+      "url": "https://web.astropiombino.org/download/",
+      "source": "Associazione Astrofili Piombino",
+      "language": "Italiano",
+      "areas": [
+        "07",
+        "09"
+      ],
+      "level": "Più livelli",
+      "type": "Corsi e lezioni",
+      "description": "Materiali pratici su telescopi, fotografia, misure e software; comprende NINA 101 indicata 2023.",
+      "note": "Le presentazioni appartengono a date diverse: verificare versioni software e interfacce.",
+      "year": "",
+      "sourcePage": "https://web.astropiombino.org/download/",
+      "scope": "Scheda e raccolta ufficiale",
+      "review": "Selezione documentaria; livello indicativo, non revisione integrale",
+      "acquired": "2026-10-18",
+      "linkState": "ok",
+      "linkLabel": "Fonte reperita nella ricerca del 18 ottobre 2026"
+    },
+    {
+      "id": "arcetri-materiali",
+      "title": "Materiali didattici — spettroscopio e orologio stellare",
+      "url": "https://www.arcetri.inaf.it/po/materiali.html",
+      "source": "INAF Arcetri",
+      "language": "Italiano",
+      "areas": [
+        "01",
+        "02",
+        "09"
+      ],
+      "level": "Più livelli",
+      "type": "Portali e strumenti",
+      "description": "Attività e istruzioni per esplorare luce, Luna e orientamento con strumenti semplici.",
+      "note": "Indice storico aggiornato nel 2011; non tutti i materiali hanno lo stesso livello.",
+      "year": "",
+      "sourcePage": "https://www.arcetri.inaf.it/po/materiali.html",
+      "scope": "Scheda e raccolta ufficiale",
+      "review": "Selezione documentaria; livello indicativo, non revisione integrale",
+      "acquired": "2026-10-18",
+      "linkState": "ok",
+      "linkLabel": "Fonte reperita nella ricerca del 18 ottobre 2026"
+    },
+    {
+      "id": "trobbiani-lensing",
+      "title": "Lensing gravitazionale alle lunghezze d’onda radio",
+      "url": "https://amslaurea.unibo.it/21566/1/TesiDefinitiva.pdf",
+      "source": "Leonardo Trobbiani · Università di Bologna",
+      "language": "Italiano",
+      "areas": [
+        "06",
+        "10"
+      ],
+      "level": "Avanzato",
+      "type": "PDF e dispense",
+      "description": "Tesi su lente gravitazionale, osservazioni radio e applicazioni astrofisiche.",
+      "note": "A.a. 2019/2020, 31 pagine. Copertina, indice e campione consultati; non revisione integrale né articolo sottoposto a peer review.",
+      "year": "",
+      "sourcePage": "https://amslaurea.unibo.it/21566/1/TesiDefinitiva.pdf",
+      "scope": "PDF",
+      "review": "Selezione documentaria; livello indicativo, non revisione integrale",
+      "acquired": "2026-10-18",
+      "linkState": "ok",
+      "linkLabel": "Fonte reperita nella ricerca del 18 ottobre 2026"
+    },
+    {
+      "id": "casadei-pianeti",
+      "title": "Proprietà generali dei pianeti del Sistema Solare e ricerca di pianeti esterni",
+      "url": "https://amslaurea.unibo.it/id/eprint/36038/",
+      "source": "Alice Casadei · Università di Bologna",
+      "language": "Italiano",
+      "areas": [
+        "03",
+        "10"
+      ],
+      "level": "Avanzato",
+      "type": "Tesi universitarie",
+      "description": "Tesi con descrizione fisica dei pianeti e metodi di ricerca degli esopianeti; la scheda ufficiale offre il PDF.",
+      "note": "A.a. 2024/2025, 21 pagine. Campione consultato: formule di fisica e strutture planetarie; lettura integrale non effettuata.",
+      "year": "",
+      "sourcePage": "https://amslaurea.unibo.it/id/eprint/36038/",
+      "scope": "Scheda e raccolta ufficiale",
+      "review": "Selezione documentaria; livello indicativo, non revisione integrale",
+      "acquired": "2026-10-18",
+      "linkState": "ok",
+      "linkLabel": "Fonte reperita nella ricerca del 18 ottobre 2026"
+    },
+    {
+      "id": "esa-teach-space",
+      "title": "Teach with Space — guide e attività",
+      "url": "https://www.esa.int/Education/Teachers_Corner/Teach_with_space3",
+      "source": "ESA Education",
+      "language": "Inglese",
+      "areas": [
+        "02",
+        "03",
+        "astronautica"
+      ],
+      "level": "Più livelli",
+      "type": "Portali e strumenti",
+      "description": "Guide docenti, schede studenti e attività STEM legate allo spazio.",
+      "note": "Raccolta primaria e secondaria; lingua e livello da controllare per ogni file, con adattamenti ESERO disponibili separatamente.",
+      "year": "",
+      "sourcePage": "https://www.esa.int/Education/Teachers_Corner/Teach_with_space3",
+      "scope": "Scheda e raccolta ufficiale",
+      "review": "Selezione documentaria; livello indicativo, non revisione integrale",
+      "acquired": "2026-10-18",
+      "linkState": "ok",
+      "linkLabel": "Fonte reperita nella ricerca del 18 ottobre 2026"
+    },
+    {
+      "id": "cnes-dossiers",
+      "title": "Dossier educativi — Luna, Marte e satelliti",
+      "url": "https://cnes.fr/education/dossiers-educatifs",
+      "source": "CNES · Francia",
+      "language": "Francese",
+      "areas": [
+        "02",
+        "03",
+        "astronautica"
+      ],
+      "level": "Più livelli",
+      "type": "Portali e strumenti",
+      "description": "Percorsi e kit didattici sull’esplorazione lunare e marziana e sull’osservazione della Terra.",
+      "note": "Pagina di raccolta, non PDF singolo. Traduzione assistita delle pagine possibile; resa dei singoli file non collaudata.",
+      "year": "",
+      "sourcePage": "https://cnes.fr/education/dossiers-educatifs",
+      "scope": "Scheda e raccolta ufficiale",
+      "review": "Selezione documentaria; livello indicativo, non revisione integrale",
+      "acquired": "2026-10-18",
+      "linkState": "ok",
+      "linkLabel": "Fonte reperita nella ricerca del 18 ottobre 2026"
+    },
+    {
+      "id": "dlr-school",
+      "title": "Materiali per la scuola — spazio, Terra e Luna",
+      "url": "https://www.dlr.de/de/schoollab/medien/publikationen/materialien-fuer-den-unterricht",
+      "source": "DLR · Germania",
+      "language": "Tedesco",
+      "areas": [
+        "02",
+        "03",
+        "astronautica"
+      ],
+      "level": "Più livelli",
+      "type": "Portali e strumenti",
+      "description": "Fascicoli per studenti su spazio, Sistema solare, Terra e Luna.",
+      "note": "Alcuni fascicoli storici non vengono aggiornati. Materiali con soluzioni per docenti possono richiedere contatto con l’ente.",
+      "year": "",
+      "sourcePage": "https://www.dlr.de/de/schoollab/medien/publikationen/materialien-fuer-den-unterricht",
+      "scope": "Scheda e raccolta ufficiale",
+      "review": "Selezione documentaria; livello indicativo, non revisione integrale",
+      "acquired": "2026-10-18",
+      "linkState": "ok",
+      "linkLabel": "Fonte reperita nella ricerca del 18 ottobre 2026"
+    },
+    {
+      "id": "jaxa-hayabusa-materiali",
+      "title": "Hayabusa2 — schede e presentazioni ufficiali",
+      "url": "https://www.hayabusa2.jaxa.jp/en/enjoy/material/",
+      "source": "JAXA · Giappone",
+      "language": "Inglese",
+      "areas": [
+        "03",
+        "astronautica"
+      ],
+      "level": "Più livelli",
+      "type": "Portali e strumenti",
+      "description": "Schede e slide di conferenze stampa sulla missione e sull’esplorazione degli asteroidi.",
+      "note": "La raccolta contiene documenti inglesi e giapponesi: scegliere il file inglese quando disponibile. Le conferenze stampa non equivalgono a pubblicazioni peer reviewed.",
+      "year": "",
+      "sourcePage": "https://www.hayabusa2.jaxa.jp/en/enjoy/material/",
+      "scope": "Scheda e raccolta ufficiale",
+      "review": "Selezione documentaria; livello indicativo, non revisione integrale",
+      "acquired": "2026-10-18",
+      "linkState": "ok",
+      "linkLabel": "Fonte reperita nella ricerca del 18 ottobre 2026"
+    },
+    {
+      "id": "isro-chandrayaan3",
+      "title": "Chandrayaan-3 — missione, brochure e risultati",
+      "url": "https://www.isro.gov.in/ISRO_EN/Chandrayaan3.html",
+      "source": "ISRO · India",
+      "language": "Inglese",
+      "areas": [
+        "02",
+        "astronautica"
+      ],
+      "level": "Più livelli",
+      "type": "Portali e strumenti",
+      "description": "Pagina ufficiale con brochure, strumenti scientifici e documentazione della missione lunare.",
+      "note": "Distinguere documentazione di progetto e risultati; la pagina comprende materiali di formati diversi.",
+      "year": "",
+      "sourcePage": "https://www.isro.gov.in/ISRO_EN/Chandrayaan3.html",
+      "scope": "Scheda e raccolta ufficiale",
+      "review": "Selezione documentaria; livello indicativo, non revisione integrale",
+      "acquired": "2026-10-18",
+      "linkState": "ok",
+      "linkLabel": "Fonte reperita nella ricerca del 18 ottobre 2026"
+    },
+    {
+      "id": "isro-handbook",
+      "title": "Chandrayaan-2 — Handbook of Payloads, Data and Science",
+      "url": "https://www.isro.gov.in/media_isro/pdf/science/hand_book_payloads_data_and_science.pdf",
+      "source": "ISRO · India",
+      "language": "Inglese",
+      "areas": [
+        "02",
+        "astronautica"
+      ],
+      "level": "Avanzato",
+      "type": "PDF e dispense",
+      "description": "Manuale tecnico della missione: strumenti, acquisizione dei dati e obiettivi scientifici lunari.",
+      "note": "Documento tecnico storico della missione; non attribuire all’orbiter l’esito dell’atterraggio. Traduzione del PDF non collaudata.",
+      "year": "",
+      "sourcePage": "https://www.isro.gov.in/media_isro/pdf/science/hand_book_payloads_data_and_science.pdf",
+      "scope": "PDF",
+      "review": "Selezione documentaria; livello indicativo, non revisione integrale",
+      "acquired": "2026-10-18",
+      "linkState": "ok",
+      "linkLabel": "Fonte reperita nella ricerca del 18 ottobre 2026"
+    },
+    {
+      "id": "isro-brochure2025",
+      "title": "Missioni scientifiche ISRO — brochure 2025",
+      "url": "https://www.isro.gov.in/NSPD2025/assets/pdf/Scientific_Mission-Brochure.pdf",
+      "source": "ISRO · India",
+      "language": "Inglese",
+      "areas": [
+        "03",
+        "astronautica"
+      ],
+      "level": "Facile",
+      "type": "PDF e dispense",
+      "description": "Panoramica illustrata di missioni e strumenti scientifici, utile per un primo orientamento.",
+      "note": "Livello indicativo della presentazione divulgativa, non di eventuali approfondimenti tecnici. Lo stato descritto è riferito alla brochure.",
+      "year": "",
+      "sourcePage": "https://www.isro.gov.in/NSPD2025/assets/pdf/Scientific_Mission-Brochure.pdf",
+      "scope": "PDF",
+      "review": "Selezione documentaria; livello indicativo, non revisione integrale",
+      "acquired": "2026-10-18",
+      "linkState": "ok",
+      "linkLabel": "Fonte reperita nella ricerca del 18 ottobre 2026"
+    },
+    {
+      "id": "aas-riviste",
+      "title": "Riviste AAS — accesso aperto",
+      "url": "https://journals.aas.org/oa/",
+      "source": "American Astronomical Society",
+      "language": "Inglese",
+      "areas": [
+        "03",
+        "04",
+        "06",
+        "10"
+      ],
+      "level": "Più livelli",
+      "type": "Riviste scientifiche",
+      "description": "Accesso alla famiglia di riviste ApJ, AJ, ApJL, ApJS e Planetary Science Journal.",
+      "note": "Prevalentemente ricerca avanzata. Valutare il singolo articolo; le cinque riviste appartengono allo stesso editore.",
+      "year": "",
+      "sourcePage": "https://journals.aas.org/oa/",
+      "scope": "Scheda e raccolta ufficiale",
+      "review": "Selezione documentaria; livello indicativo, non revisione integrale",
+      "acquired": "2026-10-18",
+      "linkState": "ok",
+      "linkLabel": "Fonte reperita nella ricerca del 18 ottobre 2026"
+    },
+    {
+      "id": "mnras-rivista",
+      "title": "MNRAS — ricerca astronomica ad accesso aperto",
+      "url": "https://academic.oup.com/mnras",
+      "source": "Royal Astronomical Society · Oxford University Press",
+      "language": "Inglese",
+      "areas": [
+        "04",
+        "06",
+        "10"
+      ],
+      "level": "Più livelli",
+      "type": "Riviste scientifiche",
+      "description": "Studi professionali su stelle, galassie e cosmologia.",
+      "note": "Prevalentemente Avanzato; una classificazione precisa richiede l’esame del singolo articolo.",
+      "year": "",
+      "sourcePage": "https://academic.oup.com/mnras",
+      "scope": "Scheda e raccolta ufficiale",
+      "review": "Selezione documentaria; livello indicativo, non revisione integrale",
+      "acquired": "2026-10-18",
+      "linkState": "ok",
+      "linkLabel": "Fonte reperita nella ricerca del 18 ottobre 2026"
+    },
+    {
+      "id": "rasti-rivista",
+      "title": "RASTI — strumenti, software e metodi",
+      "url": "https://academic.oup.com/rasti",
+      "source": "Royal Astronomical Society · Oxford University Press",
+      "language": "Inglese",
+      "areas": [
+        "09",
+        "10"
+      ],
+      "level": "Più livelli",
+      "type": "Riviste scientifiche",
+      "description": "Ricerca su strumentazione astronomica, tecniche di analisi e software.",
+      "note": "Prevalentemente Avanzato; non è una guida introduttiva agli strumenti amatoriali.",
+      "year": "",
+      "sourcePage": "https://academic.oup.com/rasti",
+      "scope": "Scheda e raccolta ufficiale",
+      "review": "Selezione documentaria; livello indicativo, non revisione integrale",
+      "acquired": "2026-10-18",
+      "linkState": "ok",
+      "linkLabel": "Fonte reperita nella ricerca del 18 ottobre 2026"
+    },
+    {
+      "id": "memsait-rivista",
+      "title": "Memorie della Società Astronomica Italiana",
+      "url": "https://www.memsait.it/index.html",
+      "source": "Società Astronomica Italiana",
+      "language": "Inglese",
+      "areas": [
+        "04",
+        "06",
+        "10"
+      ],
+      "level": "Più livelli",
+      "type": "Riviste scientifiche",
+      "description": "Rassegne e atti scientifici da consultare per approfondire temi specifici.",
+      "note": "Ente italiano, testi prevalentemente inglesi. Livello Medio o Avanzato secondo il documento.",
+      "year": "",
+      "sourcePage": "https://www.memsait.it/index.html",
+      "scope": "Scheda e raccolta ufficiale",
+      "review": "Selezione documentaria; livello indicativo, non revisione integrale",
+      "acquired": "2026-10-18",
+      "linkState": "ok",
+      "linkLabel": "Fonte reperita nella ricerca del 18 ottobre 2026"
     }
   ]
 }
