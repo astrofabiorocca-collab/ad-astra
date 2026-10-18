@@ -45,7 +45,7 @@
   if(update)storeFilters();
  }
  root.querySelector('form').addEventListener('submit',event=>{event.preventDefault();applied=readFilters();limit=24;draw(true);count.scrollIntoView({behavior:'auto',block:'center'});});
- reset.addEventListener('click',()=>{for(const c of[q,area,type,language,level,source])c.value='';sort.value='recommended';applied=readFilters();limit=24;draw(true);q.focus();});
+ reset.addEventListener('click',()=>{for(const c of[q,area,type,language,level,source])c.value='';sort.value='recommended';applied=readFilters();limit=24;rows=[];cards.replaceChildren();count.textContent='Imposta i filtri e premi «Avvia ricerca» per consultare le fonti.';$('library-empty').hidden=true;more.hidden=true;storeFilters();q.focus({preventScroll:true});root.querySelector('form').scrollIntoView({behavior:'auto',block:'start'});});
  document.querySelectorAll('[data-library-type]').forEach(b=>b.addEventListener('click',()=>{type.value=b.dataset.libraryType;q.focus({preventScroll:true});root.scrollIntoView({behavior:'auto',block:'start'});}));
  more.addEventListener('click',()=>{const old=limit;limit+=24;draw(false);const target=cards.children[old]?.querySelector('h3 a');target?.focus({preventScroll:true});});
  document.querySelectorAll('[data-library-source]').forEach(button=>button.addEventListener('click',()=>{for(const c of[q,area,type,language,level])c.value='';source.value=button.dataset.librarySource;root.scrollIntoView({behavior:'auto',block:'start'});$('library-search').focus({preventScroll:true});}));
