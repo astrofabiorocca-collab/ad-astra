@@ -1,0 +1,72 @@
+{
+  "updated": "2026-10-19",
+  "pdf": "quaderno-del-giovane-osservatore.pdf",
+  "pdf_author": "AD ASTRA, schede originali, non riproduzione dei PDF esterni",
+  "sources": [
+    "https://www.astrofilipolesani.it/costruzione-di-un-astrolabio/",
+    "https://edu.inaf.it/astrodidattica/cambiamento-ombre/",
+    "https://science.nasa.gov/skywatching/faq/",
+    "https://science.nasa.gov/moon/moon-phases/"
+  ],
+  "books": [
+    {
+      "group": "infanzia",
+      "title": "Grande storia delle stelle",
+      "author": "Neal Layton",
+      "edition": "2023",
+      "publisherAge": "5+",
+      "url": "https://www.editorialescienza.it/it/libro/grande-storia-delle-stelle-64e739ced6162.htm",
+      "description": "Dai racconti antichi alle spiegazioni scientifiche: un albo da leggere insieme, prima di uscire a cercare qualche punto luminoso."
+    },
+    {
+      "group": "infanzia",
+      "title": "Q-Box. Lo Spazio",
+      "author": "Matteo Gaule",
+      "edition": "",
+      "publisherAge": "4+",
+      "url": "https://www.sassijunior.com/it/puzzle-per-bambini/8016-q-box-lo-spazio.html",
+      "description": "Libro-gioco con libretto, puzzle ed elementi da montare: un primo vocabolario dello spazio da esplorare con un adulto."
+    },
+    {
+      "group": "primaria",
+      "title": "Astrolibro dell’Universo",
+      "author": "Umberto Guidoni e Andrea Valente",
+      "edition": "2024",
+      "publisherAge": "8+",
+      "url": "https://www.editorialescienza.it/it/libro/astrolibro-dell-universo.htm",
+      "description": "Un percorso illustrato fra astronomia, esplorazione spaziale e osservazione: accompagna il passaggio dalle domande alle prime ricerche."
+    },
+    {
+      "group": "primaria",
+      "title": "Esopianeti",
+      "author": "Wendy Bjazevich · illustrazioni David Miles",
+      "edition": "2025",
+      "publisherAge": "8+",
+      "url": "https://www.editorialescienza.it/it/libro/esopianeti.htm",
+      "description": "Mondi oltre il Sistema solare e modi per scoprirli: una lettura per confrontare ciò che immaginiamo con ciò che possiamo misurare."
+    },
+    {
+      "group": "ragazzi",
+      "title": "Stelle, pianeti e galassie",
+      "author": "Margherita Hack e Massimo Ramella",
+      "edition": "2023",
+      "publisherAge": "12+",
+      "url": "https://www.editorialescienza.it/it/libro/stelle-pianeti-e-galassie.htm",
+      "description": "Storia dell’astronomia e strumenti di ricerca, con approfondimenti e attività: un ponte verso le lezioni della Scuola."
+    },
+    {
+      "group": "ragazzi",
+      "title": "Hawking e il mistero dei buchi neri",
+      "author": "Luca Novelli",
+      "edition": "2019",
+      "publisherAge": "8+",
+      "url": "https://www.editorialescienza.it/it/libro/hawking-e-il-mistero-dei-buchi-neri.htm",
+      "description": "Una biografia illustrata per avviare una conversazione su scienza, domande e ricerca. Lettura introduttiva di raccordo, non manuale avanzato per adolescenti."
+    }
+  ],
+  "externalPdfChecks": {
+    "wheel.pdf": "HTTP 200, application/pdf, 255224 bytes, 2026-10-19",
+    "holder.pdf": "HTTP 200, application/pdf, 134974 bytes, 2026-10-19"
+  },
+  "selectionNote": "Due titoli fuori catalogo individuati durante la ricerca non inseriti. Hawking è un raccordo narrativo 8+ proposto anche ai ragazzi, non lettura avanzata."
+}

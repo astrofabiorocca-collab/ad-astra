@@ -20,4 +20,12 @@
   };
   slider.addEventListener('input', update);
   update();
+  document.querySelectorAll('.young-star-reveal button').forEach(button => {
+    button.addEventListener('click', () => {
+      const panel = button.nextElementSibling;
+      panel.hidden = !panel.hidden;
+      button.setAttribute('aria-expanded', String(!panel.hidden));
+      button.textContent = panel.hidden ? 'Mostra il percorso di riconoscimento' : 'Nascondi il percorso';
+    });
+  });
 })();

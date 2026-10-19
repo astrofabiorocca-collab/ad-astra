@@ -1,0 +1,16 @@
+{
+  "created": "2026-10-19",
+  "tool": "imagegen",
+  "usage": "Sfondi e illustrazioni evocative, non diagrammi scientifici o fotografie documentarie",
+  "originals": {
+    "letture-infanzia": "exec-ad1e2813-ad52-4af9-a173-84e389c16a9e.png",
+    "letture-primaria": "exec-14529ddd-112e-42b3-99fe-f3b427978a04.png",
+    "letture-ragazzi": "exec-d976c898-08b0-427b-9539-d9416af39b87.png",
+    "laboratorio-intro": "exec-7e670f39-542c-4523-ba88-0ea552e8772d.png"
+  },
+  "compositions": {
+    "letture-infanzia": "Bambini 4–7 raccolti sul lato alto e destro con un adulto",
+    "letture-primaria": "Due bambini su lati opposti, disposizione diagonale",
+    "letture-ragazzi": "Tre adolescenti intorno a un tavolo rotondo"
+  }
+}
