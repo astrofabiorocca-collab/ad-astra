@@ -1,0 +1,1196 @@
+{
+  "date": "2026-10-23",
+  "scope": "26 edizioni approvate; restanti tavole ancora da revisionare",
+  "print_masters": false,
+  "counts": {
+    "imparare": {
+      "available": 26,
+      "updated": 14
+    },
+    "universo": {
+      "available": 23,
+      "updated": 4
+    },
+    "sistema-solare": {
+      "available": 23,
+      "updated": 5
+    },
+    "strumenti": {
+      "available": 22,
+      "updated": 3
+    }
+  },
+  "posters": [
+    {
+      "id": "IC-02",
+      "area": "imparare",
+      "title": "Il mio orizzonte: zenit e punti cardinali",
+      "replaces": [],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/IC-02.png",
+      "pdf": "assets/poster/revisioni-20261023/IC-02.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/IC-02.webp",
+      "sources": [
+        {
+          "title": "INAF Torino — Lattanzi",
+          "url": "https://www.oato.inaf.it/biblioteca/pdf/TechRep078_Lattanzi.pdf",
+          "locator": "p.15, passaggio letto nella banca",
+          "used": "Meridiano, verticale e convenzione azimut N versoE"
+        },
+        {
+          "title": "Treccani — Coordinate astronomiche",
+          "url": "https://static.treccani.it/export/sites/default/Portale/resources/multimedia/Lezioni_Astrofisica/Coordinate/Lezione.pdf",
+          "locator": "p.3, passaggio letto nella banca",
+          "used": "Orizzonte/altezza. Distinta la convenzione azimut da sud presente nella fonte"
+        },
+        {
+          "title": "Marco Monaci — Corso di astronomia",
+          "file": "banca-didattica-personale/documenti/pdf/fabio-pdf-3dcde443362b.pdf",
+          "locator": "p.17, passaggio letto nella banca",
+          "used": "Zenit e dipendenza dal luogo. Non ripresa l'errata obliquità riferita al piano orbitale nello stesso passaggio"
+        },
+        {
+          "title": "NASA Science — Skywatching FAQ",
+          "url": "https://science.nasa.gov/skywatching/faq/",
+          "used": "Angoli sul cielo e necessità di luogo/data/ora"
+        },
+        {
+          "title": "NASA/ASP Night Sky Network — Measure the Night Sky",
+          "url": "https://nightsky.jpl.nasa.gov/news/236/",
+          "used": "Zenit a90gradi, direzioni cardinali separate90gradi"
+        },
+        {
+          "title": "JPL — Horizons Manual",
+          "url": "https://ssd.jpl.nasa.gov/horizons/manual.html",
+          "used": "Definizioni AZ/EL; piano perpendicolare allo zenit distinto dal visibile"
+        }
+      ],
+      "sha256": "7b46ea8ac1e6c7786295b550f7f2f34dc525e2a2fb7e1d6c7a33f9b4042e7dbc"
+    },
+    {
+      "id": "IC-03",
+      "area": "imparare",
+      "title": "Una bussola con le braccia",
+      "replaces": [],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/IC-03.png",
+      "pdf": "assets/poster/revisioni-20261023/IC-03.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/IC-03.webp",
+      "sources": [
+        {
+          "title": "INAF Torino — Lattanzi",
+          "url": "https://www.oato.inaf.it/biblioteca/pdf/TechRep078_Lattanzi.pdf",
+          "locator": "p.15, passaggio letto nella banca",
+          "used": "Cardinali e meridiano locale"
+        },
+        {
+          "title": "Treccani — Coordinate astronomiche",
+          "url": "https://static.treccani.it/export/sites/default/Portale/resources/multimedia/Lezioni_Astrofisica/Coordinate/Lezione.pdf",
+          "locator": "p.3, passaggio letto nella banca",
+          "used": "Riferimenti locali; convenzione dell'azimut da sud distinta dalla nostra"
+        },
+        {
+          "title": "Marco Monaci — Corso di astronomia",
+          "locator": "p.17, passaggio letto nella banca",
+          "used": "Zenit e luogo; esclusa l'errata frase sull'obliquità nello stesso passaggio"
+        },
+        {
+          "title": "NOAA NCEI — Magnetic declination",
+          "url": "https://www.ncei.noaa.gov/products/magnetic-declination",
+          "used": "Nord geografico distinto da nord magnetico; nessun valore locale inventato"
+        },
+        {
+          "title": "NASA Science — Skywatching FAQ",
+          "url": "https://science.nasa.gov/skywatching/faq/",
+          "used": "Orientamento e posizione degli astri dipendente da luogo e tempo"
+        },
+        {
+          "title": "NASA/ASP — Measure the Night Sky",
+          "url": "https://nightsky.jpl.nasa.gov/news/236/",
+          "used": "Direzioni cardinali e misure angolari"
+        }
+      ],
+      "sha256": "17e487ddd000d3053ff667c048a7f5952478802abcc33a48e41101684a5439c8"
+    },
+    {
+      "id": "IC-04",
+      "area": "imparare",
+      "title": "Bussola: nord geografico e nord magnetico",
+      "replaces": [],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/IC-04.png",
+      "pdf": "assets/poster/revisioni-20261023/IC-04.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/IC-04.webp",
+      "sources": [
+        {
+          "title": "NOAA NCEI — Magnetic Declination",
+          "url": "https://www.ncei.noaa.gov/products/magnetic-declination",
+          "used": "Direzione della componente orizzontale; D variabile con luogo e tempo"
+        },
+        {
+          "title": "NOAA — Declination Calculator Help",
+          "url": "https://www.ngdc.noaa.gov/geomag/help/declinationHelp.html",
+          "used": "Significato di luogo/data e segno di D. Escluse le epoche2014–2019 della vecchia pagina"
+        },
+        {
+          "title": "NOAA/BGS — World Magnetic Model",
+          "url": "https://www.ncei.noaa.gov/products/world-magnetic-model",
+          "used": "WMM2025 come versione disponibile; nessuna declinazione locale calcolata o attribuita"
+        },
+        {
+          "title": "USGS — North arrows on topographic maps",
+          "url": "https://www.usgs.gov/faqs/what-do-different-north-arrows-a-usgs-topographic-map-mean",
+          "used": "Nord vero, magnetico e del reticolo; data della carta"
+        },
+        {
+          "title": "Natural Resources Canada — Magnetic Components",
+          "url": "https://www.geomag.nrcan.gc.ca/mag_fld/comp-en.php",
+          "used": "D come angolo verso est; distinzione fra inclinazione e declinazione"
+        },
+        {
+          "title": "Pacucci — Astronomia in rete",
+          "url": "https://www.fabiopacucci.com/wp-content/uploads/2018/09/astronomia_in_rete.pdf",
+          "locator": "pagina26, testo letto in banca",
+          "used": "Confronto critico della frase sulla bussola: non è inutilizzabile in assoluto; occorre la correzione e restano limiti di precisione"
+        }
+      ],
+      "sha256": "3b50a39327bfa519e9516b7043e26889e3680e92d648bd339d5d615034c51c9e"
+    },
+    {
+      "id": "IC-05",
+      "area": "imparare",
+      "title": "Costruire uno gnomone",
+      "replaces": [],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/IC-05.png",
+      "pdf": "assets/poster/revisioni-20261023/IC-05.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/IC-05.webp",
+      "sources": [
+        {
+          "title": "EduINAF — Costruire un orologio solare",
+          "url": "https://edu.inaf.it/astrodidattica/costruire-orologio-solare/",
+          "used": "Materiali, verticale, ombra. Non ripresa l'equivalenza errata un'ora/un grado presente nella pagina"
+        },
+        {
+          "title": "EduINAF — Equal Day 2026 Roma",
+          "url": "https://edu.inaf.it/rubriche/altro-cielo/equal-day-2026-roma/",
+          "used": "Misura ripetuta e controllo della verticalità; esclusa l'ora specifica dell'esempio"
+        },
+        {
+          "title": "EduINAF — Mappamondo parallelo: ombre",
+          "url": "https://edu.inaf.it/astrodidattica/mappamondo-parallelo-ombre/",
+          "used": "Ombre, posizione del Sole, confronto fra luoghi"
+        },
+        {
+          "title": "NASA GSFC — The Sundial",
+          "url": "https://pwg.gsfc.nasa.gov/stargaze/Sundial.htm",
+          "used": "Geometria e orientamento. Pagina storica consultata per principi, non per dati correnti"
+        },
+        {
+          "title": "EAAE — How does a sundial work?",
+          "url": "https://www.eaae-astronomy.org/projects/find-a-sundial/how-does-a-sundial-work",
+          "used": "Differenza fra asta verticale e stilo polare"
+        },
+        {
+          "title": "Fabio Pacucci — Astronomia in rete",
+          "url": "https://www.fabiopacucci.com/wp-content/uploads/2018/09/astronomia_in_rete.pdf",
+          "locator": "p.19, passaggio letto nella banca",
+          "used": "Altezza dell'asta e lunghezza dell'ombra sul medesimo piano"
+        }
+      ],
+      "sha256": "0b7eaa1591f5d26657fc051bb7cdf69f1aa758bc36d9cdf3961f12a226cc36f0"
+    },
+    {
+      "id": "IC-06",
+      "area": "imparare",
+      "title": "Trovare il meridiano con le ombre",
+      "replaces": [
+        "tavola-9"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/IC-06.png",
+      "pdf": "assets/poster/revisioni-20261023/IC-06.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/IC-06.webp",
+      "sources": [
+        {
+          "title": "Corbo e Scarpel in Pacucci — Astronomia in rete",
+          "url": "https://www.fabiopacucci.com/wp-content/uploads/2018/09/astronomia_in_rete.pdf",
+          "locator": "p.14, passaggio letto dalla banca",
+          "used": "Ombre corrispondenti e meridiano. Simmetria trattata come approssimazione della declinazione costante nel giorno"
+        },
+        {
+          "title": "Osservatorio Astronomico del Righi — Cerchi indù",
+          "url": "https://www.osservatoriorighi.it/pagine/strumenti.php",
+          "used": "Due estremi dell'ombra sulla stessa circonferenza, bisettrice. Terminologia tangenza corretta in intersezione; non riprese generalizzazioni sulle circumpolari in altre sezioni"
+        },
+        {
+          "title": "NASA GSFC — The Sundial",
+          "url": "https://pwg.gsfc.nasa.gov/stargaze/Sundial.htm",
+          "used": "Ombra nord al mezzogiorno in medie latitudini boreali; ora solare distinta da civile. Archivio2016, principi soltanto"
+        },
+        {
+          "title": "EduINAF — Costruisci il tuo orologio solare",
+          "url": "https://edu.inaf.it/astrodidattica/costruire-orologio-solare/",
+          "used": "Materiali, sequenza osservativa e sicurezza. Esclusa equivalenza errata ora/grado"
+        },
+        {
+          "title": "EduINAF — Equal Day2026 Roma",
+          "url": "https://edu.inaf.it/rubriche/altro-cielo/equal-day-2026-roma/",
+          "used": "Verticalità, misure ripetute e confronto; non applicata l'ora locale specifica ad altre date"
+        },
+        {
+          "title": "EAAE — How does a sundial work?",
+          "url": "https://www.eaae-astronomy.org/projects/find-a-sundial/how-does-a-sundial-work",
+          "used": "Riferimenti del quadrante e differenza fra verticale e asse polare; escluse generalizzazioni su tutte le latitudini"
+        }
+      ],
+      "sha256": "7b2bab24ca479809d510969c57e6ffc6e59c887d376f74d253068e77bc443012"
+    },
+    {
+      "id": "IC-07",
+      "area": "imparare",
+      "title": "Quanti gradi stanno in una mano?",
+      "replaces": [],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/IC-07.png",
+      "pdf": "assets/poster/revisioni-20261023/IC-07.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/IC-07.webp",
+      "sources": [
+        {
+          "title": "EduINAF — Quanto cielo sta in un pugno?",
+          "url": "https://edu.inaf.it/rubriche/altro-cielo/cielo-in-un-pugno/",
+          "used": "Misure approssimate e variabilità personale; corpo dell'articolo letto, esclusi richiami ad altri articoli"
+        },
+        {
+          "title": "NASA/ASP — Measure the Night Sky",
+          "url": "https://nightsky.jpl.nasa.gov/news/236/",
+          "used": "Gradi, primi e secondi; gesto a braccio teso e stime"
+        },
+        {
+          "title": "NASA Science — Skywatching FAQ",
+          "url": "https://science.nasa.gov/skywatching/faq/",
+          "used": "Tre dita circa5gradi e pugno circa10gradi; escluso il periodo lunare approssimato di27.5giorni presente altrove nella pagina"
+        },
+        {
+          "title": "NASA/CXC — Scales and Angular Measurement",
+          "url": "https://chandra.si.edu/photo/scale.html",
+          "used": "Diametro lunare circa mezzo grado; separazione angolare distinta dalla distanza fisica; pagina2011 per principi, non prestazioni correnti degli strumenti"
+        },
+        {
+          "title": "Treccani — Le distanze astronomiche",
+          "url": "https://static.treccani.it/export/sites/default/Portale/resources/multimedia/Lezioni_Astrofisica/Distanze/presentazione.pdf",
+          "locator": "p.3",
+          "used": "Confronto delle stime: pugno9gradi/mano22gradi, indicativi. Non ripresi errori successivi: parsec30miliardi di km, semiasse=distanza massima, radiante206625arcsec"
+        },
+        {
+          "title": "Astronomical League — Southern Sky",
+          "url": "https://www.astroleague.org/al/obsclubs/southsky/ssky.pdf",
+          "locator": "p.2",
+          "used": "Stime mano20gradi, pugno10gradi, tre dita5gradi; non graduatoria assoluta di trasparenza"
+        }
+      ],
+      "sha256": "ff1cafc5de192bf21a75977766915fb31c3f9e5a4cc7f28dbb2bd0f7ba5faa24"
+    },
+    {
+      "id": "IC-08",
+      "area": "imparare",
+      "title": "Dal Grande Carro alla Polare",
+      "replaces": [
+        "tavola-7_7"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/IC-08.png",
+      "pdf": "assets/poster/revisioni-20261023/IC-08.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/IC-08.webp",
+      "sources": [
+        {
+          "title": "NASA Science — What is the North Star",
+          "url": "https://science.nasa.gov/solar-system/skywatching/what-is-the-north-star-and-how-do-you-find-it/",
+          "used": "Polaris non è la stella più luminosa, vicino al polo, metodo dei puntatori e precessione; non attribuita a ogni luogo la stessa altezza."
+        },
+        {
+          "title": "NASA/ASP Night Sky Network — Measure the Night Sky",
+          "url": "https://nightsky.jpl.nasa.gov/news/236/",
+          "used": "Distanza angolare dei puntatori circa5,5gradi, non distanza fisica. Refuso DigDipper e mano come misura esatta non ripresi. Non generalizzato tuttoilCarro circumpolare a ogni latitudine italiana."
+        },
+        {
+          "title": "EduINAF — Il Grande Carro",
+          "url": "https://edu.inaf.it/rubriche/astronomo-risponde/il-grande-carro/",
+          "used": "Puntatori e asterismo. Non ripresa l’associazione delleUrsidi aOrsaMaggiore; il radiante è nell’OrsaMinore. Distanze delle stelle non presentate come identiche."
+        },
+        {
+          "title": "EduINAF — Marzo e l’equinozio di primavera",
+          "url": "https://edu.inaf.it/rubriche/il-cielo-del-mese/marzo-equinozio-di-primavera/",
+          "used": "Prolungamento Merak→Dubhe e fattorecirca5. Altri percorsi, colori diAlphard e nomeM52/M51 non copiati. Articolo2022 non calendario attuale."
+        },
+        {
+          "title": "UAI — Il cielo dei navigatori, note3",
+          "url": "https://divulgazione.uai.it/index.php/Il_cielo_dei_navigatori_-_Note_3",
+          "used": "Puntatori quasi allineati e rotazione siderale. Non ripresa l’affermazione perfettamente allineati né il refusoAlIdrisi1099a.C. Sole medio e tempo civile distinti."
+        },
+        {
+          "title": "Fabio Rocca — Impariamo il cielo, Prima dell’oculare",
+          "file": "banca-didattica-personale/documenti/testi/fabio-uai-impariamo-cielo.txt",
+          "locator": "Testo del passaggioMerak/Dubhe letto dalla banca",
+          "used": "Percorso pratico e distinzionePolare/polo. Corretto il termine costellazione delGrandeCarro in asterismo nell’OrsaMaggiore. Figure dell’autore non riutilizzate come coordinate quantitative."
+        }
+      ],
+      "sha256": "81826b2da84ca860a5c257e5468e30b295476d9e856c0e4f4ab0ff4e7b1baf46"
+    },
+    {
+      "id": "IC-18",
+      "area": "imparare",
+      "title": "Le stelle si spostano sopra il tetto?",
+      "replaces": [],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/IC-18.png",
+      "pdf": "assets/poster/revisioni-20261023/IC-18.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/IC-18.webp",
+      "sources": [
+        {
+          "title": "INAF — Elementi di riferimento sulla sfera celeste",
+          "url": "https://moodle.olimpiadi.inaf.it/mod/page/view.php?id=171",
+          "used": "Moto diurno, luogo e tempo. Non generalizzata culminazione superiore a tutti i transiti meridiani"
+        },
+        {
+          "title": "NASA Glenn — Telling Time by the Stars",
+          "url": "https://www.grc.nasa.gov/www/K-12/Numbers/Math/Mathematical_Thinking/telling_time_by_the_stars.htm",
+          "used": "Durata siderea arrotondata e anticipo giornaliero. Calcolo didattico storico, non effemeridi operative"
+        },
+        {
+          "title": "USNO — Computing Approximate Sidereal Time",
+          "url": "https://aa.usno.navy.mil/faq/GAST",
+          "used": "Riferimenti del tempo e dipendenza da longitudine; accuratezza esplicita"
+        },
+        {
+          "title": "Marco Monaci — Corso di Astronomia",
+          "locator": "p.21, testo letto nella banca",
+          "used": "Giorno siderale e angolo orario. Esclusa frase contraddittoria giorno solare vero esattamente24ore"
+        },
+        {
+          "title": "Osservatorio del Righi — Notturlabio",
+          "url": "https://www.osservatoriorighi.it/pagine/strumenti.php",
+          "used": "Rotazione apparente e confronto tra una notte e giorni diversi. Non generalizzata circumpolarità dell'intero GrandeCarro in tuttaItalia"
+        },
+        {
+          "title": "JPL — Horizons Manual",
+          "url": "https://ssd.jpl.nasa.gov/horizons/manual.html",
+          "used": "Definizioni di coordinate orizzontali e loro dipendenza da osservatore e istante; non si dichiara Horizons come motore usato"
+        }
+      ],
+      "sha256": "febccf980033f60c5f311a9e9e417f080f71c569294bf7b9bcb237e9ba6f634a"
+    },
+    {
+      "id": "IC-20",
+      "area": "imparare",
+      "title": "Orientare il mappamondo",
+      "replaces": [
+        "tavola-12"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/IC-20.png",
+      "pdf": "assets/poster/revisioni-20261023/IC-20.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/IC-20.webp",
+      "sources": [
+        {
+          "title": "EduINAF — Costruzione mappamondo parallelo",
+          "url": "https://edu.inaf.it/astrodidattica/mappamondo-parallelo-costruzione/",
+          "used": "Appoggio libero, base orizzontale, località in cima, asse verso nord geografico"
+        },
+        {
+          "title": "EduINAF — Mappamondo parallelo",
+          "url": "https://edu.inaf.it/mappamondo-parallelo/",
+          "used": "Asse parallelo all'asse terrestre e uso della luce reale"
+        },
+        {
+          "title": "EduINAF — Mappamondo: ombre",
+          "url": "https://edu.inaf.it/astrodidattica/mappamondo-parallelo-ombre/",
+          "used": "Gnomoni radiali e confronto dell'illuminazione"
+        },
+        {
+          "title": "Roma Tre — AstroGarden, mappamondo",
+          "url": "https://astrogarden.uniroma3.it/mappamondo/",
+          "used": "Inclinazione dell'asse dalla linea orizzontale uguale alla latitudine"
+        },
+        {
+          "title": "NASA Space Place — Seasons",
+          "url": "https://spaceplace.nasa.gov/seasons/en/",
+          "used": "Obliquità distinta dalla latitudine e non confusa con distanza dal Sole"
+        },
+        {
+          "title": "ESA — Seasons on other planets",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/Seasons_on_other_planets",
+          "used": "Geometria delle stagioni; dati planetari e prestazioni datati del2002 esclusi"
+        }
+      ],
+      "sha256": "60efdff7048dfd3242233f6753dc00cd7f8300cde14513575b261f66a0961a76"
+    },
+    {
+      "id": "IC-21",
+      "area": "imparare",
+      "title": "Inquinamento luminoso: che cosa perdiamo?",
+      "replaces": [],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/IC-21.png",
+      "pdf": "assets/poster/revisioni-20261023/IC-21.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/IC-21.webp",
+      "sources": [
+        {
+          "title": "IAU — Controlling Light Pollution",
+          "url": "https://iauarchive.eso.org/public/themes/light_pollution/",
+          "used": "Chiarore diffuso, contrasto e impatti; nessuna percentuale estrapolata"
+        },
+        {
+          "title": "NASA — How to Find Good Places to Stargaze",
+          "url": "https://science.nasa.gov/solar-system/how-to-find-good-places-to-stargaze/",
+          "used": "Importanza di direzione, Luna e condizioni; nessuna classe Bortle assegnata da una mappa"
+        },
+        {
+          "title": "EduINAF — Capire l'inquinamento luminoso",
+          "url": "https://edu.inaf.it/news/per-la-scuola/capire-linquinamento-luminoso/",
+          "used": "Luce dispersa e visibilità stellare; non ripresa l'esagerazione che in città rimangano visibili soltanto pianeti"
+        },
+        {
+          "title": "National Park Service — Light Pollution",
+          "url": "https://www.nps.gov/subjects/nightskies/lightpollution.htm",
+          "used": "Tre effetti: abbagliamento, luce intrusiva, chiarore del cielo"
+        },
+        {
+          "title": "AAS — Resolution on Light Pollution, revisione2025",
+          "url": "https://aas.org/about/governance/society-resolutions/light-pollution",
+          "used": "Uso mirato e proporzionato della luce; nessuna statistica di crescita generalizzata"
+        },
+        {
+          "title": "DarkSky/IES — Five Principles for Responsible Outdoor Lighting",
+          "url": "https://darksky.org/resources/guides-and-how-tos/lighting-principles/",
+          "used": "Direzione, schermatura, intensità, controllo e componente spettrale; principio non garanzia di eliminazione"
+        }
+      ],
+      "sha256": "084e2b9f3d40b0bcb22f436e1940954d9e8ae1791790d4901ba2a204c05936ab"
+    },
+    {
+      "id": "IC-22",
+      "area": "imparare",
+      "title": "Stella o pianeta? Gli indizi da confrontare",
+      "replaces": [],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/IC-22.png",
+      "pdf": "assets/poster/revisioni-20261023/IC-22.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/IC-22.webp",
+      "sources": [
+        {
+          "title": "NRAO — Scintillation",
+          "url": "https://www.gb.nrao.edu/GBTopsdocs/primer/scintillation.htm",
+          "used": "Scintillazione maggiore vicino all'orizzonte; dischi planetari e media spaziale"
+        },
+        {
+          "title": "FSU/Optical Society — Why do Stars Twinkle",
+          "url": "https://osa.magnet.fsu.edu/tutorials/starstwinkle.html",
+          "used": "Turbolenza, rifrazione variabile e instabilità dell'immagine"
+        },
+        {
+          "title": "LPI — Sky Tellers: Stars",
+          "url": "https://www.lpi.usra.edu/education/skytellers/stars/",
+          "used": "Solo paragrafo sulla scintillazione, non le altre semplificazioni evolutive della pagina"
+        },
+        {
+          "title": "University of Wisconsin–Madison — James Lattis",
+          "url": "https://news.wisc.edu/curiosities-why-do-stars-appear-to-twinkle-in-the-night-sky/",
+          "used": "Scintillazione planetaria normalmente attenuata, non impossibile"
+        },
+        {
+          "title": "NASA — Skywatching FAQ",
+          "url": "https://science.nasa.gov/skywatching/faq/",
+          "used": "Visibilità dei pianeti e utilità delle coordinate locali luogo/data/ora"
+        },
+        {
+          "title": "JPL — Horizons Manual",
+          "url": "https://ssd.jpl.nasa.gov/horizons/manual.html",
+          "used": "Posizioni e moto rispetto a riferimenti; non traiettoria sintetica come effemeride attuale"
+        }
+      ],
+      "sha256": "7c1682be08f351871a74e4a4a79b02096f16837e921ebf338a949967918bc1ab"
+    },
+    {
+      "id": "IC-23",
+      "area": "imparare",
+      "title": "Aloni, pareli e nubi nottilucenti",
+      "replaces": [
+        "tavola-5"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/IC-23.png",
+      "pdf": "assets/poster/revisioni-20261023/IC-23.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/IC-23.webp",
+      "sources": [
+        {
+          "title": "WMO — International Cloud Atlas, Corona",
+          "url": "https://cloudatlas.wmo.int/en/corona.html",
+          "used": "Diffrazione, acqua o ghiaccio e dimensione variabile. Non appiattire la corona a un anello di22° né limitarla necessariamente ad acqua liquida."
+        },
+        {
+          "title": "NOAA-NWS — Halos, Sundogs and Sun Pillars",
+          "url": "https://www.weather.gov/arx/why_halos_sundogs_pillars",
+          "used": "Rifrazione per aloni/pareli, riflessione per pilastri. Non ripresa descrizione generica della rifrazione a qualsiasi angolo o riflessione priva di dipendenza spettrale come legge universale."
+        },
+        {
+          "title": "Met Office — Optical effects",
+          "url": "https://weather.metoffice.gov.uk/learn-about/weather/optical-effects",
+          "used": "Confronto fra aloni, pareli e corone. 22° è angolo apparente di deviazione minima e raggio dell’alone comune, non l’angolo d’ingresso nel cristallo come potrebbe suggerire una frase semplificata della fonte."
+        },
+        {
+          "title": "NASA Science — Nocturnal wonders",
+          "url": "https://science.nasa.gov/resource/nocturnal-wonders/",
+          "used": "Nubi mesosferiche80–85km, ghiaccio illuminato e stagione/latitudini. La foto Jan Erik Paulsen2010 non viene copiata né riattribuita alla ricostruzione."
+        },
+        {
+          "title": "British Astronomical Association — Observing Noctilucent Clouds",
+          "url": "https://britastro.org/section_information_/aurora-and-noctilucent-cloud-overview/observing-noctilucent-clouds",
+          "used": "Strutture sottili, crepuscolo, contrasto con nubi basse e annotazione di osservazioni negative. Frequenza3–4volte/anno del contesto britannico non generalizzata all’Italia."
+        },
+        {
+          "title": "Astronomia in rete — scheda sull’alone",
+          "url": "https://www.fabiopacucci.com/wp-content/uploads/2018/09/astronomia_in_rete.pdf",
+          "locator": "pagina PDF92, corpo letto nella banca IC-23-banca.json",
+          "used": "Confronto sul raggio dell’alone terrestre e ghiaccio. Non riprese ipotesi o assenza storica di osservazioni marziane come fatti attuali; non proposto puntare le mani verso il Sole."
+        }
+      ],
+      "sha256": "f1f16aaad56c6298c26b69a2b25b2784d2f8a3e3719d862546a96a4a77d7f654"
+    },
+    {
+      "id": "IC-24",
+      "area": "imparare",
+      "title": "ISS, satelliti e treni di luci",
+      "replaces": [
+        "tavola-6"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/IC-24.png",
+      "pdf": "assets/poster/revisioni-20261023/IC-24.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/IC-24.webp",
+      "sources": [
+        {
+          "title": "NASA — Spot the Station FAQ",
+          "url": "https://www.nasa.gov/missions/station/spot-the-station-frequently-asked-questions/",
+          "used": "Luce riflessa e previsioni locali. Nessun numero di passaggi garantito per ogni luogo o mese."
+        },
+        {
+          "title": "NASA/JPL — Find the Space Station passing overhead",
+          "url": "https://www.jpl.nasa.gov/videos/whats-up-april-2010-find-the-space-station-passing-overhead/",
+          "used": "Trascrizione letta, non visione del filmato. Aspetto puntiforme, entrata in ombra, differenza da luci aeronautiche. Non ripresi indicazioni dello Shuttle, calendario aprile 2010 o vecchio sito di previsione."
+        },
+        {
+          "title": "ESO — eso2004",
+          "url": "https://www.eso.org/public/australia/news/eso2004/",
+          "used": "Passaggio sui treni appena lanciati e illuminazione. Non presentati i numeri o le stime del modello 2020 come inventario attuale."
+        },
+        {
+          "title": "EduINAF — App Sorvegliati Spaziali",
+          "url": "https://edu.inaf.it/astrodidattica/app-sorvegliati-spaziali/",
+          "used": "Rifiuti spaziali, meteore e distinzione fra ricostruzione in AR e osservazione; nessuna acquisizione di immagini dell’app."
+        },
+        {
+          "title": "American Meteor Society — Fireball FAQ",
+          "url": "https://www.amsmeteors.org/fireballs/faqf/",
+          "used": "Durata e scia persistente distinte; registrare istante, direzione e durata. Non ripresa la conversione errata 80 km=65 miglia, né assimilata la traccia alla traiettoria attuale del corpo."
+        },
+        {
+          "title": "FAA — Airplane Flying Handbook, cap.11",
+          "url": "https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/airplane_handbook/12_afh_ch11.pdf",
+          "locator": "pagine PDF5–6, pagine stampate11-5/11-6",
+          "used": "Luci di posizione e anticollisione; non confondere rosso/verde fissi con il lampeggio, non dedurre identificazione univoca da un singolo indizio."
+        }
+      ],
+      "sha256": "0aefc0a63b1395ff5a7770d0752e76428e25d2964ba94580b88be99f676ea853"
+    },
+    {
+      "id": "IC-26",
+      "area": "imparare",
+      "title": "Una serata sul campo: il mio diario",
+      "replaces": [],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/IC-26.png",
+      "pdf": "assets/poster/revisioni-20261023/IC-26.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/IC-26.webp",
+      "sources": [
+        {
+          "title": "NASA Science — Moon Observation Journal",
+          "url": "https://science.nasa.gov/resource/moon-observation-journal/",
+          "used": "Data, ora, disegno e ragione della mancata osservazione. Non scambiare previsione per osservazione."
+        },
+        {
+          "title": "NASA/JPL — Look at the Moon journaling project",
+          "url": "https://www.jpl.nasa.gov/edu/resources/project/look-at-the-moon-journaling-project/",
+          "used": "Ripetizione e confronto fra giorni. La proposta di completare retroattivamente giorni mancanti con fase prevista viene adattata tenendo separati osservato e previsto, senza riempire il registro come se fossero misure."
+        },
+        {
+          "title": "NASA RadioJOVE — Sample log forms",
+          "url": "https://radiojove.gsfc.nasa.gov/education/educationalcd/ObserversHandbooks/SkillBuildingTips/Field%20Observations/Observing%20Log.pdf",
+          "used": "Registro previsto distinto da registro osservato, intervalli e tempo locale/UT. Le sigle delle tempeste radio non copiate come etichette per osservazione visuale."
+        },
+        {
+          "title": "AMS — Fireball FAQ",
+          "url": "https://www.amsmeteors.org/fireballs/faqf/",
+          "used": "Registrare durata, luminosità, direzioni e riferimenti; descrizione diversa dall’identificazione."
+        },
+        {
+          "title": "BAA — Observing noctilucent clouds",
+          "url": "https://britastro.org/section_information_/aurora-and-noctilucent-cloud-overview/observing-noctilucent-clouds",
+          "used": "Osservazioni negative documentate e condizioni; frequenza del fenomeno nel RegnoUnito non generalizzata all’Italia."
+        },
+        {
+          "title": "UAI — Il cielo del mese",
+          "url": "https://www.uai.it/sito/il-cielo-del-mese/",
+          "used": "Programmazione con fonti mensili e crediti. Descrizione introduttiva con Tiangong2 e Iridium flare datata: non usata come elenco di bersagli attuali, rimando soltanto al servizio e alla ricerca dei dati per mese/luogo."
+        }
+      ],
+      "sha256": "31de0a67c5beaab0c0e377d5e12a7d1671bcd759f2c7da848c3e00818b368b2c"
+    },
+    {
+      "id": "UN-04",
+      "area": "universo",
+      "title": "Misurare le distanze: UA, anno luce e parsec",
+      "replaces": [],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/UN-04.png",
+      "pdf": "assets/poster/revisioni-20261023/UN-04.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/UN-04.webp",
+      "sources": [
+        {
+          "title": "NASA Science — Cosmic Distances",
+          "url": "https://science.nasa.gov/universe/cosmic-distances/",
+          "used": "Scelta delle unità su scale solari, stellari ed extragalattiche; anno luce come distanza"
+        },
+        {
+          "title": "ESA Gaia — Cosmic distances",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/Gaia/Cosmic_distances",
+          "used": "Parsec, anno luce e secondo d'arco; non usate le vecchie prestazioni numeriche della missione"
+        },
+        {
+          "title": "NASA GSFC — Imagine the Universe Dictionary",
+          "url": "https://imagine.gsfc.nasa.gov/resources/dictionary.html",
+          "used": "Voci parallax e parsec, multipli kpc/Mpc. La definizione storica di UA della stessa pagina è sostituita da quella IAU 2012"
+        },
+        {
+          "title": "Observatoire de Paris — New definition of the astronomical unit",
+          "url": "https://observatoiredeparis.psl.eu/the-new-definition-of-the-astronomical-unit.html",
+          "used": "Definizione esatta 149597870700 metri e risoluzione IAU 2012 B2"
+        },
+        {
+          "title": "SAIt — Bignamino di astronomia 2022",
+          "url": "https://www.sait.it/sites/sait.interlandia.net/files/pictures/notizie/2022/Bignamino_astronomia_2022.pdf",
+          "locator": "pagina PDF32, passaggio letto nella banca",
+          "used": "Parallasse annua e relazione distanza/parallasse, distinguendo la base dal confronto a sei mesi"
+        },
+        {
+          "title": "Marco Monaci — Corso di Astronomia",
+          "file": "banca-didattica-personale/documenti/pdf/fabio-pdf-3dcde443362b.pdf",
+          "locator": "pagina27, testo letto dalla banca",
+          "used": "Anno luce come lunghezza, pc/kpc/Mpc. Conversioni arrotondate ricalcolate anziché copiate"
+        }
+      ],
+      "sha256": "46d42fbfe1f169cdeaa4c30d7ac25b1e90e8cff2ddd1498273261f041fe0d0f9"
+    },
+    {
+      "id": "UN-09",
+      "area": "universo",
+      "title": "Leggere il diagramma H–R",
+      "replaces": [],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/UN-09.png",
+      "pdf": "assets/poster/revisioni-20261023/UN-09.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/UN-09.webp",
+      "sources": [
+        {
+          "title": "ESA/Gaia/DPAC — Gaia's Hertzsprung-Russell diagram2018",
+          "url": "https://www.esa.int/ESA_Multimedia/Images/2018/04/Gaia_s_Hertzsprung-Russell_diagram",
+          "used": "Assi, regioni e colori di densità. Non dichiarato DR2 come ultimo catalogo. Non ripreso hydrogen-rich cores, che nella didascalia confonde atmosfera e nucleo delle nane bianche"
+        },
+        {
+          "title": "NASA/CXC — H–R Diagram",
+          "url": "https://chandra.si.edu/edu/formal/variable_stars/bg_info.html",
+          "used": "Classi e luminosità/temperatura. Escluse inferenza univoca età/composizione, pressione solo radiativa, M33 chiamata Andromeda, dettagli delle novae non pertinenti e semplificati erroneamente"
+        },
+        {
+          "title": "OpenStax — Astronomy18.4",
+          "url": "https://openstax.org/books/astronomy/pages/18-4-the-h-r-diagram",
+          "used": "Relazione con dimensioni, regioni e selezione del campione; grafico nativo sintetico non catalogo osservato"
+        },
+        {
+          "title": "SAIt — Bignamino2022",
+          "url": "https://www.sait.it/sites/sait.interlandia.net/files/pictures/notizie/2022/Bignamino_astronomia_2022.pdf",
+          "locator": "PDFpp.148–149, testo locale letto",
+          "used": "Direzione degli assi, sequenza e regioni distinte"
+        },
+        {
+          "title": "Treccani — Caratteristiche delle stelle",
+          "url": "https://static.treccani.it/export/sites/default/Portale/resources/multimedia/Lezioni_Astrofisica/stelle_caratteristiche/presentazione.pdf",
+          "locator": "p.19 nella banca",
+          "used": "Temperatura decrescente; non confusa sequenza delle nane con nane bianche. Errore massa-luminosità della pagina precedente già escluso"
+        },
+        {
+          "title": "Lorenzo Roi — CorsoAstro1",
+          "url": "https://www.lorenzoroi.net/prelievi/CorsoAstro1.pdf",
+          "locator": "p.30 nella banca",
+          "used": "Sole nella sequenza e confronto con giganti. Dati storici distinti da valori moderni; non impiegata parola flusso per luminosità senza distinzione"
+        }
+      ],
+      "sha256": "bf669c7da3bda41b0ba9a597e15ec497ed4169678a7929e00de87905f2c1d3f9"
+    },
+    {
+      "id": "UN-15",
+      "area": "universo",
+      "title": "Il riciclo della materia cosmica",
+      "replaces": [],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/UN-15.png",
+      "pdf": "assets/poster/revisioni-20261023/UN-15.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/UN-15.webp",
+      "sources": [
+        {
+          "title": "NASA GSFC — Origins of the Elements",
+          "url": "https://svs.gsfc.nasa.gov/13873/",
+          "used": "Origini multiple; distinzione fra sintesi primordiale, stelle e altri canali. Tavola non copiata né riprodotta come nuova figura"
+        },
+        {
+          "title": "NASA/CXC — Elementary Nature of Cassiopeia A",
+          "url": "https://chandra.si.edu/elements/",
+          "used": "Produzione e dispersione, elementi individuati negli spettri. Non trasformate frazioni di un esempio in statistiche universali"
+        },
+        {
+          "title": "DOE — Nucleosynthesis",
+          "url": "https://www.energy.gov/science/doe-explainsnucleosynthesis",
+          "used": "Sintesi, fusione e cattura neutronica. Escluse confusione quark-gluon ai primi minuti e frase che attribuisce implicitamente l'idrogeno corporeo alle stelle"
+        },
+        {
+          "title": "LIGO — GW170817 kilonova",
+          "url": "https://ligo.org/science-summaries/gw170817kilonova/",
+          "used": "Evidenze, modelli e limiti della produzione r-process; non oro osservato direttamente in ogni evento"
+        },
+        {
+          "title": "ESO1917 — Strontium from neutron star collision",
+          "url": "https://www.eso.org/public/ireland/news/eso1917/",
+          "used": "Rilevazione spettroscopica e processi. Non generalizzato che tutto il materiale oltre il ferro richieda solo cattura rapida, né che questo sia l'unico evento noto oggi"
+        },
+        {
+          "title": "EduINAF — Margaret Burbidge",
+          "url": "https://edu.inaf.it/approfondimenti/personaggi/margaret-burbidge",
+          "locator": "Corpo dell'articolo letto nella banca UN-15-banca.json",
+          "used": "Contesto della nucleosintesi stellare; non prova indipendente di ogni canale o dato numerico"
+        }
+      ],
+      "sha256": "0b40ac316c93658ebdaaa0d0fc39fd9fbe74738bbf79b8914f5e151fa7973695"
+    },
+    {
+      "id": "UN-18",
+      "area": "universo",
+      "title": "Dal Gruppo Locale alla rete cosmica",
+      "replaces": [],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/UN-18.png",
+      "pdf": "assets/poster/revisioni-20261023/UN-18.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/UN-18.webp",
+      "sources": [
+        {
+          "title": "NASA Science — Galaxies",
+          "url": "https://science.nasa.gov/universe/galaxies/",
+          "used": "Gruppi, ammassi e Gruppo Locale. Non imposto un conteggio fisso dei membri, né chiamato il Gruppo Locale parte dell’ammasso della Vergine. Le frasi sull’età minima delle galassie e su superammassi sono fuori dallo scopo."
+        },
+        {
+          "title": "ESA Planck — Distribution of matter in the Universe",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/Planck/Tools_to_study_the_distribution_of_matter_in_the_Universe",
+          "used": "Filamenti, vuoti e crescita gravitazionale; non ridotto lo spettro di potenza a un mero conteggio di oggetti di dimensioni diverse."
+        },
+        {
+          "title": "ESA — Simulation of the cosmic web",
+          "url": "https://www.esa.int/ESA_Multimedia/Images/2025/06/Simulation_of_the_cosmic_web",
+          "used": "Distinzione simulazione/dato e colori assegnati a densità. La figura Illustris non ha licenzaESA disponibile e non viene copiata o inserita come originale AD ASTRA."
+        },
+        {
+          "title": "ESO — Fulldome flight through the cosmic web",
+          "url": "https://www.eso.org/public/videos/cosmic2_dome_2200/",
+          "used": "Descrizione editoriale consultata, video non visionato. Colori e materia oscura nella visualizzazione non sono un aspetto visibile a occhio nudo. Nessun fotogramma estratto."
+        },
+        {
+          "title": "Treccani — Le galassie",
+          "url": "https://static.treccani.it/export/sites/default/Portale/resources/multimedia/Lezioni_Astrofisica/galassie/Le_galassie_LEZIONE.pdf",
+          "locator": "pagina PDF4 in UN-18-banca.json",
+          "used": "Distinzione gruppi/ammassi e incertezze di distanza. Escluso il vecchio limite4Mpc per Cefeidi, non più limite universale attuale."
+        },
+        {
+          "title": "INAF Torino — Vita, morte e miracoli delle radiogalassie",
+          "url": "https://drive.google.com/file/d/1HLiLmdOWROw9UKxgchuXnY4xzPlolycL/view?usp=sharing",
+          "locator": "paginaPDF14, passaggio letto nella banca UN-18-banca.json",
+          "used": "HectoMAP come esempio di distribuzione osservata di galassie, distinto da una ricostruzione. Nessuna riproduzione della slide o delle sue immagini: materiale del corso in attesa di autorizzazione per ospitalità pubblica."
+        }
+      ],
+      "sha256": "1efee0a35156a3b31a97f5b983e677a970be12aa440d7aea4fec4d9d08db239b"
+    },
+    {
+      "id": "SS-06",
+      "area": "sistema-solare",
+      "title": "Venere, Terra e Marte: tre atmosfere",
+      "replaces": [],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/SS-06.png",
+      "pdf": "assets/poster/revisioni-20261023/SS-06.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/SS-06.webp",
+      "sources": [
+        {
+          "title": "NASA Science — Venus Facts",
+          "url": "https://science.nasa.gov/venus/venus-facts/",
+          "used": "CO2,nubi di acido solforico, superficie circa460°C. Valori rappresentativi arrotondati"
+        },
+        {
+          "title": "NASA Science — Earth Facts",
+          "url": "https://science.nasa.gov/earth/facts/",
+          "used": "78%N2,21%O2 per aria secca. Esclusi dettagli non pertinenti e imprecisi di campo magnetico"
+        },
+        {
+          "title": "NASA Science — Mars Facts",
+          "url": "https://science.nasa.gov/mars/facts/",
+          "used": "CO2, atmosfera tenue e polvere. Non ripresa l'affermazione vecchia su flussi di salamoia stagionali né l'altezza40km di OlympusMons senza riferimento altimetrico"
+        },
+        {
+          "title": "ESA — Venus compared to Earth",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/Venus_Express/Venus_compared_to_Earth/(language)/eng-GB",
+          "used": "Confronto circa90bar/1bar e aria secca. Altezza17km MaxwellMontes e albedo datate escluse"
+        },
+        {
+          "title": "ESA Mars Express — Facts about Mars",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/Mars_Express/Facts_about_Mars",
+          "used": "Pressione superficiale rappresentativa circa6mbar; non trasformata in valore universale costante. Periodo24h37 di rotazione non preso come giorno solare"
+        },
+        {
+          "title": "NOAA — IPCC FAQ1.3 What is the Greenhouse Effect?",
+          "url": "https://cdn.oceanservice.noaa.gov/oceanserviceprod/education/pd/climate/factsheets/whatgreenhouse.pdf",
+          "used": "Assorbimento ed emissione IR; distinzione dalla serra di vetro, aria secca. Documento storico per principi, non concentrazioni attuali o previsioni"
+        }
+      ],
+      "sha256": "357ce3810d27360306fb0f4c219017dc70dceb6575eff15f74a8dd9a31d02842"
+    },
+    {
+      "id": "SS-09",
+      "area": "sistema-solare",
+      "title": "Oltre Nettuno: Plutone e la fascia di Kuiper",
+      "replaces": [],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/SS-09.png",
+      "pdf": "assets/poster/revisioni-20261023/SS-09.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/SS-09.webp",
+      "sources": [
+        {
+          "title": "NASA Science — Pluto Facts",
+          "url": "https://science.nasa.gov/dwarf-planets/pluto/facts/",
+          "used": "Pianeta nano2006, paesaggi, sorvolo2015"
+        },
+        {
+          "title": "NASA Science — Kuiper Belt Facts",
+          "url": "https://science.nasa.gov/solar-system/kuiper-belt/facts/",
+          "used": "Regione principale circa30–50UA e diversità di popolazioni"
+        },
+        {
+          "title": "NASA Science — Oort Cloud",
+          "url": "https://science.nasa.gov/solar-system/oort-cloud/",
+          "used": "Popolazione inferita molto più lontana, approssimativamente sferica"
+        },
+        {
+          "title": "NASA Science — New Horizons",
+          "url": "https://science.nasa.gov/mission/new-horizons/",
+          "used": "Sorvoli14luglio2015 Plutone e1gennaio2019 Arrokoth; non distanze puntuali discordanti nel testo della stessa pagina"
+        },
+        {
+          "title": "NASA Science — Charon",
+          "url": "https://science.nasa.gov/dwarf-planets/pluto/moons/charon/",
+          "used": "Satellite maggiore e blocco mareale reciproco"
+        },
+        {
+          "title": "NASA Space Place — What Is the Kuiper Belt",
+          "url": "https://spaceplace.nasa.gov/kuiper-belt/en/",
+          "used": "Regione oltre Nettuno e distinzione fra fascia e singoli corpi"
+        }
+      ],
+      "sha256": "a07a0ee6385f054ecc548bfec0bbf46462429410d2d9eb27f48df93dfaf8a260"
+    },
+    {
+      "id": "SS-11",
+      "area": "sistema-solare",
+      "title": "Atlante delle lune: mondi da confrontare",
+      "replaces": [],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/SS-11.png",
+      "pdf": "assets/poster/revisioni-20261023/SS-11.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/SS-11.webp",
+      "sources": [
+        {
+          "title": "NASA Science — Io",
+          "url": "https://science.nasa.gov/jupiter/jupiter-moons/io/",
+          "used": "Vulcanismo e riscaldamento mareale"
+        },
+        {
+          "title": "NASA Science — Europa",
+          "url": "https://science.nasa.gov/jupiter/jupiter-moons/europa/",
+          "used": "Crosta ghiacciata, forti evidenze di oceano sotterraneo; non vita dimostrata"
+        },
+        {
+          "title": "NASA Science — Ganymede",
+          "url": "https://science.nasa.gov/jupiter/jupiter-moons/ganymede/",
+          "used": "Luna maggiore e campo magnetico intrinseco"
+        },
+        {
+          "title": "NASA Science — Callisto",
+          "url": "https://science.nasa.gov/jupiter/jupiter-moons/callisto/",
+          "used": "Superficie molto craterizzata; non chiamata vulcanicamente giovane"
+        },
+        {
+          "title": "NASA Science — Titan",
+          "url": "https://science.nasa.gov/saturn/moons/titan/",
+          "used": "Atmosfera densa e idrocarburi liquidi in superficie, non mari d'acqua"
+        },
+        {
+          "title": "NASA Science — Enceladus",
+          "url": "https://science.nasa.gov/saturn/moons/enceladus/",
+          "used": "Pennacchi dal polo sud, oceano interno e ghiaccio"
+        },
+        {
+          "title": "NASA Science — Phobos",
+          "url": "https://science.nasa.gov/mars/moons/phobos/",
+          "used": "Forma irregolare e cratere Stickney"
+        },
+        {
+          "title": "NASA Science — Deimos",
+          "url": "https://science.nasa.gov/mars/moons/deimos/",
+          "used": "Minore di Phobos, forma irregolare, regolite"
+        },
+        {
+          "title": "NASA Science — Charon",
+          "url": "https://science.nasa.gov/dwarf-planets/pluto/moons/charon/",
+          "used": "Satellite di Plutone e blocco mareale reciproco"
+        }
+      ],
+      "sha256": "cd35507935d72f6bbc8863534ff9d962173e2d6c73586d585f812b36149ff98f"
+    },
+    {
+      "id": "SS-18",
+      "area": "sistema-solare",
+      "title": "L’eclissi di Luna",
+      "replaces": [],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/SS-18.png",
+      "pdf": "assets/poster/revisioni-20261023/SS-18.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/SS-18.webp",
+      "sources": [
+        {
+          "title": "NASA Science — Eclipses and the Moon",
+          "url": "https://science.nasa.gov/moon/eclipses/",
+          "used": "Luna piena, tipi, luce filtrata. Non ripreso il calendario con prossimi eventi già passati, né il passaggio della pagina sull’ombra della Luna in un contesto lunare."
+        },
+        {
+          "title": "ESA — Lunar eclipse",
+          "url": "https://www.esa.int/ESA_Multimedia/Images/2026/05/Lunar_eclipse",
+          "used": "Tipi e osservazione sicura. Non ripresa la frase solo rosso come selezione monocromatica assoluta, né visibilità su tutta l’emisfera notturna senza il vincolo Luna sopra orizzonte."
+        },
+        {
+          "title": "IMCCE — Les éclipses de Lune",
+          "url": "https://promenade.imcce.fr/en/pages3/333.html",
+          "used": "Piani inclinati e nodi; classi e parametri. Inclinazione media approssimata5° senza assolutizzare5°13′, tabella cronologica non copiata come calendario corrente."
+        },
+        {
+          "title": "NASA GSFC — Five Millennium Catalog of Lunar Eclipses",
+          "url": "https://eclipse.gsfc.nasa.gov/LEcat5/LEcatalog.html",
+          "used": "Plenilunio vicino ai nodi, tipi e distinzione fra eclissi totale e centrale: non tutte le totali attraversano il centro dell’ombra."
+        },
+        {
+          "title": "Marco Monaci — Corso di astronomia",
+          "locator": "pagina PDF36, letta in SS-18-banca.json",
+          "url": "",
+          "used": "Confronto geometrico Sole–Terra–Luna e visibilità. Esclusi il limite9° universale e la descrizione assorbimento del blu come unico meccanismo; non usato per contare solo le eclissi umbrali e tralasciare quelle di penombra."
+        },
+        {
+          "title": "Fabio Pacucci — Astronomia in rete",
+          "url": "https://www.fabiopacucci.com/wp-content/uploads/2018/09/astronomia_in_rete.pdf",
+          "locator": "pagina PDF65 letta nella banca",
+          "used": "Esperienza osservativa dell’eclissi4maggio2004 e confronto fra località. Foto e fotocamere storiche non riprodotte come attuali, nessuna immagine copiata."
+        }
+      ],
+      "sha256": "e4304663f2588130be510a9f827a69006237f2a802db9f9f609c2a294c496fc8"
+    },
+    {
+      "id": "SS-24",
+      "area": "sistema-solare",
+      "title": "Dall’aria allo spazio: atmosfera e orbite",
+      "replaces": [],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/SS-24.png",
+      "pdf": "assets/poster/revisioni-20261023/SS-24.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/SS-24.webp",
+      "sources": [
+        {
+          "title": "NOAA JetStream — Layers of the Atmosphere",
+          "url": "https://www.noaa.gov/jetstream/atmosphere/layers-of-atmosphere",
+          "used": "Classificazione termica; meso50–85km, termo85–600km ed esosfera, limiti approssimativi"
+        },
+        {
+          "title": "NASA Space Place — Earth's Atmosphere",
+          "url": "https://spaceplace.nasa.gov/atmosphere/en/",
+          "used": "Funzioni generali dell'atmosfera. Non ripresa come sei gusci termici la lista che include l'ionosfera"
+        },
+        {
+          "title": "NASA Heliophysics — Ionosphere, Thermosphere & Mesosphere",
+          "url": "https://science.nasa.gov/heliophysics/focus-areas/ionosphere_thermosphere_mesosphere/",
+          "used": "Sovrapposizione delle regioni ionizzate, variazioni e interazione con l'ambiente spaziale. Esclusi annunci di missioni"
+        },
+        {
+          "title": "ESA — Types of orbits",
+          "url": "https://www.esa.int/Enabling_Support/Space_Transportation/Types_of_orbits",
+          "used": "LEO sotto2000km; MEO; GEO35786km, equatoriale e giorno siderale. Non ripresa la frase divulgativa assoluta che esclude ogni attrito in orbita"
+        },
+        {
+          "title": "NASA — Station Facts",
+          "url": "https://www.nasa.gov/international-space-station/space-station-facts-and-figures/",
+          "used": "ISS in orbita terrestre e continuità dei passaggi; non censimento di equipaggi o moduli correnti"
+        },
+        {
+          "title": "FAI — Statement about the Karman Line",
+          "url": "https://www.fai.org/news/statement-about-karman-line",
+          "used": "100km come convenzione, discussione delle definizioni; non confine fisico netto"
+        }
+      ],
+      "sha256": "4ee3f8f32028934dcb8c58a82710e9e8b9acc910fbaf6dcb344aab7514e53178"
+    },
+    {
+      "id": "SA-04",
+      "area": "strumenti",
+      "title": "Cavalletto e supporti",
+      "replaces": [],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/SA-04.png",
+      "pdf": "assets/poster/revisioni-20261023/SA-04.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/SA-04.webp",
+      "sources": [
+        {
+          "title": "Celestron — Binocular Tripod Adapter93524",
+          "url": "https://celestron-site-support-files.s3.us-east-1.amazonaws.com/support_files/93524_Binocular_Tripod_Adapter_Manua-F.pdf",
+          "used": "Montaggio sulla presa frontale fra i tubi e attacco1/4-20. Non tutti i binocoli sono compatibili"
+        },
+        {
+          "title": "Nikon — Binocular Accessories",
+          "url": "https://imaging.nikon.com/sport-optics/lineup/binoculars/accessory/",
+          "used": "Adattatori e liste di compatibilità distinte per modelli"
+        },
+        {
+          "title": "Swarovski Optik — UTAs",
+          "url": "https://www.swarovskioptik.com/de/en/outdoor/products/accessories/binocular-accessories-all/binocular-accessories/universal-tripod-adapter",
+          "used": "Supporti dedicati e limiti espliciti di compatibilità; non copiati prezzi o recensioni"
+        },
+        {
+          "title": "Oberwerk — Series5000 instructions",
+          "url": "https://oberwerk.com/wp-content/downloads/Series5000_Instructions.pdf",
+          "used": "Piastra, fermo di sicurezza, testa, colonna e bilanciamento. Documento2009 ancora collegato dal supporto: principi del montaggio, non confronto di tecnologie correnti"
+        },
+        {
+          "title": "Oberwerk — TR3 setup",
+          "url": "https://oberwerk.com/wp-content/downloads/TR3setup.pdf",
+          "used": "Bloccaggi, geometria delle gambe, carico e manutenzione. Angoli20/25gradi specifici di modello non generalizzati"
+        },
+        {
+          "title": "Oberwerk — PM2",
+          "url": "https://oberwerk.com/product/oberwerk-pm1/",
+          "used": "Parallelogramma, variazione altezza oculari, contrappesi e bloccaggio per montaggio; escluse affermazioni commerciali superlative"
+        }
+      ],
+      "sha256": "20314731a2c2770e7093287a768baa9fd854960bdd58a02ff3dd57374c048df8"
+    },
+    {
+      "id": "SA-12",
+      "area": "strumenti",
+      "title": "La montatura equatoriale",
+      "replaces": [
+        "tavola-28"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/SA-12.png",
+      "pdf": "assets/poster/revisioni-20261023/SA-12.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/SA-12.webp",
+      "sources": [
+        {
+          "title": "Celestron — Align and polar-align a manual EQ mount",
+          "url": "https://www.celestron.com/blogs/knowledgebase/how-do-you-align-and-polar-align-using-a-manual-eq-mount",
+          "used": "Asse parallelo all’asse terrestre e regolazione di latitudine. Centratura grossolana di Polaris non presentata come stazionamento preciso; esclusi placeholder link e istruzione di spostare treppiede dopo stazionamento."
+        },
+        {
+          "title": "Celestron — Alt-Az or Equatorial Mount",
+          "url": "https://www.celestron.com/blogs/knowledgebase/should-i-use-an-alt-az-or-equatorial-mount",
+          "used": "AssiAR/Dec e inseguimento. Esclusa formula solo equatoriale possibile per astrofotografia: esistono pose brevi, derotatori e altre soluzioni."
+        },
+        {
+          "title": "Celestron — Balance an equatorial mount",
+          "url": "https://www.celestron.com/blogs/knowledgebase/how-do-i-balance-my-telescope-on-an-equatorial-mount",
+          "used": "Bilanciamento in entrambi gli assi. Il consiglio finale di sbilanciamento non imposto a tutte le meccaniche, soprattutto riduttori armonici e configurazioni diverse."
+        },
+        {
+          "title": "Celestron — Setting circles",
+          "url": "https://www.celestron.com/blogs/knowledgebase/what-are-setting-circles-and-how-to-use-them-on-an-equatorial-mount",
+          "used": "AR in ore e Dec in gradi, coordinate non identiche a direzioni cardinali del paesaggio. Cerchi ed encoder non garantiscono precisione se la geometria è errata."
+        },
+        {
+          "title": "iOptron — SmartEQ/SmartEQ Pro manual",
+          "url": "https://www.ioptron.com/v/Manuals/3100-3200_SmartEQ_Manual.pdf",
+          "locator": "paginePDF7–9 e14",
+          "used": "Schema fisico degli assi e del contrappeso; quota dell’asse=latitudine. Manuale di architettura classica, non modello dichiarato nuovo né prestazioni contemporanee."
+        },
+        {
+          "title": "Fulvio Mete — Cenni di astronomia pratica per neofiti",
+          "file": "banca-didattica-personale/documenti/pdf/fabio-pdf-3f7279576487.pdf",
+          "locator": "paginaPDF23 in SA-12-banca.json",
+          "used": "Stazionamento e bilanciamento, sostegno del tubo prima di sbloccare. Non equiparato sblocco frizione e apertura del morsetto della slitta."
+        }
+      ],
+      "sha256": "8300a702494f4d0bd3475fbec4e69d95ec1fcc4520a5855157e02109c2ad8794"
+    },
+    {
+      "id": "SA-19",
+      "area": "strumenti",
+      "title": "Sensore, campo e campionamento",
+      "replaces": [],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/SA-19.png",
+      "pdf": "assets/poster/revisioni-20261023/SA-19.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/SA-19.webp",
+      "sources": [
+        {
+          "title": "ZWO — ASI2600MC/MM Pro manual",
+          "url": "https://i.zwoastro.com/wp-content/uploads/2024/12/661fa4748a2fd93dd6ccad5bbe6bf671.pdf",
+          "locator": "§3.2–3.6, pagine PDF8–11",
+          "used": "CMOS, ADC, QE, modalità gain e raffreddamento. Non copiata tabella con USB port M42; niente numeri di prodotto applicati a tutte le camere, né claim latest trasformato in fatto senza data."
+        },
+        {
+          "title": "QHYCCD — QHY268M/C PH",
+          "url": "https://www.qhyccd.com/astronomical-camera-qhy268/",
+          "used": "Modalità di lettura, full well dipendente dalla modalità e controllo temperatura. Divergenze75ke/80ke fra testo e tabella non riprese; raccomandazioni gain26/30/56 non universalizzate. Claim TRUE RAW aziendale non usato per svalutare tutte le DSLR."
+        },
+        {
+          "title": "STScI — STIS Instrument Handbook §7.2",
+          "url": "https://hst-docs.stsci.edu/stisihb/chapter-7-feasibility-and-detector-performance/7-2-the-ccd",
+          "used": "Guadagno, saturazione della conversione e capacità fisica distinti; dati STIS non attribuiti a un CMOS amatoriale."
+        },
+        {
+          "title": "ESO — 50 years of CCDs",
+          "url": "https://www.eso.org/public/blog/50-years-of-ccds/",
+          "used": "Fotositi e conversione della luce in carica. Architettura di trasferimento CCD distinta dalla lettura CMOS, non rappresentata come obbligatoria per tutti i sensori."
+        },
+        {
+          "title": "ESO — FORS Exposure Time Calculator help",
+          "url": "https://eso.org/observing/etc/doc/helpfors.html",
+          "used": "Segnale del cielo e dell’oggetto, unità e-/pixel e rumore per lettura; nessuna prestazione di questo ETC attribuita alla camera generica."
+        },
+        {
+          "title": "Hamamatsu / Florida State University — CCD Noise Sources and SNR",
+          "url": "https://hamamatsu.magnet.fsu.edu/articles/ccdsnr.html",
+          "used": "Shot noise, lettura e non uniformità. Escluso errore sulla sottrazione del flat: la correzione di sensibilità impiega divisione per flat normalizzato. Non ripresa la soglia storica sul limite minimo raggiunto dalle camere come stato attuale."
+        }
+      ],
+      "sha256": "71a9a0bd34e72111e728f8c558d97bd5e1692227c85fa7a7242d65dfe3f111ee"
+    }
+  ]
+}

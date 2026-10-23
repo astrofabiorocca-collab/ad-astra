@@ -1,0 +1,1214 @@
+{
+  "posters": [
+    {
+      "id": "tavola-1",
+      "size": [
+        1024,
+        1656
+      ],
+      "illustration_native_pixels": [
+        1024,
+        1536
+      ],
+      "logo_rectangle_from_top": [
+        896,
+        8,
+        112,
+        78.27956989247312
+      ],
+      "source_sha256": "02797974a47e4e21a9d1cce526d02529218a7ad48b6101d57b14cb063a1d01ab",
+      "sha256": "3d5bdeb4c1d1053f108c6679982c996e525971b6247fcd13c2b72c84ca8695e0",
+      "legacy_paper_logo_regions": [],
+      "legacy_illustrated_logo_regions": []
+    },
+    {
+      "id": "tavola-2",
+      "size": [
+        1024,
+        1656
+      ],
+      "illustration_native_pixels": [
+        1024,
+        1536
+      ],
+      "logo_rectangle_from_top": [
+        896,
+        8,
+        112,
+        78.27956989247312
+      ],
+      "source_sha256": "ca4d105dbd0a9d8b43834bbc160ae4535e30647c9d8814eb1910c0bb1ab81afa",
+      "sha256": "a7aef32644a17527e6625e82e89c957705e8fef852e403c38499010ebd38c92c",
+      "legacy_paper_logo_regions": [],
+      "legacy_illustrated_logo_regions": []
+    },
+    {
+      "id": "tavola-3",
+      "size": [
+        1024,
+        1656
+      ],
+      "illustration_native_pixels": [
+        1024,
+        1536
+      ],
+      "logo_rectangle_from_top": [
+        896,
+        8,
+        112,
+        78.27956989247312
+      ],
+      "source_sha256": "154e71b598741be4845b916d32ec5c552ce6237d561accb6297355d49900d6e6",
+      "sha256": "c4cbaa560c643ec52d21ebcc335492d2a6120eb2f138b75ddc89d83089f12154",
+      "legacy_paper_logo_regions": [],
+      "legacy_illustrated_logo_regions": []
+    },
+    {
+      "id": "tavola-3_3",
+      "size": [
+        1055,
+        1611
+      ],
+      "illustration_native_pixels": [
+        1055,
+        1491
+      ],
+      "logo_rectangle_from_top": [
+        927,
+        8,
+        112,
+        78.27956989247312
+      ],
+      "source_sha256": "7eb4e11821d8df0a5cb74650644c5da047e12b54171b995d930769c29404b5a5",
+      "sha256": "66dace6c640201e1797c363ae9aa6e736cb530ae8f6a7a7e7b68139802b72cfb",
+      "legacy_paper_logo_regions": [
+        [
+          0.02,
+          0.005,
+          0.2,
+          0.13
+        ]
+      ],
+      "legacy_illustrated_logo_regions": []
+    },
+    {
+      "id": "tavola-4",
+      "size": [
+        1024,
+        1656
+      ],
+      "illustration_native_pixels": [
+        1024,
+        1536
+      ],
+      "logo_rectangle_from_top": [
+        896,
+        8,
+        112,
+        78.27956989247312
+      ],
+      "source_sha256": "60e9ec918a7f5a20dbd2c9440c80a6b7f037d2f8c52dfd13b2cc76fa9ad7deaa",
+      "sha256": "84ad478d7b65ce20d05484db1def386418757c11d5d540f3aa9166b8c50f73ff",
+      "legacy_paper_logo_regions": [],
+      "legacy_illustrated_logo_regions": []
+    },
+    {
+      "id": "tavola-4_4",
+      "size": [
+        1055,
+        1611
+      ],
+      "illustration_native_pixels": [
+        1055,
+        1491
+      ],
+      "logo_rectangle_from_top": [
+        927,
+        8,
+        112,
+        78.27956989247312
+      ],
+      "source_sha256": "8e8869f6791b18a6397a2241b41d54080fc5f62a7b86d79d18ca737572805216",
+      "sha256": "ffde0716cc51287f039e8282a4c8202fc2000ad42e89735db3c142257cb49ee3",
+      "legacy_paper_logo_regions": [
+        [
+          0.02,
+          0.005,
+          0.19,
+          0.13
+        ]
+      ],
+      "legacy_illustrated_logo_regions": []
+    },
+    {
+      "id": "tavola-5",
+      "size": [
+        1024,
+        1656
+      ],
+      "illustration_native_pixels": [
+        1024,
+        1536
+      ],
+      "logo_rectangle_from_top": [
+        896,
+        8,
+        112,
+        78.27956989247312
+      ],
+      "source_sha256": "7880b7335f7390061f98efc373c907ea8d3f2b4caf28ee4a70cff52389d491d9",
+      "sha256": "6877a0f5cd151b4bc356da9817934d79429830dc54cf994421197b6378898bfd",
+      "legacy_paper_logo_regions": [],
+      "legacy_illustrated_logo_regions": []
+    },
+    {
+      "id": "tavola-6",
+      "size": [
+        1024,
+        1656
+      ],
+      "illustration_native_pixels": [
+        1024,
+        1536
+      ],
+      "logo_rectangle_from_top": [
+        896,
+        8,
+        112,
+        78.27956989247312
+      ],
+      "source_sha256": "30bbf97bdeb9ad137db305bed6bb9ec7fa0688feadc1b18203c926f1c59cb11a",
+      "sha256": "9746fcc591fd3a32ab04383b69ad997b85949ca8ddc2bea64b9f25dab315b7d2",
+      "legacy_paper_logo_regions": [],
+      "legacy_illustrated_logo_regions": []
+    },
+    {
+      "id": "tavola-7",
+      "size": [
+        1024,
+        1656
+      ],
+      "illustration_native_pixels": [
+        1024,
+        1536
+      ],
+      "logo_rectangle_from_top": [
+        896,
+        8,
+        112,
+        78.27956989247312
+      ],
+      "source_sha256": "b85d3d075b557979b7174adf3af6469acc893a1675a7e7b6dd64b8fe837c3df5",
+      "sha256": "2deafc805514c5256019e39091c512c35740dd236ded23a84234040b761a1c51",
+      "legacy_paper_logo_regions": [],
+      "legacy_illustrated_logo_regions": []
+    },
+    {
+      "id": "tavola-7_7",
+      "size": [
+        1024,
+        1656
+      ],
+      "illustration_native_pixels": [
+        1024,
+        1536
+      ],
+      "logo_rectangle_from_top": [
+        896,
+        8,
+        112,
+        78.27956989247312
+      ],
+      "source_sha256": "9140bc624d891eae5f8917ff72a71b9823f7f1816d16425bbfbb729c2d99c184",
+      "sha256": "10150b675d2dd52f80f69ed9616895ac98c1ca2c3ee0f53275f3031855597c2b",
+      "legacy_paper_logo_regions": [
+        [
+          0.01,
+          0.003,
+          0.22,
+          0.09
+        ]
+      ],
+      "legacy_illustrated_logo_regions": []
+    },
+    {
+      "id": "tavola-8",
+      "size": [
+        1024,
+        1656
+      ],
+      "illustration_native_pixels": [
+        1024,
+        1536
+      ],
+      "logo_rectangle_from_top": [
+        896,
+        8,
+        112,
+        78.27956989247312
+      ],
+      "source_sha256": "6812caba066b14e795d6faf51ea1865c482fc2e0f558905c4c2704991906a587",
+      "sha256": "a1d600bf986de216bef4a95250e0ffa51058a30aefa6c32da6a1752b4fbc052a",
+      "legacy_paper_logo_regions": [
+        [
+          0.01,
+          0,
+          0.25,
+          0.085
+        ]
+      ],
+      "legacy_illustrated_logo_regions": []
+    },
+    {
+      "id": "tavola-9",
+      "size": [
+        1024,
+        1656
+      ],
+      "illustration_native_pixels": [
+        1024,
+        1536
+      ],
+      "logo_rectangle_from_top": [
+        896,
+        8,
+        112,
+        78.27956989247312
+      ],
+      "source_sha256": "e523cf5d209224b8bf4626f8310120aea2126176e590a1af414303d7847e16a9",
+      "sha256": "f7cb7290a48495b01e4a21b1196a20efcd3053e2ea7c2aa747619f72fc04555b",
+      "legacy_paper_logo_regions": [
+        [
+          0.02,
+          0.005,
+          0.24,
+          0.14
+        ]
+      ],
+      "legacy_illustrated_logo_regions": []
+    },
+    {
+      "id": "tavola-10",
+      "size": [
+        1055,
+        1611
+      ],
+      "illustration_native_pixels": [
+        1055,
+        1491
+      ],
+      "logo_rectangle_from_top": [
+        927,
+        8,
+        112,
+        78.27956989247312
+      ],
+      "source_sha256": "e36ef1507fb16a2107d42f5fa1385e9909b0b33daf4a4582faaa462e0fe79ebf",
+      "sha256": "43d2ebd14b4c1645e07e733b1d7ff3dd2c5821b0da38312ed9e8ad1108547bfc",
+      "legacy_paper_logo_regions": [
+        [
+          0.02,
+          0.005,
+          0.23,
+          0.14
+        ]
+      ],
+      "legacy_illustrated_logo_regions": []
+    },
+    {
+      "id": "tavola-11",
+      "size": [
+        1055,
+        1611
+      ],
+      "illustration_native_pixels": [
+        1055,
+        1491
+      ],
+      "logo_rectangle_from_top": [
+        927,
+        8,
+        112,
+        78.27956989247312
+      ],
+      "source_sha256": "408bf8df52246ffbc2e469ca60a6ac8100202c443eda326e3d5309c987d45698",
+      "sha256": "a56277895050f6346f8c862b5d4cdc7062c585c57ee77b70f358b0108914632d",
+      "legacy_paper_logo_regions": [
+        [
+          0.02,
+          0.005,
+          0.17,
+          0.14
+        ]
+      ],
+      "legacy_illustrated_logo_regions": []
+    },
+    {
+      "id": "tavola-12",
+      "size": [
+        1055,
+        1611
+      ],
+      "illustration_native_pixels": [
+        1055,
+        1491
+      ],
+      "logo_rectangle_from_top": [
+        927,
+        8,
+        112,
+        78.27956989247312
+      ],
+      "source_sha256": "7d3750f0c00af308346273a4223d3c0f5c8e8eb66fb87c65aa7c271f99b040b3",
+      "sha256": "801a75f7fc34862a681b39713bbbfa5c7cb69197a0288940f495159976598536",
+      "legacy_paper_logo_regions": [
+        [
+          0.02,
+          0.005,
+          0.17,
+          0.13
+        ]
+      ],
+      "legacy_illustrated_logo_regions": []
+    },
+    {
+      "id": "tavola-13",
+      "size": [
+        1254,
+        1374
+      ],
+      "illustration_native_pixels": [
+        1254,
+        1254
+      ],
+      "logo_rectangle_from_top": [
+        1126,
+        8,
+        112,
+        78.27956989247312
+      ],
+      "source_sha256": "b5e8ec62e2024b29153ecbeedd6d196ae520156fc035cdaff2edb52c4151e5d8",
+      "sha256": "b4093d2c09ea94eba5efdfa7c325ebacaabda4a9236c56e3018a8a17ea7d93d3",
+      "legacy_paper_logo_regions": [],
+      "legacy_illustrated_logo_regions": []
+    },
+    {
+      "id": "tavola-14",
+      "size": [
+        1024,
+        1656
+      ],
+      "illustration_native_pixels": [
+        1024,
+        1536
+      ],
+      "logo_rectangle_from_top": [
+        896,
+        8,
+        112,
+        78.27956989247312
+      ],
+      "source_sha256": "34e172685f11cd312a6d2e47d806e4e644a21c897ff5d2e2d71ea7373421a601",
+      "sha256": "c9f0f33441a6da8fafee76c5099646f5d8df1e2a69e3e7b7f6e3a1a042c02f7e",
+      "legacy_paper_logo_regions": [],
+      "legacy_illustrated_logo_regions": []
+    },
+    {
+      "id": "tavola-15",
+      "size": [
+        1024,
+        1656
+      ],
+      "illustration_native_pixels": [
+        1024,
+        1536
+      ],
+      "logo_rectangle_from_top": [
+        896,
+        8,
+        112,
+        78.27956989247312
+      ],
+      "source_sha256": "cca25f8760dd61518b981d677561268eac7ef10535f56d86ee33a755790ec860",
+      "sha256": "1f3e149722f8c27a2e7ada81db4bbd05c9504e656a9c418d785e833f19039891",
+      "legacy_paper_logo_regions": [],
+      "legacy_illustrated_logo_regions": []
+    },
+    {
+      "id": "tavola-16",
+      "size": [
+        1024,
+        1656
+      ],
+      "illustration_native_pixels": [
+        1024,
+        1536
+      ],
+      "logo_rectangle_from_top": [
+        896,
+        8,
+        112,
+        78.27956989247312
+      ],
+      "source_sha256": "794dd6e099970f132d52ed62ea8d6d486280ef487ce54f950139cc0d7f00ce90",
+      "sha256": "936eaad942b5d43a472933b1c299f448121d377ef01ca42ab106d95e7579d04e",
+      "legacy_paper_logo_regions": [],
+      "legacy_illustrated_logo_regions": [
+        [
+          0.72,
+          0,
+          0.28,
+          0.07
+        ]
+      ]
+    },
+    {
+      "id": "tavola-17",
+      "size": [
+        1024,
+        1656
+      ],
+      "illustration_native_pixels": [
+        1024,
+        1536
+      ],
+      "logo_rectangle_from_top": [
+        896,
+        8,
+        112,
+        78.27956989247312
+      ],
+      "source_sha256": "8777ab8661b0a6d42ed4591b79a18a9436ca10d1685eb86c0b002acd1829a9ca",
+      "sha256": "addf73c41cf9812009e64ad6beb230498b40e5a7197cfe1c8bf520f91a417484",
+      "legacy_paper_logo_regions": [],
+      "legacy_illustrated_logo_regions": [
+        [
+          0.75,
+          0,
+          0.25,
+          0.071
+        ]
+      ]
+    },
+    {
+      "id": "tavola-18",
+      "size": [
+        1024,
+        1656
+      ],
+      "illustration_native_pixels": [
+        1024,
+        1536
+      ],
+      "logo_rectangle_from_top": [
+        896,
+        8,
+        112,
+        78.27956989247312
+      ],
+      "source_sha256": "8a00980d01615bd8abf69512eac5c201ab7f4f4353f1e2ac15d7e92112ca75ec",
+      "sha256": "17d31db033863e5461a23625d08c0c3e91e2390c43d2bd21583993052d11eae1",
+      "legacy_paper_logo_regions": [],
+      "legacy_illustrated_logo_regions": [
+        [
+          0.71,
+          0.945,
+          0.29,
+          0.055
+        ]
+      ]
+    },
+    {
+      "id": "tavola-19",
+      "size": [
+        1054,
+        1612
+      ],
+      "illustration_native_pixels": [
+        1054,
+        1492
+      ],
+      "logo_rectangle_from_top": [
+        926,
+        8,
+        112,
+        78.27956989247312
+      ],
+      "source_sha256": "3c0a1e7eea3fba9e2abc889b4e55672270e82880b65380300978d783db14b269",
+      "sha256": "f633550a266e77920ae95a0276900df225e043fd5ddbfa4a20d16a4af03dee2a",
+      "legacy_paper_logo_regions": [],
+      "legacy_illustrated_logo_regions": [
+        [
+          0.74,
+          0.005,
+          0.26,
+          0.1
+        ]
+      ]
+    },
+    {
+      "id": "tavola-20",
+      "size": [
+        1024,
+        1656
+      ],
+      "illustration_native_pixels": [
+        1024,
+        1536
+      ],
+      "logo_rectangle_from_top": [
+        896,
+        8,
+        112,
+        78.27956989247312
+      ],
+      "source_sha256": "8d49e3893f80104fc1b506143955725763b638755466afb5e797198038f3d0af",
+      "sha256": "fe2096ca98f2c107d398b90e21620ac49190b8f3d1fd543f481216810f6474a3",
+      "legacy_paper_logo_regions": [],
+      "legacy_illustrated_logo_regions": []
+    },
+    {
+      "id": "tavola-21",
+      "size": [
+        1024,
+        1656
+      ],
+      "illustration_native_pixels": [
+        1024,
+        1536
+      ],
+      "logo_rectangle_from_top": [
+        896,
+        8,
+        112,
+        78.27956989247312
+      ],
+      "source_sha256": "daa2473a4703c72e2ab61ddec3631ac14d6fad23d9038063ebc5fd93d2152492",
+      "sha256": "09ca9e8d62167f6b5f05eda51b3480f9df29fdbfc796df0d77646279badd03f0",
+      "legacy_paper_logo_regions": [],
+      "legacy_illustrated_logo_regions": [
+        [
+          0.835,
+          0,
+          0.165,
+          0.06
+        ],
+        [
+          0.015,
+          0.957,
+          0.13,
+          0.043
+        ]
+      ]
+    },
+    {
+      "id": "tavola-22",
+      "size": [
+        1024,
+        1656
+      ],
+      "illustration_native_pixels": [
+        1024,
+        1536
+      ],
+      "logo_rectangle_from_top": [
+        896,
+        8,
+        112,
+        78.27956989247312
+      ],
+      "source_sha256": "1ac3d32e7a6ce79d0063f76142dfea77f4c4308a770aa7165b8a937ce358024b",
+      "sha256": "fb8b2fcd0627c664cb0a30c72572c81d5e9f2e7d37dd405a47137780eac24733",
+      "legacy_paper_logo_regions": [],
+      "legacy_illustrated_logo_regions": [
+        [
+          0.8,
+          0,
+          0.2,
+          0.061
+        ],
+        [
+          0.715,
+          0.927,
+          0.15,
+          0.038
+        ]
+      ]
+    },
+    {
+      "id": "tavola-23",
+      "size": [
+        1024,
+        1656
+      ],
+      "illustration_native_pixels": [
+        1024,
+        1536
+      ],
+      "logo_rectangle_from_top": [
+        896,
+        8,
+        112,
+        78.27956989247312
+      ],
+      "source_sha256": "860ca52df3ba7771a3d092e2451b9bbdda2adb368b3baaecf23fd1cd20cf8d38",
+      "sha256": "b084ac67850b1abd21bb4dcb9b1559b951a74d26483c4b0fa1dab71b8bd393e0",
+      "legacy_paper_logo_regions": [],
+      "legacy_illustrated_logo_regions": [
+        [
+          0.79,
+          0,
+          0.21,
+          0.068
+        ],
+        [
+          0.015,
+          0.958,
+          0.14,
+          0.042
+        ]
+      ]
+    },
+    {
+      "id": "tavola-24",
+      "size": [
+        1024,
+        1656
+      ],
+      "illustration_native_pixels": [
+        1024,
+        1536
+      ],
+      "logo_rectangle_from_top": [
+        896,
+        8,
+        112,
+        78.27956989247312
+      ],
+      "source_sha256": "89e3b6a515fa75dc54678979592b68086f73d05fd3e36fe8246775fe5e0151f6",
+      "sha256": "1cf84de500202aa3826983927ae987c7abc7928431f850c299650b5552821312",
+      "legacy_paper_logo_regions": [],
+      "legacy_illustrated_logo_regions": [
+        [
+          0.82,
+          0.949,
+          0.18,
+          0.051
+        ]
+      ]
+    },
+    {
+      "id": "tavola-25",
+      "size": [
+        1024,
+        1656
+      ],
+      "illustration_native_pixels": [
+        1024,
+        1536
+      ],
+      "logo_rectangle_from_top": [
+        896,
+        8,
+        112,
+        78.27956989247312
+      ],
+      "source_sha256": "cc6bf4358a094256132e8a3498b8c394db19545794739f98460d720d3cc7a68a",
+      "sha256": "cb1d9ad70abf2701c9614b7c8d2c46f52fe3eef68c99085feba56e415b16ed07",
+      "legacy_paper_logo_regions": [],
+      "legacy_illustrated_logo_regions": [
+        [
+          0.63,
+          0.945,
+          0.37,
+          0.055
+        ]
+      ]
+    },
+    {
+      "id": "tavola-26",
+      "size": [
+        1122,
+        1522
+      ],
+      "illustration_native_pixels": [
+        1122,
+        1402
+      ],
+      "logo_rectangle_from_top": [
+        994,
+        8,
+        112,
+        78.27956989247312
+      ],
+      "source_sha256": "c5ec357ff78d66156a3818e93308311f2a29fe9cf9b028094d702d9daa612652",
+      "sha256": "15987bfc45ef52917d8896b7bc36b54e26f7e463f982984a3cf6d7b86015d82d",
+      "legacy_paper_logo_regions": [
+        [
+          0.26,
+          0.005,
+          0.48,
+          0.088
+        ]
+      ],
+      "legacy_illustrated_logo_regions": []
+    },
+    {
+      "id": "tavola-27",
+      "size": [
+        1055,
+        1611
+      ],
+      "illustration_native_pixels": [
+        1055,
+        1491
+      ],
+      "logo_rectangle_from_top": [
+        927,
+        8,
+        112,
+        78.27956989247312
+      ],
+      "source_sha256": "62110290153f1266c639367992b41d670d122e78d6d13eea9a52cfd2e318ad85",
+      "sha256": "9fed243bd5b7bbdb3cbe57f142bd2d3ce876cfceba232ce445d4eea509d8b455",
+      "legacy_paper_logo_regions": [
+        [
+          0.23,
+          0.005,
+          0.53,
+          0.09
+        ]
+      ],
+      "legacy_illustrated_logo_regions": []
+    },
+    {
+      "id": "tavola-29",
+      "size": [
+        1055,
+        1611
+      ],
+      "illustration_native_pixels": [
+        1055,
+        1491
+      ],
+      "logo_rectangle_from_top": [
+        927,
+        8,
+        112,
+        78.27956989247312
+      ],
+      "source_sha256": "1b44a23ec9b09598a7533de887f524b642a197bef72e3861d74fcfb729ae8db9",
+      "sha256": "8ea46bde3b42315def17a33f127669ec388952b9d5d4a2d4655253d52c35a94a",
+      "legacy_paper_logo_regions": [
+        [
+          0.01,
+          0,
+          0.22,
+          0.145
+        ]
+      ],
+      "legacy_illustrated_logo_regions": []
+    },
+    {
+      "id": "tavola-30",
+      "size": [
+        1055,
+        1611
+      ],
+      "illustration_native_pixels": [
+        1055,
+        1491
+      ],
+      "logo_rectangle_from_top": [
+        927,
+        8,
+        112,
+        78.27956989247312
+      ],
+      "source_sha256": "14c053368c8b1b8adaaa98ae18a80df75128fe5dd229c8565fecd940a3b5e090",
+      "sha256": "7d32cc4c0806500a2442e8f8755e36fa5e94324cab887ee5d0b0f8ce189f6556",
+      "legacy_paper_logo_regions": [
+        [
+          0.02,
+          0,
+          0.24,
+          0.14
+        ]
+      ],
+      "legacy_illustrated_logo_regions": []
+    },
+    {
+      "id": "tavola-31",
+      "size": [
+        1024,
+        1656
+      ],
+      "illustration_native_pixels": [
+        1024,
+        1536
+      ],
+      "logo_rectangle_from_top": [
+        896,
+        8,
+        112,
+        78.27956989247312
+      ],
+      "source_sha256": "a18c82b7ad1bbfe2713d93e78ad2223296c27a8aecf96994114f01a5af457c22",
+      "sha256": "7fdcfa687bd6592e82c2df32913a532b8fe06e7b28b118bf2eaafbecd86112f8",
+      "legacy_paper_logo_regions": [
+        [
+          0.045,
+          0.005,
+          0.125,
+          0.08
+        ]
+      ],
+      "legacy_illustrated_logo_regions": []
+    },
+    {
+      "id": "tavola-32",
+      "size": [
+        1024,
+        1656
+      ],
+      "illustration_native_pixels": [
+        1024,
+        1536
+      ],
+      "logo_rectangle_from_top": [
+        896,
+        8,
+        112,
+        78.27956989247312
+      ],
+      "source_sha256": "76cc2320b7b32f3f2e423dbbfec4962596fa3de3ba4060b119bc8fcd5245ed56",
+      "sha256": "dbb40296a06cd3615f4c336743c73ae83388cd43fc30123804145cefb5e2aa7b",
+      "legacy_paper_logo_regions": [
+        [
+          0.02,
+          0,
+          0.17,
+          0.095
+        ]
+      ],
+      "legacy_illustrated_logo_regions": []
+    },
+    {
+      "id": "tavola-33",
+      "size": [
+        1024,
+        1656
+      ],
+      "illustration_native_pixels": [
+        1024,
+        1536
+      ],
+      "logo_rectangle_from_top": [
+        896,
+        8,
+        112,
+        78.27956989247312
+      ],
+      "source_sha256": "8826235f2ceec65c3c5f171e9898167090757b5f354971efb658d0b5694c8385",
+      "sha256": "7c53cbb12fd21a2791ad1c1ce94f55a3a8e997c71d594bb58c371f52a6ef4a75",
+      "legacy_paper_logo_regions": [
+        [
+          0.02,
+          0,
+          0.17,
+          0.095
+        ]
+      ],
+      "legacy_illustrated_logo_regions": []
+    },
+    {
+      "id": "tavola-34",
+      "size": [
+        1024,
+        1656
+      ],
+      "illustration_native_pixels": [
+        1024,
+        1536
+      ],
+      "logo_rectangle_from_top": [
+        896,
+        8,
+        112,
+        78.27956989247312
+      ],
+      "source_sha256": "c12a5c286480c9238a53bd14bd68b12c3d39250e250c495b6d4752c9da3806dd",
+      "sha256": "1b01738b99b49aa2c47a62761c830cc89a7293ad09ddbb04770ab5a5253b68a7",
+      "legacy_paper_logo_regions": [
+        [
+          0.02,
+          0,
+          0.17,
+          0.095
+        ]
+      ],
+      "legacy_illustrated_logo_regions": []
+    },
+    {
+      "id": "tavola-36",
+      "size": [
+        1024,
+        1656
+      ],
+      "illustration_native_pixels": [
+        1024,
+        1536
+      ],
+      "logo_rectangle_from_top": [
+        896,
+        8,
+        112,
+        78.27956989247312
+      ],
+      "source_sha256": "e1bede7c015e56be3a979c623ca81aec041b0888c9cbb145fe8dce5ee17a12e2",
+      "sha256": "c19dd168e547a58e63aa21f01278e4c92db556de3f7c2789dd20b7fb1754e2b9",
+      "legacy_paper_logo_regions": [
+        [
+          0.02,
+          0,
+          0.17,
+          0.085
+        ]
+      ],
+      "legacy_illustrated_logo_regions": []
+    },
+    {
+      "id": "tavola-37",
+      "size": [
+        1024,
+        1656
+      ],
+      "illustration_native_pixels": [
+        1024,
+        1536
+      ],
+      "logo_rectangle_from_top": [
+        896,
+        8,
+        112,
+        78.27956989247312
+      ],
+      "source_sha256": "40684a4bf7cee7350e5494c3167d52eac738d1d85af571ad44fcb75a6749d7d7",
+      "sha256": "63def69e240819462ac1b6c9051f459e91dc46678883363f12d25641dde82b4d",
+      "legacy_paper_logo_regions": [
+        [
+          0.02,
+          0,
+          0.18,
+          0.095
+        ]
+      ],
+      "legacy_illustrated_logo_regions": []
+    },
+    {
+      "id": "tavola-38",
+      "size": [
+        1024,
+        1656
+      ],
+      "illustration_native_pixels": [
+        1024,
+        1536
+      ],
+      "logo_rectangle_from_top": [
+        896,
+        8,
+        112,
+        78.27956989247312
+      ],
+      "source_sha256": "2fc3d0072941a9af674b6c7d9d8ef0a2482948e4d44ad9a08f63de0903f9d4f9",
+      "sha256": "69ccba7e15922abac15dac01a7fa2b4fb49db1ccb40cf46d56c2c64f0a8d0293",
+      "legacy_paper_logo_regions": [
+        [
+          0.02,
+          0,
+          0.18,
+          0.095
+        ]
+      ],
+      "legacy_illustrated_logo_regions": []
+    },
+    {
+      "id": "tavola-39",
+      "size": [
+        1024,
+        1656
+      ],
+      "illustration_native_pixels": [
+        1024,
+        1536
+      ],
+      "logo_rectangle_from_top": [
+        896,
+        8,
+        112,
+        78.27956989247312
+      ],
+      "source_sha256": "04ce7e08c6fe001f5dcf13a5c31261999db3aa0aa29b629d3b2ee2d3924b1c56",
+      "sha256": "9101aae7bc0b841655761212dc42424adbe8e68480daa9fbf509d806b14bca68",
+      "legacy_paper_logo_regions": [
+        [
+          0.02,
+          0,
+          0.18,
+          0.095
+        ]
+      ],
+      "legacy_illustrated_logo_regions": []
+    },
+    {
+      "id": "tavola-40",
+      "size": [
+        1024,
+        1656
+      ],
+      "illustration_native_pixels": [
+        1024,
+        1536
+      ],
+      "logo_rectangle_from_top": [
+        896,
+        8,
+        112,
+        78.27956989247312
+      ],
+      "source_sha256": "698aa284b463d2fdac779928d8561cf30badc2799300af06278fb50c9ce6569d",
+      "sha256": "4ef478747290e599ba815459d1666888b044ab6332391339d769542c6b718a2c",
+      "legacy_paper_logo_regions": [
+        [
+          0.02,
+          0,
+          0.18,
+          0.095
+        ]
+      ],
+      "legacy_illustrated_logo_regions": []
+    },
+    {
+      "id": "tavola-41",
+      "size": [
+        1024,
+        1656
+      ],
+      "illustration_native_pixels": [
+        1024,
+        1536
+      ],
+      "logo_rectangle_from_top": [
+        896,
+        8,
+        112,
+        78.27956989247312
+      ],
+      "source_sha256": "87a0b8f70f6538ce39c6c8ecf95521cb755da9d792a7d2c2bdbf52ca8b733347",
+      "sha256": "6eda1c2a85c58d1c9d7c7094087b9141da7c7027aac294de1363aa3a4ce8cd76",
+      "legacy_paper_logo_regions": [
+        [
+          0.8,
+          0.9,
+          0.19,
+          0.027
+        ]
+      ],
+      "legacy_illustrated_logo_regions": [
+        [
+          0.02,
+          0,
+          0.22,
+          0.108
+        ]
+      ]
+    },
+    {
+      "id": "universo-panoramica",
+      "size": [
+        1024,
+        1656
+      ],
+      "illustration_native_pixels": [
+        1024,
+        1536
+      ],
+      "logo_rectangle_from_top": [
+        896,
+        8,
+        112,
+        78.27956989247312
+      ],
+      "source_sha256": "316da7ab9d8e73cbec8df25829a2ac3e61086bcb3a7f113825b7f5d7db620313",
+      "sha256": "450f02f557bca6a7b860d81dd87ce797c26e5dbef020ffc3511d0f527b2ae239",
+      "legacy_paper_logo_regions": [],
+      "legacy_illustrated_logo_regions": [
+        [
+          0.65,
+          0.953,
+          0.35,
+          0.047
+        ]
+      ]
+    },
+    {
+      "id": "tavola-28",
+      "size": [
+        1122,
+        1522
+      ],
+      "illustration_native_pixels": [
+        1122,
+        1402
+      ],
+      "logo_rectangle_from_top": [
+        994,
+        8,
+        112,
+        78.27956989247312
+      ],
+      "source_sha256": "b8276e18e087a55985182c78571b4ed6fe2a3b4bc82e7900f33208894f8bbc35",
+      "sha256": "9ed949da2d136a56bde0fabfbc05734a51183b8784b05f21e587281680834d48",
+      "legacy_paper_logo_regions": [
+        [
+          0.25,
+          0,
+          0.5,
+          0.098
+        ]
+      ],
+      "legacy_illustrated_logo_regions": []
+    },
+    {
+      "id": "tavola-35",
+      "size": [
+        1055,
+        1611
+      ],
+      "illustration_native_pixels": [
+        1055,
+        1491
+      ],
+      "logo_rectangle_from_top": [
+        927,
+        8,
+        112,
+        78.27956989247312
+      ],
+      "source_sha256": "01b92274ef695e104416a6be2b14a35bd1a1465c7343a79fbe3e7de75a6ccd6a",
+      "sha256": "17c326b7ac9dac49d4e4c7825e2bc1d961a74d3349494699a02eaa54baca6569",
+      "legacy_paper_logo_regions": [
+        [
+          0.03,
+          0,
+          0.17,
+          0.145
+        ]
+      ],
+      "legacy_illustrated_logo_regions": []
+    }
+  ],
+  "originals_unchanged": true,
+  "print_masters_ready": false
+}

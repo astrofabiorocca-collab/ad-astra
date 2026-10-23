@@ -8,6 +8,12 @@
   document.getElementById('poster-viewer-title').textContent=button.dataset.posterTitle;
   const img=document.getElementById('poster-viewer-image');
   img.src=button.dataset.posterSrc;img.alt=button.dataset.posterTitle;
+  const description=document.getElementById('poster-viewer-description');
+  if(description)description.textContent=button.dataset.posterDescription||'';
+  const download=document.getElementById('poster-viewer-download');
+  if(download)download.href=button.dataset.posterSrc;
+  const pdf=document.getElementById('poster-viewer-pdf');
+  if(pdf){pdf.hidden=!button.dataset.posterPdf;if(button.dataset.posterPdf)pdf.href=button.dataset.posterPdf;else pdf.removeAttribute('href');}
   viewer.showModal();viewer.querySelector('.poster-viewer-scroll').scrollTo(0,0);
  }));
  viewer.querySelector('.poster-close').addEventListener('click',()=>viewer.close());
