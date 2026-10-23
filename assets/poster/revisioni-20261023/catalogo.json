@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "scope": "85 edizioni autorizzate e revisionate; restanti tavole ancora da revisionare",
+  "scope": "92 edizioni autorizzate e revisionate; restanti tavole ancora da revisionare",
   "print_masters": false,
   "counts": {
     "imparare": {
@@ -16,8 +16,8 @@
       "updated": 18
     },
     "strumenti": {
-      "available": 23,
-      "updated": 17
+      "available": 24,
+      "updated": 24
     }
   },
   "posters": [
@@ -3677,6 +3677,51 @@
       "sha256": "8300a702494f4d0bd3475fbec4e69d95ec1fcc4520a5855157e02109c2ad8794"
     },
     {
+      "id": "SA-13",
+      "area": "strumenti",
+      "title": "Cercatore e star hopping",
+      "replaces": [
+        "tavola-30"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/SA-13.png",
+      "pdf": "assets/poster/revisioni-20261023/SA-13.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/SA-13.webp",
+      "sources": [
+        {
+          "title": "Sky-Watcher — STARQUEST2 manual",
+          "url": "https://inter-static.skywatcher.com/downloads/bzl01-y01-202_starquest2.pdf",
+          "used": "Copia locale letta pp.8,10,18–19: cercatore, fuoco e regolazioni. Esclusi tempi universali, refuso Luna3arcmin e identificazione indiscriminata di figure fuori fuoco con disco diAiry."
+        },
+        {
+          "title": "NASA — Skywatching FAQ",
+          "url": "https://science.nasa.gov/skywatching/faq/",
+          "used": "Luogo e tempo nelle carte, confronto occhio/strumenti."
+        },
+        {
+          "title": "BAA — Hints and Tips",
+          "url": "https://britastro.org/section_information_/hints-and-tips-for-visual-observing",
+          "used": "Allineamento su riferimento lontano, basso ingrandimento."
+        },
+        {
+          "title": "Hong Kong Space Museum — Observation Skills",
+          "url": "https://hk.space.museum/en/web/spm/resources/observation-skills.html",
+          "used": "Campi ampi e uso delle carte; esclusi conteggi universali di stelle visibili."
+        },
+        {
+          "title": "Sky & Telescope — How to Use a Star Chart",
+          "url": "https://skyandtelescope.org/astronomy-resources/using-a-map-at-the-telescope/",
+          "used": "Testo dei passaggi di ricerca letto tramite indice; apertura diretta in timeout. Campo, orientamento e riferimenti successivi."
+        },
+        {
+          "title": "Fabio Rocca — Prima dell’oculare",
+          "file": "banca-didattica-personale/documenti/testi/fabio-uai-impariamo-cielo.txt",
+          "used": "Gradualità, riferimenti e comprensione del puntamento."
+        }
+      ],
+      "sha256": "c2e1ff9335622937850008bf5c6bad098ba0c505e783fec7cbdeacd5ed10af56"
+    },
+    {
       "id": "SA-14",
       "area": "strumenti",
       "title": "Oculari e campo visivo",
@@ -3722,6 +3767,186 @@
       "sha256": "e17d2195bf285ae7f45edb5a494fcc6c5ec4305e0268dc0cf3dfbee978ba3e7d"
     },
     {
+      "id": "SA-15",
+      "area": "strumenti",
+      "title": "La collimazione",
+      "replaces": [
+        "tavola-37"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/SA-15.png",
+      "pdf": "assets/poster/revisioni-20261023/SA-15.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/SA-15.webp",
+      "sources": [
+        {
+          "title": "Sky-Watcher — STARQUEST2 manual",
+          "url": "https://inter-static.skywatcher.com/downloads/bzl01-y01-202_starquest2.pdf",
+          "used": "Copia locale letta pp.8,10,18–19: cercatore, fuoco e regolazioni. Esclusi tempi universali, refuso Luna3arcmin e identificazione indiscriminata di figure fuori fuoco con disco diAiry."
+        },
+        {
+          "title": "Celestron — Night Time Star Collimation",
+          "url": "https://www.celestron.com/blogs/knowledgebase/how-do-i-collimate-my-telescope-by-using-the-stars-1",
+          "used": "Centratura e seeing; procedura del primario non generalizzata agliSCT."
+        },
+        {
+          "title": "Celestron — SCT and EdgeHD Collimation",
+          "url": "https://www.celestron.com/blogs/knowledgebase/sct-edgehd-collimation-guide",
+          "used": "Secondario e limiti delle regolazioni consentite; esclusi45minuti e focali oculari come regole universali."
+        },
+        {
+          "title": "Baader — Laser-Colli manual, pp.2,6",
+          "url": "https://www.baader-planetarium.com/media/mageworx/downloads/attachment/file/157/manual_2450343_Laser-Colli_en.pdf",
+          "used": "Allineamento del laser e sicurezza; non riprodotte istruzioni di marcatura/smontaggio."
+        },
+        {
+          "title": "AstroSystems — Newtonian Collimation, pp.5,8–10",
+          "url": "https://www.astrosystems.biz/COLINST3.pdf",
+          "used": "Offset e riflessi non concentrici; esclusa affermazione commerciale che solo un autocollimatore funzioni nei sistemi rapidi."
+        },
+        {
+          "title": "Fulvio Mete — Cenni per neofiti, PDF p.51",
+          "file": "banca-didattica-personale/documenti/pdf/fabio-pdf-3f7279576487.pdf",
+          "used": "Passaggio locale letto sul confronto intra/extra-focale. Nessuna procedura trasferita a ogni schema ottico."
+        }
+      ],
+      "sha256": "669cd1deb97f884ae3dc034a7ceec2e3d135d10ab4e4f05a4f838e6908503d6c"
+    },
+    {
+      "id": "SA-16",
+      "area": "strumenti",
+      "title": "Fuoco, seeing e acclimatamento",
+      "replaces": [
+        "tavola-38"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/SA-16.png",
+      "pdf": "assets/poster/revisioni-20261023/SA-16.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/SA-16.webp",
+      "sources": [
+        {
+          "title": "Sky-Watcher — STARQUEST2 manual",
+          "url": "https://inter-static.skywatcher.com/downloads/bzl01-y01-202_starquest2.pdf",
+          "used": "Copia locale letta pp.8,10,18–19: cercatore, fuoco e regolazioni. Esclusi tempi universali, refuso Luna3arcmin e identificazione indiscriminata di figure fuori fuoco con disco diAiry."
+        },
+        {
+          "title": "ESO — Observing Conditions Definitions",
+          "url": "https://www.eso.org/sci/observing/phase2/ObsConditions.SPHERE.html",
+          "used": "Seeing atmosferico e qualità d’immagine del sistema distinti; soglieParanal non applicate al sito del lettore."
+        },
+        {
+          "title": "ESO Messenger141 — Seeing and Image Quality",
+          "url": "https://www.eso.org/sci/observing/phase2/messenger-no141-5-8.pdf",
+          "used": "Testo introduttivo letto dalla ricerca: turbolenza e immagine finale sono quantità differenti."
+        },
+        {
+          "title": "Unistellar — Focus with Bahtinov mask",
+          "url": "https://help.unistellar.com/hc/en-us/articles/360010625099-eVscope-eQuinox-Focus-How-to-use-the-Bahtinov-mask",
+          "used": "Criterio linea centrale/X e messa a fuoco del modello; non generalizzata la procedura meccanica."
+        },
+        {
+          "title": "Fulvio Mete — Cenni per neofiti, PDF p.47",
+          "file": "banca-didattica-personale/documenti/pdf/fabio-pdf-3f7279576487.pdf",
+          "used": "Turbolenza e immagine instabile; esclusa inversione della scalaAntoniadi nella frase conclusiva (Iottimo,Vpessimo)."
+        },
+        {
+          "title": "SAIt — Bignamino2022, PDF p.136",
+          "file": "banca-didattica-personale/documenti/pdf/bignamino.pdf",
+          "used": "Estinzione e massa d’aria; corretto il refuso magnitudineinferiore: l’attenuazione aumenta la magnitudine numerica."
+        }
+      ],
+      "sha256": "c9a4dc55912fdb10c433fb068b52f3c64c910f2eee54155ab25b3cd2c4273bb4"
+    },
+    {
+      "id": "SA-17",
+      "area": "strumenti",
+      "title": "Filtri: cosa fanno davvero?",
+      "replaces": [
+        "tavola-39"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/SA-17.png",
+      "pdf": "assets/poster/revisioni-20261023/SA-17.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/SA-17.webp",
+      "sources": [
+        {
+          "title": "Astronomik — UHC technical data",
+          "url": "https://www.astronomik.com/en/Astronomik-UHC-2-M48/10210200",
+          "used": "Passaggi e bandeHbeta/OIII; non adottate raccomandazioni di apertura come soglie fisiche universali."
+        },
+        {
+          "title": "Celestron — Eyepiece Filter Types",
+          "url": "https://www.celestron.com/blogs/knowledgebase/what-are-the-different-types-of-eyepiece-filters-colored-neutral-density-and-polarizing",
+          "used": "ND,colorati,OIII. Escluse promesse di dettaglio suVenere o miglioramento universale delle galassie; UHC/LPR non confusi."
+        },
+        {
+          "title": "Celestron — Neutral Density and Polarizing",
+          "url": "https://www.celestron.com/blogs/knowledgebase/whats-the-difference-between-variable-polarizing-filter-the-neutral-density-moon-filter-and-the-moon-filter",
+          "used": "Trasmissione e comfort sullaLuna, senza presentarli come protezione solare."
+        },
+        {
+          "title": "Baader — AstroSolar Safety Instructions",
+          "url": "https://www.baader-planetarium.com/en/downloads/dl/file/id/336/product/3039/instructions_to_use_astrosolar_film",
+          "used": "Filtro davanti alleottiche, fissaggio, danni e distinzione filtri/occhiali."
+        },
+        {
+          "title": "AAS — Solar Filters for Optics",
+          "url": "https://eclipse.aas.org/eye-safety/optics-filters",
+          "used": "Filtri frontali e cercatori, pericolo di filtrioculari e occhialiusaticonottiche."
+        },
+        {
+          "title": "Fulvio Mete — Cenni per neofiti, PDF p.37",
+          "file": "banca-didattica-personale/documenti/pdf/fabio-pdf-3f7279576487.pdf",
+          "used": "Contrasto e galassie; esclusa generalizzazione UHCcentratosoloOIII/Halpha e su nebuloseariflessione."
+        }
+      ],
+      "sha256": "17ba41948064972ec071219469d05029e9e2b679b9f8c5fa5849bf430e24f517"
+    },
+    {
+      "id": "SA-18",
+      "area": "strumenti",
+      "title": "Smart telescope e osservazione assistita",
+      "replaces": [
+        "tavola-14"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/SA-18.png",
+      "pdf": "assets/poster/revisioni-20261023/SA-18.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/SA-18.webp",
+      "sources": [
+        {
+          "title": "Seestar — Equatorial Mode",
+          "url": "https://us.seestar.com/blogs/tutorial/equatorial-mode",
+          "used": "Modalità equatoriale e allineamento; nessuna universalizzazione a tutti gli smart."
+        },
+        {
+          "title": "DWARFLAB — DWARF3 User Manual",
+          "url": "https://help.dwarflab.com/en/docs/DWARF-3-Smart-Telescope-User-Manual-Part1-App-Interface-Introduction",
+          "used": "EQ,formati e integrazione; non copiate soglie temporali, prescrizioni di filtro o funzioni cloud come universali."
+        },
+        {
+          "title": "Celestron — Origin Manual,2025,p.27",
+          "url": "https://celestron-site-support-files.s3.dualstack.us-east-1.amazonaws.com/support_files/12100_Origin_Instruction%20Manual-5_Languages-102425.pdf",
+          "used": "Accesso ai grezzi esplicitamente da attivare; distinzione grezzi/master/elaborato. Nessuna promessa di dati sempre salvati."
+        },
+        {
+          "title": "Unistellar — Focus",
+          "url": "https://help.unistellar.com/hc/en-us/articles/360010625099-eVscope-eQuinox-Focus-How-to-use-the-Bahtinov-mask",
+          "used": "Caso con fuoco manuale: non tutti i dispositivi sono autofocus."
+        },
+        {
+          "title": "Unistellar — Collimation",
+          "url": "https://help.unistellar.com/hc/en-us/articles/360002267334-eVscope-eQuinox-Collimation-How-Do-I-Collimate-My-Telescope",
+          "used": "Alcuni smart riflettori richiedono verifica ottica; non privi di manutenzione."
+        },
+        {
+          "title": "DWARFLAB — Troubleshooting",
+          "url": "https://help.dwarflab.com/en/docs/Trouble-Shooting-Guide-For-DWARF-3-Users",
+          "used": "Limiti di stacking, fuoco, vento, nubi e sovraesposizione. Nessuna istruzione di cancellazione dati riportata."
+        }
+      ],
+      "sha256": "c359270f2714650301a4f43960a86021d751dbf732a3647905851816bb5665ad"
+    },
+    {
       "id": "SA-19",
       "area": "strumenti",
       "title": "Sensore, campo e campionamento",
@@ -3764,6 +3989,49 @@
         }
       ],
       "sha256": "71a9a0bd34e72111e728f8c558d97bd5e1692227c85fa7a7242d65dfe3f111ee"
+    },
+    {
+      "id": "SA-20",
+      "area": "strumenti",
+      "title": "Esposizione, inseguimento e autoguida",
+      "replaces": [],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/SA-20.png",
+      "pdf": "assets/poster/revisioni-20261023/SA-20.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/SA-20.webp",
+      "sources": [
+        {
+          "title": "PHD2 — Basic Use",
+          "url": "https://openphdguiding.org/man/Basic_use.htm",
+          "used": "Stelle non sature, multistar, scelta esposizione come compromesso."
+        },
+        {
+          "title": "PHD2 — Advanced Settings",
+          "url": "https://openphdguiding.org/man/Advanced_settings.htm",
+          "used": "Esposizioni troppo brevi e inseguimento del seeing; non fissata una durata universale."
+        },
+        {
+          "title": "PHD2 — Supplemental Information",
+          "url": "https://openphdguiding.org/man/Supplemental_Info.htm",
+          "used": "Seeing non correggibile dall’autoguida ordinaria, dithering e flessioni differenziali."
+        },
+        {
+          "title": "N.I.N.A. — Sequencer Triggers",
+          "url": "https://nighttime-imaging.eu/docs/master/site/sequencer/advanced/triggers/",
+          "used": "Coordinamento guida, dithering, fuoco e ricentratura; distinte dalla sola integrazione."
+        },
+        {
+          "title": "Siril — FAQ",
+          "url": "https://siril.org/faq/",
+          "used": "Controllo sequenze, fuoco e dati originali; dark optimization non proposta indistintamente per CMOS/ampglow."
+        },
+        {
+          "title": "Fulvio Mete — Cenni per neofiti,PDFp.68",
+          "file": "banca-didattica-personale/documenti/pdf/fabio-pdf-3f7279576487.pdf",
+          "used": "Guida come misura/correzione; corretto il suggerimento che essa corregga il seeing o richieda sempre un telescopio parallelo."
+        }
+      ],
+      "sha256": "3dd06bf86d4410dc75cdbb835f404465aaf34a13462d10240dde33d56b51d190"
     },
     {
       "id": "SA-21",
@@ -3897,6 +4165,51 @@
         }
       ],
       "sha256": "080fe5b534c87e403df50cb52ae79f71760ec9d468ab808c3158b636ce6e909d"
+    },
+    {
+      "id": "SA-24",
+      "area": "strumenti",
+      "title": "Dalla mappa all’immagine: il mio progetto",
+      "replaces": [
+        "tavola-41"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/SA-24.png",
+      "pdf": "assets/poster/revisioni-20261023/SA-24.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/SA-24.webp",
+      "sources": [
+        {
+          "title": "Sky-Watcher — STARQUEST2 manual",
+          "url": "https://inter-static.skywatcher.com/downloads/bzl01-y01-202_starquest2.pdf",
+          "used": "Copia locale letta pp.8,10,18–19: cercatore, fuoco e regolazioni. Esclusi tempi universali, refuso Luna3arcmin e identificazione indiscriminata di figure fuori fuoco con disco diAiry."
+        },
+        {
+          "title": "NASA — Skywatching FAQ",
+          "url": "https://science.nasa.gov/skywatching/faq/",
+          "used": "Luogo e tempo nelle carte, confronto occhio/strumenti."
+        },
+        {
+          "title": "BAA — Hints and Tips",
+          "url": "https://britastro.org/section_information_/hints-and-tips-for-visual-observing",
+          "used": "Allineamento su riferimento lontano, basso ingrandimento."
+        },
+        {
+          "title": "Hong Kong Space Museum — Observation Skills",
+          "url": "https://hk.space.museum/en/web/spm/resources/observation-skills.html",
+          "used": "Campi ampi e uso delle carte; esclusi conteggi universali di stelle visibili."
+        },
+        {
+          "title": "N.I.N.A. — Advanced Sequencer",
+          "url": "https://nighttime-imaging.eu/docs/master/site/sequencer/advanced/advanced/",
+          "used": "Preparazione, acquisizione e fine sequenza, controlli compatibilità e istruzioni."
+        },
+        {
+          "title": "Fabio Rocca — Prima dell’oculare",
+          "file": "banca-didattica-personale/documenti/testi/fabio-uai-impariamo-cielo.txt",
+          "used": "Filo osservativo graduale, riferimenti e comprensione prima dell’attrezzatura."
+        }
+      ],
+      "sha256": "1649951da4252bb9152571e33389f445070a7b3eb12cd19a49450c9b956f78fb"
     }
   ]
 }
