@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "scope": "92 edizioni autorizzate e revisionate; restanti tavole ancora da revisionare",
+  "scope": "101 edizioni autorizzate e revisionate; programma editoriale completo",
   "print_masters": false,
   "counts": {
     "imparare": {
@@ -12,8 +12,8 @@
       "updated": 24
     },
     "sistema-solare": {
-      "available": 24,
-      "updated": 18
+      "available": 27,
+      "updated": 27
     },
     "strumenti": {
       "available": 24,
@@ -2718,6 +2718,49 @@
       "sha256": "a07a0ee6385f054ecc548bfec0bbf46462429410d2d9eb27f48df93dfaf8a260"
     },
     {
+      "id": "SS-10",
+      "area": "sistema-solare",
+      "title": "Satelliti e anelli: sistemi nel sistema",
+      "replaces": [],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/SS-10.png",
+      "pdf": "assets/poster/revisioni-20261023/SS-10.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/SS-10.webp",
+      "sources": [
+        {
+          "title": "NASA — Saturn Facts",
+          "url": "https://science.nasa.gov/saturn/facts/",
+          "used": "Sezione Rings: particelle e velocità diverse. Esclusi origine unica certa, diametro/raggio confusi e spessore uniforme."
+        },
+        {
+          "title": "NASA — Jupiter Facts",
+          "url": "https://science.nasa.gov/jupiter/facts/",
+          "used": "Sezione Rings: polveri liberate dalle piccole lune interne."
+        },
+        {
+          "title": "NASA — Uranus Facts",
+          "url": "https://science.nasa.gov/uranus/facts/",
+          "used": "Anelli stretti e scuri e sistemi diffusi. Nessun conteggio totale ricavato dalla descrizione incompleta9+2."
+        },
+        {
+          "title": "NASA — Neptune Facts",
+          "url": "https://science.nasa.gov/neptune/facts/",
+          "used": "Anelli e archi, distribuzione non uniforme; conteggi e durata non presentati come definitivi."
+        },
+        {
+          "title": "NASA/Cassini — The Gap Moons",
+          "url": "https://science.nasa.gov/resource/the-gap-moons/",
+          "used": "Pan eDafni, onde nei bordi; misure del2007 non ricopiate."
+        },
+        {
+          "title": "Buratti et al. — Close Cassini Flybys,2019,pp.1–2",
+          "url": "https://discovery.ucl.ac.uk/id/eprint/10075919/1/2019_buratti_aat2349_CombinedPDF_v6.pdf",
+          "used": "Lune nelle lacune, interazioni, ipotesi di origine. Letti abstract e introduzione, non l’intera analisi."
+        }
+      ],
+      "sha256": "0f4c3f08cf53e695bd6458cbe092a4a60a9cb2eca28de3aa4bb9e2147d3def4c"
+    },
+    {
       "id": "SS-11",
       "area": "sistema-solare",
       "title": "Atlante delle lune: mondi da confrontare",
@@ -2774,6 +2817,51 @@
         }
       ],
       "sha256": "cd35507935d72f6bbc8863534ff9d962173e2d6c73586d585f812b36149ff98f"
+    },
+    {
+      "id": "SS-12",
+      "area": "sistema-solare",
+      "title": "Riconoscere i pianeti nel cielo",
+      "replaces": [
+        "tavola-18"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/SS-12.png",
+      "pdf": "assets/poster/revisioni-20261023/SS-12.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/SS-12.webp",
+      "sources": [
+        {
+          "title": "NASA — Skywatching FAQ",
+          "url": "https://science.nasa.gov/skywatching/faq/",
+          "used": "Pianeti a occhio nudo e carta locale. Escluse equivalenza elongazione/altezza e massimi temporali universali."
+        },
+        {
+          "title": "NASA — Mercury Facts",
+          "url": "https://science.nasa.gov/mercury/facts/",
+          "used": "Vicinanza al Sole, corpo roccioso; nessuna promessa di visibilità quotidiana."
+        },
+        {
+          "title": "NASA — Venus Facts",
+          "url": "https://science.nasa.gov/venus/facts/",
+          "used": "Luminosità e orbita interna; non adottata vicinanza allaTerra come regola costante né la speculazione biologica."
+        },
+        {
+          "title": "NASA — Mars Facts",
+          "url": "https://science.nasa.gov/mars/facts/",
+          "used": "Aspetto rossastro; escluse affermazioni su acqua stagionale e altezze geologiche non pertinenti."
+        },
+        {
+          "title": "NASA — Jupiter Facts",
+          "url": "https://science.nasa.gov/jupiter/facts/",
+          "used": "Bande e satelliti, non dettagli garantiti a ogni ingrandimento."
+        },
+        {
+          "title": "NASA — Saturn Facts",
+          "url": "https://science.nasa.gov/saturn/facts/",
+          "used": "Anelli e aspetto variabile; esclusi conteggi di lune e date di calendario."
+        }
+      ],
+      "sha256": "b3c1caa41f3904e8be87fa4a37d10f7e0efc93b56ddc65c8041ea120198051f6"
     },
     {
       "id": "SS-13",
@@ -3089,6 +3177,186 @@
       "sha256": "2636eb56e9aa810c98857a73f30baeddbb397e8c0c74ac5ff8fe48a40deca361"
     },
     {
+      "id": "SS-20",
+      "area": "sistema-solare",
+      "title": "Meteore, bolidi e meteoriti",
+      "replaces": [
+        "tavola-19"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/SS-20.png",
+      "pdf": "assets/poster/revisioni-20261023/SS-20.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/SS-20.webp",
+      "sources": [
+        {
+          "title": "NASA — Meteors and Meteorites Facts",
+          "url": "https://science.nasa.gov/solar-system/meteors-meteorites/facts/",
+          "used": "Definizioni e sciami. Esclusi conteggi giornalieri incerti,135anniSwiftTuttle e paragrafi storici contraddittori."
+        },
+        {
+          "title": "NASA — Basics of Space Flight,chapter1",
+          "url": "https://science.nasa.gov/learn/basics-of-space-flight/chapter1-3/",
+          "used": "Compressione e riscaldamento, materiale vaporizzato e radiante prospettico."
+        },
+        {
+          "title": "American Meteor Society — Fireball FAQ",
+          "url": "https://www.amsmeteors.org/fireballs/faqf/",
+          "used": "Convenzioni fireball/bolide, scie e dati per segnalazione; non unificate soglie diverse con l’uso italiano."
+        },
+        {
+          "title": "INAF/PRISMA — Quando un bolide va in pezzi",
+          "url": "https://www.prisma.inaf.it/index.php/2019/12/13/quando-un-bolide-va-in-pezzi/",
+          "used": "Ricostruzione con più camere e lampi di frammentazione, evento storico non attuale."
+        },
+        {
+          "title": "INAF — Bolide sopra il Tirreno",
+          "url": "https://sorvegliatispaziali.inaf.it/bolide-sopra-il-tirreno/",
+          "used": "Uso di registrazioni multiple e triangolazione, nessuna traiettoria copiata come modello universale."
+        },
+        {
+          "title": "INAF — Il bolide di Pordenone",
+          "url": "https://sorvegliatispaziali.inaf.it/il-bolide-di-pordenone/",
+          "used": "Volo buio e frammenti non incandescenti al suolo. Ipotesi di ritrovamento2024 non presentate come esito certo."
+        }
+      ],
+      "sha256": "c2455b029863b310e1d84b7902fd7704090257f1f457264d217b2f4e784829bd"
+    },
+    {
+      "id": "SS-21",
+      "area": "sistema-solare",
+      "title": "Meteoriti: campioni del Sistema solare",
+      "replaces": [
+        "tavola-20"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/SS-21.png",
+      "pdf": "assets/poster/revisioni-20261023/SS-21.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/SS-21.webp",
+      "sources": [
+        {
+          "title": "Natural History Museum — Types of Meteorites",
+          "url": "https://www.nhm.ac.uk/discover/types-of-meteorites.html",
+          "used": "Tre famiglie e processi; origine delle pallasiti non ridotta al solo confine nucleo/mantello."
+        },
+        {
+          "title": "NASA — Meteorites Facts",
+          "url": "https://science.nasa.gov/solar-system/meteors-meteorites/facts/",
+          "used": "Composizione, studio dei campioni e crosta; escluse generalizzazioni di frequenza e dimensione."
+        },
+        {
+          "title": "NASA — Basics of Space Flight,chapter1",
+          "url": "https://science.nasa.gov/learn/basics-of-space-flight/chapter1-3/",
+          "used": "Frammenti lunari/marziani espulsi da impatti."
+        },
+        {
+          "title": "Washington University — Self-test checklist",
+          "url": "https://sites.wustl.edu/meteoritesite/items/self-test-check-list/",
+          "used": "Superare indizi non equivale a identificazione, analisi e contesto necessari; nessun test distruttivo consigliato."
+        },
+        {
+          "title": "Naturhistorisches Museum Wien — Potential Meteorite",
+          "url": "https://www.nhm.at/meteorite_report",
+          "used": "Foto con scala e contesto, magnetismo non carattere diagnostico unico."
+        },
+        {
+          "title": "USGS — I think I found a meteorite",
+          "url": "https://www.usgs.gov/faqs/i-think-i-found-a-meteorite-how-can-i-tell-sure?qt-news_science_products=0",
+          "used": "Valutazione in persona e caratteristiche indicative; escluse regole assolute suquarzo,bolle,magnetismo e prove per graffiatura."
+        }
+      ],
+      "sha256": "5bbb9fa0d859517b287a24acbb0bdeb3606bda0be9fa621d6eedbe9139481dd9"
+    },
+    {
+      "id": "SS-22",
+      "area": "sistema-solare",
+      "title": "Asteroidi vicini e rischio",
+      "replaces": [
+        "S11"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/SS-22.png",
+      "pdf": "assets/poster/revisioni-20261023/SS-22.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/SS-22.webp",
+      "sources": [
+        {
+          "title": "NASA/CNEOS — FAQ",
+          "url": "https://cneos.jpl.nasa.gov/faq/",
+          "used": "NEO comprende asteroidi e comete; classificazione orbitale non previsione di impatto."
+        },
+        {
+          "title": "NASA/CNEOS — Sentry Introduction",
+          "url": "https://cneos.jpl.nasa.gov/sentry/intro.html",
+          "used": "Famiglie di soluzioni e variazione delle probabilità al cambiare dei dati."
+        },
+        {
+          "title": "NASA/CNEOS — NEO Groups",
+          "url": "https://cneos.jpl.nasa.gov/about/neo_groups.html",
+          "used": "PHA, MOID e magnitudine assoluta: non confondere distanza fra orbite e distanza simultanea fra corpi."
+        },
+        {
+          "title": "ESA/NEOCC — Risk List",
+          "url": "https://neo.ssa.esa.int/risk-list",
+          "used": "Letta introduzione alla lista e alle stime; non riprodotta tabella corrente."
+        },
+        {
+          "title": "ESA — Planetary Defence",
+          "url": "https://www.esa.int/Space_Safety/Planetary_Defence",
+          "used": "Monitoraggio e missioni di difesa: nessun allarme corrente attribuito al poster."
+        },
+        {
+          "title": "ESA — Hera",
+          "url": "https://www.esa.int/Space_Safety/Hera",
+          "used": "DART ha modificato l’orbita di Dimorphos attorno a Didymos; Hera non dichiarata già arrivata al23ottobre2026."
+        }
+      ],
+      "sha256": "4a4c4593db4fb913b3db9faa39b7bf010f4ed6441a52a39b5efebc0f0172d667"
+    },
+    {
+      "id": "SS-23",
+      "area": "sistema-solare",
+      "title": "Una missione robotica",
+      "replaces": [
+        "S14"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/SS-23.png",
+      "pdf": "assets/poster/revisioni-20261023/SS-23.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/SS-23.webp",
+      "sources": [
+        {
+          "title": "NASA — Mission Inception",
+          "url": "https://science.nasa.gov/learn/basics-of-space-flight/chapter7-1/",
+          "used": "Domanda scientifica, vincoli e sviluppo; processo NASA non presentato come universale."
+        },
+        {
+          "title": "NASA — Experiments",
+          "url": "https://science.nasa.gov/learn/basics-of-space-flight/chapter8-1/",
+          "used": "Misurazione, dati scientifici e di servizio; analisi oltre la sola immagine."
+        },
+        {
+          "title": "NASA — Spacecraft Classification",
+          "url": "https://science.nasa.gov/learn/basics-of-space-flight/chapter9-1/",
+          "used": "Sorvolo, orbiter, lander e rover: tipi distinti, non trasformazioni dello stesso veicolo."
+        },
+        {
+          "title": "NASA — Telecom",
+          "url": "https://science.nasa.gov/learn/basics-of-space-flight/chapter10-1/",
+          "used": "Comandi, telemetria e tempo di propagazione; niente controllo istantaneo."
+        },
+        {
+          "title": "NASA — Onboard Systems",
+          "url": "https://science.nasa.gov/learn/basics-of-space-flight/chapter11-1/",
+          "used": "Struttura, energia, termica e orientamento: dipendono dalla missione."
+        },
+        {
+          "title": "NASA — Gravity and Mechanics",
+          "url": "https://science.nasa.gov/learn/basics-of-space-flight/chapter3-1/",
+          "used": "Traiettorie e gravità, nessuna orbita quantitativa inventata nella figura."
+        }
+      ],
+      "sha256": "d00e950b356cab3e928f205df29933cb555ca6d62bad27f053445a62c5df5e13"
+    },
+    {
       "id": "SS-24",
       "area": "sistema-solare",
       "title": "Dall’aria allo spazio: atmosfera e orbite",
@@ -3130,6 +3398,142 @@
         }
       ],
       "sha256": "4ee3f8f32028934dcb8c58a82710e9e8b9acc910fbaf6dcb344aab7514e53178"
+    },
+    {
+      "id": "SS-25",
+      "area": "sistema-solare",
+      "title": "Dal lancio all’orbita",
+      "replaces": [],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/SS-25.png",
+      "pdf": "assets/poster/revisioni-20261023/SS-25.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/SS-25.webp",
+      "sources": [
+        {
+          "title": "NASA — Gravity and Mechanics",
+          "url": "https://science.nasa.gov/learn/basics-of-space-flight/chapter3-1/",
+          "used": "Moto sotto gravità; non assenza di gravità in orbita."
+        },
+        {
+          "title": "NASA — Launch",
+          "url": "https://science.nasa.gov/learn/basics-of-space-flight/chapter14-1/",
+          "used": "Accelerazione, stadi e finestre; riferimenti Shuttle storici non trasferiti al presente."
+        },
+        {
+          "title": "NASA Glenn — Rocket Thrust",
+          "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/rocket-thrust/",
+          "used": "Quantità di moto, gas espulsi e propellenti a bordo: nessuna necessità di atmosfera."
+        },
+        {
+          "title": "ESA — Types of Orbits",
+          "url": "https://www.esa.int/Enabling_Support/Space_Transportation/Types_of_orbits",
+          "used": "Scelta di quota, inclinazione e forma in funzione della missione."
+        },
+        {
+          "title": "NASA — What Is Microgravity, Grades5–8",
+          "url": "https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-microgravity-grades-5-8/",
+          "used": "Caduta comune e persistenza della gravità alla quota ISS."
+        },
+        {
+          "title": "NASA — Trajectories",
+          "url": "https://science.nasa.gov/learn/basics-of-space-flight/chapter4-1/",
+          "used": "Contesto delle traiettorie e manovre. Esclusa l’equivalenza spazio=orbita."
+        }
+      ],
+      "sha256": "c09fabe900e58b92830757a011600873ae78cb626aadb9b009e3c2aba8089679"
+    },
+    {
+      "id": "SS-26",
+      "area": "sistema-solare",
+      "title": "Vivere in microgravità",
+      "replaces": [
+        "S15"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/SS-26.png",
+      "pdf": "assets/poster/revisioni-20261023/SS-26.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/SS-26.webp",
+      "sources": [
+        {
+          "title": "NASA — What Is Microgravity, Grades5–8",
+          "url": "https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-microgravity-grades-5-8/",
+          "used": "Caduta libera comune, gravità non annullata e accelerazioni residue."
+        },
+        {
+          "title": "NASA Glenn — What Is Microgravity",
+          "url": "https://www.nasa.gov/centers-and-facilities/glenn/what-is-microgravity/",
+          "used": "Inerzia e massa restano. Riferimenti operativi Shuttle eC9 non ripresi."
+        },
+        {
+          "title": "ESA — Parabolic Flights",
+          "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Research/Parabolic_flights",
+          "used": "Intervalli brevi di caduta libera, non gravità spenta."
+        },
+        {
+          "title": "CSA — Parabolic Flights",
+          "url": "https://www.csa-asc.gc.ca/eng/sciences/parabolic.asp",
+          "used": "Esperienza di microgravità durante la parabola; nessuna prestazione universale del veicolo."
+        },
+        {
+          "title": "NASA — The Human Body in Space",
+          "url": "https://www.nasa.gov/humans-in-space/the-human-body-in-space/",
+          "used": "Adattamento, fluidi, ossa e muscoli, esercizio; non indicazioni mediche individuali."
+        },
+        {
+          "title": "NASA — Studying Combustion and Fire Safety",
+          "url": "https://www.nasa.gov/missions/station/iss-research/studying-combustion-and-fire-safety/",
+          "used": "Convezione e combustione in esperimenti contenuti, nessuna fiamma libera in cabina."
+        }
+      ],
+      "sha256": "b5c3379714571a20dade3d3a62bf7fcde364c937c4deb7e60b1b1599d8f1a714"
+    },
+    {
+      "id": "SS-27",
+      "area": "sistema-solare",
+      "title": "Esplorare e riportare campioni",
+      "replaces": [],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/SS-27.png",
+      "pdf": "assets/poster/revisioni-20261023/SS-27.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/SS-27.webp",
+      "sources": [
+        {
+          "title": "NASA — OSIRIS-REx",
+          "url": "https://science.nasa.gov/mission/osiris-rex/",
+          "used": "Obiettivo e ritorno del campione di Bennu il24settembre2023."
+        },
+        {
+          "title": "NASA — Stardust",
+          "url": "https://science.nasa.gov/mission/stardust/",
+          "used": "Ritorno di particelle cometarie, distinto dalla missione estesa."
+        },
+        {
+          "title": "JAXA/ISAS — Sample Confirmation",
+          "url": "https://www.isas.jaxa.jp/en/topics/002528.html",
+          "used": "Campione Ryugu e recupero della capsula nel dicembre2020."
+        },
+        {
+          "title": "JAXA — Hayabusa2 Curation",
+          "url": "https://curation.isas.jaxa.jp/en/sample-curation/ryugu/",
+          "used": "Contenitore protetto, apertura in ambiente controllato e catalogazione; non tutti i campioni trattati allo stesso modo."
+        },
+        {
+          "title": "NASA — Apollo Next Generation Sample Analysis",
+          "url": "https://science.nasa.gov/lunar-science/programs/angsa/",
+          "used": "Conservazione per strumenti e domande futuri; analisi moderna di materiali Apollo."
+        },
+        {
+          "title": "NASA/NTRS — First Year with Bennu Samples",
+          "url": "https://ntrs.nasa.gov/citations/20240010710",
+          "used": "Letto abstract: recupero, azoto, manipolazione, catalogazione e assegnazione ai laboratori."
+        },
+        {
+          "title": "NASA — Phosphate Finding in Bennu Sample",
+          "url": "https://www.nasa.gov/solar-system/surprising-phosphate-finding-in-nasas-osiris-rex-asteroid-sample/",
+          "used": "Composizione e ipotesi di alterazione acquosa; molecole organiche non equiparate alla vita."
+        }
+      ],
+      "sha256": "7a577db343bc45618861d7c22afe8bd5ea6c46638b5f6573864a3eb45541b359"
     },
     {
       "id": "SA-01",
