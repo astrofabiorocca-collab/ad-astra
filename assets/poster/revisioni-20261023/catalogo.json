@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "scope": "72 edizioni autorizzate e revisionate; restanti tavole ancora da revisionare",
+  "scope": "78 edizioni autorizzate e revisionate; restanti tavole ancora da revisionare",
   "print_masters": false,
   "counts": {
     "imparare": {
@@ -8,8 +8,8 @@
       "updated": 19
     },
     "universo": {
-      "available": 23,
-      "updated": 19
+      "available": 24,
+      "updated": 24
     },
     "sistema-solare": {
       "available": 24,
@@ -17,7 +17,7 @@
     },
     "strumenti": {
       "available": 23,
-      "updated": 16
+      "updated": 17
     }
   },
   "posters": [
@@ -1208,6 +1208,51 @@
       "sha256": "f28f3cb0a2520ff0442081d982ec7c7a903aa73ab4943ce0372dddcc3c5bbd56"
     },
     {
+      "id": "UN-08",
+      "area": "universo",
+      "title": "Come si sostiene una stella?",
+      "replaces": [
+        "tavola-16"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/UN-08.png",
+      "pdf": "assets/poster/revisioni-20261023/UN-08.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/UN-08.webp",
+      "sources": [
+        {
+          "title": "INAF Torino — Zangrilli, Attività solare, PDF p.25",
+          "url": "https://drive.google.com/file/d/1YGrWEX7zW1AINOtTUnhjPM4ikCP0rZlj/view",
+          "used": "Equilibrio idrostatico come equilibrio locale di forze nel Sole."
+        },
+        {
+          "title": "Angeletti — Appunti, PDF p.71",
+          "url": "https://www.angeloangeletti.it/MATERIALI_LICEO/APPUNTI%20DI%20ASTRONOMIA.pdf",
+          "used": "Pressione decrescente verso l’esterno e forza su uno strato."
+        },
+        {
+          "title": "NASA — Stars",
+          "url": "https://science.nasa.gov/universe/stars/",
+          "used": "Contrazione protostellare, fusione in sequenza principale e ruolo della massa."
+        },
+        {
+          "title": "NASA/Webb — Star Lifecycle",
+          "url": "https://science.nasa.gov/mission/webb/star-lifecycle/",
+          "used": "Sostegno termico, evoluzione e contrazione prima della fusione stabile."
+        },
+        {
+          "title": "ESA/Hubble — Star",
+          "url": "https://esahubble.org/wordbank/star/",
+          "used": "Sistema autogravitante di plasma; fusione come sorgente energetica nella fase stabile."
+        },
+        {
+          "title": "OpenStax — Solar Interior: Theory",
+          "url": "https://openstax.org/books/astronomy/pages/16-3-the-solar-interior-theory",
+          "used": "Gradiente di pressione, equilibrio locale, nucleo solare circa15milioni kelvin."
+        }
+      ],
+      "sha256": "059caec109965fe8c92e4723b8d09a00234ef5bb99633ecbb015d1a21ca8ca7a"
+    },
+    {
       "id": "UN-09",
       "area": "universo",
       "title": "Leggere il diagramma H–R",
@@ -1568,6 +1613,51 @@
       "sha256": "95ff6bffd053f7a4ceac1e6be1123e429fc6a3f5f0b94d64ea66fd6cd2718725"
     },
     {
+      "id": "UN-17",
+      "area": "universo",
+      "title": "Le famiglie delle galassie",
+      "replaces": [
+        "tavola-23"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/UN-17.png",
+      "pdf": "assets/poster/revisioni-20261023/UN-17.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/UN-17.webp",
+      "sources": [
+        {
+          "title": "Treccani — Le galassie, PDF p.1",
+          "url": "https://static.treccani.it/export/sites/default/Portale/resources/multimedia/Lezioni_Astrofisica/galassie/Le_galassie_LEZIONE.pdf",
+          "used": "Classificazione morfologica e sistemi legati dalla gravità."
+        },
+        {
+          "title": "Lorenzo Roi — Corso1, PDF p.47",
+          "url": "https://www.lorenzoroi.net/prelievi/CorsoAstro1.pdf",
+          "used": "Morfologia come punto di partenza approssimato, incluse lenticolari S0; non usati conteggi e valori massimi datati."
+        },
+        {
+          "title": "NASA — Galaxy Types",
+          "url": "https://science.nasa.gov/universe/galaxies/types/",
+          "used": "Spirali, ellittiche, lenticolari e irregolari; varietà delle strutture."
+        },
+        {
+          "title": "ESA/Hubble — Elliptical Galaxy",
+          "url": "https://esahubble.org/wordbank/elliptical-galaxy/",
+          "used": "Popolazioni generalmente antiche, classificazione non sequenza obbligatoria di età."
+        },
+        {
+          "title": "ESA/Hubble — Spiral Galaxy",
+          "url": "https://esahubble.org/wordbank/spiral-galaxy/",
+          "used": "Barra, bracci e dipendenza dell’aspetto dall’inclinazione. Non usate percentuali universali dei tipi."
+        },
+        {
+          "title": "ESA/Hubble — Galaxy",
+          "url": "https://esahubble.org/wordbank/galaxy/",
+          "used": "Sistemi dinamici con stelle, gas, polveri e materia oscura; non adottata uguaglianza distanza cosmologica=tempo di viaggio della luce."
+        }
+      ],
+      "sha256": "ba4b1c03d79f945d0a5563b8fdea37a2471bb21da00985a3668314f4d35ecd09"
+    },
+    {
       "id": "UN-18",
       "area": "universo",
       "title": "Dal Gruppo Locale alla rete cosmica",
@@ -1611,6 +1701,56 @@
         }
       ],
       "sha256": "1efee0a35156a3b31a97f5b983e677a970be12aa440d7aea4fec4d9d08db239b"
+    },
+    {
+      "id": "UN-19",
+      "area": "universo",
+      "title": "I buchi neri e le loro tracce",
+      "replaces": [
+        "tavola-24"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/UN-19.png",
+      "pdf": "assets/poster/revisioni-20261023/UN-19.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/UN-19.webp",
+      "sources": [
+        {
+          "title": "NASA — Black Hole Anatomy",
+          "url": "https://science.nasa.gov/universe/black-holes/anatomy/",
+          "used": "Orizzonte, ombra, disco e getti distinti; nessuna superficie solida."
+        },
+        {
+          "title": "NASA — Black Holes",
+          "url": "https://science.nasa.gov/universe/black-holes/",
+          "used": "Gravità a pari massa, esempi di osservazione; GaiaBH1 molto più vicino di SgrA*."
+        },
+        {
+          "title": "NASA — Black Hole Types",
+          "url": "https://science.nasa.gov/universe/black-holes/types/",
+          "used": "Famiglie stellari e supermassicce, formazione non identica per tutti."
+        },
+        {
+          "title": "ESO/EHT — M87*, 2019",
+          "url": "https://www.eso.org/public/news/eso1907/",
+          "used": "Data della prima immagine e interpretazione dell’ombra nella radiazione circostante."
+        },
+        {
+          "title": "ESO/EHT — Sagittarius A*, 2022",
+          "url": "https://www.eso.org/public/news/eso2208-eht-mw/",
+          "used": "Ombra e anello; circa4milioni di masse solari, rete interferometrica."
+        },
+        {
+          "title": "Harvard/Smithsonian — Gaia BH1",
+          "url": "https://www.cfa.harvard.edu/news/astronomers-discover-closest-black-hole-earth",
+          "used": "Moto della compagna e distanza di circa1600anni luce, nessuna falsa identificazione SgrA*=più vicino."
+        },
+        {
+          "title": "Procopio et al. — Nature, 2026",
+          "url": "https://www.nature.com/articles/s41586-026-10720-3",
+          "used": "Abstract primario: radiazione Hawking non osservata astronomicamente; esperimento su analogo ottico distinto da buco nero reale."
+        }
+      ],
+      "sha256": "93ca5e990107905180d7fcfa325224715665e2fdb071ef6fc59bf3f0288b8abf"
     },
     {
       "id": "UN-20",
@@ -1744,6 +1884,99 @@
         }
       ],
       "sha256": "07f77a67df5cac2922607490a3bdcaaa9e810fc30c129a563f43f2804edd2c10"
+    },
+    {
+      "id": "UN-23",
+      "area": "universo",
+      "title": "Il Big Bang e la storia dell’Universo",
+      "replaces": [
+        "tavola-25"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/UN-23.png",
+      "pdf": "assets/poster/revisioni-20261023/UN-23.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/UN-23.webp",
+      "sources": [
+        {
+          "title": "NASA — Universe History",
+          "url": "https://science.nasa.gov/universe/overview/",
+          "used": "Nucleosintesi, ricombinazione e progressiva formazione di stelle e galassie."
+        },
+        {
+          "title": "NASA/Webb — Big Bang Q&A",
+          "url": "https://science.nasa.gov/mission/webb/big-bang-q-and-a/",
+          "used": "Nessun centro dell’esplosione; il fondo non è un’immagine dell’istante iniziale."
+        },
+        {
+          "title": "ESA/Planck — Science highlights",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/Planck/Planck_science_highlights",
+          "used": "Età circa13,8miliardi e CMB a380mila anni."
+        },
+        {
+          "title": "ESA/Planck — CMB and inflation",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/Planck/The_cosmic_microwave_background_and_inflation",
+          "used": "Fluttuazioni primordiali e formazione delle strutture; inflazione distinta da osservazione diretta."
+        },
+        {
+          "title": "NASA — Solar System Facts",
+          "url": "https://science.nasa.gov/solar-system/solar-system-facts/",
+          "used": "Sistema solare formato circa4,6miliardi di anni fa, non4,6miliardi dopo il BigBang."
+        },
+        {
+          "title": "Angeletti — Appunti, PDF p.38",
+          "url": "https://www.angeloangeletti.it/MATERIALI_LICEO/APPUNTI%20DI%20ASTRONOMIA.pdf",
+          "used": "Nuclei leggeri e abbondanze; aggiornato300mila→circa380mila e non assolutizzata singolarità."
+        },
+        {
+          "title": "ESA/Planck — CMB Legacy2018, immagine",
+          "url": "https://www.esa.int/ESA_Multimedia/Images/2018/07/Planck_s_view_of_the_cosmic_microwave_background",
+          "used": "Mappa autentica, non generata; credito©ESA/Planck Collaboration, ESA Standard Licence uso educativo."
+        }
+      ],
+      "sha256": "7bffe3ceed29ca2f0c382af96acd33a92682f9fbdcead4d734ceb9684cb5f5ac"
+    },
+    {
+      "id": "UN-24",
+      "area": "universo",
+      "title": "Come sappiamo tutto questo?",
+      "replaces": [],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/UN-24.png",
+      "pdf": "assets/poster/revisioni-20261023/UN-24.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/UN-24.webp",
+      "sources": [
+        {
+          "title": "EduINAF — Modello cosmologico standard",
+          "url": "https://edu.inaf.it/corso_base_brera/il-modello-cosmologico-standard-e-lenigma-dellespansione",
+          "used": "Passaggio della banca: partire dalle osservazioni e formulare ipotesi del modello. Non riprodotte definizioni confuse di isotropia/omogeneità né approssimazione1Mpc=3milioni al."
+        },
+        {
+          "title": "NASA/Webb — Spectroscopy101",
+          "url": "https://science.nasa.gov/mission/webb/science-overview/science-explainers/spectroscopy-101-beyond-temperature-and-composition/",
+          "used": "Identificazione di più righe per misurare spostamenti spettrali."
+        },
+        {
+          "title": "Siril1.4 — Calibration",
+          "url": "https://siril.readthedocs.io/en/stable/preprocessing/calibration.html",
+          "used": "Risposta strumentale e segnali ripetibili distinti dal rumore casuale."
+        },
+        {
+          "title": "Astropy — Image combination",
+          "url": "https://www.astropy.org/ccd-reduction-and-photometry-guide/v/3.0.0a1/notebooks/01-06-Image-combination.html",
+          "used": "Combinazione e rigetto controllato di valori anomali, incertezza residua."
+        },
+        {
+          "title": "ESA/Gaia — Guide to our galaxy",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/Gaia/Guide_to_our_galaxy",
+          "used": "Posizioni e moti stellari per ricostruire la Galassia; osservazione distinta da impressione artistica."
+        },
+        {
+          "title": "ESO/EHT — Sagittarius A*,2022",
+          "url": "https://www.eso.org/public/news/eso2208-eht-mw/",
+          "used": "Confronto tra misure delle orbite, immagine interferometrica e previsioni fisiche."
+        }
+      ],
+      "sha256": "cb57e773fc4a173bbc336d5e106f7d8c9cd618d333717ae405110821174f82d5"
     },
     {
       "id": "SS-01",
@@ -3110,6 +3343,51 @@
         }
       ],
       "sha256": "8300a702494f4d0bd3475fbec4e69d95ec1fcc4520a5855157e02109c2ad8794"
+    },
+    {
+      "id": "SA-14",
+      "area": "strumenti",
+      "title": "Oculari e campo visivo",
+      "replaces": [
+        "tavola-29"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/SA-14.png",
+      "pdf": "assets/poster/revisioni-20261023/SA-14.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/SA-14.webp",
+      "sources": [
+        {
+          "title": "SAIt — Bignamino, PDF p.192",
+          "url": "https://www.sait.it/sites/sait.interlandia.net/files/pictures/notizie/2022/Bignamino_astronomia_2022.pdf",
+          "used": "Ingrandimento, campo reale approssimato e pupilla d’uscita."
+        },
+        {
+          "title": "Sky-Watcher — Field of View",
+          "url": "https://www.skywatcher.com/post/resource/field-of-view/",
+          "used": "Campo apparente distinto dal reale; formula come approssimazione."
+        },
+        {
+          "title": "Sky-Watcher — Knowledge",
+          "url": "https://www.skywatcher.com/knowledge/",
+          "used": "Oculare, Barlow ed estrazione pupillare; non adottati limiti assoluti e numeri estremi degli ingrandimenti."
+        },
+        {
+          "title": "Celestron — Choosing eyepieces",
+          "url": "https://www.celestron.com/blogs/knowledgebase/how-to-determine-which-eyepieces-to-use-with-your-telescope",
+          "used": "Limiti atmosferici, accomodamento e pupilla d’uscita; non usato massimo teorico come garanzia."
+        },
+        {
+          "title": "Celestron — Understanding Focal Reducers, 2026",
+          "url": "https://www.celestron.com/blogs/knowledgebase/understanding-focal-reducers",
+          "used": "Compatibilità, riduzione della focale e vignettatura; non generalizzato aumento di luminosità a ogni regime visivo."
+        },
+        {
+          "title": "Sky-Watcher — AZ-GTe Manual, PDF p.18",
+          "url": "https://inter-static.skywatcher.com/downloads/bzl01-y01-128__azgte_manual_v100.pdf",
+          "used": "Partire con ingrandimento contenuto e considerare turbolenza atmosferica."
+        }
+      ],
+      "sha256": "e17d2195bf285ae7f45edb5a494fcc6c5ec4305e0268dc0cf3dfbee978ba3e7d"
     },
     {
       "id": "SA-19",
