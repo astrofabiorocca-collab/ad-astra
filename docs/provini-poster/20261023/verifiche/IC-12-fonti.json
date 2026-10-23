@@ -1,0 +1,57 @@
+{
+  "poster": "IC-12",
+  "date": "2026-10-23",
+  "resources": [
+    {
+      "title": "Gruppo Astrofili Polesani — Costruzione di un astrolabio",
+      "url": "https://www.astrofilipolesani.it/costruzione-di-un-astrolabio/",
+      "used": "Letti materiali, costruzione e uso. Scaricati entrambi i PDF pubblici, HTTP200, una pagina ciascuno; custodia esaminata visivamente, indica45N. Non copiate le immagini nel poster. Credito dei PDF: Dominic Ford / in-the-sky.org; il riferimento è alla fonte originale ospitata dal gruppo."
+    },
+    {
+      "title": "EduINAF — Costruiamo un astrolabio, Alessandra Zanazzi",
+      "url": "https://edu.inaf.it/astrodidattica/costruzione-astrolabio/",
+      "used": "Materiali, taschina, supporto, fermacampione e doppia scala oraria. Due PDF a colori scaricati, HTTP200, una pagina ciascuno, renderizzati ed esaminati. La latitudine35–40N indicata nell’articolo non viene estesa a tutta Italia; esclusa la frase sul nessun valore scientifico delle costellazioni. Non riprodotte le dime o le immagini di terzi."
+    },
+    {
+      "title": "EduINAF — Regali astronomici: astrolabio, Stefano Cidone",
+      "url": "https://edu.inaf.it/rubriche/astronomo-risponde/regali-astronomici-astrolabio/",
+      "used": "Allineare data e ora, orientare lo strumento e aggiornare la rotazione durante l’osservazione. Ora solare intesa come ora standard della scala del modello, non automaticamente tempo solare vero. Non generalizzata la finestra del dispositivo fotografato a ogni planisfero."
+    },
+    {
+      "title": "UAI — Apprendista Astrofilo, un astrolabio da costruire con carta e forbici",
+      "url": "https://divulgazione.uai.it/index.php/Apprendista_Astrofilo_Documenti",
+      "locator": "Sezione del progetto Toshimi Taki, non tutto l’atlante",
+      "used": "Due parti, differenti custodie per latitudine, stessa proporzione di stampa e umidità. Modello a doppio orizzonte distinto dagli altri. Non asserito che il sito di Taki sia stato consultato: il collegamento non ha restituito un corpo leggibile."
+    },
+    {
+      "title": "Museo Galileo — L’astrolabio, testi completi",
+      "url": "https://brunelleschi.imss.fi.it/esplora/astrolabio/dswmedia/risorse/testi_completi_ITA.pdf",
+      "locator": "pagine PDF3 e6–7",
+      "used": "Distinzione storica fra astrolabio piano con madre, timpano, rete e alidada e moderno planisfero girevole. Non attribuita con certezza l’invenzione a Ipparco: la fonte usa attribuzione ad alcuni storici. Nessuna immagine riprodotta."
+    },
+    {
+      "title": "Sky & Telescope / AAS — How to Make a Star Wheel the Simple Way",
+      "url": "https://skyandtelescope.org/astronomy-resources/make-a-star-wheel/",
+      "used": "Parti da stampare, ora standard/legale, orientamento e assenza di Luna/pianeti. Non riprese le generalizzazioni tutte le stelle a nord non tramontano e oggetto non sulla carta uguale pianeta; il tramonto del Sole non identifica sempre l’ovest esatto. Carta2007 per principi costruttivi, non per effemeridi attuali."
+    }
+  ],
+  "bank_comparison": "IC-12-banca.json contiene solo un planisfero storico di Mercurio negli Appunti Angeletti: non pertinente, escluso. Le fonti richieste dall’autore sono state confrontate direttamente. Sei risorse non equivalgono a sei istituzioni indipendenti: due sono EduINAF e i modelli UAI/Polesani hanno progettisti distinti citati nelle pagine.",
+  "downloads": "Quattro PDF conservati solo nell’archivio di verifica personale IC-12-download; hash e HTTP200 nei registri verifica.json e verifica-polesani.json. Nessuna nuova copia delle dime distribuita nel sito.",
+  "corrections_to_original": [
+    "Eliminata l’affermazione in qualsiasi luogo del mondo senza cambiare modello",
+    "Nessuna scala di date o ore inventata nell’illustrazione",
+    "Il poster illustrativo non è una dima da ritagliare",
+    "Tempo CET e CEST distinti, nessuna doppia correzione",
+    "Planisfero distinto dall’astrolabio storico",
+    "Rimosse le finte costellazioni e il QR non verificato dell’originale"
+  ],
+  "status": "Provino composto e controllato inizialmente; resta da valutare, non integrato nel sito",
+  "visual_checks": [
+    "Due componenti e fermacampione etichettati",
+    "Ricostruzione illustrativa non dima dichiarata",
+    "Nessun gesto anatomico generato",
+    "Orologio corretto a21:00 coerente con CET",
+    "Logo originale composto separatamente",
+    "Quattro collegamenti esterni PDF presenti, fonti e postilla conservate"
+  ]
+}

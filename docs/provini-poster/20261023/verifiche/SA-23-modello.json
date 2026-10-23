@@ -1,0 +1,29 @@
+{
+  "seed": 23023,
+  "model": "same signal + independent Gaussian noise, arithmetic mean",
+  "display_range": [
+    0,
+    125
+  ],
+  "counts": [
+    {
+      "frames": 1,
+      "expected_noise_sigma": 32.0,
+      "measured_noise_sigma": 32.06028699315724,
+      "snr_relative": 1.0
+    },
+    {
+      "frames": 4,
+      "expected_noise_sigma": 16.0,
+      "measured_noise_sigma": 16.036102628556147,
+      "snr_relative": 2.0
+    },
+    {
+      "frames": 16,
+      "expected_noise_sigma": 8.0,
+      "measured_noise_sigma": 7.984759357625015,
+      "snr_relative": 4.0
+    }
+  ],
+  "not_instrument_prediction": true
+}

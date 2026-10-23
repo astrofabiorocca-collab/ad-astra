@@ -1,0 +1,57 @@
+{
+  "poster": "IC-19",
+  "date": "2026-10-23",
+  "resources": [
+    {
+      "title": "NASA — Basics of Space Flight, Chapter2 Reference Systems",
+      "url": "https://science.nasa.gov/learn/basics-of-space-flight/chapter2-2/",
+      "used": "Sezioni RA/DEC e ICRS lette. Coordinate classiche basate sull’equinozio distinte da ICRS; nessuna cronaca o immagine NASA copiata."
+    },
+    {
+      "title": "SAIt — Bignamino di astronomia 2022",
+      "url": "https://www.sait.it/sites/sait.interlandia.net/files/pictures/notizie/2022/Bignamino_astronomia_2022.pdf",
+      "locator": "paginaPDF36, stampata35",
+      "used": "Ascensione retta0–24h, declinazione con segno, punto gamma. La costanza giornaliera è didattica per stelle di catalogo, non un enunciato assoluto per pianeti o coordinate apparenti."
+    },
+    {
+      "title": "INAF Torino — Lattanzi e Pannunzio, Lezioni di astronomia fondamentale",
+      "url": "https://www.oato.inaf.it/biblioteca/pdf/TechRep078_Lattanzi.pdf",
+      "locator": "paginaPDF33",
+      "used": "AR da punto gamma verso est e Dec rispetto all’equatore. Ore di AR trattate come unità angolare, non durata del viaggio o identità con24ore civili."
+    },
+    {
+      "title": "Treccani — Coordinate astronomiche",
+      "url": "https://static.treccani.it/export/sites/default/Portale/resources/multimedia/Lezioni_Astrofisica/Coordinate/Lezione.pdf",
+      "locator": "pagine4–5, copia locale letta",
+      "used": "Distinzione angolo orario/AR, precessione e riferimento d’epoca. Non ripreso come previsione precisa il periodo del ritorno del polo aVega, né l’uso assoluto di immutabilità della declinazione."
+    },
+    {
+      "title": "Treccani — Coordinate celesti",
+      "url": "https://www.treccani.it/enciclopedia/coordinate-celesti/",
+      "locator": "corpo editoriale archiviato nella banca, letto",
+      "used": "Cerchio base, origine e archi ortogonali; equatore come cerchio della sfera, non sfera esso stesso."
+    },
+    {
+      "title": "Fabio Pacucci — Astronomia in rete",
+      "url": "https://www.fabiopacucci.com/wp-content/uploads/2018/09/astronomia_in_rete.pdf",
+      "locator": "paginePDF12–13, copia locale letta",
+      "used": "Sistema equatoriale e scala angolare. Non copiata l’identificazione della rotazione terrestre rispetto alle stelle con360gradi in24ore di tempo medio. Obliquità storica non trasferita come valore aggiornato."
+    }
+  ],
+  "bank_comparison": "Sei risorse realmente confrontate: cinque recuperate dall’archivio con passaggi pertinenti, più NASA. Due appartengono a Treccani: non sei editori indipendenti. Testi dei passaggi in IC-19-passaggi-locali.json; prima ricerca IC-19-banca.json.",
+  "requested_changes": [
+    "Equatore celeste corretto da sfera a cerchio sulla sfera celeste",
+    "Riferimento ed epoca distinti",
+    "Modello equatoriale classico distinto da ICRS",
+    "Testo scientifico corretto mantenendo le illustrazioni dell’edizione C02"
+  ],
+  "geometry_limits": "Figure qualitative fuori scala, non carta da misurare. Le frecce e il riferimento gamma della figura inferiore sono illustrativi; nessun valore stellare di catalogo nuovo attribuito alle stelle disegnate. Rimane necessario il giudizio grafico di Fabio.",
+  "status": "Provino composto e controllato inizialmente; da valutare, non integrato nel sito",
+  "visual_checks": [
+    "Introduzione corretta e leggibile",
+    "Equatore descritto come cerchio, non sfera o piano coincidente con cerchio",
+    "ICRS distinto dal modello classico",
+    "Nessun riquadro bianco sovrapposto nell’edizione scelta",
+    "Logo originale in alto a destra e note native"
+  ]
+}

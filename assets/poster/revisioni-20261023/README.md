@@ -1,30 +1,29 @@
-# Poster — edizioni approvate il 23 ottobre 2026
+# Poster — revisione del 23 ottobre 2026
 
-26 tavole inserite o sostituite nelle quattro raccolte su autorizzazione di Fabio.
-Nel poster IC-07 sono state corrette le due mani della ragazza e ricontrollati
-gesti e testi. Il logo originale è composto separatamente in alto a destra.
+34 tavole revisionate e integrate nelle quattro raccolte su autorizzazione di Fabio.
+Il comando successivo autorizza revisione e pubblicazione senza nuova approvazione
+individuale. Questo non equivale a una valutazione personale di ogni tavola.
+Logo originale composto separatamente in alto a destra; originali conservati.
 
-Le gallerie contengono complessivamente 94 tavole: 26 / 23 / 23 / 22.
-Questo numero comprende le edizioni precedenti ancora da revisionare.
-Il progetto editoriale prevede 101 voci; restano 75 revisioni o nuove tavole,
-non 75 aggiunte alle 94 attualmente visibili.
+Il sito contiene96 tavole:26 Imparare,23 Universo,24 Sistema solare,23 Strumenti.
+Comprende edizioni precedenti ancora da revisionare. Il progetto prevede101 voci:
+34 revisionate,67 da completare, non 67 aggiunte alle 96attualmente disponibili.
 
-`catalogo.json` registra ID, provenienza, fonti, sostituzioni e hash dei PNG.
-Le fonti sono risorse effettivamente consultate per queste tavole; più pagine
-di uno stesso ente non equivalgono a conferme indipendenti. Nessuna citazione
-implica approvazione o produzione del poster da parte dell’ente citato.
+Nuove revisioni: IC09circumpolari, IC10altazimutale, IC11carta del cielo,
+IC12planisfero, IC19coordinate; UN05parallasse, SS14rotazione lunare,
+SA23integrazione. Per SA23il confronto usa lo stesso segnale sintetico e
+rumore gaussiano indipendente:1/4/16pose, S/Rrelativo1/2/4. Non è una
+fotografia, una previsione di prestazioni o un aumento di risoluzione.
 
-PNG e PDF mantengono la risoluzione disponibile. Non sono master di stampa
-certificati. Le ricostruzioni sono illustrative e le semplificazioni sono indicate
-nelle tavole. I diagrammi calcolati sono distinti dalle fotografie.
+Fonti e crediti effettivamente consultati nelle schede e neiPDF. Sei risorse
+non significano sei enti indipendenti; inSA23sono sei pagine Siril. Citare
+un ente non implica approvazione. Nessuna copia della banca privata pubblicata.
 
-Gli originali e le edizioni precedenti rimangono nelle rispettive cartelle
-e nell’archivio privato del progetto, fuori dal sito. Non è stata caricata la
-banca dati personale. Il backup delle cinque pagine precedenti è conservato
-localmente in `backup-poster-pre-integrazione-20261023`.
+PDF ePNG mantengono il dettaglio disponibile; non sono master di stampa
+certificati. Ricostruzioni e semplificazioni dichiarate; postillaIA presente.
+Le precedenti edizioni sono conservate e il backup delle cinque pagine è in
+backup-poster-pre-integrazione-20261023, fuori dal repository pubblico.
 
-Verifica: 94 PDF di una pagina, 94 PNG decodificabili, destinazioni locali delle
-cinque pagine presenti e nessun duplicato nei download. Apertura, descrizione,
-download, chiusura e ritorno del focus del visualizzatore verificati in DOM
-simulato. Verifica visiva browser locale non eseguita: il blocco già riscontrato
-non è stato aggirato. I PDF nuovi sono stati renderizzati e ispezionati.
+Verificati96 PDF di una pagina,96 PNG decodificabili, link locali e unicità
+dei download. Viewer verificato in DOM simulato; non è un test visivo browser.
+I nuovi rendering sono stati ispezionati. Blocco locale non aggirato.

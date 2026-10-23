@@ -1,0 +1,44 @@
+{
+  "poster": "SS-14",
+  "date": "2026-10-23",
+  "resources": [
+    {
+      "title": "NASA — Moon Phases",
+      "url": "https://science.nasa.gov/moon/moon-phases/",
+      "used": "Distinzione27,322giorni e29,5; librazione e velocità orbitale variabile."
+    },
+    {
+      "title": "NASA — Orbit and Rotation",
+      "url": "https://moon.nasa.gov/resources/429/the-moons-orbit-and-rotation/",
+      "used": "Letto testo introduttivo, non visionata animazione: rotazione sincrona, non assenza di rotazione."
+    },
+    {
+      "title": "NASA — Top Moon Questions",
+      "url": "https://science.nasa.gov/moon/top-moon-questions/",
+      "used": "Sezioni rotazione e orbita:27,3siderale e29,5sinodico."
+    },
+    {
+      "title": "NASA — Moon Facts",
+      "url": "https://science.nasa.gov/moon/facts/",
+      "used": "Faccia lontana non perennemente buia. «Earth and Moon tidally locked» troppo ambiguo: NON dire che la Terra mostri sempre lo stesso emisfero alla Luna."
+    },
+    {
+      "title": "EduINAF — I quattro moti della Luna",
+      "url": "https://edu.inaf.it/rubriche/astronomo-risponde/domanda-moti-luna/",
+      "used": "Passaggi27g7h43min e librazione; media sincronia non identica velocità orbitale istantanea."
+    },
+    {
+      "title": "NASA NSSDCA — Moon Fact Sheet",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html",
+      "used": "27,3217giorni siderali,29,53sinodici;655,720ore rotazione."
+    }
+  ],
+  "checks": [
+    "Schema circolare ideale visto da nord: stesso marcatore rivolto al centro in4posizioni; orientamento cambia90gradi per quarto orbita.",
+    "Non confondere librazione e fasi. Circa59%superficie accessibile nel tempo, non59%visibile simultaneamente.",
+    "Esclusa pagina moodle.olimpiadi.inaf.it id1078: attribuisce29,5giorni al giro assiale senza distinguere giorno solare da siderale.",
+    "Escluso fatti_lunari.pdf:1737km chiamato diametro, in realtà raggio."
+  ],
+  "independence": "Sei risorse non equivalgono a sei enti indipendenti. Passaggi pertinenti consultati; nessuna revisione integrale del corpus dichiarata.",
+  "status": "Verifica dei contenuti preliminare; composizione grafica da controllare separatamente."
+}

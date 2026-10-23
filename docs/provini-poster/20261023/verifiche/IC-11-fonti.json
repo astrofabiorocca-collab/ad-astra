@@ -1,0 +1,51 @@
+{
+  "poster": "IC-11",
+  "date": "2026-10-23",
+  "resources": [
+    {
+      "title": "NASA Science — Skywatching FAQ",
+      "url": "https://science.nasa.gov/skywatching/faq/",
+      "used": "Scelta di luogo, data e ora in un planetario per sapere che cosa è visibile. Non riprese le approssimazioni sulle dimensioni della mano come misure esatte o i periodi lunari altrove nella pagina."
+    },
+    {
+      "title": "INAF Arcetri — Mappe del cielo",
+      "url": "https://www.arcetri.inaf.it/articoli/uncategorised/mappe-del-cielo",
+      "used": "Modulo e indicazioni letti: dati geografici e temporali, ora legale distinta. La convenzione Est negativo del vecchio modulo non è trasferita al calcolo Astronomy Engine, che usa Est positivo. Non affermato che il servizio sia stato eseguito."
+    },
+    {
+      "title": "Sky & Telescope — How to Use a Star Chart at the Telescope",
+      "url": "https://skyandtelescope.org/astronomy-resources/using-a-map-at-the-telescope/",
+      "access": "Letti i paragrafi East on a star chart e confronto orientamento/specchiatura restituiti dall’indice di ricerca. Apertura diretta in timeout; non esaminati tutti i diagrammi.",
+      "used": "Differenza tra guardare il terreno e guardare il cielo; non confondere rotazione con inversione speculare. Non generalizzata la parità degli specchi a strumenti con prismi o configurazioni ulteriori."
+    },
+    {
+      "title": "IAU — The Constellations, archivio ESO",
+      "url": "https://iauarchive.eso.org/public/themes/constellations/",
+      "access": "Testo delle sezioni Constellation Figures e Charts and tables recuperato dalla ricerca. Apertura diretta in errore502; nessuna tavola scaricata o riprodotta.",
+      "used": "Costellazioni come aree definite, linee come convenzioni; atlanti J2000 distinti da carte dell’orizzonte locale."
+    },
+    {
+      "title": "NASA/JPL — Horizons, azimuth and elevation",
+      "url": "https://ssd.jpl.nasa.gov/horizons/manual.html",
+      "locator": "sezione4 AZ–EL già letta in questa revisione",
+      "used": "Azimut nord-est-sud-ovest e coordinate locali; da questa definizione deriva la proiezione nativa verso il cielo."
+    },
+    {
+      "title": "Fabio Rocca — Prima dell’oculare",
+      "file": "banca-didattica-personale/documenti/testi/fabio-uai-impariamo-cielo.txt",
+      "locator": "passaggio su riferimenti terrestri, carte, luogo e ora letto dalla copia locale",
+      "used": "Metodo graduale a partire da poche stelle, confronto con carta e condizioni dell’osservatore."
+    }
+  ],
+  "bank_comparison": "La ricerca generica IC-11-banca.json restituiva soprattutto schede bibliografiche e pagine non pertinenti: non contate come letture. AAVSO Manual2013: disponibile solo passaggio nella ricerca e apertura diretta non accessibile; non contato tra le sei risorse. Link IAU vecchio404: usato l’archivio ufficiale individuato dalla ricerca.",
+  "geometry": "Catalogo stellare del sito letto senza modifiche. J2000→equatore della data→azimut/altezza il15agosto2026 ore20UTC (22CEST) per Roma. Formula trigonometrica indipendente confrontata numericamente con AstronomyEngine per ogni stella. Proiezione azimutale equidistante: x=-r sinA,y=r cosA; Nalto, Esinistra, Odestra, Sbasso. Magnitudine limite4.6, senza rifrazione/moti propri.",
+  "checks": [
+    "Triangolo estivo con Vega, Deneb e Altair sopra35gradi",
+    "Corrispondenza UTC20 e CEST22 in agosto",
+    "Raggio0 allo zenit e raggio massimo all’orizzonte",
+    "Tutti i simboli stellari sopra l’orizzonte",
+    "Nessun pianeta o Luna inventati",
+    "Carta di esempio non presentata come cielo attuale"
+  ],
+  "status": "Provino privato renderizzato e controllato visivamente; da valutare, fuori dalle gallerie approvate"
+}

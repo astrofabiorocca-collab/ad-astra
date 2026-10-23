@@ -1,0 +1,52 @@
+{
+  "poster": "IC-10",
+  "date": "2026-10-23",
+  "resources": [
+    {
+      "title": "NASA — Basics of Space Flight, Chapter 2",
+      "url": "https://science.nasa.gov/learn/basics-of-space-flight/chapter2-2/",
+      "used": "Sezione AZ–EL letta: nord geografico, est90, altezza angolare, zenit e difficoltà di inseguimento allo zenit. Non ripresa l’affermazione universale sul tipo di tutti i nuovi radiotelescopi."
+    },
+    {
+      "title": "NASA/JPL — Horizons manual, Apparent azimuth and elevation",
+      "url": "https://ssd.jpl.nasa.gov/horizons/manual.html",
+      "locator": "sezione4 AZ–EL",
+      "used": "Convenzione N→E→S→O, coordinate topocentriche; rifrazione opzionale distinta dal modello geometrico senza atmosfera. Non è stato richiesto un calcolo di effemeridi per questo poster."
+    },
+    {
+      "title": "INAF Torino — Lattanzi e Pannunzio, Lezioni di astronomia fondamentale",
+      "url": "https://www.oato.inaf.it/biblioteca/pdf/TechRep078_Lattanzi.pdf",
+      "locator": "pagine PDF15–16, copia locale letta",
+      "used": "Orizzonte, cerchio verticale, A da nord verso est e h. Non copiata la generalizzazione sulla culminazione massima a ogni attraversamento del meridiano; le convenzioni Sud/Nord sono distinte."
+    },
+    {
+      "title": "SAIt — Bignamino di astronomia 2022",
+      "url": "https://www.sait.it/sites/sait.interlandia.net/files/pictures/notizie/2022/Bignamino_astronomia_2022.pdf",
+      "locator": "pagine PDF34–35, stampate33–34",
+      "used": "Verticale, zenit, nadir e altezza positiva/negativa. La convenzione da Sud del documento non è stata mescolata con quella da Nord usata in AD ASTRA."
+    },
+    {
+      "title": "Treccani — Coordinate astronomiche",
+      "url": "https://static.treccani.it/export/sites/default/Portale/resources/multimedia/Lezioni_Astrofisica/Coordinate/Lezione.pdf",
+      "locator": "pagina3, copia locale letta",
+      "used": "Sistema locale, altezza e distanza zenitale; riferimenti all’azimut da Sud confrontati ma non copiati come se fossero da Nord."
+    },
+    {
+      "title": "Fabio Rocca — Impariamo il cielo, Prima dell’oculare",
+      "file": "banca-didattica-personale/documenti/testi/fabio-uai-impariamo-cielo.txt",
+      "locator": "passaggio orizzonte/zenit/azimut letto integralmente",
+      "used": "Percorso osservativo, doppia informazione direzione/altezza, distinzione tra separazione angolare e distanza fisica."
+    }
+  ],
+  "access_limits": "Swinburne e USNO consultati tramite risultati di ricerca ma accesso diretto in timeout: non contati tra le sei risorse sopra. Il risultato Pacucci parla dell’ombra come azimut del Sole senza esplicitare l’opposizione di180gradi: non usato. Mete include l’erroneo parallelismo AR/Dec: escluso.",
+  "changes": "Conservata una porzione della scena editoriale originale C01 nella nuova impaginazione; sostituiti i diagrammi generati con geometria nativa da vettori Est-Nord-Zenit, A70 e h40. Nessun disegno di una costellazione usato come carta quantitativa.",
+  "checks": [
+    "N0,E90,S180,O270",
+    "Archi con lo stesso osservatore come centro",
+    "Altezza lungo cerchio verticale, non dal tetto",
+    "Recupero numerico A70 h40 dal vettore unitario",
+    "Zenit con azimut indefinito",
+    "Testo e logo originali composti nativamente"
+  ],
+  "status": "Provino privato renderizzato e controllato visivamente; da valutare, fuori dalle gallerie approvate"
+}

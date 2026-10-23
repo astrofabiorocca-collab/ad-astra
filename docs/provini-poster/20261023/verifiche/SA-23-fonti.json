@@ -1,0 +1,44 @@
+{
+  "poster": "SA-23",
+  "date": "2026-10-23",
+  "resources": [
+    {
+      "title": "Siril — Stacking",
+      "url": "https://siril.readthedocs.io/en/stable/preprocessing/stacking.html",
+      "used": "Media/somma; SNRproporzionale√N con ipotesi di indipendenza."
+    },
+    {
+      "title": "Siril — Registration",
+      "url": "https://siril.readthedocs.io/en/stable/preprocessing/registration.html",
+      "used": "Riconoscimento stelle, trasformazioni geometriche e ricampionamento prima di integrare."
+    },
+    {
+      "title": "Siril — FAQ",
+      "url": "https://siril.org/faq/",
+      "used": "Walkingnoise, dithering e controllo qualità. Nessuna promessa che più pose risolvano tutti i difetti."
+    },
+    {
+      "title": "Siril — Signal to noise ratio",
+      "url": "https://siril.org/tutorials/signal-to-noise/",
+      "used": "Fotoni casuali e readnoise. Formulazione thermalphotons non copiata: corrente di buio genera elettroni termicamente."
+    },
+    {
+      "title": "Siril — Noise Reduction",
+      "url": "https://siril.readthedocs.io/en/latest/processing/denoising.html",
+      "used": "Rumore Poisson e componente indipendente. Versionelatest diversa dalla stabile: usati principi, non comandi versionati."
+    },
+    {
+      "title": "Siril — sito ufficiale",
+      "url": "https://siril.org/",
+      "used": "Ordine calibrazione, registrazione, stacking ed elaborazione; non copiata interfaccia né fotografia."
+    }
+  ],
+  "checks": [
+    "Sei pagine della stessa documentazione, non sei fonti indipendenti.",
+    "Modello ideale: immagini equivalenti, rumore indipendente, stessa scala di visualizzazione. N1/4/16 danno SNR1/2/4 relativo.",
+    "Duplicare una posa non aumenta SNR; rumore correlato, gradienti e saturazione richiedono interventi specifici.",
+    "Non promettere risoluzione crescente con√N; non equiparare arbitrariamente molte pose cortissime a una lunga."
+  ],
+  "independence": "Sei risorse non equivalgono a sei enti indipendenti. Passaggi pertinenti consultati; nessuna revisione integrale del corpus dichiarata.",
+  "status": "Verifica dei contenuti preliminare; composizione grafica da controllare separatamente."
+}

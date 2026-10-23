@@ -1,23 +1,23 @@
 {
   "date": "2026-10-23",
-  "scope": "26 edizioni approvate; restanti tavole ancora da revisionare",
+  "scope": "34 edizioni autorizzate e revisionate; restanti tavole ancora da revisionare",
   "print_masters": false,
   "counts": {
     "imparare": {
       "available": 26,
-      "updated": 14
+      "updated": 19
     },
     "universo": {
       "available": 23,
-      "updated": 4
-    },
-    "sistema-solare": {
-      "available": 23,
       "updated": 5
     },
+    "sistema-solare": {
+      "available": 24,
+      "updated": 6
+    },
     "strumenti": {
-      "available": 22,
-      "updated": 3
+      "available": 23,
+      "updated": 4
     }
   },
   "posters": [
@@ -338,6 +338,201 @@
       "sha256": "81826b2da84ca860a5c257e5468e30b295476d9e856c0e4f4ab0ff4e7b1baf46"
     },
     {
+      "id": "IC-09",
+      "area": "imparare",
+      "title": "Le stelle circumpolari",
+      "replaces": [
+        "tavola-8"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/IC-09.png",
+      "pdf": "assets/poster/revisioni-20261023/IC-09.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/IC-09.webp",
+      "sources": [
+        {
+          "title": "IAU OAE — Circumpolar Stars",
+          "url": "https://www.astro4edu.org/resources/glossary/term/56/",
+          "used": "Definizione, dipendenza da latitudine e declinazione, segni nell’emisfero sud. Letto il corpo della definizione, non usate le immagini correlate o le loro didascalie come fonte per altri temi."
+        },
+        {
+          "title": "NASA Science — What is the North Star and How Do You Find It?",
+          "url": "https://science.nasa.gov/solar-system/skywatching/what-is-the-north-star-and-how-do-you-find-it/",
+          "used": "Asse terrestre, polo celeste e moto apparente. Il giro di 24 ore della spiegazione divulgativa viene precisato come giorno siderale; Polaris non coincide esattamente con il polo."
+        },
+        {
+          "title": "University of Nebraska–Lincoln — Paths of the Stars",
+          "url": "https://astro.unl.edu/naap/motion2/starpaths.html",
+          "access": "Letti i paragrafi Rotation of the Sky e Circumpolar & Never-Rise Stars restituiti dall’indice di ricerca. Accesso diretto in timeout; nessuna animazione esaminata.",
+          "used": "Tre famiglie di percorsi e dipendenza dalla latitudine. Non ripresa la generalizzazione dell’angolo di levata rispetto all’orizzonte, che dipende anche dalla declinazione."
+        },
+        {
+          "title": "INAF Torino — Lattanzi e Pannunzio, Lezioni di astronomia fondamentale",
+          "url": "https://www.oato.inaf.it/biblioteca/pdf/TechRep078_Lattanzi.pdf",
+          "locator": "pagine PDF 18–19, copia locale letta",
+          "used": "Cerchi diurni, equatore, poli e limite boreale δ > 90° − φ. Le eccezioni dei poli celesti esattamente sull’orizzonte non sono trattate come normale levata e tramonto."
+        },
+        {
+          "title": "SAIt — Bignamino di astronomia 2022",
+          "url": "https://www.sait.it/sites/sait.interlandia.net/files/pictures/notizie/2022/Bignamino_astronomia_2022.pdf",
+          "locator": "pagine PDF 40–41 (numeri stampati 39–40)",
+          "used": "Altezza del polo e criteri di visibilità. Il caso di uguaglianza viene distinto dalla permanenza strettamente sopra l’orizzonte; non copiate le formule di distanza zenitale senza valore assoluto fuori dal loro contesto."
+        },
+        {
+          "title": "Treccani — Coordinate astronomiche",
+          "url": "https://static.treccani.it/export/sites/default/Portale/resources/multimedia/Lezioni_Astrofisica/Coordinate/Lezione.pdf",
+          "locator": "pagina 3, copia locale letta",
+          "used": "Definizioni di altezza, zenit e circumpolarità. Convenzioni azimutali Sud/Nord distinte; non ripresa alla lettera l’affermazione tutte le stelle circumpolari ai poli senza delimitare l’emisfero visibile."
+        }
+      ],
+      "sha256": "084c18ad081e2bb33d68cf66181ef9590a1daa113de6e9f24fd0cbf050a570b8"
+    },
+    {
+      "id": "IC-10",
+      "area": "imparare",
+      "title": "Dove guardo? Altezza e azimut",
+      "replaces": [
+        "C01"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/IC-10.png",
+      "pdf": "assets/poster/revisioni-20261023/IC-10.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/IC-10.webp",
+      "sources": [
+        {
+          "title": "NASA — Basics of Space Flight, Chapter 2",
+          "url": "https://science.nasa.gov/learn/basics-of-space-flight/chapter2-2/",
+          "used": "Sezione AZ–EL letta: nord geografico, est90, altezza angolare, zenit e difficoltà di inseguimento allo zenit. Non ripresa l’affermazione universale sul tipo di tutti i nuovi radiotelescopi."
+        },
+        {
+          "title": "NASA/JPL — Horizons manual, Apparent azimuth and elevation",
+          "url": "https://ssd.jpl.nasa.gov/horizons/manual.html",
+          "locator": "sezione4 AZ–EL",
+          "used": "Convenzione N→E→S→O, coordinate topocentriche; rifrazione opzionale distinta dal modello geometrico senza atmosfera. Non è stato richiesto un calcolo di effemeridi per questo poster."
+        },
+        {
+          "title": "INAF Torino — Lattanzi e Pannunzio, Lezioni di astronomia fondamentale",
+          "url": "https://www.oato.inaf.it/biblioteca/pdf/TechRep078_Lattanzi.pdf",
+          "locator": "pagine PDF15–16, copia locale letta",
+          "used": "Orizzonte, cerchio verticale, A da nord verso est e h. Non copiata la generalizzazione sulla culminazione massima a ogni attraversamento del meridiano; le convenzioni Sud/Nord sono distinte."
+        },
+        {
+          "title": "SAIt — Bignamino di astronomia 2022",
+          "url": "https://www.sait.it/sites/sait.interlandia.net/files/pictures/notizie/2022/Bignamino_astronomia_2022.pdf",
+          "locator": "pagine PDF34–35, stampate33–34",
+          "used": "Verticale, zenit, nadir e altezza positiva/negativa. La convenzione da Sud del documento non è stata mescolata con quella da Nord usata in AD ASTRA."
+        },
+        {
+          "title": "Treccani — Coordinate astronomiche",
+          "url": "https://static.treccani.it/export/sites/default/Portale/resources/multimedia/Lezioni_Astrofisica/Coordinate/Lezione.pdf",
+          "locator": "pagina3, copia locale letta",
+          "used": "Sistema locale, altezza e distanza zenitale; riferimenti all’azimut da Sud confrontati ma non copiati come se fossero da Nord."
+        },
+        {
+          "title": "Fabio Rocca — Impariamo il cielo, Prima dell’oculare",
+          "file": "banca-didattica-personale/documenti/testi/fabio-uai-impariamo-cielo.txt",
+          "locator": "passaggio orizzonte/zenit/azimut letto integralmente",
+          "used": "Percorso osservativo, doppia informazione direzione/altezza, distinzione tra separazione angolare e distanza fisica."
+        }
+      ],
+      "sha256": "82a54d2ea3f24ed8e8d232ab2db2e2dfd7e9978854df82b4538a04bb295bc1dc"
+    },
+    {
+      "id": "IC-11",
+      "area": "imparare",
+      "title": "Orientare una mappa del cielo",
+      "replaces": [
+        "tavola-11"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/IC-11.png",
+      "pdf": "assets/poster/revisioni-20261023/IC-11.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/IC-11.webp",
+      "sources": [
+        {
+          "title": "NASA Science — Skywatching FAQ",
+          "url": "https://science.nasa.gov/skywatching/faq/",
+          "used": "Scelta di luogo, data e ora in un planetario per sapere che cosa è visibile. Non riprese le approssimazioni sulle dimensioni della mano come misure esatte o i periodi lunari altrove nella pagina."
+        },
+        {
+          "title": "INAF Arcetri — Mappe del cielo",
+          "url": "https://www.arcetri.inaf.it/articoli/uncategorised/mappe-del-cielo",
+          "used": "Modulo e indicazioni letti: dati geografici e temporali, ora legale distinta. La convenzione Est negativo del vecchio modulo non è trasferita al calcolo Astronomy Engine, che usa Est positivo. Non affermato che il servizio sia stato eseguito."
+        },
+        {
+          "title": "Sky & Telescope — How to Use a Star Chart at the Telescope",
+          "url": "https://skyandtelescope.org/astronomy-resources/using-a-map-at-the-telescope/",
+          "access": "Letti i paragrafi East on a star chart e confronto orientamento/specchiatura restituiti dall’indice di ricerca. Apertura diretta in timeout; non esaminati tutti i diagrammi.",
+          "used": "Differenza tra guardare il terreno e guardare il cielo; non confondere rotazione con inversione speculare. Non generalizzata la parità degli specchi a strumenti con prismi o configurazioni ulteriori."
+        },
+        {
+          "title": "IAU — The Constellations, archivio ESO",
+          "url": "https://iauarchive.eso.org/public/themes/constellations/",
+          "access": "Testo delle sezioni Constellation Figures e Charts and tables recuperato dalla ricerca. Apertura diretta in errore502; nessuna tavola scaricata o riprodotta.",
+          "used": "Costellazioni come aree definite, linee come convenzioni; atlanti J2000 distinti da carte dell’orizzonte locale."
+        },
+        {
+          "title": "NASA/JPL — Horizons, azimuth and elevation",
+          "url": "https://ssd.jpl.nasa.gov/horizons/manual.html",
+          "locator": "sezione4 AZ–EL già letta in questa revisione",
+          "used": "Azimut nord-est-sud-ovest e coordinate locali; da questa definizione deriva la proiezione nativa verso il cielo."
+        },
+        {
+          "title": "Fabio Rocca — Prima dell’oculare",
+          "file": "banca-didattica-personale/documenti/testi/fabio-uai-impariamo-cielo.txt",
+          "locator": "passaggio su riferimenti terrestri, carte, luogo e ora letto dalla copia locale",
+          "used": "Metodo graduale a partire da poche stelle, confronto con carta e condizioni dell’osservatore."
+        }
+      ],
+      "sha256": "69416bbbf4186b79718ebea2a15f9f8a53a76a88188bc91b2e22449869e40236"
+    },
+    {
+      "id": "IC-12",
+      "area": "imparare",
+      "title": "Il cielo girevole di cartone",
+      "replaces": [
+        "tavola-7"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/IC-12.png",
+      "pdf": "assets/poster/revisioni-20261023/IC-12.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/IC-12.webp",
+      "sources": [
+        {
+          "title": "Gruppo Astrofili Polesani — Costruzione di un astrolabio",
+          "url": "https://www.astrofilipolesani.it/costruzione-di-un-astrolabio/",
+          "used": "Letti materiali, costruzione e uso. Scaricati entrambi i PDF pubblici, HTTP200, una pagina ciascuno; custodia esaminata visivamente, indica45N. Non copiate le immagini nel poster. Credito dei PDF: Dominic Ford / in-the-sky.org; il riferimento è alla fonte originale ospitata dal gruppo."
+        },
+        {
+          "title": "EduINAF — Costruiamo un astrolabio, Alessandra Zanazzi",
+          "url": "https://edu.inaf.it/astrodidattica/costruzione-astrolabio/",
+          "used": "Materiali, taschina, supporto, fermacampione e doppia scala oraria. Due PDF a colori scaricati, HTTP200, una pagina ciascuno, renderizzati ed esaminati. La latitudine35–40N indicata nell’articolo non viene estesa a tutta Italia; esclusa la frase sul nessun valore scientifico delle costellazioni. Non riprodotte le dime o le immagini di terzi."
+        },
+        {
+          "title": "EduINAF — Regali astronomici: astrolabio, Stefano Cidone",
+          "url": "https://edu.inaf.it/rubriche/astronomo-risponde/regali-astronomici-astrolabio/",
+          "used": "Allineare data e ora, orientare lo strumento e aggiornare la rotazione durante l’osservazione. Ora solare intesa come ora standard della scala del modello, non automaticamente tempo solare vero. Non generalizzata la finestra del dispositivo fotografato a ogni planisfero."
+        },
+        {
+          "title": "UAI — Apprendista Astrofilo, un astrolabio da costruire con carta e forbici",
+          "url": "https://divulgazione.uai.it/index.php/Apprendista_Astrofilo_Documenti",
+          "locator": "Sezione del progetto Toshimi Taki, non tutto l’atlante",
+          "used": "Due parti, differenti custodie per latitudine, stessa proporzione di stampa e umidità. Modello a doppio orizzonte distinto dagli altri. Non asserito che il sito di Taki sia stato consultato: il collegamento non ha restituito un corpo leggibile."
+        },
+        {
+          "title": "Museo Galileo — L’astrolabio, testi completi",
+          "url": "https://brunelleschi.imss.fi.it/esplora/astrolabio/dswmedia/risorse/testi_completi_ITA.pdf",
+          "locator": "pagine PDF3 e6–7",
+          "used": "Distinzione storica fra astrolabio piano con madre, timpano, rete e alidada e moderno planisfero girevole. Non attribuita con certezza l’invenzione a Ipparco: la fonte usa attribuzione ad alcuni storici. Nessuna immagine riprodotta."
+        },
+        {
+          "title": "Sky & Telescope / AAS — How to Make a Star Wheel the Simple Way",
+          "url": "https://skyandtelescope.org/astronomy-resources/make-a-star-wheel/",
+          "used": "Parti da stampare, ora standard/legale, orientamento e assenza di Luna/pianeti. Non riprese le generalizzazioni tutte le stelle a nord non tramontano e oggetto non sulla carta uguale pianeta; il tramonto del Sole non identifica sempre l’ovest esatto. Carta2007 per principi costruttivi, non per effemeridi attuali."
+        }
+      ],
+      "sha256": "c272aa4a052c988cd0ba324cec7a0d2d0067694f88fd81aa8210ce5b44c57f1c"
+    },
+    {
       "id": "IC-18",
       "area": "imparare",
       "title": "Le stelle si spostano sopra il tetto?",
@@ -379,6 +574,56 @@
         }
       ],
       "sha256": "febccf980033f60c5f311a9e9e417f080f71c569294bf7b9bcb237e9ba6f634a"
+    },
+    {
+      "id": "IC-19",
+      "area": "imparare",
+      "title": "Un indirizzo sulla sfera celeste",
+      "replaces": [
+        "C02"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/IC-19.png",
+      "pdf": "assets/poster/revisioni-20261023/IC-19.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/IC-19.webp",
+      "sources": [
+        {
+          "title": "NASA — Basics of Space Flight, Chapter2 Reference Systems",
+          "url": "https://science.nasa.gov/learn/basics-of-space-flight/chapter2-2/",
+          "used": "Sezioni RA/DEC e ICRS lette. Coordinate classiche basate sull’equinozio distinte da ICRS; nessuna cronaca o immagine NASA copiata."
+        },
+        {
+          "title": "SAIt — Bignamino di astronomia 2022",
+          "url": "https://www.sait.it/sites/sait.interlandia.net/files/pictures/notizie/2022/Bignamino_astronomia_2022.pdf",
+          "locator": "paginaPDF36, stampata35",
+          "used": "Ascensione retta0–24h, declinazione con segno, punto gamma. La costanza giornaliera è didattica per stelle di catalogo, non un enunciato assoluto per pianeti o coordinate apparenti."
+        },
+        {
+          "title": "INAF Torino — Lattanzi e Pannunzio, Lezioni di astronomia fondamentale",
+          "url": "https://www.oato.inaf.it/biblioteca/pdf/TechRep078_Lattanzi.pdf",
+          "locator": "paginaPDF33",
+          "used": "AR da punto gamma verso est e Dec rispetto all’equatore. Ore di AR trattate come unità angolare, non durata del viaggio o identità con24ore civili."
+        },
+        {
+          "title": "Treccani — Coordinate astronomiche",
+          "url": "https://static.treccani.it/export/sites/default/Portale/resources/multimedia/Lezioni_Astrofisica/Coordinate/Lezione.pdf",
+          "locator": "pagine4–5, copia locale letta",
+          "used": "Distinzione angolo orario/AR, precessione e riferimento d’epoca. Non ripreso come previsione precisa il periodo del ritorno del polo aVega, né l’uso assoluto di immutabilità della declinazione."
+        },
+        {
+          "title": "Treccani — Coordinate celesti",
+          "url": "https://www.treccani.it/enciclopedia/coordinate-celesti/",
+          "locator": "corpo editoriale archiviato nella banca, letto",
+          "used": "Cerchio base, origine e archi ortogonali; equatore come cerchio della sfera, non sfera esso stesso."
+        },
+        {
+          "title": "Fabio Pacucci — Astronomia in rete",
+          "url": "https://www.fabiopacucci.com/wp-content/uploads/2018/09/astronomia_in_rete.pdf",
+          "locator": "paginePDF12–13, copia locale letta",
+          "used": "Sistema equatoriale e scala angolare. Non copiata l’identificazione della rotazione terrestre rispetto alle stelle con360gradi in24ore di tempo medio. Obliquità storica non trasferita come valore aggiornato."
+        }
+      ],
+      "sha256": "338f264e768451b7e6109f33bd9eb4e30384c40311c637a711dee3cb6ad8c4e4"
     },
     {
       "id": "IC-20",
@@ -692,6 +937,51 @@
       "sha256": "46d42fbfe1f169cdeaa4c30d7ac25b1e90e8cff2ddd1498273261f041fe0d0f9"
     },
     {
+      "id": "UN-05",
+      "area": "universo",
+      "title": "La distanza con la parallasse",
+      "replaces": [
+        "U02"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/UN-05.png",
+      "pdf": "assets/poster/revisioni-20261023/UN-05.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/UN-05.webp",
+      "sources": [
+        {
+          "title": "ESA — Parallax",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/Gaia/Parallax",
+          "used": "Spostamento apparente e osservazioni distanziate sei mesi. Non riprendere «nearest star» senza escludere il Sole."
+        },
+        {
+          "title": "ESA — Cosmic distances",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/Gaia/Cosmic_distances",
+          "used": "Parsec circa3,26 anni luce; secondi d’arco come angoli."
+        },
+        {
+          "title": "NASA — Hubble Glossary",
+          "url": "https://science.nasa.gov/mission/hubble/multimedia/hubble-glossary/",
+          "used": "Definizione di parallasse e conversione parsec."
+        },
+        {
+          "title": "SAIt — Bignamino2022",
+          "url": "https://www.sait.it/sites/sait.interlandia.net/files/pictures/notizie/2022/Bignamino_astronomia_2022.pdf",
+          "used": "Banca paginaPDF32: base1UA e dpc=1/p. Precisare metà escursione rispetto alla base2UA."
+        },
+        {
+          "title": "INAF Torino — Lattanzi e Pannunzio",
+          "url": "https://www.oato.inaf.it/biblioteca/pdf/TechRep078_Lattanzi.pdf",
+          "used": "Banca pagina230: ellisse di parallasse, semiasse maggiorep; non spostamento sempre rettilineo2p."
+        },
+        {
+          "title": "Università del Nebraska — Parallax",
+          "url": "https://astro.unl.edu/naap/distance/parallax.html",
+          "used": "Testo pubblico: base2UA fra osservazioni, definizione1UA e1arcsec. Cronologia Gaia obsoleta esclusa."
+        }
+      ],
+      "sha256": "44c3e2bfd0d39e6a27121d0107e592913bca7a472274239a6265f16f01890bfd"
+    },
+    {
       "id": "UN-09",
       "area": "universo",
       "title": "Leggere il diagramma H–R",
@@ -971,6 +1261,49 @@
       "sha256": "cd35507935d72f6bbc8863534ff9d962173e2d6c73586d585f812b36149ff98f"
     },
     {
+      "id": "SS-14",
+      "area": "sistema-solare",
+      "title": "L’orbita della Luna e la stessa faccia",
+      "replaces": [],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/SS-14.png",
+      "pdf": "assets/poster/revisioni-20261023/SS-14.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/SS-14.webp",
+      "sources": [
+        {
+          "title": "NASA — Moon Phases",
+          "url": "https://science.nasa.gov/moon/moon-phases/",
+          "used": "Distinzione27,322giorni e29,5; librazione e velocità orbitale variabile."
+        },
+        {
+          "title": "NASA — Orbit and Rotation",
+          "url": "https://moon.nasa.gov/resources/429/the-moons-orbit-and-rotation/",
+          "used": "Letto testo introduttivo, non visionata animazione: rotazione sincrona, non assenza di rotazione."
+        },
+        {
+          "title": "NASA — Top Moon Questions",
+          "url": "https://science.nasa.gov/moon/top-moon-questions/",
+          "used": "Sezioni rotazione e orbita:27,3siderale e29,5sinodico."
+        },
+        {
+          "title": "NASA — Moon Facts",
+          "url": "https://science.nasa.gov/moon/facts/",
+          "used": "Faccia lontana non perennemente buia. «Earth and Moon tidally locked» troppo ambiguo: NON dire che la Terra mostri sempre lo stesso emisfero alla Luna."
+        },
+        {
+          "title": "EduINAF — I quattro moti della Luna",
+          "url": "https://edu.inaf.it/rubriche/astronomo-risponde/domanda-moti-luna/",
+          "used": "Passaggi27g7h43min e librazione; media sincronia non identica velocità orbitale istantanea."
+        },
+        {
+          "title": "NASA NSSDCA — Moon Fact Sheet",
+          "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html",
+          "used": "27,3217giorni siderali,29,53sinodici;655,720ore rotazione."
+        }
+      ],
+      "sha256": "ffdbcb92297c95be2fb688a1bd06e19685bec2884d7cd9a9d4b77ca683b09964"
+    },
+    {
       "id": "SS-18",
       "area": "sistema-solare",
       "title": "L’eclissi di Luna",
@@ -1191,6 +1524,49 @@
         }
       ],
       "sha256": "71a9a0bd34e72111e728f8c558d97bd5e1692227c85fa7a7242d65dfe3f111ee"
+    },
+    {
+      "id": "SA-23",
+      "area": "strumenti",
+      "title": "Integrare ed elaborare senza inventare",
+      "replaces": [],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/SA-23.png",
+      "pdf": "assets/poster/revisioni-20261023/SA-23.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/SA-23.webp",
+      "sources": [
+        {
+          "title": "Siril — Stacking",
+          "url": "https://siril.readthedocs.io/en/stable/preprocessing/stacking.html",
+          "used": "Media/somma; SNRproporzionale√N con ipotesi di indipendenza."
+        },
+        {
+          "title": "Siril — Registration",
+          "url": "https://siril.readthedocs.io/en/stable/preprocessing/registration.html",
+          "used": "Riconoscimento stelle, trasformazioni geometriche e ricampionamento prima di integrare."
+        },
+        {
+          "title": "Siril — FAQ",
+          "url": "https://siril.org/faq/",
+          "used": "Walkingnoise, dithering e controllo qualità. Nessuna promessa che più pose risolvano tutti i difetti."
+        },
+        {
+          "title": "Siril — Signal to noise ratio",
+          "url": "https://siril.org/tutorials/signal-to-noise/",
+          "used": "Fotoni casuali e readnoise. Formulazione thermalphotons non copiata: corrente di buio genera elettroni termicamente."
+        },
+        {
+          "title": "Siril — Noise Reduction",
+          "url": "https://siril.readthedocs.io/en/latest/processing/denoising.html",
+          "used": "Rumore Poisson e componente indipendente. Versionelatest diversa dalla stabile: usati principi, non comandi versionati."
+        },
+        {
+          "title": "Siril — sito ufficiale",
+          "url": "https://siril.org/",
+          "used": "Ordine calibrazione, registrazione, stacking ed elaborazione; non copiata interfaccia né fotografia."
+        }
+      ],
+      "sha256": "080fe5b534c87e403df50cb52ae79f71760ec9d468ab808c3158b636ce6e909d"
     }
   ]
 }

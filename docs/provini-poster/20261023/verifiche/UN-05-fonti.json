@@ -1,0 +1,43 @@
+{
+  "poster": "UN-05",
+  "date": "2026-10-23",
+  "resources": [
+    {
+      "title": "ESA — Parallax",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Gaia/Parallax",
+      "used": "Spostamento apparente e osservazioni distanziate sei mesi. Non riprendere «nearest star» senza escludere il Sole."
+    },
+    {
+      "title": "ESA — Cosmic distances",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Gaia/Cosmic_distances",
+      "used": "Parsec circa3,26 anni luce; secondi d’arco come angoli."
+    },
+    {
+      "title": "NASA — Hubble Glossary",
+      "url": "https://science.nasa.gov/mission/hubble/multimedia/hubble-glossary/",
+      "used": "Definizione di parallasse e conversione parsec."
+    },
+    {
+      "title": "SAIt — Bignamino2022",
+      "url": "https://www.sait.it/sites/sait.interlandia.net/files/pictures/notizie/2022/Bignamino_astronomia_2022.pdf",
+      "used": "Banca paginaPDF32: base1UA e dpc=1/p. Precisare metà escursione rispetto alla base2UA."
+    },
+    {
+      "title": "INAF Torino — Lattanzi e Pannunzio",
+      "url": "https://www.oato.inaf.it/biblioteca/pdf/TechRep078_Lattanzi.pdf",
+      "used": "Banca pagina230: ellisse di parallasse, semiasse maggiorep; non spostamento sempre rettilineo2p."
+    },
+    {
+      "title": "Università del Nebraska — Parallax",
+      "url": "https://astro.unl.edu/naap/distance/parallax.html",
+      "used": "Testo pubblico: base2UA fra osservazioni, definizione1UA e1arcsec. Cronologia Gaia obsoleta esclusa."
+    }
+  ],
+  "checks": [
+    "p0,1arcsec→10pc; p0,01→100pc.",
+    "Geometria bidimensionale favorevole e non in scala; spostamento totale circa2p, non p.",
+    "Non usare data Bessel1837 del testo Angeletti: prima misura1838. UA numerica vecchia esclusa."
+  ],
+  "independence": "Sei risorse non equivalgono a sei enti indipendenti. Passaggi pertinenti consultati; nessuna revisione integrale del corpus dichiarata.",
+  "status": "Verifica dei contenuti preliminare; composizione grafica da controllare separatamente."
+}
