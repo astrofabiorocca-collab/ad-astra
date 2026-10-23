@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "scope": "62 edizioni autorizzate e revisionate; restanti tavole ancora da revisionare",
+  "scope": "72 edizioni autorizzate e revisionate; restanti tavole ancora da revisionare",
   "print_masters": false,
   "counts": {
     "imparare": {
@@ -9,15 +9,15 @@
     },
     "universo": {
       "available": 23,
-      "updated": 12
+      "updated": 19
     },
     "sistema-solare": {
       "available": 24,
-      "updated": 17
+      "updated": 18
     },
     "strumenti": {
       "available": 23,
-      "updated": 14
+      "updated": 16
     }
   },
   "posters": [
@@ -1117,6 +1117,52 @@
       "sha256": "44c3e2bfd0d39e6a27121d0107e592913bca7a472274239a6265f16f01890bfd"
     },
     {
+      "id": "UN-06",
+      "area": "universo",
+      "title": "Brillantezza, luminosità e magnitudine",
+      "replaces": [
+        "U03",
+        "tavola-4_4"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/UN-06.png",
+      "pdf": "assets/poster/revisioni-20261023/UN-06.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/UN-06.webp",
+      "sources": [
+        {
+          "title": "SAIt — Bignamino, PDF p.133",
+          "url": "https://www.sait.it/sites/sait.interlandia.net/files/pictures/notizie/2022/Bignamino_astronomia_2022.pdf",
+          "used": "Magnitudini logaritmiche; i flussi si sommano, non i valori delle magnitudini."
+        },
+        {
+          "title": "INAF Torino — Lattanzi, PDF p.172",
+          "url": "https://www.oato.inaf.it/biblioteca/pdf/TechRep078_Lattanzi.pdf",
+          "used": "Stessa magnitudine apparente compatibile con diverse distanze e magnitudini assolute."
+        },
+        {
+          "title": "Monaci — Corso di astronomia, PDF p.78",
+          "url": "",
+          "used": "Copia personale: magnitudine assoluta stellare riferita a10pc. Non riprodotta convenzione invertita M−m per il modulo di distanza."
+        },
+        {
+          "title": "NASA — Inverse Square Law of Light",
+          "url": "https://www.nasa.gov/stem-content/the-inverse-square-law-of-light/",
+          "used": "Dipendenza del flusso dall’inverso del quadrato della distanza."
+        },
+        {
+          "title": "ESO — Toolkit, Magnitudes",
+          "url": "https://www.eso.org/public/archives/education/pdf/edu_0066.pdf",
+          "used": "Scala di Pogson, rapporto100 per cinque magnitudini e banda osservativa."
+        },
+        {
+          "title": "Swinburne COSMOS — Absolute Magnitude",
+          "url": "https://astronomy.swin.edu.au/cosmos/a/Absolute%2BMagnitude",
+          "used": "Magnitudine assoluta nella banda visibile, distinta dalla luminosità bolometrica."
+        }
+      ],
+      "sha256": "bbaced6cdc0acde6151bd10327602ada1fc0e57f0bed1c4bfa61a75b9c52f093"
+    },
+    {
       "id": "UN-07",
       "area": "universo",
       "title": "Dalla nube alla protostella",
@@ -1343,6 +1389,96 @@
       "sha256": "2abdc5d6c6ee34e176a0f671a0e3fe1463fc6ef3098da2ba28beb7b9f9ff5a4a"
     },
     {
+      "id": "UN-13",
+      "area": "universo",
+      "title": "Gli ammassi stellari",
+      "replaces": [
+        "tavola-21"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/UN-13.png",
+      "pdf": "assets/poster/revisioni-20261023/UN-13.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/UN-13.webp",
+      "sources": [
+        {
+          "title": "NASA/Hubble — Star Clusters",
+          "url": "https://science.nasa.gov/mission/hubble/science/universe-uncovered/hubble-star-clusters/",
+          "used": "Aperti e globulari, densità e collocazione; esclusa equivalenza stelle blu centrali=giovani nei globulari."
+        },
+        {
+          "title": "NASA — Stellar Collections",
+          "url": "https://science.nasa.gov/universe/star-clusters-inside-the-universes-stellar-collections/",
+          "used": "Popolazioni multiple e ampia varietà di età. Escluso il refuso che confonde corona di un ammasso con atmosfera stellare."
+        },
+        {
+          "title": "ESA/Hubble — Open Cluster",
+          "url": "https://esahubble.org/wordbank/open-cluster/",
+          "used": "Esistono ammassi aperti giovani e antichi; molti si disperdono. Non usato il conteggio totale datato."
+        },
+        {
+          "title": "NASA/Hubble — Globular M80, PDF p.2",
+          "url": "https://science.nasa.gov/wp-content/uploads/2023/07/hubble-litho-globular-m80.pdf",
+          "used": "Distinzione ammassi/costellazioni e studio dell’evoluzione. Composizione identica non assolutizzata."
+        },
+        {
+          "title": "NASA — Hubble Star Clusters gallery",
+          "url": "https://science.nasa.gov/gallery/hubbles-star-clusters/",
+          "used": "Confronto dei casi: presenti anche globulari giovani extragalattici; non tutti i globulari universalmente antichi."
+        },
+        {
+          "title": "Gasparri — Vent’anni sotto il cielo stellato, PDF p.161",
+          "url": "",
+          "used": "Passaggio della copia personale: ammassi e osservazione. Corrette le generalizzazioni su formazione simultanea e sola collocazione nell’alone."
+        }
+      ],
+      "sha256": "06a11668957fd3cef153cc2e74a509b9a3b1d659601357dfa75d7c3cf0c5fb60"
+    },
+    {
+      "id": "UN-14",
+      "area": "universo",
+      "title": "Le nebulose",
+      "replaces": [
+        "tavola-22"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/UN-14.png",
+      "pdf": "assets/poster/revisioni-20261023/UN-14.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/UN-14.webp",
+      "sources": [
+        {
+          "title": "NASA/Hubble — Nebulae",
+          "url": "https://science.nasa.gov/mission/hubble/science/universe-uncovered/hubble-nebulae/",
+          "used": "Emissione, riflessione, planetarie; luce diffusa distinta dalla luce emessa dal gas."
+        },
+        {
+          "title": "NASA — Decoding Nebulae",
+          "url": "https://science.nasa.gov/universe/stories/quick-reads/decoding-nebulae/",
+          "used": "Meccanismi diversi, emissione e scattering; colori non universali."
+        },
+        {
+          "title": "ESA/Hubble — Nebula",
+          "url": "https://esahubble.org/wordbank/nebula/",
+          "used": "Gas e polveri, nascita e morte stellare. Non adottato assoluto infrarosso attraversa sempre senza ostacoli."
+        },
+        {
+          "title": "ESA/Hubble — Planetary Nebula",
+          "url": "https://esahubble.org/wordbank/planetary-nebula/",
+          "used": "Origine dagli strati esterni di stelle evolute e ionizzazione, nome non legato ai pianeti."
+        },
+        {
+          "title": "NASA — Reflection Nebulae",
+          "url": "https://www.nasa.gov/universe/nebulae/reflection-nebulae/",
+          "used": "Esempi e luce stellare diffusa dalle polveri."
+        },
+        {
+          "title": "Gasparri — Vent’anni sotto il cielo stellato, PDF p.161",
+          "url": "",
+          "used": "Copia personale: nebulose a emissione, planetarie e resti di supernova; confronto della funzione nel ciclo della materia."
+        }
+      ],
+      "sha256": "d819d615ae045b1b1ab089a1401c4c8dcfa4f9c6d46972a9ca6ca4b7b92bf519"
+    },
+    {
       "id": "UN-15",
       "area": "universo",
       "title": "Il riciclo della materia cosmica",
@@ -1385,6 +1521,51 @@
         }
       ],
       "sha256": "0b40ac316c93658ebdaaa0d0fc39fd9fbe74738bbf79b8914f5e151fa7973695"
+    },
+    {
+      "id": "UN-16",
+      "area": "universo",
+      "title": "La Via Lattea e il nostro posto",
+      "replaces": [
+        "tavola-17"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/UN-16.png",
+      "pdf": "assets/poster/revisioni-20261023/UN-16.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/UN-16.webp",
+      "sources": [
+        {
+          "title": "ESA/Gaia — Guide to our galaxy",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/Gaia/Guide_to_our_galaxy",
+          "used": "Disco, barra, bulge, aloni e gravità del buco nero nelle immediate vicinanze."
+        },
+        {
+          "title": "ESA/Gaia — Milky Way map, 2025",
+          "url": "https://www.cosmos.esa.int/web/gaia/milky-way",
+          "used": "Testo pubblico indicizzato consultato: modello aggiornato di barra e bracci, non fotografia esterna. Apertura diretta 451, nessun aggiramento."
+        },
+        {
+          "title": "NASA SVS — Milky Way Anatomy, 2025",
+          "url": "https://svs.gsfc.nasa.gov/14935/",
+          "used": "Ricostruzione delle componenti da osservazioni condotte dall’interno."
+        },
+        {
+          "title": "NASA/GSFC — The Milky Way",
+          "url": "https://imagine.gsfc.nasa.gov/features/cosmic/milkyway_info.html",
+          "used": "Non possiamo fotografare da fuori la struttura complessiva della nostra galassia."
+        },
+        {
+          "title": "NASA — Solar System Facts",
+          "url": "https://science.nasa.gov/solar-system/solar-system-facts/",
+          "used": "Braccio locale di Orione tra Sagittario e Perseo. Non adottato numero definitivo dei bracci."
+        },
+        {
+          "title": "Zanichelli — Universo e Sistema solare, PDF p.8",
+          "url": "https://staticmy.zanichelli.it/catalogo/assets/9788808357441_04_CAP.pdf",
+          "used": "Via Lattea osservata dall’interno come fascia. Escluse definizioni galassia=oltre200miliardi di stelle e tutte in rotazione su unico asse."
+        }
+      ],
+      "sha256": "95ff6bffd053f7a4ceac1e6be1123e429fc6a3f5f0b94d64ea66fd6cd2718725"
     },
     {
       "id": "UN-18",
@@ -1430,6 +1611,139 @@
         }
       ],
       "sha256": "1efee0a35156a3b31a97f5b983e677a970be12aa440d7aea4fec4d9d08db239b"
+    },
+    {
+      "id": "UN-20",
+      "area": "universo",
+      "title": "La gravità può fare da lente",
+      "replaces": [
+        "U09"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/UN-20.png",
+      "pdf": "assets/poster/revisioni-20261023/UN-20.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/UN-20.webp",
+      "sources": [
+        {
+          "title": "ESA/Hubble — Gravitational Lensing",
+          "url": "https://esahubble.org/wordbank/gravitational-lensing/",
+          "used": "Deviazione dei cammini luminosi, ingrandimento e immagini multiple."
+        },
+        {
+          "title": "ESA/Hubble — Abell 383",
+          "url": "https://esahubble.org/images/heic1106a/",
+          "used": "Ricostruzione della distribuzione della materia tramite osservazioni e modelli."
+        },
+        {
+          "title": "NASA/Hubble — Abell 370",
+          "url": "https://science.nasa.gov/asset/hubble/abell-370/",
+          "used": "Archi come immagini deformate di galassie retrostanti, non nuove galassie."
+        },
+        {
+          "title": "NASA/Roman — Microlensing Infographic",
+          "url": "https://science.nasa.gov/asset/roman/microlensing-infographic/",
+          "used": "Variazione temporanea della luminosità quando le immagini non sono risolte."
+        },
+        {
+          "title": "ESO — Gravitational lensing schematic",
+          "url": "https://www.eso.org/public/images/eso1313b/",
+          "used": "Confronto qualitativo della geometria sorgente-lente-osservatore; testo indicizzato consultato, apertura diretta HTTP 503."
+        },
+        {
+          "title": "ESA/Hubble — Rings of Relativity",
+          "url": "https://esahubble.org/images/potw2050a/",
+          "used": "Anello quasi completo associato al particolare allineamento."
+        }
+      ],
+      "sha256": "9a809120c7d142c7365a7860fbff4d98c30cbcd88f7d4c317907bd91376db126"
+    },
+    {
+      "id": "UN-21",
+      "area": "universo",
+      "title": "Che cosa racconta il redshift?",
+      "replaces": [
+        "U07"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/UN-21.png",
+      "pdf": "assets/poster/revisioni-20261023/UN-21.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/UN-21.webp",
+      "sources": [
+        {
+          "title": "SAIt — Bignamino, PDF p.142",
+          "url": "https://www.sait.it/sites/sait.interlandia.net/files/pictures/notizie/2022/Bignamino_astronomia_2022.pdf",
+          "used": "Fattore di scala e redshift cosmologico, distinto dal moto locale."
+        },
+        {
+          "title": "INAF Brera — Introduzione, PDF p.82",
+          "url": "http://www.brera.inaf.it/universoinfiore/presentazioni/2014-15/introduzione-2014-15.pdf",
+          "used": "Righe spostate per effetto Doppler; non esteso automaticamente a ogni distanza cosmologica."
+        },
+        {
+          "title": "NASA/Webb — Spectroscopy 101, Beyond Temperature",
+          "url": "https://science.nasa.gov/mission/webb/science-overview/science-explainers/spectroscopy-101-beyond-temperature-and-composition/",
+          "used": "Riconoscere lo spostamento dell’intero spettro mediante più righe."
+        },
+        {
+          "title": "NASA/IPAC NED — Extragalactic Redshifts",
+          "url": "https://ned.ipac.caltech.edu/Documents/References/zdef",
+          "used": "Definizione in lunghezza d’onda e distinzione delle componenti. Non usata la somma dei redshift come relazione esatta."
+        },
+        {
+          "title": "NASA/JPL — Math of the Expanding Universe",
+          "url": "https://www.jpl.nasa.gov/edu/resources/lesson-plan/math-of-the-expanding-universe/",
+          "used": "Rapporto fra lunghezze d’onda e confronto con uno spettro di riferimento."
+        },
+        {
+          "title": "NASA/Webb — What Is Cosmological Redshift?",
+          "url": "https://science.nasa.gov/asset/webb/what-is-cosmological-redshift/",
+          "used": "Allungamento della radiazione durante il viaggio e ricezione nell’infrarosso."
+        }
+      ],
+      "sha256": "8ceae2359d11def48b79c28f65859f1bba4be3abf69ed787dc12b6aa9c4b6ff8"
+    },
+    {
+      "id": "UN-22",
+      "area": "universo",
+      "title": "L’espansione dello spazio",
+      "replaces": [],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/UN-22.png",
+      "pdf": "assets/poster/revisioni-20261023/UN-22.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/UN-22.webp",
+      "sources": [
+        {
+          "title": "SAIt — Bignamino, PDF p.142",
+          "url": "https://www.sait.it/sites/sait.interlandia.net/files/pictures/notizie/2022/Bignamino_astronomia_2022.pdf",
+          "used": "Fattore di scala e lunghezza d’onda."
+        },
+        {
+          "title": "NASA/JPL — Math of the Expanding Universe",
+          "url": "https://www.jpl.nasa.gov/edu/resources/lesson-plan/math-of-the-expanding-universe/",
+          "used": "Espansione su grandi scale e sistemi gravitazionalmente legati."
+        },
+        {
+          "title": "NASA/Hubble — Cosmological Redshift",
+          "url": "https://science.nasa.gov/mission/hubble/science/science-behind-the-discoveries/hubble-cosmological-redshift/",
+          "used": "Spettri, recessione e relazione distanza-redshift."
+        },
+        {
+          "title": "ESA — What is red shift?",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/What_is_red_shift",
+          "used": "Espansione distinta dal moto locale e analogie con limiti."
+        },
+        {
+          "title": "ESO Supernova — Centre of the Universe",
+          "url": "https://supernova.eso.org/exhibition/1117/?lang=en",
+          "used": "Nessun osservatore privilegiato; orizzonte osservabile non bordo fisico."
+        },
+        {
+          "title": "Fermilab — Expanding Universe",
+          "url": "https://www.fnal.gov/pub/science/inquiring/questions/expandinguniverse.html",
+          "used": "Perché sistemi legati non seguono la semplice dilatazione omogenea."
+        }
+      ],
+      "sha256": "07f77a67df5cac2922607490a3bdcaaa9e810fc30c129a563f43f2804edd2c10"
     },
     {
       "id": "SS-01",
@@ -2165,6 +2479,51 @@
       "sha256": "e4304663f2588130be510a9f827a69006237f2a802db9f9f609c2a294c496fc8"
     },
     {
+      "id": "SS-19",
+      "area": "sistema-solare",
+      "title": "Le comete e le loro code",
+      "replaces": [
+        "S10"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/SS-19.png",
+      "pdf": "assets/poster/revisioni-20261023/SS-19.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/SS-19.webp",
+      "sources": [
+        {
+          "title": "NASA — Comet Facts",
+          "url": "https://science.nasa.gov/solar-system/comets/facts/",
+          "used": "Nucleo, chioma, sublimazione e sviluppo delle code."
+        },
+        {
+          "title": "ESA/Hubble — Comet",
+          "url": "https://esahubble.org/wordbank/comet/",
+          "used": "Corpi ghiacciati, attività e orbite."
+        },
+        {
+          "title": "ESA — Structure of a comet, 2023",
+          "url": "https://www.esa.int/ESA_Multimedia/Images/2023/11/Structure_of_a_comet",
+          "used": "Code di polvere e plasma, differenza di composizione e aspetto."
+        },
+        {
+          "title": "ESA — Comet ZTF and apparent three tails",
+          "url": "https://www.esa.int/ESA_Multimedia/Images/2023/02/Comet_ZTF_and_its_apparent_three_tails",
+          "used": "Forze diverse su polveri e ioni; effetti della prospettiva."
+        },
+        {
+          "title": "NASA Space Place — What is a comet?",
+          "url": "https://spaceplace.nasa.gov/comets/en/",
+          "used": "Orientamento delle code rispetto al Sole e limiti del modello."
+        },
+        {
+          "title": "Angeletti — Appunti, PDF p.366",
+          "url": "https://www.angeloangeletti.it/MATERIALI_LICEO/APPUNTI%20DI%20ASTRONOMIA.pdf",
+          "used": "Conglomerati di ghiacci, materiali volatili e roccia; chioma attiva vicino al Sole."
+        }
+      ],
+      "sha256": "2636eb56e9aa810c98857a73f30baeddbb397e8c0c74ac5ff8fe48a40deca361"
+    },
+    {
       "id": "SS-24",
       "area": "sistema-solare",
       "title": "Dall’aria allo spazio: atmosfera e orbite",
@@ -2795,6 +3154,96 @@
         }
       ],
       "sha256": "71a9a0bd34e72111e728f8c558d97bd5e1692227c85fa7a7242d65dfe3f111ee"
+    },
+    {
+      "id": "SA-21",
+      "area": "strumenti",
+      "title": "Da una posa a una fotografia",
+      "replaces": [
+        "F01"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/SA-21.png",
+      "pdf": "assets/poster/revisioni-20261023/SA-21.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/SA-21.webp",
+      "sources": [
+        {
+          "title": "Siril — Manual pre-processing",
+          "url": "https://siril.org/tutorials/tuto-manual/",
+          "used": "Organizzare grezzi e master, calibrare, allineare e integrare."
+        },
+        {
+          "title": "Siril 1.4 — Registration",
+          "url": "https://siril.readthedocs.io/en/stable/preprocessing/registration.html",
+          "used": "Allineamento delle immagini; operazione distinta dalla calibrazione."
+        },
+        {
+          "title": "Siril 1.4 — Stacking",
+          "url": "https://siril.readthedocs.io/en/stable/preprocessing/stacking.html",
+          "used": "Combinazione, selezione e rigetto; migliorare rapporto segnale/rumore, non ricreare informazione saturata."
+        },
+        {
+          "title": "Siril — FAQ, order of processing",
+          "url": "https://siril.org/faq/",
+          "used": "Elaborazione finale e ordine non universale di ogni trasformazione."
+        },
+        {
+          "title": "NASA/Webb — Full-Color Images",
+          "url": "https://science.nasa.gov/mission/webb/science-overview/science-explainers/how-are-webbs-full-color-images-made/",
+          "used": "Colori assegnati e costruzione di immagini leggibili, distinti dalla visione umana."
+        },
+        {
+          "title": "Gasparri — Astronomia per tutti, vol.1, PDF p.58",
+          "url": "",
+          "used": "Archivio personale: acquisizione, riduzione e interpretazione; immagine estetica distinta da misura scientifica."
+        }
+      ],
+      "sha256": "0865b79871ce4efa0c9ce913aa192c9ec38acbd9e1723640619670a5b9881a1b"
+    },
+    {
+      "id": "SA-22",
+      "area": "strumenti",
+      "title": "Light, dark, bias e flat",
+      "replaces": [
+        "F02"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/SA-22.png",
+      "pdf": "assets/poster/revisioni-20261023/SA-22.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/SA-22.webp",
+      "sources": [
+        {
+          "title": "Siril 1.4 — Calibration",
+          "url": "https://siril.readthedocs.io/en/stable/preprocessing/calibration.html",
+          "used": "Offset, dark incluso bias e flat normalizzato; master rumorosi aggiungono incertezza."
+        },
+        {
+          "title": "Siril — Manual pre-processing",
+          "url": "https://siril.org/tutorials/tuto-manual/",
+          "used": "Non sottrarre due volte bias incluso nel dark; dark-flat secondo workflow."
+        },
+        {
+          "title": "Astropy — Calibrating flats",
+          "url": "https://www.astropy.org/ccd-reduction-and-photometry-guide/v/dev/notebooks/05-03-Calibrating-the-flats.html",
+          "used": "Calibrazione dei flat e gestione separata dark/bias se si scala il dark."
+        },
+        {
+          "title": "Astropy — Combine bias images",
+          "url": "https://www.astropy.org/ccd-reduction-and-photometry-guide/v/dev/notebooks/02-04-Combine-bias-images-to-make-master.html",
+          "used": "Combinare frame limita rumore introdotto dal master, non annulla quello del light."
+        },
+        {
+          "title": "Astropy — Image combination",
+          "url": "https://www.astropy.org/ccd-reduction-and-photometry-guide/v/3.0.0a1/notebooks/01-06-Image-combination.html",
+          "used": "Combinazione con esclusione valori anomali e limiti dell’approssimazione statistica."
+        },
+        {
+          "title": "Monaci — Corso, PDF p.172",
+          "url": "",
+          "used": "Copia personale: tipi di frame; corretta l’affermazione che bias rilevi tutti i rumori di lettura. Non adottata sottrazione indiscriminata di raw−bias−dark."
+        }
+      ],
+      "sha256": "0946603b280495ff00d35a63edfc71abb35c20d48fd23e89620a7108fca4009e"
     },
     {
       "id": "SA-23",
