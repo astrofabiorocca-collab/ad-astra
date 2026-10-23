@@ -1,0 +1,48 @@
+{
+  "poster": "SA-02",
+  "date": "2026-10-23",
+  "resources": [
+    {
+      "title": "NASA — Skywatching FAQ",
+      "url": "https://science.nasa.gov/skywatching/faq/",
+      "used": "Principi per osservare e luce urbana. Esclusa frase generica su anelli Saturno a binocolo: precisazione con articoloNSN."
+    },
+    {
+      "title": "NASA — Skywatching Tools",
+      "url": "https://science.nasa.gov/skywatching/",
+      "used": "Cielo a occhio nudo, ampio campo del binocolo, sostegno stabile. Nessuna equivalenza fra binocolo e telescopio in risoluzione."
+    },
+    {
+      "title": "NASA Night Sky Network — Binoculars",
+      "url": "https://science.nasa.gov/solar-system/skywatching/night-sky-network/binoculars-a-great-first-telescope/",
+      "used": "Ammassi, Luna, M31 e M42 con condizioni favorevoli; anelli non normalmente risolti. Esclusa generalizzazione prismiPorro→maggiore ingrandimento: non proprietà necessaria."
+    },
+    {
+      "title": "Celestron — Interpupillary Distance",
+      "url": "https://www.celestron.com/blogs/knowledgebase/what-is-interpupillary-distance-how-do-i-adjust-it-on-my-binoculars",
+      "used": "IPD regolata alla distanza occhi, campi sovrapposti. Regolazione non sostituisce collimazione se diplopia persiste."
+    },
+    {
+      "title": "Celestron — Diopter Compensation",
+      "url": "https://www.celestron.com/blogs/knowledgebase/setting-the-diopter-compensation-adjustment-dial-on-a-binocular",
+      "used": "Differenza fra occhi, fuoco centrale e diottria in modello descritto. Poster rimanda al manuale perché non tutti i binocoli sono identici."
+    },
+    {
+      "title": "Nikon — Choose by specifications",
+      "url": "https://imaging.nikon.com/sport-optics/guide/binoculars/choosing/choosing_02/",
+      "used": "Pupilla uscitaD/M; ingrandimento, tremolio e diametro. Frase pupilla più grande sempre più luminosa resa condizionale per occhio e cielo."
+    },
+    {
+      "title": "Nikon — WX specifications",
+      "url": "https://imaging.nikon.com/sport-optics/lineup/binoculars/wx/sp/products/specifications/",
+      "used": "Riscontro numerico50/10=5mm,50/7≈7,1mm. Nessuna scheda commerciale o misura di campo attribuita al binocolo generico illustrato."
+    }
+  ],
+  "checks": [
+    "50mm/10=5mm. Dimensioni del prodotto ricostruito indicative, nessun marchio o modello reale dichiarato.",
+    "Canali ottici paralleli e parti meccaniche devono essere ricontrollati nel raster.",
+    "Evitare promessa sempre7stelle Pleiadi, nebulosità fotografica a occhio nudo e coppia di campi separati stilecinema."
+  ],
+  "bank": "SA-02-banca.json: risultati comprendono indici ed episodi autobiografici; non usati come specifiche tecniche.",
+  "independence": "Sette risorse da tre corpi editoriali NASA/ASP, Celestron eNikon; non sette prove indipendenti."
+}

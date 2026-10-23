@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "scope": "34 edizioni autorizzate e revisionate; restanti tavole ancora da revisionare",
+  "scope": "37 edizioni autorizzate e revisionate; restanti tavole ancora da revisionare",
   "print_masters": false,
   "counts": {
     "imparare": {
@@ -9,15 +9,15 @@
     },
     "universo": {
       "available": 23,
-      "updated": 5
+      "updated": 6
     },
     "sistema-solare": {
       "available": 24,
-      "updated": 6
+      "updated": 7
     },
     "strumenti": {
       "available": 23,
-      "updated": 4
+      "updated": 5
     }
   },
   "posters": [
@@ -892,6 +892,51 @@
       "sha256": "31de0a67c5beaab0c0e377d5e12a7d1671bcd759f2c7da848c3e00818b368b2c"
     },
     {
+      "id": "UN-01",
+      "area": "universo",
+      "title": "Le scale dell’Universo",
+      "replaces": [
+        "universo-panoramica"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/UN-01.png",
+      "pdf": "assets/poster/revisioni-20261023/UN-01.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/UN-01.webp",
+      "sources": [
+        {
+          "title": "NASA — Solar System Facts",
+          "url": "https://science.nasa.gov/solar-system/solar-system-facts/",
+          "used": "Sistema solare nella ViaLattea e nel ramoOrione; non importato conteggio «thousands» per asteroidi come totale censito."
+        },
+        {
+          "title": "NASA — Galaxies",
+          "url": "https://science.nasa.gov/universe/galaxies/",
+          "used": "Galassie, GruppoLocale e ragnatela. Non ricopiare numero fisso di membri o assimilare superammassi a sistemi tutti legati."
+        },
+        {
+          "title": "NASA — How Big is Space?",
+          "url": "https://www.nasa.gov/science-research/astrophysics/how-big-is-space-we-asked-a-nasa-expert-episode-61/",
+          "used": "Trascrizione pubblica letta, video non visionato: Universo osservabile distinto dal totale, estensione totale ignota. Nessun diametro numerico trasferito."
+        },
+        {
+          "title": "NASA — The Milky Way Galaxy",
+          "url": "https://imagine.gsfc.nasa.gov/science/objects/milkyway1.html",
+          "used": "Vista esterna della ViaLattea è ricostruzione, non foto scattata da fuori. Valori storici non utilizzati."
+        },
+        {
+          "title": "ESO — Flight through cosmic web",
+          "url": "https://www.eso.org/public/videos/cosmic2_dome_2200/",
+          "used": "Testo della pagina letto; non video visionato. Nodi sono galassie e filamenti visualizzati in simulazione, non corde solide visibili a occhio."
+        },
+        {
+          "title": "ESO — Revealing a filament",
+          "url": "https://www.eso.org/public/images/potw2504a/",
+          "used": "Testo: gas molto tenue e visualizzazione con sovrapposizione. Nessuna immagine originale copiata nella tavola."
+        }
+      ],
+      "sha256": "8a38f0d6a58e44d0c4bdf19cb375cde68b03238ee6dcf4f57bd83d9ff5138701"
+    },
+    {
       "id": "UN-04",
       "area": "universo",
       "title": "Misurare le distanze: UA, anno luce e parsec",
@@ -1115,6 +1160,56 @@
         }
       ],
       "sha256": "1efee0a35156a3b31a97f5b983e677a970be12aa440d7aea4fec4d9d08db239b"
+    },
+    {
+      "id": "SS-01",
+      "area": "sistema-solare",
+      "title": "Il Sistema solare e le sue scale",
+      "replaces": [
+        "S01"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/SS-01.png",
+      "pdf": "assets/poster/revisioni-20261023/SS-01.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/SS-01.webp",
+      "sources": [
+        {
+          "title": "NASA — Solar System Scales",
+          "url": "https://science.nasa.gov/resource/solar-system-scales-artists-concept/",
+          "used": "Letto testo: dimensioni corporee ingrandite rispetto alle distanze nella figura originale; non copiare schema come scala unica."
+        },
+        {
+          "title": "NASA JPL — Make a Scale Solar System",
+          "url": "https://www.jpl.nasa.gov/edu/resources/project/make-a-scale-solar-system/",
+          "used": "Passaggi calcolo e distinzione modelli dimensioni/distanze; nessun video visionato."
+        },
+        {
+          "title": "NASA — How Big Is the Solar System?",
+          "url": "https://science.nasa.gov/learning-resources/how-big-is-the-solar-system/",
+          "used": "Principi di scala e raggi orbitali approssimati. Non riprendere distanza Venere troppo caldo/Marte troppo freddo come spiegazione esaustiva del clima."
+        },
+        {
+          "title": "EduINAF — Il sistema solare a Milano",
+          "url": "https://edu.inaf.it/astrodidattica/sistema-solare-milano/",
+          "used": "Modello Sole1m e diametro1392milioni di metri. Testo di conversione incoerente: da metri a centimetri moltiplicare100, non dividere; calcolo rifatto."
+        },
+        {
+          "title": "EduINAF — Tabella sistema solare in scala",
+          "url": "https://edu.inaf.it/wp-content/uploads/2017/07/01-costruzione_sistema_solare_tabella.pdf",
+          "used": "TestoPDF consultato: tabella semplificata e Plutone escluso dagli8pianeti; diametro Giove152000km incongruo, non importato."
+        },
+        {
+          "title": "NASA Space Place — The Solar System Scaled",
+          "url": "https://spaceplace.nasa.gov/activity-books/en/RPS-Solar-System-Chalk-Activity.pdf",
+          "used": "TestoPDF: ordini di grandezza diametri e distanze. Dati arrotondati, nessuna fotocopia della pagina. Valori diversi fra diametro equatoriale e medio non mescolati per dedurre precisione falsa."
+        },
+        {
+          "title": "NASA JPL SSD — Planetary Physical Parameters",
+          "url": "https://ssd.jpl.nasa.gov/planets/phys_par.html",
+          "used": "Raggi medi: Terra6371,0084km, Giove69911km, Nettuno24622km; diametri doppi, arrotondati. Distingue raggio medio ed equatoriale."
+        }
+      ],
+      "sha256": "2969e132dd21ea9817538b0dca2148eab8bf7549dd1e03d4469421d4ea47ef17"
     },
     {
       "id": "SS-06",
@@ -1390,6 +1485,56 @@
         }
       ],
       "sha256": "4ee3f8f32028934dcb8c58a82710e9e8b9acc910fbaf6dcb344aab7514e53178"
+    },
+    {
+      "id": "SA-02",
+      "area": "strumenti",
+      "title": "Esplorare il cielo con il binocolo",
+      "replaces": [
+        "tavola-15"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/SA-02.png",
+      "pdf": "assets/poster/revisioni-20261023/SA-02.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/SA-02.webp",
+      "sources": [
+        {
+          "title": "NASA — Skywatching FAQ",
+          "url": "https://science.nasa.gov/skywatching/faq/",
+          "used": "Principi per osservare e luce urbana. Esclusa frase generica su anelli Saturno a binocolo: precisazione con articoloNSN."
+        },
+        {
+          "title": "NASA — Skywatching Tools",
+          "url": "https://science.nasa.gov/skywatching/",
+          "used": "Cielo a occhio nudo, ampio campo del binocolo, sostegno stabile. Nessuna equivalenza fra binocolo e telescopio in risoluzione."
+        },
+        {
+          "title": "NASA Night Sky Network — Binoculars",
+          "url": "https://science.nasa.gov/solar-system/skywatching/night-sky-network/binoculars-a-great-first-telescope/",
+          "used": "Ammassi, Luna, M31 e M42 con condizioni favorevoli; anelli non normalmente risolti. Esclusa generalizzazione prismiPorro→maggiore ingrandimento: non proprietà necessaria."
+        },
+        {
+          "title": "Celestron — Interpupillary Distance",
+          "url": "https://www.celestron.com/blogs/knowledgebase/what-is-interpupillary-distance-how-do-i-adjust-it-on-my-binoculars",
+          "used": "IPD regolata alla distanza occhi, campi sovrapposti. Regolazione non sostituisce collimazione se diplopia persiste."
+        },
+        {
+          "title": "Celestron — Diopter Compensation",
+          "url": "https://www.celestron.com/blogs/knowledgebase/setting-the-diopter-compensation-adjustment-dial-on-a-binocular",
+          "used": "Differenza fra occhi, fuoco centrale e diottria in modello descritto. Poster rimanda al manuale perché non tutti i binocoli sono identici."
+        },
+        {
+          "title": "Nikon — Choose by specifications",
+          "url": "https://imaging.nikon.com/sport-optics/guide/binoculars/choosing/choosing_02/",
+          "used": "Pupilla uscitaD/M; ingrandimento, tremolio e diametro. Frase pupilla più grande sempre più luminosa resa condizionale per occhio e cielo."
+        },
+        {
+          "title": "Nikon — WX specifications",
+          "url": "https://imaging.nikon.com/sport-optics/lineup/binoculars/wx/sp/products/specifications/",
+          "used": "Riscontro numerico50/10=5mm,50/7≈7,1mm. Nessuna scheda commerciale o misura di campo attribuita al binocolo generico illustrato."
+        }
+      ],
+      "sha256": "7b6ba89ee43cd4545da51f26ecb0a10a86aa11b07b0f85407f312e50e20fb727"
     },
     {
       "id": "SA-04",

@@ -1,0 +1,73 @@
+{
+  "poster": "SS-01",
+  "date": "2026-10-23",
+  "resources": [
+    {
+      "title": "NASA — Solar System Scales",
+      "url": "https://science.nasa.gov/resource/solar-system-scales-artists-concept/",
+      "used": "Letto testo: dimensioni corporee ingrandite rispetto alle distanze nella figura originale; non copiare schema come scala unica."
+    },
+    {
+      "title": "NASA JPL — Make a Scale Solar System",
+      "url": "https://www.jpl.nasa.gov/edu/resources/project/make-a-scale-solar-system/",
+      "used": "Passaggi calcolo e distinzione modelli dimensioni/distanze; nessun video visionato."
+    },
+    {
+      "title": "NASA — How Big Is the Solar System?",
+      "url": "https://science.nasa.gov/learning-resources/how-big-is-the-solar-system/",
+      "used": "Principi di scala e raggi orbitali approssimati. Non riprendere distanza Venere troppo caldo/Marte troppo freddo come spiegazione esaustiva del clima."
+    },
+    {
+      "title": "EduINAF — Il sistema solare a Milano",
+      "url": "https://edu.inaf.it/astrodidattica/sistema-solare-milano/",
+      "used": "Modello Sole1m e diametro1392milioni di metri. Testo di conversione incoerente: da metri a centimetri moltiplicare100, non dividere; calcolo rifatto."
+    },
+    {
+      "title": "EduINAF — Tabella sistema solare in scala",
+      "url": "https://edu.inaf.it/wp-content/uploads/2017/07/01-costruzione_sistema_solare_tabella.pdf",
+      "used": "TestoPDF consultato: tabella semplificata e Plutone escluso dagli8pianeti; diametro Giove152000km incongruo, non importato."
+    },
+    {
+      "title": "NASA Space Place — The Solar System Scaled",
+      "url": "https://spaceplace.nasa.gov/activity-books/en/RPS-Solar-System-Chalk-Activity.pdf",
+      "used": "TestoPDF: ordini di grandezza diametri e distanze. Dati arrotondati, nessuna fotocopia della pagina. Valori diversi fra diametro equatoriale e medio non mescolati per dedurre precisione falsa."
+    },
+    {
+      "title": "NASA JPL SSD — Planetary Physical Parameters",
+      "url": "https://ssd.jpl.nasa.gov/planets/phys_par.html",
+      "used": "Raggi medi: Terra6371,0084km, Giove69911km, Nettuno24622km; diametri doppi, arrotondati. Distingue raggio medio ed equatoriale."
+    }
+  ],
+  "calculated_model": {
+    "solar_diameter_km": 1392000,
+    "au_km": 149597870.7,
+    "model_solar_diameter_m": 1,
+    "earth": {
+      "diameter_km": 12742,
+      "semimajor_au": 1,
+      "model_diameter_m": 0.009153735632183907,
+      "model_orbital_semimajor_m": 107.46973469827586
+    },
+    "jupiter": {
+      "diameter_km": 139822,
+      "semimajor_au": 5.203,
+      "model_diameter_m": 0.10044683908045977,
+      "model_orbital_semimajor_m": 559.1650296351293
+    },
+    "neptune": {
+      "diameter_km": 49244,
+      "semimajor_au": 30.07,
+      "model_diameter_m": 0.0353764367816092,
+      "model_orbital_semimajor_m": 3231.614922377155
+    }
+  },
+  "limitations": [
+    "Diametri sferici medi approssimati, non misura equatoriale di precisione.",
+    "Unica scala per dati numerici, simboli nella figura ingranditi e dichiarati.",
+    "Semiassi maggiori, non distanza istantanea daSole/Terra.",
+    "Sole su supporto e percorso sono metafora illustrativa, non carta di un parco reale.",
+    "PDF Voyage2001 escluso come classificazione attuale: chiama Plutone pianeta più lontano.",
+    "Nella formula INAFMilano il coefficiente0,71m/Mm è incongruo con1/1392: valore ricalcolato0,00071839m/Mm. Non trasferito il refuso."
+  ],
+  "independence": "Sei risorse diNASA/JPL eINAF; non sei enti indipendenti."
+}

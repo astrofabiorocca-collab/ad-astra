@@ -1,7 +1,7 @@
 # Stato della revisione
 
-34composizioni revisionate su101,67ancora da completare.
-96tavole disponibili nel sito, comprese le precedenti ancora da rivedere.
-Autorizzazione dell’autore: procedere con revisione e pubblicazione, correzioni
-mirate successive, commit al termine. Nessuna dichiarazione di revisione globale
-conclusa. Originali conservati. Riferimenti delle fonti neiJSON affiancati.
+37 composizioni revisionate su 101, 64 ancora da completare.
+96 tavole disponibili nel sito, comprese le precedenti ancora da rivedere.
+Revisione e pubblicazione autorizzate senza nuova approvazione singola.
+Originali conservati; fonti e modelli nei JSON affiancati.
+Il report 7435cd9 documenta il primo deploy; non certifica le successive modifiche.

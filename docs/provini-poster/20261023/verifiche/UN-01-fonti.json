@@ -1,0 +1,46 @@
+{
+  "poster": "UN-01",
+  "date": "2026-10-23",
+  "resources": [
+    {
+      "title": "NASA — Solar System Facts",
+      "url": "https://science.nasa.gov/solar-system/solar-system-facts/",
+      "used": "Sistema solare nella ViaLattea e nel ramoOrione; non importato conteggio «thousands» per asteroidi come totale censito."
+    },
+    {
+      "title": "NASA — Galaxies",
+      "url": "https://science.nasa.gov/universe/galaxies/",
+      "used": "Galassie, GruppoLocale e ragnatela. Non ricopiare numero fisso di membri o assimilare superammassi a sistemi tutti legati."
+    },
+    {
+      "title": "NASA — How Big is Space?",
+      "url": "https://www.nasa.gov/science-research/astrophysics/how-big-is-space-we-asked-a-nasa-expert-episode-61/",
+      "used": "Trascrizione pubblica letta, video non visionato: Universo osservabile distinto dal totale, estensione totale ignota. Nessun diametro numerico trasferito."
+    },
+    {
+      "title": "NASA — The Milky Way Galaxy",
+      "url": "https://imagine.gsfc.nasa.gov/science/objects/milkyway1.html",
+      "used": "Vista esterna della ViaLattea è ricostruzione, non foto scattata da fuori. Valori storici non utilizzati."
+    },
+    {
+      "title": "ESO — Flight through cosmic web",
+      "url": "https://www.eso.org/public/videos/cosmic2_dome_2200/",
+      "used": "Testo della pagina letto; non video visionato. Nodi sono galassie e filamenti visualizzati in simulazione, non corde solide visibili a occhio."
+    },
+    {
+      "title": "ESO — Revealing a filament",
+      "url": "https://www.eso.org/public/images/potw2504a/",
+      "used": "Testo: gas molto tenue e visualizzazione con sovrapposizione. Nessuna immagine originale copiata nella tavola."
+    }
+  ],
+  "checks": [
+    "Quattro passaggi con cambio scala dichiarato, non ingrandimenti quantitativi né mappa attuale.",
+    "SistemaSolare dentrodiscoViaLattea lontano dalcentro; GruppoLocale contieneMW eM31, non confuso con ammassoVirgo.",
+    "Orizzonteosservabile non bordo fisico dell’interoUniverso; nessuna parete osuperficie materiale.",
+    "Esclusa StarChild fonte storica: teoria incontrostellare per formazione planetaria non usata.",
+    "Esclusa AMNH vecchia:13miliardi di anni e raggio13miliardi di anni luce non modelloattuale.",
+    "Esclusa NASA Basics frase stelle orbitano soloSgrA*: orbita galattica risente delpotenzialecomplessivo."
+  ],
+  "bank": "UN-01-banca.json recuperato prima delle ricerche: risultati disomogenei, non usati come validazione della grafica.",
+  "independence": "Sei risorse daNASA edESO, non sei enti indipendenti."
+}

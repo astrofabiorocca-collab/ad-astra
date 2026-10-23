@@ -1,0 +1,40 @@
+{
+  "commit": "7435cd9",
+  "pages": {
+    "poster.html": {
+      "http": 200,
+      "matches_worktree": true
+    },
+    "poster-imparare-il-cielo.html": {
+      "http": 200,
+      "matches_worktree": true
+    },
+    "poster-universo.html": {
+      "http": 200,
+      "matches_worktree": true
+    },
+    "poster-sistema-solare.html": {
+      "http": 200,
+      "matches_worktree": true
+    },
+    "poster-strumenti.html": {
+      "http": 200,
+      "matches_worktree": true
+    }
+  },
+  "assets": {
+    "UN-05": {
+      "http": 200,
+      "sha256_matches": true
+    },
+    "SS-14": {
+      "http": 200,
+      "sha256_matches": true
+    },
+    "SA-23": {
+      "http": 200,
+      "sha256_matches": true
+    }
+  },
+  "complete": true
+}
