@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "scope": "37 edizioni autorizzate e revisionate; restanti tavole ancora da revisionare",
+  "scope": "62 edizioni autorizzate e revisionate; restanti tavole ancora da revisionare",
   "print_masters": false,
   "counts": {
     "imparare": {
@@ -9,15 +9,15 @@
     },
     "universo": {
       "available": 23,
-      "updated": 6
+      "updated": 12
     },
     "sistema-solare": {
       "available": 24,
-      "updated": 7
+      "updated": 17
     },
     "strumenti": {
       "available": 23,
-      "updated": 5
+      "updated": 14
     }
   },
   "posters": [
@@ -937,6 +937,96 @@
       "sha256": "8a38f0d6a58e44d0c4bdf19cb375cde68b03238ee6dcf4f57bd83d9ff5138701"
     },
     {
+      "id": "UN-02",
+      "area": "universo",
+      "title": "La luce racconta le stelle",
+      "replaces": [
+        "U01"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/UN-02.png",
+      "pdf": "assets/poster/revisioni-20261023/UN-02.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/UN-02.webp",
+      "sources": [
+        {
+          "title": "NASA Webb — Types of Spectra",
+          "url": "https://science.nasa.gov/asset/webb/types-of-spectra-continuous-emission-and-absorption/",
+          "used": "Continuo quasi termico, emissione e assorbimento; stelle sorgenti dense di gas/plasma, non solidi."
+        },
+        {
+          "title": "ESA — A star’s spectrum explained",
+          "url": "https://www.esa.int/ESA_Multimedia/Images/2023/09/A_star_s_spectrum_explained",
+          "used": "Righe d’assorbimento e flusso residuo; non necessariamente intensitàzero. Nessuna figura originale copiata."
+        },
+        {
+          "title": "Treccani — Caratteristiche delle stelle",
+          "url": "https://static.treccani.it/export/sites/default/Portale/resources/multimedia/Lezioni_Astrofisica/stelle_caratteristiche/presentazione.pdf",
+          "used": "BancaPDF12: tre tipi. Non copiare «diffratta dal prisma»: dispersione per rifrazione, non diffrazione."
+        },
+        {
+          "title": "Lorenzo Roi — Corso2",
+          "url": "https://www.lorenzoroi.net/prelievi/CorsoAstro2.pdf",
+          "used": "BancaPDF13: righe nell’atmosfera stellare sovrapposte al continuo."
+        },
+        {
+          "title": "SAIt — Bignamino2022",
+          "url": "https://www.sait.it/sites/sait.interlandia.net/files/pictures/notizie/2022/Bignamino_astronomia_2022.pdf",
+          "used": "BancaPDF242: Doppler. Non dire tutti spettri stellari soloassorbimento; visibile includevioletto non soloblu."
+        },
+        {
+          "title": "INAF Torino — Lattanzi",
+          "url": "https://www.oato.inaf.it/biblioteca/pdf/TechRep078_Lattanzi.pdf",
+          "used": "BancaPDF85: componente di moto relativa e convenzioni blue/redshift; nessuna estensione ingenua delDoppler a ogni redshift cosmologico."
+        }
+      ],
+      "sha256": "9907e63e63bd8facb4d0302f7e7b37f5dd826eca71adc06844c1dfb8a99c6bcf"
+    },
+    {
+      "id": "UN-03",
+      "area": "universo",
+      "title": "Molte finestre sul cosmo",
+      "replaces": [
+        "U10"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/UN-03.png",
+      "pdf": "assets/poster/revisioni-20261023/UN-03.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/UN-03.webp",
+      "sources": [
+        {
+          "title": "NASA CXC — Centaurus A, 2009",
+          "url": "https://chandra.harvard.edu/photo/2009/cena/",
+          "used": "Diverse bande e lobi/getti. Non usate immagini reali né distanze storiche."
+        },
+        {
+          "title": "NASA GSFC — Multiwavelength Astronomy",
+          "url": "https://imagine.gsfc.nasa.gov/science/toolbox/multiwavelength1.html",
+          "used": "Visione multibanda e assorbimento atmosferico. Tabella radio <1K non generalizzata a emissione non termica."
+        },
+        {
+          "title": "NASA CXC — Adding Color to Chandra Images",
+          "url": "https://chandra.harvard.edu/photo/false_color.html",
+          "used": "Colori assegnati come codice; non aspetto visibile direttamente."
+        },
+        {
+          "title": "NASA GSFC — Electromagnetic Spectrum",
+          "url": "https://imagine.gsfc.nasa.gov/science/toolbox/emspectrum1.html",
+          "used": "Finestre atmosferiche, distinzione infrarosso osservabile da terra/spazio."
+        },
+        {
+          "title": "NASA Webb — L1527 MIRI Image",
+          "url": "https://science.nasa.gov/asset/webb/l1527-and-protostar-miri-image/",
+          "used": "Esempio esplicito filtri infrarossi associati a colori visibili; immagine non ripubblicata."
+        },
+        {
+          "title": "ESA — Webb catches fiery hourglass",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_catches_fiery_hourglass_as_new_star_forms",
+          "used": "Ruolo della polvere e osservazione infrarossa."
+        }
+      ],
+      "sha256": "5d524ac2f565afd8ed54238f86a5aee8501a3358e94139e41de2e59ddb831a92"
+    },
+    {
       "id": "UN-04",
       "area": "universo",
       "title": "Misurare le distanze: UA, anno luce e parsec",
@@ -1027,6 +1117,51 @@
       "sha256": "44c3e2bfd0d39e6a27121d0107e592913bca7a472274239a6265f16f01890bfd"
     },
     {
+      "id": "UN-07",
+      "area": "universo",
+      "title": "Dalla nube alla protostella",
+      "replaces": [
+        "U04"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/UN-07.png",
+      "pdf": "assets/poster/revisioni-20261023/UN-07.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/UN-07.webp",
+      "sources": [
+        {
+          "title": "Lorenzo Roi — Corso di astronomia 2, PDF p.23",
+          "url": "https://www.lorenzoroi.net/prelievi/CorsoAstro2.pdf",
+          "used": "Fusione precoce del deuterio distinta dalla fusione stabile dell’idrogeno."
+        },
+        {
+          "title": "Angelo Angeletti — Appunti, PDF p.79",
+          "url": "https://www.angeloangeletti.it/MATERIALI_LICEO/APPUNTI%20DI%20ASTRONOMIA.pdf",
+          "used": "Contrazione e luminosità protostellare; esclusa generalizzazione osservabile solo fuori atmosfera."
+        },
+        {
+          "title": "Zanichelli — Universo e Sistema solare, PDF p.6",
+          "url": "https://staticmy.zanichelli.it/catalogo/assets/9788808357441_04_CAP.pdf",
+          "used": "Origine in nubi fredde, accrescimento e riscaldamento."
+        },
+        {
+          "title": "NASA — Stars",
+          "url": "https://science.nasa.gov/universe/stars/",
+          "used": "Nubi molecolari, collasso e inizio della sequenza principale."
+        },
+        {
+          "title": "ESA — Webb catches fiery hourglass",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_catches_fiery_hourglass_as_new_star_forms",
+          "used": "Disco e cavità bipolari della protostella; energia pre-fusione stabile."
+        },
+        {
+          "title": "ESO — Outbursts from a newborn star",
+          "url": "https://www.eso.org/public/images/potw1541a/",
+          "used": "Getti opposti HH212 e disco; non riprodotta la fotografia."
+        }
+      ],
+      "sha256": "f28f3cb0a2520ff0442081d982ec7c7a903aa73ab4943ce0372dddcc3c5bbd56"
+    },
+    {
       "id": "UN-09",
       "area": "universo",
       "title": "Leggere il diagramma H–R",
@@ -1071,6 +1206,141 @@
         }
       ],
       "sha256": "bf669c7da3bda41b0ba9a597e15ec497ed4169678a7929e00de87905f2c1d3f9"
+    },
+    {
+      "id": "UN-10",
+      "area": "universo",
+      "title": "Come troviamo un pianeta lontano?",
+      "replaces": [
+        "U08"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/UN-10.png",
+      "pdf": "assets/poster/revisioni-20261023/UN-10.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/UN-10.webp",
+      "sources": [
+        {
+          "title": "NASA — How We Find and Characterize",
+          "url": "https://science.nasa.gov/exoplanets/how-we-find-and-characterize/",
+          "used": "Curva fotometrica e periodo; dimensione orbitale richiede anche massa stellare."
+        },
+        {
+          "title": "NASA — What’s a transit?",
+          "url": "https://science.nasa.gov/exoplanets/whats-a-transit/",
+          "used": "Passaggio davanti alla stella e diminuzione di flusso."
+        },
+        {
+          "title": "NASA — Exoplanets Facts",
+          "url": "https://science.nasa.gov/exoplanets/facts/",
+          "used": "Metodi indiretti e limiti di osservabilità."
+        },
+        {
+          "title": "ESA — How to find an exoplanet",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/Exoplanets/How_to_find_an_exoplanet",
+          "used": "Velocità radiale e Doppler. Esclusa frase troppo assoluta che astrometria e RV sarebbero mutuamente esclusive."
+        },
+        {
+          "title": "INAF Torino — NOCTIS, PDF p.19",
+          "url": "https://drive.google.com/file/d/1gWBew4sXf8FJJRxZpKlhre9tnja9ta8x/view?usp=sharing",
+          "used": "Profondità approssimata come rapporto dei raggi al quadrato; nessuna slide ripubblicata."
+        },
+        {
+          "title": "SAIt — Bignamino, PDF p.105",
+          "url": "https://www.sait.it/sites/sait.interlandia.net/files/pictures/notizie/2022/Bignamino_astronomia_2022.pdf",
+          "used": "Metodi e transiti; confronto non lettura integrale."
+        }
+      ],
+      "sha256": "b8e4e7b9a51cc0933de30e8bda40d19bc7b7ee1ae4842962ef8a11eddec1545e"
+    },
+    {
+      "id": "UN-11",
+      "area": "universo",
+      "title": "La massa cambia la vita di una stella",
+      "replaces": [
+        "U05"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/UN-11.png",
+      "pdf": "assets/poster/revisioni-20261023/UN-11.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/UN-11.webp",
+      "sources": [
+        {
+          "title": "NASA — Stars",
+          "url": "https://science.nasa.gov/universe/stars/",
+          "used": "Massa e durate della vita stellare."
+        },
+        {
+          "title": "NASA — Types of Stars",
+          "url": "https://science.nasa.gov/universe/stars/types/",
+          "used": "Sequenza principale, nane rosse e futuro del Sole. Esclusa frase errata che due protoni produrrebbero direttamente un nucleo di elio."
+        },
+        {
+          "title": "Swinburne COSMOS — Main Sequence Lifetime",
+          "url": "https://astronomy.swin.edu.au/cosmos/m/Main%2BSequence%2BLifetime",
+          "used": "Passaggio indicizzato consultato: massa, temperatura centrale e consumo; accesso diretto scaduto, limite esplicito."
+        },
+        {
+          "title": "INAF Torino — Attività solare, PDF p.51",
+          "url": "https://drive.google.com/file/d/1YGrWEX7zW1AINOtTUnhjPM4ikCP0rZlj/view?usp=sharing",
+          "used": "Sole attualmente in sequenza principale con fusione centrale dell’idrogeno."
+        },
+        {
+          "title": "SAIt — Bignamino, PDF p.149",
+          "url": "https://www.sait.it/sites/sait.interlandia.net/files/pictures/notizie/2022/Bignamino_astronomia_2022.pdf",
+          "used": "Sequenza principale nel diagramma HR e dipendenza della luminosità."
+        },
+        {
+          "title": "Lorenzo Roi — Corso 2, PDF p.25",
+          "url": "https://www.lorenzoroi.net/prelievi/CorsoAstro2.pdf",
+          "used": "Distinzione pre-sequenza e sequenza; non ogni traccia storica è universale."
+        }
+      ],
+      "sha256": "c52e13eaf74246e45f1ed9eaf893f957eb48c0f380bc77dfa81ebef7dc98234b"
+    },
+    {
+      "id": "UN-12",
+      "area": "universo",
+      "title": "Ciò che resta delle stelle",
+      "replaces": [
+        "U06"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/UN-12.png",
+      "pdf": "assets/poster/revisioni-20261023/UN-12.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/UN-12.webp",
+      "sources": [
+        {
+          "title": "NASA — Types of Stars",
+          "url": "https://science.nasa.gov/universe/stars/types/",
+          "used": "Residui e pulsar; esclusa spiegazione errata della fusione di due protoni."
+        },
+        {
+          "title": "NASA — Types of Black Holes",
+          "url": "https://science.nasa.gov/universe/black-holes/types/",
+          "used": "Buchi neri stellari; soglie descritte come approssimate, non universali."
+        },
+        {
+          "title": "NASA GSFC — White Dwarfs",
+          "url": "https://imagine.gsfc.nasa.gov/science/objects/dwarfs1.html",
+          "used": "Residuo paragonabile alla Terra e raffreddamento; limiti di massa solo qualitativi."
+        },
+        {
+          "title": "NASA CXC — White Dwarfs and Planetary Nebulas",
+          "url": "https://chandra.cfa.harvard.edu/xray_sources/white_dwarfs.html",
+          "used": "Perdita degli strati e nucleo residuo."
+        },
+        {
+          "title": "NASA CXC — Neutron Stars",
+          "url": "https://chandra.harvard.edu/xray_sources/neutron_stars.html",
+          "used": "Collasso del nucleo, materia densa, campo magnetico e fasci; escluse analogie atomiche classiche troppo letterali."
+        },
+        {
+          "title": "Angelo Angeletti — Appunti, PDF p.94",
+          "url": "https://www.angeloangeletti.it/MATERIALI_LICEO/APPUNTI%20DI%20ASTRONOMIA.pdf",
+          "used": "Passaggio locale su nane bianche e degenerazione elettronica; nessuna figura del libro riutilizzata."
+        }
+      ],
+      "sha256": "2abdc5d6c6ee34e176a0f671a0e3fe1463fc6ef3098da2ba28beb7b9f9ff5a4a"
     },
     {
       "id": "UN-15",
@@ -1212,6 +1482,187 @@
       "sha256": "2969e132dd21ea9817538b0dca2148eab8bf7549dd1e03d4469421d4ea47ef17"
     },
     {
+      "id": "SS-02",
+      "area": "sistema-solare",
+      "title": "Le orbite e le leggi di Keplero",
+      "replaces": [
+        "S12"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/SS-02.png",
+      "pdf": "assets/poster/revisioni-20261023/SS-02.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/SS-02.webp",
+      "sources": [
+        {
+          "title": "NASA — Orbits and Kepler’s Laws",
+          "url": "https://science.nasa.gov/solar-system/orbits-and-keplers-laws/",
+          "used": "Ellisse efuoco; correzione della spiegazione con triangoli: aree esatte dei settori curvilinei, triangoli soloapprossimazione."
+        },
+        {
+          "title": "NASA GSFC — Kepler and His Laws",
+          "url": "https://cdaweb.gsfc.nasa.gov/pub/documents/archived_websites/pwg.gsfc.nasa.gov/stargaze/Skeplaws.htm",
+          "used": "Prime due leggi1609; contesto storico senza ritratto generato."
+        },
+        {
+          "title": "NASA — Gravity & Mechanics",
+          "url": "https://science.nasa.gov/learn/basics-of-space-flight/chapter3-1/",
+          "used": "Ellisse somma distanze costante, eccentricitàdistanza fuoco-centro/a. Non tutteorbite gravitazionalisonoellissi: richiedere orbita legata."
+        },
+        {
+          "title": "OpenStax — Astronomy3.1",
+          "url": "https://openstax.org/books/astronomy/pages/3-1-the-laws-of-planetary-motion",
+          "used": "Settori uguali, semiasse e periodo. P²=a³ solo nelle unità e ipotesi specificate."
+        },
+        {
+          "title": "Università del Nebraska — Kepler’s Laws",
+          "url": "https://astro.unl.edu/naap/pos/pos_background1.html",
+          "used": "Definizioni a,b,e e2fuochi. Semiasse non distanza istantanea; evitare «media» non definita."
+        },
+        {
+          "title": "Marco Monaci — Corso di Astronomia",
+          "url": "",
+          "used": "BancaPDF60: seconda legge, velocità variabile e raggio vettore; formula implementata con anomalia media.",
+          "private_file": "documenti/pdf/fabio-pdf-3dcde443362b.pdf"
+        }
+      ],
+      "sha256": "7ec3ba51ec414dfbda48d592fd282ab9f747dea8e5ca34f5d9b562f8e5a903b3"
+    },
+    {
+      "id": "SS-03",
+      "area": "sistema-solare",
+      "title": "Il Sole, la nostra stella",
+      "replaces": [
+        "S02"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/SS-03.png",
+      "pdf": "assets/poster/revisioni-20261023/SS-03.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/SS-03.webp",
+      "sources": [
+        {
+          "title": "NASA — Sun Facts",
+          "url": "https://science.nasa.gov/sun/facts/",
+          "used": "Nucleo, zone interne, atmosfera, fotosfera non solida. Non copiare cifra170000anni come unico fotone tracciabile."
+        },
+        {
+          "title": "NASA — Layers of the Sun",
+          "url": "https://www.nasa.gov/image-article/layers-of-sun/",
+          "used": "Ordine degli strati e aumento temperatura atmosferico. Spessoriindicativi non trasferiti come quote esatte."
+        },
+        {
+          "title": "ESA — Anatomy of the Sun",
+          "url": "https://www.esa.int/ESA_Multimedia/Images/2020/01/Anatomy_of_the_Sun",
+          "used": "Zona radiativa sotto convettiva, moti plasmatici; densità e temperatura variabili. Nessuna conversione automatica da°C aK."
+        },
+        {
+          "title": "ESA CESAR — Structure of the Sun",
+          "url": "https://cesar.esa.int/upload/201809/booklet_the_suns_structure.pdf",
+          "used": "Testo/descrizione diagramma disponibili nel lettore: fonteanaloga per organizzazione regioni, non interoPDF letto. Nessuna immagine copiata."
+        },
+        {
+          "title": "NSO — Photosphere",
+          "url": "https://nso.edu/for-public/sun-science/photosphere/",
+          "used": "Fotosfera partevisibile gassosa e intervallo locale4500–6000K, distinto da temperaturaefficace5800K."
+        },
+        {
+          "title": "INAF Torino — Sole e attività solare",
+          "url": "https://www.oato.inaf.it/wp-content/uploads/2021/02/02.Sole-e-attivita-solare.pdf",
+          "used": "Passaggio su fusione e trasporto. Tempi1milioneanni e percentuali0,75R discordano da altre semplificazioni: non trasferiti alla tavola."
+        }
+      ],
+      "sha256": "fcc021f219c3460eea086fe201d099a1fb90081c49accac71bb1224ea2ab0c93"
+    },
+    {
+      "id": "SS-04",
+      "area": "sistema-solare",
+      "title": "Dal Sole alle aurore",
+      "replaces": [
+        "S13"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/SS-04.png",
+      "pdf": "assets/poster/revisioni-20261023/SS-04.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/SS-04.webp",
+      "sources": [
+        {
+          "title": "NASA — Auroras",
+          "url": "https://science.nasa.gov/sun/auroras/",
+          "used": "Energia solare, magnetosfera, collisioni e luce."
+        },
+        {
+          "title": "NOAA SWPC — Aurora",
+          "url": "https://www.spaceweather.gov/phenomena/aurora",
+          "used": "Elettroni accelerati nella magnetosfera, regioni polari e collisioni con ossigeno e azoto."
+        },
+        {
+          "title": "NOAA SWPC — Aurora Tutorial",
+          "url": "https://www.spaceweather.gov/content/aurora-tutorial",
+          "used": "Origine magnetosferica degli elettroni notturni, riconnessione e colori. Visibilità a occhio diversa dalla fotografia."
+        },
+        {
+          "title": "NASA — What Is the Solar Wind?",
+          "url": "https://science.nasa.gov/sun/what-is-the-solar-wind/",
+          "used": "Flusso di plasma e interazione con lo scudo magnetico."
+        },
+        {
+          "title": "NASA — Magnetospheres",
+          "url": "https://science.nasa.gov/heliophysics/focus-areas/magnetosphere-ionosphere/",
+          "used": "Compressione sul lato diurno e coda magnetica."
+        },
+        {
+          "title": "INAF Torino — Bemporad, Sole e attività solare",
+          "url": "https://www.oato.inaf.it/wp-content/uploads/2021/02/02.Sole-e-attivita-solare.pdf",
+          "used": "Passaggio sui colori consultato: ossigeno rosso/verde e azoto blu/violetto; non ripubblicate slide."
+        }
+      ],
+      "sha256": "f4f012fd6ff3f840a5ad9a913ed463bdb33e0c9159c14bdae09c6bef6d3d977d"
+    },
+    {
+      "id": "SS-05",
+      "area": "sistema-solare",
+      "title": "I pianeti rocciosi",
+      "replaces": [
+        "S07"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/SS-05.png",
+      "pdf": "assets/poster/revisioni-20261023/SS-05.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/SS-05.webp",
+      "sources": [
+        {
+          "title": "NASA — Mercury Facts",
+          "url": "https://science.nasa.gov/mercury/facts/",
+          "used": "Mercurio senza lune, esosfera e nucleo metallico; nessuna ripresa dei parametri assiali dubbiosi della pagina."
+        },
+        {
+          "title": "NASA — Venus Facts",
+          "url": "https://science.nasa.gov/venus/venus-facts/",
+          "used": "AtmosferaCO2,pressione,superficiecalda, campoindotto distinto da dinamo."
+        },
+        {
+          "title": "NASA — Earth Facts",
+          "url": "https://science.nasa.gov/earth/facts/",
+          "used": "Crosta e nuclei,atmosfera edoceano. Non copiare descrizione mantello «moltenrock»: precisata daUSGS."
+        },
+        {
+          "title": "NASA — Mars Facts",
+          "url": "https://science.nasa.gov/mars/facts/",
+          "used": "Atmosfera tenue, ghiaccio, ossidazioneregolo. Brine stagionaliequivalenze biologiche nonadottate."
+        },
+        {
+          "title": "NASA JPL — Physical Parameters",
+          "url": "https://ssd.jpl.nasa.gov/planets/phys_par.html",
+          "used": "Raggi medi2439,4/6051,8/6371,0084/3389,5km; rapportialdiametroTerra0,383/0,950/1/0,532. Vecchio0,949Venere differenza daequatoriale arrotondata, chiarire se mantenuta."
+        },
+        {
+          "title": "USGS — Are plates floating on magma?",
+          "url": "https://www.usgs.gov/faqs/are-tectonic-plates-floating-magma",
+          "used": "Mantello prevalentementesolido che fluisce su tempi geologici; fusioneparziale localizzata, non oceano di magma."
+        }
+      ],
+      "sha256": "1f6414a60bb0baa2243c4ea029255fc427c1ca982cf36ac37a5eb818c5689859"
+    },
+    {
       "id": "SS-06",
       "area": "sistema-solare",
       "title": "Venere, Terra e Marte: tre atmosfere",
@@ -1253,6 +1704,96 @@
         }
       ],
       "sha256": "357ce3810d27360306fb0f4c219017dc70dceb6575eff15f74a8dd9a31d02842"
+    },
+    {
+      "id": "SS-07",
+      "area": "sistema-solare",
+      "title": "Giganti gassosi e ghiacciati",
+      "replaces": [
+        "S08"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/SS-07.png",
+      "pdf": "assets/poster/revisioni-20261023/SS-07.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/SS-07.webp",
+      "sources": [
+        {
+          "title": "NASA — Jupiter Facts",
+          "url": "https://science.nasa.gov/jupiter/jupiter-facts/",
+          "used": "Composizione e regione centrale diluita; escluso nucleo roccioso compatto come struttura accertata."
+        },
+        {
+          "title": "NASA — Saturn",
+          "url": "https://science.nasa.gov/saturn/",
+          "used": "Composizione dominata da idrogeno ed elio."
+        },
+        {
+          "title": "NASA — Uranus Facts",
+          "url": "https://science.nasa.gov/Uranus/facts/",
+          "used": "Famiglia dei giganti ghiacciati; nessun conteggio fisso delle lune."
+        },
+        {
+          "title": "NASA — Juno",
+          "url": "https://science.nasa.gov/mission/juno/",
+          "used": "Inferenze sul nucleo diluito dai dati gravitazionali."
+        },
+        {
+          "title": "NASA NTRS — Introducing the Ice Giants",
+          "url": "https://ntrs.nasa.gov/api/citations/20205009899/downloads/2020fletcher_IGsystems_intro.pdf",
+          "used": "Introduzione consultata: composizione e limiti dei modelli interni; non lettura integrale del PDF."
+        },
+        {
+          "title": "NASA JPL — Planetary Physical Parameters",
+          "url": "https://ssd.jpl.nasa.gov/planets/phys_par.html",
+          "used": "Masse, raggi medi volumetrici e densità; rapporti rispetto alla Terra calcolati e arrotondati."
+        }
+      ],
+      "sha256": "910ad7b06b8a5014855179c19872095276e4111ebaa6884b7f5664ccfb557025"
+    },
+    {
+      "id": "SS-08",
+      "area": "sistema-solare",
+      "title": "Pianeti nani e piccoli corpi",
+      "replaces": [
+        "S09"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/SS-08.png",
+      "pdf": "assets/poster/revisioni-20261023/SS-08.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/SS-08.webp",
+      "sources": [
+        {
+          "title": "IAU — Resolution B5/B6, 2006",
+          "url": "https://www.iau.org/static/resolutions/Resolution_GA26-5-6.pdf",
+          "used": "Testo della risoluzione recuperato nel risultato indicizzato; URL diretto ha restituito 404, limite conservato. Definizione completa, satellite escluso."
+        },
+        {
+          "title": "NASA — Dwarf Planets Overview",
+          "url": "https://science.nasa.gov/dwarf-planets/",
+          "used": "Categoria e confronto degli esempi; non usata come sola definizione normativa."
+        },
+        {
+          "title": "NASA — Ceres Facts",
+          "url": "https://science.nasa.gov/dwarf-planets/ceres/facts/",
+          "used": "Fascia principale, Dawn nel 2015 e depositi salini. Raggio generico 476 km non usato per il diametro medio."
+        },
+        {
+          "title": "NASA — Pluto Facts",
+          "url": "https://science.nasa.gov/dwarf-planets/pluto/facts/",
+          "used": "New Horizons 2015, regione transnettuniana e intervalli con distanza dal Sole inferiore a Nettuno."
+        },
+        {
+          "title": "NASA — Kuiper Belt Facts",
+          "url": "https://science.nasa.gov/solar-system/kuiper-belt/facts/",
+          "used": "Regione esterna estesa e distinta dalla nube di Oort; esclusa rappresentazione di muro denso di asteroidi."
+        },
+        {
+          "title": "NASA JPL — Planetary Physical Parameters",
+          "url": "https://ssd.jpl.nasa.gov/planets/phys_par.html",
+          "used": "Raggi medi 469,7 e 1188,3 km: diametri arrotondati 940 e 2377 km."
+        }
+      ],
+      "sha256": "147791789fa91f3ba708195fa791c0b31b55930168a9be13f037b8b4e9199860"
     },
     {
       "id": "SS-09",
@@ -1356,6 +1897,51 @@
       "sha256": "cd35507935d72f6bbc8863534ff9d962173e2d6c73586d585f812b36149ff98f"
     },
     {
+      "id": "SS-13",
+      "area": "sistema-solare",
+      "title": "Perché cambiano le stagioni?",
+      "replaces": [
+        "S05"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/SS-13.png",
+      "pdf": "assets/poster/revisioni-20261023/SS-13.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/SS-13.webp",
+      "sources": [
+        {
+          "title": "NASA — Earth Facts",
+          "url": "https://science.nasa.gov/earth/facts/",
+          "used": "Valore23,4° e stagioni. La pagina scrive rispetto al piano: formulazione errata, qui corretta rispetto alla normale con confronto geometrico e SpacePlace."
+        },
+        {
+          "title": "NASA Earth Observatory — An Epic View of the Seasons",
+          "url": "https://science.nasa.gov/earth/earth-observatory/an-epic-view-of-the-seasons/",
+          "used": "Rapporto tra inclinazione e stagioni; immagini non ripubblicate."
+        },
+        {
+          "title": "ESA — Earth, traveller in space",
+          "url": "https://www.esa.int/kids/en/learn/Our_Universe/Planets_and_moons/Earth_traveller_in_space",
+          "used": "Stagioni opposte negli emisferi; no numeri orbitali trattati come dati di precisione."
+        },
+        {
+          "title": "Angelo Angeletti — Appunti, PDF p.193",
+          "url": "https://www.angeloangeletti.it/MATERIALI_LICEO/APPUNTI%20DI%20ASTRONOMIA.pdf",
+          "used": "Stagioni astronomiche e meteorologiche, accumulo di calore e durata."
+        },
+        {
+          "title": "INAF Torino — Lattanzi, PDF p.62",
+          "url": "https://www.oato.inaf.it/biblioteca/pdf/TechRep078_Lattanzi.pdf",
+          "used": "Durate stagionali e apsidi; tabelle1969non usate come valori attuali."
+        },
+        {
+          "title": "Marco Monaci — Corso, PDF pp.32–33",
+          "url": "",
+          "used": "Perielio non coincide con solstizio. Esclusi12segni come costellazioni attraversate, equinozio esattamente12ore e decimali23,26°errati."
+        }
+      ],
+      "sha256": "9406ff090f510a863542d28ac408e120a3d6cafb224f0cb9a96514df08b42aae"
+    },
+    {
       "id": "SS-14",
       "area": "sistema-solare",
       "title": "L’orbita della Luna e la stessa faccia",
@@ -1397,6 +1983,141 @@
         }
       ],
       "sha256": "ffdbcb92297c95be2fb688a1bd06e19685bec2884d7cd9a9d4b77ca683b09964"
+    },
+    {
+      "id": "SS-15",
+      "area": "sistema-solare",
+      "title": "Leggere il paesaggio lunare",
+      "replaces": [
+        "S04"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/SS-15.png",
+      "pdf": "assets/poster/revisioni-20261023/SS-15.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/SS-15.webp",
+      "sources": [
+        {
+          "title": "NASA — Moon Viewing Tips",
+          "url": "https://science.nasa.gov/moon/viewing-tips/",
+          "used": "Terminator e rilievi, pianure basaltiche e altopiani anortositici."
+        },
+        {
+          "title": "ESA SMART-1 — Highlands and Mare Landscapes",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/SMART-1/Highlands_and_Mare_landscapes_on_the_Moon",
+          "used": "Differenza fra mari relativamente lisci e altopiani craterizzati."
+        },
+        {
+          "title": "NASA — Moon Facts",
+          "url": "https://science.nasa.gov/moon/facts/",
+          "used": "Superficie e crateri da impatto; escluso ogni conteggio cronologico troppo generale."
+        },
+        {
+          "title": "NASA — Wrinkle Ridge in Mare Crisium",
+          "url": "https://science.nasa.gov/resource/wrinkle-ridge-in-mare-crisium/",
+          "used": "Basalti da colate vulcaniche e deformazioni successive; non fotografia del poster."
+        },
+        {
+          "title": "Lorenzo Roi — Corso1, PDF p.11",
+          "url": "https://www.lorenzoroi.net/prelievi/CorsoAstro1.pdf",
+          "used": "Mari, rilievi, contrasto a Luna piena; albedo7%non generalizzata."
+        },
+        {
+          "title": "Angelo Angeletti — Appunti, PDF p.239",
+          "url": "https://www.angeloangeletti.it/MATERIALI_LICEO/APPUNTI%20DI%20ASTRONOMIA.pdf",
+          "used": "Confronto tra terreni e origine dei rilievi; escluso geologicamente morto come affermazione assoluta."
+        }
+      ],
+      "sha256": "97731bea5b48233a20aa213354836175bbb4af44fc25a2a787e58bb482ed41c7"
+    },
+    {
+      "id": "SS-16",
+      "area": "sistema-solare",
+      "title": "Perché la Luna cambia forma?",
+      "replaces": [
+        "S03"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/SS-16.png",
+      "pdf": "assets/poster/revisioni-20261023/SS-16.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/SS-16.webp",
+      "sources": [
+        {
+          "title": "NASA — Moon Phases",
+          "url": "https://science.nasa.gov/moon/moon-phases/",
+          "used": "Semisfera illuminata e frazione visibile, ciclo29,5giorni."
+        },
+        {
+          "title": "NASA — Moon Facts",
+          "url": "https://science.nasa.gov/moon/facts/",
+          "used": "Orbita e periodo siderale circa27,3giorni."
+        },
+        {
+          "title": "US Naval Observatory — Moon Phases",
+          "url": "https://aa.usno.navy.mil/faq/moon_phases",
+          "used": "Quattro istanti principali e ciclo continuo, differenza fase e frazione illuminata."
+        },
+        {
+          "title": "Angelo Angeletti — Appunti, PDF p.226",
+          "url": "https://www.angeloangeletti.it/MATERIALI_LICEO/APPUNTI%20DI%20ASTRONOMIA.pdf",
+          "used": "Geometria relativa Sole Terra Luna; allineamenti approssimati distinti dalle eclissi."
+        },
+        {
+          "title": "SAIt — Bignamino, PDF p.169",
+          "url": "https://www.sait.it/sites/sait.interlandia.net/files/pictures/notizie/2022/Bignamino_astronomia_2022.pdf",
+          "used": "Mese sinodico29,5306giorni in esempio."
+        },
+        {
+          "title": "Marco Monaci — Corso, PDF pp.33–34",
+          "url": "",
+          "used": "Quadrature e differenza sinodico/siderale. Escluse spiegazioni inesatte su assi e librazione; qui non utilizzate."
+        }
+      ],
+      "sha256": "3e953f5510cc8843e92df8252c7ded823b6e2018af8906db4b693dfb0573f729"
+    },
+    {
+      "id": "SS-17",
+      "area": "sistema-solare",
+      "title": "L’eclissi di Sole",
+      "replaces": [
+        "S06"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/SS-17.png",
+      "pdf": "assets/poster/revisioni-20261023/SS-17.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/SS-17.webp",
+      "sources": [
+        {
+          "title": "NASA — Types of Solar Eclipses",
+          "url": "https://science.nasa.gov/eclipses/types/",
+          "used": "Totale, parziale, anulare e ibrida; passaggi specifici letti."
+        },
+        {
+          "title": "NASA — Eclipse Viewing Safety",
+          "url": "https://science.nasa.gov/eclipses/safety/",
+          "used": "Filtri frontali idonei, occhiali non usabili attraverso strumenti."
+        },
+        {
+          "title": "NASA GSFC — Five Millennium Solar Eclipse Catalog",
+          "url": "https://eclipse.gsfc.nasa.gov/SEcat5/SEcatalog.html",
+          "used": "Umbra, antumbra, penombra e nodi; distinte totali centrali e non centrali."
+        },
+        {
+          "title": "SAIt — Bignamino, PDF p.97",
+          "url": "https://www.sait.it/sites/sait.interlandia.net/files/pictures/notizie/2022/Bignamino_astronomia_2022.pdf",
+          "used": "Geometria intorno al novilunio e ai nodi; nessun limite di larghezza assunto universale."
+        },
+        {
+          "title": "Marco Monaci — Corso, PDF p.35",
+          "url": "",
+          "used": "Paragrafo letto localmente; diametri apparenti solo approssimativamente uguali, dipendono dalle distanze."
+        },
+        {
+          "title": "EduINAF — Ombre di stelle",
+          "url": "https://edu.inaf.it/approfondimenti/scoperte/ombre-di-stelle-storia-e-scienza-delle-eclissi-solari",
+          "used": "Contesto divulgativo e storico; evento agosto2026non presentato come futuro."
+        }
+      ],
+      "sha256": "3b6c67ae9fd8e3d99fbfb37d21354615335d097c4cd3bff3630707d8c2a8a5f1"
     },
     {
       "id": "SS-18",
@@ -1487,6 +2208,51 @@
       "sha256": "4ee3f8f32028934dcb8c58a82710e9e8b9acc910fbaf6dcb344aab7514e53178"
     },
     {
+      "id": "SA-01",
+      "area": "strumenti",
+      "title": "Preparare una serata osservativa",
+      "replaces": [
+        "tavola-40"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/SA-01.png",
+      "pdf": "assets/poster/revisioni-20261023/SA-01.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/SA-01.webp",
+      "sources": [
+        {
+          "title": "NASA — Skywatching FAQ",
+          "url": "https://science.nasa.gov/skywatching/faq/",
+          "used": "Luogo, strumenti e possibilità osservative."
+        },
+        {
+          "title": "NASA NSN — Stargazing for Beginners",
+          "url": "https://science.nasa.gov/solar-system/skywatching/night-sky-network/may2024-night-sky-notes/",
+          "used": "Pianificazione, fasi lunari e adattamento al buio; non limitato alla sola pupilla."
+        },
+        {
+          "title": "British Astronomical Association — Hints and Tips",
+          "url": "https://britastro.org/section_information_/hints-and-tips-for-visual-observing",
+          "used": "Allineamento diurno, luce rossa tenue, adattamento e rispetto degli altri."
+        },
+        {
+          "title": "US National Park Service — Astronomy",
+          "url": "https://www.nps.gov/articles/000/astronomy.htm",
+          "used": "Circa20–30minuti e influenza della Luna; nessuna promessa di tempo uguale per tutti."
+        },
+        {
+          "title": "Hong Kong Space Museum — Stargazing Basics",
+          "url": "https://hk.space.museum/en/web/spm/resources/observation-skills.html",
+          "used": "Luci, indumenti, sorgenti di calore e attenzione agli altri osservatori."
+        },
+        {
+          "title": "Sky-Watcher — STARQUEST2, pp.8,10,16–19",
+          "url": "https://inter-static.skywatcher.com/downloads/bzl01-y01-202_starquest2.pdf",
+          "used": "Montaggio, cercatore e basso ingrandimento; esclusi refusi annotati nel dossier delle ottiche."
+        }
+      ],
+      "sha256": "0527720342c2766ba1282105495f8781f77eb8d76ef3cb7b9e6eae051bc749f6"
+    },
+    {
       "id": "SA-02",
       "area": "strumenti",
       "title": "Esplorare il cielo con il binocolo",
@@ -1537,6 +2303,51 @@
       "sha256": "7b6ba89ee43cd4545da51f26ecb0a10a86aa11b07b0f85407f312e50e20fb727"
     },
     {
+      "id": "SA-03",
+      "area": "strumenti",
+      "title": "Scegliere e capire un binocolo",
+      "replaces": [
+        "tavola-31"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/SA-03.png",
+      "pdf": "assets/poster/revisioni-20261023/SA-03.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/SA-03.webp",
+      "sources": [
+        {
+          "title": "NASA Night Sky Network — Binoculars",
+          "url": "https://science.nasa.gov/solar-system/skywatching/night-sky-network/binoculars-a-great-first-telescope/",
+          "used": "Ammassi, Luna, M31 e M42 con condizioni favorevoli; anelli non normalmente risolti. Esclusa generalizzazione prismiPorro→maggiore ingrandimento: non proprietà necessaria."
+        },
+        {
+          "title": "Celestron — Interpupillary Distance",
+          "url": "https://www.celestron.com/blogs/knowledgebase/what-is-interpupillary-distance-how-do-i-adjust-it-on-my-binoculars",
+          "used": "IPD regolata alla distanza occhi, campi sovrapposti. Regolazione non sostituisce collimazione se diplopia persiste."
+        },
+        {
+          "title": "Celestron — Diopter Compensation",
+          "url": "https://www.celestron.com/blogs/knowledgebase/setting-the-diopter-compensation-adjustment-dial-on-a-binocular",
+          "used": "Differenza fra occhi, fuoco centrale e diottria in modello descritto. Poster rimanda al manuale perché non tutti i binocoli sono identici."
+        },
+        {
+          "title": "Nikon — Choose by specifications",
+          "url": "https://imaging.nikon.com/sport-optics/guide/binoculars/choosing/choosing_02/",
+          "used": "Pupilla uscitaD/M; ingrandimento, tremolio e diametro. Frase pupilla più grande sempre più luminosa resa condizionale per occhio e cielo."
+        },
+        {
+          "title": "Nikon — WX specifications",
+          "url": "https://imaging.nikon.com/sport-optics/lineup/binoculars/wx/sp/products/specifications/",
+          "used": "Riscontro numerico50/10=5mm,50/7≈7,1mm. Nessuna scheda commerciale o misura di campo attribuita al binocolo generico illustrato."
+        },
+        {
+          "title": "Nikon — Magnification",
+          "url": "https://imaging.nikon.com/sport-optics/guide/binoculars/basic/basic_03/",
+          "used": "Ingrandimento, vibrazioni e supporto. Nessuna garanzia universale campo=inversoingrandimento, dipende anche dall’oculare."
+        }
+      ],
+      "sha256": "b6c383ef518ed942e8336270b41e49437f5b59f52ffe7866be3532137ee0ca32"
+    },
+    {
       "id": "SA-04",
       "area": "strumenti",
       "title": "Cavalletto e supporti",
@@ -1578,6 +2389,321 @@
         }
       ],
       "sha256": "20314731a2c2770e7093287a768baa9fd854960bdd58a02ff3dd57374c048df8"
+    },
+    {
+      "id": "SA-05",
+      "area": "strumenti",
+      "title": "Quale telescopio per il mio progetto?",
+      "replaces": [
+        "tavola-36"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/SA-05.png",
+      "pdf": "assets/poster/revisioni-20261023/SA-05.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/SA-05.webp",
+      "sources": [
+        {
+          "title": "Celestron — How to Buy Your First Telescope",
+          "url": "https://www.celestron.com/pages/how-to-buy-your-first-telescope",
+          "used": "Famiglie ottiche e scelte in funzione del progetto; non classifica commerciale."
+        },
+        {
+          "title": "Celestron — Optical Tubes",
+          "url": "https://www.celestron.com/blogs/knowledgebase/the-ultimate-guide-to-celestron-optical-tubes",
+          "used": "Obiettivo rifrattore e due specchi Newton. Campo non attribuito al solo rapporto focale."
+        },
+        {
+          "title": "Sky-Watcher — STARQUEST2 manual, pp.8,10,16,18–19",
+          "url": "https://inter-static.skywatcher.com/downloads/bzl01-y01-202_starquest2.pdf",
+          "used": "Manuale scaricato e passaggi letti: cercatore, fuoco, ingrandimento e collimazione. Escluso refuso Luna0,5°=3arcmin: sono30arcmin."
+        },
+        {
+          "title": "Sky-Watcher — FAQ",
+          "url": "https://www.skywatcher.com/faq/",
+          "used": "Rinvio a90° del secondario e necessità di supporti robusti. Escluse generalizzazioni su200x/2secondi e filtri che triplicano i dettagli."
+        },
+        {
+          "title": "Marco Monaci — Corso di astronomia, PDF pp.45–47",
+          "url": "",
+          "used": "Lettura locale: rifrattore kepleriano e Newton. Escluse equivalenza assoluta doppietto/acromatico-tripletto/apocromatico e focale Newton doppia del tubo."
+        },
+        {
+          "title": "Fulvio Mete — Cenni per neofiti, PDF pp.6–8",
+          "url": "",
+          "used": "Lettura locale: ingombro, apertura e schema Newton; prezzi e raccomandazioni di modelli storici esclusi."
+        }
+      ],
+      "sha256": "6c07ccee0ab2331c420853db3b5113f7770e3e171fd8826de2e9e9c47d9f2410"
+    },
+    {
+      "id": "SA-06",
+      "area": "strumenti",
+      "title": "Il rifrattore",
+      "replaces": [
+        "tavola-32"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/SA-06.png",
+      "pdf": "assets/poster/revisioni-20261023/SA-06.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/SA-06.webp",
+      "sources": [
+        {
+          "title": "Celestron — How to Buy Your First Telescope",
+          "url": "https://www.celestron.com/pages/how-to-buy-your-first-telescope",
+          "used": "Famiglie ottiche e scelte in funzione del progetto; non classifica commerciale."
+        },
+        {
+          "title": "Celestron — Optical Tubes",
+          "url": "https://www.celestron.com/blogs/knowledgebase/the-ultimate-guide-to-celestron-optical-tubes",
+          "used": "Obiettivo rifrattore e due specchi Newton. Campo non attribuito al solo rapporto focale."
+        },
+        {
+          "title": "Sky-Watcher — STARQUEST2 manual, pp.8,10,16,18–19",
+          "url": "https://inter-static.skywatcher.com/downloads/bzl01-y01-202_starquest2.pdf",
+          "used": "Manuale scaricato e passaggi letti: cercatore, fuoco, ingrandimento e collimazione. Escluso refuso Luna0,5°=3arcmin: sono30arcmin."
+        },
+        {
+          "title": "Sky-Watcher — FAQ",
+          "url": "https://www.skywatcher.com/faq/",
+          "used": "Rinvio a90° del secondario e necessità di supporti robusti. Escluse generalizzazioni su200x/2secondi e filtri che triplicano i dettagli."
+        },
+        {
+          "title": "Marco Monaci — Corso di astronomia, PDF pp.45–47",
+          "url": "",
+          "used": "Lettura locale: rifrattore kepleriano e Newton. Escluse equivalenza assoluta doppietto/acromatico-tripletto/apocromatico e focale Newton doppia del tubo."
+        },
+        {
+          "title": "Fulvio Mete — Cenni per neofiti, PDF pp.6–8",
+          "url": "",
+          "used": "Lettura locale: ingombro, apertura e schema Newton; prezzi e raccomandazioni di modelli storici esclusi."
+        }
+      ],
+      "sha256": "b5931c61723f53789c8c4741273793e2660a8fc479ca5363394d2a393081e105"
+    },
+    {
+      "id": "SA-07",
+      "area": "strumenti",
+      "title": "Il Newton",
+      "replaces": [
+        "tavola-33"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/SA-07.png",
+      "pdf": "assets/poster/revisioni-20261023/SA-07.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/SA-07.webp",
+      "sources": [
+        {
+          "title": "Celestron — How to Buy Your First Telescope",
+          "url": "https://www.celestron.com/pages/how-to-buy-your-first-telescope",
+          "used": "Famiglie ottiche e scelte in funzione del progetto; non classifica commerciale."
+        },
+        {
+          "title": "Celestron — Optical Tubes",
+          "url": "https://www.celestron.com/blogs/knowledgebase/the-ultimate-guide-to-celestron-optical-tubes",
+          "used": "Obiettivo rifrattore e due specchi Newton. Campo non attribuito al solo rapporto focale."
+        },
+        {
+          "title": "Sky-Watcher — STARQUEST2 manual, pp.8,10,16,18–19",
+          "url": "https://inter-static.skywatcher.com/downloads/bzl01-y01-202_starquest2.pdf",
+          "used": "Manuale scaricato e passaggi letti: cercatore, fuoco, ingrandimento e collimazione. Escluso refuso Luna0,5°=3arcmin: sono30arcmin."
+        },
+        {
+          "title": "Sky-Watcher — FAQ",
+          "url": "https://www.skywatcher.com/faq/",
+          "used": "Rinvio a90° del secondario e necessità di supporti robusti. Escluse generalizzazioni su200x/2secondi e filtri che triplicano i dettagli."
+        },
+        {
+          "title": "Marco Monaci — Corso di astronomia, PDF pp.45–47",
+          "url": "",
+          "used": "Lettura locale: rifrattore kepleriano e Newton. Escluse equivalenza assoluta doppietto/acromatico-tripletto/apocromatico e focale Newton doppia del tubo."
+        },
+        {
+          "title": "Fulvio Mete — Cenni per neofiti, PDF pp.6–8",
+          "url": "",
+          "used": "Lettura locale: ingombro, apertura e schema Newton; prezzi e raccomandazioni di modelli storici esclusi."
+        }
+      ],
+      "sha256": "cec975a0afa6a89557f30e14cbbb44700bedd0d281d72e94dd7be5c49c2d1910"
+    },
+    {
+      "id": "SA-08",
+      "area": "strumenti",
+      "title": "Il Dobson",
+      "replaces": [
+        "tavola-34"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/SA-08.png",
+      "pdf": "assets/poster/revisioni-20261023/SA-08.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/SA-08.webp",
+      "sources": [
+        {
+          "title": "Celestron — Optical Tubes",
+          "url": "https://www.celestron.com/blogs/knowledgebase/the-ultimate-guide-to-celestron-optical-tubes",
+          "used": "Famiglie e funzionamento ottico, senza trasformare vantaggi commerciali in assoluti."
+        },
+        {
+          "title": "Celestron — First Telescope",
+          "url": "https://www.celestron.com/pages/how-to-buy-your-first-telescope",
+          "used": "Scelta in funzione dell’uso e supporti."
+        },
+        {
+          "title": "Sky-Watcher — Solid Tube Dobsonian, PDF pp.7,10",
+          "url": "https://inter-static.skywatcher.com/upfiles/en_download_caty01316546357.pdf",
+          "used": "Due assi, attriti, bilanciamento e collimazione; convenzione azimut Nord verso Est."
+        },
+        {
+          "title": "Fulvio Mete — Cenni per neofiti, PDF pp.17,20,22",
+          "url": "",
+          "used": "Montature, Dobson e forcella; esclusi solo visuale, solo bassi ingrandimenti, materiali precari come proprietà necessarie."
+        },
+        {
+          "title": "Celestron — Field Rotation",
+          "url": "https://www.celestron.com/blogs/knowledgebase/what-is-field-rotation-how-does-it-affect-my-scope-s-viewing-and-imaging",
+          "used": "Inseguire al centro non elimina rotazione di campo. Esclusa impossibilità assoluta di fotografia altazimutale con derotatore o pose brevi."
+        },
+        {
+          "title": "Marco Monaci — Corso, PDF p.46",
+          "url": "",
+          "used": "Ottica Newton e secondario piano; non focale doppia del tubo."
+        }
+      ],
+      "sha256": "01e368b832087169f630251215bdb713d855a4ff1e139f745110020099364783"
+    },
+    {
+      "id": "SA-09",
+      "area": "strumenti",
+      "title": "I catadiottrici",
+      "replaces": [
+        "tavola-35"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/SA-09.png",
+      "pdf": "assets/poster/revisioni-20261023/SA-09.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/SA-09.webp",
+      "sources": [
+        {
+          "title": "Celestron — Optical Tubes",
+          "url": "https://www.celestron.com/blogs/knowledgebase/the-ultimate-guide-to-celestron-optical-tubes",
+          "used": "Famiglie e funzionamento ottico, senza trasformare vantaggi commerciali in assoluti."
+        },
+        {
+          "title": "Celestron — First Telescope",
+          "url": "https://www.celestron.com/pages/how-to-buy-your-first-telescope",
+          "used": "Scelta in funzione dell’uso e supporti."
+        },
+        {
+          "title": "Celestron — SCT Optical Tube Manual, PDF p.2",
+          "url": "https://s3.amazonaws.com/celestron-site-support-files/support_files/1299179004_91024inst0405.pdf",
+          "used": "Correttore frontale, due specchi e uscita posteriore."
+        },
+        {
+          "title": "Fulvio Mete — Cenni, PDF pp.10–12",
+          "url": "",
+          "used": "Lettura dei passaggi SCT; esclusa equivalenza EdgeHD/ACF come campo sempre piano e tiraggio senza limiti."
+        },
+        {
+          "title": "Marco Monaci — Corso, PDF p.47",
+          "url": "",
+          "used": "Catadiottrico combina riflessione e rifrazione; non tutte le configurazioni Cassegrain hanno lo stesso schema."
+        },
+        {
+          "title": "Sky-Watcher — STARQUEST2, PDF pp.3,10",
+          "url": "https://inter-static.skywatcher.com/downloads/bzl01-y01-202_starquest2.pdf",
+          "used": "Presenza del Maksutov e uso di fuoco/oculare; non prova di superiorità."
+        }
+      ],
+      "sha256": "5f7c26886bbca0cfe6e24864c468027a3d2c9f8d2b3551ce4102d0bf3d4c2e52"
+    },
+    {
+      "id": "SA-10",
+      "area": "strumenti",
+      "title": "La montatura altazimutale",
+      "replaces": [
+        "tavola-27"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/SA-10.png",
+      "pdf": "assets/poster/revisioni-20261023/SA-10.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/SA-10.webp",
+      "sources": [
+        {
+          "title": "Sky-Watcher — AZ4, PDF p.6",
+          "url": "https://inter-static.skywatcher.com/upfiles/en_download_caty01334362158.pdf",
+          "used": "Altezza e azimut, frizioni, bilanciamento e inseguimento."
+        },
+        {
+          "title": "Sky-Watcher — Solid Tube Dobsonian, PDF pp.7,10",
+          "url": "https://inter-static.skywatcher.com/upfiles/en_download_caty01316546357.pdf",
+          "used": "Due assi, attriti, bilanciamento e collimazione; convenzione azimut Nord verso Est."
+        },
+        {
+          "title": "Celestron — Field Rotation",
+          "url": "https://www.celestron.com/blogs/knowledgebase/what-is-field-rotation-how-does-it-affect-my-scope-s-viewing-and-imaging",
+          "used": "Inseguire al centro non elimina rotazione di campo. Esclusa impossibilità assoluta di fotografia altazimutale con derotatore o pose brevi."
+        },
+        {
+          "title": "Celestron — CPC Manual, PDF pp.17,20,30",
+          "url": "https://s3.amazonaws.com/celestron-site-support-files/support_files/1250207163_cpcmaster0809.pdf",
+          "used": "Passaggi su modalità AZ/EQ e cuneo; escluso refuso RA/Dec invece di altezza/azimut nel testo dell’inseguimento AZ."
+        },
+        {
+          "title": "SAIt — Bignamino, PDF p.34",
+          "url": "https://www.sait.it/sites/sait.interlandia.net/files/pictures/notizie/2022/Bignamino_astronomia_2022.pdf",
+          "used": "Coordinate orizzontali; convenzione Sud della fonte distinta dalla convenzione Nord verso Est AD ASTRA."
+        },
+        {
+          "title": "Fulvio Mete — Cenni per neofiti, PDF pp.17,20,22",
+          "url": "",
+          "used": "Montature, Dobson e forcella; esclusi solo visuale, solo bassi ingrandimenti, materiali precari come proprietà necessarie."
+        }
+      ],
+      "sha256": "7a6cdd8da24f0d4d751f87adb4f41df6d656dec460c12ed8a99837d6cf489b91"
+    },
+    {
+      "id": "SA-11",
+      "area": "strumenti",
+      "title": "Il supporto a forcella",
+      "replaces": [
+        "tavola-26"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/SA-11.png",
+      "pdf": "assets/poster/revisioni-20261023/SA-11.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/SA-11.webp",
+      "sources": [
+        {
+          "title": "Celestron — Understanding Wedges",
+          "url": "https://www.celestron.com/blogs/knowledgebase/understanding-wedges-for-alt-az-telescopes",
+          "used": "Inclinazione dell’intera forcella, asse parallelo alla rotazione terrestre;30–60secondi non soglia universale."
+        },
+        {
+          "title": "Celestron — HD Pro Wedge Manual, PDF pp.1–3",
+          "url": "https://s3.amazonaws.com/celestron-site-support-files/support_files/1285605206_93664prowedgema.pdf",
+          "used": "Posizione dell’asse polare e relazione con latitudine, non semplice tubo puntato al polo."
+        },
+        {
+          "title": "Celestron — CPC Manual, PDF pp.17,20,30",
+          "url": "https://s3.amazonaws.com/celestron-site-support-files/support_files/1250207163_cpcmaster0809.pdf",
+          "used": "Passaggi su modalità AZ/EQ e cuneo; escluso refuso RA/Dec invece di altezza/azimut nel testo dell’inseguimento AZ."
+        },
+        {
+          "title": "Celestron — Field Rotation",
+          "url": "https://www.celestron.com/blogs/knowledgebase/what-is-field-rotation-how-does-it-affect-my-scope-s-viewing-and-imaging",
+          "used": "Inseguire al centro non elimina rotazione di campo. Esclusa impossibilità assoluta di fotografia altazimutale con derotatore o pose brevi."
+        },
+        {
+          "title": "Fulvio Mete — Cenni per neofiti, PDF pp.17,20,22",
+          "url": "",
+          "used": "Montature, Dobson e forcella; esclusi solo visuale, solo bassi ingrandimenti, materiali precari come proprietà necessarie."
+        },
+        {
+          "title": "Sky-Watcher — Solid Tube Dobsonian, PDF pp.7,10",
+          "url": "https://inter-static.skywatcher.com/upfiles/en_download_caty01316546357.pdf",
+          "used": "Due assi, attriti, bilanciamento e collimazione; convenzione azimut Nord verso Est."
+        }
+      ],
+      "sha256": "a21f8d98c4e11c52f69b10399243c8142ceb9ad75e004c6a682bea9eb56970e4"
     },
     {
       "id": "SA-12",
