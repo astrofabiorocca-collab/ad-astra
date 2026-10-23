@@ -1,11 +1,11 @@
 {
   "date": "2026-10-23",
-  "scope": "78 edizioni autorizzate e revisionate; restanti tavole ancora da revisionare",
+  "scope": "85 edizioni autorizzate e revisionate; restanti tavole ancora da revisionare",
   "print_masters": false,
   "counts": {
     "imparare": {
       "available": 26,
-      "updated": 19
+      "updated": 26
     },
     "universo": {
       "available": 24,
@@ -21,6 +21,52 @@
     }
   },
   "posters": [
+    {
+      "id": "IC-01",
+      "area": "imparare",
+      "title": "Torniamo a guardare il cielo",
+      "replaces": [
+        "tavola-1"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/IC-01.png",
+      "pdf": "assets/poster/revisioni-20261023/IC-01.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/IC-01.webp",
+      "sources": [
+        {
+          "title": "NASA — Skywatching FAQ",
+          "url": "https://science.nasa.gov/skywatching/faq/",
+          "used": "Luogo, strumenti e possibilità osservative."
+        },
+        {
+          "title": "NASA NSN — Stargazing for Beginners",
+          "url": "https://science.nasa.gov/solar-system/skywatching/night-sky-network/may2024-night-sky-notes/",
+          "used": "Pianificazione, fasi lunari e adattamento al buio; non limitato alla sola pupilla."
+        },
+        {
+          "title": "British Astronomical Association — Hints and Tips",
+          "url": "https://britastro.org/section_information_/hints-and-tips-for-visual-observing",
+          "used": "Allineamento diurno, luce rossa tenue, adattamento e rispetto degli altri."
+        },
+        {
+          "title": "US National Park Service — Astronomy",
+          "url": "https://www.nps.gov/articles/000/astronomy.htm",
+          "used": "Circa20–30minuti e influenza della Luna; nessuna promessa di tempo uguale per tutti."
+        },
+        {
+          "title": "Hong Kong Space Museum — Stargazing Basics",
+          "url": "https://hk.space.museum/en/web/spm/resources/observation-skills.html",
+          "used": "Luci, indumenti, sorgenti di calore e attenzione agli altri osservatori."
+        },
+        {
+          "title": "Fabio Rocca — Prima dell’oculare",
+          "file": "banca-didattica-personale/documenti/testi/fabio-uai-impariamo-cielo.txt",
+          "locator": "Passaggi su prima osservazione, riferimenti e ritorno sotto il cielo",
+          "used": "Metodo graduale e distinzione tra osservare e interpretare; testo locale effettivamente letto."
+        }
+      ],
+      "sha256": "1c1245756514739321c5effc092e9363f3dae260221707d4a2b1a830f8f235e8"
+    },
     {
       "id": "IC-02",
       "area": "imparare",
@@ -533,6 +579,247 @@
       "sha256": "c272aa4a052c988cd0ba324cec7a0d2d0067694f88fd81aa8210ce5b44c57f1c"
     },
     {
+      "id": "IC-13",
+      "area": "imparare",
+      "title": "Stelle guida: costruire una mappa mentale",
+      "replaces": [
+        "tavola-2"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/IC-13.png",
+      "pdf": "assets/poster/revisioni-20261023/IC-13.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/IC-13.webp",
+      "sources": [
+        {
+          "title": "IAU — The Constellations",
+          "url": "https://iauarchive.eso.org/public/themes/constellations/",
+          "used": "Regioni, figure convenzionali, asterismi e prospettiva.",
+          "access": "Testo completo delle sezioni pertinenti restituito dalla ricerca; apertura diretta502."
+        },
+        {
+          "title": "NASA — Skywatching FAQ",
+          "url": "https://science.nasa.gov/skywatching/faq/",
+          "used": "Luogo, data e ora; distinzioni tra asterismo e costellazione. Non riprese le semplificazioni su elongazione massima e altezza o sui periodi lunari."
+        },
+        {
+          "title": "INAF Arcetri — Mappe del cielo",
+          "url": "https://www.arcetri.inaf.it/articoli/uncategorised/mappe-del-cielo",
+          "used": "Impostazione geografica e temporale; ora legale distinta. Convenzioni dei segni del modulo non importate nel calcolo."
+        },
+        {
+          "title": "NASA/Alaska Museum — Create a Star Wheel",
+          "url": "https://science.nasa.gov/learn/heat/resource/create-a-star-wheel-activity/",
+          "used": "Costruire un riferimento per confrontare mesi e ore. Definizione divulgativa di costellazione precisata secondo IAU."
+        },
+        {
+          "title": "EduINAF — Orione",
+          "url": "https://edu.inaf.it/costellazioni/orione/",
+          "used": "Riconoscibilità di cintura e spada, distinzione stelle/nebulosa. Escluse distanze stellari specifiche, miti interpretati come storia certa e generalizzazione di visibilità al solo Nord."
+        },
+        {
+          "title": "EduINAF — Agosto 2021, Triangolo estivo",
+          "url": "https://edu.inaf.it/rubriche/il-cielo-del-mese/agosto-2021-triangolo-estivo/",
+          "used": "Vega, Deneb e Altair appartengono a tre costellazioni. Calendario2021 e distanzaDeneb non usati come dati attuali."
+        }
+      ],
+      "sha256": "6917fd06cba15864c7237b3e4f870ac15a49ee7b8063601ab01364a3595d3452"
+    },
+    {
+      "id": "IC-14",
+      "area": "imparare",
+      "title": "La prima osservazione delle costellazioni",
+      "replaces": [
+        "tavola-3"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/IC-14.png",
+      "pdf": "assets/poster/revisioni-20261023/IC-14.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/IC-14.webp",
+      "sources": [
+        {
+          "title": "NASA — Skywatching FAQ",
+          "url": "https://science.nasa.gov/skywatching/faq/",
+          "used": "Luogo, strumenti e possibilità osservative."
+        },
+        {
+          "title": "NASA NSN — Stargazing for Beginners",
+          "url": "https://science.nasa.gov/solar-system/skywatching/night-sky-network/may2024-night-sky-notes/",
+          "used": "Pianificazione, fasi lunari e adattamento al buio; non limitato alla sola pupilla."
+        },
+        {
+          "title": "British Astronomical Association — Hints and Tips",
+          "url": "https://britastro.org/section_information_/hints-and-tips-for-visual-observing",
+          "used": "Allineamento diurno, luce rossa tenue, adattamento e rispetto degli altri."
+        },
+        {
+          "title": "US National Park Service — Astronomy",
+          "url": "https://www.nps.gov/articles/000/astronomy.htm",
+          "used": "Circa20–30minuti e influenza della Luna; nessuna promessa di tempo uguale per tutti."
+        },
+        {
+          "title": "Hong Kong Space Museum — Stargazing Basics",
+          "url": "https://hk.space.museum/en/web/spm/resources/observation-skills.html",
+          "used": "Luci, indumenti, sorgenti di calore e attenzione agli altri osservatori."
+        },
+        {
+          "title": "Fabio Rocca — Prima dell’oculare",
+          "file": "banca-didattica-personale/documenti/testi/fabio-uai-impariamo-cielo.txt",
+          "locator": "Passaggi su prima osservazione, riferimenti e ritorno sotto il cielo",
+          "used": "Metodo graduale e distinzione tra osservare e interpretare; testo locale effettivamente letto."
+        }
+      ],
+      "sha256": "6a6721a95c3bc864d373f9fceccc218dd5b9f948650723a7c619d702a8bdd515"
+    },
+    {
+      "id": "IC-15",
+      "area": "imparare",
+      "title": "Star hopping: saltare da una stella all’altra",
+      "replaces": [
+        "tavola-4"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/IC-15.png",
+      "pdf": "assets/poster/revisioni-20261023/IC-15.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/IC-15.webp",
+      "sources": [
+        {
+          "title": "IAU — The Constellations",
+          "url": "https://iauarchive.eso.org/public/themes/constellations/",
+          "used": "Regioni, figure convenzionali, asterismi e prospettiva.",
+          "access": "Testo completo delle sezioni pertinenti restituito dalla ricerca; apertura diretta502."
+        },
+        {
+          "title": "NASA — Skywatching FAQ",
+          "url": "https://science.nasa.gov/skywatching/faq/",
+          "used": "Luogo, data e ora; distinzioni tra asterismo e costellazione. Non riprese le semplificazioni su elongazione massima e altezza o sui periodi lunari."
+        },
+        {
+          "title": "INAF Arcetri — Mappe del cielo",
+          "url": "https://www.arcetri.inaf.it/articoli/uncategorised/mappe-del-cielo",
+          "used": "Impostazione geografica e temporale; ora legale distinta. Convenzioni dei segni del modulo non importate nel calcolo."
+        },
+        {
+          "title": "NASA/Alaska Museum — Create a Star Wheel",
+          "url": "https://science.nasa.gov/learn/heat/resource/create-a-star-wheel-activity/",
+          "used": "Costruire un riferimento per confrontare mesi e ore. Definizione divulgativa di costellazione precisata secondo IAU."
+        },
+        {
+          "title": "EduINAF — Orione",
+          "url": "https://edu.inaf.it/costellazioni/orione/",
+          "used": "Riconoscibilità di cintura e spada, distinzione stelle/nebulosa. Escluse distanze stellari specifiche, miti interpretati come storia certa e generalizzazione di visibilità al solo Nord."
+        },
+        {
+          "title": "EduINAF — Agosto 2021, Triangolo estivo",
+          "url": "https://edu.inaf.it/rubriche/il-cielo-del-mese/agosto-2021-triangolo-estivo/",
+          "used": "Vega, Deneb e Altair appartengono a tre costellazioni. Calendario2021 e distanzaDeneb non usati come dati attuali."
+        },
+        {
+          "title": "Sky & Telescope — How to Use a Star Chart",
+          "url": "https://skyandtelescope.org/astronomy-resources/using-a-map-at-the-telescope/",
+          "used": "Campi successivi e riconoscimento di triangoli; puntamento del cercatore allineato.",
+          "access": "Paragrafi della ricerca letti, apertura diretta in timeout; diagrammi non riprodotti."
+        }
+      ],
+      "sha256": "508b640202095c48d69f6cb6b27bc0ae7c1ad5a0c2be02664f8ef06d811f3464"
+    },
+    {
+      "id": "IC-16",
+      "area": "imparare",
+      "title": "Costellazioni e prospettiva",
+      "replaces": [
+        "tavola-3_3"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/IC-16.png",
+      "pdf": "assets/poster/revisioni-20261023/IC-16.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/IC-16.webp",
+      "sources": [
+        {
+          "title": "IAU — The Constellations",
+          "url": "https://iauarchive.eso.org/public/themes/constellations/",
+          "used": "Regioni, figure convenzionali, asterismi e prospettiva.",
+          "access": "Testo completo delle sezioni pertinenti restituito dalla ricerca; apertura diretta502."
+        },
+        {
+          "title": "NASA — Skywatching FAQ",
+          "url": "https://science.nasa.gov/skywatching/faq/",
+          "used": "Luogo, data e ora; distinzioni tra asterismo e costellazione. Non riprese le semplificazioni su elongazione massima e altezza o sui periodi lunari."
+        },
+        {
+          "title": "INAF Arcetri — Mappe del cielo",
+          "url": "https://www.arcetri.inaf.it/articoli/uncategorised/mappe-del-cielo",
+          "used": "Impostazione geografica e temporale; ora legale distinta. Convenzioni dei segni del modulo non importate nel calcolo."
+        },
+        {
+          "title": "NASA/Alaska Museum — Create a Star Wheel",
+          "url": "https://science.nasa.gov/learn/heat/resource/create-a-star-wheel-activity/",
+          "used": "Costruire un riferimento per confrontare mesi e ore. Definizione divulgativa di costellazione precisata secondo IAU."
+        },
+        {
+          "title": "EduINAF — Orione",
+          "url": "https://edu.inaf.it/costellazioni/orione/",
+          "used": "Riconoscibilità di cintura e spada, distinzione stelle/nebulosa. Escluse distanze stellari specifiche, miti interpretati come storia certa e generalizzazione di visibilità al solo Nord."
+        },
+        {
+          "title": "EduINAF — Agosto 2021, Triangolo estivo",
+          "url": "https://edu.inaf.it/rubriche/il-cielo-del-mese/agosto-2021-triangolo-estivo/",
+          "used": "Vega, Deneb e Altair appartengono a tre costellazioni. Calendario2021 e distanzaDeneb non usati come dati attuali."
+        },
+        {
+          "title": "ESA/Hubble — Open Cluster",
+          "url": "https://esahubble.org/wordbank/open-cluster/",
+          "used": "Ammassi come sistemi fisici, varietà di età; esclusi conteggi datati e generalizzazioni sulla dispersione."
+        }
+      ],
+      "sha256": "697bc4660166ae937fdec5408250c35e6db6d8e7a495a8fca12bed2aa03c22c3"
+    },
+    {
+      "id": "IC-17",
+      "area": "imparare",
+      "title": "Le costellazioni nelle stagioni",
+      "replaces": [
+        "tavola-10"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/IC-17.png",
+      "pdf": "assets/poster/revisioni-20261023/IC-17.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/IC-17.webp",
+      "sources": [
+        {
+          "title": "IAU — The Constellations",
+          "url": "https://iauarchive.eso.org/public/themes/constellations/",
+          "used": "Regioni, figure convenzionali, asterismi e prospettiva.",
+          "access": "Testo completo delle sezioni pertinenti restituito dalla ricerca; apertura diretta502."
+        },
+        {
+          "title": "NASA — Skywatching FAQ",
+          "url": "https://science.nasa.gov/skywatching/faq/",
+          "used": "Luogo, data e ora; distinzioni tra asterismo e costellazione. Non riprese le semplificazioni su elongazione massima e altezza o sui periodi lunari."
+        },
+        {
+          "title": "INAF Arcetri — Mappe del cielo",
+          "url": "https://www.arcetri.inaf.it/articoli/uncategorised/mappe-del-cielo",
+          "used": "Impostazione geografica e temporale; ora legale distinta. Convenzioni dei segni del modulo non importate nel calcolo."
+        },
+        {
+          "title": "NASA/Alaska Museum — Create a Star Wheel",
+          "url": "https://science.nasa.gov/learn/heat/resource/create-a-star-wheel-activity/",
+          "used": "Costruire un riferimento per confrontare mesi e ore. Definizione divulgativa di costellazione precisata secondo IAU."
+        },
+        {
+          "title": "EduINAF — Orione",
+          "url": "https://edu.inaf.it/costellazioni/orione/",
+          "used": "Riconoscibilità di cintura e spada, distinzione stelle/nebulosa. Escluse distanze stellari specifiche, miti interpretati come storia certa e generalizzazione di visibilità al solo Nord."
+        },
+        {
+          "title": "EduINAF — Agosto 2021, Triangolo estivo",
+          "url": "https://edu.inaf.it/rubriche/il-cielo-del-mese/agosto-2021-triangolo-estivo/",
+          "used": "Vega, Deneb e Altair appartengono a tre costellazioni. Calendario2021 e distanzaDeneb non usati come dati attuali."
+        }
+      ],
+      "sha256": "f0a8a5337aadd495776d7612437630ce4f5beb23252903c2803f6bf7e975130d"
+    },
+    {
       "id": "IC-18",
       "area": "imparare",
       "title": "Le stelle si spostano sopra il tetto?",
@@ -847,6 +1134,51 @@
         }
       ],
       "sha256": "0aefc0a63b1395ff5a7770d0752e76428e25d2964ba94580b88be99f676ea853"
+    },
+    {
+      "id": "IC-25",
+      "area": "imparare",
+      "title": "Misurare la Terra con Eratostene",
+      "replaces": [
+        "tavola-13"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/IC-25.png",
+      "pdf": "assets/poster/revisioni-20261023/IC-25.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/IC-25.webp",
+      "sources": [
+        {
+          "title": "EduINAF — Misurare la Terra, duemila anni dopo",
+          "url": "https://edu.inaf.it/approfondimenti/scoperte/misurare-la-terra-duemila-anni-dopo-eratostene/",
+          "used": "Ricostruzione storica e attività contemporanee. Non adottata una conversione certa dello stadio."
+        },
+        {
+          "title": "NASA NSN — Tropical Solstice Shadows",
+          "url": "https://science.nasa.gov/solar-system/skywatching/night-sky-network/tropical-solstice-shadows/",
+          "used": "Zenit, mezzogiorno solare e osservazione delle ombre."
+        },
+        {
+          "title": "EduINAF — Quanto grande è la Terra?",
+          "url": "https://edu.inaf.it/astrodidattica/quanto-grande-e-la-terra/",
+          "used": "Ipotesi sferica, meridiano comune approssimato, rapporto tra angolo e arco."
+        },
+        {
+          "title": "EduINAF — Chi dimostrò che la Terra era tonda?",
+          "url": "https://edu.inaf.it/approfondimenti/insegnare-astronomia/chi-dimostro-che-la-terra-era-tonda/",
+          "used": "Distinzione misura/dimostrazione storica e incertezza dello stadio; 7gradi12primi=7,2gradi."
+        },
+        {
+          "title": "Università di Napoli, LES — Misura del raggio terrestre",
+          "url": "https://www.les.unina.it/index.php/progetti-2/percorso-les/quattro-temi-generali/la-terra-e-luniverso/la-misura-del-raggio-terrestre-di-eratostene/",
+          "used": "Cooperazione fra luoghi e gnomoni. Nel nostro testo angolo dalla verticale=arctan(ombra/altezza); formula reciproca nella pagina dipende dall’angolo complementare e non è copiata."
+        },
+        {
+          "title": "NOAA — History of Geodesy",
+          "url": "https://oceanservice.noaa.gov/education/tutorial_geodesy/geo02_hist.html",
+          "used": "Relazione C=360d/theta. Esclusi4400stadi,7.12decimali e uguaglianze numeriche incoerenti del racconto."
+        }
+      ],
+      "sha256": "6632a95019262d9d0ca1b18f49d85598e348502ccb16afdc85ae606af0ca9238"
     },
     {
       "id": "IC-26",
