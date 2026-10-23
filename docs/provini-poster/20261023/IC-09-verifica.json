@@ -1,0 +1,16 @@
+{
+ "poster":"IC-09",
+ "date":"2026-10-23",
+ "resources":[
+  {"title":"IAU OAE — Circumpolar Stars","url":"https://www.astro4edu.org/resources/glossary/term/56/","used":"Definizione, dipendenza da latitudine e declinazione, segni nell’emisfero sud. Letto il corpo della definizione, non usate le immagini correlate o le loro didascalie come fonte per altri temi."},
+  {"title":"NASA Science — What is the North Star and How Do You Find It?","url":"https://science.nasa.gov/solar-system/skywatching/what-is-the-north-star-and-how-do-you-find-it/","used":"Asse terrestre, polo celeste e moto apparente. Il giro di 24 ore della spiegazione divulgativa viene precisato come giorno siderale; Polaris non coincide esattamente con il polo."},
+  {"title":"University of Nebraska–Lincoln — Paths of the Stars","url":"https://astro.unl.edu/naap/motion2/starpaths.html","access":"Letti i paragrafi Rotation of the Sky e Circumpolar & Never-Rise Stars restituiti dall’indice di ricerca. Accesso diretto in timeout; nessuna animazione esaminata.","used":"Tre famiglie di percorsi e dipendenza dalla latitudine. Non ripresa la generalizzazione dell’angolo di levata rispetto all’orizzonte, che dipende anche dalla declinazione."},
+  {"title":"INAF Torino — Lattanzi e Pannunzio, Lezioni di astronomia fondamentale","url":"https://www.oato.inaf.it/biblioteca/pdf/TechRep078_Lattanzi.pdf","locator":"pagine PDF 18–19, copia locale letta","used":"Cerchi diurni, equatore, poli e limite boreale δ > 90° − φ. Le eccezioni dei poli celesti esattamente sull’orizzonte non sono trattate come normale levata e tramonto."},
+  {"title":"SAIt — Bignamino di astronomia 2022","url":"https://www.sait.it/sites/sait.interlandia.net/files/pictures/notizie/2022/Bignamino_astronomia_2022.pdf","locator":"pagine PDF 40–41 (numeri stampati 39–40)","used":"Altezza del polo e criteri di visibilità. Il caso di uguaglianza viene distinto dalla permanenza strettamente sopra l’orizzonte; non copiate le formule di distanza zenitale senza valore assoluto fuori dal loro contesto."},
+  {"title":"Treccani — Coordinate astronomiche","url":"https://static.treccani.it/export/sites/default/Portale/resources/multimedia/Lezioni_Astrofisica/Coordinate/Lezione.pdf","locator":"pagina 3, copia locale letta","used":"Definizioni di altezza, zenit e circumpolarità. Convenzioni azimutali Sud/Nord distinte; non ripresa alla lettera l’affermazione tutte le stelle circumpolari ai poli senza delimitare l’emisfero visibile."}
+ ],
+ "bank_comparison":"Tre documenti pertinenti letti nei passaggi conservati in IC-09-passaggi-locali.json. La prima ricerca generica includeva indici e passi su Marte o storia delle costellazioni: esclusi dal confronto scientifico.",
+ "geometry":"Vettori equatoriali trasformati nel riferimento Est-Nord-Zenit a latitudine 42° N; proiezione ortografica con base ortonormale. Tre declinazioni dimostrative +70,+20,-70 gradi. Rifrazione esclusa. Controlli numerici in verifica-geometrie-IC-09.json.",
+ "checks":["Minimi/massimi: 22/62, -28/68, -62/-22 gradi", "Stella dimostrativa a δ+49: hmin+4 a φ45, hmin-3 a φ38", "Tratteggio continuo sotto l’orizzonte", "Legenda del polo separata dal titolo dell’esempio", "Sopra l’orizzonte distinto da visibile di giorno o tra ostacoli"],
+ "status":"Nuovo provino privato da valutare; non incluso nel commit delle 26 tavole approvate"
+}

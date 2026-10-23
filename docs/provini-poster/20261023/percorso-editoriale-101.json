@@ -1,0 +1,2544 @@
+{
+  "date": "2026-10-21",
+  "status": "Percorso approvato; integrazioni richieste in voce; produzione autorizzata, non completata",
+  "target_per_area": {
+    "imparare": 26,
+    "universo": 24,
+    "sistema-solare": 27,
+    "strumenti": 24
+  },
+  "total": 101,
+  "current_posters_mapped": 74,
+  "new_posters": 28,
+  "consolidations": 1,
+  "actions": {
+    "correggere": 38,
+    "creare": 28,
+    "sostituire": 8,
+    "mantenere": 27
+  },
+  "areas": {
+    "imparare": "Imparare il cielo",
+    "universo": "Universo",
+    "sistema-solare": "Sistema solare e spazio",
+    "strumenti": "Strumenti e astrofotografia"
+  },
+  "posters": [
+    {
+      "id": "IC-01",
+      "area": "imparare",
+      "order": 1,
+      "module": "Cominciare e orientarsi",
+      "title": "Torniamo a guardare il cielo",
+      "current_ids": [
+        "tavola-1"
+      ],
+      "action": "correggere",
+      "editorial_brief": "Conservare la scena iniziale; trasformare i consigli sparsi in una prima uscita con obiettivi osservabili.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": null,
+      "next": "IC-02",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "IC-01"
+    },
+    {
+      "id": "IC-02",
+      "area": "imparare",
+      "order": 2,
+      "module": "Cominciare e orientarsi",
+      "title": "Il mio orizzonte: zenit e punti cardinali",
+      "current_ids": [],
+      "action": "creare",
+      "editorial_brief": "Disegnare il panorama dal proprio punto di osservazione e distinguere orizzonte astronomico e ostacoli reali.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "IC-01",
+      "next": "IC-03",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "IC-02"
+    },
+    {
+      "id": "IC-03",
+      "area": "imparare",
+      "order": 3,
+      "module": "Cominciare e orientarsi",
+      "title": "Una bussola con le braccia",
+      "current_ids": [],
+      "action": "creare",
+      "editorial_brief": "Partire da un nord già individuato; ricostruire est, sud e ovest cambiando orientamento. Non usare il Sole come indicatore fisso dell’est.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "IC-02",
+      "next": "IC-04",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "IC-03"
+    },
+    {
+      "id": "IC-04",
+      "area": "imparare",
+      "order": 4,
+      "module": "Cominciare e orientarsi",
+      "title": "Bussola: nord geografico e nord magnetico",
+      "current_ids": [],
+      "action": "creare",
+      "editorial_brief": "Confrontare carta e bussola; spiegare declinazione magnetica locale, data e interferenze di metalli e dispositivi.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "IC-03",
+      "next": "IC-05",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "IC-04"
+    },
+    {
+      "id": "IC-05",
+      "area": "imparare",
+      "order": 5,
+      "module": "Ombre, angoli e nord",
+      "title": "Costruire uno gnomone",
+      "current_ids": [],
+      "action": "creare",
+      "editorial_brief": "Base piana, asta verticale, filo a piombo, carta, orari e ombre. Scheda stampabile con previsione e osservazione.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "IC-04",
+      "next": "IC-06",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "IC-05"
+    },
+    {
+      "id": "IC-06",
+      "area": "imparare",
+      "order": 6,
+      "module": "Ombre, angoli e nord",
+      "title": "Trovare il meridiano con le ombre",
+      "current_ids": [
+        "tavola-9"
+      ],
+      "action": "correggere",
+      "editorial_brief": "Esplicitare il metodo delle altezze uguali, le approssimazioni e la differenza tra mezzogiorno solare e ora civile.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "IC-05",
+      "next": "IC-07",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "IC-06"
+    },
+    {
+      "id": "IC-07",
+      "area": "imparare",
+      "order": 7,
+      "module": "Ombre, angoli e nord",
+      "title": "Quanti gradi stanno in una mano?",
+      "current_ids": [],
+      "action": "creare",
+      "editorial_brief": "Calibrare misure approssimative a braccio teso; separare distanza angolare e distanza fisica.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "IC-06",
+      "next": "IC-08",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "IC-07"
+    },
+    {
+      "id": "IC-08",
+      "area": "imparare",
+      "order": 8,
+      "module": "Ombre, angoli e nord",
+      "title": "Dal Grande Carro alla Polare",
+      "current_ids": [
+        "tavola-7_7"
+      ],
+      "action": "sostituire",
+      "editorial_brief": "Ricostruire il campo da un catalogo stellare: Merak → Dubhe → Polare, circa cinque separazioni. Emisfero nord e limiti del metodo.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "IC-07",
+      "next": "IC-09",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "IC-08"
+    },
+    {
+      "id": "IC-09",
+      "area": "imparare",
+      "order": 9,
+      "module": "Capire e usare una carta",
+      "title": "Le stelle circumpolari",
+      "current_ids": [
+        "tavola-8"
+      ],
+      "action": "sostituire",
+      "editorial_brief": "Carta calcolata e relazione con la latitudine; distinguere stelle sempre visibili, sorgenti e mai visibili.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "IC-08",
+      "next": "IC-10",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "IC-09"
+    },
+    {
+      "id": "IC-10",
+      "area": "imparare",
+      "order": 10,
+      "module": "Capire e usare una carta",
+      "title": "Dove guardo? Altezza e azimut",
+      "current_ids": [
+        "C01"
+      ],
+      "action": "mantenere",
+      "editorial_brief": "Conservare il nucleo; uniformare convenzione azimut da nord verso est e rimandi alla lezione.",
+      "existing_bibliography": [
+        {
+          "title": "Bignamino di astronomia — SAIt, 2022",
+          "url": "https://www.sait.it/sites/sait.interlandia.net/files/pictures/notizie/2022/Bignamino_astronomia_2022.pdf"
+        },
+        {
+          "title": "Corso di Astronomia — Marco Monaci",
+          "url": ""
+        },
+        {
+          "title": "Astronomia in rete — Fabio Pacucci",
+          "url": "https://www.fabiopacucci.com/wp-content/uploads/2018/09/astronomia_in_rete.pdf"
+        },
+        {
+          "title": "M. G. Lattanzi, R. Pannunzio — Lezioni di astronomia fondamentale (2007)",
+          "url": "https://www.oato.inaf.it/biblioteca/pdf/TechRep078_Lattanzi.pdf"
+        },
+        {
+          "title": "Treccani — Coordinate astronomiche",
+          "url": "https://static.treccani.it/export/sites/default/Portale/resources/multimedia/Lezioni_Astrofisica/Coordinate/Lezione.pdf"
+        },
+        {
+          "title": "Impariamo il cielo — Prima dell’oculare, Fabio Rocca",
+          "url": ""
+        }
+      ],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "IC-09",
+      "next": "IC-11",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "IC-10"
+    },
+    {
+      "id": "IC-11",
+      "area": "imparare",
+      "order": 11,
+      "module": "Capire e usare una carta",
+      "title": "Orientare una mappa del cielo",
+      "current_ids": [
+        "tavola-11"
+      ],
+      "action": "correggere",
+      "editorial_brief": "Carta tenuta verso il cielo, direzioni e rotazione; esempio guidato con un campo verificato.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "IC-10",
+      "next": "IC-12",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "IC-11"
+    },
+    {
+      "id": "IC-12",
+      "area": "imparare",
+      "order": 12,
+      "module": "Capire e usare una carta",
+      "title": "Il cielo girevole di cartone",
+      "current_ids": [
+        "tavola-7"
+      ],
+      "action": "sostituire",
+      "editorial_brief": "Chiamarlo planisfero girevole, chiarendo il nome comune astrolabio. Latitudine, data, ora e costruzione con PDF verificato.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "IC-11",
+      "next": "IC-13",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "IC-12"
+    },
+    {
+      "id": "IC-13",
+      "area": "imparare",
+      "order": 13,
+      "module": "Riconoscere le costellazioni",
+      "title": "Stelle guida: costruire una mappa mentale",
+      "current_ids": [
+        "tavola-2"
+      ],
+      "action": "sostituire",
+      "editorial_brief": "Selezionare pochi riferimenti reali; geometrie e nomi ricavati da una carta calcolata, non da figure decorative.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "IC-12",
+      "next": "IC-14",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "IC-13"
+    },
+    {
+      "id": "IC-14",
+      "area": "imparare",
+      "order": 14,
+      "module": "Riconoscere le costellazioni",
+      "title": "La prima osservazione delle costellazioni",
+      "current_ids": [
+        "tavola-3"
+      ],
+      "action": "correggere",
+      "editorial_brief": "Adattamento al buio, posto, carta e aspettative visuali; evitare duplicazioni con la tavola successiva.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "IC-13",
+      "next": "IC-15",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "IC-14"
+    },
+    {
+      "id": "IC-15",
+      "area": "imparare",
+      "order": 15,
+      "module": "Riconoscere le costellazioni",
+      "title": "Star hopping: saltare da una stella all’altra",
+      "current_ids": [
+        "tavola-4"
+      ],
+      "action": "sostituire",
+      "editorial_brief": "Due itinerari verificati, con scale angolari e indizi di riconoscimento; niente allineamenti inventati.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "IC-14",
+      "next": "IC-16",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "IC-15"
+    },
+    {
+      "id": "IC-16",
+      "area": "imparare",
+      "order": 16,
+      "module": "Riconoscere le costellazioni",
+      "title": "Costellazioni e prospettiva",
+      "current_ids": [
+        "tavola-3_3"
+      ],
+      "action": "correggere",
+      "editorial_brief": "Conservare l’idea prospettica; dati di distanza verificati, distinzione fra costellazione, asterismo e ammasso.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "IC-15",
+      "next": "IC-17",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "IC-16"
+    },
+    {
+      "id": "IC-17",
+      "area": "imparare",
+      "order": 17,
+      "module": "Il cielo cambia",
+      "title": "Le costellazioni nelle stagioni",
+      "current_ids": [
+        "tavola-10"
+      ],
+      "action": "sostituire",
+      "editorial_brief": "Quattro carte con luogo, data e ora dichiarati; distinguere il cambiamento stagionale da quello durante la notte.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "IC-16",
+      "next": "IC-18",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "IC-17"
+    },
+    {
+      "id": "IC-18",
+      "area": "imparare",
+      "order": 18,
+      "module": "Il cielo cambia",
+      "title": "Le stelle si spostano sopra il tetto?",
+      "current_ids": [],
+      "action": "creare",
+      "editorial_brief": "Disegnare un riferimento fisso e annotare le stelle a intervalli regolari dalla stessa posizione; prevedere e confrontare il moto.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "IC-17",
+      "next": "IC-19",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "IC-18"
+    },
+    {
+      "id": "IC-19",
+      "area": "imparare",
+      "order": 19,
+      "module": "Il cielo cambia",
+      "title": "Un indirizzo sulla sfera celeste",
+      "current_ids": [
+        "C02"
+      ],
+      "action": "mantenere",
+      "editorial_brief": "Collegare ascensione retta e declinazione alle coordinate locali; modelli e riferimenti dichiarati.",
+      "existing_bibliography": [
+        {
+          "title": "Astronomia in rete — Fabio Pacucci",
+          "url": "https://www.fabiopacucci.com/wp-content/uploads/2018/09/astronomia_in_rete.pdf"
+        },
+        {
+          "title": "Treccani — sfera celeste",
+          "url": "https://www.treccani.it/enciclopedia/sfera-celeste/"
+        },
+        {
+          "title": "Treccani — Coordinate astronomiche",
+          "url": "https://static.treccani.it/export/sites/default/Portale/resources/multimedia/Lezioni_Astrofisica/Coordinate/Lezione.pdf"
+        },
+        {
+          "title": "M. G. Lattanzi, R. Pannunzio — Lezioni di astronomia fondamentale (2007)",
+          "url": "https://www.oato.inaf.it/biblioteca/pdf/TechRep078_Lattanzi.pdf"
+        },
+        {
+          "title": "Corso di Astronomia — Marco Monaci",
+          "url": ""
+        },
+        {
+          "title": "Bignamino di astronomia — SAIt, 2022",
+          "url": "https://www.sait.it/sites/sait.interlandia.net/files/pictures/notizie/2022/Bignamino_astronomia_2022.pdf"
+        }
+      ],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "IC-18",
+      "next": "IC-20",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "IC-19"
+    },
+    {
+      "id": "IC-20",
+      "area": "imparare",
+      "order": 20,
+      "module": "Il cielo cambia",
+      "title": "Orientare il mappamondo",
+      "current_ids": [
+        "tavola-12"
+      ],
+      "action": "correggere",
+      "editorial_brief": "Mappamondo parallelo in quattro passaggi illustrati: liberare il globo dal supporto, portare la propria località nel punto più alto, orientare i poli verso il nord e il sud geografici e verificare l’asse parallelo a quello terrestre. Nell’emisfero nord l’asse forma con l’orizzontale un angolo pari alla latitudine, non l’obliquità terrestre. Mostrare terminatore, gnomoni radiali e ombre confrontabili; esempio dichiarato a 45° N, non posizione predefinita dell’utente.",
+      "existing_bibliography": [],
+      "source_review": "Sei risorse consultate per orientamento e geometria; quattro editori (INAF, Roma Tre, NASA, ESA), non sei conferme indipendenti. Dati planetari datati della pagina ESA esclusi.",
+      "previous": "IC-19",
+      "next": "IC-21",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "verified_starting_sources": [
+        {
+          "title": "EduINAF — costruzione e orientamento",
+          "url": "https://edu.inaf.it/astrodidattica/mappamondo-parallelo-costruzione/"
+        },
+        {
+          "title": "EduINAF — mappamondo parallelo",
+          "url": "https://edu.inaf.it/mappamondo-parallelo/"
+        },
+        {
+          "title": "EduINAF — produrre ombre",
+          "url": "https://edu.inaf.it/astrodidattica/mappamondo-parallelo-ombre/"
+        },
+        {
+          "title": "Università Roma Tre — AstroGarden, mappamondo",
+          "url": "https://astrogarden.uniroma3.it/mappamondo/"
+        },
+        {
+          "title": "NASA Space Place — cause delle stagioni",
+          "url": "https://spaceplace.nasa.gov/seasons/en/"
+        },
+        {
+          "title": "ESA — geometria delle stagioni",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/Seasons_on_other_planets"
+        }
+      ],
+      "previous_proposal_id": "IC-20"
+    },
+    {
+      "id": "IC-21",
+      "area": "imparare",
+      "order": 21,
+      "module": "Riconoscere ciò che appare nel cielo",
+      "title": "Inquinamento luminoso: che cosa perdiamo?",
+      "current_ids": [],
+      "action": "creare",
+      "editorial_brief": "Distinguere chiarore artificiale, abbagliamento e luce intrusiva; effetti sul contrasto del cielo, osservazione e ambiente. Confronti illustrativi dichiarati, nessuna falsa classe Bortle attribuita a una città, nessuna promessa di eliminare il problema con un filtro.",
+      "existing_bibliography": [],
+      "source_review": "Selezionare e confrontare almeno sei risorse pertinenti prima della produzione; partire dalla banca e dalla biblioteca federata, privilegiando le fonti ufficiali.",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": null,
+      "previous": "IC-20",
+      "next": "IC-22"
+    },
+    {
+      "id": "IC-22",
+      "area": "imparare",
+      "order": 22,
+      "module": "Riconoscere ciò che appare nel cielo",
+      "title": "Stella o pianeta? Gli indizi da confrontare",
+      "current_ids": [],
+      "action": "creare",
+      "editorial_brief": "Moto rispetto alle stelle su più notti, posizione e scintillazione: distinguere indizi e limiti. I pianeti possono scintillare, soprattutto bassi sull’orizzonte; nessuna regola assoluta. Rimando alle tavole planetarie e ai passaggi artificiali.",
+      "existing_bibliography": [],
+      "source_review": "Selezionare e confrontare almeno sei risorse pertinenti prima della produzione; partire dalla banca e dalla biblioteca federata, privilegiando le fonti ufficiali.",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": null,
+      "previous": "IC-21",
+      "next": "IC-23"
+    },
+    {
+      "id": "IC-23",
+      "area": "imparare",
+      "order": 23,
+      "module": "Riconoscere ciò che appare nel cielo",
+      "title": "Aloni, pareli e nubi nottilucenti",
+      "current_ids": [
+        "tavola-5"
+      ],
+      "action": "correggere",
+      "editorial_brief": "Tavola autonoma di riconoscimento: alone solare e lunare, pareli (cani solari), corona e nubi nottilucenti. Distinguere luce rifratta nei cristalli di ghiaccio, diffrazione e alte nubi illuminate al crepuscolo. I pareli sono fenomeni diurni; le nubi nottilucenti non sono aurore. Confronti osservativi con orientamenti e illuminazione coerenti.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "IC-22",
+      "next": "IC-24",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "IC-22"
+    },
+    {
+      "id": "IC-24",
+      "area": "imparare",
+      "order": 24,
+      "module": "Riconoscere ciò che appare nel cielo",
+      "title": "ISS, satelliti e treni di luci",
+      "current_ids": [
+        "tavola-6"
+      ],
+      "action": "correggere",
+      "editorial_brief": "Riconoscimento dal suolo: passaggio della ISS, satelliti artificiali e treni di satelliti poco dopo il lancio, confronto con aerei e meteore. Luminosità variabile, riflessi e ombra terrestre: nessun singolo indizio dà un’identificazione certa. Collegamento alle previsioni ufficiali; nessuna traiettoria generata presentata come passaggio attuale.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "IC-23",
+      "next": "IC-25",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "IC-23"
+    },
+    {
+      "id": "IC-25",
+      "area": "imparare",
+      "order": 25,
+      "module": "Esperienze da raccogliere e confrontare",
+      "title": "Misurare la Terra con Eratostene",
+      "current_ids": [
+        "tavola-13"
+      ],
+      "action": "correggere",
+      "editorial_brief": "Conservare l’esperimento; esplicitare simultaneità, distanze, angoli e ipotesi geometriche.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "IC-24",
+      "next": "IC-26",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "IC-21"
+    },
+    {
+      "id": "IC-26",
+      "area": "imparare",
+      "order": 26,
+      "module": "Esperienze da raccogliere e confrontare",
+      "title": "Una serata sul campo: il mio diario",
+      "current_ids": [],
+      "action": "creare",
+      "editorial_brief": "Percorso conclusivo: scegliere il posto, orientarsi, riconoscere due figure, misurare un angolo e registrare condizioni e dubbi.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "IC-25",
+      "next": null,
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "IC-24"
+    },
+    {
+      "id": "UN-01",
+      "area": "universo",
+      "order": 1,
+      "module": "Dalla luce alle distanze",
+      "title": "Le scale dell’Universo",
+      "current_ids": [
+        "universo-panoramica"
+      ],
+      "action": "correggere",
+      "editorial_brief": "Usare una panoramica iniziale con ordini di grandezza e distinguere Universo osservabile e Universo intero.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": null,
+      "next": "UN-02",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "UN-01"
+    },
+    {
+      "id": "UN-02",
+      "area": "universo",
+      "order": 2,
+      "module": "Dalla luce alle distanze",
+      "title": "La luce racconta le stelle",
+      "current_ids": [
+        "U01"
+      ],
+      "action": "mantenere",
+      "editorial_brief": "Spettro, colore e righe come strumenti di indagine, con esempi verificabili.",
+      "existing_bibliography": [
+        {
+          "title": "Treccani — Caratteristiche delle stelle",
+          "url": "https://static.treccani.it/export/sites/default/Portale/resources/multimedia/Lezioni_Astrofisica/stelle_caratteristiche/presentazione.pdf"
+        },
+        {
+          "title": "Corso di Astronomia — Marco Monaci",
+          "url": ""
+        },
+        {
+          "title": "Corso di astronomia 2 — Lorenzo Roi",
+          "url": "https://www.lorenzoroi.net/prelievi/CorsoAstro2.pdf"
+        },
+        {
+          "title": "Appunti di astronomia — Angelo Angeletti",
+          "url": "https://www.angeloangeletti.it/MATERIALI_LICEO/APPUNTI%20DI%20ASTRONOMIA.pdf"
+        },
+        {
+          "title": "Bignamino di astronomia — SAIt, 2022",
+          "url": "https://www.sait.it/sites/sait.interlandia.net/files/pictures/notizie/2022/Bignamino_astronomia_2022.pdf"
+        },
+        {
+          "title": "Di che classe sono le stelle? – EduINAF",
+          "url": "https://edu.inaf.it/astrodidattica/classificazione-stellare"
+        }
+      ],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "UN-01",
+      "next": "UN-03",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "UN-02"
+    },
+    {
+      "id": "UN-03",
+      "area": "universo",
+      "order": 3,
+      "module": "Dalla luce alle distanze",
+      "title": "Molte finestre sul cosmo",
+      "current_ids": [
+        "U10"
+      ],
+      "action": "mantenere",
+      "editorial_brief": "Dichiarare le bande osservate, i colori assegnati e la natura illustrativa del confronto.",
+      "existing_bibliography": [
+        {
+          "title": "“Atmosfere di Esopianeti”",
+          "url": "https://drive.google.com/file/d/1AxnSCqIm3lPqjxZzKyQ5aufavc5Sqzar/view?usp=sharing"
+        },
+        {
+          "title": "Corso di Astronomia — Marco Monaci",
+          "url": ""
+        },
+        {
+          "title": "Corso di astronomia 2 — Lorenzo Roi",
+          "url": "https://www.lorenzoroi.net/prelievi/CorsoAstro2.pdf"
+        },
+        {
+          "title": "Bignamino di astronomia — SAIt, 2022",
+          "url": "https://www.sait.it/sites/sait.interlandia.net/files/pictures/notizie/2022/Bignamino_astronomia_2022.pdf"
+        },
+        {
+          "title": "“Vita, morte e miracoli delle radiogalassie”",
+          "url": "https://drive.google.com/file/d/1HLiLmdOWROw9UKxgchuXnY4xzPlolycL/view?usp=sharing"
+        },
+        {
+          "title": "Treccani — Caratteristiche delle stelle",
+          "url": "https://static.treccani.it/export/sites/default/Portale/resources/multimedia/Lezioni_Astrofisica/stelle_caratteristiche/presentazione.pdf"
+        }
+      ],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "UN-02",
+      "next": "UN-04",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "UN-03"
+    },
+    {
+      "id": "UN-04",
+      "area": "universo",
+      "order": 4,
+      "module": "Dalla luce alle distanze",
+      "title": "Misurare le distanze: UA, anno luce e parsec",
+      "current_ids": [],
+      "action": "creare",
+      "editorial_brief": "Tavola di consultazione autonoma. UA per il Sistema solare, anno luce come distanza percorsa dalla luce in un anno, parsec legato alla parallasse. Riquadro breve: 1 pc ≈ 3,26 anni luce; 1 kpc = 1.000 pc; 1 Mpc = 1.000.000 pc ≈ 3,26 milioni di anni luce. Tutte sono unità di distanza. La UA è definita esattamente e non è la distanza istantanea Terra–Sole.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "UN-03",
+      "next": "UN-05",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "UN-04"
+    },
+    {
+      "id": "UN-05",
+      "area": "universo",
+      "order": 5,
+      "module": "Misurare e comprendere una stella",
+      "title": "La distanza con la parallasse",
+      "current_ids": [
+        "U02"
+      ],
+      "action": "mantenere",
+      "editorial_brief": "Baseline e angolo coerenti; chiarire che il diagramma è amplificato e non in scala. Postilla sul parsec e sui multipli kpc/Mpc; distinguere base di 1 UA, semispostamento annuale e spostamento fra osservazioni a sei mesi.",
+      "existing_bibliography": [
+        {
+          "title": "Appunti di astronomia — Angelo Angeletti",
+          "url": "https://www.angeloangeletti.it/MATERIALI_LICEO/APPUNTI%20DI%20ASTRONOMIA.pdf"
+        },
+        {
+          "title": "Bignamino di astronomia — SAIt, 2022",
+          "url": "https://www.sait.it/sites/sait.interlandia.net/files/pictures/notizie/2022/Bignamino_astronomia_2022.pdf"
+        },
+        {
+          "title": "M. G. Lattanzi, R. Pannunzio — Lezioni di astronomia fondamentale (2007)",
+          "url": "https://www.oato.inaf.it/biblioteca/pdf/TechRep078_Lattanzi.pdf"
+        },
+        {
+          "title": "Astronomia in rete — Fabio Pacucci",
+          "url": "https://www.fabiopacucci.com/wp-content/uploads/2018/09/astronomia_in_rete.pdf"
+        },
+        {
+          "title": "Corso di Astronomia — Marco Monaci",
+          "url": ""
+        },
+        {
+          "title": "Treccani — Astrofisica e cosmologia",
+          "url": "https://static.treccani.it/export/sites/default/Portale/resources/multimedia/Lezioni_fisica/astrofisica/cosmo_LEZIONE.pdf"
+        }
+      ],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "UN-04",
+      "next": "UN-06",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "UN-05"
+    },
+    {
+      "id": "UN-06",
+      "area": "universo",
+      "order": 6,
+      "module": "Misurare e comprendere una stella",
+      "title": "Brillantezza, luminosità e magnitudine",
+      "current_ids": [
+        "U03",
+        "tavola-4_4"
+      ],
+      "action": "correggere",
+      "editorial_brief": "Unificare i due poster. Conservare l’esempio controllato della nuova tavola e integrare la scala delle magnitudini senza dati arbitrari.",
+      "existing_bibliography": [
+        {
+          "title": "“Cosmologia ovvero ‘la storia di come, dal centro dell’Universo, siamo passati ad un Universo senza centro'”",
+          "url": "https://drive.google.com/file/d/1AfiFzgRYem5rX8KosfkVwBmXPllemjOQ/view?usp=sharing"
+        },
+        {
+          "title": "Corso di Astronomia — Marco Monaci",
+          "url": ""
+        },
+        {
+          "title": "Treccani — Caratteristiche delle stelle",
+          "url": "https://static.treccani.it/export/sites/default/Portale/resources/multimedia/Lezioni_Astrofisica/stelle_caratteristiche/presentazione.pdf"
+        },
+        {
+          "title": "Bignamino di astronomia — SAIt, 2022",
+          "url": "https://www.sait.it/sites/sait.interlandia.net/files/pictures/notizie/2022/Bignamino_astronomia_2022.pdf"
+        },
+        {
+          "title": "Di che classe sono le stelle? – EduINAF",
+          "url": "https://edu.inaf.it/astrodidattica/classificazione-stellare"
+        },
+        {
+          "title": "Appunti di astronomia — Angelo Angeletti",
+          "url": "https://www.angeloangeletti.it/MATERIALI_LICEO/APPUNTI%20DI%20ASTRONOMIA.pdf"
+        }
+      ],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "UN-05",
+      "next": "UN-07",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "UN-06"
+    },
+    {
+      "id": "UN-07",
+      "area": "universo",
+      "order": 7,
+      "module": "Misurare e comprendere una stella",
+      "title": "Dalla nube alla protostella",
+      "current_ids": [
+        "U04"
+      ],
+      "action": "mantenere",
+      "editorial_brief": "Concentrare questa tavola sulla formazione: collasso, riscaldamento, accrescimento e avvio della fusione.",
+      "existing_bibliography": [
+        {
+          "title": "Corso di astronomia 2 — Lorenzo Roi",
+          "url": "https://www.lorenzoroi.net/prelievi/CorsoAstro2.pdf"
+        },
+        {
+          "title": "Corso di Astronomia — Marco Monaci",
+          "url": ""
+        },
+        {
+          "title": "Appunti di astronomia — Angelo Angeletti",
+          "url": "https://www.angeloangeletti.it/MATERIALI_LICEO/APPUNTI%20DI%20ASTRONOMIA.pdf"
+        },
+        {
+          "title": "Zanichelli — estratto didattico di astronomia",
+          "url": "https://staticmy.zanichelli.it/catalogo/assets/9788808357441_04_CAP.pdf"
+        },
+        {
+          "title": "Hubble's Star Clusters - NASA Science",
+          "url": "https://science.nasa.gov/mission/hubble/science/universe-uncovered/hubble-star-clusters"
+        },
+        {
+          "title": "Le Cosmicomiche in classe: Sul far del giorno – EduINAF",
+          "url": "https://edu.inaf.it/astrodidattica/cosmicomiche-far-del-giorno"
+        }
+      ],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "UN-06",
+      "next": "UN-08",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "UN-07"
+    },
+    {
+      "id": "UN-08",
+      "area": "universo",
+      "order": 8,
+      "module": "Misurare e comprendere una stella",
+      "title": "Come si sostiene una stella?",
+      "current_ids": [
+        "tavola-16"
+      ],
+      "action": "sostituire",
+      "editorial_brief": "Nuova tavola dedicata all’equilibrio: gravità e gradiente di pressione del gas e della radiazione. La fusione alimenta il bilancio energetico.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "UN-07",
+      "next": "UN-09",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "UN-08"
+    },
+    {
+      "id": "UN-09",
+      "area": "universo",
+      "order": 9,
+      "module": "Famiglie e vita delle stelle",
+      "title": "Leggere il diagramma H–R",
+      "current_ids": [],
+      "action": "creare",
+      "editorial_brief": "Assi, temperatura decrescente e luminosità; mostrare che il diagramma non è una fotografia né una semplice traiettoria temporale.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "UN-08",
+      "next": "UN-10",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "UN-09"
+    },
+    {
+      "id": "UN-10",
+      "area": "universo",
+      "order": 10,
+      "module": "Famiglie e vita delle stelle",
+      "title": "Come troviamo un pianeta lontano?",
+      "current_ids": [
+        "U08"
+      ],
+      "action": "mantenere",
+      "editorial_brief": "Transiti e velocità radiali: quali misure producono e quali proprietà non determinano da sole.",
+      "existing_bibliography": [
+        {
+          "title": "“Progetto NOCTIS, Osservazioni Astronomiche in remoto”",
+          "url": "https://drive.google.com/file/d/1BhM0Mp5AJ8aKlBJ9TLiBfJrmNoHDYJe8/view?usp=sharing"
+        },
+        {
+          "title": "“Progetto NOCTIS, Osservazioni Astronomiche in remoto”",
+          "url": "https://drive.google.com/file/d/1gWBew4sXf8FJJRxZpKlhre9tnja9ta8x/view?usp=sharing"
+        },
+        {
+          "title": "Una simulazione della missione Kepler – EduINAF",
+          "url": "https://edu.inaf.it/astrodidattica/simulazione-missione-kepler-esopianeti"
+        },
+        {
+          "title": "Aggiungi un PLATO a tavola, che c’è un pianeta in più! – EduINAF",
+          "url": "https://edu.inaf.it/approfondimenti/cronache-dalla-scuola/aggiungi-un-plato-a-tavola-che-ce-un-pianeta-in-piu"
+        },
+        {
+          "title": "“Atmosfere di Esopianeti”",
+          "url": "https://drive.google.com/file/d/1AxnSCqIm3lPqjxZzKyQ5aufavc5Sqzar/view?usp=sharing"
+        },
+        {
+          "title": "Bignamino di astronomia — SAIt, 2022",
+          "url": "https://www.sait.it/sites/sait.interlandia.net/files/pictures/notizie/2022/Bignamino_astronomia_2022.pdf"
+        }
+      ],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "UN-09",
+      "next": "UN-11",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "UN-10"
+    },
+    {
+      "id": "UN-11",
+      "area": "universo",
+      "order": 11,
+      "module": "Famiglie e vita delle stelle",
+      "title": "La massa cambia la vita di una stella",
+      "current_ids": [
+        "U05"
+      ],
+      "action": "mantenere",
+      "editorial_brief": "Distinguere i percorsi evolutivi senza attribuire una soglia unica e universale a tutti i destini.",
+      "existing_bibliography": [
+        {
+          "title": "Corso di Astronomia — Marco Monaci",
+          "url": ""
+        },
+        {
+          "title": "Types - NASA Science",
+          "url": "https://science.nasa.gov/universe/stars/types"
+        },
+        {
+          "title": "Attività Solare e clima sulla Terra",
+          "url": "https://drive.google.com/file/d/1YGrWEX7zW1AINOtTUnhjPM4ikCP0rZlj/view?usp=sharing"
+        },
+        {
+          "title": "Corso di astronomia 2 — Lorenzo Roi",
+          "url": "https://www.lorenzoroi.net/prelievi/CorsoAstro2.pdf"
+        },
+        {
+          "title": "Bignamino di astronomia — SAIt, 2022",
+          "url": "https://www.sait.it/sites/sait.interlandia.net/files/pictures/notizie/2022/Bignamino_astronomia_2022.pdf"
+        },
+        {
+          "title": "Corso di astronomia 1 — Lorenzo Roi",
+          "url": "https://www.lorenzoroi.net/prelievi/CorsoAstro1.pdf"
+        }
+      ],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "UN-10",
+      "next": "UN-12",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "UN-11"
+    },
+    {
+      "id": "UN-12",
+      "area": "universo",
+      "order": 12,
+      "module": "Famiglie e vita delle stelle",
+      "title": "Ciò che resta delle stelle",
+      "current_ids": [
+        "U06"
+      ],
+      "action": "mantenere",
+      "editorial_brief": "Nane bianche, stelle di neutroni e buchi neri: natura, origine e limiti dei modelli.",
+      "existing_bibliography": [
+        {
+          "title": "“Progetto NOCTIS, Osservazioni Astronomiche in remoto”",
+          "url": "https://drive.google.com/file/d/1BhM0Mp5AJ8aKlBJ9TLiBfJrmNoHDYJe8/view?usp=sharing"
+        },
+        {
+          "title": "Corso di astronomia 1 — Lorenzo Roi",
+          "url": "https://www.lorenzoroi.net/prelievi/CorsoAstro1.pdf"
+        },
+        {
+          "title": "Corso di astronomia 2 — Lorenzo Roi",
+          "url": "https://www.lorenzoroi.net/prelievi/CorsoAstro2.pdf"
+        },
+        {
+          "title": "Zanichelli — estratto didattico di astronomia",
+          "url": "https://staticmy.zanichelli.it/catalogo/assets/9788808357441_04_CAP.pdf"
+        },
+        {
+          "title": "Types - NASA Science",
+          "url": "https://science.nasa.gov/universe/stars/types"
+        },
+        {
+          "title": "Appunti di astronomia — Angelo Angeletti",
+          "url": "https://www.angeloangeletti.it/MATERIALI_LICEO/APPUNTI%20DI%20ASTRONOMIA.pdf"
+        }
+      ],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "UN-11",
+      "next": "UN-13",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "UN-12"
+    },
+    {
+      "id": "UN-13",
+      "area": "universo",
+      "order": 13,
+      "module": "Stelle dentro una galassia",
+      "title": "Gli ammassi stellari",
+      "current_ids": [
+        "tavola-21"
+      ],
+      "action": "correggere",
+      "editorial_brief": "Conservare confronti e scene; chiarire popolazioni, età e differenze fra ammassi aperti e globulari.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "UN-12",
+      "next": "UN-14",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "UN-13"
+    },
+    {
+      "id": "UN-14",
+      "area": "universo",
+      "order": 14,
+      "module": "Stelle dentro una galassia",
+      "title": "Le nebulose",
+      "current_ids": [
+        "tavola-22"
+      ],
+      "action": "correggere",
+      "editorial_brief": "Separare emissione, riflessione, assorbimento e resti stellari. Non associare rigidamente ogni colore a un solo elemento.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "UN-13",
+      "next": "UN-15",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "UN-14"
+    },
+    {
+      "id": "UN-15",
+      "area": "universo",
+      "order": 15,
+      "module": "Stelle dentro una galassia",
+      "title": "Il riciclo della materia cosmica",
+      "current_ids": [],
+      "action": "creare",
+      "editorial_brief": "Seguire gas, polveri, stelle e dispersione degli elementi; distinguere i diversi processi di produzione.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "UN-14",
+      "next": "UN-16",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "UN-15"
+    },
+    {
+      "id": "UN-16",
+      "area": "universo",
+      "order": 16,
+      "module": "Stelle dentro una galassia",
+      "title": "La Via Lattea e il nostro posto",
+      "current_ids": [
+        "tavola-17"
+      ],
+      "action": "correggere",
+      "editorial_brief": "Fonti delle misure galattiche e natura ricostruita delle viste dall’esterno; niente fotografia impossibile della nostra Galassia vista da fuori.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "UN-15",
+      "next": "UN-17",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "UN-16"
+    },
+    {
+      "id": "UN-17",
+      "area": "universo",
+      "order": 17,
+      "module": "Galassie e gravità",
+      "title": "Le famiglie delle galassie",
+      "current_ids": [
+        "tavola-23"
+      ],
+      "action": "correggere",
+      "editorial_brief": "Morfologie e processi: non presentare la classificazione come una sequenza evolutiva obbligatoria.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "UN-16",
+      "next": "UN-18",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "UN-17"
+    },
+    {
+      "id": "UN-18",
+      "area": "universo",
+      "order": 18,
+      "module": "Galassie e gravità",
+      "title": "Dal Gruppo Locale alla rete cosmica",
+      "current_ids": [],
+      "action": "creare",
+      "editorial_brief": "Separare sistemi gravitazionalmente legati e strutture su grande scala; evitare contenitori rigidi o gerarchie fuorvianti.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "UN-17",
+      "next": "UN-19",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "UN-18"
+    },
+    {
+      "id": "UN-19",
+      "area": "universo",
+      "order": 19,
+      "module": "Galassie e gravità",
+      "title": "I buchi neri e le loro tracce",
+      "current_ids": [
+        "tavola-24"
+      ],
+      "action": "correggere",
+      "editorial_brief": "Distinguere orizzonte, disco, getti e immagini ricostruite dai dati. Nessun oggetto illustrativo spacciato per fotografia.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "UN-18",
+      "next": "UN-20",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "UN-19"
+    },
+    {
+      "id": "UN-20",
+      "area": "universo",
+      "order": 20,
+      "module": "Galassie e gravità",
+      "title": "La gravità può fare da lente",
+      "current_ids": [
+        "U09"
+      ],
+      "action": "mantenere",
+      "editorial_brief": "Verificare osservatore, lente e sorgente; distinguere deformazione, immagini multiple e ingrandimento.",
+      "existing_bibliography": [
+        {
+          "title": "I giganti del cosmo: gli ammassi di galassie – EduINAF",
+          "url": "https://edu.inaf.it/corso_base_brera/i-giganti-del-cosmo-gli-ammassi-di-galassie"
+        },
+        {
+          "title": "Anatomy - NASA Science",
+          "url": "https://science.nasa.gov/universe/black-holes/anatomy"
+        },
+        {
+          "title": "Corso di astronomia 1 — Lorenzo Roi",
+          "url": "https://www.lorenzoroi.net/prelievi/CorsoAstro1.pdf"
+        },
+        {
+          "title": "ESA - Zoom into the first page of ESA Euclid’s great cosmic atlas",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/Euclid/Zoom_into_the_first_page_of_ESA_Euclid_s_great_cosmic_atlas"
+        },
+        {
+          "title": "Black Holes - NASA Science",
+          "url": "https://science.nasa.gov/universe/black-holes"
+        },
+        {
+          "title": "Il modello cosmologico standard e l’enigma dell’espansione – EduINAF",
+          "url": "https://edu.inaf.it/corso_base_brera/il-modello-cosmologico-standard-e-lenigma-dellespansione"
+        }
+      ],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "UN-19",
+      "next": "UN-21",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "UN-20"
+    },
+    {
+      "id": "UN-21",
+      "area": "universo",
+      "order": 21,
+      "module": "Leggere la storia cosmica",
+      "title": "Che cosa racconta il redshift?",
+      "current_ids": [
+        "U07"
+      ],
+      "action": "mantenere",
+      "editorial_brief": "Distinguere spostamento Doppler e cosmologico; non trasformare ogni redshift in una distanza immediata.",
+      "existing_bibliography": [
+        {
+          "title": "Bignamino di astronomia — SAIt, 2022",
+          "url": "https://www.sait.it/sites/sait.interlandia.net/files/pictures/notizie/2022/Bignamino_astronomia_2022.pdf"
+        },
+        {
+          "title": "“Cosmologia ovvero ‘la storia di come, dal centro dell’Universo, siamo passati ad un Universo senza centro'”",
+          "url": "https://drive.google.com/file/d/1AfiFzgRYem5rX8KosfkVwBmXPllemjOQ/view?usp=sharing"
+        },
+        {
+          "title": "Treccani — Astrofisica e cosmologia",
+          "url": "https://static.treccani.it/export/sites/default/Portale/resources/multimedia/Lezioni_fisica/astrofisica/cosmo_LEZIONE.pdf"
+        },
+        {
+          "title": "Corso di astronomia 1 — Lorenzo Roi",
+          "url": "https://www.lorenzoroi.net/prelievi/CorsoAstro1.pdf"
+        },
+        {
+          "title": "Corso di Astronomia — Marco Monaci",
+          "url": ""
+        },
+        {
+          "title": "Appunti di astronomia — Angelo Angeletti",
+          "url": "https://www.angeloangeletti.it/MATERIALI_LICEO/APPUNTI%20DI%20ASTRONOMIA.pdf"
+        }
+      ],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "UN-20",
+      "next": "UN-22",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "UN-21"
+    },
+    {
+      "id": "UN-22",
+      "area": "universo",
+      "order": 22,
+      "module": "Leggere la storia cosmica",
+      "title": "L’espansione dello spazio",
+      "current_ids": [],
+      "action": "creare",
+      "editorial_brief": "Modelli espliciti, coordinate e limiti delle analogie; spiegare perché i sistemi legati non seguono semplicemente l’espansione cosmica.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "UN-21",
+      "next": "UN-23",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "UN-22"
+    },
+    {
+      "id": "UN-23",
+      "area": "universo",
+      "order": 23,
+      "module": "Leggere la storia cosmica",
+      "title": "Il Big Bang e la storia dell’Universo",
+      "current_ids": [
+        "tavola-25"
+      ],
+      "action": "correggere",
+      "editorial_brief": "Cronologia aggiornata, incertezze e distinzione fra evidenze, modelli e scenari futuri.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "UN-22",
+      "next": "UN-24",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "UN-23"
+    },
+    {
+      "id": "UN-24",
+      "area": "universo",
+      "order": 24,
+      "module": "Leggere la storia cosmica",
+      "title": "Come sappiamo tutto questo?",
+      "current_ids": [],
+      "action": "creare",
+      "editorial_brief": "Radiazione cosmica di fondo, abbondanze primordiali ed espansione: tre riscontri, cosa misurano e quali domande restano aperte.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "UN-23",
+      "next": null,
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "UN-24"
+    },
+    {
+      "id": "SS-01",
+      "area": "sistema-solare",
+      "order": 1,
+      "module": "Sole e dinamica",
+      "title": "Il Sistema solare e le sue scale",
+      "current_ids": [
+        "S01"
+      ],
+      "action": "mantenere",
+      "editorial_brief": "Usare scale separate per diametri e distanze; affiancare il confronto geometrico calcolato. Riquadro UA: 149.597.870,7 km esatti (circa 149,6 milioni di km); la distanza Terra–Sole varia durante l’orbita.",
+      "existing_bibliography": [
+        {
+          "title": "Solar System Exploration",
+          "url": "https://science.nasa.gov/solar-system"
+        },
+        {
+          "title": "About the Planets Facebook logo Instagram logo",
+          "url": "https://science.nasa.gov/solar-system/planets"
+        },
+        {
+          "title": "Solar System: Facts - NASA Science",
+          "url": "https://science.nasa.gov/solar-system/solar-system-facts"
+        },
+        {
+          "title": "Planet Sizes and Locations in Our Solar System",
+          "url": "https://science.nasa.gov/solar-system/planet-sizes-and-locations-in-our-solar-system"
+        },
+        {
+          "title": "Zanichelli — estratto didattico di astronomia",
+          "url": "https://staticmy.zanichelli.it/catalogo/assets/9788808357441_04_CAP.pdf"
+        },
+        {
+          "title": "Corso di Astronomia — Marco Monaci",
+          "url": ""
+        }
+      ],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": null,
+      "next": "SS-02",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "SS-01"
+    },
+    {
+      "id": "SS-02",
+      "area": "sistema-solare",
+      "order": 2,
+      "module": "Sole e dinamica",
+      "title": "Le orbite e le leggi di Keplero",
+      "current_ids": [
+        "S12"
+      ],
+      "action": "mantenere",
+      "editorial_brief": "Fuoco, eccentricità e aree: geometrie costruite, non ellissi decorative incoerenti.",
+      "existing_bibliography": [
+        {
+          "title": "Treccani — Caratteristiche delle stelle",
+          "url": "https://static.treccani.it/export/sites/default/Portale/resources/multimedia/Lezioni_Astrofisica/stelle_caratteristiche/presentazione.pdf"
+        },
+        {
+          "title": "Bignamino di astronomia — SAIt, 2022",
+          "url": "https://www.sait.it/sites/sait.interlandia.net/files/pictures/notizie/2022/Bignamino_astronomia_2022.pdf"
+        },
+        {
+          "title": "Corso di Astronomia — Marco Monaci",
+          "url": ""
+        },
+        {
+          "title": "Corso di astronomia 2 — Lorenzo Roi",
+          "url": "https://www.lorenzoroi.net/prelievi/CorsoAstro2.pdf"
+        },
+        {
+          "title": "Zanichelli — estratto didattico di astronomia",
+          "url": "https://staticmy.zanichelli.it/catalogo/assets/9788808357441_04_CAP.pdf"
+        },
+        {
+          "title": "Astronomia in rete — Fabio Pacucci",
+          "url": "https://www.fabiopacucci.com/wp-content/uploads/2018/09/astronomia_in_rete.pdf"
+        }
+      ],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "SS-01",
+      "next": "SS-03",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "SS-02"
+    },
+    {
+      "id": "SS-03",
+      "area": "sistema-solare",
+      "order": 3,
+      "module": "Sole e dinamica",
+      "title": "Il Sole, la nostra stella",
+      "current_ids": [
+        "S02"
+      ],
+      "action": "mantenere",
+      "editorial_brief": "Strati, trasporto di energia e attività; distinguere sezioni schematiche e osservazioni.",
+      "existing_bibliography": [
+        {
+          "title": "ESA - Sun secrets for Solar Orbiter to explore",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/Solar_Orbiter/Sun_secrets_for_Solar_Orbiter_to_explore"
+        },
+        {
+          "title": "Attività Solare e clima sulla Terra",
+          "url": "https://drive.google.com/file/d/1YGrWEX7zW1AINOtTUnhjPM4ikCP0rZlj/view?usp=sharing"
+        },
+        {
+          "title": "Sun - NASA Science",
+          "url": "https://science.nasa.gov/sun"
+        },
+        {
+          "title": "ESA - The Sun",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/The_Sun"
+        },
+        {
+          "title": "ESA - Solar Orbiter factsheet",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/Solar_Orbiter/Solar_Orbiter_factsheet"
+        },
+        {
+          "title": "ESA - Solar Orbiter",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/Solar_Orbiter"
+        }
+      ],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "SS-02",
+      "next": "SS-04",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "SS-03"
+    },
+    {
+      "id": "SS-04",
+      "area": "sistema-solare",
+      "order": 4,
+      "module": "Sole e dinamica",
+      "title": "Dal Sole alle aurore",
+      "current_ids": [
+        "S13"
+      ],
+      "action": "mantenere",
+      "editorial_brief": "Vento solare, campo magnetico e atmosfera; evitare immagini che suggeriscano una connessione diretta e istantanea.",
+      "existing_bibliography": [
+        {
+          "title": "Auroras - NASA Science",
+          "url": "https://science.nasa.gov/sun/auroras"
+        },
+        {
+          "title": "ESA - Living with a star",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/Solar_Orbiter/Living_with_a_star"
+        },
+        {
+          "title": "ESA - Solar Orbiter tracks origin of mysterious magnetic switchbacks",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/Solar_Orbiter/Solar_Orbiter_tracks_origin_of_mysterious_magnetic_switchbacks"
+        },
+        {
+          "title": "ESA - Solar Orbiter",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/Solar_Orbiter"
+        },
+        {
+          "title": "ESA - Why we need Solar Orbiter",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/Solar_Orbiter/Why_we_need_Solar_Orbiter"
+        },
+        {
+          "title": "ESA - Space weather",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/Space_weather"
+        }
+      ],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "SS-03",
+      "next": "SS-05",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "SS-04"
+    },
+    {
+      "id": "SS-05",
+      "area": "sistema-solare",
+      "order": 5,
+      "module": "Le famiglie dei mondi",
+      "title": "I pianeti rocciosi",
+      "current_ids": [
+        "S07"
+      ],
+      "action": "mantenere",
+      "editorial_brief": "Confronto guidato di composizione, atmosfera e superficie; dati datati e unità dichiarate.",
+      "existing_bibliography": [
+        {
+          "title": "Corso di Astronomia — Marco Monaci",
+          "url": ""
+        },
+        {
+          "title": "Appunti di astronomia — Angelo Angeletti",
+          "url": "https://www.angeloangeletti.it/MATERIALI_LICEO/APPUNTI%20DI%20ASTRONOMIA.pdf"
+        },
+        {
+          "title": "Zanichelli — estratto didattico di astronomia",
+          "url": "https://staticmy.zanichelli.it/catalogo/assets/9788808357441_04_CAP.pdf"
+        },
+        {
+          "title": "About the Planets Facebook logo Instagram logo",
+          "url": "https://science.nasa.gov/solar-system/planets"
+        },
+        {
+          "title": "Solar System: Facts - NASA Science",
+          "url": "https://science.nasa.gov/solar-system/solar-system-facts"
+        },
+        {
+          "title": "Planetary Analogs - NASA Science",
+          "url": "https://science.nasa.gov/solar-system/planetary-analogs"
+        }
+      ],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "SS-04",
+      "next": "SS-06",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "SS-05"
+    },
+    {
+      "id": "SS-06",
+      "area": "sistema-solare",
+      "order": 6,
+      "module": "Le famiglie dei mondi",
+      "title": "Venere, Terra e Marte: tre atmosfere",
+      "current_ids": [],
+      "action": "creare",
+      "editorial_brief": "Confrontare pressione, temperatura ed effetto serra distinguendo cause, condizioni attuali e storia dei pianeti.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "SS-05",
+      "next": "SS-07",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "SS-06"
+    },
+    {
+      "id": "SS-07",
+      "area": "sistema-solare",
+      "order": 7,
+      "module": "Le famiglie dei mondi",
+      "title": "Giganti gassosi e ghiacciati",
+      "current_ids": [
+        "S08"
+      ],
+      "action": "mantenere",
+      "editorial_brief": "Chiarire il significato astronomico di ghiacci e la diversa struttura interna.",
+      "existing_bibliography": [
+        {
+          "title": "Appunti di astronomia — Angelo Angeletti",
+          "url": "https://www.angeloangeletti.it/MATERIALI_LICEO/APPUNTI%20DI%20ASTRONOMIA.pdf"
+        },
+        {
+          "title": "Corso di Astronomia — Marco Monaci",
+          "url": ""
+        },
+        {
+          "title": "Bignamino di astronomia — SAIt, 2022",
+          "url": "https://www.sait.it/sites/sait.interlandia.net/files/pictures/notizie/2022/Bignamino_astronomia_2022.pdf"
+        },
+        {
+          "title": "Zanichelli — estratto didattico di astronomia",
+          "url": "https://staticmy.zanichelli.it/catalogo/assets/9788808357441_04_CAP.pdf"
+        },
+        {
+          "title": "Astronomia per tutti: volume 1 — Daniele Gasparri",
+          "url": ""
+        },
+        {
+          "title": "Costruisci un sistema solare in scala con risorse online",
+          "url": "https://edu.inaf.it/astrodidattica/costruisci-sistema-solare"
+        }
+      ],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "SS-06",
+      "next": "SS-08",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "SS-07"
+    },
+    {
+      "id": "SS-08",
+      "area": "sistema-solare",
+      "order": 8,
+      "module": "Le famiglie dei mondi",
+      "title": "Pianeti nani e piccoli corpi",
+      "current_ids": [
+        "S09"
+      ],
+      "action": "mantenere",
+      "editorial_brief": "Classificazione e famiglie dinamiche, senza equiparare dimensione e categoria.",
+      "existing_bibliography": [
+        {
+          "title": "Astronomia per tutti: volume 1 — Daniele Gasparri",
+          "url": ""
+        },
+        {
+          "title": "Zanichelli — estratto didattico di astronomia",
+          "url": "https://staticmy.zanichelli.it/catalogo/assets/9788808357441_04_CAP.pdf"
+        },
+        {
+          "title": "Appunti di astronomia — Angelo Angeletti",
+          "url": "https://www.angeloangeletti.it/MATERIALI_LICEO/APPUNTI%20DI%20ASTRONOMIA.pdf"
+        },
+        {
+          "title": "About the Planets Facebook logo Instagram logo",
+          "url": "https://science.nasa.gov/solar-system/planets"
+        },
+        {
+          "title": "Corso di Astronomia — Marco Monaci",
+          "url": ""
+        },
+        {
+          "title": "Bignamino di astronomia — SAIt, 2022",
+          "url": "https://www.sait.it/sites/sait.interlandia.net/files/pictures/notizie/2022/Bignamino_astronomia_2022.pdf"
+        }
+      ],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "SS-07",
+      "next": "SS-09",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "SS-08"
+    },
+    {
+      "id": "SS-09",
+      "area": "sistema-solare",
+      "order": 9,
+      "module": "Le famiglie dei mondi",
+      "title": "Oltre Nettuno: Plutone e la fascia di Kuiper",
+      "current_ids": [],
+      "action": "creare",
+      "editorial_brief": "Plutone come pianeta nano, Caronte come satellite e principali popolazioni transnettuniane; non chiamare pianeti tutti i corpi della fascia di Kuiper. Distinguere fascia di Kuiper e nube di Oort; esempi selezionati, non catalogo completo.",
+      "existing_bibliography": [],
+      "source_review": "Selezionare e confrontare almeno sei risorse pertinenti prima della produzione; partire dalla banca e dalla biblioteca federata, privilegiando le fonti ufficiali.",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": null,
+      "previous": "SS-08",
+      "next": "SS-10"
+    },
+    {
+      "id": "SS-10",
+      "area": "sistema-solare",
+      "order": 10,
+      "module": "Le famiglie dei mondi",
+      "title": "Satelliti e anelli: sistemi nel sistema",
+      "current_ids": [],
+      "action": "creare",
+      "editorial_brief": "Origini e ambienti diversi, esempi mirati; sezioni e proporzioni dichiarate.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "SS-09",
+      "next": "SS-11",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "SS-09"
+    },
+    {
+      "id": "SS-11",
+      "area": "sistema-solare",
+      "order": 11,
+      "module": "Le famiglie dei mondi",
+      "title": "Atlante delle lune: mondi da confrontare",
+      "current_ids": [],
+      "action": "creare",
+      "editorial_brief": "Confronto di Io, Europa, Ganimede, Callisto, Titano, Encelado, Phobos, Deimos e Caronte: corpo ospite, dimensione, ambiente e motivi di interesse. Distinguere oceani inferiti e superfici osservate; prove e incertezze esplicite. Piccoli corpi e pianeti nani restano nella loro tavola.",
+      "existing_bibliography": [],
+      "source_review": "Selezionare e confrontare almeno sei risorse pertinenti prima della produzione; partire dalla banca e dalla biblioteca federata, privilegiando le fonti ufficiali.",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": null,
+      "previous": "SS-10",
+      "next": "SS-12"
+    },
+    {
+      "id": "SS-12",
+      "area": "sistema-solare",
+      "order": 12,
+      "module": "Le famiglie dei mondi",
+      "title": "Riconoscere i pianeti nel cielo",
+      "current_ids": [
+        "tavola-18"
+      ],
+      "action": "sostituire",
+      "editorial_brief": "Eclittica e Ofiuco, moto e condizioni di visibilità; rimuovere certezze sbagliate sulla scintillazione e distinguere osservazioni reali da schemi.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "SS-11",
+      "next": "SS-13",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "SS-10"
+    },
+    {
+      "id": "SS-13",
+      "area": "sistema-solare",
+      "order": 13,
+      "module": "Terra e Luna: geometrie vicine",
+      "title": "Perché cambiano le stagioni?",
+      "current_ids": [
+        "S05"
+      ],
+      "action": "mantenere",
+      "editorial_brief": "Assi paralleli, raggi solari, emisferi e durata del giorno: collegare i quattro casi senza frecce incoerenti.",
+      "existing_bibliography": [
+        {
+          "title": "Appunti di astronomia — Angelo Angeletti",
+          "url": "https://www.angeloangeletti.it/MATERIALI_LICEO/APPUNTI%20DI%20ASTRONOMIA.pdf"
+        },
+        {
+          "title": "M. G. Lattanzi, R. Pannunzio — Lezioni di astronomia fondamentale (2007)",
+          "url": "https://www.oato.inaf.it/biblioteca/pdf/TechRep078_Lattanzi.pdf"
+        },
+        {
+          "title": "Bignamino di astronomia — SAIt, 2022",
+          "url": "https://www.sait.it/sites/sait.interlandia.net/files/pictures/notizie/2022/Bignamino_astronomia_2022.pdf"
+        },
+        {
+          "title": "Astronomia in rete — Fabio Pacucci",
+          "url": "https://www.fabiopacucci.com/wp-content/uploads/2018/09/astronomia_in_rete.pdf"
+        },
+        {
+          "title": "Corso di Astronomia — Marco Monaci",
+          "url": ""
+        },
+        {
+          "title": "NASA/JPL — What Causes the Seasons?",
+          "url": "https://spaceplace.nasa.gov/seasons/en/"
+        }
+      ],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "SS-12",
+      "next": "SS-14",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "SS-11"
+    },
+    {
+      "id": "SS-14",
+      "area": "sistema-solare",
+      "order": 14,
+      "module": "Terra e Luna: geometrie vicine",
+      "title": "L’orbita della Luna e la stessa faccia",
+      "current_ids": [],
+      "action": "creare",
+      "editorial_brief": "Rivoluzione, rotazione sincrona e differenza fra mese siderale e sinodico; distinguere faccia lontana e lato non illuminato.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "SS-13",
+      "next": "SS-15",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "SS-12"
+    },
+    {
+      "id": "SS-15",
+      "area": "sistema-solare",
+      "order": 15,
+      "module": "Terra e Luna: geometrie vicine",
+      "title": "Leggere il paesaggio lunare",
+      "current_ids": [
+        "S04"
+      ],
+      "action": "mantenere",
+      "editorial_brief": "Mari, crateri e terminatore; indicare orientamento e natura di ogni immagine.",
+      "existing_bibliography": [
+        {
+          "title": "Appunti di astronomia — Angelo Angeletti",
+          "url": "https://www.angeloangeletti.it/MATERIALI_LICEO/APPUNTI%20DI%20ASTRONOMIA.pdf"
+        },
+        {
+          "title": "Corso di astronomia 1 — Lorenzo Roi",
+          "url": "https://www.lorenzoroi.net/prelievi/CorsoAstro1.pdf"
+        },
+        {
+          "title": "Vent’anni sotto il cielo stellato — Daniele Gasparri",
+          "url": ""
+        },
+        {
+          "title": "NASA — Moon Facts",
+          "url": "https://science.nasa.gov/moon/facts/"
+        },
+        {
+          "title": "NASA — Moon Craters",
+          "url": "https://science.nasa.gov/moon/lunar-craters/"
+        },
+        {
+          "title": "ESA — Highlands and Mare landscapes",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/SMART-1/Highlands_and_Mare_landscapes_on_the_Moon"
+        }
+      ],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "SS-14",
+      "next": "SS-16",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "SS-13"
+    },
+    {
+      "id": "SS-16",
+      "area": "sistema-solare",
+      "order": 16,
+      "module": "Terra e Luna: geometrie vicine",
+      "title": "Perché la Luna cambia forma?",
+      "current_ids": [
+        "S03"
+      ],
+      "action": "mantenere",
+      "editorial_brief": "Luce solare e prospettiva dell’osservatore: emisfero e orientamento dichiarati, fasi distinte dalle eclissi.",
+      "existing_bibliography": [
+        {
+          "title": "Appunti di astronomia — Angelo Angeletti",
+          "url": "https://www.angeloangeletti.it/MATERIALI_LICEO/APPUNTI%20DI%20ASTRONOMIA.pdf"
+        },
+        {
+          "title": "Corso di Astronomia — Marco Monaci",
+          "url": ""
+        },
+        {
+          "title": "Bignamino di astronomia — SAIt, 2022",
+          "url": "https://www.sait.it/sites/sait.interlandia.net/files/pictures/notizie/2022/Bignamino_astronomia_2022.pdf"
+        },
+        {
+          "title": "Corso di astronomia 1 — Lorenzo Roi",
+          "url": "https://www.lorenzoroi.net/prelievi/CorsoAstro1.pdf"
+        },
+        {
+          "title": "Earth's Moon",
+          "url": "https://science.nasa.gov/moon"
+        },
+        {
+          "title": "Moon Phases - NASA Science",
+          "url": "https://science.nasa.gov/moon/moon-phases"
+        }
+      ],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "SS-15",
+      "next": "SS-17",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "SS-14"
+    },
+    {
+      "id": "SS-17",
+      "area": "sistema-solare",
+      "order": 17,
+      "module": "Terra e Luna: geometrie vicine",
+      "title": "L’eclissi di Sole",
+      "current_ids": [
+        "S06"
+      ],
+      "action": "correggere",
+      "editorial_brief": "Specializzare l’attuale tavola sulle eclissi solari: ombra, penombra, totalità e anularità. Indicazioni di osservazione sicura verificate.",
+      "existing_bibliography": [
+        {
+          "title": "Eclipses - NASA Science",
+          "url": "https://science.nasa.gov/eclipses"
+        },
+        {
+          "title": "A Solar Eclipse Glossary | Solar Eclipse Across America",
+          "url": "https://eclipse.aas.org/eclipse-basics/eclipse-glossary"
+        },
+        {
+          "title": "Ombre di stelle: storia e scienza delle eclissi solari – EduINAF",
+          "url": "https://edu.inaf.it/approfondimenti/scoperte/ombre-di-stelle-storia-e-scienza-delle-eclissi-solari"
+        },
+        {
+          "title": "How & Why Solar Eclipses Happen | Solar Eclipse Across America",
+          "url": "https://eclipse.aas.org/eclipse-basics/how-why"
+        },
+        {
+          "title": "How to View a Solar Eclipse Safely | Solar Eclipse Across America",
+          "url": "https://eclipse.aas.org/eye-safety"
+        },
+        {
+          "title": "The Total Solar Eclipse Experience | Solar Eclipse Across America",
+          "url": "https://eclipse.aas.org/eclipse-basics/eclipse-experience"
+        }
+      ],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "SS-16",
+      "next": "SS-18",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "SS-15"
+    },
+    {
+      "id": "SS-18",
+      "area": "sistema-solare",
+      "order": 18,
+      "module": "Terra e Luna: geometrie vicine",
+      "title": "L’eclissi di Luna",
+      "current_ids": [],
+      "action": "creare",
+      "editorial_brief": "Ombra terrestre e nodi orbitali; spiegare perché non avviene a ogni plenilunio, con schemi fuori scala espliciti.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "SS-17",
+      "next": "SS-19",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "SS-16"
+    },
+    {
+      "id": "SS-19",
+      "area": "sistema-solare",
+      "order": 19,
+      "module": "Piccoli corpi e incontri",
+      "title": "Le comete e le loro code",
+      "current_ids": [
+        "S10"
+      ],
+      "action": "mantenere",
+      "editorial_brief": "Separare coda di polveri e coda ionica; orientamento rispetto al Sole controllato lungo l’orbita.",
+      "existing_bibliography": [
+        {
+          "title": "Comets",
+          "url": "https://science.nasa.gov/solar-system/comets"
+        },
+        {
+          "title": "Bignamino di astronomia — SAIt, 2022",
+          "url": "https://www.sait.it/sites/sait.interlandia.net/files/pictures/notizie/2022/Bignamino_astronomia_2022.pdf"
+        },
+        {
+          "title": "“Ipotesi chimica sull’origine della vita: dal Big Bang alla comparsa dei primi organismi viventi”",
+          "url": "https://drive.google.com/file/d/1riZRSUPXjMUhARm_iUQv2FKlhpFxKwE1/view?usp=sharing"
+        },
+        {
+          "title": "Appunti di astronomia — Angelo Angeletti",
+          "url": "https://www.angeloangeletti.it/MATERIALI_LICEO/APPUNTI%20DI%20ASTRONOMIA.pdf"
+        },
+        {
+          "title": "ESA — Comet ZTF and its apparent three tails",
+          "url": "https://www.esa.int/ESA_Multimedia/Images/2023/02/Comet_ZTF_and_its_apparent_three_tails"
+        },
+        {
+          "title": "ESA — Comets: an overview",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/Rosetta/Comets_an_overview"
+        }
+      ],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "SS-18",
+      "next": "SS-20",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "SS-17"
+    },
+    {
+      "id": "SS-20",
+      "area": "sistema-solare",
+      "order": 20,
+      "module": "Piccoli corpi e incontri",
+      "title": "Meteore, bolidi e meteoriti",
+      "current_ids": [
+        "tavola-19"
+      ],
+      "action": "correggere",
+      "editorial_brief": "Conservare la sequenza; distinguere plasma atmosferico e materiale ablato, verificare sciami, progenitori e date indicative.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "SS-19",
+      "next": "SS-21",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "SS-18"
+    },
+    {
+      "id": "SS-21",
+      "area": "sistema-solare",
+      "order": 21,
+      "module": "Piccoli corpi e incontri",
+      "title": "Meteoriti: campioni del Sistema solare",
+      "current_ids": [
+        "tavola-20"
+      ],
+      "action": "correggere",
+      "editorial_brief": "Composizione e analisi; non presentare magnetismo e aspetto come test conclusivi di autenticità.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "SS-20",
+      "next": "SS-22",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "SS-19"
+    },
+    {
+      "id": "SS-22",
+      "area": "sistema-solare",
+      "order": 22,
+      "module": "Piccoli corpi e incontri",
+      "title": "Asteroidi vicini e rischio",
+      "current_ids": [
+        "S11"
+      ],
+      "action": "mantenere",
+      "editorial_brief": "Distinguere passaggio, probabilità e conseguenze; dati correnti solo con epoca e fonte dichiarate.",
+      "existing_bibliography": [
+        {
+          "title": "NASA/JPL CNEOS — Sentry introduction",
+          "url": "https://cneos.jpl.nasa.gov/sentry/intro.html"
+        },
+        {
+          "title": "NASA/JPL CNEOS — Sentry FAQ",
+          "url": "https://cneos.jpl.nasa.gov/sentry/faq.html"
+        },
+        {
+          "title": "NASA/JPL CNEOS — NEO FAQ",
+          "url": "https://cneos.jpl.nasa.gov/faq/"
+        },
+        {
+          "title": "NASA/JPL — About CNEOS",
+          "url": "https://cneos.jpl.nasa.gov/about/cneos.html"
+        },
+        {
+          "title": "ESA NEOCC — Objects help",
+          "url": "https://neo.ssa.esa.int/objects/help"
+        },
+        {
+          "title": "ESA NEOCC — Risk List",
+          "url": "https://neo.ssa.esa.int/en/risk-list"
+        }
+      ],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "SS-21",
+      "next": "SS-23",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "SS-20"
+    },
+    {
+      "id": "SS-23",
+      "area": "sistema-solare",
+      "order": 23,
+      "module": "Dalla domanda alla missione",
+      "title": "Una missione robotica",
+      "current_ids": [
+        "S14"
+      ],
+      "action": "mantenere",
+      "editorial_brief": "Collegare domanda scientifica, misura e strumento; esempi verificati sulle schede ufficiali delle missioni.",
+      "existing_bibliography": [
+        {
+          "title": "NASA — Perseverance Science Instruments",
+          "url": "https://science.nasa.gov/mission/mars-2020-perseverance/science-instruments/"
+        },
+        {
+          "title": "NASA — InSight Science Instruments",
+          "url": "https://science.nasa.gov/mission/insight/science-instruments/"
+        },
+        {
+          "title": "NASA — OSIRIS-REx",
+          "url": "https://science.nasa.gov/mission/osiris-rex/"
+        },
+        {
+          "title": "ESA — ExoMars Rosalind Franklin",
+          "url": "https://explorationscience.esa.int/project/exomars-rosalind-franklin-rfm/"
+        },
+        {
+          "title": "ESA — ExoMars Trace Gas Orbiter",
+          "url": "https://explorationscience.esa.int/project/exomars-trace-gas-orbiter-tgo/"
+        },
+        {
+          "title": "ESA — ExoMars Instruments",
+          "url": "https://www.cosmos.esa.int/web/exomars/instruments"
+        }
+      ],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "SS-22",
+      "next": "SS-24",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "SS-21"
+    },
+    {
+      "id": "SS-24",
+      "area": "sistema-solare",
+      "order": 24,
+      "module": "Dalla domanda alla missione",
+      "title": "Dall’aria allo spazio: atmosfera e orbite",
+      "current_ids": [],
+      "action": "creare",
+      "editorial_brief": "Profilo degli strati atmosferici con limiti approssimativi e variabili; ionosfera sovrapposta, non sesto guscio termico separato. Distinguere linea di Kármán convenzionale, orbita bassa e ISS, MEO/GEO e missioni interplanetarie con pannelli e scale diverse. La ISS resta nella tenue atmosfera e non è oltre la gravità; lo spazio profondo non comincia a un confine fisico dell’atmosfera.",
+      "existing_bibliography": [],
+      "source_review": "Selezionare e confrontare almeno sei risorse pertinenti prima della produzione; partire dalla banca e dalla biblioteca federata, privilegiando le fonti ufficiali.",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": null,
+      "previous": "SS-23",
+      "next": "SS-25"
+    },
+    {
+      "id": "SS-25",
+      "area": "sistema-solare",
+      "order": 25,
+      "module": "Dalla domanda alla missione",
+      "title": "Dal lancio all’orbita",
+      "current_ids": [],
+      "action": "creare",
+      "editorial_brief": "Fasi di una missione e caduta orbitale; distinguere quota, velocità e traiettoria, senza equiparare orbita e assenza di gravità.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "SS-24",
+      "next": "SS-26",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "SS-22"
+    },
+    {
+      "id": "SS-26",
+      "area": "sistema-solare",
+      "order": 26,
+      "module": "Dalla domanda alla missione",
+      "title": "Vivere in microgravità",
+      "current_ids": [
+        "S15"
+      ],
+      "action": "mantenere",
+      "editorial_brief": "Caduta libera e condizioni dell’astronauta; mostrare il ruolo delle accelerazioni residue.",
+      "existing_bibliography": [
+        {
+          "title": "NASA Glenn — What is Microgravity?",
+          "url": "https://www.nasa.gov/centers-and-facilities/glenn/what-is-microgravity/"
+        },
+        {
+          "title": "NASA — What Is Microgravity? Grades 5-8",
+          "url": "https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-microgravity-grades-5-8/"
+        },
+        {
+          "title": "NASA Glenn — Free Falling Objects",
+          "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/free-falling-objects/"
+        },
+        {
+          "title": "NASA — Gravity & Mechanics",
+          "url": "https://science.nasa.gov/learn/basics-of-space-flight/chapter3-4/"
+        },
+        {
+          "title": "ESA — Microgravity and ISS",
+          "url": "https://www.esa.int/content/view/full/503849"
+        },
+        {
+          "title": "ESA — Falling upwards",
+          "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Research/Falling_upwards_how_to_create_microgravity"
+        }
+      ],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "SS-25",
+      "next": "SS-27",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "SS-23"
+    },
+    {
+      "id": "SS-27",
+      "area": "sistema-solare",
+      "order": 27,
+      "module": "Dalla domanda alla missione",
+      "title": "Esplorare e riportare campioni",
+      "current_ids": [],
+      "action": "creare",
+      "editorial_brief": "Flyby, orbiter, lander, rover e sample return: sintesi comparativa con missioni ed epoche dichiarate.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "SS-26",
+      "next": null,
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "SS-24"
+    },
+    {
+      "id": "SA-01",
+      "area": "strumenti",
+      "order": 1,
+      "module": "Prepararsi e cominciare dal binocolo",
+      "title": "Preparare una serata osservativa",
+      "current_ids": [
+        "tavola-40"
+      ],
+      "action": "correggere",
+      "editorial_brief": "Posto, condizioni, bersagli, alimentazione e diario: preparazione che precede la scelta dello strumento.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": null,
+      "next": "SA-02",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "SA-01"
+    },
+    {
+      "id": "SA-02",
+      "area": "strumenti",
+      "order": 2,
+      "module": "Prepararsi e cominciare dal binocolo",
+      "title": "Esplorare il cielo con il binocolo",
+      "current_ids": [
+        "tavola-15"
+      ],
+      "action": "correggere",
+      "editorial_brief": "Tavola di uso sul campo: impugnatura, ricerca, aspettative e grandi campi; diversa dalla scheda tecnica successiva.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "SA-01",
+      "next": "SA-03",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "SA-02"
+    },
+    {
+      "id": "SA-03",
+      "area": "strumenti",
+      "order": 3,
+      "module": "Prepararsi e cominciare dal binocolo",
+      "title": "Scegliere e capire un binocolo",
+      "current_ids": [
+        "tavola-31"
+      ],
+      "action": "correggere",
+      "editorial_brief": "Ingrandimento, apertura, pupilla d’uscita e campo; nessuna equivalenza automatica fra numero maggiore e qualità.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "SA-02",
+      "next": "SA-04",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "SA-03"
+    },
+    {
+      "id": "SA-04",
+      "area": "strumenti",
+      "order": 4,
+      "module": "Prepararsi e cominciare dal binocolo",
+      "title": "Cavalletto e supporti",
+      "current_ids": [],
+      "action": "creare",
+      "editorial_brief": "Attacco, adattatore, altezza, bilanciamento e smorzamento delle vibrazioni; confronto con appoggio e parallelogramma.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "SA-03",
+      "next": "SA-05",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "SA-04"
+    },
+    {
+      "id": "SA-05",
+      "area": "strumenti",
+      "order": 5,
+      "module": "Scegliere un sistema ottico",
+      "title": "Quale telescopio per il mio progetto?",
+      "current_ids": [
+        "tavola-36"
+      ],
+      "action": "correggere",
+      "editorial_brief": "Collegare luogo, trasporto, budget e obiettivi, senza una classifica assoluta dei sistemi.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "SA-04",
+      "next": "SA-06",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "SA-05"
+    },
+    {
+      "id": "SA-06",
+      "area": "strumenti",
+      "order": 6,
+      "module": "Scegliere un sistema ottico",
+      "title": "Il rifrattore",
+      "current_ids": [
+        "tavola-32"
+      ],
+      "action": "correggere",
+      "editorial_brief": "Conservare struttura e scena; ricostruire i raggi ottici e distinguere aberrazioni e correzioni.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "SA-05",
+      "next": "SA-07",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "SA-06"
+    },
+    {
+      "id": "SA-07",
+      "area": "strumenti",
+      "order": 7,
+      "module": "Scegliere un sistema ottico",
+      "title": "Il Newton",
+      "current_ids": [
+        "tavola-33"
+      ],
+      "action": "correggere",
+      "editorial_brief": "Specchi e percorso della luce verificati geometricamente, senza frecce che attraversano superfici sbagliate.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "SA-06",
+      "next": "SA-08",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "SA-07"
+    },
+    {
+      "id": "SA-08",
+      "area": "strumenti",
+      "order": 8,
+      "module": "Scegliere un sistema ottico",
+      "title": "Il Dobson",
+      "current_ids": [
+        "tavola-34"
+      ],
+      "action": "correggere",
+      "editorial_brief": "Separare schema ottico Newton e montatura Dobson; manualità, campo e impiego pratico.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "SA-07",
+      "next": "SA-09",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "SA-08"
+    },
+    {
+      "id": "SA-09",
+      "area": "strumenti",
+      "order": 9,
+      "module": "Scegliere un sistema ottico",
+      "title": "I catadiottrici",
+      "current_ids": [
+        "tavola-35"
+      ],
+      "action": "correggere",
+      "editorial_brief": "Distinguere gli schemi Schmidt–Cassegrain e Maksutov–Cassegrain con geometrie controllate.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "SA-08",
+      "next": "SA-10",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "SA-09"
+    },
+    {
+      "id": "SA-10",
+      "area": "strumenti",
+      "order": 10,
+      "module": "Puntare e seguire",
+      "title": "La montatura altazimutale",
+      "current_ids": [
+        "tavola-27"
+      ],
+      "action": "correggere",
+      "editorial_brief": "Assi di altezza e azimut; inseguimento su due assi e rotazione di campo.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "SA-09",
+      "next": "SA-11",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "SA-10"
+    },
+    {
+      "id": "SA-11",
+      "area": "strumenti",
+      "order": 11,
+      "module": "Puntare e seguire",
+      "title": "Il supporto a forcella",
+      "current_ids": [
+        "tavola-26"
+      ],
+      "action": "correggere",
+      "editorial_brief": "Chiarire che la forcella è un supporto utilizzabile in assetto altazimutale o equatoriale con cuneo.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "SA-10",
+      "next": "SA-12",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "SA-11"
+    },
+    {
+      "id": "SA-12",
+      "area": "strumenti",
+      "order": 12,
+      "module": "Puntare e seguire",
+      "title": "La montatura equatoriale",
+      "current_ids": [
+        "tavola-28"
+      ],
+      "action": "correggere",
+      "editorial_brief": "Asse polare, AR e Dec con frecce coerenti e allineamento distinto dal puntamento GoTo.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "SA-11",
+      "next": "SA-13",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "SA-12"
+    },
+    {
+      "id": "SA-13",
+      "area": "strumenti",
+      "order": 13,
+      "module": "Puntare e seguire",
+      "title": "Cercatore e star hopping",
+      "current_ids": [
+        "tavola-30"
+      ],
+      "action": "correggere",
+      "editorial_brief": "Allineamento diurno su bersaglio sicuro e impiego notturno, senza usare il Sole come riferimento.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "SA-12",
+      "next": "SA-14",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "SA-13"
+    },
+    {
+      "id": "SA-14",
+      "area": "strumenti",
+      "order": 14,
+      "module": "Puntare e seguire",
+      "title": "Oculari e campo visivo",
+      "current_ids": [
+        "tavola-29"
+      ],
+      "action": "correggere",
+      "editorial_brief": "Ingrandimento e campo inquadrato; esempi dichiarati, pupilla d’uscita e limiti pratici.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "SA-13",
+      "next": "SA-15",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "SA-14"
+    },
+    {
+      "id": "SA-15",
+      "area": "strumenti",
+      "order": 15,
+      "module": "Regolare e osservare meglio",
+      "title": "La collimazione",
+      "current_ids": [
+        "tavola-37"
+      ],
+      "action": "correggere",
+      "editorial_brief": "Distinguere regolazioni specifiche dei vari schemi; limiti del test stellare e del laser.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "SA-14",
+      "next": "SA-16",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "SA-15"
+    },
+    {
+      "id": "SA-16",
+      "area": "strumenti",
+      "order": 16,
+      "module": "Regolare e osservare meglio",
+      "title": "Fuoco, seeing e acclimatamento",
+      "current_ids": [
+        "tavola-38"
+      ],
+      "action": "correggere",
+      "editorial_brief": "Separare tre fenomeni differenti con confronti esplicativi e non falsi prima/dopo fotografici.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "SA-15",
+      "next": "SA-17",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "SA-16"
+    },
+    {
+      "id": "SA-17",
+      "area": "strumenti",
+      "order": 17,
+      "module": "Regolare e osservare meglio",
+      "title": "Filtri: cosa fanno davvero?",
+      "current_ids": [
+        "tavola-39"
+      ],
+      "action": "correggere",
+      "editorial_brief": "Trasmissione selettiva, soggetti adatti e limiti; filtri solari distinti e istruzioni ufficiali verificate.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "SA-16",
+      "next": "SA-18",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "SA-17"
+    },
+    {
+      "id": "SA-18",
+      "area": "strumenti",
+      "order": 18,
+      "module": "Regolare e osservare meglio",
+      "title": "Smart telescope e osservazione assistita",
+      "current_ids": [
+        "tavola-14"
+      ],
+      "action": "correggere",
+      "editorial_brief": "Strumenti contemporanei documentati, acquisizione e stacking, limiti di campo, soggetto e uso; data delle specifiche.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "SA-17",
+      "next": "SA-19",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "SA-18"
+    },
+    {
+      "id": "SA-19",
+      "area": "strumenti",
+      "order": 19,
+      "module": "Dall’acquisizione all’interpretazione",
+      "title": "Sensore, campo e campionamento",
+      "current_ids": [],
+      "action": "creare",
+      "editorial_brief": "Pixel, focale e dimensione angolare con un esempio calcolato; distinguere campo, risoluzione e dettaglio recuperabile.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "SA-18",
+      "next": "SA-20",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "SA-19"
+    },
+    {
+      "id": "SA-20",
+      "area": "strumenti",
+      "order": 20,
+      "module": "Dall’acquisizione all’interpretazione",
+      "title": "Esposizione, inseguimento e autoguida",
+      "current_ids": [],
+      "action": "creare",
+      "editorial_brief": "Movimento sul sensore, saturazione e limiti della guida; distinguere paesaggistica, planetaria e cielo profondo.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "SA-19",
+      "next": "SA-21",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "SA-20"
+    },
+    {
+      "id": "SA-21",
+      "area": "strumenti",
+      "order": 21,
+      "module": "Dall’acquisizione all’interpretazione",
+      "title": "Da una posa a una fotografia",
+      "current_ids": [
+        "F01"
+      ],
+      "action": "mantenere",
+      "editorial_brief": "Usare la tavola come mappa del flusso; rimandare a calibrazione e integrazione per i dettagli.",
+      "existing_bibliography": [
+        {
+          "title": "Siril 1.4 — Calibration",
+          "url": "https://siril.readthedocs.io/en/stable/preprocessing/calibration.html"
+        },
+        {
+          "title": "Siril 1.4 — Stacking",
+          "url": "https://siril.readthedocs.io/en/stable/preprocessing/stacking.html"
+        },
+        {
+          "title": "Siril — Manual pre-processing",
+          "url": "https://siril.org/tutorials/tuto-manual/"
+        },
+        {
+          "title": "STScI — DrizzlePac package",
+          "url": "https://hst-docs.stsci.edu/drizzpac/chapter-5-drizzlepac-software-package/5-4-the-drizzlepac-package"
+        },
+        {
+          "title": "STScI — Image alignment",
+          "url": "https://hst-docs.stsci.edu/drizzpac/chapter-6-reprocessing-with-the-drizzlepac-package/6-2-image-alignment"
+        },
+        {
+          "title": "Corso di Astronomia — Marco Monaci",
+          "url": ""
+        }
+      ],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "SA-20",
+      "next": "SA-22",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "SA-21"
+    },
+    {
+      "id": "SA-22",
+      "area": "strumenti",
+      "order": 22,
+      "module": "Dall’acquisizione all’interpretazione",
+      "title": "Light, dark, bias e flat",
+      "current_ids": [
+        "F02"
+      ],
+      "action": "mantenere",
+      "editorial_brief": "Ruolo e condizioni dei frame; tenere distinti segnale, rumore casuale e difetti sistematici.",
+      "existing_bibliography": [
+        {
+          "title": "Siril 1.4 — Calibration",
+          "url": "https://siril.readthedocs.io/en/stable/preprocessing/calibration.html"
+        },
+        {
+          "title": "Siril 1.4 — Stacking",
+          "url": "https://siril.readthedocs.io/en/stable/preprocessing/stacking.html"
+        },
+        {
+          "title": "Siril — Manual pre-processing",
+          "url": "https://siril.org/tutorials/tuto-manual/"
+        },
+        {
+          "title": "STScI — DrizzlePac package",
+          "url": "https://hst-docs.stsci.edu/drizzpac/chapter-5-drizzlepac-software-package/5-4-the-drizzlepac-package"
+        },
+        {
+          "title": "STScI — Image alignment",
+          "url": "https://hst-docs.stsci.edu/drizzpac/chapter-6-reprocessing-with-the-drizzlepac-package/6-2-image-alignment"
+        },
+        {
+          "title": "Corso di Astronomia — Marco Monaci",
+          "url": ""
+        }
+      ],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "SA-21",
+      "next": "SA-23",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "SA-22"
+    },
+    {
+      "id": "SA-23",
+      "area": "strumenti",
+      "order": 23,
+      "module": "Dall’acquisizione all’interpretazione",
+      "title": "Integrare ed elaborare senza inventare",
+      "current_ids": [],
+      "action": "creare",
+      "editorial_brief": "Registrazione, integrazione e trasformazioni; software come esempi aggiornabili, provenienza e limiti dell’immagine finale.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "SA-22",
+      "next": "SA-24",
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "SA-23"
+    },
+    {
+      "id": "SA-24",
+      "area": "strumenti",
+      "order": 24,
+      "module": "Dall’acquisizione all’interpretazione",
+      "title": "Dalla mappa all’immagine: il mio progetto",
+      "current_ids": [
+        "tavola-41"
+      ],
+      "action": "correggere",
+      "editorial_brief": "Conservare la scena conclusiva; ricollegare visuale e fotografia con una sequenza operativa e una verifica delle aspettative.",
+      "existing_bibliography": [],
+      "source_review": "Riferimenti ereditati da verificare per la nuova edizione; non certificazione di lettura integrale.",
+      "previous": "SA-23",
+      "next": null,
+      "status": "Produzione autorizzata; controllo finale e provino richiesti prima della sostituzione",
+      "previous_proposal_id": "SA-24"
+    }
+  ],
+  "format": "Tavole divulgative autonome da consultare e scaricare; non pagine di lezione o schede dense di esercizi.",
+  "source_policy": "Banca personale e biblioteca federata; verifica sulle fonti ufficiali aggiornate NASA, ESA, INAF e UAI o altre istituzioni pertinenti. Crediti editoriali AD ASTRA distinti da fonti scientifiche, crediti delle immagini e postilla IA. Nessuna approvazione degli enti suggerita."
+}
