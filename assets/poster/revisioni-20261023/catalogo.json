@@ -290,7 +290,7 @@
           "used": "Riferimenti del quadrante e differenza fra verticale e asse polare; escluse generalizzazioni su tutte le latitudini"
         }
       ],
-      "sha256": "7b2bab24ca479809d510969c57e6ffc6e59c887d376f74d253068e77bc443012"
+      "sha256": "5b3a483aebee108032a38e1e4e5a090ca69d7b93c1573c025e2b1841a3be47cc"
     },
     {
       "id": "IC-07",
@@ -335,7 +335,7 @@
           "used": "Stime mano20gradi, pugno10gradi, tre dita5gradi; non graduatoria assoluta di trasparenza"
         }
       ],
-      "sha256": "ff1cafc5de192bf21a75977766915fb31c3f9e5a4cc7f28dbb2bd0f7ba5faa24"
+      "sha256": "d1d1fbb9c111fc4976554340b58052b10be19fdbdc811c51093c25612b21c954"
     },
     {
       "id": "IC-08",
@@ -381,7 +381,7 @@
           "used": "Percorso pratico e distinzionePolare/polo. Corretto il termine costellazione delGrandeCarro in asterismo nell’OrsaMaggiore. Figure dell’autore non riutilizzate come coordinate quantitative."
         }
       ],
-      "sha256": "81826b2da84ca860a5c257e5468e30b295476d9e856c0e4f4ab0ff4e7b1baf46"
+      "sha256": "4612cdcbf4f084453fa72a2ff808f65e1b78026ce932b76d0e0300d8d629453c"
     },
     {
       "id": "IC-09",
@@ -916,7 +916,258 @@
           "used": "Sistema equatoriale e scala angolare. Non copiata l’identificazione della rotazione terrestre rispetto alle stelle con360gradi in24ore di tempo medio. Obliquità storica non trasferita come valore aggiornato."
         }
       ],
-      "sha256": "11974054dab2c774ddf6411ce400d6535b4b7084b754f682d81d73bbd4e4a280"
+      "sha256": "7ef4e50d194484debf4f486349a23e929f9f8992bcc580bdea78be15fded3789"
+    },
+    {
+      "id": "IC-21",
+      "area": "imparare",
+      "title": "Inquinamento luminoso: che cosa perdiamo?",
+      "replaces": [],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/IC-21.png",
+      "pdf": "assets/poster/revisioni-20261023/IC-21.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/IC-21.webp",
+      "sources": [
+        {
+          "title": "IAU — Controlling Light Pollution",
+          "url": "https://iauarchive.eso.org/public/themes/light_pollution/",
+          "used": "Chiarore diffuso, contrasto e impatti; nessuna percentuale estrapolata"
+        },
+        {
+          "title": "NASA — How to Find Good Places to Stargaze",
+          "url": "https://science.nasa.gov/solar-system/how-to-find-good-places-to-stargaze/",
+          "used": "Importanza di direzione, Luna e condizioni; nessuna classe Bortle assegnata da una mappa"
+        },
+        {
+          "title": "EduINAF — Capire l'inquinamento luminoso",
+          "url": "https://edu.inaf.it/news/per-la-scuola/capire-linquinamento-luminoso/",
+          "used": "Luce dispersa e visibilità stellare; non ripresa l'esagerazione che in città rimangano visibili soltanto pianeti"
+        },
+        {
+          "title": "National Park Service — Light Pollution",
+          "url": "https://www.nps.gov/subjects/nightskies/lightpollution.htm",
+          "used": "Tre effetti: abbagliamento, luce intrusiva, chiarore del cielo"
+        },
+        {
+          "title": "AAS — Resolution on Light Pollution, revisione2025",
+          "url": "https://aas.org/about/governance/society-resolutions/light-pollution",
+          "used": "Uso mirato e proporzionato della luce; nessuna statistica di crescita generalizzata"
+        },
+        {
+          "title": "DarkSky/IES — Five Principles for Responsible Outdoor Lighting",
+          "url": "https://darksky.org/resources/guides-and-how-tos/lighting-principles/",
+          "used": "Direzione, schermatura, intensità, controllo e componente spettrale; principio non garanzia di eliminazione"
+        },
+        {
+          "title": "John E. Bortle — Scala del cielo buio (2001)",
+          "url": "https://skyandtelescope.org/astronomy-resources/light-pollution-and-astronomy-the-bortle-dark-sky-scale/",
+          "used": "Nove classi qualitative e criteri osservativi; nessuna classe attribuita alle scene illustrative."
+        },
+        {
+          "title": "Light Pollution Map — Guida ai dati",
+          "url": "https://www.lightpollutionmap.info/help.html",
+          "used": "VIIRS distinto dal chiarore del cielo stimato; anno, livello, meteo e sorgenti locali. Nessuna equivalenza universale con una classe osservata."
+        }
+      ],
+      "sha256": "b72955a3f5d94998102b36a25f9ea710296f24c791b77aab0c0db946efd8b452"
+    },
+    {
+      "id": "IC-22",
+      "area": "imparare",
+      "title": "Stella o pianeta? Gli indizi da confrontare",
+      "replaces": [],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/IC-22.png",
+      "pdf": "assets/poster/revisioni-20261023/IC-22.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/IC-22.webp",
+      "sources": [
+        {
+          "title": "NRAO — Scintillation",
+          "url": "https://www.gb.nrao.edu/GBTopsdocs/primer/scintillation.htm",
+          "used": "Scintillazione maggiore vicino all'orizzonte; dischi planetari e media spaziale"
+        },
+        {
+          "title": "FSU/Optical Society — Why do Stars Twinkle",
+          "url": "https://osa.magnet.fsu.edu/tutorials/starstwinkle.html",
+          "used": "Turbolenza, rifrazione variabile e instabilità dell'immagine"
+        },
+        {
+          "title": "LPI — Sky Tellers: Stars",
+          "url": "https://www.lpi.usra.edu/education/skytellers/stars/",
+          "used": "Solo paragrafo sulla scintillazione, non le altre semplificazioni evolutive della pagina"
+        },
+        {
+          "title": "University of Wisconsin–Madison — James Lattis",
+          "url": "https://news.wisc.edu/curiosities-why-do-stars-appear-to-twinkle-in-the-night-sky/",
+          "used": "Scintillazione planetaria normalmente attenuata, non impossibile"
+        },
+        {
+          "title": "NASA — Skywatching FAQ",
+          "url": "https://science.nasa.gov/skywatching/faq/",
+          "used": "Visibilità dei pianeti e utilità delle coordinate locali luogo/data/ora"
+        },
+        {
+          "title": "JPL — Horizons Manual",
+          "url": "https://ssd.jpl.nasa.gov/horizons/manual.html",
+          "used": "Posizioni e moto rispetto a riferimenti; non traiettoria sintetica come effemeride attuale"
+        },
+        {
+          "title": "ESO — Adaptive Optics",
+          "url": "https://www.hq.eso.org/public/teles-instr/technology/adaptive_optics/",
+          "used": "Turbolenza atmosferica e perdita di nitidezza, distinta dalla regolazione del fuoco. Nessuna promessa di correzione tramite ingrandimenti."
+        }
+      ],
+      "sha256": "7b41d8844d4e8e47d0e10617093f1ea021584c3a768e2964063cdec72ca8860a"
+    },
+    {
+      "id": "IC-23",
+      "area": "imparare",
+      "title": "Aloni, pareli e nubi nottilucenti",
+      "replaces": [
+        "tavola-5"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/IC-23.png",
+      "pdf": "assets/poster/revisioni-20261023/IC-23.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/IC-23.webp",
+      "sources": [
+        {
+          "title": "WMO — International Cloud Atlas, Corona",
+          "url": "https://cloudatlas.wmo.int/en/corona.html",
+          "used": "Diffrazione, acqua o ghiaccio e dimensione variabile. Non appiattire la corona a un anello di22° né limitarla necessariamente ad acqua liquida."
+        },
+        {
+          "title": "NOAA-NWS — Halos, Sundogs and Sun Pillars",
+          "url": "https://www.weather.gov/arx/why_halos_sundogs_pillars",
+          "used": "Rifrazione per aloni/pareli, riflessione per pilastri. Non ripresa descrizione generica della rifrazione a qualsiasi angolo o riflessione priva di dipendenza spettrale come legge universale."
+        },
+        {
+          "title": "Met Office — Optical effects",
+          "url": "https://weather.metoffice.gov.uk/learn-about/weather/optical-effects",
+          "used": "Confronto fra aloni, pareli e corone. 22° è angolo apparente di deviazione minima e raggio dell’alone comune, non l’angolo d’ingresso nel cristallo come potrebbe suggerire una frase semplificata della fonte."
+        },
+        {
+          "title": "NASA Science — Nocturnal wonders",
+          "url": "https://science.nasa.gov/resource/nocturnal-wonders/",
+          "used": "Nubi mesosferiche80–85km, ghiaccio illuminato e stagione/latitudini. La foto Jan Erik Paulsen2010 non viene copiata né riattribuita alla ricostruzione."
+        },
+        {
+          "title": "British Astronomical Association — Observing Noctilucent Clouds",
+          "url": "https://britastro.org/section_information_/aurora-and-noctilucent-cloud-overview/observing-noctilucent-clouds",
+          "used": "Strutture sottili, crepuscolo, contrasto con nubi basse e annotazione di osservazioni negative. Frequenza3–4volte/anno del contesto britannico non generalizzata all’Italia."
+        },
+        {
+          "title": "Astronomia in rete — scheda sull’alone",
+          "url": "https://www.fabiopacucci.com/wp-content/uploads/2018/09/astronomia_in_rete.pdf",
+          "locator": "pagina PDF92, corpo letto nella banca IC-23-banca.json",
+          "used": "Confronto sul raggio dell’alone terrestre e ghiaccio. Non riprese ipotesi o assenza storica di osservazioni marziane come fatti attuali; non proposto puntare le mani verso il Sole."
+        }
+      ],
+      "sha256": "c23fabdbf4b4bca12df70e624302c631a9c204954602c67f19d4d01a8e079e75"
+    },
+    {
+      "id": "IC-24",
+      "area": "imparare",
+      "title": "Luci e fenomeni nel cielo: osservare e verificare",
+      "replaces": [
+        "tavola-6"
+      ],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/IC-24.png",
+      "pdf": "assets/poster/revisioni-20261023/IC-24.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/IC-24.webp",
+      "sources": [
+        {
+          "title": "NASA — Spot the Station FAQ",
+          "url": "https://www.nasa.gov/missions/station/spot-the-station-frequently-asked-questions/",
+          "used": "Luce riflessa e previsioni locali. Nessun numero di passaggi garantito per ogni luogo o mese."
+        },
+        {
+          "title": "NASA/JPL — Find the Space Station passing overhead",
+          "url": "https://www.jpl.nasa.gov/videos/whats-up-april-2010-find-the-space-station-passing-overhead/",
+          "used": "Trascrizione letta, non visione del filmato. Aspetto puntiforme, entrata in ombra, differenza da luci aeronautiche. Non ripresi indicazioni dello Shuttle, calendario aprile 2010 o vecchio sito di previsione."
+        },
+        {
+          "title": "ESO — eso2004",
+          "url": "https://www.eso.org/public/australia/news/eso2004/",
+          "used": "Passaggio sui treni appena lanciati e illuminazione. Non presentati i numeri o le stime del modello 2020 come inventario attuale."
+        },
+        {
+          "title": "EduINAF — App Sorvegliati Spaziali",
+          "url": "https://edu.inaf.it/astrodidattica/app-sorvegliati-spaziali/",
+          "used": "Rifiuti spaziali, meteore e distinzione fra ricostruzione in AR e osservazione; nessuna acquisizione di immagini dell’app."
+        },
+        {
+          "title": "American Meteor Society — Fireball FAQ",
+          "url": "https://www.amsmeteors.org/fireballs/faqf/",
+          "used": "Durata e scia persistente distinte; registrare istante, direzione e durata. Non ripresa la conversione errata 80 km=65 miglia, né assimilata la traccia alla traiettoria attuale del corpo."
+        },
+        {
+          "title": "FAA — Airplane Flying Handbook, cap.11",
+          "url": "https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/airplane_handbook/12_afh_ch11.pdf",
+          "locator": "pagine PDF5–6, pagine stampate11-5/11-6",
+          "used": "Luci di posizione e anticollisione; non confondere rosso/verde fissi con il lampeggio, non dedurre identificazione univoca da un singolo indizio."
+        },
+        {
+          "title": "NASA — Lunar Impact Monitoring",
+          "url": "https://www.nasa.gov/meteoroid-environment-office/lunar-impact-monitoring/",
+          "used": "Lampi da impatto osservati nella parte non illuminata; necessità di registrazioni e conferme indipendenti."
+        },
+        {
+          "title": "NASA — Planetary Alignments and Planet Parades",
+          "url": "https://science.nasa.gov/solar-system/skywatching/planetary-alignments-and-planet-parades/",
+          "used": "Allineamenti apparenti vicino all’eclittica, distinti da una fila fisica nello spazio e da satelliti in rapido passaggio."
+        },
+        {
+          "title": "FAA — Getting Started, Flying at Night",
+          "url": "https://www.faa.gov/uas/getting_started",
+          "used": "Presenza di luci nei droni; non importate prescrizioni statunitensi come regole italiane, nessun colore o movimento assunto come prova certa."
+        }
+      ],
+      "sha256": "6980285dcff53f70dd4b77e843491f3aae5cfdbc07234740709d9cd729e7c990"
+    },
+    {
+      "id": "IC-26",
+      "area": "imparare",
+      "title": "Una serata sul campo: il mio diario",
+      "replaces": [],
+      "approval_date": "2026-10-23",
+      "png": "assets/poster/revisioni-20261023/IC-26.png",
+      "pdf": "assets/poster/revisioni-20261023/IC-26.pdf",
+      "thumbnail": "assets/poster/revisioni-20261023/IC-26.webp",
+      "sources": [
+        {
+          "title": "NASA Science — Moon Observation Journal",
+          "url": "https://science.nasa.gov/resource/moon-observation-journal/",
+          "used": "Data, ora, disegno e ragione della mancata osservazione. Non scambiare previsione per osservazione."
+        },
+        {
+          "title": "NASA/JPL — Look at the Moon journaling project",
+          "url": "https://www.jpl.nasa.gov/edu/resources/project/look-at-the-moon-journaling-project/",
+          "used": "Ripetizione e confronto fra giorni. La proposta di completare retroattivamente giorni mancanti con fase prevista viene adattata tenendo separati osservato e previsto, senza riempire il registro come se fossero misure."
+        },
+        {
+          "title": "NASA RadioJOVE — Sample log forms",
+          "url": "https://radiojove.gsfc.nasa.gov/education/educationalcd/ObserversHandbooks/SkillBuildingTips/Field%20Observations/Observing%20Log.pdf",
+          "used": "Registro previsto distinto da registro osservato, intervalli e tempo locale/UT. Le sigle delle tempeste radio non copiate come etichette per osservazione visuale."
+        },
+        {
+          "title": "AMS — Fireball FAQ",
+          "url": "https://www.amsmeteors.org/fireballs/faqf/",
+          "used": "Registrare durata, luminosità, direzioni e riferimenti; descrizione diversa dall’identificazione."
+        },
+        {
+          "title": "BAA — Observing noctilucent clouds",
+          "url": "https://britastro.org/section_information_/aurora-and-noctilucent-cloud-overview/observing-noctilucent-clouds",
+          "used": "Osservazioni negative documentate e condizioni; frequenza del fenomeno nel RegnoUnito non generalizzata all’Italia."
+        },
+        {
+          "title": "UAI — Il cielo del mese",
+          "url": "https://www.uai.it/sito/il-cielo-del-mese/",
+          "used": "Programmazione con fonti mensili e crediti. Descrizione introduttiva con Tiangong2 e Iridium flare datata: non usata come elenco di bersagli attuali, rimando soltanto al servizio e alla ricerca dei dati per mese/luogo."
+        }
+      ],
+      "sha256": "f89672ee8ec35ab64936b9e32de5bdce3ba65556ec09818c4d58f42bea89f51f"
     },
     {
       "id": "IC-20",
@@ -964,184 +1215,6 @@
       "sha256": "f0def53105e1541271d6c96554808c57e2497ff91bf3157aa315dd33aa1cfd1f"
     },
     {
-      "id": "IC-21",
-      "area": "imparare",
-      "title": "Inquinamento luminoso: che cosa perdiamo?",
-      "replaces": [],
-      "approval_date": "2026-10-23",
-      "png": "assets/poster/revisioni-20261023/IC-21.png",
-      "pdf": "assets/poster/revisioni-20261023/IC-21.pdf",
-      "thumbnail": "assets/poster/revisioni-20261023/IC-21.webp",
-      "sources": [
-        {
-          "title": "IAU — Controlling Light Pollution",
-          "url": "https://iauarchive.eso.org/public/themes/light_pollution/",
-          "used": "Chiarore diffuso, contrasto e impatti; nessuna percentuale estrapolata"
-        },
-        {
-          "title": "NASA — How to Find Good Places to Stargaze",
-          "url": "https://science.nasa.gov/solar-system/how-to-find-good-places-to-stargaze/",
-          "used": "Importanza di direzione, Luna e condizioni; nessuna classe Bortle assegnata da una mappa"
-        },
-        {
-          "title": "EduINAF — Capire l'inquinamento luminoso",
-          "url": "https://edu.inaf.it/news/per-la-scuola/capire-linquinamento-luminoso/",
-          "used": "Luce dispersa e visibilità stellare; non ripresa l'esagerazione che in città rimangano visibili soltanto pianeti"
-        },
-        {
-          "title": "National Park Service — Light Pollution",
-          "url": "https://www.nps.gov/subjects/nightskies/lightpollution.htm",
-          "used": "Tre effetti: abbagliamento, luce intrusiva, chiarore del cielo"
-        },
-        {
-          "title": "AAS — Resolution on Light Pollution, revisione2025",
-          "url": "https://aas.org/about/governance/society-resolutions/light-pollution",
-          "used": "Uso mirato e proporzionato della luce; nessuna statistica di crescita generalizzata"
-        },
-        {
-          "title": "DarkSky/IES — Five Principles for Responsible Outdoor Lighting",
-          "url": "https://darksky.org/resources/guides-and-how-tos/lighting-principles/",
-          "used": "Direzione, schermatura, intensità, controllo e componente spettrale; principio non garanzia di eliminazione"
-        }
-      ],
-      "sha256": "084e2b9f3d40b0bcb22f436e1940954d9e8ae1791790d4901ba2a204c05936ab"
-    },
-    {
-      "id": "IC-22",
-      "area": "imparare",
-      "title": "Stella o pianeta? Gli indizi da confrontare",
-      "replaces": [],
-      "approval_date": "2026-10-23",
-      "png": "assets/poster/revisioni-20261023/IC-22.png",
-      "pdf": "assets/poster/revisioni-20261023/IC-22.pdf",
-      "thumbnail": "assets/poster/revisioni-20261023/IC-22.webp",
-      "sources": [
-        {
-          "title": "NRAO — Scintillation",
-          "url": "https://www.gb.nrao.edu/GBTopsdocs/primer/scintillation.htm",
-          "used": "Scintillazione maggiore vicino all'orizzonte; dischi planetari e media spaziale"
-        },
-        {
-          "title": "FSU/Optical Society — Why do Stars Twinkle",
-          "url": "https://osa.magnet.fsu.edu/tutorials/starstwinkle.html",
-          "used": "Turbolenza, rifrazione variabile e instabilità dell'immagine"
-        },
-        {
-          "title": "LPI — Sky Tellers: Stars",
-          "url": "https://www.lpi.usra.edu/education/skytellers/stars/",
-          "used": "Solo paragrafo sulla scintillazione, non le altre semplificazioni evolutive della pagina"
-        },
-        {
-          "title": "University of Wisconsin–Madison — James Lattis",
-          "url": "https://news.wisc.edu/curiosities-why-do-stars-appear-to-twinkle-in-the-night-sky/",
-          "used": "Scintillazione planetaria normalmente attenuata, non impossibile"
-        },
-        {
-          "title": "NASA — Skywatching FAQ",
-          "url": "https://science.nasa.gov/skywatching/faq/",
-          "used": "Visibilità dei pianeti e utilità delle coordinate locali luogo/data/ora"
-        },
-        {
-          "title": "JPL — Horizons Manual",
-          "url": "https://ssd.jpl.nasa.gov/horizons/manual.html",
-          "used": "Posizioni e moto rispetto a riferimenti; non traiettoria sintetica come effemeride attuale"
-        }
-      ],
-      "sha256": "7c1682be08f351871a74e4a4a79b02096f16837e921ebf338a949967918bc1ab"
-    },
-    {
-      "id": "IC-23",
-      "area": "imparare",
-      "title": "Aloni, pareli e nubi nottilucenti",
-      "replaces": [
-        "tavola-5"
-      ],
-      "approval_date": "2026-10-23",
-      "png": "assets/poster/revisioni-20261023/IC-23.png",
-      "pdf": "assets/poster/revisioni-20261023/IC-23.pdf",
-      "thumbnail": "assets/poster/revisioni-20261023/IC-23.webp",
-      "sources": [
-        {
-          "title": "WMO — International Cloud Atlas, Corona",
-          "url": "https://cloudatlas.wmo.int/en/corona.html",
-          "used": "Diffrazione, acqua o ghiaccio e dimensione variabile. Non appiattire la corona a un anello di22° né limitarla necessariamente ad acqua liquida."
-        },
-        {
-          "title": "NOAA-NWS — Halos, Sundogs and Sun Pillars",
-          "url": "https://www.weather.gov/arx/why_halos_sundogs_pillars",
-          "used": "Rifrazione per aloni/pareli, riflessione per pilastri. Non ripresa descrizione generica della rifrazione a qualsiasi angolo o riflessione priva di dipendenza spettrale come legge universale."
-        },
-        {
-          "title": "Met Office — Optical effects",
-          "url": "https://weather.metoffice.gov.uk/learn-about/weather/optical-effects",
-          "used": "Confronto fra aloni, pareli e corone. 22° è angolo apparente di deviazione minima e raggio dell’alone comune, non l’angolo d’ingresso nel cristallo come potrebbe suggerire una frase semplificata della fonte."
-        },
-        {
-          "title": "NASA Science — Nocturnal wonders",
-          "url": "https://science.nasa.gov/resource/nocturnal-wonders/",
-          "used": "Nubi mesosferiche80–85km, ghiaccio illuminato e stagione/latitudini. La foto Jan Erik Paulsen2010 non viene copiata né riattribuita alla ricostruzione."
-        },
-        {
-          "title": "British Astronomical Association — Observing Noctilucent Clouds",
-          "url": "https://britastro.org/section_information_/aurora-and-noctilucent-cloud-overview/observing-noctilucent-clouds",
-          "used": "Strutture sottili, crepuscolo, contrasto con nubi basse e annotazione di osservazioni negative. Frequenza3–4volte/anno del contesto britannico non generalizzata all’Italia."
-        },
-        {
-          "title": "Astronomia in rete — scheda sull’alone",
-          "url": "https://www.fabiopacucci.com/wp-content/uploads/2018/09/astronomia_in_rete.pdf",
-          "locator": "pagina PDF92, corpo letto nella banca IC-23-banca.json",
-          "used": "Confronto sul raggio dell’alone terrestre e ghiaccio. Non riprese ipotesi o assenza storica di osservazioni marziane come fatti attuali; non proposto puntare le mani verso il Sole."
-        }
-      ],
-      "sha256": "f1f16aaad56c6298c26b69a2b25b2784d2f8a3e3719d862546a96a4a77d7f654"
-    },
-    {
-      "id": "IC-24",
-      "area": "imparare",
-      "title": "ISS, satelliti e treni di luci",
-      "replaces": [
-        "tavola-6"
-      ],
-      "approval_date": "2026-10-23",
-      "png": "assets/poster/revisioni-20261023/IC-24.png",
-      "pdf": "assets/poster/revisioni-20261023/IC-24.pdf",
-      "thumbnail": "assets/poster/revisioni-20261023/IC-24.webp",
-      "sources": [
-        {
-          "title": "NASA — Spot the Station FAQ",
-          "url": "https://www.nasa.gov/missions/station/spot-the-station-frequently-asked-questions/",
-          "used": "Luce riflessa e previsioni locali. Nessun numero di passaggi garantito per ogni luogo o mese."
-        },
-        {
-          "title": "NASA/JPL — Find the Space Station passing overhead",
-          "url": "https://www.jpl.nasa.gov/videos/whats-up-april-2010-find-the-space-station-passing-overhead/",
-          "used": "Trascrizione letta, non visione del filmato. Aspetto puntiforme, entrata in ombra, differenza da luci aeronautiche. Non ripresi indicazioni dello Shuttle, calendario aprile 2010 o vecchio sito di previsione."
-        },
-        {
-          "title": "ESO — eso2004",
-          "url": "https://www.eso.org/public/australia/news/eso2004/",
-          "used": "Passaggio sui treni appena lanciati e illuminazione. Non presentati i numeri o le stime del modello 2020 come inventario attuale."
-        },
-        {
-          "title": "EduINAF — App Sorvegliati Spaziali",
-          "url": "https://edu.inaf.it/astrodidattica/app-sorvegliati-spaziali/",
-          "used": "Rifiuti spaziali, meteore e distinzione fra ricostruzione in AR e osservazione; nessuna acquisizione di immagini dell’app."
-        },
-        {
-          "title": "American Meteor Society — Fireball FAQ",
-          "url": "https://www.amsmeteors.org/fireballs/faqf/",
-          "used": "Durata e scia persistente distinte; registrare istante, direzione e durata. Non ripresa la conversione errata 80 km=65 miglia, né assimilata la traccia alla traiettoria attuale del corpo."
-        },
-        {
-          "title": "FAA — Airplane Flying Handbook, cap.11",
-          "url": "https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/airplane_handbook/12_afh_ch11.pdf",
-          "locator": "pagine PDF5–6, pagine stampate11-5/11-6",
-          "used": "Luci di posizione e anticollisione; non confondere rosso/verde fissi con il lampeggio, non dedurre identificazione univoca da un singolo indizio."
-        }
-      ],
-      "sha256": "0aefc0a63b1395ff5a7770d0752e76428e25d2964ba94580b88be99f676ea853"
-    },
-    {
       "id": "IC-25",
       "area": "imparare",
       "title": "Misurare la Terra con Eratostene",
@@ -1182,52 +1255,14 @@
           "title": "NOAA — History of Geodesy",
           "url": "https://oceanservice.noaa.gov/education/tutorial_geodesy/geo02_hist.html",
           "used": "Relazione C=360d/theta. Esclusi4400stadi,7.12decimali e uguaglianze numeriche incoerenti del racconto."
+        },
+        {
+          "title": "EduINAF — Mappamondo parallelo: costruzione e orientamento",
+          "url": "https://edu.inaf.it/astrodidattica/mappamondo-parallelo-costruzione/",
+          "used": "Raggi solari reali e ombre su un globo; distinto l’orientamento parallelo geofisico dalla dimostrazione libera del principio di Eratostene."
         }
       ],
-      "sha256": "6632a95019262d9d0ca1b18f49d85598e348502ccb16afdc85ae606af0ca9238"
-    },
-    {
-      "id": "IC-26",
-      "area": "imparare",
-      "title": "Una serata sul campo: il mio diario",
-      "replaces": [],
-      "approval_date": "2026-10-23",
-      "png": "assets/poster/revisioni-20261023/IC-26.png",
-      "pdf": "assets/poster/revisioni-20261023/IC-26.pdf",
-      "thumbnail": "assets/poster/revisioni-20261023/IC-26.webp",
-      "sources": [
-        {
-          "title": "NASA Science — Moon Observation Journal",
-          "url": "https://science.nasa.gov/resource/moon-observation-journal/",
-          "used": "Data, ora, disegno e ragione della mancata osservazione. Non scambiare previsione per osservazione."
-        },
-        {
-          "title": "NASA/JPL — Look at the Moon journaling project",
-          "url": "https://www.jpl.nasa.gov/edu/resources/project/look-at-the-moon-journaling-project/",
-          "used": "Ripetizione e confronto fra giorni. La proposta di completare retroattivamente giorni mancanti con fase prevista viene adattata tenendo separati osservato e previsto, senza riempire il registro come se fossero misure."
-        },
-        {
-          "title": "NASA RadioJOVE — Sample log forms",
-          "url": "https://radiojove.gsfc.nasa.gov/education/educationalcd/ObserversHandbooks/SkillBuildingTips/Field%20Observations/Observing%20Log.pdf",
-          "used": "Registro previsto distinto da registro osservato, intervalli e tempo locale/UT. Le sigle delle tempeste radio non copiate come etichette per osservazione visuale."
-        },
-        {
-          "title": "AMS — Fireball FAQ",
-          "url": "https://www.amsmeteors.org/fireballs/faqf/",
-          "used": "Registrare durata, luminosità, direzioni e riferimenti; descrizione diversa dall’identificazione."
-        },
-        {
-          "title": "BAA — Observing noctilucent clouds",
-          "url": "https://britastro.org/section_information_/aurora-and-noctilucent-cloud-overview/observing-noctilucent-clouds",
-          "used": "Osservazioni negative documentate e condizioni; frequenza del fenomeno nel RegnoUnito non generalizzata all’Italia."
-        },
-        {
-          "title": "UAI — Il cielo del mese",
-          "url": "https://www.uai.it/sito/il-cielo-del-mese/",
-          "used": "Programmazione con fonti mensili e crediti. Descrizione introduttiva con Tiangong2 e Iridium flare datata: non usata come elenco di bersagli attuali, rimando soltanto al servizio e alla ricerca dei dati per mese/luogo."
-        }
-      ],
-      "sha256": "31de0a67c5beaab0c0e377d5e12a7d1671bcd759f2c7da848c3e00818b368b2c"
+      "sha256": "dd7664447a5f0b698ee7fd19e0d16b0918536872b868629aa1baa43de30b8e31"
     },
     {
       "id": "UN-01",
