@@ -244,7 +244,7 @@
           "used": "Altezza dell'asta e lunghezza dell'ombra sul medesimo piano"
         }
       ],
-      "sha256": "2a538a35c0aa91d254be453df0a30d574f8308d62b51cbb440b45c9763ac27ed"
+      "sha256": "1b1ef84cd32abe6d777169602b9b7b916919c3afde590e8e54b208364ceeafa3"
     },
     {
       "id": "IC-06",
@@ -428,9 +428,15 @@
           "url": "https://static.treccani.it/export/sites/default/Portale/resources/multimedia/Lezioni_Astrofisica/Coordinate/Lezione.pdf",
           "locator": "pagina 3, copia locale letta",
           "used": "Definizioni di altezza, zenit e circumpolarità. Convenzioni azimutali Sud/Nord distinte; non ripresa alla lettera l’affermazione tutte le stelle circumpolari ai poli senza delimitare l’emisfero visibile."
+        },
+        {
+          "title": "University of Nebraska–Lincoln — Sidereal vs. Synodic Motions",
+          "url": "https://astro.unl.edu/naap/motion3/sidereal_synodic.html",
+          "used": "Confronto fra ritorno rispetto alle stelle e rispetto al Sole; rotazione e avanzamento in orbita, approssimazione al minuto.",
+          "access": "Letto testo restituito dall’indice di ricerca; apertura diretta in timeout. Nessuna animazione esaminata."
         }
       ],
-      "sha256": "084c18ad081e2bb33d68cf66181ef9590a1daa113de6e9f24fd0cbf050a570b8"
+      "sha256": "21a50a9f340ffdf5b523489870f93da8a728fe6632f6748a2551bacee6260bdd"
     },
     {
       "id": "IC-10",
@@ -480,7 +486,7 @@
           "used": "Percorso osservativo, doppia informazione direzione/altezza, distinzione tra separazione angolare e distanza fisica."
         }
       ],
-      "sha256": "82a54d2ea3f24ed8e8d232ab2db2e2dfd7e9978854df82b4538a04bb295bc1dc"
+      "sha256": "98ed08e03e3b5f4d27555325fd2b600b5b431509adfa60ba64b6558d2fb5640a"
     },
     {
       "id": "IC-11",
@@ -529,7 +535,7 @@
           "used": "Metodo graduale a partire da poche stelle, confronto con carta e condizioni dell’osservatore."
         }
       ],
-      "sha256": "69416bbbf4186b79718ebea2a15f9f8a53a76a88188bc91b2e22449869e40236"
+      "sha256": "3e47284a32f284cda315b34f3432ab3a13e482bbc9860a664f69de0e419f021d"
     },
     {
       "id": "IC-12",
@@ -576,7 +582,7 @@
           "used": "Parti da stampare, ora standard/legale, orientamento e assenza di Luna/pianeti. Non riprese le generalizzazioni tutte le stelle a nord non tramontano e oggetto non sulla carta uguale pianeta; il tramonto del Sole non identifica sempre l’ovest esatto. Carta2007 per principi costruttivi, non per effemeridi attuali."
         }
       ],
-      "sha256": "c272aa4a052c988cd0ba324cec7a0d2d0067694f88fd81aa8210ce5b44c57f1c"
+      "sha256": "97a477cb013a1b909a590eb97d32599d2f6c8e66e22abf20753a10d13db55805"
     },
     {
       "id": "IC-13",
@@ -622,7 +628,7 @@
           "used": "Vega, Deneb e Altair appartengono a tre costellazioni. Calendario2021 e distanzaDeneb non usati come dati attuali."
         }
       ],
-      "sha256": "6917fd06cba15864c7237b3e4f870ac15a49ee7b8063601ab01364a3595d3452"
+      "sha256": "f469a49fead2abb5948039ebaa5cbea1b7c92bdb3d513cc458a047abb2885c08"
     },
     {
       "id": "IC-14",
@@ -668,7 +674,7 @@
           "used": "Metodo graduale e distinzione tra osservare e interpretare; testo locale effettivamente letto."
         }
       ],
-      "sha256": "6a6721a95c3bc864d373f9fceccc218dd5b9f948650723a7c619d702a8bdd515"
+      "sha256": "83e46b5a85c23fee9d379b795dd7ff4ac9c3cd3fa4338026eb63a9659f3faf28"
     },
     {
       "id": "IC-15",
@@ -720,7 +726,7 @@
           "access": "Paragrafi della ricerca letti, apertura diretta in timeout; diagrammi non riprodotti."
         }
       ],
-      "sha256": "508b640202095c48d69f6cb6b27bc0ae7c1ad5a0c2be02664f8ef06d811f3464"
+      "sha256": "0001daeff896cc26205560067d3487c0882da8eb17a87c6f380725c2eedd6946"
     },
     {
       "id": "IC-16",
@@ -771,7 +777,7 @@
           "used": "Ammassi come sistemi fisici, varietà di età; esclusi conteggi datati e generalizzazioni sulla dispersione."
         }
       ],
-      "sha256": "697bc4660166ae937fdec5408250c35e6db6d8e7a495a8fca12bed2aa03c22c3"
+      "sha256": "2f4cbbfec94d2fae1d5e30fa5826fa456477fee8b43d3e75bc6c4e71ef8102be"
     },
     {
       "id": "IC-17",
@@ -817,7 +823,7 @@
           "used": "Vega, Deneb e Altair appartengono a tre costellazioni. Calendario2021 e distanzaDeneb non usati come dati attuali."
         }
       ],
-      "sha256": "f0a8a5337aadd495776d7612437630ce4f5beb23252903c2803f6bf7e975130d"
+      "sha256": "65658fa9343c642031d972036185f70d0e579a203c263fc654a33771a4f94766"
     },
     {
       "id": "IC-18",
@@ -860,7 +866,7 @@
           "used": "Definizioni di coordinate orizzontali e loro dipendenza da osservatore e istante; non si dichiara Horizons come motore usato"
         }
       ],
-      "sha256": "febccf980033f60c5f311a9e9e417f080f71c569294bf7b9bcb237e9ba6f634a"
+      "sha256": "57784b0234bfb7265a307d590340fddb4bc72c11a2af959299701946e6e88ab9"
     },
     {
       "id": "IC-19",
