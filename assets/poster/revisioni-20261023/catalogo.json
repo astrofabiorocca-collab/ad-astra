@@ -111,7 +111,7 @@
           "used": "Definizioni AZ/EL; piano perpendicolare allo zenit distinto dal visibile"
         }
       ],
-      "sha256": "7b46ea8ac1e6c7786295b550f7f2f34dc525e2a2fb7e1d6c7a33f9b4042e7dbc"
+      "sha256": "331dba7ec60f992036cee1e97d4807badd284ccaf01a70c47b5f98088a8b2294"
     },
     {
       "id": "IC-03",
@@ -156,7 +156,7 @@
           "used": "Direzioni cardinali e misure angolari"
         }
       ],
-      "sha256": "17e487ddd000d3053ff667c048a7f5952478802abcc33a48e41101684a5439c8"
+      "sha256": "a46ea9f74b3cc433abfe26d34a113272fdd048d098ca2f2436a96b9772dc1fe5"
     },
     {
       "id": "IC-04",
@@ -200,7 +200,7 @@
           "used": "Confronto critico della frase sulla bussola: non è inutilizzabile in assoluto; occorre la correzione e restano limiti di precisione"
         }
       ],
-      "sha256": "3b50a39327bfa519e9516b7043e26889e3680e92d648bd339d5d615034c51c9e"
+      "sha256": "7967339c3bb9474576c75a9f7b5e073509ecc5c3703bfe45af0a242c016a80fc"
     },
     {
       "id": "IC-05",
