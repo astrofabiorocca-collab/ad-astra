@@ -916,7 +916,7 @@
           "used": "Sistema equatoriale e scala angolare. Non copiata l’identificazione della rotazione terrestre rispetto alle stelle con360gradi in24ore di tempo medio. Obliquità storica non trasferita come valore aggiornato."
         }
       ],
-      "sha256": "338f264e768451b7e6109f33bd9eb4e30384c40311c637a711dee3cb6ad8c4e4"
+      "sha256": "11974054dab2c774ddf6411ce400d6535b4b7084b754f682d81d73bbd4e4a280"
     },
     {
       "id": "IC-20",
@@ -961,7 +961,7 @@
           "used": "Geometria delle stagioni; dati planetari e prestazioni datati del2002 esclusi"
         }
       ],
-      "sha256": "60efdff7048dfd3242233f6753dc00cd7f8300cde14513575b261f66a0961a76"
+      "sha256": "f0def53105e1541271d6c96554808c57e2497ff91bf3157aa315dd33aa1cfd1f"
     },
     {
       "id": "IC-21",
