@@ -5,11 +5,11 @@
 .poster-path-intro{display:flex;align-items:center;gap:1.8rem;margin:1.7rem 0 .8rem;padding:1.4rem 1.6rem;border-radius:14px;background:linear-gradient(110deg,#dce9f4,#edf3f8 70%,#f7f9fb);color:#143653}
 .poster-path-intro>strong{font-size:1.65rem;white-space:nowrap;color:#205b89}
 .poster-path-intro>div{flex:1;min-width:0}
-.poster-gallery-page--imparare .poster-introduction{width:100%;max-width:none}
-.poster-gallery-page--imparare .poster-gallery-lead{width:100%;max-width:none;text-align:justify;hyphens:auto;line-height:1.8;margin:0 0 1rem}
-.poster-gallery-page--imparare .poster-path-intro p:last-child{text-align:justify;hyphens:auto;line-height:1.75;margin-top:.6rem}
+:is(.poster-gallery-page--imparare,.poster-gallery-page--percorso) .poster-introduction{width:100%;max-width:none}
+:is(.poster-gallery-page--imparare,.poster-gallery-page--percorso) .poster-gallery-lead{width:100%;max-width:none;text-align:justify;hyphens:auto;line-height:1.8;margin:0 0 1rem}
+:is(.poster-gallery-page--imparare,.poster-gallery-page--percorso) .poster-path-intro p:last-child{text-align:justify;hyphens:auto;line-height:1.75;margin-top:.6rem}
 .poster-path-intro p{margin:.25rem 0;line-height:1.55}
 .poster-path-intro p:first-child{font-weight:650}
 .poster-editorial-note{font-size:.84rem;line-height:1.55;color:#607487;margin:.6rem 0 1.6rem;max-width:1000px}
 @media(max-width:650px){.poster-path-intro{align-items:flex-start;flex-direction:column;gap:.55rem;padding:1.1rem}.poster-path-intro>strong{font-size:1.4rem}}
-@media(max-width:650px){.poster-gallery-page--imparare .poster-gallery-lead,.poster-gallery-page--imparare .poster-path-intro p:last-child{text-align:left}}
+@media(max-width:650px){:is(.poster-gallery-page--imparare,.poster-gallery-page--percorso) .poster-gallery-lead,:is(.poster-gallery-page--imparare,.poster-gallery-page--percorso) .poster-path-intro p:last-child{text-align:left}}

@@ -1442,7 +1442,7 @@
           "used": "Anno luce come lunghezza, pc/kpc/Mpc. Conversioni arrotondate ricalcolate anziché copiate"
         }
       ],
-      "sha256": "46d42fbfe1f169cdeaa4c30d7ac25b1e90e8cff2ddd1498273261f041fe0d0f9"
+      "sha256": "bc5615ab772f50059e98a10a388f459a2cd142f8031e1fd22cd8465484f26505"
     },
     {
       "id": "UN-05",
@@ -1669,7 +1669,7 @@
           "used": "Sole nella sequenza e confronto con giganti. Dati storici distinti da valori moderni; non impiegata parola flusso per luminosità senza distinzione"
         }
       ],
-      "sha256": "bf669c7da3bda41b0ba9a597e15ec497ed4169678a7929e00de87905f2c1d3f9"
+      "sha256": "58e62981ad289209e91f5a4ca0d35b74a7df54e44cf97b968156c58dd1f3a638"
     },
     {
       "id": "UN-10",
@@ -1938,7 +1938,7 @@
           "used": "Contesto della nucleosintesi stellare; non prova indipendente di ogni canale o dato numerico"
         }
       ],
-      "sha256": "0b40ac316c93658ebdaaa0d0fc39fd9fbe74738bbf79b8914f5e151fa7973695"
+      "sha256": "d34c2ff000bd8c5149c0d17379a21b6b05c73b2d46ce9e2c1764acaab265e93e"
     },
     {
       "id": "UN-16",
@@ -2073,7 +2073,7 @@
           "used": "HectoMAP come esempio di distribuzione osservata di galassie, distinto da una ricostruzione. Nessuna riproduzione della slide o delle sue immagini: materiale del corso in attesa di autorizzazione per ospitalità pubblica."
         }
       ],
-      "sha256": "1efee0a35156a3b31a97f5b983e677a970be12aa440d7aea4fec4d9d08db239b"
+      "sha256": "327cf746c8866cc1bc304d6dc604715bf3957617e2ec3aa8c93f8f90939793da"
     },
     {
       "id": "UN-19",
@@ -2623,7 +2623,7 @@
           "used": "Assorbimento ed emissione IR; distinzione dalla serra di vetro, aria secca. Documento storico per principi, non concentrazioni attuali o previsioni"
         }
       ],
-      "sha256": "357ce3810d27360306fb0f4c219017dc70dceb6575eff15f74a8dd9a31d02842"
+      "sha256": "9e884d5852ff4d6d753b44f2dd0fa6c24b8ecf8f5e8ca73aef2e65a700ebfbe2"
     },
     {
       "id": "SS-07",
@@ -2756,7 +2756,7 @@
           "used": "Regione oltre Nettuno e distinzione fra fascia e singoli corpi"
         }
       ],
-      "sha256": "a07a0ee6385f054ecc548bfec0bbf46462429410d2d9eb27f48df93dfaf8a260"
+      "sha256": "db44199c1f863a3e993f9910e3c6f9d038ab089bff0a9f983275d5f43a53675e"
     },
     {
       "id": "SS-10",
@@ -2857,7 +2857,7 @@
           "used": "Satellite di Plutone e blocco mareale reciproco"
         }
       ],
-      "sha256": "cd35507935d72f6bbc8863534ff9d962173e2d6c73586d585f812b36149ff98f"
+      "sha256": "42acbdfe3b3cbfbf9a68cdfadb78b25add009d92f86dc95ef17a4a70670435b3"
     },
     {
       "id": "SS-12",
@@ -3170,7 +3170,7 @@
           "used": "Esperienza osservativa dell’eclissi4maggio2004 e confronto fra località. Foto e fotocamere storiche non riprodotte come attuali, nessuna immagine copiata."
         }
       ],
-      "sha256": "e4304663f2588130be510a9f827a69006237f2a802db9f9f609c2a294c496fc8"
+      "sha256": "e864065b7fea708a2e0b64e2b33a4a565fb3f91f81ed273beaef219169e57234"
     },
     {
       "id": "SS-19",
@@ -3438,7 +3438,7 @@
           "used": "100km come convenzione, discussione delle definizioni; non confine fisico netto"
         }
       ],
-      "sha256": "4ee3f8f32028934dcb8c58a82710e9e8b9acc910fbaf6dcb344aab7514e53178"
+      "sha256": "e91b32672125dfda5f10752a9d55a945b478e15c4cd506671aabb51fd681a48f"
     },
     {
       "id": "SS-25",
@@ -3757,7 +3757,7 @@
           "used": "Parallelogramma, variazione altezza oculari, contrappesi e bloccaggio per montaggio; escluse affermazioni commerciali superlative"
         }
       ],
-      "sha256": "20314731a2c2770e7093287a768baa9fd854960bdd58a02ff3dd57374c048df8"
+      "sha256": "b73f54958ea5cd63b0beb8ba66e52b569bcc21cae2340b33427f2ca054b2f72d"
     },
     {
       "id": "SA-05",
@@ -4119,7 +4119,7 @@
           "used": "Stazionamento e bilanciamento, sostegno del tubo prima di sbloccare. Non equiparato sblocco frizione e apertura del morsetto della slitta."
         }
       ],
-      "sha256": "8300a702494f4d0bd3475fbec4e69d95ec1fcc4520a5855157e02109c2ad8794"
+      "sha256": "f89a206dd98270fdc27fefdc4480d4f522a917ce04b4f6983fc4421f2ffe71ae"
     },
     {
       "id": "SA-13",
@@ -4433,7 +4433,7 @@
           "used": "Shot noise, lettura e non uniformità. Escluso errore sulla sottrazione del flat: la correzione di sensibilità impiega divisione per flat normalizzato. Non ripresa la soglia storica sul limite minimo raggiunto dalle camere come stato attuale."
         }
       ],
-      "sha256": "71a9a0bd34e72111e728f8c558d97bd5e1692227c85fa7a7242d65dfe3f111ee"
+      "sha256": "cafa87dfcb6114703532158ed603916b59cc34e559a4cc8716d7319b0d7ab378"
     },
     {
       "id": "SA-20",
@@ -4609,7 +4609,7 @@
           "used": "Ordine calibrazione, registrazione, stacking ed elaborazione; non copiata interfaccia né fotografia."
         }
       ],
-      "sha256": "080fe5b534c87e403df50cb52ae79f71760ec9d468ab808c3158b636ce6e909d"
+      "sha256": "d587f6324e34608788aed1824192d390cb329b3e8200c1e9f80647cc8b2c36e4"
     },
     {
       "id": "SA-24",
