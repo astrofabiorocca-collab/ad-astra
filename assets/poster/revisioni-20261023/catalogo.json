@@ -1442,7 +1442,7 @@
           "used": "Anno luce come lunghezza, pc/kpc/Mpc. Conversioni arrotondate ricalcolate anziché copiate"
         }
       ],
-      "sha256": "bc5615ab772f50059e98a10a388f459a2cd142f8031e1fd22cd8465484f26505"
+      "sha256": "82efe5807386981e49c1c0dc24e2eefb4f5aa1546568ae5fdf00982b87cd2697"
     },
     {
       "id": "UN-05",
@@ -1487,7 +1487,7 @@
           "used": "Testo pubblico: base2UA fra osservazioni, definizione1UA e1arcsec. Cronologia Gaia obsoleta esclusa."
         }
       ],
-      "sha256": "44c3e2bfd0d39e6a27121d0107e592913bca7a472274239a6265f16f01890bfd"
+      "sha256": "d2af7a26e0b5cb953d93d6d6c3b30931b5c2a634954c80fd2ee89fe4acec37b5"
     },
     {
       "id": "UN-06",
@@ -1533,7 +1533,7 @@
           "used": "Magnitudine assoluta nella banda visibile, distinta dalla luminosità bolometrica."
         }
       ],
-      "sha256": "bbaced6cdc0acde6151bd10327602ada1fc0e57f0bed1c4bfa61a75b9c52f093"
+      "sha256": "9abc06bc45e363c14289b026a83a2d5f4d8a53a59d5037169853e48d25438d3e"
     },
     {
       "id": "UN-07",
@@ -2121,9 +2121,29 @@
           "title": "Procopio et al. — Nature, 2026",
           "url": "https://www.nature.com/articles/s41586-026-10720-3",
           "used": "Abstract primario: radiazione Hawking non osservata astronomicamente; esperimento su analogo ottico distinto da buco nero reale."
+        },
+        {
+          "title": "Swinburne COSMOS — Schwarzschild Radius",
+          "url": "https://astronomy.swin.edu.au/cosmos/S/Schwarzschild%2BRadius",
+          "used": "Raggio proporzionale alla massa, circa 3 km per massa solare; modello non rotante."
+        },
+        {
+          "title": "NASA — Space Math, Black Hole Math",
+          "url": "https://www.nasa.gov/wp-content/uploads/2013/05/black_hole_math.pdf",
+          "used": "Relazione massa-raggio di Schwarzschild e confronto numerico."
+        },
+        {
+          "title": "NASA — Sizes Up the Biggest Black Holes",
+          "url": "https://www.nasa.gov/universe/nasa-animation-sizes-up-the-universes-biggest-black-holes/",
+          "used": "TON618, ordine di grandezza decine di miliardi di masse solari; evitare un record assoluto."
+        },
+        {
+          "title": "Shemmer et al. — ApJ 614, 547 (2004)",
+          "url": "https://arxiv.org/abs/astro-ph/0406559",
+          "used": "Metodo spettroscopico per stimare la massa dei quasars; nessuna immagine EHT di TON618 presentata."
         }
       ],
-      "sha256": "93ca5e990107905180d7fcfa325224715665e2fdb071ef6fc59bf3f0288b8abf"
+      "sha256": "2a206838ba0883132927ad35bc105619bc5a32a4d2347b8352bc17b76992ae64"
     },
     {
       "id": "UN-20",
@@ -2211,9 +2231,14 @@
           "title": "NASA/Webb — What Is Cosmological Redshift?",
           "url": "https://science.nasa.gov/asset/webb/what-is-cosmological-redshift/",
           "used": "Allungamento della radiazione durante il viaggio e ricezione nell’infrarosso."
+        },
+        {
+          "title": "NASA/Hubble — Cosmological Redshift",
+          "url": "https://science.nasa.gov/mission/hubble/science/science-behind-the-discoveries/hubble-cosmological-redshift/",
+          "used": "Collegamento fra redshift cosmologico ed espansione, relazione distanza-allontanamento."
         }
       ],
-      "sha256": "8ceae2359d11def48b79c28f65859f1bba4be3abf69ed787dc12b6aa9c4b6ff8"
+      "sha256": "e98476c26b54836e0cef84f33c9e87a991194ab45057a6f1e31ba69f84608fda"
     },
     {
       "id": "UN-22",
@@ -2445,7 +2470,7 @@
           "private_file": "documenti/pdf/fabio-pdf-3dcde443362b.pdf"
         }
       ],
-      "sha256": "7ec3ba51ec414dfbda48d592fd282ab9f747dea8e5ca34f5d9b562f8e5a903b3"
+      "sha256": "2719ad8eac0595d44c38940c6ed013e3d1b136da94a69c6a12e0810bcb380f84"
     },
     {
       "id": "SS-03",
@@ -2580,7 +2605,7 @@
           "used": "Mantello prevalentementesolido che fluisce su tempi geologici; fusioneparziale localizzata, non oceano di magma."
         }
       ],
-      "sha256": "1f6414a60bb0baa2243c4ea029255fc427c1ca982cf36ac37a5eb818c5689859"
+      "sha256": "137710f122598cb4dc39b2e2e0f28f9cbca9a2f3d0c243993f0ccd7d9cb6b775"
     },
     {
       "id": "SS-06",
@@ -2668,7 +2693,7 @@
           "used": "Masse, raggi medi volumetrici e densità; rapporti rispetto alla Terra calcolati e arrotondati."
         }
       ],
-      "sha256": "910ad7b06b8a5014855179c19872095276e4111ebaa6884b7f5664ccfb557025"
+      "sha256": "416a1e774984ab797c09184c619a73cc997266344c7bd87b93a0215ed58550b5"
     },
     {
       "id": "SS-08",
@@ -2857,7 +2882,7 @@
           "used": "Satellite di Plutone e blocco mareale reciproco"
         }
       ],
-      "sha256": "42acbdfe3b3cbfbf9a68cdfadb78b25add009d92f86dc95ef17a4a70670435b3"
+      "sha256": "036146bf76aed7a538f081266783887114d320b25aa86370913ed34da74a3197"
     },
     {
       "id": "SS-12",
@@ -2990,7 +3015,7 @@
           "used": "27,3217giorni siderali,29,53sinodici;655,720ore rotazione."
         }
       ],
-      "sha256": "ffdbcb92297c95be2fb688a1bd06e19685bec2884d7cd9a9d4b77ca683b09964"
+      "sha256": "4cf98a33f32c068edefd66c77d8b310d8c95eaeabc82dd9fc71986eb8dbbbb57"
     },
     {
       "id": "SS-15",
@@ -3574,7 +3599,7 @@
           "used": "Composizione e ipotesi di alterazione acquosa; molecole organiche non equiparate alla vita."
         }
       ],
-      "sha256": "7a577db343bc45618861d7c22afe8bd5ea6c46638b5f6573864a3eb45541b359"
+      "sha256": "76eb552c43523155905592d968b6e12c7edb01ec5e9d6f64797df6892ec744d9"
     },
     {
       "id": "SA-01",
