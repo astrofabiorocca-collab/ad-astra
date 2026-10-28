@@ -2,3 +2,5 @@
 @media(prefers-reduced-motion:reduce){.photo-dialog-stage img{will-change:auto}}
 .photo-dialog{margin:auto}
 .lesson-laboratory{margin:26px 0;background:#edf3f9;border:1px solid #dce3ec;border-radius:10px;overflow:hidden}.lesson-laboratory>svg{width:100%;display:block}.lesson-laboratory figcaption{font-size:.8rem;line-height:1.65;text-align:left;padding:15px 18px;color:#526174;background:white}
+
+.photo-tools .photo-open{display:inline-flex;align-items:center;border:1px solid #a9bfd8;background:#fff;color:#17365f;border-radius:5px;padding:9px 13px;font:inherit;font-size:.82rem;min-height:42px;text-decoration:none;box-sizing:border-box}.photo-tools .photo-open:hover{background:#e6effa}.photo-tools .photo-open:focus-visible{outline:3px solid #2864d7;outline-offset:3px}

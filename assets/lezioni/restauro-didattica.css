@@ -1,0 +1,31 @@
+/* Percorso cognitivo e sintesi: testo HTML, leggibile anche senza JavaScript. */
+.astro-percorso,.astro-collegamento,.astro-calcolo,.astro-pillole{box-sizing:border-box;max-width:100%;margin:28px 0;color:#193852;line-height:1.75}
+.astro-percorso{padding:24px;border:1px solid #cbdce7;border-radius:12px;background:linear-gradient(135deg,#edf4f8,#f9fbfc)}
+.astro-percorso .astro-etichetta,.astro-pillole .astro-etichetta{font-size:.76rem;letter-spacing:.09em;text-transform:uppercase;font-weight:700;margin:0 0 8px;color:#456b80}
+.astro-percorso .astro-domanda{font-size:1.14rem;font-weight:700;line-height:1.55;text-align:left;margin:0 0 20px;color:#153751}
+.astro-parole{display:flex;flex-wrap:wrap;gap:10px;list-style:none;padding:0!important;margin:0!important}
+.astro-parole li{flex:1 1 150px;padding:10px 14px;border-left:3px solid #8daebf;border-radius:0 7px 7px 0;background:#fff;font-size:.9rem;font-weight:600}
+.astro-collegamento{border-left:3px solid #bb9449;padding:7px 0 7px 21px}
+.astro-collegamento .astro-frase{font-size:1.13rem;font-weight:700;line-height:1.55;text-align:left;margin-bottom:12px;color:#78591e}
+.astro-collegamento p:last-child{margin-bottom:0}
+.astro-collegamento .astro-riscontro{font-size:.76rem;text-align:left;line-height:1.6;margin-top:12px;color:#657789}
+.astro-riscontro a{color:#34647d;text-decoration:underline;text-underline-offset:3px}
+.astro-calcolo{padding:22px;background:#f5f7f9;border:1px solid #d7e0e7;border-radius:10px}
+.astro-calcolo h4{font-size:1.04rem;color:#214760;line-height:1.5;margin:0 0 12px}
+.astro-calcolo .astro-formula{font-size:1.08rem;font-weight:700;line-height:1.7;text-align:left;overflow-wrap:anywhere;padding:12px 0;border-top:1px solid #d4e1e9;border-bottom:1px solid #d4e1e9}
+.astro-calcolo ol{padding-left:23px;margin:16px 0}
+.astro-calcolo li{padding-left:4px;margin:12px 0;text-align:left}
+.astro-calcolo .astro-ipotesi{font-size:.85rem;text-align:left;color:#5c7080;margin-bottom:0}
+.astro-calcolo details{background:white;margin:14px 0 0;padding:15px}
+.astro-calcolo summary,.astro-relazione-originale summary{cursor:pointer;font-weight:600;color:#2e6079;line-height:1.6}
+.astro-relazione-originale{font-size:.9rem;background:#f8fafb}
+.astro-pillole{padding:25px;border:1px solid #bfd5d7;border-top:4px solid #52877e;border-radius:10px;background:#eff7f4;scroll-margin-top:30px}
+.astro-pillole h3{margin:0 0 9px!important;font-size:1.25rem!important;letter-spacing:.055em;color:#234f48!important}
+.astro-pillole .astro-sintesi{font-size:.9rem;text-align:left;margin:0 0 22px;color:#496760}
+.astro-flusso{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px;list-style:none;padding:0!important;margin:0!important;counter-reset:astro}
+.astro-flusso li{position:relative;margin:0!important;padding:14px 12px;background:#fff;border:1px solid #c9ddd6;border-radius:8px;text-align:left;font-size:.86rem;line-height:1.55;min-width:0;overflow-wrap:break-word;counter-increment:astro}
+.astro-flusso li:before{content:counter(astro,decimal-leading-zero);display:block;font-size:.72rem;color:#5e8177;font-weight:700;letter-spacing:.06em;margin-bottom:6px}
+.astro-flusso li:not(:last-child):after{content:'→';position:absolute;left:calc(100% + 3px);top:40%;width:15px;color:#4f8277;font-size:1.05rem;text-align:center}
+@media(max-width:1050px){.astro-flusso{grid-template-columns:1fr;gap:23px}.astro-flusso li:not(:last-child):after{content:'↓';left:calc(50% - 9px);top:calc(100% + 1px);height:21px}.astro-flusso li{padding:12px 16px}.astro-flusso li:before{display:inline-block;margin:0 11px 0 0}}
+@media(max-width:540px){.astro-percorso,.astro-calcolo,.astro-pillole{padding:18px}.astro-parole{gap:8px}.astro-parole li{flex-basis:100%;padding:8px 12px}.astro-collegamento{padding-left:15px}.astro-percorso .astro-domanda{font-size:1.06rem}.astro-calcolo .astro-formula{font-size:1rem}}
+@media print{.astro-calcolo details>*{display:block!important}.astro-calcolo details>summary{display:none!important}.astro-pillole{break-inside:avoid}.astro-flusso{grid-template-columns:1fr}.astro-flusso li:after{display:none}}

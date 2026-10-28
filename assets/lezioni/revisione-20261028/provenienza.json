@@ -1,0 +1,41 @@
+[
+  {
+    "file": "tramonto-orbitale-iss.jpg",
+    "url": "https://www.nasa.gov/wp-content/uploads/2023/03/iss068e068975.jpg",
+    "source": "https://www.nasa.gov/image-article/an-orbital-sunset-above-atlantic-ocean/",
+    "credit": "NASA",
+    "rights": "NASA media guidelines",
+    "policy": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "size": [
+      1041,
+      585
+    ],
+    "sha256": "caad67adeb073e00d48014ad0e5aed12b5762f36e6e02c3a270aa1a04e87fd38"
+  },
+  {
+    "file": "stagioni-epic.jpg",
+    "url": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/an-epic-view-of-the-seasons/equinox_epic_20240922_lrg.jpg",
+    "source": "https://science.nasa.gov/earth/earth-observatory/an-epic-view-of-the-seasons/",
+    "credit": "NASA Earth Observatory/Michala Garrison, using data from DSCOVR EPIC",
+    "rights": "NASA media guidelines; composizione di osservazioni di quattro date",
+    "policy": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "size": [
+      2460,
+      2190
+    ],
+    "sha256": "2c918aa6801c06ac3514882705d37c7e3876c8e5a5d6e6ca90cbcd12a2ae072d"
+  },
+  {
+    "file": "ngc1300-hubble.jpg",
+    "url": "https://cdn.esahubble.org/archives/images/screen/opo0501a.jpg",
+    "source": "https://esahubble.org/images/opo0501a/",
+    "credit": "NASA, ESA, and The Hubble Heritage Team (STScI/AURA)",
+    "rights": "CC BY 4.0",
+    "policy": "https://esahubble.org/copyright/",
+    "size": [
+      1280,
+      730
+    ],
+    "sha256": "e13b4de1971bb6331bd80c0de34cd3ad9074784477a4a8f03b8b9a863fe0b9c2"
+  }
+]

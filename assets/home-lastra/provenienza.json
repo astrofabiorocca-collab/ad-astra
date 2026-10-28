@@ -1,0 +1,18 @@
+{
+  "source": "https://science.nasa.gov/photojournal/our-neighbor-andromeda/",
+  "original": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia12/pia12832/PIA12832.jpg",
+  "credit": "NASA/JPL-Caltech/UCLA",
+  "id": "PIA12832",
+  "dimensions": [
+    6666,
+    6666
+  ],
+  "sha256": "ef89fa00f565937bcc6ebdce6045bb17d9add5ca257623595d33f43968c53e17",
+  "interpretation": "Mosaico infrarosso WISE, reso in negativo per uno sfondo decorativo. Non è una lastra storica.",
+  "file": "assets/home-lastra/andromeda-wise-4800.webp",
+  "output_dimensions": [
+    4800,
+    4800
+  ],
+  "changes": "Riduzione da 6666 a 4800 pixel, compressione WebP; negativo, contrasto, opacità e maschere realizzati soltanto nel CSS. Nessuna tessitura sintetica o clonazione."
+}

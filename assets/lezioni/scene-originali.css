@@ -1,0 +1,12 @@
+.lesson-illustration{margin:30px 0;border:1px solid #d7e1e5;border-radius:10px;background:#faf9f4;overflow:hidden}
+.lesson-illustration>img{display:block;width:auto;max-width:100%;height:auto;max-height:540px;object-fit:contain;margin:0 auto;background:#f8f7f1}
+.lesson-illustration figcaption{padding:17px 20px;font-size:.85rem;line-height:1.75;color:#4c6475;text-align:left}
+.lesson-illustration figcaption strong{color:#23465d;font-weight:600}
+.lesson-illustration figcaption a{color:#356a85;text-decoration:underline;text-underline-offset:3px}
+.scene-origin{font-size:.76rem;color:#6b7c89}
+.original-observation{padding:13px 16px!important;background:#f6f8fa;margin:20px 0!important;border:1px solid #dce5eb!important;border-radius:8px}
+.original-observation>summary{font-size:.86rem;line-height:1.65;color:#4a6c82;cursor:pointer}
+.original-observation .lesson-photo{margin:18px 0 0}
+.original-observation .lesson-photo img{max-height:440px}
+.lesson-illustration .photo-tools{background:#f0f4f5}
+@media(max-width:540px){.lesson-illustration figcaption{padding:14px;font-size:.83rem}.lesson-illustration>img{max-height:490px}.original-observation{padding:12px!important}}

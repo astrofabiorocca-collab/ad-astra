@@ -1,0 +1,36 @@
+/* Home soltanto. Fotografia WISE PIA12832: NASA/JPL-Caltech/UCLA.
+   Negativo grafico; nessuna tessitura sintetica, tassellatura o clonazione. */
+body{--plate-paper:#f6f4ed;--plate-ink:#203e50;background:var(--plate-paper);color:var(--plate-ink);isolation:isolate}
+body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:url("andromeda-wise-4800.webp") 65% 54% / min(170vw,2400px) auto no-repeat;filter:grayscale(1) invert(1) contrast(.94);opacity:.31;mix-blend-mode:multiply;-webkit-mask-image:linear-gradient(to bottom,transparent 0%,#000 16%,#000 83%,transparent 100%);mask-image:linear-gradient(to bottom,transparent 0%,#000 16%,#000 83%,transparent 100%)}
+/* Colori del menu indipendenti dal testo del corpo pagina. */
+body>header{color:#f4f2ed}
+body>header nav a{color:#f4f2ed}
+body>header nav a:hover,body>header nav a:focus-visible{color:#66b6ff}
+/* Un solo fondo attraversa il raccordo; nessuna fascia finale opaca. */
+.hero{color:#eef2f3}
+.hero.hero-banner11{--raccordo:clamp(280px,27vw,500px);padding-bottom:var(--raccordo);background:transparent;isolation:isolate}
+.hero.hero-banner11::before{content:"";position:absolute;inset:0 0 var(--raccordo);background:#000;z-index:0;pointer-events:none}
+.hero-banner11 .banner11-image{position:relative;z-index:1}
+.hero.hero-banner11::after{height:calc(var(--raccordo) + 2px);bottom:-1px;z-index:1;pointer-events:none;background:linear-gradient(to bottom,#000 0%,rgba(0,0,0,.995) 6%,rgba(0,0,0,.96) 18%,rgba(0,0,0,.85) 35%,rgba(0,0,0,.60) 53%,rgba(0,0,0,.30) 70%,rgba(0,0,0,.10) 85%,rgba(0,0,0,.02) 95%,transparent 100%)}
+.hero-layout{z-index:2}
+.section-title{color:#254454}.section-description{color:#576e7a}
+/* Bordo e rilievo: geometria delle schede conservata. */
+.main-card,.tool-card,.monthly-sky,.news-card,.editorial-card{border-color:#af9462;box-shadow:0 2px 3px #29434d12,0 10px 28px #29434d1c,inset 0 1px 0 #fff9e9a6}
+.main-card,.tool-card,.monthly-sky{color:#f0f3f4}
+.news-section{background:transparent}
+.news-card,.editorial-card{background:rgba(253,251,245,.93);color:#254454}
+.news-content p,.editorial-text p{color:#556d79}.news-date{color:#416f82}.news-card a,.editorial-text a{color:#35677c}
+.poster-placeholder{background:radial-gradient(ellipse at 40% 35%,#e9ede5,#d4dfdc);color:#486c79}
+/* Il banner inferiore nasce dallo stesso fondo, senza una striscia bianca. */
+.site-footer{isolation:isolate;background:linear-gradient(to bottom,transparent 0%,rgba(4,21,41,.06) 14%,rgba(4,21,41,.32) 34%,rgba(4,21,41,.78) 65%,#041529 100%)}
+.site-footer::before{content:none}
+.site-footer .bottom-banner-image{position:relative;z-index:0;-webkit-mask-image:linear-gradient(to bottom,transparent 0%,rgba(0,0,0,.12) 7%,rgba(0,0,0,.58) 19%,rgba(0,0,0,.91) 33%,#000 48%);mask-image:linear-gradient(to bottom,transparent 0%,rgba(0,0,0,.12) 7%,rgba(0,0,0,.58) 19%,rgba(0,0,0,.91) 33%,#000 48%)}
+.site-footer .footer-navigation{z-index:2;isolation:isolate;color:#e0c38b}
+.site-footer .footer-navigation::before{content:"";position:absolute;inset:-12px -14px;z-index:-1;pointer-events:none;border:1px solid #a68a55;border-radius:9px;background:linear-gradient(145deg,rgba(8,25,40,.96),rgba(17,41,59,.93));box-shadow:0 8px 26px #01132226,inset 0 1px 0 #d8c39826}
+.site-footer .footer-column h3{color:#efd49e;text-shadow:0 1px 1px #0006}
+.site-footer .footer-column a{color:#e0c38b}
+.site-footer .footer-column a:hover,.site-footer .footer-column a:focus-visible{color:#fff0c7}
+.site-footer .footer-column .footer-facebook{color:#fff}
+.site-footer::after{content:"Fondo fotografico: Andromeda WISE · NASA/JPL-Caltech/UCLA · interpretazione in negativo";position:absolute;left:3%;bottom:10px;z-index:3;max-width:92%;color:#cdbf9e;font-family:Arial,sans-serif;font-size:10px;line-height:1.5;pointer-events:none}
+@media(max-width:900px){body::before{background-size:170vw auto;opacity:.25}.hero.hero-banner11{--raccordo:clamp(250px,35vw,350px)}.site-footer .footer-navigation{background:#091e30}.site-footer .footer-navigation::before{display:none}.site-footer::after{position:relative;display:block;left:auto;bottom:auto;max-width:none;padding:8px 5% 16px;color:#cdbf9e;background:#091e30}}
+@media(prefers-reduced-motion:reduce){body::before{background-attachment:scroll}}
