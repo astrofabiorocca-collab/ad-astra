@@ -24,6 +24,6 @@ const seasons=A.Seasons(y);for(const [key,title]of [['mar_equinox','Equinozio di
 if(y===2026&&m===10){out.push({date:localDate(y,m,8,21),title:'Draconidi — massimo atteso intorno all’8 ottobre',text:'Sciame meteorico a intensità variabile; il radiante nel Drago favorisce l’osservazione serale. Data indicativa dal calendario IMO 2026.',type:'meteor'});out.push({date:localDate(y,m,21,3),title:'Orionidi — massimo atteso intorno al 21 ottobre',text:'Meteore legate alla cometa di Halley. Cerca un cielo buio nelle ore dopo mezzanotte; la Luna può disturbare parte della notte. La data del massimo è indicativa.',type:'meteor'});}
 return out.sort((a,b)=>a.date-b.date);}
 
-function activeMonth(){const p=timeParts(new Date());return p.year<2026||(p.year===2026&&p.month<11)?{year:2026,month:10}:{year:p.year,month:p.month};}
+function activeMonth(){const p=timeParts(new Date());return {year:p.year,month:p.month};}
 
 window.AdAstraAstro={A,tz,cities,names,timeParts,localDate,stamp,direction,esc,horizon,events,activeMonth};})();

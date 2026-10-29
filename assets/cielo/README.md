@@ -1,25 +1,24 @@
-# Il cielo del mese — AD ASTRA
+# Cielo del mese ed Effemeridi — aggiornamento locale 29 ottobre 2026
 
-La pagina `cielo-del-mese.html` esegue i calcoli nel browser, anche nella copia locale. Non richiede un server, API a pagamento, un programma sul PC o una pubblicazione mensile dei file.
+Questo riepilogo supera le regole precedenti sul riferimento fisso al giorno 15.
 
-## Regole
+- Il cielo è calcolato nel browser per città, serata del mese e ora 18–06. La mattina appartiene al giorno successivo, anche nell’ultima notte del mese. Non c’è navigazione fra mesi o anni.
+- Prima del primo novembre 2026 è mostrata esplicitamente l’anteprima di novembre. Dal primo novembre viene usato il mese reale Europe/Rome. Le Effemeridi usano sempre la data reale.
+- I dati e i testi editoriali sono locali; niente download automatico di nuovi articoli o immagini. Il proprietario non deve tenere acceso il PC perché il sito pubblico funzioni.
+- Vista stereografica interna: campo orizzontale iniziale 110°, zoom 25–220°, rotazione a 360°. Mouse, tastiera, tocco, pinch, schermo intero e alternativa circolare. I bordi si deformano ai grandi campi: non è la riproduzione fisiologica esatta dell’occhio.
+- Reticolo J2000 trasformato alla data, stelle dal catalogo BSD d3-celestial, colori indicativi derivati dagli indici B−V. Nessuna texture stellare inventata o cielo fotografico spostato arbitrariamente.
+- Posizioni di Sole, Luna e pianeti con Astronomy Engine; pianura disegnata originale, non fotografia della città. Atmosfera, estinzione e limite visuale sono modelli indicativi, non misura Bortle o previsione meteo. I simboli dei bersagli non garantiscono visibilità. I dischi sono ingranditi per riconoscerli.
+- Le schede fotografiche conservano fotografie autentiche d’archivio e crediti. I pulsanti di ricerca indicano la posizione alla data scelta, non pretendono che la foto rappresenti quell’istante.
+- Cielo: cambio mese automatico, controllo a mezzanotte/apertura/ripresa; se non è stata scelta una data manualmente, la serata segue il giorno corrente. Una data esplicitamente scelta resta in esame fino al cambio mese.
+- Effemeridi: tutte le sezioni ricalcolate alla mezzanotte italiana e alla ripresa. Posizioni planetarie riferite all’istante di aggiornamento; finestre della serata civile corrente fino al mattino successivo. Campionamento 10 minuti e soglie esplicite. Calendario e fenomeni restano mensili.
+- Il pulsante nel riquadro Dati di riferimento applica la città selezionata e ricalcola tutta la pagina. Se i valori arrotondati non cambiano, compare la conferma senza inventare variazioni.
+- Le ore mancanti al cambio primaverile sono disabilitate; le ore ripetute in autunno hanno due scelte con offset distinto. Timer e conversioni usano Europe/Rome, non il fuso del computer.
 
-- Ottobre 2026 è il mese iniziale. Dal 1 novembre 2026, ore 00:00 in `Europe/Rome`, viene usato il mese corrente.
-- La carta rappresenta il giorno 15 alle 22:00 locali, con gestione dell'ora legale/solare. Il calendario comprende l'intero mese.
-- La città selezionata viene ricordata sul dispositivo; coordinate di riferimento del centro urbano, orizzonte ideale. Ostacoli, meteo e inquinamento luminoso non sono calcolati.
-- Il cambio di mese viene controllato all'apertura, al ritorno sulla pagina e con un timer mentre è aperta. Il PC del proprietario del sito può essere spento. Un browser sospeso aggiorna al risveglio.
-- Mappa, scelta degli oggetti, didascalie, immagini e calendario vengono rigenerati insieme. Il catalogo descrittivo è locale e verificato: non vengono inventati testi o scaricati automaticamente contenuti da siti terzi.
-- Senza JavaScript rimane disponibile la fotografia editoriale di ottobre 2026, dichiarata nell'avviso.
+## Validazione e limiti
 
-## Dati e selezione
+Prove e rapporto in `lavoro-cielo-effemeridi-20261029` fuori dal repository pubblico. Confronto indipendente con Astropy/ERFA: 1152 direzioni stellari (massimo scarto circa 0,0064°) e 144 posizioni topocentriche dei corpi (massimo circa 0,0098° nei casi esaminati, senza rifrazione). Il confronto numerico non è stato effettuato eseguendo Stellarium: la sua guida pubblica è riferimento per proiezione e atmosfera, non una fonte di risultati falsamente dichiarati verificati.
 
-Astronomy Engine calcola fasi lunari, posizioni topocentriche dei pianeti, opposizioni, congiunzioni, stagioni ed eclissi. Una congiunzione è definita dall'uguaglianza della longitudine eclittica; la separazione deve essere inferiore a 8 gradi per gli incontri Luna/pianeta e a 5 gradi fra pianeti. La visibilità viene verificata separatamente nelle ore buie. Il calendario è una selezione divulgativa, non un elenco completo di tutti i fenomeni astronomici.
-
-Gli oggetti del cielo profondo provengono da un catalogo di 21 bersagli per binocolo/piccolo telescopio, con coordinate J2000 convertite all'epoca della carta. Si selezionano fino a cinque oggetti sopra 25 gradi alle 22:00 del giorno 15. La scelta privilegia l'altezza sull'orizzonte e limita le ripetizioni dei gruppi dell'Auriga e delle galassie M81/M82. Le descrizioni fisiche restano stabili; oggetto, direzione, condizioni lunari e riferimenti mensili vengono aggiornati. La reale facilità di osservazione dipende anche dal cielo e dallo strumento.
-
-I quattro protagonisti sono due pianeti favorevoli (con priorità serale), un evento osservabile o una fase lunare, e una costellazione stagionale. Le immagini sono fotografie di archivio NASA, NOIRLab e Till Credner. Fonti e licenze sono riportate nelle schede e in `foto/provenienza.json`. Per le congiunzioni si affiancano due fotografie separate dei protagonisti, dichiarandolo: non rappresentano la configurazione del giorno. Le eclissi e le immagini della Luna sono fotografie di archivio, non riprese dell’evento mensile. Le fotografie vengono scelte insieme al protagonista mensile.
-
-I massimi meteorici sono dati annuali: per ottobre 2026 sono inserite Draconidi e Orionidi da IMO. Non sono riciclati negli anni successivi. Per aggiungere futuri sciami, integrare un calendario annuale verificato; tutti i fenomeni calcolabili continuano ad aggiornarsi automaticamente.
+Verifica comportamenti in DOM simulato e rendering canvas nativo offline; nessun browser avviato e nessun aggiramento del precedente blocco. La resa CSS e lo schermo intero nativo richiedono ancora la supervisione nel browser dell’utente. Nessun commit o pubblicazione automatica.
 
 ## Provenienza e licenze
 

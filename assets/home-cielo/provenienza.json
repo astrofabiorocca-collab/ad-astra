@@ -1,0 +1,12 @@
+{
+  "asset": "cielo-del-mese-incisione.webp",
+  "type": "Illustrazione editoriale generata con IA, non carta astronomica",
+  "method": "Built-in image_gen; variante incisione-notturna-v2 approvata da Fabio il 29 ottobre 2026",
+  "dimensions": [
+    2048,
+    768
+  ],
+  "source_preview": "assets/home-cielo-provini/incisione-notturna-v2.png",
+  "prompt_archive": "provini-cielo-home-20261029/esempio-banner/prompt-v2.txt",
+  "sha256": "7c2b278cdfc27b68e45837e57e0bd0338fe51c63ad93ff0978ab587fd7e395ea"
+}

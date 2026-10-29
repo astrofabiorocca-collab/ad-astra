@@ -44,3 +44,10 @@ body>header nav a:hover,body>header nav a:focus-visible{color:#66b6ff}
 .all-news .button-outline:hover,.all-news .button-outline:focus-visible{background:#346577;color:#fff1cd;border-color:#b09054}
 @media(max-width:900px){.hero.hero-banner11{--raccordo:clamp(240px,33vw,330px)}.hero.hero-banner11 + section{padding-top:44px}.main-grid + .monthly-sky{margin-top:36px}}
 @media(max-width:520px){.hero.hero-banner11 + section .section-description,.news-section .section-description{padding:12px 15px}}
+
+/* Banner Cielo del mese: incisione approvata, 29 ottobre 2026. */
+.monthly-sky{min-height:330px;background:#030b15 url('../home-cielo/cielo-del-mese-incisione.webp') right center/auto 100% no-repeat}
+.monthly-sky .monthly-content{position:relative;width:54%;padding:42px 46px;background:linear-gradient(90deg,#030b15 0%,#030b15f0 74%,#030b1500 100%)}
+.monthly-sky .monthly-content h2{color:#f8f5ec}
+.monthly-sky .monthly-content p{color:#d5dce5}
+@media(max-width:760px){.monthly-sky{min-height:480px;align-items:flex-end;background-position:right top;background-size:auto 280px}.monthly-sky .monthly-content{width:100%;padding:32px 28px 28px;background:linear-gradient(0deg,#030b15 0%,#030b15 72%,#030b1500 100%)}}

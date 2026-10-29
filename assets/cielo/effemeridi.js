@@ -1,7 +1,10 @@
 /* AD ASTRA: effemeridi locali, mese e città condivisi con Il cielo del mese. */
 (()=>{
 'use strict';
-const {A,tz,cities,names,timeParts,localDate,stamp,direction,esc,horizon,events,activeMonth}=window.AdAstraAstro;
+const {A,tz,cities,names,timeParts,localDate,stamp,direction,esc,horizon,events,activeMonth:realMonth}=window.AdAstraAstro;
+function isPreview(){const p=realMonth();return p.year<2026||(p.year===2026&&p.month<11);}
+function pageDate(){return isPreview()?localDate(2026,11,1,22):new Date();}
+function activeMonth(){return isPreview()?{year:2026,month:11}:realMonth();}
 const $=s=>document.querySelector(s), select=$('#eff-city');
 const clock=d=>new Intl.DateTimeFormat('it-IT',{timeZone:tz,hour:'2-digit',minute:'2-digit'}).format(d);
 const dayLabel=d=>new Intl.DateTimeFormat('it-IT',{timeZone:tz,day:'numeric',month:'long'}).format(d);
@@ -12,31 +15,31 @@ select.replaceChildren();for(const c of cities){const o=document.createElement('
 const status=$('#eff-status')||document.createElement('p');status.id='eff-status';status.className='eff-status';status.setAttribute('role','status');if(!status.isConnected)$('.reference-card').append(status);
 const lunarLocal=$('.moon-local')||document.createElement('p');lunarLocal.className='moon-local';if(!lunarLocal.isConnected)$('.moon-list').after(lunarLocal);
 function riseSet(body,y,m,day,obs){const start=localDate(y,m,day,0),end=localDate(y,m,day+1,0),limit=(end-start)/86400000;return [1,-1].map(sign=>{const t=A.SearchRiseSet(body,obs,sign,start,limit);return t&&t.date<end?t.date:null;});}
-function solarRows(y,m,obs){const p=timeParts(new Date()),[rise,set]=riseSet('Sun',p.year,p.month,p.day,obs),duration=rise&&set?Math.round((set-rise)/60000):null;return [{label:'Alba di oggi',value:rise?clock(rise):'Non sorge'},{label:'Tramonto di oggi',value:set?clock(set):'Non tramonta'},{label:'Durata del giorno',value:duration===null?'Non disponibile':Math.floor(duration/60)+' h '+duration%60+' min'}];}
-// Le sezioni mensili restano intatte durante il cambio giornaliero.
+function solarRows(y,m,obs){const p=timeParts(pageDate()),[rise,set]=riseSet('Sun',p.year,p.month,p.day,obs),duration=rise&&set?Math.round((set-rise)/60000):null;return [{label:isPreview()?'Alba · 1 novembre':'Alba di oggi',value:rise?clock(rise):'Non sorge'},{label:isPreview()?'Tramonto · 1 novembre':'Tramonto di oggi',value:set?clock(set):'Non tramonta'},{label:'Durata del giorno',value:duration===null?'Non disponibile':Math.floor(duration/60)+' h '+duration%60+' min'}];}
+// Tutte le sezioni sono ricalcolate al cambio di data; i fenomeni restano mensili.
 let dailyKey='';
 document.querySelectorAll('.sun-row').forEach((r,i)=>{if(i>=3)r.remove();});
 document.querySelector('.sun-separator')?.remove();
 function renderDaily(){
- const p=timeParts(new Date()),city=cities.find(c=>c[0]===select.value),obs=new A.Observer(city[1],city[2],0),rows=solarRows(p.year,p.month,obs),label=new Intl.DateTimeFormat('it-IT',{timeZone:tz,day:'numeric',month:'long',year:'numeric'}).format(localDate(p.year,p.month,p.day,12));
- $('.data-card:first-child h2').textContent='SOLE OGGI';
+ const p=timeParts(pageDate()),city=cities.find(c=>c[0]===select.value),obs=new A.Observer(city[1],city[2],0),rows=solarRows(p.year,p.month,obs),label=new Intl.DateTimeFormat('it-IT',{timeZone:tz,day:'numeric',month:'long',year:'numeric'}).format(localDate(p.year,p.month,p.day,12));
+ $('.data-card:first-child h2').textContent=isPreview()?'SOLE · ANTEPRIMA 1 NOVEMBRE':'SOLE OGGI';
  document.querySelectorAll('.sun-row').forEach((r,i)=>{r.querySelector('span').textContent=rows[i].label;r.querySelector('strong').textContent=rows[i].value;});
  $('.data-card:first-child .card-note').textContent=label+' · '+city[0]+'. Orari riferiti al bordo del Sole e a un orizzonte libero. Durata tra alba e tramonto; aggiornamento quotidiano.';
- const [mr,ms]=riseSet('Moon',p.year,p.month,p.day,obs);lunarLocal.textContent='Luna oggi, '+label+' · '+city[0]+': sorge '+(mr?clock(mr):'non in questa data')+', tramonta '+(ms?clock(ms):'non in questa data')+'. Le fasi elencate sopra sono il calendario mensile.';
- const brief=$('.brief-box ul li:nth-child(2)');if(brief)brief.textContent='Sole oggi: alba alle '+rows[0].value+', tramonto alle '+rows[1].value;
+ const [mr,ms]=riseSet('Moon',p.year,p.month,p.day,obs);lunarLocal.textContent=(isPreview()?'Luna nell’anteprima, ':'Luna oggi, ')+label+' · '+city[0]+': sorge '+(mr?clock(mr):'non in questa data')+', tramonta '+(ms?clock(ms):'non in questa data')+'. Le fasi elencate sopra sono il calendario mensile.';
+ const brief=$('.brief-box ul li:nth-child(2)');if(brief)brief.textContent=(isPreview()?'Sole nell’anteprima: alba alle ':'Sole oggi: alba alle ')+rows[0].value+', tramonto alle '+rows[1].value;
  dailyKey=[p.year,p.month,p.day,city[0]].join('-');
  if(window.Effemeridi){window.Effemeridi.solar=rows;window.Effemeridi.daily={year:p.year,month:p.month,day:p.day,city:city[0],moonRise:mr?.toISOString()||null,moonSet:ms?.toISOString()||null};}
 }
 function planetData(body,y,m,obs){
- const date=localDate(y,m,15),eq=A.Equator(body,date,obs,false,true),constellation=A.Constellation(eq.ra,eq.dec),pos=horizon(body,date,obs),mag=A.Illumination(body,date).mag;
+ const today=timeParts(pageDate()),day=today.day,date=pageDate(),eq=A.Equator(body,date,obs,false,true),constellation=A.Constellation(eq.ra,eq.dec),pos=horizon(body,date,obs),mag=A.Illumination(body,date).mag;
  // Una notte di riferimento: mezzogiorno del 15 → mezzogiorno del 16, compresa l'alba.
- const start=localDate(y,m,15,12),end=localDate(y,m,16,12),samples=[];
+ const start=localDate(y,m,day,12),end=localDate(y,m,day+1,12),samples=[];
  for(let ms=+start;ms<+end;ms+=600000){const d=new Date(ms),h=horizon(body,d,obs),sun=horizon('Sun',d,obs);if(h.altitude>=10&&sun.altitude<=-6)samples.push({d,h});}
  const intervals=[];for(const s of samples){let last=intervals[intervals.length-1];if(!last||s.d-last.end>600000)intervals.push({start:s.d,end:s.d});else last.end=s.d;}
  const best=samples.slice().sort((a,b)=>b.h.altitude-a.h.altitude)[0];
- const intervalsText=intervals.map(i=>clock(i.start)+'–'+clock(i.end)+(timeParts(i.end).day===16?' (16)':' (15)')).join('; ');
+ const intervalsText=intervals.map(i=>clock(i.start)+'–'+clock(i.end)+' ('+dayLabel(i.start)+(timeParts(i.start).day!==timeParts(i.end).day?' → '+dayLabel(i.end):'')+')').join('; ');
  const cn={Psc:'Pesci',Aqr:'Acquario',Cap:'Capricorno',Sgr:'Sagittario',Sco:'Scorpione',Lib:'Bilancia',Vir:'Vergine',Leo:'Leone',Cnc:'Cancro',Gem:'Gemelli',Tau:'Toro',Ari:'Ariete',Oph:'Ofiuco',Cet:'Balena',Ori:'Orione',Sex:'Sestante'};
- return {body,visibility:best?'Osservabile nelle ore buie':'Poco favorevole nella notte di riferimento',period:intervalsText||'Nessuna finestra con altezza ≥ 10° e Sole ≤ −6°',position:(cn[constellation.symbol]||constellation.name)+' · '+(pos.altitude>0?direction(pos.azimuth)+', '+Math.round(pos.altitude)+'° di altezza alle 22:00':'sotto l’orizzonte alle 22:00'),note:notes[body]+' Magnitudine '+mag.toFixed(1).replace('.',',')+'.',best:best?best.h.altitude:null};
+ return {body,visibility:best?'Osservabile nelle ore buie':'Poco favorevole nella notte di riferimento',period:intervalsText||'Nessuna finestra con altezza ≥ 10° e Sole ≤ −6°',position:(cn[constellation.symbol]||constellation.name)+' · '+(pos.altitude>0?direction(pos.azimuth)+', '+Math.round(pos.altitude)+'° di altezza alle '+clock(date):'sotto l’orizzonte alle '+clock(date)),note:notes[body]+' Magnitudine '+mag.toFixed(1).replace('.',',')+'.',best:best?best.h.altitude:null};
 }
 function selectedEvents(y,m,obs){
  const all=events(y,m,obs).filter(e=>e.type!=='meteor');
@@ -63,8 +66,8 @@ function eventPhotos(event){
 }
 let monthKey='',timer;
 function render(){try{
- const {year:y,month:m}=activeMonth(),city=cities.find(c=>c[0]===select.value),obs=new A.Observer(city[1],city[2],0),reference=localDate(y,m,15),label=new Intl.DateTimeFormat('it-IT',{timeZone:tz,month:'long',year:'numeric'}).format(reference);
- $('.intro-month').textContent=label.toLocaleUpperCase('it-IT');
+ const {year:y,month:m}=activeMonth(),city=cities.find(c=>c[0]===select.value),obs=new A.Observer(city[1],city[2],0),reference=pageDate(),label=new Intl.DateTimeFormat('it-IT',{timeZone:tz,month:'long',year:'numeric'}).format(reference);
+ $('.intro-month').textContent=label.toLocaleUpperCase('it-IT')+(isPreview()?' · ANTEPRIMA':'');
  $('.intro-text').textContent='Le effemeridi raccolgono in una sola pagina i principali dati astronomici del mese: movimento apparente del Sole e della Luna, fasi lunari, visibilità dei pianeti e fenomeni di maggiore interesse. Scegli la città nei dati di riferimento per adattare gli orari e la visibilità al tuo luogo di osservazione.';
  const rows=solarRows(y,m,obs);$('.data-card:first-child .card-note').textContent='Orari di '+city[0]+', riferiti al bordo del Sole e a un orizzonte libero. La durata è il tempo tra alba e tramonto.';
  document.querySelectorAll('.sun-row').forEach((r,i)=>{r.querySelector('span').textContent=rows[i].label;r.querySelector('strong').textContent=rows[i].value;});
@@ -73,18 +76,18 @@ function render(){try{
  const [mr,ms]=riseSet('Moon',y,m,15,obs);lunarLocal.textContent='Luna il 15 a '+city[0]+': sorge '+(mr?clock(mr):'non in questa data')+', tramonta '+(ms?clock(ms):'non in questa data')+'. Le fasi avvengono nello stesso istante per tutte le città.';
  $('.reference-list').innerHTML='<p><strong>Località:</strong> '+esc(city[0])+'</p><p><strong>Coordinate:</strong> '+city[1].toFixed(4).replace('.',',')+'° N · '+city[2].toFixed(4).replace('.',',')+'° E</p><p><strong>Fuso orario:</strong> Europe/Rome</p><p><strong>Riferimento:</strong> orizzonte locale libero</p><p><strong>Orari:</strong> ora civile, con ora legale quando prevista</p>';
  const planets=planetBodies.map(b=>planetData(b,y,m,obs));$('.planet-table tbody').innerHTML=planets.map((p,i)=>'<tr><td><span class="planet-name"><span class="planet-symbol">'+symbols[i]+'</span>'+names[p.body]+'</span></td><td>'+esc(p.visibility)+'</td><td>'+esc(p.period)+'</td><td>'+esc(p.position)+'</td><td>'+esc(p.note)+'</td></tr>').join('');
- $('#planet-reference').textContent='Notte di riferimento: 15–16 '+label+' · '+city[0]+'. Finestre indicative al minuto, campionate ogni 10 minuti: pianeta almeno 10° sopra l’orizzonte e Sole almeno 6° sotto. (15) e (16) indicano il giorno; la posizione è riferita al 15 alle 22:00. Le condizioni cambiano durante il mese.';
+ $('#planet-reference').textContent=(isPreview()?'Anteprima del 1 novembre 2026. ':'')+'Posizioni: '+stamp(reference)+' · '+city[0]+'. Finestre della serata '+dayLabel(localDate(y,m,timeParts(reference).day,18))+' e mattina successiva, campionate ogni 10 minuti (orari approssimativi): pianeta almeno 10° sopra l’orizzonte e Sole almeno 6° sotto. Non sono previsioni meteo. Un pianeta sopra l’orizzonte può essere immerso nel chiarore o nascosto da ostacoli.';
  const banner=['Mercury','Venus','Earth','Mars','Jupiter','Saturn','Uranus','Neptune'];$('#planet-strip').innerHTML=banner.map(b=>'<figure class="planet-portrait"><img src="'+esc(window.CieloFoto[b].file)+'" alt="'+names[b]+' — foto NASA" width="160" height="160"><figcaption>'+names[b]+'</figcaption></figure>').join('');
  $('#planet-credit').innerHTML='Fotografie e mosaici d’archivio; dimensioni illustrative, non in scala. '+banner.map(b=>'<a href="'+esc(window.CieloFoto[b].source)+'">'+names[b]+': '+esc(window.CieloFoto[b].credit)+'</a>').join(' · ')+'. Venere: fotografia UV colorizzata; Nettuno: colori elaborati delle riprese Voyager.';
  const list=selectedEvents(y,m,obs);$('.events-grid').innerHTML=list.map(e=>{const p=eventPhotos(e);return '<article class="event-item">'+p.html+'<div class="event-content"><h3>'+esc(e.title)+'</h3><p class="event-time">'+esc(e.type==='meteor'?dayLabel(e.date)+' · data indicativa':stamp(e.date))+'</p><p>'+esc(e.text)+'</p><p class="photo-credit">'+p.credit+'</p></div></article>';}).join('');
  $('.calendar-list').innerHTML=list.map(e=>'<li class="calendar-item"><span class="calendar-date">'+esc(dayLabel(e.date))+'<span class="cal-time">'+(e.type==='meteor'?'Massimo indicativo':clock(e.date))+'</span></span><span class="calendar-event">'+esc(e.title)+'</span></li>').join('');
  $('.brief-box ul').innerHTML=['Località: '+city[0],'Sole oggi: alba alle '+rows[0].value,'Luna: '+phases.map(e=>dayLabel(e.date)+' — '+e.title).join('; '),'Pianeti: sette schede, compresi Urano e Nettuno','Calendario: sei fenomeni selezionati'].map(t=>'<li>'+esc(t)+'</li>').join('');
- $('.notes-box ul').innerHTML='<li>Orari in Europe/Rome, con il passaggio automatico tra ora solare e legale. Sole e Luna oggi cambiano ogni giorno alle 00:00. Pianeti, fenomeni e calendario cambiano il primo del mese alle 00:00, insieme a Il cielo del mese.</li><li>Calcoli con <a href="https://github.com/cosinekitty/astronomy">Astronomy Engine</a>. Coordinate geografiche dei centri cittadini, quota convenzionale zero: rilievi, edifici e atmosfera possono modificare l’osservazione.</li><li>Congiunzioni: istante di uguale longitudine eclittica; l’orario consigliato di osservazione può essere diverso. Fasi e istanti geocentrici sono comuni; posizione, orizzonte e visibilità dipendono dalla città.</li><li>Fotografie d’archivio con fonte e crediti; non sono riprese degli eventi annunciati. I massimi meteorici sono date indicative del <a href="https://www.imo.net/resources/calendar/">calendario IMO 2026</a>, limitate all’anno verificato.</li><li>Per una lettura osservativa e la carta delle 22:00 consulta <a href="cielo-del-mese.html">Il cielo del mese</a>. Gli eventi si ricalcolano all’apertura e al cambio del mese anche se il dispositivo è stato spento.</li>';
- status.textContent=city[0]+' · '+label+' · dati e calendario aggiornati.';
- monthKey=y+'-'+m;window.Effemeridi={ready:true,year:y,month:m,city:city[0],solar:rows,planets,events:list.map(e=>({title:e.title,date:e.date.toISOString(),type:e.type})),reference:reference.toISOString()};renderDaily();
+ $('.notes-box ul').innerHTML='<li>Orari in Europe/Rome, con il passaggio automatico tra ora solare e legale. Sole, Luna e tabella dei pianeti si ricalcolano ogni giorno alla mezzanotte italiana. Fenomeni e calendario seguono il mese corrente. Il pulsante Aggiorna tutti i dati ricalcola ogni sezione per la città selezionata.</li><li>Calcoli con <a href="https://github.com/cosinekitty/astronomy">Astronomy Engine</a>. Coordinate geografiche dei centri cittadini, quota convenzionale zero: rilievi, edifici e atmosfera possono modificare l’osservazione.</li><li>Congiunzioni: istante di uguale longitudine eclittica; l’orario consigliato di osservazione può essere diverso. Fasi e istanti geocentrici sono comuni; posizione, orizzonte e visibilità dipendono dalla città.</li><li>Fotografie d’archivio con fonte e crediti; non sono riprese degli eventi annunciati. I massimi meteorici sono date indicative del <a href="https://www.imo.net/resources/calendar/">calendario IMO 2026</a>, limitate all’anno verificato.</li><li>Per una lettura osservativa e la vista navigabile del cielo consulta <a href="cielo-del-mese.html">Il cielo del mese</a>. Gli eventi si ricalcolano all’apertura e al cambio del mese anche se il dispositivo è stato spento.</li>';
+ const fingerprint=JSON.stringify({city:city[0],rows,planets,events:list.map(e=>e.title+e.date.toISOString())});const unchanged=window.Effemeridi?.fingerprint===fingerprint;status.textContent='Aggiornamento: '+stamp(new Date())+' · '+city[0]+(unchanged?' · Nessuna variazione nei valori mostrati.':' · Tutte le sezioni ricalcolate.');
+ monthKey=y+'-'+m;window.Effemeridi={preview:isPreview(),fingerprint,updated:new Date().toISOString(),ready:true,year:y,month:m,city:city[0],solar:rows,planets,events:list.map(e=>({title:e.title,date:e.date.toISOString(),type:e.type})),reference:reference.toISOString()};renderDaily();
  }catch(e){console.error('Effemeridi:',e);status.textContent='Calcolo non completato: ricarica la pagina.';window.Effemeridi={ready:false,error:String(e)};}}
-function check(){const p=activeMonth(),d=timeParts(new Date());if(monthKey!==p.year+'-'+p.month)render();else if(dailyKey!==[d.year,d.month,d.day,select.value].join('-')){try{renderDaily();}catch(e){console.error('Dati quotidiani:',e);status.textContent='Dati quotidiani non aggiornati: usa Aggiorna.';}}}
+function check(){const p=activeMonth(),d=timeParts(new Date());if(window.Effemeridi?.preview!==isPreview()||monthKey!==p.year+'-'+p.month)render();else if(dailyKey!==[d.year,d.month,d.day,select.value].join('-')){render();}}
 function schedule(){clearTimeout(timer);const p=timeParts(new Date()),next=localDate(p.year,p.month,p.day+1,0);timer=setTimeout(()=>{check();schedule();},Math.min(2147483647,Math.max(100,next-Date.now()+100)));}
-window.addEventListener('ad-astra:refresh',()=>{render();schedule();});
-select.addEventListener('change',()=>{try{localStorage.setItem('ad-astra-city',select.value);}catch(e){}render();});window.addEventListener('storage',e=>{if(e.key==='ad-astra-city'&&cities.some(c=>c[0]===e.newValue)){select.value=e.newValue;render();}});document.addEventListener('visibilitychange',()=>{if(!document.hidden){check();schedule();}});window.addEventListener('pageshow',check);render();schedule();
+window.addEventListener('ad-astra:refresh',()=>{try{localStorage.setItem('ad-astra-city',select.value);}catch(e){}render();schedule();});
+select.addEventListener('change',()=>{status.textContent='Città selezionata: '+select.value+'. Premi Aggiorna tutti i dati per applicarla.';});window.addEventListener('storage',e=>{if(e.key==='ad-astra-city'&&cities.some(c=>c[0]===e.newValue)){select.value=e.newValue;render();}});document.addEventListener('visibilitychange',()=>{if(!document.hidden){check();schedule();}});window.addEventListener('pageshow',check);render();schedule();
 })();

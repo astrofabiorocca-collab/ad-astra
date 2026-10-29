@@ -1,0 +1,78 @@
+[
+  {
+    "season": "autumn",
+    "id": "autumn_field",
+    "name": "Autumn Field",
+    "authors": {
+      "Sergej Majboroda": "All"
+    },
+    "source": "https://polyhaven.com/a/autumn_field",
+    "original": "https://dl.polyhaven.org/file/ph-assets/HDRIs/extra/Tonemapped%20JPG/autumn_field.jpg",
+    "license": "CC0 1.0",
+    "license_url": "https://polyhaven.com/license",
+    "dimensions": [
+      4096,
+      2048
+    ],
+    "file": "autumn.webp",
+    "sha256": "4f0447a054ae54544d2fe2fb2cfc5a1ce73251481ea0bc447d04668939874de4",
+    "note": "Panorama di archivio fotografico; tonalità/luce adattate in tempo reale nel viewer; non foto della città selezionata."
+  },
+  {
+    "season": "winter",
+    "id": "snowy_field",
+    "name": "Snowy Field",
+    "authors": {
+      "Andreas Mischok": "All"
+    },
+    "source": "https://polyhaven.com/a/snowy_field",
+    "original": "https://dl.polyhaven.org/file/ph-assets/HDRIs/extra/Tonemapped%20JPG/snowy_field.jpg",
+    "license": "CC0 1.0",
+    "license_url": "https://polyhaven.com/license",
+    "dimensions": [
+      4096,
+      2048
+    ],
+    "file": "winter.webp",
+    "sha256": "8d130e24a530aeec03ba143a24975da38b9597747de33c98401f61bc14245d08",
+    "note": "Panorama di archivio fotografico; tonalità/luce adattate in tempo reale nel viewer; non foto della città selezionata."
+  },
+  {
+    "season": "spring",
+    "id": "meadow_2",
+    "name": "Meadow 2",
+    "authors": {
+      "Sergej Majboroda": "All"
+    },
+    "source": "https://polyhaven.com/a/meadow_2",
+    "original": "https://dl.polyhaven.org/file/ph-assets/HDRIs/extra/Tonemapped%20JPG/meadow_2.jpg",
+    "license": "CC0 1.0",
+    "license_url": "https://polyhaven.com/license",
+    "dimensions": [
+      4096,
+      2048
+    ],
+    "file": "spring.webp",
+    "sha256": "a2014f54ec7d115204d8da812de53c50a959a405687d12335e6dd1e56071da8a",
+    "note": "Panorama di archivio fotografico; tonalità/luce adattate in tempo reale nel viewer; non foto della città selezionata."
+  },
+  {
+    "season": "summer",
+    "id": "meadow",
+    "name": "Meadow",
+    "authors": {
+      "Sergej Majboroda": "All"
+    },
+    "source": "https://polyhaven.com/a/meadow",
+    "original": "https://dl.polyhaven.org/file/ph-assets/HDRIs/extra/Tonemapped%20JPG/meadow.jpg",
+    "license": "CC0 1.0",
+    "license_url": "https://polyhaven.com/license",
+    "dimensions": [
+      4096,
+      2048
+    ],
+    "file": "summer.webp",
+    "sha256": "0374fe122ae1734d861706de51db1e7c83121852b3e44d4b445d6dd9245292ad",
+    "note": "Panorama di archivio fotografico; tonalità/luce adattate in tempo reale nel viewer; non foto della città selezionata."
+  }
+]
