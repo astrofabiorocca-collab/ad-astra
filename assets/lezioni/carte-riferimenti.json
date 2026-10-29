@@ -1,0 +1,115 @@
+{
+  "lat": 41.9028,
+  "lon": 12.4964,
+  "method": "Catalogo J2000 ruotato EQJ→EQD; altezza geometrica senza rifrazione; griglia equatoriale della data; limite circumpolare δ=90°−φ",
+  "cases": [
+    {
+      "season": "inverno",
+      "date": "2026-01-15T21:00:00Z",
+      "samples": [
+        {
+          "name": "Dubhe",
+          "declination": 61.610113907756016,
+          "altitude": 38.86662857439159,
+          "azimuth": 37.35547609570466,
+          "minAltitude": 13.512913907756015
+        },
+        {
+          "name": "Merak",
+          "declination": 56.24182811807964,
+          "altitude": 37.25975700300003,
+          "azimuth": 43.870786997437435,
+          "minAltitude": 8.144628118079638
+        },
+        {
+          "name": "Alkaid",
+          "declination": 49.182485209730764,
+          "altitude": 13.362136388603133,
+          "azimuth": 33.69940693842954,
+          "minAltitude": 1.0852852097307562
+        }
+      ]
+    },
+    {
+      "season": "primavera",
+      "date": "2026-04-15T20:00:00Z",
+      "samples": [
+        {
+          "name": "Dubhe",
+          "declination": 61.608889453875655,
+          "altitude": 69.42535413926007,
+          "azimuth": 13.38666879042597,
+          "minAltitude": 13.511689453875647
+        },
+        {
+          "name": "Merak",
+          "declination": 56.24060781201631,
+          "altitude": 74.43674859221218,
+          "azimuth": 19.70559486956278,
+          "minAltitude": 8.143407812016306
+        },
+        {
+          "name": "Alkaid",
+          "declination": 49.18124038369512,
+          "altitude": 54.472144617309354,
+          "azimuth": 60.458241882856356,
+          "minAltitude": 1.0840403836951111
+        }
+      ]
+    },
+    {
+      "season": "estate",
+      "date": "2026-07-15T20:00:00Z",
+      "samples": [
+        {
+          "name": "Dubhe",
+          "declination": 61.60710190861852,
+          "altitude": 40.539485563517346,
+          "azimuth": 321.98291386986284,
+          "minAltitude": 13.509901908618517
+        },
+        {
+          "name": "Merak",
+          "declination": 56.238821059936235,
+          "altitude": 38.66603432911492,
+          "azimuth": 315.44323893943726,
+          "minAltitude": 8.141621059936227
+        },
+        {
+          "name": "Alkaid",
+          "declination": 49.17983085326372,
+          "altitude": 62.04989693810555,
+          "azimuth": 298.5643632188433,
+          "minAltitude": 1.0826308532637086
+        }
+      ]
+    },
+    {
+      "season": "autunno",
+      "date": "2026-10-15T20:00:00Z",
+      "samples": [
+        {
+          "name": "Dubhe",
+          "declination": 61.60588168886828,
+          "altitude": 13.794064529595047,
+          "azimuth": 355.37105039283415,
+          "minAltitude": 13.508681688868279
+        },
+        {
+          "name": "Merak",
+          "declination": 56.23760415227282,
+          "altitude": 8.435462524771324,
+          "azimuth": 354.95611201678025,
+          "minAltitude": 8.140404152272822
+        },
+        {
+          "name": "Alkaid",
+          "declination": 49.178654037615416,
+          "altitude": 11.21994318555221,
+          "azimuth": 329.1561081487154,
+          "minAltitude": 1.0814540376154156
+        }
+      ]
+    }
+  ]
+}

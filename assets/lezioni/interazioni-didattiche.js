@@ -38,8 +38,8 @@
   if(!img||!caption)return;
   const tools=document.createElement('div');tools.className='photo-tools';
   const link=document.createElement('a');link.href=img.currentSrc||img.src;link.className='photo-open';
-  link.textContent=figure.classList.contains('lesson-illustration')?'Esplora la figura ↗':'Esplora la fotografia ↗';
-  const hint=document.createElement('span');hint.textContent='Apri, ingrandisci e osserva i dettagli.';
+  link.textContent=figure.classList.contains('lesson-illustration')?'Ingrandisci la figura ↗':'Ingrandisci la fotografia ↗';
+  const hint=document.createElement('span');hint.textContent='Apri l’immagine intera e regola lo zoom.';
   tools.append(link,hint);figure.insertBefore(tools,caption);
   link.addEventListener('click',event=>{
    // Keep the actual image URL as a working fallback; cancel navigation only

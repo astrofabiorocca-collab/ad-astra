@@ -35,9 +35,10 @@ function render(kind,s=0,clock=0){s=Math.max(0,Math.min(2,s));let b='',note='',u
   b=sphere(cx,cy,r)+line(cx,110,cx,415,'#afbfca',2,'7 6')+line(x-110*nx,y-110*ny,x+165*nx,y+165*ny,C.green)+arrow(x,y,x,y-120)+spot(x,y,C.ink)+t(610,190,'Polo più alto a nord',C.ink,27)+t(610,235,'Latitudine: '+[20,45,65][s]+'° N',C.blue,24)+t(610,290,'L’orizzonte cambia inclinazione.',C.ink,22);
   note='Sezione geometrica; la direzione del polo è parallela all’asse terrestre.';break;}
  case 'skyturn':{
-  b=line(100,360,900,360,C.green)+t(95,398,'Orizzonte',C.green)+circ(500,200,95,'none','#a2bec9')+circ(500,200,190,'none','#a2bec9')+star(500,200,8,C.blue);
-  const a=u+s*pi/3;for(const[r,c]of [[95,C.gold],[190,C.red]])b+=star(500+r*Math.cos(a),200-r*Math.sin(a),11,c);
-  b+=t(85,160,'Arco che resta sopra',C.ink,22)+t(85,195,'e arco che incontra l’orizzonte',C.ink,22);note='Schema del moto apparente; non una previsione per una città o una stella reale.';break;}
+  const phi=45*pi/180,project=(dec,H)=>{const d=dec*pi/180,east=-Math.cos(d)*Math.sin(H),up=Math.sin(phi)*Math.sin(d)+Math.cos(phi)*Math.cos(d)*Math.cos(H);return[535-220*east,330-220*up];};
+  b=line(95,330,910,330,C.green)+t(95,365,'Orizzonte · h = 0°',C.green,21)+star(535,330-220*Math.sin(phi),8,C.blue);
+  for(const [dec,c]of[[60,C.gold],[20,C.red]]){const points=Array.from({length:181},(_,i)=>project(dec,i*2*pi/180));b+=path(points,c,2);const [x,y]=project(dec,u+s*pi/3);b+=star(x,y,11,c);}
+  b+=t(65,85,'Latitudine fissa: 45° N',C.ink,24)+t(65,120,'δ +60°: sempre sopra',C.gold,22)+t(65,155,'δ +20°: sorge e tramonta',C.red,22);note='Proiezione ortografica di traiettorie sferiche calcolate: cambia l’angolo orario, non la declinazione. Astri ipotetici, senza rifrazione.';break;}
  case 'parallax':{
   const X=[380,540,690][s],S=[X,270];b=line(850,130,850,405,'#a5bcc7',2,'5 5')+star(...S,13,C.gold);
   for(const [oy,c]of [[210,C.blue],[330,C.green]]){const y=oy+(270-oy)*(850-150)/(X-150);b+=spot(150,oy,c,8)+line(150,oy,850,y,c,3)+spot(850,y,c,7);}
