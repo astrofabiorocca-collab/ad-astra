@@ -1,0 +1,50 @@
+[
+  {
+    "file": "componenti-tracker.png",
+    "sha256": "dfdf67ec3fd8cfc7a4220eb87e6b8258283e066c1691178df3fc1ef69e439d91",
+    "type": "illustrazione generata per AD ASTRA",
+    "date": "2026-10-30",
+    "source": "generazione originale",
+    "note": "Non fotografia commerciale; componenti non certificati come compatibili"
+  },
+  {
+    "file": "inseguitore-singolo.png",
+    "sha256": "6befc364dfc05fb74faadee0eff5254bfb42d15d4179dcc099180a2af1cc8512",
+    "type": "illustrazione generata per AD ASTRA",
+    "date": "2026-10-30",
+    "source": "generazione guidata; riferimento ufficiale privato per la forma dell’inseguitore",
+    "note": "Non fotografia commerciale; componenti non certificati come compatibili"
+  },
+  {
+    "file": "orientamento-prato.png",
+    "sha256": "8b7ed0525927621e7dc9ebdc8d464f74f4debb40823716d5b6f71c40ece12032",
+    "type": "illustrazione generata per AD ASTRA",
+    "date": "2026-10-30",
+    "source": "generazione originale",
+    "note": "Non fotografia commerciale; componenti non certificati come compatibili"
+  },
+  {
+    "file": "sole-hmi.jpg",
+    "sha256": "77a4aad056ad504d44d1fe51cc2bb941fb613798e57c5000b2976cb450aa8ee5",
+    "type": "fotografia NASA/SDO/HMI",
+    "date": "2026-10-30",
+    "source": "https://sdo.gsfc.nasa.gov/assets/img/latest/latest_1024_HMIIC.jpg",
+    "note": "Continuum HMI con mappatura cromatica; fotografia acquisita e conservata, non richiesta remota a ogni visita."
+  },
+  {
+    "file": "componenti-ottici.png",
+    "sha256": "ccaf0d58c3be2ecef460ee91864ae21be597243baabdd81ff72e3c357153a2c9",
+    "type": "illustrazione generata per AD ASTRA",
+    "date": "2026-10-30",
+    "source": "generazione originale",
+    "note": "Tavola separata di componenti; il pezzo in basso a destra non è usato perché non corrisponde all’adattatore richiesto. Nessuna compatibilità commerciale dichiarata."
+  },
+  {
+    "file": "adattatore-binocolo.png",
+    "sha256": "5ee5b7aa30751c72c68bbe497e618b8e25dc382e1dcaee4fd5face223cb08645",
+    "type": "illustrazione generata per AD ASTRA",
+    "date": "2026-10-30",
+    "source": "generazione originale",
+    "note": "Adattatore a L; collegamento orizzontale alla cerniera e verticale al supporto. Interfacce illustrative, verificare il manuale del modello."
+  }
+]

@@ -1,4 +1,4 @@
-# Scuola attiva — 29 ottobre 2026
+# Scuola attiva — revisione del 31 ottobre 2026
 
 Tre ingressi: `laboratorio.html`, `quiz-astronomia.html`, `glossario.html`.
 Banner e footer derivano dalla pagina Scuola; nessun servizio remoto necessario
@@ -8,7 +8,7 @@ Vera e la sua licenza sono in `assets/scheda-osservativa`.
 
 ## Contenuti
 
-- 40 voci originali rielaborate sulla base di 28 risorse Treccani consultate.
+- 175 voci redatte con spiegazioni articolate, esempi, unità e riferimenti. Il repertorio candidato di 502 termini è un piano privato, non 502 voci prodotte. L’ampliamento richiesto resta in corso.
   Ogni record contiene URL della fonte, data, esempio AD ASTRA e rimando didattico.
   Nessuna immagine o voce integrale Treccani riprodotta. Le fonti storiche non
   sono usate per aggiornamenti numerici; le convenzioni sono esplicitate.
@@ -31,18 +31,13 @@ Sagome di costellazioni da `assets/cielo/catalogo-stelle.js` (d3-celestial,
 licenza BSD in `assets/cielo/LICENSE-celestial.txt`), proiettate su una carta
 equatoriale fissa. La carta non rappresenta il cielo del momento. Un pezzo
 errato conserva la propria sagoma, non assume quella della sede sbagliata.
-La Polare è il vertice a massima declinazione del tracciato dell'Orsa Minore.
+La Polare usa coordinate J2000 esplicite, distinta dal polo geometrico. Il nuovo catalogo ridotto è in `assets/laboratorio-editoriale/cielo-geometrico.js`.
 
 Pianeti: fotografie d'archivio già documentate nel catalogo del Cielo del mese,
 con rimandi e crediti visibili. Orbite circolari e distanze solo didattiche,
 nessuna posizione istantanea simulata. Le immagini non sono in scala.
 
-Assemblaggi: figure vettoriali di principio, non procedure operative reali
-né dichiarazioni di compatibilità commerciale. Orientamento a 42° N:
-bolla e direzione nord separate dalla vista laterale; puntamento separato
-dall'allineamento dell'asse. Tolleranza didattica ±2°, carta ±5°.
-Circumpolarità: stelle ideali a 45° N, declinazioni +60°, +20°, −60°;
-senza rifrazione, ostacoli o condizioni di visibilità.
+Assemblaggi: immagini generate di componenti riconoscibili e puzzle in vista esplosa, non figure geometriche sostitutive degli oggetti. Interfacce illustrative, nessuna compatibilità commerciale certificata. Allineamento a 45° N; tolleranza didattica ±3°, carta ±5°. La vista di inclinazione non mostra l’azimut come una falsa rotazione tridimensionale. Circumpolarità a 45° N, declinazioni +60°, +20°, −60°, percorsi calcolati senza rifrazione e ostacoli.
 
 ## Interazione e dati
 
@@ -56,3 +51,6 @@ allineamento prima del puntamento, 40/40 e 0/40, soglia 31/32, quiz tematici,
 ricerca glossario e collegamenti nelle 55 lezioni. Figure SVG rasterizzate
 e ispezionate; PDF campione generato, riaperto, estratto e verificato
 visivamente. Nessuna verifica visuale automatica in un browser reale.
+
+
+Il caricamento della pagina usa esclusivamente il nuovo motore in assets/laboratorio-editoriale; i vecchi file laboratori.js e laboratori-dati.js restano conservati ma non sono caricati. Verifiche nuove in revisione-editoriale-20261030: 120 voci, 20 attività, correzione e reset nel DOM simulato. Alcune scene sono state renderizzate con canvas e ispezionate; non è dichiarata una verifica grafica in un browser reale. Il lavoro complessivo, soprattutto il repertorio, non è ancora concluso.
