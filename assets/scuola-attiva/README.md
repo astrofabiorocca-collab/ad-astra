@@ -64,3 +64,9 @@ popup e parole ambigue; 20 attività con correzione e reset; soglie quiz
 grafica integrale in un browser o un audit HTTP globale delle fonti.
 La successiva proposta di ampliamento a 1.000 termini non è conteggiata
 come contenuto già prodotto. Nessuna pubblicazione automatica.
+
+## Ampliamento verificato a 700 schede — 6 novembre 2026
+
+700 schede reali (200 nuove rispetto a dcbc51b), 195.955 parole nelle sezioni e 26 lettere rappresentate. Sinonimi e sigle non contati come voci autonome. Testi originali con spiegazioni, esempi, termini correlati, fonte Treccani e riferimenti specifici pertinenti; eventuali fonti generali sono dichiarate.
+
+Controlli dati/DOM: selezionabili tutte le schede, 58 pagine e 1651 rimandi canonici; ricerca/alias, quiz, foto e popup verificati; 20 attività con soluzioni, reset e controlli geometrici; 28 risorse locali. Nessuna verifica browser completa o verifica HTTP globale dichiarata. Aggiornati i rimandi alle lezioni per pertinenza editoriale. Il blocco si ferma a700 su richiesta dell'autore; nessun push o pubblicazione.

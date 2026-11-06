@@ -1,5 +1,66 @@
 window.AdAstraGlossary = [
   {
+    "id": "abbondanza-isotopica",
+    "name": "Abbondanza isotopica",
+    "definition": "L’abbondanza isotopica esprime la frazione di atomi di un particolare isotopo rispetto agli atomi dello stesso elemento presenti nel campione.",
+    "source": "https://www.treccani.it/enciclopedia/abbondanza_(Dizionario-delle-Scienze-Fisiche)/",
+    "lesson": "lezione-3-6.html",
+    "related": [
+      "isotopo",
+      "nuclide",
+      "massa-molare"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Una frazione con un denominatore preciso",
+        "paragraphs": [
+          "Per sapere quanto carbonio tredici sia presente, si confronta il numero dei suoi atomi con quello di tutti gli atomi di carbonio del campione. Non con tutti gli atomi di qualunque elemento e non necessariamente con la massa totale del materiale. Il denominatore è parte della definizione. Senza questa informazione, due percentuali possono sembrare confrontabili pur descrivendo rapporti fisicamente differenti."
+        ]
+      },
+      {
+        "title": "Numero di atomi e massa",
+        "paragraphs": [
+          "Una frazione in numero non coincide esattamente con una frazione in massa, perché isotopi diversi hanno masse diverse. Le tabelle devono indicare la convenzione. Le abbondanze naturali non sono sempre identiche in ogni campione: frazionamento e storia del materiale possono modificarle. Per alcuni elementi i riferimenti dei pesi atomici tengono conto di variazioni osservate nei materiali terrestri ordinari. Un numero tabulato non va perciò trasformato in una legge senza eccezioni per tutto l’Universo."
+        ]
+      },
+      {
+        "title": "Come entra nelle misure astronomiche",
+        "paragraphs": [
+          "Specie isotopiche possono produrre firme spettrali distinguibili. Ricavare le loro quantità richiede però di considerare eccitazione, opacità, risposta strumentale e possibili sovrapposizioni. Il rapporto fra intensità di due righe non è sempre uguale al rapporto fra gli atomi che le producono. Anche i campioni meteorici richiedono calibrazione e controllo delle trasformazioni subite. Una buona scheda separa quindi il segnale misurato dalla quantità ricostruita attraverso un modello."
+        ]
+      },
+      {
+        "title": "Un archivio della materia",
+        "paragraphs": [
+          "Differenze isotopiche possono aiutare a studiare formazione dei materiali e processi nucleari o chimici. Non ogni differenza implica un’origine completamente diversa, e una somiglianza non dimostra una provenienza unica. I confronti sono più forti quando più sistemi isotopici e altri dati raccontano una storia coerente. Il glossario deve spiegare il rapporto e conservare i limiti dell’interpretazione, rendendo leggibile il valore senza trasformarlo in un’etichetta assoluta di provenienza cosmica."
+        ]
+      }
+    ],
+    "facts": [
+      "Una percentuale isotopica deve specificare che cosa viene contato e rispetto a che cosa"
+    ],
+    "example": "Una percentuale isotopica deve specificare che cosa viene contato e rispetto a che cosa",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/abbondanza_(Dizionario-delle-Scienze-Fisiche)/"
+      },
+      {
+        "title": "IUPAC · definizione di abbondanza isotopica",
+        "url": "https://goldbook.iupac.org/terms/view/I03332/pdf"
+      },
+      {
+        "title": "IUPAC · pesi atomici e composizione isotopica",
+        "url": "https://iupac.org/what-we-do/periodic-table-of-elements/"
+      }
+    ],
+    "aliases": [
+      "abbondanze isotopiche"
+    ]
+  },
+  {
     "id": "aberrazione-cromatica",
     "name": "Aberrazione cromatica",
     "definition": "Nei sistemi rifrangenti la dipendenza della rifrazione dalla lunghezza d’onda può far formare immagini di colori differenti in posizioni diverse.",
@@ -153,6 +214,63 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "accelerazione",
+    "name": "Accelerazione",
+    "definition": "L’accelerazione descrive quanto cambia la velocità, intesa come vettore, nel tempo: può cambiare la rapidità, la direzione del moto o entrambe.",
+    "source": "https://www.treccani.it/enciclopedia/accelerazione/",
+    "lesson": "lezione-3-6.html",
+    "related": [
+      "vettore",
+      "orbita",
+      "gravitazione"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Cambiare moto significa anche curvare",
+        "paragraphs": [
+          "Un veicolo che aumenta la propria rapidità accelera, ma anche uno che percorre una curva a rapidità costante possiede accelerazione. La velocità fisica comprende infatti una direzione. Il linguaggio quotidiano associa spesso accelerare soltanto ad andare più forte; in meccanica la domanda è più ampia: come cambia il vettore velocità? Questa distinzione permette di capire perché un pianeta in orbita non sia un esempio di moto privo di accelerazione."
+        ]
+      },
+      {
+        "title": "Leggere i metri al secondo quadrato",
+        "paragraphs": [
+          "L’unità SI è il metro al secondo quadrato, scritto m/s². Un’accelerazione costante di 2 m/s² lungo una linea aggiunge alla velocità 2 metri al secondo in ciascun secondo. Partendo da fermo, dopo tre secondi si raggiungono 6 m/s nel modello descritto. Il numero 2 non indica due metri percorsi in totale. L’esempio richiede accelerazione costante, direzione fissata e assenza di cambiamenti che rendano inadeguata questa semplice descrizione."
+        ]
+      },
+      {
+        "title": "La gravità cambia continuamente la traiettoria",
+        "paragraphs": [
+          "Nel modello orbitale la gravità modifica il moto del corpo anche senza un motore acceso. In un’orbita circolare ideale l’accelerazione punta verso il centro mentre la velocità è tangente alla traiettoria. Non serve un sostegno solido che impedisca al pianeta di cadere: il moto orbitale è una caduta continua. L’orbita reale può essere più complessa e richiedere altre forze, ma conserva il collegamento fra accelerazione e variazione del moto."
+        ]
+      },
+      {
+        "title": "Misurare rispetto a un riferimento",
+        "paragraphs": [
+          "Per descrivere un’accelerazione occorre specificare il sistema di riferimento e il periodo considerato. Una media su un intervallo non coincide necessariamente con il valore in ogni istante. Anche ciò che un accelerometro registra richiede interpretazione, specialmente in caduta libera. Nel glossario la voce offre una chiave per leggere orbite e manovre spaziali: velocità grande non significa accelerazione grande, e una direzione che cambia racconta una variazione fisica anche quando la rapidità sembra invariata."
+        ]
+      }
+    ],
+    "facts": [
+      "Nel moto circolare uniforme cambia la direzione della velocità: l’accelerazione non è nulla"
+    ],
+    "example": "Nel moto circolare uniforme cambia la direzione della velocità: l’accelerazione non è nulla",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/accelerazione/"
+      },
+      {
+        "title": "NASA · gravità e meccanica del volo spaziale",
+        "url": "https://science.nasa.gov/learn/basics-of-space-flight/chapter3-2/"
+      }
+    ],
+    "aliases": [
+      "accelerazioni"
+    ]
+  },
+  {
     "id": "accrescimento",
     "name": "Accrescimento",
     "definition": "In astrofisica l’accrescimento è l’aumento della massa di un corpo attraverso l’acquisizione di materia dall’ambiente o da una compagna.",
@@ -200,6 +318,188 @@ window.AdAstraGlossary = [
       {
         "title": "Treccani · riferimento terminologico",
         "url": "https://www.treccani.it/enciclopedia/accrescimento/"
+      }
+    ]
+  },
+  {
+    "id": "accuratezza-misura",
+    "name": "Accuratezza di misura",
+    "definition": "Nel lessico metrologico l’accuratezza riguarda la vicinanza di un valore misurato al valore vero della grandezza; va distinta dalla sola concordanza tra misure ripetute.",
+    "source": "https://www.treccani.it/enciclopedia/misura/",
+    "lesson": "lezione-9-4.html",
+    "related": [
+      "precisione-misura",
+      "errore-sistematico",
+      "incertezza-misura"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Vicino a che cosa?",
+        "paragraphs": [
+          "Un insieme di misure può essere molto raccolto ma spostato rispetto al valore di riferimento. Per parlare di accuratezza bisogna quindi considerare il rapporto con la grandezza che si intende misurare, non soltanto quanto i numeri si assomiglino. Nell’uso quotidiano accurato significa anche eseguito con cura; il significato metrologico richiede una distinzione più precisa. Una procedura ordinata è importante, ma non basta da sola a garantire che il risultato sia vicino al valore cercato."
+        ]
+      },
+      {
+        "title": "Una scala che parte male",
+        "paragraphs": [
+          "Immaginiamo un righello con l’origine danneggiata e una lettura fatta sempre dallo stesso punto sbagliato. Ripetendo con attenzione si possono ottenere risultati molto simili, tutti spostati. La piccola dispersione non rivela da sola il problema. Un confronto con un riferimento adatto può invece far emergere lo scarto. L’esempio mostra perché ripetizione e verifica della scala rispondano a domande differenti e perché il valore medio non corregga automaticamente ogni difetto del metodo."
+        ]
+      },
+      {
+        "title": "Una qualità, non una cifra isolata",
+        "paragraphs": [
+          "Nel VIM l’accuratezza è un concetto qualitativo, non una grandezza alla quale attribuire direttamente un valore numerico come se fosse una lunghezza. Nei manuali commerciali la parola può accompagnare specifiche espresse con convenzioni particolari. Per confrontare due strumenti è necessario leggere che cosa rappresentino realmente quelle specifiche. Confondere accuratezza, risoluzione del display e incertezza del risultato porta facilmente a scegliere numeri che sembrano confrontabili ma descrivono caratteristiche differenti."
+        ]
+      },
+      {
+        "title": "Il controllo in astronomia",
+        "paragraphs": [
+          "Un programma può ripetere la posizione di un oggetto con molte cifre mantenendo però impostata una città o un’ora sbagliata. La stabilità del numero non rende corretta la carta per l’osservatore. Il controllo deve includere dati di ingresso, convenzioni, trasformazioni e riferimenti. Il concetto di accuratezza invita quindi a chiedere se il risultato descriva davvero ciò che volevamo misurare, oltre a verificare che l’operazione sia ripetibile e graficamente convincente."
+        ]
+      }
+    ],
+    "facts": [
+      "Misure molto simili possono essere tutte spostate rispetto al valore di riferimento"
+    ],
+    "example": "Misure molto simili possono essere tutte spostate rispetto al valore di riferimento",
+    "sources": [
+      {
+        "title": "Treccani · quadro terminologico generale; dettagli nelle fonti specifiche",
+        "url": "https://www.treccani.it/enciclopedia/misura/"
+      },
+      {
+        "title": "JCGM · VIM, accuratezza e precisione, voci 2.13–2.15",
+        "url": "https://www.bipm.org/documents/20126/2071204/JCGM_200_2012.pdf"
+      },
+      {
+        "title": "NIST · distinzione dei termini metrologici",
+        "url": "https://www.nist.gov/pml/nist-technical-note-1297/nist-tn-1297-appendix-d1-terminology"
+      }
+    ],
+    "linkNames": [
+      "accuratezza di misura",
+      "accuratezza della misura"
+    ]
+  },
+  {
+    "id": "acido-cianidrico",
+    "name": "Acido cianidrico",
+    "definition": "L’acido cianidrico, o cianuro di idrogeno, ha formula HCN. Le sue firme spettroscopiche permettono di studiare gas molecolare anche in comete e ambienti interstellari.",
+    "source": "https://www.treccani.it/enciclopedia/acido-cianidrico/",
+    "lesson": "lezione-3-5.html",
+    "related": [
+      "isomeria",
+      "spettroscopia",
+      "cometa"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Leggere tre atomi",
+        "paragraphs": [
+          "La formula HCN indica un idrogeno, un carbonio e un azoto. Il nome chimico non deve essere confuso con quello dell’elemento azoto o con una famiglia indefinita di composti. In fase gassosa la molecola viene spesso indicata semplicemente con la sigla. I suoi livelli energetici producono transizioni che possono essere confrontate con gli spettri astronomici. Riconoscere queste righe permette di studiare una sostanza senza raccoglierne materialmente un campione."
+        ]
+      },
+      {
+        "title": "Una cometa non è un contenitore immobile",
+        "paragraphs": [
+          "Nella chioma cometaria il gas si espande e può trasformarsi. Le mappe delle righe di HCN aiutano a ricostruirne distribuzione e moto, insieme alle osservazioni di altre specie. Una concentrazione osservata non va interpretata automaticamente come una fotografia del ghiaccio originario del nucleo. Rilascio, illuminazione e processi nella chioma concorrono al segnale: il confronto spaziale e spettroscopico permette di distinguere almeno una parte di questi effetti."
+        ]
+      },
+      {
+        "title": "Gli stessi elementi possono organizzarsi diversamente",
+        "paragraphs": [
+          "HCN e HNC hanno gli stessi elementi e gli stessi numeri di atomi, ma differiscono nella struttura. Sono un esempio pertinente di isomeria costituzionale. Possiedono firme e comportamenti chimici differenti, quindi non vanno sommati come se fossero soltanto due modi di scrivere la medesima molecola. Studi con ALMA hanno confrontato le loro distribuzioni nelle chiome, mostrando perché la posizione delle emissioni sia un’informazione chimica oltre che geometrica."
+        ]
+      },
+      {
+        "title": "Dalla rilevazione alla storia della materia",
+        "paragraphs": [
+          "Le quantità ricavate dalle righe dipendono dalle condizioni e dal modello utilizzato. Per questo la voce HCN non contiene un’abbondanza universale valida per qualsiasi cometa o nube. Il contributo divulgativo sta nel percorso: identificare una firma, confrontare specie e ricostruire processi. La presenza di una molecola del carbonio non equivale alla presenza di vita; offre invece un elemento dell’inventario chimico da interpretare insieme all’ambiente e alle altre osservazioni disponibili."
+        ]
+      }
+    ],
+    "facts": [
+      "HCN e HNC sono isomeri con firme e strutture diverse"
+    ],
+    "example": "HCN e HNC sono isomeri con firme e strutture diverse",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/acido-cianidrico/"
+      },
+      {
+        "title": "ALMA · distribuzioni molecolari nelle comete Lemmon e ISON",
+        "url": "https://www.almaobservatory.org/en/press-releases/alma-confirms-comets-forge-organic-molecules-in-their-dusty-atmospheres/"
+      },
+      {
+        "title": "NASA NTRS · sorgenti di gas nella cometa 46P",
+        "url": "https://ntrs.nasa.gov/citations/20230009965"
+      }
+    ],
+    "aliases": [
+      "HCN",
+      "cianuro di idrogeno"
+    ]
+  },
+  {
+    "id": "acqua",
+    "name": "Acqua",
+    "definition": "L’acqua è il composto H₂O: ogni molecola comprende due atomi di idrogeno e uno di ossigeno; lo stato fisico dipende dalle condizioni ambientali.",
+    "source": "https://www.treccani.it/enciclopedia/acqua/",
+    "lesson": "lezione-10-2.html",
+    "related": [
+      "molecola",
+      "pressione",
+      "astrobiologia"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "La formula non dice se sia liquida",
+        "paragraphs": [
+          "H₂O identifica la composizione, ma non specifica da sola ghiaccio, liquido o vapore. Temperatura e pressione contribuiscono a stabilire lo stato, insieme alle condizioni del sistema. Nel linguaggio corrente acqua richiama spesso un liquido; nelle notizie astronomiche può indicare invece vapore molto rarefatto o ghiaccio. Una scheda deve precisarlo subito, evitando che la rilevazione di molecole diventi nell’immaginazione del lettore un oceano già fotografato."
+        ]
+      },
+      {
+        "title": "Una presenza in molti ambienti",
+        "paragraphs": [
+          "Acqua e ghiacci vengono studiati in comete, satelliti, dischi e regioni di formazione stellare. Le quantità e le condizioni sono molto differenti da un luogo all’altro. Lo stesso composto può essere legato alla superficie dei grani, trovarsi in depositi solidi oppure nel gas. Formazione, distruzione e trasferimento fra fasi modificano ciò che osserviamo. Non occorre assumere che ogni molecola abbia seguito un unico percorso invariato dalle nubi fino alla Terra."
+        ]
+      },
+      {
+        "title": "Come si riconosce a distanza",
+        "paragraphs": [
+          "Spettri e altre misure permettono di identificare firme attribuite all’acqua nelle bande appropriate. Anche l’atmosfera terrestre contiene vapore, che può complicare alcune osservazioni dal suolo. Le missioni spaziali aprono possibilità differenti, con strumenti e limiti propri. Dalla riga osservata alla quantità di acqua occorrono modelli dell’eccitazione e della geometria. Una mappa colorata non rappresenta necessariamente la superficie di un lago: può mostrare una proprietà ricostruita della radiazione."
+        ]
+      },
+      {
+        "title": "Acqua e vita, un rapporto da spiegare",
+        "paragraphs": [
+          "L’acqua liquida ha un ruolo centrale per la vita conosciuta, ma la sua presenza non dimostra organismi. Servono condizioni ambientali, fonti energetiche e altri elementi del quadro. Anche il rapporto isotopico dell’acqua offre indizi sulla storia dei materiali senza risolvere da solo ogni origine. Il percorso divulgativo deve distinguere ingrediente, ambiente favorevole e traccia biologica: tre livelli di evidenza che mantengono aperta la ricerca invece di trasformarla in un annuncio prematuro."
+        ]
+      }
+    ],
+    "facts": [
+      "Rilevare H₂O non significa aver rilevato acqua liquida o vita"
+    ],
+    "example": "Rilevare H₂O non significa aver rilevato acqua liquida o vita",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/acqua/"
+      },
+      {
+        "title": "ESA · acqua nelle regioni prestellari",
+        "url": "https://www.esa.int/Science_Exploration/Space_Science/Herschel/Large_water_reservoirs_at_the_dawn_of_stellar_birth"
+      },
+      {
+        "title": "NASA · ricerca della vita",
+        "url": "https://science.nasa.gov/exoplanets/search-for-life/"
       }
     ]
   },
@@ -310,6 +610,64 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "adsorbimento",
+    "name": "Adsorbimento",
+    "definition": "L’adsorbimento è il trattenimento di particelle sulla superficie di un materiale; in astrochimica collega il gas ai grani di polvere e ai loro rivestimenti.",
+    "source": "https://www.treccani.it/enciclopedia/adsorbimento/",
+    "lesson": "lezione-5-4.html",
+    "related": [
+      "polvere-interstellare",
+      "molecola",
+      "desorbimento"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "La superficie diventa un luogo",
+        "paragraphs": [
+          "Un atomo o una molecola che incontra un solido può rimanere legato alla sua superficie. Non si tratta necessariamente di penetrare in tutto il volume del materiale. Questa distinzione separa l’adsorbimento dall’assorbimento inteso come ingresso nella massa del corpo. Una piccola superficie può quindi diventare un ambiente chimico importante, soprattutto quando molti granelli offrono complessivamente una grande area di contatto al gas che li circonda."
+        ]
+      },
+      {
+        "title": "Il ruolo dei grani cosmici",
+        "paragraphs": [
+          "Nelle regioni fredde e dense dello spazio alcune specie gassose possono fermarsi sui grani e contribuire a rivestimenti di ghiaccio. Le superfici offrono anche occasioni di incontro fra reagenti. Non ogni urto produce cattura e non ogni particella rimane per sempre: temperatura, energia del legame, composizione e struttura della superficie contano. Il modello del granello come minuscolo luogo di lavoro è utile purché non suggerisca un laboratorio ordinato con reazioni sempre identiche."
+        ]
+      },
+      {
+        "title": "Dal gas al ghiaccio e ritorno",
+        "paragraphs": [
+          "L’adsorbimento può sottrarre una parte delle molecole alla fase gassosa, modificando le righe che osserviamo. Altri processi le restituiscono al gas. Gli esperimenti sui ghiacci analoghi a quelli interstellari aiutano a studiare questo scambio e la sua dipendenza dalle condizioni. Trovare meno emissione di una specie non dimostra da solo che sia scomparsa: potrebbe essere distribuita diversamente fra gas e superfici, oltre alle altre cause che influenzano l’intensità delle righe."
+        ]
+      },
+      {
+        "title": "Un processo, non una temperatura unica",
+        "paragraphs": [
+          "Non esiste una sola soglia valida per tutte le molecole e tutti i grani. Le proprietà del materiale e i tempi disponibili vanno considerati insieme all’ambiente. Per questo nei modelli astrochimici l’adsorbimento compare in una rete di processi, non come spiegazione universale di qualsiasi abbondanza. La parola chiave da ricordare è superficie: una parte della chimica del cielo avviene dove il gas incontra il solido, e quel contatto può cambiare ciò che arriva ai telescopi."
+        ]
+      }
+    ],
+    "facts": [
+      "Adsorbimento riguarda la superficie; non è sinonimo generale di assorbimento"
+    ],
+    "example": "Adsorbimento riguarda la superficie; non è sinonimo generale di assorbimento",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/adsorbimento/"
+      },
+      {
+        "title": "SOLEIL · esperimenti sul ritorno delle molecole dai ghiacci al gas",
+        "url": "https://www.synchrotron-soleil.fr/en/news/why-do-telescopes-detect-gaz-where-there-should-only-be-dust-and-ice"
+      },
+      {
+        "title": "Studio sperimentale · fotodesorbimento dei ghiacci interstellari",
+        "url": "https://arxiv.org/abs/1312.4571"
+      }
+    ]
+  },
+  {
     "id": "afelio",
     "name": "Afelio",
     "definition": "L’afelio è il punto di un’orbita attorno al Sole in cui la distanza dal Sole è massima.",
@@ -357,6 +715,64 @@ window.AdAstraGlossary = [
       {
         "title": "Treccani · riferimento terminologico",
         "url": "https://www.treccani.it/enciclopedia/afelio/"
+      }
+    ]
+  },
+  {
+    "id": "affinita-elettronica",
+    "name": "Affinità elettronica",
+    "definition": "L’affinità elettronica descrive il bilancio energetico collegato all’aggiunta di un elettrone a una specie isolata; la convenzione di segno deve essere dichiarata quando si confrontano valori.",
+    "source": "https://www.treccani.it/enciclopedia/elementi-chimici-origine-e-natura_(Enciclopedia-della-Scienza-e-della-Tecnica)/",
+    "lesson": "lezione-5-4.html",
+    "related": [
+      "anione",
+      "elettronegativita",
+      "energia-ionizzazione"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Aggiungere anziché rimuovere",
+        "paragraphs": [
+          "Un atomo neutro può legare un elettrone aggiuntivo e formare uno ione negativo se il processo e lo stato finale lo consentono. L’affinità elettronica riguarda l’energia associata a questo passaggio. Non è un sentimento di attrazione e non è il semplice opposto numerico della prima energia di ionizzazione dello stesso atomo. I due processi collegano stati iniziali e finali differenti, che devono essere identificati prima di confrontare le misure."
+        ]
+      },
+      {
+        "title": "Il segno richiede leggere la definizione",
+        "paragraphs": [
+          "Alcune tabelle presentano come positivo il valore dell’energia liberata nell’attacco elettronico; altre descrivono la variazione energetica del sistema con una diversa convenzione di segno. Non basta quindi confrontare due numeri senza leggere l’intestazione. L’unità può essere eV per singola particella oppure energia per mole. La conversione cambia la scala del valore, non la proprietà fisica. Specie, stato e convenzione fanno parte della definizione del dato."
+        ]
+      },
+      {
+        "title": "Non coincide con l’elettronegatività",
+        "paragraphs": [
+          "L’elettronegatività descrive la tendenza ad attrarre gli elettroni in un legame secondo una scala definita. L’affinità elettronica si riferisce invece a un processo energetico di una specie isolata. Le proprietà sono collegate alla struttura elettronica, ma non sono intercambiabili. La tavola periodica mostra tendenze generali con eccezioni: non basta una regola geometrica sulla posizione dell’elemento per sostituire i dati misurati o valutati quando occorre precisione."
+        ]
+      },
+      {
+        "title": "Perché interessa l’astrochimica",
+        "paragraphs": [
+          "La presenza di elettroni e specie negative può influenzare le reti di reazione del gas. Per stabilire quali anioni possano formarsi e sopravvivere servono anche meccanismi di cattura, radiazione e processi distruttivi. Un’affinità favorevole non garantisce da sola abbondanza elevata. La voce aggiunge quindi un criterio energetico alla storia delle reazioni, senza presentarlo come unica spiegazione. Prima si identifica quale trasformazione sia possibile; poi si studia quanto spesso avvenga nell’ambiente reale."
+        ]
+      }
+    ],
+    "facts": [
+      "Affinità elettronica ed elettronegatività sono proprietà diverse"
+    ],
+    "example": "Affinità elettronica ed elettronegatività sono proprietà diverse",
+    "sources": [
+      {
+        "title": "Treccani · quadro terminologico generale; dettagli nelle fonti specifiche",
+        "url": "https://www.treccani.it/enciclopedia/elementi-chimici-origine-e-natura_(Enciclopedia-della-Scienza-e-della-Tecnica)/"
+      },
+      {
+        "title": "NIST WebBook · energetica di ioni positivi e negativi",
+        "url": "https://webbook.nist.gov/chemistry/ion/"
+      },
+      {
+        "title": "Università di Bari · proprietà periodiche e struttura elettronica",
+        "url": "https://www.uniba.it/it/ricerca/dipartimenti/dipmedveterinaria/didattica-1/precorsi/2024-2025/materiale-didattico-chimica.pdf"
       }
     ]
   },
@@ -514,6 +930,68 @@ window.AdAstraGlossary = [
       {
         "title": "JPL · definizioni di albedo",
         "url": "https://ssd.jpl.nasa.gov/glossary/albedo.html"
+      }
+    ]
+  },
+  {
+    "id": "alluminio",
+    "name": "Alluminio",
+    "definition": "L’alluminio è l’elemento di numero atomico 13, simbolo Al. Oltre all’impiego nei materiali, alcuni suoi isotopi aiutano a studiare la storia iniziale del Sistema solare.",
+    "source": "https://www.treccani.it/enciclopedia/alluminio/",
+    "lesson": "lezione-3-6.html",
+    "related": [
+      "magnesio",
+      "isotopo",
+      "datazione-radiometrica"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Il metallo e l’elemento",
+        "paragraphs": [
+          "L’alluminio familiare negli oggetti comuni è un materiale metallico, spesso utilizzato in lega. L’elemento chimico può invece essere presente anche in ossidi e minerali con proprietà completamente diverse. Tredici protoni ne definiscono l’identità. Non bisogna quindi immaginare che una roccia ricca di alluminio contenga necessariamente frammenti di metallo lucido. Composizione elementare, struttura del composto e aspetto visivo sono informazioni collegate ma distinte."
+        ]
+      },
+      {
+        "title": "Isotopi con ruoli differenti",
+        "paragraphs": [
+          "L’alluminio-27 è stabile, mentre l’alluminio-26 è radioattivo. Il numero dopo il nome indica il numero di massa, non il numero atomico. Nel decadimento dell’alluminio-26 si forma magnesio-26. Le differenze isotopiche misurate in materiali antichi possono conservare una traccia di questa presenza passata. Non si può quindi sostituire indiscriminatamente la sigla dell’elemento al nome del nuclide quando si parla di trasformazioni nucleari."
+        ]
+      },
+      {
+        "title": "Le prime fasi dei corpi planetari",
+        "paragraphs": [
+          "L’alluminio-26 ebbe un ruolo importante nel bilancio termico di alcuni piccoli corpi primitivi. Le misure delle composizioni isotopiche contribuiscono anche a confrontare tempi di formazione dei materiali. L’interpretazione richiede condizioni iniziali e storia del campione, non soltanto il riconoscimento di un isotopo. Un eccesso misurato deve essere collocato nel sistema fisico e nella procedura analitica che permettono di attribuirlo a un processo specifico."
+        ]
+      },
+      {
+        "title": "Dagli strumenti alla memoria delle rocce",
+        "paragraphs": [
+          "Le proprietà dei materiali contenenti alluminio interessano la costruzione degli apparati; la sua storia isotopica interessa l’origine dei corpi celesti. Sono due collegamenti reali ma differenti. Una fotografia di un telescopio non informa sulla distribuzione isotopica del suo metallo, così come un dato isotopico non descrive da solo le prestazioni meccaniche. La voce mostra come un elemento molto comune possa diventare una chiave per domande che spaziano dalla progettazione alla cronologia del Sistema solare."
+        ]
+      }
+    ],
+    "facts": [
+      "Alluminio-26 e alluminio-27 hanno lo stesso numero di protoni ma stabilità differenti"
+    ],
+    "example": "Alluminio-26 e alluminio-27 hanno lo stesso numero di protoni ma stabilità differenti",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/alluminio/"
+      },
+      {
+        "title": "RSC · alluminio",
+        "url": "https://periodic-table.rsc.org/element/13/aluminium"
+      },
+      {
+        "title": "NASA Astrobiology · isotopi e storia della nebulosa solare",
+        "url": "https://astrobiology.nasa.gov/news/using-isotopes-to-probe-the-earliest-history-of-the-solar-nebula/"
+      },
+      {
+        "title": "USGS · magnesio-26 nei materiali meteoritici",
+        "url": "https://wwwrcamnl.wr.usgs.gov/isoig/period/mg_iig.html"
       }
     ]
   },
@@ -851,6 +1329,121 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "ammoniaca",
+    "name": "Ammoniaca",
+    "definition": "L’ammoniaca è la molecola NH₃, costituita da un atomo di azoto e tre di idrogeno, osservata anche in ambienti astronomici.",
+    "source": "https://www.treccani.it/enciclopedia/ammoniaca/",
+    "lesson": "lezione-3-3.html",
+    "related": [
+      "azoto",
+      "idrogeno",
+      "nube-molecolare"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "La sostanza quotidiana e la molecola",
+        "paragraphs": [
+          "I prodotti domestici chiamati ammoniaca sono normalmente soluzioni, non esempi diretti di ogni condizione della molecola pura. NH₃ specifica la composizione della specie. Non è l’azoto molecolare N₂ e non coincide con lo ione ammonio. Numero di atomi, legami e carica devono essere distinti per capire i simboli che compaiono nelle descrizioni di atmosfere e nubi senza trasformarli in nomi equivalenti."
+        ]
+      },
+      {
+        "title": "Una geometria che entra nello spettro",
+        "paragraphs": [
+          "La molecola possiede una struttura tridimensionale e modi quantistici di rotazione e inversione che contribuiscono alle sue firme. I disegni con palline mostrano una geometria semplificata, non molecole riprese in movimento. Confrontare transizioni appropriate permette di studiare condizioni fisiche del gas. Un singolo valore di temperatura non nasce soltanto dal nome ammoniaca: occorrono osservazioni, popolazioni dei livelli e un modello capace di collegarle al fenomeno studiato."
+        ]
+      },
+      {
+        "title": "Un indicatore nei gas astronomici",
+        "paragraphs": [
+          "L’ammoniaca viene utilizzata nello studio delle nubi molecolari e compare anche nelle indagini planetarie. La stessa formula non implica che le condizioni siano identiche. Temperatura, densità, radiazione e passaggio fra gas e materiali condensati influenzano la presenza osservabile. Anche una mancata rilevazione dipende dalla sensibilità e dalla banda: non prova automaticamente che tutto l’ambiente sia privo di azoto o di qualunque composto azotato."
+        ]
+      },
+      {
+        "title": "Dai dati alla composizione",
+        "paragraphs": [
+          "Misure in più transizioni aiutano a limitare le interpretazioni e a distinguere quantità e condizioni. Le analisi devono dichiarare regione osservata e assunzioni, senza estendere un dato locale a tutto il pianeta o a tutta la nube. Nel racconto divulgativo l’ammoniaca offre un passaggio concreto dalla chimica familiare alla diagnosi astronomica: la molecola è riconoscibile, ma il suo ruolo viene ricostruito dalla luce e dagli strumenti, non dal colore assegnato a un’immagine pubblicata."
+        ]
+      }
+    ],
+    "facts": [
+      "NH₃ è ammoniaca; non è N₂ né lo ione ammonio"
+    ],
+    "example": "NH₃ è ammoniaca; non è N₂ né lo ione ammonio",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/ammoniaca/"
+      },
+      {
+        "title": "NRAO · ammoniaca come diagnostica del gas",
+        "url": "https://www.cv.nrao.edu/~sransom/web/Ch7.html"
+      },
+      {
+        "title": "Studio Herschel/HIFI · CO, H₂O e NH₃ in Mon R2",
+        "url": "https://arxiv.org/abs/1206.1249"
+      }
+    ],
+    "aliases": [
+      "NH₃"
+    ]
+  },
+  {
+    "id": "ampere",
+    "name": "Ampere",
+    "definition": "L’ampere, simbolo A, è l’unità SI dell’intensità di corrente elettrica; un ampere corrisponde al passaggio netto di un coulomb al secondo.",
+    "source": "https://www.treccani.it/enciclopedia/carica/",
+    "lesson": "strumentazione.html",
+    "related": [
+      "carica-elettrica",
+      "coulomb",
+      "watt"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Quanto flusso di carica attraversa il circuito",
+        "paragraphs": [
+          "La corrente descrive il trasferimento netto di carica attraverso una sezione nel tempo. L’ampere ne misura l’intensità. Non conta semplicemente quanti elettroni siano presenti in un cavo e non descrive la tensione dell’alimentazione. Il paragone con un flusso d’acqua può aiutare a separare portata e spinta, ma resta un’analogia: in un circuito reale il comportamento dipende dal campo elettrico e dalle proprietà dei materiali."
+        ]
+      },
+      {
+        "title": "Leggere una scheda di alimentazione",
+        "paragraphs": [
+          "Una montatura, una camera e una fascia anticondensa possono richiedere correnti differenti. Un valore in ampere su un alimentatore indica una capacità nelle condizioni dichiarate, non che qualunque dispositivo assorbirà sempre quel valore. Il carico determina l’assorbimento secondo il proprio funzionamento. Bisogna considerare anche tensione, polarità, connettori e specifiche del produttore. Due alimentatori con lo stesso numero di ampere non sono quindi automaticamente equivalenti per ogni configurazione astronomica."
+        ]
+      },
+      {
+        "title": "Corrente, potenza e durata",
+        "paragraphs": [
+          "Nel caso semplice di alimentazione continua, la potenza elettrica si ottiene moltiplicando tensione e corrente. Dodici volt per due ampere corrispondono a ventiquattro watt. Se la corrente cambia, cambia anche il consumo istantaneo. Gli amperora riportati su una batteria indicano invece una capacità di carica, non una corrente costante garantita né un’energia senza specificare la tensione. Le unità permettono di evitare confronti ingannevoli fra batterie di tipi diversi."
+        ]
+      },
+      {
+        "title": "La definizione moderna",
+        "paragraphs": [
+          "Il SI collega oggi l’ampere al valore fissato della carica elementare, insieme alla definizione del secondo. La vecchia definizione basata sulla forza fra conduttori appartiene alla storia della metrologia. La precisione del riferimento non rende perfetto ogni amperometro o ogni dato commerciale. Nel diario strumentale registra l’assorbimento nelle condizioni effettive, distinguendo riposo, movimento e raffreddamento: il comportamento dell’intera serata conta più di un unico valore preso fuori contesto."
+        ]
+      }
+    ],
+    "facts": [
+      "Ampere, volt, watt e amperora descrivono proprietà differenti"
+    ],
+    "example": "Ampere, volt, watt e amperora descrivono proprietà differenti",
+    "sources": [
+      {
+        "title": "Treccani · quadro terminologico generale; dettagli nelle fonti specifiche",
+        "url": "https://www.treccani.it/enciclopedia/carica/"
+      },
+      {
+        "title": "BIPM · definizione SI dell’ampere",
+        "url": "https://www.bipm.org/en/si-base-units/ampere"
+      }
+    ]
+  },
+  {
     "id": "ampiezza",
     "name": "Ampiezza",
     "definition": "L’ampiezza quantifica l’entità di una variazione o oscillazione; bisogna dichiarare se indica lo scostamento dal valore centrale oppure la differenza fra massimo e minimo.",
@@ -1011,6 +1604,175 @@ window.AdAstraGlossary = [
     ],
     "archiveReferences": [
       "Marco Monaci, Corso di Astronomia, pagina PDF 21: confronto fra tempo siderale, angolo orario e ascensione retta."
+    ]
+  },
+  {
+    "id": "anidride-carbonica",
+    "name": "Anidride carbonica",
+    "definition": "L’anidride carbonica, o diossido di carbonio, è la molecola CO₂, composta da un atomo di carbonio e due di ossigeno.",
+    "source": "https://www.treccani.it/enciclopedia/anidride-carbonica/",
+    "lesson": "lezione-3-2.html",
+    "related": [
+      "carbonio",
+      "ossigeno",
+      "atmosfera"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "La composizione distingue la specie",
+        "paragraphs": [
+          "CO₂ e CO differiscono per un atomo di ossigeno nella formula, ma non sono versioni intercambiabili della stessa sostanza. Legami e struttura producono proprietà diverse. La formula della CO₂ non indica se il materiale sia gassoso o solido e non assegna una temperatura all’ambiente. Nelle notizie planetarie occorre leggere composizione e condizioni insieme, evitando di trasferire automaticamente l’esperienza dell’aria terrestre a qualunque mondo."
+        ]
+      },
+      {
+        "title": "Assorbire ed emettere radiazione",
+        "paragraphs": [
+          "Le transizioni molecolari permettono alla CO₂ di interagire con specifiche bande della radiazione. La geometria della molecola entra nella descrizione delle vibrazioni e della loro osservabilità. Non tutti i fotoni vengono assorbiti nello stesso modo. Il contributo a un’atmosfera dipende da quantità, pressione, temperatura e altri componenti. Il semplice nome gas serra non sostituisce il ragionamento sul trasferimento della radiazione e sul bilancio energetico del pianeta."
+        ]
+      },
+      {
+        "title": "Pianeti e ghiacci",
+        "paragraphs": [
+          "La CO₂ è importante nello studio di atmosfere planetarie e può comparire in forma solida negli ambienti appropriati. Un deposito di ghiaccio carbonico non è acqua congelata, anche se entrambi appaiono chiari in certe immagini. Anche vapore o gas osservati sopra una superficie possono avere origine e distribuzione differenti dal solido sottostante. Una legenda deve indicare quale specie e quale fase siano state misurate, distinguendo dati spettrali e interpretazione morfologica della fotografia."
+        ]
+      },
+      {
+        "title": "Non una diagnosi automatica del mondo",
+        "paragraphs": [
+          "Trovare CO₂ in uno spettro non determina da solo temperatura superficiale, pressione totale o abitabilità. Servono più osservazioni e modelli che considerino possibili alternative. La molecola può derivare da processi abiotici e non costituisce una prova di organismi. Nel glossario conviene seguire il passaggio dalla formula alla firma osservata e poi alla domanda ambientale: una progressione che rende chiaro il valore della scoperta senza attribuirle risposte che i dati non forniscono ancora."
+        ]
+      }
+    ],
+    "facts": [
+      "CO₂ non è CO; ghiaccio carbonico non è ghiaccio d’acqua"
+    ],
+    "example": "CO₂ non è CO; ghiaccio carbonico non è ghiaccio d’acqua",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/anidride-carbonica/"
+      },
+      {
+        "title": "IUPAC · formule e nomenclatura delle specie",
+        "url": "https://iupac.org/what-we-do/nomenclature/"
+      }
+    ],
+    "aliases": [
+      "diossido di carbonio",
+      "CO₂"
+    ]
+  },
+  {
+    "id": "anione",
+    "name": "Anione",
+    "definition": "Un anione è uno ione con carica elettrica negativa, associata a un eccesso di elettroni rispetto alla corrispondente specie neutra.",
+    "source": "https://www.treccani.it/enciclopedia/anione/",
+    "lesson": "lezione-4-3.html",
+    "related": [
+      "ione",
+      "catione",
+      "carica-elettrica"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Quando prevale la carica negativa",
+        "paragraphs": [
+          "Un atomo o un insieme di atomi può acquistare elettroni e assumere carica complessiva negativa. La specie viene chiamata anione. Non occorre aggiungere neutroni: i neutroni non hanno carica elettrica netta e modificano un altro aspetto della composizione. Questa distinzione è essenziale perché la parola negativo descrive un segno elettrico, non una massa minore, una temperatura più bassa o un giudizio sulla stabilità del materiale."
+        ]
+      },
+      {
+        "title": "Il simbolo va letto al posto giusto",
+        "paragraphs": [
+          "Nella formula, il segno meno scritto in alto indica la carica. Un eventuale numero prima del segno ne specifica il valore in unità di carica elementare. Gli indici più piccoli nella composizione contano invece gli atomi. Gli anioni possono essere atomici oppure molecolari: una molecola con più atomi può avere una singola carica negativa complessiva. Non è corretto distribuirla come se ogni atomo dovesse possedere automaticamente la stessa carica intera."
+        ]
+      },
+      {
+        "title": "Non ogni elettrone resta legato",
+        "paragraphs": [
+          "La possibilità di formare e mantenere un anione dipende dalla specie e dall’ambiente. Radiazione e collisioni possono rimuovere l’elettrone aggiunto, mentre altri processi favoriscono la formazione. In astrochimica si studiano anche anioni molecolari in ambienti appropriati. Non tutte le molecole dello spazio devono per questo essere negative. Una rilevazione richiede righe e confronti specifici, insieme a una valutazione delle possibili attribuzioni alternative nello spettro osservato."
+        ]
+      },
+      {
+        "title": "Un tassello delle reti chimiche",
+        "paragraphs": [
+          "Anioni, cationi, specie neutre ed elettroni partecipano a reti di reazioni. La composizione risultante cambia con densità, radiazione e condizioni del gas. Il bilancio della carica totale deve restare coerente quando si descrive un processo. Nell’esercizio si può aggiungere o togliere un elettrone mantenendo fisso il nucleo, poi confrontare ione e isotopo. Separare queste due operazioni rende leggibili molti simboli astronomici senza trasformare la lezione in un catalogo di abbreviazioni da imparare a memoria."
+        ]
+      }
+    ],
+    "facts": [
+      "Aggiungere un elettrone e aggiungere un neutrone producono cambiamenti differenti"
+    ],
+    "example": "Aggiungere un elettrone e aggiungere un neutrone producono cambiamenti differenti",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/anione/"
+      },
+      {
+        "title": "IUPAC · rappresentazione e nomenclatura chimica",
+        "url": "https://iupac.org/what-we-do/nomenclature/"
+      }
+    ],
+    "aliases": [
+      "anioni"
+    ]
+  },
+  {
+    "id": "annichilazione",
+    "name": "Annichilazione",
+    "definition": "L’annichilazione è un’interazione fra una particella e la corrispondente antiparticella nella quale lo stato iniziale viene trasformato in altre particelle.",
+    "source": "https://www.treccani.it/enciclopedia/annichilazione/",
+    "lesson": "lezione-10-3.html",
+    "related": [
+      "antimateria",
+      "positrone",
+      "equivalenza-massa-energia"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Scomparire dalla scena non significa diventare nulla",
+        "paragraphs": [
+          "La parola può suggerire una cancellazione totale, ma nel processo fisico energia e altre quantità conservate devono restare nel bilancio. Elettrone e positrone possono trasformarsi in fotoni, mentre altre coppie possono produrre particelle differenti. I prodotti non sono un dettaglio secondario: costituiscono ciò che viene osservato e permettono di verificare il processo. Un’animazione che elimini due palline senza mostrare il risultato darebbe una rappresentazione incompleta."
+        ]
+      },
+      {
+        "title": "Un esempio con due fotoni",
+        "paragraphs": [
+          "Per una coppia elettrone–positrone quasi a riposo, un canale importante produce due fotoni che si propagano in direzioni opposte nel riferimento appropriato. Il loro moto permette di rispettare anche la conservazione della quantità di moto. Non basta scegliere un unico lampo arbitrario perché sembri spettacolare. Altri stati iniziali e canali possono dare risultati differenti, perciò questo esempio non va generalizzato a ogni annichilazione e a qualsiasi energia."
+        ]
+      },
+      {
+        "title": "La massa entra nel bilancio energetico",
+        "paragraphs": [
+          "L’energia disponibile comprende quella associata alle masse a riposo e al moto iniziale. Può ritrovarsi nella massa e nell’energia cinetica dei prodotti oppure nella radiazione, secondo il processo. Non tutta l’energia deve necessariamente diventare luce visibile. Fotoni gamma e particelle secondarie richiedono strumenti specifici. Anche dire che la materia si converte in energia è una scorciatoia da spiegare: l’energia è una grandezza dei sistemi, non una sostanza luminosa senza portatori."
+        ]
+      },
+      {
+        "title": "Riconoscere il fenomeno nel cielo",
+        "paragraphs": [
+          "Una firma spettrale compatibile con annichilazione aiuta a studiare popolazioni di particelle e condizioni del mezzo. Identificare il meccanismo non determina da solo dove siano state prodotte le antiparticelle o quale sorgente le abbia accelerate. La propagazione può separare luogo di origine e luogo del segnale. Nel glossario occorre distinguere osservazione, interpretazione e sorgente proposta, conservando il fascino del fenomeno senza trasformare ogni segnale gamma nella prova di un oggetto esotico appena scoperto."
+        ]
+      }
+    ],
+    "facts": [
+      "Nell’annichilazione non scompare il bilancio di energia e quantità di moto"
+    ],
+    "example": "Nell’annichilazione non scompare il bilancio di energia e quantità di moto",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/annichilazione/"
+      },
+      {
+        "title": "CERN · trasformazioni fra materia e antimateria",
+        "url": "https://home.cern/science/physics/antimatter"
+      }
     ]
   },
   {
@@ -1252,6 +2014,60 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "antimateria",
+    "name": "Antimateria",
+    "definition": "L’antimateria è costituita da antiparticelle, con massa uguale a quella delle corrispondenti particelle e valori opposti per alcune proprietà, come la carica elettrica.",
+    "source": "https://www.treccani.it/vocabolario/antimateria/",
+    "lesson": "lezione-10-3.html",
+    "related": [
+      "elettrone",
+      "positrone",
+      "annichilazione"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Non è materia con massa negativa",
+        "paragraphs": [
+          "Il positrone è l’antiparticella dell’elettrone: ha la stessa massa e carica elettrica di segno opposto. Non possiede per questo massa negativa e non va confuso con la materia oscura. La parola anti indica una relazione fra particelle nel quadro fisico, non una sostanza che debba comportarsi al contrario in qualsiasi circostanza. Anche atomi di antimateria possono essere costruiti associando opportunamente antiparticelle, come nell’antiidrogeno studiato in laboratorio."
+        ]
+      },
+      {
+        "title": "L’incontro può trasformare le particelle",
+        "paragraphs": [
+          "Una particella e la corrispondente antiparticella possono annichilarsi, producendo altre particelle nel rispetto delle conservazioni. Per elettrone e positrone sono possibili fotoni; altri incontri possono avere prodotti diversi. Non si ottiene un vuoto senza energia né una cancellazione matematica che lasci semplicemente nulla. Il bilancio deve comprendere masse, energia e quantità di moto iniziali e finali. La rappresentazione con due simboli che spariscono ha bisogno di mostrare anche ciò che viene prodotto."
+        ]
+      },
+      {
+        "title": "Presenza reale e domanda cosmologica",
+        "paragraphs": [
+          "Antiparticelle vengono osservate nei raggi cosmici e prodotte in processi naturali e negli acceleratori. La loro esistenza non è soltanto un’ipotesi fantascientifica. Resta invece aperta la spiegazione completa della forte prevalenza della materia nell’Universo osservabile. Rilevare un positrone non dimostra che nelle vicinanze esista un’antigalassia: il segnale può derivare da processi locali o astrofisici differenti. Una conclusione cosmologica richiede prove e controlli molto più estesi."
+        ]
+      },
+      {
+        "title": "Una storia da seguire attraverso gli esperimenti",
+        "paragraphs": [
+          "La ricerca confronta proprietà di materia e antimateria con precisione crescente. Risultati specifici vanno descritti con condizioni e data, senza trasformarli in annunci di energia illimitata o tecnologie già disponibili. Nel glossario il nucleo è il rapporto particella–antiparticella e il bilancio delle trasformazioni. Questo rende leggibili notizie su laboratori e sorgenti cosmiche, mantenendo separate le osservazioni confermate, le domande teoriche e gli usi narrativi che appartengono alla fantascienza."
+        ]
+      }
+    ],
+    "facts": [
+      "Antimateria, materia oscura e massa negativa non sono sinonimi"
+    ],
+    "example": "Antimateria, materia oscura e massa negativa non sono sinonimi",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/vocabolario/antimateria/"
+      },
+      {
+        "title": "CERN · antimateria, esperimenti e domande aperte",
+        "url": "https://home.cern/science/physics/antimatter"
+      }
+    ]
+  },
+  {
     "id": "apertura",
     "name": "Apertura",
     "definition": "Nell’uso astronomico comune l’apertura indica il diametro utile che raccoglie luce; non va confusa con focale e ingrandimento.",
@@ -1405,6 +2221,63 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "apollo-11",
+    "name": "Apollo 11",
+    "definition": "Apollo 11 fu la missione NASA che realizzò il primo allunaggio con equipaggio umano, con il modulo Eagle posato sulla Luna il 20 luglio 1969.",
+    "source": "https://www.treccani.it/enciclopedia/astronautica/",
+    "lesson": "lezione-10-5.html",
+    "related": [
+      "luna",
+      "regolite",
+      "orbita"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Una missione con ruoli diversi",
+        "paragraphs": [
+          "Neil Armstrong e Buzz Aldrin scesero sulla superficie, mentre Michael Collins rimase nel modulo di comando in orbita lunare. Il viaggio non fu quindi una singola cabina che atterrava e ripartiva intera. Lanciatore, moduli e manovre svolgevano compiti differenti. Comprendere questa organizzazione rende la missione più leggibile delle sole fotografie celebri e permette di distinguere equipaggio della missione e astronauti che camminarono effettivamente sulla Luna."
+        ]
+      },
+      {
+        "title": "Allunaggio e primo passo non sono lo stesso istante",
+        "paragraphs": [
+          "Il modulo lunare si posò il 20 luglio 1969. L’uscita degli astronauti avvenne successivamente e la data indicata per il primo passo dipende anche dal fuso orario usato nel racconto. È quindi importante dichiarare il riferimento quando si confrontano cronologie. Una data discordante non deve essere risolta scegliendo a caso: si verificano evento preciso, orario e convenzione. Questa attenzione è la stessa richiesta nelle schede osservative del sito."
+        ]
+      },
+      {
+        "title": "La superficie diventò un laboratorio",
+        "paragraphs": [
+          "Osservazioni, fotografie, raccolta di campioni ed esperimenti resero il soggiorno anche un’attività scientifica. Le rocce furono poi studiate sulla Terra con strumenti di laboratorio. Campione raccolto e immagine della superficie offrono informazioni differenti: il primo consente analisi dirette, la seconda conserva contesto e morfologia. Non ogni conclusione sulla Luna deriva da Apollo 11 soltanto, perché missioni successive e osservazioni remote hanno ampliato e rivisto il quadro."
+        ]
+      },
+      {
+        "title": "Un risultato dentro una storia collettiva",
+        "paragraphs": [
+          "La missione concluse un percorso di prove, voli precedenti e lavoro di moltissime persone. Il primato umano sulla superficie non cancella le missioni automatiche che l’avevano già studiata. Nel glossario conviene collegare l’impresa ai problemi risolti: navigazione, discesa, vita nello spazio, campionamento e ritorno. In questo modo il racconto conserva emozione e contesto senza trasformarsi in una semplice lista di nomi o in una singola fotografia priva della struttura tecnica e scientifica che la rese possibile."
+        ]
+      }
+    ],
+    "facts": [
+      "Apollo 11 comprendeva tre astronauti; due scesero sulla superficie lunare"
+    ],
+    "example": "Apollo 11 comprendeva tre astronauti; due scesero sulla superficie lunare",
+    "sources": [
+      {
+        "title": "Treccani · quadro terminologico generale; dettagli nelle fonti specifiche",
+        "url": "https://www.treccani.it/enciclopedia/astronautica/"
+      },
+      {
+        "title": "NASA · missione Apollo 11 e documentazione",
+        "url": "https://www.nasa.gov/mission/apollo-11/"
+      }
+    ],
+    "aliases": [
+      "Apollo11"
+    ]
+  },
+  {
     "id": "apside",
     "name": "Apside",
     "definition": "In un’orbita ellittica i due apsidi sono i punti di minima e massima distanza dal fuoco occupato dal corpo centrale nel modello a due corpi.",
@@ -1453,6 +2326,132 @@ window.AdAstraGlossary = [
         "title": "Treccani · riferimento terminologico",
         "url": "https://www.treccani.it/enciclopedia/apside/"
       }
+    ]
+  },
+  {
+    "id": "argon",
+    "name": "Argon",
+    "definition": "L’argon, o argo, è il gas nobile di numero atomico 18 e simbolo Ar. Le sue abbondanze isotopiche sono utili nello studio dell’evoluzione delle atmosfere e della storia delle rocce.",
+    "source": "https://www.treccani.it/enciclopedia/argo_res-bee091b2-1d24-11de-bb24-0016357eee51/",
+    "lesson": "lezione-3-2.html",
+    "related": [
+      "isotopo",
+      "rapporto-isotopico",
+      "potassio"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un gas con poca reattività ordinaria",
+        "paragraphs": [
+          "L’argon appartiene ai gas nobili. La sua bassa reattività nelle condizioni comuni lo rende differente da specie che vengono rapidamente trasformate da molte reazioni chimiche. Questo non significa che non possa essere ionizzato o che la sua quantità in un’atmosfera rimanga necessariamente immutabile. Origine, rilascio dall’interno e fuga verso lo spazio possono cambiarne la distribuzione. La composizione va sempre riferita al luogo e al periodo considerati."
+        ]
+      },
+      {
+        "title": "Gli isotopi non hanno tutti la stessa storia",
+        "paragraphs": [
+          "Ar identifica l’elemento; numeri come 36, 38 e 40 distinguono isotopi. La presenza di argon-40 può essere collegata anche al decadimento del potassio-40, mentre altri rapporti isotopici offrono informazioni su processi differenti. Un totale elementare non raccoglie automaticamente tutti questi dettagli. Lo studio isotopico permette proprio di cercare differenze di origine o trasformazione che il solo nome argon lascerebbe nascoste."
+        ]
+      },
+      {
+        "title": "Una traccia della fuga atmosferica",
+        "paragraphs": [
+          "Le misure MAVEN degli isotopi dell’argon marziano hanno contribuito a ricostruire la perdita di atmosfera nello spazio. Processi che rimuovono diversamente isotopi leggeri e pesanti possono lasciare un rapporto modificato. Passare dal rapporto osservato alla quantità perduta richiede un modello della storia atmosferica. Non si tratta di osservare direttamente ogni particella fuggita nel passato o di ricavare l’intera evoluzione di Marte da una fotografia del suo colore."
+        ]
+      },
+      {
+        "title": "Un ingrediente degli orologi geologici",
+        "paragraphs": [
+          "Il collegamento fra potassio e argon entra nei metodi di datazione di materiali adatti. Il risultato dipende dalla conservazione o perdita del gas e dalla storia del campione. L’età ottenuta va associata all’evento registrato dal sistema, non a una generica età assoluta di qualunque oggetto. La voce mostra due usi della stessa conoscenza: un isotopo può aiutare a leggere il tempo conservato nelle rocce e un altro confronto può interrogare il materiale perso da un’atmosfera."
+        ]
+      }
+    ],
+    "facts": [
+      "I rapporti isotopici dell’argon possono conservare indizi sulla perdita di atmosfera"
+    ],
+    "example": "I rapporti isotopici dell’argon possono conservare indizi sulla perdita di atmosfera",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/argo_res-bee091b2-1d24-11de-bb24-0016357eee51/"
+      },
+      {
+        "title": "RSC · argon",
+        "url": "https://periodic-table.rsc.org/element/18/argon"
+      },
+      {
+        "title": "NASA · misure MAVEN della perdita atmosferica",
+        "url": "https://www.nasa.gov/news-release/nasas-maven-reveals-most-of-mars-atmosphere-was-lost-to-space/"
+      },
+      {
+        "title": "NASA · potassio e argon nella datazione di una roccia marziana",
+        "url": "https://science.nasa.gov/resource/measuring-the-age-of-a-rock-on-mars/"
+      }
+    ],
+    "aliases": [
+      "argo chimico"
+    ],
+    "linkNames": [
+      "argon",
+      "argo chimico"
+    ]
+  },
+  {
+    "id": "aristarco-samo",
+    "name": "Aristarco di Samo",
+    "definition": "Aristarco di Samo fu un astronomo e matematico greco del III secolo a.C., noto per un’ipotesi eliocentrica e per lo studio geometrico delle dimensioni e distanze di Sole e Luna.",
+    "source": "https://www.treccani.it/enciclopedia/aristarco-di-samo/",
+    "lesson": "lezione-1-3.html",
+    "related": [
+      "eliocentrico",
+      "distanza-angolare",
+      "sole"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "La geometria interroga il cielo",
+        "paragraphs": [
+          "Aristarco tentò di ricavare rapporti tra distanze e dimensioni degli astri mediante osservazioni e ragionamenti geometrici. L’interesse non consiste soltanto nella correttezza dei numeri ottenuti: il metodo prova a trasformare configurazioni visibili in relazioni misurabili. Una figura di Sole, Terra e Luna può quindi diventare un esperimento concettuale. Deve però dichiarare quali angoli vengano osservati e quali ipotesi consentano di collegarli alle distanze, invece di limitarsi a tre cerchi disposti sul foglio."
+        ]
+      },
+      {
+        "title": "Quando un piccolo errore pesa molto",
+        "paragraphs": [
+          "Alcune configurazioni richiedono misurare differenze angolari difficili da distinguere con gli strumenti disponibili nell’antichità. Una stima poco accurata può produrre un rapporto delle distanze molto lontano da quello moderno. Questo non rende inutile il tentativo: mostra che la sensibilità del metodo fa parte della valutazione. Per il lettore è una lezione concreta sulla misura: un procedimento geometricamente sensato può incontrare limiti osservativi che devono essere riconosciuti e discussi."
+        ]
+      },
+      {
+        "title": "Un’ipotesi centrata sul Sole",
+        "paragraphs": [
+          "Aristarco è ricordato anche per una proposta nella quale la Terra si muove attorno al Sole. Non possediamo un trattato completo conservato che permetta di attribuirgli ogni dettaglio del successivo sistema copernicano. Le testimonianze antiche e l’opera sopravvissuta sulle dimensioni e distanze vanno tenute distinte. La priorità di un’intuizione non equivale alla costruzione di tutta la teoria moderna, con le sue prove osservative e la sua dinamica gravitazionale."
+        ]
+      },
+      {
+        "title": "Una storia senza scorciatoie",
+        "paragraphs": [
+          "Presentarlo come un Copernico già completo nell’antichità sarebbe suggestivo ma poco preciso. È più utile seguire le domande che affrontò: quanto sono lontani gli astri, quanto sono grandi e quale disposizione può spiegare le apparenze? Il confronto con conoscenze successive mostra come modelli e misure si correggano a vicenda. La sua figura conserva così un forte valore divulgativo senza richiedere episodi biografici incerti o attribuzioni che le fonti non consentono di sostenere."
+        ]
+      }
+    ],
+    "facts": [
+      "Un’idea eliocentrica antica non coincide con tutti i dettagli della teoria moderna"
+    ],
+    "example": "Un’idea eliocentrica antica non coincide con tutti i dettagli della teoria moderna",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/aristarco-di-samo/"
+      },
+      {
+        "title": "Università di St Andrews · Aristarco e geometria astronomica",
+        "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Aristarchus/"
+      }
+    ],
+    "linkNames": [
+      "Aristarco di Samo"
     ]
   },
   {
@@ -2238,6 +3237,60 @@ window.AdAstraGlossary = [
     "editorialStatus": "scheda-estesa"
   },
   {
+    "id": "azoto",
+    "name": "Azoto",
+    "definition": "L’azoto è l’elemento chimico di numero atomico 7 e simbolo N; la molecola N₂ costituisce la maggior parte dell’aria terrestre secca.",
+    "source": "https://www.treccani.it/enciclopedia/azoto/",
+    "lesson": "lezione-3-3.html",
+    "related": [
+      "atmosfera",
+      "molecola",
+      "astrobiologia"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un nome, molte specie",
+        "paragraphs": [
+          "L’atomo di azoto e la molecola N₂ non sono identici come oggetti chimici: la seconda contiene due atomi legati. L’azoto compare anche in ammoniaca, nitrili e molte sostanze biologiche. Conoscere la quantità totale dell’elemento non stabilisce automaticamente in quali specie si trovi. In una tabella di atmosfera, la formula indica proprio questa informazione aggiuntiva, indispensabile per confrontare gas e processi diversi."
+        ]
+      },
+      {
+        "title": "L’aria offre un esempio familiare",
+        "paragraphs": [
+          "L’azoto molecolare rappresenta circa il settantotto per cento in volume dell’aria terrestre secca. Il valore non comprende ogni possibile condizione locale o contenuto di vapore d’acqua. Abbondante non significa sufficiente a sostenere la respirazione umana. Il ruolo biologico dell’elemento passa attraverso composti e cicli appropriati, non attraverso l’idea che ogni gas contenente azoto abbia lo stesso effetto. Il nome storico non deve cancellare il suo ruolo essenziale nelle molecole della vita."
+        ]
+      },
+      {
+        "title": "Dai gas ai ghiacci planetari",
+        "paragraphs": [
+          "Azoto e suoi composti entrano nello studio di atmosfere e materiali freddi del Sistema solare. La forma osservata dipende da temperatura, pressione, radiazione e storia del corpo. Un gas sulla Terra può comparire come ghiaccio in ambienti molto più freddi, ma le condizioni devono essere dichiarate. Le immagini dei mondi lontani vanno accompagnate da dati e spettroscopia: il colore di una regione non basta da solo a identificare un deposito di azoto."
+        ]
+      },
+      {
+        "title": "Leggere la chimica senza saltare alla biologia",
+        "paragraphs": [
+          "Una molecola contenente azoto può essere interessante per l’astrochimica o per le ipotesi prebiotiche senza costituire una prova biologica. Anche i rapporti isotopici offrono confronti sulla storia dei materiali, con metodi e incertezze. Nel glossario conviene partire dall’identità dell’elemento, passare alle specie principali e arrivare alla domanda astronomica. Questo percorso collega l’aria quotidiana ai mondi lontani senza trattare tutti i composti azotati come equivalenti o automaticamente legati a organismi."
+        ]
+      }
+    ],
+    "facts": [
+      "La presenza di azoto in una molecola non dimostra un’origine biologica"
+    ],
+    "example": "La presenza di azoto in una molecola non dimostra un’origine biologica",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/azoto/"
+      },
+      {
+        "title": "RSC · azoto e presenza nell’aria",
+        "url": "https://periodic-table.rsc.org/element/7/nitrogen"
+      }
+    ]
+  },
+  {
     "id": "banda-fotometrica",
     "name": "Banda fotometrica",
     "definition": "Una banda fotometrica identifica una risposta spettrale definita entro cui si misura la luce di un oggetto astronomico.",
@@ -2496,6 +3549,183 @@ window.AdAstraGlossary = [
       {
         "title": "Treccani · riferimento terminologico",
         "url": "https://www.treccani.it/enciclopedia/johann-bayer/"
+      }
+    ]
+  },
+  {
+    "id": "becquerel-unita",
+    "name": "Becquerel",
+    "definition": "Il becquerel, simbolo Bq, è l’unità SI dell’attività radioattiva: un becquerel corrisponde a una trasformazione nucleare al secondo, intesa come tasso statistico.",
+    "source": "https://www.treccani.it/vocabolario/becquerel/",
+    "lesson": "lezione-10-4.html",
+    "related": [
+      "radioattivita",
+      "secondo-tempo",
+      "nuclide"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un’unità per contare trasformazioni",
+        "paragraphs": [
+          "L’attività descrive quanto rapidamente si trasforma una popolazione di nuclei radioattivi. Un valore di 100 Bq indica un tasso di cento trasformazioni al secondo nel campione considerato. Non afferma che un centesimo di secondo separi esattamente ogni evento. Gli eventi sono statistici e il valore rappresenta un ritmo medio. Per interpretarlo occorre sapere quale campione e quali nuclidi siano coinvolti, insieme alla data o al momento della misura."
+        ]
+      },
+      {
+        "title": "Non misura direttamente energia",
+        "paragraphs": [
+          "Due campioni con la stessa attività possono emettere particelle e radiazioni con energie differenti. Il numero di trasformazioni non coincide quindi con una potenza espressa in watt. Né ogni trasformazione produce un solo fotone misurabile: lo schema di decadimento può comprendere prodotti e passaggi diversi. La distinzione aiuta a leggere un dato numerico senza attribuire a una sola unità più informazioni di quelle che effettivamente contiene."
+        ]
+      },
+      {
+        "title": "Il confronto richiede il denominatore",
+        "paragraphs": [
+          "Attività totale e attività riferita all’unità di massa o volume rispondono a domande diverse. Scrivere Bq e scrivere Bq/kg non è equivalente. Un campione più grande può avere maggiore attività totale anche con la stessa composizione. È lo stesso principio editoriale che richiede distinguere energia complessiva e energia per superficie: il numero deve restare collegato all’unità completa e alla quantità di materiale alla quale si riferisce."
+        ]
+      },
+      {
+        "title": "Una misura cambia nel tempo",
+        "paragraphs": [
+          "Quando il radionuclide decade senza nuovo apporto, la sua attività diminuisce secondo il modello appropriato. Se invece viene prodotto o alimentato da una catena, l’andamento può essere diverso. Il becquerel non stabilisce da solo l’età del materiale: per una datazione servono altre informazioni. La voce collega così nomenclatura e lettura critica: prima di confrontare due valori bisogna controllare quale popolazione si stia misurando, in quali condizioni e con quale riferimento temporale."
+        ]
+      }
+    ],
+    "facts": [
+      "100 Bq significa un tasso di 100 trasformazioni al secondo, non 100 joule"
+    ],
+    "example": "100 Bq significa un tasso di 100 trasformazioni al secondo, non 100 joule",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/vocabolario/becquerel/"
+      },
+      {
+        "title": "BIPM · unità e grandezze del SI",
+        "url": "https://www.bipm.org/en/measurement-units"
+      },
+      {
+        "title": "IAEA · attività e unità becquerel",
+        "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/TCS-01_4th_web.pdf"
+      }
+    ],
+    "aliases": [
+      "Bq"
+    ]
+  },
+  {
+    "id": "bepicolombo",
+    "name": "BepiColombo",
+    "definition": "BepiColombo è una missione ESA e JAXA destinata allo studio di Mercurio, mediante due veicoli scientifici con compiti complementari sul pianeta e sul suo ambiente magnetico.",
+    "source": "https://www.treccani.it/enciclopedia/pianeta/",
+    "lesson": "lezione-3-2.html",
+    "related": [
+      "pianeta",
+      "campo-magnetico",
+      "orbita"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Esplorare un pianeta vicino al Sole",
+        "paragraphs": [
+          "Mercurio è il pianeta più interno del Sistema solare e presenta condizioni osservative e operative impegnative. BepiColombo collega misure della superficie e dell’ambiente spaziale per ricostruirne meglio le proprietà. La missione dimostra che la distanza dalla Terra non basta a stabilire la difficoltà di un viaggio: arrivare presso un pianeta e inserirsi in un’orbita scientificamente utile richiedono controllare il moto, non soltanto raggiungere una posizione nello spazio."
+        ]
+      },
+      {
+        "title": "Due osservatori complementari",
+        "paragraphs": [
+          "La componente europea Mercury Planetary Orbiter e quella giapponese Mio hanno obiettivi complementari. Un insieme di misure riguarda il pianeta, un altro permette di approfondire il suo ambiente magnetico. Osservare con due veicoli non significa ottenere semplicemente due copie della stessa fotografia. Strumenti, traiettorie e tempi diversi possono separare fenomeni che, misurati da un solo punto, sarebbero più difficili da interpretare. È la geometria dell’esperimento a dare valore al confronto."
+        ]
+      },
+      {
+        "title": "Superficie e campo magnetico",
+        "paragraphs": [
+          "Le immagini mostrano forme e distribuzioni di luminosità, mentre gli strumenti spettroscopici e fisici aggiungono informazioni su composizione e ambiente. Il campo magnetico non appare come una linea colorata fotografata nel vuoto: le linee nei disegni ne rappresentano direzione e struttura secondo una convenzione. Il collegamento fra proprietà superficiali, interno e magnetismo viene costruito attraverso misure e modelli. Una buona illustrazione deve distinguere questi livelli invece di sovrapporli senza spiegazione."
+        ]
+      },
+      {
+        "title": "Una cronologia da verificare",
+        "paragraphs": [
+          "Le date di una missione comprendono lancio, sorvoli, separazioni dei moduli e inserimenti orbitali. Un sorvolo di Mercurio non equivale all’inizio dell’intera fase scientifica in orbita. Poiché programmi e operazioni possono cambiare, per sapere che cosa sia già avvenuto occorre consultare i comunicati aggiornati delle agenzie. La voce del glossario chiarisce il progetto scientifico e la struttura della missione; non trasforma una previsione di un vecchio documento in un risultato acquisito."
+        ]
+      }
+    ],
+    "facts": [
+      "Un sorvolo di Mercurio e l’inserimento in orbita sono operazioni differenti"
+    ],
+    "example": "Un sorvolo di Mercurio e l’inserimento in orbita sono operazioni differenti",
+    "sources": [
+      {
+        "title": "Treccani · quadro terminologico generale; dettagli nelle fonti specifiche",
+        "url": "https://www.treccani.it/enciclopedia/pianeta/"
+      },
+      {
+        "title": "ESA · BepiColombo, veicoli e obiettivi",
+        "url": "https://www.esa.int/Science_Exploration/Space_Science/BepiColombo"
+      }
+    ]
+  },
+  {
+    "id": "berillio",
+    "name": "Berillio",
+    "definition": "Il berillio è l’elemento di numero atomico 4, simbolo Be. È interessante sia per la storia degli elementi leggeri sia per materiali impiegati nella strumentazione spaziale.",
+    "source": "https://www.treccani.it/enciclopedia/berillio/",
+    "lesson": "lezione-10-5.html",
+    "related": [
+      "elemento-chimico",
+      "raggi-cosmici",
+      "telescopio"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "L’identità è nel nucleo",
+        "paragraphs": [
+          "Quattro protoni definiscono il berillio, indipendentemente dal numero degli elettroni o dal composto in cui si trovi. Il materiale puro, una specie ionizzata nel gas e un minerale contenente berillio non sono lo stesso oggetto fisico. La classificazione elementare permette però di riconoscere l’ingrediente comune. Questa distinzione è importante quando si passa dalla tavola periodica alle fotografie di strumenti e alle misure di composizione nello spazio."
+        ]
+      },
+      {
+        "title": "Un elemento leggero con una storia particolare",
+        "paragraphs": [
+          "La produzione degli elementi non segue una semplice successione nella quale ogni numero atomico venga costruito con uguale facilità nelle stelle. Il berillio appartiene al gruppo di elementi leggeri per i quali le interazioni dei raggi cosmici hanno un ruolo importante. Collisioni energetiche possono frammentare nuclei più pesanti. Il processo è nucleare: non consiste nel rompere un legame molecolare o nel separare una sostanza con una reazione chimica ordinaria."
+        ]
+      },
+      {
+        "title": "Un materiale negli specchi di Webb",
+        "paragraphs": [
+          "I segmenti principali dello specchio di James Webb utilizzano berillio con un rivestimento d’oro. Il substrato e lo strato riflettente hanno funzioni distinte. Il berillio è stato scelto anche per proprietà meccaniche e comportamento alle basse temperature operative. L’aspetto dorato non significa quindi che l’intero specchio sia un blocco d’oro. La fotografia mostra il rivestimento, mentre la struttura richiede informazioni tecniche per essere compresa."
+        ]
+      },
+      {
+        "title": "Dal requisito alla scelta progettuale",
+        "paragraphs": [
+          "Un materiale adatto a un telescopio spaziale non è automaticamente la soluzione migliore per ogni strumento. Massa, rigidità, comportamento termico, lavorazione e progetto devono essere valutati insieme. La voce non propone di sostituire i comuni specchi amatoriali con questo materiale. Mostra invece come la chimica entri nell’ingegneria: le proprietà di un elemento diventano utili quando rispondono a requisiti precisi, e il nome del materiale acquista significato soltanto nel contesto del sistema che lo utilizza."
+        ]
+      }
+    ],
+    "facts": [
+      "Negli specchi di Webb il berillio è il substrato, l’oro è il rivestimento riflettente"
+    ],
+    "example": "Negli specchi di Webb il berillio è il substrato, l’oro è il rivestimento riflettente",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/berillio/"
+      },
+      {
+        "title": "RSC · berillio",
+        "url": "https://periodic-table.rsc.org/element/4/beryllium"
+      },
+      {
+        "title": "NASA · specchi di Webb e scelta dei materiali",
+        "url": "https://science.nasa.gov/mission/webb/webbs-mirrors/"
+      },
+      {
+        "title": "NASA · elementi leggeri e raggi cosmici",
+        "url": "https://imagine.gsfc.nasa.gov/science/toolbox/cosmic_rays2_orig.html"
       }
     ]
   },
@@ -3112,6 +4342,70 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "bohr-niels",
+    "name": "Bohr, Niels",
+    "definition": "Niels Bohr (1885–1962) contribuì alla descrizione quantistica dell’atomo e all’interpretazione degli spettri, proponendo nel 1913 un modello particolarmente efficace per l’idrogeno.",
+    "source": "https://www.treccani.it/enciclopedia/niels-bohr_(Enciclopedia-dei-ragazzi)/",
+    "lesson": "lezione-4-3.html",
+    "related": [
+      "atomo",
+      "quantizzazione",
+      "riga-spettrale"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Il nucleo non risolveva ogni problema",
+        "paragraphs": [
+          "Un atomo con un nucleo compatto poneva domande sulla stabilità e sulla radiazione degli elettroni. Il modello classico non restituiva semplicemente tutte le proprietà osservate. Bohr introdusse ipotesi quantistiche per affrontare questi problemi. Il lavoro si collocava nella ricerca di più studiosi, compresa quella di Rutherford sulla struttura nucleare. Non è corretto presentare la forma dell’atomo come un’immagine scoperta guardando direttamente dentro una particella."
+        ]
+      },
+      {
+        "title": "Stati discreti e righe",
+        "paragraphs": [
+          "Il modello di Bohr selezionava stati energetici e collegava i passaggi fra stati all’energia della radiazione emessa o assorbita. Per l’idrogeno spiegava importanti regolarità dello spettro. Le righe non erano quindi colori casuali scelti dall’atomo, ma firme di differenze energetiche. Lo schema didattico con livelli separati conserva questa idea, purché il disegno non faccia credere che un elettrone percorra oggi una traiettoria classica conosciuta punto per punto."
+        ]
+      },
+      {
+        "title": "Un modello storico con limiti",
+        "paragraphs": [
+          "La descrizione successiva della meccanica quantistica utilizza stati e orbitali, senza attribuire all’elettrone le stesse orbite planetarie del modello storico. Il quadro di Bohr non funziona come spiegazione completa di ogni atomo e ogni dettaglio spettrale. Il suo valore sta nel passaggio che rese possibile. Una teoria può aprire una strada e venire poi superata in parte, senza diventare per questo irrilevante per la comprensione della storia scientifica."
+        ]
+      },
+      {
+        "title": "Misura, interpretazione e dibattito",
+        "paragraphs": [
+          "Bohr partecipò anche al dibattito sui fondamenti della teoria quantistica e sviluppò un importante ambiente di ricerca a Copenaghen. Ricevette il Nobel per la fisica del 1922. Nel percorso divulgativo la persona accompagna la domanda su che cosa un modello permetta di dire: il disegno serve a capire un principio, ma deve essere aggiornato quando il lettore passa dalla storia alla descrizione fisica utilizzata oggi. Il nome aiuta così a distinguere una tappa concettuale da un’illustrazione letterale."
+        ]
+      }
+    ],
+    "facts": [
+      "Il modello di Bohr è una tappa storica; un orbitale moderno non è un’orbita planetaria"
+    ],
+    "example": "Il modello di Bohr è una tappa storica; un orbitale moderno non è un’orbita planetaria",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/niels-bohr_(Enciclopedia-dei-ragazzi)/"
+      },
+      {
+        "title": "University of St Andrews · Niels Bohr",
+        "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Bohr_Niels/"
+      },
+      {
+        "title": "Treccani · lezione sul modello atomico di Bohr",
+        "url": "https://static.treccani.it/export/sites/default/Portale/resources/multimedia/Lezioni_fisica/atomo_bohr/Atomo_Bohr_LEZIONE.pdf"
+      }
+    ],
+    "aliases": [
+      "Niels Bohr"
+    ],
+    "linkNames": [
+      "Niels Bohr"
+    ]
+  },
+  {
     "id": "bolide",
     "name": "Bolide",
     "definition": "Un bolide è una meteora particolarmente vistosa; l’uso del termine e le soglie adottate possono variare fra contesti osservativi.",
@@ -3214,6 +4508,183 @@ window.AdAstraGlossary = [
     ],
     "aliases": [
       "bordo della Luna"
+    ]
+  },
+  {
+    "id": "boro",
+    "name": "Boro",
+    "definition": "Il boro è l’elemento di numero atomico 5, simbolo B. La sua presenza cosmica contribuisce allo studio della produzione e trasformazione degli elementi leggeri.",
+    "source": "https://www.treccani.it/enciclopedia/boro/",
+    "lesson": "lezione-4-6.html",
+    "related": [
+      "nucleosintesi",
+      "raggi-cosmici",
+      "numero-di-massa"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Cinque protoni, isotopi differenti",
+        "paragraphs": [
+          "La lettera B nella tavola periodica indica il boro. Il numero atomico 5 conta i protoni, mentre il numero di massa di un isotopo comprende anche i neutroni. Un valore medio della massa atomica non è quindi un conteggio frazionario dei protoni dentro un singolo nucleo. La distinzione aiuta a leggere correttamente le caselle della tavola e a non confondere la posizione dell’elemento con la massa di ogni suo atomo."
+        ]
+      },
+      {
+        "title": "Frammentare può produrre elementi",
+        "paragraphs": [
+          "Nelle collisioni fra particelle energetiche e materia interstellare alcuni nuclei possono essere spezzati e generare nuclei più leggeri. Questa frammentazione, detta spallazione nel contesto appropriato, contribuisce alla presenza di boro. Non si tratta di una fissione controllata in un reattore né di una trasformazione chimica degli elettroni. La produzione degli elementi comprende quindi anche percorsi che riducono un nucleo, oltre ai processi che ne costruiscono di più pesanti."
+        ]
+      },
+      {
+        "title": "Confrontare le popolazioni di particelle",
+        "paragraphs": [
+          "Le abbondanze di elementi leggeri nei raggi cosmici differiscono da quelle complessive della materia del Sistema solare. Il confronto fornisce indizi sulle interazioni subite durante la propagazione. Non significa che tutte le regioni dello spazio abbiano la stessa composizione dei raggi cosmici misurati. Occorre dichiarare il campione osservato: un flusso selezionato di particelle energetiche e una nube di gas non sono due misure intercambiabili dello stesso inventario."
+        ]
+      },
+      {
+        "title": "Un ponte fra chimica e fisica nucleare",
+        "paragraphs": [
+          "I composti del boro studiati sulla Terra mostrano proprietà chimiche legate agli elettroni; la sua origine cosmica riguarda invece i nuclei. Entrambi i livelli sono necessari, ma rispondono a domande differenti. La voce permette di collegare la tavola periodica al cielo senza affermare che ogni elemento derivi direttamente dalla stessa reazione stellare. Anche un ingrediente poco abbondante può conservare informazioni importanti sui processi che hanno modificato la materia prima della formazione dei pianeti."
+        ]
+      }
+    ],
+    "facts": [
+      "Il simbolo B indica boro; il numero atomico 5 non è il numero di massa"
+    ],
+    "example": "Il simbolo B indica boro; il numero atomico 5 non è il numero di massa",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/boro/"
+      },
+      {
+        "title": "RSC · proprietà e isotopi del boro",
+        "url": "https://periodic-table.rsc.org/element/5/boron"
+      },
+      {
+        "title": "NASA · produzione da interazioni dei raggi cosmici",
+        "url": "https://imagine.gsfc.nasa.gov/educators/elements/imagine/07.html"
+      }
+    ]
+  },
+  {
+    "id": "bosone",
+    "name": "Bosone",
+    "definition": "Un bosone è una particella di spin intero o nullo che segue la statistica di Bose–Einstein, con un comportamento differente da quello dei fermioni identici.",
+    "source": "https://www.treccani.it/enciclopedia/bosone/",
+    "lesson": "lezione-4-3.html",
+    "related": [
+      "spin",
+      "fotone",
+      "fermione"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Il fotone appartiene a questa famiglia",
+        "paragraphs": [
+          "La luce permette di incontrare subito un esempio: i fotoni sono bosoni. La parola non indica una sostanza speciale presente soltanto negli acceleratori. Descrive proprietà quantistiche delle particelle e dei loro insiemi. Non tutti i bosoni hanno le stesse interazioni, massa o ruolo fisico. Il bosone di Higgs e un fotone non diventano quindi oggetti equivalenti soltanto perché appartengono alla stessa grande famiglia statistica."
+        ]
+      },
+      {
+        "title": "Condividere uno stato è possibile",
+        "paragraphs": [
+          "A differenza dei fermioni identici, i bosoni non sono soggetti allo stesso divieto di occupare un medesimo stato quantistico. Questo non significa che ogni insieme di bosoni finisca necessariamente nello stesso stato o che tutte le particelle si trovino nello stesso punto. Occupazione quantistica, posizione e condizioni termiche sono aspetti distinti. Anche le interazioni fra particelle e l’ambiente devono essere considerate quando si descrive il comportamento collettivo osservato."
+        ]
+      },
+      {
+        "title": "Particelle elementari e sistemi composti",
+        "paragraphs": [
+          "La famiglia può comprendere particelle elementari e sistemi composti che, nelle condizioni appropriate, si comportano come bosoni. Il conteggio dei costituenti e le proprietà del sistema complessivo entrano nella classificazione. Non basta attribuire a una pallina disegnata una massa grande o piccola per decidere a quale famiglia appartenga. La distinzione fondamentale riguarda lo spin e il comportamento rispetto allo scambio di particelle identiche, non l’aspetto o il colore usato nell’illustrazione."
+        ]
+      },
+      {
+        "title": "Perché interessa chi studia il cielo",
+        "paragraphs": [
+          "La distribuzione dei fotoni e i processi di emissione richiedono una descrizione coerente con la loro natura. Il collegamento con il corpo nero e con l’emissione stimolata entra nella comprensione della radiazione astronomica. Per un primo percorso non serve sviluppare le formule statistiche complete. È sufficiente spiegare che particelle diverse seguono regole collettive differenti e che queste regole influenzano fenomeni misurabili, evitando di presentare bosoni e fermioni come due materiali immaginari dello spazio."
+        ]
+      }
+    ],
+    "facts": [
+      "Bosone descrive una famiglia quantistica, non una composizione chimica"
+    ],
+    "example": "Bosone descrive una famiglia quantistica, non una composizione chimica",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/bosone/"
+      },
+      {
+        "title": "CERN · particelle e modello standard",
+        "url": "https://home.cern/science/physics/standard-model"
+      }
+    ],
+    "aliases": [
+      "bosoni"
+    ]
+  },
+  {
+    "id": "brahe-tycho",
+    "name": "Brahe, Tycho",
+    "definition": "Tycho Brahe (1546–1601) fu un astronomo danese le cui misure sistematiche, anteriori all’astronomia telescopica, furono decisive per lo studio delle orbite planetarie.",
+    "source": "https://www.treccani.it/enciclopedia/tyge-brahe_(Enciclopedia-Italiana)/",
+    "lesson": "lezione-9-4.html",
+    "related": [
+      "astrometria",
+      "catalogo-astronomico",
+      "keplero-leggi"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "La precisione prima del cannocchiale",
+        "paragraphs": [
+          "Tycho organizzò osservazioni con grandi strumenti per misurare angoli e posizioni. Non disponeva dei telescopi utilizzati dagli astronomi del Seicento, ma la cura degli strumenti e la continuità delle misure permisero risultati importanti. La vicenda mostra che osservare a occhio nudo non equivale necessariamente a una stima approssimativa: un metodo, un riferimento e strumenti angolari ben costruiti possono trasformare l’osservazione in una raccolta quantitativa."
+        ]
+      },
+      {
+        "title": "Un cielo che non rimaneva immutabile",
+        "paragraphs": [
+          "La nuova stella del 1572, oggi interpretata come supernova, e lo studio della cometa del 1577 contribuirono al dibattito sulla natura dei cieli. Le misure di posizione e il confronto della parallasse erano parte dell’argomentazione. Non bastava affermare che un oggetto fosse brillante o insolito. La domanda riguardava dove si trovasse rispetto alle regioni allora immaginate e quali conclusioni fossero consentite dai limiti delle osservazioni."
+        ]
+      },
+      {
+        "title": "Dati e modello non sono la stessa cosa",
+        "paragraphs": [
+          "Tycho non adottò semplicemente il quadro copernicano. Propose un proprio sistema nel quale la Terra restava ferma, il Sole le orbitava attorno e gli altri pianeti orbitavano attorno al Sole. Ricordare questa posizione evita una storia ridotta a una successione lineare di idee già moderne. Le sue misure potevano però essere utilizzate anche in modelli differenti da quello sostenuto dal loro autore."
+        ]
+      },
+      {
+        "title": "L’eredità di una serie osservativa",
+        "paragraphs": [
+          "Dopo la collaborazione con Tycho, Keplero utilizzò i dati planetari, in particolare quelli di Marte, nel percorso verso le proprie leggi. Il caso rende visibile il valore di un archivio accurato: osservazioni raccolte per un programma possono sostenere conclusioni nuove. Non serve attribuire a Tycho le ellissi per riconoscere il suo contributo. La misura affidabile e l’interpretazione teorica sono lavori distinti che, incontrandosi, permettono alla conoscenza di avanzare oltre le intenzioni iniziali."
+        ]
+      }
+    ],
+    "facts": [
+      "Tycho raccolse misure di grande valore senza adottare il sistema eliocentrico nella sua forma copernicana"
+    ],
+    "example": "Tycho raccolse misure di grande valore senza adottare il sistema eliocentrico nella sua forma copernicana",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/tyge-brahe_(Enciclopedia-Italiana)/"
+      },
+      {
+        "title": "University of St Andrews · Tycho Brahe e le osservazioni",
+        "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Brahe/"
+      }
+    ],
+    "aliases": [
+      "Tycho Brahe",
+      "Tyge Brahe"
+    ],
+    "linkNames": [
+      "Tycho Brahe",
+      "Tyge Brahe"
     ]
   },
   {
@@ -3327,6 +4798,60 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "brinamento",
+    "name": "Brinamento",
+    "definition": "Il brinamento è il passaggio diretto dalla fase gassosa alla fase solida; è il processo inverso della sublimazione.",
+    "source": "https://www.treccani.it/enciclopedia/brinamento/",
+    "lesson": "lezione-7-6.html",
+    "related": [
+      "sublimazione",
+      "condensa",
+      "punto-rugiada"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un deposito senza gocce intermedie",
+        "paragraphs": [
+          "Il vapore può passare direttamente alla fase solida quando le condizioni fisiche lo permettono. Il nome brinamento richiama la formazione di depositi di ghiaccio, ma la definizione riguarda il percorso fra le fasi e non semplicemente il colore bianco di una superficie. Non ogni strato gelato si è formato in questo modo: acqua prima condensata come liquido e poi congelata segue una successione diversa, anche se il risultato può apparire simile."
+        ]
+      },
+      {
+        "title": "Vapore, nebbia e cristalli",
+        "paragraphs": [
+          "Il vapore acqueo è una fase gassosa, non l’insieme delle goccioline visibili come nebbia. Un deposito di cristalli sulla superficie di uno strumento può quindi provenire da materiale che prima non era visibile nell’aria. La distinzione aiuta a non confondere tre livelli: gas presente nell’ambiente, gocce sospese o depositate, solido formato sulla superficie. Il semplice aspetto di una fotografia non sempre permette di ricostruire con certezza il percorso attraversato."
+        ]
+      },
+      {
+        "title": "La superficie conta",
+        "paragraphs": [
+          "La temperatura della superficie può differire da quella dell’aria circostante. Di notte gli scambi radiativi con il cielo possono favorire il raffreddamento di un componente esposto. Per capire se si forma rugiada o un deposito solido bisogna considerare temperatura superficiale, umidità e condizioni locali. Il solo valore indicato da un termometro vicino all’osservatore non descrive necessariamente ciò che accade sull’ottica. È un esempio concreto di come una misura debba essere riferita al punto giusto."
+        ]
+      },
+      {
+        "title": "Un processo anche planetario",
+        "paragraphs": [
+          "Sublimazione e deposizione solida permettono di ragionare sul trasferimento di sostanze volatili fra regioni più calde e più fredde. Non è necessario che esista un fiume liquido tra le due zone: il materiale può essere trasportato nella fase gassosa. Un modello deve però specificare sostanza, pressione e temperatura, senza trasferire automaticamente l’esperienza terrestre a ogni mondo. Per l’astrofilo la stessa distinzione rende più comprensibili i problemi di gelo e appannamento durante una serata osservativa."
+        ]
+      }
+    ],
+    "facts": [
+      "Un liquido che congela e un vapore che brina seguono percorsi di fase differenti"
+    ],
+    "example": "Un liquido che congela e un vapore che brina seguono percorsi di fase differenti",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/brinamento/"
+      },
+      {
+        "title": "Treccani · sublimazione e processo inverso",
+        "url": "https://www.treccani.it/enciclopedia/sublimazione/"
+      }
+    ]
+  },
+  {
     "id": "buco-nero",
     "name": "Buco nero",
     "definition": "Un buco nero è una regione dello spaziotempo delimitata da un orizzonte degli eventi, dal cui interno nessun segnale può raggiungere osservatori esterni lontani.",
@@ -3382,6 +4907,65 @@ window.AdAstraGlossary = [
     ],
     "aliases": [
       "buchi neri"
+    ]
+  },
+  {
+    "id": "calcio",
+    "name": "Calcio",
+    "definition": "Il calcio è l’elemento di numero atomico 20 e simbolo Ca, presente nei minerali e studiato attraverso importanti righe spettrali atomiche e ioniche.",
+    "source": "https://www.treccani.it/enciclopedia/calcio/",
+    "lesson": "lezione-2-3.html",
+    "related": [
+      "cromosfera",
+      "riga-spettrale",
+      "ione"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Oltre l’associazione con le ossa",
+        "paragraphs": [
+          "Il calcio è noto per il suo ruolo nei materiali biologici terrestri, ma la sua presenza è molto più ampia. Compare in minerali e materiali planetari, oltre che in stelle e gas. L’elemento non è un composto biologico di per sé. Rilevarlo in una roccia o in uno spettro non costituisce dunque una prova di organismi, così come il suo nome non dice in quale struttura chimica si trovi."
+        ]
+      },
+      {
+        "title": "Un elemento, più stati",
+        "paragraphs": [
+          "Il calcio neutro e quello ionizzato hanno proprietà spettrali differenti. Nella notazione astronomica Ca I indica l’atomo neutro, Ca II lo ione che ha perso un elettrone. Il numero romano non conta gli atomi della molecola e non coincide direttamente con la carica numerica scritta in una formula chimica. Questo piccolo esempio aiuta a leggere molte didascalie solari e stellari senza confondere specie, elementi e transizioni."
+        ]
+      },
+      {
+        "title": "Le righe come strumenti diagnostici",
+        "paragraphs": [
+          "Le righe H e K del calcio ionizzato vengono impiegate nello studio di atmosfere stellari e attività. Non sono le righe dell’idrogeno chiamate H-alfa e H-beta: lettere simili possono appartenere a convenzioni diverse. L’interpretazione richiede conoscere lunghezza d’onda, specie e processo. Un’immagine in una banda del calcio mostra una selezione della radiazione, non una mappa diretta di tutto il calcio presente nel Sole o una fotografia del suo colore intrinseco."
+        ]
+      },
+      {
+        "title": "Materiali e storia del Sistema solare",
+        "paragraphs": [
+          "Composti contenenti calcio entrano anche nelle analisi di meteoriti e materiali primitivi. Il dato chimico deve essere collegato a mineralogia, isotopi e metodo di misura, invece di diventare una conclusione unica sull’origine del campione. La stessa voce può così accompagnare due percorsi: il materiale solido e la luce delle stelle. Mantenere distinti questi ambienti rende il glossario più ricco senza trasformare l’elemento in una sostanza con proprietà identiche in qualsiasi contesto."
+        ]
+      }
+    ],
+    "facts": [
+      "Ca II è calcio ionizzato; le sue righe H e K non sono righe dell’idrogeno"
+    ],
+    "example": "Ca II è calcio ionizzato; le sue righe H e K non sono righe dell’idrogeno",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/calcio/"
+      },
+      {
+        "title": "RSC · calcio, proprietà e isotopi",
+        "url": "https://periodic-table.rsc.org/element/20/calcium"
+      }
+    ],
+    "linkNames": [
+      "calcio ionizzato",
+      "calcio neutro",
+      "righe del calcio"
     ]
   },
   {
@@ -3483,6 +5067,185 @@ window.AdAstraGlossary = [
       {
         "title": "Treccani · fondamento terminologico; applicazione alle immagini astronomiche spiegata nel testo",
         "url": "https://www.treccani.it/enciclopedia/taratura/"
+      }
+    ]
+  },
+  {
+    "id": "calore",
+    "name": "Calore",
+    "definition": "Il calore è energia trasferita fra sistemi a causa di una differenza di temperatura. Non è una sostanza contenuta nei corpi né un sinonimo della temperatura.",
+    "source": "https://www.treccani.it/enciclopedia/calore/",
+    "lesson": "lezione-2-3.html",
+    "related": [
+      "temperatura",
+      "energia",
+      "conduzione-termica"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "L’energia che attraversa un confine",
+        "paragraphs": [
+          "Una tazza calda lasciata in una stanza scambia energia con l’ambiente. La parte del trasferimento dovuta alla differenza di temperatura viene descritta come calore. Dopo lo scambio il corpo può avere energia interna diversa, ma non conserva una porzione materiale chiamata calore. Il linguaggio comune è più libero; quello fisico distingue lo stato di un sistema dal modo in cui l’energia passa fra sistemi."
+        ]
+      },
+      {
+        "title": "Il termometro risponde a un’altra domanda",
+        "paragraphs": [
+          "La temperatura descrive una proprietà termica, mentre il calore quantifica un trasferimento energetico e si misura in joule. Due oggetti alla stessa temperatura non hanno necessariamente la stessa energia interna. Una piccola quantità di materiale molto caldo e una grande quantità tiepida non si confrontano soltanto leggendo il termometro. Massa, composizione e trasformazioni possibili determinano quanta energia venga scambiata durante un processo specifico."
+        ]
+      },
+      {
+        "title": "Tre strade per lo scambio",
+        "paragraphs": [
+          "La conduzione trasferisce energia attraverso la materia senza richiedere un suo trasporto macroscopico; la convezione coinvolge il movimento di un fluido; l’irraggiamento utilizza la radiazione elettromagnetica. Attraverso un intervallo vuoto lo scambio radiativo rimane possibile. Dentro una struttura spaziale, invece, anche i contatti fra componenti possono condurre energia. Dire che nello spazio non ci sia aria non significa quindi che tutti gli oggetti rimangano alla stessa temperatura."
+        ]
+      },
+      {
+        "title": "Una conseguenza durante la notte",
+        "paragraphs": [
+          "Uno strumento esposto al cielo può perdere energia per irraggiamento e raffreddarsi rispetto all’aria circostante. L’aria e i supporti partecipano contemporaneamente al bilancio. Questo aiuta a capire perché la temperatura delle ottiche e quella indicata da un termometro dell’ambiente possano differire. La spiegazione non richiede attribuire al cielo una corrente di freddo: occorre seguire gli scambi energetici. Calore, temperatura e condizioni esterne diventano così strumenti per comprendere ciò che accade durante l’osservazione."
+        ]
+      }
+    ],
+    "facts": [
+      "Calore si misura in joule; temperatura si misura, nel SI, in kelvin"
+    ],
+    "example": "Calore si misura in joule; temperatura si misura, nel SI, in kelvin",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/calore/"
+      },
+      {
+        "title": "NASA · controllo termico dei piccoli satelliti",
+        "url": "https://www.nasa.gov/smallsat-institute/sst-soa/thermal-control/"
+      },
+      {
+        "title": "NOAA · modi di trasferimento dell’energia termica",
+        "url": "https://www.noaa.gov/jetstream/atmosphere/transfer-of-heat-energy"
+      }
+    ],
+    "linkNames": [
+      "scambio di calore",
+      "trasferimento di calore",
+      "calore ceduto",
+      "calore assorbito"
+    ]
+  },
+  {
+    "id": "calore-specifico",
+    "name": "Calore specifico",
+    "definition": "Il calore specifico indica quanta energia termica occorre per aumentare di un kelvin la temperatura dell’unità di massa di una sostanza, nelle condizioni specificate.",
+    "source": "https://www.treccani.it/enciclopedia/capacita_(Enciclopedia-Italiana)/",
+    "lesson": "lezione-3-2.html",
+    "related": [
+      "calore",
+      "temperatura",
+      "massa"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Materiali che rispondono diversamente",
+        "paragraphs": [
+          "Fornire la stessa energia a uguali masse di materiali differenti non produce necessariamente lo stesso aumento di temperatura. Il calore specifico permette di descrivere questa differenza. Nel SI si esprime in joule per chilogrammo e kelvin. Un valore più alto significa che, nelle condizioni dichiarate, serve più energia per riscaldare della stessa quantità una uguale massa. Non significa automaticamente che il materiale conduca meglio il calore o sia più luminoso."
+        ]
+      },
+      {
+        "title": "Un calcolo leggibile",
+        "paragraphs": [
+          "Per un intervallo nel quale il valore possa essere considerato costante, energia scambiata = massa × calore specifico × aumento di temperatura. Un materiale ipotetico con 500 J/(kg K), massa 2 kg e aumento di 3 K richiede 3.000 J nel modello. L’esempio esclude cambiamenti di fase e altri scambi non contabilizzati. Un aumento di un kelvin ha la stessa ampiezza di un aumento di un grado Celsius, anche se le due scale hanno origini differenti."
+        ]
+      },
+      {
+        "title": "Capacità del corpo e proprietà del materiale",
+        "paragraphs": [
+          "La capacità termica si riferisce all’intero corpo e si misura in joule per kelvin. Per una sostanza uniforme, nelle condizioni considerate, è il prodotto della massa per il calore specifico. Due pezzi dello stesso materiale possono quindi avere capacità termiche diverse perché contengono masse diverse. Nei gas bisogna inoltre precisare come avvenga il riscaldamento: mantenere costante la pressione oppure il volume può richiedere quantità di energia differenti."
+        ]
+      },
+      {
+        "title": "Dalla superficie planetaria allo strumento",
+        "paragraphs": [
+          "La risposta termica di un terreno o di un componente dipende da più fattori: capacità termica, conduzione, radiazione e geometria. Il solo calore specifico non stabilisce quanto rapidamente un pianeta si raffreddi o un telescopio si adatti alla notte. Rimane però un ingrediente essenziale del bilancio. La voce aiuta a passare da un’impressione, questo oggetto resta caldo più a lungo, a domande misurabili sui materiali e sui processi che trasferiscono energia."
+        ]
+      }
+    ],
+    "facts": [
+      "Nel modello: 2 kg × 500 J/(kg K) × 3 K = 3.000 J"
+    ],
+    "example": "Nel modello: 2 kg × 500 J/(kg K) × 3 K = 3.000 J",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/capacita_(Enciclopedia-Italiana)/"
+      },
+      {
+        "title": "Università degli Studi di Milano / INFN · Fisica generale, capacità termica e calore specifico",
+        "url": "https://www0.mi.infn.it/~fanti/FisicaGenerale/fanti_FisGen.pdf"
+      }
+    ],
+    "aliases": [
+      "capacità termica specifica"
+    ]
+  },
+  {
+    "id": "cammino-libero-medio",
+    "name": "Cammino libero medio",
+    "definition": "Il cammino libero medio è la distanza media percorsa da una particella o da un fotone fra interazioni del tipo specificato, nelle condizioni del mezzo considerato.",
+    "source": "https://www.treccani.it/enciclopedia/gas/",
+    "lesson": "lezione-2-3.html",
+    "related": [
+      "fotone",
+      "densita",
+      "trasporto-radiativo"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Una distanza statistica",
+        "paragraphs": [
+          "In un gas non tutte le particelle percorrono la stessa strada prima di interagire. Alcune incontrano presto un altro costituente, altre viaggiano più a lungo. Il cammino libero medio riassume questa distribuzione con un valore medio. Non è quindi una griglia rigida di collisioni equidistanti e non coincide automaticamente con la dimensione del contenitore o della nube. Per definirlo bisogna specificare quali particelle e quali interazioni vengano considerate."
+        ]
+      },
+      {
+        "title": "Densità e probabilità di incontro",
+        "paragraphs": [
+          "Nel modello semplice di un mezzo uniforme, una maggiore quantità di bersagli o una maggiore efficacia dell’interazione riducono la distanza media. L’efficacia viene descritta attraverso una sezione d’urto, che non è necessariamente l’area geometrica di una pallina. Dipende dalla fisica del processo e spesso dall’energia. Per questo densità uguali non garantiscono cammini uguali per particelle o frequenze differenti, e la parola urto può essere soltanto una rappresentazione intuitiva."
+        ]
+      },
+      {
+        "title": "I fotoni dentro la materia",
+        "paragraphs": [
+          "Negli interni stellari la radiazione può subire molte interazioni prima che l’energia raggiunga regioni più esterne. Il percorso non va immaginato come un singolo fotone che conserva per sempre identità ed energia lungo una linea diretta dal centro alla superficie. Assorbimenti, emissioni e diffusione possono intervenire. Il cammino libero medio aiuta a descrivere il regime di trasporto, ma non determina da solo tutto il tempo necessario al trasferimento energetico."
+        ]
+      },
+      {
+        "title": "Dal dettaglio alla descrizione collettiva",
+        "paragraphs": [
+          "Confrontare il cammino medio con la dimensione del sistema aiuta a capire se una descrizione continua sia adeguata o se contino gli incontri individuali. Le condizioni devono essere controllate nel problema specifico. Nel glossario questa voce collega una domanda concreta, quanto si viaggia prima di interagire, alla lettura di gas e radiazione. Non introduce un nuovo ingrediente della materia: fornisce una misura statistica del modo in cui gli ingredienti già presenti si influenzano."
+        ]
+      }
+    ],
+    "facts": [
+      "Il cammino libero medio non è una distanza identica per ogni particella"
+    ],
+    "example": "Il cammino libero medio non è una distanza identica per ogni particella",
+    "sources": [
+      {
+        "title": "Treccani · quadro terminologico generale; dettagli nelle fonti specifiche",
+        "url": "https://www.treccani.it/enciclopedia/gas/"
+      },
+      {
+        "title": "NRAO · interazioni della radiazione e descrizione del mezzo",
+        "url": "https://www.cv.nrao.edu/~sransom/web/Ch2.html"
+      },
+      {
+        "title": "Lorenzo Roi · Corso di astronomia 2, trasporto nelle stelle",
+        "url": "https://www.lorenzoroi.net/prelievi/CorsoAstro2.pdf"
       }
     ]
   },
@@ -3705,6 +5468,67 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "candela-unita",
+    "name": "Candela, unità fotometrica",
+    "definition": "La candela, simbolo cd, è l’unità SI dell’intensità luminosa in una determinata direzione, secondo la convenzione fotometrica specificata.",
+    "source": "https://www.treccani.it/enciclopedia/candela/",
+    "lesson": "lezione-7-5.html",
+    "related": [
+      "lumen",
+      "lux",
+      "steradiante"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Il nome non indica una fiamma campione",
+        "paragraphs": [
+          "La candela è oggi un’unità definita attraverso riferimenti fisici e fotometrici, non la luce di una qualunque candela domestica. L’intensità luminosa riguarda l’emissione in una direzione. Non coincide con tutta la luce emessa dalla sorgente, né con la luce che arriva su una superficie lontana. Per comprendere una tabella bisogna quindi distinguere candela, lumen e lux, anche se appartengono allo stesso linguaggio della fotometria."
+        ]
+      },
+      {
+        "title": "Un fascio può essere molto concentrato",
+        "paragraphs": [
+          "Una sorgente che distribuisce il flusso in poche direzioni può avere un’intensità elevata nel fascio, pur senza aumentare nello stesso rapporto il flusso totale. L’angolo solido entra nel collegamento fra le grandezze. Confrontare due lampade soltanto con il numero di candele, senza conoscere la distribuzione, può essere fuorviante. Il disegno deve mostrare anche dove viene inviata la luce e non soltanto la dimensione simbolica della lampada."
+        ]
+      },
+      {
+        "title": "La risposta visiva è una convenzione",
+        "paragraphs": [
+          "Le grandezze luminose pesano la radiazione secondo la risposta visiva convenzionale. La definizione della candela utilizza un valore fissato di efficacia luminosa per una frequenza specificata. Non equivale a dire che l’occhio risponda allo stesso modo a tutte le lunghezze d’onda o in ogni condizione di buio. Anche il sensore fotografico possiede una risposta propria, che non si ricava automaticamente dalla lettura fotometrica di una sorgente."
+        ]
+      },
+      {
+        "title": "Un’applicazione all’osservazione",
+        "paragraphs": [
+          "Per limitare l’abbagliamento durante una serata astronomica conta la luce inviata verso gli osservatori, insieme a spettro e condizioni. Il solo flusso totale non descrive ogni disturbo. La candela aiuta a leggere la direzionalità, mentre la qualità del cielo richiede altre misure. Nel glossario è utile affiancare tre domande: quanta luce viene emessa, in quali direzioni e quanta ne riceve una superficie. Ogni domanda corrisponde a una grandezza distinta."
+        ]
+      }
+    ],
+    "facts": [
+      "Candela, lumen e lux rispondono a domande fotometriche differenti"
+    ],
+    "example": "Candela, lumen e lux rispondono a domande fotometriche differenti",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/candela/"
+      },
+      {
+        "title": "BIPM · definizione della candela",
+        "url": "https://www.bipm.org/en/si-base-units/candela"
+      }
+    ],
+    "aliases": [
+      "intensità in candele"
+    ],
+    "linkNames": [
+      "intensità in candele",
+      "candela SI"
+    ]
+  },
+  {
     "id": "cannocchiale-polare",
     "name": "Cannocchiale polare",
     "definition": "Il cannocchiale polare è un piccolo sistema ottico con reticolo che aiuta ad allineare l’asse di ascensione retta di una montatura al polo celeste.",
@@ -3763,6 +5587,125 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "cannon-annie",
+    "name": "Cannon, Annie Jump",
+    "definition": "Annie Jump Cannon (1863–1941) fu un’astronoma statunitense il cui lavoro sistematico sugli spettri ebbe un ruolo centrale nella classificazione stellare di Harvard.",
+    "source": "https://www.treccani.it/vocabolario/spettrale/",
+    "lesson": "lezione-4-4.html",
+    "related": [
+      "classe-spettrale",
+      "spettro",
+      "catalogo-astronomico"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Mettere ordine nella luce",
+        "paragraphs": [
+          "Una stella può essere studiata disperdendo la sua luce e confrontando le righe dello spettro. Cannon lavorò su moltissimi spettri fotografici, riconoscendo caratteristiche e organizzandole in un sistema coerente. La classificazione non era un semplice esercizio di ordinamento estetico: permetteva di confrontare osservazioni e comunicare proprietà delle stelle. Il suo contributo mostra quanto una struttura di nomi ben costruita possa diventare parte del metodo scientifico."
+        ]
+      },
+      {
+        "title": "La sequenza delle classi",
+        "paragraphs": [
+          "Il sistema di Harvard consolidò una sequenza di tipi spettrali legata alla temperatura e alle caratteristiche delle righe. Le lettere O, B, A, F, G, K e M non sono iniziali dei colori scelti arbitrariamente. Il quadro nasce da una storia di classificazioni e revisioni, con contributi di più persone. Riconoscere Cannon come figura centrale non significa cancellare il lavoro precedente o successivo, né confondere il tipo spettrale con la classe di luminosità."
+        ]
+      },
+      {
+        "title": "Catalogare consente nuove domande",
+        "paragraphs": [
+          "Una classificazione uniforme permette di cercare distribuzioni, confronti ed eccezioni. Il catalogo non è quindi un deposito passivo di etichette. I dati devono restare collegati alle osservazioni, ai criteri e alle possibili incertezze. Anche un sistema molto utile non descrive ogni proprietà di una stella con una sola lettera. Massa, età, composizione e fase evolutiva richiedono informazioni ulteriori e interpretazioni fisiche, che si sono sviluppate insieme alla spettroscopia e alla teoria stellare."
+        ]
+      },
+      {
+        "title": "La persona dentro l’archivio",
+        "paragraphs": [
+          "Cannon operò in un ambiente nel quale le donne svolgevano lavoro scientifico sostanziale incontrando limiti nel riconoscimento professionale. Le fonti archivistiche permettono di distinguere attività svolta, nomina formale e riconoscimenti ricevuti. Nel glossario la sua biografia deve collegarsi al contributo concreto, senza ridursi a un primato celebrativo. Il lettore può così incontrare una persona e comprendere perché ancora oggi una breve sigla accanto a una stella contenga una lunga storia di osservazione e confronto."
+        ]
+      }
+    ],
+    "facts": [
+      "Tipo spettrale e classe di luminosità sono classificazioni differenti"
+    ],
+    "example": "Tipo spettrale e classe di luminosità sono classificazioni differenti",
+    "sources": [
+      {
+        "title": "Treccani · quadro terminologico generale; dettagli nelle fonti specifiche",
+        "url": "https://www.treccani.it/vocabolario/spettrale/"
+      },
+      {
+        "title": "Harvard · Annie Jump Cannon e documenti",
+        "url": "https://library.cfa.harvard.edu/women-at-hco/annie-jump-cannon"
+      },
+      {
+        "title": "Harvard · lavoro sugli spettri",
+        "url": "https://library.cfa.harvard.edu/annie-jump-cannon/astronomy-and-spectroscopy"
+      }
+    ],
+    "aliases": [
+      "Annie Jump Cannon"
+    ]
+  },
+  {
+    "id": "carbonio",
+    "name": "Carbonio",
+    "definition": "Il carbonio è l’elemento chimico di numero atomico 6 e simbolo C, capace di formare una grande varietà di strutture e composti.",
+    "source": "https://www.treccani.it/enciclopedia/carbonio/",
+    "lesson": "lezione-10-2.html",
+    "related": [
+      "elemento-chimico",
+      "legame-chimico",
+      "nucleosintesi"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "La stessa identità in materiali differenti",
+        "paragraphs": [
+          "Diamante e grafite contengono entrambi carbonio, ma la diversa organizzazione degli atomi produce proprietà molto differenti. L’elemento non determina da solo l’aspetto del materiale. Inoltre, il carbonio presente in una molecola non conserva necessariamente le proprietà di un pezzo di grafite. Distinguere elemento, struttura e composto permette di comprendere perché la stessa lettera C ricompaia in ambienti che sembrano non avere nulla in comune."
+        ]
+      },
+      {
+        "title": "Catene, anelli e molecole",
+        "paragraphs": [
+          "La capacità di formare legami con altri atomi di carbonio e con elementi differenti sostiene una chimica molto varia. Nelle molecole organiche della vita terrestre il carbonio svolge un ruolo centrale. Organico, però, non significa automaticamente prodotto da organismi: molti composti organici possono avere origini abiotiche. Rilevarli in una cometa o in una nube non dimostra la presenza di vita. La formula chimica e il contesto della scoperta devono accompagnare sempre la notizia."
+        ]
+      },
+      {
+        "title": "Una storia che attraversa le stelle",
+        "paragraphs": [
+          "Il carbonio viene prodotto in processi di nucleosintesi stellare e può essere restituito al mezzo interstellare attraverso differenti fasi evolutive. Non tutto deve essere attribuito a una sola esplosione di supernova. Mescolamento e riciclo distribuiscono gli elementi in materiali che possono entrare in nuovi sistemi planetari. Il racconto delle origini è quindi una storia di processi e generazioni, non l’assegnazione di ogni atomo osservato a un’unica stella identificabile."
+        ]
+      },
+      {
+        "title": "Come lo riconosciamo",
+        "paragraphs": [
+          "Atomi, ioni, molecole e materiali contenenti carbonio producono osservazioni differenti. CO e CO₂ non sono sinonimi del carbonio puro; la loro abbondanza dipende dalla chimica dell’ambiente. Anche il rapporto fra isotopi può offrire informazioni ulteriori. Una scheda divulgativa deve spiegare quale forma sia stata osservata e con quale metodo. Il carbonio collega così stelle, polvere, rocce e biologia senza cancellare le differenze fra un ingrediente chimico e una prova della vita."
+        ]
+      }
+    ],
+    "facts": [
+      "Un composto organico può formarsi anche senza organismi"
+    ],
+    "example": "Un composto organico può formarsi anche senza organismi",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/carbonio/"
+      },
+      {
+        "title": "RSC · proprietà, forme e presenza del carbonio",
+        "url": "https://periodic-table.rsc.org/element/6/carbon"
+      },
+      {
+        "title": "IUPAC · simboli e tavola periodica",
+        "url": "https://iupac.org/what-we-do/periodic-table-of-elements/"
+      }
+    ]
+  },
+  {
     "id": "carica-elettrica",
     "name": "Carica elettrica",
     "definition": "La carica elettrica è una proprietà della materia coinvolta nell’interazione elettromagnetica. Può avere segno positivo o negativo e si misura in coulomb.",
@@ -3814,6 +5757,71 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "cassini",
+    "name": "Cassini, sonda spaziale",
+    "definition": "Cassini fu l’orbiter della missione internazionale Cassini–Huygens: studiò Saturno e il suo sistema dal 2004 al 2017, dopo il lancio del 1997.",
+    "source": "https://www.treccani.it/enciclopedia/cassini-huygens/",
+    "lesson": "lezione-3-4.html",
+    "related": [
+      "satellite-naturale",
+      "telerilevamento",
+      "metano"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un sistema da esplorare nel tempo",
+        "paragraphs": [
+          "Cassini non attraversò una sola volta il paesaggio degli anelli: entrò in orbita attorno a Saturno e osservò il pianeta, le lune e l’ambiente circostante per anni. La missione nacque dalla collaborazione fra NASA, ESA e ASI. Distinguere il programma complessivo dall’orbiter e dalla sonda Huygens permette di capire chi svolse ogni misura. Una fotografia del pianeta e un dato raccolto scendendo su Titano non provengono dallo stesso tipo di osservazione."
+        ]
+      },
+      {
+        "title": "Dal viaggio alla campagna scientifica",
+        "paragraphs": [
+          "Il lancio avvenne il 15 ottobre 1997 e l’arrivo al sistema di Saturno nel 2004. La traiettoria comprese incontri gravitazionali e un lungo trasferimento. L’ingresso in orbita aprì una campagna di passaggi e misure con geometrie diverse. Date di lancio, arrivo e osservazione identificano fasi distinte: non vanno sovrapposte quando si descrive l’età di una fotografia o la durata della permanenza presso il pianeta."
+        ]
+      },
+      {
+        "title": "Più strumenti, più domande",
+        "paragraphs": [
+          "Camere, spettrometri e strumenti per campi, polveri e particelle produssero informazioni complementari. Osservare gli anelli, l’atmosfera e i satelliti richiedeva misure differenti. I risultati su mondi come Titano ed Encelado non equivalgono alla scoperta di vita: descrivono ambienti e processi fisici e chimici. Le interpretazioni devono rimanere collegate al tipo di strumento e al dato, distinguendo una ripresa diretta da una ricostruzione dell’interno di un satellite."
+        ]
+      },
+      {
+        "title": "Una fine operativa, un archivio che resta",
+        "paragraphs": [
+          "La missione si concluse il 15 settembre 2017 con l’ingresso di Cassini nell’atmosfera di Saturno. Il programma di misure terminò, ma l’analisi dei dati continuò. Questa distinzione è importante per leggere notizie successive: una nuova pubblicazione può basarsi su osservazioni raccolte anni prima. Nel glossario Cassini rappresenta quindi sia una tappa storica dell’esplorazione sia un esempio di come un archivio scientifico continui a generare domande e risultati dopo la fine del veicolo."
+        ]
+      }
+    ],
+    "facts": [
+      "Cassini orbitò Saturno; Huygens scese nell’atmosfera di Titano"
+    ],
+    "example": "Cassini orbitò Saturno; Huygens scese nell’atmosfera di Titano",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/cassini-huygens/"
+      },
+      {
+        "title": "NASA/JPL · missione e strumenti Cassini–Huygens",
+        "url": "https://www.jpl.nasa.gov/missions/cassini-huygens/"
+      },
+      {
+        "title": "NASA · cronologia della missione",
+        "url": "https://science.nasa.gov/mission/cassini/the-journey/timeline/"
+      }
+    ],
+    "aliases": [
+      "orbiter Cassini"
+    ],
+    "linkNames": [
+      "sonda Cassini",
+      "orbiter Cassini"
+    ]
+  },
+  {
     "id": "catadiottrico",
     "name": "Catadiottrico",
     "definition": "Un sistema ottico catadiottrico combina superfici riflettenti e rifrangenti nella formazione o nella correzione dell’immagine.",
@@ -3861,6 +5869,60 @@ window.AdAstraGlossary = [
       {
         "title": "Treccani · riferimento terminologico",
         "url": "https://www.treccani.it/vocabolario/catadiottrico/"
+      }
+    ]
+  },
+  {
+    "id": "catalisi",
+    "name": "Catalisi",
+    "definition": "La catalisi modifica la velocità di una reazione attraverso un percorso che coinvolge un catalizzatore, rigenerato nel ciclo complessivo, senza spostare l’equilibrio termodinamico.",
+    "source": "https://www.treccani.it/enciclopedia/catalisi/",
+    "lesson": "lezione-5-4.html",
+    "related": [
+      "energia-attivazione",
+      "adsorbimento",
+      "desorbimento"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Una strada alternativa",
+        "paragraphs": [
+          "Un catalizzatore partecipa ai passaggi della trasformazione e viene rigenerato nel bilancio del ciclo. Dire che non viene consumato non significa che resti sempre estraneo a ciò che avviene. Può formare intermedi, interagire con i reagenti e favorire un percorso differente. L’immagine di una strada alternativa è utile: cambia il modo di raggiungere la destinazione, non crea da sola materia o energia che mancavano al sistema iniziale."
+        ]
+      },
+      {
+        "title": "Velocità ed equilibrio",
+        "paragraphs": [
+          "Una reazione può raggiungere più rapidamente la propria condizione di equilibrio grazie alla catalisi. Il catalizzatore non rende però arbitrariamente favorevole il prodotto e non cambia da solo la posizione dell’equilibrio a condizioni fissate. Questo distingue la cinetica, che studia i tempi, dalla termodinamica, che stabilisce i vincoli energetici. Una produzione osservata più rapida non va quindi descritta automaticamente come una maggiore quantità finale ottenibile in qualunque circostanza."
+        ]
+      },
+      {
+        "title": "La superficie come luogo di incontro",
+        "paragraphs": [
+          "Nella catalisi eterogenea il catalizzatore si trova in una fase diversa dai reagenti. Una superficie può offrire siti ai quali alcune specie si legano, reagiscono e dai quali i prodotti si allontanano. Adsorbimento, diffusione e desorbimento possono influenzare l’intero processo. Non ogni reazione su un granulo è però automaticamente una catalisi già dimostrata: bisogna stabilire il ruolo della superficie e verificare se essa venga rigenerata nel ciclo considerato."
+        ]
+      },
+      {
+        "title": "Dal laboratorio alle polveri cosmiche",
+        "paragraphs": [
+          "L’idea è utile per comprendere perché l’astrochimica non riguardi soltanto collisioni tra particelle nel gas. I granuli forniscono ambienti fisici e chimici specifici, la cui efficacia dipende da composizione, temperatura e copertura. Un modello di superficie deve essere confrontato con esperimenti e osservazioni, senza identificare ogni polvere con un catalizzatore universale. Il punto da ricordare è che l’ambiente può cambiare profondamente i tempi e i percorsi con cui una molecola viene costruita."
+        ]
+      }
+    ],
+    "facts": [
+      "Un catalizzatore accelera il raggiungimento dell’equilibrio senza cambiarne da solo la posizione"
+    ],
+    "example": "Un catalizzatore accelera il raggiungimento dell’equilibrio senza cambiarne da solo la posizione",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/catalisi/"
+      },
+      {
+        "title": "Treccani · energia di attivazione",
+        "url": "https://www.treccani.it/enciclopedia/energia-di-attivazione_(Enciclopedia-della-Scienza-e-della-Tecnica)/"
       }
     ]
   },
@@ -3921,6 +5983,63 @@ window.AdAstraGlossary = [
       "cataloghi astronomici",
       "catalogo stellare",
       "cataloghi stellari"
+    ]
+  },
+  {
+    "id": "catione",
+    "name": "Catione",
+    "definition": "Un catione è uno ione con carica elettrica positiva, perché possiede meno elettroni della corrispondente specie neutra nel confronto appropriato.",
+    "source": "https://www.treccani.it/enciclopedia/catione/",
+    "lesson": "lezione-4-3.html",
+    "related": [
+      "ione",
+      "ionizzazione",
+      "elettrone"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Il segno rivela uno squilibrio",
+        "paragraphs": [
+          "Un atomo neutro bilancia le cariche dei protoni e degli elettroni. Se perde un elettrone resta una carica positiva netta e diventa un catione. Il nucleo non deve per questo acquisire un protone: l’identità dell’elemento può rimanere la stessa. Per esempio, togliere un elettrone a un atomo di sodio produce uno ione positivo del sodio, non un nuovo elemento della tavola periodica."
+        ]
+      },
+      {
+        "title": "Leggere la carica nella formula",
+        "paragraphs": [
+          "Un segno più in alto a destra indica una carica positiva elementare; un numero associato al segno specifica cariche multiple. La carica non conta gli atomi presenti nella specie: quel compito appartiene agli indici della formula. Esistono anche cationi molecolari, costituiti da più atomi legati. In questo caso il segno riguarda la carica complessiva della specie. Una legenda chiara deve tenere separati composizione molecolare, carica e indicazione isotopica."
+        ]
+      },
+      {
+        "title": "Perché compare nello spazio",
+        "paragraphs": [
+          "Fotoni energetici, collisioni e altre reazioni possono produrre ioni negli ambienti astronomici. La popolazione di uno stato ionico dipende da condizioni e processi, non soltanto dalla temperatura assegnata a una regione. Cationi atomici e molecolari possono avere firme spettrali specifiche. Riconoscerle aiuta a studiare gas e reazioni, ma la loro intensità osservata dipende anche dall’eccitazione e dal trasferimento della radiazione: non è automaticamente una semplice fotografia delle abbondanze."
+        ]
+      },
+      {
+        "title": "Carica ed energia non sono sinonimi",
+        "paragraphs": [
+          "Uno ione positivo non è necessariamente luminoso nel visibile né più caldo di ogni particella neutra vicina. La ricombinazione può riportarlo verso uno stato neutro, secondo il processo considerato. Il nome deriva dalla direzione di moto verso il catodo nei contesti elettrolitici, ma una nube interstellare non contiene per questo due elettrodi nascosti. Nel disegno didattico mostra il bilancio delle cariche e poi collega il concetto alla misura spettrale appropriata."
+        ]
+      }
+    ],
+    "facts": [
+      "La perdita di elettroni può creare un catione senza cambiare il numero di protoni"
+    ],
+    "example": "La perdita di elettroni può creare un catione senza cambiare il numero di protoni",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/catione/"
+      },
+      {
+        "title": "IUPAC · terminologia e convenzioni delle specie chimiche",
+        "url": "https://iupac.org/what-we-do/nomenclature/"
+      }
+    ],
+    "aliases": [
+      "cationi"
     ]
   },
   {
@@ -4089,6 +6208,64 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "chilogrammo",
+    "name": "Chilogrammo",
+    "definition": "Il chilogrammo, simbolo kg, è l’unità SI della massa; dal 2019 la sua definizione si basa sul valore fissato della costante di Planck.",
+    "source": "https://www.treccani.it/enciclopedia/massa/",
+    "lesson": "lezione-4-1.html",
+    "related": [
+      "massa",
+      "massa-solare",
+      "costante-planck"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "La bilancia e il significato della massa",
+        "paragraphs": [
+          "Il chilogrammo descrive la massa, non una forza. Quando una bilancia indica chilogrammi, il metodo dello strumento usa condizioni e calibrazione per ricavare quella grandezza. La massa di uno stesso oggetto non diminuisce semplicemente perché viene portato sulla Luna. Cambia invece la forza peso. Questa distinzione rende leggibili le misure terrestri e i confronti con oggetti collocati in ambienti gravitazionali differenti."
+        ]
+      },
+      {
+        "title": "Il campione materiale appartiene alla storia",
+        "paragraphs": [
+          "Per molto tempo il riferimento fu un prototipo materiale conservato e confrontato con altri campioni. Il SI attuale definisce il chilogrammo mediante una costante fisica, insieme alle definizioni delle altre unità necessarie. Non significa che la massa sia diventata una quantità di luce o che ogni laboratorio debba possedere lo stesso oggetto unico. Si separano definizione universale e metodi sperimentali per realizzarla."
+        ]
+      },
+      {
+        "title": "Grammi e multipli",
+        "paragraphs": [
+          "Un chilogrammo corrisponde a mille grammi. La presenza del prefisso chilo nel nome dell’unità di base è una particolarità storica del SI. Nelle tabelle occorre rispettare maiuscole e simboli: kg identifica un’unità, mentre la lettera K da sola indica il kelvin. Le masse atomiche possono usare l’unità di massa atomica, che non è un grammo particolarmente piccolo scelto arbitrariamente ma un riferimento specificamente definito."
+        ]
+      },
+      {
+        "title": "Masse astronomiche",
+        "paragraphs": [
+          "Per stelle e galassie il chilogrammo produce numeri molto grandi; usare masse solari facilita il confronto. La conversione richiede comunque attenzione alla precisione e ai riferimenti. Anche per un buco nero la massa non è il diametro disegnato nella figura. Una scheda deve dichiarare quale proprietà confronta e quale modello lega eventualmente massa e raggio. Le unità aiutano a rendere trasparente il passaggio, ma non sostituiscono la fisica del sistema."
+        ]
+      }
+    ],
+    "facts": [
+      "Chilogrammo misura massa; il peso come forza si esprime in newton"
+    ],
+    "example": "Chilogrammo misura massa; il peso come forza si esprime in newton",
+    "sources": [
+      {
+        "title": "Treccani · quadro terminologico generale; dettagli nelle fonti specifiche",
+        "url": "https://www.treccani.it/enciclopedia/massa/"
+      },
+      {
+        "title": "BIPM · definizione attuale del chilogrammo",
+        "url": "https://www.bipm.org/en/si-base-units/kilogram"
+      }
+    ],
+    "aliases": [
+      "kilogrammo",
+      "chilogrammi"
+    ]
+  },
+  {
     "id": "ciclo-solare",
     "name": "Ciclo solare",
     "definition": "Il ciclo solare descrive la variazione quasi periodica dell’attività magnetica del Sole, evidente anche nel numero delle macchie.",
@@ -4140,6 +6317,60 @@ window.AdAstraGlossary = [
       {
         "title": "NASA · ciclo e polarità magnetica",
         "url": "https://science.nasa.gov/heliophysics/focus-areas/solar-science/"
+      }
+    ]
+  },
+  {
+    "id": "cinetica-chimica",
+    "name": "Cinetica chimica",
+    "definition": "La cinetica chimica studia le velocità delle reazioni e i meccanismi attraverso i quali reagenti e intermedi si trasformano in prodotti.",
+    "source": "https://www.treccani.it/enciclopedia/cinetica-chimica_(Enciclopedia-del-Novecento)/",
+    "lesson": "lezione-5-4.html",
+    "related": [
+      "energia-attivazione",
+      "equilibrio-chimico",
+      "reazione-chimica"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "La domanda è quanto rapidamente",
+        "paragraphs": [
+          "Sapere che una trasformazione è possibile non basta a prevedere che cosa osserveremo dopo un minuto o dopo un milione di anni. La cinetica considera i tempi e le condizioni del processo. Una sostanza può persistere perché la sua trasformazione è lenta, anche quando esistono prodotti energeticamente favoriti. La distinzione è particolarmente utile nello spazio, dove durata dell’ambiente e densità delle particelle possono essere molto diverse dall’esperienza quotidiana."
+        ]
+      },
+      {
+        "title": "Una rete invece di una sola freccia",
+        "paragraphs": [
+          "Una reazione complessiva può avvenire attraverso più passaggi, alcuni dei quali coinvolgono intermedi poco abbondanti o di breve durata. La formula riassuntiva non identifica da sola questa sequenza. Per ricostruire un meccanismo si confrontano misure, ipotesi e previsioni. Una figura divulgativa può mostrare i collegamenti fra specie, ma deve distinguere una rete proposta da una sequenza interamente osservata. Le frecce indicano processi fisici da verificare, non semplici decorazioni tra parole."
+        ]
+      },
+      {
+        "title": "Contano incontri e condizioni",
+        "paragraphs": [
+          "Nelle reazioni in fase gassosa sono importanti densità, temperatura e natura delle particelle. Tuttavia non ogni collisione produce la trasformazione desiderata. Possono contare energia, orientazione e presenza di vie alternative. Superfici e catalizzatori modificano il quadro rispetto a un gas isolato. Non conviene quindi usare una sola regola, come raddoppiare sempre la velocità quando aumenta una determinata quantità, senza specificare il processo e l’intervallo di condizioni nel quale il modello è valido."
+        ]
+      },
+      {
+        "title": "La composizione come memoria",
+        "paragraphs": [
+          "Se un ambiente cambia più rapidamente delle trasformazioni chimiche, le abbondanze possono conservare tracce della sua storia. Una specie osservata non deve necessariamente essere quella favorita dall’equilibrio alle sole condizioni attuali. Per interpretarla occorrono reti e tempi, oltre alle identificazioni spettroscopiche. La cinetica collega così un elenco di molecole a una narrazione fisica controllabile: quali processi le formano, quali le distruggono e per quanto tempo l’ambiente permette che restino presenti in quantità osservabili?"
+        ]
+      }
+    ],
+    "facts": [
+      "Una composizione osservata può dipendere dai tempi di trasformazione, oltre che dalle condizioni attuali"
+    ],
+    "example": "Una composizione osservata può dipendere dai tempi di trasformazione, oltre che dalle condizioni attuali",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/cinetica-chimica_(Enciclopedia-del-Novecento)/"
+      },
+      {
+        "title": "Treccani · energia di attivazione e percorsi di reazione",
+        "url": "https://www.treccani.it/enciclopedia/energia-di-attivazione_(Enciclopedia-della-Scienza-e-della-Tecnica)/"
       }
     ]
   },
@@ -4257,6 +6488,64 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "cloro",
+    "name": "Cloro",
+    "definition": "Il cloro è l’elemento di numero atomico 17, simbolo Cl, appartenente agli alogeni. I suoi composti e isotopi contribuiscono allo studio della chimica dei materiali planetari.",
+    "source": "https://www.treccani.it/enciclopedia/cloro/",
+    "lesson": "lezione-3-2.html",
+    "related": [
+      "sodio",
+      "isotopo",
+      "molecola"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "L’elemento non coincide con un solo materiale",
+        "paragraphs": [
+          "Il cloro può essere presente come specie molecolare, ione o ingrediente di composti. Il cloruro nel sale non ha le stesse proprietà del cloro molecolare. Per descrivere un campione occorre quindi dire in quale forma chimica l’elemento sia presente. La sigla Cl identifica diciassette protoni nel nucleo; non specifica da sola la carica, il legame con altri atomi o lo stato fisico della sostanza."
+        ]
+      },
+      {
+        "title": "Sali e trasformazioni planetarie",
+        "paragraphs": [
+          "I composti contenenti cloro sono parte dell’inventario geochimico dei corpi rocciosi. La loro distribuzione può essere collegata a processi che coinvolgono fluidi, atmosfera e superficie. Non basta però riconoscere un sale per ricostruire una sola storia possibile dell’ambiente. Le misure devono distinguere identificazione della sostanza, quantità e interpretazione geologica. Anche una mappa elementare non sostituisce automaticamente una mappa dei composti nei quali l’elemento si trova."
+        ]
+      },
+      {
+        "title": "Una firma gassosa su Marte",
+        "paragraphs": [
+          "Le osservazioni del Trace Gas Orbiter hanno identificato cloruro di idrogeno, HCl, nell’atmosfera marziana. La specie contiene cloro ma non è cloro molecolare. La sua variabilità e origine richiedono modelli e confronti con altre misure. Il riconoscimento della molecola non dimostra da solo quale sorgente la produca. Le interpretazioni dei collegamenti con polvere, superficie e processi geologici devono essere riferite agli studi e alle osservazioni che le sostengono."
+        ]
+      },
+      {
+        "title": "Isotopi e spettroscopia aggiungono dettagli",
+        "paragraphs": [
+          "Gli isotopi del cloro permettono confronti che vanno oltre il semplice conteggio dell’elemento. Le firme molecolari aiutano invece a distinguere le forme chimiche. Sono livelli complementari dell’informazione. Nel glossario la voce mette in evidenza una regola generale: trovare un elemento non equivale a trovare una specifica molecola, e trovare una molecola non esaurisce la spiegazione del processo che l’ha formata. Il passaggio successivo richiede contesto fisico e dati indipendenti."
+        ]
+      }
+    ],
+    "facts": [
+      "Cloro elementare, cloruro e HCl non sono forme chimiche intercambiabili"
+    ],
+    "example": "Cloro elementare, cloruro e HCl non sono forme chimiche intercambiabili",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/cloro/"
+      },
+      {
+        "title": "RSC · cloro e isotopi",
+        "url": "https://periodic-table.rsc.org/element/17/chlorine"
+      },
+      {
+        "title": "ESA · rilevazione di HCl nell’atmosfera marziana",
+        "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Exploration/ExoMars/ExoMars_discovers_new_gas_and_traces_water_loss_on_Mars"
+      }
+    ]
+  },
+  {
     "id": "cmos",
     "name": "CMOS",
     "definition": "CMOS indica una tecnologia elettronica; nei sensori fotografici è associata ad architetture di raccolta e lettura del segnale luminoso differenti da quelle dei CCD.",
@@ -4304,6 +6593,64 @@ window.AdAstraGlossary = [
       {
         "title": "Treccani · fondamento terminologico; applicazione alle immagini astronomiche spiegata nel testo",
         "url": "https://www.treccani.it/enciclopedia/cmos/"
+      }
+    ]
+  },
+  {
+    "id": "cobalto",
+    "name": "Cobalto",
+    "definition": "Il cobalto è l’elemento chimico di simbolo Co e numero atomico 27; alcuni suoi isotopi radioattivi partecipano alla storia energetica delle supernovae.",
+    "source": "https://www.treccani.it/enciclopedia/cobalto/",
+    "lesson": "lezione-10-4.html",
+    "related": [
+      "nichel",
+      "ferro",
+      "radioattivita"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Il simbolo va letto con attenzione",
+        "paragraphs": [
+          "Co indica il cobalto, un elemento con ventisette protoni per nucleo. Non è la formula CO del monossido di carbonio: una minuscola cambia completamente il significato. Questo esempio mostra perché le convenzioni della nomenclatura siano parte dell’informazione scientifica. In un testo divulgativo non sono necessari molti simboli, ma quelli presenti devono restare leggibili e corretti. Il nome dell’elemento non specifica da solo quale isotopo o quale composto si stia considerando."
+        ]
+      },
+      {
+        "title": "Stabilità e isotopi radioattivi",
+        "paragraphs": [
+          "Il cobalto-59 è l’isotopo stabile di riferimento nella composizione naturale ordinaria. Altri isotopi sono radioattivi e hanno proprietà nucleari differenti. Non si può quindi descrivere ogni presenza di cobalto come una sorgente dello stesso decadimento. Numero atomico, numero di massa e stato di ionizzazione vanno separati: il primo identifica l’elemento, il secondo distingue il nuclide, il terzo riguarda gli elettroni. La distinzione prepara la lettura delle osservazioni di fenomeni energetici."
+        ]
+      },
+      {
+        "title": "Una catena dopo l’esplosione",
+        "paragraphs": [
+          "La catena nichel-56, cobalto-56, ferro-56 contribuisce all’alimentazione luminosa delle supernovae termonucleari. L’energia dei decadimenti interagisce con il materiale in espansione e viene in parte rielaborata in radiazione osservabile. La luminosità non coincide quindi semplicemente con il numero di atomi radioattivi presenti. Contano anche trasporto della radiazione e trasparenza del materiale, che cambiano nel tempo. Questo spiega perché una curva di luce richieda un modello fisico, oltre al riconoscimento di una legge di decadimento."
+        ]
+      },
+      {
+        "title": "Un elemento visto attraverso più segnali",
+        "paragraphs": [
+          "Righe spettrali e radiazione gamma possono fornire informazioni complementari sui prodotti dell’esplosione. Non ogni colore di un’immagine di un resto di supernova rappresenta il cobalto presente in quella zona: occorre leggere banda osservata e legenda. Il collegamento importante è fra trasformazione nucleare, energia liberata e luce ricevuta. Il cobalto diventa così una tappa di una storia dinamica della materia, non soltanto una casella della tavola periodica."
+        ]
+      }
+    ],
+    "facts": [
+      "Co è cobalto; CO è monossido di carbonio"
+    ],
+    "example": "Co è cobalto; CO è monossido di carbonio",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/cobalto/"
+      },
+      {
+        "title": "RSC · cobalto",
+        "url": "https://periodic-table.rsc.org/element/27/cobalt"
+      },
+      {
+        "title": "Studio osservativo · righe gamma del cobalto-56 in SN 2014J",
+        "url": "https://www.nature.com/articles/nature13672"
       }
     ]
   },
@@ -4642,6 +6989,125 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "conduzione-termica",
+    "name": "Conduzione termica",
+    "definition": "La conduzione termica è un trasferimento di energia nella materia associato a differenze di temperatura, senza trasporto macroscopico del materiale come nella convezione.",
+    "source": "https://www.treccani.it/enciclopedia/conduzione/",
+    "lesson": "lezione-7-6.html",
+    "related": [
+      "calore",
+      "convezione",
+      "trasporto-radiativo"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Il manico che si riscalda",
+        "paragraphs": [
+          "Un’estremità di un oggetto può diventare più calda perché riceve energia dall’altra attraverso il materiale. Nel modello di conduzione non occorre che il pezzo si sposti nel suo insieme. Le interazioni microscopiche e, nei metalli, il contributo degli elettroni trasportano energia. L’esempio di un manico metallico è utile per iniziare, ma i dettagli dipendono dalla struttura e dalla composizione: non tutti i solidi conducono allo stesso modo."
+        ]
+      },
+      {
+        "title": "Contano materiale e geometria",
+        "paragraphs": [
+          "La conducibilità termica descrive una proprietà del materiale, mentre il trasferimento effettivo dipende anche dalle dimensioni e dalla differenza di temperatura. Un collegamento corto e ampio può trasferire energia diversamente da uno lungo e sottile. I contatti reali introducono ulteriori resistenze. Non basta quindi conoscere il nome del metallo per calcolare il comportamento di un intero strumento, e il calore specifico non può essere usato al posto della conducibilità."
+        ]
+      },
+      {
+        "title": "Nello spazio esistono ancora contatti",
+        "paragraphs": [
+          "Il vuoto impedisce la conduzione attraverso uno spazio privo di materia, ma non elimina quella all’interno dei componenti e dei collegamenti di un satellite. Il trasferimento verso l’ambiente esterno avviene anche per radiazione. Pannelli, supporti e isolamenti vengono progettati tenendo conto di questi percorsi. L’apparente contraddizione si risolve distinguendo il tratto vuoto attraversato dalla luce dai materiali solidi che continuano a mettere in contatto termico parti diverse."
+        ]
+      },
+      {
+        "title": "Durante una serata osservativa",
+        "paragraphs": [
+          "Il tubo, la montatura e i supporti possono scambiare energia per contatto, mentre aria e cielo intervengono attraverso altri processi. L’adattamento termico non ha una durata universale: dimensioni, materiali e condizioni contano. Nei modelli didattici occorre dichiarare quali trasferimenti siano rappresentati. La conduzione offre una chiave concreta per leggere questi comportamenti senza ridurre tutto al semplice caldo dell’ambiente o immaginare che la materia debba circolare sempre per trasportare energia da una zona a un’altra."
+        ]
+      }
+    ],
+    "facts": [
+      "Conducibilità termica e calore specifico descrivono proprietà differenti"
+    ],
+    "example": "Conducibilità termica e calore specifico descrivono proprietà differenti",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/conduzione/"
+      },
+      {
+        "title": "NASA · controllo termico dei piccoli satelliti",
+        "url": "https://www.nasa.gov/smallsat-institute/sst-soa/thermal-control/"
+      },
+      {
+        "title": "NOAA · modi di trasferimento dell’energia termica",
+        "url": "https://www.noaa.gov/jetstream/atmosphere/transfer-of-heat-energy"
+      }
+    ]
+  },
+  {
+    "id": "configurazione-elettronica",
+    "name": "Configurazione elettronica",
+    "definition": "La configurazione elettronica indica l’occupazione degli orbitali da parte degli elettroni in un modello della struttura atomica o molecolare.",
+    "source": "https://www.treccani.it/enciclopedia/orbitale/",
+    "lesson": "lezione-4-3.html",
+    "related": [
+      "orbitale-atomico",
+      "elemento-chimico",
+      "ionizzazione"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Dove si collocano gli elettroni nel modello",
+        "paragraphs": [
+          "Un atomo non viene descritto soltanto contando i suoi elettroni: interessa anche come occupano gli stati disponibili. La configurazione elettronica riassume questa distribuzione con una notazione compatta. Simboli e numeri devono essere introdotti gradualmente. Non rappresentano indirizzi di particelle ferme in scomparti materiali, ma un modo di organizzare la descrizione quantistica dell’atomo, utile per comprendere proprietà e confrontare specie differenti."
+        ]
+      },
+      {
+        "title": "Leggere una notazione semplice",
+        "paragraphs": [
+          "Nella scrittura 1s², il primo numero e la lettera identificano una famiglia di stati, mentre il piccolo due indica il numero di elettroni assegnati a quell’orbitale nel modello. Per l’elio neutro nello stato fondamentale, questa configurazione descrive i suoi due elettroni. Il numero in alto non è la carica dello ione né il numero di massa del nucleo. La posizione dei simboli cambia dunque il significato delle informazioni che leggiamo."
+        ]
+      },
+      {
+        "title": "Stato fondamentale, eccitazione e ioni",
+        "paragraphs": [
+          "L’occupazione può differire quando l’atomo è eccitato oppure quando perde o acquista elettroni. La configurazione di uno ione non si ricava sempre cancellando meccanicamente l’ultimo simbolo di una tabella senza considerare le energie. Le regole introduttive di riempimento sono utili, ma presentano condizioni ed eccezioni. Per specie reali si consultano dati e classificazioni appropriate. Una configurazione riassume inoltre parte dello stato, non necessariamente tutte le informazioni necessarie a determinarne ogni proprietà."
+        ]
+      },
+      {
+        "title": "La tavola periodica acquista significato",
+        "paragraphs": [
+          "La ricorrenza di proprietà chimiche si collega alla struttura elettronica, soprattutto degli elettroni più esterni. In astronomia, stati e configurazioni aiutano a classificare le transizioni responsabili delle righe spettrali. Una tavola colorata diventa così un ponte fra organizzazione della materia e luce osservata. Nel glossario conviene partire da un esempio completo e leggibile, evitando lunghe sequenze di simboli non commentate che costringano il lettore a cercare altrove il significato di ogni carattere."
+        ]
+      }
+    ],
+    "facts": [
+      "L’esponente di occupazione elettronica non è il numero di massa del nucleo"
+    ],
+    "example": "L’esponente di occupazione elettronica non è il numero di massa del nucleo",
+    "sources": [
+      {
+        "title": "Treccani · quadro terminologico generale; dettagli nelle fonti specifiche",
+        "url": "https://www.treccani.it/enciclopedia/orbitale/"
+      },
+      {
+        "title": "NIST · classificazione di livelli e configurazioni",
+        "url": "https://physics.nist.gov/PhysRefData/ASD/lines_form.html"
+      },
+      {
+        "title": "RSC · configurazioni e tavola periodica",
+        "url": "https://periodic-table.rsc.org/"
+      }
+    ],
+    "aliases": [
+      "configurazioni elettroniche"
+    ]
+  },
+  {
     "id": "congiunzione",
     "name": "Congiunzione",
     "definition": "Una congiunzione è una configurazione di coordinate apparenti: due astri condividono una coordinata specificata, senza trovarsi necessariamente vicini nello spazio.",
@@ -4689,6 +7155,114 @@ window.AdAstraGlossary = [
       {
         "title": "Treccani · riferimento terminologico",
         "url": "https://www.treccani.it/enciclopedia/congiunzione_(Dizionario-delle-Scienze-Fisiche)/"
+      }
+    ]
+  },
+  {
+    "id": "conservazione-quantita-moto",
+    "name": "Conservazione della quantità di moto",
+    "definition": "La quantità di moto totale di un sistema rimane costante quando è nulla la risultante delle forze esterne, nel quadro classico considerato.",
+    "source": "https://www.treccani.it/enciclopedia/conservazione/",
+    "lesson": "lezione-3-6.html",
+    "related": [
+      "quantita-di-moto",
+      "vettore",
+      "forza"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un bilancio con direzione",
+        "paragraphs": [
+          "La quantità di moto è una grandezza vettoriale: per un corpo nella meccanica classica si ottiene moltiplicando massa e velocità. Quando si sommano più contributi contano quindi direzione e verso, non soltanto i valori numerici positivi. Due corpi possono avere quantità di moto che si compensano pur essendo entrambi in movimento. Questa distinzione impedisce di trattare il bilancio come una semplice somma di rapidità o di confonderlo con l’energia cinetica totale."
+        ]
+      },
+      {
+        "title": "Le interazioni interne si scambiano il moto",
+        "paragraphs": [
+          "Se due corpi interagiscono, ciascuno può cambiare quantità di moto mentre il totale del sistema resta invariato nelle condizioni appropriate. Il confine scelto è essenziale: guardare un solo corpo significa lasciare fuori il contributo dell’altro. Un modello di urto deve dunque indicare quali oggetti comprenda e se gli effetti esterni siano trascurabili durante l’interazione. Senza questa informazione, uno scambio interno può essere interpretato erroneamente come creazione o perdita di quantità di moto."
+        ]
+      },
+      {
+        "title": "Il caso della propulsione",
+        "paragraphs": [
+          "Un razzo modifica il proprio movimento espellendo materiale. Nel bilancio bisogna includere anche ciò che viene espulso; la sola massa rimasta a bordo non è l’intero sistema. Non occorre che il razzo spinga contro l’aria per produrre l’effetto. Il confronto è utile per comprendere il moto nello spazio, ma il calcolo quantitativo richiede tenere conto della massa variabile e delle velocità appropriate. Una figura può mostrare lo scambio senza inventare una parete esterna invisibile contro cui il motore debba appoggiarsi."
+        ]
+      },
+      {
+        "title": "Non è la conservazione di ogni energia del moto",
+        "paragraphs": [
+          "La quantità di moto può conservarsi anche in un urto nel quale parte dell’energia cinetica viene trasformata in altre forme. Le due leggi non sono intercambiabili e rispondono a bilanci differenti. Nell’astronomia e nell’esplorazione spaziale servono entrambe, con ipotesi dichiarate. Per il lettore la domanda iniziale resta semplice: quali corpi stiamo includendo e quali forze vengono dall’esterno? Da questa scelta dipende se la conservazione sia applicabile al sistema che abbiamo disegnato."
+        ]
+      }
+    ],
+    "facts": [
+      "In un urto la quantità di moto può conservarsi senza che si conservi tutta l’energia cinetica"
+    ],
+    "example": "In un urto la quantità di moto può conservarsi senza che si conservi tutta l’energia cinetica",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/conservazione/"
+      },
+      {
+        "title": "NASA Glenn · conservazione vettoriale della quantità di moto",
+        "url": "https://www.grc.nasa.gov/www/k-12/airplane/conmo.html"
+      }
+    ]
+  },
+  {
+    "id": "conservazione-energia",
+    "name": "Conservazione dell’energia",
+    "definition": "La conservazione dell’energia afferma che l’energia totale di un sistema isolato resta costante, pur potendo essere trasferita o trasformata fra forme differenti.",
+    "source": "https://www.treccani.it/enciclopedia/conservazione/",
+    "lesson": "lezione-3-6.html",
+    "related": [
+      "energia",
+      "calore",
+      "lavoro-meccanico"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Prima si sceglie il sistema",
+        "paragraphs": [
+          "Per fare un bilancio bisogna dichiarare quali oggetti e quali scambi vengano considerati. Un corpo può acquistare energia perché la riceve dall’esterno: questo non viola la conservazione. Se allarghiamo il sistema includendo la sorgente e i trasferimenti, il confronto cambia. La parola isolato è quindi una condizione fisica, non un dettaglio facoltativo. Un disegno con un confine e frecce di scambio può rendere l’idea più chiara di una formula presentata senza spiegazione."
+        ]
+      },
+      {
+        "title": "Cambiano le forme",
+        "paragraphs": [
+          "Nella caduta l’energia potenziale può trasformarsi in energia cinetica; in un urto parte dell’energia del moto può andare in deformazioni, riscaldamento e suono. Non tutto ciò che smette di essere movimento visibile è scomparso. L’energia meccanica da sola non si conserva in qualsiasi situazione: bisogna verificare quali processi siano presenti. Il principio riguarda il bilancio complessivo, non l’obbligo che ogni singola forma mantenga separatamente lo stesso valore durante l’evoluzione."
+        ]
+      },
+      {
+        "title": "Un’orbita come esempio",
+        "paragraphs": [
+          "Nel problema ideale di due corpi isolati l’energia meccanica permette di collegare diverse posizioni e velocità lungo l’orbita. Se intervengono propulsione, attrito atmosferico o altre interazioni, il bilancio deve includerle. La parola orbita non garantisce da sola che si possa usare lo stesso modello senza modifiche. Una simulazione corretta deve rendere esplicito che cosa venga trascurato e quali energie vengano seguite, evitando di mostrare variazioni arbitrarie della velocità prive di una causa fisica."
+        ]
+      },
+      {
+        "title": "Un principio con un campo di applicazione",
+        "paragraphs": [
+          "Nella descrizione relativistica l’energia comprende contributi collegati alla massa e richiede un quadro coerente. Inoltre il bilancio globale dell’intero Universo in espansione non si riduce automaticamente alla contabilità elementare di un sistema meccanico isolato. Per una prima lezione conviene restare in un problema ben definito, dove si possano seguire ingressi, uscite e trasformazioni. Il concetto guida è cercare dove vada l’energia, senza invocare una scomparsa soltanto perché una forma non è più direttamente osservabile."
+        ]
+      }
+    ],
+    "facts": [
+      "La conservazione dell’energia totale non implica che l’energia meccanica resti costante in ogni processo"
+    ],
+    "example": "La conservazione dell’energia totale non implica che l’energia meccanica resti costante in ogni processo",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/conservazione/"
+      },
+      {
+        "title": "NASA Glenn · bilancio e conservazione dell’energia",
+        "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/conservation-of-energy/"
       }
     ]
   },
@@ -5021,6 +7595,68 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "copernico-niccolo",
+    "name": "Copernico, Niccolò",
+    "definition": "Niccolò Copernico (1473–1543) sviluppò un modello astronomico nel quale la Terra ruota su sé stessa e partecipa al moto dei pianeti attorno al Sole.",
+    "source": "https://www.treccani.it/enciclopedia/niccolo-copernico_(Storia-della-civiltà-europea-a-cura-di-Umberto-Eco)/",
+    "lesson": "lezione-1-3.html",
+    "related": [
+      "rotazione",
+      "rivoluzione",
+      "orbita"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Cambiare il posto dell’osservatore",
+        "paragraphs": [
+          "Il cielo mostra moti apparenti, ma interpretarli richiede scegliere un modello. Copernico propose di considerare anche il movimento della Terra, invece di attribuire tutti i cambiamenti al moto degli astri intorno a essa. Il contributo non consisteva soltanto nello spostare un simbolo al centro del disegno. Cambiava il modo di collegare le osservazioni: il punto dal quale guardiamo diventava parte del problema da risolvere."
+        ]
+      },
+      {
+        "title": "Rotazione e rivoluzione hanno ruoli diversi",
+        "paragraphs": [
+          "La rotazione terrestre permette di interpretare il ciclo apparente quotidiano del cielo; la rivoluzione attorno al Sole contribuisce ai cambiamenti annuali e ai moti relativi dei pianeti. Non sono lo stesso movimento. Nel modello eliocentrico le retrogradazioni possono essere comprese attraverso la geometria delle orbite e del nostro punto di vista. Un pianeta non deve necessariamente invertire il proprio percorso reale soltanto perché cambia verso rispetto alle stelle nello sfondo osservato."
+        ]
+      },
+      {
+        "title": "Il modello storico non era quello attuale",
+        "paragraphs": [
+          "Il De revolutionibus fu pubblicato nel 1543. La costruzione copernicana utilizzava ancora elementi geometrici della tradizione, compresi moti circolari, e non conteneva già le ellissi di Keplero o la gravitazione newtoniana. Non è corretto sovrapporle un’immagine moderna e attribuire al suo autore ogni passaggio successivo. Anche l’idea di un assetto eliocentrico aveva precedenti antichi: il contributo di Copernico va riconosciuto nella forma articolata e influente del sistema sviluppato."
+        ]
+      },
+      {
+        "title": "Una trasformazione che richiese confronti",
+        "paragraphs": [
+          "Il nuovo quadro sollevò problemi fisici e osservativi, oltre a questioni culturali e religiose. La sua affermazione non fu un cambiamento istantaneo ottenuto con una sola prova. Osservazioni e teorie successive modificarono il dibattito. Per il lettore il nodo memorabile è il cambio di prospettiva: un movimento che sembra appartenere interamente al cielo può dipendere anche da chi osserva. La storia del modello prepara così una lettura più consapevole delle carte e dei simulatori astronomici."
+        ]
+      }
+    ],
+    "facts": [
+      "Il modello copernicano storico non includeva ancora le ellissi di Keplero"
+    ],
+    "example": "Il modello copernicano storico non includeva ancora le ellissi di Keplero",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/niccolo-copernico_(Storia-della-civiltà-europea-a-cura-di-Umberto-Eco)/"
+      },
+      {
+        "title": "University of St Andrews · Copernico, opere e contesto",
+        "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Copernicus/"
+      }
+    ],
+    "aliases": [
+      "Niccolò Copernico",
+      "Nicolaus Copernicus"
+    ],
+    "linkNames": [
+      "Niccolò Copernico",
+      "modello copernicano"
+    ]
+  },
+  {
     "id": "coronografo",
     "name": "Coronografo",
     "definition": "Un coronografo riduce la luce di una sorgente molto brillante per studiare strutture più deboli vicine alla sua direzione.",
@@ -5183,6 +7819,67 @@ window.AdAstraGlossary = [
     "aliases": [
       "corrente oscura",
       "dark current"
+    ]
+  },
+  {
+    "id": "costante-avogadro",
+    "name": "Costante di Avogadro",
+    "definition": "La costante di Avogadro collega la quantità di sostanza al numero di entità: il suo valore SI è esattamente 6,02214076 × 10²³ per mole.",
+    "source": "https://www.treccani.it/enciclopedia/mole/",
+    "lesson": "lezione-4-1.html",
+    "related": [
+      "mole",
+      "massa-molare",
+      "atomo"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Il fattore che traduce le moli",
+        "paragraphs": [
+          "Per passare dalle moli al numero di entità si usa la costante di Avogadro. Se raddoppi le moli, raddoppi il numero delle entità specificate. Il valore è enorme perché atomi e molecole sono piccoli rispetto ai campioni che maneggiamo. La costante non descrive la massa di una particella né la distanza fra particelle: serve a collegare due modi di esprimere un conteggio."
+        ]
+      },
+      {
+        "title": "Come leggere il numero",
+        "paragraphs": [
+          "La scrittura sei virgola zero due e così via, moltiplicato per dieci alla ventitreesima, evita una lunga fila di cifre. Dieci alla ventitreesima rappresenta uno seguito da ventitré zeri. Per gli esempi divulgativi basta spesso approssimare la costante a sei virgola zero due per dieci alla ventitreesima. La definizione SI conserva però tutte le cifre fissate, e l’unità per mole è parte indispensabile della grandezza."
+        ]
+      },
+      {
+        "title": "Numero e costante non sono identici",
+        "paragraphs": [
+          "Il numero di Avogadro è il valore numerico associato al conteggio delle entità in una mole. La costante porta invece l’unità inversa della mole e consente di costruire relazioni dimensionalmente corrette. Nella pratica i nomi vengono talvolta usati con poca distinzione. Esplicitare il significato evita che un fattore di conversione venga trattato come un misterioso numero senza legame con la quantità misurata o con l’entità dichiarata."
+        ]
+      },
+      {
+        "title": "Esattezza della definizione e misure reali",
+        "paragraphs": [
+          "Dal 2019 il valore della costante è esatto per definizione. Questo non rende esatto il numero di molecole attribuito a qualunque campione reale: purezza, massa e composizione devono ancora essere determinate sperimentalmente. In astrofisica non si contano direttamente tutte le particelle di una nube. Si ricavano quantità da radiazione e modelli, con incertezze proprie. Una conversione esatta conserva il significato delle unità, ma non cancella l’incertezza dei dati di partenza."
+        ]
+      }
+    ],
+    "facts": [
+      "Una costante definita esattamente non rende esatte tutte le misure che la utilizzano"
+    ],
+    "example": "Una costante definita esattamente non rende esatte tutte le misure che la utilizzano",
+    "sources": [
+      {
+        "title": "Treccani · quadro terminologico generale; dettagli nelle fonti specifiche",
+        "url": "https://www.treccani.it/enciclopedia/mole/"
+      },
+      {
+        "title": "BIPM · mole e valore definitorio",
+        "url": "https://www.bipm.org/en/si-base-units/mole"
+      },
+      {
+        "title": "NIST · costanti fondamentali e riferimenti",
+        "url": "https://physics.nist.gov/cuu/Constants/"
+      }
+    ],
+    "aliases": [
+      "numero di Avogadro"
     ]
   },
   {
@@ -5354,6 +8051,60 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "coulomb",
+    "name": "Coulomb",
+    "definition": "Il coulomb, simbolo C, è l’unità SI della carica elettrica; equivale alla carica trasferita da una corrente costante di un ampere in un secondo.",
+    "source": "https://www.treccani.it/enciclopedia/carica/",
+    "lesson": "strumentazione.html",
+    "related": [
+      "carica-elettrica",
+      "ampere",
+      "elettrone"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Una quantità di carica",
+        "paragraphs": [
+          "La carica è una proprietà fisica che può avere segno positivo o negativo. Il coulomb permette di esprimerne la quantità nel Sistema internazionale. Non misura la velocità di una particella né l’energia di un elettrone. Due sistemi con la stessa carica netta possono avere masse, strutture ed energie molto differenti. Questa distinzione aiuta a separare la proprietà elettrica dal materiale che la possiede e dal modo in cui si muove."
+        ]
+      },
+      {
+        "title": "Il collegamento con il tempo",
+        "paragraphs": [
+          "Se una corrente di un ampere rimane costante per tre secondi, la carica trasferita è tre coulomb. La relazione si legge corrente moltiplicata per durata. Con una corrente variabile bisogna invece considerare come cambia durante l’intervallo, non moltiplicare sempre il picco massimo per tutto il tempo. Una corrente può continuare a circolare senza che l’intero cavo accumuli continuamente la stessa quantità di carica netta: trasferimento e accumulo sono concetti diversi."
+        ]
+      },
+      {
+        "title": "Dalla particella al circuito",
+        "paragraphs": [
+          "La carica elementare ha un valore fissato esattamente nel SI. L’elettrone porta una carica negativa di quel valore assoluto; il protone la corrispondente positiva. Un coulomb rappresenta moltissime cariche elementari, non una singola particella. Quando un sensore registra elettroni, il conteggio e la carica raccolta sono collegati. L’energia di ogni evento e la conversione elettronica richiedono però informazioni ulteriori, quindi non basta conoscere la carica per ricostruire ogni proprietà della luce incidente."
+        ]
+      },
+      {
+        "title": "Capacità delle batterie",
+        "paragraphs": [
+          "Un amperora corrisponde a tremilaseicento coulomb, perché un’ora contiene tremilaseicento secondi. Questa conversione aiuta a comprendere le etichette delle batterie usate sul campo. Non determina da sola l’energia disponibile: bisogna considerare la tensione e le condizioni della scarica. Il valore nominale non descrive automaticamente il comportamento al freddo o con assorbimenti diversi. Nel glossario conviene seguire prima la carica, poi corrente e capacità, mantenendo esplicite le unità in ogni passaggio."
+        ]
+      }
+    ],
+    "facts": [
+      "Un amperora equivale a 3.600 coulomb, ma non è da solo una misura dell’energia"
+    ],
+    "example": "Un amperora equivale a 3.600 coulomb, ma non è da solo una misura dell’energia",
+    "sources": [
+      {
+        "title": "Treccani · quadro terminologico generale; dettagli nelle fonti specifiche",
+        "url": "https://www.treccani.it/enciclopedia/carica/"
+      },
+      {
+        "title": "BIPM · carica elementare e corrente SI",
+        "url": "https://www.bipm.org/en/si-base-units/ampere"
+      }
+    ]
+  },
+  {
     "id": "crepuscolo",
     "name": "Crepuscolo",
     "definition": "Il crepuscolo è la fase di luminosità diffusa del cielo prima del sorgere o dopo il tramonto del Sole, mentre il Sole si trova sotto l’orizzonte.",
@@ -5405,6 +8156,64 @@ window.AdAstraGlossary = [
       {
         "title": "USNO · riferimenti del crepuscolo",
         "url": "https://aa.usno.navy.mil/data/RS_OneYear"
+      }
+    ]
+  },
+  {
+    "id": "cromo",
+    "name": "Cromo",
+    "definition": "Il cromo è l’elemento chimico di simbolo Cr e numero atomico 24, un metallo studiato anche attraverso i rapporti isotopici dei materiali del Sistema solare.",
+    "source": "https://www.treccani.it/enciclopedia/cromo/",
+    "lesson": "lezione-3-1.html",
+    "related": [
+      "isotopo",
+      "manganese",
+      "meteorite"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Identificare l’elemento",
+        "paragraphs": [
+          "Il nucleo di un atomo di cromo contiene ventiquattro protoni. Gli isotopi condividono questa identità ma differiscono per numero di neutroni. Il simbolo Cr non va confuso con una sigla generica che descriva il colore di un campione. In un minerale il cromo può essere combinato con altri elementi; nel metallo e nei composti l’organizzazione elettronica e la struttura cambiano. L’elemento resta lo stesso, mentre le proprietà del materiale possono cambiare molto."
+        ]
+      },
+      {
+        "title": "Colori e stati chimici",
+        "paragraphs": [
+          "Diversi composti del cromo presentano colori e proprietà differenti. Non basta quindi associare un unico colore all’elemento per riconoscerlo in una fotografia. Lo stato di ossidazione è uno strumento di descrizione chimica, non il numero atomico e neppure il numero di neutroni. Questi tre conteggi rispondono a domande separate. Una tavola periodica, una formula e un rapporto isotopico vanno letti con questa distinzione, evitando di trattarli come notazioni intercambiabili."
+        ]
+      },
+      {
+        "title": "Una memoria nei meteoriti",
+        "paragraphs": [
+          "I rapporti tra isotopi del cromo sono utilizzati nello studio dei meteoriti. In particolare il sistema manganese–cromo permette di indagare processi dell’antico Sistema solare attraverso il decadimento del manganese-53 in cromo-53. Non ogni eccesso isotopico può essere attribuito immediatamente alla stessa causa: bisogna considerare composizione iniziale, trasformazioni e storia del campione. Il confronto fra più misure è parte essenziale della ricostruzione, non un dettaglio aggiunto a un’età già certa."
+        ]
+      },
+      {
+        "title": "Un numero necessita di contesto",
+        "paragraphs": [
+          "Una misura isotopica è un rapporto fra quantità definite e viene confrontata con riferimenti e modelli. Non indica automaticamente da quale punto del cielo provenga una pietra. Per collegare il risultato alla storia di un corpo servono altre informazioni mineralogiche e chimiche. Il cromo offre così un esempio di astronomia condotta anche in laboratorio: piccoli campioni conservano tracce fisiche che affiancano ciò che telescopi e sonde mostrano a distanza."
+        ]
+      }
+    ],
+    "facts": [
+      "Il sistema manganese-53/cromo-53 aiuta a studiare la cronologia del primo Sistema solare"
+    ],
+    "example": "Il sistema manganese-53/cromo-53 aiuta a studiare la cronologia del primo Sistema solare",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/cromo/"
+      },
+      {
+        "title": "RSC · cromo",
+        "url": "https://periodic-table.rsc.org/element/24/chromium"
+      },
+      {
+        "title": "USGS · manganese e traccianti isotopici",
+        "url": "https://wwwrcamnl.wr.usgs.gov/isoig/period/mn_iig.html"
       }
     ]
   },
@@ -5508,6 +8317,72 @@ window.AdAstraGlossary = [
         "title": "Treccani · riferimento terminologico",
         "url": "https://www.treccani.it/enciclopedia/culminazione/"
       }
+    ]
+  },
+  {
+    "id": "curie-marie",
+    "name": "Curie, Marie Skłodowska",
+    "definition": "Marie Skłodowska Curie (1867–1934) fu una scienziata protagonista dello studio della radioattività e, con Pierre Curie e collaboratori, della scoperta di polonio e radio.",
+    "source": "https://www.treccani.it/enciclopedia/pierre-e-marie-curie/",
+    "lesson": "lezione-10-4.html",
+    "related": [
+      "radioattivita",
+      "elemento-chimico",
+      "becquerel-unita"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Una proprietà da misurare",
+        "paragraphs": [
+          "Dopo le ricerche di Becquerel sull’uranio, Marie Curie studiò sistematicamente il comportamento di sostanze radioattive. Il confronto quantitativo fra minerali e composti permetteva di cercare spiegazioni della loro attività. La scoperta non dipendeva soltanto dal colore o dall’aspetto di un campione. Misure, separazioni chimiche e controlli collegavano un segnale a una sostanza, mostrando il valore di procedure ripetute prima di attribuire un effetto a un ingrediente nuovo."
+        ]
+      },
+      {
+        "title": "Elementi nuovi, lavoro condiviso",
+        "paragraphs": [
+          "Nel 1898 furono annunciate le scoperte del polonio e del radio. Identificare la presenza di un elemento e ottenere quantità isolate dei suoi composti o del metallo sono passaggi differenti. Non devono essere confusi in un solo giorno della cronologia. La ricerca coinvolse Pierre Curie e altri collaboratori, oltre al contributo centrale di Marie. Una biografia corretta riconosce persone e procedure senza cancellarle per costruire una scena solitaria di scoperta improvvisa."
+        ]
+      },
+      {
+        "title": "Due riconoscimenti distinti",
+        "paragraphs": [
+          "Marie Curie condivise il Nobel per la fisica del 1903 con Pierre Curie e Henri Becquerel e ricevette quello per la chimica nel 1911. I premi indicano aspetti collegati ma diversi del lavoro sulla radioattività e sugli elementi. Non fu lei a scoprire da sola ogni tipo di radiazione o a formulare tutta la successiva fisica del nucleo. Il riconoscimento del contributo diventa più solido quando rimane proporzionato ai risultati documentati."
+        ]
+      },
+      {
+        "title": "Il collegamento con l’astrofisica",
+        "paragraphs": [
+          "La conoscenza della radioattività permette di comprendere sorgenti energetiche, trasformazioni dei nuclei e metodi di datazione utilizzati anche nello studio dei corpi celesti. Questo legame non trasforma Curie in una specialista di ogni applicazione astronomica successiva. La sua figura mostra come discipline differenti si incontrino: una misura su materiali terrestri può contribuire a costruire strumenti concettuali per leggere stelle e meteoriti. Nel glossario la biografia rende visibile questa continuità fra ricerca sperimentale, interpretazione e domande sul cosmo."
+        ]
+      }
+    ],
+    "facts": [
+      "Marie Curie ricevette il Nobel per la fisica nel 1903 e per la chimica nel 1911"
+    ],
+    "example": "Marie Curie ricevette il Nobel per la fisica nel 1903 e per la chimica nel 1911",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/pierre-e-marie-curie/"
+      },
+      {
+        "title": "Nobel Prize · biografia e contributi di Marie Curie",
+        "url": "https://www.nobelprize.org/prizes/chemistry/1911/marie-curie/biographical/"
+      },
+      {
+        "title": "Nobel Prize · scoperta di polonio e radio",
+        "url": "https://www.nobelprize.org/prizes/lists/marie-and-pierre-curie-and-the-discovery-of-polonium-and-radium/"
+      }
+    ],
+    "aliases": [
+      "Marie Curie",
+      "Maria Skłodowska Curie"
+    ],
+    "linkNames": [
+      "Marie Curie",
+      "Maria Skłodowska Curie"
     ]
   },
   {
@@ -5735,6 +8610,125 @@ window.AdAstraGlossary = [
     ],
     "aliases": [
       "master dark"
+    ]
+  },
+  {
+    "id": "datazione-radiometrica",
+    "name": "Datazione radiometrica",
+    "definition": "La datazione radiometrica stima il tempo trascorso da un evento nella storia di un materiale utilizzando trasformazioni radioattive e composizioni isotopiche misurate.",
+    "source": "https://www.treccani.it/enciclopedia/metodi-radiometrici_(Enciclopedia-della-Scienza-e-della-Tecnica)/",
+    "lesson": "lezione-3-6.html",
+    "related": [
+      "tempo-dimezzamento",
+      "rapporto-isotopico",
+      "meteorite"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Il materiale conserva un orologio",
+        "paragraphs": [
+          "Un radionuclide si trasforma con un ritmo statistico caratteristico. Misurare il genitore e i prodotti, nel sistema appropriato, permette di stimare un intervallo di tempo. L’analogia con un orologio è utile se si chiarisce quando inizi a contare e quali processi possano modificarlo. Non basta trovare radioattività in un oggetto per leggerne direttamente l’età sul display di uno strumento."
+        ]
+      },
+      {
+        "title": "Quale evento viene datato",
+        "paragraphs": [
+          "La cristallizzazione di un minerale, un riscaldamento successivo o la chiusura di un sistema allo scambio possono essere eventi differenti. La data ottenuta deve essere collegata al processo che il metodo registra. Non ogni campione fornisce automaticamente l’età della nascita dell’intero pianeta. Un materiale può conservare più fasi della propria storia, e il confronto fra minerali e sistemi isotopici aiuta a distinguerle."
+        ]
+      },
+      {
+        "title": "Le condizioni sono parte della misura",
+        "paragraphs": [
+          "Composizione iniziale, eventuale ingresso o perdita di materiale e trasformazioni successive devono essere valutati. I metodi adottano strategie diverse per vincolare queste informazioni. Il tempo di dimezzamento deve essere adeguato alla scala temporale indagata e le misure hanno incertezze. Non è corretto usare il radiocarbonio come soluzione universale per datare rocce antiche miliardi di anni: sistemi differenti sono adatti a materiali e intervalli differenti."
+        ]
+      },
+      {
+        "title": "Meteoriti e storia del Sistema solare",
+        "paragraphs": [
+          "Le analisi isotopiche dei meteoriti e di altri campioni hanno un ruolo centrale nel ricostruire le prime fasi del Sistema solare. Le età delle rocce lunari raccolte dalle missioni contribuiscono anche al confronto con le superfici planetarie. Questa connessione spiega il valore di un campione: contiene informazioni che una fotografia da sola non può fornire. La datazione rimane però un’interpretazione quantitativa controllata, con condizioni e margini d’incertezza, non un numero esatto indipendente dalla storia del materiale."
+        ]
+      }
+    ],
+    "facts": [
+      "Una data radiometrica deve essere riferita all’evento fisico che il sistema isotopico registra"
+    ],
+    "example": "Una data radiometrica deve essere riferita all’evento fisico che il sistema isotopico registra",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/metodi-radiometrici_(Enciclopedia-della-Scienza-e-della-Tecnica)/"
+      },
+      {
+        "title": "USGS · principi dei metodi radioattivi per l’età geologica",
+        "url": "https://www.usgs.gov/educational-resources/geologic-age-using-radioactive-decay-determine-geologic-age"
+      },
+      {
+        "title": "USGS Astrogeology · campioni lunari e datazione",
+        "url": "https://www.usgs.gov/centers/astrogeology-science-center/news/happy-old-rock-day"
+      },
+      {
+        "title": "AMNH · datazione dei primi materiali del Sistema solare",
+        "url": "https://www.amnh.org/exhibitions/permanent/meteorites/origins-of-the-solar-system/cais/determining-the-age-of-cais"
+      }
+    ],
+    "aliases": [
+      "datazione radioisotopica"
+    ]
+  },
+  {
+    "id": "dawn",
+    "name": "Dawn",
+    "definition": "Dawn è la missione NASA che studiò da orbite dedicate Vesta e Cerere, due corpi differenti della fascia principale degli asteroidi.",
+    "source": "https://www.treccani.it/enciclopedia/asteroide/",
+    "lesson": "lezione-3-5.html",
+    "related": [
+      "asteroide",
+      "pianeta-nano",
+      "orbita"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Due destinazioni da confrontare",
+        "paragraphs": [
+          "Dawn, lanciata nel 2007, visitò Vesta e Cerere. Questi corpi appartengono alla fascia principale, ma hanno caratteristiche e storie differenti. La missione permette di evitare una semplificazione frequente: gli asteroidi non costituiscono una collezione di rocce tutte uguali. Osservare due mondi con lo stesso veicolo rende particolarmente interessante il confronto, purché si tengano presenti differenze nella distanza di osservazione, nella geometria e nelle condizioni di illuminazione delle immagini."
+        ]
+      },
+      {
+        "title": "Restare in orbita",
+        "paragraphs": [
+          "Una missione orbitale può tornare più volte a osservare regioni e fenomeni invece di limitarsi alla finestra di un singolo sorvolo. Questo consente di collegare mappe, composizione e proprietà fisiche con una copertura più articolata. Non significa che ogni punto venga visto con identico dettaglio. Le orbite sono scelte per obiettivi specifici e comportano compromessi tra risoluzione, copertura e operazioni. L’altezza dalla superficie modifica ciò che uno strumento riesce a distinguere."
+        ]
+      },
+      {
+        "title": "Vesta e Cerere non sono la stessa categoria",
+        "paragraphs": [
+          "Cerere è classificato come pianeta nano, mentre Vesta è un grande asteroide. Le etichette non sostituiscono la descrizione: occorre confrontare forma, composizione e indizi sulla struttura interna. Le immagini possono mostrare crateri e differenze superficiali, ma il significato geologico nasce dal confronto con altre misure. Non basta che due superfici appaiano grigie per concludere che abbiano vissuto gli stessi processi o contengano gli stessi materiali."
+        ]
+      },
+      {
+        "title": "Una storia conservata nei piccoli corpi",
+        "paragraphs": [
+          "Studiare questi oggetti aiuta a ricostruire fasi della formazione e trasformazione del Sistema solare. Non vanno però descritti come campioni intatti senza alcuna evoluzione: urti, riscaldamento e processi interni possono averli modificati. La domanda utile è quali tracce siano sopravvissute e quali eventi le abbiano prodotte. Dawn collega così l’esplorazione spaziale all’analisi dei meteoriti e ai modelli di formazione planetaria, mantenendo distinti dato misurato e ricostruzione storica."
+        ]
+      }
+    ],
+    "facts": [
+      "La stessa fascia ospita corpi con proprietà e storie differenti"
+    ],
+    "example": "La stessa fascia ospita corpi con proprietà e storie differenti",
+    "sources": [
+      {
+        "title": "Treccani · quadro terminologico generale; dettagli nelle fonti specifiche",
+        "url": "https://www.treccani.it/enciclopedia/asteroide/"
+      },
+      {
+        "title": "NASA · missione Dawn, Vesta e Cerere",
+        "url": "https://science.nasa.gov/mission/dawn/"
+      }
     ]
   },
   {
@@ -6023,6 +9017,63 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "densita-colonna",
+    "name": "Densità di colonna",
+    "definition": "La densità di colonna conta la quantità di una specie lungo una linea di vista per unità di superficie trasversale. È diversa dalla densità locale per unità di volume.",
+    "source": "https://www.treccani.it/enciclopedia/densita/",
+    "lesson": "lezione-5-4.html",
+    "related": [
+      "densita",
+      "gas-interstellare",
+      "riga-spettrale"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Guardare attraverso una profondità",
+        "paragraphs": [
+          "Quando osserviamo una nube, il segnale può comprendere materiale distribuito lungo il percorso della luce. La densità di colonna riassume quante particelle di una specie si trovino in una colonna ideale con una determinata area trasversale. Non descrive una colonna solida visibile nella fotografia. È un modo di raccogliere l’informazione lungo la linea di vista, senza pretendere di conoscere già la posizione di ogni particella dentro la nube."
+        ]
+      },
+      {
+        "title": "Un esempio geometrico semplice",
+        "paragraphs": [
+          "In uno strato uniforme, la densità di colonna numerica è densità volumica numerica × lunghezza attraversata. Se si contano 10 particelle per centimetro cubo lungo 100 centimetri, risultano 1.000 particelle per centimetro quadrato. L’esempio è soltanto didattico. Se la distribuzione non è uniforme, si sommano i contributi dei vari tratti, invece di attribuire a tutto il percorso una densità locale scelta arbitrariamente."
+        ]
+      },
+      {
+        "title": "Lo stesso totale non rivela tutta la struttura",
+        "paragraphs": [
+          "Uno strato poco denso ma molto lungo può avere la stessa densità di colonna di uno più denso e sottile. La misura non separa automaticamente le due geometrie. Per ricavare la densità locale occorrono informazioni aggiuntive o ipotesi sulla profondità. Anche il segnale di una riga dipende da eccitazione e trasferimento radiativo, quindi intensità osservata e numero di particelle non sono sempre direttamente proporzionali."
+        ]
+      },
+      {
+        "title": "Dire quale specie viene contata",
+        "paragraphs": [
+          "Una densità di colonna può riferirsi a idrogeno atomico, a una molecola o a uno stato particolare. Le unità e il soggetto devono essere espliciti. Convertire la misura di una specie nella quantità totale di gas richiede ulteriori relazioni e può introdurre incertezza. La voce aiuta così a leggere le mappe astronomiche: una zona ricca di segnale può raccontare una grande quantità di materiale attraversato, senza stabilire da sola quanto sia addensato in ogni punto."
+        ]
+      }
+    ],
+    "facts": [
+      "Una colonna lunga e rarefatta può contenere tante particelle quanto una corta e densa"
+    ],
+    "example": "Una colonna lunga e rarefatta può contenere tante particelle quanto una corta e densa",
+    "sources": [
+      {
+        "title": "Treccani · quadro terminologico generale; dettagli nelle fonti specifiche",
+        "url": "https://www.treccani.it/enciclopedia/densita/"
+      },
+      {
+        "title": "NRAO · righe spettrali e densità di colonna",
+        "url": "https://www.cv.nrao.edu/~sransom/web/Ch7.html"
+      }
+    ],
+    "aliases": [
+      "densità colonnare"
+    ]
+  },
+  {
     "id": "deriva-allineamento",
     "name": "Deriva stellare, allineamento",
     "definition": "Il metodo della deriva stellare valuta l’allineamento polare di una montatura equatoriale osservando una tendenza del movimento delle stelle in condizioni controllate.",
@@ -6079,6 +9130,122 @@ window.AdAstraGlossary = [
       "metodo della deriva",
       "allineamento con la deriva",
       "drift alignment"
+    ]
+  },
+  {
+    "id": "desorbimento",
+    "name": "Desorbimento",
+    "definition": "Il desorbimento è il rilascio di particelle precedentemente trattenute su una superficie; può riportare nel gas molecole presenti sui grani interstellari.",
+    "source": "https://www.treccani.it/enciclopedia/desorbimento/",
+    "lesson": "lezione-5-4.html",
+    "related": [
+      "adsorbimento",
+      "polvere-interstellare",
+      "fotone"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Lasciare una superficie",
+        "paragraphs": [
+          "Una molecola adsorbita non è necessariamente immobilizzata per tutta la vita del granello. Se acquisisce energia attraverso un processo adatto può abbandonare la superficie. Questo rilascio prende il nome di desorbimento. La definizione descrive un passaggio fisico; non stabilisce da sola quale meccanismo lo produca. In un ambiente astronomico occorre identificare sorgenti energetiche, condizioni del materiale e tempi durante i quali il processo può agire."
+        ]
+      },
+      {
+        "title": "Il riscaldamento è una possibilità",
+        "paragraphs": [
+          "Aumentando la temperatura, alcune specie lasciano più facilmente la superficie alla quale erano legate. Il comportamento dipende dall’energia del legame e dal materiale circostante. Non tutte le molecole vengono liberate alla stessa temperatura, né un rivestimento reale si comporta sempre come un ghiaccio puro ideale. Nei luoghi di formazione stellare, il riscaldamento dei grani può modificare la distribuzione delle specie fra il gas e la componente solida."
+        ]
+      },
+      {
+        "title": "Anche un ambiente freddo può restituire gas",
+        "paragraphs": [
+          "Esistono meccanismi non termici, fra cui il rilascio indotto dalla radiazione ultravioletta studiato in laboratorio. L’energia può essere assorbita e trasferita in modi diversi: non bisogna immaginare che ogni fotone espella sempre una molecola identica. Gli esperimenti misurano rese e prodotti in condizioni definite. Questo aiuta a comprendere la presenza di gas in regioni dove una spiegazione fondata soltanto sul riscaldamento del ghiaccio sarebbe insufficiente."
+        ]
+      },
+      {
+        "title": "Conservare la distinzione fra processi",
+        "paragraphs": [
+          "Liberare una molecola e spezzarla sono eventi differenti, anche se possono avvenire nello stesso ambiente irradiato. Una parte del materiale può tornare nel gas integra e un’altra essere trasformata. I modelli devono confrontare questi percorsi con osservazioni e misure sperimentali. Il desorbimento è quindi uno dei ponti fra ghiaccio e gas, non un meccanismo che crea materia: cambia dove si trova la sostanza e, in certi casi, quali prodotti diventano osservabili."
+        ]
+      }
+    ],
+    "facts": [
+      "Il ritorno al gas può avvenire anche attraverso processi non termici"
+    ],
+    "example": "Il ritorno al gas può avvenire anche attraverso processi non termici",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/desorbimento/"
+      },
+      {
+        "title": "SOLEIL · esperimenti sul ritorno delle molecole dai ghiacci al gas",
+        "url": "https://www.synchrotron-soleil.fr/en/news/why-do-telescopes-detect-gaz-where-there-should-only-be-dust-and-ice"
+      },
+      {
+        "title": "Studio sperimentale · fotodesorbimento dei ghiacci interstellari",
+        "url": "https://arxiv.org/abs/1312.4571"
+      }
+    ]
+  },
+  {
+    "id": "deuterio",
+    "name": "Deuterio",
+    "definition": "Il deuterio è l’isotopo stabile dell’idrogeno con un protone e un neutrone nel nucleo; si indica con ²H o D.",
+    "source": "https://www.treccani.it/enciclopedia/deuterio/",
+    "lesson": "lezione-3-6.html",
+    "related": [
+      "idrogeno",
+      "isotopo",
+      "nucleosintesi"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Idrogeno con un neutrone in più",
+        "paragraphs": [
+          "Il nucleo dell’idrogeno più comune contiene un protone e nessun neutrone. Nel deuterio compare anche un neutrone, mentre il numero di protoni resta uno. Si tratta quindi dello stesso elemento chimico, ma di un isotopo differente. Un atomo neutro di deuterio possiede un elettrone. Non bisogna confondere l’aggiunta del neutrone con l’acquisto di un elettrone, che cambierebbe invece la carica della specie."
+        ]
+      },
+      {
+        "title": "Molecole con una massa diversa",
+        "paragraphs": [
+          "Il deuterio può entrare nelle molecole al posto dell’idrogeno più comune. Acqua con uno o due atomi di deuterio ha proprietà e firme spettrali differenti rispetto alla forma più abbondante. La sostituzione isotopica non inventa un nuovo elemento, ma cambia masse e comportamento di alcuni processi. Scrivere acqua pesante richiede di precisare la composizione: non significa genericamente acqua sporca, ricca di sali o con molta pressione."
+        ]
+      },
+      {
+        "title": "Una traccia della storia cosmica",
+        "paragraphs": [
+          "Il deuterio ha un ruolo nella nucleosintesi primordiale e può essere distrutto nei processi stellari appropriati. Le sue abbondanze aiutano a confrontare modelli e storia della materia. In altri contesti, il rapporto fra deuterio e idrogeno in acqua offre indizi sull’origine e sull’evoluzione dei materiali del Sistema solare. Un singolo valore non costituisce però un certificato univoco del luogo di nascita di una cometa o di tutta l’acqua terrestre."
+        ]
+      },
+      {
+        "title": "Confronti da interpretare",
+        "paragraphs": [
+          "Le misure devono dichiarare quale materiale e quale regione siano stati campionati. La chioma di una cometa non è automaticamente equivalente a ogni parte del nucleo, e le interpretazioni possono cambiare con nuovi dati e modelli. Nel glossario il dato isotopico va collegato alla domanda scientifica e alle condizioni della misura. Il fascino sta nel riconoscere che una differenza minuscola nel nucleo può conservare informazioni su ambienti molto lontani nel tempo."
+        ]
+      }
+    ],
+    "facts": [
+      "Deuterio e idrogeno ordinario differiscono nei neutroni, non nel numero di protoni"
+    ],
+    "example": "Deuterio e idrogeno ordinario differiscono nei neutroni, non nel numero di protoni",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/deuterio/"
+      },
+      {
+        "title": "RSC · isotopi dell’idrogeno",
+        "url": "https://periodic-table.rsc.org/element/1/hydrogen"
+      },
+      {
+        "title": "NASA · rapporto isotopico nell’acqua cometaria",
+        "url": "https://science.nasa.gov/solar-system/comets/nasa-led-team-links-comet-water-to-earths-oceans/"
+      }
     ]
   },
   {
@@ -6356,6 +9523,122 @@ window.AdAstraGlossary = [
       {
         "title": "Treccani · riferimento terminologico",
         "url": "https://www.treccani.it/enciclopedia/diffusione/"
+      }
+    ]
+  },
+  {
+    "id": "dilatazione-temporale",
+    "name": "Dilatazione temporale",
+    "definition": "La dilatazione temporale indica differenze fra durate misurate o accumulate da orologi in condizioni di moto o gravità differenti, secondo le relazioni della relatività.",
+    "source": "https://www.treccani.it/enciclopedia/relativita/",
+    "lesson": "lezione-10-3.html",
+    "related": [
+      "relativita-ristretta",
+      "relativita-generale",
+      "spaziotempo"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Confrontare orologi con una procedura",
+        "paragraphs": [
+          "Per affermare che due orologi segnino tempi differenti bisogna specificare eventi, sincronizzazione, riferimento e percorso. Non basta vedere arrivare lentamente un’immagine da lontano. Il ritardo di propagazione della luce è un problema distinto dagli effetti relativistici sugli intervalli. La dilatazione temporale riguarda relazioni fra misure fisiche, non soltanto un’illusione visiva prodotta da una videocamera o un guasto dell’orologio."
+        ]
+      },
+      {
+        "title": "Il caso del moto relativo",
+        "paragraphs": [
+          "Nella relatività speciale, un osservatore inerziale attribuisce a un orologio in moto un ritmo più lento rispetto agli orologi sincronizzati nel proprio riferimento. Il confronto può essere reciproco fra osservatori inerziali. Non è una contraddizione perché anche la simultaneità fra eventi lontani dipende dal riferimento. Quando gli orologi si separano e poi si ritrovano, occorre confrontare l’intera storia dei percorsi, invece di applicare una frase isolata sul movimento."
+        ]
+      },
+      {
+        "title": "Anche la gravità entra nel confronto",
+        "paragraphs": [
+          "Nella relatività generale possono esserci differenze fra ritmi di orologi situati a potenziali gravitazionali diversi. Non serve sempre un grande moto relativo per produrre un effetto. La descrizione deve precisare la geometria e il confronto utilizzato. L’orologio locale continua a scandire normalmente il proprio tempo: non avverte di essere rallentato rispetto a una misura esterna. L’effetto emerge dal confronto fra percorsi o posizioni, non da una sensazione interna di tempo alterato."
+        ]
+      },
+      {
+        "title": "Un concetto misurabile senza fantascienza",
+        "paragraphs": [
+          "Gli effetti temporali fanno parte della fisica degli orologi precisi e dei sistemi spaziali. Non implicano che sia disponibile un dispositivo per visitare liberamente qualsiasi epoca o invertire il tempo. In astronomia il concetto contribuisce alla lettura di segnali e fenomeni compatti. La voce introduce il principio prima delle formule: si stabilisce quali durate si confrontino, poi si applica il modello pertinente. Questo ordine evita di trasformare la frase il tempo rallenta in uno slogan privo delle condizioni che lo rendono significativo."
+        ]
+      }
+    ],
+    "facts": [
+      "Il tempo locale di un orologio non appare rallentato a chi lo accompagna: la differenza emerge dal confronto"
+    ],
+    "example": "Il tempo locale di un orologio non appare rallentato a chi lo accompagna: la differenza emerge dal confronto",
+    "sources": [
+      {
+        "title": "Treccani · quadro terminologico generale; dettagli nelle fonti specifiche",
+        "url": "https://www.treccani.it/enciclopedia/relativita/"
+      },
+      {
+        "title": "Einstein Online · dilatazione temporale e reciprocità",
+        "url": "https://www.einstein-online.info/en/explandict/time-dilation/"
+      },
+      {
+        "title": "Stanford Gravity Probe B · differenze gravitazionali fra orologi",
+        "url": "https://einstein.stanford.edu/content/relativity/q993.html"
+      }
+    ]
+  },
+  {
+    "id": "dipolo-elettrico",
+    "name": "Dipolo elettrico",
+    "definition": "Un dipolo elettrico descrive una separazione di carica positiva e negativa; il suo momento misura intensità e orientamento della distribuzione. È importante anche nella spettroscopia molecolare.",
+    "source": "https://www.treccani.it/enciclopedia/dipolo/",
+    "lesson": "lezione-5-4.html",
+    "related": [
+      "molecola",
+      "vettore",
+      "spettroscopia"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Una distribuzione può essere neutra e asimmetrica",
+        "paragraphs": [
+          "Un sistema può avere carica totale nulla e presentare una separazione fra la distribuzione positiva e quella negativa. Il modello più semplice considera due cariche uguali e opposte separate da una distanza. Il momento di dipolo elettrico è una grandezza orientata. La neutralità non implica quindi che ogni effetto elettrico scompaia: bisogna distinguere la somma delle cariche dal modo in cui esse sono distribuite nello spazio."
+        ]
+      },
+      {
+        "title": "Le molecole non sono palline uniformi",
+        "paragraphs": [
+          "Nelle molecole nuclei ed elettroni producono una distribuzione di carica. Legami e geometria determinano se rimanga un momento di dipolo permanente complessivo. Legami singolarmente polari possono compensarsi in una struttura simmetrica, quindi non basta riconoscere una differenza fra due atomi per concludere che l’intera molecola sia polare. L’immagine deve rappresentare la geometria pertinente, evitando di disegnare una freccia netta soltanto perché la formula contiene elementi differenti."
+        ]
+      },
+      {
+        "title": "Il collegamento con le righe",
+        "paragraphs": [
+          "La presenza di un dipolo permanente permette importanti transizioni rotazionali elettriche delle molecole. Specie biatomiche omonucleari come H₂ non possiedono questo dipolo permanente e non mostrano quelle stesse transizioni. Non significa che non possano emettere alcuna radiazione attraverso altri processi. La distinzione spiega perché molecole diverse richiedano bande e strategie osservative differenti, e perché una specie molto abbondante possa essere difficile da osservare in un particolare regime."
+        ]
+      },
+      {
+        "title": "Momento, unità e campo",
+        "paragraphs": [
+          "Nel modello di due cariche il valore del momento dipolare è carica × separazione, con unità SI coulomb metro. Non è un momento meccanico in newton metro, malgrado la parola comune. Un campo elettrico può anche modificare la distribuzione e indurre un dipolo. La voce completa così due collegamenti: dalla geometria alla risposta elettrica e da questa alla luce osservata. Specificare se il dipolo sia permanente o indotto permette di evitare generalizzazioni sul comportamento di tutte le molecole."
+        ]
+      }
+    ],
+    "facts": [
+      "Una molecola neutra può avere un dipolo elettrico; la neutralità non implica distribuzione simmetrica"
+    ],
+    "example": "Una molecola neutra può avere un dipolo elettrico; la neutralità non implica distribuzione simmetrica",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/dipolo/"
+      },
+      {
+        "title": "NRAO · molecole, dipolo e transizioni rotazionali",
+        "url": "https://safe.nrao.edu/wiki/pub/Main/RadioTutorial/Wilson_submm.pdf"
+      },
+      {
+        "title": "NIST · dati e energetica delle specie molecolari",
+        "url": "https://webbook.nist.gov/chemistry/ion/"
       }
     ]
   },
@@ -6931,6 +10214,60 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "ebollizione",
+    "name": "Ebollizione",
+    "definition": "L’ebollizione è la vaporizzazione che avviene con formazione di bolle di vapore nel liquido, a condizioni determinate da temperatura e pressione.",
+    "source": "https://www.treccani.it/enciclopedia/ebollizione/",
+    "lesson": "lezione-3-2.html",
+    "related": [
+      "pressione",
+      "evaporazione",
+      "acqua"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Bolle dentro il liquido",
+        "paragraphs": [
+          "Nell’ebollizione il passaggio alla fase gassosa interessa anche l’interno del liquido attraverso la formazione di bolle di vapore. È questa la differenza introduttiva rispetto all’evaporazione dalla superficie. Non ogni bolla osservata è però una prova di ebollizione: può trattarsi anche di gas disciolto che viene liberato. Una spiegazione deve quindi collegare l’aspetto visibile alle condizioni fisiche, anziché identificare il fenomeno esclusivamente dalla forma di una fotografia."
+        ]
+      },
+      {
+        "title": "La temperatura dipende dalla pressione",
+        "paragraphs": [
+          "L’acqua bolle intorno a 100 °C alla pressione atmosferica normale, ma quel numero non vale in ogni ambiente. Riducendo la pressione, la temperatura di ebollizione diminuisce; aumentandola, cresce. Non è la natura dell’acqua a cambiare arbitrariamente: cambia la condizione nella quale la fase gassosa può svilupparsi nel liquido. Il dato di una tabella deve perciò essere accompagnato dalla pressione di riferimento, soprattutto quando viene usato per discutere ambienti planetari."
+        ]
+      },
+      {
+        "title": "Bollire non significa soltanto scaldare",
+        "paragraphs": [
+          "Una volta raggiunte le condizioni di ebollizione, altra energia può alimentare il passaggio di stato anziché far crescere allo stesso modo la temperatura. Per sapere quanto liquido vaporizzi bisogna considerare energia disponibile e scambi con l’ambiente. Anche la rapidità del processo conta nella descrizione reale. Il punto da ricordare è che temperatura e quantità di energia trasferita non sono due nomi dello stesso dato: un termometro non misura direttamente quanta materia stia cambiando fase."
+        ]
+      },
+      {
+        "title": "Un confronto utile fra mondi",
+        "paragraphs": [
+          "Parlare di acqua liquida su un pianeta richiede valutare almeno pressione e temperatura, oltre a composizione e durata delle condizioni. Non basta confrontare la distanza dal Sole con l’esperienza di una pentola terrestre. Il concetto di ebollizione aiuta a rendere concreta questa cautela: la stabilità di una fase dipende dall’ambiente. Una figura divulgativa può confrontare condizioni diverse senza rappresentare ogni corpo planetario come se possedesse la stessa atmosfera e la stessa pressione della Terra."
+        ]
+      }
+    ],
+    "facts": [
+      "100 °C è un riferimento per l’acqua a pressione atmosferica normale, non un valore universale"
+    ],
+    "example": "100 °C è un riferimento per l’acqua a pressione atmosferica normale, non un valore universale",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/ebollizione/"
+      },
+      {
+        "title": "Treccani · distinzione dall’evaporazione superficiale",
+        "url": "https://www.treccani.it/enciclopedia/evaporazione/"
+      }
+    ]
+  },
+  {
     "id": "eccentricita",
     "name": "Eccentricità",
     "definition": "L’eccentricità descrive la forma di una conica. Nelle orbite ellittiche indica quanto la forma si discosta da una circonferenza, senza dipendere dalle dimensioni dell’orbita.",
@@ -7308,6 +10645,70 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "einstein-albert",
+    "name": "Einstein, Albert",
+    "definition": "Albert Einstein (1879–1955) sviluppò la relatività ristretta e generale e contribuì alla fisica quantistica della luce, con conseguenze centrali per l’astrofisica e la cosmologia.",
+    "source": "https://www.treccani.it/enciclopedia/albert-einstein_(Enciclopedia-dei-ragazzi)/",
+    "lesson": "lezione-6-5.html",
+    "related": [
+      "gravitazione",
+      "equivalenza-massa-energia",
+      "fotone"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Più di una formula celebre",
+        "paragraphs": [
+          "Il nome di Einstein viene spesso associato a E = mc², ma il suo lavoro comprende problemi differenti. Nel 1905 pubblicò contributi sulla luce, sul moto browniano e sulla relatività ristretta. Questi risultati non sono una sola spiegazione da applicare indistintamente a qualunque fenomeno. La biografia aiuta a collegare idee e domande: come descrivere luce e materia, come confrontare misure di osservatori diversi e quali relazioni fisiche restino valide."
+        ]
+      },
+      {
+        "title": "Spazio, tempo e gravità",
+        "paragraphs": [
+          "La relatività ristretta modifica il quadro delle misure di spazio e tempo; quella generale descrive la gravità attraverso la geometria dello spaziotempo. La formulazione della teoria generale raggiunse una tappa decisiva nel 1915. Non significa che qualsiasi disegno con un telo elastico mostri letteralmente il funzionamento dell’Universo. Le analogie devono dichiarare ciò che rappresentano e i propri limiti, invece di introdurre una gravità esterna per spiegare la gravità stessa."
+        ]
+      },
+      {
+        "title": "La luce come prova e messaggero",
+        "paragraphs": [
+          "La deviazione gravitazionale della luce, le lenti e i cambiamenti dei tempi permettono confronti osservativi con la teoria. Queste misure non furono tutte realizzate da Einstein e non costituiscono una singola fotografia definitiva. Il lavoro sul quanto di luce contribuì inoltre a interpretare l’effetto fotoelettrico. Il Nobel per la fisica del 1921 è associato in particolare a quel contributo, non va presentato semplicemente come premio assegnato per la relatività."
+        ]
+      },
+      {
+        "title": "Una figura storica dentro una ricerca collettiva",
+        "paragraphs": [
+          "Einstein lavorò attraverso confronti, corrispondenze e dibattiti con altri studiosi. La fama non rende ogni frase attribuita a lui autentica né ogni sua ipotesi automaticamente confermata. In astronomia le teorie vengono utilizzate e messe alla prova in regimi specifici. La voce conserva il legame fra persona e concetti senza affidarsi al mito del genio isolato: una descrizione nuova acquista valore quando produce conseguenze verificabili e permette di comprendere misure che il quadro precedente non spiegava adeguatamente."
+        ]
+      }
+    ],
+    "facts": [
+      "Il Nobel del 1921 è legato in particolare alla legge dell’effetto fotoelettrico"
+    ],
+    "example": "Il Nobel del 1921 è legato in particolare alla legge dell’effetto fotoelettrico",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/albert-einstein_(Enciclopedia-dei-ragazzi)/"
+      },
+      {
+        "title": "University of St Andrews · Einstein, risultati e contesto",
+        "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Einstein/"
+      },
+      {
+        "title": "Nobel Prize · motivazione del premio del 1921",
+        "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/facts/"
+      }
+    ],
+    "aliases": [
+      "Albert Einstein"
+    ],
+    "linkNames": [
+      "Albert Einstein"
+    ]
+  },
+  {
     "id": "elemento-chimico",
     "name": "Elemento chimico",
     "definition": "Un elemento chimico è identificato dal numero di protoni dei suoi nuclei; atomi con lo stesso numero atomico appartengono allo stesso elemento.",
@@ -7428,6 +10829,119 @@ window.AdAstraGlossary = [
     ],
     "aliases": [
       "elettroni"
+    ]
+  },
+  {
+    "id": "elettronegativita",
+    "name": "Elettronegatività",
+    "definition": "L’elettronegatività descrive la tendenza di un atomo coinvolto in un legame ad attrarre verso di sé la densità elettronica condivisa.",
+    "source": "https://www.treccani.it/enciclopedia/elettronegativita/",
+    "lesson": "lezione-3-6.html",
+    "related": [
+      "legame-chimico",
+      "molecola",
+      "elettrone"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un legame può essere asimmetrico",
+        "paragraphs": [
+          "Quando due atomi partecipano a un legame, gli elettroni non devono essere distribuiti simmetricamente fra loro. Una differenza di elettronegatività aiuta a descrivere questa asimmetria. L’analogia di una corda tirata da due lati può essere intuitiva, purché non si confondano gli elettroni con palline ferme a metà strada. Il concetto riguarda una descrizione quantistica del legame, tradotta in una proprietà utile per confrontare il comportamento chimico degli atomi."
+        ]
+      },
+      {
+        "title": "Una scala, non una nuova carica",
+        "paragraphs": [
+          "Esistono diverse definizioni e scale di elettronegatività. I numeri devono essere confrontati all’interno della stessa scala e con attenzione al contesto chimico. Un atomo più elettronegativo non possiede per questo un numero maggiore di elettroni in ogni situazione. Numero atomico, carica dello ione ed elettronegatività sono proprietà distinte. Anche l’energia richiesta per strappare un elettrone a un atomo isolato risponde a una domanda diversa da quella sul suo comportamento in un legame."
+        ]
+      },
+      {
+        "title": "Dalla polarità alla molecola",
+        "paragraphs": [
+          "Una distribuzione asimmetrica può rendere un legame polare. La polarità complessiva della molecola dipende anche dalla sua geometria: contributi di legami diversi possono sommarsi oppure compensarsi. Per questo non basta conoscere un singolo legame per prevedere ogni proprietà della molecola. Acqua e anidride carbonica offrono un confronto utile quando si illustrano struttura e simmetria. Il disegno deve conservare la geometria rilevante invece di disporre gli atomi soltanto per riempire lo spazio."
+        ]
+      },
+      {
+        "title": "Il collegamento con l’astrochimica",
+        "paragraphs": [
+          "Distribuzione delle cariche e proprietà molecolari contribuiscono a determinare quali transizioni e interazioni siano possibili. Il rilevamento delle molecole astronomiche dipende però da condizioni, popolazioni dei livelli e sensibilità strumentale, non da un unico numero di elettronegatività. Questo termine aiuta a costruire il ragionamento sui materiali e sui legami; non sostituisce l’analisi spettrale. Nella scheda conviene partire dalla condivisione degli elettroni e arrivare gradualmente alle conseguenze osservabili, distinguendo previsione qualitativa e misura."
+        ]
+      }
+    ],
+    "facts": [
+      "La polarità di una molecola dipende anche dalla geometria, non soltanto dai singoli legami"
+    ],
+    "example": "La polarità di una molecola dipende anche dalla geometria, non soltanto dai singoli legami",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/elettronegativita/"
+      },
+      {
+        "title": "Royal Society of Chemistry · proprietà e andamenti degli elementi",
+        "url": "https://periodic-table.rsc.org/"
+      }
+    ]
+  },
+  {
+    "id": "elettronvolt",
+    "name": "Elettronvolt",
+    "definition": "L’elettronvolt, simbolo eV, è un’unità di energia pari all’energia acquistata da una carica elementare attraversando una differenza di potenziale di un volt nel caso appropriato.",
+    "source": "https://www.treccani.it/enciclopedia/elettronvolt/",
+    "lesson": "lezione-4-3.html",
+    "related": [
+      "volt",
+      "fotone",
+      "joule"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un’energia adatta al microscopico",
+        "paragraphs": [
+          "Il joule è spesso grande rispetto alle energie dei singoli atomi o fotoni. L’elettronvolt offre una scala più comoda. Non è una tensione: il nome conserva il legame storico fra carica e differenza di potenziale, ma la grandezza espressa è energia. Anche un fotone, che non ha carica elettrica, può avere energia indicata in elettronvolt. L’unità non limita quindi la misura ai soli elettroni."
+        ]
+      },
+      {
+        "title": "Il rapporto con il joule",
+        "paragraphs": [
+          "Un elettronvolt corrisponde esattamente a 1,602176634 × 10⁻¹⁹ joule nel SI attuale. Per il primo confronto basta ricordare che è una quantità minuscola su scala quotidiana. Moltiplicare per mille dà il chiloelettronvolt, indicato keV; un milione di elettronvolt costituisce un MeV. I prefissi vanno letti con attenzione perché caratterizzano energie molto differenti nei fenomeni atomici, nucleari e astronomici."
+        ]
+      },
+      {
+        "title": "Dal fotone allo spettro",
+        "paragraphs": [
+          "L’energia del fotone cresce con la sua frequenza. Spettri X e gamma vengono spesso descritti direttamente in energie, mentre altri grafici usano lunghezza d’onda. Le rappresentazioni sono collegate, ma il verso degli assi e la trasformazione delle grandezze devono essere controllati. Una riga a una certa energia non rivela da sola tutta la storia della sorgente: servono attribuzione della transizione, condizioni del gas e confronto con le altre informazioni osservate."
+        ]
+      },
+      {
+        "title": "Una cifra non è una temperatura automatica",
+        "paragraphs": [
+          "Energia di una particella, energia di un fotone e temperatura di un gas sono concetti collegabili soltanto attraverso condizioni e modelli appropriati. Non si deve trasformare ogni numero in eV nella temperatura diretta dell’oggetto fotografato. Anche un’energia di ionizzazione descrive una soglia del processo considerato, non il colore visibile della sostanza. Leggere prima la grandezza e poi l’unità aiuta a capire le notizie senza confondere fenomeni fisicamente differenti."
+        ]
+      }
+    ],
+    "facts": [
+      "eV è un’unità di energia; V è un’unità di tensione"
+    ],
+    "example": "eV è un’unità di energia; V è un’unità di tensione",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/elettronvolt/"
+      },
+      {
+        "title": "NIST · costanti e conversioni energetiche",
+        "url": "https://physics.nist.gov/cuu/Constants/"
+      }
+    ],
+    "aliases": [
+      "elettronvolts",
+      "chiloelettronvolt",
+      "megaelettronvolt"
     ]
   },
   {
@@ -7816,6 +11330,118 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "energia-attivazione",
+    "name": "Energia di attivazione",
+    "definition": "L’energia di attivazione caratterizza la barriera energetica associata a un percorso di reazione e aiuta a comprendere perché una trasformazione possibile possa essere molto lenta.",
+    "source": "https://www.treccani.it/enciclopedia/energia-di-attivazione_(Enciclopedia-della-Scienza-e-della-Tecnica)/",
+    "lesson": "lezione-5-4.html",
+    "related": [
+      "catalisi",
+      "energia",
+      "molecola"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Possibile non significa rapido",
+        "paragraphs": [
+          "Due reagenti possono dare prodotti energeticamente favorevoli senza trasformarsi immediatamente. Per procedere lungo un certo percorso devono attraversare configurazioni intermedie: la barriera energetica aiuta a descrivere questo ostacolo. L’energia di attivazione non è semplicemente l’energia totale contenuta nei prodotti. Distingue invece la difficoltà del percorso dalla differenza energetica fra la situazione iniziale e quella finale. Sono due domande diverse: dove si arriva e quanto facilmente si può arrivare."
+        ]
+      },
+      {
+        "title": "Il disegno della collina",
+        "paragraphs": [
+          "Un diagramma può rappresentare l’energia come una collina fra reagenti e prodotti. L’asse orizzontale indica l’avanzamento lungo un percorso di reazione, non una distanza reale da percorrere su un paesaggio. Lo stato di transizione non è necessariamente una molecola stabile conservabile in un contenitore. L’analogia è utile se queste limitazioni sono dichiarate: altrimenti il lettore potrebbe attribuire agli atomi una traiettoria geometrica che il disegno non intende descrivere."
+        ]
+      },
+      {
+        "title": "Temperatura e velocità",
+        "paragraphs": [
+          "Aumentando la temperatura può crescere la frazione di incontri con energia sufficiente per una trasformazione. Questo non autorizza a usare una regola identica per ogni reazione: contano anche meccanismo, orientazione, ambiente e specie coinvolte. Nell’introduzione non serve calcolare esponenziali; si può confrontare una situazione in cui pochi incontri sono efficaci con un’altra in cui lo diventano più spesso. Il numero di urti da solo non garantisce che avvenga la reazione desiderata."
+        ]
+      },
+      {
+        "title": "La chimica del freddo",
+        "paragraphs": [
+          "Nelle nubi interstellari fredde alcune reazioni procedono attraverso vie differenti da quelle più intuitive in laboratorio. Superfici, ioni e fenomeni quantistici possono essere importanti; non si può dichiarare che ogni reazione si arresti soltanto perché la temperatura è bassa. Una spiegazione astrochimica deve indicare il meccanismo proposto e il suo campo di validità. L’energia di attivazione è quindi un criterio per formulare domande sui tempi chimici, non un divieto universale alla formazione di molecole nello spazio."
+        ]
+      }
+    ],
+    "facts": [
+      "Una reazione energeticamente favorevole può essere lenta se il suo percorso presenta una barriera"
+    ],
+    "example": "Una reazione energeticamente favorevole può essere lenta se il suo percorso presenta una barriera",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/energia-di-attivazione_(Enciclopedia-della-Scienza-e-della-Tecnica)/"
+      },
+      {
+        "title": "Treccani · cinetica chimica e percorsi di reazione",
+        "url": "https://www.treccani.it/enciclopedia/cinetica-chimica_(Enciclopedia-del-Novecento)/"
+      }
+    ]
+  },
+  {
+    "id": "energia-ionizzazione",
+    "name": "Energia di ionizzazione",
+    "definition": "L’energia di ionizzazione è l’energia necessaria per rimuovere un elettrone da una specie isolata nello stato specificato. Il valore dipende dalla specie e dallo stato iniziale.",
+    "source": "https://www.treccani.it/enciclopedia/ionizzazione/",
+    "lesson": "lezione-4-3.html",
+    "related": [
+      "ionizzazione",
+      "elettronvolt",
+      "eccitazione-atomica"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Togliere un elettrone richiede un bilancio",
+        "paragraphs": [
+          "Un elettrone legato a un atomo non si separa senza un trasferimento energetico appropriato. L’energia di ionizzazione quantifica la soglia del processo per lo stato considerato. Non va confusa con l’energia necessaria a spostare l’elettrone fra due stati legati: in quel caso si parla di eccitazione. Anche rompere una molecola e ionizzarla sono trasformazioni distinte, sebbene possano essere combinate in alcuni processi."
+        ]
+      },
+      {
+        "title": "Un numero concreto per l’idrogeno",
+        "paragraphs": [
+          "Per l’idrogeno atomico nel suo stato fondamentale la prima energia di ionizzazione è circa 13,6 eV. Il valore non appartiene automaticamente alla molecola H₂ o a un atomo già eccitato. L’elettronvolt è un’unità di energia e non una tensione elettrica. Il numero descrive una proprietà del processo: non significa che ogni fotone che raggiunge il gas provochi sicuramente un’ionizzazione, perché conta anche la probabilità di interazione."
+        ]
+      },
+      {
+        "title": "Prima e successive ionizzazioni",
+        "paragraphs": [
+          "Rimuovere il primo elettrone da un atomo neutro e rimuoverne un altro dallo ione risultante richiede valori differenti. Per questo le tabelle distinguono gli stadi. Dire semplicemente l’energia dell’elemento senza specificare il processo lascia un’ambiguità. Le configurazioni elettroniche e lo stato iniziale influenzano il risultato. La nomenclatura deve mantenere separati il numero atomico, che identifica i protoni, e la carica ionica, che dipende dal bilancio degli elettroni."
+        ]
+      },
+      {
+        "title": "Il collegamento con il cielo",
+        "paragraphs": [
+          "La radiazione e le collisioni possono produrre ionizzazione negli ambienti astronomici. Quali ioni prevalgano dipende anche da densità, temperatura e processi di ricombinazione. La soglia energetica non è quindi un termometro universale da convertire direttamente nella temperatura dell’intera nube. Nel percorso divulgativo questa voce permette di leggere le firme del gas come conseguenza di condizioni fisiche, distinguendo l’energia del singolo evento dall’equilibrio o dall’evoluzione di una grande popolazione di particelle."
+        ]
+      }
+    ],
+    "facts": [
+      "Idrogeno atomico fondamentale: prima ionizzazione circa 13,6 eV"
+    ],
+    "example": "Idrogeno atomico fondamentale: prima ionizzazione circa 13,6 eV",
+    "sources": [
+      {
+        "title": "Treccani · quadro terminologico generale; dettagli nelle fonti specifiche",
+        "url": "https://www.treccani.it/enciclopedia/ionizzazione/"
+      },
+      {
+        "title": "NIST · energie di ionizzazione",
+        "url": "https://www.nist.gov/pml/ground-levels-and-ionization-energies-neutral-atoms"
+      },
+      {
+        "title": "NIST · dati atomici dell’idrogeno",
+        "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/hydrogentable1.htm"
+      }
+    ]
+  },
+  {
     "id": "energia-oscura",
     "name": "Energia oscura",
     "definition": "Energia oscura è il nome dato alla componente o al meccanismo introdotto nei modelli cosmologici per descrivere l’espansione accelerata, la cui natura fisica resta oggetto di ricerca.",
@@ -7926,6 +11552,64 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "entropia",
+    "name": "Entropia",
+    "definition": "L’entropia è una grandezza di stato che descrive aspetti della distribuzione dell’energia e dei possibili stati microscopici; è fondamentale per comprendere la direzione dei processi termodinamici.",
+    "source": "https://www.treccani.it/enciclopedia/entropia/",
+    "lesson": "lezione-2-3.html",
+    "related": [
+      "calore",
+      "energia",
+      "temperatura"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Oltre la conservazione dell’energia",
+        "paragraphs": [
+          "La conservazione dell’energia non distingue da sola i processi che avvengono spontaneamente da quelli che richiedono un intervento. Un oggetto caldo può raffreddarsi nell’ambiente senza che l’energia scompaia. L’entropia permette di descrivere un altro aspetto del cambiamento. Non rappresenta energia perduta né una sostanza emessa dal corpo. Nel Sistema internazionale si misura in joule per kelvin, un’unità che non coincide con quella dell’energia."
+        ]
+      },
+      {
+        "title": "Il limite della parola disordine",
+        "paragraphs": [
+          "L’entropia viene spesso associata al disordine, ma questa immagine può essere fuorviante se intesa come disordine visivo di una stanza. La descrizione statistica considera i possibili stati microscopici compatibili con le condizioni macroscopiche. Per applicarla servono un sistema definito e un modello, non un giudizio estetico. Un’immagine di una nebulosa apparentemente caotica non permette quindi di leggerne direttamente l’entropia o di confrontarla con quella di una struttura più regolare."
+        ]
+      },
+      {
+        "title": "La condizione del sistema isolato",
+        "paragraphs": [
+          "Nel quadro termodinamico l’entropia totale di un sistema isolato non diminuisce; nei processi irreversibili aumenta. Una parte del sistema può invece diminuire la propria entropia scambiando energia o materia con l’esterno. Per questo la comparsa locale di una struttura ordinata non viola automaticamente il principio. Bisogna includere ambiente e scambi nel bilancio. La parola totale e la condizione di isolamento sono essenziali, non postille facoltative aggiunte dopo la spiegazione."
+        ]
+      },
+      {
+        "title": "Usarla senza farne una metafora universale",
+        "paragraphs": [
+          "I sistemi astronomici coinvolgono gravità, radiazione e materia spesso lontana dall’equilibrio. Non è corretto dedurre la loro intera evoluzione dall’idea che tutto debba diventare visivamente più disordinato. L’entropia entra nei modelli fisici con condizioni precise. In una prima lettura basta conservare una distinzione: l’energia si conserva nel bilancio appropriato, ma non tutte le trasformazioni sono equivalenti o spontaneamente reversibili. La voce prepara questa domanda senza richiedere al lettore formule statistiche avanzate."
+        ]
+      }
+    ],
+    "facts": [
+      "La regola di non diminuzione riguarda l’entropia totale di un sistema isolato"
+    ],
+    "example": "La regola di non diminuzione riguarda l’entropia totale di un sistema isolato",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/entropia/"
+      },
+      {
+        "title": "NIST · termodinamica statistica e stati molecolari",
+        "url": "https://cccbdb.nist.gov/thermox.asp"
+      },
+      {
+        "title": "Lorenzo Roi · Corso di astronomia 2, termodinamica",
+        "url": "https://www.lorenzoroi.net/prelievi/CorsoAstro2.pdf"
+      }
+    ]
+  },
+  {
     "id": "equatore-celeste",
     "name": "Equatore celeste",
     "definition": "Cerchio massimo della sfera celeste ottenuto prolungando il piano dell’equatore terrestre.",
@@ -7981,6 +11665,60 @@ window.AdAstraGlossary = [
     "editorialStatus": "scheda-estesa"
   },
   {
+    "id": "equilibrio-chimico",
+    "name": "Equilibrio chimico",
+    "definition": "L’equilibrio chimico è una condizione nella quale, a condizioni fissate, le trasformazioni diretta e inversa si compensano e la composizione macroscopica non cambia nel tempo.",
+    "source": "https://www.treccani.it/enciclopedia/equilibrio/",
+    "lesson": "lezione-5-4.html",
+    "related": [
+      "reazione-chimica",
+      "catalisi",
+      "equilibrio-termico"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Fermo nel complesso, attivo nelle trasformazioni",
+        "paragraphs": [
+          "All’equilibrio possono continuare processi microscopici in entrambe le direzioni. La costanza della composizione non richiede che ogni molecola rimanga immobile e non reagisca più. L’equilibrio è dinamico: nel bilancio le trasformazioni si compensano. Questa idea evita di leggere la doppia freccia di una reazione come un interruttore che alterna due stati separati. Diretta e inversa sono processi da confrontare nelle condizioni effettive del sistema."
+        ]
+      },
+      {
+        "title": "Le quantità non devono essere uguali",
+        "paragraphs": [
+          "Uguale rapidità delle trasformazioni opposte non significa uguale quantità di reagenti e prodotti. Un equilibrio può favorire fortemente alcune specie. Per sapere quale composizione sia compatibile con le condizioni servono dati e un modello appropriato. L’immagine di una bilancia con due contenitori identici è quindi incompleta se suggerisce che il numero delle molecole debba essere lo stesso da entrambe le parti. Si compensano i flussi di trasformazione, non necessariamente le popolazioni presenti."
+        ]
+      },
+      {
+        "title": "Cambiare le condizioni",
+        "paragraphs": [
+          "Temperatura, pressione e composizione possono influenzare la condizione di equilibrio. Una perturbazione richiede distinguere la variazione imposta dalla successiva risposta del sistema, senza attribuire alle molecole un’intenzione di contrastare il cambiamento. Un catalizzatore facilita il raggiungimento dell’equilibrio ma non ne modifica da solo la posizione a condizioni fissate. Il confronto fra prima e dopo è più chiaro se vengono dichiarati quali parametri cambiano e quali restano controllati."
+        ]
+      },
+      {
+        "title": "Quando l’approssimazione non basta",
+        "paragraphs": [
+          "Un ambiente astronomico può evolvere prima che certe reazioni raggiungano l’equilibrio. Inoltre radiazione e scambi possono mantenere condizioni lontane da esso. Non si può quindi assumere automaticamente una composizione di equilibrio per qualsiasi nube o atmosfera. Bisogna confrontare tempi chimici e tempi dell’evoluzione fisica. Questa domanda offre un collegamento naturale con la cinetica: l’equilibrio indica una condizione possibile, mentre la storia del sistema stabilisce se sia stata effettivamente raggiunta."
+        ]
+      }
+    ],
+    "facts": [
+      "All’equilibrio si compensano le trasformazioni, non devono essere uguali le quantità delle specie"
+    ],
+    "example": "All’equilibrio si compensano le trasformazioni, non devono essere uguali le quantità delle specie",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/equilibrio/"
+      },
+      {
+        "title": "CNR · significato dinamico dell’equilibrio",
+        "url": "https://almanacco.cnr.it/en/node/11855"
+      }
+    ]
+  },
+  {
     "id": "equilibrio-idrostatico",
     "name": "Equilibrio idrostatico",
     "definition": "L’equilibrio idrostatico descrive una configurazione in cui il gradiente di pressione bilancia la forza gravitazionale locale in un fluido.",
@@ -8028,6 +11766,68 @@ window.AdAstraGlossary = [
       {
         "title": "Treccani · riferimento terminologico",
         "url": "https://www.treccani.it/enciclopedia/stella/"
+      }
+    ]
+  },
+  {
+    "id": "equilibrio-termico",
+    "name": "Equilibrio termico",
+    "definition": "Due sistemi sono in equilibrio termico quando hanno la stessa temperatura e, messi in contatto termico nelle condizioni considerate, non presentano uno scambio netto di calore.",
+    "source": "https://www.treccani.it/enciclopedia/temperatura/",
+    "lesson": "lezione-7-6.html",
+    "related": [
+      "temperatura",
+      "calore",
+      "corpo-nero"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Quando lo scambio netto si arresta",
+        "paragraphs": [
+          "Se due corpi a temperature differenti possono scambiare energia, tendono verso una condizione comune quando il sistema e i vincoli lo consentono. L’equilibrio termico riguarda questa uguaglianza di temperatura. Non richiede che i corpi abbiano uguale massa, composizione o energia interna. Un piccolo oggetto e uno grande possono trovarsi alla stessa temperatura conservando proprietà e quantità di energia molto diverse."
+        ]
+      },
+      {
+        "title": "Il termometro deve avere tempo",
+        "paragraphs": [
+          "Un termometro a contatto con un corpo non restituisce necessariamente subito una misura rappresentativa della sua temperatura. Deve rispondere allo scambio e raggiungere condizioni adeguate. Il sensore può inoltre essere influenzato da radiazione, contatti o auto-riscaldamento. L’esempio rende concreto il concetto: misurare richiede capire l’interazione fra strumento e ambiente, non soltanto leggere un numero sul display. La rapidità della risposta dipende dal dispositivo e dalle condizioni."
+        ]
+      },
+      {
+        "title": "Temperatura costante non basta sempre",
+        "paragraphs": [
+          "Un sistema può mantenere una temperatura pressoché costante mentre riceve e perde continuamente energia. Questa situazione stazionaria non coincide automaticamente con equilibrio termico con ogni parte dell’ambiente. Un componente alimentato può dissipare energia senza raffreddarsi ulteriormente. Anche una superficie sotto il cielo può avere un bilancio stabile a temperatura diversa dall’aria. Distinguere equilibrio e stabilità temporale evita interpretazioni troppo semplici dei sistemi reali."
+        ]
+      },
+      {
+        "title": "Le ottiche dentro un ambiente variabile",
+        "paragraphs": [
+          "Quando si prepara un telescopio, avvicinare la temperatura delle componenti a quella dell’ambiente può ridurre alcuni effetti termici, ma il processo continua mentre la notte cambia. Non esiste un’uguaglianza garantita per tutta la serata. Il cielo, l’aria e i supporti possono influenzare parti differenti. Parlare di adattamento termico è quindi più operativo che promettere un equilibrio perfetto: occorre osservare le condizioni e riconoscere quali scambi restino attivi durante l’utilizzo dello strumento."
+        ]
+      }
+    ],
+    "facts": [
+      "Una temperatura costante può derivare da un bilancio di flussi, senza equilibrio con tutto l’ambiente"
+    ],
+    "example": "Una temperatura costante può derivare da un bilancio di flussi, senza equilibrio con tutto l’ambiente",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/temperatura/"
+      },
+      {
+        "title": "Treccani · equilibrio, esempio del termometro",
+        "url": "https://www.treccani.it/enciclopedia/equilibrio_(Enciclopedia-dei-ragazzi)/"
+      },
+      {
+        "title": "NASA · controllo termico dei piccoli satelliti",
+        "url": "https://www.nasa.gov/smallsat-institute/sst-soa/thermal-control/"
+      },
+      {
+        "title": "NOAA · modi di trasferimento dell’energia termica",
+        "url": "https://www.noaa.gov/jetstream/atmosphere/transfer-of-heat-energy"
       }
     ]
   },
@@ -8141,6 +11941,121 @@ window.AdAstraGlossary = [
       {
         "title": "Treccani · relatività, lezione",
         "url": "https://static.treccani.it/export/sites/default/Portale/resources/multimedia/Lezioni_fisica/relativita_ristretta/relativita_ristretta_LEZIONE.pdf"
+      }
+    ]
+  },
+  {
+    "id": "eratostene",
+    "name": "Eratostene di Cirene",
+    "definition": "Eratostene di Cirene fu uno studioso greco del III secolo a.C., noto anche per aver stimato la circonferenza terrestre attraverso geometria, distanza e osservazioni solari.",
+    "source": "https://www.treccani.it/enciclopedia/eratostene/",
+    "lesson": "lezione-1-2.html",
+    "related": [
+      "gnomone",
+      "verticale-locale",
+      "latitudine"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Misurare la Terra senza percorrerla tutta",
+        "paragraphs": [
+          "Eratostene lavorò in più campi del sapere e fu legato alla Biblioteca di Alessandria. La sua misura della Terra è celebre perché collegava un’osservazione locale alla dimensione del pianeta. Non occorreva fare il giro del mondo con una corda. Servivano invece un modello geometrico, una misura angolare e una distanza fra luoghi. La potenza dell’esperimento sta nel collegamento fra queste informazioni, non nell’idea di uno strumento antico capace di una precisione miracolosa."
+        ]
+      },
+      {
+        "title": "Le verticali locali non sono parallele",
+        "paragraphs": [
+          "Su una Terra sferica, verticali in luoghi differenti puntano lungo direzioni diverse rispetto al centro. Raggi solari quasi paralleli possono quindi formare angoli diversi con queste verticali. Confrontando Alessandria e Siene nel racconto tradizionale si ricava una frazione della circonferenza. Il ragionamento assume condizioni e geometria appropriate: la distanza utile deve corrispondere all’arco confrontato, e le città reali non rappresentano un disegno ideale privo di approssimazioni."
+        ]
+      },
+      {
+        "title": "Un risultato storico con unità da interpretare",
+        "paragraphs": [
+          "Le fonti antiche tramandano valori espressi in stadi. Convertirli in chilometri richiede sapere quale lunghezza attribuire allo stadio, questione discussa dagli studiosi. Non è corretto presentare una sola conversione moderna come misura esatta e indiscutibile dell’esperimento. Anche le ricostruzioni dei dettagli devono distinguere testimonianze e spiegazioni didattiche. La stima rimane straordinaria senza doverla trasformare in un numero identico a quello ottenuto con strumenti contemporanei."
+        ]
+      },
+      {
+        "title": "Riprodurre l’idea oggi",
+        "paragraphs": [
+          "Un mappamondo e raggi quasi paralleli possono mostrare la geometria; due osservazioni coordinate permettono di discutere il metodo sulla Terra reale. Il modello non prova da solo tutti i dettagli storici e la precisione dipende dalle misure. Nel percorso divulgativo l’obiettivo è riconoscere come ombre e verticali raccontino la curvatura. Eratostene non inventò dal nulla l’idea di una Terra sferica: il suo contributo consiste soprattutto nel trasformare una conoscenza geometrica in una stima quantitativa delle sue dimensioni."
+        ]
+      }
+    ],
+    "facts": [
+      "La conversione degli stadi antichi non autorizza una precisione moderna arbitraria"
+    ],
+    "example": "La conversione degli stadi antichi non autorizza una precisione moderna arbitraria",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/eratostene/"
+      },
+      {
+        "title": "University of St Andrews · metodo e problemi delle fonti",
+        "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Eratosthenes/"
+      }
+    ],
+    "aliases": [
+      "Eratostene"
+    ]
+  },
+  {
+    "id": "errore-sistematico",
+    "name": "Errore sistematico",
+    "definition": "Un errore sistematico è una componente dell’errore di misura che nelle ripetizioni resta costante oppure varia in modo prevedibile.",
+    "source": "https://www.treccani.it/enciclopedia/errore/",
+    "lesson": "lezione-9-4.html",
+    "related": [
+      "calibrazione",
+      "incertezza-misura",
+      "precisione-misura"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Una deviazione che si ripete",
+        "paragraphs": [
+          "Se una scala aggiunge sempre una quantità alle letture, i risultati possono restare spostati anche dopo molte ripetizioni. È un esempio semplice di effetto sistematico. Il problema non deve però essere sempre una costante: può cambiare in modo prevedibile con temperatura, posizione o altra condizione. La parola sistematico descrive il comportamento della componente, non stabilisce che la sua causa sia già stata identificata o che il suo valore sia conosciuto perfettamente."
+        ]
+      },
+      {
+        "title": "Fare la media non basta",
+        "paragraphs": [
+          "Immaginiamo dieci misure effettuate con la medesima scala sbagliata. Le fluttuazioni casuali possono compensarsi in parte, mentre lo spostamento comune rimane. Per questo accumulare dati non garantisce da solo un risultato corretto. Bisogna interrogare strumenti e procedure, confrontare riferimenti e cercare effetti condivisi. La distinzione è particolarmente importante quando un miglioramento apparente del rumore rende il grafico più regolare, ma lascia intatta una distorsione del segnale che si voleva studiare."
+        ]
+      },
+      {
+        "title": "Correggere con una stima",
+        "paragraphs": [
+          "Quando un effetto sistematico è conosciuto, si può applicare una correzione appropriata. La correzione possiede a sua volta un’incertezza: non trasforma magicamente la misura in un valore esatto. Conviene conservare il dato originale e documentare il procedimento utilizzato, così da poterlo controllare e aggiornare. Anche una sottrazione semplice richiede sapere che cosa venga sottratto e perché, evitando di eliminare una differenza soltanto perché non corrisponde all’aspettativa."
+        ]
+      },
+      {
+        "title": "Un caso nelle osservazioni",
+        "paragraphs": [
+          "Un orologio impostato sul fuso errato può spostare sistematicamente gli istanti registrati; una scala dell’immagine scorretta può alterare distanze angolari. Nessuno dei due problemi viene risolto rendendo più nitida la fotografia. L’esempio collega il concetto al lavoro dell’astrofilo: verificare data, unità, coordinate e calibrazione fa parte della qualità scientifica del risultato. Il controllo dei sistematici è un complemento dell’osservazione ripetuta, non una prova di sfiducia nei dati raccolti."
+        ]
+      }
+    ],
+    "facts": [
+      "Ripetere una misura non elimina un difetto comune a tutte le ripetizioni"
+    ],
+    "example": "Ripetere una misura non elimina un difetto comune a tutte le ripetizioni",
+    "sources": [
+      {
+        "title": "Treccani · quadro terminologico generale; dettagli nelle fonti specifiche",
+        "url": "https://www.treccani.it/enciclopedia/errore/"
+      },
+      {
+        "title": "JCGM · VIM, errore sistematico, voce 2.17",
+        "url": "https://www.bipm.org/documents/20126/2071204/JCGM_200_2012.pdf"
+      },
+      {
+        "title": "NIST · errori e incertezza",
+        "url": "https://www.nist.gov/pml/nist-technical-note-1297/nist-tn-1297-appendix-d1-terminology"
       }
     ]
   },
@@ -8354,6 +12269,118 @@ window.AdAstraGlossary = [
       {
         "title": "Treccani · riferimento terminologico",
         "url": "https://www.treccani.it/enciclopedia/materia-interstellare_(Enciclopedia-della-Scienza-e-della-Tecnica)/"
+      }
+    ]
+  },
+  {
+    "id": "euclid",
+    "name": "Euclid",
+    "definition": "Euclid è una missione ESA, lanciata il 1º luglio 2023, che studia la distribuzione delle galassie e gli effetti della gravità per indagare materia oscura, energia oscura ed evoluzione cosmica.",
+    "source": "https://www.treccani.it/enciclopedia/cosmologia/",
+    "lesson": "lezione-6-4.html",
+    "related": [
+      "materia-oscura",
+      "energia-oscura",
+      "lente-gravitazionale"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Una mappa che serve a fare domande",
+        "paragraphs": [
+          "Euclid raccoglie immagini e informazioni spettrali su grandi popolazioni di galassie. L’obiettivo non è soltanto produrre un mosaico esteso e suggestivo. Distribuzione, distanze e forme apparenti permettono confronti con i modelli della struttura cosmica. La missione studia l’Universo oscuro attraverso effetti misurabili: non fotografa una sostanza chiamata energia oscura come si fotograferebbe una nube illuminata."
+        ]
+      },
+      {
+        "title": "Le forme portano un segnale collettivo",
+        "paragraphs": [
+          "La gravità del materiale lungo la linea di vista può alterare le immagini delle galassie lontane. Per studiare le piccole distorsioni occorre analizzare molte sorgenti e controllare gli effetti dello strumento. Non ogni galassia allungata è la dimostrazione di una lente gravitazionale visibile individualmente. Il segnale statistico richiede calibrazione e confronti: è una misura collettiva che non va sostituita con una sola forma scelta perché appare insolita."
+        ]
+      },
+      {
+        "title": "Distanza e tempo nel quadro cosmico",
+        "paragraphs": [
+          "Guardare oggetti lontani significa ricevere luce emessa nel passato. La struttura osservata può quindi essere confrontata in epoche differenti entro il modello cosmologico utilizzato. Questo non significa che la mappa sia un film diretto di ogni galassia durante tutta la sua vita. Si osservano popolazioni e si ricostruiscono collegamenti attraverso modelli e selezioni. Anche gli spostamenti verso il rosso devono essere interpretati con condizioni e metodi dichiarati."
+        ]
+      },
+      {
+        "title": "Materia ed energia oscura rimangono distinte",
+        "paragraphs": [
+          "Le due espressioni indicano problemi differenti del quadro cosmologico. Euclid cerca di vincolarne gli effetti e mettere alla prova descrizioni dell’espansione e della crescita delle strutture. Il lancio del 2023 non ha risolto automaticamente la loro natura. Nel glossario la missione offre un esempio di ricerca aperta organizzata: misure definite, grandi campioni e controllo sistematico permettono di porre domande ambiziose senza presentare una ricostruzione teorica come fotografia di ciò che ancora si vuole comprendere."
+        ]
+      }
+    ],
+    "facts": [
+      "Euclid indaga componenti oscure attraverso effetti osservabili, non fotografandole direttamente"
+    ],
+    "example": "Euclid indaga componenti oscure attraverso effetti osservabili, non fotografandole direttamente",
+    "sources": [
+      {
+        "title": "Treccani · quadro terminologico generale; dettagli nelle fonti specifiche",
+        "url": "https://www.treccani.it/enciclopedia/cosmologia/"
+      },
+      {
+        "title": "ESA · lancio e obiettivi di Euclid",
+        "url": "https://www.esa.int/Newsroom/Press_Releases/ESA_s_Euclid_lifts_off_on_quest_to_unravel_the_cosmic_mystery_of_dark_matter_and_dark_energy"
+      },
+      {
+        "title": "NASA · contributi e programma scientifico Euclid",
+        "url": "https://www.nasa.gov/missions/euclid/esas-euclid-mission-launches-to-explore-dark-universe/"
+      }
+    ]
+  },
+  {
+    "id": "evaporazione",
+    "name": "Evaporazione",
+    "definition": "L’evaporazione è il passaggio di molecole dalla superficie di un liquido alla fase gassosa; può avvenire anche sotto la temperatura di ebollizione.",
+    "source": "https://www.treccani.it/enciclopedia/evaporazione/",
+    "lesson": "lezione-7-6.html",
+    "related": [
+      "ebollizione",
+      "condensa",
+      "calore"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un liquido può asciugarsi senza bollire",
+        "paragraphs": [
+          "Una superficie bagnata perde acqua anche quando non si formano bolle nel liquido. Le molecole passano dalla superficie alla fase gassosa: non occorre portare tutto il campione alla temperatura di ebollizione. Questa esperienza quotidiana è un buon punto di partenza per il concetto. Il liquido non viene annullato e il vapore non deve necessariamente essere visibile. Per seguire la materia bisogna considerare anche ciò che si disperde nell’aria circostante."
+        ]
+      },
+      {
+        "title": "Che cosa controlla la rapidità",
+        "paragraphs": [
+          "Temperatura, superficie esposta, movimento dell’aria e quantità di vapore già presente influenzano il bilancio tra molecole che lasciano il liquido e molecole che ritornano. L’evaporazione netta può quindi cambiare senza modificare la composizione del liquido. Un piccolo recipiente coperto e una pellicola esposta al vento non sono esperimenti equivalenti. Per confrontare due casi è necessario dichiarare le condizioni, invece di usare soltanto l’espressione caldo o freddo come spiegazione completa."
+        ]
+      },
+      {
+        "title": "Un possibile raffreddamento",
+        "paragraphs": [
+          "Il passaggio alla fase gassosa richiede energia. Se questa viene sottratta al liquido e non è compensata abbastanza rapidamente dagli scambi con l’esterno, il campione può raffreddarsi. Il risultato non implica che l’evaporazione produca energia negativa o che ogni superficie umida raggiunga la medesima temperatura. È il bilancio degli scambi a stabilire l’evoluzione. L’esempio permette di collegare stato della materia e termodinamica attraverso un effetto osservabile, senza introdurre subito una formula complessa."
+        ]
+      },
+      {
+        "title": "Lenti e ambiente osservativo",
+        "paragraphs": [
+          "L’umidità sulle ottiche non va descritta come una semplice macchia indipendente dall’ambiente. Deposizione e successiva evaporazione dipendono dalle condizioni della superficie e dell’aria. Per comprendere che cosa accade bisogna distinguere il vapore presente, il liquido depositato e gli eventuali residui rimasti dopo l’asciugatura. Il concetto completa quello di condensa: racconta un percorso inverso e aiuta a capire perché la cura degli strumenti richieda attenzione anche quando la serata osservativa è terminata."
+        ]
+      }
+    ],
+    "facts": [
+      "L’evaporazione può avvenire senza ebollizione e senza bolle nel liquido"
+    ],
+    "example": "L’evaporazione può avvenire senza ebollizione e senza bolle nel liquido",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/evaporazione/"
+      },
+      {
+        "title": "Treccani · pressione e temperatura di ebollizione",
+        "url": "https://www.treccani.it/enciclopedia/ebollizione/"
       }
     ]
   },
@@ -8580,6 +12607,117 @@ window.AdAstraGlossary = [
       {
         "title": "Treccani · riferimento terminologico",
         "url": "https://www.treccani.it/enciclopedia/fase/"
+      }
+    ]
+  },
+  {
+    "id": "fermione",
+    "name": "Fermione",
+    "definition": "Un fermione è una particella di spin semintero che segue la statistica di Fermi–Dirac; particelle identiche di questa famiglia rispettano il principio di esclusione.",
+    "source": "https://www.treccani.it/enciclopedia/fermione/",
+    "lesson": "lezione-4-6.html",
+    "related": [
+      "spin",
+      "pauli-esclusione",
+      "pressione-degenerazione"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Una classificazione del comportamento",
+        "paragraphs": [
+          "Elettroni, protoni e neutroni sono esempi di fermioni. Il termine non indica semplicemente particelle piccole o cariche: il neutrone, pur avendo carica netta nulla, appartiene alla famiglia. La classificazione riguarda spin e comportamento collettivo quantistico. È diversa dalla distinzione fra particelle elementari e composte. Un protone possiede una struttura interna, mentre l’elettrone viene considerato elementare nel quadro attuale; entrambi possono tuttavia essere descritti come fermioni."
+        ]
+      },
+      {
+        "title": "Che cosa cambia quando sono identici",
+        "paragraphs": [
+          "Il principio di esclusione impedisce a fermioni identici di occupare lo stesso stato quantistico completo. Non vieta a due elettroni di appartenere allo stesso atomo o di occupare lo stesso orbitale spaziale con stati di spin differenti. Identico ha qui un significato preciso: un elettrone e un protone non sono due particelle identiche soltanto perché appartengono entrambi alla famiglia. La regola deve essere applicata al sistema fisico corretto."
+        ]
+      },
+      {
+        "title": "Dalla statistica alle proprietà macroscopiche",
+        "paragraphs": [
+          "In condizioni appropriate, l’occupazione degli stati influenza la pressione e molte proprietà della materia. A densità elevate gli effetti quantistici possono diventare decisivi. Non è necessario che ogni gas ordinario mostri sempre una degenerazione forte: temperatura, densità e specie determinano il regime. Un grafico didattico deve quindi dichiarare quali condizioni sta variando. Limitarsi a disegnare particelle che si respingono come magneti darebbe una causa sbagliata al vincolo quantistico."
+        ]
+      },
+      {
+        "title": "Il ruolo nelle stelle compatte",
+        "paragraphs": [
+          "La pressione degli elettroni degeneri contribuisce al sostegno delle nane bianche. Per le stelle di neutroni il quadro richiede anche interazioni e relatività, senza ridurre tutto a un gas ideale di neutroni. Il concetto di fermione collega questi oggetti alla fisica microscopica, ma non calcola da solo massa e raggio. Nella lezione il percorso utile parte dalla famiglia delle particelle, passa per l’occupazione degli stati e arriva alle conseguenze sulla struttura stellare."
+        ]
+      }
+    ],
+    "facts": [
+      "Fermione non è sinonimo di particella elementare o elettricamente carica"
+    ],
+    "example": "Fermione non è sinonimo di particella elementare o elettricamente carica",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/fermione/"
+      },
+      {
+        "title": "Treccani · degenerazione e fermioni",
+        "url": "https://www.treccani.it/enciclopedia/degenerazione/"
+      }
+    ],
+    "aliases": [
+      "fermioni"
+    ]
+  },
+  {
+    "id": "ferro",
+    "name": "Ferro",
+    "definition": "Il ferro è l’elemento chimico di numero atomico 26 e simbolo Fe, importante negli interni planetari, nei meteoriti e nell’interpretazione degli spettri.",
+    "source": "https://www.treccani.it/enciclopedia/ferro/",
+    "lesson": "lezione-4-6.html",
+    "related": [
+      "nucleosintesi",
+      "metallicita",
+      "meteorite"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Metallo e composti",
+        "paragraphs": [
+          "Il ferro può trovarsi in metallo, leghe e composti come ossidi e silicati. Il materiale di un meteorite ferroso non coincide necessariamente con ferro puro. Anche il colore rossastro di una superficie può essere legato a composti del ferro, ma una fotografia non basta a determinarne ogni minerale. L’identità dell’elemento è un primo dato, mentre forma chimica, struttura e mescolanze spiegano molte proprietà osservate."
+        ]
+      },
+      {
+        "title": "Nei mondi rocciosi",
+        "paragraphs": [
+          "Il ferro contribuisce alla composizione di interni planetari e materiali differenziati. La distribuzione fra nucleo, mantello e crosta dipende dalla formazione e dall’evoluzione del corpo. Un pianeta con una certa massa non deve possedere per forza lo stesso rapporto fra questi serbatoi della Terra. Per ricostruire un interno si combinano dati e modelli: la sezione colorata pubblicata in una scheda è una rappresentazione interpretativa, non una fotografia degli strati attraversati."
+        ]
+      },
+      {
+        "title": "Una firma nelle stelle",
+        "paragraphs": [
+          "Le righe del ferro e dei suoi ioni vengono utilizzate nelle analisi stellari. Il rapporto ferro–idrogeno è spesso impiegato come indicatore della composizione, ma non coincide automaticamente con ogni possibile definizione di metallicità. In astronomia metalli comprende anche elementi che nella classificazione chimica ordinaria non sono metalli. La misura delle abbondanze richiede modelli atmosferici e dati spettroscopici; una riga più scura non basta, da sola, a dichiarare una stella più ricca di ferro."
+        ]
+      },
+      {
+        "title": "La storia nucleare richiede precisione",
+        "paragraphs": [
+          "I nuclei del gruppo del ferro sono centrali nel racconto delle fasi avanzate delle stelle massicce e delle esplosioni. Non si deve ridurre tutta la loro origine a un unico meccanismo né dire che qualunque fusione produca energia indefinitamente. Anche decadimenti di nuclei sintetizzati contribuiscono al risultato osservato. Una spiegazione introduttiva può seguire questa trasformazione senza dichiarare il ferro il nucleo più legato in ogni confronto possibile: la proprietà precisa e l’isotopo considerato contano."
+        ]
+      }
+    ],
+    "facts": [
+      "Il rapporto ferro–idrogeno è un indicatore, non l’intera composizione chimica di una stella"
+    ],
+    "example": "Il rapporto ferro–idrogeno è un indicatore, non l’intera composizione chimica di una stella",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/ferro/"
+      },
+      {
+        "title": "RSC · ferro, isotopi e materiali planetari",
+        "url": "https://periodic-table.rsc.org/element/26/iron"
       }
     ]
   },
@@ -8874,6 +13012,64 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "fluoro",
+    "name": "Fluoro",
+    "definition": "Il fluoro è l’elemento chimico di simbolo F e numero atomico 9, appartenente agli alogeni; in astronomia può essere studiato anche attraverso molecole che lo contengono.",
+    "source": "https://www.treccani.it/enciclopedia/fluoro/",
+    "lesson": "lezione-5-4.html",
+    "related": [
+      "elettronegativita",
+      "legame-covalente",
+      "molecola"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Nove protoni, forme differenti",
+        "paragraphs": [
+          "Un atomo di fluoro è identificato dai nove protoni del nucleo. Il fluoro elementare, una specie molecolare che contiene fluoro e uno ione fluoruro non sono la stessa cosa. A temperatura ambiente la sostanza elementare forma un gas biatomico molto reattivo. Il simbolo F in una formula indica invece l’elemento: per sapere quali particelle e legami siano presenti bisogna leggere l’intera formula e considerare le condizioni fisiche."
+        ]
+      },
+      {
+        "title": "Un riferimento per l’elettronegatività",
+        "paragraphs": [
+          "Il fluoro è particolarmente importante quando si introduce l’elettronegatività, cioè la tendenza di un atomo ad attrarre densità elettronica in un legame. Questo concetto non equivale alla carica elettrica già posseduta dall’atomo. Un elemento elettronegativo può formare legami polari, ma la polarità di una molecola dipende anche dalla geometria complessiva. Il caso permette di collegare tavola periodica, legami e proprietà senza trasformare una tendenza chimica in una forza misteriosa."
+        ]
+      },
+      {
+        "title": "Un indizio nel gas cosmico",
+        "paragraphs": [
+          "Il fluoruro di idrogeno, HF, è stato identificato nel mezzo interstellare e in osservazioni extragalattiche. Qui il segnale riguarda una molecola, non una fotografia di granelli di fluoro. Il riconoscimento di una riga richiede confrontare frequenza, condizioni del gas e possibili alternative. La presenza dell’elemento viene ricostruita attraverso una specie che lo contiene. È un esempio chiaro del modo indiretto, ma quantitativo, con cui la spettroscopia interroga la composizione del cielo."
+        ]
+      },
+      {
+        "title": "Non confondere elemento e composto",
+        "paragraphs": [
+          "La fluorite, CaF2, è un composto di calcio e fluoro, non fluoro elementare solidificato. Materiali contenenti lo stesso elemento possono avere proprietà radicalmente differenti. La distinzione vale anche per le notizie astronomiche: identificare HF non significa trovare una nube di F2 nelle medesime condizioni. Nel glossario conviene quindi tenere vicini tre livelli: identità nucleare dell’elemento, specie chimica effettivamente osservata e ambiente nel quale quel segnale viene prodotto o assorbito."
+        ]
+      }
+    ],
+    "facts": [
+      "F è il simbolo dell’elemento; HF e CaF2 sono composti differenti"
+    ],
+    "example": "F è il simbolo dell’elemento; HF e CaF2 sono composti differenti",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/fluoro/"
+      },
+      {
+        "title": "Royal Society of Chemistry · fluoro",
+        "url": "https://periodic-table.rsc.org/element/9/fluorine"
+      },
+      {
+        "title": "ESA · fluoruro di idrogeno nel gas interstellare",
+        "url": "https://www.esa.int/Newsroom/Press_Releases/Astronomers_discover_fluoride_mollecules_in_interstellar_space"
+      }
+    ]
+  },
+  {
     "id": "flusso-radiativo",
     "name": "Flusso radiativo",
     "definition": "Nel linguaggio astronomico il flusso radiativo ricevuto indica comunemente la potenza che attraversa un’unità di area. Va distinto dal flusso radiante totale della terminologia radiometrica.",
@@ -9101,6 +13297,295 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "formula-chimica",
+    "name": "Formula chimica",
+    "definition": "Una formula chimica rappresenta la composizione di una specie attraverso simboli degli elementi, indici numerici ed eventuali indicazioni di carica o struttura.",
+    "source": "https://www.treccani.it/enciclopedia/stechiometria/",
+    "lesson": "lezione-3-6.html",
+    "related": [
+      "elemento-chimico",
+      "molecola",
+      "ione"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Una scrittura compatta da decifrare",
+        "paragraphs": [
+          "H₂O indica una molecola con due atomi di idrogeno e uno di ossigeno. Il numero piccolo si riferisce al simbolo che lo precede; se manca, il conteggio è uno. Una formula non è soltanto un’etichetta da imparare: conserva informazioni sulla composizione. I simboli hanno maiuscole e minuscole precise. Cambiare una lettera o il suo caso può identificare un altro elemento oppure produrre una scrittura priva di significato chimico."
+        ]
+      },
+      {
+        "title": "Che cosa la formula non mostra",
+        "paragraphs": [
+          "La sola composizione non stabilisce sempre come gli atomi siano collegati nello spazio. Specie differenti possono condividere gli stessi conteggi e avere struttura e proprietà diverse. Per distinguerle servono nomi più precisi o formule strutturali. Nei solidi ionici o reticolari una formula può esprimere rapporti fra costituenti senza identificare molecole isolate. Disegnare ogni sostanza come una singola pallina molecolare farebbe perdere una distinzione importante fra composizione e organizzazione del materiale."
+        ]
+      },
+      {
+        "title": "Cariche, isotopi e quantità",
+        "paragraphs": [
+          "Un segno positivo o negativo scritto in alto indica la carica della specie; non aggiunge automaticamente un atomo. L’indicazione isotopica specifica invece quale nuclide è coinvolto. Un coefficiente davanti alla formula conta le entità o le moli in un rapporto di reazione. Questi tre livelli di informazione devono restare separati. In uno schema divulgativo conviene introdurli progressivamente e conservare una legenda, invece di affollare subito la pagina di simboli non spiegati."
+        ]
+      },
+      {
+        "title": "Leggere le molecole dello spazio",
+        "paragraphs": [
+          "Nelle notizie astronomiche CO e CO₂ indicano specie diverse, non due modi equivalenti di nominare il carbonio. Anche acqua allo stato gassoso e ghiaccio possono condividere la formula, pur producendo osservazioni differenti. Una rilevazione richiede firme spettroscopiche e controlli, non la sola plausibilità della formula. Il glossario deve accompagnare il simbolo con nome e significato: così una notizia sulla composizione di una cometa diventa comprensibile senza richiedere già un corso completo di chimica."
+        ]
+      }
+    ],
+    "facts": [
+      "Composizione, struttura, carica e quantità sono informazioni differenti"
+    ],
+    "example": "Composizione, struttura, carica e quantità sono informazioni differenti",
+    "sources": [
+      {
+        "title": "Treccani · quadro terminologico generale; dettagli nelle fonti specifiche",
+        "url": "https://www.treccani.it/enciclopedia/stechiometria/"
+      },
+      {
+        "title": "IUPAC · convenzioni di nomenclatura",
+        "url": "https://iupac.org/what-we-do/nomenclature/"
+      }
+    ]
+  },
+  {
+    "id": "forza",
+    "name": "Forza",
+    "definition": "Una forza descrive un’interazione capace di modificare il moto o deformare un corpo; in meccanica classica è una grandezza vettoriale misurata in newton.",
+    "source": "https://www.treccani.it/enciclopedia/forza/",
+    "lesson": "lezione-3-6.html",
+    "related": [
+      "massa",
+      "accelerazione",
+      "newton-unita"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un’interazione con direzione e verso",
+        "paragraphs": [
+          "Spingere un oggetto, tenderne un supporto o attrarlo gravitazionalmente significa esercitare una forza. Il numero da solo non basta a descriverla: occorrono direzione, verso e, per problemi di rotazione, punto di applicazione. Due forze uguali e opposte sullo stesso corpo possono avere risultante nulla. Questo non implica che le singole interazioni siano scomparse o che non possano produrre tensioni e deformazioni nel materiale."
+        ]
+      },
+      {
+        "title": "La relazione più utile da leggere",
+        "paragraphs": [
+          "Per una massa costante, in un riferimento inerziale e nel regime classico, F = m × a collega la forza risultante all’accelerazione. F si misura in newton, m in chilogrammi e a in m/s². Una risultante di 6 N applicata a 3 kg produce 2 m/s². Non è una regola da applicare a una sola forza ignorando le altre: la risultante è la loro somma vettoriale."
+        ]
+      },
+      {
+        "title": "Muoversi non richiede sempre una spinta",
+        "paragraphs": [
+          "In assenza di risultante, un corpo mantiene il proprio moto rettilineo uniforme nel modello inerziale. Non deve consumare una riserva di forza per continuare ad avanzare. Un motore serve invece a modificare il moto o a compensare altre azioni, come la resistenza dell’aria. Nello spazio questa distinzione chiarisce perché una sonda possa viaggiare a lungo con propulsori spenti e perché una piccola manovra possa cambiare la sua traiettoria."
+        ]
+      },
+      {
+        "title": "Massa, peso ed energia restano distinti",
+        "paragraphs": [
+          "Il peso è una forza gravitazionale, mentre la massa è una proprietà del corpo e l’energia una grandezza differente. Cambiare luogo può cambiare il peso senza cambiare nello stesso modo la massa. Il newton non è quindi un altro nome del chilogrammo o del joule. Tenere separati questi significati rende più comprensibili sia una montatura caricata dagli strumenti sia il moto di un pianeta, evitando di attribuire alla parola forza qualunque effetto fisico osservato."
+        ]
+      }
+    ],
+    "facts": [
+      "F = m × a usa la forza risultante, non una forza scelta ignorando le altre"
+    ],
+    "example": "F = m × a usa la forza risultante, non una forza scelta ignorando le altre",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/forza/"
+      },
+      {
+        "title": "NIST · definizione operativa di forza",
+        "url": "https://www.nist.gov/pml/quantum-measurement/mass-and-force/proving-ring/what-force"
+      }
+    ],
+    "aliases": [
+      "forze"
+    ],
+    "linkNames": [
+      "forza risultante",
+      "forze gravitazionali",
+      "forza gravitazionale"
+    ]
+  },
+  {
+    "id": "forza-centripeta",
+    "name": "Forza centripeta",
+    "definition": "Forza centripeta indica il ruolo della componente della forza risultante diretta verso il centro nel mantenere un moto circolare, non una nuova interazione da aggiungere alle altre.",
+    "source": "https://www.treccani.it/enciclopedia/forza/",
+    "lesson": "lezione-3-6.html",
+    "related": [
+      "moto-circolare",
+      "gravitazione",
+      "accelerazione"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un ruolo, non una forza misteriosa",
+        "paragraphs": [
+          "La forza centripeta non è una sostanza o un’interazione separata che compare ogni volta che viene disegnato un cerchio. È il nome dato al contributo della forza risultante che devia il moto verso il centro. In casi differenti questo ruolo può essere svolto dalla tensione di un filo, da forze di contatto o dalla gravità. Per spiegare un esperimento bisogna quindi identificare l’interazione concreta, non limitarsi a scrivere centripeta vicino a una freccia."
+        ]
+      },
+      {
+        "title": "La direzione è essenziale",
+        "paragraphs": [
+          "Nel moto circolare uniforme la risultante è diretta verso il centro e cambia la direzione della velocità, che è tangente alla traiettoria. Un disegno che mostri la velocità lungo il raggio confonderebbe due grandezze differenti. Se cambia anche la rapidità, la risultante può avere inoltre una componente tangenziale. Il termine centripeto identifica dunque una componente e una funzione dinamica; non autorizza a trascurare automaticamente ogni altro effetto presente nel moto reale."
+        ]
+      },
+      {
+        "title": "Un’orbita gravitazionale",
+        "paragraphs": [
+          "Nel modello di orbita circolare la gravità fornisce l’accelerazione centripeta necessaria. Non occorre aggiungere al corpo una seconda forza reale verso l’esterno per spiegare il moto nel riferimento inerziale. In un riferimento rotante si introducono invece forze apparenti, con regole precise. Mescolare i due quadri nella stessa figura senza dichiararlo può produrre un falso equilibrio: il corpo in orbita sta accelerando nel riferimento inerziale, anche se la sua distanza dal centro rimane costante."
+        ]
+      },
+      {
+        "title": "Come leggere un’animazione",
+        "paragraphs": [
+          "Un’animazione didattica dovrebbe distinguere la traiettoria, la velocità e la forza con frecce e colori coerenti. Accelerare il tempo della scena non cambia la relazione geometrica fra questi elementi. La verifica più utile non è se il movimento sembri elegante, ma se il modello mostri la causa della curvatura e le condizioni assunte. Il concetto permette così di valutare immagini e laboratori: una rappresentazione visivamente semplice può essere rigorosa, mentre una ricca di effetti può nascondere una geometria errata."
+        ]
+      }
+    ],
+    "facts": [
+      "In un’orbita circolare la gravità svolge il ruolo centripeto: non si aggiunge un’altra forza dello stesso nome"
+    ],
+    "example": "In un’orbita circolare la gravità svolge il ruolo centripeto: non si aggiunge un’altra forza dello stesso nome",
+    "sources": [
+      {
+        "title": "Treccani · quadro terminologico generale; dettagli nelle fonti specifiche",
+        "url": "https://www.treccani.it/enciclopedia/forza/"
+      },
+      {
+        "title": "NASA · gravità e accelerazione centripeta",
+        "url": "https://science.nasa.gov/learn/basics-of-space-flight/chapter3-3/"
+      }
+    ]
+  },
+  {
+    "id": "forze-van-der-waals",
+    "name": "Forze di van der Waals",
+    "definition": "Le forze di van der Waals comprendono interazioni fra atomi o molecole associate a distribuzioni elettriche permanenti, indotte o fluttuanti, importanti per molte proprietà della materia.",
+    "source": "https://www.treccani.it/enciclopedia/chimica-supramolecolare/",
+    "lesson": "lezione-5-4.html",
+    "related": [
+      "dipolo-elettrico",
+      "adsorbimento",
+      "gas-ideale"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Anche particelle neutre interagiscono",
+        "paragraphs": [
+          "Una carica totale nulla non implica assenza di qualsiasi interazione elettrica. La distribuzione degli elettroni può essere non uniforme, deformabile o soggetta a fluttuazioni. Le interazioni di van der Waals permettono di discutere attrazioni anche fra specie senza una carica netta. Non vanno quindi confuse con la semplice attrazione tra un catione e un anione. L’identità della carica totale e l’organizzazione interna della distribuzione elettrica sono informazioni differenti."
+        ]
+      },
+      {
+        "title": "Non sono un unico tipo di dipolo",
+        "paragraphs": [
+          "L’espressione raccoglie contributi che possono coinvolgere dipoli permanenti, dipoli indotti e fluttuazioni elettroniche correlate. Il contributo di dispersione può essere presente anche in specie prive di dipolo permanente. Non significa dispersione della luce in colori, benché la parola italiana sia la stessa. Il contesto deve essere chiarito. Inoltre l’uso dell’etichetta può variare tra testi: qui il legame a idrogeno viene trattato separatamente per conservarne le caratteristiche specifiche."
+        ]
+      },
+      {
+        "title": "Dal modello ideale alla materia reale",
+        "paragraphs": [
+          "Un gas ideale trascura interazioni e volume delle particelle nel proprio modello. Quando questi aspetti diventano importanti, il comportamento reale può differire. Le interazioni fra particelle aiutano a comprendere condensazione e coesione, insieme ad altri contributi. Non basta però attribuire ogni differenza a una forza genericamente debole: distanza, specie e condizioni determinano quali termini contino. Una rappresentazione qualitativa deve mantenere questo limite, evitando di suggerire un’attrazione uguale a qualunque distanza."
+        ]
+      },
+      {
+        "title": "Il ruolo delle superfici",
+        "paragraphs": [
+          "Nell’adsorbimento fisico una specie può restare associata a una superficie attraverso interazioni che non richiedono lo stesso tipo di legame di una trasformazione chimica. Questo è utile per ragionare sui granuli astrochimici, ma non identifica automaticamente il meccanismo in ogni caso. Servono dati sul materiale, sulle specie e sulla temperatura. Il concetto collega quindi il comportamento microscopico alla possibilità che particelle si incontrino, restino temporaneamente su una superficie e partecipino a processi successivi."
+        ]
+      }
+    ],
+    "facts": [
+      "Una molecola senza dipolo permanente può comunque partecipare a interazioni di dispersione"
+    ],
+    "example": "Una molecola senza dipolo permanente può comunque partecipare a interazioni di dispersione",
+    "sources": [
+      {
+        "title": "Treccani · quadro terminologico generale; dettagli nelle fonti specifiche",
+        "url": "https://www.treccani.it/enciclopedia/chimica-supramolecolare/"
+      },
+      {
+        "title": "IUPAC · forze di van der Waals",
+        "url": "https://goldbook.iupac.org/terms/view/V06597"
+      },
+      {
+        "title": "Treccani · le forze intermolecolari",
+        "url": "https://static.treccani.it/export/sites/default/Portale/resources/multimedia/Lezioni_di_Scienze/forze_intermolecolari/Lezione_Forze_intermolecolari.pdf"
+      }
+    ],
+    "aliases": [
+      "Interazioni di van der Waals"
+    ]
+  },
+  {
+    "id": "fosforo",
+    "name": "Fosforo",
+    "definition": "Il fosforo è l’elemento chimico di numero atomico 15 e simbolo P, importante nelle molecole della vita terrestre e nella ricerca astrochimica.",
+    "source": "https://www.treccani.it/enciclopedia/fosforo/",
+    "lesson": "lezione-10-2.html",
+    "related": [
+      "astrobiologia",
+      "elemento-chimico",
+      "molecola"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un ingrediente, non una prova biologica",
+        "paragraphs": [
+          "Il fosforo partecipa a strutture e processi essenziali della vita terrestre, ma l’elemento può essere presente anche in materiali privi di organismi. La disponibilità biologica dipende dalla forma chimica e dall’ambiente. Rilevare fosforo in un oggetto cosmico non equivale quindi a rilevare vita. La domanda utile è in quali specie si trovi, come venga trasferito e quali trasformazioni possano renderlo parte di una chimica più articolata."
+        ]
+      },
+      {
+        "title": "Le forme chimiche contano",
+        "paragraphs": [
+          "Fosforo elementare, fosfati e molecole contenenti fosforo hanno proprietà differenti. Anche la diversa organizzazione dell’elemento puro può modificare il comportamento del materiale. Non si deve rappresentare ogni composto come un piccolo frammento della sostanza vista in laboratorio. Per leggere una notizia occorre identificare la specie e il metodo con cui è stata riconosciuta, mantenendo separata la formula dalla quantità totale dell’elemento presente nel campione o nella sorgente."
+        ]
+      },
+      {
+        "title": "Un filo fra formazione stellare e comete",
+        "paragraphs": [
+          "Osservazioni con ALMA e analisi dei dati della missione Rosetta hanno permesso di confrontare molecole contenenti fosforo in ambienti diversi. Il monossido di fosforo offre un esempio di collegamento fra regioni di formazione stellare e materiali cometari. Non è una fotografia diretta dell’intero viaggio di ogni molecola fino alla Terra. I risultati sostengono scenari da verificare e confrontare, distinguendo rilevazione, ricostruzione chimica e ipotesi sulle origini."
+        ]
+      },
+      {
+        "title": "Il posto nel percorso divulgativo",
+        "paragraphs": [
+          "La scheda può seguire la disponibilità dell’ingrediente, la sua trasformazione e le prove osservate. Questo conserva l’interesse della ricerca prebiotica senza chiamare biologico tutto ciò che contiene elementi usati dagli organismi. Anche isotopi stabili e radioattivi vanno distinti: tempi di dimezzamento e vita media non sono sinonimi. Nel racconto finale il fosforo collega chimica e astronomia, ma la conclusione deve restare proporzionata ai dati effettivamente acquisiti e alle condizioni descritte."
+        ]
+      }
+    ],
+    "facts": [
+      "Trovare fosforo o una sua molecola non significa aver trovato organismi"
+    ],
+    "example": "Trovare fosforo o una sua molecola non significa aver trovato organismi",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/fosforo/"
+      },
+      {
+        "title": "RSC · fosforo e proprietà",
+        "url": "https://periodic-table.rsc.org/element/15/phosphorus"
+      },
+      {
+        "title": "ESO · molecole di fosforo fra regioni stellari e cometa",
+        "url": "https://www.eso.org/public/news/eso2001/"
+      }
+    ]
+  },
+  {
     "id": "fotodiodo",
     "name": "Fotodiodo",
     "definition": "Un fotodiodo è un rivelatore che converte radiazione assorbita in una risposta elettrica; nei dispositivi a semiconduttore intervengono portatori di carica generati dalla luce.",
@@ -9159,6 +13644,60 @@ window.AdAstraGlossary = [
     ],
     "aliases": [
       "fotodiodi"
+    ]
+  },
+  {
+    "id": "fotodissociazione",
+    "name": "Fotodissociazione",
+    "definition": "La fotodissociazione è la separazione di una molecola in frammenti in seguito all’assorbimento di radiazione. È un processo importante nella chimica dei gas irradiati.",
+    "source": "https://www.treccani.it/enciclopedia/fotolisi_(Enciclopedia-della-Scienza-e-della-Tecnica)/",
+    "lesson": "lezione-5-4.html",
+    "related": [
+      "fotone",
+      "molecola",
+      "ionizzazione"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "La luce può cambiare la materia",
+        "paragraphs": [
+          "Un fotone assorbito trasferisce energia alla molecola. In determinate condizioni questa energia conduce alla rottura di un legame e alla produzione di frammenti. Il termine fotodissociazione descrive questo percorso. Non ogni interazione con la luce lo produce: sono possibili altri esiti, e la probabilità dipende dalla specie e dalla radiazione. La luce che permette di osservare il cielo può quindi partecipare anche alla trasformazione della materia osservata."
+        ]
+      },
+      {
+        "title": "Un confine chimico nelle nubi",
+        "paragraphs": [
+          "La radiazione delle stelle raggiunge con diversa efficacia le parti di una nube. Gas e polvere possono schermare le regioni interne e modificare quali specie sopravvivano. Non basta dividere il disegno in una zona illuminata e una buia: contano lo spettro della sorgente, la quantità di materiale attraversato e i processi che ricostruiscono le molecole. Le abbondanze risultano da un equilibrio dinamico o da un’evoluzione, non dalla sola presenza della luce."
+        ]
+      },
+      {
+        "title": "Rompere e ionizzare non sono sinonimi",
+        "paragraphs": [
+          "Nella ionizzazione cambia la carica perché viene rimosso o aggiunto un elettrone; nella dissociazione cambia l’unità molecolare perché si separano componenti. Alcuni processi possono combinare i due effetti, ma le parole indicano aspetti differenti. Per seguire una reazione è utile chiedere che cosa accada sia ai legami sia alle cariche. Questo controllo evita di presentare ogni molecola esposta agli ultravioletti come un atomo ionizzato automaticamente."
+        ]
+      },
+      {
+        "title": "Dai frammenti a nuove reazioni",
+        "paragraphs": [
+          "I prodotti possono partecipare ad altre trasformazioni e modificare la composizione del gas. Negli esperimenti su ghiacci irradiati possono comparire insieme dissociazione, reazioni e rilascio di materiale. Le condizioni del laboratorio devono essere dichiarate quando si collegano i risultati allo spazio. Nel racconto divulgativo il concetto centrale rimane semplice: la radiazione non illumina soltanto una scena già finita, ma può cambiare gli attori chimici che la compongono e le firme che gli strumenti registrano."
+        ]
+      }
+    ],
+    "facts": [
+      "Dissociare una molecola e ionizzarla sono processi distinti"
+    ],
+    "example": "Dissociare una molecola e ionizzarla sono processi distinti",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/fotolisi_(Enciclopedia-della-Scienza-e-della-Tecnica)/"
+      },
+      {
+        "title": "Studio sperimentale · fotochimica e rilascio dai ghiacci",
+        "url": "https://arxiv.org/abs/1510.05421"
+      }
     ]
   },
   {
@@ -9656,6 +14195,65 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "fusione-stato",
+    "name": "Fusione, cambiamento di stato",
+    "definition": "La fusione come cambiamento di stato è il passaggio dalla fase solida alla fase liquida; non va confusa con la fusione nucleare.",
+    "source": "https://www.treccani.it/enciclopedia/fusione/",
+    "lesson": "lezione-3-2.html",
+    "related": [
+      "calore",
+      "temperatura",
+      "fusione-nucleare"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Lo stesso nome, due processi diversi",
+        "paragraphs": [
+          "Quando il ghiaccio diventa acqua liquida avviene una fusione come cambiamento di stato. I nuclei degli atomi non vengono uniti per produrre un elemento differente. La fusione nucleare delle stelle è invece un processo che riguarda i nuclei. Separare fin dall’inizio i due significati evita un equivoco importante: la parola fusione non implica sempre una sorgente di energia stellare, né descrive qualunque materiale che diventi più caldo."
+        ]
+      },
+      {
+        "title": "Energia senza un aumento continuo di temperatura",
+        "paragraphs": [
+          "Durante la fusione di una sostanza pura, in appropriate condizioni di pressione e di equilibrio, l’energia fornita può essere impiegata nel cambiamento di stato mentre la temperatura rimane sostanzialmente costante. Non è quindi corretto affermare che somministrare calore faccia sempre salire immediatamente il termometro. L’energia modifica anche l’organizzazione della materia. Il caso permette di distinguere il riscaldamento di una fase dalla trasformazione che porta a una fase diversa."
+        ]
+      },
+      {
+        "title": "Le rocce sono miscele",
+        "paragraphs": [
+          "Un materiale naturale complesso non deve necessariamente fondere a una singola temperatura netta. Minerali e composizioni differenti possono produrre una fusione parziale, con liquido e solido presenti insieme. Per interpretare l’interno di un pianeta non basta perciò confrontare una temperatura con il punto di fusione di un campione scelto senza considerare pressione e composizione. La frase mantello caldo non equivale automaticamente a mantello interamente liquido: stato fisico e temperatura devono essere valutati nel loro contesto."
+        ]
+      },
+      {
+        "title": "Il diagramma è una mappa di condizioni",
+        "paragraphs": [
+          "Un diagramma delle fasi collega lo stato di una sostanza a condizioni come temperatura e pressione. Non rappresenta una sezione fotografica dell’interno di un mondo. Per usarlo bisogna sapere quale materiale descriva e a quali condizioni siano validi i dati. Nel percorso divulgativo la fusione offre dunque un passaggio concreto tra esperienza quotidiana e geologia planetaria, mantenendo distinti la trasformazione fisica, la composizione chimica e i processi nucleari che alimentano le stelle."
+        ]
+      }
+    ],
+    "facts": [
+      "La fusione del ghiaccio non modifica l’identità dei nuclei come avviene in una reazione nucleare"
+    ],
+    "example": "La fusione del ghiaccio non modifica l’identità dei nuclei come avviene in una reazione nucleare",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/fusione/"
+      },
+      {
+        "title": "Treccani · evaporazione e bilanci termici nei cambiamenti di stato",
+        "url": "https://www.treccani.it/enciclopedia/evaporazione/"
+      }
+    ],
+    "linkNames": [
+      "fusione del ghiaccio",
+      "fusione delle rocce",
+      "fusione parziale"
+    ]
+  },
+  {
     "id": "fwhm",
     "name": "FWHM, larghezza a metà altezza",
     "definition": "La FWHM è la larghezza completa di un profilo misurata al livello di metà del suo massimo rispetto al fondo, secondo il modello e la procedura adottati.",
@@ -9712,6 +14310,60 @@ window.AdAstraGlossary = [
     "aliases": [
       "FWHM",
       "larghezza a metà altezza"
+    ]
+  },
+  {
+    "id": "gaia",
+    "name": "Gaia",
+    "definition": "Gaia è la missione astrometrica ESA lanciata il 19 dicembre 2013, dedicata a misure di posizioni, moti e altre proprietà di moltissime sorgenti celesti.",
+    "source": "https://www.treccani.it/enciclopedia/astrometria/",
+    "lesson": "lezione-9-4.html",
+    "related": [
+      "astrometria",
+      "parallasse",
+      "catalogo-astronomico"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Una mappa costruita misurando",
+        "paragraphs": [
+          "Gaia non realizzò semplicemente una grande fotografia panoramica della Via Lattea. Misure ripetute nel tempo permisero di ricavare posizioni, parallassi e moti propri, insieme a informazioni fotometriche e spettroscopiche nei casi previsti. Il risultato è un insieme di dati elaborati e calibrati. Una visualizzazione tridimensionale usa queste misure e le loro incertezze, non mostra una galassia vista direttamente da un punto esterno raggiunto dal telescopio."
+        ]
+      },
+      {
+        "title": "La parallasse ha limiti e precisioni",
+        "paragraphs": [
+          "Lo spostamento apparente legato al moto dell’osservatore offre un metodo geometrico per studiare distanze. Non tutte le sorgenti possiedono però misure ugualmente precise o prive di effetti sistematici. Per usare un catalogo occorre leggere incertezze, indicatori di qualità e documentazione della versione. Un valore numerico con molte cifre non garantisce automaticamente una distanza altrettanto accurata, e l’inversione ingenua di una parallasse molto incerta può produrre interpretazioni fuorvianti."
+        ]
+      },
+      {
+        "title": "Le versioni sono parte del risultato",
+        "paragraphs": [
+          "Le pubblicazioni dei dati, chiamate data release, non contengono necessariamente gli stessi prodotti o lo stesso intervallo osservativo. Citare Gaia senza indicare la versione rende incompleto un confronto quantitativo. Anche epoca delle coordinate e sistema di riferimento contano quando si combinano cataloghi. Le mappe illustrate devono dichiarare selezioni e trasformazioni, invece di presentare ogni punto come una stella con posizione e distanza perfettamente conosciute."
+        ]
+      },
+      {
+        "title": "L’archivio continua a lavorare",
+        "paragraphs": [
+          "Le osservazioni scientifiche terminarono il 15 gennaio 2025 secondo la cronologia ESA. Elaborazione e sfruttamento dei dati proseguono oltre quella fase, quindi una nuova pubblicazione non significa automaticamente nuove osservazioni del veicolo. La missione aiuta a ricostruire struttura e storia galattica confrontando movimenti e proprietà stellari. Nel glossario il collegamento più utile è questo passaggio dalla misura ripetuta alla mappa e poi all’interpretazione della nostra Galassia, con limiti sempre proporzionati alla qualità dei dati."
+        ]
+      }
+    ],
+    "facts": [
+      "Per citare un risultato Gaia bisogna indicare versione del catalogo e qualità delle misure"
+    ],
+    "example": "Per citare un risultato Gaia bisogna indicare versione del catalogo e qualità delle misure",
+    "sources": [
+      {
+        "title": "Treccani · quadro terminologico generale; dettagli nelle fonti specifiche",
+        "url": "https://www.treccani.it/enciclopedia/astrometria/"
+      },
+      {
+        "title": "ESA · Gaia, obiettivi e cronologia",
+        "url": "https://www.esa.int/Science_Exploration/Space_Science/Gaia"
+      }
     ]
   },
   {
@@ -10202,6 +14854,187 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "galilei-galileo",
+    "name": "Galilei, Galileo",
+    "definition": "Galileo Galilei (1564–1642) contribuì alla nuova fisica del moto e utilizzò il cannocchiale per osservazioni che trasformarono il dibattito astronomico del Seicento.",
+    "source": "https://www.treccani.it/enciclopedia/galileo-galilei/",
+    "lesson": "lezione-3-4.html",
+    "related": [
+      "telescopio",
+      "satellite-naturale",
+      "inerzia"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Uno strumento cambia le domande",
+        "paragraphs": [
+          "Galileo costruì e migliorò cannocchiali dopo aver avuto notizia di strumenti già realizzati altrove. Non inventò dal nulla il telescopio. Il contributo astronomico nacque dall’uso osservativo, dal confronto e dall’interpretazione di ciò che lo strumento mostrava. Le limitazioni ottiche restavano reali: non ogni forma era riconoscibile correttamente. Questo permette di raccontare l’innovazione senza trasformare l’osservatore in una persona immune da errori o difficoltà."
+        ]
+      },
+      {
+        "title": "Il cielo acquista nuovi dettagli",
+        "paragraphs": [
+          "Le osservazioni della superficie lunare e dei satelliti di Giove misero in discussione parti del quadro tradizionale. Nel 1610 il Sidereus Nuncius presentò risultati che ampliarono l’orizzonte osservativo. Le fasi di Venere offrirono ulteriori elementi nel dibattito sui modelli planetari. Non ogni singola osservazione dimostrava da sola l’intero sistema copernicano: occorre distinguere quali modelli venissero esclusi e quali interpretazioni restassero possibili."
+        ]
+      },
+      {
+        "title": "Moto, esperimento e linguaggio matematico",
+        "paragraphs": [
+          "Galileo studiò la caduta e altri problemi meccanici collegando ragionamento e misure. Le ricostruzioni divulgative devono distinguere i risultati documentati dagli episodi tradizionali, come alcune narrazioni della torre di Pisa. Non occorre inventare una dimostrazione spettacolare per rendere importante il contributo. Il passaggio essenziale è cercare relazioni quantitative e confrontarle con l’esperienza, invece di fermarsi a ciò che sembra evidente nella vita quotidiana."
+        ]
+      },
+      {
+        "title": "Un conflitto storico da non appiattire",
+        "paragraphs": [
+          "La difesa del copernicanesimo e il processo del 1633 appartengono a un contesto scientifico, culturale e religioso preciso. Ridurli a uno slogan cancella sia i conflitti sia la complessità delle argomentazioni. La voce collega la persona ai concetti del percorso, mantenendo separati biografia e validità di una prova. Guardare una luna di Giove oggi può così diventare anche un incontro con la storia di osservazioni che cambiarono il modo di immaginare il posto della Terra."
+        ]
+      }
+    ],
+    "facts": [
+      "Galileo migliorò e utilizzò il cannocchiale; non ne fu l’inventore originario"
+    ],
+    "example": "Galileo migliorò e utilizzò il cannocchiale; non ne fu l’inventore originario",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/galileo-galilei/"
+      },
+      {
+        "title": "University of St Andrews · Galileo, esperimenti e opere",
+        "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Galileo/"
+      }
+    ],
+    "aliases": [
+      "Galileo Galilei"
+    ],
+    "linkNames": [
+      "Galileo Galilei"
+    ]
+  },
+  {
+    "id": "galileo-sonda",
+    "name": "Galileo, missione",
+    "definition": "Galileo fu una missione NASA dedicata al sistema di Giove, comprendente un veicolo orbitale e una sonda che entrò nell’atmosfera del pianeta nel 1995.",
+    "source": "https://www.treccani.it/enciclopedia/pianeta/",
+    "lesson": "lezione-3-3.html",
+    "related": [
+      "lune-galileiane",
+      "juno",
+      "atmosfera"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un nome storico per una missione",
+        "paragraphs": [
+          "La sonda Galileo prende il nome da Galileo Galilei, ma appartiene all’esplorazione spaziale contemporanea, non alle sue osservazioni seicentesche. Questa distinzione è importante nelle didascalie e nella ricerca delle fonti. La missione studiò Giove e i suoi satelliti con strumenti diversi, costruendo un quadro che non si limita a fotografie del pianeta. Le immagini delle lune e le misure dell’ambiente gioviano affrontano domande complementari sulla struttura del sistema."
+        ]
+      },
+      {
+        "title": "Due modalità di indagine",
+        "paragraphs": [
+          "Nel dicembre 1995 il veicolo orbitale arrivò a Giove mentre una sonda separata effettuava misure durante la discesa nell’atmosfera. Osservare dall’orbita e attraversare il gas non sono operazioni equivalenti. Il veicolo di discesa può misurare condizioni locali; l’osservatorio orbitale offre un contesto più ampio e segue l’evoluzione di strutture visibili. Il valore nasce dal confronto, senza attribuire a una sola regione atmosferica il significato di campione uniforme dell’intero pianeta."
+        ]
+      },
+      {
+        "title": "Entrare nell’atmosfera non è atterrare",
+        "paragraphs": [
+          "Giove non possiede una superficie solida accessibile analoga a quella terrestre. La discesa atmosferica non va illustrata come un atterraggio su un pavimento nascosto sotto le nuvole. Pressione e temperatura cambiano con la profondità e pongono limiti alla sopravvivenza degli strumenti. La durata e la quota delle misure fanno parte del risultato. Un diagramma corretto deve mostrare strati e traiettoria senza suggerire una struttura materiale inventata soltanto per rendere la scena intuitiva."
+        ]
+      },
+      {
+        "title": "Un’eredità da confrontare",
+        "paragraphs": [
+          "Le missioni successive, come Juno, possono approfondire domande già emerse e aggiungerne di nuove. Non annullano automaticamente i dati precedenti: usano strumenti, traiettorie e obiettivi differenti. Nel leggere una notizia conviene chiedersi quale missione abbia prodotto il dato e se si tratti di una misura, di un’elaborazione o di una ricostruzione artistica. La storia di Galileo mostra che un sistema planetario diventa comprensibile attraverso osservazioni coordinate, non con una singola immagine spettacolare."
+        ]
+      }
+    ],
+    "facts": [
+      "La sonda atmosferica Galileo effettuò una discesa nel gas, non un atterraggio su Giove"
+    ],
+    "example": "La sonda atmosferica Galileo effettuò una discesa nel gas, non un atterraggio su Giove",
+    "sources": [
+      {
+        "title": "Treccani · quadro terminologico generale; dettagli nelle fonti specifiche",
+        "url": "https://www.treccani.it/enciclopedia/pianeta/"
+      },
+      {
+        "title": "NASA · orbiter e sonda atmosferica Galileo",
+        "url": "https://science.nasa.gov/mission/galileo/"
+      }
+    ],
+    "linkNames": [
+      "missione Galileo",
+      "sonda Galileo"
+    ]
+  },
+  {
+    "id": "gas-ideale",
+    "name": "Gas ideale",
+    "definition": "Il gas ideale è un modello nel quale le particelle sono trattate con volume proprio trascurabile e interazioni semplificate; collega pressione, volume, temperatura e quantità di sostanza.",
+    "source": "https://www.treccani.it/enciclopedia/gas/",
+    "lesson": "lezione-4-1.html",
+    "related": [
+      "pressione",
+      "temperatura",
+      "mole"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un modello non è una sostanza speciale",
+        "paragraphs": [
+          "Il gas ideale non è un elemento da cercare nella tavola periodica. È una descrizione che trascura alcuni aspetti delle particelle e delle loro interazioni per ottenere relazioni semplici. Un gas reale può avvicinarsi al modello in certe condizioni e discostarsene in altre. La parola ideale non significa perfetto o migliore: indica che il sistema è stato semplificato secondo ipotesi esplicite, da controllare prima di utilizzare i risultati."
+        ]
+      },
+      {
+        "title": "La relazione e i simboli",
+        "paragraphs": [
+          "L’equazione p × V = n × R × T collega pressione p, volume V, quantità di sostanza n e temperatura assoluta T; R è la costante universale dei gas. Con unità SI, p è in pascal, V in metri cubi, n in moli e T in kelvin. Non bisogna inserire direttamente una temperatura Celsius. La formula riassume relazioni fra proprietà del gas, ma non descrive da sola ogni possibile trasformazione energetica."
+        ]
+      },
+      {
+        "title": "Variare una cosa mantenendone ferme altre",
+        "paragraphs": [
+          "Per una quantità fissa di gas a temperatura costante, dimezzare il volume raddoppia la pressione nel modello. Se invece si mantiene costante il volume, raddoppiare la temperatura assoluta raddoppia la pressione. Dire soltanto scaldando aumenta la pressione è incompleto: un contenitore mobile potrebbe espandersi. Gli esempi mostrano perché le condizioni fissate siano parte della spiegazione e non dettagli da aggiungere dopo il calcolo."
+        ]
+      },
+      {
+        "title": "Il cielo richiede controllare i limiti",
+        "paragraphs": [
+          "Negli ambienti astronomici gas, plasma, radiazione e materia degenere possono richiedere descrizioni differenti. Il modello ideale può essere utile senza diventare universale. Ionizzazione e numero di particelle influenzano anche l’interpretazione della quantità di gas. Nel glossario questa voce offre una base per leggere pressione e temperatura delle stelle, ricordando che la scelta dell’equazione dipende dal regime fisico. Una formula semplice chiarisce un collegamento soltanto se non nasconde le ipotesi sulle quali è costruita."
+        ]
+      }
+    ],
+    "facts": [
+      "A temperatura e quantità fisse, volume dimezzato significa pressione doppia nel modello ideale"
+    ],
+    "example": "A temperatura e quantità fisse, volume dimezzato significa pressione doppia nel modello ideale",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/gas/"
+      },
+      {
+        "title": "Scuola Normale Superiore · introduzione alla termodinamica dei gas",
+        "url": "https://stagefisica.sns.it/media/lezioni_2023_I/60_Termodinamica_base.pdf"
+      },
+      {
+        "title": "Lorenzo Roi · Corso di astronomia 2, gas e stelle",
+        "url": "https://www.lorenzoroi.net/prelievi/CorsoAstro2.pdf"
+      }
+    ],
+    "aliases": [
+      "gas perfetto",
+      "gas ideali",
+      "gas perfetti"
+    ]
+  },
+  {
     "id": "gas-interstellare",
     "name": "Gas interstellare",
     "definition": "Il gas interstellare è la componente gassosa del materiale fra le stelle, presente in fasi molecolari, atomiche e ionizzate con condizioni diverse.",
@@ -10498,6 +15331,67 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "gluone",
+    "name": "Gluone",
+    "definition": "Il gluone è il bosone associato all’interazione forte nella cromodinamica quantistica. Partecipa alla dinamica che lega quark e antiquark nei sistemi adronici.",
+    "source": "https://www.treccani.it/enciclopedia/gluone/",
+    "lesson": "lezione-6-5.html",
+    "related": [
+      "quark",
+      "bosone",
+      "interazione-forte"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Una colla soltanto nel nome",
+        "paragraphs": [
+          "Il nome richiama l’inglese glue, ma il gluone non è una sostanza adesiva fra palline subatomiche. È una particella del quadro quantistico dell’interazione forte. L’immagine della colla può introdurre il ruolo di legame, poi deve essere abbandonata prima che suggerisca contatto meccanico o un materiale steso dentro il nucleo. La descrizione fisica utilizza campi e interazioni, non una miniatura della costruzione di un oggetto comune."
+        ]
+      },
+      {
+        "title": "La carica di colore",
+        "paragraphs": [
+          "Quark e gluoni partecipano a un’interazione legata alla carica di colore. Questo termine non indica la luce riflessa o emessa da una superficie. A differenza di una semplice analogia elettrostatica, i gluoni possono interagire anche fra loro. Il comportamento della forza forte non si ricava quindi copiando il disegno di due cariche elettriche. La proprietà aiuta a comprendere perché confinamento e formazione dei sistemi composti richiedano un quadro specifico."
+        ]
+      },
+      {
+        "title": "Che cosa significa osservare una particella",
+        "paragraphs": [
+          "Gli esperimenti identificano processi e prodotti compatibili con la presenza e il comportamento dei gluoni. Non si tratta di una fotografia ordinaria che mostri un piccolo oggetto con un contorno. Tracce, distribuzioni e confronti quantitativi sostengono l’interpretazione. Quando un’illustrazione assegna ai gluoni una forma o un colore, sta costruendo uno schema. La didascalia deve mantenere questa distinzione per non confondere un risultato sperimentale con il simbolo scelto per rappresentarlo."
+        ]
+      },
+      {
+        "title": "Dal protone alle condizioni estreme",
+        "paragraphs": [
+          "La dinamica dei gluoni contribuisce alle proprietà dei protoni e degli altri adroni. A temperature e densità energetiche elevate si studiano stati di materia diversi, fra cui il plasma di quark e gluoni. Il nome plasma non basta però a identificarlo con il gas ionizzato di una comune nebulosa. Le condizioni e i costituenti sono differenti. Il collegamento astronomico nasce dalla fisica della materia e dell’Universo primordiale, senza rendere intercambiabili tutti i fenomeni chiamati plasma."
+        ]
+      }
+    ],
+    "facts": [
+      "La colla del nome è un’analogia: i gluoni appartengono a una descrizione quantistica"
+    ],
+    "example": "La colla del nome è un’analogia: i gluoni appartengono a una descrizione quantistica",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/gluone/"
+      },
+      {
+        "title": "Università di Berna · ruolo e proprietà dei gluoni",
+        "url": "https://www.einstein.unibe.ch/research/outreach/particle_trail/gluon/index_eng.html"
+      },
+      {
+        "title": "CERN/ALICE · introduzione alla fisica della materia estrema",
+        "url": "https://alicepublic.web.cern.ch/physics-primer"
+      }
+    ],
+    "aliases": [
+      "gluoni"
+    ]
+  },
+  {
     "id": "gnomone",
     "name": "Gnomone",
     "definition": "Lo gnomone è uno stilo che proietta un’ombra usata per studiare la posizione del Sole o indicare il tempo su un quadrante opportunamente costruito.",
@@ -10658,6 +15552,67 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "grandezza-scalare",
+    "name": "Grandezza scalare",
+    "definition": "Una grandezza scalare viene descritta, nel contesto fisico considerato, da un valore numerico e un’unità, senza attribuirle direzione e verso come a un vettore.",
+    "source": "https://www.treccani.it/enciclopedia/scalare_(Dizionario-delle-Scienze-Fisiche)/",
+    "lesson": "lezione-3-6.html",
+    "related": [
+      "vettore",
+      "temperatura",
+      "energia"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un numero risponde alla domanda",
+        "paragraphs": [
+          "La massa di un corpo o la temperatura in un punto sono esempi di grandezze scalari nella descrizione ordinaria. Per dire che la temperatura è 280 K non occorre aggiungere verso nord. Questo non rende la misura priva di contesto: luogo, istante, condizioni e incertezza restano importanti. Il termine scalare riguarda il tipo di grandezza, non la qualità della misura o la semplicità del fenomeno che si sta studiando."
+        ]
+      },
+      {
+        "title": "Un segno non crea una direzione",
+        "paragraphs": [
+          "Una grandezza scalare può avere un valore positivo, nullo o negativo quando la sua definizione lo permette. Il segno non la trasforma in vettore. Un’energia potenziale può dipendere dalla scelta dello zero, e una temperatura Celsius può essere negativa senza indicare un verso nello spazio. Occorre quindi separare segno numerico, riferimento adottato e orientamento geometrico. Le frecce non vanno aggiunte soltanto perché un numero presenta il simbolo meno."
+        ]
+      },
+      {
+        "title": "La rapidità non esaurisce la velocità",
+        "paragraphs": [
+          "Il modulo della velocità è uno scalare, ma il vettore velocità contiene anche direzione e verso. Due oggetti che si muovono con la stessa rapidità in direzioni differenti non hanno lo stesso vettore velocità. È una distinzione utile per leggere orbite e movimenti apparenti. Anche una grandezza scalare può cambiare da punto a punto: una mappa delle temperature è un campo scalare, non un campo di frecce termiche."
+        ]
+      },
+      {
+        "title": "Il quadro della definizione conta",
+        "paragraphs": [
+          "Nella fisica avanzata le trasformazioni dei riferimenti richiedono precisazioni ulteriori. Questa voce introduce il significato usato nei modelli elementari delle lezioni, senza affermare che qualsiasi numero sia automaticamente uno scalare fisico. Una componente di un vettore è un numero, ma cambia quando ruotano gli assi di riferimento. Il concetto da conservare è la distinzione fra valore di una proprietà e descrizione orientata: aiuta a scegliere dati, unità e disegni coerenti con la domanda."
+        ]
+      }
+    ],
+    "facts": [
+      "La componente numerica di un vettore non coincide con una grandezza scalare indipendente dagli assi"
+    ],
+    "example": "La componente numerica di un vettore non coincide con una grandezza scalare indipendente dagli assi",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/scalare_(Dizionario-delle-Scienze-Fisiche)/"
+      },
+      {
+        "title": "SAIt · Bignamino di astronomia, meccanica",
+        "url": "https://www.sait.it/sites/sait.interlandia.net/files/pictures/notizie/2022/Bignamino_astronomia_2022.pdf"
+      }
+    ],
+    "aliases": [
+      "scalare fisico"
+    ],
+    "linkNames": [
+      "grandezza scalare",
+      "grandezze scalari"
+    ]
+  },
+  {
     "id": "granulazione-solare",
     "name": "Granulazione solare",
     "definition": "La granulazione solare è la trama variabile della fotosfera associata ai moti convettivi del plasma, con regioni relativamente luminose e zone intergranulari più scure.",
@@ -10765,6 +15720,68 @@ window.AdAstraGlossary = [
         "title": "Treccani · riferimento terminologico",
         "url": "https://www.treccani.it/enciclopedia/gravitazione/"
       }
+    ]
+  },
+  {
+    "id": "gruppo-periodico",
+    "name": "Gruppo della tavola periodica",
+    "definition": "Un gruppo è una colonna della tavola periodica; nella numerazione moderna le colonne principali sono identificate da numeri da 1 a 18.",
+    "source": "https://www.treccani.it/enciclopedia/elementi_(Enciclopedia-dei-ragazzi)/",
+    "lesson": "lezione-4-3.html",
+    "related": [
+      "tavola-periodica",
+      "configurazione-elettronica",
+      "periodo-chimico"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Una colonna, non un ammasso",
+        "paragraphs": [
+          "Nel contesto chimico gruppo indica la posizione verticale nella tavola periodica. Non è un gruppo di stelle e non significa che gli elementi della colonna si trovino necessariamente insieme nello stesso minerale. La disposizione evidenzia relazioni fra configurazioni elettroniche e comportamento chimico. Il lettore deve quindi partire dal contesto: la stessa parola usata in astronomia e in chimica può indicare strutture concettuali completamente diverse, pur comparendo nella medesima lezione divulgativa."
+        ]
+      },
+      {
+        "title": "Le somiglianze elettroniche",
+        "paragraphs": [
+          "Per molti elementi rappresentativi gli elettroni più esterni aiutano a comprendere la somiglianza delle reazioni. Fluoro e cloro, per esempio, appartengono alla famiglia degli alogeni. Questo non li rende sostanze intercambiabili: dimensioni atomiche, energia e condizioni influenzano le proprietà. Una regola introduttiva sugli elettroni di valenza non va estesa senza cautela a ogni elemento di transizione. La tavola è più utile quando suggerisce confronti motivati, anziché risposte automatiche prive di eccezioni."
+        ]
+      },
+      {
+        "title": "Leggere la numerazione",
+        "paragraphs": [
+          "La numerazione dei gruppi da 1 a 18 evita ambiguità presenti in vecchi sistemi con numeri romani e lettere. Una tavola storica può quindi riportare etichette differenti da una moderna. Prima di confrontare due fonti bisogna verificare la convenzione. Non è un cambiamento del numero di protoni degli elementi: cambia il modo in cui le colonne vengono chiamate. Questa distinzione impedisce di interpretare una differenza di nomenclatura come una contraddizione sulla struttura della materia."
+        ]
+      },
+      {
+        "title": "Una tendenza da applicare con criterio",
+        "paragraphs": [
+          "Scendere lungo un gruppo significa confrontare elementi con nuclei e distribuzioni elettroniche più complessi, non aggiungere semplicemente neutroni allo stesso atomo. Gli isotopi restano all’interno dello stesso elemento e della stessa casella. In astro-chimica il confronto tra gruppi può orientare la lettura delle molecole e dei materiali, ma le abbondanze dipendono anche dalla storia nucleare e dall’ambiente. Somiglianza chimica e frequenza cosmica sono domande distinte, che richiedono dati differenti."
+        ]
+      }
+    ],
+    "facts": [
+      "Un gruppo è una colonna; un periodo è una riga"
+    ],
+    "example": "Un gruppo è una colonna; un periodo è una riga",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/elementi_(Enciclopedia-dei-ragazzi)/"
+      },
+      {
+        "title": "Università di Camerino · introduzione a gruppi e periodi",
+        "url": "https://tavolaperiodica.unicam.it/introduzione.html"
+      },
+      {
+        "title": "IUPAC · disposizione moderna degli elementi",
+        "url": "https://iupac.org/what-we-do/periodic-table-of-elements/"
+      }
+    ],
+    "linkNames": [
+      "gruppo della tavola periodica",
+      "gruppi della tavola periodica"
     ]
   },
   {
@@ -11052,6 +16069,296 @@ window.AdAstraGlossary = [
     "aliases": [
       "Hβ",
       "H beta"
+    ]
+  },
+  {
+    "id": "hack-margherita",
+    "name": "Hack, Margherita",
+    "definition": "Margherita Hack (1922–2013) fu un’astrofisica italiana attiva nella spettroscopia e nell’evoluzione stellare, nella direzione della ricerca e nella divulgazione al pubblico.",
+    "source": "https://www.treccani.it/enciclopedia/margherita-hack/",
+    "lesson": "lezione-4-3.html",
+    "related": [
+      "spettroscopia",
+      "evoluzione-stellare",
+      "classe-spettrale"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Leggere la fisica nella luce",
+        "paragraphs": [
+          "L’attività scientifica di Margherita Hack comprendeva lo studio delle stelle attraverso la loro radiazione. La spettroscopia permette di collegare righe, intensità e distribuzione della luce alle condizioni fisiche delle atmosfere stellari. Una stella non diventa conoscibile soltanto avvicinandosi a essa: il suo segnale contiene informazioni da interpretare con strumenti e modelli. È uno dei collegamenti più efficaci fra la curiosità del pubblico per il cielo e il lavoro concreto dell’astrofisica."
+        ]
+      },
+      {
+        "title": "Costruire un ambiente di ricerca",
+        "paragraphs": [
+          "Hack diresse l’Osservatorio astronomico di Trieste dal 1964 al 1987 e contribuì allo sviluppo dell’istituzione e della ricerca universitaria. La scienza richiede anche organizzazione, formazione e continuità delle attività. Un risultato non nasce soltanto dall’idea isolata di una persona: servono strumenti, collaborazioni e possibilità di discutere e verificare i dati. La storia di un osservatorio rende visibile questo lavoro meno spettacolare, ma essenziale quanto la singola scoperta raccontata in una notizia."
+        ]
+      },
+      {
+        "title": "Una voce pubblica",
+        "paragraphs": [
+          "Alla ricerca Hack affiancò una lunga attività divulgativa. Spiegare al pubblico non equivale a eliminare ogni difficoltà: significa scegliere un percorso che renda comprensibili parole e relazioni. La sua presenza nella cultura italiana ricorda che l’astronomia può entrare nella conversazione comune mantenendo il legame con le prove. Nel leggerne testi e interviste bisogna però distinguere spiegazioni scientifiche, opinioni personali e contesto storico, senza trasformare l’autorevolezza di una persona in garanzia universale su qualsiasi argomento."
+        ]
+      },
+      {
+        "title": "Un collegamento per il lettore",
+        "paragraphs": [
+          "Una buona introduzione alla sua figura può partire dallo spettro di una stella e arrivare alle domande sull’evoluzione stellare. Non occorre attribuirle tutte le conoscenze moderne né ridurla a un soprannome. È più istruttivo mostrare il rapporto tra misure, interpretazione e comunicazione. Nel glossario questa voce affianca dunque persone e concetti: aiuta a riconoscere la storia umana della disciplina, mantenendo separati il racconto biografico e la spiegazione fisica dei fenomeni."
+        ]
+      }
+    ],
+    "facts": [
+      "Hack diresse l’Osservatorio astronomico di Trieste dal 1964 al 1987"
+    ],
+    "example": "Hack diresse l’Osservatorio astronomico di Trieste dal 1964 al 1987",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/margherita-hack/"
+      },
+      {
+        "title": "INAF · ricordo e attività all’Osservatorio di Trieste",
+        "url": "https://www.media.inaf.it/2013/06/29/ciao-margherita/"
+      }
+    ],
+    "linkNames": [
+      "Margherita Hack"
+    ]
+  },
+  {
+    "id": "halley-edmond",
+    "name": "Halley, Edmond",
+    "definition": "Edmond Halley (1656–1742), chiamato anche Edmund, fu un astronomo inglese noto per lo studio delle orbite cometarie e la previsione del ritorno della cometa che porta il suo nome.",
+    "source": "https://www.treccani.it/enciclopedia/edmund-halley/",
+    "lesson": "lezione-3-5.html",
+    "related": [
+      "cometa",
+      "periodo-orbitale",
+      "newton-isaac"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Riconoscere lo stesso viaggiatore",
+        "paragraphs": [
+          "Halley confrontò osservazioni di comete apparse in epoche differenti e riconobbe che alcune potevano riferirsi allo stesso corpo periodico. Il contributo non consiste semplicemente nell’avere visto una cometa luminosa. Occorreva collegare osservazioni separate attraverso un modello orbitale e controllare se la somiglianza fosse fisicamente plausibile. Questo passaggio trasforma un’apparizione eccezionale in un fenomeno sul quale formulare una previsione verificabile, mostrando il rapporto tra memoria delle osservazioni e teoria del moto."
+        ]
+      },
+      {
+        "title": "La prova di un ritorno",
+        "paragraphs": [
+          "Nel 1705 pubblicò una previsione del ritorno della cometa. Il ritorno osservato nel 1758 avvenne dopo la sua morte e rafforzò il quadro interpretativo delle orbite cometarie. La previsione non equivale a un periodo perfettamente identico per sempre: perturbazioni gravitazionali e altri effetti devono essere considerati. Per leggere un calendario moderno non basta quindi sommare ripetutamente un numero intero di anni a una vecchia data senza ricorrere a calcoli appropriati."
+        ]
+      },
+      {
+        "title": "Non soltanto una cometa",
+        "paragraphs": [
+          "Halley lavorò anche su stelle, misure celesti e altri problemi scientifici e sostenne la pubblicazione dei Principia di Newton. La sua attività ricorda che l’astronomia si costruisce attraverso osservatori, calcolatori, strumenti e relazioni fra studiosi. Ridurre una biografia al nome di un oggetto può nascondere questa rete. Al tempo stesso non bisogna attribuire a una persona tutte le osservazioni storiche della cometa solo perché il corpo oggi porta il suo nome."
+        ]
+      },
+      {
+        "title": "Una lezione sul tempo astronomico",
+        "paragraphs": [
+          "Il caso è utile per collegare periodo orbitale, osservazione e incertezza delle previsioni. Una cometa può rimanere lontana e poco accessibile per gran parte dell’orbita, mentre le condizioni di visibilità dalla Terra cambiano. Ritorno al perielio e migliore osservabilità non sono necessariamente lo stesso istante. Il lettore può così distinguere tre domande: dove si trova il corpo, quando passa vicino al Sole e quando il cielo locale permette davvero di osservarlo."
+        ]
+      }
+    ],
+    "facts": [
+      "La previsione di Halley fu verificata dal ritorno del 1758, dopo la sua morte"
+    ],
+    "example": "La previsione di Halley fu verificata dal ritorno del 1758, dopo la sua morte",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/edmund-halley/"
+      },
+      {
+        "title": "Università di St Andrews · Halley e la previsione cometaria",
+        "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Halley/"
+      }
+    ],
+    "aliases": [
+      "Edmund Halley"
+    ],
+    "linkNames": [
+      "Edmond Halley",
+      "Edmund Halley"
+    ]
+  },
+  {
+    "id": "hayabusa2",
+    "name": "Hayabusa2",
+    "definition": "Hayabusa2 è la missione giapponese JAXA che studiò l’asteroide Ryugu e riportò sulla Terra campioni del suo materiale nel 2020.",
+    "source": "https://www.treccani.it/enciclopedia/asteroide/",
+    "lesson": "lezione-10-5.html",
+    "related": [
+      "osiris-rex",
+      "regolite",
+      "asteroide"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un asteroide studiato da vicino",
+        "paragraphs": [
+          "Hayabusa2, lanciata nel 2014, visitò Ryugu per studiarne proprietà e raccoglierne campioni. Il numero nel nome distingue la missione dalla precedente Hayabusa. Non sono due denominazioni intercambiabili dello stesso veicolo e non avevano lo stesso bersaglio. La distinzione è utile quando si confrontano immagini e risultati: una fotografia corretta per una missione può diventare fuorviante se viene attribuita all’altra soltanto perché i nomi e gli obiettivi generali si somigliano."
+        ]
+      },
+      {
+        "title": "La superficie non racconta tutto",
+        "paragraphs": [
+          "Una superficie esposta allo spazio può essere modificata da radiazione, urti e variazioni termiche. La missione impiegò anche un dispositivo per produrre un cratere artificiale e accedere a materiale meno esposto. Questo non significa perforare fino al nucleo dell’asteroide. Profondità e dimensioni dell’esperimento sono limitate e devono essere indicate. Il confronto fra zone differenti aiuta a distinguere caratteristiche originarie e trasformazioni superficiali, sotto ipotesi da verificare."
+        ]
+      },
+      {
+        "title": "Il viaggio di ritorno",
+        "paragraphs": [
+          "La capsula dei campioni fu recuperata in Australia nel dicembre 2020. La quantità raccolta, pur piccola rispetto alle dimensioni di Ryugu, consente numerose analisi specialistiche. In laboratorio l’informazione non dipende soltanto dalla massa totale: contano selezione delle porzioni, precisione degli strumenti e controllo delle contaminazioni. Un granello può contenere una storia complessa, ma non deve essere presentato come una copia perfettamente rappresentativa di ogni parte dell’intero corpo."
+        ]
+      },
+      {
+        "title": "Confrontare senza confondere",
+        "paragraphs": [
+          "Hayabusa2 e OSIRIS-REx permettono confronti fra materiali di asteroidi differenti, raccolti con operazioni differenti. Una differenza misurata può dipendere dal corpo, dal punto di raccolta o dalla storia del campione e richiede interpretazione. Le missioni di ritorno rendono possibile questo dialogo tra esplorazione e laboratorio. Per il lettore la domanda chiave resta concreta: quale materiale è stato osservato, da dove proviene e quali passaggi collegano la sua origine all’analisi che viene raccontata?"
+        ]
+      }
+    ],
+    "facts": [
+      "Hayabusa2 studiò Ryugu; non è la stessa missione della prima Hayabusa"
+    ],
+    "example": "Hayabusa2 studiò Ryugu; non è la stessa missione della prima Hayabusa",
+    "sources": [
+      {
+        "title": "Treccani · quadro terminologico generale; dettagli nelle fonti specifiche",
+        "url": "https://www.treccani.it/enciclopedia/asteroide/"
+      },
+      {
+        "title": "JAXA · Hayabusa2 e campioni di Ryugu",
+        "url": "https://global.jaxa.jp/projects/sas/hayabusa2/"
+      }
+    ],
+    "aliases": [
+      "Hayabusa 2"
+    ]
+  },
+  {
+    "id": "herschel-caroline",
+    "name": "Herschel, Caroline Lucretia",
+    "definition": "Caroline Lucretia Herschel (1750–1848) fu un’astronoma che scoprì comete e svolse un importante lavoro di osservazione, calcolo e revisione di cataloghi.",
+    "source": "https://www.treccani.it/enciclopedia/carolina-lucretia-herschel/",
+    "lesson": "lezione-9-4.html",
+    "related": [
+      "cometa",
+      "catalogo-astronomico",
+      "astrometria"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "La ricerca richiede anche continuità",
+        "paragraphs": [
+          "Caroline Herschel collaborò a lungo con il fratello William, registrando osservazioni ed elaborando dati. Svolse inoltre una propria attività di ricerca cometaria. Non va descritta soltanto come una presenza accanto a un astronomo più famoso. Il lavoro di calcolo e organizzazione era parte sostanziale dell’indagine: trasformava appunti della notte in risultati utilizzabili e confrontabili, conservando il legame fra ciò che era stato osservato e la posizione assegnata agli oggetti."
+        ]
+      },
+      {
+        "title": "Cercare oggetti che cambiano",
+        "paragraphs": [
+          "Nel 1786 individuò la prima delle comete a lei attribuite; la sua attività portò a più scoperte negli anni successivi. Una cometa viene riconosciuta anche attraverso confronto, moto e osservazioni ripetute, non soltanto perché appare come una macchia in una singola immagine. Questa storia può accompagnare un esercizio sulle variazioni del cielo, distinguendo oggetto nuovo per l’osservatore e scoperta documentata rispetto alle conoscenze disponibili."
+        ]
+      },
+      {
+        "title": "Correggere un catalogo è produrre conoscenza",
+        "paragraphs": [
+          "La revisione delle osservazioni di Flamsteed e l’organizzazione dei dati stellari mostrano il valore della precisione editoriale e numerica. Un catalogo può contenere omissioni o errori e richiede controlli. La correzione non è un compito separato dalla scienza: determina quali confronti siano possibili e quanto siano affidabili. Per un portale divulgativo questo offre anche un riferimento di metodo, perché pubblicare dati significa renderli leggibili, verificabili e correttamente attribuiti."
+        ]
+      },
+      {
+        "title": "Una biografia senza semplificazioni celebrative",
+        "paragraphs": [
+          "La formazione, la musica, i vincoli sociali e il lavoro scientifico contribuirono alla sua vita. Le fonti possono differire nei conteggi o nelle formulazioni dei primati; occorre specificare quale contributo venga descritto. Non servono scene inventate per rendere interessante il racconto. L’immagine di una persona che confronta posizioni e prepara calcoli restituisce già una parte concreta dell’astronomia: il cielo osservato diventa una memoria ordinata, sulla quale altri possono continuare a lavorare e fare nuove scoperte."
+        ]
+      }
+    ],
+    "facts": [
+      "Osservazione, calcolo e revisione dei cataloghi sono contributi scientifici complementari"
+    ],
+    "example": "Osservazione, calcolo e revisione dei cataloghi sono contributi scientifici complementari",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/carolina-lucretia-herschel/"
+      },
+      {
+        "title": "University of St Andrews · biografia documentata",
+        "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Herschel_Caroline/"
+      }
+    ],
+    "aliases": [
+      "Caroline Herschel",
+      "Carolina Herschel"
+    ]
+  },
+  {
+    "id": "herschel-william",
+    "name": "Herschel, William",
+    "definition": "William Herschel (1738–1822) fu un astronomo e costruttore di telescopi, scopritore di Urano nel 1781 e protagonista dello studio sistematico del cielo profondo.",
+    "source": "https://www.treccani.it/enciclopedia/astronomia_(Enciclopedia-Italiana)/",
+    "lesson": "lezione-5-1.html",
+    "related": [
+      "herschel-caroline",
+      "riflettore",
+      "infrarosso"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Uno strumento può cambiare il cielo conosciuto",
+        "paragraphs": [
+          "Herschel costruì e utilizzò telescopi riflettori per osservare stelle doppie e oggetti deboli. La qualità del lavoro dipendeva sia dallo strumento sia dall’organizzazione delle osservazioni. Non era sufficiente puntare un grande telescopio casualmente: servivano confronti, registrazioni e continuità. La collaborazione con Caroline Herschel fa parte di questa storia e non va cancellata presentando ogni risultato come l’impresa solitaria di un osservatore separato da chi rendeva possibile il programma."
+        ]
+      },
+      {
+        "title": "Riconoscere un nuovo pianeta",
+        "paragraphs": [
+          "Nel 1781 osservò l’oggetto poi riconosciuto come Urano. La distinzione da una stella richiese considerare aspetto e movimento, insieme alle osservazioni e ai calcoli successivi. Il racconto mostra che scoperta e classificazione non sono sempre un unico istante. Un punto anomalo diventa un nuovo corpo conosciuto attraverso verifiche. Non è corretto attribuire al primo sguardo tutti i parametri orbitali e tutte le proprietà che oggi associamo al pianeta."
+        ]
+      },
+      {
+        "title": "Il cielo oltre le stelle evidenti",
+        "paragraphs": [
+          "Le ricognizioni di oggetti deboli contribuirono ad ampliare i cataloghi di ammassi e nebulose. La parola nebulosa aveva allora un’estensione che non coincide con tutte le classificazioni moderne: alcuni oggetti sarebbero stati compresi in modo diverso più tardi. Una fonte storica deve essere letta con questo contesto. Il suo valore non sta nel possedere già ogni spiegazione attuale, ma nell’offrire osservazioni ordinate che altri possono confrontare, ripetere e reinterpretare."
+        ]
+      },
+      {
+        "title": "La luce non finisce al rosso",
+        "paragraphs": [
+          "Herschel è legato anche allo studio della radiazione oltre il rosso visibile. Il collegamento introduce l’idea che uno strumento possa rilevare ciò che l’occhio non percepisce direttamente. Una misura termica e una fotografia infrarossa moderna non sono però la stessa esperienza. Per raccontare il passaggio conviene esplicitare che cosa viene rivelato e con quale apparato. La storia unisce così costruzione degli strumenti, esplorazione del cielo e ampliamento del concetto di luce osservabile."
+        ]
+      }
+    ],
+    "facts": [
+      "William e Caroline Herschel ebbero ruoli distinti e collaborarono nelle osservazioni"
+    ],
+    "example": "William e Caroline Herschel ebbero ruoli distinti e collaborarono nelle osservazioni",
+    "sources": [
+      {
+        "title": "Treccani · quadro terminologico generale; dettagli nelle fonti specifiche",
+        "url": "https://www.treccani.it/enciclopedia/astronomia_(Enciclopedia-Italiana)/"
+      },
+      {
+        "title": "Università di St Andrews · William Herschel",
+        "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Herschel_William/"
+      }
+    ],
+    "linkNames": [
+      "William Herschel"
     ]
   },
   {
@@ -11347,6 +16654,68 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "hipparcos",
+    "name": "Hipparcos",
+    "definition": "Hipparcos fu la missione astrometrica ESA che osservò fra il 1989 e il 1993, producendo cataloghi fondamentali di posizioni, parallassi e moti stellari.",
+    "source": "https://www.treccani.it/enciclopedia/astrometria/",
+    "lesson": "lezione-9-4.html",
+    "related": [
+      "astrometria",
+      "parallasse",
+      "gaia"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Misurare il posto delle stelle",
+        "paragraphs": [
+          "L’astrometria non consiste soltanto nel disegnare le costellazioni: misura posizioni e cambiamenti con precisione. Hipparcos portò nello spazio un programma dedicato a queste grandezze. Le stelle osservate diventavano punti di una rete di confronti, da analizzare insieme per separare effetti differenti. Una posizione catalogata non è necessariamente una coordinata valida senza data: i moti e i riferimenti devono essere specificati per confrontarla con osservazioni successive."
+        ]
+      },
+      {
+        "title": "La parallasse apre la scala delle distanze",
+        "paragraphs": [
+          "Lo spostamento apparente annuale delle stelle vicine fornisce una misura geometrica collegata alla distanza. Il segnale è piccolo e si sovrappone ad altri cambiamenti, fra cui il moto proprio. Hipparcos consentì un grande miglioramento nei confronti stellari, ma non misurò la distanza di ogni oggetto dell’Universo. Precisione, luminosità e selezione del campione limitano il campo nel quale una misura può essere utilizzata direttamente."
+        ]
+      },
+      {
+        "title": "Missione e cataloghi hanno date diverse",
+        "paragraphs": [
+          "I dati scientifici furono raccolti soprattutto dal novembre 1989 al marzo 1993; i cataloghi Hipparcos e Tycho vennero pubblicati nel 1997. La data di un prodotto non coincide quindi con la data di ogni osservazione che lo compone. Esistono inoltre rielaborazioni successive. Per utilizzare un valore bisogna identificare la versione, non soltanto riconoscere il nome del satellite. Cataloghi collegati possono avere campioni e precisioni differenti."
+        ]
+      },
+      {
+        "title": "Un’eredità nella nuova astrometria",
+        "paragraphs": [
+          "Gaia ha proseguito e ampliato l’astrometria spaziale con caratteristiche proprie. Confrontare i programmi aiuta a capire l’evoluzione delle misure, senza descrivere Hipparcos come un semplice album fotografico superato. Le serie e i riferimenti storici continuano ad avere valore. Il nome richiama Ipparco, ma indica qui una missione moderna: una scelta editoriale chiara permette di passare dalla persona antica allo strumento e dal suo archivio alle misure che rendono più leggibile la struttura della Galassia."
+        ]
+      }
+    ],
+    "facts": [
+      "I cataloghi del 1997 utilizzano osservazioni raccolte anni prima: data del catalogo e data dei dati sono distinte"
+    ],
+    "example": "I cataloghi del 1997 utilizzano osservazioni raccolte anni prima: data del catalogo e data dei dati sono distinte",
+    "sources": [
+      {
+        "title": "Treccani · quadro terminologico generale; dettagli nelle fonti specifiche",
+        "url": "https://www.treccani.it/enciclopedia/astrometria/"
+      },
+      {
+        "title": "NASA HEASARC · catalogo Hipparcos e parametri",
+        "url": "https://heasarc.gsfc.nasa.gov/W3Browse/catalog/hipparcos.html"
+      },
+      {
+        "title": "ESA · missione e organizzazione dei cataloghi",
+        "url": "https://www.esa.int/esapub/br/br250/br250.pdf"
+      },
+      {
+        "title": "ESA · retrospettiva Hipparcos",
+        "url": "https://www.esa.int/Science_Exploration/Space_Science/Hipparcos_overview"
+      }
+    ]
+  },
+  {
     "id": "hohmann-trasferimento",
     "name": "Hohmann, trasferimento di",
     "definition": "Il trasferimento di Hohmann collega idealmente due orbite circolari complanari attraverso un arco ellittico tangente a entrambe, con variazioni di velocità appropriate.",
@@ -11405,6 +16774,131 @@ window.AdAstraGlossary = [
     ],
     "aliases": [
       "trasferimento di Hohmann"
+    ]
+  },
+  {
+    "id": "hubble-edwin",
+    "name": "Hubble, Edwin",
+    "definition": "Edwin Powell Hubble (1889–1953) fu un astronomo statunitense il cui lavoro sulle distanze extragalattiche e sulle galassie contribuì alla costruzione della cosmologia osservativa.",
+    "source": "https://www.treccani.it/enciclopedia/edwin-powell-hubble/",
+    "lesson": "lezione-6-3.html",
+    "related": [
+      "cefeide",
+      "hubble-lemaitre-legge",
+      "galassia"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Allargare la scala del cielo",
+        "paragraphs": [
+          "Il lavoro di Hubble contribuì a mostrare che Andromeda è un sistema stellare esterno alla Via Lattea. La questione non era soltanto trovare una macchia sul cielo: bisognava stimarne la distanza e confrontarla con le dimensioni attribuite alla nostra Galassia. Il riconoscimento di stelle variabili, in particolare delle cefeidi, rese possibile un passaggio decisivo. Un oggetto già noto acquistò così un significato diverso nella rappresentazione dell’Universo."
+        ]
+      },
+      {
+        "title": "Misurare prima di interpretare",
+        "paragraphs": [
+          "Distanze e spostamenti delle righe spettrali sono grandezze ottenute con metodi differenti. Metterle in relazione richiese osservazioni, calibrazioni e il contributo di più ricercatori. La relazione fra distanza e recessione non va narrata come una scoperta compiuta senza una storia precedente. Anche le prime scale delle distanze avevano errori sistematici: il valore numerico originariamente ricavato non coincide con le stime moderne. La solidità di un’idea non implica che ogni suo primo numero fosse già corretto."
+        ]
+      },
+      {
+        "title": "Un nome condiviso",
+        "paragraphs": [
+          "La denominazione legge di Hubble–Lemaître riconosce anche il contributo teorico e interpretativo di Georges Lemaître. Nell’uso divulgativo è importante conservare questo contesto, distinguendo una relazione osservativa dal modello cosmologico che la spiega. Inoltre non tutte le galassie vicine si allontanano da noi: i moti locali possono dominare. Andromeda stessa impedisce di trasformare il racconto storico in una regola letterale applicata a ogni singolo oggetto senza condizioni."
+        ]
+      },
+      {
+        "title": "La persona e il telescopio",
+        "paragraphs": [
+          "Il telescopio spaziale Hubble porta il nome dell’astronomo, ma fu lanciato nel 1990, molto dopo la sua morte. Fotografie ottenute da HST non sono dunque immagini realizzate personalmente da Edwin Hubble. Distinguere il ricercatore dallo strumento evita ambiguità nelle fonti e nelle didascalie. La sua storia offre un filo didattico concreto: identificare stelle, stimare distanze, confrontare galassie e infine formulare domande sulla struttura e sull’evoluzione del cosmo."
+        ]
+      }
+    ],
+    "facts": [
+      "Edwin Hubble e il telescopio spaziale Hubble sono due voci distinte"
+    ],
+    "example": "Edwin Hubble e il telescopio spaziale Hubble sono due voci distinte",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/edwin-powell-hubble/"
+      },
+      {
+        "title": "IAU · riconoscimento della legge di Hubble–Lemaître",
+        "url": "https://iauarchive.eso.org/news/pressreleases/detail/iau1812/"
+      }
+    ],
+    "linkNames": [
+      "Edwin Hubble",
+      "Edwin Powell Hubble"
+    ]
+  },
+  {
+    "id": "hubble-telescopio",
+    "name": "Hubble, telescopio spaziale",
+    "definition": "Hubble è un osservatorio spaziale NASA/ESA lanciato nel 1990, con specchio principale di 2,4 metri. Osserva soprattutto in ultravioletto, visibile e vicino infrarosso.",
+    "source": "https://www.treccani.it/enciclopedia/telescopio_(Enciclopedia-Italiana)/",
+    "lesson": "lezione-10-5.html",
+    "related": [
+      "telescopio",
+      "spettroscopia",
+      "hubble-lemaitre-legge"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un osservatorio sopra l’atmosfera",
+        "paragraphs": [
+          "Hubble orbita attorno alla Terra e osserva senza attraversare gli strati atmosferici che disturbano o assorbono parte della radiazione. Il vantaggio non significa che qualsiasi immagine sia automaticamente perfetta: ottica, puntamento, rivelatori e analisi conservano i propri limiti. Il diametro dello specchio principale è 2,4 metri. Conoscere queste caratteristiche permette di collegare le immagini celebri allo strumento fisico che le ha prodotte."
+        ]
+      },
+      {
+        "title": "Una storia che comprende una correzione",
+        "paragraphs": [
+          "Il lancio avvenne nell’aprile 1990. Un difetto nella forma dello specchio principale limitò inizialmente le prestazioni; gli interventi della prima missione di manutenzione del 1993 portarono una correzione ottica. Altre missioni aggiornarono strumenti e componenti. La storia non va raccontata come successo immediato privo di problemi: mostra invece come diagnosi, progettazione e lavoro operativo possano trasformare un limite in un programma scientifico molto più efficace."
+        ]
+      },
+      {
+        "title": "Più di una macchina fotografica",
+        "paragraphs": [
+          "Le osservazioni comprendono immagini e spettri utilizzati per studiare pianeti, stelle, nebulose e galassie. Un’immagine pubblicata può combinare filtri e assegnare colori alle diverse bande. Non sempre corrisponde a ciò che vedrebbe l’occhio avvicinandosi all’oggetto. Tempi di posa, campo e didascalia sono parte dell’informazione. L’archivio consente inoltre confronti fra epoche differenti, trasformando una raccolta di immagini in misure di cambiamenti e proprietà fisiche."
+        ]
+      },
+      {
+        "title": "Separare persona, strumento e risultato",
+        "paragraphs": [
+          "Il telescopio prende il nome da Edwin Hubble; non è la stessa cosa della legge di Hubble–Lemaître o di una costante cosmologica. Nomi collegati possono indicare entità differenti. Anche il contributo del telescopio alla cosmologia è una parte di una ricerca più ampia che coinvolge altri strumenti. La voce aiuta a leggere un credito NASA/ESA come provenienza e contesto, evitando di attribuire a una sola fotografia o missione l’intero sviluppo di una scoperta astronomica."
+        ]
+      }
+    ],
+    "facts": [
+      "Hubble ha uno specchio principale di 2,4 m ed è in orbita terrestre"
+    ],
+    "example": "Hubble ha uno specchio principale di 2,4 m ed è in orbita terrestre",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/telescopio_(Enciclopedia-Italiana)/"
+      },
+      {
+        "title": "NASA · caratteristiche e obiettivi di Hubble",
+        "url": "https://science.nasa.gov/mission/hubble/overview/about-hubble/"
+      },
+      {
+        "title": "NASA · cronologia, lancio e manutenzione",
+        "url": "https://science.nasa.gov/mission/hubble/overview/hubble-timeline/hubble-history-timeline-full-text/"
+      }
+    ],
+    "aliases": [
+      "Hubble Space Telescope",
+      "HST"
+    ],
+    "linkNames": [
+      "telescopio Hubble",
+      "Hubble Space Telescope",
+      "HST"
     ]
   },
   {
@@ -11472,6 +16966,133 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "huygens-sonda",
+    "name": "Huygens, sonda di Titano",
+    "definition": "Huygens fu la sonda ESA trasportata da Cassini che il 14 gennaio 2005 attraversò l’atmosfera di Titano e raggiunse la superficie, raccogliendo immagini e misure.",
+    "source": "https://www.treccani.it/enciclopedia/cassini-huygens/",
+    "lesson": "lezione-10-5.html",
+    "related": [
+      "cassini",
+      "metano",
+      "telerilevamento"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Una sonda dentro l’ambiente",
+        "paragraphs": [
+          "Osservare un mondo da lontano e scendere nella sua atmosfera forniscono informazioni differenti. Huygens compì una discesa su Titano con strumenti che misuravano direttamente condizioni locali, oltre a raccogliere immagini. Il nome ricorda Christiaan Huygens, ma qui indica un veicolo spaziale. La voce non va confusa con la biografia dello scienziato o con altri dispositivi ottici che portano il suo cognome."
+        ]
+      },
+      {
+        "title": "Un viaggio condiviso, una fase distinta",
+        "paragraphs": [
+          "La sonda viaggiò insieme a Cassini dalla Terra al sistema di Saturno, poi venne separata per la fase dedicata a Titano. Il 14 gennaio 2005 raggiunse l’atmosfera e il suolo. Il successo richiedeva una sequenza autonoma di ingresso, protezione e discesa rallentata da paracadute. Non era una navicella guidata in tempo reale come un veicolo vicino: distanze e tempi di comunicazione imponevano una preparazione accurata delle operazioni."
+        ]
+      },
+      {
+        "title": "Dati locali e paesaggio",
+        "paragraphs": [
+          "Le misure permisero di studiare atmosfera, particelle sospese e proprietà della superficie nella regione attraversata. Le immagini mostrarono un paesaggio che andava interpretato insieme ai dati. Le somiglianze con forme terrestri non significavano identità di materiali o temperatura. Su Titano il freddo e la chimica degli idrocarburi cambiano il contesto. La missione non esplorò ogni parte della luna: il percorso di discesa e il luogo di arrivo delimitano il campione diretto."
+        ]
+      },
+      {
+        "title": "La trasmissione fa parte della misura",
+        "paragraphs": [
+          "Cassini svolse un ruolo di collegamento per inoltrare i dati verso la Terra. La scoperta non dipende soltanto dal sensore: richiede acquisizione, trasmissione, archiviazione e analisi. Le ricostruzioni della discesa devono essere distinte dalle fotografie originali e accompagnate dalla loro provenienza. Huygens offre un esempio concreto di esplorazione locale dentro un progetto più ampio, nel quale osservazioni orbitali e misure sul posto si completano senza diventare intercambiabili."
+        ]
+      }
+    ],
+    "facts": [
+      "La discesa e l’arrivo al suolo di Huygens avvennero il 14 gennaio 2005"
+    ],
+    "example": "La discesa e l’arrivo al suolo di Huygens avvennero il 14 gennaio 2005",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/cassini-huygens/"
+      },
+      {
+        "title": "ESA · arrivo di Huygens su Titano",
+        "url": "https://www.esa.int/Newsroom/Press_Releases/Europe_reaches_new_frontier_Huygens_lands_on_Titan"
+      },
+      {
+        "title": "ESA · primi risultati su atmosfera e superficie",
+        "url": "https://www.esa.int/Newsroom/Press_Releases/Seeing_touching_and_smelling_the_extraordinarily_Earth-like_world_of_Titan"
+      }
+    ],
+    "aliases": [
+      "sonda Huygens"
+    ],
+    "linkNames": [
+      "sonda Huygens",
+      "Huygens su Titano"
+    ]
+  },
+  {
+    "id": "idrocarburi-policiclici-aromatici",
+    "name": "Idrocarburi policiclici aromatici",
+    "definition": "Gli idrocarburi policiclici aromatici, indicati con IPA o PAH, sono una famiglia di molecole del carbonio con più anelli aromatici; le loro firme sono importanti nell’astronomia infrarossa.",
+    "source": "https://www.treccani.it/enciclopedia/idrocarburi-policiclici_(Enciclopedia-della-Scienza-e-della-Tecnica)/",
+    "lesson": "lezione-5-4.html",
+    "related": [
+      "carbonio",
+      "molecola",
+      "infrarosso"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Una famiglia, non una singola formula",
+        "paragraphs": [
+          "La sigla comprende molte strutture, con dimensioni e proprietà differenti. Non è il nome di una molecola unica che abbia ovunque identico comportamento. Aromatico è un termine chimico relativo alla struttura elettronica, non un riferimento necessario al profumo. Gli idrocarburi comprendono carbonio e idrogeno; specie con altri elementi possono essere chimicamente collegate, ma richiedono nomi appropriati. Una definizione precisa evita di chiamare PAH qualsiasi materiale scuro contenente carbonio."
+        ]
+      },
+      {
+        "title": "Le vibrazioni diventano informazione",
+        "paragraphs": [
+          "Quando assorbono energia, queste specie possono emettere in bande infrarosse associate ai loro moti molecolari. Le osservazioni permettono di studiare distribuzione e condizioni della componente carboniosa. Il segnale dipende dalla popolazione presente e dall’ambiente di radiazione. Una banda attribuita a una famiglia non identifica automaticamente ogni singolo componente: distinguere l’interpretazione collettiva dall’identificazione di una specie precisa è un passaggio importante della spettroscopia astronomica."
+        ]
+      },
+      {
+        "title": "Non sono soltanto una macchia colorata",
+        "paragraphs": [
+          "Nelle immagini scientifiche i colori possono rappresentare bande infrarosse rese visibili. Una zona evidenziata indica quindi una selezione di informazione, non necessariamente un colore naturale della materia. Le bande dei PAH aiutano a leggere regioni irradiate e ambienti interstellari, ma devono essere confrontate con altre emissioni e con i modelli. Anche la dimensione e lo stato di carica delle specie influenzano l’interpretazione, perciò una sola tinta non riassume tutta la chimica."
+        ]
+      },
+      {
+        "title": "Carbonio complesso non significa organismo",
+        "paragraphs": [
+          "L’interesse astrochimico nasce dalla capacità del carbonio di costruire strutture diverse e dalla loro presenza in ambienti cosmici. Non si tratta, da sola, di una prova biologica. Studi di laboratorio, calcoli e osservazioni si completano per distinguere ipotesi e identificazioni. Nel glossario la famiglia collega una parola tecnica alla domanda concreta: quali forme della materia producono queste bande? La risposta richiede riconoscere strutture e condizioni, senza trasformare una firma molecolare in un annuncio di vita."
+        ]
+      }
+    ],
+    "facts": [
+      "Una firma collettiva dei PAH non identifica automaticamente tutte le singole molecole presenti"
+    ],
+    "example": "Una firma collettiva dei PAH non identifica automaticamente tutte le singole molecole presenti",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/idrocarburi-policiclici_(Enciclopedia-della-Scienza-e-della-Tecnica)/"
+      },
+      {
+        "title": "NASA · PAH e osservazioni infrarosse",
+        "url": "https://www.nasa.gov/universe/tiny-dust-could-yield-big-answers-under-webb-telescopes-gaze/"
+      },
+      {
+        "title": "Harvard & Smithsonian · identificazioni molecolari in una nube fredda",
+        "url": "https://www.cfa.harvard.edu/news/scientists-uncover-warehouse-full-complex-molecules-never-seen-space"
+      }
+    ],
+    "aliases": [
+      "PAH",
+      "IPA"
+    ]
+  },
+  {
     "id": "idrogeno",
     "name": "Idrogeno",
     "definition": "L’idrogeno, simbolo H, è l’elemento con numero atomico uno ed è il più abbondante nell’Universo.",
@@ -11523,6 +17144,191 @@ window.AdAstraGlossary = [
       {
         "title": "NASA · livelli atomici e righe",
         "url": "https://pwg.gsfc.nasa.gov/stargaze/Iq2.htm"
+      }
+    ]
+  },
+  {
+    "id": "idrogeno-molecolare",
+    "name": "Idrogeno molecolare",
+    "definition": "L’idrogeno molecolare H₂ è formato da due atomi di idrogeno legati; costituisce una componente fondamentale delle nubi molecolari.",
+    "source": "https://www.treccani.it/enciclopedia/idrogeno/",
+    "lesson": "lezione-4-5.html",
+    "related": [
+      "idrogeno",
+      "nube-molecolare",
+      "riga-21cm"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "H₂ non è H II",
+        "paragraphs": [
+          "Il piccolo due nella formula H₂ conta due atomi nella molecola. La notazione astronomica H II indica invece idrogeno ionizzato. H I identifica idrogeno atomico neutro. Tre scritture simili descrivono quindi oggetti differenti e possono essere studiate con segnali diversi. Confonderle impedisce di capire se una mappa riguardi una nube molecolare, gas atomico o una regione ionizzata dalla radiazione delle stelle."
+        ]
+      },
+      {
+        "title": "Abbondante ma non sempre facile da vedere",
+        "paragraphs": [
+          "La molecola H₂ è simmetrica e non possiede un dipolo elettrico permanente. Le sue transizioni e la loro eccitazione rendono difficile osservare direttamente il gas molto freddo con le comuni righe radio usate per altre molecole. Questo non significa che H₂ non emetta mai radiazione. In condizioni appropriate si studiano transizioni infrarosse e altri segnali. Un limite di una tecnica non va trasformato in un’impossibilità fisica universale."
+        ]
+      },
+      {
+        "title": "Un’altra molecola può fare da indizio",
+        "paragraphs": [
+          "Il monossido di carbonio viene spesso usato per tracciare gas molecolare che contiene molto H₂. Il collegamento richiede calibrazione e ipotesi: CO e H₂ non hanno sempre un rapporto osservativo identico in ogni ambiente. Composizione, radiazione e condizioni fisiche possono modificare il confronto. Una mappa del CO non è quindi una fotografia diretta di tutte le molecole di idrogeno presenti, anche quando permette di studiarne la distribuzione con efficacia."
+        ]
+      },
+      {
+        "title": "La materia prima della formazione stellare",
+        "paragraphs": [
+          "Le nubi molecolari contengono gas e polvere e ospitano regioni nelle quali possono formarsi stelle. Non tutta la nube collassa contemporaneamente né ogni molecola diventa parte di una stella. Densità, temperatura, turbolenza e campi magnetici entrano nell’evoluzione. La scheda deve collegare identità chimica e condizioni del gas, mantenendo distinta la presenza di H₂ dalla prova che una nuova stella si stia formando in ogni punto della regione osservata."
+        ]
+      }
+    ],
+    "facts": [
+      "H₂ è una molecola; H II indica idrogeno ionizzato"
+    ],
+    "example": "H₂ è una molecola; H II indica idrogeno ionizzato",
+    "sources": [
+      {
+        "title": "Treccani · quadro terminologico generale; dettagli nelle fonti specifiche",
+        "url": "https://www.treccani.it/enciclopedia/idrogeno/"
+      },
+      {
+        "title": "NRAO · idrogeno molecolare e righe radio",
+        "url": "https://www.cv.nrao.edu/~sransom/web/Ch7.html"
+      },
+      {
+        "title": "ESA · mappa CO e nubi molecolari",
+        "url": "https://www.esa.int/ESA_Multimedia/Images/2012/02/Molecular_clouds_in_the_Pegasus_region"
+      }
+    ],
+    "aliases": [
+      "H₂",
+      "idrogeno biatomico"
+    ]
+  },
+  {
+    "id": "impulso-forza",
+    "name": "Impulso di una forza",
+    "definition": "L’impulso di una forza descrive la sua azione accumulata nel tempo ed è collegato alla variazione della quantità di moto. È una grandezza vettoriale.",
+    "source": "https://www.treccani.it/enciclopedia/impulso/",
+    "lesson": "lezione-10-5.html",
+    "related": [
+      "forza",
+      "quantita-di-moto",
+      "secondo-tempo"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "La durata fa parte dell’effetto",
+        "paragraphs": [
+          "Una forza agisce per un certo intervallo e il risultato dipende anche da quanto a lungo venga applicata. L’impulso mette insieme questi due aspetti. Non coincide con una spinta intensa soltanto perché il linguaggio comune chiama impulsivo un gesto rapido. In meccanica anche una forza modesta, mantenuta abbastanza a lungo nella direzione appropriata, può produrre una variazione importante della quantità di moto del sistema considerato."
+        ]
+      },
+      {
+        "title": "Il caso di una forza costante",
+        "paragraphs": [
+          "Se la forza resta costante, impulso = forza × durata. Con 2 N per 5 s si ottengono 10 N s. Per la forza risultante sul sistema, l’impulso uguaglia la variazione della quantità di moto nel quadro classico appropriato. Se intensità o direzione cambiano, bisogna considerare l’intera evoluzione. Non si possono sommare soltanto i valori positivi ignorando momenti in cui l’azione è rivolta nel verso opposto."
+        ]
+      },
+      {
+        "title": "Unità simili, significati diversi",
+        "paragraphs": [
+          "Il newton secondo è equivalente al chilogrammo metro al secondo, l’unità della quantità di moto. Non equivale al joule, che contiene un ulteriore fattore di velocità nelle dimensioni. Il prodotto di una forza per tempo e quello della stessa forza per distanza descrivono quindi grandezze differenti. Questa distinzione evita di trattare un impulso come una quantità di energia o di stimare il consumo di un propulsore dal solo valore della spinta."
+        ]
+      },
+      {
+        "title": "Una manovra spaziale da interpretare",
+        "paragraphs": [
+          "I propulsori modificano il moto espellendo materia e interagendo con il veicolo secondo il bilancio appropriato. Una durata di accensione non basta da sola a determinare il cambiamento di velocità: servono spinta, massa e geometria, con attenzione alla variazione di massa. L’impulso specifico dei motori è una grandezza distinta, usata per descriverne prestazioni. La voce introduce il principio generale senza confondere il nome di una misura propulsiva con l’impulso totale ricevuto durante una manovra."
+        ]
+      }
+    ],
+    "facts": [
+      "Una forza costante di 2 N per 5 s fornisce un impulso di 10 N s"
+    ],
+    "example": "Una forza costante di 2 N per 5 s fornisce un impulso di 10 N s",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/impulso/"
+      },
+      {
+        "title": "SAIt · Bignamino di astronomia, meccanica",
+        "url": "https://www.sait.it/sites/sait.interlandia.net/files/pictures/notizie/2022/Bignamino_astronomia_2022.pdf"
+      },
+      {
+        "title": "NASA · dinamica e variazione della quantità di moto",
+        "url": "https://www.grc.nasa.gov/WWW/K-12/BGP/newton2.html"
+      }
+    ],
+    "aliases": [
+      "impulso meccanico"
+    ],
+    "linkNames": [
+      "impulso di una forza",
+      "impulso meccanico"
+    ]
+  },
+  {
+    "id": "incertezza-misura",
+    "name": "Incertezza di misura",
+    "definition": "L’incertezza di misura esprime la dispersione dei valori attribuibili alla grandezza misurata, tenendo conto delle informazioni disponibili e del procedimento utilizzato.",
+    "source": "https://www.treccani.it/enciclopedia/misura/",
+    "lesson": "lezione-9-4.html",
+    "related": [
+      "precisione-misura",
+      "errore-sistematico",
+      "calibrazione"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un risultato ha un contesto",
+        "paragraphs": [
+          "Misurare non significa conoscere un valore con infinite cifre esatte. Strumento, metodo, condizioni e informazioni disponibili limitano ciò che possiamo attribuire alla grandezza. L’incertezza rende esplicito questo limite in una forma utilizzabile. Non è una dichiarazione che il risultato sia inutile: permette invece di confrontarlo con altri risultati e di stabilire quali differenze siano effettivamente significative. Senza questa informazione, due numeri apparentemente diversi possono suggerire conclusioni ingiustificate."
+        ]
+      },
+      {
+        "title": "L’esempio di un’ombra",
+        "paragraphs": [
+          "Misurando la lunghezza di un’ombra, il bordo sfumato, la graduazione del righello e il suo posizionamento contribuiscono alla valutazione. Ripetere la lettura aiuta a riconoscere alcune variazioni, ma non elimina una scala sbagliata o un’inclinazione mantenuta in tutte le prove. Prima del calcolo è quindi utile descrivere l’esperimento. Una stima ragionata non richiede necessariamente strumenti professionali: richiede sapere quali aspetti del procedimento possano modificare il numero ottenuto."
+        ]
+      },
+      {
+        "title": "Non è l’errore già conosciuto",
+        "paragraphs": [
+          "L’incertezza non coincide con la differenza esatta fra il risultato e un valore vero conosciuto. Di solito quel valore non è disponibile. Inoltre un intervallo deve essere accompagnato dal significato attribuito alla sua ampiezza: non ogni simbolo ± garantisce un limite assoluto invalicabile. Nel resoconto divulgativo si può evitare il formalismo avanzato, ma bisogna indicare come sia stata stimata la fascia e quali contributi siano stati considerati."
+        ]
+      },
+      {
+        "title": "Confrontare osservazioni astronomiche",
+        "paragraphs": [
+          "Una posizione stellare, un’intensità luminosa o un periodo misurato possono avere incertezze differenti e correlate. Il numero di decimali mostrato dal programma non certifica la qualità fisica del risultato. Per interpretare una variazione occorre confrontarla con la capacità di misura e controllare il metodo. L’idea da ricordare è semplice: un risultato scientifico comprende il valore, l’unità e informazioni su quanto il procedimento permetta di sostenerlo, non soltanto un numero scritto con molte cifre."
+        ]
+      }
+    ],
+    "facts": [
+      "Molti decimali sullo schermo non garantiscono una piccola incertezza"
+    ],
+    "example": "Molti decimali sullo schermo non garantiscono una piccola incertezza",
+    "sources": [
+      {
+        "title": "Treccani · quadro terminologico generale; dettagli nelle fonti specifiche",
+        "url": "https://www.treccani.it/enciclopedia/misura/"
+      },
+      {
+        "title": "JCGM · vocabolario di metrologia, voce 2.26",
+        "url": "https://www.bipm.org/documents/20126/2071204/JCGM_200_2012.pdf"
+      },
+      {
+        "title": "NIST · terminologia della misura",
+        "url": "https://www.nist.gov/pml/nist-technical-note-1297/nist-tn-1297-appendix-d1-terminology"
       }
     ]
   },
@@ -11957,6 +17763,130 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "interazione-debole",
+    "name": "Interazione debole",
+    "definition": "L’interazione debole è un’interazione fondamentale coinvolta in trasformazioni di particelle, decadimenti beta e processi essenziali per la produzione di energia nelle stelle.",
+    "source": "https://www.treccani.it/enciclopedia/interazione/",
+    "lesson": "lezione-2-3.html",
+    "related": [
+      "neutrino",
+      "protone",
+      "neutrone"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Debole non significa trascurabile",
+        "paragraphs": [
+          "Il nome deriva dal confronto fra intensità delle interazioni in determinati contesti, non dalla scarsa importanza astronomica. L’interazione debole permette trasformazioni che non sarebbero descritte dalla sola attrazione gravitazionale o elettromagnetica. Ha raggio d’azione molto breve ed è associata ai bosoni W e Z nel quadro del Modello standard. Non è una versione attenuata della gravità e non produce semplicemente un’attrazione fra tutte le masse."
+        ]
+      },
+      {
+        "title": "Il caso del decadimento beta",
+        "paragraphs": [
+          "Nel decadimento beta di un neutrone libero si producono un protone, un elettrone e un antineutrino elettronico. La trasformazione riguarda la struttura delle particelle e le leggi di conservazione. L’elettrone emesso non deve essere immaginato come una pallina già conservata dentro il neutrone. Il caso aiuta a distinguere una reazione nucleare da una ionizzazione, nella quale cambia invece lo stato elettronico di un atomo o di una molecola."
+        ]
+      },
+      {
+        "title": "Un passaggio nella storia del Sole",
+        "paragraphs": [
+          "Nella catena protone–protone l’avvio della trasformazione verso nuclei più complessi coinvolge l’interazione debole. Questo contribuisce a determinare il ritmo del processo, insieme alle condizioni del plasma e alla struttura stellare. La frase il Sole brucia non indica una combustione chimica con ossigeno. È una metafora per processi nucleari e bilanci energetici che devono essere spiegati separatamente se si vuole comprendere da dove provenga l’energia."
+        ]
+      },
+      {
+        "title": "Seguire anche i messaggeri",
+        "paragraphs": [
+          "I neutrini partecipano ai processi deboli e trasportano informazioni da ambienti astronomici. La loro rivelazione richiede apparati e analisi specifici, perché interagiscono poco con la materia. Non basta quindi aspettarsi una fotografia più dettagliata della stessa scena luminosa. La voce completa il collegamento fra materia, trasformazioni e osservazione: alcune informazioni del cielo arrivano attraverso particelle diverse dai fotoni, e per leggerle occorre conoscere proprio l’interazione che rende possibili sia la produzione sia la rivelazione."
+        ]
+      }
+    ],
+    "facts": [
+      "Il decadimento beta non è una semplice perdita di elettroni da un atomo"
+    ],
+    "example": "Il decadimento beta non è una semplice perdita di elettroni da un atomo",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/interazione/"
+      },
+      {
+        "title": "CERN · bosone W, energia solare e trasformazioni",
+        "url": "https://home.web.cern.ch/science/physics/w-boson-sunshine-and-stardust/"
+      },
+      {
+        "title": "Lorenzo Roi · Corso di astronomia 2, particelle e reazioni",
+        "url": "https://www.lorenzoroi.net/prelievi/CorsoAstro2.pdf"
+      }
+    ],
+    "aliases": [
+      "forza debole",
+      "interazioni deboli"
+    ]
+  },
+  {
+    "id": "interazione-forte",
+    "name": "Interazione forte",
+    "definition": "L’interazione forte è una delle interazioni fondamentali. Agisce fra quark e gluoni; la sua manifestazione residua fra nucleoni contribuisce al legame dei nuclei atomici.",
+    "source": "https://www.treccani.it/enciclopedia/interazione/",
+    "lesson": "lezione-4-6.html",
+    "related": [
+      "quark",
+      "gluone",
+      "nucleo-atomico"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Non tutte le attrazioni sono gravità",
+        "paragraphs": [
+          "La gravità spiega gran parte della dinamica di stelle e pianeti, ma non basta a descrivere il legame della materia nel nucleo. Alla scala subatomica intervengono altre interazioni. Quella forte è descritta dalla cromodinamica quantistica e riguarda quark e gluoni. Il termine forte non significa che domini in qualsiasi situazione: scala, proprietà dei sistemi e distanza determinano quali effetti siano rilevanti nel problema considerato."
+        ]
+      },
+      {
+        "title": "Due livelli da distinguere",
+        "paragraphs": [
+          "Dentro un protone o un neutrone l’interazione riguarda i costituenti quark e i campi gluonici. Fra nucleoni emerge una forza nucleare residua che contribuisce a tenere insieme i nuclei. Non sono due fenomeni scollegati, ma neppure due disegni da sovrapporre senza spiegazione. Il nucleo non è un insieme di protoni uniti soltanto dalla gravità, e la repulsione elettrica fra protoni non è l’unica azione presente."
+        ]
+      },
+      {
+        "title": "Il legame entra nel bilancio energetico",
+        "paragraphs": [
+          "Le proprietà dei nuclei e delle loro reazioni dipendono dal legame e dalle altre condizioni fisiche. Nella fusione stellare l’energia liberata deve essere interpretata attraverso il bilancio fra stato iniziale e finale, non come un combustibile nascosto fra palline. Anche l’interazione elettromagnetica e quella debole possono avere ruoli essenziali nei percorsi di reazione. La voce forte non sostituisce quindi una spiegazione completa di qualsiasi processo nucleare."
+        ]
+      },
+      {
+        "title": "Un dominio da studiare con esperimenti",
+        "paragraphs": [
+          "Le collisioni e le misure sulle particelle permettono di verificare il quadro teorico e i comportamenti dei sistemi composti. Le condizioni estreme esplorate in laboratorio aiutano a studiare anche domande cosmologiche, ma non sono la riproduzione integrale di una stella o dell’Universo primordiale. Per il lettore il collegamento essenziale è fra scala e fenomeno: la forza che tiene insieme una struttura subatomica non deve avere gli stessi effetti visibili della gravità che governa un sistema planetario."
+        ]
+      }
+    ],
+    "facts": [
+      "Il legame fra nucleoni è una manifestazione residua dell’interazione forte"
+    ],
+    "example": "Il legame fra nucleoni è una manifestazione residua dell’interazione forte",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/interazione/"
+      },
+      {
+        "title": "Department of Energy · interazione forte e legame nucleare",
+        "url": "https://www.energy.gov/science/doe-explainsthe-strong-force"
+      },
+      {
+        "title": "CERN/ALICE · studio dell’interazione fra adroni",
+        "url": "https://home.cern/alice-collaboration-opens-avenue-high-precision-studies-strong-force/"
+      }
+    ],
+    "aliases": [
+      "forza forte",
+      "interazioni forti"
+    ]
+  },
+  {
     "id": "interferenza",
     "name": "Interferenza",
     "definition": "L’interferenza è il risultato della sovrapposizione di onde, che può produrre rafforzamenti o attenuazioni secondo le loro relazioni di fase.",
@@ -12125,6 +18055,68 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "ione-triidrogeno",
+    "name": "Ione triidrogeno",
+    "definition": "Lo ione triidrogeno, H₃⁺, è una specie molecolare positiva formata da tre nuclei di idrogeno e due elettroni; è importante nella chimica e nell’emissione infrarossa di alcuni gas astronomici.",
+    "source": "https://www.treccani.it/enciclopedia/ione/",
+    "lesson": "lezione-3-3.html",
+    "related": [
+      "catione",
+      "idrogeno-molecolare",
+      "aurora-polare"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Il segno più cambia la specie",
+        "paragraphs": [
+          "H₃⁺ non è semplicemente una molecola neutra di idrogeno con un numero scritto diversamente. Il segno indica una carica positiva complessiva. Nella forma composta da nuclei di prozio, tre protoni e due elettroni danno una carica netta positiva elementare. Il pedice conta i nuclei di idrogeno, mentre l’apice indica la carica. Imparare a leggere separatamente questi segni è utile per tutta la nomenclatura ionica."
+        ]
+      },
+      {
+        "title": "Un attore della chimica del gas",
+        "paragraphs": [
+          "Nell’ambiente appropriato lo ione può partecipare a reazioni che trasferiscono protoni e alimentano altre trasformazioni molecolari. Le sue quantità dipendono dai processi che lo formano e lo distruggono. Non va immaginato come una particella che rimanga invariata ovunque o che sia identica a un protone isolato. La chimica ionica dimostra quanto la carica influenzi i percorsi disponibili anche quando gli elementi presenti rimangono gli stessi."
+        ]
+      },
+      {
+        "title": "Una luce nelle aurore di Giove",
+        "paragraphs": [
+          "L’emissione infrarossa di H₃⁺ viene utilizzata per studiare l’alta atmosfera e le regioni aurorali di Giove. Osservazioni con strumenti differenti permettono di esaminare distribuzione e variabilità del segnale. Un colore visibile assegnato a un’immagine infrarossa non è il colore che vedrebbe l’occhio. Inoltre la luminosità dell’emissione dipende da più proprietà fisiche: non basta tradurre ogni zona più brillante in una quantità proporzionalmente maggiore dello ione."
+        ]
+      },
+      {
+        "title": "Una diagnosi richiede più misure",
+        "paragraphs": [
+          "Temperatura, popolazioni energetiche e quantità di materiale contribuiscono all’interpretazione delle righe. Per confrontare regioni o istanti diversi occorre conservare il contesto osservativo. Il valore didattico di H₃⁺ sta nel collegare una formula breve a fenomeni estesi: la fisica atomica e molecolare permette di leggere l’atmosfera di un gigante lontano. La sigla non è un dettaglio ornamentale accanto alla fotografia, ma il nome della specie che produce una parte dell’informazione registrata."
+        ]
+      }
+    ],
+    "facts": [
+      "In H₃⁺ il pedice 3 conta gli idrogeni e il segno + indica la carica"
+    ],
+    "example": "In H₃⁺ il pedice 3 conta gli idrogeni e il segno + indica la carica",
+    "sources": [
+      {
+        "title": "Treccani · quadro terminologico generale; dettagli nelle fonti specifiche",
+        "url": "https://www.treccani.it/enciclopedia/ione/"
+      },
+      {
+        "title": "NASA NTRS · H₃⁺ come diagnostica delle aurore gioviane",
+        "url": "https://ntrs.nasa.gov/citations/20040090121"
+      },
+      {
+        "title": "NASA/Webb · variabilità dell’emissione aurorale",
+        "url": "https://science.nasa.gov/asset/webb/pullout-of-aurora-observations-on-jupiter/"
+      }
+    ],
+    "aliases": [
+      "H₃⁺",
+      "catione triidrogeno"
+    ]
+  },
+  {
     "id": "ionizzazione",
     "name": "Ionizzazione",
     "definition": "La ionizzazione trasforma un atomo o una molecola neutri in una particella carica, attraverso perdita o acquisto di elettroni. In astrofisica ricorre spesso il distacco di elettroni dovuto a radiazione o urti.",
@@ -12173,6 +18165,121 @@ window.AdAstraGlossary = [
         "title": "Treccani · riferimento terminologico",
         "url": "https://www.treccani.it/enciclopedia/ionizzazione/"
       }
+    ]
+  },
+  {
+    "id": "ipparco-nicea",
+    "name": "Ipparco di Nicea",
+    "definition": "Ipparco di Nicea fu un astronomo e matematico greco del II secolo a.C., legato allo studio delle posizioni stellari, dei moti celesti e della precessione degli equinozi.",
+    "source": "https://www.treccani.it/enciclopedia/ipparco-di-nicea/",
+    "lesson": "lezione-1-6.html",
+    "related": [
+      "precessione",
+      "catalogo-astronomico",
+      "anno-tropico"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Confrontare il cielo nel tempo",
+        "paragraphs": [
+          "Il lavoro di Ipparco mostra l’importanza di confrontare osservazioni separate da lunghi intervalli. Una posizione sul cielo richiede riferimenti e una data; non basta il nome della stella. Lo studio degli equinozi e delle posizioni stellari portò al riconoscimento di un lento cambiamento dei riferimenti celesti. La sua storia introduce così una domanda ancora attuale: una differenza osservata dipende dall’oggetto, dallo strumento o dal sistema di coordinate usato per descriverla?"
+        ]
+      },
+      {
+        "title": "La precessione non è il moto di una notte",
+        "paragraphs": [
+          "La precessione degli equinozi riguarda un cambiamento lento che oggi colleghiamo all’orientazione dell’asse terrestre. Non va confusa con la rotazione apparente quotidiana del cielo. Per riconoscerne gli effetti servono confronti appropriati, non una breve animazione accelerata senza indicazioni temporali. Nel raccontare Ipparco è importante distinguere il fenomeno osservato e la spiegazione fisica sviluppata successivamente: attribuirgli l’intera dinamica moderna cancellerebbe la storia delle idee e delle verifiche."
+        ]
+      },
+      {
+        "title": "Una documentazione incompleta",
+        "paragraphs": [
+          "Molte informazioni sulla sua attività provengono da autori successivi, mentre parte delle opere non è conservata. Date, contenuti del catalogo e ricostruzioni dei metodi richiedono quindi cautela storica. Non ogni affermazione presente nell’Almagesto può essere trasferita automaticamente a Ipparco. La distinzione tra testo sopravvissuto, testimonianza e interpretazione moderna è una forma di controllo delle fonti, analoga alla necessità di distinguere un dato astronomico da una ricostruzione illustrativa."
+        ]
+      },
+      {
+        "title": "Un ponte verso le coordinate",
+        "paragraphs": [
+          "La sua attività matematica e osservativa aiuta a comprendere perché l’astronomia abbia bisogno di strumenti per trattare angoli e posizioni sulla sfera. Il lettore non deve riprodurre subito calcoli trigonometrici: può iniziare riconoscendo equatore, eclittica e riferimenti stagionali. La figura storica rende concreto il passaggio dall’osservazione di stelle riconoscibili alla descrizione quantitativa. Un catalogo non è soltanto un elenco di nomi: è un modo di rendere confrontabili osservazioni compiute da persone e in epoche diverse."
+        ]
+      }
+    ],
+    "facts": [
+      "La precessione è un cambiamento lento dei riferimenti, distinto dal giro apparente di una notte"
+    ],
+    "example": "La precessione è un cambiamento lento dei riferimenti, distinto dal giro apparente di una notte",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/ipparco-di-nicea/"
+      },
+      {
+        "title": "Università di St Andrews · Ipparco, opere e limiti delle ricostruzioni",
+        "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Hipparchus/"
+      }
+    ],
+    "linkNames": [
+      "Ipparco di Nicea"
+    ]
+  },
+  {
+    "id": "isomeria",
+    "name": "Isomeria",
+    "definition": "L’isomeria è la possibilità che sostanze con la stessa formula molecolare abbiano una diversa organizzazione degli atomi e proprietà differenti.",
+    "source": "https://www.treccani.it/enciclopedia/isomeria/",
+    "lesson": "lezione-5-4.html",
+    "related": [
+      "molecola",
+      "formula-chimica",
+      "legame-chimico"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Gli ingredienti non bastano",
+        "paragraphs": [
+          "Una formula molecolare conta gli atomi dei diversi elementi, ma non descrive sempre come siano collegati o disposti. Due molecole possono avere lo stesso inventario e strutture diverse. Questa possibilità prende il nome di isomeria. L’analogia con costruzioni fatte degli stessi pezzi aiuta a iniziare; i legami reali, però, hanno regole fisiche e non permettono qualsiasi disposizione immaginabile. Serve quindi una struttura chimica possibile, non soltanto un disegno differente."
+        ]
+      },
+      {
+        "title": "Collegamenti e disposizione spaziale",
+        "paragraphs": [
+          "Nell’isomeria costituzionale cambiano i collegamenti fra gli atomi; nella stereoisomeria può cambiare la disposizione spaziale pur conservando la connettività. Le due situazioni non vanno confuse con la semplice rotazione dell’immagine sul foglio. Né ogni fotografia diversa di una molecola rappresenta un nuovo isomero. Il concetto richiede di distinguere struttura, orientamento dell’osservatore e, quando pertinente, configurazione tridimensionale della specie considerata."
+        ]
+      },
+      {
+        "title": "Una firma da riconoscere",
+        "paragraphs": [
+          "La geometria e i legami influenzano livelli energetici e spettro. Per questo una formula complessiva non è da sola un’identificazione astronomica completa. Le righe osservate devono essere confrontate con quelle della specie candidata, misurate o calcolate e verificate. La possibilità di isomeri spiega perché riconoscere gli elementi presenti non equivalga ancora a sapere quali molecole compongano il gas. Anche righe sovrapposte o deboli richiedono prudenza nell’attribuzione."
+        ]
+      },
+      {
+        "title": "La chimica conserva la propria storia",
+        "paragraphs": [
+          "Isomeri differenti possono formarsi e trasformarsi attraverso percorsi diversi. Le loro abbondanze dipendono dalle reazioni e dalle condizioni, non soltanto dal numero degli atomi. Non basta quindi sostenere che una forma sia energeticamente favorita per dedurne automaticamente la quantità in una nube. Nel percorso astrochimico questa voce collega nomenclatura e interpretazione: la struttura è informazione, e la sua identificazione può aiutare a ricostruire i processi che hanno interessato la materia osservata."
+        ]
+      }
+    ],
+    "facts": [
+      "Stessa formula molecolare non significa necessariamente stessa sostanza"
+    ],
+    "example": "Stessa formula molecolare non significa necessariamente stessa sostanza",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/isomeria/"
+      },
+      {
+        "title": "IUPAC · nomenclatura e identificazione delle strutture",
+        "url": "https://iupac.org/what-we-do/nomenclature/"
+      }
+    ],
+    "aliases": [
+      "isomeri",
+      "isomero"
     ]
   },
   {
@@ -12234,6 +18341,63 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "isotopologo",
+    "name": "Isotopologo",
+    "definition": "Un isotopologo è una specie molecolare che differisce da un’altra per la composizione isotopica degli atomi, conservando il tipo di struttura chimica considerato.",
+    "source": "https://www.treccani.it/enciclopedia/isotopo/",
+    "lesson": "lezione-5-4.html",
+    "related": [
+      "isotopo",
+      "rapporto-isotopico",
+      "molecola"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Cambiare il nucleo di un ingrediente",
+        "paragraphs": [
+          "Gli isotopi di un elemento hanno lo stesso numero di protoni e un diverso numero di neutroni. Anche le molecole possono contenere combinazioni isotopiche diverse. H₂O e una forma dell’acqua che comprende deuterio offrono un esempio intuitivo: rimane la famiglia chimica dell’acqua, ma cambia la composizione isotopica. La parola isotopologo permette di nominare questa differenza senza inventare un nuovo elemento o confonderla con una diversa carica elettrica."
+        ]
+      },
+      {
+        "title": "Massa e spettro si incontrano",
+        "paragraphs": [
+          "La sostituzione isotopica modifica le masse coinvolte nei moti molecolari e può spostare le frequenze delle transizioni. Gli strumenti possono così distinguere firme che un semplice elenco degli elementi lascerebbe indistinte. Lo spostamento non è un colore assegnato per convenzione nella fotografia: appartiene allo spettro fisico. Per riconoscerlo servono frequenze affidabili, risoluzione sufficiente e confronto con altre possibili righe presenti nella stessa osservazione."
+        ]
+      },
+      {
+        "title": "Una misura non è ancora un rapporto universale",
+        "paragraphs": [
+          "Il rapporto fra intensità di due righe non coincide sempre direttamente con il rapporto fra quantità degli isotopologhi. Eccitazione, assorbimento e condizioni del gas possono modificare il segnale ricevuto. Anche i processi chimici possono favorire una composizione isotopica rispetto a un’altra. Occorre quindi specificare quali specie, transizioni e modelli sostengano una misura, evitando di estendere automaticamente un risultato molecolare all’intero materiale osservato."
+        ]
+      },
+      {
+        "title": "Termini vicini da distinguere",
+        "paragraphs": [
+          "La composizione isotopica e la posizione occupata dagli isotopi non sono esattamente la stessa informazione. La nomenclatura distingue anche gli isotopomeri, quando conta la distribuzione degli isotopi nei siti della struttura. Nel glossario non usiamo questi termini come sinonimi indiscriminati. Il messaggio essenziale è che una molecola porta informazioni sia sulla propria struttura sia sui nuclei che la compongono: confrontarle apre una finestra sulla provenienza e sulla trasformazione della materia cosmica."
+        ]
+      }
+    ],
+    "facts": [
+      "La composizione isotopica di una molecola può essere riconosciuta attraverso lo spettro"
+    ],
+    "example": "La composizione isotopica di una molecola può essere riconosciuta attraverso lo spettro",
+    "sources": [
+      {
+        "title": "Treccani · quadro terminologico generale; dettagli nelle fonti specifiche",
+        "url": "https://www.treccani.it/enciclopedia/isotopo/"
+      },
+      {
+        "title": "IUPAC Gold Book · isotopologue",
+        "url": "https://goldbook.iupac.org/terms/view/I03351"
+      }
+    ],
+    "aliases": [
+      "isotopologhi"
+    ]
+  },
+  {
     "id": "isotropia",
     "name": "Isotropia",
     "definition": "L’isotropia è l’indipendenza di una proprietà dalla direzione considerata; bisogna specificare quale proprietà e quale modello si stanno descrivendo.",
@@ -12286,6 +18450,63 @@ window.AdAstraGlossary = [
     "aliases": [
       "isotropa",
       "isotropo"
+    ]
+  },
+  {
+    "id": "iupac",
+    "name": "IUPAC",
+    "definition": "IUPAC è l’Unione internazionale di chimica pura e applicata, che elabora raccomandazioni per nomenclatura, terminologia, simboli e dati di riferimento della chimica.",
+    "source": "https://www.treccani.it/enciclopedia/iupac/",
+    "lesson": "lezione-4-3.html",
+    "related": [
+      "formula-chimica",
+      "tavola-periodica",
+      "numero-ossidazione"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Una lingua condivisa",
+        "paragraphs": [
+          "La chimica descrive moltissime sostanze e trasformazioni. Nomi legati soltanto alla tradizione, al luogo di scoperta o a un uso commerciale renderebbero difficile comunicare senza equivoci. IUPAC sviluppa convenzioni che aiutano ricercatori, insegnanti e lettori a riferirsi alle stesse entità. Non è il nome di un elemento e neppure una particolare reazione: è un’organizzazione internazionale il cui lavoro riguarda anche il modo in cui l’informazione chimica viene definita e presentata."
+        ]
+      },
+      {
+        "title": "Il nome deve portare informazione",
+        "paragraphs": [
+          "Una nomenclatura sistematica permette di collegare un nome alla composizione o alla struttura secondo regole dichiarate. Questo non significa che ogni sostanza possieda un solo nome possibile in ogni contesto. Nomi tradizionali conservati, sistemi differenti e scopi comunicativi diversi possono coesistere. L’obiettivo è ridurre l’ambiguità. Per un lettore è più utile imparare a riconoscere le informazioni contenute nel nome che memorizzare una lista di etichette senza collegarle alle formule."
+        ]
+      },
+      {
+        "title": "Tavole e riferimenti",
+        "paragraphs": [
+          "Tra le risorse IUPAC figurano tavola periodica, raccomandazioni di nomenclatura e compendi terminologici. Quando un dato viene aggiornato, la data e la versione della fonte diventano parte della consultazione. I numeri della tavola non hanno tutti lo stesso significato: numero atomico, massa atomica relativa e numero di massa di un isotopo vanno distinti. Citare l’organizzazione non sostituisce il controllo della specifica tabella o raccomandazione pertinente alla domanda."
+        ]
+      },
+      {
+        "title": "L’utilità nell’astrochimica",
+        "paragraphs": [
+          "Molecole interstellari, composizione dei meteoriti e materiali planetari richiedono lo stesso rigore del linguaggio chimico terrestre. Sigle, cariche e indici devono essere letti correttamente anche in una spiegazione accessibile al pubblico. Nel portale il riferimento IUPAC serve per costruire un vocabolario coerente, con esempi spiegati e rimandi verificabili. La precisione del nome aiuta a evitare un errore frequente: scambiare un elemento, uno ione e una molecola soltanto perché condividono alcune lettere."
+        ]
+      }
+    ],
+    "facts": [
+      "IUPAC definisce convenzioni condivise; non è il nome di una sostanza"
+    ],
+    "example": "IUPAC definisce convenzioni condivise; non è il nome di una sostanza",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/iupac/"
+      },
+      {
+        "title": "IUPAC · nomenclatura e risorse ufficiali",
+        "url": "https://iupac.org/what-we-do/nomenclature/"
+      }
+    ],
+    "aliases": [
+      "Unione internazionale di chimica pura e applicata"
     ]
   },
   {
@@ -12344,6 +18565,77 @@ window.AdAstraGlossary = [
     ],
     "aliases": [
       "J2000.0"
+    ]
+  },
+  {
+    "id": "james-webb",
+    "name": "James Webb, telescopio spaziale",
+    "definition": "James Webb è un osservatorio spaziale NASA/ESA/CSA, lanciato il 25 dicembre 2021 e progettato soprattutto per l’astronomia infrarossa.",
+    "source": "https://www.treccani.it/enciclopedia/telescopio/",
+    "lesson": "lezione-10-5.html",
+    "related": [
+      "infrarosso",
+      "berillio",
+      "lagrange-punti"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un altro modo di leggere il cielo",
+        "paragraphs": [
+          "L’infrarosso permette di studiare fenomeni e componenti che non coincidono con il paesaggio visibile all’occhio. Webb affronta domande sulla formazione di stelle e pianeti, le galassie e le atmosfere di alcuni esopianeti. Non vede attraverso qualsiasi ostacolo e non può osservare ogni bersaglio in qualunque momento. Banda spettrale, sensibilità e vincoli di puntamento determinano quali informazioni possa raccogliere."
+        ]
+      },
+      {
+        "title": "Una grande apertura ripiegata",
+        "paragraphs": [
+          "Lo specchio principale è composto da diciotto segmenti e raggiunge un diametro complessivo di circa 6,5 metri. La struttura ha dovuto essere ripiegata per il lancio e dispiegata nello spazio. Il berillio dei segmenti e il rivestimento d’oro svolgono funzioni differenti. Non è una semplice fotografia ingrandita dell’architettura di Hubble: progetto ottico, ambiente termico e organizzazione dell’osservatorio rispondono a esigenze specifiche della misura infrarossa."
+        ]
+      },
+      {
+        "title": "La posizione e il raffreddamento contano",
+        "paragraphs": [
+          "Webb opera nella regione del punto L2 del sistema Sole–Terra, seguendo un’orbita attorno a quella regione e non restando immobile su un punto materiale. Uno schermo protegge le parti fredde dalla radiazione delle principali sorgenti calde vicine. Il controllo termico riduce emissioni che potrebbero disturbare le osservazioni. Non tutto lo strumento ha la stessa temperatura, e raffreddare non significa soltanto trovarsi lontano dalla superficie terrestre."
+        ]
+      },
+      {
+        "title": "Interpretare le immagini e gli spettri",
+        "paragraphs": [
+          "Le immagini infrarosse vengono rese visibili attraverso assegnazioni di colore dichiarate. La scelta può evidenziare strutture fisiche senza rappresentare colori naturali per l’occhio. Gli spettri aggiungono informazioni sulla composizione e sulle condizioni, con limiti e modelli da specificare. Webb integra il lavoro di altri osservatori: non rende automaticamente inutili Hubble o i telescopi terrestri. La voce invita a chiedere quale banda e quale misura sostengano il risultato, oltre ad ammirare il dettaglio della fotografia."
+        ]
+      }
+    ],
+    "facts": [
+      "Webb osserva soprattutto nell’infrarosso e opera nella regione Sole–Terra L2"
+    ],
+    "example": "Webb osserva soprattutto nell’infrarosso e opera nella regione Sole–Terra L2",
+    "sources": [
+      {
+        "title": "Treccani · quadro terminologico generale; dettagli nelle fonti specifiche",
+        "url": "https://www.treccani.it/enciclopedia/telescopio/"
+      },
+      {
+        "title": "NASA · missione Webb e strumenti",
+        "url": "https://science.nasa.gov/mission/webb/"
+      },
+      {
+        "title": "NASA · cronologia del lancio e dispiegamento",
+        "url": "https://science.nasa.gov/mission/webb/webb-mission-timeline/"
+      },
+      {
+        "title": "NASA · struttura degli specchi",
+        "url": "https://science.nasa.gov/mission/webb/webbs-mirrors/"
+      }
+    ],
+    "aliases": [
+      "JWST",
+      "James Webb Space Telescope"
+    ],
+    "linkNames": [
+      "James Webb",
+      "JWST",
+      "telescopio Webb"
     ]
   },
   {
@@ -12575,6 +18867,121 @@ window.AdAstraGlossary = [
     "aliases": []
   },
   {
+    "id": "juice",
+    "name": "JUICE",
+    "definition": "JUICE è la missione ESA Jupiter Icy Moons Explorer, dedicata allo studio di Giove, del suo ambiente e delle lune ghiacciate Ganimede, Callisto ed Europa.",
+    "source": "https://www.treccani.it/enciclopedia/pianeta/",
+    "lesson": "lezione-3-3.html",
+    "related": [
+      "pianeta",
+      "juno",
+      "acqua"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un sistema di mondi",
+        "paragraphs": [
+          "JUICE studia il sistema di Giove come un insieme di corpi che interagiscono. Il pianeta, le lune e l’ambiente magnetico non sono capitoli completamente separati. Per comprendere una luna bisogna considerare anche il contesto nel quale orbita. Il nome della missione richiama le lune ghiacciate, ma non significa che ogni osservazione riguardi esclusivamente la superficie del ghiaccio o che il veicolo debba atterrare su ciascun satellite."
+        ]
+      },
+      {
+        "title": "Ghiaccio non significa immobilità",
+        "paragraphs": [
+          "Una superficie ghiacciata può custodire indizi sulla storia e sulla struttura interna di un corpo. Fratture, composizione e caratteristiche fisiche aiutano a confrontare spiegazioni diverse. L’eventuale presenza di un oceano sotto la superficie è una questione da studiare con più misure, non una fotografia di acqua libera che si vede semplicemente aumentando il contrasto. Occorre distinguere ciò che viene osservato direttamente e ciò che viene ricostruito attraverso modelli dell’interno."
+        ]
+      },
+      {
+        "title": "Abitabilità e vita",
+        "paragraphs": [
+          "Studiare ambienti potenzialmente abitabili significa esaminare condizioni che potrebbero favorire processi biologici, senza affermare che vi siano organismi. Acqua, energia e composizione chimica sono parti del problema; nessuna di esse costituisce da sola una prova di vita. La distinzione evita che una descrizione suggestiva delle lune diventi una promessa di scoperta. Il lessico deve lasciare spazio all’interesse senza cancellare il grado di incertezza delle interpretazioni."
+        ]
+      },
+      {
+        "title": "Leggere il programma di una missione",
+        "paragraphs": [
+          "La scheda ESA indica strumenti di osservazione a distanza, misure geofisiche e misure locali. Questi metodi rispondono a domande differenti e devono essere confrontati. Quando si consulta una pagina della missione è importante separare obiettivi, operazioni pianificate e risultati già ottenuti. Un’animazione di un incontro futuro illustra la geometria prevista: non è un filmato registrato durante il passaggio. Questa abitudine rende più consapevole la lettura delle notizie di esplorazione planetaria."
+        ]
+      }
+    ],
+    "facts": [
+      "Studiare la possibile abitabilità di una luna non equivale ad avere trovato vita"
+    ],
+    "example": "Studiare la possibile abitabilità di una luna non equivale ad avere trovato vita",
+    "sources": [
+      {
+        "title": "Treccani · quadro terminologico generale; dettagli nelle fonti specifiche",
+        "url": "https://www.treccani.it/enciclopedia/pianeta/"
+      },
+      {
+        "title": "ESA · JUICE, sistema di Giove e lune ghiacciate",
+        "url": "https://www.esa.int/Science_Exploration/Space_Science/Juice"
+      }
+    ],
+    "aliases": [
+      "Jupiter Icy Moons Explorer"
+    ]
+  },
+  {
+    "id": "juno",
+    "name": "Juno",
+    "definition": "Juno è una missione NASA lanciata nel 2011 e arrivata in orbita attorno a Giove nel luglio 2016, progettata per studiarne atmosfera, interno, campi e ambiente polare.",
+    "source": "https://www.treccani.it/enciclopedia/juno_(Lessico-del-XXI-Secolo)/",
+    "lesson": "lezione-3-3.html",
+    "related": [
+      "campo-magnetico",
+      "ione-triidrogeno",
+      "pianeta"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Il nome dietro le immagini di Giove",
+        "paragraphs": [
+          "Juno non è un telescopio terrestre né il nome di una tempesta. È una sonda che ha raggiunto il sistema gioviano e raccolto misure da un’orbita intorno al pianeta. Il lancio avvenne il 5 agosto 2011. Specificare missione, strumento e data evita che una didascalia come dati di Juno lasci il lettore senza sapere chi abbia osservato e da quale posizione."
+        ]
+      },
+      {
+        "title": "Le regioni polari cambiano il punto di vista",
+        "paragraphs": [
+          "La geometria orbitale permette passaggi sopra aree difficili da studiare con lo stesso dettaglio dalla Terra. Le immagini delle regioni polari hanno mostrato strutture atmosferiche complesse, ma non esauriscono il programma scientifico. Altri strumenti misurano campi, emissioni e proprietà legate alla struttura interna. Una sonda non fotografa direttamente un nucleo planetario attraverso le nubi: le ricostruzioni dell’interno derivano dall’interpretazione di misure e modelli."
+        ]
+      },
+      {
+        "title": "Seguire le domande fisiche",
+        "paragraphs": [
+          "Quanto materiale comprende una regione del pianeta? Come sono organizzati i campi? Quali processi alimentano l’ambiente aurorale? Le risposte richiedono dati complementari, non soltanto immagini spettacolari. Il ruolo di una missione è ridurre l’incertezza e mettere alla prova modelli. Una nuova interpretazione non significa che sia stata aperta una finestra materiale dentro Giove: significa che le misure disponibili vincolano meglio le possibili descrizioni fisiche."
+        ]
+      },
+      {
+        "title": "Usare risultati e immagini con precisione",
+        "paragraphs": [
+          "Le riprese possono essere elaborate per evidenziare dettagli o trasformare bande non visibili in colori leggibili. Il trattamento deve essere indicato e non sostituisce l’analisi scientifica. Anche una notizia recente può utilizzare un sorvolo precedente: data della pubblicazione e data della misura vanno distinte. La scheda conserva le tappe storiche e il significato della missione; per stato operativo, orbite successive e campagne aggiornate rimanda alle fonti ufficiali, evitando di trasformare una previsione datata in un fatto compiuto."
+        ]
+      }
+    ],
+    "facts": [
+      "Juno è una sonda per Giove, lanciata nel 2011 e giunta in orbita nel 2016"
+    ],
+    "example": "Juno è una sonda per Giove, lanciata nel 2011 e giunta in orbita nel 2016",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/juno_(Lessico-del-XXI-Secolo)/"
+      },
+      {
+        "title": "NASA/JPL · profilo della missione Juno",
+        "url": "https://www.jpl.nasa.gov/missions/juno/"
+      },
+      {
+        "title": "NASA · obiettivi e risultati della missione",
+        "url": "https://science.nasa.gov/mission/juno/"
+      }
+    ]
+  },
+  {
     "id": "kelvin",
     "name": "Kelvin",
     "definition": "Il kelvin, simbolo K, è l’unità del Sistema Internazionale per la temperatura termodinamica.",
@@ -12689,6 +19096,130 @@ window.AdAstraGlossary = [
     "aliases": [
       "contrazione di Kelvin–Helmholtz",
       "tempo di Kelvin–Helmholtz"
+    ]
+  },
+  {
+    "id": "kepler-missione",
+    "name": "Kepler, missione spaziale",
+    "definition": "Kepler fu un osservatorio NASA lanciato nel marzo 2009 per cercare esopianeti mediante misure ripetute della luminosità stellare; proseguì anche con il programma K2.",
+    "source": "https://www.treccani.it/enciclopedia/kepler_(Lessico-del-XXI-Secolo)/",
+    "lesson": "lezione-10-1.html",
+    "related": [
+      "transito",
+      "curva-di-luce",
+      "esopianeta"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Cercare una piccola diminuzione",
+        "paragraphs": [
+          "Quando un pianeta attraversa il disco della propria stella lungo la nostra linea di vista, può bloccare una piccola frazione della luce. Kepler misurava la luminosità delle stelle nel tempo per individuare segnali compatibili con questi transiti. Non fotografava normalmente il pianeta separato dalla stella. Il metodo richiede una geometria favorevole: un sistema planetario può esistere anche se nessuna delle sue orbite produce un transito visibile dal nostro punto di osservazione."
+        ]
+      },
+      {
+        "title": "La ripetizione rende il segnale riconoscibile",
+        "paragraphs": [
+          "Forma, profondità e intervallo dei cali di luce aiutano a valutare un candidato. Le misure possono fornire informazioni sul raggio relativo e sul periodo orbitale, entro le ipotesi del modello. Una diminuzione non basta però a dimostrare da sola la presenza di un pianeta: altre cause possono imitare parte del comportamento. Analisi di validazione, osservazioni aggiuntive e controllo degli effetti strumentali fanno parte del percorso dal segnale alla conclusione."
+        ]
+      },
+      {
+        "title": "Una seconda fase chiamata K2",
+        "paragraphs": [
+          "Il programma originario osservava a lungo un campo stellare scelto. Dopo problemi al sistema di puntamento, la missione venne riorganizzata nella fase K2 con campagne e campi differenti. Non era un secondo satellite identico lanciato al posto del primo. La storia mostra come un limite tecnico possa richiedere un nuovo progetto osservativo, conservando capacità scientifiche e cambiando contemporaneamente la selezione degli oggetti e dei tempi di osservazione."
+        ]
+      },
+      {
+        "title": "Un campione non è tutta la Galassia",
+        "paragraphs": [
+          "Kepler ha trasformato la conoscenza delle popolazioni planetarie, ma i pianeti individuati non sono un elenco completo di tutti quelli esistenti. Geometria, durata delle osservazioni e sensibilità favoriscono alcuni segnali. Per stimare quanto siano comuni i pianeti bisogna correggere gli effetti di selezione. Il nome della missione ricorda Johannes Kepler: la persona e l’osservatorio sono voci distinte, collegate dalla storia del moto planetario e dalla ricerca di sistemi oltre il nostro."
+        ]
+      }
+    ],
+    "facts": [
+      "Kepler cercava transiti nelle curve di luce, non una fotografia separata di ogni pianeta"
+    ],
+    "example": "Kepler cercava transiti nelle curve di luce, non una fotografia separata di ogni pianeta",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/kepler_(Lessico-del-XXI-Secolo)/"
+      },
+      {
+        "title": "NASA · missione Kepler, fase K2 ed eredità scientifica",
+        "url": "https://science.nasa.gov/mission/kepler/"
+      }
+    ],
+    "aliases": [
+      "missione Kepler",
+      "Kepler K2"
+    ],
+    "linkNames": [
+      "missione Kepler",
+      "Kepler K2"
+    ]
+  },
+  {
+    "id": "keplero-giovanni",
+    "name": "Keplero, Giovanni",
+    "definition": "Giovanni Keplero, o Johannes Kepler (1571–1630), formulò tre leggi del moto planetario e contribuì allo sviluppo dell’ottica e dell’astronomia matematica.",
+    "source": "https://www.treccani.it/enciclopedia/keplero_(Enciclopedia-della-Matematica)/",
+    "lesson": "lezione-3-6.html",
+    "related": [
+      "keplero-leggi",
+      "eccentricita",
+      "semiasse-maggiore"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Lasciare che i dati mettano in difficoltà l’idea",
+        "paragraphs": [
+          "Keplero lavorò sul moto planetario utilizzando anche le osservazioni di Tycho Brahe. Lo studio di Marte ebbe un ruolo centrale nel superamento delle costruzioni fondate soltanto su moti circolari. Il percorso non fu una semplice intuizione grafica davanti a un’orbita disegnata. Richiese calcolo, confronti e revisione delle ipotesi. La storia rende concreto un principio: una differenza fra previsione e misura può essere un indizio importante, invece di un dettaglio da cancellare."
+        ]
+      },
+      {
+        "title": "Le tre leggi rispondono a domande differenti",
+        "paragraphs": [
+          "La prima descrive la forma ellittica dell’orbita con il Sole in un fuoco. La seconda collega posizione e rapidità lungo il percorso attraverso le aree spazzate in tempi uguali. La terza mette in relazione periodo e dimensione dell’orbita. Le prime due furono pubblicate nel 1609 e la terza nel 1619. Non sono tre modi equivalenti di affermare che i pianeti girano attorno al Sole."
+        ]
+      },
+      {
+        "title": "Descrivere il moto e spiegarne la causa",
+        "paragraphs": [
+          "Le leggi kepleriane organizzano regolarità osservate e permettono previsioni nel modello appropriato. Non contengono già la formulazione newtoniana della gravitazione universale, sviluppata successivamente. Le condizioni contano: perturbazioni e sistemi reali possono richiedere correzioni o modelli più ampi. Un’ellisse didattica molto allungata aiuta a vedere fuochi e variazioni, ma non rappresenta automaticamente l’eccentricità delle orbite dei pianeti maggiori."
+        ]
+      },
+      {
+        "title": "Un autore più ampio della formula",
+        "paragraphs": [
+          "Keplero lavorò anche su ottica e geometria e produsse tavole astronomiche. Il suo nome può indicare la persona, le leggi o una missione spaziale successiva: il contesto va specificato. Nel glossario la biografia accompagna la spiegazione scientifica senza sostituirla con una celebrazione. La connessione da ricordare è fra misure e forma del modello: la struttura matematica diventa utile quando riesce a restituire il comportamento osservato e a guidare controlli ulteriori."
+        ]
+      }
+    ],
+    "facts": [
+      "Le prime due leggi furono pubblicate nel 1609; la terza nel 1619"
+    ],
+    "example": "Le prime due leggi furono pubblicate nel 1609; la terza nel 1619",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/keplero_(Enciclopedia-della-Matematica)/"
+      },
+      {
+        "title": "University of St Andrews · Keplero, opere e risultati",
+        "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Kepler/"
+      }
+    ],
+    "aliases": [
+      "Johannes Kepler",
+      "Giovanni Keplero"
+    ],
+    "linkNames": [
+      "Johannes Kepler",
+      "Giovanni Keplero"
     ]
   },
   {
@@ -13225,6 +19756,178 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "lavoro-meccanico",
+    "name": "Lavoro meccanico",
+    "definition": "Il lavoro meccanico misura il trasferimento di energia associato a una forza lungo uno spostamento; conta la componente della forza nella direzione dello spostamento.",
+    "source": "https://www.treccani.it/enciclopedia/lavoro_(Dizionario-delle-Scienze-Fisiche)/",
+    "lesson": "lezione-3-6.html",
+    "related": [
+      "energia",
+      "forza",
+      "joule"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Una parola comune con un significato preciso",
+        "paragraphs": [
+          "Nella vita quotidiana lavorare significa compiere un’attività, spesso faticosa. In meccanica il termine identifica un trasferimento energetico legato a forza e spostamento. Tenere fermo un peso può affaticare i muscoli, ma non produce lavoro meccanico sul peso immobile nel modello elementare. L’organismo continua a consumare energia attraverso altri processi. Distinguere i due piani evita che una definizione fisica venga interpretata come negazione della fatica reale."
+        ]
+      },
+      {
+        "title": "Un prodotto semplice con condizioni chiare",
+        "paragraphs": [
+          "Se una forza costante agisce nella stessa direzione e nello stesso verso dello spostamento, lavoro = forza × distanza. Con 5 N lungo 2 m si trasferiscono 10 J. I newton e i metri non sono due nomi dell’energia: il loro prodotto, in questa situazione, dà joule. Se la forza cambia o non è parallela al moto, il calcolo deve tenerne conto e il semplice prodotto non basta."
+        ]
+      },
+      {
+        "title": "Anche il segno racconta qualcosa",
+        "paragraphs": [
+          "Una forza opposta allo spostamento compie lavoro negativo sul corpo: può ridurne l’energia cinetica. Una forza perpendicolare allo spostamento istantaneo non compie quel lavoro. Nell’orbita circolare ideale la gravità curva il moto senza cambiare la rapidità. In un’orbita ellittica la relazione fra gravità e spostamento cambia lungo il percorso, e cambiano energia cinetica e potenziale pur conservandosi l’energia meccanica nel modello isolato."
+        ]
+      },
+      {
+        "title": "Seguire l’energia nelle manovre",
+        "paragraphs": [
+          "Per interpretare una manovra spaziale è utile chiedere quali forze trasferiscano energia e rispetto a quale riferimento. Non basta vedere che qualcosa si muove per dedurne un lavoro positivo continuo. Il collegamento fra lavoro ed energia permette di passare dalla descrizione della traiettoria al bilancio fisico. Questa voce va quindi letta insieme a forza, energia e potenza: la prima descrive l’interazione, il lavoro il trasferimento considerato e la potenza la sua rapidità."
+        ]
+      }
+    ],
+    "facts": [
+      "5 N applicati parallelamente lungo 2 m corrispondono a 10 J di lavoro"
+    ],
+    "example": "5 N applicati parallelamente lungo 2 m corrispondono a 10 J di lavoro",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/lavoro_(Dizionario-delle-Scienze-Fisiche)/"
+      },
+      {
+        "title": "SAIt · Bignamino di astronomia, meccanica ed energia",
+        "url": "https://www.sait.it/sites/sait.interlandia.net/files/pictures/notizie/2022/Bignamino_astronomia_2022.pdf"
+      }
+    ],
+    "aliases": [
+      "lavoro di una forza"
+    ]
+  },
+  {
+    "id": "leavitt-henrietta",
+    "name": "Leavitt, Henrietta Swan",
+    "definition": "Henrietta Swan Leavitt (1868–1921) fu l’astronoma che individuò una relazione fra periodo e luminosità delle Cefeidi, fondamentale per la misura delle distanze cosmiche.",
+    "source": "https://www.treccani.it/enciclopedia/cefeidi_(Dizionario-delle-Scienze-Fisiche)/",
+    "lesson": "lezione-6-3.html",
+    "related": [
+      "cefeide",
+      "periodo-pulsazione",
+      "magnitudine-assoluta"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Il cielo conservato sulle lastre",
+        "paragraphs": [
+          "Leavitt lavorò all’Osservatorio di Harvard esaminando lastre fotografiche e confrontando luminosità stellari. Una fotografia isolata mostra un istante; una serie permette di scoprire cambiamenti. Il suo contributo nacque da misure sistematiche e confronto, non da una semplice impressione osservando il cielo. La vicenda ricorda che l’astronomia si costruisce anche al tavolo di lavoro, dove osservazioni raccolte in tempi diversi diventano dati confrontabili."
+        ]
+      },
+      {
+        "title": "Il periodo diventa una chiave",
+        "paragraphs": [
+          "Nelle variabili studiate nella Piccola Nube di Magellano, stelle con periodi maggiori risultavano più luminose secondo la relazione individuata. Considerarle a distanze all’incirca comuni permetteva di collegare luminosità apparente e differenze intrinseche senza attribuire ogni variazione alla distanza. La relazione non dice che tutte le stelle variabili si comportino allo stesso modo. Classe stellare, banda e calibrazione devono essere specificate quando il metodo viene applicato a osservazioni nuove."
+        ]
+      },
+      {
+        "title": "Dalla relazione alla scala delle distanze",
+        "paragraphs": [
+          "Una calibrazione assoluta permette di stimare la luminosità intrinseca dal periodo e confrontarla con la luce ricevuta. Da qui si ricava una distanza nel modello appropriato, correggendo gli effetti che influenzano il segnale. Leavitt pose un passaggio essenziale, mentre altri svilupparono calibrazioni e applicazioni. Non fu una misura diretta con un metro fra galassie: fu una catena di inferenze sostenuta da osservazioni, confronti e verifiche successive."
+        ]
+      },
+      {
+        "title": "Attribuire il contributo con precisione",
+        "paragraphs": [
+          "Il nome di Leavitt accompagna una storia collettiva di osservatori, strumenti e persone che lavorarono alla classificazione e alla misura delle stelle. Riconoscere il suo ruolo non richiede attribuirle da sola ogni successiva scoperta cosmologica. Nel percorso divulgativo la sua figura può collegare un gesto concreto, confrontare lastre, a una domanda enorme: quanto è lontano ciò che vediamo? La risposta nasce da un ritmo stellare misurato con pazienza e trasformato in uno strumento scientifico."
+        ]
+      }
+    ],
+    "facts": [
+      "La relazione periodo–luminosità richiede classificazione e calibrazione, non vale per ogni variabile"
+    ],
+    "example": "La relazione periodo–luminosità richiede classificazione e calibrazione, non vale per ogni variabile",
+    "sources": [
+      {
+        "title": "Treccani · quadro terminologico generale; dettagli nelle fonti specifiche",
+        "url": "https://www.treccani.it/enciclopedia/cefeidi_(Dizionario-delle-Scienze-Fisiche)/"
+      },
+      {
+        "title": "Harvard Wolbach Library · vita e lavoro di Leavitt",
+        "url": "https://library.cfa.harvard.edu/women-at-hco/henrietta-swan-leavitt"
+      }
+    ],
+    "aliases": [
+      "Henrietta Swan Leavitt",
+      "Henrietta Leavitt"
+    ]
+  },
+  {
+    "id": "legame-idrogeno",
+    "name": "Legame a idrogeno",
+    "definition": "Il legame a idrogeno è un’interazione nella quale un idrogeno già legato a un atomo partecipa a un’ulteriore associazione con un altro atomo o gruppo appropriato.",
+    "source": "https://www.treccani.it/enciclopedia/termodinamica-molecolare_(Enciclopedia-della-Scienza-e-della-Tecnica)/",
+    "lesson": "lezione-5-4.html",
+    "related": [
+      "acqua",
+      "legame-covalente",
+      "dipolo-elettrico"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Non è qualunque legame con idrogeno",
+        "paragraphs": [
+          "La presenza di H in una formula non basta a dimostrare un legame a idrogeno. Il termine descrive una specifica interazione aggiuntiva, non semplicemente il legame covalente che unisce l’idrogeno a un altro atomo. Gli esempi introduttivi coinvolgono spesso ossigeno, azoto o fluoro, ma la definizione scientifica richiede criteri più generali e riscontri. Una regola scolastica utile non deve essere presentata come un elenco assoluto di tutte le situazioni possibili."
+        ]
+      },
+      {
+        "title": "L’acqua come esempio",
+        "paragraphs": [
+          "Nell’acqua i legami covalenti O–H definiscono ciascuna molecola, mentre interazioni a idrogeno contribuiscono all’organizzazione fra molecole. Spezzare la rete di interazioni non equivale automaticamente a decomporre ogni molecola in atomi. Questa distinzione aiuta a comprendere perché cambiamenti di stato e reazioni chimiche non siano lo stesso processo. Le proprietà dell’insieme dipendono anche da come le molecole si associano, non soltanto dagli elementi presenti nella formula."
+        ]
+      },
+      {
+        "title": "Una geometria da rispettare",
+        "paragraphs": [
+          "Nei diagrammi si usa spesso una linea tratteggiata per distinguere l’interazione dal legame covalente. Il tratteggio non è un filamento materiale fotografato tra le molecole. Direzione, distanze e ambiente influenzano l’interazione, e una figura deve evitare collegamenti arbitrari tra tutti gli idrogeni visibili. Il modello può essere semplice, ma deve conservare le relazioni che intende spiegare. Anche una piccola legenda rende più chiara la differenza tra struttura molecolare e organizzazione dell’insieme."
+        ]
+      },
+      {
+        "title": "Ghiacci e superfici cosmiche",
+        "paragraphs": [
+          "I legami a idrogeno sono rilevanti per discutere materiali contenenti acqua e altre specie nei ghiacci e negli ambienti astrochimici. Non rendono però tutti i depositi ghiacciati identici né garantiscono la presenza di vita. Composizione, temperatura e struttura del solido modificano le proprietà. Il collegamento divulgativo utile è fra una relazione microscopica e un comportamento collettivo: riconoscere la molecola è il primo passo, capire come interagisce con le vicine aggiunge un livello diverso di informazione."
+        ]
+      }
+    ],
+    "facts": [
+      "Il legame covalente O–H e il legame a idrogeno fra molecole sono concetti distinti"
+    ],
+    "example": "Il legame covalente O–H e il legame a idrogeno fra molecole sono concetti distinti",
+    "sources": [
+      {
+        "title": "Treccani · quadro terminologico generale; dettagli nelle fonti specifiche",
+        "url": "https://www.treccani.it/enciclopedia/termodinamica-molecolare_(Enciclopedia-della-Scienza-e-della-Tecnica)/"
+      },
+      {
+        "title": "IUPAC · criteri per il legame a idrogeno",
+        "url": "https://publications.iupac.org/pac/pdf/2011/pdf/8308x1637.pdf"
+      }
+    ],
+    "aliases": [
+      "Ponte a idrogeno"
+    ]
+  },
+  {
     "id": "legame-chimico",
     "name": "Legame chimico",
     "definition": "Un legame chimico è un’interazione che mantiene una struttura di atomi in una configurazione legata, coinvolgendo nuclei ed elettroni.",
@@ -13273,6 +19976,229 @@ window.AdAstraGlossary = [
         "title": "Treccani · riferimento terminologico",
         "url": "https://www.treccani.it/enciclopedia/legame/"
       }
+    ]
+  },
+  {
+    "id": "legame-covalente",
+    "name": "Legame covalente",
+    "definition": "Il legame covalente unisce atomi attraverso una distribuzione elettronica condivisa; nella descrizione introduttiva viene rappresentato mediante una o più coppie di elettroni di legame.",
+    "source": "https://www.treccani.it/vocabolario/covalente/",
+    "lesson": "lezione-5-4.html",
+    "related": [
+      "legame-chimico",
+      "molecola",
+      "elettronegativita"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Condividere una distribuzione elettronica",
+        "paragraphs": [
+          "Nella molecola di idrogeno due nuclei sono legati grazie a una configurazione elettronica complessivamente stabile. Gli elettroni non sono palline ferme a metà strada: la descrizione quantistica riguarda stati e probabilità. Il linguaggio delle coppie condivise è un modello introduttivo utile per rappresentare molti legami. Non deve diventare l’immagine letterale di due atomi che si passano continuamente una particella come un oggetto in prestito."
+        ]
+      },
+      {
+        "title": "I trattini di una formula",
+        "paragraphs": [
+          "Nelle formule strutturali un trattino indica un legame semplice, mentre due o tre trattini rappresentano legami multipli. Il simbolo non è una barretta rigida realmente visibile. La geometria molecolare comprende distanze e angoli che dipendono dalla struttura elettronica; non viene stabilita soltanto disponendo i simboli sul foglio. Per questo una formula chimica e un modello tridimensionale rispondono a domande diverse, pur descrivendo la medesima specie."
+        ]
+      },
+      {
+        "title": "Una condivisione non sempre uguale",
+        "paragraphs": [
+          "Atomi differenti possono attrarre diversamente la densità elettronica. Un legame covalente può quindi essere polare: condividere non implica necessariamente distribuire in modo simmetrico. La polarità dell’intera molecola dipende anche dalla sua forma. Legami polari possono dare contributi che si compensano. Questa distinzione è importante quando si collegano struttura molecolare e spettroscopia, senza dedurre le possibilità di emissione da un solo trattino della formula."
+        ]
+      },
+      {
+        "title": "Dalle molecole ai solidi",
+        "paragraphs": [
+          "Il legame covalente non compare soltanto in molecole isolate. Può sostenere strutture estese, come reti solide, con proprietà differenti da quelle di un gas molecolare. Nell’astrochimica permette di discutere molecole e materiali dei granuli senza confondere un legame tra atomi con l’attrazione tra molecole già formate. Le categorie covalente e ionico sono modelli interpretativi: alcuni materiali presentano caratteri misti, che una classificazione troppo netta finirebbe per nascondere."
+        ]
+      }
+    ],
+    "facts": [
+      "Un legame covalente può essere polare: condivisione non significa distribuzione elettronica identica"
+    ],
+    "example": "Un legame covalente può essere polare: condivisione non significa distribuzione elettronica identica",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/vocabolario/covalente/"
+      },
+      {
+        "title": "Treccani · strutture e legami nei cristalli",
+        "url": "https://www.treccani.it/enciclopedia/cristallo/"
+      }
+    ]
+  },
+  {
+    "id": "legame-ionico",
+    "name": "Legame ionico",
+    "definition": "Il legame ionico è la coesione associata all’interazione elettrostatica fra ioni di carica opposta, particolarmente importante nella descrizione di molti sali solidi.",
+    "source": "https://www.treccani.it/enciclopedia/cristallo/",
+    "lesson": "lezione-5-4.html",
+    "related": [
+      "catione",
+      "anione",
+      "legame-chimico"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Cariche che si attraggono",
+        "paragraphs": [
+          "Un catione ha carica positiva e un anione carica negativa. L’interazione fra cariche opposte contribuisce alla stabilità di un materiale ionico. Il consueto disegno di un elettrone trasferito da un atomo a un altro aiuta a contare le cariche, ma non esaurisce la descrizione energetica del processo. Bisogna considerare anche la formazione dell’insieme e le interazioni con tutti gli ioni circostanti, non soltanto una coppia isolata."
+        ]
+      },
+      {
+        "title": "Un sale è una struttura estesa",
+        "paragraphs": [
+          "Nel cloruro di sodio solido gli ioni sono organizzati in una struttura ripetuta. La formula NaCl esprime il rapporto fra sodio e cloro; non richiede di immaginare tante molecole separate, ciascuna costituita da una sola coppia rigidamente unita. Questo passaggio distingue un composto ionico solido da una molecola isolata. Due formule ugualmente brevi possono quindi rappresentare organizzazioni della materia molto diverse, che richiedono figure e spiegazioni differenti."
+        ]
+      },
+      {
+        "title": "Mobilità e conduzione",
+        "paragraphs": [
+          "La presenza di cariche non garantisce che un solido conduca bene corrente elettrica: conta anche se i portatori possano muoversi. In molti sali gli ioni sono vincolati nel reticolo; quando il materiale è fuso o opportunamente disciolto, la situazione cambia. Dire semplicemente che ionico significa conduttore sarebbe quindi incompleto. Il comportamento elettrico deve essere riferito allo stato fisico, alla composizione e alle condizioni del campione considerato."
+        ]
+      },
+      {
+        "title": "Il significato in astronomia",
+        "paragraphs": [
+          "Minerali e materiali planetari richiedono una descrizione dei legami oltre alla semplice lista degli elementi. Il carattere ionico può contribuire a spiegarne struttura e proprietà, spesso insieme a componenti covalenti. Non conviene fissare una soglia universale di elettronegatività come confine assoluto tra tutti i materiali. La classificazione iniziale aiuta a ragionare; il confronto con misure di laboratorio permette poi di comprendere quanto un caso reale si avvicini al modello ideale."
+        ]
+      }
+    ],
+    "facts": [
+      "La formula di un sale solido esprime rapporti fra componenti, non necessariamente molecole isolate"
+    ],
+    "example": "La formula di un sale solido esprime rapporti fra componenti, non necessariamente molecole isolate",
+    "sources": [
+      {
+        "title": "Treccani · quadro terminologico generale; dettagli nelle fonti specifiche",
+        "url": "https://www.treccani.it/enciclopedia/cristallo/"
+      },
+      {
+        "title": "Treccani · caratteri ionici, covalenti e metallici dei solidi",
+        "url": "https://www.treccani.it/enciclopedia/fisica-dei-solidi_(Enciclopedia-del-Novecento)/"
+      }
+    ]
+  },
+  {
+    "id": "legame-metallico",
+    "name": "Legame metallico",
+    "definition": "Il legame metallico descrive la coesione di un metallo attraverso elettroni delocalizzati su molti centri atomici, anziché attribuiti esclusivamente a coppie di atomi.",
+    "source": "https://www.treccani.it/enciclopedia/fisica-dei-solidi_(Enciclopedia-del-Novecento)/",
+    "lesson": "lezione-5-4.html",
+    "related": [
+      "elettrone",
+      "ferro",
+      "legame-chimico"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un legame collettivo",
+        "paragraphs": [
+          "Nel modello introduttivo di un metallo gli elettroni di valenza non appartengono esclusivamente a un singolo legame fra due vicini. La loro delocalizzazione contribuisce alla coesione dell’insieme. L’immagine di un mare di elettroni rende intuitiva questa proprietà, purché non venga letta come un liquido ordinario che riempie spazi vuoti tra palline immobili. La struttura reale comprende stati elettronici descritti dalla fisica quantistica e moti degli atomi attorno alle posizioni di equilibrio."
+        ]
+      },
+      {
+        "title": "Perché proprietà diverse possono essere collegate",
+        "paragraphs": [
+          "Conduzione elettrica, risposta alla luce e deformabilità trovano parte della loro spiegazione nella struttura elettronica del materiale. Non basta però dire che gli elettroni sono liberi per conoscere quantitativamente ogni proprietà. Temperatura, difetti, composizione e struttura cristallina influenzano i risultati. Un metallo puro e una lega possono quindi comportarsi diversamente anche quando condividono lo stesso elemento principale. Il modello spiega una tendenza, mentre una misura caratterizza il campione concreto."
+        ]
+      },
+      {
+        "title": "Metallico non significa soltanto lucente",
+        "paragraphs": [
+          "La lucentezza da sola non identifica il tipo di legame. Un’immagine brillante può dipendere da illuminazione, superficie e trattamento fotografico; una superficie ossidata può nascondere l’aspetto del metallo sottostante. Nelle figure didattiche è utile separare fotografia del campione, schema della struttura e descrizione delle proprietà. Non sono tre prove equivalenti: mostrano livelli diversi e devono essere accompagnati da informazioni su scala e condizioni dell’esperimento."
+        ]
+      },
+      {
+        "title": "Un termine con due usi astronomici",
+        "paragraphs": [
+          "In astronomia si chiamano metalli tutti gli elementi più pesanti dell’elio. Questo uso non implica che quegli elementi formino necessariamente un solido con legame metallico. L’ossigeno entra nella metallicità stellare, ma ciò non rende metallico ogni suo composto. Separare i due significati evita equivoci quando si passa dall’interno di un pianeta allo spettro di una stella. Il contesto stabilisce se si stia parlando di classificazione degli elementi o di coesione di un materiale."
+        ]
+      }
+    ],
+    "facts": [
+      "La metallicità astronomica e il legame metallico descrivono proprietà differenti"
+    ],
+    "example": "La metallicità astronomica e il legame metallico descrivono proprietà differenti",
+    "sources": [
+      {
+        "title": "Treccani · quadro terminologico generale; dettagli nelle fonti specifiche",
+        "url": "https://www.treccani.it/enciclopedia/fisica-dei-solidi_(Enciclopedia-del-Novecento)/"
+      },
+      {
+        "title": "Treccani · struttura dei cristalli",
+        "url": "https://www.treccani.it/enciclopedia/cristallo/"
+      }
+    ]
+  },
+  {
+    "id": "lemaitre-georges",
+    "name": "Lemaître, Georges",
+    "definition": "Georges Lemaître (1894–1966) fu un fisico e astronomo belga che sviluppò un’interpretazione dell’espansione cosmica nella relatività generale e un’ipotesi sull’origine dell’Universo.",
+    "source": "https://www.treccani.it/enciclopedia/georges-lemaitre/",
+    "lesson": "lezione-6-5.html",
+    "related": [
+      "relativita-generale",
+      "hubble-lemaitre-legge",
+      "big-bang"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Una teoria confrontata con il cielo",
+        "paragraphs": [
+          "Lemaître collegò soluzioni della relatività generale a un Universo in espansione e al problema delle velocità e distanze delle galassie. Il passaggio importante consiste nel mettere in dialogo una struttura matematica e misure astronomiche. La teoria non diventa vera soltanto perché un’equazione ammette una soluzione: bisogna confrontare le conseguenze del modello con osservazioni. La cosmologia cresce proprio attraverso questa relazione tra possibilità teoriche e vincoli del cielo reale."
+        ]
+      },
+      {
+        "title": "Il contributo del 1927",
+        "paragraphs": [
+          "Nel 1927 Lemaître pubblicò un lavoro che trattava un Universo in espansione e collegava il quadro teorico ai dati disponibili. La storia precede il noto lavoro osservativo di Hubble del 1929. La denominazione Hubble–Lemaître, raccomandata dall’Unione Astronomica Internazionale nel 2018, ricorda questa pluralità di contributi. Non cancella il lavoro di altri studiosi e non attribuisce a un singolo articolo tutte le idee e le verifiche successive della cosmologia moderna."
+        ]
+      },
+      {
+        "title": "L’ipotesi dell’origine",
+        "paragraphs": [
+          "Lemaître propose anche l’immagine di uno stato iniziale estremamente concentrato, spesso ricordata attraverso l’espressione atomo primitivo. Non va identificata senza distinzioni con ogni dettaglio del modello cosmologico contemporaneo. Né il termine atomo indica qui un normale atomo chimico ingrandito. Le idee sull’Universo iniziale sono state sviluppate e confrontate con nuove osservazioni; la ricostruzione storica deve rispettare la differenza tra un’intuizione fondatrice e la teoria attuale con i suoi limiti."
+        ]
+      },
+      {
+        "title": "Espansione senza un centro privilegiato",
+        "paragraphs": [
+          "L’espansione cosmologica non richiede che la Terra sia il punto dal quale tutte le galassie siano state lanciate nello spazio. Un modello omogeneo può descrivere distanze che crescono senza assegnare alla nostra posizione un ruolo speciale. Per comprenderlo conviene partire da una rete di distanze, evitando un’esplosione disegnata dentro una stanza vuota. La biografia di Lemaître aiuta così a introdurre una domanda ancora centrale: quali aspetti di un’immagine intuitiva rappresentano davvero la teoria?"
+        ]
+      }
+    ],
+    "facts": [
+      "La denominazione Hubble–Lemaître riconosce contributi teorici e osservativi differenti"
+    ],
+    "example": "La denominazione Hubble–Lemaître riconosce contributi teorici e osservativi differenti",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/georges-lemaitre/"
+      },
+      {
+        "title": "IAU · motivazione storica della denominazione",
+        "url": "https://iauarchive.eso.org/news/pressreleases/detail/iau1812/"
+      }
+    ],
+    "aliases": [
+      "Georges Lemaitre"
+    ],
+    "linkNames": [
+      "Georges Lemaître",
+      "Georges Lemaitre"
     ]
   },
   {
@@ -13383,6 +20309,67 @@ window.AdAstraGlossary = [
         "title": "Treccani · riferimento terminologico",
         "url": "https://www.treccani.it/enciclopedia/lente/"
       }
+    ]
+  },
+  {
+    "id": "leptone",
+    "name": "Leptone",
+    "definition": "I leptoni sono una famiglia di particelle elementari che non partecipano all’interazione forte: comprendono elettrone, muone, tau e i rispettivi neutrini, con le antiparticelle.",
+    "source": "https://www.treccani.it/enciclopedia/leptone/",
+    "lesson": "lezione-10-4.html",
+    "related": [
+      "elettrone",
+      "neutrino",
+      "fermione"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Una famiglia che comprende l’elettrone",
+        "paragraphs": [
+          "L’elettrone che incontriamo nello studio dell’atomo è un leptone. Anche muone e tau appartengono alla famiglia, ma hanno masse e stabilità differenti. A ciascuna delle tre famiglie è associato un neutrino. Questa classificazione non è una divisione fra particelle grandi e piccole nel senso quotidiano. La parola descrive proprietà e interazioni, e permette di organizzare particelle che non vanno tutte immaginate come ingredienti permanenti di ogni atomo."
+        ]
+      },
+      {
+        "title": "La differenza rispetto ai quark",
+        "paragraphs": [
+          "I leptoni non partecipano all’interazione forte. Quelli elettricamente carichi risentono invece dell’interazione elettromagnetica, oltre a quella debole. I neutrini sono elettricamente neutri e interagiscono molto poco con la materia nelle condizioni comuni. Non è corretto dire che un leptone non interagisca affatto, né che ogni particella neutra sia un neutrino. Il neutrone, per esempio, è un sistema composto e non appartiene alla famiglia leptonica."
+        ]
+      },
+      {
+        "title": "Un messaggero diverso dalla luce",
+        "paragraphs": [
+          "I neutrini prodotti in processi astrofisici possono fornire informazioni complementari ai fotoni. La bassa probabilità di interazione permette loro di uscire da ambienti opachi alla luce, ma rende difficile la rivelazione. Questa doppia conseguenza spiega perché servano apparati grandi e analisi accurate. La presenza di leptoni nell’astronomia non è quindi un dettaglio di nomenclatura: apre modi differenti di interrogare fenomeni come attività stellare ed esplosioni."
+        ]
+      },
+      {
+        "title": "Particelle e antiparticelle",
+        "paragraphs": [
+          "Il positrone è l’antiparticella dell’elettrone e appartiene anch’esso al quadro leptonico. Non ha massa negativa. Le trasformazioni devono rispettare le leggi fisiche pertinenti e non corrispondono a sostituzioni arbitrarie di simboli. La voce va letta insieme a fermione, neutrino e antimateria, mantenendo distinti famiglia, spin e carica. Una classificazione può sovrapporsi a un’altra perché risponde a una domanda diversa, proprio come più coordinate descrivono aspetti diversi dello stesso sistema."
+        ]
+      }
+    ],
+    "facts": [
+      "Il neutrone è elettricamente neutro ma non è un leptone"
+    ],
+    "example": "Il neutrone è elettricamente neutro ma non è un leptone",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/leptone/"
+      },
+      {
+        "title": "CERN · particelle e interazioni nel Modello standard",
+        "url": "https://home.cern/science/physics/standard-model"
+      },
+      {
+        "title": "Lorenzo Roi · Corso di astronomia 2, particelle elementari",
+        "url": "https://www.lorenzoroi.net/prelievi/CorsoAstro2.pdf"
+      }
+    ],
+    "aliases": [
+      "leptoni"
     ]
   },
   {
@@ -13665,6 +20652,64 @@ window.AdAstraGlossary = [
       {
         "title": "ESA Gaia · moto proprio e velocità spaziale",
         "url": "https://www.esa.int/Science_Exploration/Space_Science/Gaia/Proper_motion"
+      }
+    ]
+  },
+  {
+    "id": "litio",
+    "name": "Litio",
+    "definition": "Il litio è l’elemento di numero atomico 3, simbolo Li. Le sue abbondanze e trasformazioni collegano la chimica cosmica alla storia delle stelle e dell’Universo.",
+    "source": "https://www.treccani.it/enciclopedia/litio/",
+    "lesson": "lezione-4-6.html",
+    "related": [
+      "numero-atomico",
+      "nucleosintesi",
+      "isotopo"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Tre protoni identificano l’elemento",
+        "paragraphs": [
+          "Un nucleo con tre protoni appartiene al litio. Cambiare il numero di neutroni produce isotopi differenti; modificare gli elettroni cambia lo stato di ionizzazione, non l’identità dell’elemento. Nelle condizioni ordinarie terrestri il litio è un metallo leggero. In una stella, invece, non si presenta necessariamente come un pezzo del materiale familiare: temperatura e densità determinano lo stato fisico e le firme osservabili."
+        ]
+      },
+      {
+        "title": "Una storia con più contributi",
+        "paragraphs": [
+          "Una parte del litio ha origine nella nucleosintesi primordiale, ma la storia successiva comprende produzione e distruzione in ambienti differenti. Non è corretto attribuire ogni atomo presente oggi a un solo momento cosmico. Osservazioni di materiale espulso da una nova hanno fornito riscontri sul contributo di questi eventi. Il collegamento fra stelle e composizione non è dunque una sequenza in cui gli elementi vengono soltanto aggiunti: alcuni possono anche essere consumati."
+        ]
+      },
+      {
+        "title": "L’abbondanza richiede interpretazione",
+        "paragraphs": [
+          "La presenza di una riga del litio può essere utile nello studio di popolazioni stellari, ma non costituisce da sola un orologio universale. Mescolamento, temperatura e storia della stella influenzano ciò che rimane visibile. Confrontare oggetti differenti richiede criteri coerenti e modelli appropriati. Anche la quantità osservata non è semplicemente proporzionale alla forza apparente di una riga senza considerare le condizioni che ne determinano la formazione."
+        ]
+      },
+      {
+        "title": "Dal nome familiare alla domanda cosmica",
+        "paragraphs": [
+          "Il litio compare anche nelle tecnologie di accumulo energetico, ma l’applicazione terrestre e il ruolo astronomico rispondono a domande diverse. La tavola periodica ci dice quale elemento consideriamo; la fisica delle stelle aiuta a ricostruire come sia stato prodotto e trasformato. Tenere insieme questi livelli rende la voce più di una sigla: pochi protoni identificano un materiale la cui distribuzione conserva indizi di processi avvenuti in epoche e luoghi molto lontani."
+        ]
+      }
+    ],
+    "facts": [
+      "Li identifica il litio: ogni suo nucleo contiene tre protoni"
+    ],
+    "example": "Li identifica il litio: ogni suo nucleo contiene tre protoni",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/litio/"
+      },
+      {
+        "title": "RSC · litio nella tavola periodica",
+        "url": "https://periodic-table.rsc.org/element/3/lithium"
+      },
+      {
+        "title": "ESO · litio nel materiale espulso da una nova",
+        "url": "https://www.eso.org/public/news/eso1531/"
       }
     ]
   },
@@ -14171,6 +21216,60 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "lumen",
+    "name": "Lumen",
+    "definition": "Il lumen, simbolo lm, è l’unità SI del flusso luminoso, una misura della radiazione pesata secondo la risposta visiva fotopica convenzionale.",
+    "source": "https://www.treccani.it/enciclopedia/lumen/",
+    "lesson": "lezione-7-5.html",
+    "related": [
+      "luce",
+      "watt",
+      "inquinamento-luminoso"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "La luce valutata per la visione",
+        "paragraphs": [
+          "Il lumen non conta semplicemente tutta l’energia irradiata da una sorgente. La fotometria luminosa tiene conto della sensibilità convenzionale dell’occhio nelle condizioni definite. Due radiazioni con uguale potenza fisica possono quindi avere flussi luminosi differenti se cambiano le lunghezze d’onda. La distinzione è importante per leggere le lampade: lumen e watt descrivono aspetti diversi, mentre una camera astronomica può avere una risposta spettrale ancora differente da quella dell’occhio."
+        ]
+      },
+      {
+        "title": "Quanta luce viene distribuita",
+        "paragraphs": [
+          "Il flusso luminoso riguarda la quantità complessiva nella regione e nelle condizioni considerate, non l’illuminamento di un punto preciso. Un apparecchio può distribuire lo stesso flusso in un fascio stretto o in una zona ampia, con effetti diversi sulle superfici. Per sapere quanto venga illuminato un tavolo occorrono distanza, orientamento e distribuzione. Il numero di lumen sulla confezione non determina da solo quanta luce finisca negli occhi dell’osservatore o verso il cielo."
+        ]
+      },
+      {
+        "title": "Efficienza e consumi",
+        "paragraphs": [
+          "Il rapporto fra lumen emessi e watt elettrici assorbiti descrive un’efficacia luminosa nelle condizioni dichiarate. Non è una misura universale dell’utilità astronomica di una lampada. Spettro, schermatura, direzione e necessità reale dell’illuminazione restano essenziali. Anche una sorgente efficiente può contribuire all’abbagliamento o al chiarore del cielo se viene usata male. Non basta quindi sostituire una lampada con una che abbia molti lumen per watt per risolvere ogni problema osservativo."
+        ]
+      },
+      {
+        "title": "Il buio richiede un’altra lettura",
+        "paragraphs": [
+          "La risposta dell’occhio cambia con adattamento e condizioni di luce. La grandezza fotopica convenzionale non descrive da sola tutte le conseguenze di una sorgente durante una serata astronomica. Per confronti accurati servono spettro e metriche appropriate. Nel diario puoi annotare luci vicine e schermature, distinguendo la loro presenza dai dati fotometrici misurati. Il punto da ricordare è che il lumen valuta il flusso luminoso secondo una convenzione visiva, non la qualità complessiva del cielo."
+        ]
+      }
+    ],
+    "facts": [
+      "Lumen misura flusso luminoso; watt misura potenza"
+    ],
+    "example": "Lumen misura flusso luminoso; watt misura potenza",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/lumen/"
+      },
+      {
+        "title": "BIPM · unità fotometriche e SI",
+        "url": "https://www.bipm.org/en/publications/si-brochure"
+      }
+    ]
+  },
+  {
     "id": "luminosita",
     "name": "Luminosità intrinseca",
     "definition": "In astronomia la luminosità intrinseca è la potenza radiativa emessa da una sorgente, nell’intero spettro o in una banda specificata.",
@@ -14452,6 +21551,114 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "lux",
+    "name": "Lux",
+    "definition": "Il lux, simbolo lx, è l’unità SI dell’illuminamento: un lux equivale a un lumen incidente per metro quadrato.",
+    "source": "https://www.treccani.it/enciclopedia/lux/",
+    "lesson": "lezione-7-5.html",
+    "related": [
+      "lumen",
+      "inquinamento-luminoso",
+      "fondo-cielo"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "La luce che arriva su una superficie",
+        "paragraphs": [
+          "Una lampada emette un flusso, mentre un piano riceve un illuminamento. Il lux misura questo secondo aspetto. Un lumen distribuito uniformemente su un metro quadrato produce un lux; se viene distribuito su un’area maggiore, l’illuminamento medio diminuisce. Il confronto richiede di mantenere chiare le condizioni geometriche. Non misura quanto sia grande la lampada né il numero dei suoi watt elettrici, e non sostituisce la descrizione della luce nelle diverse direzioni."
+        ]
+      },
+      {
+        "title": "Distanza e orientamento contano",
+        "paragraphs": [
+          "Spostando un sensore o inclinando la superficie rispetto ai raggi si può misurare un illuminamento differente. Nell’esempio ideale di sorgente puntiforme isolata, l’effetto della distanza segue una geometria semplice, ma apparecchi estesi, riflessi e più sorgenti complicano la scena reale. Per una misura ripetibile bisogna registrare posizione e orientamento. Un valore letto con lo strumento rivolto verso l’alto non è automaticamente equivalente a uno ottenuto puntandolo direttamente verso una lampada laterale."
+        ]
+      },
+      {
+        "title": "Non è una classe Bortle",
+        "paragraphs": [
+          "Il lux descrive l’illuminamento di una superficie secondo una risposta fotometrica definita. La qualità del cielo per osservare stelle deboli richiede altre informazioni, fra cui brillanza del fondo, trasparenza e ostacoli. Non esiste una conversione universale che trasformi qualsiasi lettura in lux in una classe Bortle misurata. Anche applicazioni telefoniche e sensori non calibrati possono introdurre limiti. Il nome dell’unità non garantisce da solo precisione e adeguatezza del dispositivo."
+        ]
+      },
+      {
+        "title": "Un uso concreto durante la serata",
+        "paragraphs": [
+          "Il concetto aiuta a distinguere la luce necessaria per consultare un quaderno da quella dispersa nell’ambiente. Ridurre flusso e orientarlo verso il compito può limitare l’interferenza con gli altri osservatori. L’effetto dipende anche da spettro e adattamento visivo, non soltanto dal numero di lux. Nella scheda osservativa conserva quindi condizioni e metodo, evitando di trasformare una singola misura sul tavolino in una descrizione completa dell’inquinamento luminoso dell’intera zona."
+        ]
+      }
+    ],
+    "facts": [
+      "Lux e classe Bortle non sono grandezze convertibili con una regola universale"
+    ],
+    "example": "Lux e classe Bortle non sono grandezze convertibili con una regola universale",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/lux/"
+      },
+      {
+        "title": "BIPM · grandezze fotometriche",
+        "url": "https://www.bipm.org/en/publications/si-brochure"
+      }
+    ]
+  },
+  {
+    "id": "magnesio",
+    "name": "Magnesio",
+    "definition": "Il magnesio è l’elemento chimico di numero atomico 12 e simbolo Mg, presente in numerosi minerali e riconoscibile negli spettri astronomici.",
+    "source": "https://www.treccani.it/enciclopedia/magnesio/",
+    "lesson": "lezione-3-2.html",
+    "related": [
+      "silicio",
+      "elemento-chimico",
+      "spettroscopia"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un metallo che partecipa alle rocce",
+        "paragraphs": [
+          "Il magnesio metallico ha proprietà diverse dai composti che lo contengono. Nei materiali planetari può partecipare a silicati insieme a ferro, silicio e ossigeno. Dire che una roccia contiene magnesio non significa che includa necessariamente frammenti di metallo puro. Elementi e minerali descrivono livelli differenti della composizione: una lista di simboli chimici non sostituisce la ricostruzione delle strutture e delle mescolanze presenti nel campione."
+        ]
+      },
+      {
+        "title": "Confrontare materiali planetari",
+        "paragraphs": [
+          "La distribuzione del magnesio fra minerali e serbatoi aiuta a studiare la storia dei materiali rocciosi. Rapporti con altri elementi possono entrare nei confronti fra meteoriti e modelli planetari, ma richiedono metodi e riferimenti coerenti. Un rapporto misurato in un campione locale non descrive automaticamente l’intero pianeta. Le figure degli interni devono perciò distinguere dati disponibili e composizioni ricostruite, evitando di attribuire a ogni strato lo stesso valore senza giustificazione."
+        ]
+      },
+      {
+        "title": "La firma nella luce",
+        "paragraphs": [
+          "Atomi e ioni del magnesio hanno transizioni differenti. Negli spettri stellari alcune firme contribuiscono alle analisi delle atmosfere e delle abbondanze. L’intensità di una riga dipende anche dalle condizioni fisiche e dalla formazione dello spettro. Una linea forte non equivale sempre a molto magnesio senza altre considerazioni. Una buona spiegazione specifica specie, banda e modello, invece di associare direttamente il colore visibile della stella a un singolo elemento."
+        ]
+      },
+      {
+        "title": "La chimica ha un’origine stellare",
+        "paragraphs": [
+          "Il magnesio partecipa al racconto della produzione e distribuzione degli elementi nelle generazioni stellari. La presenza in una roccia terrestre e in uno spettro stellare collega ambienti molto diversi, senza rendere identiche le forme del materiale. Nel glossario il percorso può seguire questo passaggio: identità dell’elemento, composto osservato, metodo di misura e domanda scientifica. Si evita così una scheda ridotta al solo numero atomico o a un elenco di utilizzi industriali scollegato dall’astronomia."
+        ]
+      }
+    ],
+    "facts": [
+      "Magnesio in un silicato non significa magnesio metallico libero"
+    ],
+    "example": "Magnesio in un silicato non significa magnesio metallico libero",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/magnesio/"
+      },
+      {
+        "title": "RSC · proprietà e presenza del magnesio",
+        "url": "https://periodic-table.rsc.org/element/12/magnesium"
+      }
+    ]
+  },
+  {
     "id": "magnitudine-apparente",
     "name": "Magnitudine apparente",
     "definition": "Numero che descrive quanto un astro appare brillante in una determinata banda: valori più piccoli indicano maggiore brillantezza.",
@@ -14656,6 +21863,64 @@ window.AdAstraGlossary = [
       {
         "title": "Treccani · riferimento terminologico",
         "url": "https://www.treccani.it/enciclopedia/magnitudine_(Dizionario-delle-Scienze-Fisiche)/"
+      }
+    ]
+  },
+  {
+    "id": "manganese",
+    "name": "Manganese",
+    "definition": "Il manganese è l’elemento chimico di simbolo Mn e numero atomico 25; il suo sistema isotopico con il cromo è utile per ricostruire la storia di materiali planetari.",
+    "source": "https://www.treccani.it/enciclopedia/manganese/",
+    "lesson": "lezione-3-1.html",
+    "related": [
+      "cromo",
+      "datazione-radiometrica",
+      "numero-ossidazione"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un elemento vicino al ferro",
+        "paragraphs": [
+          "Il manganese è un metallo con venticinque protoni per nucleo. La vicinanza al ferro nella tavola periodica non rende identici i due elementi: struttura elettronica e comportamento chimico hanno caratteristiche proprie. Il simbolo Mn contiene due lettere e va mantenuto con maiuscola iniziale e minuscola successiva. Questa convenzione permette di distinguere i simboli e di leggere correttamente formule e analisi, senza attribuire alla grafia un significato puramente decorativo."
+        ]
+      },
+      {
+        "title": "Una chimica con più possibilità",
+        "paragraphs": [
+          "Il manganese forma composti con diversi stati di ossidazione. Un cambiamento dello stato chimico può influire su proprietà e aspetto del materiale, senza cambiare il numero di protoni dell’elemento. Una reazione chimica non trasforma quindi manganese in cromo: quella trasformazione richiede un processo nucleare appropriato. La differenza è essenziale quando la stessa scheda menziona sia minerali e ossidi sia isotopi radioattivi usati per ricostruire eventi molto antichi."
+        ]
+      },
+      {
+        "title": "Il manganese-53 come orologio",
+        "paragraphs": [
+          "Il manganese-53 radioattivo decade in cromo-53. Le relazioni tra manganese e isotopi del cromo nei campioni possono conservare informazioni su processi del primo Sistema solare. Non si tratta di trovare un orologio completo già inciso nel meteorite: bisogna stabilire condizioni iniziali, formazione del materiale e successivi scambi. La cronologia nasce dal confronto di campioni e rapporti, sotto ipotesi esplicite che possono essere controllate con altre osservazioni."
+        ]
+      },
+      {
+        "title": "Il campione conta",
+        "paragraphs": [
+          "Un meteorite può contenere minerali con composizioni differenti e una storia di riscaldamenti, urti o alterazioni. La scelta della porzione analizzata influisce sulla domanda alla quale si può rispondere. Un’età isotopica può riferirsi a un evento fisico specifico e non necessariamente alla formazione dell’intero corpo. Il manganese collega perciò la tavola periodica alla geologia planetaria: sapere quali atomi sono presenti è il primo passo; capire come siano distribuiti e trasformati permette di ricostruire una storia."
+        ]
+      }
+    ],
+    "facts": [
+      "Un cambiamento chimico dello stato di ossidazione non è un decadimento nucleare"
+    ],
+    "example": "Un cambiamento chimico dello stato di ossidazione non è un decadimento nucleare",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/manganese/"
+      },
+      {
+        "title": "RSC · manganese",
+        "url": "https://periodic-table.rsc.org/element/25/manganese"
+      },
+      {
+        "title": "USGS · sistema isotopico manganese–cromo",
+        "url": "https://wwwrcamnl.wr.usgs.gov/isoig/period/mn_iig.html"
       }
     ]
   },
@@ -14880,6 +22145,64 @@ window.AdAstraGlossary = [
     ],
     "aliases": [
       "massa d'aria"
+    ]
+  },
+  {
+    "id": "massa-molare",
+    "name": "Massa molare",
+    "definition": "La massa molare è il rapporto fra la massa di un campione e la sua quantità di sostanza; nel SI si esprime in chilogrammi per mole.",
+    "source": "https://www.treccani.it/enciclopedia/mole/",
+    "lesson": "lezione-4-1.html",
+    "related": [
+      "mole",
+      "massa",
+      "isotopo"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un ponte fra bilancia e particelle",
+        "paragraphs": [
+          "Una bilancia misura la massa di un campione, mentre la chimica descrive anche il numero delle entità presenti. La massa molare collega questi due aspetti. Per acqua con composizione isotopica ordinaria, una mole di molecole ha massa di circa diciotto grammi. Scrivere circa diciotto grammi per mole identifica il rapporto; non significa che una sola molecola pesi diciotto grammi o che tutti i campioni d’acqua abbiano quella massa."
+        ]
+      },
+      {
+        "title": "Leggere la relazione senza formalismi",
+        "paragraphs": [
+          "Se conosci la massa molare, moltiplicala per il numero di moli per ottenere la massa. Due moli d’acqua corrispondono così a circa trentasei grammi. Per ricavare le moli da una massa, dividi invece la massa per la massa molare. Le unità devono essere coerenti: grammi con grammi per mole, oppure chilogrammi con chilogrammi per mole. Il significato del rapporto conta più della sola formula memorizzata."
+        ]
+      },
+      {
+        "title": "La composizione isotopica entra nel valore",
+        "paragraphs": [
+          "Un elemento può contenere isotopi con masse diverse. Il valore medio dipende dalle loro abbondanze nel campione, quando non si considera una specie isotopica precisamente specificata. Un materiale arricchito in un isotopo può quindi richiedere una massa molare diversa da quella tabulata per un campione ordinario. Per lavori accurati occorre dichiarare composizione e riferimento, invece di trattare tutte le cifre di una tabella come universali e prive di incertezza."
+        ]
+      },
+      {
+        "title": "Non confonderla con la massa molecolare",
+        "paragraphs": [
+          "La massa di una singola molecola può essere espressa in unità di massa atomica; la massa molare riguarda una mole di quelle molecole. I valori numerici risultano strettamente collegati usando le unità usuali, ma le grandezze e le unità restano differenti. Nel confronto fra atmosfere, la massa molare media di una miscela dipende inoltre dalla composizione. Conoscere questo ponte aiuta a interpretare gas leggeri, gas pesanti e quantità di reagenti."
+        ]
+      }
+    ],
+    "facts": [
+      "La massa molare si esprime come massa per mole, non come massa della singola molecola"
+    ],
+    "example": "La massa molare si esprime come massa per mole, non come massa della singola molecola",
+    "sources": [
+      {
+        "title": "Treccani · quadro terminologico generale; dettagli nelle fonti specifiche",
+        "url": "https://www.treccani.it/enciclopedia/mole/"
+      },
+      {
+        "title": "IUPAC · quantità di sostanza e definizione moderna",
+        "url": "https://iupac.org/new-definition-mole-arrived/"
+      },
+      {
+        "title": "BIPM · unità di base",
+        "url": "https://www.bipm.org/en/measurement-units/si-base-units"
+      }
     ]
   },
   {
@@ -15383,6 +22706,129 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "metano",
+    "name": "Metano",
+    "definition": "Il metano, CH₄, è il più semplice idrocarburo: una molecola contiene un atomo di carbonio e quattro di idrogeno. È presente in diversi ambienti planetari.",
+    "source": "https://www.treccani.it/enciclopedia/metano/",
+    "lesson": "lezione-3-3.html",
+    "related": [
+      "carbonio",
+      "molecola",
+      "astrobiologia"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Una formula corta, molti ambienti",
+        "paragraphs": [
+          "La formula CH₄ descrive gli elementi e il numero degli atomi nella molecola. Il metano non è l’elemento carbonio, né una miscela casuale di carbonio e idrogeno: gli atomi sono legati in una struttura chimica. Sulla Terra è familiare come componente del gas naturale, ma il suo significato astronomico è più ampio. Per descriverlo su un altro mondo occorre separare la presenza della molecola dalla spiegazione della sua origine."
+        ]
+      },
+      {
+        "title": "Il ciclo di un mondo freddo",
+        "paragraphs": [
+          "Su Titano il metano partecipa a fenomeni che ricordano il ciclo dell’acqua terrestre, con nubi, precipitazioni e liquidi superficiali che comprendono anche etano. L’analogia riguarda alcuni processi, non l’identità delle condizioni ambientali. Temperature molto basse rendono possibili stati fisici differenti da quelli familiari sulla Terra. Un lago scuro in un’immagine non basta a identificarne il contenuto: servono osservazioni e interpretazioni sostenute dagli strumenti."
+        ]
+      },
+      {
+        "title": "La luce porta la firma",
+        "paragraphs": [
+          "Le molecole di metano assorbono in determinate bande dello spettro e contribuiscono all’aspetto e al bilancio radiativo delle atmosfere. Le firme devono essere analizzate insieme a quelle delle altre sostanze e alle condizioni del gas. Il colore di un pianeta non rappresenta una lettura diretta della quantità di metano. Bande, nubi, particelle e trattamento dell’immagine possono intervenire contemporaneamente, perciò la composizione non va ricavata da un confronto visivo isolato."
+        ]
+      },
+      {
+        "title": "Presenza non significa vita",
+        "paragraphs": [
+          "Il metano può avere origini biologiche o non biologiche a seconda dell’ambiente. La sua identificazione non costituisce da sola una prova di organismi viventi. Anche la durata della molecola e i processi che la riforniscono richiedono studio. In astrobiologia si valutano contesto, possibili sorgenti e trasformazioni chimiche. La parola gancio è contesto: la stessa formula può raccontare storie molto diverse, e una scoperta diventa significativa quando queste possibilità vengono confrontate con dati indipendenti."
+        ]
+      }
+    ],
+    "facts": [
+      "CH₄ contiene un carbonio e quattro idrogeni; da solo non è prova di vita"
+    ],
+    "example": "CH₄ contiene un carbonio e quattro idrogeni; da solo non è prova di vita",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/metano/"
+      },
+      {
+        "title": "NASA · caratteristiche fisiche e chimiche di Titano",
+        "url": "https://science.nasa.gov/saturn/moons/titan/facts/"
+      },
+      {
+        "title": "NASA · osservazioni dei laghi di Titano",
+        "url": "https://www.nasa.gov/missions/cassini/nasas-cassini-reveals-surprises-with-titans-lakes/"
+      }
+    ],
+    "aliases": [
+      "CH₄"
+    ]
+  },
+  {
+    "id": "metanolo",
+    "name": "Metanolo",
+    "definition": "Il metanolo, CH₃OH, è l’alcol più semplice. In astrochimica viene studiato come molecola organica e come traccia dei processi che coinvolgono ghiacci, polvere e gas.",
+    "source": "https://www.treccani.it/vocabolario/metanolo/",
+    "lesson": "lezione-4-5.html",
+    "related": [
+      "adsorbimento",
+      "desorbimento",
+      "isotopologo"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Non è un altro nome del metano",
+        "paragraphs": [
+          "CH₃OH contiene carbonio, ossigeno e idrogeno. La presenza del gruppo che comprende ossigeno e idrogeno distingue la sua struttura da quella del metano, CH₄. Anche etanolo e metanolo sono sostanze diverse. Il nome organico indica una famiglia della chimica del carbonio, non l’intervento necessario di esseri viventi. In astronomia una molecola organica può quindi essere interessante senza rappresentare una traccia biologica accertata."
+        ]
+      },
+      {
+        "title": "Il collegamento con i ghiacci",
+        "paragraphs": [
+          "La chimica sulle superfici dei grani offre un importante percorso di formazione del metanolo negli ambienti interstellari. La specie può essere presente nei rivestimenti ghiacciati e poi contribuire al gas attraverso processi di rilascio. Le condizioni del materiale e della radiazione influenzano i prodotti. Non è corretto immaginare che qualsiasi granello produca sempre la stessa quantità o che una molecola rilevata nel gas si sia necessariamente formata proprio lì."
+        ]
+      },
+      {
+        "title": "Una scoperta in un disco",
+        "paragraphs": [
+          "Osservazioni ALMA hanno identificato metanolo gassoso nel disco protoplanetario di TW Hydrae, collegando l’inventario molecolare ai luoghi di formazione dei pianeti. Il risultato non dimostra che siano stati osservati organismi o un pianeta abitato. La rilevazione spettroscopica riguarda transizioni riconosciute della molecola; distribuzione, abbondanza e origine richiedono ulteriori analisi. La distinzione fra osservazione e interpretazione permette di apprezzare il valore della scoperta senza trasformarla in una conclusione più ampia dei dati."
+        ]
+      },
+      {
+        "title": "Una famiglia di firme da confrontare",
+        "paragraphs": [
+          "Gli isotopi possono dare isotopologhi del metanolo con frequenze differenti. Il confronto contribuisce allo studio della storia chimica, ma non è una fotografia diretta delle condizioni passate. Le osservazioni devono essere collegate a modelli ed esperimenti. Nel percorso divulgativo il metanolo mostra come una molecola relativamente semplice possa fare da ponte fra polvere fredda, gas osservabile e materiali disponibili per i sistemi planetari, mantenendo separate composizione chimica e presenza della vita."
+        ]
+      }
+    ],
+    "facts": [
+      "Metanolo CH₃OH e metano CH₄ sono molecole differenti"
+    ],
+    "example": "Metanolo CH₃OH e metano CH₄ sono molecole differenti",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/vocabolario/metanolo/"
+      },
+      {
+        "title": "ESO · metanolo nel disco di TW Hydrae",
+        "url": "https://www.eso.org/public/news/eso1619/"
+      },
+      {
+        "title": "Max Planck · isotopologhi del metanolo nello spazio",
+        "url": "https://www.mpg.de/26834976/first-detection-of-heavy-methanol-in-space"
+      }
+    ],
+    "aliases": [
+      "alcol metilico",
+      "CH₃OH"
+    ]
+  },
+  {
     "id": "meteora",
     "name": "Meteora",
     "definition": "Fenomeno luminoso atmosferico provocato dall’ingresso di un meteoroide.",
@@ -15569,6 +23015,67 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "metro-unita",
+    "name": "Metro, unità di lunghezza",
+    "definition": "Il metro, simbolo m, è l’unità SI della lunghezza, definita fissando la velocità della luce nel vuoto e usando il secondo.",
+    "source": "https://www.treccani.it/enciclopedia/metro/",
+    "lesson": "lezione-6-3.html",
+    "related": [
+      "velocita-della-luce",
+      "unita-astronomica",
+      "anno-luce"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Una lunghezza confrontabile",
+        "paragraphs": [
+          "Il metro permette di esprimere distanze e dimensioni con un riferimento comune. Un telescopio può avere un’apertura di frazioni di metro e una focale di alcuni metri, ma le due lunghezze descrivono proprietà diverse. L’unità da sola non identifica la grandezza geometrica. Scrivere un valore senza dire se riguarda raggio, diametro o distanza dal centro lascia incompleto il confronto."
+        ]
+      },
+      {
+        "title": "La luce entra nella definizione",
+        "paragraphs": [
+          "La velocità della luce nel vuoto è fissata esattamente a 299.792.458 metri al secondo. Un metro corrisponde al percorso della luce nel vuoto durante la frazione appropriata di un secondo. Non si deve costruire ogni misura osservando direttamente quel piccolissimo intervallo: esistono metodi pratici di realizzazione e confronto. Il riferimento sostituisce la dipendenza da un unico oggetto materiale conservato come campione."
+        ]
+      },
+      {
+        "title": "Prefissi che cambiano scala",
+        "paragraphs": [
+          "Un chilometro contiene mille metri, un millimetro è un millesimo di metro. Nei dati astronomici compaiono anche nanometri, micrometri e scale enormemente maggiori. Prima di applicare una relazione bisogna rendere coerenti le unità. Usare millimetri per una focale e micrometri per un pixel senza conversione può produrre risultati sbagliati pur partendo da una formula corretta e da dati individualmente plausibili."
+        ]
+      },
+      {
+        "title": "Dalla Terra alle galassie",
+        "paragraphs": [
+          "Unità astronomica, anno luce e parsec rendono più leggibili certe distanze cosmiche, ma restano collegati a lunghezze. Non sono tempi di viaggio generici o dimensioni apparenti sulla pagina. Le distanze cosmologiche richiedono anche una definizione fisica precisa: una conversione in metri non rende identiche distanza di luminosità e distanza comovente. Nel glossario il metro offre il riferimento di base, mentre il contesto chiarisce quale distanza venga espressa."
+        ]
+      }
+    ],
+    "facts": [
+      "L’unità di lunghezza non distingue da sola raggio, diametro e distanza"
+    ],
+    "example": "L’unità di lunghezza non distingue da sola raggio, diametro e distanza",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/metro/"
+      },
+      {
+        "title": "BIPM · definizione del metro",
+        "url": "https://www.bipm.org/en/si-base-units/metre"
+      }
+    ],
+    "aliases": [
+      "metro SI"
+    ],
+    "linkNames": [
+      "metro SI",
+      "metri di lunghezza"
+    ]
+  },
+  {
     "id": "microlente-gravitazionale",
     "name": "Microlente gravitazionale",
     "definition": "La microlente gravitazionale è un effetto di lente in cui la deviazione della luce produce segnali osservabili, spesso variazioni di luminosità, senza separare normalmente le immagini multiple con l’osservazione ordinaria.",
@@ -15689,6 +23196,71 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "mole",
+    "name": "Mole",
+    "definition": "La mole, simbolo mol, è l’unità SI della quantità di sostanza: una mole contiene esattamente 6,02214076 × 10²³ entità specificate.",
+    "source": "https://www.treccani.it/enciclopedia/mole/",
+    "lesson": "lezione-4-1.html",
+    "related": [
+      "atomo",
+      "molecola",
+      "unita-massa-atomica"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Contare quantità enormi",
+        "paragraphs": [
+          "Una dozzina conta dodici oggetti; una mole permette di contare una quantità enormemente maggiore di entità microscopiche. Bisogna sempre dire quali: atomi di carbonio, molecole d’acqua, ioni o elettroni. Il paragone con la dozzina chiarisce il conteggio, ma la mole è una vera unità del Sistema internazionale. La grandezza misurata si chiama quantità di sostanza, non massa e non volume."
+        ]
+      },
+      {
+        "title": "Lo stesso conteggio, masse differenti",
+        "paragraphs": [
+          "Una mole di atomi di elio e una mole di atomi di ferro contengono lo stesso numero di atomi. Pesano però diversamente perché ciascun atomo ha massa diversa. Anche una mole di molecole d’acqua è distinta da una mole dei singoli atomi che compongono l’acqua. Ogni molecola contiene tre atomi: precisare l’entità evita di moltiplicare o dividere una quantità senza sapere che cosa si sta contando."
+        ]
+      },
+      {
+        "title": "Una definizione moderna",
+        "paragraphs": [
+          "Dal cambiamento del SI entrato in vigore nel 2019, il numero di entità per mole è fissato esattamente. I testi precedenti collegavano la definizione agli atomi contenuti in dodici grammi di carbonio dodici. La nuova formulazione separa con maggiore chiarezza il conteggio dalla misura della massa. Nelle applicazioni pratiche pesare un campione e stimarne le moli richiede comunque misure e conoscenza della composizione, quindi conserva incertezze sperimentali."
+        ]
+      },
+      {
+        "title": "Dal laboratorio alla materia cosmica",
+        "paragraphs": [
+          "La mole aiuta a collegare reazioni chimiche e quantità macroscopiche. In astronomia si usano spesso densità di particelle e rapporti di abbondanza, ma il principio del conteggio resta importante. Non si osserva una molecola interstellare come un oggetto isolato sullo schermo: si interpreta il segnale di popolazioni di particelle. Ricordare che cosa viene contato rende più leggibili analisi di gas, ghiacci, campioni e composizioni planetarie."
+        ]
+      }
+    ],
+    "facts": [
+      "Una mole conta entità specificate, non assegna a ogni sostanza la stessa massa"
+    ],
+    "example": "Una mole conta entità specificate, non assegna a ogni sostanza la stessa massa",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/mole/"
+      },
+      {
+        "title": "BIPM · definizione SI della mole",
+        "url": "https://www.bipm.org/en/si-base-units/mole"
+      },
+      {
+        "title": "IUPAC · passaggio alla nuova definizione",
+        "url": "https://iupac.org/new-definition-mole-arrived/"
+      }
+    ],
+    "aliases": [
+      "moli"
+    ],
+    "linkNames": [
+      "moli",
+      "quantità di sostanza"
+    ]
+  },
+  {
     "id": "molecola",
     "name": "Molecola",
     "definition": "Una molecola è un’entità formata da più atomi legati, con struttura e proprietà proprie; nel linguaggio specialistico una specie molecolare carica viene specificata come ione molecolare.",
@@ -15744,6 +23316,248 @@ window.AdAstraGlossary = [
     ],
     "aliases": [
       "molecole"
+    ]
+  },
+  {
+    "id": "momento-angolare",
+    "name": "Momento angolare",
+    "definition": "Il momento angolare è una grandezza vettoriale che descrive lo stato di moto rotazionale rispetto a un punto o asse di riferimento; la sua conservazione è centrale nella dinamica celeste.",
+    "source": "https://www.treccani.it/vocabolario/momento/",
+    "lesson": "lezione-4-5.html",
+    "related": [
+      "quantita-di-moto",
+      "rotazione",
+      "disco-protoplanetario"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Il moto ha anche una geometria",
+        "paragraphs": [
+          "Per descrivere un corpo che ruota o percorre un’orbita non basta conoscere la rapidità. Contano anche massa, distribuzione della materia e posizione rispetto al riferimento scelto. Il momento angolare raccoglie queste informazioni in una grandezza vettoriale. Non coincide con la velocità angolare: due sistemi che compiono lo stesso numero di giri al secondo possono avere momenti angolari differenti se massa e distribuzione sono diverse."
+        ]
+      },
+      {
+        "title": "L’esempio delle braccia raccolte",
+        "paragraphs": [
+          "Una persona che ruota e avvicina le braccia al corpo può aumentare la propria velocità di rotazione se il momento delle forze esterne è trascurabile. Il momento angolare complessivo rimane allora circa costante mentre cambia la distribuzione della massa. Non compare energia dal nulla: il movimento richiede lavoro e modifica il bilancio energetico. L’esempio aiuta a visualizzare la conservazione, ma non autorizza a ignorare attriti o azioni esterne quando diventano importanti."
+        ]
+      },
+      {
+        "title": "Dalle nubi ai dischi",
+        "paragraphs": [
+          "Durante la contrazione di materiale cosmico la rotazione e il trasporto di momento angolare influenzano ciò che può accumularsi al centro. Nei sistemi reali possono intervenire dischi, campi magnetici, getti e scambi con l’ambiente. Non è sufficiente dire che una nube si restringe e gira sempre più velocemente senza altri effetti. La formazione stellare richiede proprio di comprendere come una parte della materia possa perdere o trasferire momento angolare mentre altra parte lo riceve."
+        ]
+      },
+      {
+        "title": "La conservazione ha una condizione",
+        "paragraphs": [
+          "Il momento angolare totale si conserva quando il momento risultante delle forze esterne è nullo rispetto al riferimento appropriato. Singole parti di un sistema possono scambiarselo senza conservarlo separatamente. Questa distinzione è decisiva nelle interazioni fra corpi e nei dischi. Nel linguaggio quantistico compare anche il momento angolare intrinseco, o spin: il nome collega una struttura fisica, ma non trasforma una particella in una piccola sfera classica che ruota materialmente come un pianeta."
+        ]
+      }
+    ],
+    "facts": [
+      "Conservare il momento angolare non significa conservare la velocità di rotazione di ogni parte"
+    ],
+    "example": "Conservare il momento angolare non significa conservare la velocità di rotazione di ogni parte",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/vocabolario/momento/"
+      },
+      {
+        "title": "Treccani · lezione sul momento angolare",
+        "url": "https://static.treccani.it/export/sites/default/Portale/resources/multimedia/Lezioni_fisica/momentoangolare/LEZIONE.pdf"
+      },
+      {
+        "title": "SAIt · Bignamino, conservazione e centro di massa",
+        "url": "https://www.sait.it/sites/sait.interlandia.net/files/pictures/notizie/2022/Bignamino_astronomia_2022.pdf"
+      }
+    ]
+  },
+  {
+    "id": "momento-forza",
+    "name": "Momento di una forza",
+    "definition": "Il momento di una forza descrive la sua azione rotazionale rispetto a un punto o asse. Dipende dalla forza e dal suo braccio, cioè dalla geometria della retta d’azione.",
+    "source": "https://www.treccani.it/enciclopedia/momento/",
+    "lesson": "lezione-7-6.html",
+    "related": [
+      "forza",
+      "momento-angolare",
+      "baricentro"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Spingere vicino o lontano dal cardine",
+        "paragraphs": [
+          "Una porta si apre più facilmente applicando una forza adatta lontano dai cardini. L’effetto rotazionale non dipende soltanto dall’intensità della spinta, ma dalla sua linea d’azione. Questo introduce il momento della forza, spesso chiamato anche momento torcente. Il braccio non è qualunque distanza scelta sul disegno: è la distanza perpendicolare fra l’asse o polo considerato e la retta lungo la quale agisce la forza, nel problema piano appropriato."
+        ]
+      },
+      {
+        "title": "Un esempio con unità chiare",
+        "paragraphs": [
+          "Nel caso semplice, il valore del momento è forza × braccio. Una forza di 10 N con braccio di 0,2 m produce un momento di 2 N m. Il risultato non va chiamato due joule, anche se le dimensioni delle unità possono sembrare uguali a quelle del lavoro. Il momento descrive un’azione rotazionale; il lavoro descrive un trasferimento di energia associato a uno spostamento. Il significato fisico conserva la distinzione."
+        ]
+      },
+      {
+        "title": "L’equilibrio di uno strumento",
+        "paragraphs": [
+          "Un telescopio montato su un asse può avere un momento dovuto al peso se la sua distribuzione non è bilanciata. Spostare lo strumento o un contrappeso modifica la geometria. Aggiungere semplicemente massa non garantisce equilibrio: conta dove si trovi. Anche cavi e accessori possono introdurre azioni. Il bilanciamento richiede quindi considerare il sistema effettivo nella configurazione d’uso, non soltanto il peso dichiarato del tubo ottico isolato."
+        ]
+      },
+      {
+        "title": "Dalla montatura al satellite",
+        "paragraphs": [
+          "Un momento risultante può cambiare il momento angolare di un corpo. I satelliti controllano il proprio orientamento attraverso sistemi progettati per produrre o scambiare queste azioni. Non occorre che cambi nello stesso modo il moto del centro di massa. La distinzione fra orientamento e traslazione aiuta a comprendere perché puntare uno strumento e spostare la sua orbita siano problemi differenti. La voce unisce così un gesto familiare alla dinamica di apparati astronomici e spaziali."
+        ]
+      }
+    ],
+    "facts": [
+      "10 N × 0,2 m = 2 N m di momento, non 2 J di lavoro"
+    ],
+    "example": "10 N × 0,2 m = 2 N m di momento, non 2 J di lavoro",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/momento/"
+      },
+      {
+        "title": "NASA Glenn · torque e braccio della forza",
+        "url": "https://www.grc.nasa.gov/www/k-12/airplane/torque.html"
+      },
+      {
+        "title": "NASA · controllo di assetto e sistemi di bordo",
+        "url": "https://science.nasa.gov/learn/basics-of-space-flight/chapter11-2/"
+      }
+    ],
+    "aliases": [
+      "momento torcente",
+      "coppia torcente"
+    ]
+  },
+  {
+    "id": "momento-inerzia",
+    "name": "Momento d’inerzia",
+    "definition": "Il momento d’inerzia descrive come la massa è distribuita rispetto a un asse di rotazione e quanto il corpo resiste, nel modello considerato, a variazioni della rotazione attorno a quell’asse.",
+    "source": "https://www.treccani.it/enciclopedia/momento/",
+    "lesson": "lezione-7-6.html",
+    "related": [
+      "inerzia",
+      "momento-angolare",
+      "momento-forza"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "La massa totale non racconta tutto",
+        "paragraphs": [
+          "Due oggetti con la stessa massa possono rispondere diversamente a un’azione rotazionale. Se una parte maggiore della massa si trova lontano dall’asse, il momento d’inerzia rispetto a quell’asse aumenta. L’esempio di una ruota con materiale concentrato sul bordo rispetto a una distribuzione più interna aiuta a visualizzarlo. Non è però una proprietà da assegnare senza specificare l’asse: lo stesso corpo può avere valori differenti rispetto ad assi differenti."
+        ]
+      },
+      {
+        "title": "Le distanze pesano molto",
+        "paragraphs": [
+          "Nel modello di punti materiali ogni contributo dipende dalla massa e dal quadrato della distanza dall’asse. Per una stessa massa puntiforme, raddoppiare la distanza rende il suo contributo quattro volte maggiore. Non occorre calcolare una radice per comprendere il risultato: due volte due fa quattro. L’unità SI è kg m². La voce riguarda la distribuzione della massa, non la potenza del motore o la sola rapidità del movimento."
+        ]
+      },
+      {
+        "title": "Uno strumento lungo può comportarsi diversamente",
+        "paragraphs": [
+          "Nella progettazione del movimento di un telescopio o di un veicolo spaziale, geometria e disposizione degli accessori contano insieme alla massa. Un carico bilanciato può avere comunque un momento d’inerzia significativo. Bilanciamento statico e facilità di accelerare o rallentare la rotazione non sono la stessa cosa. Per questo due configurazioni di uguale peso non hanno necessariamente identiche prestazioni di puntamento o gli stessi requisiti per il sistema di controllo."
+        ]
+      },
+      {
+        "title": "La conservazione collega forma e rotazione",
+        "paragraphs": [
+          "Quando una distribuzione di massa si contrae, il momento d’inerzia può diminuire. Se il momento angolare si conserva nelle condizioni pertinenti, la rotazione può diventare più rapida. Il ragionamento compare nello studio delle stelle, ma sistemi reali possono perdere massa o scambiare momento angolare. Il modello semplice serve a capire una tendenza, non a sostituire tutta la fisica. Specificare asse, distribuzione e scambi permette di usare correttamente il concetto dalla montatura fino ai corpi celesti."
+        ]
+      }
+    ],
+    "facts": [
+      "A parità di massa puntiforme, distanza doppia dall’asse significa contributo quadruplo"
+    ],
+    "example": "A parità di massa puntiforme, distanza doppia dall’asse significa contributo quadruplo",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/momento/"
+      },
+      {
+        "title": "SAIt · Bignamino di astronomia, meccanica",
+        "url": "https://www.sait.it/sites/sait.interlandia.net/files/pictures/notizie/2022/Bignamino_astronomia_2022.pdf"
+      },
+      {
+        "title": "NASA · guida, navigazione e controllo dei piccoli satelliti",
+        "url": "https://www.nasa.gov/smallsat-institute/sst-soa/guidance-navigation-and-control/"
+      }
+    ],
+    "aliases": [
+      "momento di inerzia"
+    ]
+  },
+  {
+    "id": "monossido-carbonio",
+    "name": "Monossido di carbonio",
+    "definition": "Il monossido di carbonio, formula CO, è una molecola composta da un atomo di carbonio e uno di ossigeno, molto utilizzata nello studio del gas molecolare astronomico.",
+    "source": "https://www.treccani.it/enciclopedia/carbonio/",
+    "lesson": "lezione-4-5.html",
+    "related": [
+      "carbonio",
+      "ossigeno",
+      "idrogeno-molecolare"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Una formula breve con un significato preciso",
+        "paragraphs": [
+          "CO contiene un atomo di carbonio e uno di ossigeno. CO₂ contiene invece due atomi di ossigeno per ogni carbonio ed è un’altra specie, con proprietà e spettro differenti. La familiarità del nome sulla Terra non esaurisce il ruolo astronomico del monossido. Nelle nubi molecolari diventa un mezzo per studiare gas e movimenti attraverso transizioni che gli strumenti possono misurare in bande appropriate."
+        ]
+      },
+      {
+        "title": "La rotazione lascia righe",
+        "paragraphs": [
+          "Le transizioni rotazionali del CO producono righe radio e millimetriche utili per osservare ambienti freddi. Diverse transizioni rispondono a condizioni e popolazioni dei livelli differenti. Non si tratta di una molecola visibile che gira come una piccola elica davanti alla camera: la spiegazione usa stati quantizzati e differenze di energia. Il segnale viene raccolto da molte molecole e interpretato attraverso modelli della radiazione e del gas."
+        ]
+      },
+      {
+        "title": "Seguire il movimento delle nubi",
+        "paragraphs": [
+          "Lo spostamento della frequenza rispetto al valore a riposo permette di studiare il moto lungo la linea di vista. Larghezza e struttura della riga possono contenere contributi termici, turbolenti e geometrici. Una singola linea larga non identifica automaticamente una rotazione o un’esplosione. Confrontare più direzioni e altre informazioni aiuta a ricostruire il quadro, distinguendo la velocità misurata dalla profondità nello spazio che viene inferita con ipotesi aggiuntive."
+        ]
+      },
+      {
+        "title": "Un tracciante con condizioni",
+        "paragraphs": [
+          "Il CO viene spesso collegato alla quantità di H₂, ma la conversione non è universale. Abbondanza, opacità, temperatura e ambiente influenzano il risultato; alcune regioni molecolari possono essere poco evidenti nelle mappe del CO. Gli isotopologhi offrono ulteriori confronti, senza essere automaticamente equivalenti. Nel glossario il concetto da conservare è che una molecola osservabile può rivelare materia più difficile da vedere, purché il passaggio fra segnale e quantità sia dichiarato e verificato."
+        ]
+      }
+    ],
+    "facts": [
+      "CO e CO₂ sono molecole differenti; una mappa CO non misura automaticamente tutto H₂"
+    ],
+    "example": "CO e CO₂ sono molecole differenti; una mappa CO non misura automaticamente tutto H₂",
+    "sources": [
+      {
+        "title": "Treccani · quadro terminologico generale; dettagli nelle fonti specifiche",
+        "url": "https://www.treccani.it/enciclopedia/carbonio/"
+      },
+      {
+        "title": "NRAO · righe molecolari e interpretazione",
+        "url": "https://www.cv.nrao.edu/~sransom/web/Ch7.html"
+      },
+      {
+        "title": "ESA · nubi osservate nel CO",
+        "url": "https://www.esa.int/ESA_Multimedia/Images/2012/02/Molecular_clouds_in_the_Pegasus_region"
+      }
+    ],
+    "aliases": [
+      "monossido carbonio"
     ]
   },
   {
@@ -15906,6 +23720,60 @@ window.AdAstraGlossary = [
     ],
     "aliases": [
       "montature equatoriali"
+    ]
+  },
+  {
+    "id": "moto-circolare",
+    "name": "Moto circolare",
+    "definition": "Il moto circolare è un moto la cui traiettoria è una circonferenza rispetto al riferimento scelto; anche a rapidità costante comporta un cambiamento della direzione della velocità.",
+    "source": "https://www.treccani.it/enciclopedia/moto/",
+    "lesson": "lezione-3-6.html",
+    "related": [
+      "forza-centripeta",
+      "velocita-vettoriale",
+      "accelerazione"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "La traiettoria dipende dal riferimento",
+        "paragraphs": [
+          "Descrivere un moto come circolare significa specificare una forma della traiettoria rispetto a un certo sistema di riferimento. Non basta vedere un cerchio disegnato in una figura per conoscere la velocità o la causa del moto. Occorre sapere come l’oggetto percorra il tracciato nel tempo. La geometria e la dinamica sono due livelli collegati ma distinti: la prima descrive il percorso, la seconda indaga forze e cambiamenti del movimento."
+        ]
+      },
+      {
+        "title": "Uniforme non significa senza accelerazione",
+        "paragraphs": [
+          "Nel moto circolare uniforme la rapidità, cioè il modulo della velocità, rimane costante. La direzione del vettore velocità cambia però continuamente. Di conseguenza esiste un’accelerazione rivolta verso il centro. L’esempio mostra perché velocità e numero letto da un tachimetro non siano la stessa descrizione completa: la velocità comprende anche la direzione. Una curva può richiedere una forza anche quando l’oggetto non sta diventando più rapido o più lento lungo il percorso."
+        ]
+      },
+      {
+        "title": "La freccia tangente",
+        "paragraphs": [
+          "La velocità istantanea è tangente alla circonferenza, mentre l’accelerazione centripeta punta verso il centro nel caso uniforme. Disegnarle nella stessa direzione sarebbe un errore geometrico. Se cessasse la forza che mantiene la curva, il corpo non partirebbe semplicemente lungo il raggio verso l’esterno: nel modello inerziale proseguirebbe inizialmente lungo la tangente. La figura corretta può essere molto semplice, purché conservi questa relazione fra direzioni e dichiari il caso ideale considerato."
+        ]
+      },
+      {
+        "title": "Un’approssimazione utile per le orbite",
+        "paragraphs": [
+          "Un’orbita circolare costituisce un modello introduttivo efficace, ma non rappresenta ogni orbita reale. Nel problema gravitazionale a due corpi possono comparire ellissi e altre traiettorie, mentre perturbazioni aggiungono complessità. Il modello circolare aiuta a comprendere la deviazione continua del moto senza dover introdurre subito tutti i dettagli. Il suo valore didattico dipende dal dichiarare la semplificazione, evitando di trasformare una figura comoda nella presunta forma esatta di tutte le orbite planetarie."
+        ]
+      }
+    ],
+    "facts": [
+      "Nel moto circolare uniforme la rapidità è costante, ma la velocità cambia direzione"
+    ],
+    "example": "Nel moto circolare uniforme la rapidità è costante, ma la velocità cambia direzione",
+    "sources": [
+      {
+        "title": "Treccani · quadro terminologico generale; dettagli nelle fonti specifiche",
+        "url": "https://www.treccani.it/enciclopedia/moto/"
+      },
+      {
+        "title": "NASA · accelerazione nelle orbite",
+        "url": "https://science.nasa.gov/learn/basics-of-space-flight/chapter3-3/"
+      }
     ]
   },
   {
@@ -16555,6 +24423,64 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "neon",
+    "name": "Neon",
+    "definition": "Il neon è l’elemento di numero atomico 10, simbolo Ne, appartenente ai gas nobili. In astronomia viene riconosciuto attraverso firme spettrali anche nei gas ionizzati.",
+    "source": "https://www.treccani.it/enciclopedia/neon/",
+    "lesson": "lezione-5-5.html",
+    "related": [
+      "gas-interstellare",
+      "ionizzazione",
+      "spettro"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un gas nobile non è invisibile alla fisica",
+        "paragraphs": [
+          "La famiglia chimica dei gas nobili comprende elementi con configurazioni elettroniche che favoriscono una bassa reattività nelle condizioni ordinarie. Questo non significa che il neon non possa assorbire o emettere radiazione, essere eccitato o ionizzato. Dieci protoni identificano il suo nucleo; gli elettroni e il loro stato determinano invece quali transizioni risultino possibili. La stabilità chimica non deve essere confusa con l’assenza di fenomeni spettroscopici."
+        ]
+      },
+      {
+        "title": "Le insegne aiutano soltanto a iniziare",
+        "paragraphs": [
+          "Il nome richiama le lampade a scarica, nelle quali un gas eccitato emette radiazione. Non tutte le insegne chiamate comunemente al neon utilizzano però questo elemento, e il loro colore non descrive ogni possibile spettro astronomico. In una nebulosa le condizioni sono differenti da quelle di un tubo luminoso. L’analogia serve a capire che gli atomi producono firme, ma non consente di dedurre direttamente composizione e temperatura da una semplice somiglianza cromatica."
+        ]
+      },
+      {
+        "title": "Una firma nel materiale stellare",
+        "paragraphs": [
+          "Le righe del neon e dei suoi ioni contribuiscono all’analisi dei gas delle nebulose. Osservazioni di oggetti come NGC 6153 vengono utilizzate per studiare composizione e arricchimento. La quantità ricavata deve tenere conto dei diversi stati di ionizzazione e delle condizioni che producono le righe. Non basta misurare una sola zona brillante e attribuire lo stesso valore a tutto l’oggetto o a qualsiasi altra nebulosa della stessa categoria."
+        ]
+      },
+      {
+        "title": "Il simbolo resta, il contesto cambia",
+        "paragraphs": [
+          "Ne identifica l’elemento, mentre notazioni aggiuntive indicano isotopo o stato ionico. Il passaggio dalla tavola periodica al cielo richiede leggere questi dettagli. Il neon può essere poco reattivo chimicamente e nello stesso tempo fornire informazioni preziose sulla fisica del gas. La voce fissa questa distinzione: una proprietà quotidiana dell’elemento non esaurisce il suo comportamento negli ambienti astronomici, dove energia, densità e radiazione cambiano le condizioni rispetto a quelle terrestri."
+        ]
+      }
+    ],
+    "facts": [
+      "Gas nobile non significa incapace di emettere righe spettrali"
+    ],
+    "example": "Gas nobile non significa incapace di emettere righe spettrali",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/neon/"
+      },
+      {
+        "title": "RSC · neon",
+        "url": "https://periodic-table.rsc.org/element/10/neon"
+      },
+      {
+        "title": "NASA/Hubble · composizione della nebulosa NGC 6153",
+        "url": "https://science.nasa.gov/centers-and-facilities/goddard/hubble-view-of-a-nitrogen-rich-nebula/"
+      }
+    ]
+  },
+  {
     "id": "neutrino",
     "name": "Neutrino",
     "definition": "Il neutrino è una particella elementare elettricamente neutra, di massa molto piccola e interazione debole con la materia.",
@@ -16664,6 +24590,182 @@ window.AdAstraGlossary = [
     ],
     "aliases": [
       "neutroni"
+    ]
+  },
+  {
+    "id": "new-horizons",
+    "name": "New Horizons",
+    "definition": "New Horizons è la sonda NASA che sorvolò Plutone e le sue lune nel 2015 e il corpo della fascia di Kuiper Arrokoth nel 2019.",
+    "source": "https://www.treccani.it/enciclopedia/pianeta-nano/",
+    "lesson": "lezione-3-5.html",
+    "related": [
+      "pianeta-nano",
+      "kuiper-fascia",
+      "transnettuniano"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un incontro ravvicinato",
+        "paragraphs": [
+          "Il 14 luglio 2015 New Horizons attraversò il sistema di Plutone raccogliendo immagini e altre misure. Il sorvolo trasformò un oggetto noto soprattutto attraverso osservazioni da lontano in un mondo con superfici e strutture riconoscibili. Non si trattò di un atterraggio e neppure di una permanenza in orbita. La geometria di un incontro rapido condiziona quali zone possano essere osservate e con quale dettaglio, perciò una mappa risultante non ha necessariamente risoluzione uniforme."
+        ]
+      },
+      {
+        "title": "Una fotografia contiene una prospettiva",
+        "paragraphs": [
+          "Un primo piano di Plutone mostra la parte illuminata e visibile dalla sonda in quel momento. Non rappresenta tutte le stagioni o l’intera superficie contemporaneamente. Colori elaborati, mosaici e ricostruzioni globali devono essere accompagnati da didascalie che ne dichiarino il procedimento. La distanza del veicolo cambia durante il sorvolo: confrontare due fotografie senza considerarne scala e condizioni potrebbe far attribuire al paesaggio differenze prodotte invece dall’acquisizione."
+        ]
+      },
+      {
+        "title": "Oltre Plutone",
+        "paragraphs": [
+          "Nel gennaio 2019 la missione sorvolò Arrokoth, un altro corpo della fascia di Kuiper. Il confronto aiuta a vedere quanto siano differenti gli oggetti raccolti sotto una stessa denominazione di regione. Non ogni corpo transnettuniano è una copia in miniatura di Plutone. Dimensioni, forma e storia pongono domande diverse sulla formazione del Sistema solare. Una singola visita non rende completamente conosciuta tutta la popolazione, ma aggiunge un caso concreto al quadro costruito con osservazioni a distanza."
+        ]
+      },
+      {
+        "title": "I dati arrivano dopo l’incontro",
+        "paragraphs": [
+          "Alle grandi distanze la comunicazione richiede tempo e la trasmissione dei dati non coincide con l’istante in cui vengono registrati. Il centro di controllo deve programmare molte operazioni tenendo conto di questa distanza. La distinzione tra acquisizione e ricezione evita di immaginare una guida immediata come quella di un veicolo vicino. New Horizons offre quindi una lezione anche sul metodo dell’esplorazione: una breve finestra di incontro può alimentare anni di analisi successive."
+        ]
+      }
+    ],
+    "facts": [
+      "New Horizons sorvolò Plutone: non vi atterrò e non entrò in orbita attorno a esso"
+    ],
+    "example": "New Horizons sorvolò Plutone: non vi atterrò e non entrò in orbita attorno a esso",
+    "sources": [
+      {
+        "title": "Treccani · quadro terminologico generale; dettagli nelle fonti specifiche",
+        "url": "https://www.treccani.it/enciclopedia/pianeta-nano/"
+      },
+      {
+        "title": "NASA · cronologia di New Horizons",
+        "url": "https://science.nasa.gov/mission/new-horizons/"
+      }
+    ]
+  },
+  {
+    "id": "newton-isaac",
+    "name": "Newton, Isaac",
+    "definition": "Isaac Newton (1643–1727, date gregoriane) sviluppò un quadro matematico della dinamica e della gravitazione, collegando il moto dei corpi terrestri a quello dei corpi celesti.",
+    "source": "https://www.treccani.it/enciclopedia/isaac-newton_(Dizionario-di-filosofia)/",
+    "lesson": "lezione-3-6.html",
+    "related": [
+      "gravitazione",
+      "forza",
+      "inerzia"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Una fisica per Terra e cielo",
+        "paragraphs": [
+          "Nel quadro newtoniano caduta dei corpi e moto orbitale possono essere interpretati attraverso principi comuni. La Luna non ha bisogno di una fisica completamente separata da quella di un oggetto terrestre. Il collegamento non afferma che tutte le situazioni siano semplici, ma offre leggi con cui costruire modelli e calcolare conseguenze. I Principia, pubblicati nel 1687, rappresentano una tappa centrale di questa sistemazione matematica."
+        ]
+      },
+      {
+        "title": "Le leggi richiedono condizioni",
+        "paragraphs": [
+          "Il principio d’inerzia e la relazione fra risultante delle forze e variazione del moto devono essere applicati nel riferimento e nel regime appropriati. La formula elementare F = m × a assume massa costante e descrizione classica. Non è una licenza per chiamare forza qualsiasi causa generica. La gravitazione newtoniana permette di comprendere le leggi planetarie nel modello a due corpi e di studiare perturbazioni quando si considerano altri oggetti."
+        ]
+      },
+      {
+        "title": "La luce e gli strumenti",
+        "paragraphs": [
+          "Newton studiò anche l’ottica e sviluppò un telescopio riflettore. Il suo lavoro sulla luce bianca contribuì a distinguere i colori come componenti dello spettro, anziché come semplice alterazione prodotta dal prisma. La biografia scientifica non si riduce quindi alla celebre immagine della mela. Un episodio narrativo può introdurre una domanda, ma non sostituisce il percorso di dimostrazioni, esperimenti e confronto con altri studiosi che sostenne i risultati."
+        ]
+      },
+      {
+        "title": "Il valore di una teoria con un dominio",
+        "paragraphs": [
+          "La relatività ha ampliato il quadro nei regimi in cui la descrizione newtoniana non è sufficiente. Questo non rende inutili i suoi calcoli nelle condizioni in cui funzionano bene. Una teoria va letta insieme al proprio campo di applicazione. Anche il nome richiede attenzione: newton, scritto come unità, indica una misura di forza, mentre Isaac Newton è la persona. Separare questi significati permette di usare correttamente formule, unità e riferimenti storici nello stesso percorso divulgativo."
+        ]
+      }
+    ],
+    "facts": [
+      "I Principia furono pubblicati nel 1687; il newton è invece l’unità SI di forza"
+    ],
+    "example": "I Principia furono pubblicati nel 1687; il newton è invece l’unità SI di forza",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/isaac-newton_(Dizionario-di-filosofia)/"
+      },
+      {
+        "title": "University of St Andrews · Newton e il problema dei calendari",
+        "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Newton/"
+      },
+      {
+        "title": "NASA · seconda legge e condizioni della formula",
+        "url": "https://www.grc.nasa.gov/WWW/K-12/BGP/newton2.html"
+      }
+    ],
+    "aliases": [
+      "Isaac Newton"
+    ],
+    "linkNames": [
+      "Isaac Newton"
+    ]
+  },
+  {
+    "id": "newton-unita",
+    "name": "Newton, unità di forza",
+    "definition": "Il newton, simbolo N, è l’unità SI della forza: nel quadro della meccanica classica, un newton accelera un chilogrammo di un metro al secondo ogni secondo.",
+    "source": "https://www.treccani.it/vocabolario/newton/",
+    "lesson": "lezione-3-6.html",
+    "related": [
+      "massa",
+      "gravitazione",
+      "energia-cinetica"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "La massa non è una forza",
+        "paragraphs": [
+          "Il chilogrammo misura la massa, mentre il newton misura una forza. Nel linguaggio comune dire quanto pesa un oggetto spesso significa indicarne la massa. In fisica il peso è invece la forza gravitazionale nelle condizioni considerate. Lo stesso oggetto mantiene approssimativamente la propria massa quando passa dalla Terra alla Luna, ma il suo peso cambia. Separare le unità aiuta a capire perché non si diventi meno ricchi di materia camminando su un altro mondo."
+        ]
+      },
+      {
+        "title": "Che cosa significa accelerare",
+        "paragraphs": [
+          "Se la forza risultante su una massa di un chilogrammo è un newton, nel modello classico la velocità cambia di un metro al secondo in ogni secondo. L’effetto dipende dalla direzione della forza e dalle altre forze presenti. Non significa che l’oggetto debba già muoversi a un metro al secondo, né che conservi sempre una velocità costante. La relazione riguarda la variazione del moto, non un semplice conteggio della distanza percorsa."
+        ]
+      },
+      {
+        "title": "Una forza piccola può agire a lungo",
+        "paragraphs": [
+          "In una missione spaziale una spinta modesta, applicata per un tempo lungo, può modificare sensibilmente la traiettoria. Per confrontare sistemi di propulsione non basta quindi il solo numero di newton. Contano massa del veicolo, durata, direzione e disponibilità di propellente o energia. Anche la forza gravitazionale agisce durante il viaggio. Un disegno con una freccia più lunga deve dichiarare se rappresenta forza, velocità o accelerazione, perché sono grandezze differenti."
+        ]
+      },
+      {
+        "title": "Forza, lavoro e potenza",
+        "paragraphs": [
+          "Una forza può trasferire energia quando agisce lungo uno spostamento nel modo appropriato; la potenza descrive invece quanto rapidamente avviene il trasferimento. Newton, joule e watt non sono tre nomi intercambiabili della stessa intensità. Per iniziare basta seguire una spinta e chiedersi come cambia il moto. Il collegamento con il lavoro può essere introdotto dopo, conservando le direzioni e le condizioni del modello invece di trasformare ogni prodotto di numeri in una regola universale."
+        ]
+      }
+    ],
+    "facts": [
+      "Chilogrammo misura massa; newton misura forza"
+    ],
+    "example": "Chilogrammo misura massa; newton misura forza",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/vocabolario/newton/"
+      },
+      {
+        "title": "BIPM · unità SI e grandezze",
+        "url": "https://www.bipm.org/en/measurement-units"
+      }
+    ],
+    "linkNames": [
+      "forza in newton",
+      "newton di spinta"
     ]
   },
   {
@@ -16777,6 +24879,67 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "nichel",
+    "name": "Nichel",
+    "definition": "Il nichel è l’elemento chimico di numero atomico 28 e simbolo Ni, presente in leghe meteoriche e importante anche nella storia nucleare delle supernovae.",
+    "source": "https://www.treccani.it/enciclopedia/nichel/",
+    "lesson": "lezione-4-6.html",
+    "related": [
+      "ferro",
+      "meteorite",
+      "supernova"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Il materiale non è un elemento isolato",
+        "paragraphs": [
+          "Il nichel compare insieme al ferro in molti materiali metallici meteorici e nei modelli degli interni planetari. Una lega possiede composizione e struttura proprie: non è semplicemente la somma visiva di due metalli colorati. La presenza di nichel può contribuire alla classificazione di un campione, ma non certifica da sola che un oggetto trovato a terra sia un meteorite. Servono analisi e un insieme coerente di caratteristiche."
+        ]
+      },
+      {
+        "title": "Gli isotopi cambiano la domanda",
+        "paragraphs": [
+          "Il nome dell’elemento comprende nuclidi differenti. Alcuni isotopi del nichel sono stabili, altri radioattivi. Non si può attribuire a tutto il nichel il comportamento di un isotopo specifico prodotto durante un’esplosione. Il numero di massa deve accompagnare il nome quando si parla di decadimento. La massa atomica media riportata in una tavola è un’altra informazione e non coincide con il semplice conteggio dei nucleoni di un unico nucleo."
+        ]
+      },
+      {
+        "title": "Il caso del nichel cinquantasei",
+        "paragraphs": [
+          "Nelle supernovae appropriate la produzione di nichel cinquantasei e la sua catena di decadimento verso cobalto e ferro contribuiscono alla radiazione osservata. Le misure aiutano a collegare luce, quantità sintetizzate e modelli dell’esplosione. Non significa che tutta la luminosità di ogni supernova in qualunque fase abbia una sola origine. La curva di luce va interpretata con meccanismi e condizioni, distinguendo le particelle prodotte dall’energia che riesce a uscire dall’ambiente."
+        ]
+      },
+      {
+        "title": "Una connessione fra campioni e stelle",
+        "paragraphs": [
+          "Studiare leghe meteoriche e studiare decadimenti nelle supernovae sono attività differenti, unite dall’identità dell’elemento e dalla storia della materia. La scheda deve evitare il salto secondo cui ogni pezzetto di nichel conservi una provenienza da una singola esplosione riconoscibile. Il riciclo cosmico mescola contributi e trasformazioni. Indicare quale isotopo, quale materiale e quale misura rende il racconto leggibile e permette di seguire le prove invece di affidarsi soltanto a un’immagine evocativa."
+        ]
+      }
+    ],
+    "facts": [
+      "Le proprietà del nichel-56 non vanno attribuite indistintamente a tutti gli isotopi del nichel"
+    ],
+    "example": "Le proprietà del nichel-56 non vanno attribuite indistintamente a tutti gli isotopi del nichel",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/nichel/"
+      },
+      {
+        "title": "RSC · nichel e isotopi",
+        "url": "https://periodic-table.rsc.org/element/28/nickel"
+      },
+      {
+        "title": "NASA NTRS · evidenza della catena Ni-56, Co-56, Fe-56",
+        "url": "https://ntrs.nasa.gov/citations/19950036388"
+      }
+    ],
+    "aliases": [
+      "nichelio"
+    ]
+  },
+  {
     "id": "nodo-orbitale",
     "name": "Nodo orbitale",
     "definition": "Un nodo orbitale è un punto nel quale un’orbita interseca un piano di riferimento; si distingue fra nodo ascendente e discendente secondo il verso di attraversamento.",
@@ -16833,6 +24996,66 @@ window.AdAstraGlossary = [
       "nodi orbitali",
       "nodo ascendente",
       "nodo discendente"
+    ]
+  },
+  {
+    "id": "nomenclatura-stock",
+    "name": "Nomenclatura con numero di ossidazione",
+    "definition": "La nomenclatura con numero di ossidazione, spesso insegnata come nomenclatura di Stock, distingue composti indicando con un numero romano lo stato di ossidazione di un elemento.",
+    "source": "https://www.treccani.it/enciclopedia/iupac/",
+    "lesson": "lezione-5-4.html",
+    "related": [
+      "numero-ossidazione",
+      "formula-chimica",
+      "iupac"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Perché aggiungere un numero",
+        "paragraphs": [
+          "Uno stesso elemento può formare composti differenti con un altro elemento. Un nome che indichi soltanto le due specie può quindi essere incompleto. Scrivere cloruro di ferro(II) oppure cloruro di ferro(III) distingue due casi attraverso lo stato di ossidazione del ferro. Il numero romano tra parentesi fa parte dell’informazione chimica: non indica il numero di protoni, il numero di isotopi o la quantità di campione contenuta in un recipiente."
+        ]
+      },
+      {
+        "title": "Un esempio leggibile",
+        "paragraphs": [
+          "Nel cloruro di ferro(III), rappresentato dalla formula FeCl3, al cloro viene attribuito il numero di ossidazione −1. Tre contributi negativi richiedono un contributo +3 del ferro per il composto neutro. Il III nel nome esprime quel valore positivo. Non è il pedice 3 trasportato automaticamente dalla formula al nome: il ragionamento riguarda il bilancio dei numeri di ossidazione. In altri composti la struttura della formula e i valori attribuiti possono essere differenti."
+        ]
+      },
+      {
+        "title": "Numero formale e carica",
+        "paragraphs": [
+          "Il numero di ossidazione è una convenzione di conteggio elettronico con regole definite. Non coincide necessariamente con la carica reale localizzata sull’atomo in una molecola. Per uno ione monoatomico i valori sono collegati in modo semplice, ma generalizzare quel caso porterebbe a errori. Nella nomenclatura esistono anche indicazioni della carica che usano una notazione diversa. Leggere correttamente parentesi, numeri e segni aiuta a distinguere le informazioni senza introdurre calcoli avanzati."
+        ]
+      },
+      {
+        "title": "Usare una fonte coerente",
+        "paragraphs": [
+          "Le raccomandazioni moderne di nomenclatura comprendono più strumenti e non si riducono a una sola lista scolastica di suffissi. L’etichetta Stock è utile per riconoscere una modalità insegnata nei manuali, ma va collegata alle regole della fonte consultata. In un testo astrochimico può chiarire nomi di composti e stati chimici; non sostituisce la notazione spettroscopica degli ioni astronomici. Questi sistemi rispondono a esigenze differenti e devono essere spiegati separatamente quando compaiono nella stessa pagina."
+        ]
+      }
+    ],
+    "facts": [
+      "In ferro(III), III indica lo stato di ossidazione, non tre atomi di ferro"
+    ],
+    "example": "In ferro(III), III indica lo stato di ossidazione, non tre atomi di ferro",
+    "sources": [
+      {
+        "title": "Treccani · quadro terminologico generale; dettagli nelle fonti specifiche",
+        "url": "https://www.treccani.it/enciclopedia/iupac/"
+      },
+      {
+        "title": "IUPAC · guida breve alla nomenclatura inorganica",
+        "url": "https://iupac.qmul.ac.uk/BriefGuide/inorganic.html"
+      }
+    ],
+    "aliases": [
+      "Nomenclatura di Stock"
+    ],
+    "linkNames": [
+      "nomenclatura di Stock"
     ]
   },
   {
@@ -17199,6 +25422,63 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "nucleone",
+    "name": "Nucleone",
+    "definition": "Nucleone è il nome collettivo di protone e neutrone, le particelle che costituiscono i nuclei atomici ordinari.",
+    "source": "https://www.treccani.it/enciclopedia/nucleone/",
+    "lesson": "lezione-4-1.html",
+    "related": [
+      "protone",
+      "neutrone",
+      "nucleo-atomico"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Due particelle, una famiglia",
+        "paragraphs": [
+          "Un protone possiede carica elettrica positiva, un neutrone ha carica elettrica complessiva nulla. Le loro masse sono vicine ma non uguali. Chiamarli nucleoni permette di parlare dei costituenti del nucleo senza ripetere ogni volta entrambi i nomi. Non comprende gli elettroni che appartengono alla struttura atomica esterna. Il nucleo dell’idrogeno più comune contiene un solo protone: non bisogna aggiungervi per forza un neutrone per farlo somigliare agli altri nuclei."
+        ]
+      },
+      {
+        "title": "Il conteggio costruisce il numero di massa",
+        "paragraphs": [
+          "La somma di protoni e neutroni dà il numero di massa. Un nucleo con sei protoni e sei neutroni contiene dodici nucleoni. Quel conteggio non equivale esattamente alla massa del nucleo in unità di massa atomica: le masse dei costituenti e l’energia di legame devono essere considerate nel bilancio. Una figura con dodici palline è quindi utile per contare, ma non rappresenta una misura precisa della massa o della disposizione interna."
+        ]
+      },
+      {
+        "title": "Dentro i nucleoni",
+        "paragraphs": [
+          "Protoni e neutroni non vengono considerati particelle elementari: possiedono una struttura descritta attraverso quark e gluoni. Per una prima comprensione basta distinguere questa scala da quella dell’atomo e del nucleo. Le immagini con tre piccole sfere colorate sono schemi del modello, non fotografie dell’interno di un protone. Anche le forze fra nucleoni richiedono una descrizione diversa dalla semplice attrazione elettrica fra cariche opposte che si studia nei primi esempi di elettrostatica."
+        ]
+      },
+      {
+        "title": "Dai nuclei alle stelle",
+        "paragraphs": [
+          "Nelle trasformazioni nucleari i conteggi e le identità delle particelle aiutano a comprendere che cosa cambia e che cosa viene conservato. La fusione non consiste soltanto nell’incollare palline senza energia in gioco. Anche una stella di neutroni non va immaginata come un contenitore composto esclusivamente da neutroni isolati: struttura, altre particelle e interazioni dipendono dalle regioni e dai modelli. La parola nucleone offre un primo riferimento, da usare con il contesto fisico appropriato."
+        ]
+      }
+    ],
+    "facts": [
+      "Nucleoni ed elettroni appartengono a componenti differenti dell’atomo"
+    ],
+    "example": "Nucleoni ed elettroni appartengono a componenti differenti dell’atomo",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/nucleone/"
+      },
+      {
+        "title": "CERN · struttura della materia",
+        "url": "https://home.cern/science/physics"
+      }
+    ],
+    "aliases": [
+      "nucleoni"
+    ]
+  },
+  {
     "id": "nucleosintesi",
     "name": "Nucleosintesi",
     "definition": "La nucleosintesi comprende i processi che formano nuclei atomici, dalla storia primordiale dell’Universo all’evoluzione stellare e agli eventi energetici.",
@@ -17255,6 +25535,63 @@ window.AdAstraGlossary = [
         "title": "NASA · osservare l’origine degli elementi",
         "url": "https://imagine.gsfc.nasa.gov/science/questions/composition.html"
       }
+    ]
+  },
+  {
+    "id": "nuclide",
+    "name": "Nuclide",
+    "definition": "Un nuclide è una specie nucleare identificata dal numero di protoni e neutroni; quando necessario si specifica anche lo stato energetico nucleare.",
+    "source": "https://www.treccani.it/vocabolario/nuclide/",
+    "lesson": "lezione-4-6.html",
+    "related": [
+      "isotopo",
+      "numero-atomico",
+      "numero-di-massa"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Una carta d’identità del nucleo",
+        "paragraphs": [
+          "Dire carbonio identifica tutti i nuclei con sei protoni. Per sapere di quale specie nucleare parliamo occorre aggiungere i neutroni: carbonio dodici e carbonio quattordici sono nuclidi differenti. Il primo possiede sei neutroni, il secondo otto. Il numero scritto dopo il nome conta complessivamente protoni e neutroni. Non indica la carica dell’atomo e non misura direttamente una massa in grammi: serve a riconoscere la composizione del nucleo."
+        ]
+      },
+      {
+        "title": "Nuclide e isotopo rispondono a domande vicine",
+        "paragraphs": [
+          "Gli isotopi sono nuclidi dello stesso elemento con diverso numero di neutroni. Nuclide è invece una denominazione generale che permette di confrontare anche elementi differenti. Una carta dei nuclidi dispone le specie secondo composizione nucleare, mentre la tavola periodica organizza gli elementi secondo il numero atomico. Una casella della tavola può quindi corrispondere a molti nuclidi. Confondere le due mappe fa perdere informazioni sulla stabilità e sulle trasformazioni nucleari."
+        ]
+      },
+      {
+        "title": "Il nucleo può cambiare",
+        "paragraphs": [
+          "Alcuni nuclidi sono stabili rispetto ai decadimenti osservati, altri radioattivi. In un decadimento si chiama padre il nuclide iniziale e figlio quello prodotto; la trasformazione deve essere descritta attraverso le particelle e l’energia coinvolte. Non ogni decadimento cambia il numero di massa nello stesso modo. Anche stati nucleari eccitati sufficientemente longevi possono richiedere una distinzione esplicita: la sola coppia di conteggi non esaurisce tutti i dettagli di una tabella nucleare."
+        ]
+      },
+      {
+        "title": "Tracce della storia della materia",
+        "paragraphs": [
+          "Le abbondanze dei nuclidi conservano informazioni sui processi che hanno formato e trasformato la materia. Nei meteoriti, alcuni sistemi radioattivi aiutano a ricostruire intervalli temporali quando il metodo e le condizioni del campione lo permettono. Negli spettri le firme isotopiche possono essere difficili da separare. Una buona scheda distingue la specie identificata dal modello usato per interpretarne l’abbondanza: il nome preciso del nucleo è l’inizio dell’analisi, non la sua conclusione."
+        ]
+      }
+    ],
+    "facts": [
+      "Ogni isotopo è un nuclide, ma nuclide non significa necessariamente isotopo dello stesso elemento"
+    ],
+    "example": "Ogni isotopo è un nuclide, ma nuclide non significa necessariamente isotopo dello stesso elemento",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/vocabolario/nuclide/"
+      },
+      {
+        "title": "IAEA · isotopi e applicazioni",
+        "url": "https://www.iaea.org/topics/nuclear-science/isotopes"
+      }
+    ],
+    "aliases": [
+      "nuclidi"
     ]
   },
   {
@@ -17377,6 +25714,125 @@ window.AdAstraGlossary = [
     ],
     "aliases": [
       "numeri di massa"
+    ]
+  },
+  {
+    "id": "numero-ossidazione",
+    "name": "Numero di ossidazione",
+    "definition": "Il numero di ossidazione è un valore formale attribuito a un atomo con regole di assegnazione degli elettroni di legame. Aiuta a descrivere composti e reazioni senza coincidere sempre con una carica reale localizzata.",
+    "source": "https://www.treccani.it/vocabolario/ossidazione/",
+    "lesson": "lezione-3-2.html",
+    "related": [
+      "ossidoriduzione",
+      "ione",
+      "elettronegativita"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un conteggio con regole",
+        "paragraphs": [
+          "Il numero di ossidazione permette di organizzare l’informazione elettronica in una sostanza. L’assegnazione utilizza un’approssimazione ionica dei legami e regole definite. Non è il numero di protoni nel nucleo e non stabilisce quanti atomi di ossigeno siano presenti. La parola numero potrebbe far pensare a un semplice conteggio materiale; qui indica invece una costruzione formale utile a confrontare stati e trasformazioni chimiche."
+        ]
+      },
+      {
+        "title": "Il caso semplice degli ioni",
+        "paragraphs": [
+          "Per uno ione monoatomico, come Na⁺, il numero di ossidazione corrisponde alla sua carica: +1. Nei composti molecolari la situazione richiede assegnare formalmente gli elettroni. In una specie neutra la somma dei contributi, moltiplicati per il numero degli atomi, è zero; in uno ione poliatomico uguaglia la carica complessiva. Questo controllo serve a verificare un’assegnazione, senza interpretare automaticamente ogni valore come carica intera realmente concentrata su quell’atomo."
+        ]
+      },
+      {
+        "title": "Un esempio con un limite esplicito",
+        "paragraphs": [
+          "Nell’acqua H₂O si assegna normalmente +1 a ciascun idrogeno e −2 all’ossigeno: due volte +1, più −2, dà zero. Non sono però regole universali senza eccezioni per tutti i composti degli stessi elementi. Esistono idruri, perossidi e altre situazioni che richiedono attenzione. Il calcolo va quindi preceduto dal riconoscimento della specie e delle regole pertinenti, invece di applicare sempre i medesimi segni a qualunque formula."
+        ]
+      },
+      {
+        "title": "Leggere una trasformazione",
+        "paragraphs": [
+          "Se il numero di ossidazione di un atomo aumenta durante una reazione, quell’atomo viene ossidato; se diminuisce, viene ridotto. Questo strumento permette di bilanciare e classificare trasformazioni anche quando non sia intuitivo parlare di elettroni che passano come oggetti da una pallina all’altra. In planetologia aiuta a distinguere forme chimiche di uno stesso elemento. Il valore rimane però una parte della descrizione: struttura, ambiente e dati sperimentali completano ciò che il semplice numero non contiene."
+        ]
+      }
+    ],
+    "facts": [
+      "In H₂O: 2 × (+1) + (−2) = 0; l’assegnazione ha regole ed eccezioni"
+    ],
+    "example": "In H₂O: 2 × (+1) + (−2) = 0; l’assegnazione ha regole ed eccezioni",
+    "sources": [
+      {
+        "title": "Treccani · quadro terminologico generale; dettagli nelle fonti specifiche",
+        "url": "https://www.treccani.it/vocabolario/ossidazione/"
+      },
+      {
+        "title": "IUPAC · raccomandazioni sullo stato di ossidazione",
+        "url": "https://iupac.org/recommendation/comprehensive-definition-of-oxidation-state/"
+      },
+      {
+        "title": "Università di Padova · regole di nomenclatura e assegnazione",
+        "url": "https://wwwdisc.chimica.unipd.it/plinio.dibernardo/pubblica/Regole%20di%20nomenclatura.pdf"
+      }
+    ],
+    "aliases": [
+      "stato di ossidazione",
+      "numeri di ossidazione"
+    ]
+  },
+  {
+    "id": "numero-quantico",
+    "name": "Numero quantico",
+    "definition": "Un numero quantico è un valore che identifica una proprietà di uno stato quantistico nel modello e nelle condizioni considerati.",
+    "source": "https://www.treccani.it/enciclopedia/orbitale/",
+    "lesson": "lezione-4-3.html",
+    "related": [
+      "livello-energetico",
+      "orbitale-atomico",
+      "quanto"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Etichette con un significato fisico",
+        "paragraphs": [
+          "Per descrivere uno stato atomico si usano valori che distinguono proprietà come energia e momento angolare nelle condizioni appropriate. Si chiamano numeri quantici. Non sono numeri casuali assegnati a ogni atomo come un codice di inventario. Le combinazioni ammesse derivano dalla teoria e dal sistema studiato. L’etichetta serve quindi a riconoscere uno stato possibile, insieme alle ipotesi che consentono di descriverlo con quei valori."
+        ]
+      },
+      {
+        "title": "Il numero principale è soltanto un inizio",
+        "paragraphs": [
+          "Nel modello introduttivo dell’atomo, il numero quantico principale viene indicato con n e assume valori interi positivi. Altri numeri distinguono proprietà diverse degli stati. Negli atomi con molti elettroni non basta conoscere n per determinare ogni energia o forma. La stessa notazione può richiedere un contesto più articolato. Per il lettore è meglio comprendere prima che uno stato possiede più caratteristiche, invece di memorizzare subito un’intera tabella di simboli."
+        ]
+      },
+      {
+        "title": "Discreto non significa sempre numero intero",
+        "paragraphs": [
+          "Alcuni numeri quantici assumono valori seminteri, come quelli legati allo spin dei fermioni. Le possibilità dipendono dalla grandezza e dalla specie considerate. Inoltre non ogni proprietà di ogni sistema quantistico ha sempre uno spettro discreto: un elettrone libero non viene descritto esattamente come uno legato in un atomo. La quantizzazione va dunque collegata a una proprietà specifica e alle condizioni fisiche, senza trasformarla nella regola generica che ogni quantità debba procedere a scalini."
+        ]
+      },
+      {
+        "title": "Le righe seguono una struttura",
+        "paragraphs": [
+          "Le transizioni fra stati possono essere favorite o soppresse secondo le proprietà coinvolte e il tipo di interazione. I numeri quantici aiutano a organizzare queste regole e a interpretare gli spettri. Una riga non nasce perché una particella sceglie arbitrariamente una nuova etichetta. Nel diagramma mostra stati e differenza di energia, poi collega la variazione alla radiazione misurata. Questo rende il simbolismo uno strumento per leggere un fenomeno osservabile, anziché un esercizio astratto fine a se stesso."
+        ]
+      }
+    ],
+    "facts": [
+      "I numeri quantici descrivono proprietà degli stati, non il numero degli atomi presenti"
+    ],
+    "example": "I numeri quantici descrivono proprietà degli stati, non il numero degli atomi presenti",
+    "sources": [
+      {
+        "title": "Treccani · quadro terminologico generale; dettagli nelle fonti specifiche",
+        "url": "https://www.treccani.it/enciclopedia/orbitale/"
+      },
+      {
+        "title": "NIST · classificazione dei livelli e delle transizioni",
+        "url": "https://physics.nist.gov/PhysRefData/ASD/lines_form.html"
+      }
+    ],
+    "aliases": [
+      "numeri quantici"
     ]
   },
   {
@@ -17645,6 +26101,60 @@ window.AdAstraGlossary = [
     ],
     "aliases": [
       "oculari"
+    ]
+  },
+  {
+    "id": "ohm",
+    "name": "Ohm",
+    "definition": "L’ohm, simbolo Ω, è l’unità SI della resistenza elettrica e si usa anche per impedenza e reattanza; un ohm equivale a un volt per ampere.",
+    "source": "https://www.treccani.it/vocabolario/ohm/",
+    "lesson": "strumentazione.html",
+    "related": [
+      "volt",
+      "ampere",
+      "watt"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un rapporto fra tensione e corrente",
+        "paragraphs": [
+          "Per un componente resistivo nelle condizioni appropriate, la resistenza collega la tensione applicata alla corrente che lo attraversa. Un ohm corrisponde a un volt diviso per un ampere. Non è una quantità di energia consumata né il tempo per il quale una batteria può alimentare il circuito. La parola resistenza viene usata anche per il componente fisico: occorre distinguere l’oggetto dalla grandezza che ne descrive il comportamento elettrico."
+        ]
+      },
+      {
+        "title": "Leggere un esempio numerico",
+        "paragraphs": [
+          "Una resistenza di sei ohm collegata a dodici volt assorbirebbe due ampere nel modello ideale. Se il valore della resistenza o della tensione cambia, cambia il risultato. Il rapporto non va esteso senza condizioni a qualsiasi dispositivo elettronico: una camera o un computer non si comportano come un unico resistore costante. Temperatura e regime di funzionamento possono influenzare i componenti reali. Il calcolo serve a capire la relazione, non a dedurre ogni assorbimento dalla forma dell’apparecchio."
+        ]
+      },
+      {
+        "title": "Perché i cavi contano",
+        "paragraphs": [
+          "Anche un collegamento presenta resistenza. Quando passa corrente può comparire una caduta di tensione e parte dell’energia viene dissipata come calore. Lunghezza, sezione, materiali e contatti entrano nel comportamento reale. Nella preparazione di una postazione astronomica, una tensione corretta all’alimentatore non garantisce automaticamente lo stesso valore sul dispositivo durante ogni assorbimento. La diagnosi richiede misure e confronto con le specifiche, non la sostituzione casuale di componenti basata su un solo sintomo."
+        ]
+      },
+      {
+        "title": "Resistenza e impedenza",
+        "paragraphs": [
+          "Nei segnali variabili si usa anche il concetto più generale di impedenza, sempre espresso in ohm, che include altri aspetti del rapporto fra tensione e corrente. Per questo lo stesso simbolo di unità non rende identiche tutte le grandezze. In radioastronomia e nei collegamenti elettronici la corretta interpretazione dei segnali richiede il contesto. Nel glossario mantieni un primo esempio resistivo semplice e indica quando si passa a un problema differente, senza introdurre formule complesse prive di spiegazione."
+        ]
+      }
+    ],
+    "facts": [
+      "La legge del resistore ideale non descrive automaticamente ogni dispositivo elettronico"
+    ],
+    "example": "La legge del resistore ideale non descrive automaticamente ogni dispositivo elettronico",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/vocabolario/ohm/"
+      },
+      {
+        "title": "IUPAC · definizione dell’ohm",
+        "url": "https://goldbook.iupac.org/terms/view/O04280"
+      }
     ]
   },
   {
@@ -18225,6 +26735,63 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "orbitale-atomico",
+    "name": "Orbitale atomico",
+    "definition": "Un orbitale atomico è una funzione usata per descrivere lo stato spaziale di un elettrone nell’atomo, non una traiettoria percorsa intorno al nucleo.",
+    "source": "https://www.treccani.it/enciclopedia/orbitale/",
+    "lesson": "lezione-4-3.html",
+    "related": [
+      "atomo",
+      "elettrone",
+      "livello-energetico"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Il piccolo sistema solare non basta",
+        "paragraphs": [
+          "I disegni con elettroni su cerchi ricordano i pianeti e aiutano a separare nucleo ed elettroni. Non descrivono però la struttura atomica con precisione. Un orbitale non indica una pista sulla quale si possa seguire l’elettrone come una biglia. La descrizione quantistica permette di calcolare probabilità di misura e altre proprietà. Questo cambiamento di significato è essenziale prima di interpretare le forme colorate mostrate nei libri."
+        ]
+      },
+      {
+        "title": "Come leggere una nube disegnata",
+        "paragraphs": [
+          "Le superfici usate per rappresentare un orbitale delimitano spesso una regione associata a una determinata probabilità, secondo la convenzione della figura. Non sono pareti materiali e non racchiudono una sostanza nebulosa osservata direttamente. Colori diversi possono indicare il segno della funzione, non cariche elettriche opposte distribuite come vernice. Una didascalia deve quindi spiegare quale proprietà è stata visualizzata e quali parti della descrizione restano fuori dall’immagine."
+        ]
+      },
+      {
+        "title": "Forme, energia e occupazione",
+        "paragraphs": [
+          "Le famiglie indicate con lettere come s e p hanno proprietà spaziali differenti. L’energia e l’ordine degli stati dipendono dall’atomo e dalle approssimazioni utilizzate, soprattutto quando gli elettroni sono molti e interagiscono. Nel modello usuale un orbitale spaziale può essere occupato da due elettroni con stati di spin appropriati. Non è corretto riempire ogni forma disegnata con un numero arbitrario di elettroni soltanto per completare lo schema della tavola periodica."
+        ]
+      },
+      {
+        "title": "Dall’atomo alla luce delle stelle",
+        "paragraphs": [
+          "Transizioni fra stati elettronici contribuiscono alle righe dello spettro. Per riconoscere una specie occorrono energie, regole delle transizioni e confronto con dati di laboratorio. L’orbitale offre parte del linguaggio di questa descrizione, non una fotografia del momento in cui un elettrone salta fra due cerchi. Nella lezione è utile affiancare schema dei livelli e spettro, dichiarando che si stanno collegando un modello microscopico e una misura della radiazione."
+        ]
+      }
+    ],
+    "facts": [
+      "Orbitale non significa orbita planetaria in miniatura"
+    ],
+    "example": "Orbitale non significa orbita planetaria in miniatura",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/orbitale/"
+      },
+      {
+        "title": "NIST · livelli e configurazioni nei dati atomici",
+        "url": "https://physics.nist.gov/PhysRefData/ASD/lines_form.html"
+      }
+    ],
+    "aliases": [
+      "orbitali atomici"
+    ]
+  },
+  {
     "id": "orizzonte",
     "name": "Orizzonte",
     "definition": "Il piano astronomico locale perpendicolare alla verticale dell’osservatore. Il profilo visibile di monti e case è un riferimento diverso.",
@@ -18388,6 +26955,185 @@ window.AdAstraGlossary = [
       {
         "title": "Treccani · riferimento terminologico",
         "url": "https://www.treccani.it/enciclopedia/sole/"
+      }
+    ]
+  },
+  {
+    "id": "osiris-rex",
+    "name": "OSIRIS-REx",
+    "definition": "OSIRIS-REx è la missione NASA che raccolse materiale dall’asteroide Bennu e ne riportò un campione sulla Terra nel settembre 2023.",
+    "source": "https://www.treccani.it/enciclopedia/asteroide/",
+    "lesson": "lezione-10-5.html",
+    "related": [
+      "asteroide",
+      "regolite",
+      "meteorite"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Dal telescopio al campione",
+        "paragraphs": [
+          "OSIRIS-REx collega osservazioni a distanza e analisi diretta della materia. La missione raggiunse Bennu, studiò il corpo e raccolse materiale per il ritorno a Terra. Un campione consente misure che sarebbe difficile eseguire con un piccolo strumento trasportato nello spazio. Non rende però inutile il contesto delle immagini: senza sapere da quale ambiente provenga, anche un’analisi molto precisa avrebbe un significato geologico più difficile da ricostruire."
+        ]
+      },
+      {
+        "title": "Conservare la provenienza",
+        "paragraphs": [
+          "La raccolta e il ritorno devono mantenere documentata la storia del materiale. Contenitori, ambiente controllato e procedure servono a limitare contaminazioni e alterazioni. Il problema non riguarda soltanto la pulizia visibile: sostanze terrestri possono modificare l’interpretazione di segnali chimici molto piccoli. Per questo un risultato analitico deve essere accompagnato da controlli e informazioni sulla manipolazione del campione. La catena di custodia fa parte dell’esperimento scientifico, non è una formalità esterna al dato."
+        ]
+      },
+      {
+        "title": "Il rientro del 2023",
+        "paragraphs": [
+          "La capsula con il materiale di Bennu arrivò sulla Terra il 24 settembre 2023. Ricevere la capsula non equivale ad avere già completato tutte le analisi. L’apertura, la caratterizzazione e la distribuzione di porzioni richiedono procedure specifiche. Una missione di ritorno campioni produce quindi risultati nel tempo: nuove tecniche possono interrogare materiale conservato per studi futuri. L’evento spettacolare del rientro è una tappa di un lavoro più lungo."
+        ]
+      },
+      {
+        "title": "Organico non significa biologico",
+        "paragraphs": [
+          "Nello studio dei piccoli corpi la chimica del carbonio è particolarmente interessante per la storia del Sistema solare. Identificare sostanze organiche non significa però trovare organismi o dimostrare un’origine biologica. Le molecole possono formarsi attraverso processi non biologici. Il confronto tra campioni, meteoriti e misure remote permette di formulare ipotesi più precise. La missione offre un esempio concreto di come l’esplorazione trasformi una domanda sull’origine dei materiali in una serie di verifiche di laboratorio."
+        ]
+      }
+    ],
+    "facts": [
+      "Il rientro di un campione avvia una lunga fase di analisi e conservazione"
+    ],
+    "example": "Il rientro di un campione avvia una lunga fase di analisi e conservazione",
+    "sources": [
+      {
+        "title": "Treccani · quadro terminologico generale; dettagli nelle fonti specifiche",
+        "url": "https://www.treccani.it/enciclopedia/asteroide/"
+      },
+      {
+        "title": "NASA · ritorno e cura dei campioni di Bennu",
+        "url": "https://science.nasa.gov/mission/osiris-rex/"
+      }
+    ]
+  },
+  {
+    "id": "ossidoriduzione",
+    "name": "Ossidoriduzione",
+    "definition": "Un’ossidoriduzione è una trasformazione chimica nella quale cambiano gli stati di ossidazione: all’ossidazione di una specie si accompagna la riduzione di un’altra.",
+    "source": "https://www.treccani.it/enciclopedia/ossidoriduzione/",
+    "lesson": "lezione-3-2.html",
+    "related": [
+      "numero-ossidazione",
+      "elettrone",
+      "ferro"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Due aspetti dello stesso bilancio",
+        "paragraphs": [
+          "Nel linguaggio elementare, ossidare significa perdere elettroni e ridurre significa acquistarli. Nel trattamento dei composti il conteggio viene esteso attraverso gli stati di ossidazione. Le due trasformazioni devono essere bilanciate insieme: non si eliminano arbitrariamente elettroni dal sistema senza indicare dove vadano. Il termine ossidoriduzione rende visibile questa relazione e permette di descrivere reazioni che non assomigliano necessariamente alla ruggine di un oggetto metallico."
+        ]
+      },
+      {
+        "title": "Non occorre sempre l’ossigeno",
+        "paragraphs": [
+          "Il significato storico di ossidazione era legato all’ossigeno, ma il concetto moderno è più generale. Una reazione può essere ossidoriduttiva anche senza contenerlo. Viceversa non basta che l’ossigeno compaia nella formula per riconoscere automaticamente ogni passaggio come ossidazione. Occorre controllare lo stato degli atomi prima e dopo. L’ossidante è la specie che si riduce, mentre il riducente si ossida: i nomi descrivono l’effetto sull’altra parte della reazione."
+        ]
+      },
+      {
+        "title": "Le rocce raccontano condizioni chimiche",
+        "paragraphs": [
+          "Nei materiali planetari gli stati del ferro e di altri elementi contribuiscono a ricostruire condizioni di formazione e alterazione. Un colore rossastro può suggerire domande sui composti, ma non sostituisce l’analisi. Minerali e processi differenti possono concorrere all’aspetto. Stabilire quali specie siano presenti è il primo passaggio; ricavare da esse un ambiente passato richiede ulteriori confronti, evitando di chiamare ossidato qualsiasi oggetto semplicemente perché appare rosso nella fotografia."
+        ]
+      },
+      {
+        "title": "Chimica ed energia restano da verificare",
+        "paragraphs": [
+          "Le reazioni ossidoriduttive possono entrare nei bilanci energetici e nei processi di interesse astrobiologico. La loro possibilità non prova da sola l’esistenza di vita né specifica la velocità del processo. Temperatura, reagenti e disponibilità delle specie contano. La voce collega così nomenclatura e interpretazione: seguire il conteggio degli elettroni e degli stati di ossidazione aiuta a riconoscere la trasformazione, mentre osservazioni ed esperimenti chiariscono se e come essa avvenga nel contesto studiato."
+        ]
+      }
+    ],
+    "facts": [
+      "L’ossidante si riduce; il riducente si ossida"
+    ],
+    "example": "L’ossidante si riduce; il riducente si ossida",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/ossidoriduzione/"
+      },
+      {
+        "title": "IUPAC · definizione di ossidazione",
+        "url": "https://goldbook.iupac.org/terms/view/O04362"
+      },
+      {
+        "title": "IUPAC · definizione generale dello stato di ossidazione",
+        "url": "https://iupac.org/recommendation/comprehensive-definition-of-oxidation-state/"
+      }
+    ],
+    "aliases": [
+      "reazione redox",
+      "reazioni redox"
+    ],
+    "linkNames": [
+      "ossidoriduzione",
+      "ossidoriduzioni",
+      "reazione redox"
+    ]
+  },
+  {
+    "id": "ossigeno",
+    "name": "Ossigeno",
+    "definition": "L’ossigeno è l’elemento di numero atomico 8 e simbolo O, presente in gas, acqua, ghiacci e molti minerali.",
+    "source": "https://www.treccani.it/enciclopedia/ossigeno/",
+    "lesson": "lezione-10-2.html",
+    "related": [
+      "elemento-chimico",
+      "atmosfera",
+      "spettroscopia"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "L’elemento non è soltanto il gas che respiriamo",
+        "paragraphs": [
+          "Nel linguaggio quotidiano ossigeno indica spesso il gas O₂ dell’atmosfera. In chimica l’elemento comprende anche gli atomi legati nell’acqua e nelle rocce. Una superficie ricca di ossigeno nei minerali non è quindi un’atmosfera respirabile. L’atomo O, la molecola O₂ e l’ozono O₃ hanno composizioni o organizzazioni differenti e non si possono scambiare come tre nomi dello stesso materiale."
+        ]
+      },
+      {
+        "title": "Una parte importante dei mondi rocciosi",
+        "paragraphs": [
+          "Molti silicati e ossidi contengono ossigeno. Analizzare la composizione di una roccia richiede di distinguere gli elementi dai minerali in cui sono riuniti. Anche la massa di ossigeno in un pianeta non dice quanta parte si trovi come gas libero. Processi geologici e chimici distribuiscono l’elemento fra serbatoi differenti. Il confronto fra pianeti deve dichiarare se riguarda crosta, interno, atmosfera o un campione locale studiato da una missione."
+        ]
+      },
+      {
+        "title": "La luce rivela forme diverse",
+        "paragraphs": [
+          "Negli spettri astronomici si osservano firme di ossigeno atomico, ionizzato o legato in molecole, secondo l’ambiente e la banda. Una riga intensa non significa automaticamente grande abbondanza senza considerare eccitazione e opacità. Le immagini di nebulose possono assegnare un colore a una riga dell’ossigeno: non è una fotografia di un gas che possieda universalmente quel colore. La legenda deve collegare specie, transizione e rappresentazione scelta."
+        ]
+      },
+      {
+        "title": "Il rapporto con la ricerca della vita",
+        "paragraphs": [
+          "L’ossigeno molecolare atmosferico può essere rilevante nella valutazione di possibili biosignature, ma deve essere studiato nel contesto. Processi non biologici e storia del pianeta possono contribuire a produrlo o modificarlo. Acqua e ossigeno, presi isolatamente, non dimostrano organismi. La domanda scientifica consiste nel confrontare spiegazioni e più misure coerenti. Presentare queste distinzioni non toglie interesse alla ricerca: rende più chiaro che cosa una scoperta possa davvero raccontare sul mondo osservato."
+        ]
+      }
+    ],
+    "facts": [
+      "Ossigeno nei minerali e ossigeno molecolare respirabile non sono la stessa cosa"
+    ],
+    "example": "Ossigeno nei minerali e ossigeno molecolare respirabile non sono la stessa cosa",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/ossigeno/"
+      },
+      {
+        "title": "RSC · ossigeno e composti",
+        "url": "https://periodic-table.rsc.org/element/8/oxygen"
+      },
+      {
+        "title": "NASA · ricerca della vita e interpretazione",
+        "url": "https://science.nasa.gov/exoplanets/search-for-life/"
       }
     ]
   },
@@ -18683,6 +27429,60 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "parker-solar-probe",
+    "name": "Parker Solar Probe",
+    "definition": "Parker Solar Probe è una sonda della NASA progettata per attraversare regioni della corona solare e studiare particelle, campi magnetici e origine del vento solare.",
+    "source": "https://www.treccani.it/enciclopedia/sole/",
+    "lesson": "lezione-2-3.html",
+    "related": [
+      "vento-solare",
+      "sole",
+      "campo-magnetico"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Andare dove nasce il vento",
+        "paragraphs": [
+          "Lanciata nel 2018, Parker Solar Probe porta strumenti nelle vicinanze del Sole per affrontare una domanda concreta: come acquista energia il materiale che si allontana dalla nostra stella? Osservare da lontano e attraversare una regione non forniscono lo stesso tipo di informazione. Una fotografia mostra strutture lungo una linea di vista; un rivelatore a bordo campiona invece particelle e campi nel luogo e nell’istante in cui si trova."
+        ]
+      },
+      {
+        "title": "Toccare non significa atterrare",
+        "paragraphs": [
+          "L’espressione giornalistica toccare il Sole indica l’attraversamento di regioni della sua atmosfera esterna. Non descrive un atterraggio sulla fotosfera, né una superficie solida sulla quale appoggiare la sonda. Il confine fisico di interesse dipende dalle condizioni del plasma e del campo magnetico. Per leggere correttamente le notizie bisogna distinguere questo significato dalla distanza geometrica misurata rispetto al centro o alla superficie visibile della stella."
+        ]
+      },
+      {
+        "title": "Una misura richiede protezione",
+        "paragraphs": [
+          "Avvicinarsi al Sole significa gestire radiazione e riscaldamento. Uno scudo protegge parti della sonda, mentre gli strumenti devono raccogliere segnali utili senza essere confusi con gli effetti prodotti dal veicolo stesso. La temperatura di un plasma molto rarefatto non basta, da sola, a descrivere quanto calore trasferisca a un oggetto. È un’occasione per distinguere temperatura, densità delle particelle e trasferimento di energia."
+        ]
+      },
+      {
+        "title": "Collegare la stella alla Terra",
+        "paragraphs": [
+          "Le misure aiutano a comprendere l’ambiente spaziale nel quale si muovono i pianeti. Non trasformano ogni immagine solare in una previsione certa di un’aurora terrestre. Per collegare un fenomeno alla Terra servono propagazione, direzione e condizioni del campo magnetico. Nel glossario la missione è quindi un ponte fra fisica del Sole e osservazioni locali: una singola traccia strumentale diventa significativa quando viene confrontata con altre misure e con un modello verificabile."
+        ]
+      }
+    ],
+    "facts": [
+      "Attraversare la corona non equivale ad atterrare sulla superficie visibile del Sole"
+    ],
+    "example": "Attraversare la corona non equivale ad atterrare sulla superficie visibile del Sole",
+    "sources": [
+      {
+        "title": "Treccani · quadro terminologico generale; dettagli nelle fonti specifiche",
+        "url": "https://www.treccani.it/enciclopedia/sole/"
+      },
+      {
+        "title": "NASA · obiettivi e strumenti di Parker Solar Probe",
+        "url": "https://science.nasa.gov/mission/parker-solar-probe/"
+      }
+    ]
+  },
+  {
     "id": "parsec",
     "name": "Parsec",
     "definition": "Unità di distanza definita attraverso una parallasse annua di un secondo d’arco; equivale a circa 3,26 anni luce.",
@@ -18736,6 +27536,189 @@ window.AdAstraGlossary = [
       }
     ],
     "editorialStatus": "scheda-estesa"
+  },
+  {
+    "id": "pascal-unita",
+    "name": "Pascal, unità di pressione",
+    "definition": "Il pascal, simbolo Pa, è l’unità SI della pressione: un pascal corrisponde a un newton di forza normale distribuito su un metro quadrato.",
+    "source": "https://www.treccani.it/vocabolario/pascal/",
+    "lesson": "lezione-3-2.html",
+    "related": [
+      "pressione",
+      "newton-unita",
+      "atmosfera"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "La superficie cambia il risultato",
+        "paragraphs": [
+          "Una stessa forza distribuita su aree differenti produce pressioni medie differenti. Il pascal esprime il rapporto fra forza normale e area. Non misura da solo la forza totale e non indica quanto materiale contenga un’atmosfera. L’esempio di un appoggio largo o stretto aiuta a intuire il rapporto, ma un gas richiede una descrizione fisica propria, legata agli urti e al comportamento delle particelle."
+        ]
+      },
+      {
+        "title": "Un numero piccolo, molti multipli",
+        "paragraphs": [
+          "Un pascal è una pressione piccola rispetto alla pressione atmosferica terrestre ordinaria al livello del mare. Per questo compaiono spesso multipli come ettopascal, kilopascal e megapascal. Un ettopascal equivale a cento pascal; un kilopascal a mille. Il valore cambia con il prefisso, mentre la grandezza resta la stessa. Confrontare una tabella planetaria con una meteorologica senza controllare questi prefissi può produrre differenze apparenti di molti ordini di grandezza."
+        ]
+      },
+      {
+        "title": "Atmosfere planetarie e riferimento",
+        "paragraphs": [
+          "La pressione varia con quota, luogo e condizioni. La pressione al suolo di Marte, quella a una quota terrestre e quella attribuita a un gigante gassoso non usano necessariamente lo stesso riferimento fisico. Nei giganti può essere indicato un livello convenzionale di pressione, non una superficie solida dove appoggiare un metro. Una scheda deve precisare dove viene valutato il dato e se è una misura locale, una media o un valore di modello."
+        ]
+      },
+      {
+        "title": "Pressione e abitabilità",
+        "paragraphs": [
+          "Temperatura e pressione contribuiscono a determinare in quali condizioni una sostanza possa trovarsi liquida, solida o gassosa. Non basta quindi conoscere la temperatura per dichiarare possibile un oceano superficiale. Anche composizione e condizioni ambientali contano. Il pascal permette di confrontare dati, ma non offre da solo una diagnosi di abitabilità. Nel laboratorio associa il numero al luogo e al fenomeno studiato, evitando di usare la stessa etichetta atmosfera per descrivere quantità, pressione e composizione come se fossero sinonimi."
+        ]
+      }
+    ],
+    "facts": [
+      "Un ettopascal è 100 Pa; un kilopascal è 1.000 Pa"
+    ],
+    "example": "Un ettopascal è 100 Pa; un kilopascal è 1.000 Pa",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/vocabolario/pascal/"
+      },
+      {
+        "title": "BIPM · quadro SI",
+        "url": "https://www.bipm.org/en/measurement-units"
+      }
+    ],
+    "aliases": [
+      "pressione in pascal"
+    ],
+    "linkNames": [
+      "pressione in pascal",
+      "ettopascal",
+      "kilopascal"
+    ]
+  },
+  {
+    "id": "pauli-esclusione",
+    "name": "Pauli, principio di esclusione",
+    "definition": "Il principio di esclusione di Pauli impedisce a due fermioni identici di occupare lo stesso stato quantistico completo.",
+    "source": "https://www.treccani.it/enciclopedia/degenerazione/",
+    "lesson": "lezione-4-6.html",
+    "related": [
+      "spin",
+      "pressione-degenerazione",
+      "configurazione-elettronica"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Non è una semplice regola di ingombro",
+        "paragraphs": [
+          "Due oggetti ordinari non possono occupare contemporaneamente lo stesso posto nello stesso modo, ma il principio di Pauli riguarda gli stati quantistici, non il volume di palline rigide. Elettroni identici devono essere descritti rispettando una particolare proprietà della funzione complessiva. La formulazione divulgativa sullo stesso stato riassume questa conseguenza. Non significa che gli elettroni non possano trovarsi nella stessa regione spaziale o appartenere allo stesso atomo."
+        ]
+      },
+      {
+        "title": "Perché un orbitale può avere due elettroni",
+        "paragraphs": [
+          "Nel modello usuale, due elettroni possono occupare lo stesso orbitale spaziale quando differiscono nello stato di spin appropriato. Il loro stato completo non è allora identico. Dire soltanto che un orbitale può contenere un elettrone sarebbe quindi incompleto. Anche il disegno di due frecce deve essere accompagnato da una spiegazione: serve a rappresentare una distinzione quantistica, non due minuscoli assi materiali orientati come aghi di bussola dentro l’atomo."
+        ]
+      },
+      {
+        "title": "La struttura della materia cambia",
+        "paragraphs": [
+          "L’occupazione degli stati elettronici contribuisce alla struttura atomica e alle proprietà periodiche degli elementi. Il principio non sostituisce però tutte le altre interazioni e regole necessarie a descrivere un atomo. Non basta applicarlo per calcolare ogni legame o prevedere esattamente qualsiasi materiale. La sua forza consiste nel porre un vincolo fondamentale, che deve essere combinato con energie e interazioni del sistema considerato. I bosoni non seguono lo stesso vincolo di esclusione."
+        ]
+      },
+      {
+        "title": "Il legame con i resti stellari",
+        "paragraphs": [
+          "Quando la materia è molto compressa, il comportamento dei fermioni entra nella pressione di degenerazione. Nelle nane bianche il contributo degli elettroni degeneri è essenziale per il sostegno, nel modello appropriato. Non si tratta di calore prodotto perché due palline si urtano troppo spesso, né di un sostegno illimitato per qualunque massa. Collegare principio microscopico e struttura stellare permette di comprendere un risultato sorprendente senza trasformare l’analogia meccanica in una spiegazione letterale del fenomeno."
+        ]
+      }
+    ],
+    "facts": [
+      "Stesso orbitale spaziale e stesso stato quantistico completo non sono sinonimi"
+    ],
+    "example": "Stesso orbitale spaziale e stesso stato quantistico completo non sono sinonimi",
+    "sources": [
+      {
+        "title": "Treccani · quadro terminologico generale; dettagli nelle fonti specifiche",
+        "url": "https://www.treccani.it/enciclopedia/degenerazione/"
+      },
+      {
+        "title": "Treccani · orbitali e occupazione",
+        "url": "https://www.treccani.it/enciclopedia/orbitale/"
+      }
+    ],
+    "aliases": [
+      "principio di esclusione di Pauli",
+      "principio di Pauli"
+    ]
+  },
+  {
+    "id": "payne-cecilia",
+    "name": "Payne-Gaposchkin, Cecilia",
+    "definition": "Cecilia Payne-Gaposchkin (1900–1979) fu un’astrofisica il cui lavoro del 1925 collegò la fisica degli spettri alla forte abbondanza di idrogeno ed elio nelle stelle.",
+    "source": "https://www.treccani.it/enciclopedia/cecilia-helena-payne-gaposkin/",
+    "lesson": "lezione-4-3.html",
+    "related": [
+      "spettroscopia",
+      "ionizzazione",
+      "idrogeno"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Una riga non conta direttamente gli atomi",
+        "paragraphs": [
+          "La forza delle righe spettrali non dipende soltanto dalla quantità di un elemento. Temperatura, ionizzazione e popolazioni degli stati modificano ciò che osserviamo. Payne applicò la fisica atomica all’interpretazione degli spettri stellari, affrontando proprio questo passaggio. La domanda non era soltanto quali righe compaiano, ma come tradurre la loro presenza in informazioni sulla materia. Questo ragionamento è un fondamento importante dell’astrofisica, non una semplice lettura dei colori di una fotografia."
+        ]
+      },
+      {
+        "title": "Una composizione sorprendente",
+        "paragraphs": [
+          "Il lavoro della sua tesi del 1925 indicava un’abbondanza di idrogeno ed elio molto maggiore di quanto suggerisse il confronto allora comune con i materiali terrestri. La conclusione incontrò resistenze e fu formulata con cautela nella pubblicazione. La vicenda deve essere raccontata attraverso fonti e contesto, distinguendo risultati, interpretazione e accoglienza. Non è corretto ridurla a una frase eroica secondo cui una sola persona avrebbe spiegato immediatamente ogni proprietà di tutte le stelle."
+        ]
+      },
+      {
+        "title": "Dal segnale al modello fisico",
+        "paragraphs": [
+          "L’interpretazione utilizzava il quadro della ionizzazione termica sviluppato anche da Meghnad Saha. Questo collega osservazioni, teoria e contributi di persone diverse. La composizione di una stella non viene misurata raccogliendone un campione sulla Terra: si ricostruisce attraverso luce e modelli verificabili. Anche le analisi attuali richiedono condizioni e incertezze. La storia di Payne offre quindi un esempio concreto di come un dato possa cambiare significato quando si comprende meglio il processo che lo produce."
+        ]
+      },
+      {
+        "title": "Un contributo che apre un percorso",
+        "paragraphs": [
+          "Payne lavorò anche su stelle variabili e altri problemi astronomici, con una carriera più ampia della sola tesi celebre. Nel glossario la sua figura può accompagnare il lettore dalla classificazione degli spettri alla spiegazione della loro origine. Il passaggio da riconoscere una firma a misurare una composizione richiede idee fisiche, non soltanto un catalogo più lungo. Ricostruire questo percorso conserva l’emozione della scoperta e rende visibile il lavoro necessario a sostenerla scientificamente."
+        ]
+      }
+    ],
+    "facts": [
+      "L’intensità di una riga non dipende soltanto dall’abbondanza dell’elemento"
+    ],
+    "example": "L’intensità di una riga non dipende soltanto dall’abbondanza dell’elemento",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/cecilia-helena-payne-gaposkin/"
+      },
+      {
+        "title": "Harvard · contributi e documenti di Payne-Gaposchkin",
+        "url": "https://library.cfa.harvard.edu/women-at-hco/cecilia-payne-gaposchkin"
+      },
+      {
+        "title": "Harvard Plate Stacks · formazione e tesi",
+        "url": "https://platestacks.cfa.harvard.edu/cecilia-payne-gaposchkin/education-and-doctoral-thesis"
+      }
+    ],
+    "aliases": [
+      "Cecilia Payne",
+      "Cecilia Payne-Gaposchkin",
+      "Payne Gaposchkin"
+    ]
   },
   {
     "id": "penombra",
@@ -18896,6 +27879,64 @@ window.AdAstraGlossary = [
         "title": "Treccani · riferimento terminologico",
         "url": "https://www.treccani.it/enciclopedia/apogeo/"
       }
+    ]
+  },
+  {
+    "id": "periodo-chimico",
+    "name": "Periodo della tavola periodica",
+    "definition": "Un periodo è una riga della tavola periodica, nella quale gli elementi sono disposti in ordine di numero atomico crescente.",
+    "source": "https://www.treccani.it/enciclopedia/elementi-chimici-origine-e-natura_(Enciclopedia-della-Scienza-e-della-Tecnica)/",
+    "lesson": "lezione-4-3.html",
+    "related": [
+      "tavola-periodica",
+      "gruppo-periodico",
+      "numero-atomico"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Il percorso lungo una riga",
+        "paragraphs": [
+          "Nella tavola periodica un periodo è una riga orizzontale. Procedendo lungo di essa cresce il numero di protoni del nucleo e, per atomi neutri, cresce anche il numero totale degli elettroni. Non si sta descrivendo un cambiamento spontaneo di un atomo nel tempo: si confrontano elementi differenti. Il termine periodo ha qui un significato di classificazione e non indica una durata, come il periodo orbitale di un pianeta o la pulsazione di una stella."
+        ]
+      },
+      {
+        "title": "Il rapporto con gli stati elettronici",
+        "paragraphs": [
+          "La periodicità delle proprietà è collegata al riempimento degli stati elettronici. La lunghezza delle righe non è uguale per tutti i periodi, perché il quadro degli stati disponibili è più articolato di una semplice serie di scatole identiche. Nell’introduzione è sufficiente riconoscere che la struttura elettronica impone regolarità, senza immaginare orbite circolari rigide degli elettroni. Un diagramma utile deve distinguere lo schema della tavola dal modello fisico dell’atomo che ne spiega l’organizzazione."
+        ]
+      },
+      {
+        "title": "Proprietà che cambiano lungo il periodo",
+        "paragraphs": [
+          "Raggio atomico, tendenza a perdere elettroni e carattere chimico mostrano andamenti generali lungo molte righe. Queste tendenze non trasformano la tavola in una scala unica dalla sostanza migliore alla peggiore. Una proprietà deve essere definita e confrontata con condizioni coerenti; le eccezioni contano. Per esempio non è corretto dedurre la densità di ogni elemento soltanto dalla sua posizione più a destra o più a sinistra."
+        ]
+      },
+      {
+        "title": "La grafica non cambia l’identità",
+        "paragraphs": [
+          "Le serie dei lantanidi e degli attinidi vengono spesso collocate sotto il corpo principale per rendere la tavola più compatta. Non sono due collezioni senza rapporto con i periodi ai quali appartengono. Una diversa impaginazione può mostrare lo stesso ordinamento in modo più esteso. Il lettore può orientarsi chiedendo sempre quale sia il numero atomico e quale convenzione grafica venga usata: è più affidabile che memorizzare la posizione di una casella dentro una particolare immagine."
+        ]
+      }
+    ],
+    "facts": [
+      "Il periodo chimico è una riga della tavola, non un intervallo di tempo"
+    ],
+    "example": "Il periodo chimico è una riga della tavola, non un intervallo di tempo",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/elementi-chimici-origine-e-natura_(Enciclopedia-della-Scienza-e-della-Tecnica)/"
+      },
+      {
+        "title": "Università di Camerino · significato dei periodi",
+        "url": "https://tavolaperiodica.unicam.it/introduzione.html"
+      }
+    ],
+    "linkNames": [
+      "periodo della tavola periodica",
+      "periodi della tavola periodica"
     ]
   },
   {
@@ -19139,6 +28180,64 @@ window.AdAstraGlossary = [
     ],
     "aliases": [
       "perturbazioni orbitali"
+    ]
+  },
+  {
+    "id": "peso",
+    "name": "Peso",
+    "definition": "Il peso è una forza legata alla gravità locale; nel modello introduttivo vicino alla superficie di un corpo si scrive P = m × g, distinguendolo dalla massa.",
+    "source": "https://www.treccani.it/enciclopedia/peso/",
+    "lesson": "lezione-3-6.html",
+    "related": [
+      "massa",
+      "newton-unita",
+      "principio-equivalenza"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Massa e forza sono grandezze diverse",
+        "paragraphs": [
+          "La massa si misura in chilogrammi, mentre il peso, essendo una forza, si misura in newton. Nel linguaggio quotidiano le due parole vengono spesso scambiate perché sulla stessa superficie terrestre il loro rapporto cambia poco. Il confronto con altri mondi rende visibile la differenza: portare un oggetto sulla Luna non cambia per questo la sua massa, mentre cambia la forza gravitazionale locale che agisce su di esso."
+        ]
+      },
+      {
+        "title": "La formula letta per parole",
+        "paragraphs": [
+          "Nella relazione P = m × g, P indica l’intensità del peso, m la massa e g l’accelerazione di gravità locale. Vicino alla superficie terrestre si usa spesso g circa 9,8 metri al secondo quadrato. Un oggetto di un chilogrammo ha quindi un peso di circa 9,8 newton in quelle condizioni. Il valore non è universale: località, altitudine e corpo celeste considerato fanno parte del problema. Anche le convenzioni sui piccoli effetti della rotazione devono essere coerenti."
+        ]
+      },
+      {
+        "title": "Che cosa sente un osservatore",
+        "paragraphs": [
+          "Il peso apparente è collegato alla forza di sostegno percepita o misurata, per esempio da una piattaforma. Può cambiare se il sistema accelera. In caduta libera gli oggetti possono apparire senza peso pur trovandosi ancora in un campo gravitazionale intenso. Perciò gli astronauti in orbita non galleggiano semplicemente perché la gravità sia scomparsa. La distinzione tra attrazione e sostegno evita un equivoco frequente nelle immagini della vita a bordo di una stazione spaziale."
+        ]
+      },
+      {
+        "title": "Un dato da usare nel contesto",
+        "paragraphs": [
+          "Quando si descrive un esperimento bisogna chiarire se si parli di massa, forza gravitazionale o lettura di una bilancia. Un numero in chilogrammi su uno strumento non autorizza a chiamare chilogrammo l’unità SI di forza. La distinzione non appesantisce la spiegazione: permette di collegare esperienza quotidiana e dinamica orbitale con poche parole precise. La domanda utile è quale interazione o quale proprietà dell’oggetto si stia realmente cercando di misurare."
+        ]
+      }
+    ],
+    "facts": [
+      "Un chilogrammo è un’unità di massa; un newton è un’unità di forza"
+    ],
+    "example": "Un chilogrammo è un’unità di massa; un newton è un’unità di forza",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/peso/"
+      },
+      {
+        "title": "NASA · gravità e accelerazione in orbita",
+        "url": "https://science.nasa.gov/learn/basics-of-space-flight/chapter3-3/"
+      }
+    ],
+    "linkNames": [
+      "forza peso",
+      "forza-peso"
     ]
   },
   {
@@ -19417,6 +28516,135 @@ window.AdAstraGlossary = [
         "title": "Treccani · riferimento terminologico",
         "url": "https://www.treccani.it/enciclopedia/pixel/"
       }
+    ]
+  },
+  {
+    "id": "planck-max",
+    "name": "Planck, Max",
+    "definition": "Max Planck (1858–1947) fu il fisico che nel 1900 introdusse un’ipotesi di quantizzazione nello studio della radiazione del corpo nero, aprendo un passaggio decisivo verso la fisica quantistica.",
+    "source": "https://www.treccani.it/enciclopedia/max-karl-ernst-ludwig-planck/",
+    "lesson": "lezione-4-3.html",
+    "related": [
+      "corpo-nero",
+      "costante-planck",
+      "quantizzazione"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un problema concreto della radiazione",
+        "paragraphs": [
+          "Un corpo caldo emette radiazione con una distribuzione che dipende dalle sue condizioni. Alla fine dell’Ottocento comprendere lo spettro del corpo nero era un problema teorico e sperimentale importante. Planck cercò una descrizione capace di accordarsi con i dati. La svolta non nacque dal desiderio di assegnare un nome nuovo al mistero, ma dal confronto fra leggi proposte, misure e difficoltà delle spiegazioni disponibili."
+        ]
+      },
+      {
+        "title": "Il passaggio del 1900",
+        "paragraphs": [
+          "Nel percorso verso la legge che porta il suo nome, Planck introdusse elementi discreti di energia proporzionali alla frequenza. La costante h fissa la proporzionalità. La storia non coincide con l’introduzione immediata di tutta la meccanica quantistica moderna, sviluppata successivamente da molti autori. Neppure va attribuita a Planck nella stessa forma la successiva interpretazione einsteiniana del quanto di luce. Riconoscere le tappe rende più chiaro il significato dei contributi."
+        ]
+      },
+      {
+        "title": "Perché interessa le stelle",
+        "paragraphs": [
+          "Le leggi della radiazione termica permettono di collegare spettro e temperatura nel modello appropriato. Le stelle reali non sono corpi neri perfetti e presentano righe, atmosfere e altre proprietà. Il contributo di Planck offre una base, non una scorciatoia per leggere qualunque colore fotografico come temperatura esatta. La fisica del continuo e quella delle righe si completano quando si vuole passare dalla luce ricevuta alle condizioni della sorgente."
+        ]
+      },
+      {
+        "title": "Il nome in contesti differenti",
+        "paragraphs": [
+          "Planck può indicare la persona, la costante, una legge o la missione spaziale dedicata alle microonde. Non sono oggetti equivalenti. Il fisico ricevette il Nobel per la fisica del 1918 per il contributo alla teoria quantistica. Nel glossario la biografia collega queste voci senza confonderle: un problema sulla radiazione dei corpi caldi contribuì a cambiare la descrizione della materia e lasciò strumenti concettuali oggi utilizzati per studiare anche il cielo più lontano."
+        ]
+      }
+    ],
+    "facts": [
+      "Max Planck, costante di Planck e missione Planck sono riferimenti distinti"
+    ],
+    "example": "Max Planck, costante di Planck e missione Planck sono riferimenti distinti",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/max-karl-ernst-ludwig-planck/"
+      },
+      {
+        "title": "University of St Andrews · Planck e la radiazione del corpo nero",
+        "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Planck/"
+      },
+      {
+        "title": "Nobel Prize · premio per la fisica 1918",
+        "url": "https://www.nobelprize.org/prizes/physics/1918/planck/facts/"
+      }
+    ],
+    "aliases": [
+      "Max Planck"
+    ],
+    "linkNames": [
+      "Max Planck"
+    ]
+  },
+  {
+    "id": "planck-missione",
+    "name": "Planck, missione spaziale",
+    "definition": "Planck fu una missione ESA dedicata soprattutto alla radiazione cosmica di fondo nelle microonde, con misure delle sue piccole variazioni e della polarizzazione.",
+    "source": "https://www.treccani.it/enciclopedia/cosmologia/",
+    "lesson": "lezione-6-5.html",
+    "related": [
+      "radiazione-cosmica-fondo",
+      "polarizzazione",
+      "costante-planck"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un cielo diverso da quello visibile",
+        "paragraphs": [
+          "La radiazione cosmica di fondo riempie il cielo e conserva informazioni sulle prime fasi osservabili dell’evoluzione cosmica. Planck la studiò nelle microonde. Le mappe note al pubblico non sono fotografie a colori naturali delle prime stelle. I colori rappresentano quantità misurate, spesso piccolissime differenze rispetto a un valore medio. Capire la legenda è quindi indispensabile per non trasformare una mappa fisica in un paesaggio immaginario."
+        ]
+      },
+      {
+        "title": "Separare il fondo dagli altri contributi",
+        "paragraphs": [
+          "Il segnale osservato comprende anche emissioni della nostra Galassia e di altre sorgenti. Misure a frequenze diverse aiutano a distinguere le componenti. Il fondo cosmico non viene ricavato semplicemente cancellando a mano le stelle più luminose. Calibrazione, rumore e modelli della radiazione presente lungo la linea di vista entrano nell’analisi. Le mappe dei contributi galattici hanno inoltre valore scientifico proprio, oltre al ruolo di informazione da separare."
+        ]
+      },
+      {
+        "title": "Dalle fluttuazioni ai parametri",
+        "paragraphs": [
+          "Le caratteristiche statistiche della mappa vengono confrontate con modelli cosmologici per stimare parametri e verificarne la coerenza. I valori ottenuti non sono letture dirette di un quadrante che mostri l’età dell’Universo. Dipendono dal quadro assunto e dalle incertezze. La polarizzazione aggiunge informazioni differenti da quelle della sola intensità. Il risultato più utile da ricordare è il metodo: un segnale distribuito su tutto il cielo può porre vincoli alla storia e alla composizione cosmica."
+        ]
+      },
+      {
+        "title": "Archivio e interpretazioni continuano",
+        "paragraphs": [
+          "La fine delle operazioni del satellite non coincide con la fine delle analisi. Prodotti e pubblicazioni successive possono utilizzare gli stessi dati con procedure aggiornate. Anche il nome Planck richiede contesto: può indicare la missione, il fisico Max Planck o la costante che porta il suo nome. Qui riguarda l’osservatorio e il suo archivio. Distinguere questi livelli permette di collegare storia delle idee e misure moderne senza attribuire a un’unica mappa tutte le risposte della cosmologia."
+        ]
+      }
+    ],
+    "facts": [
+      "I colori delle mappe del fondo cosmico rappresentano misure, non colori visibili del cielo primordiale"
+    ],
+    "example": "I colori delle mappe del fondo cosmico rappresentano misure, non colori visibili del cielo primordiale",
+    "sources": [
+      {
+        "title": "Treccani · quadro terminologico generale; dettagli nelle fonti specifiche",
+        "url": "https://www.treccani.it/enciclopedia/cosmologia/"
+      },
+      {
+        "title": "ESA · missione Planck e archivio scientifico",
+        "url": "https://www.esa.int/Science_Exploration/Space_Science/Planck"
+      },
+      {
+        "title": "NRAO · grandezze radiative e lettura delle misure",
+        "url": "https://www.cv.nrao.edu/~sransom/web/Ch2.html"
+      }
+    ],
+    "aliases": [
+      "missione Planck"
+    ],
+    "linkNames": [
+      "missione Planck",
+      "satellite Planck"
     ]
   },
   {
@@ -19887,6 +29115,188 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "positrone",
+    "name": "Positrone",
+    "definition": "Il positrone è l’antiparticella dell’elettrone: possiede la stessa massa e una carica elettrica positiva uguale in valore assoluto a quella dell’elettrone.",
+    "source": "https://www.treccani.it/enciclopedia/positrone/",
+    "lesson": "lezione-10-3.html",
+    "related": [
+      "antimateria",
+      "elettrone",
+      "raggi-gamma"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Positivo non significa protone",
+        "paragraphs": [
+          "Protone e positrone hanno entrambi carica positiva elementare, ma masse e struttura differenti. Il positrone ha massa uguale a quella dell’elettrone ed è la sua antiparticella. Non è un protone alleggerito né un elettrone che abbia cambiato segno per una normale reazione chimica. Aggiungere o togliere elettroni a un atomo produce ioni; creare un positrone richiede un processo fisico differente, con bilanci energetici appropriati."
+        ]
+      },
+      {
+        "title": "Dove può essere prodotto",
+        "paragraphs": [
+          "Alcuni decadimenti nucleari emettono positroni. Sono possibili anche altri processi, come la produzione di coppie nelle condizioni consentite. In un decadimento non bisogna immaginare il positrone come un piccolo oggetto già parcheggiato nel nucleo e poi espulso senza trasformazioni. Le particelle iniziali e finali devono essere descritte correttamente. Anche nell’ambiente cosmico la presenza di positroni va collegata al meccanismo che li genera e alla successiva propagazione."
+        ]
+      },
+      {
+        "title": "La firma dell’annichilazione",
+        "paragraphs": [
+          "Quando un positrone incontra un elettrone, l’annichilazione può produrre fotoni. Nel caso semplice di una coppia quasi a riposo che produce due fotoni, ciascuno ha energia di circa cinquecentoundici chiloelettronvolt. Le condizioni del mezzo possono modificare il profilo e i canali osservati. Quel numero è un’energia, non una lunghezza d’onda o una temperatura. Lo spettro fornisce quindi informazioni da interpretare, non l’immagine diretta di due particelle visibili che si urtano."
+        ]
+      },
+      {
+        "title": "Dalla misura alla sorgente",
+        "paragraphs": [
+          "Raggi cosmici e osservazioni gamma permettono di studiare fenomeni legati ai positroni. La sorgente non viene identificata automaticamente dalla sola presenza della particella o della sua firma. Modelli di produzione, trasporto e annichilazione devono essere confrontati con più dati. Nel percorso divulgativo conviene partire dal confronto con elettrone e protone, poi seguire la trasformazione e la radiazione prodotta. In questo modo un termine specialistico diventa una chiave per leggere un’osservazione reale senza promesse sproporzionate."
+        ]
+      }
+    ],
+    "facts": [
+      "Il positrone ha la massa dell’elettrone, non quella del protone"
+    ],
+    "example": "Il positrone ha la massa dell’elettrone, non quella del protone",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/positrone/"
+      },
+      {
+        "title": "CERN · antiparticelle e annichilazione",
+        "url": "https://home.cern/science/physics/antimatter"
+      }
+    ],
+    "aliases": [
+      "positroni",
+      "antielettrone"
+    ]
+  },
+  {
+    "id": "potassio",
+    "name": "Potassio",
+    "definition": "Il potassio è l’elemento di numero atomico 19, simbolo K. Il suo isotopo radioattivo potassio-40 è importante per il calore interno dei corpi rocciosi e per alcuni metodi di datazione.",
+    "source": "https://www.treccani.it/enciclopedia/potassio/",
+    "lesson": "lezione-3-2.html",
+    "related": [
+      "argon",
+      "radioattivita",
+      "datazione-radiometrica"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "La sigla non segue il nome italiano",
+        "paragraphs": [
+          "Il simbolo K deriva dalla denominazione Kalium. Diciannove protoni identificano il potassio, mentre il numero dei neutroni distingue gli isotopi. Nelle rocce l’elemento è presente in composti e minerali, non necessariamente come metallo puro. Anche proprietà biologiche o usi terrestri non descrivono automaticamente il suo ruolo geologico. La tavola periodica fornisce l’identità dell’ingrediente, ma il materiale richiede sapere con quali altre specie sia associato."
+        ]
+      },
+      {
+        "title": "Una parte è radioattiva",
+        "paragraphs": [
+          "Il potassio naturale comprende una piccola componente di potassio-40, radionuclide con tempo di dimezzamento dell’ordine del miliardo di anni. I suoi canali di trasformazione non producono tutti lo stesso elemento finale: uno porta ad argon-40 e un altro a calcio-40. Non è quindi corretto trattare il solo prodotto argon come esito di ogni decadimento. I bilanci e i metodi quantitativi devono utilizzare lo schema appropriato."
+        ]
+      },
+      {
+        "title": "La roccia come archivio del tempo",
+        "paragraphs": [
+          "Le misure collegate al sistema potassio–argon permettono di stimare età di materiali adatti. Curiosity ha effettuato misure utilizzate per una datazione di una roccia marziana. Il valore non rappresenta la data di comparsa di ogni parte di Marte. Interpretazione del campione, gas intrappolato o perso e incertezze fanno parte del risultato. L’orologio isotopico è potente proprio perché viene controllato, non perché funzioni indipendentemente dalla storia del materiale."
+        ]
+      },
+      {
+        "title": "Energia che continua nel tempo",
+        "paragraphs": [
+          "I decadimenti degli elementi radioattivi contribuiscono al bilancio termico dei corpi rocciosi. Il potassio è uno degli ingredienti, insieme ad altre sorgenti e ai processi di trasferimento del calore. Una quantità elementare non determina da sola temperatura o attività geologica. La voce collega quindi due domande differenti: da dove proviene parte dell’energia interna e quali trasformazioni permettono di misurare il tempo. Lo stesso nuclide entra in entrambe, ma i modelli e le misure restano distinti."
+        ]
+      }
+    ],
+    "facts": [
+      "Il potassio-40 ha più canali di decadimento: non produce soltanto argon-40"
+    ],
+    "example": "Il potassio-40 ha più canali di decadimento: non produce soltanto argon-40",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/potassio/"
+      },
+      {
+        "title": "RSC · potassio",
+        "url": "https://periodic-table.rsc.org/element/19/potassium"
+      },
+      {
+        "title": "NASA · datazione di una roccia su Marte",
+        "url": "https://science.nasa.gov/resource/measuring-the-age-of-a-rock-on-mars/"
+      },
+      {
+        "title": "Smithsonian · metodo potassio–argon",
+        "url": "https://humanorigins.si.edu/evidence/dating"
+      }
+    ]
+  },
+  {
+    "id": "potenza-fisica",
+    "name": "Potenza fisica",
+    "definition": "La potenza indica l’energia trasferita o trasformata nell’unità di tempo; nel Sistema internazionale si misura in watt, equivalenti a joule al secondo.",
+    "source": "https://www.treccani.it/enciclopedia/potenza_(Dizionario-delle-Scienze-Fisiche)/",
+    "lesson": "lezione-4-2.html",
+    "related": [
+      "watt",
+      "energia",
+      "luminosita"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Quanto rapidamente passa l’energia",
+        "paragraphs": [
+          "Due dispositivi possono trasferire la stessa energia impiegando tempi diversi. Quello che la trasferisce più rapidamente ha maggiore potenza media. Il concetto non indica quanta energia sia disponibile in totale: una batteria piccola può fornire per poco tempo una potenza elevata. Distinguere quantità e ritmo è utile sia per una stella sia per gli strumenti che portiamo sul campo, dove alimentazione, consumo e durata della sessione sono domande differenti."
+        ]
+      },
+      {
+        "title": "Un esempio senza formule nascoste",
+        "paragraphs": [
+          "Potenza media = energia trasferita divisa per tempo trascorso. Un sistema che trasferisce 600 joule in 60 secondi sviluppa in media 10 watt. Il valore medio non dimostra che la potenza sia stata sempre uguale durante il minuto. Se il processo varia, può avere picchi e pause. Quando si legge una specifica tecnica occorre quindi capire se sia dichiarato un valore nominale, massimo o misurato in particolari condizioni di funzionamento."
+        ]
+      },
+      {
+        "title": "La luminosità di una stella è una potenza",
+        "paragraphs": [
+          "La luminosità astronomica descrive l’energia emessa nell’unità di tempo, complessivamente o in una banda dichiarata. Il flusso ricevuto da noi è un’altra grandezza, legata anche alla distanza e alla propagazione della luce. Una stella che appare debole non è necessariamente poco potente. Questa distinzione permette di leggere le immagini del cielo senza attribuire direttamente alla luminosità intrinseca ogni differenza di brillantezza registrata dalla fotografia."
+        ]
+      },
+      {
+        "title": "La parola dipende dal contesto",
+        "paragraphs": [
+          "In matematica potenza indica un’operazione; in ottica può comparire in espressioni con significato diverso dalla potenza energetica. Il glossario specifica qui il significato fisico legato all’energia per tempo. Anche watt e wattora non vanno scambiati: il watt misura potenza, il wattora energia. Con condizioni e unità esplicite, un termine che sembra generico diventa una guida concreta per confrontare sorgenti luminose, consumi degli strumenti e trasformazioni energetiche nello spazio."
+        ]
+      }
+    ],
+    "facts": [
+      "600 J trasferiti in 60 s corrispondono a una potenza media di 10 W"
+    ],
+    "example": "600 J trasferiti in 60 s corrispondono a una potenza media di 10 W",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/potenza_(Dizionario-delle-Scienze-Fisiche)/"
+      },
+      {
+        "title": "BIPM · unità del Sistema internazionale",
+        "url": "https://www.bipm.org/en/measurement-units"
+      }
+    ],
+    "aliases": [
+      "potenza energetica"
+    ],
+    "linkNames": [
+      "potenza media",
+      "potenza emessa",
+      "potenza fisica"
+    ]
+  },
+  {
     "id": "precessione",
     "name": "Precessione",
     "definition": "In astronomia la precessione comprende cambiamenti lenti dell’orientamento dei riferimenti terrestri e orbitali; la precessione dell’asse terrestre modifica nel tempo le direzioni dei poli celesti.",
@@ -19935,6 +29345,68 @@ window.AdAstraGlossary = [
         "title": "Treccani · riferimento terminologico",
         "url": "https://www.treccani.it/enciclopedia/nutazione/"
       }
+    ]
+  },
+  {
+    "id": "precisione-misura",
+    "name": "Precisione di misura",
+    "definition": "La precisione di misura riguarda la concordanza tra risultati ottenuti ripetendo misure sullo stesso oggetto, o su oggetti simili, in condizioni dichiarate.",
+    "source": "https://www.treccani.it/enciclopedia/misura/",
+    "lesson": "lezione-9-4.html",
+    "related": [
+      "accuratezza-misura",
+      "ripetibilita",
+      "incertezza-misura"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Quanto si raccolgono i risultati",
+        "paragraphs": [
+          "Se più letture della stessa grandezza risultano molto vicine, la serie presenta una piccola dispersione nelle condizioni considerate. Questo è il nucleo del concetto di precisione metrologica. Non dice ancora quanto i risultati siano vicini al valore vero. Il lessico quotidiano spesso sovrappone queste due idee; in una spiegazione scientifica conviene separarle. Una figura con punti raccolti deve quindi mostrare anche quale riferimento venga usato, se vuole discutere entrambe le proprietà."
+        ]
+      },
+      {
+        "title": "Le condizioni fanno parte della frase",
+        "paragraphs": [
+          "Ripetere una misura con lo stesso strumento in pochi minuti e ripeterla con strumenti differenti in più osservatori non sono confronti equivalenti. La dispersione dipende anche da quali condizioni siano mantenute o cambiate. Dire soltanto misura precisa, senza spiegare il contesto, lascia aperta una parte essenziale dell’informazione. La precisione può essere espressa attraverso misure della dispersione, ma il numero acquista significato soltanto insieme alla descrizione delle prove dalle quali deriva."
+        ]
+      },
+      {
+        "title": "Un esempio con immagini stellari",
+        "paragraphs": [
+          "Supponiamo che un programma misuri ripetutamente il centro di una stella in immagini simili. Posizioni molto vicine indicano buona concordanza della serie. Se tutte le immagini hanno però una trasformazione geometrica scorretta, la posizione nel catalogo può restare sistematicamente spostata. Il modello separa così due verifiche: stabilità della misura e correttezza del riferimento. Aggiungere fotografie può migliorare alcuni aspetti statistici senza risolvere automaticamente un errore comune a tutte le immagini."
+        ]
+      },
+      {
+        "title": "Più cifre non sono più precisione",
+        "paragraphs": [
+          "Scrivere ulteriori decimali non modifica la dispersione fisica delle osservazioni. La formattazione del software può dare un’impressione di controllo che i dati non sostengono. Per valutare il risultato servono prove e stime, non soltanto un display dettagliato. Nel diario osservativo è spesso più utile annotare metodo e condizioni che copiare tutte le cifre disponibili. Precisione, accuratezza e incertezza sono concetti collegati, ma nessuno di essi può sostituire gli altri senza spiegazione."
+        ]
+      }
+    ],
+    "facts": [
+      "La precisione riguarda la dispersione delle misure, non il numero di decimali stampati"
+    ],
+    "example": "La precisione riguarda la dispersione delle misure, non il numero di decimali stampati",
+    "sources": [
+      {
+        "title": "Treccani · quadro terminologico generale; dettagli nelle fonti specifiche",
+        "url": "https://www.treccani.it/enciclopedia/misura/"
+      },
+      {
+        "title": "JCGM · VIM, precisione di misura, voce 2.15",
+        "url": "https://www.bipm.org/documents/20126/2071204/JCGM_200_2012.pdf"
+      },
+      {
+        "title": "NIST · terminologia della misura",
+        "url": "https://www.nist.gov/pml/nist-technical-note-1297/nist-tn-1297-appendix-d1-terminology"
+      }
+    ],
+    "linkNames": [
+      "precisione di misura",
+      "precisione della misura"
     ]
   },
   {
@@ -20104,6 +29576,179 @@ window.AdAstraGlossary = [
         "title": "NASA · propulsione e pressione della radiazione",
         "url": "https://www.nasa.gov/smallsat-institute/sst-soa/in-space_propulsion/"
       }
+    ]
+  },
+  {
+    "id": "pressione-parziale",
+    "name": "Pressione parziale",
+    "definition": "La pressione parziale descrive il contributo di un componente di una miscela gassosa; nel modello ideale coincide con la pressione che quel gas eserciterebbe da solo nello stesso volume e alla stessa temperatura.",
+    "source": "https://www.treccani.it/enciclopedia/john-la-legge-di-dalton-dalton_(Enciclopedia-Italiana)/",
+    "lesson": "lezione-3-3.html",
+    "related": [
+      "gas-ideale",
+      "pressione",
+      "massa-molare"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un’atmosfera contiene più ingredienti",
+        "paragraphs": [
+          "Una miscela può comprendere specie gassose differenti. La pressione totale non dice da sola quanto contribuisca ciascuna. La pressione parziale permette di collegare composizione e stato del gas nel modello adottato. Non indica una regione separata del contenitore: le specie possono occupare lo stesso volume. La parola parziale riguarda il contributo alla pressione, non il fatto che un componente rimanga confinato in una porzione geometrica dell’atmosfera."
+        ]
+      },
+      {
+        "title": "La legge di Dalton nel caso ideale",
+        "paragraphs": [
+          "Per una miscela ideale, la pressione totale è la somma delle pressioni parziali. Se due contributi sono 30 e 70 kPa, il totale è 100 kPa. La pressione parziale di una specie è anche la sua frazione molare moltiplicata per la pressione totale. Una frazione molare del 20% a 100 kPa corrisponde quindi a 20 kPa. Non bisogna sostituire senza conversione una percentuale in massa alla frazione molare."
+        ]
+      },
+      {
+        "title": "Una stessa percentuale può dare pressioni diverse",
+        "paragraphs": [
+          "Due atmosfere possono avere la stessa percentuale numerica di una specie ma pressioni totali differenti. Cambia allora la pressione parziale. Una descrizione basata soltanto sulla percentuale non esaurisce quindi le condizioni fisiche. In astronomia servono anche temperatura, struttura e modello dell’atmosfera. Le righe spettrali possono vincolare la composizione, ma non trasformano ogni percentuale ricavata in una misura diretta della pressione parziale a tutte le quote."
+        ]
+      },
+      {
+        "title": "L’ideale va distinto dal reale",
+        "paragraphs": [
+          "La definizione semplice funziona nel quadro delle miscele ideali. Interazioni significative e condizioni lontane da quel regime richiedono trattamenti più accurati. Inoltre una reazione può cambiare il numero e il tipo di particelle presenti. Nel percorso divulgativo questa voce permette di leggere una miscela come insieme di contributi misurabili, mantenendo separate tre domande: quali specie ci sono, quante sono rispetto alle altre e quale pressione esercita complessivamente il gas."
+        ]
+      }
+    ],
+    "facts": [
+      "Nel modello ideale: 20% molare di 100 kPa corrisponde a 20 kPa di pressione parziale"
+    ],
+    "example": "Nel modello ideale: 20% molare di 100 kPa corrisponde a 20 kPa di pressione parziale",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/john-la-legge-di-dalton-dalton_(Enciclopedia-Italiana)/"
+      },
+      {
+        "title": "Università di Verona · gas ideali e composizione",
+        "url": "https://docs.univr.it/documenti/OccorrenzaIns/matdid/matdid715310.pdf"
+      }
+    ]
+  },
+  {
+    "id": "principio-equivalenza",
+    "name": "Principio di equivalenza",
+    "definition": "Il principio di equivalenza collega localmente la descrizione della caduta libera e dei riferimenti accelerati agli effetti della gravità; è un fondamento della relatività generale.",
+    "source": "https://www.treccani.it/enciclopedia/relativita/",
+    "lesson": "lezione-10-3.html",
+    "related": [
+      "accelerazione",
+      "relativita-generale",
+      "massa"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un laboratorio che cade",
+        "paragraphs": [
+          "Immaginiamo una piccola cabina in caduta libera, senza effetti dell’aria. Una persona e gli oggetti liberi cadono insieme e possono apparire sospesi l’uno rispetto agli altri. La gravità terrestre non è scomparsa: il laboratorio segue la caduta. L’esempio permette di comprendere perché galleggiare in una stazione orbitale non significhi trovarsi necessariamente lontano da ogni campo gravitazionale. La condizione del riferimento è parte della spiegazione."
+        ]
+      },
+      {
+        "title": "Il ruolo dell’accelerazione",
+        "paragraphs": [
+          "Una cabina accelerata può produrre effetti locali simili a quelli osservati in un campo gravitazionale appropriato. Il confronto non afferma che accelerazione e gravità siano identiche in ogni regione e su qualsiasi scala. Serve a costruire una relazione fra esperimenti locali e descrizioni del moto. La parola locale è essenziale: il laboratorio deve essere abbastanza piccolo e il tempo abbastanza breve da rendere trascurabili gli effetti che distinguono parti differenti del campo."
+        ]
+      },
+      {
+        "title": "Le maree indicano il limite",
+        "paragraphs": [
+          "Due oggetti separati possono cadere lungo direzioni o con accelerazioni leggermente differenti in un campo non uniforme. Questi effetti di marea non vengono eliminati semplicemente scegliendo una cabina in caduta libera molto estesa. Per questo l’esperimento mentale non prova che sia impossibile rilevare qualsiasi proprietà gravitazionale in qualunque laboratorio. Il limite dell’analogia introduce invece il ruolo della curvatura e rende più precisa la transizione verso la relatività generale."
+        ]
+      },
+      {
+        "title": "Dalla regola al controllo sperimentale",
+        "paragraphs": [
+          "L’universalità della caduta libera viene verificata confrontando corpi con proprietà differenti nelle condizioni appropriate. Nella fisica ordinaria gli effetti dell’aria possono nascondere il confronto e vanno separati. Il principio non autorizza quindi a ignorare qualsiasi forza aggiuntiva. Nel percorso divulgativo offre una domanda memorabile: ciò che sento come peso dipende soltanto dalla presenza della Terra o anche da come sono sostenuto e mi muovo? La risposta richiede distinguere gravità, appoggio e riferimento."
+        ]
+      }
+    ],
+    "facts": [
+      "L’equivalenza è locale: gli effetti di marea richiedono una descrizione ulteriore"
+    ],
+    "example": "L’equivalenza è locale: gli effetti di marea richiedono una descrizione ulteriore",
+    "sources": [
+      {
+        "title": "Treccani · quadro terminologico generale; dettagli nelle fonti specifiche",
+        "url": "https://www.treccani.it/enciclopedia/relativita/"
+      },
+      {
+        "title": "Einstein Online · ascensore, razzo e principio di equivalenza",
+        "url": "https://www.einstein-online.info/en/spotlight/equivalence_principle/"
+      },
+      {
+        "title": "University of Washington · verifica della caduta universale",
+        "url": "https://www.npl.washington.edu/eotwash/equivalence-principle"
+      }
+    ]
+  },
+  {
+    "id": "profondita-ottica",
+    "name": "Profondità ottica",
+    "definition": "La profondità ottica misura quanto un mezzo ostacola la propagazione della radiazione lungo un percorso e a una frequenza specificata; è una grandezza senza unità.",
+    "source": "https://www.treccani.it/enciclopedia/opacita/",
+    "lesson": "lezione-5-4.html",
+    "related": [
+      "opacita",
+      "trasporto-radiativo",
+      "densita-colonna"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "La trasparenza non dipende solo dai chilometri",
+        "paragraphs": [
+          "Due strati con lo stesso spessore geometrico possono lasciar passare quantità di luce molto diverse. La profondità ottica tiene conto delle proprietà di interazione e del materiale attraversato. Non è una distanza misurata in metri né il luogo dove una fotografia va a fuoco. Il nome descrive una misura dell’effetto sul segnale lungo la linea di vista, che deve essere riferita alla radiazione considerata."
+        ]
+      },
+      {
+        "title": "Sottile e spesso in senso radiativo",
+        "paragraphs": [
+          "Se la profondità ottica è molto piccola rispetto a uno, si parla di mezzo otticamente sottile nel caso considerato. Se è molto grande, il mezzo è otticamente spesso. Le parole non descrivono necessariamente la sua forma geometrica. Uno strato vastissimo ma rarefatto può essere sottile a una frequenza e spesso a un’altra. Nelle righe spettrali e nel continuo, le condizioni possono quindi essere differenti per lo stesso oggetto."
+        ]
+      },
+      {
+        "title": "Un esempio di attenuazione con un limite",
+        "paragraphs": [
+          "Per un fascio che viene soltanto attenuato, senza contributi aggiuntivi lungo il percorso, una profondità ottica pari a uno lascia circa il 37% dell’intensità iniziale nella direzione considerata. Questo esempio non richiede usare la formula esponenziale. Non va però applicato ignorando emissione propria o luce diffusa verso il fascio. Nelle osservazioni reali il trasferimento radiativo può comprendere tutti questi contributi e richiede un bilancio adeguato."
+        ]
+      },
+      {
+        "title": "Che cosa vediamo di una nube",
+        "paragraphs": [
+          "Se un mezzo è spesso, aumentare il materiale interno non aumenta necessariamente il segnale in proporzione. Alcune regioni possono essere schermate, e la radiazione emergente fornisce informazioni selezionate dalle condizioni del percorso. La profondità ottica aiuta quindi a spiegare perché una fotografia o una singola riga non riveli tutta la massa presente. Il concetto centrale è accessibilità dell’informazione: la materia esiste anche dove la banda osservata non permette di guardarvi attraverso direttamente."
+        ]
+      }
+    ],
+    "facts": [
+      "Profondità ottica 1: circa 37% trasmesso nel modello di sola attenuazione"
+    ],
+    "example": "Profondità ottica 1: circa 37% trasmesso nel modello di sola attenuazione",
+    "sources": [
+      {
+        "title": "Treccani · quadro terminologico generale; dettagli nelle fonti specifiche",
+        "url": "https://www.treccani.it/enciclopedia/opacita/"
+      },
+      {
+        "title": "NRAO · fondamenti del trasferimento radiativo",
+        "url": "https://www.cv.nrao.edu/~sransom/web/Ch2.html"
+      },
+      {
+        "title": "INAF Capodimonte · funzione sorgente e profondità ottica",
+        "url": "https://www.oacn.inaf.it/wp-content/uploads/2022/11/Seminario-Lucio-Crivellari-RB003.pdf"
+      }
+    ],
+    "aliases": [
+      "spessore ottico"
     ]
   },
   {
@@ -20802,6 +30447,64 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "quark",
+    "name": "Quark",
+    "definition": "I quark sono particelle elementari del Modello standard che partecipano all’interazione forte; protoni e neutroni sono sistemi composti che li contengono.",
+    "source": "https://www.treccani.it/enciclopedia/quark/",
+    "lesson": "lezione-6-5.html",
+    "related": [
+      "protone",
+      "neutrone",
+      "gluone"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Dentro i costituenti del nucleo",
+        "paragraphs": [
+          "L’atomo contiene un nucleo e una componente elettronica; il nucleo contiene protoni e neutroni. Questi ultimi non sono, a loro volta, particelle elementari: possiedono una struttura descritta attraverso quark, antiquark e gluoni. Lo schema a livelli aiuta a orientarsi, purché non venga interpretato come una serie di palline rigide infilate l’una nell’altra. A scale molto piccole la descrizione è quantistica e le immagini servono soltanto come mappe concettuali."
+        ]
+      },
+      {
+        "title": "Sei tipi e nomi convenzionali",
+        "paragraphs": [
+          "Si distinguono sei tipi, tradizionalmente chiamati sapori: up, down, charm, strange, top e bottom. I nomi non descrivono un sapore materiale o una posizione alto/basso nel nucleo. I quark up e down entrano nella descrizione dei nucleoni ordinari. Anche la carica di colore è un nome tecnico e non un colore visibile. Confondere queste etichette con proprietà quotidiane porta a immagini suggestive ma fisicamente sbagliate."
+        ]
+      },
+      {
+        "title": "Non tre ingredienti immobili",
+        "paragraphs": [
+          "La rappresentazione di un protone come due quark up e uno down riassume il suo contenuto di valenza. Non descrive tutta la dinamica interna come tre oggetti fermi separati da spazio vuoto. L’interazione forte e i campi contribuiscono alle proprietà del sistema. I quark non vengono osservati isolati come ingredienti staccati da un nucleo nelle condizioni ordinarie: la nozione di confinamento è parte essenziale del quadro fisico."
+        ]
+      },
+      {
+        "title": "Perché compaiono in cosmologia",
+        "paragraphs": [
+          "Lo studio della materia a temperature e densità estreme permette di affrontare condizioni differenti da quelle della materia ordinaria attuale. Gli esperimenti sulle collisioni di ioni pesanti esplorano stati di quark e gluoni e contribuiscono alla comprensione della fisica dell’Universo primordiale. Non ricreano un intero Universo in miniatura. La voce collega la struttura della materia alle domande cosmiche, mantenendo distinta l’evidenza sperimentale dai modelli che ne utilizzano i risultati."
+        ]
+      }
+    ],
+    "facts": [
+      "Sapori e colori dei quark sono termini tecnici, non qualità percepibili dai sensi"
+    ],
+    "example": "Sapori e colori dei quark sono termini tecnici, non qualità percepibili dai sensi",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/quark/"
+      },
+      {
+        "title": "CERN · particelle e interazioni nel Modello standard",
+        "url": "https://home.cern/science/physics/standard-model"
+      },
+      {
+        "title": "CERN · materia di quark e gluoni",
+        "url": "https://home.cern/science/physics/heavy-ions-and-quark-gluon-plasma/"
+      }
+    ]
+  },
+  {
     "id": "quasar",
     "name": "Quasar",
     "definition": "Un quasar è un nucleo galattico attivo molto luminoso, alimentato dall’accrescimento di materia attorno a un buco nero supermassiccio.",
@@ -21083,6 +30786,126 @@ window.AdAstraGlossary = [
         "title": "Treccani · riferimento terminologico",
         "url": "https://www.treccani.it/enciclopedia/radiazione/"
       }
+    ]
+  },
+  {
+    "id": "radicale-chimico",
+    "name": "Radicale chimico",
+    "definition": "Nel significato moderno qui adottato, un radicale è una specie chimica con uno o più elettroni spaiati.",
+    "source": "https://www.treccani.it/enciclopedia/radicale/",
+    "lesson": "lezione-3-6.html",
+    "related": [
+      "elettrone",
+      "molecola",
+      "ione"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un elettrone senza il proprio compagno di occupazione",
+        "paragraphs": [
+          "Gli elettroni negli stati molecolari possono risultare appaiati oppure spaiati. La presenza di elettroni spaiati identifica il radicale nel significato moderno. Non basta dire che è un pezzo di molecola: il termine ha avuto anche usi storici diversi. Una specie radicalica può essere neutra o carica. Radicale e ione non sono quindi categorie equivalenti, anche se una stessa specie può appartenere a entrambe."
+        ]
+      },
+      {
+        "title": "Come può formarsi",
+        "paragraphs": [
+          "La rottura di legami e altre trasformazioni possono produrre radicali. La radiazione è una delle possibili cause nei contesti appropriati, ma non ogni fotone rompe qualunque molecola. Contano energia, canali di assorbimento e ambiente. Una freccia luminosa in una figura deve rappresentare un processo specificato, non una bacchetta che genera sempre gli stessi frammenti. Anche le reazioni successive possono essere veloci o lente secondo le condizioni."
+        ]
+      },
+      {
+        "title": "Reattivo non significa sempre effimero",
+        "paragraphs": [
+          "Molti radicali reagiscono facilmente in condizioni comuni, ma non tutti hanno la stessa stabilità. Un gas interstellare rarefatto può limitare gli incontri, mentre la radiazione può favorire distruzione o produzione. Non è corretto dedurre la durata della specie dalla sola parola radicale. Alcuni radicali possiedono firme spettroscopiche utili a studiare il mezzo interstellare. Il riconoscimento richiede confronto con dati di laboratorio e con le possibili righe di altre specie presenti nello stesso spettro."
+        ]
+      },
+      {
+        "title": "Una tessera della rete chimica",
+        "paragraphs": [
+          "Nel cielo la composizione non è un elenco statico di molecole: formazione e distruzione possono procedere contemporaneamente. I radicali aiutano a comprendere questo carattere dinamico. Una buona spiegazione collega elettrone spaiato, reazioni possibili e osservazioni, senza attribuire automaticamente a ogni specie la stessa aggressività o un significato biologico. Nel diagramma mantieni distinti i segni di carica e quelli che indicano elettroni spaiati, perché comunicano proprietà fisiche differenti della specie."
+        ]
+      }
+    ],
+    "facts": [
+      "Radicale non significa necessariamente ione e non implica sempre una durata brevissima"
+    ],
+    "example": "Radicale non significa necessariamente ione e non implica sempre una durata brevissima",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/radicale/"
+      },
+      {
+        "title": "IUPAC · definizione di radicale",
+        "url": "https://goldbook.iupac.org/terms/view/R05066"
+      }
+    ],
+    "aliases": [
+      "radicali chimici",
+      "radicale libero",
+      "radicali liberi"
+    ]
+  },
+  {
+    "id": "radioattivita",
+    "name": "Radioattività",
+    "definition": "La radioattività è l’insieme dei processi spontanei nei quali nuclei instabili si trasformano emettendo particelle o radiazione. Il singolo processo è chiamato decadimento radioattivo.",
+    "source": "https://www.treccani.it/enciclopedia/radioattivita/",
+    "lesson": "lezione-10-4.html",
+    "related": [
+      "nuclide",
+      "tempo-dimezzamento",
+      "becquerel-unita"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Il cambiamento riguarda il nucleo",
+        "paragraphs": [
+          "Una trasformazione radioattiva non consiste semplicemente nella perdita di elettroni da un atomo. Coinvolge lo stato del nucleo e può produrre un elemento differente oppure un suo stato diverso, secondo il processo. Il linguaggio deve quindi separare decadimento, ionizzazione e reazione chimica. Anche un materiale non luminoso all’occhio può contenere nuclidi radioattivi: l’apparenza visiva non permette di riconoscere da sola le trasformazioni nucleari che avvengono."
+        ]
+      },
+      {
+        "title": "Modi differenti di trasformarsi",
+        "paragraphs": [
+          "Tra i processi si distinguono decadimenti alfa, beta e transizioni con emissione gamma. Non sono tre colori di una medesima luce. Particelle emesse, cariche e bilancio del nucleo cambiano in modi specifici. Una catena può comprendere più passaggi e prodotti successivi anch’essi instabili. Per descriverla serve identificare i nuclidi, non chiamare genericamente radiazione qualsiasi segnale senza spiegare quale trasformazione lo abbia generato."
+        ]
+      },
+      {
+        "title": "Previsioni statistiche per un insieme",
+        "paragraphs": [
+          "Il tempo di decadimento di un singolo nucleo non è una scadenza nota in anticipo. Per un insieme numeroso si descrive invece l’evoluzione statistica attraverso grandezze come attività e tempo di dimezzamento. Questa regolarità permette misure e applicazioni senza rendere deterministico il destino di ogni nucleo. Il materiale non perde metà della propria massa totale a ogni dimezzamento: diminuisce la popolazione del nuclide considerato mentre si formano prodotti."
+        ]
+      },
+      {
+        "title": "Una sorgente di informazione astronomica",
+        "paragraphs": [
+          "I decadimenti contribuiscono a bilanci energetici e segnali di eventi astrofisici e permettono di datare materiali con metodi appropriati. Per collegare una curva luminosa a una catena radioattiva occorrono anche modelli del trasporto dell’energia. Non ogni variazione di luminosità è una misura diretta del decadimento. La voce prepara a seguire la catena fra nucleo, energia e osservazione, mantenendo separate la trasformazione fisica e il modo in cui il suo effetto raggiunge lo strumento."
+        ]
+      }
+    ],
+    "facts": [
+      "Il tempo di dimezzamento descrive un insieme statistico, non la scadenza di ogni singolo nucleo"
+    ],
+    "example": "Il tempo di dimezzamento descrive un insieme statistico, non la scadenza di ogni singolo nucleo",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/radioattivita/"
+      },
+      {
+        "title": "IAEA · radiazione, attività e decadimento",
+        "url": "https://www.iaea.org/sites/default/files/radiation0204.pdf"
+      },
+      {
+        "title": "NASA NTRS · decadimenti e segnali nelle supernovae",
+        "url": "https://ntrs.nasa.gov/citations/19950036388"
+      }
+    ],
+    "aliases": [
+      "decadimento radioattivo"
     ]
   },
   {
@@ -21382,6 +31205,60 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "rame",
+    "name": "Rame",
+    "definition": "Il rame è l’elemento chimico di simbolo Cu e numero atomico 29, un metallo buon conduttore di elettricità e calore, importante anche nei materiali della strumentazione.",
+    "source": "https://www.treccani.it/enciclopedia/rame/",
+    "lesson": "strumentazione.html",
+    "related": [
+      "conduzione-termica",
+      "legame-metallico",
+      "corrente-di-buio"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Una materia riconoscibile",
+        "paragraphs": [
+          "Il rame metallico ha un caratteristico aspetto rossastro ed è duttile e malleabile. Il suo simbolo Cu deriva dal nome latino e non dalle prime due lettere del nome italiano. Un atomo di rame possiede ventinove protoni; nei comuni isotopi stabili cambia il numero di neutroni. Il campione osservato, tuttavia, può essere puro, in lega oppure alterato sulla superficie: il colore visibile non sostituisce un’analisi della composizione."
+        ]
+      },
+      {
+        "title": "Condurre corrente non significa crearla",
+        "paragraphs": [
+          "La struttura elettronica del metallo permette il trasporto di carica e spiega l’impiego del rame nei collegamenti elettrici. Un filo non genera però energia soltanto perché è un buon conduttore. Resistività, dimensioni, temperatura e qualità dei contatti influenzano la caduta di tensione e il riscaldamento. Nella strumentazione astronomica questi aspetti aiutano a capire perché un cavo apparentemente simile a un altro possa avere un comportamento diverso quando alimenta un dispositivo."
+        ]
+      },
+      {
+        "title": "Il percorso del calore",
+        "paragraphs": [
+          "Il rame trasferisce efficacemente energia per conduzione termica e può essere impiegato dove occorre distribuire o allontanare calore. Non è una sorgente naturale di freddo: un componente conduttivo facilita lo scambio secondo differenze di temperatura e condizioni di contatto. Per raffreddare un sensore bisogna considerare l’intero percorso energetico e il sistema che scarica il calore. Il materiale di un singolo pezzo non determina da solo la temperatura finale dell’apparecchio."
+        ]
+      },
+      {
+        "title": "Elemento, lega e composto",
+        "paragraphs": [
+          "Ottone e bronzo sono leghe, mentre gli ossidi e altri sali del rame sono composti con proprietà differenti dal metallo. Una superficie verde non è quindi semplicemente rame metallico dello stesso tipo ma colorato. La distinzione fra elemento e materiale ricorre anche nello studio dei corpi planetari. Nel glossario il rame collega chimica e pratica osservativa: consente di passare dai simboli della tavola periodica alla funzione reale di collegamenti, supporti termici e componenti dello strumento."
+        ]
+      }
+    ],
+    "facts": [
+      "Un buon conduttore termico facilita lo scambio di energia, ma non produce freddo"
+    ],
+    "example": "Un buon conduttore termico facilita lo scambio di energia, ma non produce freddo",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/rame/"
+      },
+      {
+        "title": "RSC · rame e proprietà",
+        "url": "https://periodic-table.rsc.org/element/29/copper"
+      }
+    ]
+  },
+  {
     "id": "rapporto-focale",
     "name": "Rapporto focale",
     "definition": "Il rapporto focale è la lunghezza focale del sistema divisa per il diametro della sua apertura. Si indica comunemente con scritture come f/5 o f/10.",
@@ -21433,6 +31310,67 @@ window.AdAstraGlossary = [
     ],
     "aliases": [
       "rapporti focali"
+    ]
+  },
+  {
+    "id": "rapporto-isotopico",
+    "name": "Rapporto isotopico",
+    "definition": "Un rapporto isotopico confronta le quantità di due isotopi specificati, normalmente attraverso il rapporto fra i rispettivi numeri di atomi.",
+    "source": "https://www.treccani.it/enciclopedia/abbondanza_(Dizionario-delle-Scienze-Fisiche)/",
+    "lesson": "lezione-3-6.html",
+    "related": [
+      "abbondanza-isotopica",
+      "deuterio",
+      "cometa"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Due quantità messe a confronto",
+        "paragraphs": [
+          "Il rapporto D/H indica quanto deuterio viene confrontato con l’idrogeno secondo la convenzione dichiarata. Bisogna precisare se il denominatore rappresenti l’isotopo più comune o il totale adottato nel metodo. Un rapporto fra due isotopi non è automaticamente la frazione di uno rispetto a tutti gli isotopi dell’elemento. Anche invertire numeratore e denominatore cambia il valore, pur partendo dallo stesso campione."
+        ]
+      },
+      {
+        "title": "La misura conserva il proprio contesto",
+        "paragraphs": [
+          "Spettrometria di massa e osservazioni spettroscopiche possono fornire informazioni isotopiche con metodi differenti. Il campione, la specie molecolare e le correzioni applicate fanno parte del risultato. Un rapporto misurato nell’acqua non si trasferisce automaticamente a ogni composto dello stesso ambiente. Anche rapporti espressi rispetto a uno standard richiedono di conoscere quella notazione prima di confrontarli con un semplice conteggio numerico."
+        ]
+      },
+      {
+        "title": "L’acqua del Sistema solare",
+        "paragraphs": [
+          "Il confronto fra acqua terrestre, meteoriti e comete viene usato per studiare possibili contributi all’origine degli oceani. Il rapporto isotopico è un indizio importante, ma non una prova isolata che risolva ogni scenario. Processi chimici, trasporto e condizioni di campionamento possono complicare la lettura. Le revisioni delle misure cometarie mostrano perché una conclusione legata a un’epoca debba essere aggiornata, invece di restare uno slogan immutabile sulla provenienza dell’acqua."
+        ]
+      },
+      {
+        "title": "Confrontare senza forzare una storia",
+        "paragraphs": [
+          "La presenza di intervalli d’incertezza permette di valutare somiglianze e differenze. Due valori vicini non dimostrano che tutti i materiali derivino dallo stesso oggetto; valori differenti possono riflettere processi successivi oltre all’origine. Nel laboratorio si possono confrontare campioni con rapporti dichiarati, distinguendo il risultato numerico dalle ipotesi storiche. Il concetto da fissare è che una proporzione microscopica può essere una traccia preziosa, purché resti collegata alla materia effettivamente analizzata e al metodo utilizzato."
+        ]
+      }
+    ],
+    "facts": [
+      "Somiglianza isotopica è un indizio di confronto, non una prova unica di provenienza"
+    ],
+    "example": "Somiglianza isotopica è un indizio di confronto, non una prova unica di provenienza",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/abbondanza_(Dizionario-delle-Scienze-Fisiche)/"
+      },
+      {
+        "title": "NASA · reinterpretazione dei dati isotopici cometari",
+        "url": "https://science.nasa.gov/solar-system/comets/nasa-led-team-links-comet-water-to-earths-oceans/"
+      },
+      {
+        "title": "IUPAC · abbondanza isotopica",
+        "url": "https://goldbook.iupac.org/terms/view/I03332/pdf"
+      }
+    ],
+    "aliases": [
+      "rapporti isotopici"
     ]
   },
   {
@@ -21496,6 +31434,60 @@ window.AdAstraGlossary = [
     "aliases": [
       "rapporto segnale rumore",
       "SNR"
+    ]
+  },
+  {
+    "id": "reazione-chimica",
+    "name": "Reazione chimica",
+    "definition": "Una reazione chimica trasforma specie reagenti in prodotti mediante cambiamenti dei legami e della distribuzione elettronica, senza modificare l’identità dei nuclei come in una reazione nucleare.",
+    "source": "https://www.treccani.it/enciclopedia/reazione-chimica_(Enciclopedia-dei-ragazzi)/",
+    "lesson": "lezione-5-4.html",
+    "related": [
+      "legame-chimico",
+      "stechiometria",
+      "cinetica-chimica"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Atomi che cambiano organizzazione",
+        "paragraphs": [
+          "In una trasformazione chimica gli atomi vengono riorganizzati in specie differenti. La conservazione degli elementi guida il bilanciamento della reazione: non si possono inventare atomi mancanti per far tornare una formula. Questo non significa che ogni trasformazione sia una semplice permutazione di palline rigide. Legami ed elettroni determinano quali strutture siano possibili e quanto siano stabili. Il disegno introduttivo serve a seguire gli atomi, senza sostituire la descrizione fisica della trasformazione."
+        ]
+      },
+      {
+        "title": "La formula racconta un bilancio",
+        "paragraphs": [
+          "Un’equazione chimica indica specie e proporzioni del cambiamento complessivo. I coefficienti davanti alle formule non hanno lo stesso significato dei pedici interni: due molecole d’acqua non diventano una molecola con una diversa composizione solo perché il totale degli atomi viene scritto in modo compatto. Il bilancio non descrive necessariamente un unico urto elementare. Una trasformazione complessiva può comprendere più passaggi e intermedi che la formula riassuntiva non mostra."
+        ]
+      },
+      {
+        "title": "Energia e tempo sono domande distinte",
+        "paragraphs": [
+          "Per comprendere una reazione bisogna considerare sia il bilancio energetico sia la rapidità con cui procede. Una trasformazione favorevole può essere lenta; un catalizzatore può offrire un percorso diverso senza cambiare da solo l’equilibrio finale a condizioni fissate. La presenza di una freccia non garantisce che il processo avvenga immediatamente in ogni ambiente. Temperatura, pressione, concentrazioni, superfici e radiazione possono influenzare meccanismi e velocità."
+        ]
+      },
+      {
+        "title": "La chimica oltre la Terra",
+        "paragraphs": [
+          "Nubi interstellari, atmosfere e superfici planetarie ospitano condizioni molto differenti da un laboratorio terrestre ordinario. Le reazioni possono coinvolgere ioni, radicali o specie adsorbite sui granuli. Non basta quindi trasferire una ricetta senza considerare densità e tempi disponibili. L’astrochimica studia quali reti di trasformazioni siano compatibili con osservazioni ed esperimenti. Una molecola rilevata è un indizio sulla storia dell’ambiente, ma non rivela da sola tutti i passaggi che l’hanno prodotta."
+        ]
+      }
+    ],
+    "facts": [
+      "I coefficienti di una reazione non vanno confusi con i pedici delle formule"
+    ],
+    "example": "I coefficienti di una reazione non vanno confusi con i pedici delle formule",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/reazione-chimica_(Enciclopedia-dei-ragazzi)/"
+      },
+      {
+        "title": "Treccani · meccanismi e velocità delle reazioni",
+        "url": "https://www.treccani.it/enciclopedia/cinetica-chimica_(Enciclopedia-del-Novecento)/"
+      }
     ]
   },
   {
@@ -21598,6 +31590,125 @@ window.AdAstraGlossary = [
         "title": "Treccani · riferimento terminologico",
         "url": "https://www.treccani.it/enciclopedia/regolite/"
       }
+    ]
+  },
+  {
+    "id": "relativita-generale",
+    "name": "Relatività generale",
+    "definition": "La relatività generale descrive la gravità attraverso la geometria dello spaziotempo, collegata alla distribuzione di materia, energia e alle loro proprietà fisiche.",
+    "source": "https://www.treccani.it/enciclopedia/relativita/",
+    "lesson": "lezione-10-3.html",
+    "related": [
+      "spaziotempo",
+      "principio-equivalenza",
+      "gravitazione"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Una descrizione geometrica della gravità",
+        "paragraphs": [
+          "Nella relatività generale i moti in caduta libera e la propagazione della luce sono legati alla geometria dello spaziotempo. Non basta immaginare una forza classica alla quale si aggiunga un effetto decorativo di curvatura. Il quadro fu sviluppato da Einstein e raggiunse una formulazione decisiva nel 1915. La teoria permette di affrontare fenomeni nei quali la gravità e la relazione fra spazio e tempo richiedono una descrizione più ampia di quella newtoniana."
+        ]
+      },
+      {
+        "title": "Il telo elastico ha limiti",
+        "paragraphs": [
+          "Un telo deformato da una sfera può aiutare a visualizzare una geometria non piatta, ma non è una rappresentazione letterale. Il disegno usa uno spazio esterno e il peso della sfera per produrre la deformazione, mentre la teoria non richiede un pavimento cosmico che tiri verso il basso. Inoltre lo spaziotempo comprende il tempo. L’analogia va quindi accompagnata dalla spiegazione di quali proprietà illustri e di quali non rappresenti."
+        ]
+      },
+      {
+        "title": "Effetti che si possono mettere alla prova",
+        "paragraphs": [
+          "Deviazione della luce, differenze fra ritmi degli orologi, precessioni orbitali e onde gravitazionali offrono verifiche in condizioni differenti. Non sono tutti lo stesso effetto e non si misurano con un solo strumento. I dati devono essere confrontati con previsioni e incertezze. La teoria non viene confermata semplicemente perché una simulazione produce un’immagine suggestiva di un buco nero: il collegamento scientifico passa attraverso quantità osservabili."
+        ]
+      },
+      {
+        "title": "Continuità con i modelli più semplici",
+        "paragraphs": [
+          "Nel regime appropriato la descrizione newtoniana rimane un’ottima approssimazione. Utilizzarla per molte orbite non significa ignorare la relatività, ma scegliere un livello adeguato alla precisione richiesta. Vicino a corpi compatti o in cosmologia possono servire strumenti diversi. La voce introduce la geometria come chiave interpretativa senza promettere una spiegazione completa della gravità quantistica, che resta un problema distinto. Il punto centrale è capire quale modello risponda alla domanda e quali misure possano controllarlo."
+        ]
+      }
+    ],
+    "facts": [
+      "Il telo elastico è un’analogia limitata, non un supporto fisico sul quale si trova l’Universo"
+    ],
+    "example": "Il telo elastico è un’analogia limitata, non un supporto fisico sul quale si trova l’Universo",
+    "sources": [
+      {
+        "title": "Treccani · quadro terminologico generale; dettagli nelle fonti specifiche",
+        "url": "https://www.treccani.it/enciclopedia/relativita/"
+      },
+      {
+        "title": "Einstein Online · dalla caduta libera alla curvatura",
+        "url": "https://www.einstein-online.info/en/spotlight/geometry_force/"
+      },
+      {
+        "title": "Stanford Gravity Probe B · relatività generale e orologi",
+        "url": "https://einstein.stanford.edu/content/relativity/q993.html"
+      }
+    ]
+  },
+  {
+    "id": "relativita-ristretta",
+    "name": "Relatività ristretta",
+    "definition": "La relatività ristretta è la teoria che collega misure di spazio, tempo e moto nei riferimenti inerziali, assumendo le stesse leggi fisiche e la stessa velocità della luce nel vuoto per tutti questi osservatori.",
+    "source": "https://www.treccani.it/enciclopedia/relativita/",
+    "lesson": "lezione-10-3.html",
+    "related": [
+      "einstein-albert",
+      "velocita-della-luce",
+      "spaziotempo"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Relativo non significa arbitrario",
+        "paragraphs": [
+          "Osservatori in moto relativo possono attribuire valori differenti a durate e distanze, ma le loro misure sono collegate da regole precise. La teoria non sostiene che ogni opinione sia equivalente o che non esistano risultati verificabili. Esistono grandezze e relazioni condivise. Il termine ristretta distingue il quadro della relatività speciale da quello più ampio della gravitazione: non indica una teoria utilizzabile soltanto dentro una piccola scatola o priva di applicazioni astronomiche."
+        ]
+      },
+      {
+        "title": "Il ruolo della luce nel vuoto",
+        "paragraphs": [
+          "Nel quadro della teoria, tutti gli osservatori inerziali misurano lo stesso valore c per la velocità della luce nel vuoto. La rapidità della sorgente non si aggiunge a c come si sommerebbe ordinariamente la velocità di un oggetto lanciato da un veicolo. Questo richiede un modo diverso di collegare spazio e tempo. Non significa che la propagazione in un materiale abbia sempre la stessa velocità di quella nel vuoto."
+        ]
+      },
+      {
+        "title": "Simultaneità e orologi",
+        "paragraphs": [
+          "Eventi distanti che un osservatore considera simultanei possono non esserlo per un altro in moto relativo. Anche il confronto fra orologi richiede definire come vengano sincronizzati e quali percorsi seguano. Questi effetti non sono semplicemente ritardi ottici eliminabili accorciando il cavo di una fotografia. Per descriverli correttamente bisogna separare il tempo impiegato dal segnale ad arrivare e la relazione fisica fra misure attribuite agli eventi."
+        ]
+      },
+      {
+        "title": "Un limite per la descrizione classica",
+        "paragraphs": [
+          "A velocità piccole rispetto a c molte previsioni si avvicinano a quelle della meccanica classica; a velocità elevate le differenze diventano importanti. La teoria può anche descrivere moti accelerati nello spaziotempo piatto, mentre non fornisce da sola la descrizione generale della gravità. Nel percorso astronomico prepara la lettura di particelle energetiche e fenomeni compatti. Non occorre introdurre subito radici e trasformazioni algebriche: prima si chiarisce quali misure si confrontino e quali principi ne colleghino i risultati."
+        ]
+      }
+    ],
+    "facts": [
+      "La teoria collega misure differenti con leggi precise: non afferma che tutto sia arbitrario"
+    ],
+    "example": "La teoria collega misure differenti con leggi precise: non afferma che tutto sia arbitrario",
+    "sources": [
+      {
+        "title": "Treccani · quadro terminologico generale; dettagli nelle fonti specifiche",
+        "url": "https://www.treccani.it/enciclopedia/relativita/"
+      },
+      {
+        "title": "Einstein Online · spazio e tempo nella relatività speciale",
+        "url": "https://www.einstein-online.info/en/relativity_space_time/"
+      },
+      {
+        "title": "Università della Virginia · postulati e riferimenti inerziali",
+        "url": "https://galileoandeinstein.phys.virginia.edu/lectures/spec_rel.html"
+      }
+    ],
+    "aliases": [
+      "relatività speciale"
     ]
   },
   {
@@ -22197,6 +32308,60 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "ripetibilita",
+    "name": "Ripetibilità di misura",
+    "definition": "La ripetibilità descrive la precisione ottenuta ripetendo misure in condizioni specificate mantenute sostanzialmente uguali, come metodo, sistema di misura e breve intervallo temporale.",
+    "source": "https://www.treccani.it/enciclopedia/misura/",
+    "lesson": "lezione-9-4.html",
+    "related": [
+      "precisione-misura",
+      "accuratezza-misura",
+      "calibrazione"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Provare di nuovo nelle stesse condizioni",
+        "paragraphs": [
+          "Per valutare la ripetibilità si eseguono più misure cercando di mantenere definite le condizioni del procedimento. Il risultato aiuta a capire quanto vari la risposta senza introdurre deliberatamente un nuovo strumento o un metodo diverso. Non significa ripetere meccanicamente la lettura senza descrivere l’esperimento. Occorre sapere quale grandezza venga osservata e se il campione stesso rimanga stabile durante le prove: una sorgente variabile pone una domanda diversa da un riferimento costante."
+        ]
+      },
+      {
+        "title": "Un esercizio con il righello",
+        "paragraphs": [
+          "Si può misurare più volte un oggetto riposizionando correttamente il righello e annotando le letture. La piccola dispersione osservata caratterizza quel procedimento nelle condizioni scelte. Se invece si ricopia lo stesso numero senza una nuova misura, non si è verificata la ripetibilità. La differenza sembra banale, ma è essenziale anche nei software: eseguire più volte lo stesso calcolo sugli stessi dati controlla la determinazione del programma, non aggiunge nuove osservazioni indipendenti del fenomeno."
+        ]
+      },
+      {
+        "title": "Ripetibile non significa vero",
+        "paragraphs": [
+          "Un metodo può fornire risultati ripetibili e mantenere un effetto sistematico. Perciò la concordanza interna non sostituisce il confronto con riferimenti adatti. Cambiare osservatore, apparecchio o laboratorio può far emergere problemi che nelle prove iniziali restavano nascosti. Questi confronti rispondono a condizioni metrologiche diverse e non vanno riuniti sotto una parola usata indistintamente. La descrizione precisa delle condizioni permette di sapere quale qualità sia stata realmente valutata."
+        ]
+      },
+      {
+        "title": "L’utilità in un diario astronomico",
+        "paragraphs": [
+          "Annotare strumento, impostazioni, procedura e condizioni rende più informativo il confronto tra serate. Se cambia tutto contemporaneamente, è difficile capire quale modifica abbia prodotto una differenza. Una verifica organizzata varia un elemento alla volta quando questo è possibile e conserva i dati delle prove. La ripetibilità non pretende un cielo immobile: aiuta a separare ciò che dipende dal sistema di misura da ciò che potrebbe appartenere al fenomeno, preparando confronti più consapevoli e controllabili."
+        ]
+      }
+    ],
+    "facts": [
+      "Ricalcolare gli stessi dati non equivale a raccogliere misure indipendenti"
+    ],
+    "example": "Ricalcolare gli stessi dati non equivale a raccogliere misure indipendenti",
+    "sources": [
+      {
+        "title": "Treccani · quadro terminologico generale; dettagli nelle fonti specifiche",
+        "url": "https://www.treccani.it/enciclopedia/misura/"
+      },
+      {
+        "title": "JCGM · VIM, condizioni di ripetibilità, voci 2.20–2.21",
+        "url": "https://www.bipm.org/documents/20126/2071204/JCGM_200_2012.pdf"
+      }
+    ]
+  },
+  {
     "id": "risoluzione-angolare",
     "name": "Risoluzione angolare",
     "definition": "La risoluzione angolare descrive la capacità di distinguere dettagli o sorgenti vicine per direzione, secondo un criterio e condizioni di misura dichiarati.",
@@ -22429,6 +32594,64 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "rosetta",
+    "name": "Rosetta",
+    "definition": "Rosetta fu la missione ESA che raggiunse la cometa 67P/Churyumov–Gerasimenko nel 2014, accompagnandola lungo l’orbita e trasportando il lander Philae.",
+    "source": "https://www.treccani.it/enciclopedia/astronautica/",
+    "lesson": "lezione-3-5.html",
+    "related": [
+      "cometa",
+      "nucleo-cometario",
+      "rapporto-isotopico"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Seguire una cometa nel cambiamento",
+        "paragraphs": [
+          "Dopo il lancio del 2004 e un lungo viaggio, Rosetta raggiunse 67P nell’agosto 2014. La missione non si limitò a un breve incontro: seguì l’evoluzione dell’attività mentre la cometa percorreva la propria orbita. Immagini e strumenti permisero di confrontare superficie, gas e polvere. Questo collegamento temporale è importante perché una cometa non mantiene esattamente lo stesso aspetto e la stessa attività durante tutto il percorso attorno al Sole."
+        ]
+      },
+      {
+        "title": "Orbiter e lander distinti",
+        "paragraphs": [
+          "Philae fu rilasciato il 12 novembre 2014 per raggiungere la superficie. Il lander era un elemento della missione, non un altro nome di Rosetta. Il suo arrivo e i successivi limiti operativi fanno parte della storia scientifica e tecnica. Una scheda deve distinguere quali risultati provengano dall’orbiter e quali dagli strumenti del lander, evitando di attribuire tutte le misure allo stesso punto della cometa o alla stessa durata di osservazione."
+        ]
+      },
+      {
+        "title": "La chimica come traccia",
+        "paragraphs": [
+          "Le analisi delle specie e dei rapporti isotopici hanno contribuito allo studio dei materiali cometari e della loro storia. Una molecola organica non è automaticamente una prova di vita, e un rapporto isotopico non certifica da solo l’origine di tutta l’acqua terrestre. Le interpretazioni vengono confrontate e aggiornate con nuovi studi. Il valore della missione sta anche nell’archivio che permette di porre domande successive alle prime comunicazioni dei risultati."
+        ]
+      },
+      {
+        "title": "Fine del veicolo, lavoro sui dati",
+        "paragraphs": [
+          "La missione terminò il 30 settembre 2016 con la discesa controllata dell’orbiter sulla cometa. Ciò non concluse l’analisi dei dati già raccolti. Una notizia recente può quindi riguardare uno studio nuovo di osservazioni più vecchie, senza implicare che Rosetta sia tornata a trasmettere. Nel glossario data della misura, data dell’analisi e stato del veicolo devono restare separati: tre informazioni che aiutano a leggere correttamente sia la storia dell’impresa sia le scoperte successive."
+        ]
+      }
+    ],
+    "facts": [
+      "Rosetta è l’orbiter e la missione; Philae è il lander trasportato"
+    ],
+    "example": "Rosetta è l’orbiter e la missione; Philae è il lander trasportato",
+    "sources": [
+      {
+        "title": "Treccani · quadro terminologico generale; dettagli nelle fonti specifiche",
+        "url": "https://www.treccani.it/enciclopedia/astronautica/"
+      },
+      {
+        "title": "ESA · cronologia e risultati Rosetta",
+        "url": "https://www.esa.int/Science_Exploration/Space_Science/Rosetta"
+      },
+      {
+        "title": "ESO · analisi combinata di dati Rosetta e ALMA",
+        "url": "https://www.eso.org/public/news/eso2001/"
+      }
+    ]
+  },
+  {
     "id": "rotazione",
     "name": "Rotazione",
     "definition": "La rotazione descrive un cambiamento di orientamento attorno a un asse; in astronomia va distinta dalla rivoluzione orbitale.",
@@ -22598,6 +32821,64 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "rubin-vera",
+    "name": "Rubin, Vera",
+    "definition": "Vera Rubin (1928–2016) fu un’astronoma statunitense le cui misure della rotazione delle galassie, anche in collaborazione con Kent Ford, rafforzarono le evidenze di materia non visibile.",
+    "source": "https://www.treccani.it/enciclopedia/vera-cooper-rubin/",
+    "lesson": "lezione-6-4.html",
+    "related": [
+      "curva-rotazione",
+      "materia-oscura",
+      "galassia-spirale"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Misurare il movimento di una galassia",
+        "paragraphs": [
+          "Una fotografia mostra la distribuzione apparente della luce, ma non descrive da sola il moto delle stelle e del gas. Rubin studiò la rotazione delle galassie attraverso misure spettroscopiche. Confrontare velocità a distanze differenti dal centro permette di costruire una curva di rotazione. Per farlo occorre tenere conto dell’inclinazione del sistema e della componente di moto lungo la linea di vista: il dato non coincide semplicemente con una freccia tracciata sulla fotografia."
+        ]
+      },
+      {
+        "title": "La luce non raccontava tutta la massa",
+        "paragraphs": [
+          "Le curve misurate mostrarono che il moto delle regioni esterne non seguiva le aspettative più semplici basate sulla sola materia luminosa. Questo contribuì in modo decisivo alla discussione della materia oscura. Non si trattò di fotografare una sostanza scura, né di identificarne la particella. La conclusione nasceva dal confronto fra dinamica e distribuzione della luce. È importante distinguere l’evidenza di un problema fisico dalla conoscenza completa della sua spiegazione microscopica."
+        ]
+      },
+      {
+        "title": "Una ricerca con una storia collettiva",
+        "paragraphs": [
+          "L’ipotesi di materia non luminosa aveva precedenti e ricevette sostegno da osservazioni diverse. Attribuire a Rubin l’intera scoperta in un unico anno cancellerebbe questo percorso. Il suo contributo, insieme ai collaboratori, rese particolarmente forti le evidenze fornite dalle galassie. Un racconto accurato può riconoscerne l’importanza senza ridurre la scienza a una graduatoria di primati. La convergenza tra metodi indipendenti conta più di una singola frase memorabile."
+        ]
+      },
+      {
+        "title": "La persona e l’osservatorio",
+        "paragraphs": [
+          "Il nome Vera C. Rubin Observatory rende omaggio alla ricercatrice. Non significa che ogni immagine o risultato di quell’osservatorio sia stato ottenuto da lei. Separare biografia, strumento e programma scientifico aiuta a leggere correttamente le notizie. La sua storia offre anche un esempio di perseveranza e partecipazione alla ricerca. Il concetto da portare nella lezione rimane concreto: la gravità consente di interrogare ciò che la luce, da sola, non rende direttamente visibile."
+        ]
+      }
+    ],
+    "facts": [
+      "Le curve di rotazione sono evidenze dinamiche, non fotografie della materia oscura"
+    ],
+    "example": "Le curve di rotazione sono evidenze dinamiche, non fotografie della materia oscura",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/vera-cooper-rubin/"
+      },
+      {
+        "title": "Rubin Observatory · vita e ricerca di Vera Rubin",
+        "url": "https://rubinobservatory.org/about/vera-rubin"
+      }
+    ],
+    "linkNames": [
+      "Vera Rubin",
+      "Vera Cooper Rubin"
+    ]
+  },
+  {
     "id": "rumore-di-lettura",
     "name": "Rumore di lettura",
     "definition": "Il rumore di lettura è la fluttuazione introdotta dalla catena elettronica durante la lettura e la conversione del segnale del rivelatore.",
@@ -22717,6 +32998,70 @@ window.AdAstraGlossary = [
     "aliases": [
       "photon noise",
       "rumore di conteggio"
+    ]
+  },
+  {
+    "id": "rutherford-ernest",
+    "name": "Rutherford, Ernest",
+    "definition": "Ernest Rutherford (1871–1937) fu un fisico protagonista dello studio della radioattività e della struttura nucleare dell’atomo, interpretata attraverso esperimenti di diffusione di particelle.",
+    "source": "https://www.treccani.it/enciclopedia/rutherford-of-nelson-ernest-lord/",
+    "lesson": "lezione-4-3.html",
+    "related": [
+      "nucleo-atomico",
+      "radioattivita",
+      "bohr-niels"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Usare particelle per interrogare la materia",
+        "paragraphs": [
+          "Gli esperimenti condotti da Geiger e Marsden sotto la direzione di Rutherford studiarono come particelle alfa venissero deviate attraversando lamine sottili. Alcune deviazioni risultavano molto grandi rispetto alle attese di un modello con carica positiva diffusa. Non fu una fotografia del nucleo: si misurarono effetti e se ne cercò una descrizione coerente. Il metodo mostra come sia possibile conoscere una struttura attraverso il comportamento di una sonda."
+        ]
+      },
+      {
+        "title": "La proposta nucleare del 1911",
+        "paragraphs": [
+          "Rutherford interpretò i risultati introducendo una concentrazione compatta della carica positiva e di gran parte della massa atomica. Il nucleo occupa una scala molto più piccola rispetto all’atomo. Il modello non era già la descrizione quantistica completa degli elettroni, né conteneva tutta la conoscenza successiva di protoni e neutroni. Raccontare separatamente questi passaggi evita di condensare decenni di fisica in un’unica immagine di palline colorate."
+        ]
+      },
+      {
+        "title": "Trasformazioni radioattive",
+        "paragraphs": [
+          "Rutherford contribuì, insieme a collaboratori fra cui Frederick Soddy, alla comprensione delle trasformazioni delle sostanze radioattive. Il decadimento mostrava che gli elementi non erano invariabili in qualunque processo. La trasformazione nucleare deve essere distinta dalla chimica ordinaria degli elettroni. Il Nobel per la chimica del 1908 riconobbe il lavoro sulle sostanze radioattive: una disciplina del premio non delimita automaticamente tutti i campi nei quali un autore ha dato contributi."
+        ]
+      },
+      {
+        "title": "La misura guida il modello",
+        "paragraphs": [
+          "La vicenda è utile anche per l’astronomia, che ricostruisce spesso proprietà di oggetti non accessibili direttamente. Osservazione e modello non coincidono, ma possono sostenersi attraverso confronti quantitativi. Le immagini del nucleo sono rappresentazioni costruite per comunicare risultati. Rutherford offre quindi un collegamento fra laboratorio e cielo: un effetto raro, registrato con cura e confrontato con le previsioni, può indicare che la struttura immaginata deve cambiare. L’anomalia diventa informazione quando resta parte del dato, invece di essere eliminata."
+        ]
+      }
+    ],
+    "facts": [
+      "Il modello nucleare fu proposto nel 1911 sulla base di esperimenti di diffusione"
+    ],
+    "example": "Il modello nucleare fu proposto nel 1911 sulla base di esperimenti di diffusione",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/rutherford-of-nelson-ernest-lord/"
+      },
+      {
+        "title": "Science History Institute · Rutherford, esperimenti e contributi",
+        "url": "https://www.sciencehistory.org/education/scientific-biographies/ernest-rutherford/"
+      },
+      {
+        "title": "Cavendish Laboratory · Rutherford nella storia del laboratorio",
+        "url": "https://www.phy.cam.ac.uk/about/our-history/nobel-prizes-and-cavendish-professors/"
+      }
+    ],
+    "aliases": [
+      "Ernest Rutherford"
+    ],
+    "linkNames": [
+      "Ernest Rutherford"
     ]
   },
   {
@@ -23199,6 +33544,63 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "secchi-angelo",
+    "name": "Secchi, Angelo",
+    "definition": "Angelo Secchi (1818–1878) fu un astronomo italiano, gesuita, tra i protagonisti della spettroscopia stellare e dello studio fisico del Sole nell’Ottocento.",
+    "source": "https://www.treccani.it/enciclopedia/angelo-francesco-ignazio-baldassarre-secchi_(Dizionario-Biografico)/",
+    "lesson": "lezione-4-3.html",
+    "related": [
+      "spettroscopia",
+      "classe-spettrale",
+      "protuberanza-solare"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Dalle posizioni alla natura delle stelle",
+        "paragraphs": [
+          "Con Secchi lo studio del cielo mostra bene il passaggio dalla misura delle posizioni all’indagine fisica degli astri. Scomporre la luce permette di confrontare le stelle attraverso gli spettri, invece di considerarle soltanto punti più o meno luminosi. Il suo lavoro appartiene a una trasformazione collettiva dell’astronomia, nella quale strumenti ottici, fisica e osservazioni si incontrano. Non significa che prima di lui nessuno avesse interrogato la natura delle stelle."
+        ]
+      },
+      {
+        "title": "Raggruppare gli spettri",
+        "paragraphs": [
+          "Secchi organizzò gli spettri stellari in gruppi in base a caratteristiche osservabili. La sua classificazione storica non coincide con la sequenza moderna O, B, A, F, G, K, M. Presentarla come se fosse il medesimo sistema con nomi differenti nasconderebbe l’evoluzione delle conoscenze. Il valore del metodo sta nel riconoscere regolarità: righe e bande diventano indizi da confrontare, aprendo la strada a interpretazioni fisiche più approfondite delle atmosfere stellari."
+        ]
+      },
+      {
+        "title": "Il Sole come laboratorio",
+        "paragraphs": [
+          "Secchi studiò anche fenomeni solari e partecipò all’osservazione di eclissi. Il confronto fra osservazioni contribuì a stabilire l’appartenenza delle protuberanze al Sole. Un fenomeno visto vicino al bordo non rivela automaticamente la propria natura: bisogna distinguere effetti della prospettiva, dell’atmosfera e dello strumento. La storia ricorda quindi un principio ancora utile quando leggiamo immagini astronomiche: il contesto dell’acquisizione fa parte della spiegazione e può essere decisivo per interpretare il risultato."
+        ]
+      },
+      {
+        "title": "Il contesto del Collegio romano",
+        "paragraphs": [
+          "La sua attività all’osservatorio del Collegio romano comprendeva cura degli strumenti, misure e pubblicazioni. Ricordarlo soltanto attraverso una categoria di stelle sarebbe riduttivo. Allo stesso tempo alcune interpretazioni fisiche ottocentesche sono state superate: una fonte storica descrive il pensiero del proprio tempo, non garantisce la validità attuale di ogni ipotesi. Nel percorso divulgativo Secchi rappresenta soprattutto l’idea che la luce, studiata con metodo, possa trasformarsi in conoscenza della materia lontana."
+        ]
+      }
+    ],
+    "facts": [
+      "Le classi storiche di Secchi non vanno confuse con l’attuale sequenza spettrale OBAFGKM"
+    ],
+    "example": "Le classi storiche di Secchi non vanno confuse con l’attuale sequenza spettrale OBAFGKM",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/angelo-francesco-ignazio-baldassarre-secchi_(Dizionario-Biografico)/"
+      },
+      {
+        "title": "UCAR · Secchi e la classificazione spettrale",
+        "url": "https://www2.hao.ucar.edu/education/scientists/angelo-secchi-1818-1878"
+      }
+    ],
+    "linkNames": [
+      "Angelo Secchi"
+    ]
+  },
+  {
     "id": "secondo-d-arco",
     "name": "Secondo d’arco",
     "definition": "Il secondo d’arco è un’unità angolare pari a un sessantesimo di primo d’arco, cioè a un tremilaseicentesimo di grado; si indica con ″.",
@@ -23251,6 +33653,68 @@ window.AdAstraGlossary = [
     "aliases": [
       "secondi d’arco",
       "secondi d'arco"
+    ]
+  },
+  {
+    "id": "secondo-tempo",
+    "name": "Secondo, unità di tempo",
+    "definition": "Il secondo, simbolo s, è l’unità SI del tempo, definita mediante la frequenza di una transizione dell’atomo di cesio-133 in condizioni specificate.",
+    "source": "https://www.treccani.it/enciclopedia/secondo/",
+    "lesson": "lezione-9-3.html",
+    "related": [
+      "giorno-solare",
+      "utc",
+      "secondo-d-arco"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un riferimento oltre la rotazione terrestre",
+        "paragraphs": [
+          "Un secondo non viene oggi definito semplicemente dividendo un giorno osservato in parti uguali. La rotazione terrestre presenta variazioni, mentre il riferimento atomico permette di realizzare un’unità riproducibile. Il collegamento storico con il giorno resta importante, ma non va confuso con la definizione attuale. La metrologia distingue l’unità dalla costruzione pratica degli orologi che cercano di realizzarla con la migliore precisione possibile."
+        ]
+      },
+      {
+        "title": "Il cesio offre una frequenza di riferimento",
+        "paragraphs": [
+          "La definizione fissa a 9.192.631.770 hertz la frequenza di una determinata transizione iperfine del cesio-133 non perturbato nello stato fondamentale. Un secondo corrisponde quindi al numero appropriato di periodi di quella radiazione. Non è il tempo impiegato da un elettrone a percorrere un’orbita classica. Il riferimento riguarda stati atomici definiti, e gli strumenti reali devono controllare gli effetti che perturbano la misura."
+        ]
+      },
+      {
+        "title": "Non è il secondo d’arco",
+        "paragraphs": [
+          "Un secondo di tempo misura una durata, mentre un secondo d’arco misura un angolo. Nella notazione dell’ascensione retta si incontrano inoltre ore, minuti e secondi di una scala angolare. Perciò leggere soltanto la parola secondo non basta a stabilire che cosa sia stato misurato. Simboli, grandezza e convenzione della tabella devono accompagnare sempre il valore riportato."
+        ]
+      },
+      {
+        "title": "Registrare un’osservazione",
+        "paragraphs": [
+          "Durata della posa e istante della ripresa sono informazioni diverse: due secondi possono indicare quanto è durata un’esposizione, mentre l’orario colloca l’evento nel calendario e nella scala temporale scelta. Per occultazioni, transiti o confronti precisi conta la sincronizzazione del sistema. Aggiungere molte cifre a un orario non ne garantisce l’accuratezza. Nel diario indica metodo e riferimento, distinguendo il dettaglio scritto dalla precisione effettivamente disponibile."
+        ]
+      }
+    ],
+    "facts": [
+      "Secondo di tempo e secondo d’arco misurano grandezze differenti"
+    ],
+    "example": "Secondo di tempo e secondo d’arco misurano grandezze differenti",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/secondo/"
+      },
+      {
+        "title": "BIPM · definizione del secondo",
+        "url": "https://www.bipm.org/en/si-base-units/second"
+      }
+    ],
+    "aliases": [
+      "secondo SI",
+      "secondi di tempo"
+    ],
+    "linkNames": [
+      "secondo SI",
+      "secondi di tempo"
     ]
   },
   {
@@ -23580,6 +34044,64 @@ window.AdAstraGlossary = [
     "editorialStatus": "scheda-estesa"
   },
   {
+    "id": "silicio",
+    "name": "Silicio",
+    "definition": "Il silicio è l’elemento di numero atomico 14 e simbolo Si, importante nei silicati dei mondi rocciosi e nei semiconduttori.",
+    "source": "https://www.treccani.it/enciclopedia/silicio/",
+    "lesson": "lezione-3-2.html",
+    "related": [
+      "elemento-chimico",
+      "polvere-interstellare",
+      "sensore"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Dalle rocce all’elettronica",
+        "paragraphs": [
+          "Silicio e ossigeno partecipano alla struttura di molti minerali comuni. Il silicio utilizzato nei dispositivi elettronici viene invece preparato con caratteristiche e purezza controllate. Non è corretto descrivere un sensore come un pezzo di sabbia senza trasformazioni. L’identità dell’elemento è comune, ma composizione, struttura e lavorazione rendono i materiali differenti. Il simbolo Si non va confuso con altri nomi commerciali o con il silicone, che indica una famiglia di materiali composti."
+        ]
+      },
+      {
+        "title": "Silicati e silice",
+        "paragraphs": [
+          "Silice e silicati non sono due modi generici per indicare silicio puro. La silice ha composizione basata su silicio e ossigeno, mentre i silicati comprendono strutture e composizioni più articolate con altri elementi. La mineralogia descrive come gli atomi siano organizzati. Un conteggio degli elementi di una roccia non restituisce da solo l’elenco dei minerali presenti. Servono osservazioni e analisi adatte, mantenendo distinti identità chimica e struttura del materiale."
+        ]
+      },
+      {
+        "title": "La polvere nello spazio",
+        "paragraphs": [
+          "Grani contenenti silicati contribuiscono all’interazione fra materia e radiazione negli ambienti astronomici. Le loro caratteristiche spettrali aiutano a studiarne composizione e struttura, ma la misura richiede modelli. Una fotografia di una nebulosa non permette di vedere singolarmente tutti i grani. Dimensioni, temperatura e mescolanza dei materiali influenzano il risultato. Il collegamento con pianeti rocciosi riguarda una storia di formazione, trasformazione e aggregazione, non una nube già composta da piccoli pianeti completi."
+        ]
+      },
+      {
+        "title": "Il cielo arriva su un semiconduttore",
+        "paragraphs": [
+          "Molti sensori fotografici usano silicio per trasformare la radiazione ricevuta in un segnale misurabile. La risposta dipende da dispositivo, lunghezza d’onda e configurazione, non soltanto dal nome dell’elemento. Il medesimo silicio offre così due percorsi divulgativi: materia dei mondi e materiale degli strumenti con cui li studiamo. La scheda deve conservare questa connessione senza attribuire a ogni composto contenente silicio le proprietà elettriche del materiale preparato per l’elettronica."
+        ]
+      }
+    ],
+    "facts": [
+      "Silicio, silice, silicati e silicone non sono sinonimi"
+    ],
+    "example": "Silicio, silice, silicati e silicone non sono sinonimi",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/silicio/"
+      },
+      {
+        "title": "RSC · proprietà e forme del silicio",
+        "url": "https://periodic-table.rsc.org/element/14/silicon"
+      },
+      {
+        "title": "IUPAC · organizzazione degli elementi",
+        "url": "https://iupac.org/what-we-do/periodic-table-of-elements/"
+      }
+    ]
+  },
+  {
     "id": "sistema-solare",
     "name": "Sistema solare",
     "definition": "Il Sistema solare comprende il Sole e i corpi e materiali legati al suo ambiente gravitazionale, non soltanto gli otto pianeti.",
@@ -23691,6 +34213,175 @@ window.AdAstraGlossary = [
     "aliases": [
       "smart telescopes",
       "telescopio smart"
+    ]
+  },
+  {
+    "id": "sodio",
+    "name": "Sodio",
+    "definition": "Il sodio è l’elemento di numero atomico 11, simbolo Na. Le sue righe gialle hanno applicazioni sia nella spettroscopia sia nella creazione di stelle guida artificiali.",
+    "source": "https://www.treccani.it/enciclopedia/sodio/",
+    "lesson": "lezione-7-3.html",
+    "related": [
+      "spettroscopia",
+      "ottica-adattiva",
+      "riga-spettrale"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "L’elemento e i suoi composti",
+        "paragraphs": [
+          "Il sodio metallico non ha le stesse proprietà del cloruro di sodio presente nel sale comune. In un composto o come ione, l’elemento mantiene il numero di protoni ma partecipa a una struttura e a interazioni diverse. La sigla Na deriva dalla tradizione nomenclaturale, non dalle iniziali italiane del nome. Riconoscere l’elemento non significa quindi attribuire a ogni materiale che lo contiene l’aspetto e il comportamento del metallo puro."
+        ]
+      },
+      {
+        "title": "Due righe nella regione gialla",
+        "paragraphs": [
+          "Il sodio neutro presenta due celebri righe vicine a 589 nanometri, spesso chiamate doppietto D. Le transizioni forniscono un riferimento riconoscibile nello spettro, ma non devono essere confuse con una banda gialla generica. La stessa zona cromatica può contenere contributi differenti. Misurare le lunghezze d’onda e la struttura delle righe permette di distinguere una firma atomica da un’impressione ottenuta guardando il colore di una sorgente."
+        ]
+      },
+      {
+        "title": "Una stella guida nell’atmosfera",
+        "paragraphs": [
+          "Alcuni sistemi di ottica adattiva utilizzano laser che eccitano sodio nella mesosfera, a una quota indicativa intorno a 90 chilometri. Si produce un riferimento luminoso artificiale utile a misurare parte delle deformazioni atmosferiche del fronte d’onda. Non viene creata una vera stella e non si tratta di un punto alla stessa distanza degli astri osservati. La geometria del riferimento e i suoi limiti entrano nel progetto del sistema di correzione."
+        ]
+      },
+      {
+        "title": "La precisione nasce dal contesto",
+        "paragraphs": [
+          "Righe del sodio possono comparire in ambienti e osservazioni differenti. Per interpretarle occorre stabilire se il segnale provenga dalla sorgente studiata, da materiale interposto o dall’ambiente terrestre. Anche il riferimento artificiale ha uno scopo definito e non corregge automaticamente ogni problema dell’immagine. La voce collega così nomenclatura e strumentazione: una transizione atomica, riconosciuta e utilizzata con precisione, diventa uno strumento per migliorare la lettura del cielo."
+        ]
+      }
+    ],
+    "facts": [
+      "Il doppietto D del sodio si trova vicino a 589 nm"
+    ],
+    "example": "Il doppietto D del sodio si trova vicino a 589 nm",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/sodio/"
+      },
+      {
+        "title": "RSC · sodio",
+        "url": "https://periodic-table.rsc.org/element/11/sodium"
+      },
+      {
+        "title": "ESO · laser e stelle guida al sodio",
+        "url": "https://www.eso.org/public/blog/making-lgs-even-brighter/"
+      }
+    ]
+  },
+  {
+    "id": "soho",
+    "name": "SOHO",
+    "definition": "SOHO, Solar and Heliospheric Observatory, è una missione congiunta ESA e NASA dedicata alla struttura del Sole, alla corona e al vento solare.",
+    "source": "https://www.treccani.it/enciclopedia/sole/",
+    "lesson": "lezione-2-3.html",
+    "related": [
+      "sole",
+      "vento-solare",
+      "cometa"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un osservatorio dedicato al Sole",
+        "paragraphs": [
+          "Lanciato nel dicembre 1995, SOHO ha fornito osservazioni fondamentali della nostra stella. Il nome significa osservatorio solare ed eliosferico: l’interesse comprende sia il Sole sia l’ambiente influenzato dal materiale e dai campi che esso produce. Non è un telescopio pensato per inquadrare a scelta qualsiasi galassia. La destinazione scientifica guida la scelta degli strumenti, della posizione nello spazio e della frequenza delle osservazioni."
+        ]
+      },
+      {
+        "title": "Una posizione favorevole",
+        "paragraphs": [
+          "SOHO è stato collocato in un’orbita nelle vicinanze del punto lagrangiano L1 del sistema Sole–Terra. Questa configurazione favorisce l’osservazione del Sole. Non significa che il veicolo sia immobile nello spazio o appoggiato su un punto materiale: bisogna distinguere il punto definito dal modello dinamico e la traiettoria reale della sonda. La parola osservatorio può quindi indicare una piattaforma spaziale, non soltanto un edificio sulla cima di una montagna."
+        ]
+      },
+      {
+        "title": "Che cosa mostra un coronografo",
+        "paragraphs": [
+          "Nelle immagini di un coronografo il disco centrale può essere occultato per rendere visibile la corona circostante. Il cerchio scuro non è un buco nel Sole e non misura necessariamente il suo diametro apparente. Eventuali tratti, colori e simboli aggiunti devono essere letti con la legenda dello strumento. Questa attenzione evita di interpretare un’immagine elaborata come una scena osservabile direttamente a occhio nudo durante una normale giornata."
+        ]
+      },
+      {
+        "title": "Comete e variazioni nel tempo",
+        "paragraphs": [
+          "Le osservazioni di SOHO hanno permesso anche di individuare molte comete nei pressi apparenti del Sole. Una sequenza di immagini consente di distinguere il moto di un piccolo corpo dall’evoluzione delle strutture coronali. La vicinanza sullo schermo è però una proiezione e non stabilisce da sola la distanza reciproca nello spazio. Nel percorso didattico una serie temporale è spesso più istruttiva di un singolo fotogramma: mostra che il cielo solare è un ambiente in trasformazione."
+        ]
+      }
+    ],
+    "facts": [
+      "Il disco scuro di un coronografo è prodotto dallo strumento, non da una cavità nel Sole"
+    ],
+    "example": "Il disco scuro di un coronografo è prodotto dallo strumento, non da una cavità nel Sole",
+    "sources": [
+      {
+        "title": "Treccani · quadro terminologico generale; dettagli nelle fonti specifiche",
+        "url": "https://www.treccani.it/enciclopedia/sole/"
+      },
+      {
+        "title": "NASA · missione SOHO e obiettivi",
+        "url": "https://science.nasa.gov/mission/soho/"
+      }
+    ],
+    "aliases": [
+      "Solar and Heliospheric Observatory"
+    ]
+  },
+  {
+    "id": "solar-orbiter",
+    "name": "Solar Orbiter",
+    "definition": "Solar Orbiter è una missione ESA con partecipazione NASA che combina osservazioni del Sole e misure del plasma e dei campi nell’ambiente attraversato dalla sonda.",
+    "source": "https://www.treccani.it/enciclopedia/sole/",
+    "lesson": "lezione-2-3.html",
+    "related": [
+      "parker-solar-probe",
+      "vento-solare",
+      "sole"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Guardare e campionare",
+        "paragraphs": [
+          "Solar Orbiter, lanciata nel 2020, mette in relazione due modi di conoscere il Sole. Alcuni strumenti osservano la stella a distanza; altri misurano ciò che arriva presso la sonda. È come confrontare una fotografia di una sorgente con una misura effettuata lungo il percorso del materiale: i dati sono complementari, ma non si sovrappongono automaticamente. Bisogna ricostruire quando e da dove può essere partita la materia osservata."
+        ]
+      },
+      {
+        "title": "Cambiare punto di vista",
+        "paragraphs": [
+          "La missione è progettata per osservare il Sole anche da latitudini elevate rispetto al suo equatore. Vedere le regioni polari da una prospettiva diversa aiuta a studiare la struttura magnetica della stella. Questo non significa che il Sole cambi forma quando la sonda si sposta: cambiano la proiezione e le parti che diventano più accessibili. Il confronto ricorda quanto il punto di osservazione influenzi una fotografia astronomica."
+        ]
+      },
+      {
+        "title": "Strumenti diversi, domande collegate",
+        "paragraphs": [
+          "Tra gli strumenti figura Metis, un coronografo che studia la corona. Nascondere la luce più intensa del disco rende accessibili regioni molto meno luminose: il principio richiama l’eclissi, ma viene realizzato con un apparato ottico. Altri strumenti misurano campi o particelle. Una figura divulgativa dovrebbe indicare quale misura si sta mostrando, evitando di presentare tutte le immagini come fotografie nel visibile con colori direttamente percepibili dall’occhio."
+        ]
+      },
+      {
+        "title": "Un confronto con Parker",
+        "paragraphs": [
+          "Solar Orbiter e Parker Solar Probe non sono due nomi dello stesso veicolo. Le loro osservazioni possono contribuire a una ricostruzione comune del Sole e dell’eliosfera, usando traiettorie e strumenti differenti. Per comprenderne il valore non occorre memorizzare l’intero elenco delle apparecchiature: basta domandarsi che cosa venga misurato, da quale posizione e con quale risoluzione temporale. Queste domande permettono di leggere anche risultati futuri senza confondere un’illustrazione della missione con un dato già acquisito."
+        ]
+      }
+    ],
+    "facts": [
+      "La missione combina osservazioni a distanza e misure effettuate presso la sonda"
+    ],
+    "example": "La missione combina osservazioni a distanza e misure effettuate presso la sonda",
+    "sources": [
+      {
+        "title": "Treccani · quadro terminologico generale; dettagli nelle fonti specifiche",
+        "url": "https://www.treccani.it/enciclopedia/sole/"
+      },
+      {
+        "title": "ESA · scheda di Solar Orbiter",
+        "url": "https://www.esa.int/Science_Exploration/Space_Science/Solar_Orbiter/Solar_Orbiter_factsheet"
+      }
     ]
   },
   {
@@ -23975,6 +34666,121 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "spallazione",
+    "name": "Spallazione",
+    "definition": "La spallazione è un processo nucleare nel quale una collisione energetica provoca l’espulsione di più costituenti da un nucleo; contribuisce alla formazione di alcuni elementi leggeri.",
+    "source": "https://www.treccani.it/enciclopedia/spallazione/",
+    "lesson": "lezione-4-6.html",
+    "related": [
+      "raggi-cosmici",
+      "boro",
+      "berillio"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Una collisione cambia il nucleo",
+        "paragraphs": [
+          "Quando una particella molto energetica interagisce con un nucleo, può trasferire energia e produrre l’emissione di nucleoni o altri frammenti. La spallazione descrive una famiglia di questi processi. Non è una semplice frattura di una roccia o la rottura di un legame chimico. Il cambiamento riguarda il nucleo atomico e può modificare la composizione isotopica o elementare del materiale coinvolto."
+        ]
+      },
+      {
+        "title": "Costruire un elemento attraverso una frammentazione",
+        "paragraphs": [
+          "Alcuni nuclei leggeri possono risultare dalla frammentazione di nuclei più pesanti. Il caso è importante per litio, berillio e boro nella storia chimica cosmica. La formula divulgativa tutti gli elementi si formano soltanto per fusione dentro le stelle è quindi incompleta. Anche collisioni di particelle energetiche contribuiscono all’inventario. Questo non significa che qualunque elemento leggero abbia un’unica origine o che tutti i processi abbiano la stessa efficacia."
+        ]
+      },
+      {
+        "title": "Raggi cosmici e materia attraversata",
+        "paragraphs": [
+          "Durante la propagazione, nuclei energetici possono interagire con il gas interstellare. I prodotti secondari aiutano a ricostruire aspetti del percorso e delle interazioni. L’interpretazione deve considerare energie, probabilità di reazione e composizione iniziale. Un rapporto fra specie non è una fotografia diretta della loro sorgente se parte del materiale viene prodotto dopo l’accelerazione. La distinzione fra componente originaria e secondaria è quindi fondamentale."
+        ]
+      },
+      {
+        "title": "Un processo con usi e contesti diversi",
+        "paragraphs": [
+          "La spallazione viene studiata anche in esperimenti terrestri, con apparati e bersagli controllati. Il processo di base può essere confrontato con quello cosmico senza rendere identiche le condizioni. In astronomia la voce serve a leggere la produzione di isotopi e le tracce dell’esposizione alle particelle energetiche. La parola gancio è trasformazione del nucleo: prima di ricavare una storia del materiale occorre capire quali reazioni possano aver cambiato gli ingredienti che oggi misuriamo."
+        ]
+      }
+    ],
+    "facts": [
+      "La spallazione può produrre nuclei più leggeri a partire da nuclei più pesanti"
+    ],
+    "example": "La spallazione può produrre nuclei più leggeri a partire da nuclei più pesanti",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/spallazione/"
+      },
+      {
+        "title": "NASA · origine degli elementi leggeri nei raggi cosmici",
+        "url": "https://imagine.gsfc.nasa.gov/science/toolbox/cosmic_rays2_orig.html"
+      },
+      {
+        "title": "NASA · produzione cosmica degli elementi",
+        "url": "https://imagine.gsfc.nasa.gov/educators/elements/imagine/07.html"
+      }
+    ]
+  },
+  {
+    "id": "spaziotempo",
+    "name": "Spaziotempo",
+    "definition": "Lo spaziotempo è la struttura nella quale un evento viene individuato specificando dove e quando avviene. Nella relatività, coordinate spaziali e temporali sono collegate fra loro.",
+    "source": "https://www.treccani.it/enciclopedia/spazio-tempo_(Dizionario-delle-Scienze-Fisiche)/",
+    "lesson": "lezione-10-3.html",
+    "related": [
+      "relativita-ristretta",
+      "relativita-generale",
+      "velocita-della-luce"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un evento ha anche un quando",
+        "paragraphs": [
+          "Per descrivere un lampo non basta dire in quale luogo sia avvenuto: occorre indicarne il momento. Un evento ideale viene così associato a tre coordinate spaziali e una temporale in un riferimento. Quattro dimensioni non significano quattro direzioni nelle quali camminare come in una stanza. Il tempo ha un ruolo fisico specifico e il modo di confrontarlo con lo spazio dipende dalla struttura della teoria."
+        ]
+      },
+      {
+        "title": "Le coordinate sono una scelta",
+        "paragraphs": [
+          "Due osservatori possono usare coordinate differenti per gli stessi eventi. La descrizione deve indicare le regole che permettono di confrontarle. Un cambiamento di coordinate non produce automaticamente un cambiamento fisico dell’oggetto studiato. Nei diagrammi didattici un asse temporale e uno spaziale rappresentano soltanto una parte del sistema: il foglio non contiene tutte le dimensioni e le scale devono essere dichiarate prima di interpretare angoli e traiettorie."
+        ]
+      },
+      {
+        "title": "La luce distingue ciò che può comunicare",
+        "paragraphs": [
+          "La struttura causale collega eventi che possono influenzarsi attraverso segnali fisici. Nella relatività speciale i coni di luce rappresentano questo vincolo. La loro forma sul foglio dipende dalle unità e dalle scale scelte, mentre il significato riguarda le connessioni possibili fra eventi. Non ogni coppia di punti del diagramma può scambiarsi immediatamente informazione. Il disegno deve evitare di suggerire una comunicazione istantanea soltanto perché una linea può essere tracciata."
+        ]
+      },
+      {
+        "title": "La geometria diventa dinamica",
+        "paragraphs": [
+          "Nella relatività generale la geometria dello spaziotempo è legata alla distribuzione fisica di materia ed energia. La curvatura non è necessariamente una piega di un materiale visibile dall’esterno. Il concetto permette di descrivere moto e luce in un quadro comune. Per il lettore il passaggio iniziale rimane concreto: invece di pensare a luoghi e istanti come due elenchi indipendenti, si considerano eventi e relazioni. Le formule successive servono a quantificare quelle relazioni, non a sostituire la domanda fisica."
+        ]
+      }
+    ],
+    "facts": [
+      "Un diagramma con un asse di tempo non rappresenta il tempo come una normale direzione percorribile nello spazio"
+    ],
+    "example": "Un diagramma con un asse di tempo non rappresenta il tempo come una normale direzione percorribile nello spazio",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/spazio-tempo_(Dizionario-delle-Scienze-Fisiche)/"
+      },
+      {
+        "title": "Einstein Online · eventi e struttura causale",
+        "url": "https://www.einstein-online.info/en/spacetime/"
+      }
+    ],
+    "aliases": [
+      "spazio-tempo"
+    ]
+  },
+  {
     "id": "spettro",
     "name": "Spettro",
     "definition": "Distribuzione della radiazione nelle sue componenti, per esempio secondo la lunghezza d’onda.",
@@ -24203,6 +35009,171 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "spin",
+    "name": "Spin",
+    "definition": "Lo spin è un momento angolare intrinseco delle particelle: una proprietà quantistica che non coincide con la rotazione di una piccola sfera materiale.",
+    "source": "https://www.treccani.it/enciclopedia/spin/",
+    "lesson": "lezione-4-3.html",
+    "related": [
+      "elettrone",
+      "numero-quantico",
+      "riga-21cm"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "La parola può trarre in inganno",
+        "paragraphs": [
+          "In inglese spin richiama una rotazione, ma l’elettrone non deve essere immaginato come una pallina con una superficie che gira. Lo spin è una proprietà intrinseca descritta dalla meccanica quantistica. La rotazione di un pianeta e lo spin di una particella possono condividere parte del linguaggio del momento angolare, senza essere lo stesso fenomeno. Una freccia disegnata accanto all’elettrone è quindi un simbolo del modello, non una fotografia del suo asse."
+        ]
+      },
+      {
+        "title": "Perché entra negli esperimenti",
+        "paragraphs": [
+          "Lo spin contribuisce al comportamento di particelle e sistemi in presenza di campi magnetici. Misure e strutture degli spettri non possono essere spiegate considerando soltanto un’elettricità distribuita secondo il modello planetario più semplice. L’esperimento definisce quale componente o proprietà viene esaminata. Non si può attribuire contemporaneamente a ogni freccia disegnata il significato di una direzione classica perfettamente nota. La teoria collega gli esiti possibili alle condizioni della misura."
+        ]
+      },
+      {
+        "title": "Stati e famiglie di particelle",
+        "paragraphs": [
+          "L’elettrone possiede spin un mezzo, mentre altre particelle hanno valori differenti. La distinzione fra spin semintero e intero si collega alle famiglie di fermioni e bosoni e al comportamento statistico delle particelle identiche. Non indica che un elettrone compia mezzo giro e poi si fermi. Per la divulgazione basta chiarire che si tratta di una proprietà con conseguenze fisiche misurabili, lasciando la descrizione matematica completa a un approfondimento appositamente costruito."
+        ]
+      },
+      {
+        "title": "Una traccia nella radioastronomia",
+        "paragraphs": [
+          "La linea dell’idrogeno neutro a circa ventuno centimetri è legata alla struttura iperfine e all’interazione delle proprietà magnetiche di elettrone e protone. Non serve visualizzare due trottole materiali per comprenderne l’importanza. La minuscola differenza energetica produce una firma radio utile per studiare il gas galattico. Il collegamento mostra perché una proprietà microscopica apparentemente lontana dall’esperienza possa diventare uno strumento concreto per esplorare la Via Lattea attraverso radiazione misurata."
+        ]
+      }
+    ],
+    "facts": [
+      "Spin un mezzo non significa mezzo giro di una pallina"
+    ],
+    "example": "Spin un mezzo non significa mezzo giro di una pallina",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/spin/"
+      },
+      {
+        "title": "NRAO · transizione iperfine dell’idrogeno",
+        "url": "https://www.gb.nrao.edu/fgdocs/HI21cm/21cm.html"
+      }
+    ]
+  },
+  {
+    "id": "sputnik-1",
+    "name": "Sputnik 1",
+    "definition": "Sputnik 1 fu il primo satellite artificiale posto in orbita terrestre, lanciato dall’Unione Sovietica il 4 ottobre 1957.",
+    "source": "https://www.treccani.it/enciclopedia/sputnik/",
+    "lesson": "lezione-10-5.html",
+    "related": [
+      "satellite-artificiale",
+      "orbita",
+      "terra"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "L’inizio di una nuova possibilità",
+        "paragraphs": [
+          "Il lancio dello Sputnik segnò un passaggio storico: un oggetto costruito dall’uomo poteva continuare a orbitare attorno alla Terra. Non era un viaggio con equipaggio né una missione verso la Luna. Il risultato si inseriva nel confronto politico e tecnologico della Guerra fredda, ma apriva anche una nuova possibilità scientifica. La distinzione fra evento storico e obiettivo tecnico permette di capire perché un satellite relativamente semplice ebbe un impatto enorme."
+        ]
+      },
+      {
+        "title": "Una sfera con antenne",
+        "paragraphs": [
+          "Il satellite aveva un corpo sferico e antenne destinate alla trasmissione radio. La sua immagine non deve essere confusa con quella del razzo che lo portò in orbita o con i successivi satelliti della serie. Il segnale radio offriva un contatto misurabile con il veicolo, non una voce umana dallo spazio. Fotografie di modelli e repliche devono essere dichiarate come tali, distinguendole dai documenti storici della preparazione e del lancio."
+        ]
+      },
+      {
+        "title": "Perché non cadeva subito a terra",
+        "paragraphs": [
+          "L’orbita non richiede che la gravità scompaia. La velocità laterale consente al corpo di continuare a cadere attorno alla Terra invece di raggiungere immediatamente il suolo. L’atmosfera residua può però modificare il moto e portare al rientro. Il satellite non rimase quindi sospeso per sempre. Questo esempio collega l’inizio dell’era spaziale alla meccanica orbitale, senza affidarsi all’idea errata che nello spazio vicino alla Terra non esista più peso gravitazionale."
+        ]
+      },
+      {
+        "title": "Come collocarlo nella storia",
+        "paragraphs": [
+          "Sputnik 1 va distinto da Sputnik 2 e dalle successive tappe con animali o persone a bordo. Le priorità storiche richiedono date e definizioni precise: primo satellite artificiale, primo essere umano in orbita e primo allunaggio umano sono eventi differenti. Nel glossario la scheda può conservare il significato di quel primo segnale e accompagnare il lettore verso le missioni scientifiche più complesse, senza attribuire al piccolo veicolo funzioni che appartengono a programmi successivi."
+        ]
+      }
+    ],
+    "facts": [
+      "Sputnik 1 era un satellite artificiale senza equipaggio, non una missione lunare"
+    ],
+    "example": "Sputnik 1 era un satellite artificiale senza equipaggio, non una missione lunare",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/sputnik/"
+      },
+      {
+        "title": "NASA History · Sputnik e origini dell’era spaziale",
+        "url": "https://www.nasa.gov/history/sputnik/sputorig.html"
+      }
+    ],
+    "aliases": [
+      "Sputnik-1"
+    ]
+  },
+  {
+    "id": "stechiometria",
+    "name": "Stechiometria",
+    "definition": "La stechiometria studia i rapporti quantitativi fra le specie che partecipano a una reazione chimica o costituiscono un composto.",
+    "source": "https://www.treccani.it/enciclopedia/stechiometria/",
+    "lesson": "lezione-3-6.html",
+    "related": [
+      "mole",
+      "molecola",
+      "legame-chimico"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Gli atomi devono tornare",
+        "paragraphs": [
+          "Una reazione chimica riordina gli atomi senza trasformare un elemento in un altro. Il bilanciamento deve conservare quanti atomi di ciascun elemento compaiono prima e dopo, insieme alla carica complessiva quando sono presenti ioni. La stechiometria traduce questa conservazione in rapporti fra reagenti e prodotti. Le trasformazioni nucleari richiedono un altro quadro: non si descrive la fusione stellare come un semplice riordino dei legami chimici."
+        ]
+      },
+      {
+        "title": "Un esempio leggibile",
+        "paragraphs": [
+          "Due molecole di idrogeno H₂ e una di ossigeno O₂ possono formare due molecole d’acqua H₂O. A sinistra e a destra si contano quattro atomi di idrogeno e due di ossigeno. Gli stessi rapporti valgono fra moli delle specie. I coefficienti davanti alle formule cambiano quante molecole partecipano; i numeri piccoli dentro la formula indicano invece la composizione della molecola. Modificarli per far tornare il conto cambierebbe la sostanza."
+        ]
+      },
+      {
+        "title": "Proporzioni non significano velocità",
+        "paragraphs": [
+          "Una reazione bilanciata non dice quanto rapidamente avvenga, quali condizioni richieda o quale percorso microscopico segua. Temperatura, densità, energia disponibile e possibili superfici di reazione influenzano ciò che accade realmente. Nei gas interstellari molto rarefatti gli incontri fra particelle possono essere poco frequenti. Una freccia disegnata fra reagenti e prodotti esprime quindi una trasformazione considerata, non prova che essa proceda ovunque con efficienza o produca immediatamente le quantità ideali."
+        ]
+      },
+      {
+        "title": "Materiale disponibile e prodotti possibili",
+        "paragraphs": [
+          "Se uno dei reagenti manca rispetto al rapporto richiesto, limita quanto prodotto si può ottenere nel modello. L’abbondanza totale di un elemento non basta però a stabilire in quali molecole si troverà: contano rete delle reazioni e condizioni ambientali. Questa distinzione è utile per atmosfere, ghiacci e nubi molecolari. Nel laboratorio conta gli atomi con colori e simboli coerenti, separando il bilancio teorico dal rendimento e dalla misura della composizione finale."
+        ]
+      }
+    ],
+    "facts": [
+      "Bilanciare una reazione non determina la sua velocità né garantisce che avvenga"
+    ],
+    "example": "Bilanciare una reazione non determina la sua velocità né garantisce che avvenga",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/stechiometria/"
+      },
+      {
+        "title": "IUPAC · nomenclatura e rappresentazione della chimica",
+        "url": "https://iupac.org/what-we-do/nomenclature/"
+      }
+    ]
+  },
+  {
     "id": "stella",
     "name": "Stella",
     "definition": "Oggetto astrofisico che, durante parte della propria evoluzione, produce energia attraverso la fusione nucleare.",
@@ -24385,6 +35356,63 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "steradiante",
+    "name": "Steradiante",
+    "definition": "Lo steradiante, simbolo sr, è l’unità SI dell’angolo solido, che misura l’estensione di un insieme di direzioni nello spazio.",
+    "source": "https://www.treccani.it/enciclopedia/steradiante/",
+    "lesson": "lezione-1-6.html",
+    "related": [
+      "radiante-unita",
+      "sfera-celeste",
+      "campo-reale"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Dall’apertura di una linea a una regione",
+        "paragraphs": [
+          "Un angolo piano confronta due direzioni su un piano. Un angolo solido descrive invece un’apertura spaziale, come la regione di cielo compresa in un campo osservato. Lo steradiante ne fornisce la misura. Non è una lunghezza della volta celeste né una distanza fra stelle. Due regioni osservate possono occupare lo stesso angolo solido pur contenendo oggetti a profondità completamente differenti lungo le rispettive linee di vista."
+        ]
+      },
+      {
+        "title": "La sfera rende leggibile la definizione",
+        "paragraphs": [
+          "Immagina una sfera centrata nell’osservatore. Una regione sottende un angolo solido di uno steradiante quando l’area corrispondente sulla sfera è uguale al quadrato del suo raggio. Cambiando il raggio, l’area cresce in proporzione al suo quadrato, quindi il rapporto resta uguale. Non serve una sfera materiale: è una costruzione geometrica per contare direzioni. L’intera sfera contiene quattro pi greco steradianti, circa dodici virgola cinquantasette."
+        ]
+      },
+      {
+        "title": "Il cielo non è un foglio piano",
+        "paragraphs": [
+          "In astronomia si incontrano anche gradi quadrati per esprimere aree angolari. Una regione sulla sfera deve però essere misurata tenendo conto della geometria e della proiezione della carta. Moltiplicare arbitrariamente due intervalli di coordinate non dà sempre l’area corretta, soprattutto vicino ai poli o su campi ampi. Un piccolo rettangolo piano può offrire un’approssimazione locale, purché sia presentata come tale e non estesa a tutta la volta celeste."
+        ]
+      },
+      {
+        "title": "Perché compare nelle misure di luce",
+        "paragraphs": [
+          "Alcune grandezze radiometriche descrivono come l’energia venga distribuita anche per unità di angolo solido. Questo permette di distinguere quanto emette una sorgente complessivamente da quanto ne viene inviato in certe direzioni. Un fascio stretto e un’emissione diffusa possono avere confronti diversi secondo la grandezza scelta. Per il lettore basta iniziare dalla regione di cielo: lo steradiante misura quanto spazio direzionale essa occupa, senza trasformarla in un volume fisico pieno di stelle."
+        ]
+      }
+    ],
+    "facts": [
+      "L’intera sfera corrisponde a 4π sr; lo steradiante non misura una distanza"
+    ],
+    "example": "L’intera sfera corrisponde a 4π sr; lo steradiante non misura una distanza",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/steradiante/"
+      },
+      {
+        "title": "BIPM · unità e convenzioni SI",
+        "url": "https://www.bipm.org/en/publications/si-brochure"
+      }
+    ],
+    "aliases": [
+      "steradianti"
+    ]
+  },
+  {
     "id": "subgigante",
     "name": "Subgigante",
     "definition": "Una subgigante è una stella classificata fra la sequenza principale e le giganti in luminosità; la fase è collegata all’evoluzione oltre la fusione centrale dell’idrogeno per stelle appropriate.",
@@ -24439,6 +35467,60 @@ window.AdAstraGlossary = [
     ],
     "aliases": [
       "subgiganti"
+    ]
+  },
+  {
+    "id": "sublimazione",
+    "name": "Sublimazione",
+    "definition": "La sublimazione è il passaggio diretto di una sostanza dalla fase solida a quella gassosa, senza attraversare una fase liquida intermedia.",
+    "source": "https://www.treccani.it/enciclopedia/sublimazione/",
+    "lesson": "lezione-3-5.html",
+    "related": [
+      "cometa",
+      "brinamento",
+      "calore"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Dal solido al gas",
+        "paragraphs": [
+          "Un solido può perdere molecole che passano direttamente alla fase gassosa. Non è necessario immaginare prima la formazione di una pozza liquida: proprio l’assenza di quel passaggio distingue la sublimazione dalla successione fusione ed evaporazione. Le condizioni dipendono dalla sostanza, dalla temperatura e dalla pressione. La parola non significa che il materiale scompaia: la materia cambia stato e può disperdersi in una regione più ampia, diventando meno facile da vedere."
+        ]
+      },
+      {
+        "title": "Una cometa si attiva",
+        "paragraphs": [
+          "Quando il riscaldamento solare favorisce il rilascio di gas dal materiale ghiacciato di un nucleo cometario, si può sviluppare la chioma e possono essere trascinate polveri. Il nucleo non è un blocco perfettamente uniforme che si scioglie tutto insieme. Struttura, composizione, illuminazione e presenza di strati superficiali influenzano l’attività. L’immagine di una palla di neve che fonde in acqua è quindi insufficiente per raccontare ciò che avviene nell’ambiente spaziale."
+        ]
+      },
+      {
+        "title": "L’energia ha una destinazione",
+        "paragraphs": [
+          "La sublimazione richiede energia per il cambiamento di stato. Il bilancio tra energia assorbita, emissione e trasformazione del materiale contribuisce a regolare la temperatura della superficie. Non tutta l’energia ricevuta aumenta semplicemente la temperatura del solido. Questa distinzione permette di leggere un modello termico senza introdurre subito equazioni complesse: si seguono i percorsi dell’energia, invece di associare automaticamente maggiore illuminazione a un aumento proporzionale della temperatura."
+        ]
+      },
+      {
+        "title": "Descrivere il processo corretto",
+        "paragraphs": [
+          "Nelle didascalie conviene usare sublimazione quando il percorso fisico è solido–gas, evaporazione quando si parte da un liquido. Il termine ghiaccio può inoltre riferirsi a sostanze differenti dall’acqua negli ambienti planetari. Per interpretare un getto servono quindi informazioni sul materiale e sulle condizioni, non soltanto la sua forma. La distinzione fra processi vicini nel linguaggio quotidiano rende più chiara la storia delle comete e dei depositi volatili sulle superfici fredde."
+        ]
+      }
+    ],
+    "facts": [
+      "Sublimare non significa fondere: manca il passaggio attraverso il liquido"
+    ],
+    "example": "Sublimare non significa fondere: manca il passaggio attraverso il liquido",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/sublimazione/"
+      },
+      {
+        "title": "NASA · attività e struttura delle comete",
+        "url": "https://science.nasa.gov/solar-system/comets/facts/"
+      }
     ]
   },
   {
@@ -24624,6 +35706,63 @@ window.AdAstraGlossary = [
     },
     "aliases": [
       "supernove"
+    ]
+  },
+  {
+    "id": "tavola-periodica",
+    "name": "Tavola periodica",
+    "definition": "La tavola periodica organizza gli elementi secondo il numero atomico e mette in evidenza ricorrenze nelle proprietà legate alla struttura elettronica.",
+    "source": "https://www.treccani.it/enciclopedia/elemento-chimico/",
+    "lesson": "lezione-4-3.html",
+    "related": [
+      "numero-atomico",
+      "gruppo-periodico",
+      "periodo-chimico"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Una mappa degli elementi",
+        "paragraphs": [
+          "Ogni casella identifica un elemento mediante nome, simbolo e dati selezionati. Il numero atomico cresce seguendo l’ordine della tavola e conta i protoni nel nucleo. Non è una graduatoria delle abbondanze cosmiche, della densità o dell’importanza biologica. Un elemento raro nell’Universo può avere una casella grande quanto quella dell’idrogeno. La disposizione rappresenta relazioni chimiche e atomiche, non la quantità di materiale presente nello spazio o in un pianeta."
+        ]
+      },
+      {
+        "title": "Righe e colonne hanno un significato",
+        "paragraphs": [
+          "Le righe sono i periodi e le colonne i gruppi. Le ricorrenze della configurazione elettronica aiutano a spiegare somiglianze fra elementi dello stesso gruppo. La tavola non garantisce però che tutti i membri di una colonna reagiscano nello stesso modo e alla stessa velocità. È una mappa di tendenze, da leggere con attenzione ai casi reali. La disposizione compatta può collocare alcune serie sotto il corpo principale per ragioni grafiche."
+        ]
+      },
+      {
+        "title": "Quale numero stiamo leggendo?",
+        "paragraphs": [
+          "La massa atomica relativa riportata in molte caselle non coincide in generale con il numero di massa di un singolo isotopo. Può derivare da una media legata alla composizione isotopica di riferimento; alcune tabelle mostrano intervalli o indicazioni particolari. Perciò un numero decimale non implica che un nucleo contenga una frazione di neutrone. La legenda e la fonte della tavola permettono di interpretare correttamente questi dati, senza confondere proprietà del campione e identità dell’elemento."
+        ]
+      },
+      {
+        "title": "Una chiave per la materia cosmica",
+        "paragraphs": [
+          "Le stelle producono e trasformano nuclei; la chimica organizza atomi in molecole e solidi. La tavola periodica aiuta a tenere insieme questi livelli senza sovrapporli. Non racconta da sola tutti i processi di nucleosintesi e non stabilisce quali minerali si formino su un pianeta. Serve come riferimento iniziale: quale elemento, con quanti protoni e con quali tendenze elettroniche? Da queste domande si passa poi a isotopi, legami e ambienti astronomici."
+        ]
+      }
+    ],
+    "facts": [
+      "Il numero atomico ordina la tavola; non indica l’abbondanza dell’elemento"
+    ],
+    "example": "Il numero atomico ordina la tavola; non indica l’abbondanza dell’elemento",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/elemento-chimico/"
+      },
+      {
+        "title": "IUPAC · tavola periodica e dati di riferimento",
+        "url": "https://iupac.org/what-we-do/periodic-table-of-elements/"
+      }
+    ],
+    "aliases": [
+      "Sistema periodico degli elementi"
     ]
   },
   {
@@ -24979,6 +36118,64 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "tempo-dimezzamento",
+    "name": "Tempo di dimezzamento",
+    "definition": "Il tempo di dimezzamento è l’intervallo nel quale, nel modello di decadimento considerato, rimane mediamente metà dei nuclei iniziali del nuclide radioattivo.",
+    "source": "https://www.treccani.it/enciclopedia/dimezzamento/",
+    "lesson": "lezione-10-4.html",
+    "related": [
+      "radioattivita",
+      "vita-media",
+      "isotopo"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Dimezzare una popolazione",
+        "paragraphs": [
+          "Se un campione contiene moltissimi nuclei dello stesso radionuclide, dopo un tempo di dimezzamento ne resta mediamente la metà non trasformata. Il riferimento è alla popolazione iniziale di quel tipo di nucleo, non alla massa totale del contenitore. I prodotti rimangono parte del sistema e possono avere proprietà differenti. La parola metà deve quindi essere accompagnata da una domanda precisa: metà di che cosa stiamo contando?"
+        ]
+      },
+      {
+        "title": "Una sequenza da leggere senza logaritmi",
+        "paragraphs": [
+          "Immaginiamo idealmente 8.000 nuclei e trascuriamo le fluttuazioni statistiche. Dopo un dimezzamento ne rimangono circa 4.000, dopo due circa 2.000 e dopo tre circa 1.000. Non scompare lo stesso numero a ogni intervallo: si dimezza quello ancora presente. L’esempio mostra il senso della legge senza richiedere il calcolo esponenziale. Per un campione piccolo i numeri effettivi possono discostarsi sensibilmente dall’andamento medio descritto."
+        ]
+      },
+      {
+        "title": "Non coincide con la vita media",
+        "paragraphs": [
+          "Tempo di dimezzamento e vita media sono collegati ma non identici. Nel decadimento esponenziale il primo vale circa 0,693 volte la seconda. Si tratta di due modi diversi di descrivere la stessa distribuzione statistica. Nessuno dei due afferma che tutti i nuclei si trasformino quando l’orologio raggiunge quel valore. Nei dati e nelle didascalie bisogna controllare quale grandezza sia stata riportata, perché scambiarle produce un errore anche quando l’unità temporale è corretta."
+        ]
+      },
+      {
+        "title": "Scegliere un orologio appropriato",
+        "paragraphs": [
+          "Radionuclidi con tempi differenti sono utili su scale temporali differenti. Una datazione richiede inoltre un sistema e una storia compatibili con il metodo, non soltanto la conoscenza del dimezzamento. Nei fenomeni astronomici il confronto con segnali variabili deve considerare come l’energia venga assorbita e riemessa. La voce offre quindi una regola intuitiva e una condizione: il dimezzamento descrive il processo statistico del nuclide, mentre il fenomeno osservato può comprendere ulteriori passaggi fisici."
+        ]
+      }
+    ],
+    "facts": [
+      "Nel modello: 8.000 → 4.000 → 2.000 → 1.000 in tre successivi dimezzamenti"
+    ],
+    "example": "Nel modello: 8.000 → 4.000 → 2.000 → 1.000 in tre successivi dimezzamenti",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/dimezzamento/"
+      },
+      {
+        "title": "IAEA · definizione e andamento del dimezzamento",
+        "url": "https://nucleus.iaea.org/sites/nss-oui/Published%20Chunks/m_92a7ef8e-2c5b-4379-8b22-d159e05cd885/c_d4d159a0-7137-49b6-b55d-c8697d094424__13_0.Html"
+      }
+    ],
+    "aliases": [
+      "emivita",
+      "periodo di dimezzamento"
+    ]
+  },
+  {
     "id": "tempo-integrazione",
     "name": "Tempo di integrazione",
     "definition": "Il tempo di integrazione descrive l’intervallo complessivo di raccolta del segnale considerato in una misura, che può comprendere una o più esposizioni utilizzate.",
@@ -25315,6 +36512,129 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "tesla-unita",
+    "name": "Tesla, unità magnetica",
+    "definition": "Il tesla, simbolo T, è l’unità SI dell’induzione magnetica B, comunemente chiamata campo magnetico nel contesto appropriato.",
+    "source": "https://www.treccani.it/vocabolario/tesla/",
+    "lesson": "lezione-2-3.html",
+    "related": [
+      "campo-magnetico",
+      "vento-solare",
+      "aurora-polare"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un numero deve avere una grandezza",
+        "paragraphs": [
+          "Per confrontare campi magnetici si può esprimere l’induzione magnetica in tesla. Non è la stessa unità usata per una forza o per una carica elettrica. Il numero va collegato a luogo, direzione e condizioni della misura: il campo non deve essere uniforme in tutta una regione. Anche il termine intensità viene usato con significati tecnici differenti, quindi la scheda deve precisare quale grandezza fisica sia stata espressa in tesla."
+        ]
+      },
+      {
+        "title": "Campi piccoli e prefissi",
+        "paragraphs": [
+          "Un tesla è grande rispetto al campo magnetico terrestre ordinario alla superficie. Per molti confronti si usano microtesla o nanotesla, che indicano rispettivamente milionesimi e miliardesimi di tesla. Il prefisso cambia la scala del numero, non la natura del campo. Una tabella che riporti valori senza unità può quindi produrre errori enormi. Nel confronto fra ambiente terrestre, spazio interplanetario e regioni solari, la conversione coerente è il primo controllo da fare."
+        ]
+      },
+      {
+        "title": "Il legame con il flusso magnetico",
+        "paragraphs": [
+          "Per un campo uniforme perpendicolare a una superficie piana, il flusso magnetico si ottiene moltiplicando il valore del campo per l’area. Un tesla su un metro quadrato corrisponde a un weber di flusso. Cambiando inclinazione cambia il contributo che attraversa la superficie. Il disegno con linee di campo è una rappresentazione di direzione e struttura: le linee non sono fili materiali e il loro numero dipende anche dalla scelta grafica."
+        ]
+      },
+      {
+        "title": "Leggere una notizia astronomica",
+        "paragraphs": [
+          "Il campo delle regioni solari viene studiato con misure che richiedono interpretazione e geometria. Un valore locale molto alto non descrive automaticamente l’intero Sole, e una mappa può mostrare una componente del campo invece del suo modulo completo. Le magnetar offrono esempi estremi che richiedono scale ancora differenti. La parola tesla diventa utile quando accompagna una domanda precisa: dove è stato stimato il campo, con quale metodo e quale sua proprietà viene confrontata?"
+        ]
+      }
+    ],
+    "facts": [
+      "Microtesla e nanotesla differiscono di un fattore mille"
+    ],
+    "example": "Microtesla e nanotesla differiscono di un fattore mille",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/vocabolario/tesla/"
+      },
+      {
+        "title": "BIPM · quadro delle unità SI",
+        "url": "https://www.bipm.org/en/measurement-units"
+      }
+    ],
+    "aliases": [
+      "tesla magnetici"
+    ],
+    "linkNames": [
+      "unità tesla",
+      "microtesla",
+      "nanotesla"
+    ]
+  },
+  {
+    "id": "tess",
+    "name": "TESS",
+    "definition": "TESS è il Transiting Exoplanet Survey Satellite della NASA, lanciato nel 2018 per cercare esopianeti attraverso transiti osservati in ampie regioni del cielo.",
+    "source": "https://www.treccani.it/enciclopedia/pianeta/",
+    "lesson": "lezione-10-1.html",
+    "related": [
+      "kepler-missione",
+      "transito",
+      "fotometria"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un’indagine su molte stelle",
+        "paragraphs": [
+          "TESS misura la luminosità stellare ripetutamente e cerca diminuzioni compatibili con il passaggio di pianeti. Il suo programma osservativo copre regioni estese del cielo organizzate in settori. Non è un dispositivo che inquadra simultaneamente ogni stella della Galassia e restituisce tutti i pianeti presenti. Copertura, tempi di permanenza e sensibilità definiscono il campione di segnali che possono emergere dai dati."
+        ]
+      },
+      {
+        "title": "Il nome spiega il metodo",
+        "paragraphs": [
+          "Transiting Exoplanet Survey Satellite indica una missione di ricerca di esopianeti tramite transiti. Il pianeta deve passare davanti alla stella dal nostro punto di vista. Una curva di luce permette di misurare tempi e profondità del fenomeno, ma la conversione in proprietà planetarie richiede conoscere anche la stella e controllare le ipotesi. Il raggio di un pianeta non equivale alla sua massa, e le due grandezze non vengono determinate automaticamente dallo stesso dato."
+        ]
+      },
+      {
+        "title": "Dal candidato alla verifica",
+        "paragraphs": [
+          "TESS fu lanciato nell’aprile 2018. Le rilevazioni generano candidati che vengono analizzati e confrontati con osservazioni complementari. Sistemi stellari multipli, variabilità e sorgenti vicine possono complicare il segnale. Un elenco di candidati e uno di pianeti confermati non devono quindi essere presentati come equivalenti. Anche i conteggi si aggiornano con le analisi: una voce di glossario spiega il processo, mentre per il totale corrente occorre consultare gli archivi ufficiali."
+        ]
+      },
+      {
+        "title": "Una continuità con domande nuove",
+        "paragraphs": [
+          "Kepler e TESS condividono il principio dei transiti, ma hanno selezioni e strategie differenti. I loro risultati si completano con spettroscopia e altri strumenti, che approfondiscono particolari sistemi. La scoperta di un pianeta in una regione favorevole alla presenza di acqua non equivale a una prova di abitabilità effettiva o vita. Il punto memorabile è la catena della ricerca: una variazione minima di luce apre una domanda, e altri dati permettono di trasformarla in una descrizione più affidabile."
+        ]
+      }
+    ],
+    "facts": [
+      "Un candidato individuato da TESS richiede analisi e verifiche prima dell’interpretazione definitiva"
+    ],
+    "example": "Un candidato individuato da TESS richiede analisi e verifiche prima dell’interpretazione definitiva",
+    "sources": [
+      {
+        "title": "Treccani · quadro terminologico generale; dettagli nelle fonti specifiche",
+        "url": "https://www.treccani.it/enciclopedia/pianeta/"
+      },
+      {
+        "title": "NASA · obiettivi e metodo di TESS",
+        "url": "https://www.nasa.gov/reference/the-transiting-exoplanet-survey-satellite/"
+      },
+      {
+        "title": "NASA HEASARC · TESS e campagna osservativa",
+        "url": "https://heasarc.gsfc.nasa.gov/docs/tess/what-is-tess.html"
+      }
+    ],
+    "aliases": [
+      "Transiting Exoplanet Survey Satellite"
+    ]
+  },
+  {
     "id": "testa-a-sfera",
     "name": "Testa a sfera",
     "definition": "Una testa a sfera è un supporto orientabile fra treppiede o altro sostegno e apparecchiatura, che permette di impostare e bloccare una direzione entro i limiti meccanici previsti.",
@@ -25428,6 +36748,128 @@ window.AdAstraGlossary = [
     "aliases": [
       "inclinazione del sensore",
       "sensor tilt"
+    ]
+  },
+  {
+    "id": "titanio",
+    "name": "Titanio",
+    "definition": "Il titanio è l’elemento di numero atomico 22, simbolo Ti. I suoi isotopi e composti compaiono nello studio dei materiali planetari e dei prodotti delle esplosioni stellari.",
+    "source": "https://www.treccani.it/enciclopedia/titanio/",
+    "lesson": "lezione-10-4.html",
+    "related": [
+      "isotopo",
+      "supernova",
+      "riga-spettrale"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Elemento, minerale e lega",
+        "paragraphs": [
+          "Il titanio metallico utilizzato nelle tecnologie non è identico ai minerali e agli ossidi che lo contengono nei materiali naturali. Per identificare l’elemento si contano i protoni; per descrivere il composto occorre conoscere anche legami e altri ingredienti. Il nome non indica la luna Titano, che è un corpo celeste differente. Tenere separati questi significati evita che una somiglianza linguistica diventi una falsa relazione di composizione."
+        ]
+      },
+      {
+        "title": "Isotopi con stabilità diversa",
+        "paragraphs": [
+          "Il titanio comprende isotopi stabili e radionuclidi. Il titanio-44 è importante nello studio di alcuni resti di supernova perché la sua catena di decadimento produce emissioni ad alta energia riconoscibili. Non tutto il titanio è quindi radioattivo e non ogni sua riga proviene da quella trasformazione. Un’osservazione deve indicare il nuclide e il tipo di segnale per collegare correttamente misura e processo nucleare."
+        ]
+      },
+      {
+        "title": "Leggere i resti di un’esplosione",
+        "paragraphs": [
+          "NuSTAR ha mappato emissioni associate al titanio-44 in Cassiopeia A, fornendo indizi sulla distribuzione dei prodotti dell’esplosione. I colori della mappa traducono bande e misure; non mostrano un metallo blu fotografato all’occhio. Il confronto con ferro e altre componenti aiuta a mettere alla prova i modelli. La distribuzione osservata non è una ripresa diretta dell’istante dell’esplosione, ma una traccia successiva che deve essere interpretata."
+        ]
+      },
+      {
+        "title": "Dal materiale alle condizioni che lo producono",
+        "paragraphs": [
+          "Composizione, isotopi e stato del gas offrono informazioni complementari. La presenza di titanio in una roccia e quella di un suo radionuclide in un resto stellare non raccontano la stessa fase della materia. Il collegamento sta nella storia degli elementi e nelle trasformazioni nucleari. La voce invita a seguire la firma specifica: un nome elementare diventa una diagnosi astronomica quando si chiarisce quale specie produca il segnale e quali condizioni ne rendano possibile l’osservazione."
+        ]
+      }
+    ],
+    "facts": [
+      "Il titanio-44 è un radionuclide; la parola titanio non implica radioattività di tutti gli isotopi"
+    ],
+    "example": "Il titanio-44 è un radionuclide; la parola titanio non implica radioattività di tutti gli isotopi",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/titanio/"
+      },
+      {
+        "title": "RSC · titanio e isotopi",
+        "url": "https://periodic-table.rsc.org/element/22/titanium"
+      },
+      {
+        "title": "NASA · mappa del titanio-44 in Cassiopeia A",
+        "url": "https://www.nasa.gov/image-article/untangling-remains-of-cassiopeia/"
+      },
+      {
+        "title": "Studio NuSTAR · distribuzione di ⁴⁴Ti",
+        "url": "https://arxiv.org/abs/1612.02774"
+      }
+    ]
+  },
+  {
+    "id": "tolomeo-claudio",
+    "name": "Tolomeo, Claudio",
+    "definition": "Claudio Tolomeo fu uno studioso attivo ad Alessandria nel II secolo d.C., autore dell’Almagesto e di un’importante sistemazione matematica dell’astronomia geocentrica.",
+    "source": "https://www.treccani.it/enciclopedia/tolomeo_(Enciclopedia-della-Matematica)/",
+    "lesson": "lezione-1-3.html",
+    "related": [
+      "sfera-celeste",
+      "catalogo-astronomico",
+      "copernico-niccolo"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un sistema di calcolo del cielo",
+        "paragraphs": [
+          "L’Almagesto raccolse e organizzò conoscenze e metodi per descrivere i moti degli astri. Il sistema associato a Tolomeo poneva la Terra al centro del quadro astronomico e usava costruzioni geometriche articolate. Non era semplicemente un disegno ingenuo di cerchi: cercava di rendere calcolabili le apparenze e le loro irregolarità. Comprenderne lo scopo permette di discutere la storia senza giudicare ogni modello passato soltanto attraverso la distanza dalle conoscenze attuali."
+        ]
+      },
+      {
+        "title": "Prevedere non equivale a spiegare tutto",
+        "paragraphs": [
+          "Un modello può riprodurre alcune osservazioni attraverso parametri e costruzioni senza descrivere correttamente ogni aspetto della realtà fisica. Il caso tolemaico aiuta a distinguere capacità di previsione, ipotesi geometriche e interpretazione dinamica. Il successivo sviluppo dell’astronomia non consistette soltanto nello spostare un cerchio sul foglio: introdusse nuovi confronti osservativi e nuovi principi. Un buon racconto mette in evidenza quali domande un modello affronti e quali limiti emergano quando cambiano dati e precisione."
+        ]
+      },
+      {
+        "title": "Cataloghi e trasmissione del sapere",
+        "paragraphs": [
+          "L’opera comprende anche un catalogo stellare e contribuì alla trasmissione dell’astronomia antica attraverso più lingue e culture. Il titolo Almagesto conserva tracce di questa storia. Non bisogna trattare il testo come se fosse arrivato direttamente e senza trasformazioni a ogni epoca successiva. Copie, traduzioni e commenti influenzano il modo in cui conosciamo le opere. Anche il rapporto con dati precedenti, compresi quelli di Ipparco, richiede un’analisi storica specifica."
+        ]
+      },
+      {
+        "title": "Geocentrico non significa ogni coordinata terrestre",
+        "paragraphs": [
+          "Usare oggi coordinate riferite al centro della Terra non implica adottare il sistema fisico tolemaico. Un riferimento può essere utile per calcolare posizioni senza affermare che l’Universo ruoti materialmente attorno alla Terra. Questa distinzione è preziosa nella didattica: osservatore, origine delle coordinate e modello del moto sono scelte o concetti differenti. Tolomeo permette di introdurre il problema con una storia concreta, mantenendo separati il linguaggio geometrico e la spiegazione fisica dei fenomeni."
+        ]
+      }
+    ],
+    "facts": [
+      "Un sistema di coordinate geocentrico moderno non implica il modello fisico tolemaico"
+    ],
+    "example": "Un sistema di coordinate geocentrico moderno non implica il modello fisico tolemaico",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/tolomeo_(Enciclopedia-della-Matematica)/"
+      },
+      {
+        "title": "Università di St Andrews · Tolomeo e l’Almagesto",
+        "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Ptolemy/"
+      }
+    ],
+    "aliases": [
+      "Claudio Tolomeo"
+    ],
+    "linkNames": [
+      "Claudio Tolomeo"
     ]
   },
   {
@@ -25764,6 +37206,67 @@ window.AdAstraGlossary = [
         "title": "Treccani · riferimento terminologico",
         "url": "https://www.treccani.it/vocabolario/treppiede/"
       }
+    ]
+  },
+  {
+    "id": "trizio",
+    "name": "Trizio",
+    "definition": "Il trizio è l’isotopo radioattivo dell’idrogeno con un protone e due neutroni nel nucleo; si indica con ³H o T.",
+    "source": "https://www.treccani.it/enciclopedia/trizio/",
+    "lesson": "lezione-4-1.html",
+    "related": [
+      "deuterio",
+      "nuclide",
+      "vita-media"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un altro membro della stessa famiglia",
+        "paragraphs": [
+          "Idrogeno ordinario, deuterio e trizio hanno tutti un protone nel nucleo. Cambia il numero di neutroni: rispettivamente zero, uno e due. Il trizio non diventa per questo elio, perché l’elemento è identificato dai protoni. Un atomo neutro conserva un elettrone. Il confronto permette di distinguere con un esempio concreto numero atomico, numero di massa e carica, tre dati che spesso vengono letti come equivalenti."
+        ]
+      },
+      {
+        "title": "Radioattivo non significa che cambia subito",
+        "paragraphs": [
+          "Il trizio decade con un tempo di dimezzamento di circa dodici anni. Il dato descrive il comportamento statistico di molti nuclei, non una scadenza precisa assegnata a ogni atomo. Dopo un tempo di dimezzamento resta circa metà della popolazione iniziale nelle condizioni del modello di decadimento. La vita media è una grandezza differente. Il prodotto del decadimento appartiene all’elio, e il bilancio include le particelle e l’energia emesse."
+        ]
+      },
+      {
+        "title": "Chimica e nucleo seguono livelli differenti",
+        "paragraphs": [
+          "Il trizio può partecipare a specie chimiche dell’idrogeno, ma possiede massa e comportamento nucleare propri. Una reazione chimica che riordina i legami non è lo stesso processo del decadimento del nucleo. Anche la presenza in piccole quantità nell’ambiente richiede di considerarne origine e distribuzione, senza attribuire a ogni campione un identico rapporto isotopico. Le tabelle generali forniscono riferimenti, mentre una misura locale riguarda un materiale e un momento specifici."
+        ]
+      },
+      {
+        "title": "Fusione e divulgazione",
+        "paragraphs": [
+          "Nelle discussioni sulla fusione controllata si incontra spesso la coppia deuterio–trizio. Non bisogna trasferire automaticamente quella reazione alla descrizione della produzione energetica principale del Sole. I contesti fisici e le catene di reazioni sono differenti. Il termine è utile per leggere correttamente notizie su energia e materia, mantenendo separati isotopo, processo nucleare e applicazione tecnologica. Una formula accompagnata dal conteggio dei nuclei rende il confronto più chiaro di uno slogan sulla stessa energia delle stelle."
+        ]
+      }
+    ],
+    "facts": [
+      "Il tempo di dimezzamento è una proprietà statistica, non la scadenza di ogni singolo nucleo"
+    ],
+    "example": "Il tempo di dimezzamento è una proprietà statistica, non la scadenza di ogni singolo nucleo",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/trizio/"
+      },
+      {
+        "title": "RSC · isotopi dell’idrogeno",
+        "url": "https://periodic-table.rsc.org/element/1/hydrogen"
+      },
+      {
+        "title": "INFN · fissione e fusione",
+        "url": "https://www.infn.it/en/nuclear-energy/"
+      }
+    ],
+    "aliases": [
+      "tritio"
     ]
   },
   {
@@ -26561,6 +38064,67 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "velocita-vettoriale",
+    "name": "Velocità vettoriale",
+    "definition": "La velocità vettoriale descrive la variazione della posizione nel tempo, includendo rapidità, direzione e verso del moto rispetto a un riferimento.",
+    "source": "https://www.treccani.it/enciclopedia/velocita/",
+    "lesson": "lezione-3-6.html",
+    "related": [
+      "vettore",
+      "accelerazione",
+      "velocita-radiale"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Sapere quanto e verso dove",
+        "paragraphs": [
+          "Dire cento chilometri all’ora comunica una rapidità, ma non basta a descrivere dove stia andando un oggetto. Il vettore velocità include l’orientamento del moto. La sua direzione istantanea è tangente alla traiettoria nel modello di punto materiale. Non deve essere confusa con la linea che unisce l’oggetto all’osservatore o con la freccia che indica la forza risultante: queste direzioni possono essere differenti."
+        ]
+      },
+      {
+        "title": "Il percorso chiuso chiarisce la differenza",
+        "paragraphs": [
+          "Un oggetto che completa un giro torna al punto iniziale. Sul giro intero lo spostamento netto è nullo e la velocità vettoriale media è quindi nulla, pur avendo percorso una distanza positiva. La rapidità media lungo il tragitto non è nulla. La distinzione non è un gioco linguistico: mostra che distanza percorsa e spostamento rispondono a domande diverse. Le medie devono essere definite prima di utilizzare il numero in un calcolo."
+        ]
+      },
+      {
+        "title": "Separare le componenti osservabili",
+        "paragraphs": [
+          "In astronomia si distinguono componenti lungo la linea di vista e nel piano del cielo. La velocità radiale e le informazioni sul moto trasversale si ottengono con metodi diversi. Un oggetto può avere piccola velocità radiale e muoversi rapidamente soprattutto di lato rispetto a noi. Non basta quindi un solo dato spettroscopico per conoscere l’intero vettore, né un piccolo spostamento angolare dimostra da solo una piccola velocità fisica."
+        ]
+      },
+      {
+        "title": "Il riferimento cambia il racconto",
+        "paragraphs": [
+          "La velocità deve essere dichiarata rispetto a qualcosa: osservatore, Terra, Sole o altro riferimento appropriato. Due valori possono differire senza essere contraddittori se si riferiscono a sistemi differenti. Quando la direzione cambia, anche a rapidità costante, esiste accelerazione. Questa connessione è centrale nelle orbite: il pianeta non percorre una retta indisturbata, ma cambia continuamente il proprio moto. La freccia della velocità serve a rendere visibile questa geometria, non ad aggiungere un ornamento al disegno."
+        ]
+      }
+    ],
+    "facts": [
+      "Dopo un giro completo lo spostamento netto può essere nullo anche se la distanza percorsa è positiva"
+    ],
+    "example": "Dopo un giro completo lo spostamento netto può essere nullo anche se la distanza percorsa è positiva",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/velocita/"
+      },
+      {
+        "title": "SAIt · Bignamino di astronomia, meccanica",
+        "url": "https://www.sait.it/sites/sait.interlandia.net/files/pictures/notizie/2022/Bignamino_astronomia_2022.pdf"
+      },
+      {
+        "title": "NASA · accelerazione e moto orbitale",
+        "url": "https://science.nasa.gov/learn/basics-of-space-flight/chapter3-3/"
+      }
+    ],
+    "aliases": [
+      "vettore velocità"
+    ]
+  },
+  {
     "id": "vento-solare",
     "name": "Vento solare",
     "definition": "Il vento solare è un flusso di plasma proveniente dall’atmosfera esterna del Sole e diffuso nello spazio interplanetario.",
@@ -27056,6 +38620,117 @@ window.AdAstraGlossary = [
     "aliases": [
       "vita media di decadimento",
       "tempo di vita medio"
+    ]
+  },
+  {
+    "id": "volt",
+    "name": "Volt",
+    "definition": "Il volt, simbolo V, è l’unità SI della differenza di potenziale elettrico: un volt equivale a un joule per coulomb.",
+    "source": "https://www.treccani.it/enciclopedia/volt/",
+    "lesson": "strumentazione.html",
+    "related": [
+      "energia",
+      "coulomb",
+      "ampere"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Energia per unità di carica",
+        "paragraphs": [
+          "La tensione confronta due punti e descrive una differenza di potenziale. Un volt corrisponde a un joule di variazione energetica per ogni coulomb nel quadro appropriato. Non significa che nel circuito circoli un coulomb ogni secondo: quello riguarda la corrente. Una batteria può avere tensione ai terminali anche quando non sta alimentando un carico collegato. Distinguere tensione e corrente evita di leggere come equivalenti due numeri espressi in unità diverse."
+        ]
+      },
+      {
+        "title": "L’esempio della strumentazione",
+        "paragraphs": [
+          "Una camera e una montatura possono richiedere tensioni specifiche. La corrispondenza del connettore non prova che l’alimentazione sia adatta: vanno confrontate le indicazioni del produttore, comprese polarità e caratteristiche richieste. Il valore nominale di una batteria può inoltre differire dalla tensione effettiva durante la scarica. Nell’organizzazione della serata è utile annotare le richieste di ogni dispositivo invece di affidarsi al solo aspetto esterno degli alimentatori."
+        ]
+      },
+      {
+        "title": "Il rapporto con la potenza",
+        "paragraphs": [
+          "Per un carico in corrente continua nel caso semplice, tensione moltiplicata per corrente dà la potenza. Cinque volt per due ampere fanno dieci watt, mentre dodici volt per due ampere fanno ventiquattro watt. La stessa corrente non implica quindi lo stesso consumo energetico al secondo. Nei sistemi variabili e in corrente alternata entrano altre condizioni: il piccolo esempio serve a capire le unità, non a sostituire ogni calcolo elettrico con una formula universale."
+        ]
+      },
+      {
+        "title": "Dal circuito alle particelle",
+        "paragraphs": [
+          "Anche l’energia delle particelle può essere collegata a differenze di potenziale. L’elettronvolt nasce da questo collegamento, ma è un’unità di energia e non un altro nome del volt. Una misura astronomica deve distinguere carica, tensione e energia del fotone o della particella considerata. Il concetto chiave da ricordare è il rapporto: il volt descrive energia per carica. Questa lettura resta utile sia per comprendere il proprio equipaggiamento sia per affrontare la fisica delle particelle."
+        ]
+      }
+    ],
+    "facts": [
+      "Volt è tensione; elettronvolt è energia"
+    ],
+    "example": "Volt è tensione; elettronvolt è energia",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/volt/"
+      },
+      {
+        "title": "BIPM · sistema SI e grandezze",
+        "url": "https://www.bipm.org/en/measurement-units"
+      }
+    ]
+  },
+  {
+    "id": "voyager-1",
+    "name": "Voyager 1",
+    "definition": "Voyager 1 è la sonda NASA lanciata il 5 settembre 1977, protagonista dei sorvoli di Giove e Saturno e dell’ingresso nello spazio interstellare oltre l’eliopausa nel 2012.",
+    "source": "https://www.treccani.it/enciclopedia/astronautica/",
+    "lesson": "lezione-10-5.html",
+    "related": [
+      "vento-solare",
+      "sistema-solare",
+      "satellite-artificiale"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un’esplorazione per sorvoli",
+        "paragraphs": [
+          "Voyager 1 passò vicino a Giove nel 1979 e a Saturno nel 1980, raccogliendo immagini e misure. Non entrò in orbita stabile attorno a entrambi i pianeti e non vi atterrò. Il sorvolo offre un incontro ravvicinato lungo una traiettoria che continua. La distinzione da orbiter e lander aiuta a capire tempi, regioni osservate e limiti dei dati: la sonda non può tornare liberamente a fotografare la stessa scena a ogni nuova domanda."
+        ]
+      },
+      {
+        "title": "Il confine del vento solare",
+        "paragraphs": [
+          "Nel 2012 Voyager 1 attraversò l’eliopausa ed entrò nel mezzo interstellare, secondo le misure e l’interpretazione della missione. Questo confine riguarda l’ambiente del vento solare. Non coincide con il limite ultimo di ogni corpo legato gravitazionalmente al Sole. Dire che ha lasciato il Sistema solare senza precisare il significato può quindi generare equivoci. Il racconto deve indicare quale influenza fisica e quale regione si stanno considerando."
+        ]
+      },
+      {
+        "title": "Un laboratorio che si allontana",
+        "paragraphs": [
+          "Le immagini dei pianeti appartengono alla fase degli incontri; lo studio dell’ambiente lontano usa strumenti e domande differenti. La grande distanza comporta tempi di comunicazione e vincoli energetici. Lo stato degli strumenti può cambiare e deve essere aggiornato con fonti della missione, senza mantenere per sempre un vecchio elenco come se fosse operativo. Una figura artistica della sonda nel vuoto non è una fotografia esterna scattata da un osservatore che la accompagna."
+        ]
+      },
+      {
+        "title": "Il significato della continuità",
+        "paragraphs": [
+          "La missione mostra come una stessa struttura possa sostenere obiettivi scientifici successivi, entro i limiti dell’hardware e delle risorse. Per il glossario sono più utili traiettoria, misure e confini fisici che un record di distanza destinato a invecchiare rapidamente. Anche i risultati devono restare collegati a data e contesto. L’esplorazione diventa così un percorso documentato attraverso ambienti differenti, non soltanto l’idea suggestiva di una macchina che viaggia per sempre senza condizioni o manutenzione da Terra."
+        ]
+      }
+    ],
+    "facts": [
+      "Superare l’eliopausa non significa superare ogni regione gravitazionalmente legata al Sole"
+    ],
+    "example": "Superare l’eliopausa non significa superare ogni regione gravitazionalmente legata al Sole",
+    "sources": [
+      {
+        "title": "Treccani · quadro terminologico generale; dettagli nelle fonti specifiche",
+        "url": "https://www.treccani.it/enciclopedia/astronautica/"
+      },
+      {
+        "title": "NASA · Voyager 1, cronologia e confine interstellare",
+        "url": "https://science.nasa.gov/mission/voyager/voyager-1/"
+      }
+    ],
+    "aliases": [
+      "Voyager1"
     ]
   },
   {
@@ -28120,6 +39795,64 @@ window.AdAstraGlossary = [
       {
         "title": "IAU · FAQ su costellazioni e zodiaco",
         "url": "https://www.iau.org/IAU/IAU/Astronomy-FAQs/FAQs.aspx"
+      }
+    ]
+  },
+  {
+    "id": "zolfo",
+    "name": "Zolfo",
+    "definition": "Lo zolfo è l’elemento chimico di numero atomico 16 e simbolo S, presente in materiali solidi e in numerose specie gassose planetarie e interstellari.",
+    "source": "https://www.treccani.it/enciclopedia/zolfo/",
+    "lesson": "lezione-3-4.html",
+    "related": [
+      "elemento-chimico",
+      "molecola",
+      "lune-galileiane"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Non tutto ciò che contiene zolfo è giallo",
+        "paragraphs": [
+          "Il colore familiare dello zolfo elementare non descrive automaticamente tutti i suoi composti. Solfuri, solfati e molecole gassose possono avere proprietà molto differenti. La formula specifica quali atomi partecipino alla specie, mentre il minerale ne descrive anche l’organizzazione. Una superficie planetaria colorata non si interpreta correttamente assegnando a ogni sfumatura il colore domestico dell’elemento puro. Le immagini richiedono confronto con misure e condizioni di illuminazione."
+        ]
+      },
+      {
+        "title": "Vulcani e atmosfere",
+        "paragraphs": [
+          "Composti come l’anidride solforosa entrano nello studio dei gas vulcanici e di ambienti planetari. La loro presenza può essere misurata con tecniche spettroscopiche anche a distanza. Una nube di gas non ha necessariamente lo stesso significato di un deposito superficiale. Su mondi come Io si confrontano superficie, atmosfera e attività, senza ridurre ogni processo a una sola sostanza. Il modello deve considerare anche temperature, materiali e trasformazioni."
+        ]
+      },
+      {
+        "title": "La chimica fra le stelle",
+        "paragraphs": [
+          "Molecole contenenti zolfo sono parte delle reti studiate nel mezzo interstellare. La quantità osservata in certe specie non coincide per forza con tutto lo zolfo disponibile, perché una parte può trovarsi in altri gas o materiali solidi. Questa distinzione fra elemento totale e specie misurata è fondamentale quando si parla di abbondanze. Il numero di righe riconosciute non si traduce direttamente in una percentuale dell’elemento senza analisi della formazione del segnale."
+        ]
+      },
+      {
+        "title": "Una lettura comune fra Terra e spazio",
+        "paragraphs": [
+          "Il telerilevamento terrestre dell’anidride solforosa offre un esempio concreto di misura di una specie, non dell’intero elemento in ogni forma. La stessa attenzione deve accompagnare le immagini di altri mondi. Nel glossario la voce collega identità chimica, composti e osservazione. Il lettore può così seguire una notizia sui vulcani senza confondere zolfo, gas vulcanico, aerosol e materiale depositato: processi collegati, ma non quattro etichette dello stesso oggetto fisico."
+        ]
+      }
+    ],
+    "facts": [
+      "Zolfo elementare, solfuri, solfati e anidride solforosa sono materiali o specie differenti"
+    ],
+    "example": "Zolfo elementare, solfuri, solfati e anidride solforosa sono materiali o specie differenti",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/zolfo/"
+      },
+      {
+        "title": "RSC · zolfo e composti",
+        "url": "https://periodic-table.rsc.org/element/16/sulfur"
+      },
+      {
+        "title": "ESA · anidride solforosa osservata da Sentinel-5P",
+        "url": "https://www.esa.int/ESA_Multimedia/Images/2025/06/Mount_Etna_eruption_sulphur_dioxide"
       }
     ]
   },
