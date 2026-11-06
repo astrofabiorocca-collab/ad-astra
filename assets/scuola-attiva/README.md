@@ -1,4 +1,4 @@
-# Scuola attiva — revisione del 31 ottobre 2026
+# Scuola attiva — revisione del 6 novembre 2026
 
 Tre ingressi: `laboratorio.html`, `quiz-astronomia.html`, `glossario.html`.
 Banner e footer derivano dalla pagina Scuola; nessun servizio remoto necessario
@@ -8,7 +8,7 @@ Vera e la sua licenza sono in `assets/scheda-osservativa`.
 
 ## Contenuti
 
-- 175 voci redatte con spiegazioni articolate, esempi, unità e riferimenti. Il repertorio candidato di 502 termini è un piano privato, non 502 voci prodotte. L’ampliamento richiesto resta in corso.
+- 500 voci redatte, distribuite fra tutte le 26 lettere, con spiegazioni articolate, esempi, unità e riferimenti. Sigle e sinonimi sono chiavi di ricerca, non voci aggiuntive. Le sezioni esplicative comprendono 141.075 parole complessive, con un minimo di 220 per scheda.
   Ogni record contiene URL della fonte, data, esempio AD ASTRA e rimando didattico.
   Nessuna immagine o voce integrale Treccani riprodotta. Le fonti storiche non
   sono usate per aggiornamenti numerici; le convenzioni sono esplicitate.
@@ -53,4 +53,14 @@ e ispezionate; PDF campione generato, riaperto, estratto e verificato
 visivamente. Nessuna verifica visuale automatica in un browser reale.
 
 
-Il caricamento della pagina usa esclusivamente il nuovo motore in assets/laboratorio-editoriale; i vecchi file laboratori.js e laboratori-dati.js restano conservati ma non sono caricati. Verifiche nuove in revisione-editoriale-20261030: 120 voci, 20 attività, correzione e reset nel DOM simulato. Alcune scene sono state renderizzate con canvas e ispezionate; non è dichiarata una verifica grafica in un browser reale. Il lavoro complessivo, soprattutto il repertorio, non è ancora concluso.
+Il caricamento della pagina usa esclusivamente il nuovo motore in
+`assets/laboratorio-editoriale`; i vecchi file `laboratori.js` e
+`laboratori-dati.js` restano conservati ma non sono caricati.
+
+Verifica finale a 500 schede: tutte consultabili, riferimenti interni validi,
+ricerca per nome e alias, 1.603 rimandi canonici nelle 58 pagine didattiche,
+popup e parole ambigue; 20 attività con correzione e reset; soglie quiz
+0/31/32/40. Controlli di dati e DOM simulato, senza dichiarare una verifica
+grafica integrale in un browser o un audit HTTP globale delle fonti.
+La successiva proposta di ampliamento a 1.000 termini non è conteggiata
+come contenuto già prodotto. Nessuna pubblicazione automatica.
