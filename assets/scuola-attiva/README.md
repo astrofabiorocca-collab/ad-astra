@@ -1,4 +1,4 @@
-# Scuola attiva — revisione del 6 novembre 2026
+# Scuola attiva — revisione del 7 novembre 2026
 
 Tre ingressi: `laboratorio.html`, `quiz-astronomia.html`, `glossario.html`.
 Banner e footer derivano dalla pagina Scuola; nessun servizio remoto necessario
@@ -8,7 +8,7 @@ Vera e la sua licenza sono in `assets/scheda-osservativa`.
 
 ## Contenuti
 
-- 800 voci redatte, distribuite fra tutte le 26 lettere, con spiegazioni articolate, esempi, unità e riferimenti. Sigle e sinonimi sono chiavi di ricerca, non voci aggiuntive. Le sezioni esplicative comprendono 222.160 parole complessive, con un minimo di 220 per scheda.
+- 1.000 voci redatte, distribuite fra tutte le 26 lettere, con spiegazioni articolate, esempi, unità e riferimenti. Sigle e sinonimi sono chiavi di ricerca, non voci aggiuntive. Le sezioni esplicative comprendono 274.079 parole complessive, con un minimo di 220 per scheda.
   Ogni record contiene URL della fonte, data, esempio AD ASTRA e rimando didattico.
   Nessuna immagine o voce integrale Treccani riprodotta. Le fonti storiche non
   sono usate per aggiornamenti numerici; le convenzioni sono esplicitate.
@@ -88,3 +88,15 @@ Verifica finale a 800: tutte le schede selezionabili; 58 pagine e 1.658 rimandi 
 La procedura `tools/integra-glossario-banca.py --banca PERCORSO` indicizza le schede nella banca privata come testi originali AD ASTRA, con versioni e hash. Non sono fonti indipendenti dalle lezioni. Le correlazioni FTS con documenti esterni sono candidati da verificare, non attribuzioni scientifiche automatiche. I 54 documenti esterni restano privati e non vengono copiati nel sito.
 
 Verifiche dati e DOM: 900 schede consultabili, 58 pagine e 1.697 rimandi canonici, nomi/alias e riferimenti validi; quiz 0/31/32/40, popup, 20 laboratori con reset e geometrie, 28 risorse locali. Non è un rendering browser completo né un audit HTTP globale. Nessun push o pubblicazione. Il traguardo successivo autorizzato è 1.000, seguito dall’approfondimento accessibile delle lezioni più brevi.
+
+## Traguardo di 1.000 schede — 7 novembre 2026
+
+1.000 schede reali, 100 nuove rispetto a 5c32f32 e 200 rispetto a c36cdfa. Le nuove sezioni contengono 26,416 parole, minimo 253 per scheda; quattro sezioni per ciascuna delle100 nuove voci. Tutte le26 lettere sono rappresentate, senza inventare termini per imporre quote uguali. Sigle e sinonimi sono chiavi di ricerca e non voci aggiuntive. Le900 schede precedenti restano invariate.
+
+Ampliati nomenclatura nucleare, famiglie e strutture chimiche, fasi della materia, vettori, statistica delle osservazioni, riferimenti celesti, storia della scienza, satelliti, missioni, cosmologia e rivelatori. Formule introdotte attraverso significato ed esempi; fonti Treccani generali esplicitamente distinte da riscontri specifici IUPAC, USNO e fonti istituzionali pertinenti. Testi originali, nessuna voce integrale o slide riprodotta. Il corpus non è dichiarato integralmente letto o verificato.
+
+Banca privata:1.000 schede indicizzate con versione/hash e ricerca integrale, riconosciute come contenuto originale del progetto e non conferme indipendenti. Le correlazioni automatiche con documenti esterni sono candidati da verificare. Restano54 documenti esterni; PDF e trascrizioni parziali non vengono pubblicati.
+
+Controlli finali dati/DOM:1.000 schede selezionabili,58 pagine e1.705 rimandi canonici; nomi/ID/alias, ricerca, popup e riferimenti interni; quiz0/31/32/40;20 laboratori con soluzioni/reset/geometrie e28 risorse locali. Sintassi e diff verificati. Nessuna verifica grafica completa in browser o audit HTTP globale dichiarati. Nessun push o pubblicazione.
+
+Passaggio editoriale successivo concordato: approfondire le lezioni astronomiche più brevi sulla base della banca aggiornata, con esempi e spiegazioni accessibili. Il presente blocco conclude il glossario; non presenta quelle lezioni come già ampliate.
