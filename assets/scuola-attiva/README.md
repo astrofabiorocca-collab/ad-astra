@@ -80,3 +80,11 @@ Testi originali: Treccani come riferimento terminologico, con distinzione delle 
 Il nuovo ordine dell'autore riprende il precedente stop a 700 e richiede un commit a 800. Nessun push o pubblicazione automatica. Le verifiche finali sono documentate nel registro privato; i controlli di dati/DOM non certificano rendering browser completo o validità HTTP di ogni fonte remota.
 
 Verifica finale a 800: tutte le schede selezionabili; 58 pagine e 1.658 rimandi canonici; ricerca, nuovi alias e popup; quiz 0/31/32/40; 20 laboratori con reset e controlli geometrici, 28 risorse locali. Le 700 schede precedenti sono invariate. Controlli dati e DOM simulato, senza rendering browser completo.
+
+## Ampliamento a 900 schede — 7 novembre 2026
+
+900 schede effettive, 100 nuove rispetto a c36cdfa; 25,503 parole nelle nuove sezioni, minimo 241 per scheda. Le 800 precedenti restano invariate. Sinonimi e sigle non aumentano il conteggio. Aggiunti materiali e processi chimici, fisica, ambiente solare, strumentazione, missioni e mondi del Sistema solare. Fonti generali distinte dai riscontri specifici; nessuna lettura integrale del corpus è dichiarata.
+
+La procedura `tools/integra-glossario-banca.py --banca PERCORSO` indicizza le schede nella banca privata come testi originali AD ASTRA, con versioni e hash. Non sono fonti indipendenti dalle lezioni. Le correlazioni FTS con documenti esterni sono candidati da verificare, non attribuzioni scientifiche automatiche. I 54 documenti esterni restano privati e non vengono copiati nel sito.
+
+Verifiche dati e DOM: 900 schede consultabili, 58 pagine e 1.697 rimandi canonici, nomi/alias e riferimenti validi; quiz 0/31/32/40, popup, 20 laboratori con reset e geometrie, 28 risorse locali. Non è un rendering browser completo né un audit HTTP globale. Nessun push o pubblicazione. Il traguardo successivo autorizzato è 1.000, seguito dall’approfondimento accessibile delle lezioni più brevi.

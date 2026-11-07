@@ -214,6 +214,56 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "ablazione",
+    "name": "Ablazione",
+    "definition": "L’ablazione è la perdita di materiale da una superficie attraverso processi fisici; in astronomia è importante, per esempio, durante l’ingresso atmosferico dei meteoroidi.",
+    "source": "https://www.treccani.it/enciclopedia/ablazione/",
+    "lesson": "lezione-8-1.html",
+    "related": [
+      "meteoroide",
+      "scudo-termico",
+      "energia-cinetica"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Una parola usata in più ambienti",
+        "paragraphs": [
+          "Il termine compare nello studio dei ghiacciai, dei materiali e dei veicoli spaziali. Il significato comune è la rimozione di materia, mentre il meccanismo preciso cambia. Nel descrivere un fenomeno bisogna specificare se intervengano fusione, vaporizzazione, frammentazione o altri processi. La stessa parola non dimostra che un frammento atmosferico e uno scudo protettivo perdano materiale nello stesso identico modo."
+        ]
+      },
+      {
+        "title": "Il meteoroide entra nell’atmosfera",
+        "paragraphs": [
+          "Un corpo che attraversa rapidamente il gas trasferisce energia e può riscaldarsi, perdere materiale e frammentarsi. La luce della meteora coinvolge il corpo e l’ambiente perturbato. Non è corretto immaginare sempre una pietra che prende fuoco come legna. Il bilancio dipende da velocità, composizione, dimensioni e traiettoria, mentre la luminosità osservata non traduce direttamente tutta l’energia in una semplice temperatura della superficie."
+        ]
+      },
+      {
+        "title": "La perdita cambia l’evoluzione",
+        "paragraphs": [
+          "Diminuendo massa e dimensioni cambiano risposta dinamica e scambi con l’atmosfera. La frammentazione può aumentare l’area esposta e modificare rapidamente il fenomeno. Per questo non basta prolungare una traiettoria iniziale per sapere quanta materia raggiungerà il suolo. Un meteorite è il materiale sopravvissuto, mentre gran parte del corpo può essersi dispersa prima. Osservazioni luminose e recupero dei frammenti offrono informazioni complementari."
+        ]
+      },
+      {
+        "title": "Una protezione progettata",
+        "paragraphs": [
+          "Negli scudi termici ablativi la perdita controllata di materiale contribuisce alla protezione. È un comportamento previsto, diverso da una distruzione imprevista dell’intera struttura. Il progetto deve conoscere quanta materia possa essere consumata e quali condizioni siano tollerabili. Il collegamento rende evidente un principio: un fenomeno naturale può diventare parte di una soluzione tecnica, ma soltanto entro un intervallo di condizioni studiato e verificato."
+        ]
+      }
+    ],
+    "facts": [
+      "Uno scudo ablativo può consumare materiale intenzionalmente per proteggere ciò che contiene"
+    ],
+    "example": "Uno scudo ablativo può consumare materiale intenzionalmente per proteggere ciò che contiene",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/ablazione/"
+      }
+    ]
+  },
+  {
     "id": "accelerazione",
     "name": "Accelerazione",
     "definition": "L’accelerazione descrive quanto cambia la velocità, intesa come vettore, nel tempo: può cambiare la rapidità, la direzione del moto o entrambe.",
@@ -318,6 +368,60 @@ window.AdAstraGlossary = [
       {
         "title": "Treccani · riferimento terminologico",
         "url": "https://www.treccani.it/enciclopedia/accrescimento/"
+      }
+    ]
+  },
+  {
+    "id": "accrescimento-ciottoli",
+    "name": "Accrescimento di ciottoli",
+    "definition": "L’accrescimento di ciottoli è un meccanismo di crescita planetaria nel quale piccoli solidi interagiscono con gas e gravità e possono essere catturati da un corpo in formazione.",
+    "source": "https://www.treccani.it/enciclopedia/pianeta/",
+    "lesson": "lezione-3-6.html",
+    "related": [
+      "pianetesimo",
+      "protopianeta",
+      "accrescimento"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Una famiglia di solidi nel disco",
+        "paragraphs": [
+          "La parola ciottoli traduce un termine utilizzato nei modelli di formazione. Non indica necessariamente sassi uguali a quelli di un torrente. Dimensione e comportamento dipendono dal gas e dalle condizioni locali. Ciò che conta è l’interazione aerodinamica: il materiale solido non si muove come un insieme di corpi isolati nel vuoto, ma scambia quantità di moto con il mezzo che lo circonda."
+        ]
+      },
+      {
+        "title": "La cattura viene facilitata",
+        "paragraphs": [
+          "Vicino a un embrione planetario, la gravità modifica la traiettoria dei solidi. L’interazione con il gas può dissipare energia e favorire la cattura in condizioni appropriate. Non basta quindi immaginare soltanto una collisione geometrica con la superficie del corpo. La regione dalla quale il materiale può contribuire alla crescita dipende da masse, velocità e proprietà del disco. Il processo deve essere descritto quantitativamente per sapere se sia efficace."
+        ]
+      },
+      {
+        "title": "Il materiale deve arrivare",
+        "paragraphs": [
+          "Una crescita rapida richiede una disponibilità e un flusso adeguati di solidi. Il disco evolve e non alimenta ogni embrione senza limiti. Altri corpi possono competere per la materia, mentre strutture nel gas possono modificarne il trasporto. Il modello non è una promessa che ogni piccolo corpo diventi un gigante. Confrontare tempi di crescita e vita del disco è una parte essenziale della verifica della sua plausibilità."
+        ]
+      },
+      {
+        "title": "Un meccanismo fra altri",
+        "paragraphs": [
+          "Accrescimento di pianetesimi, ciottoli e gas possono partecipare in combinazioni diverse alla formazione. Le etichette non devono essere trattate come spiegazioni mutuamente esclusive per tutti i sistemi. Il valore del concetto è mostrare come la presenza del gas cambi il destino dei solidi. Le simulazioni esplorano condizioni e conseguenze; osservare un pianeta finito non equivale ad aver seguito direttamente ogni fase del meccanismo che ne viene proposto come origine."
+        ]
+      }
+    ],
+    "facts": [
+      "Il gas può favorire la cattura dei solidi: non agisce soltanto come materiale da aggiungere al pianeta"
+    ],
+    "example": "Il gas può favorire la cattura dei solidi: non agisce soltanto come materiale da aggiungere al pianeta",
+    "sources": [
+      {
+        "title": "Treccani · riferimento generale al tema; non riscontro puntuale di tutta la scheda",
+        "url": "https://www.treccani.it/enciclopedia/pianeta/"
+      },
+      {
+        "title": "JAXA · solidi e transizioni presso la linea della neve",
+        "url": "https://www.isas.jaxa.jp/home/research-portal/en/gateway/2022/0411/"
       }
     ]
   },
@@ -1150,6 +1254,56 @@ window.AdAstraGlossary = [
       {
         "title": "JPL · definizioni di albedo",
         "url": "https://ssd.jpl.nasa.gov/glossary/albedo.html"
+      }
+    ]
+  },
+  {
+    "id": "allargamento-doppler",
+    "name": "Allargamento Doppler",
+    "definition": "L’allargamento Doppler è l’aumento della larghezza osservata di una riga dovuto a una distribuzione di velocità lungo la linea di vista.",
+    "source": "https://www.treccani.it/enciclopedia/spettroscopia/",
+    "lesson": "lezione-4-3.html",
+    "related": [
+      "effetto-doppler",
+      "velocita-radiale",
+      "temperatura"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Molte particelle, molti piccoli spostamenti",
+        "paragraphs": [
+          "In un gas le particelle non possiedono tutte la stessa velocità rispetto all’osservatore. Ciascun contributo può essere spostato leggermente in frequenza o lunghezza d’onda. La somma produce una riga più larga. Questo è diverso dallo spostamento dell’intera riga associato al moto medio. Centro e larghezza descrivono informazioni distinte, che possono essere studiati insieme per ricostruire la dinamica."
+        ]
+      },
+      {
+        "title": "Il contributo termico",
+        "paragraphs": [
+          "Il moto termico distribuisce le velocità. A parità di temperatura, particelle di massa diversa non hanno la stessa distribuzione delle velocità caratteristiche. Confrontare righe di specie differenti può quindi aiutare a distinguere contributi. Non è però corretto trasformare qualunque larghezza in una temperatura: turbolenza, rotazione e moti organizzati possono aggiungere effetti, mentre lo strumento allarga a sua volta il profilo misurato."
+        ]
+      },
+      {
+        "title": "La rotazione e i moti interni",
+        "paragraphs": [
+          "Una sorgente estesa può avere zone che si avvicinano e altre che si allontanano. Se non vengono separate spazialmente, i loro contributi si combinano nello spettro. La forma può contenere informazioni oltre alla semplice larghezza. Il modello deve considerare quali parti emettano e come siano distribuite. Due sorgenti con profili simili non devono quindi avere necessariamente la stessa causa fisica dell’allargamento."
+        ]
+      },
+      {
+        "title": "Il controllo dello strumento",
+        "paragraphs": [
+          "Risoluzione e risposta dello spettrografo devono essere note prima di assegnare ogni dettaglio al gas. Si confrontano calibrazioni e profili attesi, dichiarando le assunzioni. La riga non è una traccia infinitamente sottile rovinata soltanto da un apparecchio imperfetto: possiede una struttura fisica che il sistema di misura modifica. Il concetto permette di leggere una sfumatura nello spettro come informazione sui moti, anziché come semplice mancanza di nitidezza."
+        ]
+      }
+    ],
+    "facts": [
+      "Lo spostamento del centro e l’allargamento della riga non sono la stessa misura"
+    ],
+    "example": "Lo spostamento del centro e l’allargamento della riga non sono la stessa misura",
+    "sources": [
+      {
+        "title": "Treccani · riferimento generale al tema; non riscontro puntuale di tutta la scheda",
+        "url": "https://www.treccani.it/enciclopedia/spettroscopia/"
       }
     ]
   },
@@ -3734,6 +3888,59 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "backlash",
+    "name": "Backlash meccanico",
+    "definition": "Il backlash è il gioco che può produrre una risposta ritardata quando una trasmissione meccanica inverte il verso del movimento.",
+    "source": "https://www.treccani.it/vocabolario/gioco/",
+    "lesson": "strumentazione.html",
+    "related": [
+      "autoguida",
+      "focheggiatore",
+      "montatura-equatoriale"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Il movimento che non arriva subito",
+        "paragraphs": [
+          "Tra denti, viti e collegamenti può esserci uno spazio da recuperare prima che una rotazione in senso opposto muova effettivamente il componente finale. Il comando parte, ma il carico inizialmente non segue. Questo intervallo è il gioco d’inversione. Non significa necessariamente che il motore sia guasto. Il fenomeno riguarda il collegamento fra parti e può comparire in montature, focheggiatori e altri dispositivi regolabili."
+        ]
+      },
+      {
+        "title": "Perché conta nella guida",
+        "paragraphs": [
+          "Una correzione che richiede di cambiare verso può recuperare prima il gioco e solo dopo modificare la posizione. Il software può quindi vedere una risposta più lenta di quella attesa. L’interpretazione richiede prudenza: seeing, ritardi di misura e flessioni possono produrre segnali diversi ma apparentemente simili. Prima di modificare parametri è utile osservare una sequenza di comandi e risposte, invece di giudicare un singolo punto del grafico."
+        ]
+      },
+      {
+        "title": "Compensare senza irrigidire tutto",
+        "paragraphs": [
+          "Alcuni controllori prevedono una compensazione. Questa può ridurre un ritardo ripetibile, ma non elimina fisicamente il gioco. Stringere indiscriminatamente gli accoppiamenti può aumentare attrito e rischio di impuntamento. Le regolazioni meccaniche devono seguire le indicazioni del costruttore. Temperatura e posizione possono cambiare il comportamento, perciò una regolazione efficace in una condizione non è necessariamente adatta all’intera rotazione o a tutte le serate."
+        ]
+      },
+      {
+        "title": "Una strategia pratica al fuoco",
+        "paragraphs": [
+          "Nei sistemi che lo richiedono, raggiungere il fuoco terminando la regolazione nello stesso verso aiuta a rendere più ripetibile la posizione. È una procedura operativa, non una cura universale per qualunque problema ottico. Il backlash va distinto dallo spostamento dello specchio e dalla variazione termica del fuoco. Separare queste cause permette di scegliere un intervento concreto anziché inseguire ogni immagine meno nitida con la stessa regolazione."
+        ]
+      }
+    ],
+    "facts": [
+      "Invertire il comando non garantisce una risposta meccanica immediata"
+    ],
+    "example": "Invertire il comando non garantisce una risposta meccanica immediata",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/vocabolario/gioco/"
+      }
+    ],
+    "aliases": [
+      "Gioco d’inversione"
+    ]
+  },
+  {
     "id": "banda-fotometrica",
     "name": "Banda fotometrica",
     "definition": "Una banda fotometrica identifica una risposta spettrale definita entro cui si misura la luce di un oggetto astronomico.",
@@ -4042,6 +4249,56 @@ window.AdAstraGlossary = [
     ],
     "archiveReferences": [
       "Fulvio Mete, pagina 32: letto il principio di amplificazione; non adottati ingrandimenti massimi come soglie universali né raccomandazioni commerciali datate."
+    ]
+  },
+  {
+    "id": "basalto",
+    "name": "Basalto",
+    "definition": "Il basalto è una roccia magmatica effusiva, generalmente scura e relativamente povera di silice, con minerali come plagioclasi e pirosseni.",
+    "source": "https://www.treccani.it/enciclopedia/basalto/",
+    "lesson": "lezione-3-2.html",
+    "related": [
+      "pirosseno",
+      "olivina",
+      "vulcanismo"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Una roccia formata da un fuso",
+        "paragraphs": [
+          "Il basalto deriva dal raffreddamento di materiale magmatico arrivato in superficie o vicino a essa. Il raffreddamento relativamente rapido favorisce spesso cristalli piccoli, ma esistono tessiture differenti. La roccia è un insieme di componenti e non un singolo minerale. La parola effusiva descrive il contesto di formazione, mentre la composizione contribuisce a distinguerla da altre rocce originate da materiale fuso."
+        ]
+      },
+      {
+        "title": "Scuro non significa sempre basalto",
+        "paragraphs": [
+          "Il colore può offrire un primo orientamento, ma non costituisce una classificazione sufficiente. Alterazioni, illuminazione e mescolanza di materiali modificano l’aspetto. Per riconoscere un basalto si considerano mineralogia, chimica e struttura. Questo vale ancora di più per una superficie fotografata da lontano, dove i pixel riassumono aree e condizioni. Una didascalia deve distinguere un’identificazione documentata da una semplice somiglianza visiva con una pietra terrestre."
+        ]
+      },
+      {
+        "title": "Il collegamento con i mari lunari",
+        "paragraphs": [
+          "Molte pianure scure della Luna sono associate a materiali basaltici prodotti da antichi episodi vulcanici. Il nome mare è storico e non indica acqua liquida. Questa associazione collega un dettaglio osservabile al binocolo con una storia fisica ricostruita tramite più dati. La differenza di luminosità rispetto ad altri terreni è un indizio, mentre campioni, composizione e contesto permettono la spiegazione geologica."
+        ]
+      },
+      {
+        "title": "La stessa parola su mondi diversi",
+        "paragraphs": [
+          "Basalti e materiali basaltici sono importanti anche su altri corpi rocciosi. Questo non implica temperature, età o processi successivi identici in ogni caso. Gravità, atmosfera e disponibilità dei fluidi cambiano l’evoluzione. Il termine permette di confrontare materiali comuni senza cancellare le differenze fra mondi. Il percorso corretto va dal materiale osservato alle condizioni compatibili, evitando di ricostruire automaticamente un intero pianeta da un solo campione."
+        ]
+      }
+    ],
+    "facts": [
+      "I mari lunari non sono bacini d’acqua: molte loro pianure sono legate ad antiche lave basaltiche"
+    ],
+    "example": "I mari lunari non sono bacini d’acqua: molte loro pianure sono legate ad antiche lave basaltiche",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/basalto/"
+      }
     ]
   },
   {
@@ -5285,6 +5542,59 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "bremsstrahlung",
+    "name": "Bremsstrahlung",
+    "definition": "La bremsstrahlung, o radiazione di frenamento, è emissione elettromagnetica associata all’accelerazione di particelle cariche nel campo di altre particelle.",
+    "source": "https://www.treccani.it/enciclopedia/cascate-elettromagnetiche_(Enciclopedia-della-Scienza-e-della-Tecnica)/",
+    "lesson": "lezione-10-3.html",
+    "related": [
+      "plasma",
+      "emissione-termica",
+      "raggi-x"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Frenamento è un nome tradizionale",
+        "paragraphs": [
+          "Una particella carica che interagisce con un campo può cambiare velocità, anche soltanto in direzione. L’accelerazione può accompagnarsi a emissione di radiazione. Il nome tedesco richiama il frenamento, ma non richiede sempre una decelerazione rettilinea come quella di un’automobile. Il quadro riguarda interazioni microscopiche e deve includere il bilancio dell’energia trasferita alla radiazione e ai partecipanti."
+        ]
+      },
+      {
+        "title": "Elettroni e ioni nel gas",
+        "paragraphs": [
+          "In un plasma gli elettroni interagiscono con i campi degli ioni e possono contribuire a un’emissione continua. La distribuzione delle energie degli elettroni e la densità influenzano lo spettro e l’intensità. Una popolazione termica può produrre bremsstrahlung termica, ma il meccanismo non richiede che ogni popolazione abbia la stessa distribuzione. Termico descrive lo stato delle particelle, non una superficie solida che debba essere visibile."
+        ]
+      },
+      {
+        "title": "Un contributo negli ambienti caldi",
+        "paragraphs": [
+          "Gas molto caldo, per esempio in grandi sistemi di galassie, può essere studiato attraverso la sua emissione X. Il segnale può includere anche righe e altri contributi. Distinguere continuo e caratteristiche spettrali permette di ricostruire condizioni e composizione. Non basta chiamare il colore di una mappa temperatura senza precisare il metodo: gli strumenti registrano radiazione, dalla quale le proprietà del gas vengono inferite."
+        ]
+      },
+      {
+        "title": "Diversa dal sincrotrone",
+        "paragraphs": [
+          "Nel sincrotrone il moto relativistico in un campo magnetico ha un ruolo caratteristico. Nella bremsstrahlung interessa l’interazione con campi di altre particelle. I processi possono comparire nello stesso ambiente, ma non si sostituiscono automaticamente. La distinzione permette di leggere uno spettro come il risultato di meccanismi fisici differenti e di chiedere quali misure possano separarli. Il nome diventa così una chiave di interpretazione, anziché un’etichetta tecnica lasciata senza spiegazione."
+        ]
+      }
+    ],
+    "facts": [
+      "Radiazione di frenamento non significa soltanto perdita di velocità lungo una linea retta"
+    ],
+    "example": "Radiazione di frenamento non significa soltanto perdita di velocità lungo una linea retta",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/cascate-elettromagnetiche_(Enciclopedia-della-Scienza-e-della-Tecnica)/"
+      }
+    ],
+    "aliases": [
+      "Radiazione di frenamento"
+    ]
+  },
+  {
     "id": "brillamento-solare",
     "name": "Brillamento solare",
     "definition": "Un brillamento solare è una rapida liberazione di energia nell’atmosfera del Sole che produce un aumento dell’emissione elettromagnetica.",
@@ -5445,6 +5755,60 @@ window.AdAstraGlossary = [
       {
         "title": "Treccani · sublimazione e processo inverso",
         "url": "https://www.treccani.it/enciclopedia/sublimazione/"
+      }
+    ]
+  },
+  {
+    "id": "buco-coronale",
+    "name": "Buco coronale",
+    "definition": "Un buco coronale è una regione della corona solare relativamente meno densa e meno emissiva in determinate bande, associata a configurazioni magnetiche aperte e a vento solare veloce.",
+    "source": "https://www.treccani.it/enciclopedia/corona-solare/",
+    "lesson": "lezione-2-3.html",
+    "related": [
+      "corona-solare",
+      "vento-solare",
+      "campo-magnetico"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Scuro non significa vuoto",
+        "paragraphs": [
+          "Nelle immagini ultravioletto o X una regione può apparire più scura perché emette meno nella banda selezionata. Il nome buco non indica un’apertura scavata nella superficie del Sole. Restano plasma e campo magnetico. Per interpretare l’immagine bisogna sapere quale radiazione venga misurata e come sia rappresentata: un contrasto scuro non corrisponde automaticamente a materia assente o a una zona fredda nel senso quotidiano."
+        ]
+      },
+      {
+        "title": "Una geometria che favorisce il deflusso",
+        "paragraphs": [
+          "Nelle configurazioni dette aperte le strutture del campo si estendono verso l’ambiente esterno, favorendo il collegamento con il vento. Aperto è un termine legato alla geometria del modello, non il contrario di una porta chiusa. Le linee sono rappresentazioni del campo, mentre il plasma ne risente attraverso le interazioni fisiche. La struttura contribuisce a distinguere queste regioni dagli archi coronali che collegano zone sulla superficie."
+        ]
+      },
+      {
+        "title": "Il vento veloce",
+        "paragraphs": [
+          "I buchi coronali sono associati a flussi veloci del vento solare. Quando questi incontrano materiale più lento possono costruire regioni di interazione. La successiva risposta terrestre dipende da direzione, tempi e caratteristiche del flusso. Non occorre che avvenga una grande espulsione coronale per osservare variazioni dell’ambiente spaziale. Questo spiega perché il monitoraggio non si limiti alle immagini più spettacolari delle eruzioni."
+        ]
+      },
+      {
+        "title": "Osservare l’evoluzione",
+        "paragraphs": [
+          "Posizione e forma dei buchi coronali cambiano con l’attività e la rotazione del Sole. Una previsione deve quindi riferirsi a osservazioni e date, non a una figura fissa riutilizzata come se descrivesse sempre il presente. Il confronto fra mappe e misure delle particelle aiuta a collegare sorgente e flusso. La voce permette di leggere una macchia scura come un indizio di struttura e dinamica, evitando l’immagine fuorviante di un Sole perforato."
+        ]
+      }
+    ],
+    "facts": [
+      "Un buco coronale non è una cavità vuota nella superficie solare"
+    ],
+    "example": "Un buco coronale non è una cavità vuota nella superficie solare",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/corona-solare/"
+      },
+      {
+        "title": "NASA · buchi coronali",
+        "url": "https://science.nasa.gov/reference/the-heliopedia-2/"
       }
     ]
   },
@@ -6403,6 +6767,56 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "carbonato",
+    "name": "Carbonato",
+    "definition": "I carbonati sono composti che contengono il gruppo carbonato CO₃²⁻; molti costituiscono minerali e rocce importanti per la storia chimica dei pianeti.",
+    "source": "https://www.treccani.it/enciclopedia/carbonati/",
+    "lesson": "lezione-3-2.html",
+    "related": [
+      "carbonio",
+      "anidride-carbonica",
+      "sedimentazione"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un gruppo chimico riconoscibile",
+        "paragraphs": [
+          "Il gruppo carbonato comprende un carbonio e tre ossigeni con una carica complessiva negativa. Nei solidi si associa a costituenti positivi secondo proporzioni che rendono il composto elettricamente neutro. Il carbonato di calcio è un esempio familiare. Non va confuso con il carbonio elementare o con qualunque sostanza organica: il nome descrive una particolare organizzazione chimica, non soltanto la presenza di atomi di carbonio."
+        ]
+      },
+      {
+        "title": "Minerali e rocce",
+        "paragraphs": [
+          "Calcite e aragonite hanno la stessa formula ideale ma strutture diverse. Calcari e altre rocce possono contenere quantità importanti di minerali carbonatici. La distinzione mostra che formula, struttura e roccia sono livelli differenti della descrizione. Un materiale non è identificato completamente dal conteggio degli atomi. La storia di formazione richiede inoltre contesto, perché composti simili possono comparire attraverso percorsi e condizioni differenti."
+        ]
+      },
+      {
+        "title": "Il collegamento con atmosfera e fluidi",
+        "paragraphs": [
+          "La formazione o la trasformazione dei carbonati può collegare rocce, acqua e anidride carbonica. In alcuni contesti il materiale solido conserva parte del carbonio sottratto ad altri serbatoi. Non ogni rilevamento dimostra però un oceano antico o un’origine biologica. Per ricostruire il processo occorre conoscere associazioni mineralogiche, condizioni chimiche e distribuzione. La presenza di un ingrediente è un indizio da inserire in una storia, non una storia già conclusa."
+        ]
+      },
+      {
+        "title": "Una domanda per Marte",
+        "paragraphs": [
+          "Cercare carbonati nei materiali marziani aiuta a studiare interazioni fra superficie, fluidi e atmosfera nel passato. Gli strumenti possono offrire firme spettrali o analisi locali, con capacità diverse. È importante dichiarare che cosa sia stato riconosciuto e quanto sia rappresentativo del pianeta. Il concetto collega una formula leggibile a questioni grandi: dove sia finito il carbonio e quali trasformazioni abbiano modificato l’ambiente nel corso del tempo."
+        ]
+      }
+    ],
+    "facts": [
+      "Un carbonato non è automaticamente una prova di attività biologica"
+    ],
+    "example": "Un carbonato non è automaticamente una prova di attività biologica",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/carbonati/"
+      }
+    ]
+  },
+  {
     "id": "carbonio",
     "name": "Carbonio",
     "definition": "Il carbonio è l’elemento chimico di numero atomico 6 e simbolo C, capace di formare una grande varietà di strutture e composti.",
@@ -6855,6 +7269,56 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "cattura-elettronica-nucleare",
+    "name": "Cattura elettronica nucleare",
+    "definition": "La cattura elettronica nucleare è una trasformazione nella quale il nucleo assorbe un elettrone e un protone diventa un neutrone, con emissione di un neutrino elettronico.",
+    "source": "https://www.treccani.it/enciclopedia/radioattivita/",
+    "lesson": "lezione-10-4.html",
+    "related": [
+      "decadimento-beta",
+      "elettrone",
+      "neutrino"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un protone in meno",
+        "paragraphs": [
+          "Il numero atomico diminuisce di uno e il numero di massa resta invariato. Il nuovo nucleo appartiene quindi a un altro elemento. Non stiamo descrivendo il semplice acquisto di un elettrone da parte di un atomo neutro, che produrrebbe uno ione negativo senza cambiare il nucleo. L’aggettivo nucleare serve proprio a distinguere due usi della parola cattura che riguardano processi fisici differenti."
+        ]
+      },
+      {
+        "title": "Il bilancio decide la possibilità",
+        "paragraphs": [
+          "La trasformazione richiede condizioni energetiche appropriate. Le masse e le energie di legame del sistema entrano nella valutazione. Non ogni elettrone vicino a un nucleo viene quindi assorbito automaticamente. Il fenomeno appartiene all’interazione debole e va distinto dal movimento ordinario degli elettroni negli stati atomici. Un modello figurato non deve mostrare un elettrone che cade come un sassolino e rimane semplicemente accumulato nel centro."
+        ]
+      },
+      {
+        "title": "La risposta della struttura elettronica",
+        "paragraphs": [
+          "Se viene coinvolto un elettrone interno, il riassestamento della struttura atomica può produrre radiazione X o altri segnali. Il neutrino trasporta una parte dell’energia e interagisce debolmente con la materia. Le informazioni osservabili possono quindi provenire da processi collegati ma distinti. Separare la trasformazione nucleare dal successivo riassestamento aiuta a capire perché un evento possa essere riconosciuto attraverso una catena di conseguenze invece di una fotografia diretta."
+        ]
+      },
+      {
+        "title": "Il collegamento con i materiali antichi",
+        "paragraphs": [
+          "Il potassio-40 può trasformarsi in argon-40 attraverso cattura elettronica, nel quadro dei suoi diversi percorsi di decadimento. Questo collega la voce ai metodi di datazione, ma il tempo del decadimento non fornisce da solo l’età di qualunque roccia. Occorre conoscere conservazione e storia del materiale. La cattura elettronica mostra così come la fisica microscopica possa contribuire a leggere tempi geologici, purché il modello del campione sia adeguato."
+        ]
+      }
+    ],
+    "facts": [
+      "La cattura nucleare cambia elemento; la cattura atomica di un elettrone può cambiare soltanto lo stato di carica"
+    ],
+    "example": "La cattura nucleare cambia elemento; la cattura atomica di un elettrone può cambiare soltanto lo stato di carica",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/radioattivita/"
+      }
+    ]
+  },
+  {
     "id": "cattura-neutronica",
     "name": "Cattura neutronica",
     "definition": "La cattura neutronica è una reazione nella quale un nucleo incorpora un neutrone; nel caso della cattura radiativa il nucleo risultante emette radiazione per perdere l’energia di eccitazione.",
@@ -7067,6 +7531,114 @@ window.AdAstraGlossary = [
     ],
     "aliases": [
       "cerchi massimi"
+    ]
+  },
+  {
+    "id": "cerere",
+    "name": "Cerere",
+    "definition": "Cerere è un pianeta nano della fascia principale degli asteroidi, esplorato in orbita dalla missione Dawn.",
+    "source": "https://www.treccani.it/enciclopedia/cerere/",
+    "lesson": "lezione-3-5.html",
+    "related": [
+      "pianeta-nano",
+      "dawn",
+      "carbonato"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un corpo nella fascia principale",
+        "paragraphs": [
+          "Cerere orbita fra Marte e Giove e appartiene alla popolazione della fascia principale. La classificazione di pianeta nano non indica un piccolo pianeta completo di ogni proprietà terrestre. Riguarda criteri dinamici e di forma. Un corpo può essere quasi sferico e tuttavia condividere la propria regione con molti altri oggetti. La categoria permette di distinguere questo caso senza negare complessità e interesse geologico del mondo considerato."
+        ]
+      },
+      {
+        "title": "Luce intensa su una superficie scura",
+        "paragraphs": [
+          "Alcune aree brillanti hanno richiamato grande attenzione nelle immagini di Dawn. La brillantezza relativa non significa emissione artificiale o città: può derivare da materiali che riflettono più luce del terreno circostante. Spettri e contesto aiutano a riconoscere depositi salini e processi. Il contrasto in una fotografia dipende anche dalla visualizzazione, perciò un punto apparentemente abbagliante non è da interpretare senza conoscere la scala dei valori mostrati."
+        ]
+      },
+      {
+        "title": "Acqua e trasformazioni",
+        "paragraphs": [
+          "Minerali e strutture indicano una storia nella quale acqua e materiali idrati hanno avuto un ruolo. Ricostruire ambienti interni e processi richiede modelli compatibili con più osservazioni. Non equivale a fotografare direttamente un mare sotterraneo. La distinzione fra evidenza, interpretazione e ipotesi resta essenziale. Un piccolo corpo può conservare tracce di attività complessa, ma ogni affermazione su liquidi presenti deve indicare condizioni e livello del riscontro."
+        ]
+      },
+      {
+        "title": "Le categorie cambiano con la conoscenza",
+        "paragraphs": [
+          "La storia di Cerere attraversa modi diversi di classificare gli oggetti del Sistema solare. Questo non significa che il corpo fisico sia cambiato quando è cambiato il nome della categoria. La scienza riorganizza le definizioni per descrivere meglio popolazioni e dinamica. Il valore divulgativo è separare etichetta e proprietà: conoscere la categoria aiuta a orientarsi, mentre esplorare il mondo richiede composizione, forma, gravità e storia geologica."
+        ]
+      }
+    ],
+    "facts": [
+      "Una zona brillante può essere un deposito riflettente: non implica una sorgente luminosa propria"
+    ],
+    "example": "Una zona brillante può essere un deposito riflettente: non implica una sorgente luminosa propria",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/cerere/"
+      },
+      {
+        "title": "NASA · Cerere e la missione Dawn",
+        "url": "https://science.nasa.gov/dwarf-planets/ceres/facts/"
+      }
+    ]
+  },
+  {
+    "id": "chandra",
+    "name": "Chandra",
+    "definition": "Chandra è un osservatorio spaziale della NASA, lanciato nel 1999, progettato per studiare l’Universo attraverso i raggi X. ",
+    "source": "https://www.treccani.it/enciclopedia/telescopio/",
+    "lesson": "lezione-10-5.html",
+    "related": [
+      "raggi-x",
+      "resto-di-supernova",
+      "telescopio-spaziale"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Una finestra sul cielo energetico",
+        "paragraphs": [
+          "L’atmosfera protegge la superficie terrestre assorbendo gran parte dei raggi X astronomici. Per misurarli occorre portare gli strumenti al di sopra di questo schermo. Chandra osserva emissioni associate, fra gli altri ambienti, a gas molto caldo e fenomeni intorno a oggetti compatti. Non è semplicemente una fotografia visibile resa più penetrante: seleziona una regione diversa dello spettro e quindi processi fisici differenti."
+        ]
+      },
+      {
+        "title": "Specchi quasi sfiorati dalla luce",
+        "paragraphs": [
+          "La raccolta dei raggi X richiede geometrie diverse da quelle di un comune telescopio amatoriale. Gli specchi lavorano a incidenza radente: la radiazione incontra le superfici con piccoli angoli. Forma e allineamento sono decisivi per concentrare il segnale. L’esempio mostra che cambiare lunghezza d’onda può richiedere un nuovo modo di costruire lo strumento, non soltanto un filtro di colore davanti a un’ottica già esistente."
+        ]
+      },
+      {
+        "title": "Che cosa significa l’immagine",
+        "paragraphs": [
+          "Una mappa di raggi X può essere presentata con colori assegnati a energie o intensità. Quei colori devono essere letti attraverso la didascalia. Non rappresentano necessariamente ciò che vedrebbe un astronauta. Confrontare la stessa regione in visibile, infrarosso e raggi X permette di separare componenti differenti. Una fotografia composita diventa istruttiva quando si conserva l’indicazione di quali dati provengano da ciascun osservatorio."
+        ]
+      },
+      {
+        "title": "Una missione dentro un metodo",
+        "paragraphs": [
+          "Le osservazioni di Chandra contribuiscono allo studio di resti di supernova, ammassi di galassie e sorgenti compatte. Interpretare il segnale richiede modelli e confronti, non l’equazione automatica raggi X uguale buco nero. Gas caldo e altre sorgenti possono emettere nella stessa banda. Il nome dell’osservatorio identifica quindi una capacità di misura: da questa iniziano domande fisiche che vengono affrontate insieme ad altri strumenti e osservazioni."
+        ]
+      }
+    ],
+    "facts": [
+      "Raggi X e luce visibile mostrano componenti differenti della stessa regione"
+    ],
+    "example": "Raggi X e luce visibile mostrano componenti differenti della stessa regione",
+    "sources": [
+      {
+        "title": "Treccani · riferimento generale al tema; non riscontro puntuale di tutta la scheda",
+        "url": "https://www.treccani.it/enciclopedia/telescopio/"
+      },
+      {
+        "title": "NASA · Chandra, missione e ottica",
+        "url": "https://science.nasa.gov/mission/chandra/"
+      }
     ]
   },
   {
@@ -8015,6 +8587,59 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "concentrazione-molare",
+    "name": "Concentrazione molare",
+    "definition": "La concentrazione molare è la quantità di sostanza di un componente divisa per il volume della soluzione. È spesso espressa in moli per litro.",
+    "source": "https://www.treccani.it/enciclopedia/soluzione/",
+    "lesson": "lezione-10-2.html",
+    "related": [
+      "mole",
+      "massa-molare",
+      "soluzione-chimica"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Quante moli in quale volume",
+        "paragraphs": [
+          "Una soluzione con una mole di soluto in un litro di soluzione ha concentrazione di una mole per litro. Il volume è quello finale della soluzione, non necessariamente il volume iniziale del solvente. La distinzione conta perché i volumi dei componenti non sono sempre semplicemente additivi. Il numero descrive quanto componente sia presente per unità di volume, non la sua massa assoluta nel recipiente."
+        ]
+      },
+      {
+        "title": "Dalla massa alla quantità",
+        "paragraphs": [
+          "Per passare dai grammi alle moli si usa la massa molare della specie. Due soluti con masse uguali possono corrispondere a quantità di sostanza differenti. Non basta quindi confrontare i grammi per sapere quante particelle o unità di formula siano disponibili. Formula, massa molare e purezza entrano nel calcolo. Il percorso resta accessibile se viene spiegato come una conversione fra modi diversi di contare la materia."
+        ]
+      },
+      {
+        "title": "Un esempio di diluizione",
+        "paragraphs": [
+          "Se la quantità di soluto resta invariata e il volume finale raddoppia, la concentrazione molare si dimezza. Non occorre che il soluto sparisca o cambi identità: cambia il rapporto rispetto al volume. L’esempio richiede però che non intervengano perdite, precipitazioni o reazioni che modifichino la specie considerata. Specificare queste condizioni rende la regola utilizzabile senza trasformarla in un automatismo valido per ogni miscela."
+        ]
+      },
+      {
+        "title": "Diversa da altre concentrazioni",
+        "paragraphs": [
+          "Percentuale in massa, molalità e concentrazione molare usano denominatori differenti. Un numero senza unità e definizione può risultare ambiguo. La molarità dipende dal volume, che può cambiare con la temperatura, mentre altre rappresentazioni rispondono diversamente. Negli ambienti planetari la scelta della grandezza deve seguire il modello e i dati disponibili. La voce aiuta a leggere le quantità chimiche come rapporti definiti, evitando di confrontare valori che sembrano simili ma misurano cose diverse."
+        ]
+      }
+    ],
+    "facts": [
+      "Una mole per litro si riferisce al volume della soluzione finale, non a un litro di solvente"
+    ],
+    "example": "Una mole per litro si riferisce al volume della soluzione finale, non a un litro di solvente",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/soluzione/"
+      }
+    ],
+    "aliases": [
+      "Molarità"
+    ]
+  },
+  {
     "id": "condensa",
     "name": "Condensa",
     "definition": "La condensazione trasforma vapore in liquido; durante un’osservazione può formare goccioline sulle superfici ottiche raffreddate.",
@@ -8393,6 +9018,56 @@ window.AdAstraGlossary = [
       {
         "title": "NASA Glenn · bilancio e conservazione dell’energia",
         "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/conservation-of-energy/"
+      }
+    ]
+  },
+  {
+    "id": "contrappeso",
+    "name": "Contrappeso",
+    "definition": "Un contrappeso è una massa collocata per compensare il momento prodotto da altri componenti rispetto a un asse di rotazione.",
+    "source": "https://www.treccani.it/vocabolario/contrappeso/",
+    "lesson": "strumentazione.html",
+    "related": [
+      "bilanciamento",
+      "momento-forza",
+      "montatura-equatoriale"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Conta anche la posizione",
+        "paragraphs": [
+          "Un tubo pesante posto lontano dall’asse esercita un effetto diverso dallo stesso tubo vicino all’asse. Il contrappeso permette di compensare questa tendenza a ruotare. Non deve necessariamente avere la stessa massa dello strumento: conta anche la distanza dall’asse. È il principio della leva, applicato alla distribuzione dei carichi. Spostare una massa lungo la barra cambia il bilanciamento senza cambiare la quantità di materiale trasportato."
+        ]
+      },
+      {
+        "title": "Il telescopio completo",
+        "paragraphs": [
+          "Si bilancia la configurazione utilizzata durante la ripresa, comprendendo camera, cercatore e accessori. Sostituire un componente può cambiare l’equilibrio. Anche i cavi esercitano trazioni se non sono disposti correttamente. Il controllo va eseguito secondo il manuale, sostenendo le parti quando si liberano gli assi. Un sistema apparentemente fermo perché bloccato dalle frizioni non dimostra che le masse siano distribuite bene."
+        ]
+      },
+      {
+        "title": "Due assi, due controlli",
+        "paragraphs": [
+          "Una montatura equatoriale alla tedesca richiede di valutare separatamente gli assi. Spostare il tubo nella sua culla non equivale a spostare il contrappeso sulla barra. I due interventi correggono distribuzioni diverse. L’operazione concreta dipende dal modello e dagli accessori. Un eventuale piccolo sbilanciamento operativo, quando previsto, non sostituisce il bilanciamento iniziale e non è una regola universale da applicare a qualunque meccanica."
+        ]
+      },
+      {
+        "title": "Equilibrio non significa portata infinita",
+        "paragraphs": [
+          "Aggiungere contrappesi può rendere equilibrato un carico eccessivo senza renderlo compatibile con la montatura. Massa totale, lunghezza del tubo, vento e inerzia restano importanti. I motori possono incontrare difficoltà anche con un sistema staticamente bilanciato. Il concetto da ricordare è quindi doppio: compensare la tendenza a cadere migliora il funzionamento, ma non aumenta automaticamente la robustezza e la capacità fotografica dello strumento."
+        ]
+      }
+    ],
+    "facts": [
+      "Massa e distanza dall’asse determinano insieme l’effetto del contrappeso"
+    ],
+    "example": "Massa e distanza dall’asse determinano insieme l’effetto del contrappeso",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/vocabolario/contrappeso/"
       }
     ]
   },
@@ -8844,6 +9519,56 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "corona-solare",
+    "name": "Corona solare",
+    "definition": "La corona è la regione più esterna dell’atmosfera solare, costituita da plasma rarefatto e molto caldo, la cui struttura è fortemente legata al campo magnetico.",
+    "source": "https://www.treccani.it/enciclopedia/corona-solare/",
+    "lesson": "lezione-2-3.html",
+    "related": [
+      "plasma",
+      "coronografo",
+      "vento-solare"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Oltre la superficie apparente",
+        "paragraphs": [
+          "Il disco brillante che normalmente associamo al Sole corrisponde alla fotosfera. La corona si estende oltre quel bordo apparente e ha condizioni fisiche diverse. Non è una parete solida né una fiamma alimentata da ossigeno. La struttura comprende plasma e campi, con regioni che cambiano nel tempo. Separare questi strati permette di capire perché immagini del Sole raccolte con strumenti differenti mostrino dettagli e forme non coincidenti."
+        ]
+      },
+      {
+        "title": "Molto calda ma rarefatta",
+        "paragraphs": [
+          "La temperatura coronale può raggiungere valori molto superiori a quelli fotosferici. Questo non significa che un piccolo volume contenga più energia totale di un uguale volume di materia molto più densa: temperatura e quantità di energia non sono sinonimi. Il problema del riscaldamento coronale riguarda i processi che mantengono quelle condizioni. Onde, campi e dissipazione vengono studiati attraverso osservazioni e modelli, non spiegati da un normale fuoco chimico."
+        ]
+      },
+      {
+        "title": "Come si rende visibile",
+        "paragraphs": [
+          "Nel visibile la corona è difficile da distinguere accanto alla fotosfera abbagliante. Eclissi totali e coronografi permettono di evidenziarne parti, mentre altre bande osservano emissioni del plasma caldo. Una mappa in ultravioletto o raggi X usa strumenti e rappresentazioni specifici. I colori assegnati non devono essere presentati automaticamente come quelli che vedrebbe l’occhio umano, e una stessa regione può avere aspetto diverso secondo la banda selezionata."
+        ]
+      },
+      {
+        "title": "Un ambiente che si apre nello spazio",
+        "paragraphs": [
+          "La corona è collegata al vento solare e ai fenomeni che trasferiscono materia ed energia verso l’esterno. Archi, strutture estese e regioni meno emissive aiutano a studiare configurazioni differenti. Non bisogna leggere le linee magnetiche disegnate come fili materiali. La corona rende visibile un collegamento essenziale: il Sole non termina al contorno del disco e può influenzare l’ambiente planetario attraverso un sistema dinamico di plasma e campi."
+        ]
+      }
+    ],
+    "facts": [
+      "Temperatura elevata e grande quantità totale di energia non sono la stessa informazione"
+    ],
+    "example": "Temperatura elevata e grande quantità totale di energia non sono la stessa informazione",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/corona-solare/"
+      }
+    ]
+  },
+  {
     "id": "coronografo",
     "name": "Coronografo",
     "definition": "Un coronografo riduce la luce di una sorgente molto brillante per studiare strutture più deboli vicine alla sua direzione.",
@@ -9006,6 +9731,56 @@ window.AdAstraGlossary = [
     "aliases": [
       "corrente oscura",
       "dark current"
+    ]
+  },
+  {
+    "id": "corrente-elettrica",
+    "name": "Corrente elettrica",
+    "definition": "La corrente elettrica misura il trasferimento netto di carica attraverso una sezione nell’unità di tempo.",
+    "source": "https://www.treccani.it/enciclopedia/corrente-elettrica/",
+    "lesson": "strumentazione.html",
+    "related": [
+      "ampere",
+      "carica-elettrica",
+      "volt"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un flusso, non una riserva",
+        "paragraphs": [
+          "La corrente riguarda quanta carica attraversa una sezione in un certo tempo. Non indica quanta energia contenga da sola una batteria e non coincide con la tensione. In un metallo contribuiscono gli elettroni, mentre in altri mezzi possono muoversi ioni o portatori differenti. Il verso convenzionale è quello del trasporto di carica positiva, anche quando i portatori materiali si muovono nel verso opposto."
+        ]
+      },
+      {
+        "title": "L’ampere nella pratica",
+        "paragraphs": [
+          "Un ampere corrisponde al trasferimento netto di un coulomb ogni secondo. L’unità collega quindi carica e tempo. In un dispositivo il valore può cambiare durante il funzionamento: avvio, movimento rapido e attesa non richiedono sempre la stessa corrente. Un dato di assorbimento deve specificare condizioni e modalità. Il valore massimo indicato su un alimentatore esprime una capacità di erogazione, non una corrente che verrà imposta automaticamente a qualunque carico."
+        ]
+      },
+      {
+        "title": "Continua e alternata",
+        "paragraphs": [
+          "Una corrente continua mantiene un verso, pur potendo variare di intensità. Una corrente alternata cambia verso nel tempo. Sono descrizioni del comportamento, non giudizi sulla qualità dell’alimentazione. Per gli strumenti astronomici occorre rispettare il tipo richiesto e la polarità prevista. Un connettore simile non rende due alimentazioni intercambiabili: i circuiti interni possono avere esigenze differenti anche se la forma esterna della presa sembra identica."
+        ]
+      },
+      {
+        "title": "Il bilancio della serata",
+        "paragraphs": [
+          "Per stimare l’autonomia bisogna collegare corrente, tensione e durata. Una capacità espressa in ampereora va interpretata alla tensione dichiarata e nelle condizioni reali. Freddo, conversioni e stato della batteria modificano il risultato. Il concetto utile è distinguere il flusso richiesto in un momento dalla quantità di energia disponibile per l’intera notte. Questa separazione evita confronti ingannevoli fra numeri stampati su batterie e alimentatori diversi."
+        ]
+      }
+    ],
+    "facts": [
+      "Corrente, tensione e capacità della batteria sono grandezze diverse"
+    ],
+    "example": "Corrente, tensione e capacità della batteria sono grandezze diverse",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/corrente-elettrica/"
+      }
     ]
   },
   {
@@ -10146,6 +10921,56 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "decadimento-beta",
+    "name": "Decadimento beta",
+    "definition": "Il decadimento beta è una trasformazione nucleare mediata dall’interazione debole, nella quale cambia il numero di protoni con emissione di un elettrone o positrone e del corrispondente antineutrino o neutrino.",
+    "source": "https://www.treccani.it/enciclopedia/interazioni-deboli/",
+    "lesson": "lezione-10-4.html",
+    "related": [
+      "interazione-debole",
+      "neutrino",
+      "radioattivita"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Il caso beta meno",
+        "paragraphs": [
+          "Un neutrone può trasformarsi in un protone con emissione di un elettrone e di un antineutrino elettronico. In un nucleo, quando il processo è energeticamente possibile, il numero di protoni aumenta di uno e quello dei neutroni diminuisce di uno. Il numero totale di nucleoni resta invariato. Cambia invece l’elemento, perché la sua identità è determinata dai protoni e non dal totale delle particelle nucleari."
+        ]
+      },
+      {
+        "title": "Il caso beta più",
+        "paragraphs": [
+          "Nel processo beta positivo un protone legato può trasformarsi in un neutrone, con emissione di un positrone e di un neutrino elettronico, se le condizioni energetiche del nucleo lo permettono. Non è il normale decadimento di un protone libero isolato. Specificare l’ambiente è essenziale: le energie di legame contribuiscono al bilancio e determinano quali trasformazioni siano disponibili. I due segni indicano quindi processi distinti, non elettroni con nomi diversi."
+        ]
+      },
+      {
+        "title": "L’energia viene condivisa",
+        "paragraphs": [
+          "Le particelle emesse e il nucleo residuo condividono energia e quantità di moto. L’elettrone beta non possiede necessariamente una sola energia fissata per ogni evento. La distribuzione continua è legata alla presenza dell’antineutrino e al bilancio complessivo. Non occorre supporre che energia scompaia. Il risultato storico collega osservazioni della radioattività e sviluppo della fisica delle particelle, mostrando come un apparente problema possa rivelare un costituente prima difficile da osservare."
+        ]
+      },
+      {
+        "title": "Una tappa della nucleosintesi",
+        "paragraphs": [
+          "Nei percorsi di cattura neutronica, decadimenti beta trasformano nuclei ricchi di neutroni e contribuiscono alla costruzione degli elementi. Il loro tempo caratteristico compete con quello delle catture successive. Per questo i termini processo lento e rapido non descrivono semplicemente la velocità delle particelle. Il decadimento beta è un collegamento concreto fra interazione debole, evoluzione dei nuclei e composizione cosmica, che si può seguire contando protoni e neutroni a ogni passaggio."
+        ]
+      }
+    ],
+    "facts": [
+      "Nel beta meno il numero atomico aumenta di uno, mentre il numero di massa resta invariato"
+    ],
+    "example": "Nel beta meno il numero atomico aumenta di uno, mentre il numero di massa resta invariato",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/interazioni-deboli/"
+      }
+    ]
+  },
+  {
     "id": "declinazione",
     "name": "Declinazione",
     "definition": "Coordinata equatoriale che misura la distanza angolare a nord o a sud dell’equatore celeste, fra −90° e +90°.",
@@ -10822,6 +11647,56 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "difetto-massa",
+    "name": "Difetto di massa",
+    "definition": "Il difetto di massa di un nucleo è la differenza fra la somma delle masse dei nucleoni liberi che lo compongono e la massa del nucleo legato.",
+    "source": "https://www.treccani.it/enciclopedia/massa/",
+    "lesson": "lezione-4-1.html",
+    "related": [
+      "equivalenza-massa-energia",
+      "energia",
+      "nucleo-atomico"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Il sistema legato pesa meno della somma",
+        "paragraphs": [
+          "Per un nucleo stabile la massa è inferiore alla somma delle masse dei suoi protoni e neutroni considerati separati. Il confronto deve usare quantità coerenti, distinguendo masse nucleari e atomiche. Difetto non significa errore dello strumento o particelle dimenticate nel conteggio. La differenza descrive una proprietà fisica dell’insieme legato, che non può essere ricostruita sommando soltanto le masse dei costituenti isolati."
+        ]
+      },
+      {
+        "title": "Il collegamento con l’energia",
+        "paragraphs": [
+          "La differenza di massa corrisponde all’energia di legame attraverso la relazione fra massa ed energia. Per separare completamente il nucleo occorre fornire energia. Quando si forma un sistema più legato, energia può essere trasferita all’esterno secondo il processo. Non viene eliminata la conservazione: bisogna includere tutte le forme e tutti i partecipanti, anziché considerare soltanto la massa del prodotto finale."
+        ]
+      },
+      {
+        "title": "Perché conta nelle stelle",
+        "paragraphs": [
+          "Il confronto fra nuclei iniziali e finali permette di capire se una trasformazione possa liberare energia. La fusione di alcuni nuclei leggeri costruisce sistemi con maggiore legame per nucleone. Non basta però dire che un nucleo più grande liberi sempre più energia. La curva delle energie di legame e i percorsi possibili impongono differenze importanti, che separano la produzione energetica ordinaria dalla costruzione di nuclei molto pesanti."
+        ]
+      },
+      {
+        "title": "Un esempio di lettura corretta",
+        "paragraphs": [
+          "Se una reazione produce fotoni e particelle in moto, anche la loro energia fa parte del bilancio. Un disegno che mostri soltanto due sfere che si uniscono può nascondere questi contributi. Il difetto di massa è utile proprio perché costringe a confrontare stato iniziale e finale. Il termine collega una differenza apparentemente piccola a grandi quantità di energia, senza richiedere l’immagine fuorviante di materia che scompare senza lasciare traccia fisica."
+        ]
+      }
+    ],
+    "facts": [
+      "Difetto di massa non significa perdita non spiegata: la differenza è collegata all’energia del sistema"
+    ],
+    "example": "Difetto di massa non significa perdita non spiegata: la differenza è collegata all’energia del sistema",
+    "sources": [
+      {
+        "title": "Treccani · riferimento generale al tema; non riscontro puntuale di tutta la scheda",
+        "url": "https://www.treccani.it/enciclopedia/massa/"
+      }
+    ]
+  },
+  {
     "id": "diffrazione",
     "name": "Diffrazione",
     "definition": "La natura ondulatoria della luce fa sì che un’apertura finita produca una figura estesa anche per una sorgente puntiforme.",
@@ -11264,6 +12139,56 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "dissociazione-chimica",
+    "name": "Dissociazione chimica",
+    "definition": "La dissociazione è la separazione di una specie o di un insieme legato in costituenti più semplici, molecolari, atomici o ionici secondo il processo.",
+    "source": "https://www.treccani.it/enciclopedia/dissociazione_(Enciclopedia-Italiana)/",
+    "lesson": "lezione-10-2.html",
+    "related": [
+      "fotodissociazione",
+      "equilibrio-chimico",
+      "ione"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Che cosa viene separato",
+        "paragraphs": [
+          "Una molecola può dare frammenti, mentre un composto ionico può liberare ioni nel solvente. Il termine generale deve essere accompagnato dall’identificazione dei prodotti. Non equivale sempre a ionizzazione e non significa necessariamente che il nucleo cambi elemento. Seguendo cariche e costituenti si distingue la trasformazione reale, evitando di chiamare distruzione qualunque passaggio che renda il materiale iniziale meno riconoscibile a occhio."
+        ]
+      },
+      {
+        "title": "La sorgente di energia conta",
+        "paragraphs": [
+          "Riscaldamento, radiazione e interazioni possono favorire percorsi diversi. La fotodissociazione specifica il ruolo dei fotoni. L’esistenza di una soglia energetica non determina da sola la velocità complessiva: contano probabilità, distribuzioni e condizioni dell’ambiente. Un gas non passa quindi tutto nello stesso istante da molecole ad atomi quando si supera una temperatura indicata in un esempio introduttivo."
+        ]
+      },
+      {
+        "title": "Un equilibrio può ricostruire",
+        "paragraphs": [
+          "Dissociazione e processi inversi possono coesistere. Le proporzioni dipendono dalle condizioni e dai tempi. Il sistema può raggiungere un equilibrio oppure evolvere fuori equilibrio se cambiano radiazione, densità o trasporto. La descrizione deve distinguere la possibilità della singola trasformazione dalla popolazione complessiva delle specie. Questa distinzione aiuta a capire perché una molecola possa essere presente anche in un ambiente che contiene energia capace di distruggerla."
+        ]
+      },
+      {
+        "title": "Il significato nello spazio",
+        "paragraphs": [
+          "Nubi, atmosfere e regioni circumstellari hanno disponibilità e protezione dalla radiazione differenti. La presenza di molecole può indicare regioni schermate o percorsi di formazione efficaci. Non basta però attribuire ogni assenza alla sola dissociazione: sensibilità dello strumento e firme disponibili contano. Il termine collega una trasformazione microscopica alla distribuzione dei materiali nel cosmo, richiedendo di seguire insieme formazione, perdita e ciò che le osservazioni possono effettivamente riconoscere."
+        ]
+      }
+    ],
+    "facts": [
+      "Dissociare una molecola non significa necessariamente ionizzarla"
+    ],
+    "example": "Dissociare una molecola non significa necessariamente ionizzarla",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/dissociazione_(Enciclopedia-Italiana)/"
+      }
+    ]
+  },
+  {
     "id": "distanza-angolare",
     "name": "Distanza angolare",
     "definition": "La distanza angolare fra due direzioni celesti è l’angolo che esse formano per un osservatore, misurato lungo l’arco più breve della sfera celeste.",
@@ -11669,6 +12594,160 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "drizzle",
+    "name": "Drizzle",
+    "definition": "Drizzle è un metodo di ricostruzione e combinazione di immagini che utilizza campioni acquisiti in posizioni leggermente diverse sul sensore.",
+    "source": "https://www.treccani.it/enciclopedia/immagine/",
+    "lesson": "astrofotografia.html",
+    "related": [
+      "dithering",
+      "campionamento",
+      "somma-immagini"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Piccoli spostamenti, informazioni diverse",
+        "paragraphs": [
+          "Una stella non cade sempre nello stesso punto rispetto alla griglia dei pixel. Riprese opportunamente spostate possono campionare dettagli in posizioni complementari. Drizzle combina questi dati su una griglia di uscita. Il procedimento nasce da un problema reale di ricostruzione, non dall’idea che ogni ingrandimento produca informazione nuova. Le posizioni dei campioni e la qualità dei dati iniziali determinano quali vantaggi siano possibili."
+        ]
+      },
+      {
+        "title": "Il ruolo del dithering",
+        "paragraphs": [
+          "Spostamenti fra esposizioni distribuiscono il segnale su pixel diversi. Per ricostruire una griglia più fine serve una diversità sufficiente dei campioni, insieme a un allineamento accurato. Ripetere molte volte la stessa immagine immobile non crea la stessa informazione. Anche la copertura finale conta: alcuni punti possono essere campionati meno di altri e richiedono una corretta gestione dei pesi e delle zone prive di dati."
+        ]
+      },
+      {
+        "title": "Non recupera qualunque dettaglio",
+        "paragraphs": [
+          "Seeing, fuoco e ottica limitano ciò che arriva al sensore. Drizzle non annulla queste limitazioni e non trasforma una ripresa sfocata in una misura arbitrariamente precisa. È soprattutto utile in condizioni di campionamento e acquisizione appropriate. Il risultato va valutato confrontando dettaglio reale, rumore e possibili correlazioni fra pixel, senza assumere che una maggiore dimensione del file corrisponda sempre a una migliore risoluzione fisica."
+        ]
+      },
+      {
+        "title": "Scegliere un risultato credibile",
+        "paragraphs": [
+          "Parametri di ricostruzione troppo spinti possono evidenziare lacune o rendere l’immagine irregolare. La scelta dipende dallo scopo, estetico o quantitativo, e dal numero di esposizioni utili. È opportuno conservare una combinazione di riferimento e descrivere l’elaborazione. Il concetto da fissare è che la ricostruzione sfrutta campioni differenti realmente acquisiti: non sostituisce osservazioni mancanti con dettagli inventati soltanto perché sembrano astronomicamente plausibili."
+        ]
+      }
+    ],
+    "facts": [
+      "Una griglia più fine è utile soltanto quando le riprese contengono campioni complementari"
+    ],
+    "example": "Una griglia più fine è utile soltanto quando le riprese contengono campioni complementari",
+    "sources": [
+      {
+        "title": "Treccani · riferimento generale al tema; non riscontro puntuale di tutta la scheda",
+        "url": "https://www.treccani.it/enciclopedia/immagine/"
+      },
+      {
+        "title": "STScI · DrizzlePac, metodo e limiti",
+        "url": "https://hst-docs.stsci.edu/drizzpac"
+      }
+    ]
+  },
+  {
+    "id": "dualismo-onda-corpuscolo",
+    "name": "Dualismo onda-corpuscolo",
+    "definition": "L’espressione dualismo onda-corpuscolo richiama comportamenti della materia e della radiazione che non possono essere descritti interamente usando soltanto le immagini classiche di onda o particella.",
+    "source": "https://www.treccani.it/enciclopedia/dualismo-onda-corpuscolo/",
+    "lesson": "lezione-4-3.html",
+    "related": [
+      "fotone",
+      "interferenza",
+      "effetto-fotoelettrico"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Due immagini nate dall’esperienza",
+        "paragraphs": [
+          "Un’onda classica si distribuisce e produce interferenza; una particella classica viene immaginata come un oggetto localizzato. Esperimenti microscopici mostrano aspetti che richiamano entrambi, senza permettere di identificare il sistema con una semplice combinazione meccanica delle due figure. Il termine dualismo è un ponte storico e didattico. La descrizione moderna usa stati quantistici e regole che collegano preparazione, evoluzione e risultati delle misure."
+        ]
+      },
+      {
+        "title": "La luce interferisce e viene rivelata",
+        "paragraphs": [
+          "La luce può costruire figure di interferenza, mentre l’interazione con un rivelatore avviene attraverso scambi quantizzati. Non è necessario immaginare che ogni fotone sia una pallina che si trasforma periodicamente in una piccola onda d’acqua. Il modello deve spiegare insieme distribuzione dei risultati e singoli eventi. È proprio la combinazione delle osservazioni a rendere insufficiente una sola analogia costruita su oggetti ordinari."
+        ]
+      },
+      {
+        "title": "Anche la materia mostra interferenza",
+        "paragraphs": [
+          "Fenomeni ondulatori non riguardano soltanto la luce. Elettroni e altri sistemi materiali possono produrre distribuzioni con caratteristiche di interferenza nelle condizioni adatte. Questo non significa che la materia smetta di interagire con scambi localizzati. Il confronto amplia il significato della fisica quantistica e impedisce di separare ingenuamente un mondo della luce sempre ondulatorio da un mondo della materia sempre composto da corpuscoli classici."
+        ]
+      },
+      {
+        "title": "Il collegamento con l’astronomia",
+        "paragraphs": [
+          "Fotoni, sensori e spettri richiedono di tenere presenti proprietà differenti secondo la domanda. Diffrazione e risoluzione richiamano la propagazione, mentre conversione in segnale e livelli energetici richiedono il linguaggio quantistico. Una stessa osservazione astronomica mette insieme questi aspetti nella catena di misura. Il concetto da conservare è il limite delle immagini familiari: possono guidare il ragionamento, ma non devono diventare una descrizione letterale che contraddice gli esperimenti."
+        ]
+      }
+    ],
+    "facts": [
+      "Onda e corpuscolo sono analogie parziali: il sistema quantistico non è una pallina con una piccola onda attaccata"
+    ],
+    "example": "Onda e corpuscolo sono analogie parziali: il sistema quantistico non è una pallina con una piccola onda attaccata",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/dualismo-onda-corpuscolo/"
+      }
+    ]
+  },
+  {
+    "id": "duna",
+    "name": "Duna",
+    "definition": "Una duna è un accumulo di materiale granulare modellato dal trasporto del vento. Forma e movimento dipendono da sedimenti, disponibilità del materiale e regime dei venti.",
+    "source": "https://www.treccani.it/enciclopedia/duna/",
+    "lesson": "lezione-3-2.html",
+    "related": [
+      "erosione",
+      "sedimentazione",
+      "atmosfera"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Il vento seleziona e trasporta",
+        "paragraphs": [
+          "Granuli sollevati o messi in movimento possono accumularsi dove il trasporto cambia. Dimensioni, densità e proprietà dell’atmosfera contribuiscono al processo. Non ogni vento muove qualunque granulo nello stesso modo. La forma risultante dipende anche da quanto materiale sia disponibile e dagli ostacoli. Una duna non è quindi soltanto una collina dalla sagoma elegante: è il risultato visibile di scambi fra superficie e atmosfera."
+        ]
+      },
+      {
+        "title": "Una forma capace di migrare",
+        "paragraphs": [
+          "Il materiale può risalire una parte dell’accumulo e depositarsi oltre una cresta, facendo cambiare posizione alla struttura nel tempo. Velocità e direzione non sono universali. Confrontare immagini raccolte in epoche diverse permette di cercare spostamenti reali, purché scala e geometria siano controllate. Una fotografia isolata mostra una configurazione, mentre una sequenza può documentare il processo che continua a costruirla e modificarla."
+        ]
+      },
+      {
+        "title": "La lettura dei venti",
+        "paragraphs": [
+          "Orientamento e forma delle dune possono fornire indizi sui venti efficaci nel trasporto. Non sempre indicano semplicemente il vento misurato oggi per pochi minuti. Possono conservare una risposta integrata e risentire di cambiamenti o disponibilità variabile dei sedimenti. La ricostruzione richiede modelli e confronto con altri dati. È utile distinguere il vento che osserviamo dal regime che ha prodotto il paesaggio."
+        ]
+      },
+      {
+        "title": "Dune fuori dalla Terra",
+        "paragraphs": [
+          "Dune su altri mondi dimostrano interazioni fra materiale granulare e atmosfera, ma i granuli non devono essere identici alla sabbia terrestre. Gravità e densità del gas cambiano le condizioni di trasporto. Il confronto planetario è interessante proprio perché separa un meccanismo generale dalle sue realizzazioni. Prima di attribuire a un paesaggio lontano la stessa storia di un deserto terrestre bisogna verificarne materiale, ambiente e variazioni osservate."
+        ]
+      }
+    ],
+    "facts": [
+      "Una sequenza di immagini può rivelare dune in movimento che una foto isolata non dimostra"
+    ],
+    "example": "Una sequenza di immagini può rivelare dune in movimento che una foto isolata non dimostra",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/duna/"
+      }
+    ]
+  },
+  {
     "id": "ebollizione",
     "name": "Ebollizione",
     "definition": "L’ebollizione è la vaporizzazione che avviene con formazione di bolle di vapore nel liquido, a condizioni determinate da temperatura e pressione.",
@@ -12045,6 +13124,56 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "effetto-compton",
+    "name": "Effetto Compton",
+    "definition": "L’effetto Compton è la diffusione di un fotone da parte di un elettrone, con scambio di energia e quantità di moto.",
+    "source": "https://www.treccani.it/enciclopedia/elettrodinamica/",
+    "lesson": "lezione-10-3.html",
+    "related": [
+      "fotone",
+      "elettrone",
+      "raggi-x"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un incontro che cambia la radiazione",
+        "paragraphs": [
+          "Nel caso introduttivo di un elettrone inizialmente fermo, il fotone diffuso può perdere energia e aumentare la propria lunghezza d’onda. L’elettrone riceve energia e rincula. Non si tratta della scomparsa completa del fotone per un normale assorbimento fotoelettrico. Lo stato finale comprende radiazione diffusa e particella, con un bilancio che collega l’angolo della diffusione alle variazioni misurabili."
+        ]
+      },
+      {
+        "title": "Il ruolo delle conservazioni",
+        "paragraphs": [
+          "Energia e quantità di moto devono essere considerate insieme. La descrizione attraverso fotoni permette di spiegare caratteristiche che l’immagine classica di una semplice onda su un elettrone non riproduce completamente nel regime pertinente. Questo non elimina gli aspetti ondulatori della luce in altri esperimenti. Mostra piuttosto perché una sola analogia non sia sufficiente a descrivere tutte le interazioni della radiazione con la materia."
+        ]
+      },
+      {
+        "title": "Il caso inverso",
+        "paragraphs": [
+          "Se gli elettroni possiedono energie elevate, possono trasferire energia ai fotoni: si parla di Compton inverso. Il processo è importante in molti ambienti astrofisici ad alta energia. Non è un nuovo tipo di particella né una creazione gratuita di luce più energetica. L’energia viene dalla popolazione elettronica e il risultato dipende dalla distribuzione delle particelle e dal campo di radiazione iniziale."
+        ]
+      },
+      {
+        "title": "Leggere uno spettro energetico",
+        "paragraphs": [
+          "Fotoni che subiscono più interazioni possono costruire distribuzioni complesse. Per ricostruire l’ambiente occorre confrontare spettro, geometria e modelli delle particelle. Un’immagine X non identifica automaticamente il meccanismo responsabile. Il concetto collega due aspetti del cosmo: radiazione e materia possono scambiarsi energia durante il viaggio, perciò ciò che riceviamo non deve sempre essere una copia immutata del segnale prodotto inizialmente dalla sorgente."
+        ]
+      }
+    ],
+    "facts": [
+      "Nel Compton inverso l’energia guadagnata dai fotoni proviene dagli elettroni energetici"
+    ],
+    "example": "Nel Compton inverso l’energia guadagnata dai fotoni proviene dagli elettroni energetici",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/elettrodinamica/"
+      }
+    ]
+  },
+  {
     "id": "effetto-doppler",
     "name": "Effetto Doppler",
     "definition": "L’effetto Doppler collega il moto relativo fra sorgente e osservatore a una variazione della frequenza e della lunghezza d’onda ricevute.",
@@ -12146,6 +13275,306 @@ window.AdAstraGlossary = [
       {
         "title": "ESA/CESAR · rivelatori astronomici e conversione del segnale",
         "url": "https://cesar.esa.int/upload/202011/esasky_teacher_guide_onlinesse22.pdf"
+      }
+    ]
+  },
+  {
+    "id": "effetto-joule",
+    "name": "Effetto Joule",
+    "definition": "L’effetto Joule è la trasformazione di energia elettrica in energia interna associata al passaggio di corrente attraverso una resistenza.",
+    "source": "https://www.treccani.it/enciclopedia/termoelettricita/",
+    "lesson": "strumentazione.html",
+    "related": [
+      "joule",
+      "potenza-fisica",
+      "corrente-di-buio"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Il filo si riscalda",
+        "paragraphs": [
+          "Quando passa corrente in un conduttore resistivo, parte dell’energia fornita al circuito viene trasferita al materiale. Il risultato può essere un aumento di temperatura, bilanciato dalla dispersione verso l’ambiente. Questo è il principio utile di molti riscaldatori e una fonte di perdita nei collegamenti. Non si crea energia dal nulla: cambia la forma nella quale l’energia elettrica viene distribuita e resa disponibile."
+        ]
+      },
+      {
+        "title": "La potenza non è la temperatura",
+        "paragraphs": [
+          "La potenza indica quanta energia viene trasferita ogni secondo. La temperatura raggiunta dipende anche da massa, ventilazione, contatto e scambi termici. Due componenti con la stessa potenza dissipata possono avere temperature molto diverse. È quindi scorretto ricavare il calore percepito da un solo numero senza conoscere l’installazione. Un punto piccolo e poco ventilato può scaldarsi più di una superficie ampia che disperde bene."
+        ]
+      },
+      {
+        "title": "Perché una corrente maggiore conta molto",
+        "paragraphs": [
+          "In un resistore a resistenza costante, la potenza dissipata cresce con il quadrato della corrente. Se la corrente raddoppia, il riscaldamento elettrico per secondo diventa quattro volte maggiore. Non serve eseguire radici per comprendere l’idea: si moltiplica il fattore due per se stesso. La condizione di resistenza costante va ricordata, perché temperatura e caratteristiche reali possono modificare il comportamento del componente."
+        ]
+      },
+      {
+        "title": "Le fasce anticondensa",
+        "paragraphs": [
+          "Una fascia riscaldante usa energia per mantenere una parte dello strumento nelle condizioni utili a limitare la condensa. Non deve arroventare l’ottica. Consumo e regolazione entrano nel bilancio della batteria insieme a montatura e camera. La stessa fisica spiega perché un contatto difettoso possa diventare un punto caldo indesiderato. Distinguere riscaldamento progettato e perdita nei collegamenti rende più comprensibile l’organizzazione elettrica della serata osservativa."
+        ]
+      }
+    ],
+    "facts": [
+      "A resistenza costante, raddoppiare la corrente quadruplica la potenza dissipata"
+    ],
+    "example": "A resistenza costante, raddoppiare la corrente quadruplica la potenza dissipata",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/termoelettricita/"
+      }
+    ]
+  },
+  {
+    "id": "effetto-serra",
+    "name": "Effetto serra",
+    "definition": "L’effetto serra atmosferico deriva dall’interazione dell’atmosfera con la radiazione termica e modifica il bilancio energetico e la temperatura della superficie.",
+    "source": "https://www.treccani.it/enciclopedia/effetto-serra/",
+    "lesson": "lezione-3-2.html",
+    "related": [
+      "anidride-carbonica",
+      "infrarosso",
+      "equilibrio-termico"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Il pianeta riceve ed emette",
+        "paragraphs": [
+          "Un pianeta assorbe parte della radiazione stellare e restituisce energia nello spazio. La superficie e l’atmosfera emettono radiazione termica. Alcuni gas assorbono ed emettono in bande infrarosse importanti per questo scambio. La presenza dell’atmosfera modifica quindi la quota e le condizioni dalle quali l’energia viene irradiata verso lo spazio. Non si tratta semplicemente di una copertura che impedisce per sempre alla luce di uscire."
+        ]
+      },
+      {
+        "title": "Non è lo stesso meccanismo di una serra",
+        "paragraphs": [
+          "L’analogia della coperta può aiutare, ma una serra agricola limita anche lo scambio d’aria per convezione. Il nome non deve sostituire la spiegazione del processo radiativo atmosferico. Anche nuvole, albedo e circolazione entrano nel clima reale. Una descrizione accessibile può mantenere distinti questi contributi senza negare il ruolo dei gas che interagiscono con la radiazione termica alle lunghezze d’onda appropriate."
+        ]
+      },
+      {
+        "title": "Confrontare i pianeti",
+        "paragraphs": [
+          "Distanza dalla stella, riflettanza, pressione e composizione influenzano il bilancio. Venere non è descritta correttamente considerando soltanto la sua distanza dal Sole. Allo stesso modo, la presenza di un gas serra non determina da sola la temperatura di un esopianeta. Servono quantità, distribuzioni e condizioni. Il confronto fra mondi è istruttivo quando conserva queste differenze, invece di applicare una singola etichetta come spiegazione completa."
+        ]
+      },
+      {
+        "title": "Un equilibrio che può cambiare",
+        "paragraphs": [
+          "Se cambiano assorbimento e emissione, il sistema tende a un nuovo bilancio attraverso risposte e tempi differenti. Feedback e riserve di calore complicano il percorso. La temperatura non deve adeguarsi istantaneamente a un cambiamento della composizione. Il concetto fondamentale è seguire i flussi di energia: quanta ne entra, quanta viene riflessa e quanta riesce a lasciare il pianeta, distinguendo il principio fisico dalle previsioni quantitative di un modello specifico."
+        ]
+      }
+    ],
+    "facts": [
+      "L’effetto serra si comprende seguendo il bilancio della radiazione, non immaginando una barriera perfetta"
+    ],
+    "example": "L’effetto serra si comprende seguendo il bilancio della radiazione, non immaginando una barriera perfetta",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/effetto-serra/"
+      }
+    ]
+  },
+  {
+    "id": "effetto-stark",
+    "name": "Effetto Stark",
+    "definition": "L’effetto Stark è la modifica dei livelli energetici e delle righe spettrali dovuta all’interazione con un campo elettrico.",
+    "source": "https://www.treccani.it/enciclopedia/johannes-stark/",
+    "lesson": "lezione-4-3.html",
+    "related": [
+      "campo-elettrico",
+      "effetto-zeeman",
+      "riga-spettrale"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "L’ambiente modifica gli stati",
+        "paragraphs": [
+          "Gli stati atomici dipendono anche dalle interazioni esterne. Un campo elettrico può modificare energie e transizioni, producendo spostamenti o separazioni delle righe. Il comportamento dipende dal sistema e dal regime. Non è il semplice cambiamento di colore di una lampada alimentata con una tensione diversa. Il fenomeno riguarda la struttura energetica che determina quali fotoni possano essere emessi o assorbiti."
+        ]
+      },
+      {
+        "title": "Campi dentro un plasma",
+        "paragraphs": [
+          "In un gas ionizzato le particelle cariche producono campi locali che cambiano nel tempo e nello spazio. Il loro effetto collettivo può contribuire all’allargamento delle righe. Una sorgente non deve essere collocata fra due grandi piastre artificiali perché i campi elettrici siano rilevanti. Le condizioni microscopiche del plasma fanno parte del problema e collegano lo spettro alla densità e alla dinamica delle cariche."
+        ]
+      },
+      {
+        "title": "Una diagnosi da confrontare",
+        "paragraphs": [
+          "L’allargamento associato allo Stark può essere importante nell’interpretazione di spettri stellari. Per ricavare parametri occorre un modello che consideri anche altri contributi. Temperatura, gravità superficiale e distribuzione delle particelle entrano nel quadro. Non si assegna una pressione esatta a una stella semplicemente misurando una larghezza senza calibrazione e senza sapere quale meccanismo domini nella riga scelta."
+        ]
+      },
+      {
+        "title": "Elettrico e magnetico non coincidono",
+        "paragraphs": [
+          "Zeeman e Stark hanno nomi distinti perché riguardano interazioni differenti. Possono contribuire in ambienti complessi, ma non sono due etichette intercambiabili dello stesso allargamento. Il confronto è utile per fissare un’idea: una riga porta informazione sia sulla specie sia sull’ambiente. Leggerla richiede di riconoscere le firme dei diversi processi, conservando la distinzione fra ciò che viene misurato e il modello che lo spiega."
+        ]
+      }
+    ],
+    "facts": [
+      "Stark riguarda il campo elettrico; Zeeman il campo magnetico"
+    ],
+    "example": "Stark riguarda il campo elettrico; Zeeman il campo magnetico",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/johannes-stark/"
+      }
+    ]
+  },
+  {
+    "id": "effetto-tunnel",
+    "name": "Effetto tunnel",
+    "definition": "L’effetto tunnel è un fenomeno quantistico che permette una probabilità di attraversamento di una barriera di potenziale anche quando l’energia non consentirebbe il passaggio nel modello classico.",
+    "source": "https://www.treccani.it/enciclopedia/effetto-tunnel_(Enciclopedia-della-Scienza-e-della-Tecnica)/",
+    "lesson": "lezione-4-1.html",
+    "related": [
+      "fusione-nucleare",
+      "particella-alfa",
+      "gamow-george"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Il confronto con una collina",
+        "paragraphs": [
+          "Una pallina classica con energia insufficiente non supera una collina di potenziale. La descrizione quantistica offre invece una probabilità di trasmissione attraverso una barriera finita. L’analogia non significa che la particella scavi un foro materiale. La barriera rappresenta una distribuzione di energia potenziale e il fenomeno dipende dalle proprietà dello stato e dalla forma del problema fisico."
+        ]
+      },
+      {
+        "title": "La probabilità cambia con la barriera",
+        "paragraphs": [
+          "Spessore, altezza ed energia influenzano molto il risultato. Non tutte le barriere diventano quindi attraversabili con probabilità significativa. Il fenomeno non autorizza a immaginare oggetti macroscopici che passano liberamente attraverso i muri. Le scale e le condizioni contano. Anche quando il termine sembra evocare qualcosa di magico, le previsioni sono quantitative e possono essere confrontate con misure ripetute in situazioni controllate."
+        ]
+      },
+      {
+        "title": "Un ruolo nell’energia stellare",
+        "paragraphs": [
+          "Nelle reazioni fra nuclei positivi la repulsione elettrica costituisce un ostacolo all’avvicinamento. Il contributo quantistico alla probabilità di penetrazione della barriera è essenziale per comprendere le reazioni stellari. Non significa che tutta la materia reagisca immediatamente. Temperature, distribuzione delle energie e probabilità nucleari determinano il ritmo. La lunga vita delle stelle nasce da un equilibrio nel quale reazioni possibili possono restare rare per una singola particella."
+        ]
+      },
+      {
+        "title": "La conservazione resta valida",
+        "paragraphs": [
+          "Il tunnel non richiede di prendere in prestito energia violando per un istante una legge di conservazione. Questa immagine popolare può generare equivoci. Nel modello appropriato l’energia totale viene trattata coerentemente mentre cambia la probabilità di trovare il sistema nelle diverse regioni. Il concetto permette di collegare decadimenti, reazioni e dispositivi elettronici attraverso un principio comune, senza trasformare l’analogia in una spiegazione fisica letterale."
+        ]
+      }
+    ],
+    "facts": [
+      "L’effetto tunnel non richiede una temporanea violazione della conservazione dell’energia"
+    ],
+    "example": "L’effetto tunnel non richiede una temporanea violazione della conservazione dell’energia",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/effetto-tunnel_(Enciclopedia-della-Scienza-e-della-Tecnica)/"
+      }
+    ]
+  },
+  {
+    "id": "effetto-zeeman",
+    "name": "Effetto Zeeman",
+    "definition": "L’effetto Zeeman è la modifica dei livelli energetici e delle righe spettrali di un sistema atomico in presenza di un campo magnetico.",
+    "source": "https://www.treccani.it/enciclopedia/pieter-zeeman/",
+    "lesson": "lezione-2-3.html",
+    "related": [
+      "campo-magnetico",
+      "polarizzazione",
+      "riga-spettrale"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Una riga può separarsi",
+        "paragraphs": [
+          "Una riga che senza campo appare unica può presentare componenti vicine quando il sistema interagisce con un campo magnetico. La struttura dipende dalla transizione e dal regime fisico. Non è una duplicazione casuale prodotta dallo strumento. Il confronto con il caso senza campo permette di collegare le differenze osservate a proprietà della materia e dell’ambiente, invece di considerarle soltanto un difetto dell’immagine."
+        ]
+      },
+      {
+        "title": "La polarizzazione aggiunge informazione",
+        "paragraphs": [
+          "Le componenti possono avere proprietà di polarizzazione differenti secondo la direzione di osservazione. Questo rende possibile studiare non soltanto un’intensità magnetica, ma anche aspetti della geometria. La misura richiede strumenti e modelli appropriati. Una fotografia solare colorata genericamente non mostra da sola il campo: occorre sapere quale osservazione sia stata trasformata nella mappa e che cosa significhino colori e segni della legenda."
+        ]
+      },
+      {
+        "title": "Il Sole come esempio",
+        "paragraphs": [
+          "Gli spettri solari permettono di ricostruire proprietà magnetiche di regioni della superficie. La connessione con macchie e attività aiuta a comprendere fenomeni successivi. Non vediamo il campo come un oggetto materiale, ma ne misuriamo effetti sulla radiazione. Anche la risoluzione spaziale conta, perché un pixel può contenere strutture differenti che contribuiscono allo stesso segnale e rendono più articolata l’interpretazione."
+        ]
+      },
+      {
+        "title": "Il confronto con altri effetti",
+        "paragraphs": [
+          "Moti del gas, pressione e risposta strumentale possono modificare le righe. Il riconoscimento dello Zeeman deve separarli attraverso caratteristiche e confronti pertinenti. Una riga larga non è automaticamente una misura del campo magnetico. Il concetto mostra come la spettroscopia superi la semplice ricerca degli elementi: il modo in cui la materia emette o assorbe luce può raccontare anche forze e condizioni dell’ambiente nel quale si trova."
+        ]
+      }
+    ],
+    "facts": [
+      "Le mappe magnetiche solari derivano da effetti misurati sulla luce, non da fotografie dirette dei campi"
+    ],
+    "example": "Le mappe magnetiche solari derivano da effetti misurati sulla luce, non da fotografie dirette dei campi",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/pieter-zeeman/"
+      }
+    ]
+  },
+  {
+    "id": "efficienza-quantica",
+    "name": "Efficienza quantica",
+    "definition": "L’efficienza quantica di un rivelatore descrive la frazione di fotoni incidenti che produce il segnale elettronico rilevato, secondo lunghezza d’onda e condizioni.",
+    "source": "https://www.treccani.it/enciclopedia/effetto-fotoelettrico/",
+    "lesson": "astrofotografia.html",
+    "related": [
+      "fotodiodo",
+      "fotone",
+      "sensore"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Non tutti i fotoni diventano segnale",
+        "paragraphs": [
+          "La luce arriva al rivelatore, ma una parte può essere riflessa, assorbita senza una carica utile o persa durante la raccolta. L’efficienza quantica riassume la risposta in condizioni definite. Un valore elevato indica una conversione favorevole, non la scomparsa di ogni perdita nell’intero telescopio. Prima del sensore ci sono infatti specchi, lenti e filtri, ciascuno con una propria trasmissione o riflettanza."
+        ]
+      },
+      {
+        "title": "Il colore della luce conta",
+        "paragraphs": [
+          "La risposta varia con la lunghezza d’onda. Un valore massimo pubblicizzato non descrive tutto lo spettro. Per fotografare una particolare riga spettrale interessa la risposta proprio in quella regione. Anche filtri colorati e strati protettivi modificano il segnale disponibile. Una curva documentata è quindi più informativa di una sola percentuale, soprattutto quando si confrontano sistemi progettati per bande di osservazione diverse."
+        ]
+      },
+      {
+        "title": "Un esempio di conteggio",
+        "paragraphs": [
+          "Se, in condizioni ideali, cento fotoni incidenti producono ottanta cariche utili, l’efficienza corrispondente è dell’ottanta per cento. Questo esempio spiega il rapporto, senza implicare che ogni esposizione reale dia esattamente quel numero. I processi sono statistici. Inoltre il segnale finale può includere cariche di origine termica e rumore di lettura, che devono essere distinti dalla conversione dei fotoni provenienti dalla sorgente."
+        ]
+      },
+      {
+        "title": "Dal componente alla fotografia",
+        "paragraphs": [
+          "Una maggiore efficienza può aiutare a raccogliere segnale, ma il risultato dipende anche da apertura, durata, campionamento e fondo cielo. Non equivale a una luminosità artificiale applicata dal software. Aumentare la brillantezza sullo schermo non modifica la conversione già avvenuta. Tenere separate queste operazioni permette di capire perché due file ugualmente chiari possano conservare quantità molto diverse di informazione sulla luce astronomica realmente ricevuta."
+        ]
+      }
+    ],
+    "facts": [
+      "Una percentuale di picco non sostituisce la curva di risposta alle diverse lunghezze d’onda"
+    ],
+    "example": "Una percentuale di picco non sostituisce la curva di risposta alle diverse lunghezze d’onda",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/effetto-fotoelettrico/"
       }
     ]
   },
@@ -12556,6 +13985,114 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "eliopausa",
+    "name": "Eliopausa",
+    "definition": "L’eliopausa è la regione di separazione fra il plasma dominato dal vento solare e il plasma del mezzo interstellare circostante.",
+    "source": "https://www.treccani.it/enciclopedia/eliosfera_(Dizionario-delle-Scienze-Fisiche)/",
+    "lesson": "lezione-2-3.html",
+    "related": [
+      "eliosfera",
+      "vento-solare",
+      "plasma"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un incontro fra ambienti",
+        "paragraphs": [
+          "Il vento solare si espande in un ambiente che possiede a sua volta particelle, campi e pressioni. L’interazione costruisce regioni di transizione. L’eliopausa descrive un confine di questo sistema, non una superficie metallica che racchiude il Sole. La sua posizione e struttura non devono essere dedotte soltanto dall’orbita del pianeta più lontano: dipendono dal rapporto fisico fra i due ambienti."
+        ]
+      },
+      {
+        "title": "Un passaggio da riconoscere nei dati",
+        "paragraphs": [
+          "Una sonda non vede necessariamente un muro davanti a sé. Gli strumenti misurano cambiamenti nelle popolazioni di particelle, nella densità del plasma e nei campi. Il confronto permette di interpretare il passaggio. Una singola variazione può richiedere ulteriori verifiche prima di attribuirla al confine. Il metodo ricorda che molti limiti astronomici sono identificati attraverso proprietà fisiche, non perché appaiano come linee nette in una fotografia."
+        ]
+      },
+      {
+        "title": "Diversa da altre transizioni",
+        "paragraphs": [
+          "Nel percorso verso l’esterno si incontrano regioni nelle quali il vento modifica velocità e caratteristiche prima dell’eliopausa. Il fronte d’urto di terminazione non è dunque un altro nome dello stesso confine. Una figura dovrebbe distinguere le superfici e spiegare quale cambiamento rappresentino. Sovrapporle in un solo cerchio rende il disegno più semplice ma cancella informazioni necessarie per leggere le misure delle sonde."
+        ]
+      },
+      {
+        "title": "Una distanza che richiede contesto",
+        "paragraphs": [
+          "Le distanze degli attraversamenti dipendono dalla direzione e dall’epoca, e non definiscono un raggio fisso universale. Per una notizia o una scheda aggiornata conviene riportare quale sonda abbia misurato che cosa e quando. Il concetto di eliopausa permette di parlare dello spazio interstellare vicino mantenendo una distinzione fondamentale: confine del plasma solare e confine dell’influenza gravitazionale rispondono a domande diverse e non devono essere confusi."
+        ]
+      }
+    ],
+    "facts": [
+      "L’eliopausa non coincide con il fronte d’urto di terminazione né con un limite della gravità solare"
+    ],
+    "example": "L’eliopausa non coincide con il fronte d’urto di terminazione né con un limite della gravità solare",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/eliosfera_(Dizionario-delle-Scienze-Fisiche)/"
+      },
+      {
+        "title": "NASA · componenti dell’eliosfera",
+        "url": "https://science.nasa.gov/learn/heat/resource/components-of-the-heliosphere/"
+      }
+    ]
+  },
+  {
+    "id": "eliosfera",
+    "name": "Eliosfera",
+    "definition": "L’eliosfera è la regione dello spazio modellata dal vento solare e dal campo magnetico che esso trasporta, in interazione con il mezzo interstellare.",
+    "source": "https://www.treccani.it/enciclopedia/eliosfera_(Dizionario-delle-Scienze-Fisiche)/",
+    "lesson": "lezione-2-3.html",
+    "related": [
+      "vento-solare",
+      "voyager-1",
+      "campo-magnetico"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "La presenza del Sole oltre i pianeti",
+        "paragraphs": [
+          "Il Sole emette un flusso di plasma che si propaga nello spazio e contribuisce a costruire un ambiente esteso. Questa regione non coincide con l’insieme delle orbite planetarie. Il suo studio collega attività solare, particelle e condizioni del mezzo circostante. La parola sfera non impone una geometria perfettamente sferica: forma e confini rispondono a interazioni e variazioni che richiedono misure da posizioni differenti."
+        ]
+      },
+      {
+        "title": "Un confine diverso da quello gravitazionale",
+        "paragraphs": [
+          "Il limite dell’eliosfera riguarda il rapporto fra plasma solare e ambiente interstellare. Non è il punto nel quale la gravità del Sole scompare. Corpi legati al Sole possono occupare regioni molto più lontane. Dire che una sonda ha lasciato l’eliosfera non equivale quindi a dire che abbia superato ogni possibile definizione di Sistema solare. Il significato del confine va sempre specificato."
+        ]
+      },
+      {
+        "title": "Una protezione parziale",
+        "paragraphs": [
+          "L’ambiente eliosferico modifica il trasporto di particelle energetiche provenienti dall’esterno. Non elimina tutte le radiazioni e non deve essere disegnato come una parete impermeabile. La modulazione dipende anche dall’attività solare e dalle proprietà delle particelle. Il confronto fra misure in luoghi e tempi differenti permette di studiare questa funzione, distinguendola dalla protezione locale offerta dall’atmosfera e dal campo magnetico di un pianeta."
+        ]
+      },
+      {
+        "title": "Le sonde cambiano la conoscenza",
+        "paragraphs": [
+          "Le misure Voyager hanno aggiunto informazioni dirette sulle regioni di confine che testi più antichi potevano descrivere soltanto attraverso ipotesi. Una fonte storica che affermi che nessuna sonda le abbia attraversate va contestualizzata, non ripetuta come aggiornamento. L’eliosfera è un buon esempio del rapporto fra modelli globali e dati locali: attraversare un confine in una direzione fornisce una misura preziosa, ma non fotografa immediatamente tutta la sua forma tridimensionale."
+        ]
+      }
+    ],
+    "facts": [
+      "Lasciare l’eliosfera non significa lasciare ogni regione gravitazionalmente legata al Sole"
+    ],
+    "example": "Lasciare l’eliosfera non significa lasciare ogni regione gravitazionalmente legata al Sole",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/eliosfera_(Dizionario-delle-Scienze-Fisiche)/"
+      },
+      {
+        "title": "NASA · eliosfera",
+        "url": "https://science.nasa.gov/heliophysics/focus-areas/heliosphere/"
+      }
+    ]
+  },
+  {
     "id": "elongazione",
     "name": "Elongazione",
     "definition": "Nell’uso osservativo l’elongazione descrive la separazione apparente dal Sole; occorre distinguere la separazione angolare totale dalla differenza di longitudine usata in alcune definizioni.",
@@ -12829,6 +14366,56 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "encoder",
+    "name": "Encoder",
+    "definition": "Un encoder è un dispositivo che traduce posizione o movimento in un segnale utilizzabile da un sistema di misura o controllo.",
+    "source": "https://www.treccani.it/vocabolario/encoder/",
+    "lesson": "strumentazione.html",
+    "related": [
+      "goto",
+      "montatura-equatoriale",
+      "accuratezza-misura"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Sapere dove si trova un asse",
+        "paragraphs": [
+          "Una montatura motorizzata deve collegare un comando alla posizione fisica. Un encoder può misurare la rotazione di un componente attraverso segnali ottici, magnetici o altri principi. Il controllore interpreta questi segnali. Il dispositivo non osserva necessariamente le stelle: legge una parte della meccanica. L’informazione permette di seguire uno spostamento o confrontare posizione richiesta e posizione misurata nel punto in cui il sensore è installato."
+        ]
+      },
+      {
+        "title": "Assoluto e incrementale",
+        "paragraphs": [
+          "Un sistema incrementale registra variazioni e richiede un riferimento per ricostruire una posizione. Un sistema assoluto identifica posizioni codificate secondo la sua architettura. Le implementazioni possono essere molto diverse. Non basta quindi la parola encoder in una scheda commerciale per sapere che cosa accada dopo un’interruzione di alimentazione. Occorre conoscere quali assi siano letti, dove avvenga la lettura e come il programma gestisca i riferimenti."
+        ]
+      },
+      {
+        "title": "Risoluzione e accuratezza",
+        "paragraphs": [
+          "Distinguere moltissimi passi non significa conoscere con la stessa precisione la direzione del telescopio. Errori meccanici, allineamento, flessioni e calibrazione entrano nel risultato. Anche la collocazione del sensore conta: leggere un motore non misura automaticamente ogni gioco presente a valle. La risoluzione indica la finezza della lettura; l’accuratezza richiede un confronto con un riferimento e riguarda l’intera catena di misura."
+        ]
+      },
+      {
+        "title": "Il rapporto con il cielo",
+        "paragraphs": [
+          "Gli encoder possono aiutare puntamento e inseguimento, ma non sostituiscono sempre l’allineamento polare o un modello corretto della montatura. Il plate solving fornisce invece un riscontro dalla fotografia delle stelle. I sistemi possono collaborare: uno misura la meccanica, l’altro riconosce il campo celeste. Questa distinzione rende comprensibili funzioni che altrimenti sembrano tutte un’unica promessa di puntamento automatico, senza differenze di metodo e limiti."
+        ]
+      }
+    ],
+    "facts": [
+      "Leggere la posizione di un asse non equivale automaticamente a riconoscere il cielo fotografato"
+    ],
+    "example": "Leggere la posizione di un asse non equivale automaticamente a riconoscere il cielo fotografato",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/vocabolario/encoder/"
+      }
+    ]
+  },
+  {
     "id": "energia",
     "name": "Energia",
     "definition": "L’energia è una grandezza fisica che permette di descrivere e confrontare trasformazioni e trasferimenti; non è sinonimo di potenza o temperatura.",
@@ -13043,6 +14630,56 @@ window.AdAstraGlossary = [
       {
         "title": "NIST · dati atomici dell’idrogeno",
         "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/hydrogentable1.htm"
+      }
+    ]
+  },
+  {
+    "id": "energia-legame-nucleare",
+    "name": "Energia di legame nucleare",
+    "definition": "L’energia di legame nucleare è l’energia necessaria per separare completamente un nucleo nei suoi protoni e neutroni liberi.",
+    "source": "https://www.treccani.it/enciclopedia/fisica-nucleare_(Enciclopedia-della-Scienza-e-della-Tecnica)/",
+    "lesson": "lezione-10-4.html",
+    "related": [
+      "difetto-massa",
+      "fusione-nucleare",
+      "fissione-nucleare"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Una misura della coesione",
+        "paragraphs": [
+          "Il nucleo è un sistema legato. Separarne tutti i costituenti richiede energia, e la quantità necessaria permette di confrontare nuclei differenti. Non è l’energia di un legame chimico fra atomi: riguarda la struttura nucleare e scale diverse. La distinzione impedisce di descrivere fusione e reazioni chimiche come versioni identiche dello stesso processo, anche quando entrambe possono essere accompagnate da un trasferimento energetico."
+        ]
+      },
+      {
+        "title": "Il confronto per nucleone",
+        "paragraphs": [
+          "Per confrontare nuclei di dimensioni differenti è utile dividere l’energia totale di legame per il numero di nucleoni. Un nucleo più grande può avere un legame totale maggiore senza essere più legato per ciascun costituente. Questa differenza spiega perché la parola stabile richieda attenzione al problema concreto. Anche i possibili decadimenti dipendono dai bilanci e dai percorsi, non soltanto da un unico numero riassuntivo."
+        ]
+      },
+      {
+        "title": "Fusione e fissione",
+        "paragraphs": [
+          "Alcune trasformazioni di nuclei leggeri verso nuclei intermedi possono liberare energia, mentre la divisione di determinati nuclei pesanti può condurre a prodotti più legati per nucleone. Il principio generale è confrontare gli stati, non assegnare energia positiva a qualunque unione o separazione. Occorre inoltre che il processo possa avvenire con probabilità e condizioni appropriate. Un bilancio favorevole non garantisce una reazione immediata in ogni ambiente."
+        ]
+      },
+      {
+        "title": "Il legame con l’origine degli elementi",
+        "paragraphs": [
+          "Le stelle costruiscono e trasformano nuclei, ma non producono energia con ogni passaggio verso elementi sempre più pesanti. Alcuni percorsi richiedono ambienti e sorgenti energetiche particolari. La curva del legame aiuta a capire questa distinzione senza imparare una lunga lista di eccezioni. Il concetto da fissare è il confronto: quanta energia possiede l’insieme prima, quanta dopo e dove va la differenza quando la trasformazione avviene realmente."
+        ]
+      }
+    ],
+    "facts": [
+      "Energia di legame totale e energia di legame per nucleone rispondono a confronti diversi"
+    ],
+    "example": "Energia di legame totale e energia di legame per nucleone rispondono a confronti diversi",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/fisica-nucleare_(Enciclopedia-della-Scienza-e-della-Tecnica)/"
       }
     ]
   },
@@ -13268,6 +14905,56 @@ window.AdAstraGlossary = [
       }
     ],
     "editorialStatus": "scheda-estesa"
+  },
+  {
+    "id": "equazione-stato",
+    "name": "Equazione di stato",
+    "definition": "Un’equazione di stato esprime una relazione fra grandezze che descrivono lo stato fisico della materia, come pressione, temperatura e densità.",
+    "source": "https://www.treccani.it/enciclopedia/equazione-di-stato/",
+    "lesson": "lezione-4-1.html",
+    "related": [
+      "gas-ideale",
+      "pressione-degenerazione",
+      "equilibrio-idrostatico"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Come risponde la materia",
+        "paragraphs": [
+          "Per costruire un modello di un pianeta o di una stella bisogna sapere come la materia reagisca alle condizioni. Una relazione fra pressione, temperatura e densità fornisce parte di questa informazione. Non descrive necessariamente da sola quanto velocemente cambi il sistema. È un collegamento fra proprietà di stato, da usare insieme a conservazione dell’energia, trasporto e altre leggi appropriate al problema studiato."
+        ]
+      },
+      {
+        "title": "Il caso del gas ideale",
+        "paragraphs": [
+          "Nel modello più semplice la pressione dipende dal numero di particelle, dal volume e dalla temperatura. Questo caso è utile quando le approssimazioni sono adeguate. Non rappresenta tutta la materia dell’Universo. Liquidi, solidi, gas densi e plasmi possono richiedere descrizioni differenti. Anche la composizione conta: ionizzare un gas modifica il numero e il tipo delle particelle che contribuiscono alla risposta del sistema."
+        ]
+      },
+      {
+        "title": "Le condizioni estreme",
+        "paragraphs": [
+          "Nelle nane bianche la degenerazione degli elettroni introduce una pressione che non segue il comportamento del gas classico ordinario. Negli interni planetari pressione e temperatura possono modificare fasi e proprietà dei materiali. Un’equazione di stato deve quindi essere scelta o costruita nel dominio giusto. Prolungare una relazione oltre le condizioni verificate può produrre un modello matematicamente ordinato ma fisicamente sbagliato, anche se i calcoli sono eseguiti senza errori."
+        ]
+      },
+      {
+        "title": "Dal dato al modello astronomico",
+        "paragraphs": [
+          "Misure di massa, raggio e altre proprietà permettono di confrontare modelli che usano relazioni diverse. Il risultato non è sempre unico: composizioni differenti possono produrre caratteristiche simili entro le incertezze. Questa è una ragione per cui conoscere il raggio di un esopianeta non ne determina automaticamente l’interno. Il concetto aiuta a leggere le ricostruzioni come risultati di ipotesi controllabili, anziché fotografie dirette di strati che non abbiamo osservato."
+        ]
+      }
+    ],
+    "facts": [
+      "La stessa relazione non descrive automaticamente gas rarefatto, roccia e materia degenere"
+    ],
+    "example": "La stessa relazione non descrive automaticamente gas rarefatto, roccia e materia degenere",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/equazione-di-stato/"
+      }
+    ]
   },
   {
     "id": "equilibrio-chimico",
@@ -13660,6 +15347,60 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "eris",
+    "name": "Eris",
+    "definition": "Eris è un pianeta nano transnettuniano, con orbita molto eccentrica e inclinata, accompagnato dal satellite Disnomia.",
+    "source": "https://www.treccani.it/enciclopedia/eris/",
+    "lesson": "lezione-3-5.html",
+    "related": [
+      "pianeta-nano",
+      "transnettuniano",
+      "plutone"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Una popolazione più ampia",
+        "paragraphs": [
+          "Eris mostra perché il Sistema solare esterno non si riduca a Plutone e a pochi punti isolati. Le scoperte di corpi transnettuniani hanno ampliato il confronto fra dimensioni, masse e orbite. Riconoscere nuovi mondi ha reso necessario discutere categorie coerenti. La classificazione non sostituisce però la descrizione fisica: due pianeti nani possono appartenere a contesti dinamici e avere storie termiche differenti."
+        ]
+      },
+      {
+        "title": "L’orbita non è la distanza fissa",
+        "paragraphs": [
+          "Un’orbita eccentrica comporta distanze dal Sole molto diverse lungo il percorso. Dire che un corpo si trova oltre Nettuno non assegna una singola distanza valida per sempre. Anche l’inclinazione deve essere riferita a un piano dichiarato. Una tavola con cerchi concentrici può aiutare il primo orientamento, ma non rappresenta fedelmente tutte le traiettorie esterne. Il confronto richiede di distinguere schema e geometria quantitativa."
+        ]
+      },
+      {
+        "title": "Misurare un punto lontano",
+        "paragraphs": [
+          "Dimensioni e riflettanza non si ricavano in modo unico dalla sola luminosità apparente. Occultazioni, misure termiche e osservazioni complementari aiutano a separare le possibilità. Il satellite può fornire informazioni dinamiche sulla massa del sistema. La precisione dei valori dipende dai dati e dal modello. Un oggetto lontano può quindi essere studiato fisicamente anche senza una fotografia che ne mostri montagne e dettagli superficiali."
+        ]
+      },
+      {
+        "title": "Che cosa non abbiamo visto",
+        "paragraphs": [
+          "Una rappresentazione artistica di Eris è una ricostruzione, non una ripresa ravvicinata della superficie. Colori e paesaggi illustrativi non devono essere conteggiati come osservazioni. La presenza di firme di ghiacci nello spettro è un dato diverso dalla forma dei rilievi. Questa distinzione rende il racconto più serio senza togliergli interesse: anche un punto quasi irrisolto può offrire una storia ricca quando si spiega come ciascuna proprietà venga effettivamente ricavata."
+        ]
+      }
+    ],
+    "facts": [
+      "Luminosità apparente e diametro non sono equivalenti: serve conoscere anche la riflettanza"
+    ],
+    "example": "Luminosità apparente e diametro non sono equivalenti: serve conoscere anche la riflettanza",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/eris/"
+      },
+      {
+        "title": "NASA · Eris, dati e classificazione",
+        "url": "https://science.nasa.gov/dwarf-planets/eris/facts/"
+      }
+    ]
+  },
+  {
     "id": "erosione",
     "name": "Erosione",
     "definition": "L’erosione è l’asportazione e il trasporto di materiale da una superficie per opera di agenti come acqua, vento, ghiaccio e gravità.",
@@ -13760,6 +15501,56 @@ window.AdAstraGlossary = [
     ],
     "aliases": [
       "Errore accidentale"
+    ]
+  },
+  {
+    "id": "errore-periodico",
+    "name": "Errore periodico d’inseguimento",
+    "definition": "L’errore periodico è una variazione ricorrente dell’inseguimento associata alla rotazione di componenti della trasmissione meccanica.",
+    "source": "https://www.treccani.it/enciclopedia/telescopio/",
+    "lesson": "astrofotografia.html",
+    "related": [
+      "autoguida",
+      "astroinseguitore",
+      "velocita-angolare"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Una velocità media corretta non basta",
+        "paragraphs": [
+          "Una montatura può completare il movimento medio previsto e tuttavia accelerare o rallentare leggermente durante il percorso. Le stelle registrano queste differenze come spostamenti sul sensore. Imperfezioni della vite senza fine e di altri organi possono produrre componenti ricorrenti. Il periodo dipende dal meccanismo responsabile. Non ogni oscillazione osservata ha però questa origine: vento, vibrazioni e disturbi elettrici richiedono diagnosi differenti."
+        ]
+      },
+      {
+        "title": "Come si riconosce",
+        "paragraphs": [
+          "Una registrazione sufficientemente lunga degli scostamenti permette di cercare strutture che si ripetono. Occorre separare la deriva lenta dovuta ad allineamento e altre componenti. Una sola fotografia allungata non identifica la causa. Per confrontare misure di strumenti diversi servono scala angolare, durata e condizioni dichiarate. Anche l’espressione picco a picco va distinta da altre statistiche, perché numeri presentati con convenzioni differenti non sono confrontabili direttamente."
+        ]
+      },
+      {
+        "title": "Compensazione e guida",
+        "paragraphs": [
+          "Una correzione periodica memorizzata può anticipare parte del difetto quando la ripetizione è affidabile. L’autoguida misura invece spostamenti di una stella e richiede correzioni durante la ripresa. Possono essere strategie complementari, secondo lo strumento. Nessuna delle due trasforma automaticamente una meccanica instabile in un sistema preciso. Componenti non ripetitive e cambiamenti del carico possono limitare l’efficacia di una registrazione precedente."
+        ]
+      },
+      {
+        "title": "Il risultato nella fotografia",
+        "paragraphs": [
+          "La tolleranza dipende da focale, campionamento, durata e qualità dell’immagine richiesta. Lo stesso scostamento può passare inosservato con un grandangolo e diventare evidente con un lungo teleobiettivo. Non esiste quindi un tempo di posa massimo universale ricavabile dal solo nome della montatura. Misurare il comportamento con la propria configurazione collega una caratteristica meccanica al dettaglio realmente conservato nelle stelle fotografate."
+        ]
+      }
+    ],
+    "facts": [
+      "Un inseguimento mediamente corretto può contenere oscillazioni ricorrenti"
+    ],
+    "example": "Un inseguimento mediamente corretto può contenere oscillazioni ricorrenti",
+    "sources": [
+      {
+        "title": "Treccani · riferimento generale al tema; non riscontro puntuale di tutta la scheda",
+        "url": "https://www.treccani.it/enciclopedia/telescopio/"
+      }
     ]
   },
   {
@@ -13881,6 +15672,56 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "esosfera",
+    "name": "Esosfera",
+    "definition": "L’esosfera è la regione più esterna di un’atmosfera, nella quale le collisioni fra particelle diventano molto rare.",
+    "source": "https://www.treccani.it/enciclopedia/esosfera/",
+    "lesson": "lezione-3-2.html",
+    "related": [
+      "atmosfera",
+      "velocita-di-fuga",
+      "pianeta"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un confine graduale",
+        "paragraphs": [
+          "L’atmosfera non termina come una parete. Salendo, il gas diventa rarefatto e le collisioni diminuiscono. Nell’esosfera molte particelle percorrono lunghi tratti senza urtare altre particelle. La descrizione richiede quindi attenzione al comportamento delle singole traiettorie. Non è corretto immaginare questo ambiente come aria ordinaria soltanto un po’ più leggera: cambiano le condizioni che permettono di trattare il materiale come un fluido continuo."
+        ]
+      },
+      {
+        "title": "Restare oppure sfuggire",
+        "paragraphs": [
+          "Alcune particelle rimangono legate gravitazionalmente, altre possono sfuggire secondo velocità e processi che agiscono sul sistema. Non tutte le particelle dell’esosfera vengono automaticamente perse. Massa, temperatura e gravità entrano nel quadro, insieme a interazioni con radiazione e particelle energetiche. La perdita atmosferica comprende meccanismi differenti, e non si può riassumerla con l’idea che il Sole soffi via uniformemente ogni gas presente in alto."
+        ]
+      },
+      {
+        "title": "Corpi con ambienti molto tenui",
+        "paragraphs": [
+          "Anche corpi privi di una densa atmosfera possono avere popolazioni estremamente rarefatte di particelle. Queste possono provenire dalla superficie e rispondere all’illuminazione o all’ambiente spaziale. Il termine atmosfera va quindi precisato nel contesto. Parlare di esosfera non implica vento e meteorologia simili a quelli terrestri. Un rivestimento tenue di particelle può essere scientificamente importante anche senza produrre un cielo o nubi riconoscibili come sulla Terra."
+        ]
+      },
+      {
+        "title": "Come si studia",
+        "paragraphs": [
+          "Spettri e misure delle particelle aiutano a ricostruire composizione e distribuzione. Il risultato dipende dal punto e dal momento dell’osservazione. Le mappe possono variare perché cambiano sorgenti, trasporto e perdite. Il concetto collega una regione apparentemente quasi vuota alla storia del pianeta: la presenza e la fuga degli elementi forniscono indizi, ma richiedono un bilancio e non soltanto l’identificazione di una specie in una singola misura."
+        ]
+      }
+    ],
+    "facts": [
+      "L’esosfera è un ambiente di collisioni rare, non un guscio con un bordo rigido"
+    ],
+    "example": "L’esosfera è un ambiente di collisioni rare, non un guscio con un bordo rigido",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/esosfera/"
+      }
+    ]
+  },
+  {
     "id": "esposizione",
     "name": "Esposizione fotografica",
     "definition": "L’esposizione è il processo con cui il rivelatore raccoglie radiazione durante una ripresa. Il tempo di posa è uno dei parametri che ne determinano il risultato.",
@@ -13929,6 +15770,63 @@ window.AdAstraGlossary = [
         "title": "Treccani · riferimento terminologico",
         "url": "https://www.treccani.it/vocabolario/esposizione/"
       }
+    ]
+  },
+  {
+    "id": "espulsione-massa-coronale",
+    "name": "Espulsione di massa coronale",
+    "definition": "Un’espulsione di massa coronale è una grande espulsione di plasma e campo magnetico dalla corona solare verso lo spazio interplanetario.",
+    "source": "https://www.treccani.it/enciclopedia/corona-solare/",
+    "lesson": "lezione-2-3.html",
+    "related": [
+      "corona-solare",
+      "vento-solare",
+      "magnetosfera"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Materia e campo lasciano il Sole",
+        "paragraphs": [
+          "Il fenomeno coinvolge una struttura di plasma e campo magnetico che si espande verso l’esterno. Non è soltanto un aumento della luminosità del disco. La quantità di materia, la velocità e la geometria possono variare molto fra eventi. Un’immagine di coronografo permette di seguire parte della struttura, ma resta una proiezione: per ricostruire il moto tridimensionale occorrono altri dati e modelli."
+        ]
+      },
+      {
+        "title": "Diversa dal brillamento",
+        "paragraphs": [
+          "Un brillamento è un rilascio energetico riconosciuto attraverso l’emissione elettromagnetica. Può essere associato a un’espulsione, ma i due termini non sono intercambiabili. La radiazione e il materiale viaggiano con tempi diversi. Una notizia che attribuisca a un unico impulso istantaneo tutti gli effetti cancella questa distinzione. Per comprendere l’evento bisogna identificare quale componente sia stata osservata e quale possa raggiungere l’ambiente terrestre."
+        ]
+      },
+      {
+        "title": "La direzione è decisiva",
+        "paragraphs": [
+          "Non ogni espulsione investe la Terra. Anche per una struttura diretta verso di noi, gli effetti dipendono dalle proprietà del plasma e dall’orientamento del campo. Una grande forma spettacolare in un’immagine non misura da sola l’intensità della futura risposta geomagnetica. Le previsioni richiedono osservazioni e aggiornamenti, con incertezze che cambiano mentre il materiale si propaga e vengono raccolti nuovi dati."
+        ]
+      },
+      {
+        "title": "Il collegamento con il meteo spaziale",
+        "paragraphs": [
+          "Un evento che interagisce efficacemente con la magnetosfera può contribuire a disturbi e aurore. Sono possibili conseguenze per tecnologie, ma la descrizione deve specificare condizioni e fenomeno, evitando allarmismi automatici. La sigla CME deriva dal nome inglese e non indica una categoria diversa. Il concetto da fissare è il percorso: un’eruzione solare, un viaggio nel mezzo interplanetario e una risposta del sistema terrestre, ciascuno con propri tempi e osservazioni."
+        ]
+      }
+    ],
+    "facts": [
+      "CME e brillamento possono essere associati, ma indicano fenomeni differenti"
+    ],
+    "example": "CME e brillamento possono essere associati, ma indicano fenomeni differenti",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/corona-solare/"
+      },
+      {
+        "title": "NASA · Heliopedia",
+        "url": "https://science.nasa.gov/reference/the-heliopedia-2/"
+      }
+    ],
+    "aliases": [
+      "CME"
     ]
   },
   {
@@ -14529,6 +16427,110 @@ window.AdAstraGlossary = [
       {
         "title": "NASA · un fossile dell’attività galattica",
         "url": "https://science.nasa.gov/centers-and-facilities/goddard/nasa-scientists-discover-a-novel-galactic-fossil/"
+      }
+    ]
+  },
+  {
+    "id": "feldspato",
+    "name": "Feldspato",
+    "definition": "I feldspati sono un gruppo di minerali silicatici a struttura tridimensionale, importanti componenti della crosta terrestre e di altri materiali planetari.",
+    "source": "https://www.treccani.it/enciclopedia/feldspati/",
+    "lesson": "lezione-3-2.html",
+    "related": [
+      "silicato",
+      "crosta-planetaria",
+      "alluminio"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Una rete di atomi",
+        "paragraphs": [
+          "Nella struttura dei feldspati silicio, alluminio e ossigeno partecipano a un reticolo tridimensionale, associato ad altri elementi come potassio, sodio o calcio. Il nome raccoglie composizioni diverse e relazioni strutturali specifiche. La rete non è una gabbia macroscopica piena di vuoto: descrive distanze e collegamenti atomici. Questa geometria distingue il gruppo da altri silicati, nei quali le unità possono formare catene o strutture differenti."
+        ]
+      },
+      {
+        "title": "Le famiglie interne",
+        "paragraphs": [
+          "Feldspati alcalini e plagioclasi costituiscono grandi raggruppamenti con variazioni compositive. Un materiale può essere più ricco di un termine rispetto a un altro. Il confronto fra composizione e condizioni di formazione aiuta a ricostruire la storia della roccia. Non bisogna trasformare ogni variazione in un elemento chimico nuovo: cambiano proporzioni e struttura di minerali, mentre gli elementi mantengono la propria identità definita dai nuclei."
+        ]
+      },
+      {
+        "title": "La crosta racconta una separazione",
+        "paragraphs": [
+          "I minerali non si distribuiscono sempre casualmente durante il raffreddamento e l’evoluzione dei materiali planetari. Associazioni e concentrazioni possono documentare differenziazione e processi successivi. Nei terreni lunari, per esempio, i materiali ricchi di plagioclasio hanno particolare importanza geologica. Il significato non deriva soltanto dal loro colore chiaro, ma dalla composizione e dal contesto ricostruiti attraverso campioni e osservazioni."
+        ]
+      },
+      {
+        "title": "Un riconoscimento da motivare",
+        "paragraphs": [
+          "La mineralogia di una superficie lontana richiede segnali adatti e confronti. Una fotografia con aree chiare non basta a identificare feldspati, perché illuminazione e altri materiali possono produrre effetti simili. Il termine offre un collegamento fra tavola periodica, struttura dei solidi e paesaggio. Per usarlo bene conviene chiedere quale misura sostenga l’identificazione e quale parte della storia geologica sia davvero ricavabile dal materiale riconosciuto."
+        ]
+      }
+    ],
+    "facts": [
+      "Feldspato indica un gruppo di minerali, non un elemento della tavola periodica"
+    ],
+    "example": "Feldspato indica un gruppo di minerali, non un elemento della tavola periodica",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/feldspati/"
+      }
+    ]
+  },
+  {
+    "id": "fermi-missione",
+    "name": "Fermi, telescopio spaziale",
+    "definition": "Fermi è un osservatorio spaziale della NASA, lanciato nel 2008, dedicato allo studio dei raggi gamma.",
+    "source": "https://www.treccani.it/enciclopedia/telescopio/",
+    "lesson": "lezione-10-5.html",
+    "related": [
+      "raggi-gamma",
+      "pulsar",
+      "nucleo-galattico-attivo"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "La luce più energetica",
+        "paragraphs": [
+          "I raggi gamma sono fotoni con energie molto superiori a quelle della luce visibile. Il cielo osservato in questa banda evidenzia processi che accelerano particelle o coinvolgono ambienti estremi. Fermi misura questa radiazione dallo spazio. Non raccoglie suoni e non fotografa direttamente la materia oscura: registra segnali che possono essere confrontati con spiegazioni fisiche differenti, alcune delle quali richiedono ulteriori verifiche."
+        ]
+      },
+      {
+        "title": "Una mappa diversa dalle costellazioni",
+        "paragraphs": [
+          "Le sorgenti intense nel visibile non dominano necessariamente la mappa gamma. Pulsar, nuclei attivi e emissione diffusa possono assumere un ruolo importante. Questo confronto aiuta a comprendere lo spettro elettromagnetico come insieme di informazioni complementari. Una regione apparentemente tranquilla a occhio nudo può ospitare fenomeni energetici; una stella spettacolare nel visibile non deve essere automaticamente una sorgente gamma altrettanto evidente."
+        ]
+      },
+      {
+        "title": "Misurare anche il tempo",
+        "paragraphs": [
+          "Alcuni fenomeni cambiano rapidamente, altri mostrano pulsazioni o variazioni più lente. La sequenza temporale dei fotoni contiene informazione insieme alla loro energia e provenienza. Il confronto con altri osservatori permette di cercare coincidenze e connessioni. Una simultaneità apparente richiede però incertezze e probabilità di associazione: due eventi vicini nel tempo non sono sempre prodotti dallo stesso oggetto o dallo stesso processo."
+        ]
+      },
+      {
+        "title": "Il significato di una scoperta",
+        "paragraphs": [
+          "Le strutture gamma della Galassia e le sorgenti compatte studiate con Fermi richiedono modelli per essere interpretate. Riconoscere una forma estesa non determina automaticamente tutta la sua storia. Il nome della missione ricorda Enrico Fermi, ma le misure appartengono a una collaborazione internazionale. Il suo contributo divulgativo è mostrare che cambiare energia della luce significa poter porre nuove domande, senza abbandonare la necessità di riscontri e controlli."
+        ]
+      }
+    ],
+    "facts": [
+      "Una sorgente brillante nel visibile non deve esserlo anche nei raggi gamma"
+    ],
+    "example": "Una sorgente brillante nel visibile non deve esserlo anche nei raggi gamma",
+    "sources": [
+      {
+        "title": "Treccani · riferimento generale al tema; non riscontro puntuale di tutta la scheda",
+        "url": "https://www.treccani.it/enciclopedia/telescopio/"
+      },
+      {
+        "title": "NASA · Fermi, obiettivi e osservazioni",
+        "url": "https://science.nasa.gov/mission/fermi/"
       }
     ]
   },
@@ -16276,6 +18278,56 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "frazionamento-isotopico",
+    "name": "Frazionamento isotopico",
+    "definition": "Il frazionamento isotopico è la variazione dei rapporti fra isotopi prodotta da processi fisici o chimici che li distribuiscono in modo differente.",
+    "source": "https://www.treccani.it/enciclopedia/isotopi/",
+    "lesson": "lezione-10-2.html",
+    "related": [
+      "isotopo",
+      "rapporto-isotopico",
+      "evaporazione"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Stesso elemento, masse diverse",
+        "paragraphs": [
+          "Gli isotopi condividono il numero di protoni e molte proprietà chimiche, ma le differenze di massa possono influire su velocità e distribuzioni. Durante un processo le proporzioni possono quindi cambiare fra prodotti o serbatoi. Non si sta necessariamente formando un nuovo isotopo attraverso una reazione nucleare. Può bastare una separazione selettiva di isotopi già presenti, come avviene in processi di trasporto o cambiamento di fase."
+        ]
+      },
+      {
+        "title": "Il caso dei passaggi di fase",
+        "paragraphs": [
+          "Evaporazione e condensazione possono distribuire diversamente isotopi fra liquido e vapore. L’effetto dipende dalle condizioni e dal sistema. Non è una separazione perfetta nella quale tutti i leggeri vadano da una parte e tutti i pesanti dall’altra. Si tratta di differenze statistiche nelle proporzioni. Per interpretarle bisogna considerare anche quanta materia sia stata trasferita e se il sistema abbia continuato a scambiare con l’esterno."
+        ]
+      },
+      {
+        "title": "Una traccia di storia",
+        "paragraphs": [
+          "Rapporti isotopici possono offrire indizi su origine, trasformazioni e perdite della materia. Il risultato non è però una firma immutabile che identifichi sempre un’unica sorgente. Processi successivi possono modificarlo. Confrontare acqua di corpi diversi, per esempio, richiede di distinguere il rapporto misurato dalla ricostruzione di un’origine comune. Una somiglianza è un indizio da confrontare con altri dati, non una genealogia completa già dimostrata."
+        ]
+      },
+      {
+        "title": "Separare chimica e radioattività",
+        "paragraphs": [
+          "Una variazione isotopica può derivare anche da decadimenti o produzione nucleare, ma questi non sono automaticamente frazionamento nel significato fisico-chimico. La distinzione aiuta a costruire il modello giusto. Il termine rende più ricco il collegamento fra campioni e ambienti: non soltanto quali elementi siano presenti, ma come le loro diverse versioni si siano distribuite attraverso processi che hanno lasciato una memoria quantitativa nella materia."
+        ]
+      }
+    ],
+    "facts": [
+      "Un rapporto isotopico può cambiare senza creare nuovi nuclei: basta una separazione selettiva"
+    ],
+    "example": "Un rapporto isotopico può cambiare senza creare nuovi nuclei: basta una separazione selettiva",
+    "sources": [
+      {
+        "title": "Treccani · riferimento generale al tema; non riscontro puntuale di tutta la scheda",
+        "url": "https://www.treccani.it/enciclopedia/isotopi/"
+      }
+    ]
+  },
+  {
     "id": "frequenza",
     "name": "Frequenza",
     "definition": "La frequenza indica quanti cicli di un fenomeno periodico si ripetono nell’unità di tempo; si misura in hertz, cioè cicli al secondo.",
@@ -16327,6 +18379,59 @@ window.AdAstraGlossary = [
     ],
     "aliases": [
       "frequenze"
+    ]
+  },
+  {
+    "id": "full-well",
+    "name": "Full well capacity",
+    "definition": "La full well capacity è la quantità di carica che un elemento del sensore può accumulare utilmente prima della saturazione secondo le condizioni dichiarate.",
+    "source": "https://www.treccani.it/enciclopedia/sensore/",
+    "lesson": "astrofotografia.html",
+    "related": [
+      "saturazione",
+      "pixel",
+      "guadagno-elettronico"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Il contenitore ha un limite",
+        "paragraphs": [
+          "La luce convertita dal sensore produce cariche che vengono raccolte e lette. L’immagine del recipiente aiuta a comprendere la capacità finita, pur senza descrivere tutti i dettagli elettronici. Superato il campo utilizzabile, il segnale non cresce più proporzionalmente alla luce ricevuta. Una zona saturata perde quindi informazione sulle differenze di luminosità, anche se sullo schermo può apparire soltanto come una piccola area bianca."
+        ]
+      },
+      {
+        "title": "Elettroni e valori del file",
+        "paragraphs": [
+          "La capacità viene spesso espressa in elettroni. I numeri registrati nel file dipendono anche dalla conversione elettronica e digitale. Il valore massimo del file non è quindi una misura universale della capacità fisica. Occorre conoscere guadagno e modalità di lettura. Cambiare impostazione può cambiare il margine prima della saturazione digitale, senza aumentare automaticamente il numero di fotoni raccolti dalla medesima esposizione."
+        ]
+      },
+      {
+        "title": "La posa di una stella brillante",
+        "paragraphs": [
+          "Una posa lunga può registrare bene la nebulosità debole e saturare il nucleo delle stelle. Ridurre il tempo preserva le sorgenti intense, ma raccoglie meno segnale debole in ogni singola esposizione. La scelta considera rumore, fondo e obiettivo. In alcuni progetti si combinano esposizioni diverse, dichiarando il metodo e senza confondere il recupero delle alte luci con una misura quantitativa già calibrata."
+        ]
+      },
+      {
+        "title": "Un dato dentro una catena",
+        "paragraphs": [
+          "Capacità elevata, rumore di lettura e linearità devono essere considerati insieme. Nessun numero isolato decide la qualità di una camera per tutti gli usi. Pixel di dimensioni diverse e modalità operative differenti richiedono confronti coerenti. Il significato pratico della capacità è conservare un intervallo utile di segnali prima che le differenze luminose vengano perse, non rendere il sensore immune da rumore o capace di esposizioni senza limite."
+        ]
+      }
+    ],
+    "facts": [
+      "La saturazione può cancellare differenze di luminosità che l’elaborazione successiva non ricostruisce"
+    ],
+    "example": "La saturazione può cancellare differenze di luminosità che l’elaborazione successiva non ricostruisce",
+    "sources": [
+      {
+        "title": "Treccani · riferimento generale al tema; non riscontro puntuale di tutta la scheda",
+        "url": "https://www.treccani.it/enciclopedia/sensore/"
+      }
+    ],
+    "aliases": [
+      "Capacità di saturazione del pixel"
     ]
   },
   {
@@ -16390,6 +18495,56 @@ window.AdAstraGlossary = [
     "aliases": [
       "PSF",
       "point spread function"
+    ]
+  },
+  {
+    "id": "funzione-onda",
+    "name": "Funzione d’onda",
+    "definition": "La funzione d’onda è una descrizione matematica dello stato quantistico che permette, attraverso regole appropriate, di calcolare probabilità dei risultati delle misure.",
+    "source": "https://www.treccani.it/enciclopedia/atomo/",
+    "lesson": "lezione-4-3.html",
+    "related": [
+      "orbitale-atomico",
+      "principio-indeterminazione",
+      "livello-energetico"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Una descrizione che produce previsioni",
+        "paragraphs": [
+          "Nel caso semplice di una particella, il modulo quadrato della funzione d’onda è collegato alla densità di probabilità della posizione. La funzione non è dunque una fotografia di una nuvoletta materiale ottenuta con una camera. È uno strumento teorico che collega lo stato ai risultati. Le probabilità devono essere normalizzate e confrontate con distribuzioni osservate attraverso molte preparazioni e misure appropriate."
+        ]
+      },
+      {
+        "title": "La fase conta",
+        "paragraphs": [
+          "Non basta conoscere una distribuzione di probabilità per descrivere ogni proprietà dello stato. La fase relativa entra nei fenomeni di interferenza. Questo distingue le ampiezze quantistiche da una semplice mappa di ignoranza classica su una particella che avrebbe già una traiettoria perfettamente definita. Una figura colorata può indicare segno o fase, ma la legenda deve chiarirlo: colori diversi non significano necessariamente cariche elettriche opposte."
+        ]
+      },
+      {
+        "title": "Gli orbitali come applicazione",
+        "paragraphs": [
+          "Gli orbitali atomici descrivono stati o funzioni usate nel quadro quantistico dell’atomo. Le superfici disegnate spesso racchiudono una frazione convenzionale della probabilità, anziché rappresentare un confine rigido dell’elettrone. Le forme aiutano a comprendere struttura e legami. Non sono piste sulle quali l’elettrone corre come un pianeta, e le parti del disegno non devono essere interpretate come oggetti solidi separati."
+        ]
+      },
+      {
+        "title": "Un limite della figura nello spazio",
+        "paragraphs": [
+          "Per sistemi con più particelle la descrizione completa può dipendere da molte coordinate. Non sempre è rappresentabile come una sola onda ordinaria nello spazio tridimensionale. L’illustrazione deve quindi specificare quale grandezza mostri. La funzione d’onda permette previsioni rigorose senza fornire tutte le immagini della fisica classica che vorremmo conservare. La sua utilità si valuta attraverso i risultati osservabili, non soltanto attraverso la familiarità estetica del modellino."
+        ]
+      }
+    ],
+    "facts": [
+      "Le superfici degli orbitali non sono pareti materiali che racchiudono un elettrone"
+    ],
+    "example": "Le superfici degli orbitali non sono pareti materiali che racchiudono un elettrone",
+    "sources": [
+      {
+        "title": "Treccani · riferimento generale al tema; non riscontro puntuale di tutta la scheda",
+        "url": "https://www.treccani.it/enciclopedia/atomo/"
+      }
     ]
   },
   {
@@ -17730,6 +19885,114 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "giotto",
+    "name": "Giotto, sonda spaziale",
+    "definition": "Giotto fu una missione dell’ESA che incontrò la cometa di Halley nel 1986 e la cometa Grigg–Skjellerup nel 1992.",
+    "source": "https://www.treccani.it/enciclopedia/sonda/",
+    "lesson": "lezione-3-5.html",
+    "related": [
+      "nucleo-cometario",
+      "flyby",
+      "rosetta"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Avvicinare una cometa",
+        "paragraphs": [
+          "Da terra una cometa può apparire come un oggetto diffuso, dominato da chioma e code. Il nucleo solido è difficile da distinguere dentro questo ambiente. Giotto portò strumenti vicino alla sorgente dell’attività e ottenne immagini ravvicinate del nucleo di Halley. Il passaggio mostrò quanto fosse importante separare il piccolo corpo centrale dalla nube luminosa che lo circonda e che può occupare un volume molto più grande."
+        ]
+      },
+      {
+        "title": "Una superficie scura e regioni attive",
+        "paragraphs": [
+          "Le immagini contribuirono a riconoscere un nucleo scuro e l’espulsione di gas e polveri da regioni attive. Una cometa spettacolare non deve quindi possedere una superficie chiara come neve fresca. Il confronto fra riflettanza e attività è parte dell’interpretazione. La luce diffusa dalla chioma può rendere evidente il sistema anche quando il corpo solido riflette soltanto una piccola parte della luce che riceve dal Sole."
+        ]
+      },
+      {
+        "title": "Un incontro non è un’orbita",
+        "paragraphs": [
+          "Giotto effettuò sorvoli, non accompagnò stabilmente le comete durante il percorso. L’alta velocità relativa e la presenza di particelle rendevano l’incontro impegnativo. Protezioni, puntamento e trasmissione erano parte della misura scientifica. Il successivo incontro con Grigg–Skjellerup permise nuovi confronti, ma non con strumenti tutti nelle condizioni iniziali. La storia operativa chiarisce perché risultati e capacità cambino dopo un passaggio rischioso attraverso un ambiente polveroso."
+        ]
+      },
+      {
+        "title": "Dalle immagini alle domande sulle origini",
+        "paragraphs": [
+          "Le comete conservano materiali importanti per studiare il Sistema solare, ma non sono capsule perfettamente immutate. Riscaldamento e attività modificano la superficie. La missione fornì dati da interpretare insieme a misure successive e ad altre comete. La presenza di composti organici non equivale a vita: descrive una classe di sostanze. Questo passaggio concettuale mantiene il fascino dell’esplorazione senza trasformare un risultato chimico in una conclusione biologica."
+        ]
+      }
+    ],
+    "facts": [
+      "Chioma luminosa e nucleo scuro possono appartenere alla stessa cometa"
+    ],
+    "example": "Chioma luminosa e nucleo scuro possono appartenere alla stessa cometa",
+    "sources": [
+      {
+        "title": "Treccani · riferimento generale al tema; non riscontro puntuale di tutta la scheda",
+        "url": "https://www.treccani.it/enciclopedia/sonda/"
+      },
+      {
+        "title": "ESA · Giotto, incontri e risultati",
+        "url": "https://www.esa.int/missions/about-us/directorates/science/giotto-overview"
+      }
+    ]
+  },
+  {
+    "id": "giove",
+    "name": "Giove",
+    "definition": "Giove è il pianeta più grande del Sistema solare, un gigante composto soprattutto da idrogeno ed elio, con atmosfera dinamica e un esteso sistema di satelliti.",
+    "source": "https://www.treccani.it/enciclopedia/giove/",
+    "lesson": "lezione-3-3.html",
+    "related": [
+      "juno",
+      "lune-galileiane",
+      "nucleo-planetario"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Una superficie che non è terreno",
+        "paragraphs": [
+          "Le bande visibili sono strutture atmosferiche e non continenti. Scendendo nell’interno cambiano pressione, temperatura e proprietà della materia. Non esiste un suolo accessibile analogo a quello terrestre sotto uno strato d’aria ordinaria. L’espressione gigante gassoso descrive la composizione dominante, ma non implica che l’intero pianeta sia un gas rarefatto. Le condizioni profonde rendono inadeguata l’immagine di una semplice nube gonfiata nello spazio."
+        ]
+      },
+      {
+        "title": "Le tempeste come processi",
+        "paragraphs": [
+          "Vortici, bande e macchie evolvono nel tempo. La Grande Macchia Rossa è un esempio celebre, ma la sua presenza non significa che atmosfera e dimensioni delle strutture restino immutabili. Per confrontare fotografie servono date, orientamento e scala. Un’immagine storica può essere eccellente per spiegare una forma, ma non va presentata come descrizione istantanea del pianeta. Anche il colore dipende dalla banda e dall’elaborazione dei dati."
+        ]
+      },
+      {
+        "title": "L’interno viene ricostruito",
+        "paragraphs": [
+          "Misure gravitazionali e magnetiche contribuiscono ai modelli profondi, come quelli sviluppati grazie a Juno. Non sono fotografie dirette di ogni strato. La distribuzione degli elementi pesanti e le transizioni della materia richiedono interpretazioni. Un disegno a gusci è uno schema, non una sezione osservata tagliando il pianeta. La sua utilità aumenta se spiega quali proprietà siano misurate e quali dipendano dal modello utilizzato."
+        ]
+      },
+      {
+        "title": "Un piccolo sistema da osservare",
+        "paragraphs": [
+          "I quattro satelliti galileiani sono visibili con strumenti modesti in condizioni adatte. Posizioni, transiti e occultazioni cambiano nel tempo. Non sono punti fissi accanto al disco. Il confronto fra più serate rende concreto il moto orbitale e richiama una tappa importante della storia dell’astronomia. L’osservazione richiede però di distinguere dettagli realmente risolti da quanto una fotografia di sonda mostra con una scala completamente diversa."
+        ]
+      }
+    ],
+    "facts": [
+      "Le bande di Giove sono atmosfera; i disegni dell’interno sono ricostruzioni basate su misure"
+    ],
+    "example": "Le bande di Giove sono atmosfera; i disegni dell’interno sono ricostruzioni basate su misure",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/giove/"
+      },
+      {
+        "title": "NASA · Giove, composizione e ambiente",
+        "url": "https://science.nasa.gov/jupiter/facts/"
+      }
+    ]
+  },
+  {
     "id": "glicina",
     "name": "Glicina",
     "definition": "La glicina è il più semplice amminoacido delle proteine, con formula C₂H₅NO₂. È importante anche nello studio della chimica dei materiali extraterrestri.",
@@ -18125,6 +20388,56 @@ window.AdAstraGlossary = [
     "linkNames": [
       "grandezza scalare",
       "grandezze scalari"
+    ]
+  },
+  {
+    "id": "granito",
+    "name": "Granito",
+    "definition": "Il granito è una roccia magmatica intrusiva, ricca di quarzo e feldspati, formata dalla solidificazione di un fuso in profondità.",
+    "source": "https://www.treccani.it/enciclopedia/granito/",
+    "lesson": "lezione-3-2.html",
+    "related": [
+      "feldspato",
+      "silicato",
+      "crosta-planetaria"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Una storia di raffreddamento",
+        "paragraphs": [
+          "La solidificazione in profondità può permettere la crescita di cristalli distinguibili a occhio. Il materiale che oggi vediamo affiorare non deve quindi essersi formato direttamente all’aperto. Sollevamento ed erosione possono aver rimosso le rocce soprastanti. Il paesaggio attuale e il luogo della formazione sono due informazioni diverse: riconoscere questa differenza aiuta a leggere la superficie di un pianeta come il risultato di una storia."
+        ]
+      },
+      {
+        "title": "Un’associazione di minerali",
+        "paragraphs": [
+          "Quarzo e feldspati sono componenti fondamentali, accompagnati da altri minerali in proporzioni variabili. La roccia non è un composto con una sola formula chimica. Un frammento può mostrare grani differenti e una tessitura che aggiunge informazione alla composizione. Il colore rosato, chiaro o grigiastro non basta per classificare ogni campione. Anche materiali commercialmente chiamati graniti possono appartenere a classificazioni geologiche differenti."
+        ]
+      },
+      {
+        "title": "Diverso dal basalto",
+        "paragraphs": [
+          "Granito e basalto differiscono per composizione e condizioni tipiche di formazione. Non sono semplicemente la versione chiara e quella scura della stessa sostanza. Confrontarli permette di capire la varietà delle rocce magmatiche e i processi di differenziazione. Le analogie planetarie richiedono però cautela: la presenza di una roccia ricca di silice non dimostra automaticamente che un mondo abbia seguito ogni processo della crosta continentale terrestre."
+        ]
+      },
+      {
+        "title": "Che cosa possiamo dedurre",
+        "paragraphs": [
+          "Mineralogia, chimica, età e contesto permettono di ricostruire le trasformazioni. Da una sola immagine remota si può ottenere meno informazione che da un campione analizzato direttamente. Il nome della roccia deve essere sostenuto da dati appropriati. In divulgazione il granito rende concreta una domanda: quali condizioni possono lasciare cristalli e composizioni che oggi riconosciamo? La risposta collega il materiale alla storia, senza trasformare una somiglianza visiva in una prova completa."
+        ]
+      }
+    ],
+    "facts": [
+      "Una roccia affiorante oggi può essersi solidificata molto tempo prima in profondità"
+    ],
+    "example": "Una roccia affiorante oggi può essersi solidificata molto tempo prima in profondità",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/granito/"
+      }
     ]
   },
   {
@@ -18817,6 +21130,60 @@ window.AdAstraGlossary = [
     "aliases": [
       "Caroline Herschel",
       "Carolina Herschel"
+    ]
+  },
+  {
+    "id": "herschel-missione",
+    "name": "Herschel, osservatorio spaziale",
+    "definition": "Herschel fu un osservatorio dell’ESA dedicato al lontano infrarosso e al submillimetrico, lanciato nel 2009; le osservazioni terminarono nel 2013.",
+    "source": "https://www.treccani.it/enciclopedia/telescopio/",
+    "lesson": "lezione-4-5.html",
+    "related": [
+      "infrarosso",
+      "nube-molecolare",
+      "herschel-william"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Il cielo della materia fredda",
+        "paragraphs": [
+          "Nubi e polveri relativamente fredde emettono molta radiazione a lunghezze d’onda superiori al visibile. Herschel studiò questo dominio, importante per seguire la formazione delle stelle e le proprietà del mezzo interstellare. La parola freddo è relativa alle temperature stellari e non implica assenza di energia. La materia può emettere radiazione termica anche quando non appare luminosa ai nostri occhi."
+        ]
+      },
+      {
+        "title": "La luce racconta materiali e processi",
+        "paragraphs": [
+          "Immagini in bande diverse e osservazioni spettroscopiche permettono domande complementari. Le prime mostrano distribuzioni apparenti, le seconde aiutano a riconoscere firme e condizioni fisiche. Una mappa brillante non è direttamente una mappa di massa: temperatura, opacità e composizione influenzano il segnale. Per passare dalla luce alla quantità di materia servono ipotesi esplicite e confronti, evitando di leggere ogni struttura come un oggetto già completamente identificato."
+        ]
+      },
+      {
+        "title": "Un osservatorio raffreddato",
+        "paragraphs": [
+          "Gli strumenti operavano con un sistema criogenico. La disponibilità del refrigerante limitava alcune possibilità operative e ne determinò la conclusione osservativa. Questo vincolo non fu un dettaglio marginale: era collegato alla necessità di distinguere segnali deboli dal contributo termico dello strumento. Il progetto di un telescopio spaziale comprende quindi ottica, temperatura, rivelazione e ambiente, non soltanto le dimensioni dello specchio principale."
+        ]
+      },
+      {
+        "title": "Un nome da distinguere",
+        "paragraphs": [
+          "Herschel è anche il cognome di protagonisti della storia dell’astronomia. La missione porta un nome commemorativo, ma appartiene a un’impresa tecnica e scientifica collettiva moderna. Nelle citazioni conviene specificare osservatorio o persona. I dati della missione rimangono consultabili negli archivi e possono essere rianalizzati insieme a osservazioni successive. La conclusione dell’acquisizione non coincide con la conclusione di tutte le domande affrontabili attraverso quelle misure."
+        ]
+      }
+    ],
+    "facts": [
+      "Il lontano infrarosso permette di studiare materia che nel visibile appare debole o nascosta"
+    ],
+    "example": "Il lontano infrarosso permette di studiare materia che nel visibile appare debole o nascosta",
+    "sources": [
+      {
+        "title": "Treccani · riferimento generale al tema; non riscontro puntuale di tutta la scheda",
+        "url": "https://www.treccani.it/enciclopedia/telescopio/"
+      },
+      {
+        "title": "ESA · Herschel, archivio della missione",
+        "url": "https://www.esa.int/Science_Exploration/Space_Science/Herschel"
+      }
     ]
   },
   {
@@ -19596,6 +21963,56 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "idratazione",
+    "name": "Idratazione chimica",
+    "definition": "Idratazione indica processi di associazione, incorporazione o reazione con acqua; il significato preciso dipende dal contesto chimico o mineralogico.",
+    "source": "https://www.treccani.it/enciclopedia/idratazione/",
+    "lesson": "lezione-3-2.html",
+    "related": [
+      "acqua",
+      "solvatazione",
+      "silicato"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Una parola con più usi",
+        "paragraphs": [
+          "Nel parlare di soluzioni, idratazione può descrivere l’interazione fra specie disciolte e acqua. Nello studio dei solidi può indicare la formazione di composti contenenti acqua o gruppi legati alla sua presenza. Non sono processi identici. Una buona descrizione specifica che cosa sia stato osservato e quale struttura venga proposta, evitando di trasformare qualunque segnale associato all’acqua nella stessa sostanza o nello stesso ambiente."
+        ]
+      },
+      {
+        "title": "L’acqua dentro un materiale",
+        "paragraphs": [
+          "Un cristallo può contenere acqua strutturale oppure gruppi ossidrilici secondo il minerale. Questo non equivale necessariamente a una goccia di liquido intrappolata in una cavità. La distinzione è importante nelle notizie su minerali idrati. Il risultato può documentare una storia di interazioni con acqua, ma richiede di capire in quale forma si trovi e quali condizioni siano compatibili con la struttura riconosciuta."
+        ]
+      },
+      {
+        "title": "Trasformazioni delle rocce",
+        "paragraphs": [
+          "Fluidi che attraversano materiali possono modificare minerali e produrre nuove associazioni. Il processo dipende da temperatura, pressione e composizione del fluido e della roccia. Non ogni minerale idrato si forma nello stesso intervallo di condizioni. Per ricostruire un ambiente passato si confrontano più componenti e il contesto geologico, mantenendo distinta l’evidenza di una trasformazione dalla durata e dall’estensione del sistema che l’ha prodotta."
+        ]
+      },
+      {
+        "title": "Il significato per l’esplorazione",
+        "paragraphs": [
+          "Spettri e analisi locali possono cercare firme pertinenti all’idratazione. Le misure remote spesso riassumono superfici miste, mentre un campione offre dettagli ma copertura limitata. Confrontare i metodi permette una ricostruzione più solida. Il concetto da fissare è semplice: acqua riconosciuta attraverso un minerale non significa automaticamente acqua liquida presente oggi. Può essere una traccia conservata nella materia, da leggere insieme alla storia fisica del luogo."
+        ]
+      }
+    ],
+    "facts": [
+      "Un minerale idrato non dimostra automaticamente la presenza attuale di acqua liquida"
+    ],
+    "example": "Un minerale idrato non dimostra automaticamente la presenza attuale di acqua liquida",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/idratazione/"
+      }
+    ]
+  },
+  {
     "id": "idrocarburi-policiclici-aromatici",
     "name": "Idrocarburi policiclici aromatici",
     "definition": "Gli idrocarburi policiclici aromatici, indicati con IPA o PAH, sono una famiglia di molecole del carbonio con più anelli aromatici; le loro firme sono importanti nell’astronomia infrarossa.",
@@ -19772,6 +22189,56 @@ window.AdAstraGlossary = [
     "aliases": [
       "H₂",
       "idrogeno biatomico"
+    ]
+  },
+  {
+    "id": "idrolisi",
+    "name": "Idrolisi",
+    "definition": "L’idrolisi è una trasformazione chimica nella quale l’acqua partecipa alla reazione, spesso contribuendo alla scissione di un composto o alla modifica degli equilibri delle specie disciolte.",
+    "source": "https://www.treccani.it/enciclopedia/idrolisi/",
+    "lesson": "lezione-10-2.html",
+    "related": [
+      "reazione-chimica",
+      "acqua",
+      "polimero"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "L’acqua diventa reagente",
+        "paragraphs": [
+          "Sciogliere e idrolizzare non sono sinonimi. Nel primo caso descriviamo la formazione della soluzione; nell’idrolisi l’acqua entra nella trasformazione chimica. Il composto iniziale può dare prodotti differenti, con nuovi legami e distribuzioni. La differenza si comprende seguendo gli atomi e le specie prima e dopo, anziché osservando soltanto se il materiale sia ancora visibile nel recipiente o sia diventato trasparente."
+        ]
+      },
+      {
+        "title": "Il caso delle molecole grandi",
+        "paragraphs": [
+          "Alcuni legami di macromolecole possono essere scissi con partecipazione dell’acqua. Nei sistemi biologici enzimi e condizioni controllano fortemente i processi, ma il concetto chimico non è limitato agli organismi. La velocità può variare molto. Una trasformazione possibile non deve essere immaginata come immediata in qualsiasi liquido: temperatura, catalizzatori e struttura della molecola determinano quali percorsi siano efficaci nei tempi considerati."
+        ]
+      },
+      {
+        "title": "Gli equilibri delle soluzioni",
+        "paragraphs": [
+          "Anche ioni provenienti da sali possono reagire con acqua e modificare l’acidità della soluzione. Un sale disciolto non produce quindi sempre un ambiente neutro. Occorre identificare le specie e confrontare gli equilibri pertinenti. La spiegazione deve evitare di attribuire al sale una proprietà generica indipendente dall’ambiente: composizione, concentrazione e temperatura entrano nel risultato. Il pH è un indizio misurabile di un sistema più ricco di una sola formula."
+        ]
+      },
+      {
+        "title": "Il ponte con la chimica planetaria",
+        "paragraphs": [
+          "L’interazione fra fluidi e materia organica o minerali comprende molte trasformazioni. L’idrolisi è una parte del quadro, non una parola che spiega tutto ciò che l’acqua può fare. Negli studi prebiotici conta sia la costruzione sia la distruzione dei composti. Un ambiente favorevole alla sintesi può anche modificare i prodotti appena formati. Seguire questo equilibrio rende più credibile il racconto delle origini e chiarisce perché gli ingredienti da soli non bastino."
+        ]
+      }
+    ],
+    "facts": [
+      "Dissoluzione e idrolisi sono processi distinti: nell’idrolisi l’acqua partecipa alla trasformazione"
+    ],
+    "example": "Dissoluzione e idrolisi sono processi distinti: nell’idrolisi l’acqua partecipa alla trasformazione",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/idrolisi/"
+      }
     ]
   },
   {
@@ -20112,6 +22579,56 @@ window.AdAstraGlossary = [
       {
         "title": "Treccani · riferimento terminologico",
         "url": "https://www.treccani.it/enciclopedia/ottica/"
+      }
+    ]
+  },
+  {
+    "id": "induzione-elettromagnetica",
+    "name": "Induzione elettromagnetica",
+    "definition": "L’induzione elettromagnetica è il fenomeno per cui una variazione del flusso magnetico concatenato a un circuito produce una forza elettromotrice.",
+    "source": "https://www.treccani.it/enciclopedia/induzione/",
+    "lesson": "lezione-8-3.html",
+    "related": [
+      "campo-magnetico",
+      "campo-elettrico",
+      "energia"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Il cambiamento è essenziale",
+        "paragraphs": [
+          "Avvicinare o allontanare un magnete da una spira può produrre una risposta elettrica. Anche cambiare il campo o la geometria del circuito può avere un effetto. Il punto centrale è la variazione del flusso, non la sola presenza di un magnete vicino al filo. Un campo statico e un circuito immobile non producono necessariamente una corrente continua soltanto perché il campo è intenso."
+        ]
+      },
+      {
+        "title": "Tensione e circuito chiuso",
+        "paragraphs": [
+          "La forza elettromotrice indotta descrive un’azione capace di sostenere una differenza di potenziale. La corrente risultante dipende dal circuito e dalla sua impedenza. Non sono quantità equivalenti. In un circuito aperto si può avere una tensione senza la stessa corrente che passerebbe chiudendolo. Questa distinzione rende più chiaro il rapporto fra il fenomeno fisico e ciò che uno strumento collegato ai terminali può effettivamente misurare."
+        ]
+      },
+      {
+        "title": "La conservazione dell’energia",
+        "paragraphs": [
+          "Il verso della risposta indotta si collega alla variazione che l’ha prodotta, secondo la legge di Lenz. Non è un modo per ottenere energia gratuitamente da un magnete immobile. Se si estrae energia elettrica da un generatore, occorre fornire lavoro o energia da un’altra sorgente. Il fenomeno descrive una trasformazione e un accoppiamento, non la violazione del bilancio energetico del sistema complessivo."
+        ]
+      },
+      {
+        "title": "Dal laboratorio allo spazio",
+        "paragraphs": [
+          "Campi magnetici variabili possono indurre risposte in materiali conduttori. Nello studio di alcuni satelliti ghiacciati, misure magnetiche possono quindi contribuire a indagare strati interni. Non equivalgono a una fotografia diretta dell’oceano: richiedono modelli di conducibilità, geometria e sorgente del campo. Lo stesso principio unisce un esperimento con magnete e spira a domande planetarie, mantenendo distinta la legge fisica dall’interpretazione di una struttura non osservata direttamente."
+        ]
+      }
+    ],
+    "facts": [
+      "È la variazione del flusso magnetico, non la sola presenza del campo, a produrre induzione"
+    ],
+    "example": "È la variazione del flusso magnetico, non la sola presenza del campo, a produrre induzione",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/induzione/"
       }
     ]
   },
@@ -20612,6 +23129,59 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "intervallo-dinamico",
+    "name": "Intervallo dinamico",
+    "definition": "L’intervallo dinamico esprime il rapporto fra il segnale più grande utilizzabile e il livello minimo distinguibile secondo una definizione di misura dichiarata.",
+    "source": "https://www.treccani.it/enciclopedia/sensore/",
+    "lesson": "astrofotografia.html",
+    "related": [
+      "full-well",
+      "rumore-di-lettura",
+      "profondita-bit"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Conservare chiaro e debole insieme",
+        "paragraphs": [
+          "Una scena può contenere stelle intense e nebulosità tenue. Il sistema deve registrare le prime senza saturazione e distinguere la seconda dal rumore. L’intervallo dinamico descrive l’ampiezza utile di questa escursione. Non è semplicemente il contrasto dello schermo. Una regolazione di visualizzazione può rendere evidente una differenza già registrata, ma non recupera informazioni perdute nella saturazione o mai distinte durante la misura."
+        ]
+      },
+      {
+        "title": "La definizione deve essere esplicita",
+        "paragraphs": [
+          "Per una camera si confrontano spesso capacità di carica e rumore di lettura. Altre definizioni possono coinvolgere soglie o condizioni diverse. Il valore dipende dalla modalità operativa e dalle unità utilizzate. Prima di confrontare prodotti è necessario verificare che i numeri descrivano la stessa misura. Una sigla o una quantità espressa in stop non è di per sé una certificazione di superiorità per ogni soggetto astronomico."
+        ]
+      },
+      {
+        "title": "Non coincide con i bit",
+        "paragraphs": [
+          "La profondità digitale indica quanti livelli numerici sono disponibili. Se rumore e saturazione limitano prima il sistema, aggiungere livelli non crea automaticamente un intervallo fisico più ampio. Viceversa una conversione inadeguata può rappresentare male un segnale ricco. La catena analogica e quella digitale devono lavorare insieme. È la differenza fra avere una scala con molte tacche e poter misurare davvero valori affidabili fra i suoi estremi."
+        ]
+      },
+      {
+        "title": "La scelta della ripresa",
+        "paragraphs": [
+          "Esposizioni differenziate possono preservare il centro luminoso di una nebulosa e raccogliere le regioni esterne. La successiva fusione deve essere descritta e adeguata allo scopo. Per misure quantitative servono procedure di calibrazione e linearità, non soltanto un risultato gradevole. Il concetto guida resta semplice: registrare differenze reali su un intervallo ampio richiede attenzione sia al limite superiore sia al rumore che nasconde il segnale più debole."
+        ]
+      }
+    ],
+    "facts": [
+      "Molti livelli digitali non garantiscono da soli un ampio intervallo dinamico"
+    ],
+    "example": "Molti livelli digitali non garantiscono da soli un ampio intervallo dinamico",
+    "sources": [
+      {
+        "title": "Treccani · riferimento generale al tema; non riscontro puntuale di tutta la scheda",
+        "url": "https://www.treccani.it/enciclopedia/sensore/"
+      }
+    ],
+    "aliases": [
+      "Gamma dinamica"
+    ]
+  },
+  {
     "id": "ione",
     "name": "Ione",
     "definition": "Uno ione è una specie atomica o molecolare con carica elettrica netta, dovuta a uno squilibrio fra cariche positive e negative.",
@@ -20833,6 +23403,56 @@ window.AdAstraGlossary = [
     ],
     "aliases": [
       "Ionizzazione per urto"
+    ]
+  },
+  {
+    "id": "ionosfera",
+    "name": "Ionosfera",
+    "definition": "La ionosfera è la regione dell’atmosfera nella quale ioni ed elettroni liberi influenzano significativamente le proprietà del mezzo, compresa la propagazione delle onde radio.",
+    "source": "https://www.treccani.it/enciclopedia/ionosfera/",
+    "lesson": "lezione-8-3.html",
+    "related": [
+      "fotoionizzazione",
+      "ricombinazione",
+      "atmosfera"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "La luce cambia gli atomi",
+        "paragraphs": [
+          "Radiazione solare sufficientemente energetica può liberare elettroni dagli atomi e dalle molecole atmosferiche. Si formano popolazioni di particelle cariche che convivono con materiale neutro. Nel frattempo ricombinazioni e altre reazioni modificano quelle popolazioni. La struttura dipende da un bilancio dinamico: non è una collezione di atomi rimasti ionizzati una volta per tutte. Il Sole contribuisce quindi a trasformare le proprietà dell’alta atmosfera."
+        ]
+      },
+      {
+        "title": "Giorno e notte non sono identici",
+        "paragraphs": [
+          "Con illuminazione, stagione e attività solare cambiano produzione e perdita delle particelle cariche. Regioni ionosferiche diverse possono rispondere con tempi differenti. Non è corretto immaginare che l’intera ionosfera scompaia appena tramonta il Sole. Anche trasporto e dinamica atmosferica hanno un ruolo. Questa variabilità spiega perché una descrizione accurata parli di profili e condizioni, anziché assegnare una sola quota e una sola densità immutabili."
+        ]
+      },
+      {
+        "title": "La radio incontra un mezzo",
+        "paragraphs": [
+          "Gli elettroni liberi modificano la propagazione delle onde elettromagnetiche in modo dipendente dalla frequenza e dalle condizioni. Alcune comunicazioni possono essere favorite, altre disturbate. Il mezzo non è uno specchio rigido che riflette allo stesso modo ogni segnale. Anche sistemi di navigazione e misure possono risentire della ionosfera. Per interpretare un disturbo occorre collegare frequenza, percorso e stato dell’ambiente, non soltanto la presenza generica di una tempesta solare."
+        ]
+      },
+      {
+        "title": "Una classificazione diversa dagli strati termici",
+        "paragraphs": [
+          "Ionosfera e termosfera non sono sinonimi perfetti: la prima riguarda lo stato di ionizzazione, la seconda l’andamento termico. Le classificazioni si sovrappongono in parte perché descrivono proprietà diverse. Lo stesso spazio può appartenere a entrambe secondo il criterio usato. Mantenere questa distinzione permette di leggere schemi apparentemente differenti senza considerarli necessariamente contraddittori: ogni schema deve dichiarare quale proprietà dell’atmosfera stia organizzando."
+        ]
+      }
+    ],
+    "facts": [
+      "Ionosfera e termosfera classificano proprietà diverse e non hanno confini perfettamente coincidenti"
+    ],
+    "example": "Ionosfera e termosfera classificano proprietà diverse e non hanno confini perfettamente coincidenti",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/ionosfera/"
+      }
     ]
   },
   {
@@ -22478,6 +25098,56 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "larghezza-equivalente",
+    "name": "Larghezza equivalente",
+    "definition": "La larghezza equivalente riassume l’area di una riga rispetto al continuo, esprimendola come la larghezza di un rettangolo equivalente con altezza fissata dal riferimento.",
+    "source": "https://www.treccani.it/enciclopedia/spettroscopia/",
+    "lesson": "lezione-4-3.html",
+    "related": [
+      "riga-assorbimento",
+      "spettro-continuo",
+      "risoluzione-spettrale"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Misurare l’effetto complessivo",
+        "paragraphs": [
+          "Una riga può essere stretta e profonda oppure larga e poco marcata. Guardare soltanto il punto più scuro non descrive quanta radiazione manchi nell’insieme. La larghezza equivalente riassume il deficit rispetto al continuo attraverso un’area normalizzata. L’immagine del rettangolo aiuta: la riga reale conserva il proprio profilo, mentre il rettangolo è soltanto una rappresentazione della quantità totale misurata."
+        ]
+      },
+      {
+        "title": "Un’unità spettrale",
+        "paragraphs": [
+          "Il risultato viene espresso in unità di lunghezza d’onda quando l’integrazione è effettuata in quella coordinata. Non è un’area fisica della stella e non è il diametro del gas. La normalizzazione rispetto al continuo elimina una parte della scala assoluta del flusso, ma richiede di stimare bene quel riferimento. Un continuo scelto male può cambiare il risultato anche quando i pixel della riga non vengono modificati."
+        ]
+      },
+      {
+        "title": "Diversa dalla larghezza a metà altezza",
+        "paragraphs": [
+          "La FWHM descrive una larghezza del profilo a un livello specifico. La larghezza equivalente riguarda invece il contributo complessivo rispetto al continuo. Due righe possono condividere una misura e differire nell’altra. Questa distinzione rende più chiara la lettura delle tabelle spettroscopiche: non tutte le colonne chiamate larghezza raccontano velocità o dispersione. Prima di interpretare il numero bisogna sapere quale definizione sia stata usata."
+        ]
+      },
+      {
+        "title": "Un indizio per le abbondanze",
+        "paragraphs": [
+          "La misura può contribuire a stimare quantità e condizioni della materia, ma la relazione non resta sempre lineare. Saturazione, popolazioni dei livelli e allargamenti influenzano la risposta. Non basta raddoppiare una larghezza equivalente per concludere che l’elemento sia esattamente doppio. Il modello collega la misura alla domanda fisica. La voce insegna così a separare un riassunto osservativo ben definito dalla spiegazione che vogliamo ricavarne."
+        ]
+      }
+    ],
+    "facts": [
+      "Larghezza equivalente e FWHM descrivono proprietà diverse della riga"
+    ],
+    "example": "Larghezza equivalente e FWHM descrivono proprietà diverse della riga",
+    "sources": [
+      {
+        "title": "Treccani · riferimento generale al tema; non riscontro puntuale di tutta la scheda",
+        "url": "https://www.treccani.it/enciclopedia/spettroscopia/"
+      }
+    ]
+  },
+  {
     "id": "latitudine",
     "name": "Latitudine",
     "definition": "La latitudine geografica indica quanto un luogo si trova a nord o a sud dell’equatore; nel modello terrestre sferico è un angolo compreso fra −90° e +90°.",
@@ -22913,6 +25583,206 @@ window.AdAstraGlossary = [
       {
         "title": "Treccani · struttura dei cristalli",
         "url": "https://www.treccani.it/enciclopedia/cristallo/"
+      }
+    ]
+  },
+  {
+    "id": "legge-inverso-quadrato",
+    "name": "Legge dell’inverso del quadrato",
+    "definition": "La legge dell’inverso del quadrato descrive una grandezza che diminuisce in proporzione al quadrato della distanza nelle condizioni fisiche cui la relazione si applica.",
+    "source": "https://www.treccani.it/enciclopedia/irraggiamento/",
+    "lesson": "lezione-4-2.html",
+    "related": [
+      "isotropia",
+      "flusso-radiativo",
+      "gravitazione"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "La stessa energia su una superficie maggiore",
+        "paragraphs": [
+          "Se una sorgente emette uniformemente in tutte le direzioni e lo spazio non assorbe la radiazione, la potenza attraversa sfere via via più grandi. L’area cresce con il quadrato del raggio. Il flusso ricevuto per unità di superficie diminuisce di conseguenza. Non è necessario immaginare che i fotoni si stanchino durante il viaggio: la stessa emissione si distribuisce su un’area complessivamente più estesa."
+        ]
+      },
+      {
+        "title": "Due distanze facili da confrontare",
+        "paragraphs": [
+          "A distanza doppia, il flusso di una sorgente puntiforme isotropa diventa un quarto. A distanza tripla diventa un nono. I numeri quattro e nove sono due per due e tre per tre. Se la distanza si dimezza, il flusso quadruplica. Questi rapporti valgono a emissione uguale e nelle condizioni del modello: non si può usarli per confrontare sorgenti che abbiano potenze intrinseche differenti senza altre informazioni."
+        ]
+      },
+      {
+        "title": "Quando il modello non basta",
+        "paragraphs": [
+          "Assorbimento, emissione direzionale e dimensioni apparenti della sorgente possono richiedere correzioni. Per galassie cosmologicamente lontane entra una definizione appropriata della distanza e il redshift. Anche una superficie estesa risolta non va trattata semplicemente come un punto in ogni passaggio. Dichiarare le ipotesi non rende inutile la legge: chiarisce perché un principio semplice possa essere affidabile in un contesto e incompleto in un altro."
+        ]
+      },
+      {
+        "title": "Il collegamento con la gravità",
+        "paragraphs": [
+          "La gravitazione newtoniana fra masse puntiformi presenta una dipendenza inversa dal quadrato della distanza. Qui la grandezza descritta è una forza, non un flusso luminoso. L’analogia matematica non rende identici i fenomeni. Il vantaggio divulgativo è imparare a riconoscere la relazione: se la distanza cambia di un fattore, l’effetto cambia con il quadrato di quel fattore, rispettando sempre significato e condizioni della grandezza considerata."
+        ]
+      }
+    ],
+    "facts": [
+      "Distanza doppia significa flusso pari a un quarto, per una sorgente isotropa senza assorbimento"
+    ],
+    "example": "Distanza doppia significa flusso pari a un quarto, per una sorgente isotropa senza assorbimento",
+    "sources": [
+      {
+        "title": "Treccani · riferimento generale al tema; non riscontro puntuale di tutta la scheda",
+        "url": "https://www.treccani.it/enciclopedia/irraggiamento/"
+      }
+    ]
+  },
+  {
+    "id": "legge-boyle",
+    "name": "Legge di Boyle",
+    "definition": "La legge di Boyle descrive l’inversa proporzionalità fra pressione e volume di una quantità fissata di gas ideale a temperatura costante.",
+    "source": "https://www.treccani.it/enciclopedia/robert-boyle/",
+    "lesson": "lezione-3-3.html",
+    "related": [
+      "gas-ideale",
+      "pressione",
+      "temperatura"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Comprimere mantenendo la temperatura",
+        "paragraphs": [
+          "Se una quantità di gas ideale occupa meno volume alla stessa temperatura, la pressione aumenta. Dimezzare il volume raddoppia la pressione. La relazione richiede che quantità di materia e temperatura non cambino. È quindi scorretto applicarla senza condizioni a qualunque compressione rapida: durante un processo reale il gas può scaldarsi e il risultato non seguire il semplice confronto fra due stati isotermi."
+        ]
+      },
+      {
+        "title": "L’immagine delle particelle",
+        "paragraphs": [
+          "Nel modello cinetico le particelle urtano le pareti. Ridurre il volume, mantenendo le altre condizioni adatte, modifica la frequenza degli incontri con le pareti e la pressione. L’immagine aiuta a capire il rapporto macroscopico, ma non descrive ogni interazione dei gas reali. Il modello ideale trascura aspetti che diventano importanti quando densità e condizioni rendono rilevanti dimensioni delle particelle e forze reciproche."
+        ]
+      },
+      {
+        "title": "Una legge, non tutte le trasformazioni",
+        "paragraphs": [
+          "Espansioni e compressioni possono avvenire scambiando calore oppure quasi senza scambiarlo. Questi percorsi non hanno necessariamente la stessa relazione fra pressione e volume. La legge di Boyle è uno dei casi utili, non una regola che sostituisce l’intera termodinamica. Per usarla correttamente bisogna chiedere che cosa venga mantenuto costante e quali grandezze siano state effettivamente misurate durante l’esperimento o fra gli stati confrontati."
+        ]
+      },
+      {
+        "title": "Il ponte verso pianeti e stelle",
+        "paragraphs": [
+          "Gas atmosferici e materiali stellari richiedono equazioni di stato adeguate alle condizioni. Non si può comprimere idealmente Giove nella formula scolastica ignorando temperatura, gravità e struttura interna. L’esperimento introduttivo serve invece a fissare un legame fisico: pressione e volume non sono indipendenti. Da questa base si può capire perché i modelli astronomici debbano aggiungere composizione, energia e condizioni estreme prima di descrivere un oggetto reale."
+        ]
+      }
+    ],
+    "facts": [
+      "A temperatura e quantità di gas costanti, dimezzare il volume raddoppia la pressione"
+    ],
+    "example": "A temperatura e quantità di gas costanti, dimezzare il volume raddoppia la pressione",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/robert-boyle/"
+      }
+    ]
+  },
+  {
+    "id": "legge-ohm",
+    "name": "Legge di Ohm",
+    "definition": "La legge di Ohm lega tensione, corrente e resistenza nei componenti che si comportano in modo ohmico, a condizioni fisiche fissate.",
+    "source": "https://www.treccani.it/enciclopedia/georg-simon-ohm_(Enciclopedia-Italiana)/",
+    "lesson": "strumentazione.html",
+    "related": [
+      "volt",
+      "ampere",
+      "ohm"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Tre grandezze da non confondere",
+        "paragraphs": [
+          "La tensione descrive una differenza di potenziale; la corrente misura il flusso di carica; la resistenza esprime l’opposizione di un componente al passaggio della corrente nelle condizioni considerate. La relazione si scrive V = R × I. Si legge: tensione uguale resistenza per corrente. I simboli non sono tre nomi dello stesso fenomeno, ma quantità diverse che un circuito collega secondo il suo comportamento."
+        ]
+      },
+      {
+        "title": "Un esempio con numeri semplici",
+        "paragraphs": [
+          "Una resistenza ohmica di sei ohm collegata a dodici volt è attraversata da due ampere. Infatti dodici diviso sei dà due. Se la resistenza resta uguale e la tensione raddoppia, anche la corrente raddoppia. L’esempio serve a capire la proporzionalità, non a descrivere qualunque apparecchio. Una camera astronomica o un motore contengono circuiti più complessi di un unico resistore costante."
+        ]
+      },
+      {
+        "title": "Il limite della relazione",
+        "paragraphs": [
+          "Diodi, dispositivi elettronici e materiali in condizioni variabili possono avere risposte non ohmiche. Anche una resistenza cambia se varia sensibilmente la temperatura. Applicare la formula senza considerare questi aspetti produce risultati ingannevoli. Il rapporto fra tensione e corrente in un punto non dimostra da solo che il componente segua la legge con lo stesso valore in tutte le condizioni operative e lungo tutta la sua curva."
+        ]
+      },
+      {
+        "title": "Il collegamento con gli strumenti",
+        "paragraphs": [
+          "Cavi lunghi o sottili possono introdurre una caduta di tensione quando passa corrente. Il valore disponibile allo strumento può quindi differire da quello dell’alimentatore. Il concetto aiuta a comprendere spegnimenti e anomalie, ma il dimensionamento deve rispettare manuali e caratteristiche dei componenti. Non basta controllare che la spina entri: tensione, polarità e corrente richiesta sono informazioni distinte, da verificare prima del collegamento della strumentazione astronomica."
+        ]
+      }
+    ],
+    "facts": [
+      "Con una resistenza ohmica costante, raddoppiare la tensione raddoppia la corrente"
+    ],
+    "example": "Con una resistenza ohmica costante, raddoppiare la tensione raddoppia la corrente",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/georg-simon-ohm_(Enciclopedia-Italiana)/"
+      }
+    ]
+  },
+  {
+    "id": "legge-stefan-boltzmann",
+    "name": "Legge di Stefan–Boltzmann",
+    "definition": "La legge di Stefan–Boltzmann lega la potenza termica totale emessa da un corpo nero per unità di superficie alla quarta potenza della temperatura assoluta.",
+    "source": "https://www.treccani.it/enciclopedia/ludwig-boltzmann/",
+    "lesson": "lezione-4-1.html",
+    "related": [
+      "corpo-nero",
+      "temperatura-efficace",
+      "luminosita"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "La temperatura pesa molto",
+        "paragraphs": [
+          "Una superficie ideale più calda emette più energia ogni secondo. La crescita è rapida: raddoppiando la temperatura in kelvin, l’emissione per unità di area diventa sedici volte maggiore. Il numero sedici si ottiene moltiplicando due per se stesso quattro volte. La legge riguarda l’emissione totale su tutte le lunghezze d’onda, non soltanto la luce visibile o il valore in un singolo colore."
+        ]
+      },
+      {
+        "title": "La superficie della stella conta",
+        "paragraphs": [
+          "La luminosità complessiva dipende anche dall’area emittente. Due stelle con la stessa temperatura efficace possono avere luminosità differenti se hanno raggi diversi. Raddoppiare il raggio quadruplica l’area e, a temperatura uguale, la luminosità. Per questo colore e brillantezza non sono sinonimi. Una stella relativamente fredda ma molto grande può emettere complessivamente più energia di una stella calda con superficie assai più piccola."
+        ]
+      },
+      {
+        "title": "Perché si usa il kelvin",
+        "paragraphs": [
+          "Il confronto richiede la temperatura assoluta. Raddoppiare un numero in gradi Celsius non equivale a raddoppiare la temperatura fisica utilizzata dalla legge. Anche la temperatura efficace è una definizione precisa: collega il flusso complessivo a un corpo nero equivalente. Non implica che ogni strato della stella abbia quella temperatura, né che lo spettro reale sia privo di righe e altre differenze rispetto alla curva ideale."
+        ]
+      },
+      {
+        "title": "Emissione e flusso ricevuto",
+        "paragraphs": [
+          "La potenza emessa non coincide con quella che raggiunge un osservatore lontano. Distanza e assorbimento modificano il flusso misurato. Per interpretare una fotografia occorre separare superficie, temperatura e propagazione della luce. La legge offre quindi un ponte fra proprietà della stella e luminosità, ma non permette di ricavare tutte queste quantità dalla sola impressione visiva di quanto un punto appaia brillante nel cielo."
+        ]
+      }
+    ],
+    "facts": [
+      "A temperatura doppia in kelvin, un corpo nero emette sedici volte più potenza per unità di area"
+    ],
+    "example": "A temperatura doppia in kelvin, un corpo nero emette sedici volte più potenza per unità di area",
+    "sources": [
+      {
+        "title": "Treccani · riferimento generale al tema; non riscontro puntuale di tutta la scheda",
+        "url": "https://www.treccani.it/enciclopedia/ludwig-boltzmann/"
       }
     ]
   },
@@ -23424,6 +26294,60 @@ window.AdAstraGlossary = [
       "riga a 21 cm",
       "linea a 21 centimetri",
       "riga dell’idrogeno a 21 cm"
+    ]
+  },
+  {
+    "id": "linea-neve",
+    "name": "Linea della neve",
+    "definition": "La linea della neve è una regione di transizione in un disco protoplanetario oltre la quale una determinata sostanza volatile può trovarsi stabilmente in forma di ghiaccio nelle condizioni locali.",
+    "source": "https://www.treccani.it/enciclopedia/pianeta/",
+    "lesson": "lezione-3-6.html",
+    "related": [
+      "disco-protoplanetario",
+      "sublimazione",
+      "acqua"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Non è un bordo disegnato nello spazio",
+        "paragraphs": [
+          "La parola linea semplifica una transizione legata a temperatura, pressione e composizione. Per l’acqua si parla spesso di linea della neve senza altre specificazioni. Altre sostanze hanno transizioni proprie e distanze differenti. Il ghiaccio non è necessariamente quello d’acqua. Nel linguaggio astronomico la distinzione è fondamentale, perché molecole diverse possono condensare o sublimare in condizioni che sulla Terra assoceremmo ad ambienti molto diversi."
+        ]
+      },
+      {
+        "title": "Più solidi a disposizione",
+        "paragraphs": [
+          "Quando una specie rimane congelata, contribuisce al materiale solido disponibile. Questo può influire sulla crescita di aggregati e corpi maggiori. Il risultato non dipende però soltanto dalla quantità di ghiaccio: trasporto, frammentazione e interazioni con il gas restano importanti. La transizione non costruisce automaticamente un pianeta in un punto preciso. Fornisce una condizione ambientale che i modelli devono collegare ad altri processi della formazione."
+        ]
+      },
+      {
+        "title": "La posizione cambia nel tempo",
+        "paragraphs": [
+          "Un disco evolve e la sua struttura termica non resta fissa. La posizione della transizione può spostarsi, mentre il materiale si muove. La distanza attuale di un pianeta dalla stella non indica quindi automaticamente quale ghiaccio fosse presente durante tutta la sua crescita. Il confronto richiede una storia del sistema. Una figura con una sola circonferenza immobile dovrebbe essere dichiarata come schema di una condizione, non come legge universale."
+        ]
+      },
+      {
+        "title": "Una traccia da ricostruire",
+        "paragraphs": [
+          "Osservazioni del gas e della polvere possono offrire indizi sulle transizioni chimiche. Spesso non si vede direttamente una fascia di neve come in un paesaggio terrestre. Le mappe misurano firme e distribuzioni da interpretare attraverso modelli. Il concetto rende concreto il rapporto fra chimica e architettura planetaria: la disponibilità degli ingredienti varia nello spazio e nel tempo, ma non determina da sola l’intera storia dei mondi che si formeranno."
+        ]
+      }
+    ],
+    "facts": [
+      "Esistono linee della neve diverse per sostanze diverse; non tutto il ghiaccio cosmico è acqua"
+    ],
+    "example": "Esistono linee della neve diverse per sostanze diverse; non tutto il ghiaccio cosmico è acqua",
+    "sources": [
+      {
+        "title": "Treccani · riferimento generale al tema; non riscontro puntuale di tutta la scheda",
+        "url": "https://www.treccani.it/enciclopedia/pianeta/"
+      },
+      {
+        "title": "ESO · transizioni dei ghiacci nei dischi",
+        "url": "https://www.hq.eso.org/public/news/eso1333/"
+      }
     ]
   },
   {
@@ -24417,6 +27341,60 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "luna-16",
+    "name": "Luna 16",
+    "definition": "Luna 16 fu una missione robotica sovietica che nel 1970 riportò sulla Terra un campione di materiale lunare.",
+    "source": "https://www.treccani.it/enciclopedia/sonda/",
+    "lesson": "lezione-2-5.html",
+    "related": [
+      "ritorno-campioni",
+      "regolite",
+      "apollo-11"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Riportare un frammento a casa",
+        "paragraphs": [
+          "Una missione di ritorno campioni deve fare più di atterrare e fotografare. Deve raccogliere materiale, conservarlo, lasciare il corpo visitato e consegnarlo a laboratori terrestri. Luna 16 dimostrò una catena robotica di questo tipo per la Luna. Il campione aveva un valore scientifico legato alla provenienza e alla possibilità di analizzarlo con strumenti diversi, non soltanto al fatto di essere un oggetto extraterrestre."
+        ]
+      },
+      {
+        "title": "Il contesto accompagna la polvere",
+        "paragraphs": [
+          "La regolite è materiale modificato da impatti e ambiente superficiale. Un campione non descrive automaticamente tutte le rocce del satellite. Posizione, profondità e modalità di raccolta aiutano a interpretarlo. Conservare queste informazioni evita di trattare il contenitore come un insieme di frammenti privi di storia. Una piccola quantità ben documentata può offrire risposte più affidabili di una maggiore quantità della quale non si conosca il contesto."
+        ]
+      },
+      {
+        "title": "Il laboratorio amplia la misura",
+        "paragraphs": [
+          "Sulla Terra si possono confrontare composizione, struttura e firme isotopiche con procedure diverse. Parte del materiale può essere conservata per strumenti futuri. Il ritorno non chiude dunque la ricerca: la rende ripetibile e ampliabile. La cura del campione serve anche a limitare contaminazioni e alterazioni, così che un segnale terrestre non venga scambiato per una proprietà originaria della materia raccolta sulla Luna."
+        ]
+      },
+      {
+        "title": "Robotica ed esplorazione umana",
+        "paragraphs": [
+          "Luna 16 e le missioni Apollo rappresentano modi differenti di riportare materiale lunare. Non vanno confuse date, quantità e capacità operative. Il confronto non richiede una gara fra programmi: permette di capire quali scelte tecniche rendano possibili certi risultati. Il concetto centrale è la catena completa della provenienza, dal terreno al laboratorio. Senza questa continuità, anche una misura molto precisa rischia di rispondere alla domanda sbagliata."
+        ]
+      }
+    ],
+    "facts": [
+      "Il valore del campione dipende anche dalla documentazione del luogo e del metodo di raccolta"
+    ],
+    "example": "Il valore del campione dipende anche dalla documentazione del luogo e del metodo di raccolta",
+    "sources": [
+      {
+        "title": "Treccani · riferimento generale al tema; non riscontro puntuale di tutta la scheda",
+        "url": "https://www.treccani.it/enciclopedia/sonda/"
+      },
+      {
+        "title": "NASA · Luna 16, ritorno del campione",
+        "url": "https://science.nasa.gov/photojournal/luna-16/"
+      }
+    ]
+  },
+  {
     "id": "lune-galileiane",
     "name": "Lune galileiane",
     "definition": "Le lune galileiane sono Io, Europa, Ganimede e Callisto, i quattro maggiori satelliti naturali di Giove, osservati da Galileo nel 1610.",
@@ -24692,6 +27670,106 @@ window.AdAstraGlossary = [
       {
         "title": "RSC · proprietà e presenza del magnesio",
         "url": "https://periodic-table.rsc.org/element/12/magnesium"
+      }
+    ]
+  },
+  {
+    "id": "magnetopausa",
+    "name": "Magnetopausa",
+    "definition": "La magnetopausa è il confine della magnetosfera, determinato dall’interazione fra il campo del corpo e il plasma esterno. Per la Terra dipende dalle condizioni del vento solare.",
+    "source": "https://www.treccani.it/enciclopedia/magnetosfera/",
+    "lesson": "lezione-8-3.html",
+    "related": [
+      "magnetosfera",
+      "pressione",
+      "vento-solare"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un confine costruito dall’interazione",
+        "paragraphs": [
+          "Il campo terrestre e il flusso esterno contribuiscono a un equilibrio dinamico di pressioni e tensioni. La magnetopausa delimita regioni con proprietà differenti. Non è una superficie solida e non ha una quota unica valida in ogni momento. La sua posizione può cambiare quando variano le condizioni. Il nome pausa non indica che le particelle smettano tutte di muoversi: indica una transizione nella struttura del sistema."
+        ]
+      },
+      {
+        "title": "Il lato diurno può comprimersi",
+        "paragraphs": [
+          "Un vento solare con caratteristiche differenti può modificare quanto il sistema venga compresso verso la Terra. Il risultato dipende da più grandezze e dalla geometria dei campi. Non basta conoscere una sola velocità per ricostruire tutto il comportamento. Questa distinzione aiuta a leggere le notizie sul meteo spaziale: un valore elevato è un indizio, mentre gli effetti dipendono dall’insieme delle condizioni e dalla risposta dell’ambiente."
+        ]
+      },
+      {
+        "title": "Diversa dal fronte d’urto",
+        "paragraphs": [
+          "Sul lato diurno può esistere un fronte d’urto nel flusso incidente, prima che il plasma raggiunga la magnetopausa. Tra i due confini si trova una regione di materiale modificato dall’interazione. Confondere le superfici fa perdere il significato delle misure. Una sonda può attraversare più transizioni e registrare cambiamenti distinti, che richiedono un modello per essere collegati alla struttura complessiva."
+        ]
+      },
+      {
+        "title": "Come si osserva un limite invisibile",
+        "paragraphs": [
+          "Gli strumenti seguono variazioni di campo, densità, temperatura e popolazioni di particelle. Il confine viene ricostruito con questi dati e con confronti fra sonde. Non si tratta di ingrandire una fotografia finché appare una linea. La magnetopausa rende concreto un modo diverso di fare astronomia e fisica spaziale: identificare regioni attraverso proprietà misurabili, con confini che possono muoversi e avere struttura, anziché sembrare sempre perfettamente netti."
+        ]
+      }
+    ],
+    "facts": [
+      "Il fronte d’urto del vento solare e la magnetopausa sono due transizioni differenti"
+    ],
+    "example": "Il fronte d’urto del vento solare e la magnetopausa sono due transizioni differenti",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/magnetosfera/"
+      }
+    ]
+  },
+  {
+    "id": "magnetosfera",
+    "name": "Magnetosfera",
+    "definition": "La magnetosfera è la regione nella quale il campo magnetico di un corpo celeste governa in modo importante la dinamica del plasma, interagendo con l’ambiente esterno.",
+    "source": "https://www.treccani.it/enciclopedia/magnetosfera/",
+    "lesson": "lezione-8-3.html",
+    "related": [
+      "campo-magnetico",
+      "vento-solare",
+      "aurora-polare"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un ambiente attorno al pianeta",
+        "paragraphs": [
+          "La magnetosfera terrestre comprende campi e particelle che non si comprendono pensando soltanto all’aria che respiriamo. Si estende nello spazio e risponde al vento solare. Non coincide con un singolo strato atmosferico dotato di altezza fissa. Per descriverla servono direzioni e condizioni: il lato rivolto al Sole e quello notturno presentano strutture differenti perché l’interazione esterna deforma il sistema."
+        ]
+      },
+      {
+        "title": "Non una bolla impenetrabile",
+        "paragraphs": [
+          "Il campo modifica il moto delle particelle cariche e contribuisce a deviare parte del flusso incidente. Esistono però trasferimenti di energia e materia. La riconnessione magnetica e altri processi collegano ambiente solare e regioni più vicine alla Terra. La parola scudo è utile come primo richiamo, purché non suggerisca una barriera rigida capace di bloccare ogni particella e ogni tipo di radiazione."
+        ]
+      },
+      {
+        "title": "La coda sul lato notturno",
+        "paragraphs": [
+          "L’interazione con il vento solare produce una struttura allungata nella direzione antisolare. In quella regione possono accumularsi e trasformarsi energia e plasma. La geometria non è quindi una serie di cerchi concentrici invariabili. Le figure didattiche devono indicare il Sole e distinguere le scale. Un disegno compresso su una pagina può aiutare, ma non deve essere scambiato per una rappresentazione in proporzione."
+        ]
+      },
+      {
+        "title": "Il collegamento con le aurore",
+        "paragraphs": [
+          "L’energia trasferita al sistema può contribuire a processi che accelerano particelle e producono emissioni nell’alta atmosfera. La luce dell’aurora non è semplicemente il vento solare fotografato mentre attraversa direttamente l’aria. Fra sorgente energetica e emissione esiste una catena di interazioni. La magnetosfera è quindi un ponte fisico fra attività solare e fenomeni osservabili, che richiede di seguire i passaggi invece di saltare dalla parola tempesta a un colore nel cielo."
+        ]
+      }
+    ],
+    "facts": [
+      "La magnetosfera devia e trasforma flussi di particelle, ma non è una parete impermeabile"
+    ],
+    "example": "La magnetosfera devia e trasforma flussi di particelle, ma non è una parete impermeabile",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/magnetosfera/"
       }
     ]
   },
@@ -25130,6 +28208,60 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "mariner-10",
+    "name": "Mariner 10",
+    "definition": "Mariner 10 fu una sonda NASA lanciata nel 1973 che sorvolò Venere e Mercurio, aprendo l’esplorazione ravvicinata di Mercurio.",
+    "source": "https://www.treccani.it/enciclopedia/sonda/",
+    "lesson": "lezione-10-5.html",
+    "related": [
+      "assistenza-gravitazionale",
+      "flyby",
+      "bepicolombo"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Una rotta costruita con la gravità",
+        "paragraphs": [
+          "Per raggiungere un pianeta non basta puntare il razzo nella sua direzione apparente. Il veicolo percorre un’orbita intorno al Sole e deve incontrare un bersaglio in movimento. Mariner 10 utilizzò il passaggio presso Venere per modificare la traiettoria verso Mercurio. L’assistenza gravitazionale collega quindi due incontri in un unico progetto di viaggio, attraverso uno scambio di energia e quantità di moto nel sistema."
+        ]
+      },
+      {
+        "title": "La prima visione ravvicinata",
+        "paragraphs": [
+          "I sorvoli di Mercurio permisero immagini e misure che andarono oltre le possibilità delle osservazioni terrestri dell’epoca. Un incontro ravvicinato migliora il dettaglio, ma non garantisce una cartografia completa. Illuminazione, geometria e percorso determinano quali regioni possano essere viste. Una fotografia ben risolta di una parte del pianeta non autorizza ad affermare che l’intera superficie sia stata osservata con la stessa qualità e copertura."
+        ]
+      },
+      {
+        "title": "Sorvolare non significa restare",
+        "paragraphs": [
+          "La sonda non entrò stabilmente in orbita intorno a Mercurio. Il sorvolo offre un intervallo di osservazione limitato e richiede una sequenza programmata. Una missione orbitale può invece tornare su regioni e condizioni differenti, ma deve risolvere altri problemi di energia e manovra. Confrontare questi due progetti aiuta a comprendere perché le missioni successive possano aggiungere conoscenza senza rendere irrilevanti le misure precedenti."
+        ]
+      },
+      {
+        "title": "Il confronto nel tempo",
+        "paragraphs": [
+          "Mariner 10 è una tappa della storia di Mercurio, non la descrizione definitiva del pianeta. Dati successivi hanno ampliato la copertura e le domande su superficie, interno e ambiente. Nella divulgazione conviene associare ogni immagine alla missione e alla data, evitando di attribuire a un vecchio sorvolo risultati ottenuti molto dopo. La continuità fra strumenti diversi rende visibile il progresso scientifico come costruzione collettiva e verificabile."
+        ]
+      }
+    ],
+    "facts": [
+      "Un sorvolo ravvicinato non equivale a una missione in orbita permanente"
+    ],
+    "example": "Un sorvolo ravvicinato non equivale a una missione in orbita permanente",
+    "sources": [
+      {
+        "title": "Treccani · riferimento generale al tema; non riscontro puntuale di tutta la scheda",
+        "url": "https://www.treccani.it/enciclopedia/sonda/"
+      },
+      {
+        "title": "NASA · Mariner 10, rotta e cronologia",
+        "url": "https://science.nasa.gov/mission/mariner-10/"
+      }
+    ]
+  },
+  {
     "id": "mariner-4",
     "name": "Mariner 4",
     "definition": "Mariner 4 fu la sonda NASA che nel luglio 1965 sorvolò Marte e trasmise le prime immagini ravvicinate riuscite del pianeta.",
@@ -25234,6 +28366,218 @@ window.AdAstraGlossary = [
       {
         "title": "NASA · Mariner 9",
         "url": "https://science.nasa.gov/mission/mariner-9/"
+      }
+    ]
+  },
+  {
+    "id": "mars-express",
+    "name": "Mars Express",
+    "definition": "Mars Express è una missione dell’ESA lanciata nel 2003 per studiare Marte dall’orbita, con osservazioni della superficie, dell’atmosfera e del sottosuolo.",
+    "source": "https://www.treccani.it/enciclopedia/sonda/",
+    "lesson": "lezione-3-2.html",
+    "related": [
+      "orbiter",
+      "telerilevamento",
+      "regolite"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un pianeta osservato più volte",
+        "paragraphs": [
+          "Un orbiter può tornare a misurare regioni e fenomeni in condizioni differenti. Mars Express porta strumenti che affrontano domande complementari sulla storia e sull’ambiente marziano. Le immagini non sono l’unico prodotto: spettri, segnali radar e altre misure permettono indagini che una fotografia visibile non può svolgere da sola. Il progetto mostra perché studiare un pianeta significhi unire più modi di osservare."
+        ]
+      },
+      {
+        "title": "La forma e la composizione",
+        "paragraphs": [
+          "La ricostruzione del rilievo aiuta a leggere valli e strutture; la spettroscopia contribuisce a riconoscere materiali e atmosfera. Queste informazioni devono essere confrontate nel loro contesto geologico. Un minerale associato all’acqua può conservare una traccia del passato, ma non dimostra acqua liquida presente oggi. Separare osservazione e interpretazione è particolarmente importante quando una notizia usa parole come oceano, abitabile o vita."
+        ]
+      },
+      {
+        "title": "Guardare sotto la superficie",
+        "paragraphs": [
+          "Un radar può fornire indizi su strutture non visibili direttamente. La risposta dipende dalle proprietà elettriche e dalla geometria dei materiali. Un segnale intenso non identifica da solo una sostanza in modo univoco. Per discutere eventuali interpretazioni legate all’acqua servono confronti fisici e alternative. La misura rimane interessante anche quando la sua spiegazione è discussa: l’incertezza è parte della ricerca, non un difetto da nascondere nella presentazione."
+        ]
+      },
+      {
+        "title": "La missione dentro la storia di Marte",
+        "paragraphs": [
+          "Mars Express va distinta dai rover che percorrono il terreno e dai lander che lavorano in un sito. La copertura orbitale offre una cornice ampia, mentre il contatto locale aggiunge dettagli. Insieme rendono più solida la ricostruzione. Le immagini d’archivio devono mantenere data e provenienza: una nuova elaborazione o pubblicazione non significa necessariamente che la scena sia stata ripresa nello stesso giorno in cui la vediamo online."
+        ]
+      }
+    ],
+    "facts": [
+      "Orbiter e rover osservano scale differenti e forniscono informazioni complementari"
+    ],
+    "example": "Orbiter e rover osservano scale differenti e forniscono informazioni complementari",
+    "sources": [
+      {
+        "title": "Treccani · riferimento generale al tema; non riscontro puntuale di tutta la scheda",
+        "url": "https://www.treccani.it/enciclopedia/sonda/"
+      },
+      {
+        "title": "ESA · Mars Express, strumenti e obiettivi",
+        "url": "https://www.esa.int/Science_Exploration/Space_Science/Mars_Express"
+      }
+    ]
+  },
+  {
+    "id": "marte",
+    "name": "Marte",
+    "definition": "Marte è il quarto pianeta dal Sole, un pianeta roccioso con atmosfera tenue, superficie ricca di tracce geologiche e due piccoli satelliti.",
+    "source": "https://www.treccani.it/enciclopedia/marte/",
+    "lesson": "lezione-3-2.html",
+    "related": [
+      "regolite",
+      "mars-express",
+      "rover"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Il rosso è una traccia materiale",
+        "paragraphs": [
+          "L’aspetto rossastro è associato a materiali ossidati presenti nella superficie e nella polvere. Non significa che tutto il pianeta abbia lo stesso colore o la stessa composizione. Rocce, sabbie e depositi mostrano varietà locali. Una fotografia va inoltre letta considerando illuminazione e trattamento del colore. L’impressione globale è un punto di partenza per domande geologiche, non una classificazione completa dei materiali che una missione può incontrare."
+        ]
+      },
+      {
+        "title": "Acqua passata e condizioni presenti",
+        "paragraphs": [
+          "Valli, minerali e depositi conservano indizi di una storia nella quale l’acqua ha avuto ruoli importanti. Queste evidenze non equivalgono a un oceano liquido presente oggi in superficie. Pressione, temperatura e sali modificano le condizioni possibili. Anche le interpretazioni del sottosuolo richiedono confronti e limiti espliciti. La domanda sull’acqua deve quindi specificare luogo, epoca, stato fisico e metodo con il quale la sua presenza viene proposta o misurata."
+        ]
+      },
+      {
+        "title": "Un mondo con stagioni",
+        "paragraphs": [
+          "L’inclinazione assiale contribuisce alle stagioni marziane, mentre l’orbita eccentrica introduce differenze ulteriori. Calotte e polveri partecipano ai cambiamenti osservabili. Non si può trasferire direttamente il clima terrestre al pianeta soltanto perché la durata del giorno è relativamente simile. Un cielo con atmosfera molto meno densa modifica scambi termici e ambiente. Il confronto insegna a riconoscere analogie utili mantenendo le differenze fisiche che decidono l’esperienza reale."
+        ]
+      },
+      {
+        "title": "Dal telescopio ai campioni di roccia",
+        "paragraphs": [
+          "La dimensione apparente di Marte varia molto con la distanza dalla Terra. Le occasioni favorevoli non durano tutto l’anno. Gli osservatori amatoriali seguono aspetti globali, mentre orbiter e rover offrono scale differenti. Un dettaglio locale del terreno non rappresenta l’intero pianeta, e una veduta globale non risolve ogni minerale. La conoscenza nasce dall’unione di questi livelli, conservando provenienza e contesto di ciascuna immagine e misura."
+        ]
+      }
+    ],
+    "facts": [
+      "Una traccia di acqua antica non dimostra acqua liquida attuale nello stesso luogo"
+    ],
+    "example": "Una traccia di acqua antica non dimostra acqua liquida attuale nello stesso luogo",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/marte/"
+      },
+      {
+        "title": "NASA · Marte, ambiente e geologia",
+        "url": "https://science.nasa.gov/mars/facts/"
+      }
+    ]
+  },
+  {
+    "id": "maschera-bahtinov",
+    "name": "Maschera di Bahtinov",
+    "definition": "La maschera di Bahtinov è un accessorio a fenditure che produce una figura di diffrazione utile per controllare la messa a fuoco sulle stelle.",
+    "source": "https://www.treccani.it/enciclopedia/diffrazione/",
+    "lesson": "astrofotografia.html",
+    "related": [
+      "diffrazione",
+      "fuoco",
+      "focheggiatore"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Dare una forma leggibile al fuoco",
+        "paragraphs": [
+          "Una stella molto piccola può rendere difficile giudicare la regolazione a occhio. La maschera modifica deliberatamente la luce in ingresso e genera punte luminose riconoscibili. Le fenditure hanno orientamenti diversi. La loro figura cambia al variare del fuoco e offre un riferimento più leggibile del solo diametro apparente della stella sullo schermo. Non ingrandisce fisicamente l’astro e non serve a risolverne la superficie."
+        ]
+      },
+      {
+        "title": "La posizione della punta centrale",
+        "paragraphs": [
+          "Nell’uso ordinario si osserva lo spostamento della punta centrale rispetto alle altre due. Quando è centrata, la configurazione indica il fuoco secondo la geometria della maschera. Occorre una stella adatta, un’esposizione che renda leggibile la figura e una maschera compatibile con l’ottica. Saturazione e immagini troppo deboli rendono meno affidabile la valutazione. Un risultato apparentemente simmetrico va quindi interpretato su una ripresa adeguata."
+        ]
+      },
+      {
+        "title": "Una sequenza concreta",
+        "paragraphs": [
+          "Si colloca l’accessorio davanti all’apertura secondo le istruzioni, si regola il focheggiatore e si controlla la risposta. Prima di iniziare le fotografie scientifiche o estetiche la maschera va rimossa. Altrimenti la figura di diffrazione resta nelle immagini e la luce utile è ridotta. Questa semplice verifica evita di confondere una procedura di regolazione con un filtro da lasciare stabilmente montato durante l’acquisizione."
+        ]
+      },
+      {
+        "title": "Il fuoco può cambiare ancora",
+        "paragraphs": [
+          "La misura riguarda quella configurazione e quel momento. Raffreddamento, filtri diversi e movimenti meccanici possono richiedere nuovi controlli. La maschera non misura automaticamente collimazione, inseguimento o seeing. Può fornire una regolazione buona mentre altri fattori allargano le stelle. Il suo valore è rendere riconoscibile un problema specifico: trovare il piano di migliore fuoco, mantenendo distinta questa operazione dalle altre verifiche della qualità dell’immagine."
+        ]
+      }
+    ],
+    "facts": [
+      "La maschera si usa per regolare il fuoco e si rimuove prima delle riprese"
+    ],
+    "example": "La maschera si usa per regolare il fuoco e si rimuove prima delle riprese",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/diffrazione/"
+      },
+      {
+        "title": "RECON · guida operativa alla messa a fuoco",
+        "url": "https://tnorecon.net/participant-resources/equipment/recon-guides/focusing-tips/"
+      }
+    ]
+  },
+  {
+    "id": "maser",
+    "name": "Maser",
+    "definition": "Un maser amplifica radiazione attraverso emissione stimolata, tipicamente nelle microonde. Maser naturali possono formarsi in ambienti astronomici con condizioni appropriate.",
+    "source": "https://www.treccani.it/enciclopedia/maser/",
+    "lesson": "lezione-4-3.html",
+    "related": [
+      "emissione-stimolata",
+      "molecola",
+      "radiotelescopio"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Amplificare un segnale",
+        "paragraphs": [
+          "L’emissione stimolata permette a sistemi eccitati di trasferire energia a radiazione con proprietà collegate a quella incidente. Per ottenere amplificazione netta occorre un bilancio favorevole rispetto all’assorbimento. L’energia deve essere fornita e mantenuta da processi fisici: il sistema non moltiplica indefinitamente fotoni senza alimentazione. Il termine maser nacque in relazione alle microonde e richiama questo meccanismo di amplificazione."
+        ]
+      },
+      {
+        "title": "Condizioni particolari del gas",
+        "paragraphs": [
+          "Una distribuzione opportuna delle popolazioni energetiche, spesso descritta come inversione, può essere mantenuta attraverso radiazione o collisioni. Non ogni nube contenente una certa molecola produce un maser. Contano anche geometria e lunghezza del percorso efficace. La chimica identifica quali specie siano disponibili, mentre la fisica dell’eccitazione spiega se quelle specie possano amplificare la radiazione nelle condizioni realmente presenti."
+        ]
+      },
+      {
+        "title": "Sorgenti naturali",
+        "paragraphs": [
+          "Emissioni maser sono osservate in diversi ambienti, comprese regioni legate alla formazione stellare o a stelle evolute. Non indicano trasmettitori artificiali. La stessa legge che permette un dispositivo di laboratorio può operare quando un ambiente naturale costruisce condizioni adatte. L’intensità elevata di una riga non deve quindi essere letta automaticamente come temperatura enorme di un gas ordinario in equilibrio termico."
+        ]
+      },
+      {
+        "title": "Un aiuto per misurare i moti",
+        "paragraphs": [
+          "Caratteristiche compatte e righe strette possono offrire riferimenti per osservazioni radio ad alta precisione. Confronti nel tempo permettono studi di velocità e geometria, secondo il sistema. Occorre però sapere quale parte della nube emetta e come cambi. Il maser rende evidente un principio importante della spettroscopia: l’intensità osservata dipende dal processo di emissione e dal percorso, non soltanto dalla quantità totale di molecole nella regione."
+        ]
+      }
+    ],
+    "facts": [
+      "Un maser astronomico può essere interamente naturale: non richiede un apparato costruito"
+    ],
+    "example": "Un maser astronomico può essere interamente naturale: non richiede un apparato costruito",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/maser/"
       }
     ]
   },
@@ -25669,6 +29013,60 @@ window.AdAstraGlossary = [
       {
         "title": "Treccani · riferimento terminologico",
         "url": "https://www.treccani.it/enciclopedia/media/"
+      }
+    ]
+  },
+  {
+    "id": "mercurio",
+    "name": "Mercurio",
+    "definition": "Mercurio è il pianeta più vicino al Sole e il più piccolo degli otto pianeti del Sistema solare.",
+    "source": "https://www.treccani.it/enciclopedia/mercurio/",
+    "lesson": "lezione-3-2.html",
+    "related": [
+      "risonanza-spin-orbita",
+      "esosfera",
+      "mariner-10"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un mondo piccolo e denso",
+        "paragraphs": [
+          "Mercurio è un pianeta roccioso con una componente metallica interna importante rispetto alle dimensioni complessive. La superficie conserva numerosi crateri, ma la somiglianza visiva con la Luna non implica una storia identica. Composizione, gravità e struttura vanno ricostruite attraverso misure differenti. Una fotografia mostra forme e riflettanza; non permette da sola di pesare il nucleo o determinare tutti i processi che hanno modificato il pianeta."
+        ]
+      },
+      {
+        "title": "Un giorno insolito",
+        "paragraphs": [
+          "La rotazione è in risonanza tre a due con la rivoluzione: tre giri rispetto alle stelle in due orbite. Il giorno solare non coincide quindi con il periodo di rotazione. L’orbita eccentrica rende il moto apparente del Sole ancora più particolare. Il confronto insegna a specificare il riferimento usato quando si parla di giorno, evitando di trasferire automaticamente a un altro pianeta l’esperienza terrestre delle ventiquattro ore."
+        ]
+      },
+      {
+        "title": "Caldo e freddo nello stesso ambiente",
+        "paragraphs": [
+          "L’assenza di una densa atmosfera limita la redistribuzione del calore. Le temperature superficiali dipendono fortemente da illuminazione, luogo e momento. Essere il pianeta più vicino al Sole non significa avere la temperatura superficiale più alta di tutto il Sistema solare: Venere ha condizioni atmosferiche differenti. Nelle regioni polari esistono inoltre zone permanentemente in ombra, mostrando perché una media globale non descriva ogni ambiente locale."
+        ]
+      },
+      {
+        "title": "Vederlo dal nostro cielo",
+        "paragraphs": [
+          "La vicinanza apparente al Sole rende Mercurio un bersaglio da cercare nelle condizioni e negli orari adatti, vicino al crepuscolo. La visibilità dipende anche da stagione e latitudine, non soltanto dall’elongazione. Per l’osservazione con strumenti il Sole deve essere sotto l’orizzonte e la direzione sicura. Le effemeridi locali aiutano a distinguere un pianeta geometricamente sopra l’orizzonte da uno realmente favorevole da riconoscere e osservare."
+        ]
+      }
+    ],
+    "facts": [
+      "Il pianeta più vicino al Sole non è quello con la superficie mediamente più calda"
+    ],
+    "example": "Il pianeta più vicino al Sole non è quello con la superficie mediamente più calda",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/mercurio/"
+      },
+      {
+        "title": "NASA · Mercurio, caratteristiche fisiche",
+        "url": "https://science.nasa.gov/mercury/facts/"
       }
     ]
   },
@@ -26545,6 +29943,60 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "migrazione-planetaria",
+    "name": "Migrazione planetaria",
+    "definition": "La migrazione planetaria è una variazione dell’orbita di un pianeta dovuta a scambi di energia e momento angolare con altri componenti del sistema.",
+    "source": "https://www.treccani.it/enciclopedia/pianeta/",
+    "lesson": "lezione-3-6.html",
+    "related": [
+      "disco-protoplanetario",
+      "momento-angolare",
+      "risonanza-orbitale"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Nascere e trovarsi altrove",
+        "paragraphs": [
+          "L’orbita attuale di un pianeta non deve coincidere con quella nella quale si è formato. Interazioni con gas, altri pianeti o popolazioni di piccoli corpi possono modificarla. Il cambiamento non è un moto arbitrario nel vuoto: avviene attraverso processi fisici che scambiano energia e momento angolare. Il sistema complessivo conserva i bilanci appropriati, mentre il singolo pianeta può guadagnare o perdere ciò che un’altra componente riceve o cede."
+        ]
+      },
+      {
+        "title": "Il disco come interlocutore",
+        "paragraphs": [
+          "Un pianeta immerso in un disco perturba il materiale circostante e ne riceve una risposta gravitazionale. Le coppie risultanti possono modificare l’orbita. Direzione e velocità dipendono dalle condizioni e non sono universali. Massa, struttura del disco e processi termici entrano nei modelli. È quindi troppo semplice affermare che tutti i pianeti giovani debbano scivolare verso la stella nello stesso modo e con lo stesso tempo caratteristico."
+        ]
+      },
+      {
+        "title": "Dopo la scomparsa del gas",
+        "paragraphs": [
+          "Anche incontri e interazioni con piccoli corpi possono cambiare l’architettura del sistema. Alcuni processi sono graduali, altri dinamicamente più bruschi. Non ogni cambiamento orbitale viene descritto con lo stesso modello di migrazione nel disco. Risonanze e distribuzioni osservate forniscono indizi, ma ricostruire un’unica storia può essere difficile. Più evoluzioni possono condurre a configurazioni finali simili entro le informazioni disponibili."
+        ]
+      },
+      {
+        "title": "Il significato per gli esopianeti",
+        "paragraphs": [
+          "Pianeti molto vicini alla propria stella hanno stimolato modelli di formazione ed evoluzione. La migrazione è una parte importante del quadro, ma va distinta dall’osservazione diretta dell’intero viaggio. Le orbite presenti sono dati; la storia viene ricostruita confrontando ipotesi e simulazioni. Questa distinzione mantiene accessibile il concetto senza trasformare ogni illustrazione di un pianeta che si sposta in una cronaca filmata di un evento realmente seguito nel tempo."
+        ]
+      }
+    ],
+    "facts": [
+      "L’orbita attuale di un pianeta non identifica automaticamente il luogo della sua formazione"
+    ],
+    "example": "L’orbita attuale di un pianeta non identifica automaticamente il luogo della sua formazione",
+    "sources": [
+      {
+        "title": "Treccani · riferimento generale al tema; non riscontro puntuale di tutta la scheda",
+        "url": "https://www.treccani.it/enciclopedia/pianeta/"
+      },
+      {
+        "title": "NASA · formazione ed evoluzione dei pianeti",
+        "url": "https://science.nasa.gov/exoplanets/how-do-planets-form/"
+      }
+    ]
+  },
+  {
     "id": "mole",
     "name": "Mole",
     "definition": "La mole, simbolo mol, è l’unità SI della quantità di sostanza: una mole contiene esattamente 6,02214076 × 10²³ entità specificate.",
@@ -27069,6 +30521,60 @@ window.AdAstraGlossary = [
     ],
     "aliases": [
       "montature equatoriali"
+    ]
+  },
+  {
+    "id": "mosaico-astronomico",
+    "name": "Mosaico astronomico",
+    "definition": "Un mosaico astronomico combina riprese di campi parzialmente sovrapposti per rappresentare una regione più ampia di quella coperta da una singola immagine.",
+    "source": "https://www.treccani.it/enciclopedia/astrofotografia/",
+    "lesson": "astrofotografia.html",
+    "related": [
+      "campo-reale",
+      "plate-solving",
+      "calibrazione"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Allargare il campo senza cambiare ottica",
+        "paragraphs": [
+          "Un sensore registra una porzione limitata del cielo. Per riprendere una nebulosa estesa si possono fotografare aree contigue e ricomporle. Le zone sovrapposte forniscono riferimenti comuni per l’allineamento. La tecnica non coincide con l’ingrandire artificialmente una fotografia: raccoglie luce da direzioni realmente diverse. Richiede però una pianificazione che tenga conto di orientamento, distorsione e margini necessari alla successiva composizione."
+        ]
+      },
+      {
+        "title": "Una geometria da ricostruire",
+        "paragraphs": [
+          "Le stelle condivise permettono di collegare i pannelli. Il plate solving può assegnare coordinate e una proiezione comune. Ai bordi del campo la geometria non è sempre una semplice traslazione, soprattutto su grandi estensioni. La ricomposizione deve quindi trattare correttamente la proiezione. Una giunzione che appare plausibile a occhio non garantisce posizioni scientificamente corrette se il programma ha deformato le immagini senza un riferimento adeguato."
+        ]
+      },
+      {
+        "title": "La luminosità delle giunzioni",
+        "paragraphs": [
+          "Pannelli acquisiti in serate differenti possono avere fondi cielo, trasparenza e segnali diversi. Calibrazione e normalizzazione servono a confrontarli. Una fusione estetica troppo aggressiva può cancellare strutture reali diffuse o creare bande artificiali. La continuità visiva non deve essere ottenuta a costo di inventare materia. Conservare i dati originali permette di distinguere la ripresa misurata dalle trasformazioni necessarie alla presentazione del mosaico."
+        ]
+      },
+      {
+        "title": "Il tempo va distribuito",
+        "paragraphs": [
+          "Dividere una notte in molti pannelli riduce il tempo dedicato a ciascuno. Un mosaico molto ampio può quindi risultare meno profondo di una ripresa concentrata su un solo campo. La sovrapposizione e le aree mancanti richiedono ulteriore tempo. Il progetto migliore non è quello con il maggior numero di pezzi, ma quello che copre il soggetto conservando dettaglio e segnale sufficienti nelle parti importanti della scena."
+        ]
+      }
+    ],
+    "facts": [
+      "Più campo richiede riprese di aree diverse, non soltanto un file finale più grande"
+    ],
+    "example": "Più campo richiede riprese di aree diverse, non soltanto un file finale più grande",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/astrofotografia/"
+      },
+      {
+        "title": "STScI · ricomposizione e proiezione delle immagini",
+        "url": "https://hst-docs.stsci.edu/drizzpac"
+      }
     ]
   },
   {
@@ -27826,6 +31332,60 @@ window.AdAstraGlossary = [
       {
         "title": "NASA/Hubble · composizione della nebulosa NGC 6153",
         "url": "https://science.nasa.gov/centers-and-facilities/goddard/hubble-view-of-a-nitrogen-rich-nebula/"
+      }
+    ]
+  },
+  {
+    "id": "nettuno",
+    "name": "Nettuno",
+    "definition": "Nettuno è l’ottavo pianeta dal Sole, un gigante di ghiaccio con atmosfera dinamica, anelli e satelliti.",
+    "source": "https://www.treccani.it/enciclopedia/nettuno/",
+    "lesson": "lezione-3-3.html",
+    "related": [
+      "urano",
+      "metano",
+      "pianeta"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Lontano non significa immobile",
+        "paragraphs": [
+          "La distanza dal Sole comporta una debole illuminazione rispetto alla Terra, ma l’atmosfera di Nettuno mostra moti e strutture. Il bilancio comprende anche l’energia interna. Non si può quindi dedurre che un pianeta lontano debba essere meteorologicamente inattivo. La distribuzione del calore e la dinamica richiedono misure e modelli, distinguendo l’energia ricevuta dalla stella da quella che il pianeta emette per la propria evoluzione."
+        ]
+      },
+      {
+        "title": "Il significato del colore",
+        "paragraphs": [
+          "Il metano e altri aspetti dell’atmosfera influenzano lo spettro riflesso. Le immagini diffuse possono essere elaborate per far emergere particolari, con risultati cromatici diversi. Un blu molto intenso non deve diventare una proprietà assoluta indipendente dalla rappresentazione. Leggere il credito e la descrizione del trattamento permette di distinguere una resa approssimativamente naturale da una scelta studiata per evidenziare bande, nubi e strutture difficili da separare."
+        ]
+      },
+      {
+        "title": "Un sistema di mondi",
+        "paragraphs": [
+          "I satelliti e gli anelli hanno storie e proprietà proprie. Tritone, in particolare, offre un esempio importante di dinamica e geologia differente da quella del pianeta. La presenza di un sistema non significa che ogni componente si sia formato nello stesso modo. Orbite e composizioni possono conservare indizi di catture ed evoluzioni. Una tavola illustrata deve quindi evitare di presentare tutti i satelliti come semplici copie in scala del pianeta centrale."
+        ]
+      },
+      {
+        "title": "La misura precede la veduta",
+        "paragraphs": [
+          "Nettuno richiede strumenti e riferimenti per un’osservazione amatoriale affidabile. La sua storia è collegata anche al confronto fra perturbazioni orbitali, calcolo e osservazione. Questo non rende ogni anomalia una prova automatica di un pianeta sconosciuto. La lezione metodologica è costruire una previsione controllabile e verificarla con dati. L’immagine osservata acquista significato dentro una rete di misure, anziché essere una conferma affidata soltanto alla somiglianza con un disegno."
+        ]
+      }
+    ],
+    "facts": [
+      "La debole luce solare ricevuta non implica un’atmosfera priva di attività"
+    ],
+    "example": "La debole luce solare ricevuta non implica un’atmosfera priva di attività",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/nettuno/"
+      },
+      {
+        "title": "NASA · Nettuno, ambiente e osservazione",
+        "url": "https://science.nasa.gov/neptune/facts/"
       }
     ]
   },
@@ -29239,6 +32799,56 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "numero-quantico-principale",
+    "name": "Numero quantico principale",
+    "definition": "Il numero quantico principale, indicato con n, assume valori interi positivi e contribuisce a classificare gli stati elettronici atomici.",
+    "source": "https://www.treccani.it/enciclopedia/elementi-chimici-origine-e-natura_(Enciclopedia-della-Scienza-e-della-Tecnica)/",
+    "lesson": "lezione-4-3.html",
+    "related": [
+      "numero-quantico",
+      "orbitale-atomico",
+      "idrogeno"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un’etichetta dello stato",
+        "paragraphs": [
+          "I valori uno, due, tre e successivi organizzano famiglie di stati atomici. Il numero non conta quanti elettroni si trovino nell’atomo e non è il numero atomico, che conta i protoni. Serve insieme ad altri numeri quantici a distinguere proprietà. Le etichette sono utili perché stati differenti producono transizioni e comportamenti differenti, che possono essere messi in relazione con le righe misurate nello spettro."
+        ]
+      },
+      {
+        "title": "Il caso semplice dell’idrogeno",
+        "paragraphs": [
+          "Nel modello non relativistico più semplice dell’atomo di idrogeno l’energia dipende dal numero principale. Stati con altri numeri quantici diversi possono condividere quel valore energetico. Correzioni più fini introducono ulteriori distinzioni. È importante dichiarare il modello, invece di applicare senza limiti una relazione introduttiva a qualunque atomo. Il caso semplice serve a costruire intuizione e a leggere le prime serie spettrali."
+        ]
+      },
+      {
+        "title": "Negli atomi con molti elettroni",
+        "paragraphs": [
+          "Interazioni fra elettroni e struttura complessiva fanno sì che n non determini da solo tutte le energie. Configurazione e altri numeri diventano essenziali. La tavola periodica riflette l’organizzazione elettronica, ma non si ricava contando gusci come cassetti identici. Il linguaggio dei livelli resta utile se viene collegato ai principi e ai limiti, senza trasformare il disegno dei cerchi concentrici in una fotografia della struttura reale."
+        ]
+      },
+      {
+        "title": "Il ponte con la luce",
+        "paragraphs": [
+          "Quando si confrontano stati iniziali e finali, le differenze energetiche permettono di prevedere caratteristiche dei fotoni emessi o assorbiti. Le regole delle transizioni aggiungono altri vincoli. Il numero principale aiuta a seguire questa organizzazione, mentre la riga osservata dipende anche da popolazioni e condizioni. Una sigla può così diventare leggibile: non una formula misteriosa da imparare, ma un’etichetta che collega il modello atomico a un insieme di misure astronomiche."
+        ]
+      }
+    ],
+    "facts": [
+      "Il numero principale n non è il numero atomico Z e non conta gli elettroni presenti"
+    ],
+    "example": "Il numero principale n non è il numero atomico Z e non conta gli elettroni presenti",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/elementi-chimici-origine-e-natura_(Enciclopedia-della-Scienza-e-della-Tecnica)/"
+      }
+    ]
+  },
+  {
     "id": "nutazione",
     "name": "Nutazione",
     "definition": "La nutazione terrestre è l’insieme di piccole variazioni periodiche dell’orientamento dell’asse, sovrapposte al cambiamento più lento descritto dalla precessione.",
@@ -29557,6 +33167,56 @@ window.AdAstraGlossary = [
       {
         "title": "IUPAC · definizione dell’ohm",
         "url": "https://goldbook.iupac.org/terms/view/O04280"
+      }
+    ]
+  },
+  {
+    "id": "olivina",
+    "name": "Olivina",
+    "definition": "L’olivina è un gruppo di silicati la cui composizione comprende comunemente magnesio e ferro, importante nelle rocce dei pianeti e nei meteoriti.",
+    "source": "https://www.treccani.it/enciclopedia/olivina/",
+    "lesson": "lezione-3-2.html",
+    "related": [
+      "silicato",
+      "magnesio",
+      "ferro"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Una composizione che può variare",
+        "paragraphs": [
+          "La serie più comune viene descritta fra termini ricchi di magnesio e termini ricchi di ferro. Questi elementi possono occupare posizioni corrispondenti nella struttura, modificando le proprietà. Olivina non significa quindi una sola composizione identica per ogni campione. Quando una scheda riporta una formula generale, le parentesi indicano questa possibilità di sostituzione e non un’incertezza sul fatto che il minerale contenga atomi organizzati."
+        ]
+      },
+      {
+        "title": "Un minerale dentro una roccia",
+        "paragraphs": [
+          "L’olivina può essere un componente di rocce diverse. Una roccia non diventa automaticamente olivina soltanto perché ne contiene cristalli. Dimensioni dei grani, minerali associati e relazioni strutturali aiutano a ricostruire formazione e trasformazioni. Questa distinzione è importante nei meteoriti: il singolo minerale offre informazioni locali, mentre la classificazione del campione richiede di considerarne l’insieme e il contesto."
+        ]
+      },
+      {
+        "title": "Il confronto con la luce",
+        "paragraphs": [
+          "Proprietà spettrali permettono di cercare materiali contenenti olivina sulle superfici planetarie e nei piccoli corpi. Composizione, dimensioni dei granuli e mescolanza con altri materiali influenzano il segnale. Una superficie scura o verdastra non è una diagnosi sufficiente. Anche una firma compatibile deve essere interpretata con strumenti e modelli appropriati, mantenendo distinta la presenza suggerita dal confronto dalla quantità e dalla storia del minerale."
+        ]
+      },
+      {
+        "title": "Il rapporto con acqua e ambiente",
+        "paragraphs": [
+          "In condizioni adatte l’olivina può partecipare a trasformazioni con fluidi e formare altri minerali. Questi processi interessano geologia e chimica degli ambienti planetari. Non basta però mettere insieme le parole acqua e olivina per dimostrare una storia biologica. Temperatura, disponibilità dei reagenti e durata determinano i percorsi possibili. Il valore scientifico sta nel ricostruire una trasformazione documentabile della materia, non nell’attribuire a un minerale una funzione universale."
+        ]
+      }
+    ],
+    "facts": [
+      "La proporzione fra magnesio e ferro contribuisce a distinguere diverse composizioni dell’olivina"
+    ],
+    "example": "La proporzione fra magnesio e ferro contribuisce a distinguere diverse composizioni dell’olivina",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/olivina/"
       }
     ]
   },
@@ -31697,6 +35357,56 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "permafrost",
+    "name": "Permafrost",
+    "definition": "Il permafrost è terreno che rimane a temperatura non superiore a zero gradi Celsius per almeno due anni consecutivi. La definizione è termica e non richiede necessariamente ghiaccio.",
+    "source": "https://www.treccani.it/enciclopedia/permafrost/",
+    "lesson": "lezione-3-2.html",
+    "related": [
+      "acqua",
+      "temperatura",
+      "sublimazione"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Il criterio è la temperatura",
+        "paragraphs": [
+          "Per riconoscere il permafrost si considera la persistenza della condizione termica, non soltanto l’aspetto bianco della superficie. Un terreno può essere congelato stagionalmente senza soddisfare la definizione. Viceversa, materiale molto freddo può non contenere quantità importanti di ghiaccio. La parola non deve quindi essere usata come sinonimo automatico di ghiaccio sotterraneo: descrive prima di tutto un regime di temperatura mantenuto nel tempo."
+        ]
+      },
+      {
+        "title": "Lo strato che cambia con le stagioni",
+        "paragraphs": [
+          "Sopra un terreno permanentemente freddo può esistere uno strato che varia più intensamente e attraversa cicli stagionali di gelo e disgelo. Spessore e comportamento dipendono dal clima, dalla copertura e dalle proprietà del materiale. Non basta una giornata calda per stabilire che l’intero sistema sia scomparso. Le misure devono seguire profondità e tempi, distinguendo la risposta superficiale da quella di strati più profondi."
+        ]
+      },
+      {
+        "title": "Il confronto con altri mondi",
+        "paragraphs": [
+          "Il concetto interessa anche lo studio di ambienti planetari freddi, ma atmosfera e disponibilità dell’acqua possono essere molto diverse dalla Terra. Su Marte la stabilità del ghiaccio dipende anche da pressione, latitudine e copertura. Una superficie fredda non garantisce un serbatoio liquido sottostante. Le descrizioni devono mantenere separati stato termico del terreno, presenza di ghiaccio e ipotesi su acqua liquida."
+        ]
+      },
+      {
+        "title": "Un archivio che può trasformarsi",
+        "paragraphs": [
+          "Ghiaccio, sali e altri costituenti influenzano struttura e risposta del terreno. Cambiamenti termici possono modificare stabilità e mobilità del materiale. Per interpretare forme e segnali servono più dati, non soltanto una fotografia. Il termine offre un collegamento fra stagioni, sottosuolo e tempi lunghi: ciò che appare stabile in superficie può dipendere da equilibri profondi e da una storia termica che non si ricostruisce con una sola osservazione."
+        ]
+      }
+    ],
+    "facts": [
+      "Permafrost descrive una condizione termica persistente: non equivale sempre a ghiaccio"
+    ],
+    "example": "Permafrost descrive una condizione termica persistente: non equivale sempre a ghiaccio",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/permafrost/"
+      }
+    ]
+  },
+  {
     "id": "perturbazione-orbitale",
     "name": "Perturbazione orbitale",
     "definition": "Una perturbazione orbitale è una variazione rispetto a un moto orbitale di riferimento, prodotta da interazioni o effetti aggiuntivi inclusi nel modello.",
@@ -31813,6 +35523,56 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "ph",
+    "name": "pH",
+    "definition": "Il pH esprime l’acidità attraverso una scala legata all’attività degli ioni idrogeno; nelle soluzioni diluite si può usare come approssimazione la loro concentrazione.",
+    "source": "https://www.treccani.it/enciclopedia/ph/",
+    "lesson": "lezione-10-2.html",
+    "related": [
+      "reazione-acido-base",
+      "equilibrio-chimico",
+      "temperatura"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Una scala a fattori di dieci",
+        "paragraphs": [
+          "Un’unità di pH corrisponde a un fattore dieci nell’attività degli ioni idrogeno, con verso inverso: valori più piccoli indicano attività maggiore. Passare da sei a cinque non significa aggiungere una piccola quantità lineare di acidità. La scala compatta permette di confrontare condizioni che differiscono molto. Per comprenderla basta prima fissare questo rapporto, senza iniziare da un calcolo con logaritmi."
+        ]
+      },
+      {
+        "title": "La neutralità richiede una temperatura",
+        "paragraphs": [
+          "In acqua la neutralità riguarda il bilancio fra specie idrogeno e idrossido. Il riferimento vicino a pH sette è appropriato intorno a venticinque gradi Celsius, ma cambia con la temperatura. Non si deve quindi trasferire automaticamente la stessa soglia a qualunque fluido planetario caldo o freddo. L’interpretazione richiede anche composizione e metodo di misura, soprattutto quando la soluzione non è abbastanza diluita per le approssimazioni più semplici."
+        ]
+      },
+      {
+        "title": "La scala non è una scatola chiusa",
+        "paragraphs": [
+          "L’intervallo da zero a quattordici è familiare negli esempi introduttivi, ma non rappresenta un limite assoluto di tutti i valori possibili. Soluzioni e condizioni particolari richiedono descrizioni più attente. Anche attività e concentrazione non sono identiche in generale. Dichiarare l’approssimazione evita di trasformare una buona regola scolastica in una legge universale, mantenendo leggibile la grandezza per un primo confronto degli ambienti."
+        ]
+      },
+      {
+        "title": "Un indizio di abitabilità",
+        "paragraphs": [
+          "Il pH influenza disponibilità delle specie, reazioni e stabilità dei materiali. Nello studio di un ambiente extraterrestre può essere stimato indirettamente attraverso modelli e composizioni, con incertezze. Un valore favorevole a qualche organismo terrestre non prova che esistano organismi in quel luogo. Serve a confrontare condizioni e possibilità. Il concetto rende concreta la domanda sull’ambiente: non basta sapere che ci sia acqua, bisogna anche capire quale chimica possa avvenire al suo interno."
+        ]
+      }
+    ],
+    "facts": [
+      "Una differenza di un’unità di pH corrisponde a un fattore dieci, non a una variazione lineare"
+    ],
+    "example": "Una differenza di un’unità di pH corrisponde a un fattore dieci, non a una variazione lineare",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/ph/"
+      }
+    ]
+  },
+  {
     "id": "pianeta",
     "name": "Pianeta",
     "definition": "Nel Sistema solare: corpo in orbita intorno al Sole, quasi sferico per la propria gravità e dinamicamente dominante nella sua zona orbitale.",
@@ -31922,6 +35682,60 @@ window.AdAstraGlossary = [
     ],
     "aliases": [
       "pianeti nani"
+    ]
+  },
+  {
+    "id": "pianetesimo",
+    "name": "Pianetesimo",
+    "definition": "Un pianetesimo è un corpo solido formato durante le prime fasi della crescita planetaria, capace di partecipare all’accrescimento e all’evoluzione dinamica del sistema.",
+    "source": "https://www.treccani.it/enciclopedia/pianeta/",
+    "lesson": "lezione-3-6.html",
+    "related": [
+      "accrescimento",
+      "asteroide",
+      "disco-protoplanetario"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Fra polvere e pianeti",
+        "paragraphs": [
+          "Il termine appartiene al racconto della formazione planetaria. Granuli e aggregati devono crescere fino a corpi per i quali la gravità assume un ruolo crescente nelle interazioni. Non esiste una singola misura universale che renda tutti i modelli identici, ma i pianetesimi sono distinti dalla semplice polvere microscopica e dai pianeti già sviluppati. La parola descrive una fase e un ruolo nella crescita del sistema."
+        ]
+      },
+      {
+        "title": "Gli urti non fanno sempre crescere",
+        "paragraphs": [
+          "Due corpi che si incontrano possono unirsi, frammentarsi o produrre risultati intermedi. Velocità relativa, composizione e struttura contano. L’immagine di palline che si attaccano sempre è utile soltanto come primissima intuizione. La formazione planetaria deve spiegare anche ostacoli alla crescita e perdite di materiale. Per questo distribuzione delle dimensioni e ambiente dinamico sono parti essenziali del modello, non dettagli aggiunti dopo che il pianeta è già immaginato."
+        ]
+      },
+      {
+        "title": "Una popolazione che si modifica",
+        "paragraphs": [
+          "Alcuni pianetesimi contribuiscono alla crescita dei corpi maggiori, altri vengono espulsi o conservati in regioni del sistema. Le popolazioni residue possono essere alterate da collisioni e riscaldamento. Un asteroide odierno non è necessariamente una fotografia immutata del materiale originario. Il confronto con meteoriti, comete e piccoli corpi richiede di distinguere ingredienti primitivi e trasformazioni successive, seguendo una storia che può comprendere molti processi diversi."
+        ]
+      },
+      {
+        "title": "Il valore delle tracce",
+        "paragraphs": [
+          "Composizioni, orbite e strutture dei corpi minori aiutano a ricostruire le prime fasi del Sistema solare. Non permettono sempre di identificare un solo percorso. L’interesse del pianetesimo è collegare scale: dalla materia distribuita nel disco ai mondi che oggi osserviamo. Una figura didattica dovrebbe mostrare crescita, collisioni e possibili perdite, invece di una fila inevitabile nella quale ogni granello diventa prima un asteroide e poi un pianeta."
+        ]
+      }
+    ],
+    "facts": [
+      "Le collisioni possono favorire la crescita oppure frammentare i corpi: il risultato dipende dalle condizioni"
+    ],
+    "example": "Le collisioni possono favorire la crescita oppure frammentare i corpi: il risultato dipende dalle condizioni",
+    "sources": [
+      {
+        "title": "Treccani · riferimento generale al tema; non riscontro puntuale di tutta la scheda",
+        "url": "https://www.treccani.it/enciclopedia/pianeta/"
+      },
+      {
+        "title": "ESO · formazione planetaria",
+        "url": "https://supernova.eso.org/exhibition/0507/?lang=en"
+      }
     ]
   },
   {
@@ -32090,6 +35904,56 @@ window.AdAstraGlossary = [
       {
         "title": "NASA · Pioneer 10",
         "url": "https://science.nasa.gov/mission/pioneer-10/"
+      }
+    ]
+  },
+  {
+    "id": "pirosseno",
+    "name": "Pirosseno",
+    "definition": "I pirosseni sono un gruppo di minerali silicatici con strutture a catena, frequenti nelle rocce magmatiche e importanti nello studio di superfici planetarie e meteoriti.",
+    "source": "https://www.treccani.it/enciclopedia/pirosseno/",
+    "lesson": "lezione-3-2.html",
+    "related": [
+      "silicato",
+      "olivina",
+      "basalto"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Una struttura a catene",
+        "paragraphs": [
+          "Le unità contenenti silicio e ossigeno si collegano in catene, mentre altri elementi occupano posizioni nella struttura. La composizione può comprendere ferro, magnesio, calcio e altri costituenti. Non si tratta di una catena visibile come un filo dentro la pietra: è un’organizzazione atomica ricostruita attraverso misure. La struttura permette di classificare minerali apparentemente simili e collega proprietà microscopiche e comportamento del materiale."
+        ]
+      },
+      {
+        "title": "Un nome collettivo",
+        "paragraphs": [
+          "Pirosseno indica un gruppo, non una specie di composizione invariabile. Esistono termini con strutture e proporzioni differenti. La precisione del nome deve essere adeguata ai dati disponibili: una misura remota può giustificare un’identificazione generale senza permettere di assegnare ogni dettaglio chimico. Il linguaggio scientifico non diventa migliore aggiungendo una classificazione più precisa di quanto consentano le osservazioni effettivamente effettuate."
+        ]
+      },
+      {
+        "title": "Un contributo alle rocce basaltiche",
+        "paragraphs": [
+          "I pirosseni partecipano alla composizione di molti basalti. Le associazioni con altri minerali e la tessitura raccontano il raffreddamento e le condizioni del materiale originario. Il singolo cristallo non determina da solo l’intera storia. Anche rocce formate in ambienti diversi possono condividere minerali, mentre differenze nelle proporzioni e nella struttura distinguono i casi. Per questo il confronto geologico usa più caratteristiche e non soltanto un nome riconosciuto."
+        ]
+      },
+      {
+        "title": "Un indizio sulle superfici lontane",
+        "paragraphs": [
+          "Le bande di assorbimento possono aiutare a riconoscere materiali contenenti pirosseni sulla Luna, su Marte o negli asteroidi. Il segnale dipende da composizione e condizioni della superficie. Polveri, mescolanze e alterazioni possono complicare la lettura. L’identificazione diventa più solida quando spettro, contesto e altri dati concordano. Il concetto rende concreto il legame fra una misura di luce e una domanda geologica: da quali materiali è costruito il mondo che stiamo osservando?"
+        ]
+      }
+    ],
+    "facts": [
+      "Un gruppo mineralogico può essere riconoscibile senza conoscere ogni dettaglio della composizione"
+    ],
+    "example": "Un gruppo mineralogico può essere riconoscibile senza conoscere ogni dettaglio della composizione",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/pirosseno/"
       }
     ]
   },
@@ -32443,6 +36307,60 @@ window.AdAstraGlossary = [
     "aliases": [
       "risoluzione astrometrica",
       "plate solve"
+    ]
+  },
+  {
+    "id": "plutone",
+    "name": "Plutone",
+    "definition": "Plutone è un pianeta nano transnettuniano, visitato dalla sonda New Horizons durante il sorvolo del 2015.",
+    "source": "https://www.treccani.it/enciclopedia/plutone/",
+    "lesson": "lezione-3-5.html",
+    "related": [
+      "pianeta-nano",
+      "new-horizons",
+      "kuiper-fascia"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un mondo oltre Nettuno",
+        "paragraphs": [
+          "Plutone appartiene alle popolazioni esterne del Sistema solare. La sua classificazione come pianeta nano non ne riduce l’interesse fisico. Montagne, ghiacci e strutture osservate mostrano un mondo complesso. Essere piccolo e lontano non significa essere una pietra uniforme e immutata. La geologia dipende da materiali e condizioni, che possono essere molto diverse da quelle necessarie a produrre forme apparentemente simili sulla Terra."
+        ]
+      },
+      {
+        "title": "Ghiacci di sostanze diverse",
+        "paragraphs": [
+          "Alle basse temperature superficiali possono esistere ghiacci volatili che non sono soltanto acqua. Azoto, metano e altri componenti partecipano ai processi e alle firme spettrali. Il loro comportamento dipende da temperatura e pressione. Una parola familiare come ghiaccio deve quindi essere accompagnata dal nome della sostanza. Diversamente si rischia di immaginare ogni pianura chiara come un lago terrestre congelato, ignorando la fisica specifica dell’ambiente plutoniano."
+        ]
+      },
+      {
+        "title": "Un incontro memorabile ma limitato",
+        "paragraphs": [
+          "New Horizons effettuò un sorvolo, non entrò in orbita. La missione ottenne immagini ravvicinate e molti dati, ma non una sorveglianza continua di ogni zona per anni. Copertura, risoluzione e illuminazione variano. Un atlante corretto conserva questi limiti e distingue fotografie, ricostruzioni e regioni meno documentate. Il grande progresso del 2015 non equivale ad avere già risolto tutte le domande sull’interno e sull’evoluzione del sistema."
+        ]
+      },
+      {
+        "title": "La categoria e il corpo reale",
+        "paragraphs": [
+          "La definizione adottata per i pianeti del Sistema solare distingue il ruolo dinamico di Plutone da quello degli otto pianeti. Non afferma che sia privo di atmosfera, satelliti o geologia. Caronte e gli altri compagni richiedono descrizioni proprie. Il confronto fra categoria e proprietà insegna a non usare la parola declassamento come se una decisione terminologica avesse reso improvvisamente meno complesso il mondo che gli strumenti continuano a studiare."
+        ]
+      }
+    ],
+    "facts": [
+      "Dal 2015 Plutone non è più un mondo mai esplorato da vicino"
+    ],
+    "example": "Dal 2015 Plutone non è più un mondo mai esplorato da vicino",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/plutone/"
+      },
+      {
+        "title": "NASA · Plutone, proprietà ed esplorazione",
+        "url": "https://science.nasa.gov/dwarf-planets/pluto/facts/"
+      }
     ]
   },
   {
@@ -33417,6 +37335,56 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "principio-indeterminazione",
+    "name": "Principio di indeterminazione",
+    "definition": "Il principio di indeterminazione pone limiti alle dispersioni congiunte di coppie di grandezze quantistiche, come posizione e quantità di moto, in uno stesso stato.",
+    "source": "https://www.treccani.it/enciclopedia/principio-di-indeterminazione/",
+    "lesson": "lezione-4-3.html",
+    "related": [
+      "quantita-di-moto",
+      "orbitale-atomico",
+      "quanto"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Più della precisione dello strumento",
+        "paragraphs": [
+          "Il principio non descrive soltanto un apparecchio costruito male. Nella teoria quantistica certe coppie di proprietà non possono avere simultaneamente dispersioni arbitrariamente piccole. Questo riguarda lo stato fisico e le distribuzioni dei risultati. L’incertezza sperimentale dello strumento è un altro problema, che può aggiungersi. Confondere i due livelli porta a pensare che basti perfezionare un microscopio per recuperare tutte le traiettorie della meccanica classica."
+        ]
+      },
+      {
+        "title": "Posizione e quantità di moto",
+        "paragraphs": [
+          "Uno stato molto localizzato nello spazio può richiedere una maggiore dispersione della quantità di moto. Il confronto può essere reso intuitivo pensando a onde e alla difficoltà di costruire un impulso molto concentrato con una sola lunghezza d’onda. L’analogia aiuta ma non sostituisce la teoria. Non significa che conoscere meglio una coordinata costringa una particella a scegliere volontariamente un nuovo moto per sfuggire all’osservatore."
+        ]
+      },
+      {
+        "title": "Il legame con gli atomi",
+        "paragraphs": [
+          "Gli elettroni atomici non vengono descritti come pianeti con orbite definite in ogni istante. Stati e distribuzioni di probabilità permettono invece di ricostruire proprietà osservabili e transizioni. Il principio è parte di questo quadro, non un motivo per rinunciare a previsioni precise. La spettroscopia e altri esperimenti mostrano che una descrizione probabilistica può essere rigorosa e verificabile, anche quando non assegna la traiettoria classica immaginata inizialmente."
+        ]
+      },
+      {
+        "title": "Che cosa non autorizza",
+        "paragraphs": [
+          "La parola indeterminazione non implica che qualsiasi evento sia ugualmente possibile o che l’energia possa essere violata a piacere. Le relazioni energia-tempo richiedono un’interpretazione specifica e non sono un permesso generale per prestiti energetici. Nel percorso divulgativo è meglio fissare prima il caso posizione-moto e chiarirne il significato. Il risultato è una modifica profonda del modo di descrivere il mondo microscopico, non una formula che annulla tutte le altre leggi."
+        ]
+      }
+    ],
+    "facts": [
+      "Indeterminazione quantistica e imprecisione di uno strumento non sono sinonimi"
+    ],
+    "example": "Indeterminazione quantistica e imprecisione di uno strumento non sono sinonimi",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/principio-di-indeterminazione/"
+      }
+    ]
+  },
+  {
     "id": "processo-r",
     "name": "Processo r",
     "definition": "Il processo r è un percorso di nucleosintesi nel quale catture successive di neutroni avvengono rapidamente rispetto ai decadimenti beta dei nuclei coinvolti. La lettera r significa rapido.",
@@ -33752,6 +37720,60 @@ window.AdAstraGlossary = [
     ],
     "aliases": [
       "protoni"
+    ]
+  },
+  {
+    "id": "protopianeta",
+    "name": "Protopianeta",
+    "definition": "Un protopianeta è un corpo planetario ancora nelle fasi di formazione e accrescimento.",
+    "source": "https://www.treccani.it/enciclopedia/protopianeta/",
+    "lesson": "lezione-3-6.html",
+    "related": [
+      "pianetesimo",
+      "accrescimento",
+      "disco-protoplanetario"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un mondo ancora in costruzione",
+        "paragraphs": [
+          "Il prefisso indica una fase di sviluppo, non una composizione unica. Un protopianeta può continuare ad accumulare solidi e gas, interagire con il disco e subire urti. Non va immaginato necessariamente come una piccola Terra già completa alla quale manchi soltanto il tempo per ingrandirsi. Le proprietà finali dipendono dalla storia degli apporti, dalle perdite e dall’ambiente nel quale il corpo si evolve."
+        ]
+      },
+      {
+        "title": "Il calore della crescita",
+        "paragraphs": [
+          "La materia che cade e si accumula può trasferire energia, mentre decadimenti radioattivi e altri processi contribuiscono al bilancio termico. Il corpo può modificare struttura e distribuzione interna dei materiali. Una differenziazione non deve essere attribuita automaticamente a qualunque aggregato. Dimensioni, composizione e tempi contano. Il collegamento fra accrescimento e interno planetario richiede quindi di seguire sia la quantità di materia sia l’energia coinvolta durante la crescita."
+        ]
+      },
+      {
+        "title": "L’immagine di un candidato giovane",
+        "paragraphs": [
+          "Nei dischi osservati si possono cercare segnali compatibili con oggetti in formazione. Un vuoto o una struttura ad anello non identifica da solo un pianeta. Servono riscontri e alternative. Anche una sorgente luminosa candidata può richiedere conferme. La distinzione fra struttura del disco e corpo riconosciuto è importante per non trasformare una rappresentazione artistica in un’immagine diretta di un mondo le cui proprietà siano già tutte misurate."
+        ]
+      },
+      {
+        "title": "Una storia con esiti diversi",
+        "paragraphs": [
+          "Accrescimento di gas, migrazione e collisioni possono produrre architetture differenti. Non tutti i protopianeti diventano pianeti sopravvissuti per miliardi di anni: alcuni si fondono con altri corpi o vengono rimossi dal sistema. La fase iniziale va quindi raccontata come un insieme di possibilità fisiche. Il concetto aiuta a comprendere la varietà degli esopianeti senza ridurre la formazione a una sequenza unica ripetuta esattamente intorno a ogni stella."
+        ]
+      }
+    ],
+    "facts": [
+      "Un protopianeta non è necessariamente una piccola copia già completa del pianeta finale"
+    ],
+    "example": "Un protopianeta non è necessariamente una piccola copia già completa del pianeta finale",
+    "sources": [
+      {
+        "title": "Treccani · riferimento generale al tema; non riscontro puntuale di tutta la scheda",
+        "url": "https://www.treccani.it/enciclopedia/protopianeta/"
+      },
+      {
+        "title": "NASA · formazione dei pianeti",
+        "url": "https://science.nasa.gov/exoplanets/how-do-planets-form/"
+      }
     ]
   },
   {
@@ -35493,6 +39515,56 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "reazione-acido-base",
+    "name": "Reazione acido-base",
+    "definition": "Nel modello di Brønsted una reazione acido-base trasferisce un protone da una specie donatrice, l’acido, a una specie accettrice, la base.",
+    "source": "https://www.treccani.it/enciclopedia/acido/",
+    "lesson": "lezione-10-2.html",
+    "related": [
+      "ione",
+      "equilibrio-chimico",
+      "acqua"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un trasferimento da seguire",
+        "paragraphs": [
+          "Il protone passa fra specie chimiche e modifica il loro stato. Non si tratta di una reazione nucleare che costruisce un elemento diverso. In acqua il protone viene descritto attraverso specie solvatate, non come una minuscola sfera isolata che resta indisturbata nel liquido. La spiegazione introduttiva può usare formule semplici, purché conservi il ruolo delle particelle coinvolte e il bilancio delle cariche."
+        ]
+      },
+      {
+        "title": "Acido e base sono ruoli",
+        "paragraphs": [
+          "Una specie può comportarsi diversamente secondo il partner e l’ambiente. L’acqua può accettare o cedere un protone in reazioni appropriate. Non basta assegnare una volta per tutte una qualità generica di aggressività a ogni sostanza. Il concetto descrive una relazione chimica. Altri modelli, come quello di Lewis, ampliano il linguaggio usando coppie elettroniche, perciò occorre specificare quale definizione venga impiegata."
+        ]
+      },
+      {
+        "title": "L’equilibrio non è sempre completo",
+        "paragraphs": [
+          "La trasformazione può stabilire un equilibrio con proporzioni dipendenti da specie, concentrazioni e condizioni. Forte e debole, riferiti a un acido o a una base, non significano semplicemente concentrato e diluito. Una piccola quantità di una specie forte e una grande quantità di una debole sono confronti differenti. Distinguere i termini permette di leggere correttamente proprietà e modelli degli ambienti chimici."
+        ]
+      },
+      {
+        "title": "Il collegamento con i pianeti",
+        "paragraphs": [
+          "Fluidi che interagiscono con rocce modificano specie disciolte e stabilità dei minerali. Gli equilibri acido-base contribuiscono a descrivere queste trasformazioni e interessano lo studio di ambienti potenzialmente abitabili. Non determinano da soli la presenza di vita. Sono una parte delle condizioni da ricostruire insieme a temperatura, composizione ed energia disponibile. La voce collega una reazione leggibile a una storia ambientale, mantenendo separati ingrediente chimico e interpretazione biologica."
+        ]
+      }
+    ],
+    "facts": [
+      "Acido forte non significa soluzione necessariamente concentrata"
+    ],
+    "example": "Acido forte non significa soluzione necessariamente concentrata",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/acido/"
+      }
+    ]
+  },
+  {
     "id": "reazione-chimica",
     "name": "Reazione chimica",
     "definition": "Una reazione chimica trasforma specie reagenti in prodotti mediante cambiamenti dei legami e della distribuzione elettronica, senza modificare l’identità dei nuclei come in una reazione nucleare.",
@@ -35822,6 +39894,56 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "resistenza-elettrica",
+    "name": "Resistenza elettrica",
+    "definition": "La resistenza elettrica caratterizza il rapporto fra tensione e corrente di un componente nelle condizioni considerate; si misura in ohm.",
+    "source": "https://www.treccani.it/enciclopedia/resistenza-elettrica/",
+    "lesson": "strumentazione.html",
+    "related": [
+      "ohm",
+      "resistivita",
+      "legge-ohm"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un ostacolo descritto quantitativamente",
+        "paragraphs": [
+          "Un componente resistivo richiede una differenza di potenziale per mantenere una determinata corrente. La resistenza permette di confrontare questa risposta. Non è una barriera che blocca necessariamente ogni passaggio di carica: valori diversi producono comportamenti diversi. Per un elemento ohmico, se il valore resta costante, una tensione doppia produce una corrente doppia. Nei componenti non ohmici il rapporto può invece dipendere dal punto di funzionamento."
+        ]
+      },
+      {
+        "title": "Forma e materiale",
+        "paragraphs": [
+          "Un filo più lungo oppone maggiore resistenza rispetto a un filo corto dello stesso materiale e sezione, nelle medesime condizioni. Aumentare la sezione riduce la resistenza. La resistività descrive invece una proprietà del materiale e non coincide con quella dell’intero oggetto. La distinzione spiega perché cambiare dimensioni di un cavo modifichi il comportamento anche senza cambiare il metallo di cui è composto."
+        ]
+      },
+      {
+        "title": "La temperatura entra nel risultato",
+        "paragraphs": [
+          "La resistenza può variare con la temperatura e non tutti i materiali seguono la stessa tendenza. Un valore dichiarato richiede quindi condizioni di riferimento. Durante l’uso il riscaldamento può modificare il circuito. Non si deve generalizzare il comportamento di un metallo a semiconduttori o a qualunque componente elettronico. Per misure e progettazione servono le caratteristiche reali, mentre l’esempio del filo serve a introdurre un caso semplice."
+        ]
+      },
+      {
+        "title": "I collegamenti della strumentazione",
+        "paragraphs": [
+          "Cavi e contatti hanno resistenza e possono causare cadute di tensione. Un contatto deteriorato può inoltre dissipare energia localmente. L’effetto diventa significativo quando la corrente cresce, per esempio durante movimenti e riscaldamento anticondensa. La diagnosi deve distinguere alimentatore insufficiente, collegamento inadatto e richiesta del carico. Conoscere il concetto non sostituisce il manuale, ma aiuta a leggere le specifiche senza ridurre tutto alla sola compatibilità della spina."
+        ]
+      }
+    ],
+    "facts": [
+      "Resistenza del componente e resistività del materiale non sono sinonimi"
+    ],
+    "example": "Resistenza del componente e resistività del materiale non sono sinonimi",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/resistenza-elettrica/"
+      }
+    ]
+  },
+  {
     "id": "resistivita",
     "name": "Resistività elettrica",
     "definition": "La resistività descrive l’opposizione di un materiale al passaggio di corrente elettrica nel modello di conduzione considerato. Nel SI si misura in ohm metro.",
@@ -36054,6 +40176,56 @@ window.AdAstraGlossary = [
     ],
     "aliases": [
       "ricombinazione elettronica"
+    ]
+  },
+  {
+    "id": "riconnessione-magnetica",
+    "name": "Riconnessione magnetica",
+    "definition": "La riconnessione magnetica è un processo nel quale cambia la connessione del campo magnetico in un plasma e una parte dell’energia magnetica può essere trasferita a particelle e moti.",
+    "source": "https://www.treccani.it/enciclopedia/riconnessione-magnetica/",
+    "lesson": "lezione-2-3.html",
+    "related": [
+      "campo-magnetico",
+      "plasma",
+      "brillamento-solare"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Le linee sono una guida",
+        "paragraphs": [
+          "Nei disegni il campo è rappresentato con linee. La riconnessione viene spesso mostrata come linee che si spezzano e si ricongiungono, ma non si tratta di fili materiali tagliati con forbici. Cambia la struttura del campo e il collegamento fra regioni del plasma. L’immagine aiuta a seguire la geometria, purché conservi la distinzione fra la rappresentazione e il fenomeno fisico misurato."
+        ]
+      },
+      {
+        "title": "Un trasferimento di energia",
+        "paragraphs": [
+          "L’energia inizialmente associata alla configurazione magnetica può contribuire a riscaldamento, accelerazione delle particelle e flussi di plasma. La ripartizione dipende dalle condizioni. Non viene creata energia dal nulla né trasformata tutta nello stesso effetto. Per descrivere un evento si confrontano bilanci e segnali differenti, distinguendo l’energia disponibile da quella che compare come luce in una particolare banda osservativa."
+        ]
+      },
+      {
+        "title": "Dal Sole alla Terra",
+        "paragraphs": [
+          "La riconnessione è importante nello studio dei brillamenti e dell’interazione fra vento solare e magnetosfera. Si tratta di ambienti differenti, nei quali il principio generale entra in dinamiche specifiche. Una regione solare luminosa e un disturbo magnetosferico non sono lo stesso oggetto trasferito nello spazio. Occorre seguire la catena fra fenomeno solare, propagazione e risposta locale, mantenendo distinti tempi e meccanismi."
+        ]
+      },
+      {
+        "title": "Come si verifica il processo",
+        "paragraphs": [
+          "Le osservazioni possono includere cambiamenti di campo, moti, riscaldamento e distribuzioni delle particelle. Simulazioni e dati permettono di confrontare le interpretazioni. Non basta disegnare due linee che si incrociano per dimostrare che sia avvenuta riconnessione. Il termine rende memorabile un’idea fisica: la geometria dei campi non è uno sfondo passivo, ma può cambiare e contribuire a trasformare l’energia disponibile in fenomeni che gli strumenti registrano."
+        ]
+      }
+    ],
+    "facts": [
+      "Le linee magnetiche non sono fili materiali: rappresentano la struttura del campo"
+    ],
+    "example": "Le linee magnetiche non sono fili materiali: rappresentano la struttura del campo",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/riconnessione-magnetica/"
+      }
     ]
   },
   {
@@ -36457,6 +40629,56 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "riga-proibita",
+    "name": "Riga proibita",
+    "definition": "Una riga proibita è associata a una transizione radiativa molto poco probabile nel meccanismo dominante di dipolo elettrico, ma possibile attraverso altri contributi.",
+    "source": "https://www.treccani.it/enciclopedia/infrarosso/",
+    "lesson": "lezione-5-4.html",
+    "related": [
+      "emissione-spontanea",
+      "livello-energetico",
+      "nebulosa-a-emissione"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un nome che può ingannare",
+        "paragraphs": [
+          "Proibita non significa impossibile in ogni circostanza. Le regole di selezione identificano transizioni sfavorite o escluse entro una certa approssimazione, mentre altri meccanismi possono renderle possibili. La probabilità può essere piccola e il tempo caratteristico lungo. Il linguaggio storico resta utile se viene spiegato, evitando il paradosso apparente di astronomi che fotografano una luce che la fisica avrebbe dichiarato inesistente."
+        ]
+      },
+      {
+        "title": "Il vantaggio di un gas rarefatto",
+        "paragraphs": [
+          "In un mezzo denso una collisione può modificare lo stato dell’atomo prima che avvenga una transizione lenta. In un ambiente rarefatto l’intervallo fra collisioni può essere più lungo, lasciando spazio all’emissione. Il risultato dipende da densità e probabilità dei processi. Non basta conoscere l’elemento: la stessa specie può produrre righe molto diverse secondo il contesto nel quale si trova."
+        ]
+      },
+      {
+        "title": "Le nebulose come laboratorio",
+        "paragraphs": [
+          "Molte righe importanti nei gas astronomici luminosi appartengono a questa categoria. Permettono di studiare condizioni che non si riproducono facilmente in un laboratorio ordinario con gas denso. Le parentesi quadre usate in notazioni come quelle di alcuni ioni richiamano la natura della transizione. Non indicano un elemento chimico nuovo. Una legenda chiara deve distinguere specie, stato di ionizzazione e tipo di riga."
+        ]
+      },
+      {
+        "title": "Dal nome alla diagnosi",
+        "paragraphs": [
+          "Rapporti fra righe possono fornire informazioni su temperatura e densità, quando si adottano dati atomici e modelli adeguati. Non sono misure immediate ricavabili soltanto confrontando due colori in una fotografia elaborata. Calibrazione, estinzione e banda degli strumenti contano. Il concetto permette di capire perché una luce poco probabile per un singolo atomo possa diventare importante nell’insieme e raccontare proprietà dell’ambiente che la rende osservabile."
+        ]
+      }
+    ],
+    "facts": [
+      "Proibita non significa impossibile: indica una transizione sfavorita nel meccanismo dominante"
+    ],
+    "example": "Proibita non significa impossibile: indica una transizione sfavorita nel meccanismo dominante",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/infrarosso/"
+      }
+    ]
+  },
+  {
     "id": "riga-spettrale",
     "name": "Riga spettrale",
     "definition": "Una riga spettrale è una struttura di emissione o assorbimento concentrata attorno a una frequenza o lunghezza d’onda, la cui posizione e forma possono rivelare proprietà della sorgente.",
@@ -36744,6 +40966,60 @@ window.AdAstraGlossary = [
     ],
     "aliases": [
       "risonanze orbitali"
+    ]
+  },
+  {
+    "id": "risonanza-spin-orbita",
+    "name": "Risonanza spin–orbita",
+    "definition": "Una risonanza spin–orbita lega il periodo di rotazione di un corpo al suo periodo orbitale attraverso un rapporto caratteristico.",
+    "source": "https://www.treccani.it/enciclopedia/risonanza/",
+    "lesson": "lezione-3-6.html",
+    "related": [
+      "rotazione-sincrona",
+      "risonanza-orbitale",
+      "periodo-orbitale"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Due movimenti da confrontare",
+        "paragraphs": [
+          "Un pianeta ruota attorno al proprio asse e percorre un’orbita attorno alla stella. I due periodi possono essere legati da un rapporto. La rotazione sincrona è il caso uno a uno, ma non l’unico possibile. Il termine spin indica qui la rotazione del corpo: non va confuso con lo spin quantistico delle particelle. La somiglianza della parola non rende uguali i due concetti fisici."
+        ]
+      },
+      {
+        "title": "Il caso di Mercurio",
+        "paragraphs": [
+          "Mercurio compie tre rotazioni rispetto alle stelle mentre completa due rivoluzioni intorno al Sole. Il rapporto viene indicato come tre a due. Non mostra quindi sempre la stessa faccia al Sole, come accadrebbe nella rotazione sincrona ideale. Per collegare questo rapporto al giorno solare occorre considerare insieme la rotazione e l’avanzamento lungo l’orbita, senza identificare il periodo di rotazione con l’intervallo fra due mezzogiorni."
+        ]
+      },
+      {
+        "title": "Le maree e la cattura",
+        "paragraphs": [
+          "L’evoluzione mareale può modificare la rotazione e favorire configurazioni risonanti. Il risultato dipende da eccentricità, struttura e storia del sistema. Non tutti i corpi vicini alla loro stella devono essere automaticamente sincroni. Anche la forma e la distribuzione interna di massa possono contribuire alla dinamica. Il rapporto osservato è quindi un indizio fisico che richiede un modello, non una semplice coincidenza numerica da memorizzare."
+        ]
+      },
+      {
+        "title": "Una distinzione utile per le lune",
+        "paragraphs": [
+          "La Luna offre il caso familiare della rotazione quasi sincrona con la rivoluzione intorno alla Terra. Mercurio mostra che la famiglia delle risonanze è più ampia. Una figura didattica deve seguire un punto della superficie durante più orbite, distinguendo il riferimento stellare da quello rivolto al compagno. In questo modo diventa visibile perché ruotare non significhi necessariamente mostrare nel tempo tutte le facce allo stesso osservatore."
+        ]
+      }
+    ],
+    "facts": [
+      "Mercurio ruota tre volte rispetto alle stelle durante due orbite intorno al Sole"
+    ],
+    "example": "Mercurio ruota tre volte rispetto alle stelle durante due orbite intorno al Sole",
+    "sources": [
+      {
+        "title": "Treccani · riferimento generale al tema; non riscontro puntuale di tutta la scheda",
+        "url": "https://www.treccani.it/enciclopedia/risonanza/"
+      },
+      {
+        "title": "NASA · Mercurio, rotazione e rivoluzione",
+        "url": "https://science.nasa.gov/mercury/facts/"
+      }
     ]
   },
   {
@@ -37564,6 +41840,60 @@ window.AdAstraGlossary = [
       {
         "title": "Photometrics · linearità e capacità del sensore",
         "url": "https://www.photometrics.com/wp-content/uploads/2019/10/Technical-Notes-Camera-Test-Protocol-November-2019.pdf"
+      }
+    ]
+  },
+  {
+    "id": "saturno",
+    "name": "Saturno",
+    "definition": "Saturno è un pianeta gigante del Sistema solare, noto per gli anelli estesi composti da moltissime particelle e per il suo ricco sistema di satelliti.",
+    "source": "https://www.treccani.it/enciclopedia/saturno/",
+    "lesson": "lezione-3-3.html",
+    "related": [
+      "anello-planetario",
+      "cassini",
+      "huygens-sonda"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Gli anelli non sono un disco rigido",
+        "paragraphs": [
+          "Particelle di dimensioni diverse orbitano attorno al pianeta e formano una struttura sottile rispetto alla sua estensione. La luce e l’ombra rendono evidente il sistema, ma non ne trasformano la materia in una superficie continua. Divisioni e onde rispondono alla dinamica collettiva e alle interazioni con satelliti. Una figura con cerchi solidi è soltanto uno schema e deve evitare di suggerire un oggetto simile a un piatto."
+        ]
+      },
+      {
+        "title": "La prospettiva cambia",
+        "paragraphs": [
+          "L’apertura apparente degli anelli dipende dall’orientamento rispetto all’osservatore e varia durante il percorso orbitale di Saturno. Quando sono visti quasi di taglio diventano molto meno evidenti. Non sono scomparsi fisicamente. Questo è un buon esempio di come una struttura reale possa cambiare aspetto senza cambiare nello stesso modo la propria forma. Per confrontare fotografie servono quindi data e geometria, oltre alla qualità dello strumento."
+        ]
+      },
+      {
+        "title": "Atmosfera e interno",
+        "paragraphs": [
+          "Saturno è dominato da idrogeno ed elio, ma la parola gassoso non descrive ogni condizione profonda. Pressione e temperatura modificano la materia. Bande e tempeste visibili appartengono all’atmosfera. La bassa densità media è un rapporto fra massa e volume, non la densità uniforme di tutti gli strati. L’immagine divulgativa del pianeta che galleggerebbe richiede perciò molte semplificazioni e non è un esperimento fisicamente realizzabile con un oceano ordinario."
+        ]
+      },
+      {
+        "title": "Un sistema esplorato in dettaglio",
+        "paragraphs": [
+          "Cassini e il modulo Huygens hanno fornito osservazioni complementari del sistema, con Huygens sceso su Titano. Encelado e altri satelliti pongono domande proprie su ghiacci e ambienti interni. Le immagini di mondi diversi non sono intercambiabili. Un atlante corretto conserva soggetto, scala e fonte, permettendo di capire che anelli, atmosfera e satelliti raccontano processi collegati ma non costituiscono un unico ambiente con proprietà identiche."
+        ]
+      }
+    ],
+    "facts": [
+      "Gli anelli possono diventare poco visibili per prospettiva senza essere fisicamente scomparsi"
+    ],
+    "example": "Gli anelli possono diventare poco visibili per prospettiva senza essere fisicamente scomparsi",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/saturno/"
+      },
+      {
+        "title": "NASA · Saturno e il suo sistema",
+        "url": "https://science.nasa.gov/saturn/facts/"
       }
     ]
   },
@@ -38469,6 +42799,156 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "serie-balmer",
+    "name": "Serie di Balmer",
+    "definition": "La serie di Balmer comprende transizioni dell’idrogeno atomico fra il livello con numero principale due e livelli superiori; le prime righe cadono nel visibile.",
+    "source": "https://www.treccani.it/enciclopedia/spettroscopia/",
+    "lesson": "lezione-4-3.html",
+    "related": [
+      "h-alfa",
+      "h-beta",
+      "numero-quantico-principale"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Una famiglia ordinata di righe",
+        "paragraphs": [
+          "Le righe dell’idrogeno non occupano posizioni casuali nello spettro. Si organizzano in serie collegate a livelli energetici. Nella serie di Balmer le emissioni terminano sul livello due, mentre gli assorbimenti corrispondenti partono da quel livello. La distinzione tra direzione della transizione e posizione della riga permette di capire perché la stessa famiglia possa essere riconosciuta in contesti osservativi differenti."
+        ]
+      },
+      {
+        "title": "Due nomi familiari",
+        "paragraphs": [
+          "H-alfa corrisponde alla transizione fra i livelli tre e due, H-beta fra quattro e due. Le loro lunghezze d’onda sono circa 656 e 486 nanometri. I numeri identificano fotoni differenti e non due elementi diversi. Un filtro H-alfa seleziona una regione spettrale stretta, ma il significato di un’immagine dipende dal soggetto e dalla banda effettivamente trasmessa. Il nome del filtro non basta a descrivere tutta la fisica della sorgente."
+        ]
+      },
+      {
+        "title": "L’intensità non misura soltanto idrogeno",
+        "paragraphs": [
+          "Le popolazioni dei livelli dipendono dalle condizioni. Una stella ricca di idrogeno può mostrare righe di Balmer diverse da un’altra, senza che la differenza sia spiegata dalla sola abbondanza. Temperatura, ionizzazione e formazione delle righe entrano nell’interpretazione. Il confronto fra più caratteristiche permette di ricostruire il quadro, evitando di trattare ogni riga come una semplice barra che conta direttamente gli atomi presenti."
+        ]
+      },
+      {
+        "title": "Dalle stelle alle nebulose",
+        "paragraphs": [
+          "La serie è utile nello studio di atmosfere stellari e gas luminosi. Emissione, assorbimento e rapporti fra righe raccontano problemi diversi. Occorre anche correggere effetti strumentali e considerare l’estinzione lungo il percorso. La famiglia di Balmer offre quindi un primo alfabeto osservativo: poche righe riconoscibili collegano la struttura dell’atomo a oggetti molto grandi, purché si mantenga il passaggio fra misura e modello fisico."
+        ]
+      }
+    ],
+    "facts": [
+      "H-alfa e H-beta appartengono alla stessa serie, ma coinvolgono livelli iniziali diversi"
+    ],
+    "example": "H-alfa e H-beta appartengono alla stessa serie, ma coinvolgono livelli iniziali diversi",
+    "sources": [
+      {
+        "title": "Treccani · riferimento generale al tema; non riscontro puntuale di tutta la scheda",
+        "url": "https://www.treccani.it/enciclopedia/spettroscopia/"
+      }
+    ]
+  },
+  {
+    "id": "serie-lyman",
+    "name": "Serie di Lyman",
+    "definition": "La serie di Lyman comprende transizioni dell’idrogeno atomico fra il livello fondamentale e livelli superiori; le lunghezze d’onda di riposo appartengono all’ultravioletto.",
+    "source": "https://www.treccani.it/enciclopedia/lyman_(Dizionario-delle-Scienze-Fisiche)/",
+    "lesson": "lezione-4-3.html",
+    "related": [
+      "serie-balmer",
+      "ultravioletto",
+      "redshift"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Il livello fondamentale",
+        "paragraphs": [
+          "Nella descrizione dell’idrogeno il livello con numero principale uno è quello fondamentale. Le emissioni della serie di Lyman terminano su quel livello, mentre gli assorbimenti corrispondenti lo usano come stato iniziale. Non si tratta di una molecola diversa o di un altro isotopo. Cambia la coppia di stati coinvolta, e quindi l’energia del fotone, rispetto alle righe che appartengono alla serie di Balmer."
+        ]
+      },
+      {
+        "title": "Lyman alfa come primo termine",
+        "paragraphs": [
+          "La transizione fra due e uno produce la riga Lyman alfa, con lunghezza d’onda di riposo di circa 121,6 nanometri. È fuori dal visibile. Una figura che la colori deve dichiarare la rappresentazione. Le osservazioni richiedono inoltre di considerare l’assorbimento atmosferico e gli strumenti disponibili. Il fatto che una riga esista fisicamente non garantisce che sia accessibile da terra con un normale telescopio ottico."
+        ]
+      },
+      {
+        "title": "Il gas lungo il percorso",
+        "paragraphs": [
+          "La radiazione può interagire con idrogeno incontrato fra sorgente e osservatore. Negli spettri lontani le caratteristiche di assorbimento possono diventare uno strumento per studiare materiale interposto. Non ogni riga appartiene quindi all’atmosfera della sorgente originaria. Il confronto delle posizioni e delle proprietà permette di separare contributi, costruendo informazioni su ambienti che non vediamo necessariamente come oggetti luminosi isolati."
+        ]
+      },
+      {
+        "title": "Una riga ultravioletta può arrivare nel visibile",
+        "paragraphs": [
+          "L’espansione cosmica allunga le lunghezze d’onda. Una Lyman alfa emessa nell’ultravioletto può essere osservata in altre bande se il redshift è sufficientemente grande. Non ha cambiato identità atomica: è cambiato il rapporto fra lunghezza d’onda all’emissione e all’osservazione. Questo esempio rende concreto il redshift e mostra perché la banda nella quale misuriamo un segnale non coincida sempre con quella nella quale venne prodotto."
+        ]
+      }
+    ],
+    "facts": [
+      "Lyman alfa ha lunghezza d’onda di riposo circa 121,6 nm, ma il redshift può spostarla in altre bande"
+    ],
+    "example": "Lyman alfa ha lunghezza d’onda di riposo circa 121,6 nm, ma il redshift può spostarla in altre bande",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/lyman_(Dizionario-delle-Scienze-Fisiche)/"
+      }
+    ]
+  },
+  {
+    "id": "sezione-urto",
+    "name": "Sezione d’urto",
+    "definition": "La sezione d’urto è una grandezza con dimensioni di area che esprime quanto sia probabile un determinato processo di interazione nelle condizioni considerate.",
+    "source": "https://www.treccani.it/enciclopedia/sezione-d-urto_(Enciclopedia-della-Scienza-e-della-Tecnica)/",
+    "lesson": "lezione-10-4.html",
+    "related": [
+      "neutrino",
+      "cattura-neutronica",
+      "cammino-libero-medio"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un bersaglio efficace",
+        "paragraphs": [
+          "L’immagine di un bersaglio aiuta a capire perché una probabilità possa essere rappresentata attraverso un’area. La sezione d’urto non coincide però necessariamente con la dimensione geometrica della particella. Dipende dal processo e dall’energia. Due particelle possono interagire diversamente secondo ciò che si vuole misurare, perciò parlare della loro larghezza senza specificare l’interazione può creare una falsa rappresentazione di piccole biglie solide."
+        ]
+      },
+      {
+        "title": "Energia e tipo di evento",
+        "paragraphs": [
+          "Una collisione può produrre diffusione, cattura o altri risultati. Ogni canale possiede proprietà specifiche. La dipendenza dall’energia può avere andamenti e strutture, comprese risonanze, che richiedono dati. Non vale una regola universale secondo cui andare più piano renda sempre più probabile qualunque interazione. Per leggere un grafico occorre sapere quali particelle entrino, quale evento venga contato e in quale intervallo energetico siano state effettuate le misure."
+        ]
+      },
+      {
+        "title": "Il numero di bersagli conta",
+        "paragraphs": [
+          "La probabilità complessiva di interagire attraversando un materiale dipende anche da quanti bersagli siano presenti e dallo spessore percorso. Una sezione piccola può richiedere grandi rivelatori e molti eventi per ottenere un segnale. Questo aiuta a comprendere la difficoltà della rivelazione dei neutrini. La debole interazione non significa assenza totale di interazioni: significa che occorrono condizioni e statistiche adatte a osservare processi rari."
+        ]
+      },
+      {
+        "title": "Un ponte fra laboratorio e cosmo",
+        "paragraphs": [
+          "Le reazioni stellari e il trasporto della radiazione richiedono conoscenza delle probabilità microscopiche. Misure di laboratorio e modelli forniscono sezioni d’urto utili, con incertezze e limiti di applicazione. Il barn è un’unità usata in fisica nucleare ed equivale a dieci alla meno ventotto metri quadrati. L’unità rende pratici i numeri, mentre il significato resta la probabilità di uno specifico processo, non una fotografia della superficie del nucleo."
+        ]
+      }
+    ],
+    "facts": [
+      "Una sezione d’urto dipende dal processo e dall’energia: non è sempre l’area geometrica della particella"
+    ],
+    "example": "Una sezione d’urto dipende dal processo e dall’energia: non è sempre l’area geometrica della particella",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/sezione-d-urto_(Enciclopedia-della-Scienza-e-della-Tecnica)/"
+      }
+    ]
+  },
+  {
     "id": "sfera-celeste",
     "name": "Sfera celeste",
     "definition": "Superficie immaginaria sulla quale rappresentiamo le direzioni degli astri, senza collocarli tutti alla stessa distanza reale.",
@@ -38517,6 +42997,56 @@ window.AdAstraGlossary = [
       }
     ],
     "editorialStatus": "scheda-estesa"
+  },
+  {
+    "id": "silicato",
+    "name": "Silicato",
+    "definition": "I silicati sono composti nei quali silicio e ossigeno formano unità strutturali combinate con altri elementi. Costituiscono una parte fondamentale delle rocce e delle polveri cosmiche.",
+    "source": "https://www.treccani.it/enciclopedia/silicati/",
+    "lesson": "lezione-3-2.html",
+    "related": [
+      "silicio",
+      "ossigeno",
+      "polvere-interstellare"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un mattone geometrico",
+        "paragraphs": [
+          "Molti silicati vengono descritti attraverso tetraedri: un silicio è circondato da quattro ossigeni. Queste unità possono restare relativamente separate oppure condividere ossigeni e costruire catene, strati o reti. Il tetraedro è una descrizione della disposizione atomica, non una piccola piramide vuota di pietra. Collegare la geometria alla composizione permette di capire perché una stessa famiglia comprenda minerali con proprietà differenti."
+        ]
+      },
+      {
+        "title": "Una famiglia, non una sostanza",
+        "paragraphs": [
+          "Olivina, pirosseni e feldspati appartengono a gruppi diversi di silicati. Cambiano collegamenti, elementi presenti e proporzioni. Dire che un campione contiene silicati fornisce quindi un’informazione generale, ma non identifica automaticamente il minerale preciso. Per conoscere una roccia servono composizione, struttura e relazioni fra i suoi componenti. La distinzione fra famiglia, minerale e roccia evita di usare tre livelli della classificazione come sinonimi."
+        ]
+      },
+      {
+        "title": "Dalla Terra alla polvere",
+        "paragraphs": [
+          "I silicati sono importanti nei pianeti rocciosi e nella materia solida distribuita nello spazio. I granuli possono avere strutture cristalline o più disordinate, con firme differenti. Una misura infrarossa può rivelare caratteristiche dei legami e suggerire proprietà del materiale. Il passaggio dallo spettro alla composizione richiede confronti con dati pertinenti: non basta riconoscere una curva generica per assegnare a ogni granulo una roccia terrestre specifica."
+        ]
+      },
+      {
+        "title": "Una storia scritta nella struttura",
+        "paragraphs": [
+          "Riscaldamento, raffreddamento e trasformazioni possono modificare il materiale. Le proprietà osservate aiutano a ricostruire queste esperienze, insieme ad altri indizi. Un silicato rilevato in una nube e uno raccolto in un meteorite non hanno necessariamente la stessa storia. Il termine collega così chimica e geologia planetaria: gli atomi costruiscono strutture e quelle strutture conservano informazioni sui processi che la materia ha attraversato prima di essere osservata."
+        ]
+      }
+    ],
+    "facts": [
+      "Silicato indica una famiglia: non identifica da solo una roccia o un singolo minerale"
+    ],
+    "example": "Silicato indica una famiglia: non identifica da solo una roccia o un singolo minerale",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/silicati/"
+      }
+    ]
   },
   {
     "id": "silicio",
@@ -38962,6 +43492,156 @@ window.AdAstraGlossary = [
     ],
     "aliases": [
       "solstizi"
+    ]
+  },
+  {
+    "id": "solubilita",
+    "name": "Solubilità",
+    "definition": "La solubilità descrive quanto una sostanza possa essere presente in soluzione all’equilibrio con un’altra fase, nelle condizioni specificate.",
+    "source": "https://www.treccani.it/enciclopedia/solubilita/",
+    "lesson": "lezione-10-2.html",
+    "related": [
+      "soluzione-chimica",
+      "equilibrio-chimico",
+      "pressione-parziale"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un equilibrio fra fasi",
+        "paragraphs": [
+          "Aggiungendo materiale a un solvente si può raggiungere una condizione nella quale una parte resta in una fase separata. La soluzione è allora satura rispetto a quella sostanza nelle condizioni considerate. Non significa che tutto il sistema abbia smesso di muoversi: scambi microscopici possono continuare con un bilancio. Per descriverlo occorre sapere quale specie e quale fase siano presenti, non soltanto osservare un deposito sul fondo."
+        ]
+      },
+      {
+        "title": "La temperatura può cambiare il limite",
+        "paragraphs": [
+          "Molte sostanze mostrano solubilità variabile con la temperatura, ma non esiste una regola unica secondo cui scaldare sciolga sempre di più. Il risultato dipende dal sistema e dal processo. Anche i gas possono rispondere diversamente dai solidi familiari. Una scheda deve quindi indicare condizioni e unità del valore, evitando di riportare una quantità come proprietà universale del soluto in qualunque ambiente."
+        ]
+      },
+      {
+        "title": "La pressione e i gas",
+        "paragraphs": [
+          "Per i gas la pressione parziale e le interazioni con il liquido contribuiscono a determinare quanto materiale si trovi disciolto. Eventuali reazioni complicano il quadro più semplice. Questo collegamento interessa atmosfere e oceani: la distribuzione di una specie fra aria e liquido dipende da equilibri e condizioni. Non basta conoscere la quantità totale sul pianeta per sapere in quale serbatoio si trovi."
+        ]
+      },
+      {
+        "title": "I minerali conservano trasformazioni",
+        "paragraphs": [
+          "Precipitazione e dissoluzione possono produrre o consumare minerali, lasciando indizi nella geologia. Cambiare temperatura, composizione o disponibilità dei fluidi modifica i percorsi. Per interpretare una roccia occorre ricostruire più di una sola proprietà chimica. Il concetto di solubilità permette di collegare un’esperienza quotidiana a domande planetarie: come si spostano gli elementi, dove si concentrano e quali condizioni possono lasciare una firma leggibile molto tempo dopo."
+        ]
+      }
+    ],
+    "facts": [
+      "La solubilità richiede condizioni dichiarate: aumentare la temperatura non ha sempre lo stesso effetto"
+    ],
+    "example": "La solubilità richiede condizioni dichiarate: aumentare la temperatura non ha sempre lo stesso effetto",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/solubilita/"
+      }
+    ]
+  },
+  {
+    "id": "soluzione-chimica",
+    "name": "Soluzione chimica",
+    "definition": "Una soluzione è una miscela omogenea su scala appropriata, nella quale uno o più componenti sono dispersi nel solvente a livello molecolare o ionico.",
+    "source": "https://www.treccani.it/enciclopedia/soluzione/",
+    "lesson": "lezione-10-2.html",
+    "related": [
+      "molecola",
+      "ione",
+      "acqua"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Il materiale non è scomparso",
+        "paragraphs": [
+          "Quando un soluto si scioglie, non viene cancellato. Le specie si distribuiscono nel mezzo e possono interagire con esso. Una soluzione trasparente può contenere quantità importanti di sostanze disciolte. La trasparenza non è quindi una prova di purezza. Per descrivere il sistema bisogna identificare componenti e concentrazioni, distinguendo ciò che vediamo direttamente da ciò che analisi e misure rivelano nel liquido."
+        ]
+      },
+      {
+        "title": "Omogenea non significa immobile",
+        "paragraphs": [
+          "Le particelle continuano a muoversi e interagire. L’omogeneità riguarda il fatto che, alla scala e nelle condizioni considerate, non si distinguano regioni con composizioni macroscopicamente diverse. Una sospensione di granelli non è lo stesso caso di un sale disciolto. Anche il comportamento può cambiare con temperatura e composizione. La parola soluzione descrive uno stato del sistema, non una proprietà eterna indipendente dalle condizioni."
+        ]
+      },
+      {
+        "title": "Molecole e ioni",
+        "paragraphs": [
+          "Un composto può restare come molecole oppure formare specie ioniche nel processo. Sciogliere non equivale sempre alla stessa trasformazione chimica. Le proprietà del solvente contribuiscono a stabilizzare le specie e modificano gli equilibri. Per questo acqua, ammoniaca o altri liquidi non sono semplici contenitori intercambiabili. Il mezzo entra nella fisica e nella chimica della soluzione, influenzando ciò che può reagire e come."
+        ]
+      },
+      {
+        "title": "Il confronto planetario",
+        "paragraphs": [
+          "Sali e altre sostanze disciolte possono cambiare proprietà dei fluidi, comprese condizioni di congelamento e disponibilità chimica. Un oceano extraterrestre ipotizzato non deve essere immaginato automaticamente come acqua pura terrestre. Le ricostruzioni usano dati e modelli, distinguendo presenza del liquido, composizione e possibili interazioni con il fondale. La soluzione diventa così un collegamento fra materia, temperatura e ambiente, utile per discutere abitabilità senza ridurla a una sola sostanza presente."
+        ]
+      }
+    ],
+    "facts": [
+      "Una soluzione limpida può contenere molte sostanze disciolte: trasparente non significa pura"
+    ],
+    "example": "Una soluzione limpida può contenere molte sostanze disciolte: trasparente non significa pura",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/soluzione/"
+      }
+    ]
+  },
+  {
+    "id": "solvatazione",
+    "name": "Solvatazione",
+    "definition": "La solvatazione è l’interazione delle specie disciolte con le molecole del solvente, che ne modifica ambiente e comportamento.",
+    "source": "https://www.treccani.it/vocabolario/solvatazione/",
+    "lesson": "lezione-10-2.html",
+    "related": [
+      "soluzione-chimica",
+      "ione",
+      "legame-idrogeno"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Il solvente partecipa",
+        "paragraphs": [
+          "Un soluto non si trova in un vuoto semplicemente riempito di liquido. Le molecole circostanti interagiscono con esso attraverso cariche, dipoli e legami di diversa natura. Queste interazioni possono stabilizzare determinate specie e influenzarne mobilità e reattività. Il solvente è quindi parte del sistema fisico. Cambiarlo può modificare il risultato, anche se il nome e la quantità iniziale del soluto restano uguali."
+        ]
+      },
+      {
+        "title": "Un ambiente attorno allo ione",
+        "paragraphs": [
+          "Intorno a una particella carica le molecole polari possono disporsi con orientamenti favoriti. L’immagine del guscio di solvatazione rende l’idea, ma non deve suggerire una parete rigida e permanente. Le molecole possono scambiarsi e la struttura dipende dal caso. Il numero di vicini e la forza delle interazioni contribuiscono alle proprietà, che non si ricavano immaginando soltanto lo ione nudo isolato."
+        ]
+      },
+      {
+        "title": "Il caso dell’acqua",
+        "paragraphs": [
+          "Quando il solvente è acqua si parla di idratazione delle specie disciolte. Questo uso del termine deve essere distinto da altri processi di incorporazione o reazione con acqua. La precisione è utile perché la stessa parola compare anche in mineralogia. Il contesto chiarisce se stiamo descrivendo l’ambiente di uno ione in soluzione, acqua dentro un cristallo oppure una trasformazione chimica che costruisce un composto diverso."
+        ]
+      },
+      {
+        "title": "Un collegamento con gli ambienti planetari",
+        "paragraphs": [
+          "Nei fluidi extraterrestri ipotizzati o misurati, solvente e sali influenzano gli equilibri. Non basta trovare le stesse molecole per assumere che reagiscano come in un esperimento terrestre con condizioni diverse. Temperatura, pressione e composizione modificano la solvatazione. Il concetto amplia la domanda sull’abitabilità: oltre agli ingredienti occorre capire l’ambiente microscopico che ne permette movimento, incontro e trasformazione, senza dedurre automaticamente una funzione biologica dalla presenza di un liquido."
+        ]
+      }
+    ],
+    "facts": [
+      "Il solvente modifica il comportamento del soluto: non è soltanto un contenitore"
+    ],
+    "example": "Il solvente modifica il comportamento del soluto: non è soltanto un contenitore",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/vocabolario/solvatazione/"
+      }
     ]
   },
   {
@@ -39588,6 +44268,60 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "spitzer",
+    "name": "Spitzer",
+    "definition": "Spitzer fu un telescopio spaziale della NASA dedicato all’infrarosso, operativo scientificamente dal 2003 al 2020.",
+    "source": "https://www.treccani.it/enciclopedia/telescopio/",
+    "lesson": "lezione-10-5.html",
+    "related": [
+      "infrarosso",
+      "polvere-interstellare",
+      "telescopio-spaziale"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Vedere oltre il visibile",
+        "paragraphs": [
+          "La radiazione infrarossa permette di studiare sorgenti e materiali che una sola fotografia ottica descrive male. Polveri e regioni di formazione stellare possono acquistare un aspetto completamente diverso. Spitzer contribuì a questo ampliamento dello sguardo. Non significa che l’infrarosso attraversi ogni nube senza ostacoli: trasparenza, emissione e assorbimento dipendono dalla lunghezza d’onda e dalle caratteristiche del materiale incontrato lungo la linea di vista."
+        ]
+      },
+      {
+        "title": "Il telescopio emette a sua volta",
+        "paragraphs": [
+          "Un osservatorio ha una temperatura e produce radiazione termica. Per alcune misure infrarosse questo segnale può interferire con quello cercato. Il raffreddamento è quindi parte essenziale del progetto. Spitzer utilizzò una fase criogenica e, dopo l’esaurimento del refrigerante, continuò con capacità diverse. La distinzione spiega perché la durata di una missione e quella di tutte le sue modalità osservative non coincidano necessariamente."
+        ]
+      },
+      {
+        "title": "Pianeti e galassie nello stesso archivio",
+        "paragraphs": [
+          "La missione osservò soggetti vicini e lontani, contribuendo anche allo studio degli esopianeti. Per capire un risultato occorre sapere se la misura riguarda luce complessiva, variazioni durante un transito oppure informazioni spettrali. Una sorgente rappresentata in una bella immagine non è automaticamente risolta in dettagli spaziali. La capacità di misurare una variazione può precedere di molto la possibilità di mostrare una superficie separata in una fotografia."
+        ]
+      },
+      {
+        "title": "La fine delle riprese non chiude la ricerca",
+        "paragraphs": [
+          "Il termine delle operazioni scientifiche nel 2020 non cancellò i dati acquisiti. Archivi e nuove analisi permettono confronti con osservazioni successive. Una scoperta pubblicata anni dopo può utilizzare misure più vecchie, senza indicare che il telescopio sia ancora in acquisizione. Distinguere data della ripresa, analisi e pubblicazione rende più preciso il racconto delle missioni e aiuta a leggere correttamente le notizie astronomiche."
+        ]
+      }
+    ],
+    "facts": [
+      "Un archivio scientifico continua a produrre risultati dopo il termine della missione"
+    ],
+    "example": "Un archivio scientifico continua a produrre risultati dopo il termine della missione",
+    "sources": [
+      {
+        "title": "Treccani · riferimento generale al tema; non riscontro puntuale di tutta la scheda",
+        "url": "https://www.treccani.it/enciclopedia/telescopio/"
+      },
+      {
+        "title": "NASA · Spitzer, cronologia e osservazioni",
+        "url": "https://science.nasa.gov/mission/spitzer/"
+      }
+    ]
+  },
+  {
     "id": "sputnik-1",
     "name": "Sputnik 1",
     "definition": "Sputnik 1 fu il primo satellite artificiale posto in orbita terrestre, lanciato dall’Unione Sovietica il 4 ottobre 1957.",
@@ -40046,6 +44780,56 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "stratosfera",
+    "name": "Stratosfera",
+    "definition": "La stratosfera è lo strato atmosferico sopra la troposfera, nel quale il profilo termico terrestre presenta generalmente un aumento della temperatura con la quota.",
+    "source": "https://www.treccani.it/enciclopedia/stratosfera/",
+    "lesson": "lezione-7-5.html",
+    "related": [
+      "troposfera",
+      "ultravioletto",
+      "atmosfera"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Uno strato definito dal comportamento termico",
+        "paragraphs": [
+          "Il nome identifica una regione dell’atmosfera terrestre attraverso il suo profilo di temperatura e la posizione rispetto agli strati vicini. Il confine non è un pavimento solido e la quota varia. L’aumento medio della temperatura con l’altezza distingue questa regione dalla troposfera sottostante. Non significa che ogni punto sia caldo nel senso quotidiano: temperatura relativa e valore assoluto sono informazioni da tenere separate."
+        ]
+      },
+      {
+        "title": "Il ruolo dell’ozono",
+        "paragraphs": [
+          "L’assorbimento di radiazione solare da parte dell’ozono contribuisce al riscaldamento stratosferico. L’ozono non forma una pellicola solida: è distribuito nel gas, con concentrazioni variabili. La cosiddetta fascia dell’ozono indica una regione di particolare importanza, non una superficie impenetrabile. La distinzione aiuta a capire perché composizione e assorbimento possano cambiare senza che compaia un foro materiale simile a uno strappo in una coperta."
+        ]
+      },
+      {
+        "title": "Osservare sopra parte dell’atmosfera",
+        "paragraphs": [
+          "Palloni e osservatori ad alta quota possono portare strumenti sopra una parte importante del gas e del vapore acqueo. Non si trovano però automaticamente nello spazio né eliminano ogni assorbimento. Il beneficio dipende dalla banda osservata e dalla colonna atmosferica residua. Per alcuni obiettivi occorre ancora un telescopio spaziale. L’altezza da sola non sostituisce la valutazione di quali lunghezze d’onda raggiungano effettivamente il rivelatore."
+        ]
+      },
+      {
+        "title": "Classificazioni che si incrociano",
+        "paragraphs": [
+          "Stratosfera, ionosfera e ozonosfera non sono necessariamente tre scatole indipendenti disposte una dopo l’altra. Alcuni nomi derivano dalla temperatura, altri dalla composizione o dalle proprietà elettriche. Una buona mappa dichiara il criterio utilizzato. Questa attenzione evita di memorizzare un elenco rigido senza comprenderlo e permette di confrontare atmosfere planetarie diverse, nelle quali gli stessi meccanismi e gli stessi profili non devono riprodurre esattamente la struttura terrestre."
+        ]
+      }
+    ],
+    "facts": [
+      "Lo strato dell’ozono non è una membrana solida intorno alla Terra"
+    ],
+    "example": "Lo strato dell’ozono non è una membrana solida intorno alla Terra",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/stratosfera/"
+      }
+    ]
+  },
+  {
     "id": "stretching",
     "name": "Stretching dell’immagine",
     "definition": "Lo stretching è una trasformazione dei livelli di un’immagine che rende più visibili differenze di luminosità poco percepibili nella rappresentazione iniziale.",
@@ -40447,6 +45231,114 @@ window.AdAstraGlossary = [
     },
     "aliases": [
       "supernove"
+    ]
+  },
+  {
+    "id": "swift",
+    "name": "Swift, osservatorio spaziale",
+    "definition": "Il Neil Gehrels Swift Observatory è una missione spaziale lanciata nel 2004 per osservare fenomeni transitori in più bande, in particolare lampi gamma.",
+    "source": "https://www.treccani.it/enciclopedia/telescopio/",
+    "lesson": "lezione-10-5.html",
+    "related": [
+      "raggi-gamma",
+      "raggi-x",
+      "curva-di-luce"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Arrivare mentre il fenomeno cambia",
+        "paragraphs": [
+          "Un lampo gamma può durare poco e lasciare un’emissione successiva che evolve rapidamente. Swift è stato progettato per individuare questi eventi e orientare strumenti complementari verso la regione interessata. La rapidità ha valore scientifico: una fotografia ottenuta molto dopo può perdere informazioni presenti nelle fasi iniziali. La missione collega quindi rivelazione, localizzazione e inseguimento del fenomeno attraverso una sequenza coordinata di misure."
+        ]
+      },
+      {
+        "title": "Più strumenti, più domande",
+        "paragraphs": [
+          "Le osservazioni coprono raggi gamma, raggi X, ultravioletto e visibile attraverso strumenti con capacità diverse. Non si tratta di colorare lo stesso dato in modi differenti. Ogni banda misura una parte dell’emissione. Il confronto permette di seguire l’evoluzione energetica e costruire modelli della sorgente. Le sensibilità e i campi degli strumenti non sono identici, perciò una mancata rivelazione in una banda deve essere interpretata con i suoi limiti."
+        ]
+      },
+      {
+        "title": "Dal punto luminoso alla distanza",
+        "paragraphs": [
+          "Una posizione iniziale può guidare osservazioni da terra e dallo spazio. Spettri e identificazione dell’ambiente contribuiscono a ricostruire distanza e natura dell’evento. La luminosità apparente del lampo da sola non basta. Il lavoro è una catena collettiva: allerta, misure, confronto e interpretazione. Presentare soltanto l’immagine finale nasconde la parte temporale che rende questi eventi particolarmente istruttivi per capire il metodo astronomico."
+        ]
+      },
+      {
+        "title": "La cronologia va conservata",
+        "paragraphs": [
+          "Il nome della missione compare anche in archivi e articoli pubblicati dopo le osservazioni. Per descriverne lo stato operativo occorre una verifica aggiornata, distinta dalla storia delle scoperte. La scheda riguarda il progetto e il metodo, non promette acquisizioni future. Un dato d’archivio resta utile anche quando le operazioni cambiano: l’importante è indicare quando fu misurato e non presentare una vecchia ripresa come un evento osservato oggi."
+        ]
+      }
+    ],
+    "facts": [
+      "Per i fenomeni transitori conta misurare quando cambiano, oltre a dove si trovano"
+    ],
+    "example": "Per i fenomeni transitori conta misurare quando cambiano, oltre a dove si trovano",
+    "sources": [
+      {
+        "title": "Treccani · riferimento generale al tema; non riscontro puntuale di tutta la scheda",
+        "url": "https://www.treccani.it/enciclopedia/telescopio/"
+      },
+      {
+        "title": "NASA · Swift, strumenti e metodo",
+        "url": "https://science.nasa.gov/mission/swift/science/"
+      }
+    ]
+  },
+  {
+    "id": "tachocline",
+    "name": "Tachocline",
+    "definition": "La tachocline è una regione di transizione nella rotazione interna del Sole, vicina alla base della zona convettiva, importante nei modelli della dinamica magnetica solare.",
+    "source": "https://www.treccani.it/enciclopedia/sole/",
+    "lesson": "lezione-2-3.html",
+    "related": [
+      "zona-convettiva",
+      "zona-radiativa",
+      "ciclo-solare"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Il Sole non ruota come una sfera rigida",
+        "paragraphs": [
+          "La velocità angolare può cambiare con latitudine e profondità. Nelle regioni esterne la rotazione differenziale è evidente, mentre l’interno radiativo mostra un comportamento differente. La tachocline riguarda la transizione fra questi regimi. Non è una superficie solida che separa due involucri come il guscio di una macchina: è una regione fisica con variazioni che influenzano il comportamento del materiale e del campo."
+        ]
+      },
+      {
+        "title": "Come si studia un interno invisibile",
+        "paragraphs": [
+          "L’eliosismologia usa oscillazioni osservabili per ricavare informazioni sulla struttura e sui moti interni. Le inferenze dipendono da modelli e qualità dei dati. Non possediamo una normale fotografia della tachocline ripresa attraverso gli strati. Il confronto fra oscillazioni e previsioni permette però di porre vincoli e cercare coerenza. È un esempio di come l’astronomia ricostruisca proprietà non direttamente accessibili seguendo conseguenze misurabili."
+        ]
+      },
+      {
+        "title": "Il collegamento con la dinamo",
+        "paragraphs": [
+          "Differenze di rotazione e moti del plasma contribuiscono ai modelli di generazione ed evoluzione del campo magnetico. La tachocline è una regione rilevante in molte descrizioni della dinamo solare. Non basta tuttavia nominare questo strato per considerare risolto ogni problema del ciclo. Distribuzione dei moti, trasporto e processi magnetici devono essere confrontati con osservazioni e simulazioni, mantenendo aperte le questioni ancora studiate."
+        ]
+      },
+      {
+        "title": "Dall’interno alle macchie",
+        "paragraphs": [
+          "Le strutture magnetiche osservate in superficie sono collegate a una storia che coinvolge l’interno. Il percorso non è una semplice fila di sfere colorate che salgono lungo tubi rigidi. Le figure possono indicare regioni e processi, dichiarando la semplificazione. La tachocline aiuta a fissare un collegamento essenziale: la variabilità del Sole visibile non è soltanto decorazione della superficie, ma può riflettere dinamiche profonde che richiedono una ricostruzione fisica."
+        ]
+      }
+    ],
+    "facts": [
+      "La tachocline descrive una transizione dinamica interna, non un guscio solido"
+    ],
+    "example": "La tachocline descrive una transizione dinamica interna, non un guscio solido",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/sole/"
+      },
+      {
+        "title": "NASA · studi sulla tachocline",
+        "url": "https://science.nasa.gov/blogs/science-news/2026/07/07/nasas-coffies-science-center-makes-breakthrough-on-solar-enigma/"
+      }
     ]
   },
   {
@@ -42274,6 +47166,56 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "troposfera",
+    "name": "Troposfera",
+    "definition": "La troposfera è lo strato più basso dell’atmosfera terrestre, caratterizzato in media da temperatura decrescente con la quota e sede della maggior parte dei fenomeni meteorologici.",
+    "source": "https://www.treccani.it/enciclopedia/troposfera/",
+    "lesson": "lezione-7-5.html",
+    "related": [
+      "atmosfera",
+      "turbolenza-atmosferica",
+      "punto-rugiada"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "La parte del cielo che abitiamo",
+        "paragraphs": [
+          "Nubi, precipitazioni e molti moti dell’aria si sviluppano nella troposfera. È lo strato nel quale si svolgono gran parte delle attività quotidiane. Il suo spessore non è uguale ovunque e varia anche con condizioni e stagione. Un diagramma scolastico con fasce regolari è quindi una semplificazione: utile per orientarsi, ma non una fotografia di superfici immobili poste alla stessa altezza su tutto il pianeta."
+        ]
+      },
+      {
+        "title": "Il profilo della temperatura",
+        "paragraphs": [
+          "In media la temperatura diminuisce salendo, ma possono esistere inversioni e strutture locali. La media non descrive ogni metro d’aria in ogni momento. Il limite superiore, la tropopausa, è definito attraverso il comportamento atmosferico. Questa classificazione non va confusa con quella basata sulla ionizzazione: nomi come ionosfera rispondono a un criterio diverso e possono sovrapporsi alle regioni individuate dal profilo termico."
+        ]
+      },
+      {
+        "title": "La luce delle stelle la attraversa",
+        "paragraphs": [
+          "Differenze di temperatura e densità modificano l’indice di rifrazione dell’aria. Movimenti e disomogeneità contribuiscono a rendere instabile l’immagine astronomica. Il seeing dipende dall’intera colonna attraversata e non soltanto dall’aria immediatamente davanti al telescopio. Un cielo trasparente può quindi avere immagini poco ferme, mentre poca scintillazione apparente non garantisce l’assenza di ogni disturbo o una trasparenza eccellente."
+        ]
+      },
+      {
+        "title": "Preparare una serata osservativa",
+        "paragraphs": [
+          "Rugiada, vento e nubi vanno considerati separatamente dall’inquinamento luminoso. L’ambiente vicino allo strumento conta: tetti caldi, superfici e correnti locali possono peggiorare la vista. La troposfera è un ponte concreto fra meteorologia e osservazione. Comprenderla aiuta a leggere le condizioni senza attribuire ogni immagine sfocata all’ottica e senza trattare la qualità del cielo come un unico numero che riassuma fenomeni fisici differenti."
+        ]
+      }
+    ],
+    "facts": [
+      "Trasparenza e stabilità dell’immagine sono qualità differenti del cielo"
+    ],
+    "example": "Trasparenza e stabilità dell’immagine sono qualità differenti del cielo",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/troposfera/"
+      }
+    ]
+  },
+  {
     "id": "turbolenza-atmosferica",
     "name": "Turbolenza atmosferica",
     "definition": "La turbolenza atmosferica è un moto irregolare dell’aria; le variazioni delle proprietà ottiche lungo il percorso della luce possono degradare l’immagine astronomica.",
@@ -42723,6 +47665,60 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "urano",
+    "name": "Urano",
+    "definition": "Urano è il settimo pianeta dal Sole, un gigante di ghiaccio con asse di rotazione fortemente inclinato rispetto al piano orbitale.",
+    "source": "https://www.treccani.it/enciclopedia/urano/",
+    "lesson": "lezione-3-3.html",
+    "related": [
+      "inclinazione-assiale",
+      "metano",
+      "pianeta"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Ghiaccio non significa superficie congelata",
+        "paragraphs": [
+          "La classificazione distingue Urano e Nettuno dai giganti dominati più nettamente da idrogeno ed elio. Il termine ghiacci richiama componenti volatili e il contesto della formazione, non un guscio di cubetti di ghiaccio terrestre. Pressioni e temperature interne modificano lo stato della materia. I modelli descrivono distribuzioni e transizioni che non si possono riassumere con una semplice sfera d’acqua gelata avvolta da un’atmosfera sottile."
+        ]
+      },
+      {
+        "title": "Un asse quasi coricato",
+        "paragraphs": [
+          "L’inclinazione rende estrema l’alternanza dell’illuminazione stagionale. L’orientamento dell’asse rispetto all’orbita va distinto dall’inclinazione della traiettoria rispetto a un piano di riferimento. Le due quantità non misurano la stessa geometria. Una figura chiara deve mostrare sia l’asse sia il piano orbitale, evitando di usare la verticale della pagina come se fosse un riferimento fisico assoluto condiviso da tutti i pianeti e osservatori."
+        ]
+      },
+      {
+        "title": "Il colore dell’atmosfera",
+        "paragraphs": [
+          "L’assorbimento della luce da parte del metano contribuisce all’aspetto, ma composizione, aerosol e modalità di rappresentazione contano. Un’immagine molto elaborata non deve essere confusa con il colore che l’occhio distinguerebbe all’oculare. Anche strutture atmosferiche poco evidenti nel visibile possono emergere in altre bande. Il confronto è informativo se le didascalie dichiarano il tipo di dato, invece di trattare tutte le fotografie come vedute equivalenti."
+        ]
+      },
+      {
+        "title": "Un bersaglio piccolo e lontano",
+        "paragraphs": [
+          "Nel cielo amatoriale Urano è molto meno evidente di Giove o Saturno. Servono una carta e condizioni appropriate per identificarlo con sicurezza. La debolezza apparente non indica dimensioni fisiche piccole: la distanza e il tipo di luce ricevuta influenzano il segnale. Il pianeta possiede anelli e satelliti, ma riconoscere il disco con uno strumento non equivale a poter osservare tutti i dettagli mostrati nelle immagini ottenute da sonde e grandi osservatori."
+        ]
+      }
+    ],
+    "facts": [
+      "Gigante di ghiaccio non significa una sfera costituita da normale ghiaccio solido"
+    ],
+    "example": "Gigante di ghiaccio non significa una sfera costituita da normale ghiaccio solido",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/urano/"
+      },
+      {
+        "title": "NASA · Urano, struttura e stagioni",
+        "url": "https://science.nasa.gov/uranus/facts/"
+      }
+    ]
+  },
+  {
     "id": "utc",
     "name": "UTC",
     "definition": "UTC, Tempo Universale Coordinato, è la scala temporale internazionale prodotta dal BIPM attraverso il confronto di realizzazioni basate su orologi atomici.",
@@ -42887,6 +47883,56 @@ window.AdAstraGlossary = [
       {
         "title": "JPL Horizons · convenzioni sui moti apparenti",
         "url": "https://ssd.jpl.nasa.gov/horizons/manual.html"
+      }
+    ]
+  },
+  {
+    "id": "velocita-suono",
+    "name": "Velocità del suono",
+    "definition": "La velocità del suono è la rapidità con cui una piccola perturbazione meccanica di pressione si propaga in un mezzo nelle condizioni considerate.",
+    "source": "https://www.treccani.it/enciclopedia/suono/",
+    "lesson": "lezione-4-1.html",
+    "related": [
+      "pressione",
+      "onda-gravitazionale",
+      "plasma"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un disturbo che passa fra particelle",
+        "paragraphs": [
+          "Il suono richiede un mezzo capace di trasmettere una perturbazione. Le particelle oscillano o vengono perturbate localmente mentre il segnale si propaga. Non devono viaggiare tutte dalla sorgente all’orecchio. La velocità dipende dalle proprietà del mezzo, non soltanto dalla forza con cui si produce il rumore. Aumentare l’ampiezza di un piccolo segnale non significa automaticamente aumentarne la velocità nel modello lineare."
+        ]
+      },
+      {
+        "title": "Non esiste un valore universale",
+        "paragraphs": [
+          "Il valore spesso ricordato per l’aria riguarda condizioni terrestri specifiche. Temperatura e composizione possono modificarlo; nei liquidi e nei solidi entrano proprietà diverse. Anche un gas astrofisico ha una propria risposta. Perciò non si può usare il numero valido nell’aria di una stanza per descrivere onde in una stella. Occorre precisare il materiale e il regime fisico nel quale la perturbazione si muove."
+        ]
+      },
+      {
+        "title": "Il vuoto e lo spazio",
+        "paragraphs": [
+          "Nel vuoto ideale non si propaga il suono ordinario perché manca il mezzo materiale. Questo non significa che ogni ambiente cosmico sia vuoto o incapace di onde. Gas e plasma possono sostenere perturbazioni appropriate. Le sonificazioni divulgative possono inoltre tradurre misure in suoni udibili: questa scelta non deve essere presentata come una registrazione effettuata da un microfono che ascolti direttamente nello spazio privo di aria."
+        ]
+      },
+      {
+        "title": "La voce interna delle stelle",
+        "paragraphs": [
+          "Oscillazioni stellari forniscono informazioni sulle strutture attraversate dalle onde. La velocità locale di propagazione dipende dalle condizioni interne e contribuisce al comportamento dei modi osservati. Non stiamo ascoltando una melodia arrivata attraverso il vuoto fino alla Terra: misuriamo variazioni di luce o velocità della superficie. Il collegamento fra oscillazioni e interno viene ricostruito con modelli, come in altre indagini che ricavano una struttura dalla risposta alle perturbazioni."
+        ]
+      }
+    ],
+    "facts": [
+      "Il suono richiede un mezzo; una sonificazione di dati non equivale sempre a un suono registrato direttamente"
+    ],
+    "example": "Il suono richiede un mezzo; una sonificazione di dati non equivale sempre a un suono registrato direttamente",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/suono/"
       }
     ]
   },
@@ -43224,6 +48270,114 @@ window.AdAstraGlossary = [
       {
         "title": "NASA · primi traguardi dell’esplorazione",
         "url": "https://science.nasa.gov/deep-space-exploration/"
+      }
+    ]
+  },
+  {
+    "id": "venera-9",
+    "name": "Venera 9",
+    "definition": "Venera 9 fu una missione sovietica del 1975, con un orbiter e un modulo di discesa che trasmise immagini dalla superficie di Venere.",
+    "source": "https://www.treccani.it/enciclopedia/sonda/",
+    "lesson": "lezione-3-2.html",
+    "related": [
+      "venera-7",
+      "lander",
+      "atmosfera"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Guardare sotto le nubi",
+        "paragraphs": [
+          "Venere è avvolta da un’atmosfera che impedisce di osservare normalmente il terreno in luce visibile dallo spazio. Un modulo di discesa porta la misura oltre questo schermo. Venera 9 appartiene alla storia degli strumenti che hanno raggiunto il suolo venusiano. Le immagini dalla superficie vanno distinte dalle mappe radar e dalle fotografie delle nubi, perché questi tre prodotti descrivono livelli e proprietà differenti del pianeta."
+        ]
+      },
+      {
+        "title": "L’ambiente impone un limite",
+        "paragraphs": [
+          "Temperatura e pressione elevate rendono difficili le operazioni sul terreno. Un lander deve proteggere l’elettronica e trasmettere durante il tempo disponibile. La breve durata di una missione di superficie non significa quindi automaticamente un progetto inutile. Anche una sequenza limitata può offrire informazioni non ottenibili da lontano. Il valore dipende da quali domande vengono affrontate e dalla qualità dei dati che riescono a raggiungere la Terra."
+        ]
+      },
+      {
+        "title": "La fotografia è una misura locale",
+        "paragraphs": [
+          "Una veduta del terreno mostra una zona vicina allo strumento e risente di prospettiva, illuminazione e risposta del sistema. Non rappresenta l’intera superficie di Venere. Per descrivere il pianeta occorre confrontarla con altri siti e osservazioni orbitali. Anche i colori ricostruiti richiedono cautela: non ogni immagine diffusa online conserva le stesse elaborazioni e la stessa documentazione del prodotto originale della missione."
+        ]
+      },
+      {
+        "title": "Una tappa, non una scoperta isolata",
+        "paragraphs": [
+          "Venera 9 va inserita nella successione delle missioni venusiane, distinguendola da Venera 7 e dagli altri veicoli. Le diverse sonde ebbero strumenti, obiettivi e risultati propri. Il confronto mostra come l’esplorazione proceda attraverso tentativi e miglioramenti. Il concetto da ricordare è che avvicinarsi a un pianeta non significa sempre atterrare e che una misura dal suolo integra, senza sostituirle completamente, le osservazioni globali effettuate dall’orbita."
+        ]
+      }
+    ],
+    "facts": [
+      "Una veduta dal suolo e una mappa radar non sono lo stesso tipo di osservazione"
+    ],
+    "example": "Una veduta dal suolo e una mappa radar non sono lo stesso tipo di osservazione",
+    "sources": [
+      {
+        "title": "Treccani · riferimento generale al tema; non riscontro puntuale di tutta la scheda",
+        "url": "https://www.treccani.it/enciclopedia/sonda/"
+      },
+      {
+        "title": "NASA · prima immagine dalla superficie di Venere",
+        "url": "https://science.nasa.gov/resource/first-look-venus/"
+      }
+    ]
+  },
+  {
+    "id": "venere",
+    "name": "Venere",
+    "definition": "Venere è il secondo pianeta dal Sole, un mondo roccioso avvolto da una densa atmosfera e da nubi che nascondono il terreno alla vista ordinaria.",
+    "source": "https://www.treccani.it/enciclopedia/venere/",
+    "lesson": "lezione-3-2.html",
+    "related": [
+      "effetto-serra",
+      "fase-lunare",
+      "venera-9"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Una somiglianza che non basta",
+        "paragraphs": [
+          "Le dimensioni di Venere sono relativamente vicine a quelle terrestri, ma l’ambiente superficiale è molto diverso. La densa atmosfera e il bilancio radiativo producono condizioni estreme. Definirla gemella della Terra è quindi un paragone limitato a certe proprietà, non una descrizione dell’abitabilità attuale. Il confronto fra pianeti diventa istruttivo quando distingue massa e raggio da composizione atmosferica, temperatura e storia evolutiva."
+        ]
+      },
+      {
+        "title": "Le nubi non sono la superficie",
+        "paragraphs": [
+          "Le fotografie visibili mostrano principalmente l’involucro nuvoloso. Le mappe radar e le immagini dei lander forniscono informazioni differenti sul terreno. Una colorazione di una mappa radar non va presentata automaticamente come il colore visto da una persona sul posto. Ogni rappresentazione deve dichiarare il metodo. Questa distinzione permette di apprezzare immagini spettacolari senza attribuire a uno strumento proprietà che il suo tipo di misura non possiede."
+        ]
+      },
+      {
+        "title": "Rotazione e giorno",
+        "paragraphs": [
+          "Venere ruota lentamente e in senso retrogrado rispetto alla convenzione usata per la maggior parte dei pianeti. Il periodo di rotazione e il giorno solare sono differenti perché interviene anche la rivoluzione. L’atmosfera può muoversi con tempi diversi dalla superficie. Perciò parlare genericamente di velocità di Venere è ambiguo: occorre specificare se si intenda il moto orbitale, la rotazione del corpo o la circolazione delle nubi."
+        ]
+      },
+      {
+        "title": "La brillantezza nel crepuscolo",
+        "paragraphs": [
+          "Venere può apparire molto luminosa e mostrare fasi attraverso un telescopio. Il cambiamento della frazione illuminata si combina con distanza e dimensione apparente. Una fase più piena non significa automaticamente la massima brillantezza. La sua vicinanza apparente al Sole richiede attenzione: l’osservazione divulgativa con strumenti si organizza con il Sole sotto l’orizzonte. Il punto brillante non emette luce come una stella, ma riflette la radiazione solare."
+        ]
+      }
+    ],
+    "facts": [
+      "Le fotografie delle nubi e le mappe radar del terreno raccontano livelli diversi di Venere"
+    ],
+    "example": "Le fotografie delle nubi e le mappe radar del terreno raccontano livelli diversi di Venere",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/venere/"
+      },
+      {
+        "title": "NASA · Venere, caratteristiche e rotazione",
+        "url": "https://science.nasa.gov/venus/facts/"
       }
     ]
   },
