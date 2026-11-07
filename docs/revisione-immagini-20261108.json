@@ -1,0 +1,621 @@
+{
+  "data": "2026-11-08",
+  "pagine": 59,
+  "criterio": "Sostituire rappresentazioni meccaniche generiche; conservare diagrammi che esplicitano coordinate, geometrie, scale, raggi e confronti controllati. Le immagini generate sono illustrative, non misure né fotografie di prodotti.",
+  "pagineEsaminate": [
+    {
+      "file": "lezione-1-1.html",
+      "figureRealistiche": 0,
+      "figureGeometricheConservate": [
+        {
+          "risorsa": "assets/lezioni/direzioni-distanze.svg",
+          "lettura": "Segui le due stelle A e B lungo lo stesso raggio: sono a distanze differenti ma appaiono nella stessa direzione. La stella C appartiene a un’altra direzione. Schema originale AD ASTRA, non in scala. Ingrandisci lo schema."
+        },
+        {
+          "risorsa": "assets/lezioni/orizzonte-zenit.svg",
+          "lettura": "La linea orizzontale è il riferimento astronomico; la linea verticale individua zenit e nadir. L’angolo h si misura fra il raggio verso l’astro e il piano d’orizzonte. Schema originale AD ASTRA, non in scala. Ingrandisci lo schema."
+        },
+        {
+          "risorsa": "diagramma incorporato",
+          "lettura": "Muovi il cursore: l’angolo si misura dall’orizzonte, non dalla verticale. È una dimostrazione geometrica, non il calcolo della posizione di una stella reale."
+        },
+        {
+          "risorsa": "assets/lezioni/punti-cardinali.svg",
+          "lettura": "Un azimut di 120° indica una direzione fra est e sud. Questo diagramma è una vista dall’alto del piano d’orizzonte: non è una carta dell’intera volta celeste. Schema originale AD ASTRA, non in scala. Ingrandisci lo schema."
+        }
+      ]
+    },
+    {
+      "file": "lezione-1-2.html",
+      "figureRealistiche": 0,
+      "figureGeometricheConservate": [
+        {
+          "risorsa": "diagramma incorporato",
+          "lettura": "Carta AD ASTRA costruita dal catalogo d3-celestial: polo al centro, equatore al bordo. Non rappresenta automaticamente gli astri sopra l’orizzonte locale; descrive le direzioni dell’emisfero equatoriale boreale. Apri la figura intera."
+        },
+        {
+          "risorsa": "diagramma incorporato",
+          "lettura": "Carta AD ASTRA costruita dal catalogo d3-celestial: polo al centro, equatore al bordo. Non rappresenta automaticamente gli astri sopra l’orizzonte locale; descrive le direzioni dell’emisfero equatoriale boreale. Apri la figura intera."
+        },
+        {
+          "risorsa": "assets/lezioni/scene-originali-20261028/lezione-1-2.svg",
+          "lettura": "L’altezza del polo cambia con il luogo. Sezione geometrica: direzione polare parallela all’asse terrestre; angoli locali, non inclinazione orbitale. Figura originale AD ASTRA con geometria calcolata."
+        }
+      ]
+    },
+    {
+      "file": "lezione-1-3.html",
+      "figureRealistiche": 0,
+      "figureGeometricheConservate": [
+        {
+          "risorsa": "assets/lezioni/latitudine-polo-base.svg",
+          "lettura": "Schema originale AD ASTRA per spiegare la relazione presente nell’articolo: h del Polo Nord Celeste = latitudine φ nel modello sferico boreale, senza rifrazione. L’orizzonte è perpendicolare alla verticale e la direzione del polo è parallela all’asse terrestre. Apri la figura intera."
+        }
+      ]
+    },
+    {
+      "file": "lezione-1-4.html",
+      "figureRealistiche": 0,
+      "figureGeometricheConservate": [
+        {
+          "risorsa": "diagramma incorporato",
+          "lettura": "Diagramma da catalogo: Betelgeuse e Rigel sono riferimenti, la Cintura contiene tre stelle quasi allineate. Nord in alto, est a sinistra; proiezione locale approssimata, coordinate J2000. Non rappresenta una fotografia né i confini ufficiali. Apri la figura intera."
+        },
+        {
+          "risorsa": "diagramma incorporato",
+          "lettura": "Diagramma da catalogo: Betelgeuse e Rigel sono riferimenti, la Cintura contiene tre stelle quasi allineate. Nord in alto, est a sinistra; proiezione locale approssimata, coordinate J2000. Non rappresenta una fotografia né i confini ufficiali. Apri la figura intera."
+        },
+        {
+          "risorsa": "diagramma incorporato",
+          "lettura": "Il Grande Quadrato è un riferimento autunnale: uno dei suoi vertici, Alpheratz, appartiene oggi ad Andromeda. Una figura riconoscibile può dunque attraversare il confine fra due regioni ufficiali. Diagramma da catalogo; linee convenzionali. Apri la figura intera."
+        },
+        {
+          "risorsa": "assets/lezioni/direzioni-distanze.svg",
+          "lettura": "Il disegno separa la posizione angolare dalla distanza lungo la linea di vista. Schema originale AD ASTRA, non in scala. Ingrandisci lo schema."
+        }
+      ]
+    },
+    {
+      "file": "lezione-1-5.html",
+      "figureRealistiche": 0,
+      "figureGeometricheConservate": [
+        {
+          "risorsa": "diagramma incorporato",
+          "lettura": "Quattro esempi calcolati per Roma alle 22:00 civili del giorno 15 di gennaio, aprile, luglio e ottobre 2026. Sono carte locali: il bordo è l’orizzonte, il centro lo zenit, est è a sinistra. Coordinate stellari da catalogo trasformate alla data, senza rifrazione. Apri la figura intera."
+        },
+        {
+          "risorsa": "diagramma incorporato",
+          "lettura": "Quattro esempi calcolati per Roma alle 22:00 civili del giorno 15 di gennaio, aprile, luglio e ottobre 2026. Sono carte locali: il bordo è l’orizzonte, il centro lo zenit, est è a sinistra. Coordinate stellari da catalogo trasformate alla data, senza rifrazione. Apri la figura intera."
+        },
+        {
+          "risorsa": "assets/lezioni/scene-originali-20261028/lezione-1-5.svg",
+          "lettura": "La notte guarda in direzioni diverse lungo l’anno. Vista dall’alto del polo nord orbitale; distanze e dimensioni simboliche. Le frecce indicano la direzione notturna. Figura originale AD ASTRA con geometria calcolata."
+        }
+      ]
+    },
+    {
+      "file": "lezione-1-6.html",
+      "figureRealistiche": 2,
+      "figureGeometricheConservate": [
+        {
+          "risorsa": "diagramma incorporato",
+          "lettura": "Leggi prima il reticolo: centro δ=+90°, bordo δ=0°, cerchi intermedi +30° e +60°, raggi di ascensione retta. È un atlante equatoriale, mentre le carte stagionali sono mappe dell’orizzonte locale. Apri la figura intera."
+        },
+        {
+          "risorsa": "assets/lezioni/scene-originali-20261028/lezione-1-6.svg",
+          "lettura": "Un indirizzo celeste diventa una direzione locale. Piani passanti per la stessa origine; disegno prospettico qualitativo. Non è una carta di un astro reale. Figura originale AD ASTRA con geometria calcolata."
+        },
+        {
+          "risorsa": "assets/lezioni/punti-cardinali.svg",
+          "lettura": "Per indicare la direzione usa una convenzione esplicita: alcuni testi storici adottano origini e versi diversi. Schema originale AD ASTRA, non in scala. Ingrandisci lo schema."
+        }
+      ]
+    },
+    {
+      "file": "lezione-2-1.html",
+      "figureRealistiche": 0,
+      "figureGeometricheConservate": [
+        {
+          "risorsa": "assets/lezioni/scene-originali-20261028/lezione-2-1.svg",
+          "lettura": "Un luogo attraversa il confine fra luce e buio. Vista dal polo nord terrestre; raggi paralleli e rotazione antioraria. Il confine luminoso non ruota con il suolo. Figura originale AD ASTRA con geometria calcolata."
+        },
+        {
+          "risorsa": "assets/lezioni/terra-giorno-notte.svg",
+          "lettura": "Schema originale AD ASTRA, vista dal Polo Nord all’equinozio. Raggi paralleli, atmosfera trascurata, dimensioni non in scala. La sezione serve a spiegare l’alternanza, non la durata del dì in tutte le stagioni."
+        }
+      ]
+    },
+    {
+      "file": "lezione-2-2.html",
+      "figureRealistiche": 0,
+      "figureGeometricheConservate": [
+        {
+          "risorsa": "assets/lezioni/stagioni-assi-paralleli.svg",
+          "lettura": "Schema originale AD ASTRA. Vista obliqua concettuale: gli assi mantengono la stessa direzione. Orbita circolare e corpi ingranditi per leggibilità; lo schema non riproduce le scale reali né la prospettiva di una fotografia."
+        },
+        {
+          "risorsa": "assets/lezioni/scene-originali-20261028/lezione-2-2.svg",
+          "lettura": "La stessa luce si distribuisce su superfici diverse. Stesso fascio in due orientamenti; il modello isola l’inclinazione. Nelle stagioni cambia anche la durata del dì. Figura originale AD ASTRA con geometria calcolata."
+        }
+      ]
+    },
+    {
+      "file": "lezione-2-3.html",
+      "figureRealistiche": 0,
+      "figureGeometricheConservate": []
+    },
+    {
+      "file": "lezione-2-4.html",
+      "figureRealistiche": 0,
+      "figureGeometricheConservate": [
+        {
+          "risorsa": "assets/lezioni/scene-originali-20261028/lezione-2-4.svg",
+          "lettura": "La fase dipende dalla parte illuminata che vediamo. Orbita e dischi in due viste distinte. Dimensioni non in scala; le fasi non sono causate dall’ombra terrestre. Figura originale AD ASTRA con geometria calcolata."
+        }
+      ]
+    },
+    {
+      "file": "lezione-2-5.html",
+      "figureRealistiche": 0,
+      "figureGeometricheConservate": []
+    },
+    {
+      "file": "lezione-2-6.html",
+      "figureRealistiche": 0,
+      "figureGeometricheConservate": [
+        {
+          "risorsa": "assets/lezioni/scene-originali-20261028/lezione-2-6.svg",
+          "lettura": "Totale o anulare: il disco visto dall’osservatore. Confronto dei diametri apparenti, non delle dimensioni fisiche. Per osservare il Sole servono protezioni idonee. Figura originale AD ASTRA con geometria calcolata."
+        }
+      ]
+    },
+    {
+      "file": "lezione-3-1.html",
+      "figureRealistiche": 0,
+      "figureGeometricheConservate": [
+        {
+          "risorsa": "assets/lezioni/scene-originali-20261028/lezione-3-1.svg",
+          "lettura": "Dimensioni e distanze richiedono due letture. Riga superiore: distanze lineari. Riga inferiore: diametri relativi dei pianeti, separazioni arbitrarie. Figura originale AD ASTRA con geometria calcolata."
+        }
+      ]
+    },
+    {
+      "file": "lezione-3-2.html",
+      "figureRealistiche": 0,
+      "figureGeometricheConservate": []
+    },
+    {
+      "file": "lezione-3-3.html",
+      "figureRealistiche": 0,
+      "figureGeometricheConservate": []
+    },
+    {
+      "file": "lezione-3-4.html",
+      "figureRealistiche": 0,
+      "figureGeometricheConservate": []
+    },
+    {
+      "file": "lezione-3-5.html",
+      "figureRealistiche": 0,
+      "figureGeometricheConservate": []
+    },
+    {
+      "file": "lezione-3-6.html",
+      "figureRealistiche": 0,
+      "figureGeometricheConservate": [
+        {
+          "risorsa": "assets/lezioni/scene-originali-20261028/lezione-3-6.svg",
+          "lettura": "Nell’ellisse, lo stesso tempo non dà lo stesso percorso. Settori calcolati con lo stesso incremento di anomalia media; ellisse illustrativa con eccentricità 0,6. Figura originale AD ASTRA con geometria calcolata."
+        }
+      ]
+    },
+    {
+      "file": "lezione-4-1.html",
+      "figureRealistiche": 0,
+      "figureGeometricheConservate": []
+    },
+    {
+      "file": "lezione-4-2.html",
+      "figureRealistiche": 0,
+      "figureGeometricheConservate": [
+        {
+          "risorsa": "assets/lezioni/scene-originali-20261028/lezione-4-2.svg",
+          "lettura": "La stessa luce si distribuisce su aree crescenti. Una sorgente isotropa ideale: a distanza doppia, area quadrupla e flusso per unità di area pari a un quarto. Figura originale AD ASTRA con geometria calcolata."
+        }
+      ]
+    },
+    {
+      "file": "lezione-4-3.html",
+      "figureRealistiche": 0,
+      "figureGeometricheConservate": []
+    },
+    {
+      "file": "lezione-4-4.html",
+      "figureRealistiche": 0,
+      "figureGeometricheConservate": [
+        {
+          "risorsa": "assets/lezioni/scene-originali-20261028/lezione-4-4.svg",
+          "lettura": "Temperatura e raggio costruiscono la luminosità. Confronto geometrico e bolometrico ideale. I dischi indicano raggi relativi; i colori sono convenzionali. Figura originale AD ASTRA con geometria calcolata."
+        }
+      ]
+    },
+    {
+      "file": "lezione-4-5.html",
+      "figureRealistiche": 0,
+      "figureGeometricheConservate": []
+    },
+    {
+      "file": "lezione-4-6.html",
+      "figureRealistiche": 0,
+      "figureGeometricheConservate": []
+    },
+    {
+      "file": "lezione-5-1.html",
+      "figureRealistiche": 0,
+      "figureGeometricheConservate": []
+    },
+    {
+      "file": "lezione-5-2.html",
+      "figureRealistiche": 0,
+      "figureGeometricheConservate": []
+    },
+    {
+      "file": "lezione-5-3.html",
+      "figureRealistiche": 0,
+      "figureGeometricheConservate": []
+    },
+    {
+      "file": "lezione-5-4.html",
+      "figureRealistiche": 0,
+      "figureGeometricheConservate": []
+    },
+    {
+      "file": "lezione-5-5.html",
+      "figureRealistiche": 0,
+      "figureGeometricheConservate": []
+    },
+    {
+      "file": "lezione-6-1.html",
+      "figureRealistiche": 0,
+      "figureGeometricheConservate": []
+    },
+    {
+      "file": "lezione-6-2.html",
+      "figureRealistiche": 0,
+      "figureGeometricheConservate": []
+    },
+    {
+      "file": "lezione-6-3.html",
+      "figureRealistiche": 0,
+      "figureGeometricheConservate": [
+        {
+          "risorsa": "assets/lezioni/scene-originali-20261028/lezione-6-3.svg",
+          "lettura": "Cambiare punto di osservazione cambia l’allineamento. Proiezione geometrica qualitativa; distanze e spostamenti amplificati. La parallasse annua è il semispostamento. Figura originale AD ASTRA con geometria calcolata."
+        }
+      ]
+    },
+    {
+      "file": "lezione-6-4.html",
+      "figureRealistiche": 0,
+      "figureGeometricheConservate": []
+    },
+    {
+      "file": "lezione-6-5.html",
+      "figureRealistiche": 0,
+      "figureGeometricheConservate": [
+        {
+          "risorsa": "assets/lezioni/scene-originali-20261028/lezione-6-5.svg",
+          "lettura": "Il redshift confronta la stessa riga prima e dopo il viaggio. Assi identici in nanometri. Allungamento relativo del 10%; la causa richiede il contesto fisico. Figura originale AD ASTRA con geometria calcolata."
+        }
+      ]
+    },
+    {
+      "file": "lezione-7-1.html",
+      "figureRealistiche": 0,
+      "figureGeometricheConservate": [
+        {
+          "risorsa": "assets/lezioni/scene-originali-20261028/lezione-7-1.svg",
+          "lettura": "La mano confronta angoli, non distanze nello spazio. Schema del confronto angolare; esempio personale da calibrare. Il braccio piegato cambia l’angolo sotteso. Figura originale AD ASTRA con geometria calcolata."
+        }
+      ]
+    },
+    {
+      "file": "lezione-7-2.html",
+      "figureRealistiche": 0,
+      "figureGeometricheConservate": []
+    },
+    {
+      "file": "lezione-7-3.html",
+      "figureRealistiche": 3,
+      "figureGeometricheConservate": []
+    },
+    {
+      "file": "lezione-7-4.html",
+      "figureRealistiche": 0,
+      "figureGeometricheConservate": [
+        {
+          "risorsa": "assets/lezioni/scene-originali-20261028/lezione-7-4.svg",
+          "lettura": "Più ingrandimento può significare meno cielo nel campo. Disco lunare schematico di 0,5°. I cerchi rappresentano campi reali, non dimensioni fisiche della Luna. Figura originale AD ASTRA con geometria calcolata."
+        }
+      ]
+    },
+    {
+      "file": "lezione-7-5.html",
+      "figureRealistiche": 0,
+      "figureGeometricheConservate": []
+    },
+    {
+      "file": "lezione-7-6.html",
+      "figureRealistiche": 0,
+      "figureGeometricheConservate": []
+    },
+    {
+      "file": "lezione-8-1.html",
+      "figureRealistiche": 0,
+      "figureGeometricheConservate": []
+    },
+    {
+      "file": "lezione-8-2.html",
+      "figureRealistiche": 0,
+      "figureGeometricheConservate": []
+    },
+    {
+      "file": "lezione-8-3.html",
+      "figureRealistiche": 0,
+      "figureGeometricheConservate": []
+    },
+    {
+      "file": "lezione-8-4.html",
+      "figureRealistiche": 0,
+      "figureGeometricheConservate": []
+    },
+    {
+      "file": "lezione-8-5.html",
+      "figureRealistiche": 0,
+      "figureGeometricheConservate": [
+        {
+          "risorsa": "assets/lezioni/scene-originali-20261028/lezione-8-5.svg",
+          "lettura": "Un raggio nella goccia spiega la direzione dell’arcobaleno. Percorso calcolato per un indice 1,333 e un angolo di ingresso di 60°. Un colore; la dispersione separa i colori. Figura originale AD ASTRA con geometria calcolata."
+        }
+      ]
+    },
+    {
+      "file": "lezione-9-1.html",
+      "figureRealistiche": 0,
+      "figureGeometricheConservate": [
+        {
+          "risorsa": "assets/lezioni/scene-originali-20261028/lezione-9-1.svg",
+          "lettura": "Il centro della carta è sopra la nostra testa. Proiezione altazimutale da catalogo J2000, calcolo didattico senza rifrazione. Non è una fotografia. Figura originale AD ASTRA con geometria calcolata. Dati stellari: d3-celestial, Olaf Frohn, catalogo J2000. Licenza BSD."
+        }
+      ]
+    },
+    {
+      "file": "lezione-9-2.html",
+      "figureRealistiche": 0,
+      "figureGeometricheConservate": [
+        {
+          "risorsa": "assets/lezioni/scene-originali-20261028/lezione-9-2.svg",
+          "lettura": "Luogo, istante e orizzonte costruiscono la scena. Stella ipotetica al transito superiore; nessuna rifrazione o ostacolo. Il calcolo non è un’interfaccia software reale. Figura originale AD ASTRA con geometria calcolata."
+        }
+      ]
+    },
+    {
+      "file": "lezione-9-3.html",
+      "figureRealistiche": 0,
+      "figureGeometricheConservate": [
+        {
+          "risorsa": "assets/lezioni/scene-originali-20261028/lezione-9-3.svg",
+          "lettura": "Due orologi possono indicare lo stesso istante. Esempio con UTC+2: l’ora legale italiana. Controllare lo scarto effettivo della data e l’eventuale cambio di giorno. Figura originale AD ASTRA con geometria calcolata."
+        }
+      ]
+    },
+    {
+      "file": "lezione-9-4.html",
+      "figureRealistiche": 0,
+      "figureGeometricheConservate": [
+        {
+          "risorsa": "assets/lezioni/scene-originali-20261028/lezione-9-4.svg",
+          "lettura": "Una scheda rende confrontabili le osservazioni. Esempio di piccolo campo: Δα corretto di 30″ e Δδ di 40″ danno 50″. La scheda è illustrativa, non un catalogo reale. Figura originale AD ASTRA con geometria calcolata."
+        }
+      ]
+    },
+    {
+      "file": "lezione-9-5.html",
+      "figureRealistiche": 0,
+      "figureGeometricheConservate": [
+        {
+          "risorsa": "assets/lezioni/scene-originali-20261028/lezione-9-5.svg",
+          "lettura": "L’altezza del bersaglio apre e chiude una finestra. Tre stelle ipotetiche, latitudine 45° N e ore relative; soglia assegnata. Tratti sotto l’orizzonte omessi; non è una notte reale. Figura originale AD ASTRA con geometria calcolata."
+        }
+      ]
+    },
+    {
+      "file": "lezione-10-1.html",
+      "figureRealistiche": 0,
+      "figureGeometricheConservate": [
+        {
+          "risorsa": "assets/lezioni/scene-originali-20261028/lezione-10-1.svg",
+          "lettura": "Un pianeta piccolo lascia un calo misurabile nella luce. Disco stellare uniforme e transito centrale con rapporto dei raggi 0,1: calo massimo dell’1%. Figura originale AD ASTRA con geometria calcolata."
+        }
+      ]
+    },
+    {
+      "file": "lezione-10-2.html",
+      "figureRealistiche": 0,
+      "figureGeometricheConservate": [
+        {
+          "risorsa": "assets/lezioni/scene-originali-20261028/lezione-10-2.svg",
+          "lettura": "Un pianeta assorbe una parte della luce e restituisce energia. Flussi qualitativi di energia; le frecce non sono raggi visibili né una misura della temperatura di superficie. Figura originale AD ASTRA con geometria calcolata."
+        }
+      ]
+    },
+    {
+      "file": "lezione-10-3.html",
+      "figureRealistiche": 0,
+      "figureGeometricheConservate": [
+        {
+          "risorsa": "assets/lezioni/scene-originali-20261028/lezione-10-3.svg",
+          "lettura": "Massa e raggio dell’orizzonte non sono la stessa grandezza. Raggi proporzionali; il diametro è il doppio. I dischi rappresentano l’orizzonte, non una superficie materiale. Figura originale AD ASTRA con geometria calcolata."
+        }
+      ]
+    },
+    {
+      "file": "lezione-10-4.html",
+      "figureRealistiche": 0,
+      "figureGeometricheConservate": []
+    },
+    {
+      "file": "lezione-10-5.html",
+      "figureRealistiche": 0,
+      "figureGeometricheConservate": [
+        {
+          "risorsa": "assets/lezioni/scene-originali-20261028/lezione-10-5.svg",
+          "lettura": "L’atmosfera apre alcune finestre e ne chiude altre. Schema qualitativo: visibile e alcune bande radio/IR arrivano al suolo. Non è una curva di trasmissione quantitativa. Figura originale AD ASTRA con geometria calcolata."
+        }
+      ]
+    },
+    {
+      "file": "guide.html",
+      "figureRealistiche": 0,
+      "figureGeometricheConservate": [
+        {
+          "risorsa": "assets/lezioni/polare-guide.svg",
+          "lettura": "Carta didattica AD ASTRA da coordinate stellari J2000 e figure d3-celestial (BSD-3-Clause). Riprende il percorso spiegato nell’articolo di Fabio: Merak → Dubhe → Polare. Il polo è distinto dalla stella; orientamento della carta convenzionale, non orizzonte locale. Apri la carta."
+        },
+        {
+          "risorsa": "assets/lezioni/carta-boreale-base.svg",
+          "lettura": "Questa è una carta equatoriale, non il cielo sopra una città in un istante. Polo al centro, declinazione zero al bordo. Le linee collegano stelle reali da catalogo, ma non sono legami fisici. Apri lo schema intero."
+        },
+        {
+          "risorsa": "diagramma incorporato",
+          "lettura": "Carte AD ASTRA da catalogo d3-celestial, licenza BSD; calcolo Astronomy Engine, MIT. Coordinate J2000 trasformate alla data; rifrazione esclusa. Nessuna previsione meteorologica."
+        },
+        {
+          "risorsa": "Colonna d’aria attraversata a diverse altezze",
+          "lettura": "Modello piano della colonna d’aria: X≈1/sin(h), valido come confronto ad altezze moderate. Non è una previsione del seeing. Lo strato disegnato è schematico."
+        },
+        {
+          "risorsa": "assets/lezioni/carta-Ori-base.svg",
+          "lettura": "Orione come campo didattico: trova la Cintura e confronta le stelle luminose prima di passare a un dettaglio. La carta ha nord in alto ed est a sinistra, ma l’oculare può presentare un orientamento diverso. Apri lo schema intero."
+        }
+      ]
+    },
+    {
+      "file": "strumentazione.html",
+      "figureRealistiche": 3,
+      "figureGeometricheConservate": [
+        {
+          "risorsa": "Foto di una montatura equatoriale con assi meccanici evidenziati",
+          "lettura": "Foto 2 ottobre 2024: Brandon Ghany / Horizon Productions SFL, Public Domain Mark, dichiarazione dell’autore. Frecce sovrapposte e schema altazimutale AD ASTRA: indicazioni qualitative degli assi proiettati; non misurano la precisione di allineamento."
+        },
+        {
+          "risorsa": "diagramma incorporato",
+          "lettura": "Schema originale AD ASTRA: stelle sintetiche, rotazione amplificata per rendere leggibile il fenomeno. Scatti idealmente istantanei e sola rotazione nel piano: niente rumore, distorsioni, rifrazione o mosso durante l’esposizione. Non è una simulazione delle prestazioni di un modello commerciale."
+        },
+        {
+          "risorsa": "Campo visuale e diametro lunare apparente",
+          "lettura": "M=F/f; pupilla D/M; campo reale≈campo apparente/M. La visualizzazione confronta una scala angolare, non simula dettagli garantiti all’oculare. Bersaglio geometrico originale: diametro simile a quello apparente della Luna, senza rappresentarne la superficie."
+        },
+        {
+          "risorsa": "Dimensioni angolari del campo inquadrato",
+          "lettura": "Campo=2 atan(dimensione sensore/2F); campionamento≈206,265 p/F. Il rettangolo usa una scala fissa di 30 pixel grafici per grado, senza rappresentare una scena stellare reale o la qualità ottica ai bordi."
+        }
+      ]
+    },
+    {
+      "file": "astrofotografia.html",
+      "figureRealistiche": 1,
+      "figureGeometricheConservate": [
+        {
+          "risorsa": "Dimensioni angolari del campo inquadrato",
+          "lettura": "Campo=2 atan(dimensione sensore/2F); campionamento≈206,265 p/F. Il rettangolo usa una scala fissa di 30 pixel grafici per grado, senza rappresentare una scena stellare reale o la qualità ottica ai bordi."
+        }
+      ]
+    },
+    {
+      "file": "laboratorio.html",
+      "figureRealistiche": 0,
+      "figureGeometricheConservate": []
+    }
+  ],
+  "sostituzioni": [
+    {
+      "file": "lezione-1-6.html",
+      "previous": "assets/lezioni/montature-base.svg"
+    },
+    {
+      "file": "lezione-7-3.html",
+      "previous": "Schema degli assi di una montatura altazimutale"
+    },
+    {
+      "file": "lezione-7-3.html",
+      "previous": "Asse di ascensione retta orientato al polo e asse di declinazione perpendicolare"
+    },
+    {
+      "file": "lezione-7-3.html",
+      "previous": "assets/lezioni/astroinseguitore-asse.svg"
+    },
+    {
+      "file": "strumentazione.html",
+      "previous": "assets/lezioni/montature-base.svg"
+    },
+    {
+      "file": "strumentazione.html",
+      "previous": "assets/lezioni/astroinseguitore-asse.svg"
+    },
+    {
+      "file": "astrofotografia.html",
+      "previous": "assets/lezioni/treno-ottico-fotografico.svg"
+    }
+  ],
+  "risorseGenerate": [
+    {
+      "file": "assets/lezioni/strumenti-realistici-20261108/montatura-altazimutale.png",
+      "sha256": "51ff1283a7074878af2658f058e4a44d1a100bda8e7b23f5fd9f1cee66edd8b7",
+      "dimensioni": [
+        1536,
+        1024
+      ],
+      "tipo": "illustrazione generata",
+      "strumento": "image_gen.imagegen integrato",
+      "prompt": "assets/lezioni/strumenti-realistici-20261108/PROMPT-SET.md",
+      "controllo": "Esame visivo del singolo output; annotazioni aggiunte separatamente in HTML. Non validazione di un progetto commerciale."
+    },
+    {
+      "file": "assets/lezioni/strumenti-realistici-20261108/montatura-equatoriale.png",
+      "sha256": "69a8abc884642a734fb5fcfcedb4dd62a312575029e866f10d3916e70d2db2d1",
+      "dimensioni": [
+        1536,
+        1024
+      ],
+      "tipo": "illustrazione generata",
+      "strumento": "image_gen.imagegen integrato",
+      "prompt": "assets/lezioni/strumenti-realistici-20261108/PROMPT-SET.md",
+      "controllo": "Esame visivo del singolo output; annotazioni aggiunte separatamente in HTML. Non validazione di un progetto commerciale."
+    },
+    {
+      "file": "assets/lezioni/strumenti-realistici-20261108/astroinseguitore.png",
+      "sha256": "90e6b3de37a08d9cbf015b583643fc22d67a739f2f8f46b972f552aedfcd6be7",
+      "dimensioni": [
+        1536,
+        1024
+      ],
+      "tipo": "illustrazione generata",
+      "strumento": "image_gen.imagegen integrato",
+      "prompt": "assets/lezioni/strumenti-realistici-20261108/PROMPT-SET.md",
+      "controllo": "Esame visivo del singolo output; annotazioni aggiunte separatamente in HTML. Non validazione di un progetto commerciale."
+    },
+    {
+      "file": "assets/lezioni/strumenti-realistici-20261108/treno-ottico.png",
+      "sha256": "119975e2c1fdc77a21227fd74346fbb9b9a9e9cff6e2e1866481217da1e18cff",
+      "dimensioni": [
+        1536,
+        1024
+      ],
+      "tipo": "illustrazione generata",
+      "strumento": "image_gen.imagegen integrato",
+      "prompt": "assets/lezioni/strumenti-realistici-20261108/PROMPT-SET.md",
+      "controllo": "Esame visivo del singolo output; annotazioni aggiunte separatamente in HTML. Non validazione di un progetto commerciale."
+    }
+  ]
+}
