@@ -8,7 +8,7 @@ Vera e la sua licenza sono in `assets/scheda-osservativa`.
 
 ## Contenuti
 
-- 500 voci redatte, distribuite fra tutte le 26 lettere, con spiegazioni articolate, esempi, unità e riferimenti. Sigle e sinonimi sono chiavi di ricerca, non voci aggiuntive. Le sezioni esplicative comprendono 141.075 parole complessive, con un minimo di 220 per scheda.
+- 800 voci redatte, distribuite fra tutte le 26 lettere, con spiegazioni articolate, esempi, unità e riferimenti. Sigle e sinonimi sono chiavi di ricerca, non voci aggiuntive. Le sezioni esplicative comprendono 222.160 parole complessive, con un minimo di 220 per scheda.
   Ogni record contiene URL della fonte, data, esempio AD ASTRA e rimando didattico.
   Nessuna immagine o voce integrale Treccani riprodotta. Le fonti storiche non
   sono usate per aggiornamenti numerici; le convenzioni sono esplicitate.
@@ -70,3 +70,13 @@ come contenuto già prodotto. Nessuna pubblicazione automatica.
 700 schede reali (200 nuove rispetto a dcbc51b), 195.955 parole nelle sezioni e 26 lettere rappresentate. Sinonimi e sigle non contati come voci autonome. Testi originali con spiegazioni, esempi, termini correlati, fonte Treccani e riferimenti specifici pertinenti; eventuali fonti generali sono dichiarate.
 
 Controlli dati/DOM: selezionabili tutte le schede, 58 pagine e 1651 rimandi canonici; ricerca/alias, quiz, foto e popup verificati; 20 attività con soluzioni, reset e controlli geometrici; 28 risorse locali. Nessuna verifica browser completa o verifica HTTP globale dichiarata. Aggiornati i rimandi alle lezioni per pertinenza editoriale. Il blocco si ferma a700 su richiesta dell'autore; nessun push o pubblicazione.
+
+## Ampliamento a 800 schede — 7 novembre 2026
+
+800 schede effettive, 100 nuove rispetto a f15e1b8 e tutte le 26 lettere rappresentate. Le nuove sezioni contengono 26.205 parole (minimo 241 per scheda). Alias e sinonimi non aumentano il conteggio. Ampliate fisica e chimica di base, astrochimica, geologia planetaria, processi stellari, cosmologia, fotografia, missioni e biografie; i rimandi sono alle lezioni pertinenti.
+
+Testi originali: Treccani come riferimento terminologico, con distinzione delle pagine generali da quelle specifiche; confronti pertinenti con fonti istituzionali e manuali. La banca documentale privata è stata ampliata e deduplicata. I PDF forniti e le immagini delle slide non sono ripubblicati: l'indicizzazione non equivale a lettura integrale. Sei trascrizioni visive parziali restano separate dai testi originali e non sono presentate come OCR completo.
+
+Il nuovo ordine dell'autore riprende il precedente stop a 700 e richiede un commit a 800. Nessun push o pubblicazione automatica. Le verifiche finali sono documentate nel registro privato; i controlli di dati/DOM non certificano rendering browser completo o validità HTTP di ogni fonte remota.
+
+Verifica finale a 800: tutte le schede selezionabili; 58 pagine e 1.658 rimandi canonici; ricerca, nuovi alias e popup; quiz 0/31/32/40; 20 laboratori con reset e controlli geometrici, 28 risorse locali. Le 700 schede precedenti sono invariate. Controlli dati e DOM simulato, senza rendering browser completo.
