@@ -1,0 +1,206 @@
+[
+  {
+    "id": "prima-della-luce",
+    "title": "Prima della luce",
+    "subtitle": "Dentro le nubi dove nascono le stelle",
+    "category": "ORIGINI",
+    "summary": "Una nube si contrae, la materia si scalda, una stella comincia a prendere forma. Un viaggio fra polvere, dischi e getti.",
+    "hero": "assets/lezioni/hh24-getti-protostellari.jpg",
+    "secondary": "assets/lezioni/hltauri-alma-disco.jpg",
+    "credit": "HH 24 · ESA/Hubble & NASA, D. Padgett, T. Megeath, B. Reipurth · CC BY 4.0. Colori assegnati a osservazioni infrarosse; ritaglio di impaginazione.",
+    "secondaryCredit": "HL Tauri · ALMA (ESO/NAOJ/NRAO) · CC BY 4.0. Segnale millimetrico rappresentato in colori assegnati; non è una fotografia in luce visibile.",
+    "intro": "Prima di diventare un punto luminoso nel nostro cielo, una stella attraversa un tempo nascosto. La sua storia comincia in una nube, fra gas freddo e grani di polvere. Non vediamo una sfera già pronta che aspetta di accendersi: cerchiamo gli indizi di una trasformazione. E impariamo a distinguere ciò che l’immagine mostra da ciò che la fisica ci permette di ricostruire.",
+    "quote": "La nascita di una stella comincia molto prima della luce che riconosciamo.",
+    "sections": [
+      {
+        "title": "La gravità, il calore e l’attesa",
+        "paragraphs": [
+          "Una nube interstellare non è vuota. Contiene materia distribuita su distanze enormi e può ospitare regioni più dense dell’ambiente circostante. In alcune di esse la gravità riesce a favorire una contrazione, contro la pressione e gli altri sostegni. Non ogni nube deve però diventare una stella: densità, temperatura, movimento e campo magnetico contribuiscono alla storia.",
+          "Durante la contrazione diminuisce l’energia potenziale gravitazionale. Parte dell’energia liberata alimenta il movimento e il riscaldamento del gas, parte può lasciare la regione sotto forma di radiazione. Raffreddarsi, in questo contesto, non significa che la gravità si spenga. La possibilità di perdere energia influenza la risposta del materiale alla compressione.",
+          "La protostella può già brillare grazie alla contrazione e alla materia che continua ad arrivare. La fusione stabile dell’idrogeno non è quindi il primo istante in cui qualsiasi luce viene emessa. La fisica ci invita a seguire un processo, invece di cercare un interruttore."
+        ]
+      },
+      {
+        "title": "Un disco non è una promessa",
+        "paragraphs": [
+          "Il materiale che arriva non è generalmente privo di movimento attorno al centro. Una parte si dispone in un disco, mentre altri processi trasferiscono materia e momento angolare. I getti osservati nelle regioni di formazione stellare appartengono a questo ambiente dinamico: non sono ornamenti di una stella neonata.",
+          "Le osservazioni di HL Tauri mostrano anelli e intervalli nel segnale del disco. Sono strutture reali da interpretare attraverso dati e modelli. Un anello scuro non equivale però, da solo, alla fotografia di un pianeta. Per comprendere l’origine delle strutture servono confronti fra diverse spiegazioni, non soltanto una somiglianza con il Sistema Solare."
+        ]
+      },
+      {
+        "title": "Vedere gli indizi, ricostruire la storia",
+        "paragraphs": [
+          "Le nubi possono nascondere nel visibile proprio le regioni che vorremmo osservare. Infrarosso e onde millimetriche rendono accessibili componenti differenti: polveri, gas e sorgenti immerse. Le immagini a colori che leggiamo sulle pagine non hanno tutte lo stesso significato di una fotografia scattata con i nostri occhi.",
+          "La didascalia diventa così parte del racconto. Dice quale strumento ha raccolto il segnale, in quale banda e come è stato rappresentato. La fotografia documenta una distribuzione di luce; il modello collega quei dati a temperatura, materia e movimento. Il passaggio fra i due deve rimanere visibile.",
+          "Una buona osservazione non toglie meraviglia. Le dà una direzione. Sapere che cosa non possiamo vedere direttamente rende più interessante il lavoro necessario a riconoscere, dentro una nube, la possibilità di una stella."
+        ]
+      }
+    ],
+    "notes": [
+      [
+        "Protostella",
+        "Oggetto in formazione, ancora alimentato soprattutto da accrescimento e contrazione nelle fasi precedenti alla sequenza principale."
+      ],
+      [
+        "Plasma",
+        "Materia con particelle cariche: il suo comportamento coinvolge anche campi elettrici e magnetici."
+      ],
+      [
+        "Un limite da ricordare",
+        "Le quattro pagine raccontano un processo generale, non la cronaca temporale di un solo oggetto."
+      ]
+    ],
+    "sources": [
+      [
+        "OpenStax · Star Formation",
+        "https://openstax.org/books/astronomy-2e/pages/21-1-star-formation"
+      ],
+      [
+        "ESO · HL Tauri",
+        "https://www.eso.org/public/images/eso1436a/"
+      ]
+    ],
+    "author": "Mario Rossi"
+  },
+  {
+    "id": "luce-messaggera",
+    "title": "La luce sa raccontare",
+    "subtitle": "Che cosa scopriamo separando i colori di una stella",
+    "category": "LEGGERE IL COSMO",
+    "summary": "Temperatura, materia e movimento lasciano indizi nella radiazione. Per leggerli occorre andare oltre il colore di una fotografia.",
+    "hero": "assets/lezioni/spettro-solare-osservato.jpg",
+    "credit": "Spettro solare · NOAO/AURA/NSF; archivio ESO, sunspectrum-noao · CC BY 4.0. Rappresentazione di dati spettrali in segmenti, non una fotografia della superficie solare.",
+    "intro": "Una stella ci raggiunge attraverso la sua luce. Sembra un contatto fragile, eppure in quel segnale troviamo tracce di temperatura, materia e movimento. Uno spettro distribuisce la radiazione secondo la lunghezza d’onda e trasforma un punto luminoso in una domanda leggibile. Prima di dare un nome alle righe, dobbiamo capire che cosa stiamo misurando.",
+    "quote": "Il colore è un indizio. Lo spettro ci permette di fare domande più precise.",
+    "sections": [
+      {
+        "title": "Dai fotoni alle firme della materia",
+        "paragraphs": [
+          "La frequenza conta quante oscillazioni passano ogni secondo. La lunghezza d’onda misura la distanza fra ripetizioni dell’onda. Nel vuoto le due grandezze sono collegate: a frequenza maggiore corrisponde una lunghezza d’onda minore. L’energia di un singolo fotone cresce con la frequenza, ma la potenza totale dipende anche da quanti fotoni vengono emessi.",
+          "Gli atomi possono assorbire ed emettere energia attraverso determinate transizioni. Nello spettro compaiono così righe che devono essere identificate e confrontate con riferimenti. Una riga intensa non si traduce automaticamente in una grande quantità di un elemento: temperatura, ionizzazione e condizioni del gas entrano nell’interpretazione.",
+          "Anche il movimento lungo la linea di vista può spostare le righe. La misura di questo spostamento non fornisce tutta la velocità nello spazio e non autorizza a interpretare ogni redshift con la stessa causa. Osservazione e spiegazione restano due passaggi collegati.",
+          "Guardare uno spettro significa riconoscere questi livelli: distribuzione generale, firme della materia e cambiamenti di posizione delle righe. È una lettura più lenta di un’occhiata al colore, ma apre una finestra su proprietà che nessuna fotografia isolata può raccontare da sola."
+        ]
+      }
+    ],
+    "notes": [
+      [
+        "Frequenza",
+        "Numero di oscillazioni per secondo; non coincide con la quantità totale di luce ricevuta."
+      ],
+      [
+        "Fotone",
+        "Quanto di energia della radiazione: la sua energia dipende dalla frequenza."
+      ],
+      [
+        "Riga spettrale",
+        "Una firma da confrontare con un riferimento e con le condizioni fisiche della sorgente."
+      ]
+    ],
+    "sources": [
+      [
+        "OpenStax · The Behavior of Light",
+        "https://openstax.org/books/astronomy-2e/pages/5-1-the-behavior-of-light"
+      ],
+      [
+        "ESO · Spettro del Sole",
+        "https://www.eso.org/public/images/sunspectrum-noao/"
+      ]
+    ],
+    "author": "Mario Rossi"
+  },
+  {
+    "id": "luna-radente",
+    "title": "Dove arriva l’ombra",
+    "subtitle": "La Luna cambia volto senza cambiare paesaggio",
+    "category": "OSSERVARE",
+    "summary": "Lo stesso cratere, due sere diverse. La luce radente rende leggibile una superficie che la Luna piena può appiattire alla vista.",
+    "hero": "assets/lezioni/tycho-rilievo-lro.jpg",
+    "credit": "Rilievi centrali di Tycho · NASA/GSFC/ASU, Lunar Reconnaissance Orbiter. Ripresa orbitale: non è la prospettiva di un piccolo telescopio da Terra.",
+    "intro": "Un rilievo può diventare evidente grazie alla propria ombra e quasi scomparire quando la luce arriva più frontalmente. Osservare la Luna significa imparare questo linguaggio. Il paesaggio non si ricostruisce ogni sera: è il Sole locale a cambiare direzione rispetto ai crateri. Tornare sullo stesso bersaglio permette di distinguere il terreno dalla sua illuminazione.",
+    "quote": "L’ombra non nasconde soltanto: a volte è ciò che rende leggibile il rilievo.",
+    "sections": [
+      {
+        "title": "Tornare sullo stesso cratere",
+        "paragraphs": [
+          "Il terminatore separa la regione illuminata da quella notturna sulla superficie lunare. Vicino a questa fascia il Sole locale è basso e le ombre possono sottolineare pareti, picchi e ondulazioni. La lunghezza di un’ombra non misura da sola la grandezza del cratere: contano geometria, altezza del rilievo e punto di vista.",
+          "La Luna piena offre altri aspetti interessanti, ma molti rilievi perdono contrasto con un’illuminazione più frontale. Per confrontare le sere conviene conservare data, ora, strumento e bersaglio. Anche un piccolo schizzo può rendere evidente il cambiamento meglio del ricordo.",
+          "I mari sono antiche pianure di lave basaltiche. Il nome storico non indica acqua liquida. Le differenze di tono suggeriscono terreni e materiali differenti, ma una fotografia non sostituisce da sola un’analisi della composizione. Forma, luce e proprietà del suolo devono essere lette insieme.",
+          "Un appunto utile può essere molto semplice: bordo riconosciuto, parte illuminata, ombra principale e dettagli incerti. La sera successiva la domanda non sarà soltanto se la visione è più bella, ma quale cambiamento dell’illuminazione abbia fatto emergere una struttura che prima non distinguevo."
+        ]
+      }
+    ],
+    "notes": [
+      [
+        "Terminatore",
+        "Confine fra zona diurna e notturna, non il profilo geografico di una catena di montagne."
+      ],
+      [
+        "Regolite",
+        "Materiale frammentato e rimaneggiato che ricopre il terreno lunare."
+      ],
+      [
+        "Il diario",
+        "Due osservazioni datate dello stesso luogo trasformano una visione in un confronto."
+      ]
+    ],
+    "sources": [
+      [
+        "OpenStax · The Lunar Surface",
+        "https://openstax.org/books/astronomy-2e/pages/9-2-the-lunar-surface"
+      ],
+      [
+        "NASA · Lunar Reconnaissance Orbiter",
+        "https://science.nasa.gov/mission/lro/"
+      ]
+    ],
+    "author": "Mario Rossi"
+  },
+  {
+    "id": "viaggiare-gravita",
+    "title": "Cadere senza arrivare",
+    "subtitle": "Perché un’orbita non è un binario nello spazio",
+    "category": "IDEE FONDAMENTALI",
+    "summary": "Inerzia e attrazione gravitazionale disegnano un viaggio continuo. La Terra vista da lontano diventa l’inizio di una domanda sul movimento.",
+    "hero": "assets/lezioni/terra-blue-marble.jpg",
+    "credit": "Blue Marble · NASA Visible Earth, Reto Stöckli e team MODIS. Composito da dati terrestri, non un singolo scatto; non è un diagramma in scala delle orbite.",
+    "intro": "Un pianeta non procede lungo un solco invisibile. Si muove mentre la gravità ne cambia continuamente la direzione. Per capire l’orbita dobbiamo tenere insieme due idee: l’inerzia, che conserverebbe una velocità rettilinea in assenza di forze, e l’attrazione che incurva il percorso. L’equilibrio apparente del cielo nasce da un movimento.",
+    "quote": "Un’orbita non ferma la caduta: ne cambia continuamente la direzione.",
+    "sections": [
+      {
+        "title": "Una traiettoria, due idee da collegare",
+        "paragraphs": [
+          "La velocità non descrive soltanto quanto rapidamente ci muoviamo: comprende anche una direzione. Una traiettoria curva richiede quindi un’accelerazione, persino quando il valore della velocità rimane costante. Il corpo non ha bisogno di una spinta che lo trascini continuamente in avanti lungo l’orbita.",
+          "La gravitazione dipende dalle masse e dalla distanza. Nel modello di due corpi sferici separati, a masse fisse una distanza doppia riduce la forza a un quarto. Questa relazione non basta da sola a scegliere una traiettoria: servono posizione e velocità iniziali. Alcuni movimenti restano legati, altri possono portare a passaggi senza ritorno.",
+          "In un’ellisse il corpo si muove più rapidamente vicino al centro attrattore. La conservazione del momento angolare e lo scambio fra energia cinetica e potenziale spiegano questa regolarità senza immaginare un motore acceso vicino al Sole e un freno lontano da esso.",
+          "La stessa fisica accompagna le sonde. Le manovre modificano la velocità; gli incontri con i pianeti possono scambiare energia e quantità di moto con il sistema. Un disegno orbitale è utile proprio quando rende visibili ipotesi, riferimenti e scale, senza trasformare la linea disegnata in un oggetto materiale."
+        ]
+      }
+    ],
+    "notes": [
+      [
+        "Inerzia",
+        "In assenza di una forza risultante, un corpo conserva la propria velocità anche in direzione."
+      ],
+      [
+        "Accelerazione",
+        "Variazione della velocità: può riguardare il suo valore, la direzione o entrambi."
+      ],
+      [
+        "Un modello",
+        "Due corpi isolati aiutano a capire il principio; un sistema reale include anche perturbazioni."
+      ]
+    ],
+    "sources": [
+      [
+        "OpenStax · Newton’s Universal Law of Gravitation",
+        "https://openstax.org/books/astronomy-2e/pages/3-3-newtons-universal-law-of-gravitation"
+      ],
+      [
+        "NASA · Blue Marble",
+        "https://science.nasa.gov/resource/blue-marble/"
+      ]
+    ],
+    "author": "Mario Rossi"
+  }
+]
