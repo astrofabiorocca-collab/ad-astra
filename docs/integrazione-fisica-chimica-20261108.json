@@ -1,0 +1,1164 @@
+{
+  "data": "2026-11-08",
+  "macroaree": 10,
+  "lezioni": [
+    {
+      "file": "lezione-1-1.html",
+      "sezione": "leggere-angoli",
+      "titolo": "Due misure diverse: direzione e distanza",
+      "ancora": "principio-fisico",
+      "glossario": [
+        "distanza-angolare",
+        "anno-luce"
+      ],
+      "raccordo": null,
+      "catena": [
+        "L’occhio individua una direzione",
+        "L’angolo separa due linee di vista",
+        "La distanza richiede un’altra misura",
+        "La luce porta informazioni dal passato"
+      ],
+      "fonte": {
+        "title": "OpenStax · Luce, onde e fotoni",
+        "url": "https://openstax.org/books/astronomy-2e/pages/5-1-the-behavior-of-light"
+      }
+    },
+    {
+      "file": "lezione-1-2.html",
+      "sezione": "polare",
+      "titolo": "Una direzione cambia significato con il riferimento",
+      "ancora": "principio-fisico",
+      "glossario": [
+        "rotazione",
+        "campo-magnetico"
+      ],
+      "raccordo": "lezione-1-1.html#principio-fisico",
+      "catena": [
+        "La Terra ruota attorno a un asse",
+        "Il prolungamento individua i poli celesti",
+        "La Polare è un riferimento approssimato",
+        "La bussola risponde a un altro fenomeno"
+      ],
+      "fonte": {
+        "title": "OpenStax · Riferimenti per descrivere il cielo",
+        "url": "https://openstax.org/books/astronomy-2e/pages/4-1-earth-and-sky"
+      }
+    },
+    {
+      "file": "lezione-1-3.html",
+      "sezione": "rotazione",
+      "titolo": "Il movimento dipende anche da chi osserva",
+      "ancora": "principio-fisico",
+      "glossario": [
+        "rotazione",
+        "accelerazione"
+      ],
+      "raccordo": "lezione-1-2.html#principio-fisico",
+      "catena": [
+        "L’osservatore ruota con la Terra",
+        "Le direzioni stellari cambiano rispetto al suolo",
+        "Gli archi hanno il polo come riferimento",
+        "Il moto proprio è un fenomeno distinto"
+      ],
+      "fonte": {
+        "title": "OpenStax · Leggi del moto e grandezze meccaniche",
+        "url": "https://openstax.org/books/astronomy-2e/pages/3-2-newtons-great-synthesis"
+      }
+    },
+    {
+      "file": "lezione-1-4.html",
+      "sezione": "prospettiva",
+      "titolo": "Un disegno sulla carta non è un legame gravitazionale",
+      "ancora": "principio-fisico",
+      "glossario": [
+        "gravitazione"
+      ],
+      "raccordo": "lezione-1-1.html#principio-fisico",
+      "catena": [
+        "La prospettiva accosta direzioni",
+        "La distanza può essere diversa",
+        "Movimenti e distanze verificano l’appartenenza",
+        "Le linee della figura non sono forze"
+      ],
+      "fonte": {
+        "title": "OpenStax · Gravitazione universale",
+        "url": "https://openstax.org/books/astronomy-2e/pages/3-3-newtons-universal-law-of-gravitation"
+      }
+    },
+    {
+      "file": "lezione-1-5.html",
+      "sezione": "due-moti",
+      "titolo": "Rotazione e rivoluzione producono due cambiamenti",
+      "ancora": "principio-fisico",
+      "glossario": [
+        "inerzia",
+        "orbita"
+      ],
+      "raccordo": "lezione-1-3.html#principio-fisico",
+      "catena": [
+        "La rotazione cambia lo sguardo in poche ore",
+        "La rivoluzione cambia il cielo notturno stagionale",
+        "La gravità incurva il movimento orbitale",
+        "L’inclinazione regola l’illuminazione stagionale"
+      ],
+      "fonte": {
+        "title": "OpenStax · Gravitazione universale",
+        "url": "https://openstax.org/books/astronomy-2e/pages/3-3-newtons-universal-law-of-gravitation"
+      }
+    },
+    {
+      "file": "lezione-1-6.html",
+      "sezione": "equatoriali",
+      "titolo": "Le coordinate descrivono, le forze spiegano",
+      "ancora": "principio-fisico",
+      "glossario": [
+        "ascensione-retta",
+        "velocita-vettoriale"
+      ],
+      "raccordo": "lezione-1-1.html#principio-fisico",
+      "catena": [
+        "Si sceglie una griglia di riferimento",
+        "Le coordinate descrivono una posizione",
+        "La velocità descrive il cambiamento",
+        "La dinamica ne studia le cause"
+      ],
+      "fonte": {
+        "title": "OpenStax · Riferimenti per descrivere il cielo",
+        "url": "https://openstax.org/books/astronomy-2e/pages/4-1-earth-and-sky"
+      }
+    },
+    {
+      "file": "lezione-2-1.html",
+      "sezione": "rivoluzione",
+      "titolo": "La gravità non si spegne quando un corpo è in orbita",
+      "ancora": "principio-fisico",
+      "glossario": [
+        "gravitazione",
+        "massa"
+      ],
+      "raccordo": "lezione-1-5.html#principio-fisico",
+      "catena": [
+        "Il corpo possiede una velocità",
+        "La gravità ne cambia la direzione",
+        "La traiettoria può rimanere orbitale",
+        "La caduta libera non elimina la gravità"
+      ],
+      "fonte": {
+        "title": "OpenStax · Gravitazione universale",
+        "url": "https://openstax.org/books/astronomy-2e/pages/3-3-newtons-universal-law-of-gravitation"
+      }
+    },
+    {
+      "file": "lezione-2-2.html",
+      "sezione": "raggi",
+      "titolo": "Energia ricevuta e temperatura non sono la stessa cosa",
+      "ancora": "principio-fisico",
+      "glossario": [
+        "irradianza-solare",
+        "calore-specifico"
+      ],
+      "raccordo": "lezione-2-1.html#principio-fisico",
+      "catena": [
+        "L’inclinazione cambia l’energia per area",
+        "La durata del dì cambia l’energia giornaliera",
+        "I materiali accumulano e restituiscono energia",
+        "La temperatura risponde con tempi propri"
+      ],
+      "fonte": {
+        "title": "OpenStax · Temperatura, energia e capacità termica",
+        "url": "https://openstax.org/books/college-physics-2e/pages/14-2-temperature-change-and-heat-capacity"
+      }
+    },
+    {
+      "file": "lezione-2-3.html",
+      "sezione": "interno",
+      "titolo": "Dentro il Sole cambiano i nuclei, non soltanto le molecole",
+      "ancora": "principio-fisico",
+      "glossario": [
+        "nucleo-atomico",
+        "fusione-nucleare"
+      ],
+      "raccordo": null,
+      "catena": [
+        "I protoni identificano l’elemento",
+        "La fusione trasforma nuclei leggeri",
+        "Una differenza di massa libera energia",
+        "L’energia viene trasportata verso l’esterno"
+      ],
+      "fonte": {
+        "title": "OpenStax · Massa, energia e reazioni nucleari",
+        "url": "https://openstax.org/books/astronomy-2e/pages/16-2-mass-energy-and-the-theory-of-relativity"
+      }
+    },
+    {
+      "file": "lezione-2-4.html",
+      "sezione": "due-mesi",
+      "titolo": "Un’orbita cambia anche mentre la osserviamo",
+      "ancora": "principio-fisico",
+      "glossario": [
+        "mese-sinodico",
+        "rotazione-sincrona"
+      ],
+      "raccordo": "lezione-2-1.html#principio-fisico",
+      "catena": [
+        "Terra e Luna si muovono durante il mese",
+        "Il ritorno delle fasi richiede un nuovo allineamento",
+        "Le maree possono modificare la rotazione",
+        "Faccia visibile e fase sono proprietà diverse"
+      ],
+      "fonte": {
+        "title": "OpenStax · Origine gravitazionale delle maree",
+        "url": "https://openstax.org/books/astronomy-2e/pages/4-6-ocean-tides-and-the-moon"
+      }
+    },
+    {
+      "file": "lezione-2-5.html",
+      "sezione": "mari",
+      "titolo": "La superficie conserva una storia di materiali",
+      "ancora": "principio-fisico",
+      "glossario": [
+        "mare-lunare",
+        "regolite"
+      ],
+      "raccordo": "lezione-2-3.html#principio-fisico",
+      "catena": [
+        "Le rocce contengono minerali",
+        "Le lave costruiscono superfici differenti",
+        "Gli impatti trasferiscono energia",
+        "Frammentazione e rimescolamento formano regolite"
+      ],
+      "fonte": {
+        "title": "OpenStax · Materiali e storia della superficie lunare",
+        "url": "https://openstax.org/books/astronomy-2e/pages/9-2-the-lunar-surface"
+      }
+    },
+    {
+      "file": "lezione-2-6.html",
+      "sezione": "ombre",
+      "titolo": "Un’ombra dipende dalla geometria della sorgente",
+      "ancora": "principio-fisico",
+      "glossario": [
+        "penombra",
+        "diametro-angolare"
+      ],
+      "raccordo": "lezione-1-1.html#principio-fisico",
+      "catena": [
+        "La sorgente luminosa è estesa",
+        "Il corpo intercetta parte dei raggi",
+        "Distanze e dimensioni fissano gli angoli apparenti",
+        "Ogni osservatore attraversa una geometria locale"
+      ],
+      "fonte": {
+        "title": "OpenStax · Luce, onde e fotoni",
+        "url": "https://openstax.org/books/astronomy-2e/pages/5-1-the-behavior-of-light"
+      }
+    },
+    {
+      "file": "lezione-3-1.html",
+      "sezione": "sistema",
+      "titolo": "Un’orbita nasce da movimento e attrazione",
+      "ancora": "principio-fisico",
+      "glossario": [
+        "forza",
+        "inerzia"
+      ],
+      "raccordo": "lezione-2-1.html#principio-fisico",
+      "catena": [
+        "L’inerzia conserva la velocità in assenza di forze",
+        "La gravità cambia la direzione del moto",
+        "La distanza regola l’intensità dell’attrazione",
+        "Posizione e velocità iniziali determinano la traiettoria"
+      ],
+      "fonte": {
+        "title": "OpenStax · Gravitazione universale",
+        "url": "https://openstax.org/books/astronomy-2e/pages/3-3-newtons-universal-law-of-gravitation"
+      }
+    },
+    {
+      "file": "lezione-3-2.html",
+      "sezione": "quattro",
+      "titolo": "La stessa gravità agisce su materiali diversi",
+      "ancora": "principio-fisico",
+      "glossario": [
+        "densita",
+        "nucleo-planetario"
+      ],
+      "raccordo": "lezione-2-5.html#principio-fisico",
+      "catena": [
+        "Massa e volume definiscono la densità media",
+        "Composizione e compressione contribuiscono al risultato",
+        "Il movimento dei materiali può separare gli strati",
+        "Il calore alimenta l’evoluzione del pianeta"
+      ],
+      "fonte": {
+        "title": "OpenStax · Composizione e struttura dei pianeti",
+        "url": "https://openstax.org/books/astronomy-2e/pages/7-2-composition-and-structure-of-planets"
+      }
+    },
+    {
+      "file": "lezione-3-3.html",
+      "sezione": "interni",
+      "titolo": "Temperatura, pressione e composizione vanno tenute insieme",
+      "ancora": "principio-fisico",
+      "glossario": [
+        "pressione",
+        "equazione-stato"
+      ],
+      "raccordo": "lezione-3-2.html#principio-fisico",
+      "catena": [
+        "Le particelle trasferiscono quantità di moto",
+        "I vincoli determinano pressione ed espansione",
+        "La gravità confina gli strati planetari",
+        "Composizione e condizioni definiscono lo stato della materia"
+      ],
+      "fonte": {
+        "title": "OpenStax · Composizione e struttura dei pianeti",
+        "url": "https://openstax.org/books/astronomy-2e/pages/7-2-composition-and-structure-of-planets"
+      }
+    },
+    {
+      "file": "lezione-3-4.html",
+      "sezione": "maree",
+      "titolo": "Le maree possono trasformare movimento in calore",
+      "ancora": "principio-fisico",
+      "glossario": [
+        "marea",
+        "risonanza-orbitale"
+      ],
+      "raccordo": "lezione-3-1.html#principio-fisico",
+      "catena": [
+        "L’attrazione varia attraverso il satellite",
+        "La forma può cambiare lungo l’orbita",
+        "La dissipazione trasforma energia meccanica in calore",
+        "Le interazioni orbitali modificano il bilancio"
+      ],
+      "fonte": {
+        "title": "OpenStax · Origine gravitazionale delle maree",
+        "url": "https://openstax.org/books/astronomy-2e/pages/4-6-ocean-tides-and-the-moon"
+      }
+    },
+    {
+      "file": "lezione-3-5.html",
+      "sezione": "cometa",
+      "titolo": "Il materiale cambia stato, non diventa un’altra sostanza per magia",
+      "ancora": "principio-fisico",
+      "glossario": [
+        "sublimazione",
+        "ionizzazione"
+      ],
+      "raccordo": "lezione-2-3.html#principio-fisico",
+      "catena": [
+        "La radiazione fornisce energia ai ghiacci",
+        "La sublimazione libera gas e polvere",
+        "Molecole e atomi possono essere modificati dalla radiazione",
+        "Polvere e plasma rispondono a interazioni differenti"
+      ],
+      "fonte": {
+        "title": "OpenStax · Comete, ghiacci e chiome",
+        "url": "https://openstax.org/books/astronomy-2e/pages/13-3-the-long-haired-comets"
+      }
+    },
+    {
+      "file": "lezione-3-6.html",
+      "sezione": "aree",
+      "titolo": "Più veloce vicino al Sole: quale grandezza si conserva?",
+      "ancora": "principio-fisico",
+      "glossario": [
+        "momento-angolare",
+        "energia-potenziale"
+      ],
+      "raccordo": "lezione-3-1.html#principio-fisico",
+      "catena": [
+        "La forza gravitazionale è diretta verso il centro attrattore",
+        "Il momento angolare orbitale si conserva nel modello ideale",
+        "Vicino al Sole il movimento è più rapido",
+        "Energia cinetica e potenziale si trasformano"
+      ],
+      "fonte": {
+        "title": "OpenStax · Leggi di Keplero",
+        "url": "https://openstax.org/books/astronomy-2e/pages/3-1-the-laws-of-planetary-motion"
+      }
+    },
+    {
+      "file": "lezione-4-1.html",
+      "sezione": "plasma",
+      "titolo": "Dalle particelle al sostegno di una stella",
+      "ancora": "principio-fisico",
+      "glossario": [
+        "plasma",
+        "pressione"
+      ],
+      "raccordo": "lezione-2-3.html#principio-fisico",
+      "catena": [
+        "Atomi ionizzati formano un plasma",
+        "Il movimento microscopico contribuisce alla pressione",
+        "La pressione varia fra gli strati",
+        "Il suo gradiente può bilanciare la gravità"
+      ],
+      "fonte": {
+        "title": "OpenStax · Plasma, pressione e struttura del Sole",
+        "url": "https://openstax.org/books/astronomy-2e/pages/16-3-the-solar-interior-theory"
+      }
+    },
+    {
+      "file": "lezione-4-2.html",
+      "sezione": "brillante",
+      "titolo": "Potenza della sorgente e luce ricevuta",
+      "ancora": "principio-fisico",
+      "glossario": [
+        "luminosita",
+        "flusso-radiativo"
+      ],
+      "raccordo": "lezione-1-1.html#principio-fisico",
+      "catena": [
+        "La sorgente emette energia per unità di tempo",
+        "La propagazione distribuisce la potenza su un’area crescente",
+        "La distanza modifica il flusso ricevuto",
+        "La magnitudine rappresenta un confronto osservativo"
+      ],
+      "fonte": {
+        "title": "OpenStax · Propagazione della luce e distanza",
+        "url": "https://openstax.org/books/astronomy-2e/pages/5-1-the-behavior-of-light"
+      }
+    },
+    {
+      "file": "lezione-4-3.html",
+      "sezione": "radiazione",
+      "titolo": "Frequenza, fotoni e impronte degli atomi",
+      "ancora": "principio-fisico",
+      "glossario": [
+        "fotone",
+        "eccitazione-atomica"
+      ],
+      "raccordo": "lezione-2-3.html#principio-fisico",
+      "catena": [
+        "La frequenza distingue componenti della radiazione",
+        "Ogni fotone porta un’energia legata alla frequenza",
+        "La materia assorbe ed emette in transizioni specifiche",
+        "Le righe permettono di indagare gli atomi"
+      ],
+      "fonte": {
+        "title": "OpenStax · Lo spettro elettromagnetico",
+        "url": "https://openstax.org/books/astronomy-2e/pages/5-2-the-electromagnetic-spectrum"
+      }
+    },
+    {
+      "file": "lezione-4-4.html",
+      "sezione": "raggio",
+      "titolo": "Una superficie grande può compensare una temperatura minore",
+      "ancora": "principio-fisico",
+      "glossario": [
+        "corpo-nero",
+        "temperatura-efficace"
+      ],
+      "raccordo": "lezione-4-2.html#principio-fisico",
+      "catena": [
+        "La temperatura regola l’emissione per unità di superficie",
+        "Il raggio determina l’area emittente",
+        "L’area e l’emissione definiscono la luminosità",
+        "Il diagramma confronta proprietà e famiglie stellari"
+      ],
+      "fonte": {
+        "title": "OpenStax · Temperatura e luminosità nel diagramma H–R",
+        "url": "https://openstax.org/books/astronomy-2e/pages/18-4-the-h-r-diagram"
+      }
+    },
+    {
+      "file": "lezione-4-5.html",
+      "sezione": "gravita",
+      "titolo": "Contrarsi può riscaldare: il ruolo dell’energia",
+      "ancora": "principio-fisico",
+      "glossario": [
+        "energia-potenziale",
+        "densita"
+      ],
+      "raccordo": "lezione-4-1.html#principio-fisico",
+      "catena": [
+        "Una concentrazione risponde a gravità e sostegni",
+        "La contrazione libera energia gravitazionale",
+        "Emissione e opacità regolano la perdita di energia",
+        "La protostella cresce e si riscalda prima della fase stabile"
+      ],
+      "fonte": {
+        "title": "OpenStax · Formazione stellare",
+        "url": "https://openstax.org/books/astronomy-2e/pages/21-1-star-formation"
+      }
+    },
+    {
+      "file": "lezione-4-6.html",
+      "sezione": "combustibile",
+      "titolo": "Che cosa cambia quando avviene la fusione",
+      "ancora": "principio-fisico",
+      "glossario": [
+        "fusione-nucleare",
+        "difetto-massa"
+      ],
+      "raccordo": "lezione-2-3.html#principio-fisico",
+      "catena": [
+        "Le reazioni trasformano nuclei, non soltanto legami chimici",
+        "La differenza di massa corrisponde a energia liberata",
+        "La composizione del nucleo cambia nel tempo",
+        "Nucleo e inviluppo possono rispondere in modo diverso"
+      ],
+      "fonte": {
+        "title": "OpenStax · Massa, energia e reazioni nucleari",
+        "url": "https://openstax.org/books/astronomy-2e/pages/16-2-mass-energy-and-the-theory-of-relativity"
+      }
+    },
+    {
+      "file": "lezione-5-1.html",
+      "sezione": "contrasto",
+      "titolo": "Raccogliere luce non garantisce di distinguere un oggetto",
+      "ancora": "principio-fisico",
+      "glossario": [
+        "fotone",
+        "rapporto-segnale-rumore"
+      ],
+      "raccordo": "lezione-4-2.html#principio-fisico",
+      "catena": [
+        "Il rivelatore raccoglie sorgente e fondo",
+        "Il segnale deve emergere dalle fluttuazioni",
+        "La luce estesa può avere basso contrasto",
+        "Le condizioni e il metodo cambiano ciò che distinguiamo"
+      ],
+      "fonte": {
+        "title": "OpenStax · Raccolta della luce e rivelazione",
+        "url": "https://openstax.org/books/astronomy-2e/pages/6-1-telescopes"
+      }
+    },
+    {
+      "file": "lezione-5-2.html",
+      "sezione": "dinamica",
+      "titolo": "Un ammasso è un sistema in movimento",
+      "ancora": "principio-fisico",
+      "glossario": [
+        "baricentro",
+        "energia-cinetica"
+      ],
+      "raccordo": "lezione-3-1.html#principio-fisico",
+      "catena": [
+        "Le stelle hanno posizioni e velocità",
+        "La gravità collega i movimenti del gruppo",
+        "Incontri e perturbazioni cambiano il sistema",
+        "Dati coerenti distinguono membri e sovrapposizioni"
+      ],
+      "fonte": {
+        "title": "OpenStax · Gravitazione universale",
+        "url": "https://openstax.org/books/astronomy-2e/pages/3-3-newtons-universal-law-of-gravitation"
+      }
+    },
+    {
+      "file": "lezione-5-3.html",
+      "sezione": "popolazioni",
+      "titolo": "La chimica conserva indizi della storia stellare",
+      "ancora": "principio-fisico",
+      "glossario": [
+        "isotopo",
+        "metallicita"
+      ],
+      "raccordo": "lezione-4-6.html#principio-fisico",
+      "catena": [
+        "I protoni identificano gli elementi",
+        "Gli isotopi distinguono nuclei dello stesso elemento",
+        "La materia eredita trasformazioni di generazioni precedenti",
+        "Le abbondanze aiutano a ricostruire popolazioni e storia"
+      ],
+      "fonte": {
+        "title": "Department of Energy · Nucleosintesi",
+        "url": "https://www.energy.gov/science/doe-explainsnucleosynthesis"
+      }
+    },
+    {
+      "file": "lezione-5-4.html",
+      "sezione": "emissione",
+      "titolo": "Un gas luminoso non deve per forza produrre fusione",
+      "ancora": "principio-fisico",
+      "glossario": [
+        "eccitazione-atomica",
+        "ionizzazione"
+      ],
+      "raccordo": "lezione-4-3.html#principio-fisico",
+      "catena": [
+        "La materia riceve energia",
+        "Eccitazione e ionizzazione cambiano lo stato delle particelle",
+        "Le transizioni possono emettere fotoni caratteristici",
+        "Polvere e gas producono aspetti osservativi differenti"
+      ],
+      "fonte": {
+        "title": "OpenStax · Struttura dell’atomo e livelli energetici",
+        "url": "https://openstax.org/books/astronomy-2e/pages/5-4-the-structure-of-the-atom"
+      }
+    },
+    {
+      "file": "lezione-5-5.html",
+      "sezione": "resto",
+      "titolo": "Un fronte d’urto trasferisce energia al mezzo",
+      "ancora": "principio-fisico",
+      "glossario": [
+        "ionizzazione",
+        "energia-cinetica"
+      ],
+      "raccordo": "lezione-4-6.html#principio-fisico",
+      "catena": [
+        "Il materiale veloce incontra il mezzo",
+        "L’urto trasforma energia del movimento",
+        "Il gas cambia temperatura e ionizzazione",
+        "L’emissione rivela solo alcune componenti della struttura"
+      ],
+      "fonte": {
+        "title": "OpenStax · Osservazioni delle supernovae e dei resti",
+        "url": "https://openstax.org/books/astronomy-2e/pages/23-3-supernova-observations"
+      }
+    },
+    {
+      "file": "lezione-6-1.html",
+      "sezione": "dinamica",
+      "titolo": "Le stelle non ruotano come parti di una ruota rigida",
+      "ancora": "principio-fisico",
+      "glossario": [
+        "curva-rotazione",
+        "velocita-radiale"
+      ],
+      "raccordo": "lezione-3-6.html#principio-fisico",
+      "catena": [
+        "Le componenti galattiche hanno movimenti differenti",
+        "La gravità dipende dalla distribuzione della massa",
+        "La luce porta informazioni sulle velocità",
+        "Il modello collega movimenti e materia visibile o non luminosa"
+      ],
+      "fonte": {
+        "title": "OpenStax · Gravità e massa della Galassia",
+        "url": "https://openstax.org/books/astronomy-2e/pages/25-3-the-mass-of-the-galaxy"
+      }
+    },
+    {
+      "file": "lezione-6-2.html",
+      "sezione": "interazioni",
+      "titolo": "Due galassie si influenzano anche senza urti fra stelle",
+      "ancora": "principio-fisico",
+      "glossario": [
+        "marea",
+        "conservazione-energia"
+      ],
+      "raccordo": "lezione-3-4.html#principio-fisico",
+      "catena": [
+        "Il campo gravitazionale varia attraverso le galassie",
+        "Le maree deformano le distribuzioni stellari",
+        "Il gas può comprimersi e dissipare energia",
+        "L’incontro modifica struttura e formazione stellare"
+      ],
+      "fonte": {
+        "title": "OpenStax · Incontri e fusioni galattiche",
+        "url": "https://openstax.org/books/astronomy-2e/pages/28-2-galaxy-mergers-and-active-galactic-nuclei"
+      }
+    },
+    {
+      "file": "lezione-6-3.html",
+      "sezione": "parallasse",
+      "titolo": "Misurare una distanza richiede una base e un confronto",
+      "ancora": "principio-fisico",
+      "glossario": [
+        "parallasse",
+        "parsec"
+      ],
+      "raccordo": "lezione-1-4.html#principio-fisico",
+      "catena": [
+        "L’osservatore cambia posizione lungo l’orbita",
+        "La direzione apparente della stella cambia rispetto allo sfondo",
+        "Una base nota collega angolo e distanza",
+        "Il piccolo segnale richiede riferimenti e incertezze"
+      ],
+      "fonte": {
+        "title": "OpenStax · Parallasse e distanze stellari",
+        "url": "https://openstax.org/books/astronomy-2e/pages/19-2-surveying-the-stars"
+      }
+    },
+    {
+      "file": "lezione-6-4.html",
+      "sezione": "lente",
+      "titolo": "La luce può rivelare massa che non vediamo brillare",
+      "ancora": "principio-fisico",
+      "glossario": [
+        "lente-gravitazionale",
+        "materia-oscura"
+      ],
+      "raccordo": "lezione-3-1.html#principio-fisico",
+      "catena": [
+        "La massa modifica la propagazione della luce",
+        "La sorgente può apparire deformata o moltiplicata",
+        "Modelli e dati ricostruiscono la distribuzione di massa",
+        "La massa ricostruita si confronta con le componenti osservate"
+      ],
+      "fonte": {
+        "title": "OpenStax · Luce e relatività generale",
+        "url": "https://openstax.org/books/astronomy-2e/pages/24-3-tests-of-general-relativity"
+      }
+    },
+    {
+      "file": "lezione-6-5.html",
+      "sezione": "redshift",
+      "titolo": "Allungare un’onda non significa trasformarla in una sostanza",
+      "ancora": "principio-fisico",
+      "glossario": [
+        "redshift",
+        "fattore-scala"
+      ],
+      "raccordo": "lezione-4-3.html#principio-fisico",
+      "catena": [
+        "Si identifica la stessa firma spettrale",
+        "Si misura il cambiamento relativo della lunghezza d’onda",
+        "Il contesto distingue le possibili cause",
+        "Il modello cosmologico collega redshift e storia dell’espansione"
+      ],
+      "fonte": {
+        "title": "OpenStax · Espansione e modello cosmologico",
+        "url": "https://openstax.org/books/astronomy-2e/pages/29-2-a-model-of-the-universe"
+      }
+    },
+    {
+      "file": "lezione-7-1.html",
+      "sezione": "occhio",
+      "titolo": "Osservare significa ricevere e interpretare fotoni",
+      "ancora": "principio-fisico",
+      "glossario": [
+        "adattamento-al-buio",
+        "estinzione-atmosferica"
+      ],
+      "raccordo": "lezione-5-1.html#principio-fisico",
+      "catena": [
+        "La sorgente emette radiazione",
+        "L’atmosfera ne modifica il percorso e l’intensità",
+        "L’occhio ha una risposta e soglie proprie",
+        "Buio e adattamento aiutano a distinguere il segnale"
+      ],
+      "fonte": {
+        "title": "OpenStax · Atmosfera e qualità delle osservazioni",
+        "url": "https://openstax.org/books/astronomy-2e/pages/6-2-telescopes-today"
+      }
+    },
+    {
+      "file": "lezione-7-2.html",
+      "sezione": "numeri",
+      "titolo": "Apertura e ingrandimento rispondono a domande diverse",
+      "ancora": "principio-fisico",
+      "glossario": [
+        "apertura",
+        "pupilla-d-uscita"
+      ],
+      "raccordo": "lezione-4-2.html#principio-fisico",
+      "catena": [
+        "Il diametro determina l’area di raccolta",
+        "L’ingrandimento cambia la scala angolare",
+        "La pupilla d’uscita collega strumento e occhio",
+        "Stabilità e trasmissione condizionano il risultato"
+      ],
+      "fonte": {
+        "title": "OpenStax · Raccolta della luce e rivelazione",
+        "url": "https://openstax.org/books/astronomy-2e/pages/6-1-telescopes"
+      }
+    },
+    {
+      "file": "lezione-7-3.html",
+      "sezione": "schemi",
+      "titolo": "Il telescopio cambia il percorso della luce",
+      "ancora": "principio-fisico",
+      "glossario": [
+        "rifrazione",
+        "piano-focale"
+      ],
+      "raccordo": "lezione-4-3.html#principio-fisico",
+      "catena": [
+        "Lenti o specchi modificano il percorso della luce",
+        "L’ottica forma un’immagine nel piano focale",
+        "Oculare o sensore rendono accessibile quell’immagine",
+        "La montatura sostiene e orienta senza sostituire l’ottica"
+      ],
+      "fonte": {
+        "title": "OpenStax · Formazione dell’immagine e telescopi",
+        "url": "https://openstax.org/books/astronomy-2e/pages/6-1-telescopes"
+      }
+    },
+    {
+      "file": "lezione-7-4.html",
+      "sezione": "risoluzione",
+      "titolo": "La luce è un’onda: anche un’ottica perfetta ha un limite",
+      "ancora": "principio-fisico",
+      "glossario": [
+        "diffrazione",
+        "risoluzione-angolare"
+      ],
+      "raccordo": "lezione-7-3.html#principio-fisico",
+      "catena": [
+        "Un’apertura finita produce diffrazione",
+        "La figura dipende da diametro e lunghezza d’onda",
+        "Atmosfera e ottica possono peggiorare il limite",
+        "Ingrandire non equivale a recuperare informazione"
+      ],
+      "fonte": {
+        "title": "OpenStax · Formazione dell’immagine e telescopi",
+        "url": "https://openstax.org/books/astronomy-2e/pages/6-1-telescopes"
+      }
+    },
+    {
+      "file": "lezione-7-5.html",
+      "sezione": "seeing",
+      "titolo": "L’aria può deformare l’immagine senza spegnere la stella",
+      "ancora": "principio-fisico",
+      "glossario": [
+        "seeing",
+        "turbolenza-atmosferica"
+      ],
+      "raccordo": "lezione-7-3.html#principio-fisico",
+      "catena": [
+        "Temperatura e densità dell’aria variano",
+        "La propagazione della luce diventa instabile",
+        "L’immagine può muoversi o allargarsi",
+        "Si distinguono stabilità, trasparenza e fondo del cielo"
+      ],
+      "fonte": {
+        "title": "OpenStax · Atmosfera e qualità delle osservazioni",
+        "url": "https://openstax.org/books/astronomy-2e/pages/6-2-telescopes-today"
+      }
+    },
+    {
+      "file": "lezione-7-6.html",
+      "sezione": "materiale",
+      "titolo": "Anche la rugiada è un problema di scambio di energia",
+      "ancora": "principio-fisico",
+      "glossario": [
+        "condensa",
+        "emissione-termica"
+      ],
+      "raccordo": "lezione-2-2.html#principio-fisico",
+      "catena": [
+        "La superficie scambia energia con l’ambiente",
+        "L’irraggiamento può raffreddarla sotto l’aria",
+        "Il vapore può condensare",
+        "La protezione termica deve essere proporzionata al problema"
+      ],
+      "fonte": {
+        "title": "OpenStax · Cambiamenti di stato e scambi termici",
+        "url": "https://openstax.org/books/college-physics-2e/pages/14-3-phase-change-and-latent-heat",
+        "additional": {
+          "title": "Irraggiamento",
+          "url": "https://openstax.org/books/college-physics-2e/pages/14-7-radiation"
+        }
+      }
+    },
+    {
+      "file": "lezione-8-1.html",
+      "sezione": "atmosfera",
+      "titolo": "Una parte dell’energia del movimento diventa luce e calore",
+      "ancora": "principio-fisico",
+      "glossario": [
+        "energia-cinetica",
+        "ablazione"
+      ],
+      "raccordo": "lezione-3-1.html#principio-fisico",
+      "catena": [
+        "Il corpo possiede energia del movimento",
+        "L’ingresso trasferisce energia a corpo e gas",
+        "Riscaldamento e trasformazioni producono emissione",
+        "Il campione eventualmente al suolo è un dato distinto"
+      ],
+      "fonte": {
+        "title": "OpenStax · Meteore e materia interplanetaria",
+        "url": "https://openstax.org/books/astronomy-2e/pages/14-1-meteors"
+      }
+    },
+    {
+      "file": "lezione-8-2.html",
+      "sezione": "radiante",
+      "titolo": "Il radiante è una prospettiva, lo sciame una storia orbitale",
+      "ancora": "principio-fisico",
+      "glossario": [
+        "radiante-meteorico",
+        "orbita"
+      ],
+      "raccordo": "lezione-3-6.html#principio-fisico",
+      "catena": [
+        "I frammenti occupano una distribuzione di orbite",
+        "La Terra può attraversarla",
+        "Il moto relativo regola l’incontro atmosferico",
+        "La prospettiva fa apparire un radiante comune"
+      ],
+      "fonte": {
+        "title": "OpenStax · Meteore e materia interplanetaria",
+        "url": "https://openstax.org/books/astronomy-2e/pages/14-1-meteors"
+      }
+    },
+    {
+      "file": "lezione-8-3.html",
+      "sezione": "collisioni",
+      "titolo": "Le particelle cariche trasferiscono energia al gas",
+      "ancora": "principio-fisico",
+      "glossario": [
+        "campo-magnetico",
+        "eccitazione-atomica"
+      ],
+      "raccordo": "lezione-4-3.html#principio-fisico",
+      "catena": [
+        "Il plasma interagisce con campi elettromagnetici",
+        "Le particelle trasferiscono energia al gas atmosferico",
+        "Atomi e molecole possono essere eccitati",
+        "Transizioni specifiche producono la luce osservata"
+      ],
+      "fonte": {
+        "title": "NASA · Aurore, particelle e atmosfera",
+        "url": "https://science.nasa.gov/sun/auroras/"
+      }
+    },
+    {
+      "file": "lezione-8-4.html",
+      "sezione": "indice",
+      "titolo": "La propagazione dipende dal mezzo attraversato",
+      "ancora": "principio-fisico",
+      "glossario": [
+        "indice-di-rifrazione",
+        "lunghezza-d-onda"
+      ],
+      "raccordo": "lezione-7-3.html#principio-fisico",
+      "catena": [
+        "La luce interagisce con il mezzo",
+        "L’indice varia fra regioni e lunghezze d’onda",
+        "La traiettoria accumula una deviazione",
+        "La posizione apparente differisce da quella geometrica"
+      ],
+      "fonte": {
+        "title": "OpenStax · Formazione dell’immagine e telescopi",
+        "url": "https://openstax.org/books/astronomy-2e/pages/6-1-telescopes"
+      }
+    },
+    {
+      "file": "lezione-8-5.html",
+      "sezione": "goccia",
+      "titolo": "Una goccia e un cristallo selezionano percorsi differenti",
+      "ancora": "principio-fisico",
+      "glossario": [
+        "rifrazione",
+        "diffrazione"
+      ],
+      "raccordo": "lezione-8-4.html#principio-fisico",
+      "catena": [
+        "La luce incontra gocce o cristalli",
+        "Le superfici selezionano percorsi ottici",
+        "La lunghezza d’onda influenza la direzione",
+        "La geometria rispetto all’osservatore determina la figura"
+      ],
+      "fonte": {
+        "title": "OpenStax · Formazione dell’immagine e telescopi",
+        "url": "https://openstax.org/books/astronomy-2e/pages/6-1-telescopes"
+      }
+    },
+    {
+      "file": "lezione-9-1.html",
+      "sezione": "simboli",
+      "titolo": "Un simbolo grande non è necessariamente un corpo grande",
+      "ancora": "principio-fisico",
+      "glossario": [
+        "magnitudine-apparente",
+        "distanza-angolare"
+      ],
+      "raccordo": "lezione-1-6.html#principio-fisico",
+      "catena": [
+        "Una misura fisica viene tradotta in un simbolo",
+        "La legenda dichiara la grandezza rappresentata",
+        "La proiezione trasforma angoli in distanze sul foglio",
+        "La carta va letta con scala e reticolo"
+      ],
+      "fonte": {
+        "title": "OpenStax · Riferimenti per descrivere il cielo",
+        "url": "https://openstax.org/books/astronomy-2e/pages/4-1-earth-and-sky"
+      }
+    },
+    {
+      "file": "lezione-9-2.html",
+      "sezione": "limiti",
+      "titolo": "Un simulatore combina leggi fisiche e scelte di rappresentazione",
+      "ancora": "principio-fisico",
+      "glossario": [
+        "declinazione"
+      ],
+      "raccordo": "lezione-1-3.html#principio-fisico",
+      "catena": [
+        "Si scelgono dati e condizioni dell’osservatore",
+        "Le trasformazioni calcolano le direzioni locali",
+        "Gli effetti visivi aggiungono una rappresentazione",
+        "Le grandezze invarianti permettono di controllare il modello"
+      ],
+      "fonte": {
+        "title": "OpenStax · Riferimenti per descrivere il cielo",
+        "url": "https://openstax.org/books/astronomy-2e/pages/4-1-earth-and-sky"
+      }
+    },
+    {
+      "file": "lezione-9-3.html",
+      "sezione": "orologi",
+      "titolo": "L’orologio misura intervalli, la convenzione assegna un’ora",
+      "ancora": "principio-fisico",
+      "glossario": [
+        "giorno-siderale",
+        "ora-civile"
+      ],
+      "raccordo": "lezione-2-1.html#principio-fisico",
+      "catena": [
+        "Rotazione e rivoluzione fissano ritorni differenti",
+        "Il riferimento definisce l’intervallo misurato",
+        "Il fuso assegna un’etichetta civile",
+        "Data e scala temporale rendono confrontabili le effemeridi"
+      ],
+      "fonte": {
+        "title": "OpenStax · Riferimenti e misura del tempo",
+        "url": "https://openstax.org/books/astronomy-2e/pages/4-3-keeping-time"
+      }
+    },
+    {
+      "file": "lezione-9-4.html",
+      "sezione": "immagini",
+      "titolo": "Un pixel è una misura del sistema, non un frammento del cielo",
+      "ancora": "principio-fisico",
+      "glossario": [
+        "calibrazione",
+        "banda-passante"
+      ],
+      "raccordo": "lezione-4-3.html#principio-fisico",
+      "catena": [
+        "Il rivelatore converte luce in un segnale",
+        "Lo strumento aggiunge una propria risposta",
+        "La calibrazione rende confrontabili i valori",
+        "Banda e metadati guidano l’interpretazione fisica"
+      ],
+      "fonte": {
+        "title": "OpenStax · Raccolta della luce e rivelazione",
+        "url": "https://openstax.org/books/astronomy-2e/pages/6-1-telescopes"
+      }
+    },
+    {
+      "file": "lezione-9-5.html",
+      "sezione": "altezza",
+      "titolo": "L’altezza del bersaglio cambia il mezzo che attraversa la luce",
+      "ancora": "principio-fisico",
+      "glossario": [
+        "massa-d-aria",
+        "estinzione-atmosferica"
+      ],
+      "raccordo": "lezione-7-5.html#principio-fisico",
+      "catena": [
+        "La rotazione cambia l’altezza locale del bersaglio",
+        "L’altezza modifica il percorso atmosferico",
+        "Assorbimento e diffusione cambiano l’osservazione",
+        "La finestra utile combina geometria e condizioni reali"
+      ],
+      "fonte": {
+        "title": "OpenStax · Atmosfera e qualità delle osservazioni",
+        "url": "https://openstax.org/books/astronomy-2e/pages/6-2-telescopes-today"
+      }
+    },
+    {
+      "file": "lezione-10-1.html",
+      "sezione": "velocita",
+      "titolo": "Anche la stella risponde alla gravità del pianeta",
+      "ancora": "principio-fisico",
+      "glossario": [
+        "accelerazione",
+        "baricentro"
+      ],
+      "raccordo": "lezione-3-1.html#principio-fisico",
+      "catena": [
+        "Stella e pianeta si attraggono reciprocamente",
+        "Le masse diverse rispondono con accelerazioni diverse",
+        "Il moto avviene rispetto al centro di massa comune",
+        "Spettri e transiti misurano aspetti complementari"
+      ],
+      "fonte": {
+        "title": "OpenStax · Leggi del moto e grandezze meccaniche",
+        "url": "https://openstax.org/books/astronomy-2e/pages/3-2-newtons-great-synthesis"
+      }
+    },
+    {
+      "file": "lezione-10-2.html",
+      "sezione": "biosignature",
+      "titolo": "Molecole complesse non significano automaticamente vita",
+      "ancora": "principio-fisico",
+      "glossario": [
+        "legame-chimico",
+        "molecola"
+      ],
+      "raccordo": "lezione-5-4.html#principio-fisico",
+      "catena": [
+        "Gli atomi possono formare molecole e ioni",
+        "Radiazione e superfici influenzano le reazioni",
+        "La chimica complessa può essere abiotica",
+        "L’interpretazione biologica richiede prove e contesto ulteriori"
+      ],
+      "fonte": {
+        "title": "OpenStax · Polvere cosmica e interazione con la luce",
+        "url": "https://openstax.org/books/astronomy-2e/pages/20-3-cosmic-dust"
+      }
+    },
+    {
+      "file": "lezione-10-3.html",
+      "sezione": "neutroni",
+      "titolo": "Materia molto compressa: la pressione non è soltanto calore",
+      "ancora": "principio-fisico",
+      "glossario": [
+        "densita",
+        "pressione-degenerazione"
+      ],
+      "raccordo": "lezione-4-1.html#principio-fisico",
+      "catena": [
+        "Il collasso può concentrare materia a densità estreme",
+        "Il sostegno richiede effetti quantistici e interazioni",
+        "Stelle compatte e buchi neri hanno descrizioni differenti",
+        "La luce osservata non fotografa direttamente ogni regione interna"
+      ],
+      "fonte": {
+        "title": "OpenStax · Nane bianche e pressione di degenerazione",
+        "url": "https://openstax.org/books/astronomy-2e/pages/23-1-the-death-of-low-mass-stars"
+      }
+    },
+    {
+      "file": "lezione-10-4.html",
+      "sezione": "elementi",
+      "titolo": "Gli elementi non vengono tutti dalla stessa fabbrica",
+      "ancora": "principio-fisico",
+      "glossario": [
+        "nucleosintesi",
+        "cattura-neutronica"
+      ],
+      "raccordo": "lezione-4-6.html#principio-fisico",
+      "catena": [
+        "La composizione primordiale offre i nuclei iniziali",
+        "Le stelle trasformano parte dei nuclei con la fusione",
+        "Catture neutroniche e decadimenti aprono altri percorsi",
+        "Il materiale disperso arricchisce successive generazioni"
+      ],
+      "fonte": {
+        "title": "Department of Energy · Nucleosintesi",
+        "url": "https://www.energy.gov/science/doe-explainsnucleosynthesis"
+      }
+    },
+    {
+      "file": "lezione-10-5.html",
+      "sezione": "sonde",
+      "titolo": "Una sonda cambia velocità scambiando quantità di moto",
+      "ancora": "principio-fisico",
+      "glossario": [
+        "quantita-di-moto",
+        "assistenza-gravitazionale"
+      ],
+      "raccordo": "lezione-3-6.html#principio-fisico",
+      "catena": [
+        "La propulsione scambia quantità di moto con il materiale espulso",
+        "Le manovre cambiano la velocità e la traiettoria",
+        "Un incontro gravitazionale può scambiare energia con un pianeta",
+        "Il percorso rende possibili misure da nuovi punti di vista"
+      ],
+      "fonte": {
+        "title": "NASA · Gravità e meccanica del volo spaziale",
+        "url": "https://science.nasa.gov/learn/basics-of-space-flight/chapter3-3/"
+      }
+    }
+  ],
+  "paroleBasi": 7543
+}
