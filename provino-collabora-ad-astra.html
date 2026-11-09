@@ -1,0 +1,1099 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+<meta name="robots" content="noindex,nofollow">
+
+
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>Provino · Collabora con AD ASTRA</title>
+
+  <meta
+    name="description"
+    content="Pubblicazioni AD ASTRA: articoli, rubriche, contributi e lavori editoriali pubblicati su riviste, testate e piattaforme esterne."
+  >
+
+
+  <style>
+
+    /* =========================================================
+       RESET E BASE
+    ========================================================= */
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f7f9fc;
+      color: #102342;
+      line-height: 1.65;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+    }
+
+    .container {
+      width: min(1180px, 92%);
+      margin: 0 auto;
+    }
+
+
+    /* =========================================================
+       BANNER SUPERIORE
+    ========================================================= */
+
+    .top-banner {
+      position: relative;
+      width: 100%;
+      height: clamp(270px, 16.6vw, 340px);
+      overflow: hidden;
+      background: #07152a;
+    }
+
+    .top-banner-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: top center;
+      display: block;
+    }
+
+    .banner-section-title {
+      position: absolute;
+      left: 55%;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 2;
+      max-width: 42%;
+      color: #ffffff;
+    }
+
+    .banner-section-title h1 {
+      margin-bottom: 5px;
+      color: #f4c84e;
+      font-size: clamp(1.45rem, 2.6vw, 2.55rem);
+      line-height: 1.15;
+      font-weight: 700;
+      text-shadow: 0 2px 8px rgba(0,0,0,.55);
+    }
+
+    .banner-section-title p {
+      color: #ffffff;
+      font-size: clamp(.78rem,1.35vw,1.08rem);
+      text-shadow: 0 2px 6px rgba(0,0,0,.65);
+    }
+
+
+    /* =========================================================
+       MENU PRINCIPALE
+    ========================================================= */
+
+    .main-navigation {
+      width:100%;
+      background:linear-gradient(180deg,#07182d 0%,#041326 100%);
+      border-top:1px solid rgba(255,255,255,.08);
+      border-bottom:1px solid rgba(255,255,255,.12);
+    }
+
+    .main-navigation ul {
+      min-height:54px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      flex-wrap:nowrap;
+      gap:0;
+      list-style:none;
+    }
+
+    .main-navigation li {
+      position:relative;
+      flex-shrink:0;
+    }
+
+    .main-navigation li + li::before {
+      content:"";
+      position:absolute;
+      left:0;
+      top:50%;
+      width:1px;
+      height:22px;
+      transform:translateY(-50%);
+      background:rgba(255,255,255,.28);
+    }
+
+    .main-navigation a {
+      display:block;
+      padding:14px 9px 12px;
+      color:#e6edf5;
+      font-size:.64rem;
+      white-space:nowrap;
+      font-weight:600;
+      transition:color .2s ease,background .2s ease;
+    }
+
+    .main-navigation a:hover {
+      color:#5eb5ff;
+    }
+
+    .main-navigation a.active {
+      color:#fff;
+      box-shadow:inset 0 -3px 0 #4aa7ff;
+    }
+
+
+    /* =========================================================
+       INTRODUZIONE
+    ========================================================= */
+
+    .intro {
+      padding: 56px 0 52px;
+      background: #ffffff;
+      border-bottom: 1px solid #dde5ed;
+    }
+
+    .intro-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 360px;
+      gap: 46px;
+      align-items: stretch;
+    }
+
+    .intro-lead {
+      margin-bottom: 11px;
+      color: #174fb9;
+      font-size: 1.17rem;
+      font-weight: 700;
+    }
+
+    .intro-line {
+      width: 72px;
+      height: 3px;
+      margin-bottom: 22px;
+      background: #2864d7;
+    }
+
+    .intro-text {
+      color: #48596c;
+      font-size: .96rem;
+    }
+
+    .intro-text p {
+      margin-bottom: 15px;
+      text-align: justify;
+    }
+
+    .intro-text p:last-child {
+      margin-bottom: 0;
+    }
+
+    .intro-box {
+      padding: 30px;
+      border-radius: 9px;
+      background:
+        linear-gradient(
+          145deg,
+          #102b4d,
+          #07182d
+        );
+      color: #ffffff;
+      box-shadow: 0 10px 28px rgba(9,30,55,.16);
+    }
+
+    .intro-box-symbol {
+      margin-bottom: 14px;
+      color: #f4c84e;
+      font-size: 2.45rem;
+      line-height: 1;
+    }
+
+    .intro-box h2 {
+      margin-bottom: 11px;
+      font-size: 1.05rem;
+    }
+
+    .intro-box p {
+      color: #d8e2ed;
+      font-size: .86rem;
+    }
+
+
+    /* =========================================================
+       PUBBLICAZIONI
+    ========================================================= */
+
+    .publications-section {
+      padding: 62px 0 70px;
+      background: #f7f9fc;
+    }
+
+    .section-heading {
+      display: grid;
+      grid-template-columns: 62px minmax(0,1fr);
+      gap: 18px;
+      align-items: center;
+      margin-bottom: 12px;
+    }
+
+    .section-number {
+      width: 52px;
+      height: 52px;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      background: #2864d7;
+      color: #ffffff;
+      font-size: .82rem;
+      font-weight: 700;
+    }
+
+    .section-heading h2 {
+      color: #102342;
+      font-size: clamp(1.45rem,2.4vw,1.95rem);
+      line-height: 1.2;
+    }
+
+    .section-description {
+      max-width: 850px;
+      margin: 0 0 31px 80px;
+      color: #58687a;
+      font-size: .92rem;
+    }
+
+
+    /* =========================================================
+       CARD PUBBLICAZIONI
+    ========================================================= */
+
+    .publications-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 24px;
+    }
+
+    .publication-card {
+      min-height: 305px;
+      display: grid;
+      grid-template-columns: 165px minmax(0, 1fr);
+      overflow: hidden;
+      background: #ffffff;
+      border: 1px solid #dce4ed;
+      border-radius: 8px;
+      box-shadow:
+        0 5px 17px rgba(18,39,67,.05);
+    }
+
+    .publication-preview {
+      min-height: 305px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      background:
+        linear-gradient(
+          145deg,
+          #17365f,
+          #08182b
+        );
+      color: #dce8f5;
+      text-align: center;
+      font-size: .78rem;
+      line-height: 1.5;
+      font-weight: 700;
+    }
+
+    .publication-content {
+      display: flex;
+      flex-direction: column;
+      padding: 25px 25px 23px;
+    }
+
+    .publication-type {
+      margin-bottom: 6px;
+      color: #2864d7;
+      font-size: .69rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .05em;
+    }
+
+    .publication-title {
+      margin-bottom: 8px;
+      color: #17365f;
+      font-size: 1.1rem;
+      line-height: 1.32;
+    }
+
+    .publication-source {
+      margin-bottom: 5px;
+      color: #526579;
+      font-size: .81rem;
+      font-weight: 700;
+    }
+
+    .publication-date {
+      margin-bottom: 15px;
+      color: #8491a0;
+      font-size: .75rem;
+    }
+
+    .publication-abstract {
+      margin-bottom: 19px;
+      color: #657486;
+      font-size: .82rem;
+      line-height: 1.58;
+    }
+
+    .publication-link {
+      margin-top: auto;
+      align-self: flex-start;
+      color: #2864d7;
+      font-size: .8rem;
+      font-weight: 700;
+    }
+
+
+    /* =========================================================
+       NOTA ARCHIVIO
+    ========================================================= */
+
+    .archive-note {
+      padding: 0 0 66px;
+      background: #f7f9fc;
+    }
+
+    .archive-box {
+      padding: 28px 30px;
+      background: #ffffff;
+      border-left: 4px solid #d5a821;
+      border-top: 1px solid #dde5ed;
+      border-right: 1px solid #dde5ed;
+      border-bottom: 1px solid #dde5ed;
+    }
+
+    .archive-box h2 {
+      margin-bottom: 7px;
+      color: #17365f;
+      font-size: 1.05rem;
+    }
+
+    .archive-box p {
+      color: #59697b;
+      font-size: .86rem;
+    }
+
+
+    /* =========================================================
+       FOOTER
+    ========================================================= */
+
+    .site-footer {
+      position:relative;
+      width:100%;
+      height:clamp(300px,19.8vw,405px);
+      overflow:hidden;
+      background:#041529;
+    }
+
+    .bottom-banner-image {
+      width:100%;
+      height:100%;
+      object-fit:cover;
+      object-position:top center;
+      display:block;
+    }
+
+    .footer-navigation {
+      position:absolute;
+      top:47%;
+      right:3%;
+      transform:translateY(-50%);
+      width:53%;
+      display:grid;
+      grid-template-columns:repeat(4,1fr);
+      gap:18px;
+      color:#fff;
+    }
+
+    .footer-column h3 {
+      margin-bottom:10px;
+      color:#fff;
+      font-size:.82rem;
+    }
+
+    .footer-column ul {
+      list-style:none;
+    }
+
+    .footer-column li {
+      margin-bottom:6px;
+    }
+
+    .footer-column a {
+      color:#bcc8d5;
+      font-size:.72rem;
+      transition:color .2s ease;
+    }
+
+    .footer-column a:hover {
+      color:#5eb5ff;
+    }
+
+    .footer-facebook {
+      width:38px;
+      height:38px;
+      display:grid;
+      place-items:center;
+      border-radius:50%;
+      background:#1877f2;
+      color:#fff;
+      font-size:1.25rem;
+      font-weight:700;
+      font-family:Arial,sans-serif;
+    }
+
+
+    /* =========================================================
+       RESPONSIVE
+    ========================================================= */
+
+    @media (max-width: 1100px) {
+
+      .main-navigation ul {
+        justify-content: flex-start;
+        overflow-x: auto;
+      }
+
+      .publications-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .footer-navigation {
+        width:55%;
+        right:2%;
+        gap:12px;
+      }
+
+    }
+
+
+    @media (max-width: 850px) {
+
+      .top-banner {
+        height: clamp(210px,29vw,250px);
+      }
+
+      .banner-section-title {
+        left:54%;
+        max-width:43%;
+      }
+
+      .intro-grid {
+        grid-template-columns: 1fr;
+        gap:28px;
+      }
+
+      .site-footer {
+        height:auto;
+      }
+
+      .bottom-banner-image {
+        width:100%;
+        height:auto;
+        object-fit:initial;
+      }
+
+      .footer-navigation {
+        position:static;
+        width:100%;
+        transform:none;
+        grid-template-columns:repeat(2,1fr);
+        padding:30px 5%;
+        background:#041529;
+      }
+
+    }
+
+
+    @media (max-width: 650px) {
+
+      .top-banner {
+        height:auto;
+      }
+
+      .top-banner-image {
+        width:100%;
+        height:auto;
+        object-fit:initial;
+      }
+
+      .banner-section-title {
+        position:static;
+        transform:none;
+        max-width:none;
+        padding:18px 5%;
+        background:#07182d;
+      }
+
+      .banner-section-title h1 {
+        font-size:1.35rem;
+      }
+
+      .main-navigation ul {
+        justify-content:flex-start;
+        flex-wrap:nowrap;
+        overflow-x:auto;
+        padding:0 4%;
+      }
+
+      .section-heading {
+        grid-template-columns:48px 1fr;
+        gap:13px;
+      }
+
+      .section-number {
+        width:44px;
+        height:44px;
+      }
+
+      .section-description {
+        margin-left:61px;
+      }
+
+      .publication-card {
+        grid-template-columns:1fr;
+      }
+
+      .publication-preview {
+        min-height:190px;
+      }
+
+      .footer-navigation {
+        grid-template-columns:1fr;
+      }
+
+    }
+
+
+    /* Fotografia e contenuti nel riquadro introduttivo. */
+    .intro-box {
+      position: relative;
+      isolation: isolate;
+      background: url("pubblicazioni-archivio-editoriale.png") center / cover no-repeat;
+    }
+    .intro-box::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      border-radius: inherit;
+      background: linear-gradient(rgba(6, 16, 28, 0.76), rgba(6, 16, 28, 0.86));
+      opacity: 1;
+      pointer-events: none;
+      z-index: -1;
+      transition: opacity 0.25s ease;
+    }
+    .intro-box > * {
+      transition: opacity 0.25s ease;
+    }
+    @media (hover: hover) and (pointer: fine) {
+      .intro-box::before,
+      .intro-box > * { opacity: 0; }
+      .intro-box:hover::before,
+      .intro-box:hover > *,
+      .intro-box:focus-within::before,
+      .intro-box:focus-within > * { opacity: 1; }
+    }
+
+
+    /* Banner inferiore comune: titoli leggibili, con margine superiore regolare. */
+    .site-footer{position:relative;width:100%;height:clamp(350px,22vw,510px);min-height:350px;overflow:hidden;background:#041529}
+    .site-footer .bottom-banner-image{display:block;width:100%;height:100%;object-fit:contain;object-position:left center}
+    .site-footer .footer-navigation{position:absolute;top:36px;right:3%;transform:none;width:53%;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;padding:0;background:transparent;color:#fff;align-items:start}
+    .site-footer .footer-column{min-width:0}
+    .site-footer .footer-column h3{margin:0 0 14px;color:#fff;font-size:.82rem;font-weight:700;line-height:1.4}
+    .site-footer .footer-column ul{list-style:none;margin:0;padding:0}
+    .site-footer .footer-column li{margin:0 0 7px;font-size:.76rem;line-height:1.5}
+    .site-footer .footer-column a{color:#bcc8d5;font-size:.76rem;line-height:1.5;text-decoration:none;transition:color .2s ease}
+    .site-footer .footer-column a:hover{color:#5eb5ff}
+    .site-footer .footer-column .footer-facebook{position:static;transform:none;margin:0;width:38px;height:38px;display:grid;place-items:center;border-radius:50%;background:#1877f2;color:#fff;font-size:1.25rem;font-weight:700;font-family:Arial,sans-serif}
+    @media(max-width:1100px) and (min-width:901px){.site-footer .footer-navigation{top:32px;right:2%;width:55%;gap:12px}.site-footer .footer-column h3{font-size:.75rem}.site-footer .footer-column a{font-size:.69rem}}
+    @media(max-width:900px){.site-footer{height:auto;min-height:0;overflow:visible}.site-footer .bottom-banner-image{width:100%;height:auto;object-fit:initial}.site-footer .footer-navigation{position:static;top:auto;right:auto;transform:none;width:100%;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 22px;padding:32px 5%;background:#041529}.site-footer .footer-column h3{font-size:.85rem}.site-footer .footer-column a{font-size:.8rem}}
+    @media(max-width:520px){.site-footer .footer-navigation{grid-template-columns:1fr;gap:26px;padding:30px 7%}}
+
+  </style>
+
+<link rel="stylesheet" href="assets/menu-persistente.css">
+
+
+
+<link rel="stylesheet" href="assets/provino-pubblicazioni-20261108/pubblicazioni.css">
+
+<style>
+#collabora{margin:2.1rem 0;padding:clamp(1.2rem,4vw,2.8rem);background:#faf7ef;border:1px solid #d9c9a9;border-top:4px solid #ad863f;border-radius:9px;color:#142e43;scroll-margin-top:7rem}
+#collabora h2{font:normal clamp(1.7rem,4vw,2.5rem)/1.14 Georgia,serif;margin:.3rem 0 .7rem;color:inherit}
+#collabora h3{font:normal 1.55rem Georgia,serif;margin:0 0 .55rem;color:inherit}
+#collabora p{max-width:65ch;line-height:1.65;color:inherit}
+.join-actions{display:flex;flex-wrap:wrap;align-items:center;gap:.8rem 1.3rem;margin-top:1rem}
+#collabora a{color:#183d55;text-underline-offset:.23em}
+#collabora .join-primary{display:inline-block;background:#132f43;color:#fffaf1;border:1px solid #132f43;border-radius:4px;padding:.7rem 1rem;font:600 .94rem Arial,sans-serif;cursor:pointer}
+#collabora :focus-visible{outline:3px solid #94691d;outline-offset:3px}
+#join-proposal{border-top:1px solid #d9c9a9;margin-top:1.5rem;padding-top:1.5rem}
+.join-note{font-size:.89rem;margin-bottom:1.15rem}
+.join-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}
+.join-wide{grid-column:1/-1}
+#collabora label{display:flex;flex-direction:column;gap:.4rem;min-width:0;font-weight:600;font-size:.92rem}
+#collabora input,#collabora textarea,#collabora select{width:100%;box-sizing:border-box;min-width:0;padding:.62rem;border:1px solid #b7aa91;border-radius:4px;background:#fffdf8;color:#142e43;font:400 .94rem Arial,sans-serif}
+#collabora textarea{resize:vertical}
+.join-materials{margin:1rem 0;padding:1rem;border:1px solid #d9c9a9;border-radius:4px}
+.join-materials summary{cursor:pointer;font-weight:600}
+.join-materials .join-grid{margin-top:1rem}
+#join-result:empty{display:none}
+main.pub-preview{background:#fff}
+.pub-preview .pub-intro{grid-template-columns:minmax(0,1.65fr) minmax(0,1fr);align-items:center;gap:clamp(1.2rem,5vw,5rem)}
+.pub-preview .pub-intro h2{font-size:clamp(2rem,3.65vw,3.55rem);line-height:1.08}
+.pub-preview .pub-intro > p{max-width:44ch;justify-self:end}
+#collabora{width:100%;max-width:none;box-sizing:border-box;margin:1.7rem 0 0;padding:0;overflow:hidden;background:#fff}
+.join-heading{position:relative;isolation:isolate;box-sizing:border-box;padding:clamp(1rem,2.8vw,2rem);min-height:clamp(210px,22vw,300px);display:flex;flex-direction:column;justify-content:center;align-items:flex-start;gap:.9rem;background:#f9f6ef}
+.join-heading::before{content:"";position:absolute;z-index:-1;inset:0 0 0 auto;width:54%;background:url('assets/provino-collabora/astronauta-alla-scrivania.jpg') right center / cover no-repeat;mask-image:linear-gradient(90deg,transparent 0%,rgba(0,0,0,.03) 12%,rgba(0,0,0,.16) 27%,rgba(0,0,0,.41) 42%,rgba(0,0,0,.73) 56%,rgba(0,0,0,.95) 69%,#000 78%);pointer-events:none}
+
+#collabora .join-copy{width:56%}
+#collabora .join-copy h2{font-size:clamp(1.55rem,3vw,2.45rem);margin:.25rem 0 .45rem}
+#collabora .join-copy p{margin:0;line-height:1.48}
+#collabora .join-actions{margin:0;gap:.55rem .85rem;font-size:.87rem}
+#collabora .join-actions a{padding:.25rem .35rem;background:#f9f6eff5;border-radius:3px}
+#join-proposal{margin:0;padding:clamp(1rem,3vw,2rem)}
+@media(max-width:760px){
+  .pub-preview .pub-intro{grid-template-columns:1fr;gap:.8rem}
+  .pub-preview .pub-intro > p{max-width:none;justify-self:start}
+  .join-heading{padding-top:clamp(130px,48vw,250px);min-height:0}
+  .join-heading::before{inset:0 0 auto;width:100%;height:clamp(165px,58vw,300px);background-position:right top;mask-image:linear-gradient(180deg,#000 32%,rgba(0,0,0,.92) 48%,rgba(0,0,0,.62) 67%,rgba(0,0,0,.22) 85%,transparent 100%)}
+
+  #collabora .join-copy{width:100%}
+  .join-grid{grid-template-columns:minmax(0,1fr)}
+}
+</style>
+</head>
+
+
+<body>
+
+
+  <!-- =====================================================
+       BANNER SUPERIORE
+  ====================================================== -->
+
+  <header class="top-banner">
+
+    <img
+      class="top-banner-image"
+      src="banner.png"
+      alt="AD ASTRA"
+    >
+
+    <div class="banner-section-title">
+
+      <h1>
+        PUBBLICAZIONI
+      </h1>
+
+      <p>
+        Articoli, rubriche e contributi editoriali
+      </p>
+
+    </div>
+
+  </header>
+
+
+
+  <!-- =====================================================
+       MENU PRINCIPALE
+  ====================================================== -->
+
+  <nav
+    class="main-navigation"
+    aria-label="Navigazione principale"
+  >
+
+    <ul>
+
+      <li>
+        <a href="index.html">
+          HOME
+        </a>
+      </li>
+
+      <li>
+        <a href="scuola-astronomia.html">
+          SCUOLA DI ASTRONOMIA
+        </a>
+      </li>
+
+      <li>
+        <a href="guide.html">
+          GUIDE
+        </a>
+      </li>
+
+      <li>
+        <a href="strumentazione.html">
+          STRUMENTAZIONE
+        </a>
+      </li>
+
+      <li>
+        <a href="astrofotografia.html">
+          ASTROFOTOGRAFIA
+        </a>
+      </li>
+
+      <li>
+        <a href="poster.html">
+          POSTER
+        </a>
+      </li>
+
+      <li>
+        <a href="cielo-del-mese.html">
+          IL CIELO DEL MESE
+        </a>
+      </li>
+
+      <li>
+        <a href="effemeridi.html">
+          EFFEMERIDI
+        </a>
+      </li>
+
+      <li>
+        <a href="software.html">
+          SOFTWARE
+        </a>
+      </li>
+
+      <li>
+        <a href="biblioteca.html">
+          BIBLIOTECA
+        </a>
+      </li>
+
+      <li>
+        <a
+          class="active"
+          href="pubblicazioni-ad-astra.html"
+        >
+          PUBBLICAZIONI
+        </a>
+      </li>
+
+      <li>
+        <a href="notizie.html">
+          NOTIZIE
+        </a>
+      </li>
+
+      <li>
+        <a href="ventunesimo.html">
+          VENTUNESIMO
+        </a>
+      </li>
+
+    </ul>
+
+  </nav>
+
+
+
+  <main class="pub-preview"><div class="pub-shell">
+<div class="pub-prototype-note"><span>ANTEPRIMA EDITORIALE · contenuti campione, non pubblicati</span><a href="pubblicazioni-ad-astra.html">Torna alla pagina attuale ↗</a></div>
+<header class="pub-intro"><div><p class="pub-kicker">La selezione del mese</p><h2>IDEE CHE PRENDONO FORMA</h2><p class="pub-subtitle">Parole che trovano voce.</p></div><p>AD ASTRA propone nozioni e notizie, ma offre anche uno spazio per condividere idee, esperienze e domande sull’Universo. Astronomia, scoperte e prospettive da esplorare attraverso gli articoli illustrati dei suoi autori e collaboratori: liberamente consultabili, da sfogliare, approfondire e conservare.</p></header>
+<section class="pub-reader" id="pub-reader" aria-label="Lettore degli articoli campione"><header class="pub-reader-heading"><div><p class="pub-reader-label" id="pub-category">ORIGINI</p><h2 id="pub-reader-title" tabindex="-1">Prima della luce</h2><p class="pub-reader-meta" id="pub-reader-meta">Articolo campione</p></div><div class="pub-reader-tools"><button class="pub-tool" id="pub-mode" type="button" aria-pressed="false"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M2 3h7v14H2zm9 0h7v14h-7z"/></svg><span id="pub-mode-label">Pagina singola</span></button><button class="pub-tool" id="pub-fullscreen" type="button"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M7 3H3v4m10-4h4v4M3 13v4h4m10-4v4h-4"/></svg><span id="pub-fullscreen-label">Schermo intero</span></button><a class="pub-tool gold" id="pub-pdf" href="assets/provino-collabora/prima-della-luce.pdf" download><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 2v10m-4-4 4 4 4-4M3 13v4h14v-4"/></svg>Scarica PDF</a></div></header>
+<div class="pub-stage" id="pub-stage" tabindex="0" aria-label="Pagine dell’articolo; usa le frecce per sfogliare"><div class="pub-spread" id="pub-spread"></div></div>
+<div class="pub-reader-bottom"><div class="pub-zoom"><label for="pub-zoom-input">Zoom</label><input id="pub-zoom-input" type="range" min="1" max="3" step=".1" value="1"><output id="pub-zoom-value" for="pub-zoom-input">100%</output><button class="pub-tool" id="pub-fit" type="button">Adatta</button></div><div class="pub-paging"><button id="pub-prev" type="button" aria-label="Pagina precedente">←</button><output class="pub-page-count" id="pub-page-count" aria-label="Pagine visualizzate">01 — 02 / 02</output><button id="pub-next" type="button" aria-label="Pagina successiva">→</button></div><div class="pub-downloads"><a id="pub-png" href="assets/provino-collabora/prima-della-luce-01.png" download>PNG · pagina 1</a></div></div>
+<p class="pub-reader-hint">Sfoglia con le frecce. Per leggere più da vicino scegli pagina singola, zoom o schermo intero. Su telefono puoi scorrere lateralmente con un gesto.</p><div class="pub-status" id="pub-status" aria-live="polite" aria-atomic="true"></div></section>
+<details class="pub-text-version"><summary>Versione testuale, immagini e fonti dell’articolo</summary><div class="pub-readable" id="pub-readable"></div></details><aside class="pub-lesson-links" id="pub-lessons" aria-label="Per approfondire nelle lezioni"></aside>
+<div class="pub-select-heading"><div><p class="pub-kicker">Scegli la prossima lettura</p><h2 id="pub-collection-title">Quattro sguardi sul cielo.</h2><button id="pub-back-collection" class="pub-return" hidden>← Torna agli articoli AD ASTRA</button></div><a href="#pub-archive">Archivio delle pubblicazioni ↓</a></div><section class="pub-articles" id="pub-articles" aria-label="Articoli da sfogliare"></section>
+
+
+
+<details class="pub-archive" id="pub-archive"><summary>Archivio delle pubblicazioni</summary><p>Cerca per titolo, argomento o autore. Questa selezione contiene quattro monografie campione; le future uscite saranno raccolte per mese e anno.</p><div class="pub-archive-filters"><label>Cerca nell’archivio<input type="search" id="pub-search" placeholder="Titolo, argomento o autore…"></label><label>Argomento<select id="pub-topic"><option value="">Tutti gli argomenti</option></select></label><label>Autore<select id="pub-author-filter"><option value="">Tutti gli autori</option></select></label></div><p id="pub-search-count" aria-live="polite"></p><div id="pub-search-results" class="pub-search-results"></div></details>
+<section class="pub-author-banner pub-author-strip" aria-label="Fabio Rocca · Articoli e pubblicazioni"><div class="pub-author-cameo"><img src="assets/provino-pubblicazioni-20261108/cameo-fabio-rocca-approvato.png" alt="Ritratto illustrato di Fabio Rocca" width="695" height="695" loading="lazy"></div><div class="pub-author-copy"><p class="pub-kicker">AD ASTRA · PUBBLICAZIONI</p><h2>FABIO ROCCA</h2><p class="pub-author-subtitle">Articoli e pubblicazioni</p><p class="pub-author-description">Idee, esperienze e racconti di astronomia.</p></div><button type="button" id="pub-author-switch" aria-label="Esplora le pubblicazioni di Fabio Rocca">Esplora le pubblicazioni <span aria-hidden="true">→</span></button></section>
+<section id="collabora" class="join-panel" aria-labelledby="join-title">
+  <div class="join-heading">
+    <div class="join-copy">
+    <p class="pub-kicker">Scrivi per Pubblicazioni</p>
+    <h2 id="join-title">Collabora con AD ASTRA</h2>
+    <p>Hai un’osservazione, una fotografia o una storia di astronomia da raccontare? Mandaci una breve proposta. Se hai già scritto il pezzo, puoi allegarlo insieme alle immagini.</p>
+    </div>
+    <div class="join-actions">
+      <button type="button" class="join-primary" id="join-open" aria-expanded="false" aria-controls="join-proposal">Proponi un articolo</button>
+      <a href="assets/provino-collabora/AD-ASTRA-Regole-blog.pdf" target="_blank" rel="noopener">Leggi le regole editoriali <span aria-hidden="true">↗</span></a>
+      <a href="assets/provino-collabora/AD-ASTRA-Regole-blog.pdf" download>Scarica il PDF</a>
+    </div>
+  </div>
+  <div id="join-proposal" hidden>
+    <h3 id="join-form-title" tabindex="-1">La tua proposta</h3>
+    <p class="join-note">Anteprima. Puoi provare il modulo con dati di esempio. Nessun dato o file viene inviato o salvato.</p>
+    <form id="join-form" method="dialog" aria-labelledby="join-form-title">
+      <div class="join-grid">
+        <label>Nome e cognome <input name="autore" required autocomplete="name" maxlength="120"></label>
+        <label>Email <input name="email" type="email" required autocomplete="email" maxlength="254"></label>
+        <label class="join-wide">Titolo provvisorio <input name="titolo" required maxlength="160"></label>
+        <label class="join-wide">Di cosa vuoi parlare? <textarea name="proposta" required maxlength="1000" rows="4" placeholder="Raccontaci il tema in poche righe."></textarea></label>
+      </div>
+      <details class="join-materials">
+        <summary>Hai già il pezzo pronto? Aggiungi il materiale (facoltativo)</summary>
+        <div class="join-grid">
+          <label>Articolo (.docx o .odt) <input type="file" name="articolo" accept=".docx,.odt"></label>
+          <label>Figure (fino a 3) <input type="file" id="join-figures" name="figure" accept=".jpg,.jpeg,.png,.webp,.tif,.tiff" multiple></label>
+          <label>Ritratto dell’autore <input type="file" name="ritratto" accept=".jpg,.jpeg,.png,.webp"></label>
+          <label>Uso dell’IA per la revisione del testo
+            <select name="revisione"><option value="">Da indicare per un pezzo pronto</option><option>Sì</option><option>No</option></select>
+          </label>
+          <label class="join-wide">Note sulle immagini e sull’autore
+            <textarea name="note" rows="3" placeholder="Didascalie, tipo di immagine, crediti e fonti. Puoi aggiungere una breve nota biografica."></textarea>
+          </label>
+          <label class="join-wide">Eventuali autorizzazioni (PDF) <input type="file" name="permessi" accept=".pdf" multiple></label>
+        </div>
+      </details>
+      <button class="join-primary" type="submit">Prova l’invio</button>
+      <p id="join-result" role="status"></p>
+    </form>
+  </div>
+</section>
+<noscript><p>Per usare il lettore sfogliabile attiva JavaScript. Puoi comunque <a href="assets/provino-collabora/prima-della-luce.pdf">aprire l’articolo campione in PDF</a>.</p></noscript>
+</div></main>
+
+
+
+  <!-- =====================================================
+       FOOTER
+  ====================================================== -->
+
+  <footer class="site-footer">
+
+    <img
+      class="bottom-banner-image"
+      src="banner 2.png"
+      alt="AD ASTRA - Astronomia, osservazione del cielo, astrofotografia e divulgazione scientifica"
+    >
+
+
+    <div class="footer-navigation">
+
+
+      <div class="footer-column">
+
+        <h3>
+          Scuola di Astronomia
+        </h3>
+
+        <ul>
+
+          <li>
+            <a href="scuola-astronomia.html">
+              Scuola di Astronomia
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              Lezioni
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              Approfondimenti
+            </a>
+          </li>
+
+        <li><a href="laboratorio.html">Laboratorio</a></li><li><a href="quiz-astronomia.html">Quiz di astronomia</a></li><li><a href="glossario.html">Glossario scientifico</a></li></ul>
+
+      </div>
+
+
+
+      <div class="footer-column">
+
+        <h3>
+          Esplora
+        </h3>
+
+        <ul>
+
+          <li>
+            <a href="index.html">
+              Home
+            </a>
+          </li>
+
+          <li>
+            <a href="guide.html">
+              Guide
+            </a>
+          </li>
+
+          <li>
+            <a href="strumentazione.html">
+              Strumentazione
+            </a>
+          </li>
+
+          <li>
+            <a href="cielo-del-mese.html">
+              Il Cielo del Mese
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+
+
+      <div class="footer-column">
+
+        <h3>
+          Risorse
+        </h3>
+
+        <ul>
+
+          <li>
+            <a href="astrofotografia.html">
+              Astrofotografia
+            </a>
+          </li>
+
+          <li>
+            <a href="poster.html">
+              Poster
+            </a>
+          </li>
+
+          <li>
+            <a href="effemeridi.html">
+              Effemeridi
+            </a>
+          </li>
+
+          <li>
+            <a href="software.html">
+              Software
+            </a>
+          </li>
+
+          <li>
+            <a href="biblioteca.html">
+              Biblioteca
+            </a>
+          </li>
+
+          <li>
+            <a href="pubblicazioni-ad-astra.html">
+              Pubblicazioni
+            </a>
+          </li>
+
+          <li>
+            <a href="notizie.html">
+              Notizie
+            </a>
+          </li>
+
+          <li>
+            <a href="ventunesimo.html">
+              VENTUNESIMO
+            </a>
+          </li>
+
+          <li>
+            <a href="contatti.html">
+              Contatti
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+
+
+      <div class="footer-column">
+
+        <h3>
+          Seguici su
+        </h3>
+
+        <a
+          class="footer-facebook"
+          href="#"
+          aria-label="Facebook AD ASTRA"
+        >
+          f
+        </a>
+
+      </div>
+
+
+    </div>
+
+  </footer>
+
+
+<script defer src="assets/menu-persistente.js"></script>
+
+
+
+
+<script defer src="assets/provino-collabora/articoli.js"></script>
+<script defer src="assets/provino-pubblicazioni-20261108/pubblicazioni.js"></script>
+
+<script>
+(() => {
+  const opener = document.getElementById('join-open');
+  const panel = document.getElementById('join-proposal');
+  const form = document.getElementById('join-form');
+  const figures = document.getElementById('join-figures');
+  const status = document.getElementById('join-result');
+  opener.addEventListener('click', () => {
+    panel.hidden = !panel.hidden;
+    opener.setAttribute('aria-expanded', String(!panel.hidden));
+    if (!panel.hidden) document.getElementById('join-form-title').focus();
+  });
+  figures.addEventListener('change', () => {
+    figures.setCustomValidity(figures.files.length > 3 ? 'Scegli al massimo tre figure.' : '');
+    figures.reportValidity();
+  });
+  form.addEventListener('input', () => { status.textContent = ''; });
+  form.addEventListener('submit', event => {
+    event.preventDefault();
+    status.textContent = 'Prova completata. Il modulo è valido. Nessun dato o allegato è stato inviato.';
+  });
+})();
+</script>
+</body>
+
+</html>

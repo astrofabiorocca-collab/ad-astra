@@ -394,6 +394,15 @@
   </style>
 
 <link rel="stylesheet" href="assets/menu-persistente.css">
+<style>
+.contact-intro p{max-width:78ch}
+.contact-intro p+p{margin-top:.8rem}
+.contact-intro a{color:#235877;text-underline-offset:3px}
+.contact-form{background:#121a35 linear-gradient(100deg,rgba(12,21,42,.86),rgba(23,21,51,.54));background-image:linear-gradient(100deg,rgba(12,21,42,.86),rgba(23,21,51,.54)),url('assets/provino-collabora/nebulosa-contatti.jpg');background-size:cover;background-position:center 52%;border-color:#2c3656}
+.contact-form .form-field label,.contact-form .form-note{color:#fff}
+.contact-form .form-note a{color:#fff;text-decoration:underline}
+.contact-form .form-field input,.contact-form .form-field textarea{background:rgba(255,255,255,.94);color:#142e43}
+</style>
 </head>
 
 <body>
@@ -456,34 +465,36 @@
           </h2>
 
           <p>
-            Per informazioni, proposte, collaborazioni o richieste relative
-            ai contenuti del progetto puoi utilizzare il modulo sottostante.
+            Scrivici per una domanda sui contenuti del sito, per segnalarci un errore o per suggerire un tema da approfondire. Se ci scrivi a proposito di un articolo, un poster o una guida, indica il titolo o il link alla pagina e spiegaci a quale passaggio ti riferisci.
+          </p>
+          <p>
+            Hai in mente una collaborazione divulgativa, un incontro o un progetto di osservazione? Raccontaci chi sei e che cosa vorresti fare insieme. Per proporre un articolo, trovi le regole editoriali e il modulo dedicato in <a href="pubblicazioni-ad-astra.html#collabora">Collabora con AD ASTRA</a>.
           </p>
 
         </div>
 
-        <form class="contact-form">
+        <form class="contact-form" method="dialog" data-editorial-email="contact">
 
           <div class="form-grid">
 
             <div class="form-field">
               <label for="nome">Nome</label>
-              <input id="nome" name="nome" type="text" autocomplete="name">
+              <input id="nome" name="nome" required type="text" autocomplete="name">
             </div>
 
             <div class="form-field">
               <label for="email">Email</label>
-              <input id="email" name="email" type="email" autocomplete="email">
+              <input id="email" name="email" required type="email" autocomplete="email">
             </div>
 
             <div class="form-field full">
               <label for="oggetto">Oggetto</label>
-              <input id="oggetto" name="oggetto" type="text">
+              <input id="oggetto" name="oggetto" required type="text">
             </div>
 
             <div class="form-field full">
               <label for="messaggio">Messaggio</label>
-              <textarea id="messaggio" name="messaggio"></textarea>
+              <textarea id="messaggio" name="messaggio" required></textarea>
             </div>
 
           </div>
@@ -492,15 +503,12 @@
 
             <button
               class="form-submit"
-              type="button"
-              disabled
-            >
-              INVIA MESSAGGIO
+              type="submit">
+              PREPARA L’EMAIL
             </button>
 
             <p class="form-note">
-              Il modulo è predisposto graficamente; l'invio verrà attivato
-              dopo la scelta del servizio di recapito.
+              Il modulo apre il tuo programma di posta con il messaggio pronto. Puoi scrivere anche direttamente a <a href="mailto:adastra.redazione@gmail.com">adastra.redazione@gmail.com</a>.
             </p>
 
           </div>
@@ -573,6 +581,7 @@
   </footer>
 
 <script defer src="assets/menu-persistente.js"></script>
+<script defer src="assets/provino-collabora/scrivi-redazione.js"></script>
 </body>
 
 </html>

@@ -2,7 +2,6 @@
 <html lang="it">
 
 <head>
-<meta name="robots" content="noindex,nofollow">
 
 
 
@@ -648,6 +647,51 @@
 
 
 <link rel="stylesheet" href="assets/provino-pubblicazioni-20261108/pubblicazioni.css">
+
+<style>
+#collabora{margin:2.1rem 0;padding:clamp(1.2rem,4vw,2.8rem);background:#faf7ef;border:1px solid #d9c9a9;border-top:4px solid #ad863f;border-radius:9px;color:#142e43;scroll-margin-top:7rem}
+#collabora h2{font:normal clamp(1.7rem,4vw,2.5rem)/1.14 Georgia,serif;margin:.3rem 0 .7rem;color:inherit}
+#collabora h3{font:normal 1.55rem Georgia,serif;margin:0 0 .55rem;color:inherit}
+#collabora p{max-width:65ch;line-height:1.65;color:inherit}
+.join-actions{display:flex;flex-wrap:wrap;align-items:center;gap:.8rem 1.3rem;margin-top:1rem}
+#collabora a{color:#183d55;text-underline-offset:.23em}
+#collabora .join-primary{display:inline-block;background:#132f43;color:#fffaf1;border:1px solid #132f43;border-radius:4px;padding:.7rem 1rem;font:600 .94rem Arial,sans-serif;cursor:pointer}
+#collabora :focus-visible{outline:3px solid #94691d;outline-offset:3px}
+#join-proposal{border-top:1px solid #d9c9a9;margin-top:1.5rem;padding-top:1.5rem}
+.join-note{font-size:.89rem;margin-bottom:1.15rem}
+.join-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}
+.join-wide{grid-column:1/-1}
+#collabora label{display:flex;flex-direction:column;gap:.4rem;min-width:0;font-weight:600;font-size:.92rem}
+#collabora input,#collabora textarea,#collabora select{width:100%;box-sizing:border-box;min-width:0;padding:.62rem;border:1px solid #b7aa91;border-radius:4px;background:#fffdf8;color:#142e43;font:400 .94rem Arial,sans-serif}
+#collabora textarea{resize:vertical}
+.join-materials{margin:1rem 0;padding:1rem;border:1px solid #d9c9a9;border-radius:4px}
+.join-materials summary{cursor:pointer;font-weight:600}
+.join-materials .join-grid{margin-top:1rem}
+#join-result:empty{display:none}
+main.pub-preview{background:#fff}
+.pub-preview .pub-intro{grid-template-columns:minmax(0,1.65fr) minmax(0,1fr);align-items:center;gap:clamp(1.2rem,5vw,5rem)}
+.pub-preview .pub-intro h2{font-size:clamp(2rem,3.65vw,3.55rem);line-height:1.08}
+.pub-preview .pub-intro > p{max-width:44ch;justify-self:end}
+#collabora{width:100%;max-width:none;box-sizing:border-box;margin:1.7rem 0 0;padding:0;overflow:hidden;background:#fff}
+.join-heading{position:relative;isolation:isolate;box-sizing:border-box;padding:clamp(1rem,2.8vw,2rem);min-height:clamp(210px,22vw,300px);display:flex;flex-direction:column;justify-content:center;align-items:flex-start;gap:.9rem;background:#f9f6ef}
+.join-heading::before{content:"";position:absolute;z-index:-1;inset:0 0 0 auto;width:54%;background:url('assets/provino-collabora/astronauta-alla-scrivania.jpg') right center / cover no-repeat;mask-image:linear-gradient(90deg,transparent 0%,rgba(0,0,0,.03) 12%,rgba(0,0,0,.16) 27%,rgba(0,0,0,.41) 42%,rgba(0,0,0,.73) 56%,rgba(0,0,0,.95) 69%,#000 78%);pointer-events:none}
+
+#collabora .join-copy{width:56%}
+#collabora .join-copy h2{font-size:clamp(1.55rem,3vw,2.45rem);margin:.25rem 0 .45rem}
+#collabora .join-copy p{margin:0;line-height:1.48}
+#collabora .join-actions{margin:0;gap:.55rem .85rem;font-size:.87rem}
+#collabora .join-actions a{padding:.25rem .35rem;background:#f9f6eff5;border-radius:3px}
+#join-proposal{margin:0;padding:clamp(1rem,3vw,2rem)}
+@media(max-width:760px){
+  .pub-preview .pub-intro{grid-template-columns:1fr;gap:.8rem}
+  .pub-preview .pub-intro > p{max-width:none;justify-self:start}
+  .join-heading{padding-top:clamp(130px,48vw,250px);min-height:0}
+  .join-heading::before{inset:0 0 auto;width:100%;height:clamp(165px,58vw,300px);background-position:right top;mask-image:linear-gradient(180deg,#000 32%,rgba(0,0,0,.92) 48%,rgba(0,0,0,.62) 67%,rgba(0,0,0,.22) 85%,transparent 100%)}
+
+  #collabora .join-copy{width:100%}
+  .join-grid{grid-template-columns:minmax(0,1fr)}
+}
+</style>
 </head>
 
 
@@ -781,18 +825,58 @@
 
 
   <main class="pub-preview"><div class="pub-shell">
-<div class="pub-prototype-note"><span>ANTEPRIMA EDITORIALE · contenuti campione, non pubblicati</span><a href="scuola-astronomia.html">Esplora la Scuola di Astronomia ↗</a></div>
+<div class="pub-prototype-note"><span>ANTEPRIMA EDITORIALE · contenuti campione, non pubblicati</span><a href="#collabora">Collabora con AD ASTRA ↓</a></div>
 <header class="pub-intro"><div><p class="pub-kicker">La selezione del mese</p><h2>IDEE CHE PRENDONO FORMA</h2><p class="pub-subtitle">Parole che trovano voce.</p></div><p>AD ASTRA propone nozioni e notizie, ma offre anche uno spazio per condividere idee, esperienze e domande sull’Universo. Astronomia, scoperte e prospettive da esplorare attraverso gli articoli illustrati dei suoi autori e collaboratori: liberamente consultabili, da sfogliare, approfondire e conservare.</p></header>
-<section class="pub-reader" id="pub-reader" aria-label="Lettore degli articoli campione"><header class="pub-reader-heading"><div><p class="pub-reader-label" id="pub-category">ORIGINI</p><h2 id="pub-reader-title" tabindex="-1">Prima della luce</h2><p class="pub-reader-meta" id="pub-reader-meta">Articolo campione</p></div><div class="pub-reader-tools"><button class="pub-tool" id="pub-mode" type="button" aria-pressed="false"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M2 3h7v14H2zm9 0h7v14h-7z"/></svg><span id="pub-mode-label">Pagina singola</span></button><button class="pub-tool" id="pub-fullscreen" type="button"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M7 3H3v4m10-4h4v4M3 13v4h4m10-4v4h-4"/></svg><span id="pub-fullscreen-label">Schermo intero</span></button><a class="pub-tool gold" id="pub-pdf" href="assets/provino-pubblicazioni-20261108/prima-della-luce.pdf" download><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 2v10m-4-4 4 4 4-4M3 13v4h14v-4"/></svg>Scarica PDF</a></div></header>
+<section class="pub-reader" id="pub-reader" aria-label="Lettore degli articoli campione"><header class="pub-reader-heading"><div><p class="pub-reader-label" id="pub-category">ORIGINI</p><h2 id="pub-reader-title" tabindex="-1">Prima della luce</h2><p class="pub-reader-meta" id="pub-reader-meta">Articolo campione</p></div><div class="pub-reader-tools"><button class="pub-tool" id="pub-mode" type="button" aria-pressed="false"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M2 3h7v14H2zm9 0h7v14h-7z"/></svg><span id="pub-mode-label">Pagina singola</span></button><button class="pub-tool" id="pub-fullscreen" type="button"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M7 3H3v4m10-4h4v4M3 13v4h4m10-4v4h-4"/></svg><span id="pub-fullscreen-label">Schermo intero</span></button><a class="pub-tool gold" id="pub-pdf" href="assets/provino-collabora/prima-della-luce.pdf" download><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 2v10m-4-4 4 4 4-4M3 13v4h14v-4"/></svg>Scarica PDF</a></div></header>
 <div class="pub-stage" id="pub-stage" tabindex="0" aria-label="Pagine dell’articolo; usa le frecce per sfogliare"><div class="pub-spread" id="pub-spread"></div></div>
-<div class="pub-reader-bottom"><div class="pub-zoom"><label for="pub-zoom-input">Zoom</label><input id="pub-zoom-input" type="range" min="1" max="3" step=".1" value="1"><output id="pub-zoom-value" for="pub-zoom-input">100%</output><button class="pub-tool" id="pub-fit" type="button">Adatta</button></div><div class="pub-paging"><button id="pub-prev" type="button" aria-label="Pagina precedente">←</button><output class="pub-page-count" id="pub-page-count" aria-label="Pagine visualizzate">01 — 02 / 04</output><button id="pub-next" type="button" aria-label="Pagina successiva">→</button></div><div class="pub-downloads"><a id="pub-png" href="assets/provino-pubblicazioni-20261108/prima-della-luce-01.png" download>PNG · pagina 1</a></div></div>
+<div class="pub-reader-bottom"><div class="pub-zoom"><label for="pub-zoom-input">Zoom</label><input id="pub-zoom-input" type="range" min="1" max="3" step=".1" value="1"><output id="pub-zoom-value" for="pub-zoom-input">100%</output><button class="pub-tool" id="pub-fit" type="button">Adatta</button></div><div class="pub-paging"><button id="pub-prev" type="button" aria-label="Pagina precedente">←</button><output class="pub-page-count" id="pub-page-count" aria-label="Pagine visualizzate">01 — 02 / 02</output><button id="pub-next" type="button" aria-label="Pagina successiva">→</button></div><div class="pub-downloads"><a id="pub-png" href="assets/provino-collabora/prima-della-luce-01.png" download>PNG · pagina 1</a></div></div>
 <p class="pub-reader-hint">Sfoglia con le frecce. Per leggere più da vicino scegli pagina singola, zoom o schermo intero. Su telefono puoi scorrere lateralmente con un gesto.</p><div class="pub-status" id="pub-status" aria-live="polite" aria-atomic="true"></div></section>
 <details class="pub-text-version"><summary>Versione testuale, immagini e fonti dell’articolo</summary><div class="pub-readable" id="pub-readable"></div></details><aside class="pub-lesson-links" id="pub-lessons" aria-label="Per approfondire nelle lezioni"></aside>
 <div class="pub-select-heading"><div><p class="pub-kicker">Scegli la prossima lettura</p><h2 id="pub-collection-title">Quattro sguardi sul cielo.</h2><button id="pub-back-collection" class="pub-return" hidden>← Torna agli articoli AD ASTRA</button></div><a href="#pub-archive">Archivio delle pubblicazioni ↓</a></div><section class="pub-articles" id="pub-articles" aria-label="Articoli da sfogliare"></section>
 
+
+
 <details class="pub-archive" id="pub-archive"><summary>Archivio delle pubblicazioni</summary><p>Cerca per titolo, argomento o autore. Questa selezione contiene quattro monografie campione; le future uscite saranno raccolte per mese e anno.</p><div class="pub-archive-filters"><label>Cerca nell’archivio<input type="search" id="pub-search" placeholder="Titolo, argomento o autore…"></label><label>Argomento<select id="pub-topic"><option value="">Tutti gli argomenti</option></select></label><label>Autore<select id="pub-author-filter"><option value="">Tutti gli autori</option></select></label></div><p id="pub-search-count" aria-live="polite"></p><div id="pub-search-results" class="pub-search-results"></div></details>
 <section class="pub-author-banner pub-author-strip" aria-label="Fabio Rocca · Articoli e pubblicazioni"><div class="pub-author-cameo"><img src="assets/provino-pubblicazioni-20261108/cameo-fabio-rocca-approvato.png" alt="Ritratto illustrato di Fabio Rocca" width="695" height="695" loading="lazy"></div><div class="pub-author-copy"><p class="pub-kicker">AD ASTRA · PUBBLICAZIONI</p><h2>FABIO ROCCA</h2><p class="pub-author-subtitle">Articoli e pubblicazioni</p><p class="pub-author-description">Idee, esperienze e racconti di astronomia.</p></div><button type="button" id="pub-author-switch" aria-label="Esplora le pubblicazioni di Fabio Rocca">Esplora le pubblicazioni <span aria-hidden="true">→</span></button></section>
-<noscript><p>Per usare il lettore sfogliabile attiva JavaScript. Puoi comunque <a href="assets/provino-pubblicazioni-20261108/prima-della-luce.pdf">aprire l’articolo campione in PDF</a>.</p></noscript>
+<section id="collabora" class="join-panel" aria-labelledby="join-title">
+  <div class="join-heading">
+    <div class="join-copy">
+    <p class="pub-kicker">Scrivi per Pubblicazioni</p>
+    <h2 id="join-title">Collabora con AD ASTRA</h2>
+    <p>Hai un’osservazione, una fotografia o una storia di astronomia da raccontare? Mandaci una breve proposta. Se hai già scritto il pezzo, puoi allegarlo insieme alle immagini.</p>
+    </div>
+    <div class="join-actions">
+      <button type="button" class="join-primary" id="join-open" aria-expanded="false" aria-controls="join-proposal">Proponi un articolo</button>
+      <a href="assets/provino-collabora/AD-ASTRA-Regole-blog.pdf" target="_blank" rel="noopener">Leggi le regole editoriali <span aria-hidden="true">↗</span></a>
+      <a href="assets/provino-collabora/AD-ASTRA-Regole-blog.pdf" download>Scarica il PDF</a>
+    </div>
+  </div>
+  <div id="join-proposal" hidden>
+    <h3 id="join-form-title" tabindex="-1">La tua proposta</h3>
+    <p class="join-note">Il modulo prepara un messaggio per <a href="mailto:adastra.redazione@gmail.com">adastra.redazione@gmail.com</a>. Puoi aggiungere articolo, figure e ritratto nel tuo programma di posta prima di inviare.</p>
+    <form id="join-form" method="dialog" data-editorial-email="article" aria-labelledby="join-form-title">
+      <div class="join-grid">
+        <label>Nome e cognome <input name="autore" required autocomplete="name" maxlength="120"></label>
+        <label>Email <input name="email" type="email" required autocomplete="email" maxlength="254"></label>
+        <label class="join-wide">Titolo provvisorio <input name="titolo" required maxlength="160"></label>
+        <label class="join-wide">Di cosa vuoi parlare? <textarea name="proposta" required maxlength="1000" rows="4" placeholder="Raccontaci il tema in poche righe."></textarea></label>
+      </div>
+      <details class="join-materials">
+        <summary>Hai già il pezzo pronto? Aggiungi note per la redazione (facoltativo)</summary>
+        <div class="join-grid">
+          <label>Uso dell’IA per la revisione del testo
+            <select name="revisione"><option value="">Da indicare per un pezzo pronto</option><option>Sì</option><option>No</option></select>
+          </label>
+          <label class="join-wide">Note sulle immagini e sull’autore
+            <textarea name="note" rows="3" placeholder="Didascalie, tipo di immagine, crediti e fonti. Puoi aggiungere una breve nota biografica."></textarea>
+          </label>
+        </div>
+      </details>
+      <button class="join-primary" type="submit">Prepara l’email</button>
+    </form>
+  </div>
+</section>
+<noscript><p>Per usare il lettore sfogliabile attiva JavaScript. Puoi comunque <a href="assets/provino-collabora/prima-della-luce.pdf">aprire l’articolo campione in PDF</a>.</p></noscript>
 </div></main>
 
 
@@ -978,8 +1062,10 @@
 
 
 
-<script defer src="assets/provino-pubblicazioni-20261108/articoli.js"></script>
+<script defer src="assets/provino-collabora/articoli.js"></script>
 <script defer src="assets/provino-pubblicazioni-20261108/pubblicazioni.js"></script>
+
+<script defer src="assets/provino-collabora/scrivi-redazione.js"></script>
 </body>
 
 </html>
