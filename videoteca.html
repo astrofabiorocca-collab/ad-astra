@@ -933,7 +933,7 @@
 a{color:inherit}a:hover{text-decoration-thickness:2px}button{font:inherit;cursor:pointer}
 .videoteca-intro{padding:clamp(2rem,6vw,5rem) 0 1.5rem;background:#0a1423}.videoteca-intro p{max-width:none}
 .videoteca h2,.videoteca h3{font-family:Georgia,serif;line-height:1.12;margin:.35em 0}.videoteca h2{font-size:clamp(1.75rem,3vw,2.7rem)}.videoteca-intro h2,.video-details h2{font-family:Arial,Helvetica,sans-serif;font-weight:700;text-transform:uppercase}
-.stage{display:grid;grid-template-columns:minmax(0,1.65fr) minmax(0,1fr);gap:clamp(1rem,3vw,2.5rem);align-items:center;padding:clamp(1rem,4vw,3rem);border:1px solid #b99660;border-radius:13px;background:linear-gradient(90deg,#1019279c,#101927),url('assets/provino-pubblicazioni-20261108/scrivania-celeste.png') center/cover;box-shadow:0 14px 28px #0007}
+.stage{display:grid;grid-template-columns:minmax(0,1.65fr) minmax(0,1fr);gap:clamp(1rem,3vw,2.5rem);align-items:center;padding:clamp(1rem,4vw,3rem);border:1px solid #b99660;border-radius:13px;background:linear-gradient(90deg,#0a142326,#0a14236b),url('assets/videoteca/sala-proiezione.png') center/cover;box-shadow:0 14px 28px #0007}
 .screen{aspect-ratio:16/9;background:linear-gradient(#05102045,#051020b5),var(--cover) center/cover;display:grid;place-items:center;border:1px solid #e1c08b88;border-radius:7px;overflow:hidden;box-shadow:0 7px 0 #030913,0 15px 26px #0008}
 .screen iframe{width:100%;height:100%;border:0}.play{padding:.65rem 1rem;background:#f2d396;color:#141b23;border:0;border-radius:5px;font-weight:700}
 .credit{color:#f1ce90}.links{display:flex;gap:.8rem;flex-wrap:wrap}.collection{margin:3rem 0}
@@ -947,17 +947,71 @@ a{color:inherit}a:hover{text-decoration-thickness:2px}button{font:inherit;cursor
 .videoteca .collection{margin:2.5rem 0 0}
 .videoteca .cards{margin-top:1rem}
 .videoteca .screen{scroll-margin-top:7rem}
-</style></head>
+
+.stage{align-items:start}
+.stage-links{grid-column:1/-1;justify-content:flex-end}
+.videoteca .video-details h2{font-size:clamp(1.2rem,2vw,1.65rem)}
+#playlist-videos{max-height:17rem;overflow-y:scroll;padding-inline-start:2rem;scrollbar-color:#bd9c65 #14243a}
+#playlist-videos button{width:100%;padding:.5rem;color:inherit;background:transparent;border:0;border-radius:4px;text-align:left}
+#playlist-videos button:hover,#playlist-videos button[aria-current=true]{background:#263d55;color:#ffe2a9}
+#cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,15rem),1fr));gap:1rem;margin-top:2rem;align-items:start}
+ .video-area {
+  overflow: hidden;
+  border: 1px solid #f4cf86;
+  border-radius: 10px;
+  background: #14243a;
+  box-shadow: 0 0 12px #efbf634d, inset 0 0 0 1px #efbf6326;
+}
+.video-area summary {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: .5rem;
+  min-height: 11rem;
+  padding: 1rem;
+  background: linear-gradient(transparent 15%, #050d1be8), var(--area-cover) center / cover;
+  cursor: pointer;
+  font-weight: bold;
+}
+.video-area summary::after { content: '+'; color: #ffe1a1; }
+.video-area[open] summary::after { content: '−'; }
+.video-area summary:focus-visible { outline: 2px solid #fff; outline-offset: -4px; }
+.video-area .area-items { padding: .75rem; }
+.area-items button {
+  display: flex;
+  align-items: center;
+  gap: .65rem;
+  width: 100%;
+  margin-bottom: .5rem;
+  padding: .55rem;
+  background: #0a1423;
+  border: 1px solid #bd9c6588;
+  border-radius: 5px;
+  color: inherit;
+  text-align: left;
+}
+.area-items button:last-child { margin-bottom: 0; }
+.area-items button[aria-pressed=true] { border-color: #f2d396; color: #f2d396; }
+.area-items img { width: 4rem; aspect-ratio: 16/9; object-fit: cover; border-radius: 3px; }
+.area-items small { display: block; }
+
+.video-profile {display:flex;align-items:center;gap:.8rem;margin-top:1.25rem;padding:.75rem;background:#0c1524eb;border-radius:.6rem;color:#fff}
+.video-profile p {margin:.2rem 0 0;font-size:.9rem;line-height:1.4}
+.profile-avatar {position:relative;display:grid;place-items:center;overflow:hidden;flex:0 0 clamp(5.25rem, 8vw, 7rem);aspect-ratio:1;border:1px solid #b99660;border-radius:50%;background:#20354a;color:#f2d396}
+.profile-avatar img {position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 12%}
+.profile-avatar.loiacono img {width:285%;height:auto;max-width:none;inset:auto;left:-155%;top:-99%}
+</style>  <link rel="stylesheet" href="assets/banner-comuni.css">
+</head>
 
 
 <body>
-  <header class="top-banner">
+  <header class="top-banner banner-nebulosa">
 
-    <img
-      class="top-banner-image"
-      src="banner.png"
-      alt="AD ASTRA"
-    >
+    <div class="sky"><img src="provini-testata-stellare/nebulosa-estesa.jpg" alt=""></div>
+    <img class="logo-originale logo-raggi" src="provini-testata-stellare/logo-fornito.png" alt="">
+    <img class="logo-originale logo-interno" src="provini-testata-stellare/logo-fornito.png" alt="">
+    <img class="wordmark" src="banner.png" alt="">
+    <span class="rule" aria-hidden="true"></span>
 
     <div class="banner-section-title">
 
@@ -1079,26 +1133,38 @@ a{color:inherit}a:hover{text-decoration-thickness:2px}button{font:inherit;cursor
     <p>Scegli una raccolta nelle sezioni qui sotto e carica il lettore per guardarla nella pagina. I controlli di YouTube ti permettono di passare da un video all’altro e di usare lo schermo intero. I collegamenti accanto al lettore aprono la playlist originale e il canale che la pubblica.</p>
   </div>
   <section class="stage" aria-label="Playlist selezionata">
-    <div class="screen" id="screen"></div>
+    <div>
+      <div class="screen" id="screen"></div>
+      <aside class="video-profile" aria-label="Presentazione del canale">
+        <span class="profile-avatar" id="profile-avatar" aria-hidden="true"></span>
+        <div><strong id="profile-name"></strong><p id="profile-bio"></p></div>
+      </aside>
+    </div>
     <div class="video-details" aria-live="polite" aria-atomic="true">
       <p class="credit" id="publisher"></p>
       <h2 id="title"></h2>
       <p id="description"></p>
-      <div class="links">
+      <ol id="playlist-videos" aria-label="Video della playlist" hidden></ol>
+    </div>
+    <div class="links stage-links">
         <a id="playlist" target="_blank" rel="noopener">Apri su YouTube ↗</a>
         <a id="channel" target="_blank" rel="noopener">Visita il canale ↗</a>
-      </div>
     </div>
   </section>
   <div id="cards"></div>
 </div></main>
-<footer class="site-footer">
+<footer class="site-footer banner-eclissi">
 
-    <img
-      class="bottom-banner-image"
-      src="banner 2.png"
-      alt="AD ASTRA - Astronomia, osservazione del cielo, astrofotografia e divulgazione scientifica"
-    >
+    <div class="footer-sky" aria-hidden="true"><img src="provini-testata-stellare/eclissi-footer.jpg" alt=""></div>
+  <div class="footer-brand">
+    <a class="footer-signature footer-home-link" href="index.html" aria-label="RITORNA ALLA HOME">
+      <img class="footer-rays" src="provini-testata-stellare/logo-fornito.png" alt="">
+      <img class="footer-emblem" src="provini-testata-stellare/logo-fornito.png" alt="">
+      <img class="footer-name" src="banner.png" alt="">
+    <span class="footer-home-tooltip" aria-hidden="true">RITORNA<br>ALLA<br>HOME</span>
+    </a>
+    <p>Astronomia, osservazione del cielo, astrofotografia e divulgazione scientifica.</p>
+  </div>
 
 
     <div class="footer-navigation">
@@ -1264,70 +1330,1064 @@ a{color:inherit}a:hover{text-decoration-thickness:2px}button{font:inherit;cursor
   </footer>
 <script>
 const channel = 'https://www.youtube.com/@UnioneAstrofiliItaliani';
+const playlistVideos = {
+  "PLJtcLHH86tz4-kO2tldcQ9-HpFgMTRrkg": [
+    ["-ZLNUxaNkKc", "Le cose FONDAMENTALI da sapere per fare ASTROFOTOGRAFIA con REFLEX"],
+    ["GDeVx_sa_jw", "Come FOTOGRAFARE LA LUNA con la propria reflex digitale (parte 1)"],
+    ["C55da2YriPU", "Come FOTOGRAFARE LA LUNA con la propria reflex digitale (parte 2)"],
+    ["0F3AbzCL2Jw", "Come FOTOGRAFARE LA LUNA con la propria reflex digitale (TUTORIAL MINERAL MOON)"],
+    ["4AKmTxfRds0", "Cos'è La REGOLA del 600 (o del 500), come funziona e perché proprio questo numero?"],
+    ["j87C4Vqgi7U", "Come FOTOGRAFARE LE STELLE: TUTORIAL completo sugli STAR TRAIL"],
+    ["Lrw3ieaP8gU", "Frame di calibrazione, cosa sono e come acquisirli correttamente (LIGHT, DARK, FLAT, BIAS)"],
+    ["T5GSWafKO5M", "Come fotografare la VIA LATTEA ed elaborarla con DeepSkyStacker e Photoshop"],
+    ["oUAxoQEya2A", "PixInsight - Tutorial di base per elaborazione completa con reflex [ITALIANO]"],
+    ["veJ0adHcz7Q", "ASTROFOTOGRAFIA con REFLEX. BackyardNIKON e BackyardEOS per fotocamere NIKON e CANON [TUTORIAL]"],
+    ["au3cjE4Ab00", "AUTOGUIDA con PHD2. Come utilizzarlo correttamente per una guida e stelle perfette! [TUTORIAL]"],
+    ["au3cjE4Ab00", "AUTOGUIDA con PHD2. Come utilizzarlo correttamente per una guida e stelle perfette! [TUTORIAL]"],
+    ["X-tlW556vzs", "Tempi di ESPOSIZIONE: BREVI o LUNGHI? Vantaggi per il rapporto segnale rumore SNR e limiti pratici"],
+    ["6WU6XjsvQuc", "MODIFICARE LA REFLEX per ASTROFOTOGRAFIA, SI o NO? Differenze tra modifica FULL SPECTRUM e UV-IR CUT"],
+    ["Jgoe7MRKnKY", "Come fare la MESSA A FUOCO NUMERICA in ASTROFOTOGRAFIA con TELESCOPI e REFLEX (FWHM e HFR / HFD)"],
+    ["byBVNXwLK4s", "[AUTOGUIDA PERFETTA] Come FUNZIONA e come BILANCIARE una MONTATURA EQUATORIALE.  (EQ6) - Episodio 1"],
+    ["TEwtcJuZwcY", "[AUTOGUIDA PERFETTA] Come fare un ALLINEAMENTO POLARE PERFETTO con SHARPCAP - Episodio 2"],
+    ["T96ZATrQ4jE", "COMBATTERE l'INQUINAMENTO LUMINOSO in ASTROFOTOGRAFIA con tecniche e filtri (IDAS - Optolong)"],
+    ["SW3rFQIOtno", "Il CAMPIONAMENTO in ASTROFOTOGRAFIA e come ottenere il massimo dettaglio nelle foto astronomiche"],
+    ["4n5uPW3hRuQ", "ASTROFOTOGRAFIA: cosa sono GAIN e OFFSET e come impostarli CORRETTAMENTE? Guida ai sensori CMOS!"],
+    ["l6owzRomi_s", "ASTROFOTOGRAFIA: camere a COLORI e MONOCROMATICHE: QUALE SCEGLIERE? Differenze, vantaggi e consigli"],
+    ["Qkf0Sy5VGqM", "ASTROFOTOGRAFIA - Come realizzare ed elaborare SESSIONI MULTIPLE di ACQUISIZIONE (MONO / OSC)"],
+    ["h053wTHNcgA", "ASTROFOTOGRAFIA: BIAS o DARK FLAT? Come CALIBRARE al meglio le IMMAGINI ASTRONOMICHE in PixInsight"],
+    ["rgf0fjxiFrU", "DITHER OR DIE! L'importanza del DITHERING in ASTROFOTOGRAFIA per la riduzione di rumore ed artefatti"],
+    ["Ois9Ud-GH2M", "Il MERIDIAN FLIP in ASTROFOTOGRAFIA! Effettuare l'inversione al meridiano con MONTATURE EQUATORIALI"],
+    ["83UJNjraZOs", "Come costruire un FOCHEGGIATORE ELETTRONICO economico per il proprio TELESCOPIO con ARDUINO!"],
+    ["xwIpPSepFjs", "ASTROFOTOGRAFIA: 5 ERRORI da non commettere se sei principiante (ma anche se non lo sei!)"],
+    ["2M5D94xzeTY", "Lunghezza, apertura e rapporto focale in ASTROFOTOGRAFIA: cosa sono ed implicazioni IMPORTANTI"],
+    ["7Fi1EDt_DBM", "Il BINNING in ASTROFOTOGRAFIA: quando utilizzarlo, differenze tra CCD e CMOS e vantaggi/svantaggi"],
+    ["OaI5NvAcAMw", "FLAT FRAMES in ASTROFOTOGRAFIA: cosa sono, come funzionano e come farli CORRETTAMENTE (SPECIALE 100)"],
+    ["FWXfA6FISbU", "ASTROFOTOGRAFIA: come iniziare con la propria REFLEX. Hai davvero bisogno di un TELESCOPIO?"],
+    ["RiN_IqjuuJE", "Il mio setup 2021 per ASTROFOTOGRAFIA!"],
+    ["6Q0GXOuvVpM", "I 4 GRANDI NEMICI da combattere in ASTROFOTOGRAFIA!"],
+    ["18AcNwrYkLE", "EQ6: vale la pena acquistare una MONTATURA senza cinghie? Perché ho fatto la MODIFICA ROWAN!"],
+    ["8MsSa1Od3pk", "Come gestire i CAVI nel proprio setup ASTROFOTOGRAFICO - Speciale 5000 ISCRITTI! ❤️"],
+    ["hqkYTxfpsWY", "Il TILT in ASTROFOTOGRAFIA. Da cosa ha origine e come ELIMINARLO!"],
+    ["-l24QUgpKYU", "Come CALCOLARE il TEMPO di ESPOSIZIONE corretto in ASTROFOTOGRAFIA"],
+    ["IuiUnlvII6g", "Il BACKFOCUS in ASTROFOTOGRAFIA. Cos'è e come raggiungerlo correttamente con SPIANATORI e RIDUTTORI."],
+    ["87kaFw2clqA", "ABERRAZIONI OTTICHE: come riconoscerle, evitarle e combatterle con OBIETTIVI FOTOGRAFICI e TELESCOPI"],
+    ["j2XGT_dLiKI", "POTERE RISOLUTIVO, CAMPIONAMENTO e SEEING. Ottenere il massimo dettaglio in DEEP SKY e PLANETARIO"],
+    ["O5uQZawroVA", "Come giudicare una FOTO ASTRONOMICA? Esistono dei criteri assoluti?"],
+    ["S5e8kq0Cnj4", "Le 10 DOMANDE più FREQUENTI che ricevo SULL'ASTROFOTOGRAFIA!"],
+    ["sAGjjiM_Fds", "Arriva il CALCOLATORE dei TEMPI DI POSA! Quanti secondi sono necessari per un SNR ottimale?"],
+    ["8ycdj1ycIL8", "BANDA STRETTA in ASTROFOTOGRAFIA: come scegliere il filtro adatto e la giusta banda passante?"],
+    ["ci0hncm60-0", "La mia NEBULOSA VELO con Samyang 135 e consigli utili per ASTROFOTOGRAFIA a campo largo!"],
+    ["6UlU_FsicK8", "Unreal Engine 5 – Full Course for Beginners"],
+    ["_Zk3TlNTA2c", "Quale software scegliere per la FOTOGRAFIA DEEP SKY? (2023)"],
+    ["KtnHb7FMk2Q", "Express JS Tutorial #1 - Introduction | Node Express JS Tutorial"],
+    ["z_vI3WoAHGY", "Godot 4.0 Stable Quick Start Guide ( 2023 )"],
+  ],
+  "PLJtcLHH86tz5Q6HdcQ7NeGW9I3YhN3PmR": [
+    ["jUjVZ47G4j0", "FOTOGRAFIAMO il MURO del CIGNO! Acquisizione BICOLOR HOO con stelle RGB (NGC 7000)"],
+    ["GDeVx_sa_jw", "Come FOTOGRAFARE LA LUNA con la propria reflex digitale (parte 1)"],
+    ["j87C4Vqgi7U", "Come FOTOGRAFARE LE STELLE: TUTORIAL completo sugli STAR TRAIL"],
+    ["T5GSWafKO5M", "Come fotografare la VIA LATTEA ed elaborarla con DeepSkyStacker e Photoshop"],
+    ["Y5fB85rXCD8", "Fotografiamo la nebulosa STELLA FIAMMEGGIANTE (IC 405)"],
+    ["AJINDehdeIA", "Fotografiamo la GALASSIA GIRANDOLA (M101) con fotocamera MONOCROMATICA e filtri LRGB"],
+    ["fLly9gWHkR8", "Come fotografare le galassie M81 e M82 con TELESCOPIO e fotocamera REFLEX"],
+    ["H0qxcx-tW6Q", "Fotografiamo la COMETA NEOWISE! Dove e quando vederla e fotografarla con la REFLEX (Luglio 2020)"],
+    ["H0qxcx-tW6Q", "Fotografiamo la COMETA NEOWISE! Dove e quando vederla e fotografarla con la REFLEX (Luglio 2020)"],
+    ["3tnoREm5VSU", "FOTOGRAFIAMO la VIA LATTEA con la REFLEX! Serata astronomica a Montenerodomo, Abruzzo"],
+    ["O4A1cFCmHFI", "FOTOGRAFIAMO la GALASSIA di ANDROMEDA (M31) - Primo TEST astrofotografico con la ASI 6200 MC Pro"],
+    ["Kw8vaph34xg", "FOTOGRAFIAMO la GALASSIA del TRIANGOLO (M33). Ultimo test astrofotografico con la ASI 6200 MC PRO"],
+    ["UF6T_dkN_DI", "FOTOGRAFIAMO la NEBULOSA ANIMA (IC 1848). Primo test Pegasus Astro Powerbox per ASTROFOTOGRAFIA"],
+    ["625aEuiokIo", "FOTOGRAFIAMO ORIONE: Complesso nebulare con ASI 1600 e Samyang 135mm (M42, Testa di Cavallo, Fiamma)"],
+    ["YMEFSSTQfew", "FOTOGRAFIAMO la GALASSIA VORTICE (M51). Primo test con EQ6 Pro con modifica ROWAN!"],
+    ["LQYljvx3DFk", "FOTOGRAFIAMO le PLEIADI! Storia di una missione (quasi) impossibile dal cielo cittadino (M45)"],
+    ["liJG6H6H3sw", "FOTOGRAFIAMO la NEBULOSA ROSETTA! E' possibile fare ASTROFOTOGRAFIA con la luna piena (e vicina?)"],
+    ["mCwoswHTeXU", "FOTOGRAFIAMO la NEBULOSA MEDUSA! Può l'elaborazione sostituirsi alla scarsità di segnale? (IC 443)"],
+    ["IVrToMXRGdY", "A caccia della VIA LATTEA nel PARCO NAZIONALE D'ABRUZZO!"],
+  ],
+  "PLJtcLHH86tz7Beb26kZmW9t4OzP0krc13": [
+    ["jgKQ7RTXAhc", "ASTROFOTOGRAFIA - Il CIELO di GENNAIO. L'UNICORNO traina con sé la risalita dell'AURIGA!"],
+    ["WWhrERew0bg", "ASTROFOTOGRAFIA - Il CIELO di FEBBRAIO. L'ORSA dà il benvenuto al ritorno delle GRANDI GALASSIE!"],
+    ["7h9QqP9jE-I", "ASTROFOTOGRAFIA - Il CIELO di MARZO. Arrivano le galassie con l'avvento della GALAXY SEASON!"],
+    ["7-KKDBDDfq0", "ASTROFOTOGRAFIA - Il CIELO di APRILE. Benvenuta GALAXY SEASON!"],
+    ["k0lPK_0dqTo", "ASTROFOTOGRAFIA - Il CIELO di MAGGIO. Ancora GALASSIE allo zenith, ma con qualche novità!"],
+    ["97MwLn0JwJ0", "ASTROFOTOGRAFIA - Il CIELO di GIUGNO. Il ritorno del CIGNO e il cuore galattico della VIA LATTEA!"],
+    ["wobfjiqlhxo", "ASTROFOTOGRAFIA - Il CIELO di LUGLIO. Vola alto il CIGNO con le sue bellissime NEBULOSE estive!"],
+    ["fPPO19JENLo", "ASTROFOTOGRAFIA - Il CIELO di AGOSTO. Il ritorno di CASSIOPEA e l'esplosione di colori della HELIX!"],
+    ["Nv-00fJrww0", "ASTROFOTOGRAFIA - Il CIELO di SETTEMBRE. L'abbraccio materno di CASSIOPEA ed ANDROMEDA!"],
+    ["RBuDEG93HWs", "ASTROFOTOGRAFIA - Il CIELO di OTTOBRE. L'arrivo di ANDROMEDA e l'opposizione di MARTE"],
+    ["QHoPf9GKn-8", "ASTROFOTOGRAFIA - Il CIELO di NOVEMBRE. La regina CASSIOPEA e le sette sorelle delle PLEAIDI"],
+    ["F5EZfMLGSyU", "ASTROFOTOGRAFIA - Il CIELO di DICEMBRE. Arriva il cacciatore ORIONE sulle spiagge della CALIFORNIA!"],
+    ["IimGS8UhJNA", "Come fotografare le NEBULOSE di ORIONE con TREPPIEDE FOTOGRAFICO o un TELESCOPIO professionale!"],
+    ["A0VVZ7SDfIk", "E' arrivata la GALAXY SEASON! 10 galassie da fotografare con i vostri SETUP per ASTROFOTOGRAFIA!"],
+  ],
+  "PLJtcLHH86tz7W2V0WS5xCIP04xxoCKkQl": [
+    ["GDeVx_sa_jw", "Come FOTOGRAFARE LA LUNA con la propria reflex digitale (parte 1)"],
+    ["C55da2YriPU", "Come FOTOGRAFARE LA LUNA con la propria reflex digitale (parte 2)"],
+    ["0F3AbzCL2Jw", "Come FOTOGRAFARE LA LUNA con la propria reflex digitale (TUTORIAL MINERAL MOON)"],
+  ],
+  "PLKwm8rQxXtGAUq5vPtgByxmypxQ2e5KlX": [
+    ["PwUrbHNfhUU", "Deep Sky Stacker facile: un Tutorial semplificato per il primo uso di DSS"],
+    ["C0Mkrwr0VVc", "GraXpert facile, un TUTORIAL semplificato su denoise e rimozione dei gradienti in astrofotografia"],
+  ],
+  "PLKwm8rQxXtGAfyQX0dcfo5_G0Tay1cNkg": [
+    ["nGvsuWnnS_0", "Workshop gratuito di elaborazione di Via Lattea con Asus Italia e ProArt"],
+    ["KqZ97mzTuSc", "Workshop Fotografici di Via Lattea estiva 2026!"],
+    ["PXC-CQ_nD48", "L'importanza del monitor in Astrofotografia | con ASUS ProArt"],
+    ["Qt1QUJtDiRk", "Astrofotografia facile e a basso costo: fotografare la Via Lattea dal treppiede"],
+    ["KETS500WHuk", "Astroinseguitore iOptron HST MiniTracker: dalla Via Lattea all'astrofotografia di Luna e nebulose"],
+    ["i1N3w4nJ7lU", "iOptron HST MiniTracker e Testa EQ/AZ: in arrivo un astroinseguitore molto interessante!  #tracker"],
+    ["hmR2l-DYPqM", "A cosa serve un ASTROINSEGUITORE? Scopriamolo con MSM NOMAD pensato per fotografare la Via Lattea"],
+    ["Mc3NgNq6TwU", "Come aggiungere la Cometa C/2025 F2 SWAN a Stellarium"],
+    ["X1aUwvsqNXw", "Guida a Telescopius: filtra gli oggetti, simula il campo e carica le immagini di astrofotografia"],
+    ["gzAwkzIwS2A", "Simulare gratuitamente il campo inquadrato con ottiche e telescopi con Telescopius e Stellarium"],
+    ["JPRmRTaKhck", "Fotografare la VIA LATTEA INVERNALE, con o senza macchina fotografica modificata?"],
+    ["Etx7tM6KqgM", "Modificare la MACCHINA FOTOGRAFICA per ASTROFOTOGRAFIA: Baader, Super UV-IR cut e Full Spectrum"],
+    ["p2STjGVq154", "Quale Astroinseguitore scegliere? Confronto tra Star Adventurer, Omegon MiniTrack e MSM NOMAD"],
+    ["yjRwUs7Ma-U", "Introduzione e caratteristiche dell'astroinseguitore MSM NOMAD (Move Shoot Move Star Tracker)"],
+    ["4VG01d_neTY", "Aggiornamento filtro Optolong L-Pro a clip per astrofotografia e paesaggistica notturna per Sony FF"],
+    ["pZtEav8WkOE", "Omegon MiniTrack LX4 | Caratteristiche e prove fotografiche a 90mm"],
+    ["knNrL6RL7gA", "Astroinseguitore Omegon MiniTrack: impressioni, caratteristiche e fotografie alla Via Lattea!"],
+    ["2It19Az6jks", "Sky-Watcher Star Adventurer: fotografie e consigli dalla Fioritura di Castelluccio di Norcia"],
+    ["g2pkDBPQhJk", "Pillole di astrofotografia: largo campo con astro-inseguitore Star Adventurer  |  Ep 4"],
+  ],
+  "PLKwm8rQxXtGBFBX8n2qNRi0_BRZ8Q1yJu": [
+    ["sg1phF4qvW0", "PixInsight - Puntata 1 - Tutorial su prima apertura, bias, dark, flat, lights e somma"],
+    ["ENZLtGI16XE", "PixInsight - Puntata 2 - Tutorial su calibrazione, neutralizzazione e gradienti del fondo cielo"],
+    ["umCJ8QynRqY", "PixInsight - Puntata 3 - Tutorial su calibrazione del colore"],
+    ["UoemCkXika0", "PixInsight - Puntata 4 - Tutorial su Star Mask: creazione di una maschera di stelle"],
+    ["BndZ5h1pDak", "PixInsight - Puntata 5 - Tutorial su PSF, deconvoluzione e riduzione del rumore lineare"],
+    ["GbaqsoD1edY", "PixInsight - Puntata 6 - Tutorial su stretch dell'immagine con Historigram Transformation"],
+    ["GpX1xRYK8IU", "Aggiornamento di PIXINSIGHT sul Weighted Batch Preprocessing con Roberto Sartori"],
+    ["XG3UatGXWlY", "Il nuovo GraXpert 3.0 con denoise: novità, installazione su PixInsight e correzione errori"],
+    ["_m2MQugdcvs", "Astrofotografia Solare su PixInsight con Solar Toolbox: elaborazione fotografica del Sole"],
+    ["sjo2cZ3P0rY", "Le nuove lezioni su PixInsight di sviluppo e post produzione di astrofotografia"],
+    ["80oTXDkrNo0", "Corso Online di PixInsight 2025  #astrofotografia #fotografia #pixinsight"],
+    ["m08rzi1xH64", "Corso Online di PixInsight | Edizione 2026 : elaborazione di Astrofotografia Deep Sky"],
+    ["KBzTVLQYBBU", "Corso Online di PixInsight dal 27 ottobre | Base e intermedio per 5 appuntamenti serali"],
+  ],
+  "PLKwm8rQxXtGBFIzzb_S2X_qbJTUXR5dxk": [
+    ["RSTJzWMO1QI", "FLAT e DARKFLAT: scatti di calibrazione per reflex e camere CMOS per astrofotografia"],
+    ["YQqDh7k0OmY", "DARK e BIAS: scatti di calibrazione per reflex e camere CMOS per astrofotografia"],
+    ["dZE2CRWwzIg", "5 CONSIGLI PER FARE OTTIMI FLAT FIELD CON LA VOSTRA REFLEX!"],
+    ["sSWhRBYbpxo", "Condensa, Sensor Frost e pastiglie nelle camere astronomiche per Astrofotografia Deep Sky"],
+  ],
+  "PLKwm8rQxXtGBZvt0rbrw08UkoJva9Jw6-": [
+    ["kQsGZjy6RD8", "Scegliere un TELESCOPIO ECONOMICO per osservazione di Luna e Galassie"],
+    ["1PTHhWiN6cs", "IL TUO PRIMO TELESCOPIO ASTRONOMICO | Parte Uno"],
+    ["FeJDmrh47gE", "IL TUO PRIMO TELESCOPIO ASTRONOMICO | Parte Due"],
+    ["XXiqgOX-OZA", "IL TUO PRIMO TELESCOPIO ASTRONOMICO | Parte Tre"],
+    ["7aT8L7jvCWc", "CELESTRON StarSense EXPLORER | L'esplorazione del cielo è per tutti!"],
+    ["VoYlErrjTjk", "COME SCEGLIERE IL MIGLIORE TELESCOPIO ECONOMICO per te e i tuoi bambini!"],
+    ["DghqHwtxwJ4", "Il migliore TELESCOPIO ASTRONOMICO sotto i 150,00€? Ecco un'idea!"],
+    ["C9UULmqEAoc", "Celestron AstroMaster 70EQ | Un'altra idea per il tuo primo telescopio economico"],
+    ["V65EKoU7VCA", "Il tuo primo telescopio economico sceglilo bene | Cosa, dove e perché!"],
+    ["2It19Az6jks", "Sky-Watcher Star Adventurer: fotografie e consigli dalla Fioritura di Castelluccio di Norcia"],
+    ["obQOuicSPj8", "Tutto quello che ti serve per fare ASTROFOTOGRAFIA Deep Sky!"],
+    ["ps5YOzHuCb8", "Come iniziare a fare IMAGING PLANETARIO a Luna e pianeti con un telescopio astronomico"],
+    ["N8tTS-YoikA", "Allineamento polare per montature motorizzate con nuovo cannocchiale polare 2012/2032"],
+    ["lw7-zQhITVU", "Allineamento polare per montature equatoriali EQ3 e EQ5 manuali non motorizzate"],
+    ["RxPiUbizv3k", "Nuova montatura AZ-EQ Avant: montatura altazimutale ed equatoriale portatile"],
+    ["ZL4-W0RTnn4", "Allineamento polare se la stella polare non è visibile | Montatura equatoriale manuale"],
+    ["2UrlbqJFQws", "Allineamento polare per montature equatoriali manuali tipo EQ1 ed EQ2"],
+  ],
+  "PLKwm8rQxXtGCz27xCydM4gyvvI_uDLSYC": [
+    ["qmpwWvm_m5U", "Pillole di Astrofotografia: il campionamento  |  Episodio 1"],
+    ["z_XK0SvzCbY", "Pillole di Astrofotografia: la regola del 600  |  Episodio 2"],
+    ["Vn0aKw_7QM4", "Pillole di astrofotografia: startrail - fotografare le scie delle stelle.. e le lucciole!  |  Ep 3"],
+    ["g2pkDBPQhJk", "Pillole di astrofotografia: largo campo con astro-inseguitore Star Adventurer  |  Ep 4"],
+    ["tg9tirJC5lA", "Pillole di astrofotografia: EFFICIENZA QUANTICA o quantum efficiency  |  Ep 5"],
+    ["t1RFmDg76ck", "Pillole di astrofotografia: sensore fotografico e matrice di Bayer  |  Ep 6"],
+    ["nLLY9i0vC4c", "Pillole di astrofotografia: Luminanza L e filtri UV/IR Cut  |  Ep 7"],
+    ["jxrRR4rqQVA", "Pillole di astrofotografia: deep-sky senza autoguida  |  Parte Uno | Ep 8"],
+    ["_QpHnhR12lo", "Pillole di astrofotografia: banda stretta e Hubble Palette | Parte Uno |  Ep 9"],
+    ["UTJxgRPW9kw", "Pillole di astrofotografia: banda stretta e Hubble Palette | Parte Due |  Ep 10"],
+    ["0WHLPTuzD8Q", "Pillole di astrofotografia: deep-sky senza autoguida  |  Parte Due | Ep 11"],
+    ["RobYQl17J0I", "Pillole di astrofotografia: colore e dominanti: il filtro Baader UHC-S  |  Ep 12"],
+    ["yym1Vz_Bp1c", "Pillole di astrofotografia: aberrazione sferica, curvatura di campo, coma e astigmatismo  |  Ep 13"],
+    ["6XpibNoKlf4", "Istogramma: da dove partire e perché è tanto importante!"],
+    ["DlzK8GZKVh4", "Istogramma e fotografia deep-sky | Perché è tanto importante!"],
+    ["ZBhpiSl9S6I", "ASTROFOTOGRAFIA | Quanto segnale integrare? | Pillole di astrofotografia | Ep 14"],
+    ["Ce6lAZ7S_Dc", "Collegamento Montatura Equatoriale al PC con EQMOD | Pillole di Astrofotografia | Ep 15"],
+    ["MmpqRiErCzs", "Funzioni utili di EQMOD | Pillole di Astrofotografia | Ep 16"],
+    ["4j4KbQhs09E", "Ecco perché la REGOLA DEL 500 o 600 in fotografia NON funziona!"],
+    ["YQqDh7k0OmY", "DARK e BIAS: scatti di calibrazione per reflex e camere CMOS per astrofotografia"],
+    ["RSTJzWMO1QI", "FLAT e DARKFLAT: scatti di calibrazione per reflex e camere CMOS per astrofotografia"],
+    ["ps5YOzHuCb8", "Come iniziare a fare IMAGING PLANETARIO a Luna e pianeti con un telescopio astronomico"],
+    ["vlfFyon-lgs", "Calcoli di Astrofotografia: campionamento, risoluzione e NPF"],
+    ["41Jl9lLMEbs", "Guida ai FILTRI per astrofotografia: tra banda stretta e larga | Pt1"],
+    ["c1ep4DQ6dLM", "Il Campionamento in Astrofotografia Deep Sky con G. Paglioli"],
+    ["5aOAlhQoBeo", "Montature per astrofotografia: backlash, pec, errore periodico"],
+    ["ijBda8on2bY", "Fotografare la LUNA CINEREA ed elaborazione con PHOTOSHOP"],
+    ["kQsGZjy6RD8", "Scegliere un TELESCOPIO ECONOMICO per osservazione di Luna e Galassie"],
+    ["oAnLFTvPp1Y", "Calcolare la distanza delle GALASSIE nelle immagini di ASTROFOTOGRAFIA"],
+    ["SaaiuHvOAKA", "I Colori delle Nebulose in Astrofotografia: dalla banda larga all'Hubble Palette in banda stretta"],
+    ["vOoEyIYPYOs", "Storia Delle Nebulose Planetarie attraverso l'astrofotografia amatoriale | Parte Uno"],
+    ["Gz-pEqQKhYw", "Storia Delle Nebulose Planetarie attraverso l'astrofotografia amatoriale | Parte Due"],
+    ["mM0r8SChb6A", "Collegare la montatura del telescopio a STELLARIUM con EQMOD"],
+    ["k1y2h4tEvlk", "Come personalizzare il PAESAGGIO di sfondo su STELLARIUM"],
+    ["_BsLg95annQ", "Astrofotografia sulla nebulosa Testa di Cavallo: una storia di fallimenti di successo"],
+    ["c905-xrJdHI", "Camere Astronomiche CMOS ZWO ASI con finestra AR o UV-IR CUT?"],
+    ["xGMnq_50GDM", "Trovare e fotografare il telescopio James Webb da Terra con il JPL Horizons Ephemeris System"],
+    ["_m2MQugdcvs", "Astrofotografia Solare su PixInsight con Solar Toolbox: elaborazione fotografica del Sole"],
+    ["J7uJvniuWyQ", "L'emozione dell'astrofotografia in un'immagine: la Nebulosa Fantasma nel Cefeo"],
+    ["AYDAlIuwoeY", "Social e Competizione nell'Astrofotografia moderna"],
+  ],
+  "PLKwm8rQxXtGDgRweAhwYVjZWSxC-jOfev": [
+    ["obQOuicSPj8", "Tutto quello che ti serve per fare ASTROFOTOGRAFIA Deep Sky!"],
+    ["Aa_UjqY_Bak", "Migliorare la reflex per ASTROFOGRAFIA con telescopio o obiettivo"],
+    ["L5muPaCm-yg", "Equilibrare il telescopio su una montatura equatoriale"],
+    ["QLvwWweECeI", "Cos'è e a cosa serve l'AUTOGUIDA in astrofotografia"],
+    ["Ce6lAZ7S_Dc", "Collegamento Montatura Equatoriale al PC con EQMOD | Pillole di Astrofotografia | Ep 15"],
+    ["6XpibNoKlf4", "Istogramma: da dove partire e perché è tanto importante!"],
+    ["xGMnq_50GDM", "Trovare e fotografare il telescopio James Webb da Terra con il JPL Horizons Ephemeris System"],
+    ["mM0r8SChb6A", "Collegare la montatura del telescopio a STELLARIUM con EQMOD"],
+    ["GUMop6C18Cs", "Modificare la reflex per astrofotografia: Baader, UV-IR cut e Full Spectrum (VERSIONE VECCHIA)"],
+    ["DlzK8GZKVh4", "Istogramma e fotografia deep-sky | Perché è tanto importante!"],
+    ["LHpoQuTjAUI", "Filtro Optolong L-Pro VS L-eNhance: quale comprare?"],
+    ["GFJAcS8ZJiI", "Serve tutto questo per fare ASTROFOTOGRAFIA DEEP SKY?"],
+    ["p2STjGVq154", "Quale Astroinseguitore scegliere? Confronto tra Star Adventurer, Omegon MiniTrack e MSM NOMAD"],
+    ["dZE2CRWwzIg", "5 CONSIGLI PER FARE OTTIMI FLAT FIELD CON LA VOSTRA REFLEX!"],
+    ["41Jl9lLMEbs", "Guida ai FILTRI per astrofotografia: tra banda stretta e larga | Pt1"],
+    ["RSTJzWMO1QI", "FLAT e DARKFLAT: scatti di calibrazione per reflex e camere CMOS per astrofotografia"],
+    ["_BsLg95annQ", "Astrofotografia sulla nebulosa Testa di Cavallo: una storia di fallimenti di successo"],
+    ["MmpqRiErCzs", "Funzioni utili di EQMOD | Pillole di Astrofotografia | Ep 16"],
+    ["uaW8h8EPU8w", "Nuova postazione fissa per astrofotografia con RC12 Tecnosky GSO con controllo e gestione da remoto"],
+    ["5aOAlhQoBeo", "Montature per astrofotografia: backlash, pec, errore periodico"],
+    ["SaaiuHvOAKA", "I Colori delle Nebulose in Astrofotografia: dalla banda larga all'Hubble Palette in banda stretta"],
+    ["k1y2h4tEvlk", "Come personalizzare il PAESAGGIO di sfondo su STELLARIUM"],
+    ["YQqDh7k0OmY", "DARK e BIAS: scatti di calibrazione per reflex e camere CMOS per astrofotografia"],
+    ["Etx7tM6KqgM", "Modificare la MACCHINA FOTOGRAFICA per ASTROFOTOGRAFIA: Baader, Super UV-IR cut e Full Spectrum"],
+    ["3P75CNoOtf0", "Elaborare scatti in banda stretta di camere a colori e reflex DSLR | Dubbi e consigli utili"],
+    ["4j4KbQhs09E", "Ecco perché la REGOLA DEL 500 o 600 in fotografia NON funziona!"],
+    ["c1ep4DQ6dLM", "Il Campionamento in Astrofotografia Deep Sky con G. Paglioli"],
+    ["ijBda8on2bY", "Fotografare la LUNA CINEREA ed elaborazione con PHOTOSHOP"],
+    ["XG3UatGXWlY", "Il nuovo GraXpert 3.0 con denoise: novità, installazione su PixInsight e correzione errori"],
+    ["JPRmRTaKhck", "Fotografare la VIA LATTEA INVERNALE, con o senza macchina fotografica modificata?"],
+    ["vlfFyon-lgs", "Calcoli di Astrofotografia: campionamento, risoluzione e NPF"],
+    ["fMPvMLLvpCU", "ASTROFOTOGRAFIA di PRIMAVERA: arriva la GALAXY SEASON, la stagione delle galassie!"],
+    ["pTvlBZw2PC4", "Stacking sulla nebulosa Velo NGC 6960 | L'INTEGRAZIONE in ASTROFOTOGRAFIA"],
+    ["J7uJvniuWyQ", "L'emozione dell'astrofotografia in un'immagine: la Nebulosa Fantasma nel Cefeo"],
+    ["XYDmJZrSAeg", "Stampare le vostre astrofotografie | L'importanza del profilo colore ICC"],
+    ["gzAwkzIwS2A", "Simulare gratuitamente il campo inquadrato con ottiche e telescopi con Telescopius e Stellarium"],
+    ["GgTu9K3hSoE", "Astrofotografia Deep Sky con Luna piena: tutto quello che devi sapere"],
+    ["X1aUwvsqNXw", "Guida a Telescopius: filtra gli oggetti, simula il campo e carica le immagini di astrofotografia"],
+    ["PTC8eYmK3kA", "Podcast episodio 2: Filtri per ASTROFOTOGRAFIA, banda larga, stretta, multibanda e luci LED"],
+    ["Ykt0uOh4QVs", "Ho Fotografato la Nebulosa Planetaria Sh2-71: il Cuore Misterioso dell’Aquila"],
+    ["wtUCHsgXajw", "Come trovare, osservare e fotografare la COMETA Johnson C/2015 V2"],
+    ["Mc3NgNq6TwU", "Come aggiungere la Cometa C/2025 F2 SWAN a Stellarium"],
+    ["_m2MQugdcvs", "Astrofotografia Solare su PixInsight con Solar Toolbox: elaborazione fotografica del Sole"],
+  ],
+  "PL_cp37j54iAdMQZP6S-iYggywXKbFemFs": [
+    ["3MMlH2Eks4U", "Cosa vedo: la GALASSIA M106"],
+    ["COBiuZ1ZUt8", "Cosa vedo: la GALASSIA GIRANDOLA - M101"],
+    ["6RSdStCQvgY", "Cosa vedo: la GALASSIA OCCHIO NERO - M64"],
+    ["yVxOpJ0G3kg", "COSA VEDO: le NEBULOSE STELLA FIAMMEGGIANTE e GIRINI"],
+    ["6VuV17ibGAc", "COSA VEDO: ORIONE"],
+    ["hgkdD9qR1Y8", "COSA VEDO: la NEBULOSA GRANCHIO"],
+    ["1TDyTU2FtUU", "COSA VEDO: le PLEIADI"],
+    ["1aBxci5ZqSw", "Cosa vedo: le NEBULOSE CUORE e ANIMA"],
+    ["8bxTA9Od6AA", "Cosa vedo: la GALASSIA DI ANDROMEDA"],
+    ["8lbZ7vnYLJM", "Cosa vedo: la NEBULOSA MANUBRIO"],
+    ["3bzIYm3oLws", "Cosa vedo: il COMPLESSO NEBULARE DEL CIGNO"],
+    ["xxnws7WzTGk", "Cosa vedo: la NEBULOSA VELO"],
+    ["KMkK23uA4YI", "Cosa vedo: la NEBULOSA PELLICANO e NORD AMERICA"],
+    ["JAOykizE9s4", "Cosa vedo: la NEBULOSA AQUILA e OMEGA"],
+    ["VzrDwDL25dk", "Cosa vedo: la NEBULOSA TRIFIDA e LAGUNA"],
+    ["rLLZe4me6KU", "Cosa vedo: COMPLESSO DI RHO OPHIUCHI"],
+    ["LRYtdyXSGFY", "Cosa vedo: l'AMMASSO DI ERCOLE"],
+    ["l1SiPCoCxKs", "Cosa vedo: la GALASSIA AGO"],
+    ["pnDfta3IoQI", "Cosa vedo: la GALASSIA VORTICE"],
+    ["_nBHTokmbsE", "Cosa vedo: la NEBULOSA GUFO"],
+    ["me6660ip4nA", "Cosa vedo: la GALASSIA SIGARO"],
+    ["9vthoC449Hc", "Cosa vedo: la GALASSIA DI BODE"],
+    ["MOghjNBq2R0", "Cosa vedo: la NEBULOSA OCCHIO DI GATTO"],
+    ["0gvwjnSX758", "Cosa vedo: il TRIPLETTO DEL DRAGO"],
+    ["Ff_gaO0heSY", "Cosa vedo: la GALASSIA CARAMELLA"],
+    ["qQ7gxv109oA", "Cosa vedo: GRUPPO DEL LEONE HCG44"],
+    ["twhhEStMMsw", "Cosa vedo: il TRIPLETTO DEL LEONE"],
+  ],
+  "PL_cp37j54iAfwTMoQMNtJu1NRG1PWWdUO": [
+    ["ji7BwWdUe6Y", "COME BILANCIARE UN TELESCOPIO: guida pratica"],
+    ["B_j4gLxbwEU", "COME MONTARE UNA MONTATURA EQUATORIALE: guida pratica"],
+    ["g2NxKHSX978", "PC FISSO PER ELABORARE FOTO ASTRO: caratteristiche e componenti"],
+    ["tRlhVL0R5so", "SOTTRAZIONE DEL CONTINUUM: che cos'è e come si fa?"],
+    ["Hn6MqLG4LvM", "L'ABC DELL'ASTROFOTOGRAFIA: come fotografare cosa!"],
+    ["O0TlwnVC79M", "HDR in astrofotografia: ecco come fare!"],
+    ["T44yya6oswk", "Calcolare il consumo elettrico di un setup di astrofotografia!"],
+    ["BzjfNAPRgvA", "SVBONY SV241 + MINIPC MELE = COMBO DEFINITIVA DELL'ASTROFOTOGRAFIA"],
+    ["X_fOZ095s9s", "HELLAS-SKY: il portale verso l'astrofotografia deepsky di alta qualità!"],
+    ["ZwhVb4L42_8", "ToupTek AAF (Astro Automatic Focuser): guida pratica all'installazione!"],
+    ["74Ib-XqV0UI", "MODIFICHE DEI SENSORI PER ASTROFOTOGRAFIA"],
+    ["IDdbICJ2ywg", "COMETA C/2023 A3: come fotografarla al meglio!"],
+    ["_B4xYT-VbJk", "I MIGLIORI 3 SOGGETTI ESTIVI DA ASTRO-FOTOGRAFARE"],
+    ["a8W9kCeVhK8", "Come collimare un telescopio SC per astrofotografia - GUIDA PRATICA CON SENSORE ASTRONOMICO"],
+    ["xRmB12GS9MI", "Come utilizzare il RIDUTTORE/CORRETTORE per telescopi SC"],
+    ["VX8l8uWFKeY", "I MIGLIORI 3 SOGGETTI INVERNALI"],
+    ["mg8NN-mNNq4", "Come fotografare con l'ASTROINSEGUITORE... Guida per lo STAR ADVENTURER"],
+    ["0I4lUVrekRk", "SENSORI e FILTRI in ASTROFOTOGRAFIA. Quale scegliere?"],
+    ["j_2W4ksBX8w", "COS'E' IL CAMPIONAMENTO IN ASTROFOTOGRAFIA?"],
+    ["4vuFXean28Q", "TRUCCHI e SEGRETI dell'IMAGING PLANETARIO con il C9.25''"],
+    ["3wqhR5feIq4", "IMAGING PLANETARIO: come fotografare Luna e pianeti"],
+    ["wEZUs8vujI4", "Astrofotografia DeepSky con OBIETTIVI FOTOGRAFICI... Setup del TAMRON 70/200 f2.8"],
+    ["AovQIrfcqXk", "CELESTRON C9.25: astrofotografia DEEPSKY a lunga focale"],
+    ["UvEj40W5RwE", "Astrofotografia con camere CMOS: DARK, BIAS e FLAT"],
+    ["BhRmGDQdSQM", "Astrofotografia DEEP SKY e SENSORI MODIFICATI"],
+    ["H1zjbQfsYH4", "Guida pratica per lo STAR-ADVENTURER 2i"],
+    ["DOy9psGhmCY", "ASTROINSEGUITORE vs MONTATURA EQUATORIALE"],
+    ["OAUwLBdJsxU", "Astrofotografia con reflex: DARK, BIAS e FLAT"],
+    ["MFh4tOi_dBU", "Prima ASTROFOTOGRAFIA con reflex e cavalletto"],
+    ["BMtfFN0A3kA", "ASTROFOTOGRAFIA: le basi di partenza"],
+  ],
+  "PLdN2BAVD9wRUmgEXzSK_THyg0pGnDQvTG": [
+    ["-RQ2ntyNuwQ", "🌍 L'INCLINAZIONE DELL'ASSE TERRESTRE E LE STAGIONI"],
+    ["LJPmaozJ-Rg", "🪼 COS'È IL FENOMENO SPACE JELLYFISH ?"],
+    ["u18P-qf0dM4", "🌌 L'INTERVISTA DELLA UAI A CLAUDIO COSCI ALL'ASTROSHOW DI CESENA 2026"],
+    ["26wKNyyWviU", "🚀 INTERVISTA AL PRESIDENTE UAI ALL'ASTROSHOW DI CESENA 2026"],
+    ["12N0LmUHNZU", "💥 EVENTO UAI IMPERDIBILE IL 12 NOVEMBRE"],
+    ["J_Edhf7hT84", "🌌 L'AFFASCINANTE VARIETÀ DEI COLORI DELLE STELLE"],
+    ["IJ7S4riKAuM", "🌌 I VARI E SORPRENDENTI TIPI DI GALASSIE"],
+    ["uccATRM2hL4", "🐋 LA COSTELLAZIONE DI NOVEMBRE: BALENA"],
+    ["Eh3bf7lPlxo", "💥 L' UAI SARÀ PROTAGONISTA ALL' ASTROSHOW 2026 DI CESENA !"],
+    ["mypYjoGT6Zg", "🌕 SPECCHI SPECIALI SULLA LUNA !"],
+    ["VALjEFAQcpY", "😱 PERCHÉ IL TRAMONTO SU MARTE È BLU ?"],
+    ["cngbA50oyvo", "🔭 IL FANTASTICO NUOVO STRUMENTO DEL TELESCOPIO COPERNICO !"],
+    ["g3-SwGJfp1s", "🌟 COME RICONOSCERE UN TIPO DI STELLA AD OCCHIO NUDO ?"],
+    ["8CBI10DG6dI", "😱 COME TROVARE IL NORD SENZA TELEFONO ?"],
+    ["UJXNli88FHU", "🌟 NUOVO CORSO UAI GRATUITO E APERTO A TUTTI CON DARIO GIANNOBILE!"],
+    ["yMPc6hB296A", "🌌 LA COSTELLAZIONE DI OTTOBRE : GRU"],
+    ["B6GP5x1NUXk", "😱 QUANTO DURA 1 ANNO SU MERCURIO?"],
+    ["OWGC5xWYSuA", "🤔 PERCHÉ NON ESISTONO STRUTTURE DI ANTIMATERIA NEL NOSTRO UNIVERSO?"],
+    ["C49_GV-lLss", "🌌 QUANTO È GRANDE L'UNIVERSO ?"],
+    ["RH_us5ZiFBs", "🌌 TORNA 100 HOURS OF ASTRONOMY !"],
+    ["VgO-dDHoArY", "🌟 LE MERAVIGLIOSE CARATTERISTICHE DELLA VITA DELLE STELLE !"],
+    ["dDECERjKXH0", "😱 QUANTI SATELLITI STARLINK ORBITANO SOPRA LE NOSTRE TESTE?"],
+    ["n8ZHsD6YGC8", "😱 UNA MAGNIFICA CARATTERISTICA DEL PIANETA MARTE !"],
+    ["LT_2Cnl-VhE", "😱 COS'È L'ERITRULOSIO e perché ha un ruolo così IMPORTANTE ?"],
+    ["sJGFmKkg3Hk", "🌌 LA COSTELLAZIONE DI SETTEMBRE: CEFEO"],
+    ["B-EMJTC5r9g", "👀 QUANDO VEDREMO LA PROSSIMA ECLISSI SOLARE ?"],
+    ["lCv014CoR-4", "🌌 UN PARTICOLARE ESOPIANETA !"],
+    ["scMxMPTmsLI", "😱 IL TEMPO VICINO AD UN BUCO NERO !"],
+    ["vL8bmil7Amc", "🤩 Osservate in sicurezza l'IMPERDIBILE ECLISSI PARZIALE DI SOLE del 12 agosto !"],
+    ["RkYFoq8C4oc", "MANCA POCO AL 10° MEETING UAI SOLE-LUNA-PIANETI !! 🚀"],
+    ["jVb6e7Nb86g", "🌟 IMPERDIBILI SCONTI PER I SOCI UAI ! 🤩"],
+    ["Q1bcbQ620S0", "🌕 L'importanza della Luna, il satellite della Terra !"],
+    ["nwDh31CQ-qg", "🌌 UN FANTASTICO VIAGGIO ALLA SCOPERTA DEI RAGGI COSMICI!"],
+    ["F_frClfjIJc", "IL GIGANTE COSMICO: TON 618 !"],
+    ["fDnMbGyRZq4", "LA STELLA PIÚ GRANDE MAI CONOSCIUTA! 🌟"],
+    ["I0l-bhBLNlg", "🌌 Il PIANETA CON PIÚ LUNE nel sistema solare!"],
+    ["ejOG3crmBoQ", "🌍 Le poco conosciute, ma importanti , ipotesi di eliocentrismo PRIMA di Copernico !"],
+    ["oiZs5mF1Lac", "A JESOLO arriva la mostra MOON – TRA TERRA E SPAZIO ! 🌕"],
+    ["gWiK6WKM78I", "PERCHÉ NON POSSIAMO ATTERRARE SUL PIANETA GIOVE ? #viral #perte #uai"],
+    ["WuJThb74xyg", "IL NUOVO CANALE WHATSAPP DELL'UAI ! #viral #uai"],
+    ["jXJ-2dQHlfA", "NUOVO GRUPPO TELEGRAM DELL'UAI PER I GIOVANI ASTROFOTOGRAFI ! 🌌 #uai #viral"],
+    ["htIF3N_v6Wg", "IMPERDIBILE LEZIONE DI FOTOGRAFIA SOLARE CON L'UAI ! ☀️☀️"],
+    ["BMwU3I8nmBg", "INTERVISTA A PATRIZIA CARAVEO SU GEMINGA ! #uai #viral"],
+    ["hreJURKRU40", "L'interessante e RIVOLUZIONARIA missione PSYCHE raccontata dalla nostra Silvia Marotta ! 👀☄️"],
+    ["XW0hEKwurOw", "🌌 Un viaggio nella MITOLOGIA delle costellazioni con l'UAI !"],
+    ["EVOy5SORPxc", "FOTOGRAFARE il SOLE con l'UAI ADESSO È POSSIBILE ! ☀️"],
+    ["e1-G3wG4zBY", "La FANTASTICA COSTELLAZIONE di ERCOLE #uai #viral #astronomia"],
+    ["hmANqeIBQ70", "La FANTASTICA SEZIONE ASTROTURISMO dell'UAI ! 👀🌌"],
+    ["rzxsF5orVQo", "È arrivato il FANTASTICO mini-corso di paesaggistica dell'UAI ! 🌌"],
+    ["ONNRKUKqd4Y", "E tu sapevi di questo INTERESSANTE INTRECCIO TRA DANTE E EINSTEIN ? 😱 #uai #Dante #einstein #scienza"],
+    ["sNPPixiv9Vo", "L'IMPERDIBILE CONGRESSO UAI SARÀ A FOLIGNO ! 🌟 #uai"],
+    ["w5WIpdP4udc", "Non perderti i fantastici SCONTI con UAI e ASTROTTICA ! 🔭 #sconti #uai #telescopio #viral"],
+    ["BBHy0NIlq8M", "Scopri il programma spaziale ARTEMIS con l'UAI ! 🚀 #uai #nasa #artemis #viral"],
+    ["VFNjYFYtDCQ", "Un MERAVIGLIOSO VIAGGIO nella  costellazione di aprile: VERGINE ! 🌌 #uai #astronomia  #viral"],
+    ["n1HJvvhH1Og", "Se vai a BOLOGNA fai un TOUR DA ASTROFILO, così da non perderti queste FANTASTICHE tappe ! 🌟"],
+    ["m1z0qdwJGkQ", "Ecco il NUOVO PODACST DELL'UNIONE ASTROFILI ITALIANI! 🎙 #uai #divulgazione #podacst"],
+    ["39Hg6Jg_RaM", "Vai sul nostro SITO UFFICIALE per non perderti questo FANTASTICO EVENTO ! #uai #astronomia #news"],
+    ["P-qzkV6n8bk", "IMPERDIBILE EVENTO UAI ! 🤩🌌 #uai #divulgazione"],
+    ["Xo58uIUN4u8", "Alla scoperta della MERAVIGLIOSA COSTELLAZIONE del CANCRO con l'UAI 🌌 #uai #divulgazione #universe"],
+    ["dIOlkgs1W8I", "Il FORTE LEGAME tra la città di PADOVA e l'astronomia! 🌟 #padova #uai"],
+    ["jvMpdjA5UI0", "SCOPERTA la PRIMA GALASSIA FANTASMA ! 🤯 #uai #divulgazione #curiosità #universe"],
+    ["q7jBWm84eDk", "ASTRONOMO vs ASTROFILO : quali sono le DIFFERENZE ? #divulgazione #uai #collab"],
+    ["eJeXW_e5AUY", "Una NUOVA e INCREDIBILE SCOPERTA su MERCURIO ! 👀"],
+    ["yjFfe9xG5yw", "Scopri la COSTELLAZIONE di febbraio: il CANE MINORE 🌌"],
+    ["Prt-pRpCYGA", "A VENEZIA, non perderti tutte le MERAVIGLIE ASTRONOMICHE che questa città ha da offrirti ! #uai"],
+    ["YavkICUxzU0", "FANTASTICHE curiosità ASTRONOMICHE con l'UAI ! 🌌 #uai #divulgazione #universe #curiosità"],
+    ["PAOuiNOXqsU", "FANTASTICA costellazione dell'ACQUARIO! #uai #divulgazione #universe !"],
+    ["AT1YzYPaRFQ", "UN ESPERIMENTO RIVOLUZIONARIO ! 👀 #uai #divulgazione"],
+    ["jzalUBlZrn4", "Vai anche tu sul nostro SITO per acquistare LA TUA IMPERDIBILE  copia dell'Almanacco UAI 2026 ! 🌟"],
+    ["v4Rir2YJYno", "STRAORDINARIA CURIOSITÀ su CHIRONE ! 👀 #uai #universe #divulgazione"],
+    ["K68nET78BWI", "La NUOVA rubrica UAI ! 🌟 #uai #divulgazione #universe #astronomia"],
+    ["X084JlQBVjA", "Il FUTURO della divulgazione scientifica social della UAI potresti essere proprio TU ! 👀 #uai"],
+    ["TPDTv1j6kfk", "Un VIAGGIO nella FANTASTICA costellazione dell'AURIGA! 🌌 #universe #uai #divulgazione #astronomia"],
+    ["Zi-jkHfMhNM", "Scopri la NUOVA rubrica UAI (AS) SAGGI DI UNIVERSO! #uai #universe #divulgazione #viralvideo"],
+    ["FdEyvLAM1sk", "Una NUOVA ed importantissima SCOPERTA scientifica proveniente da Encelado ! 👀 #uai #space"],
+    ["bQtJRGqz7eE", "La costellazione di novembre: Andromeda 🌌 #uai #astronomia #divulgazione #viral #perte"],
+    ["tHg2271F1vY", "Cosa aspetti? Diventa un socio UAI per usufruire di questi fantastici vantaggi e tanto altro ancora!"],
+    ["b8g7dAMFCV0", "Scopri questa importantissima ricorrenza del mondo astronomico con l'UAI ! 🤩 #uai #astronomia #viral"],
+    ["Ij0M_9YYk4E", "Scoperta una nuova nova nella costellazione del Sagittario! 🌌 #divulgazione #uai #universe"],
+    ["DgAkSJqZ4A4", "Fantastico viaggio nella costellazione dell'Ariete! 🐏 #divulgazione #uai #astronomia #viral"],
+    ["5Ws-JjJOk2Y", "L'imperdibile meeting UAI ! 🌌🔭 #divulgazione #uai #astronomia #scienza"],
+    ["e0CmSO4doOM", "L'interessante e fantastico legame tra l'astronomia ei dipinti di Van Gogh !🌌"],
+    ["WfuphYt6dx8", "E tu cosa aspetti ? Iscriviti per usare gratis per un periodo di 6 mesi il telescopio remoto UAI 🤩"],
+    ["swviy3lxMLg", "Scoprite di più grazie all'UAI sull'imperdibile  eclissi totale di Luna del 7 settembre 2025! #uai"],
+    ["GY8GUpjps5o", "La costellazione di settembre è l'Orsa Maggiore! 🐻 #uai #space #divulgazione #astronomia #scienza"],
+    ["7x4TV-8_3aE", "Oggi vi parleremo di un'importante e interessantissima struttura UAI! 🔭 #uai #universe #astronomia"],
+    ["VUm4t4Rtuwk", "IMPORTANTE AGGIORNAMENTO SULLA COMETA 3I/ATLAS ! 🔭"],
+    ["JWYLcKDAOPg", "È esplosa una nuova supernova nel cielo e possiamo osservarla!!🔭 #astronomia #uai #divulgazione"],
+    ["DV1f7SGYmn8", "Ad agosto non perdetevi lo sciame meteorico delle Perseidi! 🔭 #uai #astronomia #divulgazione #space"],
+    ["p48GxwXkBLk", "Alla scoperta di un nuovo ed interessante avvenimento astronomico!🔭🌌 #uai #scienza #astronomia"],
+    ["7hqZ-aeLB0c", "Oggi esploreremo insieme la costellazione di agosto: Sagittarius!"],
+    ["6Pa_6dS4oJE", "Il fantastico mondo delle lenti gravitazionali! #uai #space #astronomia #divulgazione #scienza"],
+    ["sozpgA0CI6A", "Un cielo sempre più in pericolo🛰 #uai #perte #satellite #divulgazione #viral"],
+    ["30kMo253Qos", "Le Notti delle Stelle: tra calici 🍷 e firmamento ✨"],
+    ["RnlUfQ6p6nw", "Con l'UAI trovi tutti gli aggiornamenti sulla fantastica cometa 3I/ATLAS !🔭 #uai #cometa"],
+    ["Ey4CmLsv2e8", "Astronomia e musica: il legame che non ti aspetti! 🔭"],
+    ["YofMOAT5-Sk", "Non perdetevi le meraviglie del cielo di luglio!🔭"],
+  ],
+  "PLdN2BAVD9wRVG-sMOFbePPgnLkeonFmRu": [
+    ["bQbUwFjyppo", "Parliamo di astronautica"],
+    ["Ye8rbh-FUtw", "Il Sole"],
+    ["INHy_KNEvqs", "I buchi neri e le onde gravitazionali"],
+    ["NNofID_SIiU", "Alla scoperta di altri mondi: I pianeti extrasolari"],
+    ["YBDAjfVhzao", "I pianeti del Sistema Solare"],
+    ["3tXFQSXmNug", "I corpi minori del Sistema Solare"],
+    ["3tXFQSXmNug", "I corpi minori del Sistema Solare"],
+    ["0UEcLRZwjwY", "Visita virtuale al Planetario"],
+    ["D2RfIKKiHvw", "Le stelle nane dell'Universo"],
+    ["D2RfIKKiHvw", "Le stelle nane dell'Universo"],
+    ["_dajfWVEeJY", "Tributo a Margherita Hack"],
+    ["82igUBjvP14", "Fotografia astronomica"],
+    ["Jlg0LDw3SiU", "Astronomia e Astrologia"],
+    ["MgVq04XUuXc", "Fotografia astronomica (II parte)"],
+    ["pVJsnbHsODM", "Le galassie"],
+  ],
+  "PLdN2BAVD9wRWtWeYRsBNNVWDqJgWVBT9j": [
+    ["1p3rSUl5ELs", "Tecnica di ripresa delle comete"],
+    ["oyNMYr9fP5Q", "Morfologia Cometaria"],
+    ["epH9KqkxF6Q", "Osservare le comete 2"],
+    ["7TC3YeMHDyQ", "Cosa occorre per osservare le comete 1"],
+    ["LZO7Jovi9U0", "Astrometria delle comete"],
+    ["nVNDefr7YNI", "Astrofotografia delle comete"],
+    ["E9UyYMJwp7w", "Analisi delle curve di luce"],
+    ["pWwJZJbkAgg", "Spettroscopia comete"],
+  ],
+  "PLe3BVM58bCIvLmkjX3YMsL38V95R5HPlW": [
+    ["BvDfK4x8c_Y", "Space debris: aumenta il rischio della sindrome di Kessler"],
+    ["tIzMLK7ZR6k", "Orbite terrestri sempre più affollate nel report Esa 2026"],
+    ["qIc73vcALdM", "Orbite sempre più affollate. Cosa dice il report Esa 2026."],
+    ["Yl8yRTHI_Vs", "Da Marte alla Luna: i rover che hanno percorso più chilometri"],
+    ["0II65kFO52o", "Solar Orbiter, gli switchback nascono sulla superficie del Sole"],
+    ["0dmFJeGiRLs", "Juice, secondo flyby terrestre di successo nel viaggio verso Giove"],
+    ["oyYoEF03w5k", "Anche La Cina per la prima volta recupera il primo stadio di un razzo orbitale"],
+    ["vEUZE3wL__8", "A giugno temperature record delle acque superficiali nel Mediterraneo e nel Mondo"],
+    ["tnosVzr2B7c", "Euclid mostra 60 milioni di stelle nel cuore della Via Lattea"],
+    ["fbFb8wnlDnw", "Le emergenze più gravi nella storia della Iss"],
+    ["i1yPys5jdDo", "Luca Parmitano piloterà Artemis 3"],
+    ["NIA1SfEozro", "Dentro lo scudo magnetico della Terra con Smile"],
+    ["7T8uYiqGA6Q", "SpaceX lancia Starship V3, il megarazzo destinato alla Luna"],
+    ["g0OHffZ3Eqo", "Tutti i voli del lanciatore europeo Vega C"],
+    ["zuHsVpzpFys", "Asteroidi: i record delle sonde che li hanno esplorati da vicino"],
+    ["liRlVrHb4fs", "La sfida tra Blue Origin e SpaceX nella corsa ai razzi riutilizzabili"],
+    ["3sAqOIB48B4", "Il viaggio lunare di Artemis 2 su Orion a confronto con le navicelle Apollo"],
+    ["QiSeVE00MyE", "Le più belle immagini dal viaggio attorno alla Luna di Artemis 2"],
+    ["sulysS4XyAQ", "Tutto sul volo di Artemis 2, la missione che riporterà un equipaggio attorno alla Luna"],
+    ["Wq5QNs5THBs", "Dal Vera C. Rubin i primi alert dal monitoraggio in tempo reale del cosmo"],
+    ["WGnrhw_S4Sk", "Artemis, la Nasa aggiorna la strategia per tornare sulla Luna"],
+    ["bkE2dabf6f0", "Un anno fa la storica impresa lunare di Blue Ghost e Lugre"],
+    ["fIK1S7G-Bp0", "I record di Perseverance a 5 anni dall’atterraggio su Marte"],
+    ["K5qP8KXqXp8", "Onde gravitazionali, 10 anni fa l’annuncio della storica scoperta"],
+    ["FvF41C6-kJM", "Le missioni e i programmi spaziali del 2026 con l’Italia protagonista"],
+    ["BAbkCEAOR68", "Tutto su Artemis 2, la missione che riporterà un equipaggio attorno alla Luna"],
+    ["n5HRfkms3iQ", "Pandora, il primo telescopio dedicato alle atmosfere degli esopianeti"],
+    ["MWRZA0-l8lE", "La costellazione italiana Cosmo-SkyMed si è arricchita di un nuovo satellite"],
+    ["iW4D8eGj_Tc", "Iride, la costellazione italiana per l’osservazione della Terra"],
+    ["Rt4gCP_fiiI", "Nel 2025 è finito il monopolio del Falcon 9 di SpaceX nei razzi riutilizzabili"],
+    ["ohm8XWJL1wU", "Ecco le prime immagini del nuovo satellite Sentinel-1D del programma Copernicus"],
+    ["SEbKDPCyDBI", "Dalla ministeriale Esa poco più di 22 miliardi di euro per il futuro dello spazio europeo"],
+    ["C090lQjdLxM", "Il Modulo di servizio europeo Esm-4 verso Artemis 4 con l’Italia protagonista"],
+    ["6gNjoUvVx0Q", "Le sentinelle del programma Copernicus"],
+    ["BMbsSmMcECE", "Da Gaia la mappa 3D più accurata delle culle stellari della Via Lattea"],
+    ["FyqTtHhIh8s", "Inaugurata a Roma la Space Smart Factory di Thales Alenia Space"],
+    ["IAbV4rpqghI", "10 anni fa la storica scoperta delle onde gravitazionali"],
+    ["Be4aVL8zAto", "Alcune grandi scoperte del James Webb nei suoi primi 3 anni di scienza"],
+    ["6-lu_QAtOxY", "La missione Biomass di Esa restituisce le sue prime immagini delle foreste del mondo"],
+    ["nB2im1Xijxs", "Solar Orbiter svela i poli del Sole come mai fatto prima"],
+    ["dDiQtpbXIdc", "Spherex mapperà tutto il cielo in 102 colori per esplorare le origini del cosmo"],
+    ["3z4J4gF_pUg", "Traffico in orbita: l'Italia protagonista nella lotta ai detriti spaziali"],
+    ["Z1chyxURjAU", "Punch, la prima missione per studiare insieme corona, vento solare ed eliosfera"],
+    ["YHVoLDWJwIk", "Proba-3 di Esa è la prima missione di volo in formazione di precisione al mondo"],
+    ["A4SYnp3hTEo", "FRAM2"],
+    ["EDApqjOk71I", "Esa ha spento Gaia, madre della mappa più accurata della Via Lattea"],
+    ["YQ9EopRiMtA", "Sono rientrati a Terra gli astronauti Starliner bloccati sulla Iss da 9 mesi"],
+    ["kdcgt0umbaI", "LuGRE: la prima posizione sulla Luna calcolata utilizzando segnali terrestri GNSS"],
+    ["ITuIKrawUVM", "Cadre, i primi rover che coopereranno sulla Luna in autonomia"],
+    ["-IqpR3spyks", "Nei campioni di Bennu sono presenti gli elementi base per la vita"],
+    ["aRsFj7HL0yg", "LuGRE, il primo strumento tutto italiano che atterrerà sulla Luna"],
+    ["2rwwwz9UZ0g", "Parker Solar Probe, mai così vicini al Sole"],
+    ["EqlLYJscxZo", "Tutti i successi dei 6 voli di prova di Starship"],
+    ["_1CIqkSQn5Y", "Missione Rosetta, 10 anni fa il primo e unico atterraggio di una sonda su una cometa"],
+    ["3PxTn9giMqg", "Europa Clipper, il primo viaggio verso un mondo oceanico oltre la Terra"],
+    ["ar7FTe_z_UY", "Hera di Esa è in viaggio verso il primo asteroide deviato dall’uomo"],
+    ["IfTF4cCP4R4", "La “seconda luna” della Terra sta viaggiando a braccetto con noi"],
+    ["3k549tXoDbw", "TUTTI I RECORD DELLA MISSIONE PRIVATA POLARIS DAWN"],
+    ["bknZq_4tq8M", "Aurora boreale, perché l’abbiamo vista in Italia"],
+    ["S2Q-SzAkp8o", "Scoperto il secondo buco nero più vicino alla Terra"],
+    ["19DYbuNsoWE", "Riguarda lo spettacolo dell’eclissi solare totale del 2024"],
+    ["SfLipvmkIHQ", "Tutti i voli del megarazzo Starship di SpaceX"],
+    ["UsOFEndBpb0", "Tutti i lander privati che hanno tentato un atterraggio sulla Luna"],
+    ["RCSVeRaAYCA", "Walter Villadei ha terminato la sua prima missione a bordo della Iss"],
+    ["JEVZKXX_K2o", "Con Slim il Giappone è la quinta nazione a effettuare un allunaggio morbido"],
+    ["URxdsxOY04c", "Nasa sperimenta con successo il suo primo collegamento laser in orbita"],
+    ["TzpApwN4r4g", "Da Eso il dettaglio dei resti di una massiccia esplosione stellare"],
+    ["zARbk6KO8EI", "James Webb è il più grande telescopio dello spazio"],
+    ["egYU-4m86ks", "Il James Webb ha concluso con successo l'allineamento"],
+    ["Bf5ahR2s__w", "Bennu e l'enigma dei crateri mancanti"],
+    ["NBtifLpHRqg", "Con Ixpe una nuova frontiera per l’astronomia a raggi X"],
+    ["I09TJ-RK36Y", "Il 31 ottobre si celebra la misteriosa materia oscura"],
+    ["iezOEQKfo7Q", "LiciaCube di Asi ha vinto la sua grande sfida"],
+    ["71a-BBwabKw", "L’impresa di Orion per il ritorno dell'uomo sulla Luna"],
+    ["MjvBMcfgswA", "Giove è il nuovo re delle lune del Sistema Solare"],
+    ["leLGTEhHDtA", "Juice alla conquista di Giove e delle sue lune"],
+    ["JWCOMyHNcNU", "La costellazione Cosmo-SkyMed di Seconda Generazione"],
+    ["5k6WWWWGx_c", "Webb penetra la polvere della misteriosa stella Fomalhaut"],
+    ["JHh9xMEDZnA", "AstroSamantha, la prima donna europea in una passeggiata spaziale"],
+    ["ULwTUVS2uq4", "Sono arrivate sulla Terra le rocce dall’asteroide Bennu"],
+    ["RBoudXdhyIM", "Ecco come Osiris-Rex ci consegnerà il campione da Bennu"],
+    ["3C_TjQ77f7M", "Euclid è in viaggio per fare luce sull’universo oscuro"],
+    ["DpumTALjLAM", "La quarta passeggiata spaziale di sempre tutta al femminile"],
+  ],
+  "PLe7wtG_-HSp5rG4CYIoCjKFOcIUS-sopl": [
+    ["99x3Xz9-mUQ", "Siril 1.0.3, un software di preprocessing e postproduzione di immagini astronomiche gratuito"],
+    ["P7hjlNM93BI", "Siril e Starnet++ per elaborare le comete con due programmi completamente gratuiti"],
+    ["JaQ9MOer6xI", "Siril 1.4.0 Beta2 - Astrofotografia facile: il workflow sulle galassie"],
+    ["uRFwgdK_l2I", "SIRIL 1.4.0: Lo stretching delle immagini, da Asinh a Stretch Iperbolica generalizzata ( SHG)"],
+    ["Whz1zsxrLIs", "SIRIL 1.4.0: scopriamo la Spectrophotometric Color Calibration anche con i filtri Dual Band!"],
+    ["4v8TmjL9e5Y", "Siril: pre processig manuale. Come calibrare le immagini senza usare gli Script"],
+    ["UVxcJbOdv0s", "Siril 1.4.0, utilizziamo la statistical stretch"],
+    ["9PnL0SUpTuE", "POSTPRODUZIONE con SIRIL: Astrofotografia senza astroinseguitore con la Nikon Z30 e lo Svbony SV535"],
+    ["B_ogytOC7rk", "Hubble palette con fotocamera a colori e filtri dual band HA-OIII e SII-OIII (Svbony SV220) in Siril"],
+    ["6iwrsIfu1Rk", "TUTORIAL SIRIL: Come unire H-Alpha e RGB per nebulose incredibili! Guida passo passo semplice."],
+  ],
+  "PLhhIH8RzamP4Of9kKTx6tUwpshsYxutHR": [
+    ["K_Oy7FjCMOE", "La scienza di INTERSTELLAR"],
+    ["LNedcBIXVfA", "La scienza di PASSENGERS"],
+    ["ubnOUgrTeFc", "La scienza di TENET -- [Senza spoiler]"],
+    ["8PF1foMoaRc", "La scienza di THE MARTIAN - SOPRAVVISSUTO"],
+    ["MXedKtfWejk", "La scienza di CONTACT"],
+    ["ZeWOgCjERoM", "Impatti catastrofici (e come prevenirli) | La scienza di DON'T LOOK UP (senza spoiler)"],
+    ["QUcaNPn0a20", "La scienza di OPPENHEIMER (senza spoiler)"],
+    ["mCUPlJ6yqao", "La SCIENZA di ARRIVAL ft @Amedeo Balbi ⎮ Slim Dogs"],
+    ["kSk0kWT6660", "La SCIENZA di STAR TREK ft @Amedeo Balbi  ⎮ Slim Dogs"],
+    ["nSBO4PbB8Ew", "Detriti spaziali, collisioni in orbita e sindrome di Kessler: la scienza di Gravity"],
+    ["nEtgeXwEDxw", "La scienza di 2001 ODISSEA NELLO SPAZIO"],
+    ["i9_nXlBM-K4", "LA SCIENZA DI NO MAN'S SKY ft @Amedeo Balbi ⎮ Gaming Dogs"],
+    ["Bz2dkv7T9Is", "LA SCIENZA DI PROJECT HAIL MARY ft @Amedeo Balbi ⎮ Slim Dogs"],
+    ["mbxVTJ2IrDo", "DISCLOSURE DAY - Come potrebbe andare nella realtà?"],
+  ],
+  "PLhhIH8RzamP4Td6XtxxH9iYcx7dclkUcn": [
+    ["OFL1u4VjiYc", "La Terra vista dallo spazio | Earthrise, effetto overview, Blue Marble, Pale Blue Dot"],
+    ["DlyG1WpfJaM", "Perché non si può superare la velocità della luce?"],
+    ["81J4xIBpzQo", "Il motore a curvatura di Star Trek: come potrebbe funzionare? Il Warp Drive di Alcubierre"],
+    ["xZ4QfpQNdAw", "Come potremmo raggiungere le stelle? Tecnologie realistiche per i viaggi interstellari"],
+    ["lzrRVvv52tc", "Dalla Terra a Proxima Centauri in venti anni? Il progetto Breakthrough Starshot"],
+    ["gJRZhGQ3MWE", "Weekend al termine dell'Universo: scienza e fantascienza dei viaggi spaziali"],
+    ["xnSiFJU_rNc", "L'astronave relativistica e la dilatazione dei tempi"],
+    ["fA9MzigBD-U", "Come lasciare un pianeta. La velocità di fuga"],
+    ["XxVfDXkaS9s", "L'ascensore spaziale"],
+    ["Ron0tU4mgdA", "La fionda gravitazionale"],
+    ["PVywEuyfmT0", "Esistono pianeti da cui è difficile raggiungere lo spazio?"],
+    ["yfB_go6eyZ4", "Come realizzare la gravità artificiale"],
+    ["LMRuEiNHPp0", "L'esplorazione di Marte, dalle Mariner a Perseverance"],
+    ["eO6cQgRDeEs", "Tutti i rischi di una missione umana su Marte"],
+    ["b9orrLYP7gQ", "È possibile terraformare Marte?"],
+    ["uHqXyN3X_NY", "Ci siamo andati a schiantare su un asteroide (con la sonda DART)"],
+    ["Hz2wVwRI52I", "Le sonde VOYAGER: il lungo viaggio nel Sistema Solare e oltre"],
+    ["UOS2bhX1akA", "Navigare nel cosmo, orientandosi con le pulsar"],
+    ["NALaS2YblIY", "Mai così vicini al Sole. L'incredibile impresa della Parker Solar Probe"],
+    ["BAsJrszwyXA", "Meteoriti marziani, vita extraterrestre e il caso di ALH84001"],
+    ["ntcfKh_a1ZU", "Artemis II: esseri umani di nuovo verso la Luna. Cosa è cambiato dalle missioni Apollo?"],
+  ],
+  "PLhhIH8RzamP4TspQm02zAqy6q7K_ialRU": [
+    ["PI2wR84IgEs", "La teoria della relatività ristretta"],
+    ["-g6rOFF92Gc", "La teoria della relatività generale"],
+    ["l6hPfu38rkI", "La curvatura dello spaziotempo"],
+    ["DlyG1WpfJaM", "Perché non si può superare la velocità della luce?"],
+    ["-Msh1_hKbho", "Otto cose che sembrano più veloci della luce"],
+    ["-Msh1_hKbho", "Otto cose che sembrano più veloci della luce"],
+    ["81J4xIBpzQo", "Il motore a curvatura di Star Trek: come potrebbe funzionare? Il Warp Drive di Alcubierre"],
+    ["xnSiFJU_rNc", "L'astronave relativistica e la dilatazione dei tempi"],
+    ["yfB_go6eyZ4", "Come realizzare la gravità artificiale"],
+    ["leaRVstpLCE", "Abbiamo visto il tempo accelerare e rallentare sulla Terra (come previsto da Einstein)"],
+    ["E0CmZfrOkwY", "Il significato di E=mc²"],
+    ["jje9YBV1YzQ", "Cos'è il paradosso dei gemelli (e perché non è un paradosso)"],
+    ["4VM6V-TBOWs", "È possibile viaggiare nel tempo?"],
+    ["m2iGAusYm0Q", "Il tempo è un blocco unico? L'eternalismo e il paradosso di Andromeda"],
+    ["cUa0tI5sK-E", "Cosa sono le onde gravitazionali?"],
+    ["oKiIvCvdtFo", "Cos'è la gravità?"],
+    ["XX9JA8Tc1PE", "Ci muoviamo sempre alla velocità della luce (nello spaziotempo)"],
+    ["JN0MgpL9Ums", "Possono esistere particelle più veloci della luce? I tachioni e la relatività."],
+    ["lf5ce3do5l4", "Cos'è l'entanglement quantistico? Contraddice la relatività?"],
+    ["BRE-t_-taRk", "Lo sbaglio più grande di Einstein"],
+    ["Nhmu6CjmV_k", "La prima immagine del buco nero supermassiccio al centro della Via Lattea"],
+    ["RQjAQhGqeVU", "Cosa sono i buchi bianchi? E possono esistere?"],
+    ["KjcZr8fG9kY", "Le lenti gravitazionali: cosa sono e come funzionano?"],
+    ["O6g4XQZbVAs", "L'eclissi più importante di sempre?"],
+  ],
+  "PLhhIH8RzamP4zug43bKXes8kUxSieLJg0": [
+    ["LMRuEiNHPp0", "L'esplorazione di Marte, dalle Mariner a Perseverance"],
+    ["8PF1foMoaRc", "La scienza di THE MARTIAN - SOPRAVVISSUTO"],
+    ["kKOQ5lZakEg", "È possibile che ci sia vita su Marte?"],
+    ["eO6cQgRDeEs", "Tutti i rischi di una missione umana su Marte"],
+    ["b9orrLYP7gQ", "È possibile terraformare Marte?"],
+  ],
+  "PLhhIH8RzamP5IxgpR_V-OaojFYFu5PjgK": [
+    ["l6hPfu38rkI", "La curvatura dello spaziotempo"],
+    ["7CcAbXQH6a4", "L'espansione dell'universo"],
+    ["Mgy5xLLGi3w", "Che cos'è davvero il big bang?"],
+    ["BmkYqdZYyRo", "Le tre prove del big bang"],
+    ["I0ulBjaOqQs", "Cosa c'era prima del big bang?"],
+    ["elxvsiHHsA0", "Che forma ha l'universo?"],
+    ["bESg_l1Tm0U", "L'universo è finito o infinito?"],
+    ["1WUq8HZp_-w", "Quanta materia c'è nell'universo?"],
+    ["ub71TpVHj14", "Cos'è la materia oscura?"],
+    ["Qj-ajZxsTUo", "Cos'è l'energia oscura?"],
+    ["Y3NHoGDhP9o", "Quando è nato l'universo?"],
+    ["nrUKN5H4w0o", "Come finirà l'universo?"],
+    ["P8RrEnO9DQY", "Perché il cielo di notte è buio?"],
+    ["gDTEJXAliM4", "Il suono del Big Bang"],
+    ["0geJaaIY1QQ", "Cosa ha causato il big bang?"],
+    ["G3_NAVGhLdE", "L'universo è nato dal vuoto?"],
+    ["zXdgkzhtP1o", "Esiste il multiverso? Ci sono altri universi oltre al nostro?"],
+    ["LREi2mExDgw", "L'universo tra 100 miliardi di anni"],
+    ["sCmJ99nRZ-8", "Ci sono altre versioni di noi stessi in altri universi?"],
+    ["_yQKfoXAyNU", "Cos'è il principio antropico?"],
+    ["NwmqPKfXH9c", "Cosa sono i cervelli di Boltzmann?"],
+    ["a_zqO1ZCrW0", "Universi nati dai buchi neri e selezione naturale cosmologica"],
+    ["BRE-t_-taRk", "Lo sbaglio più grande di Einstein"],
+    ["Ee174H-Zx-0", "L’universo è più grande di quanto pensi"],
+    ["rGrq_DedAz8", "Il problema con l'espansione dell'universo che i cosmologi non riescono a spiegare"],
+    ["R_wIHtSH4SI", "Si può fare a meno della materia oscura? Nuovi interessanti risultati su teorie MOND della gravità"],
+    ["HLM_YZP45Qk", "Dove è avvenuto il big bang?"],
+    ["aquNHHdsh0k", "L'espansione dell'universo sta accelerando (e non sappiamo ancora perché)"],
+    ["Y5UBZc6I84g", "L'energia del vuoto: uno dei più grandi enigmi della fisica moderna"],
+    ["-BBtcGaGCCs", "Il destino del cosmo e l'energia oscura: nuove scoperte sorprendenti"],
+    ["IhYAPBknhRY", "E se il big bang non fosse l'inizio? Gli universi ciclici e la scienza dell'eterno ritorno"],
+    ["8b8FgKaqWTU", "L'universo è dentro un buco nero? Un nuovo modello dell'origine, tra collasso e rimbalzo quantistico"],
+    ["BFA7xbs5mxU", "L'universo è un ologramma?"],
+    ["zxPO2C-aQqE", "La temperatura dell'universo nel passato (e come l'abbiamo misurata)"],
+    ["cFO22lBg5sY", "Come abbiamo trovato la prova del big bang"],
+  ],
+  "PLhhIH8RzamP67YZmXq8JsPCIND3kMt7-e": [
+    ["H_wTJZQswXg", "Come visualizzare la grandezza dell'universo"],
+    ["dZqfyrfyffU", "Se la storia dell'universo fosse scritta in un libro"],
+    ["2bC3y94oE78", "Possiamo guardare indietro nel tempo?"],
+    ["PI2wR84IgEs", "La teoria della relatività ristretta"],
+    ["-g6rOFF92Gc", "La teoria della relatività generale"],
+    ["l6hPfu38rkI", "La curvatura dello spaziotempo"],
+    ["7CcAbXQH6a4", "L'espansione dell'universo"],
+    ["Mgy5xLLGi3w", "Che cos'è davvero il big bang?"],
+    ["BmkYqdZYyRo", "Le tre prove del big bang"],
+    ["I0ulBjaOqQs", "Cosa c'era prima del big bang?"],
+    ["elxvsiHHsA0", "Che forma ha l'universo?"],
+    ["bESg_l1Tm0U", "L'universo è finito o infinito?"],
+    ["1WUq8HZp_-w", "Quanta materia c'è nell'universo?"],
+    ["ub71TpVHj14", "Cos'è la materia oscura?"],
+    ["Qj-ajZxsTUo", "Cos'è l'energia oscura?"],
+    ["Y3NHoGDhP9o", "Quando è nato l'universo?"],
+    ["nrUKN5H4w0o", "Come finirà l'universo?"],
+    ["US_F9N-_XcM", "Come si misurano le distanze nell'universo?"],
+    ["heGXre0-ZQI", "Che cos'è il redshift?"],
+    ["OjCMdVlox1w", "Come si misura l'età delle stelle?"],
+  ],
+  "PLhhIH8RzamP7M92WjahmOA8ekmOMRVPHF": [
+    ["H_wTJZQswXg", "Come visualizzare la grandezza dell'universo"],
+    ["dZqfyrfyffU", "Se la storia dell'universo fosse scritta in un libro"],
+    ["2bC3y94oE78", "Possiamo guardare indietro nel tempo?"],
+    ["PI2wR84IgEs", "La teoria della relatività ristretta"],
+    ["-g6rOFF92Gc", "La teoria della relatività generale"],
+    ["l6hPfu38rkI", "La curvatura dello spaziotempo"],
+    ["7CcAbXQH6a4", "L'espansione dell'universo"],
+    ["US_F9N-_XcM", "Come si misurano le distanze nell'universo?"],
+    ["heGXre0-ZQI", "Che cos'è il redshift?"],
+    ["OjCMdVlox1w", "Come si misura l'età delle stelle?"],
+  ],
+  "PLhhIH8RzamP7opQli_4kb35wqgcLdLpkp": [
+    ["zyFQLLN8WXw", "Potremmo essere soli nell'universo?"],
+    ["Wd-LfQe_4AI", "Cos'è la zona abitabile?"],
+    ["P-Fp_kE8OX8", "C'è vita su Venere? La scoperta della fosfina nelle nubi venusiane"],
+    ["kKOQ5lZakEg", "È possibile che ci sia vita su Marte?"],
+    ["RLb2_WeBkDo", "La ricerca di vita negli oceani sotto il ghiaccio, nel sistema solare e fuori"],
+    ["goWN5wZkDMI", "Titano, i suoi mari e la vita come non la conosciamo"],
+    ["gnQX0upywY8", "'Oumuamua, il visitatore interstellare: naturale o artificiale?"],
+    ["z8Hi1RD51Zs", "Come si cerca la vita su altri pianeti? Le firme biologiche (biosignatures)"],
+    ["TYWOu4WpXJo", "Dal SETI alle tecnofirme: la ricerca di vita intelligente nell'universo"],
+    ["b9SRvpy9epA", "Quante civiltà tecnologicamente avanzate esistono nell'universo?"],
+    ["kPoDMucxGoM", "Sapremmo capire un messaggio alieno?"],
+    ["TZuNmG8EaF4", "Abbiamo captato un segnale radio artificiale da Proxima Centauri?"],
+    ["BizvIiYt1I0", "Cos'era il segnale radio BLC1 e proveniva davvero da Proxima Centauri?"],
+    ["RDpHyZ4bJq8", "Dove sono gli alieni? Il paradosso di Fermi e il grande silenzio del cosmo"],
+    ["6itlEYdx57g", "Classificare le civiltà aliene: la scala di Kardashev"],
+    ["JXbyBJCDQfQ", "Esistono pianeti alla deriva nella galassia (e potrebbero ospitare la vita)"],
+    ["PH33Vq-PTkY", "La strettoia dell'ossigeno per la tecnologia extraterrestre"],
+    ["UPuIcLswvxw", "Sfere di Dyson: scoperta l'evidenza di megastrutture aliene?"],
+    ["NWp20oWhIGU", "Potrebbe esistere la vita sui pianeti iceani? Il caso di K2-18b"],
+    ["gQQx0ByGwc0", "Stiamo andando a cercare la vita su una luna di Giove. La missione Europa Clipper della NASA"],
+    ["vHATZLwHsnc", "Tutto quello che sappiamo sul sistema di Proxima Centauri"],
+    ["bnaNmcpFXiQ", "Dobbiamo temere un'invasione aliena? La verità sulla \"foresta oscura\""],
+    ["TkJW7BGBxdY", "Trovare vita aliena è più difficile di quanto pensiamo"],
+    ["F0gGbvnQfdA", "Ecco cosa ha trovato Perseverance su Marte"],
+    ["BAsJrszwyXA", "Meteoriti marziani, vita extraterrestre e il caso di ALH84001"],
+    ["6nvhJ6avcpY", "La vita può arrivare dallo spazio? L'ipotesi della panspermia"],
+    ["Ap_C5YhJSTQ", "La missione Viking: cosa ha trovato su Marte?"],
+    ["zv_aJxUi0GY", "Siamo già salvi o condannati? L'ipotesi del grande filtro"],
+    ["lyo--Z7MjF4", "Civiltà tecnologiche: c'è un limite imposto dalla termodinamica?"],
+  ],
+  "PLhhJuuVH9v0sjLUpnMuVnqloauLI-8zMn": [
+    ["JqPypiYGnIM", "LA FISICA FACILE - Lezione 01 - La Temperatura ed il Calore"],
+    ["6sP0Yh39hPM", "LA FISICA FACILE - Lezione 2 - I Vettori"],
+    ["aKmMS_QdO1M", "LA FISICA FACILE - Lezione 3 - Densità, Peso Specifico e Viscosità"],
+    ["E8dBPXpMXdA", "LA FISICA FACILE - Conversione di Angoli in Radianti, Decimali e Sessagesimali."],
+    ["uuOZTDnUHVo", "LA FISICA FACILE - Il momento di una Forza"],
+    ["iMlFX547_bs", "LA FISICA FACILE - La legge di Stevino"],
+    ["CTYqW7l8QWI", "LA FISICA FACILE - Un esercizio svolto sulla forza di Attrito"],
+    ["Ax4QBVQFc6M", "La fisica facile - Le Leggi di Keplero"],
+    ["J-5XmcUzyjQ", "LA FISICA FACILE - Moto di un grave"],
+    ["NPsdDqIjPBQ", "LA FISICA FACILE - Quantità di Moto"],
+    ["PFqImO4I68o", "LA FISICA FACILE - Il Lavoro"],
+    ["YOPsqMcogHM", "LA FISICA FACILE - Gli Urti Elastici e AnaElastici"],
+    ["By7WnU__k0g", "LA FISICA FACILE - La teoria cinetica dei Gas"],
+    ["XjxkYksZ0D8", "LA FISICA FACILE - Il Ciclo di Carnot"],
+    ["NFJ4Ny4ogGk", "LA FISICA FACILE - Le onde Meccaniche"],
+    ["ZALK057d-dU", "LA FISICA FACILE - La doppia natura della Luce"],
+    ["2iYElXr_CcM", "LA FISICA FACILE - I Condensatori"],
+    ["FVtqtW7qNy8", "LA FISICA FACILE - Le leggi di Ohm"],
+    ["bNEoRItFfUk", "LA FISICA FACILE - Le proprietà del campo magnetico"],
+    ["YlIPnXB4vVU", "LA FISICA FACILE - Il flusso di campo magnetico"],
+    ["QoBFkIaowH0", "LA FISICA FACILE - Spazio e Tempo nella Teoria della Relatività"],
+    ["MBnyOFC0Ob8", "LA FISICA FACILE - Le particelle elementari"],
+    ["rGRNB35YsiY", "LA FISICA FACILE - Appendice 01 - Errori e Grandezze"],
+  ],
+  "PLhhJuuVH9v0teBOsoeMGk9nhbvY6FimWV": [
+    ["nxRZZELQ0_k", "CORSO DI CLIMATOLOGIA - Lezione 01 - Il clima è sempre cambiato."],
+    ["ZaNLimDG0cU", "CORSO DI CLIMATOLOGIA - Lezione 02 - L'EVENTO OSSIDATIVO"],
+    ["USvem3NTLlY", "CORSO DI CLIMATOLOGIA - Lezione 03 - Lo Snow Ball Earth"],
+    ["XlNBmBal36k", "CORSO DI CLIMATOLOGIA - Lezione 04 - L'effetto Albedo"],
+    ["_lvBADbMJgk", "CORSO DI CLIMATOLOGIA - Lezione 5 - L'ESPLOSIONE DEL CAMBRIANO"],
+    ["ChOzZ52Y8EM", "CORSO DI CLIMATOLOGIA - Lezione 06 - Il Clima del Fanerozoico"],
+    ["AJVHmMWkuto", "CORSO DI CLIMATOLOGIA - Lezione 07 - GAIA (il pianeta vivente)"],
+    ["y83xnLGsJRE", "CORSO DI CLIMATOLOGIA - Le Geosfere Fluide - CORRETTO"],
+    ["oBSKqcS4fJk", "CORSO DI CLIMATOLOGIA - Lezione 09 - IL GRANDE CALDO DELL'EOCENE"],
+    ["5wh0a_GKtg8", "CORSO DI CLIMATOLOGIA - Lezione 10 - IL CICLO DELL'ACQUA versione super corretta"],
+    ["4I5H5ln6Lsk", "CORSO DI CLIMATOLOGIA - Lezione 11 - CENOZOICO - Il pianeta si raffredda"],
+    ["DrpMxvPuJuU", "CORSO DI CLIMATOLOGIA - Lezione 12 - Le ere glaciali del Quaternario"],
+    ["LgIgZK--uh0", "CORSO DI CLIMATOLOGIA - Lezione 13 - Come finisce un'era glaciale (Younger Dryas)"],
+    ["OK0SuiGoikk", "CORSO DI CLIMATOLOGIA . Lezione 14 - L'OLOCENE, il clima della civiltà"],
+    ["zD-YAJkekr0", "CORSO DI CLIMATOLOGIA - Lezione 15 - L'ANTROPOCENE"],
+    ["8g-v8An8vIw", "CORSO DI CLIMATOLOGIA - Lezione 16 - 1° C in 100 anni"],
+    ["EF_-C1_aZhY", "CORSO DI CLIMATOLOGIA - Lezione 17 - LA SENTINELLA ARTICA"],
+    ["TrQDb9XujAg", "CORSO DI CLIMATOLOGIA - Lezione 18 - IL MEDITERRANEO"],
+    ["hwd87c5UohI", "CORSO DI CLIMATOGIA - Lezione 19 - Il Gemello Virtuale della Terra"],
+  ],
+  "PLhhJuuVH9v0v2QWRdLuc5dw-9p3HcDCmL": [
+    ["9gBa9O2oEEU", "CORSO DI BIOLOGIA - Lezione 01 - INTRODUZIONE ALLA BIOLOGIA - I° Liceo"],
+    ["ukWCQhf-hUE", "CORSO DI BIOLOGIA - Lezione 02 - La chimica della Vita"],
+    ["UDjbCRazb0c", "CORSO DI BIOLOGIA - Lezione 03 - La Cellula"],
+    ["dH3D1GOn8tU", "CORSO DI BIOLOGIA - Lezione 04 - La cellula a lavoro"],
+    ["al7SY_lM5Do", "CORSO DI BIOLOGIA - Lezione 05 - La Replicazione Cellulare"],
+    ["mpECTC7ihtM", "CORSO DI BIOLOGIA - Lezione 06 -  Le leggi di Mendel e le malattie cromosomiche"],
+    ["xrH8ZjZGLio", "CORSO DI BIOLOGIA - Lezione 07 - L'origine della Vita ed Evoluzione delle Specie"],
+    ["Alxuxhcby2M", "CORSO DI BIOLOGIA - Lezione 08 - Procarioti, Protisti, Piante e Funghi"],
+    ["13s--eAaMVY", "CORSO DI BIOLOGIA - Lezione 09 - GLI ANIMALI"],
+    ["2C-EeVAddGQ", "CORSO DI BIOLOGIA - Lezione 10 - La Biosfera"],
+    ["GW8M4eow8Dw", "CORSO DI BIOLOGIA - Lezione 11 - Struttura e tessuti del corpo umano"],
+    ["aCfUtb6lgGQ", "CORSO DI BIOLOGIA - Lezione 12 - APPARATO LOCOMOTORE - Lo scheletro"],
+    ["jziHTArEpNE", "CORSO DI BIOLOGIA - Lezione 13 - L'APPARATO LOCOMOTORE , I muscoli."],
+    ["ZV82zJGHlYs", "CORSO DI BIOLOGIA - Lezione 14 - L'apparato Tegumentario"],
+    ["ijI-JdQ7rAU", "CORSO DI BIOLOGIA - Lezione 15 - Il Sistema Cardio Circolatorio"],
+    ["YeCkgqc44yc", "CORSO DI BIOLOGIA - Lezione 16 - L'APPARATO RESPIRATORIO e gli scambi gassosi"],
+    ["SdICQhVBviY", "CORSO DI BIOLOGIA - Lezione 17 - Il Sistema Immunitario"],
+    ["UYNK1OfEpQ0", "CORSO DI BIOLOGIA - Lezione 18 - L'apparato escretore"],
+    ["6-cx3RlAijY", "CORSO DI BIOLOGI - Lezione 19 - Il sistema endocrino"],
+    ["vs5NQZ-iXzc", "CORSO DI BIOLOGIA - Lezione 20 - IL SISTEMA NERVOSO"],
+    ["qTfSSFXE-h4", "CORSO DI BIOLOGIA - Lezione 21 - IL SISTEMA DIGERENTE"],
+  ],
+  "PLhhJuuVH9v0v4q1fv6ULn0S3I9pxMBVZC": [
+    ["UhwKLARrSBc", "CORSO DI ASTRONOMIA - Lezione 01 - Il Sistema Solare"],
+    ["WJzFAqTIXAU", "CORSO DI ASTRONOMIA - Lezione 02 - Marte: Il pianeta Rosso"],
+    ["m8eeRO8JUuI", "CORSO DI ASTRONOMIA - Lezione 03 - La Via Lattea"],
+    ["WU1TZnTIVgU", "CORSO DI ASTRONOMIA - Lezioni 04 - I Buchi Neri"],
+    ["yM6BZOF6prQ", "CORSO DI ASTRONOMIA - Lezione 05 - IL SOLE, la nostra Stella"],
+    ["YrtAZvph7Zw", "CORSO DI ASTRONOMIA - Lezione 06 - L'evoluzione delle Stelle"],
+    ["bs8iLL8UwB0", "CORSO DI ASTRONOMIA - Lezione 07 - L'inizio dell'Universo"],
+    ["OUPrPABfhSI", "CORSO DI ASTRONOMIA - Lezione 08 - Il telescopio Hubble"],
+    ["fP2pv8YFs4A", "CORSO DI ASTRONOMIA - Lezione 09 - GLI ESOPIANETI"],
+    ["VO1lTEy_95s", "CORSO DI ASTRONOMIA - Lezione 10 - Vita oltre la Terra"],
+    ["F2cUAVqfmTc", "CORSO DI ASTRONOMIA - Lezione 11 - L'evento K/T"],
+    ["CY0GlZ_eUNM", "CORSO DI ASTRONOMIA - Lezione 12 - GIOVE - Il gigante di Gas"],
+    ["2bZoNwhCMac", "CORSO DI ASTRONOMIA - Lezione 13 - SATURNO, il pianeta elegante"],
+    ["pOcPU-kYRjE", "CORSO DI ASTRONOMIA - Lezione 14 - URANO E NETTUNO"],
+    ["NPM78AZrOoo", "CORSO DI ASTRONOMIA - Lezione 15 - PLUTONE E I PIANETI NANI"],
+    ["OR2zewy-W9w", "CORSO DI ASTRONOMIA - Lezione 16 - Le Nebulose Oscure"],
+    ["y5rXc_no4ck", "CORSO DI ASTRONOMIA - Lezione 17 - Le Nebulose Brillanti"],
+    ["f2xArVbdow4", "CORSO DI ASTRONOMIA - Lezione 18 - Mercurio e Venere"],
+    ["H-DWUzJ2YlY", "CORSO DI ASTRONOMIA - Lezione 19 - LA TERRA, il pianeta Blu (Aggiornato)"],
+    ["Yrm3EnrmJXg", "CORSO DI ASTRONOMIA - Lezione 20 - La Luna"],
+    ["N3RByYi3cl4", "CORSO DI ASTRONOMIA - Lezione 21 - LA GEOLOGIA DI MARTE"],
+    ["6OG-BmPYLlU", "CORSO DI ASTRONOMIA - Lezione 22 - LA FASCIA DEGLI ASTEROIDI"],
+    ["0Zrv4vBE1DA", "CORSO DI ASTRONOMIA - Lezione 23 - LE COMETE"],
+    ["iwYVrsYvv-o", "CORSO DI ASTRONOMIA - Lezione 24 - Gli impatti nel Sistema Solare"],
+    ["0eBTr1EXgj0", "CORSO DI ASTRONOMIA - Lezione 25 - LE NANE BIANCHE"],
+    ["rbQ2oQ2VsDs", "CORSO DI ASTRONOMIA - Lezione 26 - Le Stelle Binarie"],
+    ["qIXjN44fau8", "CORSO DI ASTRONOMIA - Lezione 27 - Le Stelle Variabili"],
+    ["KktMohug7A4", "CORSO DI ASTRONOMIA - Lezione 28 - LE STELLE GIOVANI"],
+    ["o5E2JM_Jub4", "CORSO DI ASTRONOMIA - Lezione 29 - Le Supernove"],
+    ["EktlM38su68", "LE GALASSIE A SPIRALI NELL'UNIVERSO"],
+    ["cumDZ_DmJ7c", "CORSO DI ASTRONOMIA - Lezione 30 - Le galassie del Gruppo Locale"],
+    ["5DYBsPv9Z_g", "CORSO DI ASTRONOMIA - Lezione 31 - LE GALASSIE A SPIRALE"],
+    ["Pb7Gy0yDhJM", "CORSO DI ASTRONOMIA - Lezione 32 - Le Galassie Ellittiche e Irregolari"],
+  ],
+  "PLhhJuuVH9v0vCSeoXU1mP_S0Yyaqma4NV": [
+    ["Kuk8Xz8T5ZY", "GEOGRAFIA ASTRONOMICA - Lezione 1- Il Big Bang"],
+    ["SHNhkyD_5v0", "GEOGRAFIA ASTRONOMICA -  Lezione 2 - Le galassie"],
+    ["1FcZsNVxRS0", "GEOGRAFIA ASTRONOMICA - Lezione 3 - Le Stelle"],
+    ["dYyJdHpGdPo", "GEOGRAFIA ASTRONOMICA - Lezione 4 - Il Sistema Solare"],
+    ["20cdq_PHTiw", "GEOGRAFIA ASTRONOMICA - Lezione 5 - Gli Esopianeti"],
+    ["5qOTCJVONa0", "GEOGRAFIA ASTRONOMICA - Lezione 6 - I moti della Terra"],
+    ["DExrQT2Fb4M", "GEOGRAFIA ASTRONOMICA - Lezione 7 - La Luna"],
+    ["ivLd3Soa-rI", "GEOGRAFIA ASTRONOMICA - Lezione 8 - La forma della Terra, ed Elementi di Cartografia"],
+    ["_WKaCAuXQl4", "GEOGRAFIA ASTRONOMICA - Lezione 9 -   L'atmosfera Terrestre"],
+  ],
+  "PLhhJuuVH9v0vUsUnp2z-QOTUthwVc5N-a": [
+    ["zYSIIlv5Oro", "SCIENZE DELLA TERRA - Lezione 1 - Idrosfera"],
+    ["feIx8QQzM6Y", "SCIENZE DELLA TERRA - Lezione 2   Struttura interna della terra"],
+    ["3YylHDKb-LQ", "SCIENZE DELLA TERRA - Lezione 3 - I Terremoti"],
+    ["6DmV6uo8o2s", "SCIENZE DELLA TERRA - Lezione 4 - I VULCANI"],
+    ["595FQMZswuM", "SCIENZE DELLA TERRA - Lezione 5 - Placche Tettoniche"],
+    ["CirkKcixKjo", "SCIENZE DELLA TERRA - Lezione 6 - Le Rocce"],
+    ["60TISCf88jg", "SCIENZE DELLA TERRA - Lezione 7 - I minerali"],
+    ["xHYYiv2grrE", "SCIENZE DELLA TERRA - Lezione 8 - L'erosione"],
+    ["52CLlrRgdFU", "SCIENZE DELLA TERRA - Lezione 9 - Il Suolo"],
+    ["LiMr4a0gw60", "SCIENZE DELLA TERRA - Lezione 10 - IMPATTO ANTROPICO"],
+  ],
+  "PLhhJuuVH9v0vZp0o5DN1l6kZIcs91R6UA": [
+    ["OWKWX4CARAg", "CHIMICA ORGANICA - Lezione 1 - Chimica del Carbonio"],
+    ["_SxlSvZSeDk", "CHIMICA ORGANICA - Lezione 2 - Gli Idrocarburi"],
+    ["ZVN9ynEuxoU", "CHIMICA ORGANICA - Lezione 3 - Gruppi Funzionali"],
+    ["Xt0_KPS2QYg", "CHIMICA ORGANICA - Lezione 4 - I gruppi Radicali"],
+    ["9JuInindlUw", "CHIMICA ORGANICA - Lezione 5 - Isomeria"],
+    ["vy9QMd4rJ7w", "CHIMICA ORGANICA - Lezione 6 - I CARBOIDRATI"],
+    ["58AwpVwEUVs", "CHIMICA ORGANICA - Lezione 7 - I Lipidi"],
+    ["quL09vS1ZjM", "CHIMICA ORGANICA - Lezione 8 - Le Proteine"],
+    ["agqET2TyAzI", "CHIMICA ORGANICA - Lezione 9 - ACIDI NUCLEICI"],
+    ["600wWoSOtTY", "CHIMICA ORGANICA - Lezione 10 - I metabolismi"],
+    ["gCdOE8DJ4qg", "CHIMICA ORGANICA - Lezione 11 - Le Biotecnologie"],
+  ],
+};
+
 const playlists = [
+  {
+    slug: 'loiacono',
+    group: 'Corsi di astronomia',
+    title: 'Corso di astronomia',
+    description: 'Il corso del prof. Antonio Loiacono va dal Sistema Solare alle stelle e alle galassie. Scegli un video dall’indice.',
+    id: 'PLhhJuuVH9v0v4q1fv6ULn0S3I9pxMBVZC',
+    publisher: 'Antonio Loiacono',
+    channel: 'https://www.youtube.com/@AntonioLoiacono',
+    image: 'assets/lezioni/andromeda.jpg'
+  },
+  {"area": "Lezioni di astronomia", "title": "Scienze della Terra", "id": "PLhhJuuVH9v0vUsUnp2z-QOTUthwVc5N-a", "description": "Lezioni per conoscere il nostro pianeta e i processi che lo modellano.", "publisher": "Antonio Loiacono", "channel": "https://www.youtube.com/@AntonioLoiacono", "image": "https://i.ytimg.com/vi/zYSIIlv5Oro/hqdefault.jpg"},
+  {"area": "Lezioni di astronomia", "title": "La fisica facile", "id": "PLhhJuuVH9v0sjLUpnMuVnqloauLI-8zMn", "description": "Un percorso introduttivo ai concetti della fisica.", "publisher": "Antonio Loiacono", "channel": "https://www.youtube.com/@AntonioLoiacono", "image": "https://i.ytimg.com/vi/JqPypiYGnIM/hqdefault.jpg"},
+  {"area": "Lezioni di astronomia", "title": "Chimica organica", "id": "PLhhJuuVH9v0vZp0o5DN1l6kZIcs91R6UA", "description": "Un percorso dedicato ai composti del carbonio.", "publisher": "Antonio Loiacono", "channel": "https://www.youtube.com/@AntonioLoiacono", "image": "https://i.ytimg.com/vi/OWKWX4CARAg/hqdefault.jpg"},
+  {"area": "Lezioni di astronomia", "title": "Geografia astronomica", "id": "PLhhJuuVH9v0vCSeoXU1mP_S0Yyaqma4NV", "description": "Lezioni di geografia astronomica per inquadrare la Terra nello spazio.", "publisher": "Antonio Loiacono", "channel": "https://www.youtube.com/@AntonioLoiacono", "image": "https://i.ytimg.com/vi/Kuk8Xz8T5ZY/hqdefault.jpg"},
+  {"area": "Lezioni di astronomia", "title": "Corso di climatologia", "id": "PLhhJuuVH9v0teBOsoeMGk9nhbvY6FimWV", "description": "Un corso dedicato al clima e ai fenomeni che lo caratterizzano.", "publisher": "Antonio Loiacono", "channel": "https://www.youtube.com/@AntonioLoiacono", "image": "https://i.ytimg.com/vi/nxRZZELQ0_k/hqdefault.jpg"},
+  {"area": "Lezioni di astronomia", "title": "Corso di biologia", "id": "PLhhJuuVH9v0v2QWRdLuc5dw-9p3HcDCmL", "description": "Un corso dedicato allo studio degli organismi viventi.", "publisher": "Antonio Loiacono", "channel": "https://www.youtube.com/@AntonioLoiacono", "image": "https://i.ytimg.com/vi/9gBa9O2oEEU/hqdefault.jpg"},
   {group:'Pillole di astronomia', title:'Shorts UAI', description:'La raccolta di video brevi del canale UAI.', id:'PLdN2BAVD9wRUmgEXzSK_THyg0pGnDQvTG', image:'assets/lezioni/via-lattea-panorama.jpg'},
-  {group:'Pillole di astronomia', title:'Pillole di astronomia', description:'Una raccolta di interventi brevi per entrare nei temi dell’astronomia.', id:'PLdN2BAVD9wRVG-sMOFbePPgnLkeonFmRu', image:'assets/lezioni/andromeda.jpg'},
-  {slug:'cielo', group:'Osservare il cielo', title:'Occhi al cielo del mese', description:'Una raccolta per orientarsi tra gli appuntamenti del cielo e preparare le osservazioni.', id:'PLdN2BAVD9wRW6uQwqdoge1lf-6V_TptPT', image:'assets/lezioni/orione-fotografico.jpg'},
-  {slug:'comete', group:'Sistema solare', title:'Corso di astronomia cometaria', description:'Un percorso dedicato alle comete e alla loro osservazione.', id:'PLdN2BAVD9wRWtWeYRsBNNVWDqJgWVBT9j', image:'assets/lezioni/via-lattea-panorama.jpg'}
+  {area:'Documentari divulgativi', group:'Pillole di astronomia', title:'Pillole di astronomia', description:'Una raccolta di interventi brevi per entrare nei temi dell’astronomia.', id:'PLdN2BAVD9wRVG-sMOFbePPgnLkeonFmRu', image:'assets/lezioni/andromeda.jpg'},
+  {area:'Lezioni di astronomia', slug:'comete', group:'Sistema solare', title:'Corso di astronomia cometaria', description:'Un percorso dedicato alle comete e alla loro osservazione.', id:'PLdN2BAVD9wRWtWeYRsBNNVWDqJgWVBT9j', image:'assets/lezioni/via-lattea-panorama.jpg'},
+  {"area": "Documentari divulgativi", "title": "Marte", "id": "PLhhIH8RzamP4zug43bKXes8kUxSieLJg0", "description": "Una raccolta dedicata al pianeta rosso.", "publisher": "Amedeo Balbi", "channel": "https://www.youtube.com/@AmedeoBalbi", "image": "https://i.ytimg.com/vi/LMRuEiNHPp0/hqdefault.jpg"},
+  {"area": "Documentari divulgativi", "title": "Vita nell’universo", "id": "PLhhIH8RzamP7opQli_4kb35wqgcLdLpkp", "description": "Le domande scientifiche sulla possibilità di vita oltre la Terra.", "publisher": "Amedeo Balbi", "channel": "https://www.youtube.com/@AmedeoBalbi", "image": "https://i.ytimg.com/vi/zyFQLLN8WXw/hqdefault.jpg"},
+  {"area": "Documentari divulgativi", "title": "Esplorazione spaziale", "id": "PLhhIH8RzamP4Td6XtxxH9iYcx7dclkUcn", "description": "Una raccolta per approfondire l’esplorazione dello spazio.", "publisher": "Amedeo Balbi", "channel": "https://www.youtube.com/@AmedeoBalbi", "image": "https://i.ytimg.com/vi/OFL1u4VjiYc/hqdefault.jpg"},
+  {"area": "Documentari divulgativi", "title": "Scienza e fantascienza", "id": "PLhhIH8RzamP4Of9kKTx6tUwpshsYxutHR", "description": "Un confronto tra le idee della fantascienza e le domande della scienza.", "publisher": "Amedeo Balbi", "channel": "https://www.youtube.com/@AmedeoBalbi", "image": "https://i.ytimg.com/vi/K_Oy7FjCMOE/hqdefault.jpg"},
+  {"area": "Documentari divulgativi", "title": "Relatività", "id": "PLhhIH8RzamP4TspQm02zAqy6q7K_ialRU", "description": "Video divulgativi sulla relatività e sul modo in cui descrive spazio e tempo.", "publisher": "Amedeo Balbi", "channel": "https://www.youtube.com/@AmedeoBalbi", "image": "https://i.ytimg.com/vi/PI2wR84IgEs/hqdefault.jpg"},
+  {"area": "Documentari divulgativi", "title": "Cosmologia", "id": "PLhhIH8RzamP5IxgpR_V-OaojFYFu5PjgK", "description": "Una raccolta per approfondire la storia e l’evoluzione dell’universo.", "publisher": "Amedeo Balbi", "channel": "https://www.youtube.com/@AmedeoBalbi", "image": "https://i.ytimg.com/vi/l6hPfu38rkI/hqdefault.jpg"},
+  {"area": "Documentari divulgativi", "title": "Concetti di base", "id": "PLhhIH8RzamP7M92WjahmOA8ekmOMRVPHF", "description": "Un punto di partenza per orientarsi tra i concetti dell’astronomia.", "publisher": "Amedeo Balbi", "channel": "https://www.youtube.com/@AmedeoBalbi", "image": "https://i.ytimg.com/vi/H_wTJZQswXg/hqdefault.jpg"},
+  {"area": "Documentari divulgativi", "title": "Capire l’universo", "id": "PLhhIH8RzamP67YZmXq8JsPCIND3kMt7-e", "description": "Una raccolta divulgativa per esplorare le domande sull’universo.", "publisher": "Amedeo Balbi", "channel": "https://www.youtube.com/@AmedeoBalbi", "image": "https://i.ytimg.com/vi/H_wTJZQswXg/hqdefault.jpg"},
+  {"area": "Lezioni di astronomia", "title": "Guida al primo telescopio astronomico", "id": "PLKwm8rQxXtGBZvt0rbrw08UkoJva9Jw6-", "description": "Guida al primo telescopio astronomico. Raccolta video di Luca Fornaciari.", "publisher": "Luca Fornaciari", "channel": "https://www.youtube.com/channel/UCzwc1Fe44wYzjSr9bYcy1wA", "image": "https://i.ytimg.com/vi/kQsGZjy6RD8/hqdefault.jpg"},
+  {"area": "Tecniche di astrofotografia", "title": "Astrofotografia per principianti", "id": "PLKwm8rQxXtGDgRweAhwYVjZWSxC-jOfev", "description": "Astrofotografia per principianti. Raccolta video di Luca Fornaciari.", "publisher": "Luca Fornaciari", "channel": "https://www.youtube.com/channel/UCzwc1Fe44wYzjSr9bYcy1wA", "image": "https://i.ytimg.com/vi/obQOuicSPj8/hqdefault.jpg"},
+  {"area": "Tecniche di astrofotografia", "title": "Paesaggistica notturna e Via Lattea", "id": "PLKwm8rQxXtGAfyQX0dcfo5_G0Tay1cNkg", "description": "Paesaggistica notturna e Via Lattea. Raccolta video di Luca Fornaciari.", "publisher": "Luca Fornaciari", "channel": "https://www.youtube.com/channel/UCzwc1Fe44wYzjSr9bYcy1wA", "image": "https://i.ytimg.com/vi/nGvsuWnnS_0/hqdefault.jpg"},
+  {"area": "Tecniche di astrofotografia", "title": "Bias, Dark, Flat e DarkFlat", "id": "PLKwm8rQxXtGBFIzzb_S2X_qbJTUXR5dxk", "description": "Bias, Dark, Flat e DarkFlat. Raccolta video di Luca Fornaciari.", "publisher": "Luca Fornaciari", "channel": "https://www.youtube.com/channel/UCzwc1Fe44wYzjSr9bYcy1wA", "image": "https://i.ytimg.com/vi/RSTJzWMO1QI/hqdefault.jpg"},
+  {"area": "Tecniche di astrofotografia", "title": "Elaborazione con software gratuiti", "id": "PLKwm8rQxXtGAUq5vPtgByxmypxQ2e5KlX", "description": "Elaborazione con software gratuiti. Raccolta video di Luca Fornaciari.", "publisher": "Luca Fornaciari", "channel": "https://www.youtube.com/channel/UCzwc1Fe44wYzjSr9bYcy1wA", "image": "https://i.ytimg.com/vi/PwUrbHNfhUU/hqdefault.jpg"},
+  {"area": "Tecniche di astrofotografia", "title": "Corso base di PixInsight", "id": "PLKwm8rQxXtGBFBX8n2qNRi0_BRZ8Q1yJu", "description": "Corso base di PixInsight. Raccolta video di Luca Fornaciari.", "publisher": "Luca Fornaciari", "channel": "https://www.youtube.com/channel/UCzwc1Fe44wYzjSr9bYcy1wA", "image": "https://i.ytimg.com/vi/sg1phF4qvW0/hqdefault.jpg"},
+  {"area": "Astro Pillole", "title": "Pillole di astrofotografia e astronomia amatoriale", "id": "PLKwm8rQxXtGCz27xCydM4gyvvI_uDLSYC", "description": "Pillole di astrofotografia e astronomia amatoriale. Raccolta video di Luca Fornaciari.", "publisher": "Luca Fornaciari", "channel": "https://www.youtube.com/channel/UCzwc1Fe44wYzjSr9bYcy1wA", "image": "https://i.ytimg.com/vi/qmpwWvm_m5U/hqdefault.jpg"},
+  {"area": "Tecniche di astrofotografia", "title": "Siril", "id": "PLe7wtG_-HSp5rG4CYIoCjKFOcIUS-sopl", "description": "Siril. Raccolta video di Valerio Pardi.", "publisher": "Valerio Pardi", "channel": "https://www.youtube.com/channel/UCjTgVKQjhQQEy_cirL8N90Q", "image": "https://i.ytimg.com/vi/99x3Xz9-mUQ/hqdefault.jpg"},
+  {"area": "Tecniche di astrofotografia", "title": "Astrofotografia: primi passi", "id": "PLJtcLHH86tz4-kO2tldcQ9-HpFgMTRrkg", "description": "Astrofotografia: primi passi. Raccolta video di Marco Rapino · AstroPills.", "publisher": "Marco Rapino · AstroPills", "channel": "https://www.youtube.com/channel/UCbbR16wI-OJ--4NF7xiCUyQ", "image": "https://i.ytimg.com/vi/-ZLNUxaNkKc/hqdefault.jpg"},
+  {"area": "Tecniche di astrofotografia", "title": "Come fotografare la Luna", "id": "PLJtcLHH86tz7W2V0WS5xCIP04xxoCKkQl", "description": "Come fotografare la Luna. Raccolta video di Marco Rapino · AstroPills.", "publisher": "Marco Rapino · AstroPills", "channel": "https://www.youtube.com/channel/UCbbR16wI-OJ--4NF7xiCUyQ", "image": "https://i.ytimg.com/vi/GDeVx_sa_jw/hqdefault.jpg"},
+  {"area": "Tecniche di astrofotografia", "title": "Fotografia sul campo", "id": "PLJtcLHH86tz5Q6HdcQ7NeGW9I3YhN3PmR", "description": "Fotografia sul campo. Raccolta video di Marco Rapino · AstroPills.", "publisher": "Marco Rapino · AstroPills", "channel": "https://www.youtube.com/channel/UCbbR16wI-OJ--4NF7xiCUyQ", "image": "https://i.ytimg.com/vi/jUjVZ47G4j0/hqdefault.jpg"},
+  {"area": "Tecniche di astrofotografia", "title": "Tutorial di astrofotografia · AstroPills", "id": "PLJtcLHH86tz7Beb26kZmW9t4OzP0krc13", "description": "Tutorial di astrofotografia · AstroPills. Raccolta video di Marco Rapino · AstroPills.", "publisher": "Marco Rapino · AstroPills", "channel": "https://www.youtube.com/channel/UCbbR16wI-OJ--4NF7xiCUyQ", "image": "https://i.ytimg.com/vi/jgKQ7RTXAhc/hqdefault.jpg"},
+  {"area": "Astro Pillole", "title": "Videopillole ASI", "id": "PLe3BVM58bCIvLmkjX3YMsL38V95R5HPlW", "description": "Brevi video sulle missioni spaziali, la ricerca e le osservazioni della Terra e del cosmo.", "publisher": "Agenzia Spaziale Italiana", "channel": "https://www.tv.asi.it/media/canale/1eef6499-c5fc-60cc-9c0e-39ebdeaee092", "image": "https://i.ytimg.com/vi/BvDfK4x8c_Y/hqdefault.jpg"},
+  {"area": "Tecniche di astrofotografia", "title": "Montature e bilanciamento del telescopio", "id": "PL_cp37j54iAfwTMoQMNtJu1NRG1PWWdUO", "description": "Guide pratiche per montare una montatura equatoriale e bilanciare il telescopio.", "publisher": "LD ASTRO", "channel": "https://www.youtube.com/@ldastrofoto", "image": "https://i.ytimg.com/vi/ji7BwWdUe6Y/hqdefault.jpg"},
+  {"area": "Lezioni di astronomia", "title": "Cosa vedo?", "id": "PL_cp37j54iAdMQZP6S-iYggywXKbFemFs", "description": "Un percorso tra oggetti del cielo profondo, dalla galassia M106 alla nebulosa del Granchio.", "publisher": "LD ASTRO", "channel": "https://www.youtube.com/@ldastrofoto", "image": "https://i.ytimg.com/vi/3MMlH2Eks4U/hqdefault.jpg"}
 ];
 const byId = id => document.getElementById(id);
 const groups = new Map();
-for (const playlist of playlists) {
-  if (groups.has(playlist.group)) continue;
-  const section = document.createElement('section');
-  section.className = 'collection';
-  const heading = document.createElement('h2');
-  heading.textContent = playlist.group;
-  const cards = document.createElement('div');
-  cards.className = 'cards';
-  section.append(heading, cards);
+for (const [name, cover] of [
+  ['Lezioni di astronomia', 'astronomia.jpg'],
+  ['Tecniche di astrofotografia', 'astrofotografia.webp'],
+  ['Documentari divulgativi', 'documentari.webp'],
+  ['Astro Pillole', 'pillole.jpg']
+]) {
+  const section = document.createElement('details');
+  section.className = 'video-area';
+  section.style.setProperty('--area-cover', 'url("assets/videoteca/' + cover + '")');
+  const heading = document.createElement('summary');
+  heading.textContent = name;
+  const items = document.createElement('div');
+  items.className = 'area-items';
+  section.append(heading, items);
   byId('cards').append(section);
-  groups.set(playlist.group, cards);
+  groups.set(name, items);
 }
 const buttons = playlists.map(playlist => {
   const button = document.createElement('button');
-  button.className = 'card';
   button.type = 'button';
-  const image = new Image();
-  image.src = playlist.image;
-  image.alt = '';
+  const thumbnail = document.createElement('img');
+  thumbnail.src = playlist.image;
+  thumbnail.alt = '';
+  thumbnail.loading = 'lazy';
   const label = document.createElement('span');
-  const title = document.createElement('strong');
-  title.textContent = playlist.title;
-  const source = document.createElement('small');
-  source.textContent = 'Unione Astrofili Italiani';
-  label.append(title, source);
-  button.append(image, label);
-  button.addEventListener('click', () => { select(playlist); byId('screen').scrollIntoView({block:'center'}); byId('screen').querySelector('button').focus({preventScroll:true}); });
-  groups.get(playlist.group).append(button);
+  label.textContent = playlist.title;
+  const metadata = document.createElement('small');
+  const format = playlist.videoId ? 'Video singolo' : 'Playlist';
+  metadata.textContent = format + ' · ' + (playlist.publisher || 'UAI');
+  label.append(metadata);
+  button.append(thumbnail, label);
+  const area = playlist.area || (playlist.group === 'Pillole di astronomia' ? 'Astro Pillole' : 'Lezioni di astronomia');
+  button.addEventListener('click', () => {
+    select(playlist);
+    byId('screen').scrollIntoView({block: 'start'});
+    byId('screen').querySelector('button, iframe').focus({preventScroll: true});
+  });
+  groups.get(area).append(button);
   return button;
 });
+for (const area of groups.values()) {
+  if (area.querySelector('button')) continue;
+  const empty = document.createElement('p');
+  empty.textContent = 'Contenuti in preparazione.';
+  area.append(empty);
+}
+const videoList = byId('playlist-videos');
+
+function loadVideo(title, path) {
+  if (location.protocol === 'file:') {
+    const preview = document.createElement('a');
+    preview.className = 'play';
+    preview.href = 'http://127.0.0.1:8765/videoteca.html';
+    preview.textContent = 'Apri la videoteca dal server locale per riprodurre i video';
+    byId('screen').replaceChildren(preview);
+    preview.focus({preventScroll: true});
+    return preview;
+  }
+  const player = document.createElement('iframe');
+  player.title = title + ' · YouTube';
+  player.src = 'https://www.youtube-nocookie.com/embed/' + path;
+  player.allowFullscreen = true;
+  player.referrerPolicy = 'strict-origin-when-cross-origin';
+  byId('screen').replaceChildren(player);
+  return player;
+}
+
+function showPlaylistVideos(playlist) {
+  const videos = playlistVideos[playlist.id] || [];
+  videoList.replaceChildren();
+  videoList.hidden = videos.length === 0;
+  videoList.scrollTop = 0;
+  for (const [videoId, title] of videos) {
+    const item = document.createElement('li');
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.textContent = title;
+    button.addEventListener('click', () => {
+      loadVideo(title, videoId);
+      videoList.querySelector('[aria-current]')?.removeAttribute('aria-current');
+      button.setAttribute('aria-current', 'true');
+      byId('playlist').href = 'https://www.youtube.com/watch?v=' + videoId + '&list=' + playlist.id;
+      if (matchMedia('(max-width: 740px)').matches) {
+        byId('screen').scrollIntoView({block: 'start'});
+      }
+    });
+    item.append(button);
+    videoList.append(item);
+  }
+}
+const channelProfiles = {
+  'LD ASTRO': {"initials": "LD", "photo": "https://yt3.googleusercontent.com/VACJqSMEbkO3B0-4wrL-XLwhs7V-7y8ceVBxdqxWP6P2SHomTwjcDH5owgzi_GYaSKV5DpmC=s900-c-k-c0x00ffffff-no-rj", "bio": "Loris presenta guide pratiche su strumenti e astrofotografia e accompagna alla scoperta di galassie e nebulose."},
+  "Agenzia Spaziale Italiana": {"initials": "ASI", "bio": "L’Agenzia Spaziale Italiana racconta attraverso AsiTV le missioni, la ricerca e le tecnologie spaziali. Le Videopillole offrono brevi approfondimenti, dalle sonde interplanetarie all’osservazione della Terra."},
+  "Luca Fornaciari": {"initials": "LF", "bio": "Astrofotografo, autore e formatore specializzato nella fotografia del cielo e del paesaggio notturno. Nei suoi percorsi accompagna chi inizia dalla scelta degli strumenti alla ripresa e all’elaborazione delle immagini.", "photo": "https://lucafornaciarifotografia.com/wp-content/uploads/2026/04/Foto-Profilo-Macchine-Fotografiche2.jpg"},
+  "Valerio Pardi": {"initials": "VP", "bio": "Sul canale Valerio Photo School tratta teoria e pratica della fotografia, comprese microfotografia e astrofotografia. Qui propone una raccolta dedicata a Siril."},
+  "Marco Rapino · AstroPills": {"initials": "AP", "bio": "Nel canale AstroPills, Marco Rapino propone tutorial pratici di astrofotografia, dai primi scatti alla fotografia lunare e al lavoro sul campo."},
+  'Amedeo Balbi': {
+    initials: 'AB',
+    photo: 'https://www.amedeobalbi.it/wp-content/uploads/2023/10/foto_lowres-683x1024.jpg',
+    bio: 'Professore associato di astronomia e astrofisica all’Università di Roma Tor Vergata. È un astrofisico teorico. Ha studiato la radiazione cosmica di fondo, la luce che ci arriva dall’universo primordiale, e si occupa di astrobiologia, con particolare attenzione all’abitabilità dei pianeti. Nelle raccolte della Videoteca affronta temi come la relatività, l’esplorazione spaziale e la ricerca di vita oltre la Terra.'
+  },
+  'Antonio Loiacono': {
+    initials: 'AL',
+    photo: 'https://i.ytimg.com/vi/KktMohug7A4/hqdefault.jpg',
+    crop: 'loiacono',
+    bio: 'Antonio Loiacono è il docente e autore del Corso di astronomia. Il corso comprende 32 lezioni, dal Sistema Solare all’evoluzione delle stelle, ai buchi neri e alle galassie. In Videoteca trovi anche i suoi percorsi di fisica, scienze della Terra, geografia astronomica, climatologia, chimica organica e biologia, da cui partire per approfondire le materie che si intrecciano con lo studio del cosmo.'
+  },
+  'Unione Astrofili Italiani': {
+    initials: 'UAI',
+    bio: 'L’Unione Astrofili Italiani promuove l’astronomia amatoriale e la divulgazione. Le raccolte in Videoteca aiutano a orientarsi tra gli appuntamenti del cielo, a preparare una serata osservativa e ad approfondire fenomeni come il passaggio delle comete.'
+  }
+};
+
+function showChannelProfile(playlist) {
+  const name = playlist.publisher || 'Unione Astrofili Italiani';
+  const profile = channelProfiles[name];
+  const avatar = byId('profile-avatar');
+  avatar.className = 'profile-avatar' + (profile.crop ? ' ' + profile.crop : '');
+  avatar.textContent = profile.initials;
+  if (profile.photo) {
+    const photo = document.createElement('img');
+    photo.alt = '';
+    photo.addEventListener('error', () => photo.remove(), {once: true});
+    photo.src = profile.photo;
+    avatar.append(photo);
+  }
+  byId('profile-name').textContent = name;
+  byId('profile-bio').textContent = profile.bio;
+}
+
 function select(playlist) {
+  showChannelProfile(playlist);
   const screen = byId('screen');
   screen.style.setProperty('--cover', 'url("' + playlist.image + '")');
-  byId('publisher').textContent = 'Playlist | Unione Astrofili Italiani';
+  byId('publisher').textContent = (playlist.videoId ? 'Video | ' : 'Playlist | ') + (playlist.publisher || 'Unione Astrofili Italiani');
   byId('title').textContent = playlist.title;
+  if (playlist.slug === 'loiacono') byId('publisher').textContent = 'Lezioni del prof. Antonio Loiacono';
   byId('description').textContent = playlist.description;
-  byId('playlist').href = 'https://www.youtube.com/playlist?list=' + playlist.id;
-  byId('channel').href = channel;
+  byId('playlist').href = playlist.videoId
+    ? 'https://www.youtube.com/watch?v=' + playlist.videoId
+    : 'https://www.youtube.com/playlist?list=' + playlist.id;
+  byId('channel').href = playlist.channel || channel;
+  showPlaylistVideos(playlist);
   buttons.forEach((button, index) => button.setAttribute('aria-pressed', String(playlists[index] === playlist)));
   const play = document.createElement('button');
   play.type = 'button';
   play.className = 'play';
   play.textContent = '▶ Carica il lettore YouTube';
   play.addEventListener('click', () => {
-    const player = document.createElement('iframe');
-    player.title = playlist.title + ' · YouTube';
-    player.src = 'https://www.youtube-nocookie.com/embed/videoseries?list=' + playlist.id;
-    player.allowFullscreen = true;
-    player.referrerPolicy = 'strict-origin-when-cross-origin';
-    screen.replaceChildren(player);
-    player.focus();
+    const firstVideo = videoList.querySelector('button');
+    if (firstVideo) {
+      firstVideo.click();
+      screen.querySelector('iframe')?.focus();
+      return;
+    }
+    loadVideo(playlist.title, playlist.videoId || 'videoseries?list=' + playlist.id).focus();
   });
   screen.replaceChildren(play);
 }
 const requestedCollection = new URLSearchParams(location.search).get('raccolta');
-select(playlists.find(playlist => playlist.slug === requestedCollection) || playlists[1]);
+select(playlists.find(playlist => playlist.slug === requestedCollection) || playlists.find(playlist => playlist.slug === 'loiacono'));
 </script>
 <script defer src="assets/menu-persistente.js"></script>
+<svg width="0" height="0" aria-hidden="true" style="position:absolute" xmlns="http://www.w3.org/2000/svg">
+<defs><filter id="provino-scritta-opaca" color-interpolation-filters="sRGB">
+<feColorMatrix in="SourceGraphic" type="matrix" values="0 1 0 0 0  0 1 0 0 0  0 1 0 0 0  1 0 0 0 0"/>
+<feComponentTransfer><feFuncA type="linear" slope="10" intercept="-3.2"/></feComponentTransfer>
+</filter></defs></svg>
 </body></html>
