@@ -821,7 +821,7 @@
     .intro-visual {
       position: relative;
       isolation: isolate;
-      background: url("software-osservare-elaborare-rifinire.png") center / cover no-repeat;
+      background: url("software-osservare-elaborare-rifinire.png") center / contain no-repeat;
     }
     .intro-visual::before {
       content: "";
@@ -846,7 +846,9 @@
       .intro-visual:focus-within > * { opacity: 1; }
     }
 
-      /* Banner inferiore comune: titoli leggibili, con margine superiore regolare. */
+  .intro-visual{background-color:#08172a;min-height:0;height:250px;padding:18px;align-self:start}.software-icon{background:#f0f4fa;padding:8px}.software-icon img{width:100%;height:100%;object-fit:contain}.software-modal-icon img{width:100%;height:100%;object-fit:contain}#modalIcon img{width:100%;height:100%;object-fit:contain}.official-link{display:inline-flex;align-items:center;gap:8px}.software-source-note{font-size:.8rem!important;color:#65758a;margin-top:12px}.intro-visual p{font-size:.85rem}.intro-visual-symbol{font-size:2.2rem;margin-bottom:6px}@media(max-width:700px){.intro-visual{height:210px}}
+
+    /* Banner inferiore comune: titoli leggibili, con margine superiore regolare. */
     .site-footer{position:relative;width:100%;height:clamp(350px,22vw,510px);min-height:350px;overflow:hidden;background:#041529}
     .site-footer .bottom-banner-image{display:block;width:100%;height:100%;object-fit:contain;object-position:left center}
     .site-footer .footer-navigation{position:absolute;top:36px;right:3%;transform:none;width:53%;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;padding:0;background:transparent;color:#fff;align-items:start}
@@ -865,19 +867,21 @@
 
 <link rel="stylesheet" href="assets/menu-persistente.css">
 <link rel="stylesheet" href="assets/software/icone.css">
+  <link rel="stylesheet" href="assets/banner-comuni.css">
+<link rel="stylesheet" href="assets/rimandi-editoriali.css">
 </head>
 
 
 <body>
 
 
-  <header class="top-banner">
+  <header class="top-banner banner-nebulosa">
 
-    <img
-      class="top-banner-image"
-      src="banner.png"
-      alt="AD ASTRA"
-    >
+    <div class="sky"><img src="provini-testata-stellare/nebulosa-estesa.jpg" alt=""></div>
+    <img class="logo-originale logo-raggi" src="provini-testata-stellare/logo-fornito.png" alt="">
+    <img class="logo-originale logo-interno" src="provini-testata-stellare/logo-fornito.png" alt="">
+    <img class="wordmark" src="banner.png" alt="">
+    <span class="rule" aria-hidden="true"></span>
 
     <div class="banner-section-title">
 
@@ -1097,7 +1101,7 @@
 
             <a
               class="official-link"
-              href="https://stellarium.org/"
+              href="https://stellarium.org/" target="_blank" rel="noopener noreferrer"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -1165,7 +1169,7 @@
 
             <a
               class="official-link"
-              href="https://www.ap-i.net/skychart/"
+              href="https://www.ap-i.net/skychart/en/start" target="_blank" rel="noopener noreferrer"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -1267,7 +1271,7 @@
 
             <a
               class="official-link"
-              href="https://siril.org/"
+              href="https://siril.org/" target="_blank" rel="noopener noreferrer"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -1335,7 +1339,7 @@
 
             <a
               class="official-link"
-              href="https://github.com/deepskystacker/DSS"
+              href="http://deepskystacker.free.fr/english/index.html" target="_blank" rel="noopener noreferrer"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -1402,7 +1406,7 @@
 
             <a
               class="official-link"
-              href="https://www.autostakkert.com/"
+              href="https://www.autostakkert.com/" target="_blank" rel="noopener noreferrer"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -1470,7 +1474,7 @@
 
             <a
               class="official-link"
-              href="https://www.astronomie.be/registax/"
+              href="https://www.astronomie.be/registax/" target="_blank" rel="noopener noreferrer"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -1538,7 +1542,7 @@
 
             <a
               class="official-link"
-              href="https://astrosurface.com/"
+              href="https://astrosurface.com/pageuk.html" target="_blank" rel="noopener noreferrer"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -1641,7 +1645,7 @@
 
             <a
               class="official-link"
-              href="https://www.gimp.org/"
+              href="https://www.gimp.org/" target="_blank" rel="noopener noreferrer"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -1659,17 +1663,15 @@
                 class="software-open"
                 type="button"
                 data-software="makeup2"
-                aria-label="Apri la scheda del software"
+                aria-label="Apri la scheda di Affinity Photo"
               >
 
-                <div class="software-icon">
-                  +
-                </div>
+                <div class="software-icon"><img src="assets/software/affinity.png" alt="Icona originale di Affinity" width="64" height="64"></div>
 
                 <div>
 
                   <div class="software-name">
-                    Software da definire
+                    Affinity Photo
                   </div>
 
                   <div class="software-category">
@@ -1682,35 +1684,30 @@
 
             </div>
 
-            <p>
-              Spazio predisposto per un ulteriore software
-              dedicato alla rifinitura finale dell'immagine.
-              La scelta verrà effettuata in base alla reale
-              utilità per il percorso proposto da AD ASTRA.
-            </p>
+            <p>Affinity Photo è dedicato alla rifinitura fotografica: livelli, maschere, regolazioni di colore e contrasto aiutano a completare un’immagine astronomica. Le sue funzioni sono oggi integrate nella nuova applicazione Affinity; il collegamento conduce alla pagina ufficiale con informazioni e opzioni di download.</p>
 
             <div class="software-meta">
 
               <div class="software-meta-row">
                 <strong>Utilizzo</strong>
-                <span>Da definire</span>
+                <span>Rifinitura fotografica con livelli e maschere</span>
               </div>
 
               <div class="software-meta-row">
                 <strong>Download</strong>
-                <span>Da definire</span>
+                <span>Da sito ufficiale Affinity</span>
               </div>
 
               <div class="software-meta-row">
                 <strong>Livello</strong>
-                <span>Da definire</span>
+                <span>Intermedio</span>
               </div>
 
             </div>
 
             <a
               class="official-link"
-              href="#"
+              href="https://www.affinity.studio/download" target="_blank" rel="noopener noreferrer"
             >
               SITO UFFICIALE
             </a>
@@ -1757,7 +1754,8 @@
     </section>
 
 
-  </main>
+  <p class="container">Approfondisci: <a class="rimando-editoriale" href="astrofotografia.html#elaborazione">Elaborazione delle immagini astronomiche</a>.</p>
+</main>
 
 
   <div
@@ -1822,13 +1820,18 @@
   </div>
 
 
-  <footer class="site-footer">
+  <footer class="site-footer banner-eclissi">
 
-    <img
-      class="bottom-banner-image"
-      src="banner 2.png"
-      alt="AD ASTRA - Astronomia, osservazione del cielo, astrofotografia e divulgazione scientifica"
-    >
+    <div class="footer-sky" aria-hidden="true"><img src="provini-testata-stellare/eclissi-footer.jpg" alt=""></div>
+  <div class="footer-brand">
+    <a class="footer-signature footer-home-link" href="index.html" aria-label="RITORNA ALLA HOME">
+      <img class="footer-rays" src="provini-testata-stellare/logo-fornito.png" alt="">
+      <img class="footer-emblem" src="provini-testata-stellare/logo-fornito.png" alt="">
+      <img class="footer-name" src="banner.png" alt="">
+    <span class="footer-home-tooltip" aria-hidden="true">RITORNA<br>ALLA<br>HOME</span>
+    </a>
+    <p>Astronomia, osservazione del cielo, astrofotografia e divulgazione scientifica.</p>
+  </div>
 
 
     <div class="footer-navigation">
@@ -1910,7 +1913,7 @@
             </a>
           </li>
 
-        
+
 
           <li>
             <a href="contatti.html">
@@ -2360,41 +2363,10 @@
       },
 
       makeup2: {
-        icon: "+",
-        title: "Software da definire",
-        subtitle: "Makeup finale",
-        content: `
-          <p>
-            Questo spazio è stato predisposto
-            per un eventuale secondo software
-            dedicato alla rifinitura finale.
-          </p>
-
-          <p>
-            Il programma verrà scelto
-            soltanto quando sarà definito
-            il suo reale ruolo nel percorso AD ASTRA.
-          </p>
-
-          <div class="modal-data">
-
-            <div class="modal-data-row">
-              <strong>Funzione</strong>
-              <span>Da definire</span>
-            </div>
-
-            <div class="modal-data-row">
-              <strong>Distribuzione</strong>
-              <span>Da definire</span>
-            </div>
-
-            <div class="modal-data-row">
-              <strong>Difficoltà</strong>
-              <span>Da definire</span>
-            </div>
-
-          </div>
-        `
+        icon: "Affinity",
+        title: "Affinity Photo",
+        subtitle: "Rifinitura fotografica · oggi in Affinity",
+        content: `<p>Affinity Photo è dedicato alla rifinitura fotografica: livelli, maschere, regolazioni di colore e contrasto aiutano a completare un’immagine astronomica. Le sue funzioni sono oggi integrate nella nuova applicazione Affinity; il collegamento conduce alla pagina ufficiale con informazioni e opzioni di download.</p><p>Le immagini astronomiche possono essere rifinite con regolazioni non distruttive e maschere. Conserva una copia dei dati elaborati e procedi gradualmente, evitando di alterare la natura del soggetto.</p><div class="modal-data"><div class="modal-data-row"><strong>Funzione</strong><span>Rifinitura fotografica</span></div><div class="modal-data-row"><strong>Distribuzione</strong><span>Dal sito ufficiale Affinity</span></div><div class="modal-data-row"><strong>Difficoltà</strong><span>Intermedio</span></div></div>`
       }
 
     };
@@ -2407,7 +2379,7 @@
     const modalSubtitle = document.getElementById("modalSubtitle");
     const modalContent = document.getElementById("modalContent");
 
-    const softwareIconFiles = {"stellarium": "stellarium.png", "cartes": "cartesduciel.png", "siril": "siril.svg", "dss": "deepskystacker.png", "autostakkert": "autostakkert.png", "registax": "registax.ico", "astrosurface": "astrosurface.png", "gimp": "gimp.png"};
+    const softwareSources = {"stellarium":{"icon":"stellarium.png","url":"https://stellarium.org/"},"cartes":{"icon":"cartesduciel.png","url":"https://www.ap-i.net/skychart/en/start"},"siril":{"icon":"siril.svg","url":"https://siril.org/"},"dss":{"icon":"deepskystacker.png","url":"http://deepskystacker.free.fr/english/index.html"},"autostakkert":{"icon":"autostakkert.png","url":"https://www.autostakkert.com/"},"registax":{"icon":"registax.ico","url":"https://www.astronomie.be/registax/"},"astrosurface":{"icon":"astrosurface.png","url":"https://astrosurface.com/pageuk.html"},"gimp":{"icon":"gimp.png","url":"https://www.gimp.org/"},"makeup2":{"icon":"affinity.png","url":"https://www.affinity.studio/download"}};
     const softwareButtons =
       document.querySelectorAll(".software-open");
 
@@ -2421,19 +2393,13 @@
       }
 
       modalIcon.replaceChildren();
-      if (softwareIconFiles[key]) {
-        const image = document.createElement("img");
-        image.src = "assets/software/" + softwareIconFiles[key];
-        image.alt = "Icona originale di " + item.title;
-        image.width = 72;
-        image.height = 72;
-        modalIcon.append(image);
-      } else {
-        modalIcon.textContent = item.icon;
-      }
+      const app=softwareSources[key];
+      const icon=document.createElement('img');icon.src='assets/software/'+app.icon;icon.alt='Icona originale di '+(key==='makeup2'?'Affinity':item.title);icon.width=72;icon.height=72;modalIcon.append(icon);
       modalTitle.textContent = item.title;
       modalSubtitle.textContent = item.subtitle;
       modalContent.innerHTML = item.content;
+      const official=document.createElement('a');official.href=app.url;official.target='_blank';official.rel='noopener noreferrer';official.className='official-link';official.textContent='SITO UFFICIALE';modalContent.append(official);
+      const note=document.createElement('p');note.className='software-source-note';note.textContent='Informazioni e download si trovano sul sito dello sviluppatore.';modalContent.append(note);
 
       modal.classList.add("is-open");
       modal.setAttribute("aria-hidden", "false");
@@ -2498,6 +2464,11 @@
 
 
 <script defer src="assets/menu-persistente.js"></script>
+<svg width="0" height="0" aria-hidden="true" style="position:absolute" xmlns="http://www.w3.org/2000/svg">
+<defs><filter id="provino-scritta-opaca" color-interpolation-filters="sRGB">
+<feColorMatrix in="SourceGraphic" type="matrix" values="0 1 0 0 0  0 1 0 0 0  0 1 0 0 0  1 0 0 0 0"/>
+<feComponentTransfer><feFuncA type="linear" slope="10" intercept="-3.2"/></feComponentTransfer>
+</filter></defs></svg>
 </body>
 
 </html>

@@ -1,0 +1,16 @@
+main a.rimando-editoriale,
+main a.glossary-term {
+  color: #1659a4 !important;
+  text-decoration: underline;
+  text-decoration-color: currentColor;
+  text-underline-offset: .16em;
+}
+main a.rimando-editoriale:focus-visible,
+main a.glossary-term:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 3px;
+}
+body:has(#playlist-videos) main a.rimando-editoriale,
+body:has(#playlist-videos) #video-related a {
+  color: #9dcbff !important;
+}

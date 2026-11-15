@@ -692,6 +692,8 @@ main.pub-preview{background:#fff}
   .join-grid{grid-template-columns:minmax(0,1fr)}
 }
 </style>
+  <link rel="stylesheet" href="assets/banner-comuni.css">
+<link rel="stylesheet" href="assets/rimandi-editoriali.css">
 </head>
 
 
@@ -702,13 +704,13 @@ main.pub-preview{background:#fff}
        BANNER SUPERIORE
   ====================================================== -->
 
-  <header class="top-banner">
+  <header class="top-banner banner-nebulosa">
 
-    <img
-      class="top-banner-image"
-      src="banner.png"
-      alt="AD ASTRA"
-    >
+    <div class="sky"><img src="provini-testata-stellare/nebulosa-estesa.jpg" alt=""></div>
+    <img class="logo-originale logo-raggi" src="provini-testata-stellare/logo-fornito.png" alt="">
+    <img class="logo-originale logo-interno" src="provini-testata-stellare/logo-fornito.png" alt="">
+    <img class="wordmark" src="banner.png" alt="">
+    <span class="rule" aria-hidden="true"></span>
 
     <div class="banner-section-title">
 
@@ -826,7 +828,7 @@ main.pub-preview{background:#fff}
 
   <main class="pub-preview"><div class="pub-shell">
 <div class="pub-prototype-note"><span>ANTEPRIMA EDITORIALE · contenuti campione, non pubblicati</span><a href="#collabora">Collabora con AD ASTRA ↓</a></div>
-<header class="pub-intro"><div><p class="pub-kicker">La selezione del mese</p><h2>IDEE CHE PRENDONO FORMA</h2><p class="pub-subtitle">Parole che trovano voce.</p></div><p>AD ASTRA propone nozioni e notizie, ma offre anche uno spazio per condividere idee, esperienze e domande sull’Universo. Astronomia, scoperte e prospettive da esplorare attraverso gli articoli illustrati dei suoi autori e collaboratori: liberamente consultabili, da sfogliare, approfondire e conservare.</p></header>
+<header class="pub-intro"><div><p class="pub-kicker">La selezione del mese</p><h2>IDEE CHE PRENDONO FORMA</h2><p class="pub-subtitle">Parole che trovano voce.</p></div><p>AD ASTRA propone nozioni e notizie, ma offre anche uno spazio per condividere idee, esperienze e <a class="rimando-editoriale" href="glossario.html#universo">domande sull’Universo</a>. Astronomia, scoperte e prospettive da esplorare attraverso gli articoli illustrati dei suoi autori e collaboratori: liberamente consultabili, da sfogliare, approfondire e conservare.</p></header>
 <section class="pub-reader" id="pub-reader" aria-label="Lettore degli articoli campione"><header class="pub-reader-heading"><div><p class="pub-reader-label" id="pub-category">ORIGINI</p><h2 id="pub-reader-title" tabindex="-1">Prima della luce</h2><p class="pub-reader-meta" id="pub-reader-meta">Articolo campione</p></div><div class="pub-reader-tools"><button class="pub-tool" id="pub-mode" type="button" aria-pressed="false"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M2 3h7v14H2zm9 0h7v14h-7z"/></svg><span id="pub-mode-label">Pagina singola</span></button><button class="pub-tool" id="pub-fullscreen" type="button"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M7 3H3v4m10-4h4v4M3 13v4h4m10-4v4h-4"/></svg><span id="pub-fullscreen-label">Schermo intero</span></button><a class="pub-tool gold" id="pub-pdf" href="assets/provino-collabora/prima-della-luce.pdf" download><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 2v10m-4-4 4 4 4-4M3 13v4h14v-4"/></svg>Scarica PDF</a></div></header>
 <div class="pub-stage" id="pub-stage" tabindex="0" aria-label="Pagine dell’articolo; usa le frecce per sfogliare"><div class="pub-spread" id="pub-spread"></div></div>
 <div class="pub-reader-bottom"><div class="pub-zoom"><label for="pub-zoom-input">Zoom</label><input id="pub-zoom-input" type="range" min="1" max="3" step=".1" value="1"><output id="pub-zoom-value" for="pub-zoom-input">100%</output><button class="pub-tool" id="pub-fit" type="button">Adatta</button></div><div class="pub-paging"><button id="pub-prev" type="button" aria-label="Pagina precedente">←</button><output class="pub-page-count" id="pub-page-count" aria-label="Pagine visualizzate">01 — 02 / 02</output><button id="pub-next" type="button" aria-label="Pagina successiva">→</button></div><div class="pub-downloads"><a id="pub-png" href="assets/provino-collabora/prima-della-luce-01.png" download>PNG · pagina 1</a></div></div>
@@ -885,13 +887,18 @@ main.pub-preview{background:#fff}
        FOOTER
   ====================================================== -->
 
-  <footer class="site-footer">
+  <footer class="site-footer banner-eclissi">
 
-    <img
-      class="bottom-banner-image"
-      src="banner 2.png"
-      alt="AD ASTRA - Astronomia, osservazione del cielo, astrofotografia e divulgazione scientifica"
-    >
+    <div class="footer-sky" aria-hidden="true"><img src="provini-testata-stellare/eclissi-footer.jpg" alt=""></div>
+  <div class="footer-brand">
+    <a class="footer-signature footer-home-link" href="index.html" aria-label="RITORNA ALLA HOME">
+      <img class="footer-rays" src="provini-testata-stellare/logo-fornito.png" alt="">
+      <img class="footer-emblem" src="provini-testata-stellare/logo-fornito.png" alt="">
+      <img class="footer-name" src="banner.png" alt="">
+    <span class="footer-home-tooltip" aria-hidden="true">RITORNA<br>ALLA<br>HOME</span>
+    </a>
+    <p>Astronomia, osservazione del cielo, astrofotografia e divulgazione scientifica.</p>
+  </div>
 
 
     <div class="footer-navigation">
@@ -1066,6 +1073,11 @@ main.pub-preview{background:#fff}
 <script defer src="assets/provino-pubblicazioni-20261108/pubblicazioni.js"></script>
 
 <script defer src="assets/provino-collabora/scrivi-redazione.js"></script>
+<svg width="0" height="0" aria-hidden="true" style="position:absolute" xmlns="http://www.w3.org/2000/svg">
+<defs><filter id="provino-scritta-opaca" color-interpolation-filters="sRGB">
+<feColorMatrix in="SourceGraphic" type="matrix" values="0 1 0 0 0  0 1 0 0 0  0 1 0 0 0  1 0 0 0 0"/>
+<feComponentTransfer><feFuncA type="linear" slope="10" intercept="-3.2"/></feComponentTransfer>
+</filter></defs></svg>
 </body>
 
 </html>

@@ -949,7 +949,9 @@
 </style>
 
 <link rel="stylesheet" href="assets/menu-persistente.css">
-<link rel="stylesheet" href="assets/scuola-attiva/scuola-attiva.css"></head>
+<link rel="stylesheet" href="assets/scuola-attiva/scuola-attiva.css">  <link rel="stylesheet" href="assets/banner-comuni.css">
+<link rel="stylesheet" href="assets/rimandi-editoriali.css">
+</head>
 
 
 <body>
@@ -959,13 +961,13 @@
        BANNER SUPERIORE
   ====================================================== -->
 
-  <header class="top-banner">
+  <header class="top-banner banner-nebulosa">
 
-    <img
-      class="top-banner-image"
-      src="banner.png"
-      alt="AD ASTRA"
-    >
+    <div class="sky"><img src="provini-testata-stellare/nebulosa-estesa.jpg" alt=""></div>
+    <img class="logo-originale logo-raggi" src="provini-testata-stellare/logo-fornito.png" alt="">
+    <img class="logo-originale logo-interno" src="provini-testata-stellare/logo-fornito.png" alt="">
+    <img class="wordmark" src="banner.png" alt="">
+    <span class="rule" aria-hidden="true"></span>
 
 
     <div class="banner-section-title">
@@ -1114,7 +1116,7 @@
 
           <p>
             Il percorso parte dai concetti fondamentali
-            e procede gradualmente verso il Sistema Solare,
+            e procede gradualmente verso il <a class="rimando-editoriale" href="glossario.html#sistema-solare">Sistema Solare</a>,
             le stelle, il cielo profondo,
             le galassie e la comprensione
             dell'Universo su grande scala.
@@ -1122,7 +1124,7 @@
 
 
           <p>
-            Non è necessario possedere un telescopio
+            Non è necessario possedere un <a class="rimando-editoriale" href="glossario.html#telescopio">telescopio</a>
             né avere conoscenze astronomiche precedenti.
             Ogni sezione introduce progressivamente
             concetti, terminologia e metodi di osservazione.
@@ -1564,13 +1566,18 @@
        BANNER INFERIORE + MENU FOOTER
   ====================================================== -->
 
-  <footer class="site-footer">
+  <footer class="site-footer banner-eclissi">
 
-    <img
-      class="bottom-banner-image"
-      src="banner 2.png"
-      alt="AD ASTRA - Astronomia, osservazione del cielo, astrofotografia e divulgazione scientifica"
-    >
+    <div class="footer-sky" aria-hidden="true"><img src="provini-testata-stellare/eclissi-footer.jpg" alt=""></div>
+  <div class="footer-brand">
+    <a class="footer-signature footer-home-link" href="index.html" aria-label="RITORNA ALLA HOME">
+      <img class="footer-rays" src="provini-testata-stellare/logo-fornito.png" alt="">
+      <img class="footer-emblem" src="provini-testata-stellare/logo-fornito.png" alt="">
+      <img class="footer-name" src="banner.png" alt="">
+    <span class="footer-home-tooltip" aria-hidden="true">RITORNA<br>ALLA<br>HOME</span>
+    </a>
+    <p>Astronomia, osservazione del cielo, astrofotografia e divulgazione scientifica.</p>
+  </div>
 
 
     <div class="footer-navigation">
@@ -1729,6 +1736,11 @@
 
 
 <script defer src="assets/menu-persistente.js"></script>
+<svg width="0" height="0" aria-hidden="true" style="position:absolute" xmlns="http://www.w3.org/2000/svg">
+<defs><filter id="provino-scritta-opaca" color-interpolation-filters="sRGB">
+<feColorMatrix in="SourceGraphic" type="matrix" values="0 1 0 0 0  0 1 0 0 0  0 1 0 0 0  1 0 0 0 0"/>
+<feComponentTransfer><feFuncA type="linear" slope="10" intercept="-3.2"/></feComponentTransfer>
+</filter></defs></svg>
 </body>
 
 </html>

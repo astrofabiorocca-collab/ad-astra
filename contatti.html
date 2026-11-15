@@ -403,17 +403,19 @@
 .contact-form .form-note a{color:#fff;text-decoration:underline}
 .contact-form .form-field input,.contact-form .form-field textarea{background:rgba(255,255,255,.94);color:#142e43}
 </style>
+  <link rel="stylesheet" href="assets/banner-comuni.css">
+<link rel="stylesheet" href="assets/rimandi-editoriali.css">
 </head>
 
 <body>
 
-  <header class="top-banner">
+  <header class="top-banner banner-nebulosa">
 
-    <img
-      class="top-banner-image"
-      src="banner.png"
-      alt="AD ASTRA"
-    >
+    <div class="sky"><img src="provini-testata-stellare/nebulosa-estesa.jpg" alt=""></div>
+    <img class="logo-originale logo-raggi" src="provini-testata-stellare/logo-fornito.png" alt="">
+    <img class="logo-originale logo-interno" src="provini-testata-stellare/logo-fornito.png" alt="">
+    <img class="wordmark" src="banner.png" alt="">
+    <span class="rule" aria-hidden="true"></span>
 
     <div class="banner-section-title">
 
@@ -468,7 +470,7 @@
             Scrivici per una domanda sui contenuti del sito, per segnalarci un errore o per suggerire un tema da approfondire. Se ci scrivi a proposito di un articolo, un poster o una guida, indica il titolo o il link alla pagina e spiegaci a quale passaggio ti riferisci.
           </p>
           <p>
-            Hai in mente una collaborazione divulgativa, un incontro o un progetto di osservazione? Raccontaci chi sei e che cosa vorresti fare insieme. Per proporre un articolo, trovi le regole editoriali e il modulo dedicato in <a href="pubblicazioni-ad-astra.html#collabora">Collabora con AD ASTRA</a>.
+            Hai in mente una collaborazione divulgativa, un incontro o un <a class="rimando-editoriale" href="guide.html">progetto di osservazione</a>? Raccontaci chi sei e che cosa vorresti fare insieme. Per proporre un articolo, trovi le regole editoriali e il modulo dedicato in <a href="pubblicazioni-ad-astra.html#collabora">Collabora con AD ASTRA</a>.
           </p>
 
         </div>
@@ -521,13 +523,18 @@
 
   </main>
 
-  <footer class="site-footer">
+  <footer class="site-footer banner-eclissi">
 
-    <img
-      class="bottom-banner-image"
-      src="banner 2.png"
-      alt="AD ASTRA - Astronomia, osservazione del cielo, astrofotografia e divulgazione scientifica"
-    >
+    <div class="footer-sky" aria-hidden="true"><img src="provini-testata-stellare/eclissi-footer.jpg" alt=""></div>
+  <div class="footer-brand">
+    <a class="footer-signature footer-home-link" href="index.html" aria-label="RITORNA ALLA HOME">
+      <img class="footer-rays" src="provini-testata-stellare/logo-fornito.png" alt="">
+      <img class="footer-emblem" src="provini-testata-stellare/logo-fornito.png" alt="">
+      <img class="footer-name" src="banner.png" alt="">
+    <span class="footer-home-tooltip" aria-hidden="true">RITORNA<br>ALLA<br>HOME</span>
+    </a>
+    <p>Astronomia, osservazione del cielo, astrofotografia e divulgazione scientifica.</p>
+  </div>
 
     <div class="footer-navigation">
 
@@ -582,6 +589,11 @@
 
 <script defer src="assets/menu-persistente.js"></script>
 <script defer src="assets/provino-collabora/scrivi-redazione.js"></script>
+<svg width="0" height="0" aria-hidden="true" style="position:absolute" xmlns="http://www.w3.org/2000/svg">
+<defs><filter id="provino-scritta-opaca" color-interpolation-filters="sRGB">
+<feColorMatrix in="SourceGraphic" type="matrix" values="0 1 0 0 0  0 1 0 0 0  0 1 0 0 0  1 0 0 0 0"/>
+<feComponentTransfer><feFuncA type="linear" slope="10" intercept="-3.2"/></feComponentTransfer>
+</filter></defs></svg>
 </body>
 
 </html>

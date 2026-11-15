@@ -1,0 +1,8 @@
+
+.young-choice { display: inline-flex; align-items: center; gap: .45rem; min-height: 44px; padding: .4rem .7rem; border: 1px solid #376e92; border-radius: .45rem; cursor: pointer; background: #edf6ff; }
+.young-choice:has(:checked) { background: #205579; color: white; }
+.young-state { display: none; margin-block: .85rem; padding: .65rem .85rem; border-left: 3px solid #376e92; background: #edf6ff; }
+.young-experiment-body:has(input[value="0"]:checked) .young-state-0,
+.young-experiment-body:has(input[value="1"]:checked) .young-state-1 { display: block; }
+.young-state p { margin: .15rem 0; }
+.young-visual-state { display: block; width: 100%; height: auto; margin-bottom: .65rem; }

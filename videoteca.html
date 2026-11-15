@@ -951,6 +951,8 @@ a{color:inherit}a:hover{text-decoration-thickness:2px}button{font:inherit;cursor
 .stage{align-items:start}
 .stage-links{grid-column:1/-1;justify-content:flex-end}
 .videoteca .video-details h2{font-size:clamp(1.2rem,2vw,1.65rem)}
+#video-related{display:flex;flex-wrap:wrap;gap:.35rem .8rem;font-size:.875rem;margin-top:.75rem}
+#video-related a{color:#ffe2a9;text-decoration:underline;text-underline-offset:.18em}
 #playlist-videos{max-height:17rem;overflow-y:scroll;padding-inline-start:2rem;scrollbar-color:#bd9c65 #14243a}
 #playlist-videos button{width:100%;padding:.5rem;color:inherit;background:transparent;border:0;border-radius:4px;text-align:left}
 #playlist-videos button:hover,#playlist-videos button[aria-current=true]{background:#263d55;color:#ffe2a9}
@@ -1001,6 +1003,7 @@ a{color:inherit}a:hover{text-decoration-thickness:2px}button{font:inherit;cursor
 .profile-avatar img {position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 12%}
 .profile-avatar.loiacono img {width:285%;height:auto;max-width:none;inset:auto;left:-155%;top:-99%}
 </style>  <link rel="stylesheet" href="assets/banner-comuni.css">
+<link rel="stylesheet" href="assets/rimandi-editoriali.css">
 </head>
 
 
@@ -1145,6 +1148,7 @@ a{color:inherit}a:hover{text-decoration-thickness:2px}button{font:inherit;cursor
       <h2 id="title"></h2>
       <p id="description"></p>
       <ol id="playlist-videos" aria-label="Video della playlist" hidden></ol>
+      <nav id="video-related" aria-label="Approfondimenti"></nav>
     </div>
     <div class="links stage-links">
         <a id="playlist" target="_blank" rel="noopener">Apri su YouTube ↗</a>
@@ -2289,6 +2293,49 @@ function loadVideo(title, path) {
   return player;
 }
 
+const videoTopics = [
+  [/\bmarte\b|\bmars\b/i, 'Marte', 'marte', 'lezione-3-2.html#marte', 20],
+  [/radiogalass/i, 'Radiogalassie', 'radiogalassia', null, 2],
+  [/esopianet|exoplanet/i, 'Esopianeti', 'esopianeta', null, 18],
+  [/cosmologi|big bang|evoluzione dell.universo/i, 'Cosmologia', null, null, 5, 9],
+  [/neutrin/i, 'Neutrini', 'neutrino', null, 21],
+  [/autoguid|guiding/i, 'Autoguida', 'autoguida', 'astrofotografia.html#telescopio'],
+  [/montatur.{0,20}equatorial|allineamento polare/i, 'Montatura equatoriale', 'montatura-equatoriale', 'strumentazione.html#montature'],
+  [/bilanciam|bilanciare/i, 'Montature e bilanciamento', null, 'strumentazione.html#montature'],
+  [/darkflat|flat frame|dark frame|calibraz/i, 'Calibrazione delle immagini', null, 'astrofotografia.html#calibrazione'],
+  [/pixinsight|elaboraz|stacking/i, 'Elaborazione delle immagini', null, 'astrofotografia.html#elaborazione'],
+  [/supernov/i, 'Supernova', 'supernova'],
+  [/galass/i, 'Galassia', 'galassia'],
+  [/nebulos/i, 'Nebulosa', 'nebulosa'],
+  [/parallass/i, 'Parallasse', 'parallasse'],
+  [/telescop/i, 'Capire un telescopio', null, 'lezione-7-3.html'],
+  [/astrofotograf/i, 'Astrofotografia', 'astrofotografia', 'astrofotografia.html#occhio-camera']
+];
+
+const videoHandouts = {"corso-inaf-2026-02": "Vita, morte e miracoli delle radiogalassie", "corso-inaf-2026-05": "Cosmologia: da un universo con centro a un universo senza centro", "corso-inaf-2026-09": "Età ed evoluzione dell’Universo", "corso-inaf-2026-18": "Atmosfere di esopianeti", "corso-inaf-2026-20": "Destinazione Marte… ma vivi o morti?", "corso-inaf-2026-21": "Neutrini, messaggeri dell’universo profondo"};
+
+function showVideoRelated(playlist, videoTitle = '') {
+  const title = videoTitle || playlist.title;
+  const links = new Map();
+  for (const [pattern, label, glossary, lesson, ...handouts] of videoTopics) {
+    if (!pattern.test(title)) continue;
+    if (glossary) links.set('glossario.html#' + glossary, label + ' · Glossario');
+    if (lesson) links.set(lesson, label + ' · Lezione');
+    for (const number of handouts) {
+      const id = 'corso-inaf-2026-' + String(number).padStart(2, '0');
+      links.set('biblioteca-online.html#' + id, videoHandouts[id] + ' · Biblioteca');
+    }
+  }
+  const related = byId('video-related');
+  related.replaceChildren();
+  for (const [href, label] of [...links].slice(0, 4)) {
+    const anchor = document.createElement('a');
+    anchor.href = href;
+    anchor.textContent = label;
+    related.append(anchor);
+  }
+}
+
 function showPlaylistVideos(playlist) {
   const videos = playlistVideos[playlist.id] || [];
   videoList.replaceChildren();
@@ -2301,6 +2348,7 @@ function showPlaylistVideos(playlist) {
     button.textContent = title;
     button.addEventListener('click', () => {
       loadVideo(title, videoId);
+      showVideoRelated(playlist, title);
       videoList.querySelector('[aria-current]')?.removeAttribute('aria-current');
       button.setAttribute('aria-current', 'true');
       byId('playlist').href = 'https://www.youtube.com/watch?v=' + videoId + '&list=' + playlist.id;
@@ -2365,6 +2413,7 @@ function select(playlist) {
     : 'https://www.youtube.com/playlist?list=' + playlist.id;
   byId('channel').href = playlist.channel || channel;
   showPlaylistVideos(playlist);
+  showVideoRelated(playlist);
   buttons.forEach((button, index) => button.setAttribute('aria-pressed', String(playlists[index] === playlist)));
   const play = document.createElement('button');
   play.type = 'button';

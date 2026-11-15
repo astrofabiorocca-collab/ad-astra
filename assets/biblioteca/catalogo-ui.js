@@ -3,7 +3,8 @@
  const data=window.AD_ASTRA_LIBRARY, root=document.querySelector('#catalogo');
  if(!data||!root)return;
  const $=id=>document.getElementById(id), q=$('library-query'), area=$('library-area'), type=$('library-type'), language=$('library-language'), level=$('library-level'), source=$('library-source'), sort=$('library-sort'), cards=$('library-results'), count=$('library-count'), more=$('library-more'), reset=$('library-reset');
- const normalized=v=>String(v).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLocaleLowerCase('it');
+ const normalized=v=>String(v).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLocaleLowerCase('it')
+  .replace(/\bsupernov(?:ae|as|a|e)\b/g,'supernova');
  const names=Object.fromEntries(data.areas.map(a=>[a.id,a.title]));
  const el=(tag,text,className)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(className)n.className=className;return n;};
  const link=(label,url)=>{const n=el('a',label);n.href=url;if(/^https?:/.test(url)){n.target='_blank';n.rel='noopener noreferrer';n.setAttribute('aria-label',label+' (sito esterno, nuova scheda)');}return n;};
@@ -11,7 +12,17 @@
  data.areas.forEach(a=>{const o=el('option',a.title);o.value=a.id;area.append(o);});
  addOptions(type,data.resources.map(r=>r.type));addOptions(language,data.resources.map(r=>r.language));addOptions(level,data.resources.map(r=>r.level));addOptions(source,data.resources.map(r=>r.source));
  const params=new URLSearchParams(location.search);for(const [key,control]of Object.entries({q,area,type,language,level,source,sort})){const v=params.get(key);if(v!==null && (control===q||[...control.options].some(o=>o.value===v)))control.value=v;}
- const indexed=data.resources.map(r=>({...r,search:normalized([r.title,r.description,r.source,r.year,r.note,r.scope,...r.areas.map(a=>names[a])].join(' '))}));
+ const topics = window.AD_ASTRA_LIBRARY_TOPICS || {};
+ const glossary = window.AdAstraGlossaryIndex || [];
+ const glossaryHint = el('p', '', 'catalog-method');
+ glossaryHint.hidden = true;
+ count.before(glossaryHint);
+ const indexed = data.resources.map(resource => ({
+  ...resource,
+  search: normalized([resource.title, resource.description, resource.source,
+   resource.year, resource.note, resource.scope, ...(topics[resource.id] || []),
+   ...resource.areas.map(id => names[id])].join(' '))
+ }));
  const controls={q,area,type,language,level,source,sort};
  const readFilters=()=>Object.fromEntries(Object.entries(controls).map(([key,c])=>[key,c.value]));
  let applied=readFilters(),limit=24,rows=[];
@@ -35,10 +46,22 @@
   const a=r.areas[0];const lesson=link('Percorso AD ASTRA →',a==='astronautica'?'#astronautica':'area-'+a+'.html');lesson.setAttribute('aria-label','Esplora '+names[a]+' su AD ASTRA');actions.append(lesson);article.append(actions);return article;
  }
  function draw(update){
-  const words=normalized(applied.q.trim()).split(/\s+/).filter(Boolean);
+  const words=normalized(applied.q).match(/[\p{L}\p{N}]+/gu) || [];
+  const term = words.join(' ');
+  const matches = term ? glossary.filter(([, ...labels]) => labels.some(label =>
+   (normalized(label).match(/[\p{L}\p{N}]+/gu) || []).join(' ') === term
+  )) : [];
+  glossaryHint.replaceChildren();
+  glossaryHint.hidden = matches.length !== 1;
+  if (matches.length === 1) {
+   const [id, name] = matches[0];
+   glossaryHint.append(link('Leggi «' + name + '» nel Glossario →', 'glossario.html#' + encodeURIComponent(id)));
+  }
   rows=indexed.filter(r=>words.every(w=>r.search.includes(w))&&(!applied.area||r.areas.includes(applied.area))&&(!applied.type||applied.type===r.type)&&(!applied.language||applied.language===r.language)&&(!applied.level||applied.level===r.level)&&(!applied.source||applied.source===r.source));
   const order={'PDF e dispense':0,'Corsi e lezioni':1,'Portali e strumenti':2,'Approfondimenti':3,'Playlist':4,'Video':5};
-  rows.sort((a,b)=>applied.sort==='title'?a.title.localeCompare(b.title,'it'):applied.sort==='source'?a.source.localeCompare(b.source,'it')||a.title.localeCompare(b.title,'it'):(Number(['restricted','unverified'].includes(a.linkState))-Number(['restricted','unverified'].includes(b.linkState)))||((order[a.type]??3)-(order[b.type]??3))||(a.language==='Italiano'?0:1)-(b.language==='Italiano'?0:1)||a.title.localeCompare(b.title,'it'));
+  const institutionalSources = /^(?:edu inaf|inaf|nasa|esa|eso)(?:$|\s+[·–-])/i;
+  const sourcePriority = resource => institutionalSources.test(resource.source) ? 0 : 1;
+  rows.sort((a,b)=>applied.sort==='title'?a.title.localeCompare(b.title,'it'):applied.sort==='source'?a.source.localeCompare(b.source,'it')||a.title.localeCompare(b.title,'it'):(Number(['restricted','unverified'].includes(a.linkState))-Number(['restricted','unverified'].includes(b.linkState)))||(words.length ? sourcePriority(a)-sourcePriority(b) : 0)||((order[a.type]??3)-(order[b.type]??3))||(a.language==='Italiano'?0:1)-(b.language==='Italiano'?0:1)||a.title.localeCompare(b.title,'it'));
   cards.replaceChildren(...rows.slice(0,limit).map(resourceCard));
   count.textContent=rows.length+' risors'+(rows.length===1?'a trovata':'e trovate')+' · '+Math.min(limit,rows.length)+' mostrat'+(Math.min(limit,rows.length)===1?'a':'e');
   $('library-empty').hidden=rows.length!==0;more.hidden=rows.length<=limit;

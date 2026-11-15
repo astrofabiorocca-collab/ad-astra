@@ -946,7 +946,9 @@
 </style>
 
 <link rel="stylesheet" href="assets/menu-persistente.css">
-<link rel="stylesheet" href="assets/scuola-attiva/scuola-attiva.css"></head>
+<link rel="stylesheet" href="assets/scuola-attiva/scuola-attiva.css">  <link rel="stylesheet" href="assets/banner-comuni.css">
+<link rel="stylesheet" href="assets/rimandi-editoriali.css">
+</head>
 
 
 <body>
@@ -956,13 +958,13 @@
        BANNER SUPERIORE
   ====================================================== -->
 
-  <header class="top-banner">
+  <header class="top-banner banner-nebulosa">
 
-    <img
-      class="top-banner-image"
-      src="banner.png"
-      alt="AD ASTRA"
-    >
+    <div class="sky"><img src="provini-testata-stellare/nebulosa-estesa.jpg" alt=""></div>
+    <img class="logo-originale logo-raggi" src="provini-testata-stellare/logo-fornito.png" alt="">
+    <img class="logo-originale logo-interno" src="provini-testata-stellare/logo-fornito.png" alt="">
+    <img class="wordmark" src="banner.png" alt="">
+    <span class="rule" aria-hidden="true"></span>
 
 
     <div class="banner-section-title"><h1>QUIZ DI ASTRONOMIA</h1><p>Ripassa gli argomenti, poi metti insieme il percorso</p></div>
@@ -1069,7 +1071,7 @@
 
 
 
-  <main class="active-school"><nav aria-label="Percorso"><a href="scuola-astronomia.html">Scuola di Astronomia</a> · <a href="laboratorio.html">Laboratorio</a> · <a href="glossario.html">Glossario</a></nav><h2>Che cosa ti è rimasto del cielo?</h2><p>Non una gara di memoria: ogni risposta apre una spiegazione e un rimando alla lezione. Parti da un argomento oppure affronta la prova finale: quaranta domande, quattro per ciascuna macroarea, con quattro alternative e una risposta corretta. L’ordine di domande e risposte cambia a ogni tentativo; la banca iniziale contiene queste stesse quaranta domande, utilizzate anche nei ripassi.</p><p>La soglia di completamento è <strong>32 risposte corrette su 40 (80%)</strong>. Nessun limite di tempo e nessuna penalità per gli errori. Il PDF finale è un attestato personale del percorso divulgativo, non una qualifica riconosciuta. Nome ed esito non vengono inviati a un server.</p><div class="quiz-start"><label for="quiz-area">Argomento</label><select id="quiz-area"></select><button id="quiz-start" type="button">Quiz per argomento</button><button id="quiz-final" type="button">Avvia la prova finale · 40 domande</button></div><section id="quiz-host" aria-label="Domande e risultato"></section><noscript><p class="no-script">JavaScript è necessario per correggere i quiz e generare l’attestato. Puoi ripassare le <a href="lezioni.html">lezioni</a>.</p></noscript></main>
+  <main class="active-school"><nav aria-label="Percorso"><a href="scuola-astronomia.html">Scuola di Astronomia</a> · <a href="laboratorio.html">Laboratorio</a> · <a href="glossario.html">Glossario</a></nav><h2>Che cosa ti è rimasto del cielo?</h2><p>Non una gara di memoria: ogni risposta apre una spiegazione e un <a class="rimando-editoriale" href="lezioni.html">rimando alla lezione</a>. Parti da un argomento oppure affronta la prova finale: quaranta domande, quattro per ciascuna macroarea, con quattro alternative e una risposta corretta. L’ordine di domande e risposte cambia a ogni tentativo; la banca iniziale contiene queste stesse quaranta domande, utilizzate anche nei ripassi.</p><p>La soglia di completamento è <strong>32 risposte corrette su 40 (80%)</strong>. Nessun limite di tempo e nessuna penalità per gli errori. Il PDF finale è un attestato personale del percorso divulgativo, non una qualifica riconosciuta. Nome ed esito non vengono inviati a un server.</p><div class="quiz-start"><label for="quiz-area">Argomento</label><select id="quiz-area"></select><button id="quiz-start" type="button">Quiz per argomento</button><button id="quiz-final" type="button">Avvia la prova finale · 40 domande</button></div><section id="quiz-host" aria-label="Domande e risultato"></section><noscript><p class="no-script">JavaScript è necessario per correggere i quiz e generare l’attestato. Puoi ripassare le <a href="lezioni.html">lezioni</a>.</p></noscript></main>
 
 
 
@@ -1077,13 +1079,18 @@
        BANNER INFERIORE + MENU FOOTER
   ====================================================== -->
 
-  <footer class="site-footer">
+  <footer class="site-footer banner-eclissi">
 
-    <img
-      class="bottom-banner-image"
-      src="banner 2.png"
-      alt="AD ASTRA - Astronomia, osservazione del cielo, astrofotografia e divulgazione scientifica"
-    >
+    <div class="footer-sky" aria-hidden="true"><img src="provini-testata-stellare/eclissi-footer.jpg" alt=""></div>
+  <div class="footer-brand">
+    <a class="footer-signature footer-home-link" href="index.html" aria-label="RITORNA ALLA HOME">
+      <img class="footer-rays" src="provini-testata-stellare/logo-fornito.png" alt="">
+      <img class="footer-emblem" src="provini-testata-stellare/logo-fornito.png" alt="">
+      <img class="footer-name" src="banner.png" alt="">
+    <span class="footer-home-tooltip" aria-hidden="true">RITORNA<br>ALLA<br>HOME</span>
+    </a>
+    <p>Astronomia, osservazione del cielo, astrofotografia e divulgazione scientifica.</p>
+  </div>
 
 
     <div class="footer-navigation">
@@ -1242,6 +1249,11 @@
 
 
 
-<script defer src="assets/scuola-attiva/quiz-dati.js"></script><script defer src="assets/vendor/pdf-lib-1.17.1.min.js"></script><script defer src="assets/vendor/fontkit-1.1.1.min.js"></script><script defer src="assets/scuola-attiva/attestato.js"></script><script defer src="assets/scuola-attiva/quiz.js"></script><script defer src="assets/menu-persistente.js"></script></body>
+<script defer src="assets/scuola-attiva/quiz-dati.js"></script><script defer src="assets/vendor/pdf-lib-1.17.1.min.js"></script><script defer src="assets/vendor/fontkit-1.1.1.min.js"></script><script defer src="assets/scuola-attiva/attestato.js"></script><script defer src="assets/scuola-attiva/quiz.js"></script><script defer src="assets/menu-persistente.js"></script><svg width="0" height="0" aria-hidden="true" style="position:absolute" xmlns="http://www.w3.org/2000/svg">
+<defs><filter id="provino-scritta-opaca" color-interpolation-filters="sRGB">
+<feColorMatrix in="SourceGraphic" type="matrix" values="0 1 0 0 0  0 1 0 0 0  0 1 0 0 0  1 0 0 0 0"/>
+<feComponentTransfer><feFuncA type="linear" slope="10" intercept="-3.2"/></feComponentTransfer>
+</filter></defs></svg>
+</body>
 
 </html>

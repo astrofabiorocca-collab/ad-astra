@@ -793,6 +793,8 @@
   </style>
 
 <link rel="stylesheet" href="assets/menu-persistente.css">
+  <link rel="stylesheet" href="assets/banner-comuni.css">
+<link rel="stylesheet" href="assets/rimandi-editoriali.css">
 </head>
 
 
@@ -803,13 +805,13 @@
        BANNER SUPERIORE
   ====================================================== -->
 
-  <header class="top-banner">
+  <header class="top-banner banner-nebulosa">
 
-    <img
-      class="top-banner-image"
-      src="banner.png"
-      alt="AD ASTRA"
-    >
+    <div class="sky"><img src="provini-testata-stellare/nebulosa-estesa.jpg" alt=""></div>
+    <img class="logo-originale logo-raggi" src="provini-testata-stellare/logo-fornito.png" alt="">
+    <img class="logo-originale logo-interno" src="provini-testata-stellare/logo-fornito.png" alt="">
+    <img class="wordmark" src="banner.png" alt="">
+    <span class="rule" aria-hidden="true"></span>
 
     <div class="banner-section-title">
 
@@ -995,7 +997,7 @@
                 <p>
                   Le raccolte seguono differenti aree dell'astronomia,
                   dall'orientamento nel cielo alla struttura dell'Universo,
-                  dal Sistema Solare agli strumenti di osservazione e
+                  dal <a class="rimando-editoriale" href="glossario.html#sistema-solare">Sistema Solare</a> agli strumenti di osservazione e
                   all'astrofotografia. Ogni poster costituisce un contenuto
                   autonomo, pensato per lo studio, la consultazione
                   e la divulgazione.
@@ -1120,7 +1122,7 @@
               </h3>
 
               <p>
-                Orientamento, sfera celeste, coordinate,
+                Orientamento, <a class="rimando-editoriale" href="glossario.html#sfera-celeste">sfera celeste</a>, coordinate,
                 costellazioni, movimenti apparenti,
                 stagioni, eclissi e principali fenomeni
                 osservabili nel cielo.
@@ -1174,7 +1176,7 @@
               </h3>
 
               <p>
-                Sole e stelle, evoluzione stellare,
+                Sole e stelle, <a class="rimando-editoriale" href="glossario.html#evoluzione-stellare">evoluzione stellare</a>,
                 nebulose, ammassi, galassie
                 e fenomeni astrofisici.
               </p>
@@ -1317,13 +1319,18 @@
        BANNER INFERIORE + MENU FOOTER
   ====================================================== -->
 
-  <footer class="site-footer">
+  <footer class="site-footer banner-eclissi">
 
-    <img
-      class="bottom-banner-image"
-      src="banner 2.png"
-      alt="AD ASTRA - Astronomia, osservazione del cielo, astrofotografia e divulgazione scientifica"
-    >
+    <div class="footer-sky" aria-hidden="true"><img src="provini-testata-stellare/eclissi-footer.jpg" alt=""></div>
+  <div class="footer-brand">
+    <a class="footer-signature footer-home-link" href="index.html" aria-label="RITORNA ALLA HOME">
+      <img class="footer-rays" src="provini-testata-stellare/logo-fornito.png" alt="">
+      <img class="footer-emblem" src="provini-testata-stellare/logo-fornito.png" alt="">
+      <img class="footer-name" src="banner.png" alt="">
+    <span class="footer-home-tooltip" aria-hidden="true">RITORNA<br>ALLA<br>HOME</span>
+    </a>
+    <p>Astronomia, osservazione del cielo, astrofotografia e divulgazione scientifica.</p>
+  </div>
 
 
     <div class="footer-navigation">
@@ -1492,6 +1499,11 @@
 
 
 <script defer src="assets/menu-persistente.js"></script>
+<svg width="0" height="0" aria-hidden="true" style="position:absolute" xmlns="http://www.w3.org/2000/svg">
+<defs><filter id="provino-scritta-opaca" color-interpolation-filters="sRGB">
+<feColorMatrix in="SourceGraphic" type="matrix" values="0 1 0 0 0  0 1 0 0 0  0 1 0 0 0  1 0 0 0 0"/>
+<feComponentTransfer><feFuncA type="linear" slope="10" intercept="-3.2"/></feComponentTransfer>
+</filter></defs></svg>
 </body>
 
 </html>
