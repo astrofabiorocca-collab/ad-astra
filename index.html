@@ -1361,6 +1361,23 @@
 <link rel="stylesheet" href="assets/home-lastra/home-lastra.css">
   <link rel="stylesheet" href="assets/banner-comuni.css">
 <link rel="stylesheet" href="assets/rimandi-editoriali.css">
+<style>
+body > header .navbar { width: 100%; min-height: 86px; }
+@media (max-width: 1000px) { body > header .navbar { min-height: 74px; } }
+@media (max-width: 600px) { body > header .navbar { min-height: 62px; } }
+body > header .navbar nav { min-width: 0; }
+body > header .navbar nav ul {
+  box-sizing: border-box;
+  justify-content: safe center;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  padding-inline: clamp(8px, 2vw, 32px);
+  gap: clamp(12px, 1.2vw, 26px);
+  font-size: clamp(.85rem, .68rem + .3vw, 1.05rem);
+  white-space: nowrap;
+}
+body > header .navbar nav li { flex: 0 0 auto; }
+</style>
 </head>
 
 
@@ -1453,7 +1470,7 @@
 
           <li>
             <a href="ventunesimo.html">
-              VENTUNESIMO
+              MAGAZINE
             </a>
           </li>
 
@@ -2091,7 +2108,7 @@
 
           <li>
             <a href="ventunesimo.html">
-              VENTUNESIMO
+              MAGAZINE
             </a>
           </li>
 
@@ -2101,7 +2118,7 @@
             <a href="contatti.html">
               Contatti
             </a>
-          </li>
+          </li><li><a href="chi-cura-ad-astra.html">Chi cura AD ASTRA</a></li>
 
         </ul>
 

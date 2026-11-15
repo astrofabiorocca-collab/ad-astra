@@ -132,3 +132,13 @@ footer.site-footer.banner-eclissi .footer-name {
 .banner-eclissi .footer-home-link:focus-visible .footer-home-tooltip {
   visibility:visible;
 }
+
+@media (min-width: 651px) {
+  header.top-banner.banner-nebulosa { aspect-ratio: 2170 / 305.92; }
+  header.top-banner.banner-nebulosa .wordmark {
+    top: 50%;
+    height: auto;
+    aspect-ratio: 2170 / 478;
+    transform: translateY(-50%);
+  }
+}
