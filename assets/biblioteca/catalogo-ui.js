@@ -83,6 +83,41 @@
   const actions=el('div',undefined,'catalog-actions');actions.append(link(r.type==='Video'?'Apri il video ↗':r.type==='Playlist'?'Apri la playlist ↗':r.scope==='Programma del corso'?'Apri il programma ↗':r.type==='PDF e dispense'?'Apri il documento ↗':'Consulta la risorsa ↗',r.url));
   const a=r.areas[0];const lesson=link('Percorso AD ASTRA →',a==='astronautica'?'#astronautica':'area-'+a+'.html');lesson.setAttribute('aria-label','Esplora '+names[a]+' su AD ASTRA');actions.append(lesson);article.append(actions);return article;
  }
+ function wikipediaCitation(match) {
+  const details = el('details', undefined, 'catalog-criteria');
+  const status = el('p', 'Caricamento della citazione…');
+  status.setAttribute('aria-live', 'polite');
+  details.append(el('summary', 'Citazione da Wikipedia'), status);
+  details.addEventListener('toggle', async () => {
+   if (!details.open || details.dataset.loaded) return;
+   details.dataset.loaded = 'true';
+   const params = new URLSearchParams({
+    action: 'query', format: 'json', formatversion: '2', origin: '*', redirects: '1',
+    prop: 'extracts|info|pageprops', exintro: '1', explaintext: '1', exsentences: '1',
+    ppprop: 'disambiguation', titles: match.name
+   });
+   try {
+    const response = await fetch('https://it.wikipedia.org/w/api.php?' + params);
+    if (!response.ok) throw new Error('Wikipedia indisponibile');
+    const page = (await response.json()).query?.pages?.[0];
+    const words = page?.extract?.trim().split(/\s+/) || [];
+    if (page?.missing || page?.pageprops?.disambiguation !== undefined || !page?.lastrevid || !words.length) {
+     status.textContent = 'Nessuna citazione disponibile per questa voce.';
+     return;
+    }
+    const excerpt = words.slice(0, 25).join(' ') + (words.length > 25 ? ' […]' : '');
+    const revision = 'https://it.wikipedia.org/w/index.php?oldid=' + encodeURIComponent(page.lastrevid);
+    const credit = el('p');
+    credit.append(link('Wikipedia · ' + page.title, revision), document.createTextNode(' · '),
+      link('CC BY-SA 4.0', 'https://creativecommons.org/licenses/by-sa/4.0/'));
+    status.replaceWith(el('blockquote', excerpt), credit);
+   } catch {
+    status.textContent = 'Citazione temporaneamente indisponibile. Chiudi e riapri per riprovare.';
+    delete details.dataset.loaded;
+   }
+  });
+  return details;
+ }
  function draw(update){
   const query = key(applied.q);
   const matches = window.AdAstraGlossarySearch.lookup(applied.q);
@@ -100,8 +135,11 @@
    const [definition, lesson] = window.AdAstraGlossarySummaries?.[id] || [];
    glossaryHint.append(el('strong', name + ' · Glossario'));
    if (definition) glossaryHint.append(el('p', definition));
+   const expanded = window.AdAstraGlossary?.find(entry => entry.id === id)?.sections?.[0]?.paragraphs?.[0];
+   if (expanded && expanded !== definition) glossaryHint.append(el('p', expanded));
    glossaryHint.append(link('Apri la voce del glossario →', 'glossario.html#' + encodeURIComponent(id)));
    if (lesson) glossaryHint.append(document.createTextNode(' · '), link('Leggi la lezione →', lesson));
+   glossaryHint.append(wikipediaCitation(match));
   }
   const variants = [words, ...Object.entries(aliases).filter(([, label]) => label === term).map(([alias]) => tokenize(alias))];
   const contains = (field, tokens) => tokens.every(word => (' '+field+' ').includes(' '+word+' '));
@@ -112,6 +150,22 @@
   const institutionalSources = /^(?:edu inaf|inaf|nasa|esa|eso)(?:$|\s+[·–-])/i;
   const sourcePriority = resource => institutionalSources.test(resource.source) ? 0 : 1;
   rows.sort((a,b)=>applied.sort==='title'?a.title.localeCompare(b.title,'it'):applied.sort==='source'?a.source.localeCompare(b.source,'it')||a.title.localeCompare(b.title,'it'):(score(b)-score(a))||(Number(['restricted','unverified'].includes(a.linkState))-Number(['restricted','unverified'].includes(b.linkState)))||(words.length ? sourcePriority(a)-sourcePriority(b) : 0)||((order[a.type]??3)-(order[b.type]??3))||(a.language==='Italiano'?0:1)-(b.language==='Italiano'?0:1)||a.title.localeCompare(b.title,'it'));
+  if (words.length && rows.length) {
+   const references = el('ul');
+   const destinations = new Set();
+   for (const resource of rows) {
+    if (destinations.has(resource.url) || ['restricted', 'unverified'].includes(resource.linkState)) continue;
+    destinations.add(resource.url);
+    const item = el('li');
+    item.append(link(resource.title, resource.url), document.createTextNode(' · ' + resource.source));
+    references.append(item);
+    if (destinations.size === 5) break;
+   }
+   if (destinations.size) {
+    glossaryHint.hidden = false;
+    glossaryHint.append(el('h3', 'Puoi approfondire qui'), references);
+   }
+  }
   cards.replaceChildren(...rows.slice(0,limit).map(resourceCard));
   count.textContent=rows.length+' risors'+(rows.length===1?'a trovata':'e trovate')+' · '+Math.min(limit,rows.length)+' mostrat'+(Math.min(limit,rows.length)===1?'a':'e');
   $('library-empty').hidden=rows.length!==0;more.hidden=rows.length<=limit;
