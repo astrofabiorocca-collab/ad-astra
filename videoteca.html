@@ -2319,7 +2319,10 @@ function showVideoRelated(playlist, videoTitle = '') {
   const links = new Map();
   for (const [pattern, label, glossary, lesson, ...handouts] of videoTopics) {
     if (!pattern.test(title)) continue;
-    if (glossary) links.set('glossario.html#' + glossary, label + ' · Glossario');
+    if (glossary) {
+      links.set('biblioteca-online.html?q=' + encodeURIComponent(label) + '#catalogo', label + ' · Biblioteca');
+      links.set('glossario.html#' + glossary, label + ' · Glossario');
+    }
     if (lesson) links.set(lesson, label + ' · Lezione');
     for (const number of handouts) {
       const id = 'corso-inaf-2026-' + String(number).padStart(2, '0');
@@ -2346,6 +2349,7 @@ function showPlaylistVideos(playlist) {
     const button = document.createElement('button');
     button.type = 'button';
     button.textContent = title;
+    button.dataset.videoId = videoId;
     button.addEventListener('click', () => {
       loadVideo(title, videoId);
       showVideoRelated(playlist, title);
@@ -2400,7 +2404,7 @@ function showChannelProfile(playlist) {
   byId('profile-bio').textContent = profile.bio;
 }
 
-function select(playlist) {
+function select(playlist, requestedVideo) {
   showChannelProfile(playlist);
   const screen = byId('screen');
   screen.style.setProperty('--cover', 'url("' + playlist.image + '")');
@@ -2418,9 +2422,11 @@ function select(playlist) {
   const play = document.createElement('button');
   play.type = 'button';
   play.className = 'play';
-  play.textContent = '▶ Carica il lettore YouTube';
+  const requestedTitle = (playlistVideos[playlist.id] || []).find(([id]) => id === requestedVideo)?.[1];
+  play.textContent = requestedTitle ? '▶ ' + requestedTitle : '▶ Carica il lettore YouTube';
+  if (requestedTitle) showVideoRelated(playlist, requestedTitle);
   play.addEventListener('click', () => {
-    const firstVideo = videoList.querySelector('button');
+    const firstVideo = [...videoList.querySelectorAll('button')].find(button => button.dataset.videoId === requestedVideo) || videoList.querySelector('button');
     if (firstVideo) {
       firstVideo.click();
       screen.querySelector('iframe')?.focus();
@@ -2430,8 +2436,13 @@ function select(playlist) {
   });
   screen.replaceChildren(play);
 }
-const requestedCollection = new URLSearchParams(location.search).get('raccolta');
-select(playlists.find(playlist => playlist.slug === requestedCollection) || playlists.find(playlist => playlist.slug === 'loiacono'));
+const requested = new URLSearchParams(location.search);
+const requestedVideo = requested.get('video');
+const videoCollection = requestedVideo && playlists.find(playlist =>
+  playlist.videoId === requestedVideo || (playlistVideos[playlist.id] || []).some(([id]) => id === requestedVideo)
+);
+select(videoCollection || playlists.find(playlist => playlist.slug === requested.get('raccolta')) ||
+  playlists.find(playlist => playlist.slug === 'loiacono'), requestedVideo);
 </script>
 <script defer src="assets/menu-persistente.js"></script>
 <svg width="0" height="0" aria-hidden="true" style="position:absolute" xmlns="http://www.w3.org/2000/svg">

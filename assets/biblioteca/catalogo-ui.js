@@ -81,6 +81,11 @@
   for(const rel of r.related||[])details.append(link(rel.label+' ↗',rel.url));
   article.append(details);
   const actions=el('div',undefined,'catalog-actions');actions.append(link(r.type==='Video'?'Apri il video ↗':r.type==='Playlist'?'Apri la playlist ↗':r.scope==='Programma del corso'?'Apri il programma ↗':r.type==='PDF e dispense'?'Apri il documento ↗':'Consulta la risorsa ↗',r.url));
+  if (r.type === 'Video' && /https?:/.test(r.url)) {
+   const url = new URL(r.url);
+   const id = url.hostname === 'youtu.be' ? url.pathname.slice(1) : url.searchParams.get('v');
+   if (window.AdAstraVideoIds?.has(id)) actions.append(link('Apri nella Videoteca →', 'videoteca.html?video=' + encodeURIComponent(id)));
+  }
   const a=r.areas[0];const lesson=link('Percorso AD ASTRA →',a==='astronautica'?'#astronautica':'area-'+a+'.html');lesson.setAttribute('aria-label','Esplora '+names[a]+' su AD ASTRA');actions.append(lesson);article.append(actions);return article;
  }
  function wikipediaCitation(match) {
@@ -139,7 +144,7 @@
    if (expanded && expanded !== definition) glossaryHint.append(el('p', expanded));
    glossaryHint.append(link('Apri la voce del glossario →', 'glossario.html#' + encodeURIComponent(id)));
    if (lesson) glossaryHint.append(document.createTextNode(' · '), link('Leggi la lezione →', lesson));
-   glossaryHint.append(wikipediaCitation(match));
+   glossaryHint.append(window.AdAstraWikipediaNote?.(id) || wikipediaCitation(match));
   }
   const variants = [words, ...Object.entries(aliases).filter(([, label]) => label === term).map(([alias]) => tokenize(alias))];
   const contains = (field, tokens) => tokens.every(word => (' '+field+' ').includes(' '+word+' '));
@@ -150,12 +155,25 @@
   const institutionalSources = /^(?:edu inaf|inaf|nasa|esa|eso)(?:$|\s+[·–-])/i;
   const sourcePriority = resource => institutionalSources.test(resource.source) ? 0 : 1;
   rows.sort((a,b)=>applied.sort==='title'?a.title.localeCompare(b.title,'it'):applied.sort==='source'?a.source.localeCompare(b.source,'it')||a.title.localeCompare(b.title,'it'):(score(b)-score(a))||(Number(['restricted','unverified'].includes(a.linkState))-Number(['restricted','unverified'].includes(b.linkState)))||(words.length ? sourcePriority(a)-sourcePriority(b) : 0)||((order[a.type]??3)-(order[b.type]??3))||(a.language==='Italiano'?0:1)-(b.language==='Italiano'?0:1)||a.title.localeCompare(b.title,'it'));
-  if (words.length && rows.length) {
+  const handouts = match && !applied.source && !applied.type && !applied.area && !applied.language && !applied.level ? (window.AdAstraHandoutMatches?.[match.id] || []) : [];
+  if (words.length && (rows.length || handouts.length)) {
    const references = el('ul');
    const destinations = new Set();
+   const documentUrl = url => url.split('#')[0].replace(/[?&]usp=sharing$/, '');
+   for (const [title, url, page] of handouts) {
+    const destination = documentUrl(url);
+    if (destinations.has(destination)) continue;
+    destinations.add(destination);
+    const item = el('li');
+    item.append(link(title, url), document.createTextNode(' · Dispensa INAF · testo a p. ' + page));
+    references.append(item);
+    if (destinations.size === 5) break;
+   }
    for (const resource of rows) {
-    if (destinations.has(resource.url) || ['restricted', 'unverified'].includes(resource.linkState)) continue;
-    destinations.add(resource.url);
+    if (destinations.size === 5) break;
+    const destination = documentUrl(resource.url);
+    if (destinations.has(destination) || ['restricted', 'unverified'].includes(resource.linkState)) continue;
+    destinations.add(destination);
     const item = el('li');
     item.append(link(resource.title, resource.url), document.createTextNode(' · ' + resource.source));
     references.append(item);
