@@ -1332,6 +1332,7 @@ a{color:inherit}a:hover{text-decoration-thickness:2px}button{font:inherit;cursor
     </div>
 
   </footer>
+<script src="assets/biblioteca/video-concetti.js"></script>
 <script>
 const channel = 'https://www.youtube.com/@UnioneAstrofiliItaliani';
 const playlistVideos = {
@@ -2314,9 +2315,15 @@ const videoTopics = [
 
 const videoHandouts = {"corso-inaf-2026-02": "Vita, morte e miracoli delle radiogalassie", "corso-inaf-2026-05": "Cosmologia: da un universo con centro a un universo senza centro", "corso-inaf-2026-09": "Età ed evoluzione dell’Universo", "corso-inaf-2026-18": "Atmosfere di esopianeti", "corso-inaf-2026-20": "Destinazione Marte… ma vivi o morti?", "corso-inaf-2026-21": "Neutrini, messaggeri dell’universo profondo"};
 
-function showVideoRelated(playlist, videoTitle = '') {
+function showVideoRelated(playlist, videoTitle = '', videoId = playlist.videoId) {
   const title = videoTitle || playlist.title;
   const links = new Map();
+  const reviewed = Object.entries(window.AdAstraConceptVideos || {}).find(([, item]) => item.title === title);
+  if (reviewed) {
+    const [concept, item] = reviewed;
+    links.set('biblioteca-online.html?q=' + encodeURIComponent(item.concept) + '#catalogo', item.concept + ' · Biblioteca');
+    links.set('glossario.html#' + encodeURIComponent(concept), item.concept + ' · Glossario');
+  }
   for (const [pattern, label, glossary, lesson, ...handouts] of videoTopics) {
     if (!pattern.test(title)) continue;
     if (glossary) {
@@ -2329,9 +2336,13 @@ function showVideoRelated(playlist, videoTitle = '') {
       links.set('biblioteca-online.html#' + id, videoHandouts[id] + ' · Biblioteca');
     }
   }
+  if (videoId) {
+    const query = new URLSearchParams({q: title, video: videoId});
+    links.set('biblioteca-online.html?' + query + '#catalogo', 'Cerca questo video in Biblioteca');
+  }
   const related = byId('video-related');
   related.replaceChildren();
-  for (const [href, label] of [...links].slice(0, 4)) {
+  for (const [href, label] of [...links].slice(0, videoId ? links.size : 4)) {
     const anchor = document.createElement('a');
     anchor.href = href;
     anchor.textContent = label;
@@ -2352,7 +2363,7 @@ function showPlaylistVideos(playlist) {
     button.dataset.videoId = videoId;
     button.addEventListener('click', () => {
       loadVideo(title, videoId);
-      showVideoRelated(playlist, title);
+      showVideoRelated(playlist, title, videoId);
       videoList.querySelector('[aria-current]')?.removeAttribute('aria-current');
       button.setAttribute('aria-current', 'true');
       byId('playlist').href = 'https://www.youtube.com/watch?v=' + videoId + '&list=' + playlist.id;
@@ -2424,7 +2435,7 @@ function select(playlist, requestedVideo) {
   play.className = 'play';
   const requestedTitle = (playlistVideos[playlist.id] || []).find(([id]) => id === requestedVideo)?.[1];
   play.textContent = requestedTitle ? '▶ ' + requestedTitle : '▶ Carica il lettore YouTube';
-  if (requestedTitle) showVideoRelated(playlist, requestedTitle);
+  if (requestedTitle) showVideoRelated(playlist, requestedTitle, requestedVideo);
   play.addEventListener('click', () => {
     const firstVideo = [...videoList.querySelectorAll('button')].find(button => button.dataset.videoId === requestedVideo) || videoList.querySelector('button');
     if (firstVideo) {

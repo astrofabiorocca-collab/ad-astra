@@ -123,6 +123,36 @@
   });
   return details;
  }
+ const reviewedConceptSources = {
+  'afocale': [
+   ['Sistemi afocali · fasci paralleli e ingrandimento angolare', 'https://wp.optics.arizona.edu/jgreivenkamp/wp-content/uploads/sites/11/2018/12/201-202-12-Afocal-Systems.pdf', 'University of Arizona · EN'],
+   ['Ripresa attraverso l’oculare con una fotocamera dotata di obiettivo', 'https://rasc.ca/sites/default/files/ardocuments/Patterson-vector.pdf', 'Royal Astronomical Society of Canada · EN']
+  ],
+
+  'nube-molecolare': [
+   ['Gas molecolare freddo e traccianti del monossido di carbonio', 'https://www.oas.inaf.it/it/ricerca/m1-it/evoluzione-galassie/lato-freddo/', 'INAF OAS Bologna'],
+   ['Come si formano i pilastri nelle nubi molecolari', 'https://science.nasa.gov/asset/webb/how-dense-pillars-form-in-molecular-clouds/', 'NASA, ESA e STScI · animazione EN'],
+   ['Mezzo interstellare, formazione stellare e astrochimica', 'https://almascience.eso.org/alma-science/ism-star-formation-and-astrochemistry', 'ALMA Science Portal · EN'],
+   ['Nubi molecolari come luoghi di formazione stellare', 'https://openstax.org/books/astronomy/pages/21-1-star-formation', 'OpenStax · EN'],
+   ['Osservare le nubi interstellari con l’effetto Doppler', 'https://science.nasa.gov/wp-content/uploads/2023/09/Electromagnetic_Math.pdf', 'NASA · esercizio su dati radio · EN']
+  ],
+
+  'nana-bianca': [
+   ['Nane bianche · evoluzione del Sole', 'https://www.oacn.inaf.it/rsn/rsn-2/nane-bianche/', 'INAF · Osservatorio Astronomico di Capodimonte'],
+   ['Nane bianche · dimensioni, densità e raffreddamento', 'https://science.nasa.gov/universe/stars/types/', 'NASA Science · EN'],
+   ['La fine delle stelle di piccola massa', 'https://openstax.org/books/astronomy-2e/pages/23-1-the-death-of-low-mass-stars', 'OpenStax · EN'],
+   ['Il raffreddamento e la cristallizzazione delle nane bianche', 'https://www.media.inaf.it/2024/04/02/cristalli-ghiaccio-nane-bianche/', 'Media INAF'],
+   ['Una nana bianca osservata con il Very Large Telescope', 'https://messenger.eso.org/public/news/eso2403/', 'ESO · EN']
+  ],
+
+  'adattamento-al-buio': [
+   ['Quanto è buio il buio?', 'https://edu.inaf.it/astrodidattica/luce-buio/', 'EduINAF'],
+   ['Adattamento al buio · Sensazione e percezione', 'https://www.uniba.it/it/docenti/curci-antonietta/attivita-didattica/psicologia-generale/slides-psicologia-generale-n.3-sensazione', 'Università di Bari'],
+   ['Adattamento al buio e torce rosse', 'https://www.nps.gov/articles/dark-adaptation-of-the-human-eye-and-the-value-of-red-flashlights.htm', 'National Park Service · EN'],
+   ['Condizioni di osservazione al telescopio', 'https://www.cambridge.org/core/books/abs/celestial-objects-for-modern-telescopes/observing-sites-and-conditions/3BCB860EC821DF6B7E580310193B9402', 'Cambridge University Press · EN'],
+   ['Pigmenti visivi e sensibilità nella visione notturna', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC11761961/', 'Studio sperimentale · PubMed Central · EN']
+  ]
+ };
  function draw(update){
   const query = key(applied.q);
   const matches = window.AdAstraGlossarySearch.lookup(applied.q);
@@ -137,14 +167,22 @@
   }
   if (match) {
    const {id, name} = match;
-   const [definition, lesson] = window.AdAstraGlossarySummaries?.[id] || [];
+   const sheet = window.AdAstraGlossary?.find(entry => entry.id === id);
+   const [definition = sheet?.definition, lesson = sheet?.lesson] = window.AdAstraGlossarySummaries?.[id] || [];
    glossaryHint.append(el('strong', name + ' · Glossario'));
    if (definition) glossaryHint.append(el('p', definition));
-   const expanded = window.AdAstraGlossary?.find(entry => entry.id === id)?.sections?.[0]?.paragraphs?.[0];
+   const expanded = sheet?.sections?.[0]?.paragraphs?.[0];
    if (expanded && expanded !== definition) glossaryHint.append(el('p', expanded));
    glossaryHint.append(link('Apri la voce del glossario →', 'glossario.html#' + encodeURIComponent(id)));
    if (lesson) glossaryHint.append(document.createTextNode(' · '), link('Leggi la lezione →', lesson));
-   glossaryHint.append(window.AdAstraWikipediaNote?.(id) || wikipediaCitation(match));
+   const note = window.AdAstraWikipediaNote?.(id);
+   if (note) glossaryHint.append(note);
+   if (typeof sheet?.source === 'string' && /^https?:[/][/]/i.test(sheet.source)) {
+    const reference = el('p');
+    reference.append(link('Fonte indicata nella scheda del glossario ↗', sheet.source));
+    glossaryHint.append(reference);
+   }
+   if (!note) glossaryHint.append(wikipediaCitation(match));
   }
   const variants = [words, ...Object.entries(aliases).filter(([, label]) => label === term).map(([alias]) => tokenize(alias))];
   const contains = (field, tokens) => tokens.every(word => (' '+field+' ').includes(' '+word+' '));
@@ -156,11 +194,19 @@
   const sourcePriority = resource => institutionalSources.test(resource.source) ? 0 : 1;
   rows.sort((a,b)=>applied.sort==='title'?a.title.localeCompare(b.title,'it'):applied.sort==='source'?a.source.localeCompare(b.source,'it')||a.title.localeCompare(b.title,'it'):(score(b)-score(a))||(Number(['restricted','unverified'].includes(a.linkState))-Number(['restricted','unverified'].includes(b.linkState)))||(words.length ? sourcePriority(a)-sourcePriority(b) : 0)||((order[a.type]??3)-(order[b.type]??3))||(a.language==='Italiano'?0:1)-(b.language==='Italiano'?0:1)||a.title.localeCompare(b.title,'it'));
   const handouts = match && !applied.source && !applied.type && !applied.area && !applied.language && !applied.level ? (window.AdAstraHandoutMatches?.[match.id] || []) : [];
-  if (words.length && (rows.length || handouts.length)) {
+  const reviewed = match && !applied.source && !applied.type && !applied.area && !applied.language && !applied.level ? (reviewedConceptSources[match.id] || []) : [];
+  if (words.length && (rows.length || handouts.length || reviewed.length)) {
    const references = el('ul');
    const destinations = new Set();
    const documentUrl = url => url.split('#')[0].replace(/[?&]usp=sharing$/, '');
+   for (const [title, url, sourceName] of reviewed) {
+    destinations.add(documentUrl(url));
+    const item = el('li');
+    item.append(link(title, url), document.createTextNode(' · ' + sourceName));
+    references.append(item);
+   }
    for (const [title, url, page] of handouts) {
+    if (destinations.size >= 5) break;
     const destination = documentUrl(url);
     if (destinations.has(destination)) continue;
     destinations.add(destination);
@@ -183,6 +229,33 @@
     glossaryHint.hidden = false;
     glossaryHint.append(el('h3', 'Puoi approfondire qui'), references);
    }
+  }
+  const video = match && window.AdAstraConceptVideos?.[match.id];
+  if (video) {
+   const related = el('p');
+   related.append(document.createTextNode('In Videoteca · '),
+      link(video.title, 'videoteca.html?video=' + encodeURIComponent(video.id)));
+   glossaryHint.append(related);
+  }
+  const videoIndex = window.AdAstraVideoTitles || {};
+  const requestedVideo = !update ? params.get('video') : null;
+  const selectedTitle = requestedVideo && videoIndex[requestedVideo];
+  const matchesVideoFilter = !applied.type || applied.type === 'Video';
+  const videoResults = !applied.source && !applied.area && !applied.language && !applied.level && matchesVideoFilter && words.length
+   ? Object.entries(videoIndex).filter(([, title]) => contains(key(title), words)).slice(0, 5) : [];
+  if (selectedTitle && key(selectedTitle) === query && !videoResults.some(([id]) => id === requestedVideo)) {
+   videoResults.unshift([requestedVideo, selectedTitle]);
+   videoResults.length = Math.min(5, videoResults.length);
+  }
+  if (videoResults.length) {
+   const results = el('ul');
+   for (const [id, title] of videoResults) {
+    const row = el('li');
+    row.append(link(title, 'videoteca.html?video=' + encodeURIComponent(id)));
+    results.append(row);
+   }
+   glossaryHint.hidden = false;
+   glossaryHint.append(el('h3', 'Video nella Videoteca'), results);
   }
   cards.replaceChildren(...rows.slice(0,limit).map(resourceCard));
   count.textContent=rows.length+' risors'+(rows.length===1?'a trovata':'e trovate')+' · '+Math.min(limit,rows.length)+' mostrat'+(Math.min(limit,rows.length)===1?'a':'e');
