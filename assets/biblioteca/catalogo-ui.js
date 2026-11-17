@@ -5,21 +5,59 @@
  const $=id=>document.getElementById(id), q=$('library-query'), area=$('library-area'), type=$('library-type'), language=$('library-language'), level=$('library-level'), source=$('library-source'), sort=$('library-sort'), cards=$('library-results'), count=$('library-count'), more=$('library-more'), reset=$('library-reset');
  const normalized=v=>String(v).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLocaleLowerCase('it')
   .replace(/\bsupernov(?:ae|as|a|e)\b/g,'supernova');
+ const aliases = {'stelle di neutroni':'stella di neutroni','neutron star':'stella di neutroni','nane bianche':'nana bianca','white dwarf':'nana bianca','nuclear fusion':'fusione nucleare','moon':'luna'};
+ const tokenize = value => normalized(value).match(/[\p{L}\p{N}]+/gu) || [];
+ const key = value => tokenize(value).join(' ');
+ const supplement = [
+  ['fleck-anno-anomalistico','Anno anomalistico · Dizionario di astronomia','https://www.heinrichfleck.net/astronomia/dizionario.pdf#page=35','01','Heinrich Fleck','Intervallo tra due passaggi consecutivi al perielio.'],
+  ['fleck-anno-draconico','Anno draconico · Dizionario di astronomia','https://www.heinrichfleck.net/astronomia/dizionario.pdf#page=35','01','Heinrich Fleck','Ritorno del Sole apparente allo stesso nodo dell’orbita lunare.'],
+  ['fleck-fusione','Fusione nucleare · Dizionario di astronomia','https://www.heinrichfleck.net/astronomia/dizionario.pdf#page=179','04','Heinrich Fleck','Voce dedicata alla fusione nucleare.'],
+  ['draconico-nasa','Anno draconico e periodicità delle eclissi','https://eclipse.gsfc.nasa.gov/SEsaros/SEperiodicity.html','01','NASA','Stagioni delle eclissi e ritorno del Sole in prossimità dei nodi lunari.'],
+  ['fusione-nasa','Fusione nucleare nel Sole','https://science.nasa.gov/sun/facts/','04','NASA','Nel nucleo del Sole l’idrogeno si trasforma in elio, liberando energia.'],
+  ['fusione-reazioni-openstax','Fusione nucleare · Produzione di energia nelle stelle','https://openstax.org/books/astronomy-2e/pages/16-3-the-solar-interior-theory','04','OpenStax','La catena protone-protone e la produzione di energia nel nucleo solare.'],
+
+  ["amplitudine-ortiva-e-occasa-mazzucato", "Amplitudine ortiva e occasa · Termini in astronomia", "https://www.gruppom1.it/wp-content/uploads/2012/04/mtm_terminiastronomici.pdf#page=1", "01", "Michele T. Mazzucato", "Distanza angolare lungo l’orizzonte fra il punto in cui un astro sorge e l’est, oppure fra il punto in cui tramonta e l’ovest."],
+  ["arco-diurno-mazzucato", "Arco diurno · Termini in astronomia", "https://www.gruppom1.it/wp-content/uploads/2012/04/mtm_terminiastronomici.pdf#page=2", "01", "Michele T. Mazzucato", "Parte della traiettoria apparente di un astro che si trova sopra l’orizzonte nel corso del suo moto diurno."],
+  ["anno-anomalistico-mazzucato", "Anno anomalistico · Termini in astronomia", "https://www.gruppom1.it/wp-content/uploads/2012/04/mtm_terminiastronomici.pdf#page=1", "01", "Michele T. Mazzucato", "Intervallo medio fra due passaggi consecutivi della Terra al perielio, pari a circa 365,26 giorni."],
+  ["anno-draconico-mazzucato", "Anno draconico · Termini in astronomia", "https://www.gruppom1.it/wp-content/uploads/2012/04/mtm_terminiastronomici.pdf#page=1", "01", "Michele T. Mazzucato", "Intervallo medio fra due passaggi del Sole apparente per lo stesso nodo dell’orbita lunare, circa 346,62 giorni."],
+  ["anno-anomalistico-inaf", "Anno anomalistico · Astronomia fondamentale", "https://www.oato.inaf.it/biblioteca/pdf/TechRep078_Lattanzi.pdf#page=60", "01", "INAF Torino", "Lattanzi e Pannunzio, pagina 60 del PDF. Durata dell’anno anomalistico e moto del perielio."],
+  ["sait-coordinate", "Coordinate celesti · Bignamino SAIt", "https://www.sait.it/sites/sait.interlandia.net/files/pictures/notizie/2022/Bignamino_astronomia_2022.pdf#page=34", "01", "Società Astronomica Italiana", "Sistema altazimutale, azimut, altezza e coordinate equatoriali."],
+  ["sait-circumpolari", "Stelle circumpolari · Bignamino SAIt", "https://www.sait.it/sites/sait.interlandia.net/files/pictures/notizie/2022/Bignamino_astronomia_2022.pdf#page=40", "01", "Società Astronomica Italiana", "Stelle circumpolari, latitudine e declinazione."],
+  ["sait-giorno", "Giorno siderale · Bignamino SAIt", "https://www.sait.it/sites/sait.interlandia.net/files/pictures/notizie/2022/Bignamino_astronomia_2022.pdf#page=54", "01", "Società Astronomica Italiana", "Giorno siderale e giorno solare vero."],
+  ["sait-tempo", "Equazione del tempo · Bignamino SAIt", "https://www.sait.it/sites/sait.interlandia.net/files/pictures/notizie/2022/Bignamino_astronomia_2022.pdf#page=55", "01", "Società Astronomica Italiana", "Equazione del tempo e differenza tra tempo solare medio e vero."],
+  ["sait-keplero", "Leggi di Keplero · Bignamino SAIt", "https://www.sait.it/sites/sait.interlandia.net/files/pictures/notizie/2022/Bignamino_astronomia_2022.pdf#page=70", "01", "Società Astronomica Italiana", "Leggi di Keplero e orbite planetarie."],
+
+  ['fusione-stellare','Fusione nucleare nelle stelle','lezione-4-1.html','04','AD ASTRA','Come la fusione alimenta la luce delle stelle.'],
+  ['residui-nana-bianca','Nana bianca ed evoluzione stellare','lezione-4-6.html','04','AD ASTRA','Che cosa resta delle stelle simili al Sole.'],
+  ['fusione-openstax','Fusione nucleare · Massa ed energia','https://openstax.org/books/astronomy-2e/pages/16-2-mass-energy-and-the-theory-of-relativity','04','OpenStax','Capitolo 16.2: come la fusione converte parte della massa in energia nelle stelle.'],
+  ['nana-openstax','Nana bianca · La fine delle stelle di piccola massa','https://openstax.org/books/astronomy-2e/pages/23-1-the-death-of-low-mass-stars','04','OpenStax','Capitolo 23.1: dalla perdita degli strati esterni alla nana bianca.'],
+  ['supernova-openstax','Supernova · Le osservazioni','https://openstax.org/books/astronomy-2e/pages/23-3-supernova-observations','04','OpenStax','Capitolo 23.3: come si osservano e si distinguono le esplosioni stellari.'],
+  ['artemis-i-nasa','Artemis I · Il volo di prova','https://www.nasa.gov/mission/artemis-i/','astronautica','NASA','Missione senza equipaggio per provare il sistema di lancio e la capsula Orion.'],
+  ['artemis-ii-nasa','Artemis II · Missione con equipaggio','https://www.nasa.gov/mission/artemis-ii/','astronautica','NASA','Scheda ufficiale del sorvolo lunare con equipaggio.'],
+  ['artemis-orion-nasa','Artemis · La capsula Orion','https://www.nasa.gov/reference/orion-spacecraft/','astronautica','NASA','Guida alla capsula che trasporta gli astronauti nel programma Artemis.'],
+  ['artemis-faq-nasa','Artemis · Domande frequenti sul programma','https://www.nasa.gov/missions/artemis/faq-nasas-artemis-campaign-and-recent-updates/','astronautica','NASA','Obiettivi e organizzazione del programma lunare secondo la NASA.'],
+  ['artemis-nasa','Artemis · Programma lunare NASA','https://www.nasa.gov/humans-in-space/artemis/','astronautica','NASA','Programma di esplorazione lunare con equipaggio e prospettiva di future missioni verso Marte.']
+ ].map(([id,title,url,area,source,description])=>({
+  id,title,url,source,description,areas:[area],type:url.includes('.pdf#page=')?'PDF e dispense':source==='NASA'?'Portali e strumenti':'Corsi e lezioni',
+  language:['NASA','OpenStax'].includes(source)?'Inglese':'Italiano',level:'Facile',scope:url.includes('.pdf#page=')?'Passaggio del PDF':source==='NASA'?'Pagina ufficiale':source==='OpenStax'?'Capitolo di manuale':'Lezione AD ASTRA',review:'Approfondimento tematico'
+ }));
+ const resources = [...data.resources,...supplement];
  const names=Object.fromEntries(data.areas.map(a=>[a.id,a.title]));
  const el=(tag,text,className)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(className)n.className=className;return n;};
  const link=(label,url)=>{const n=el('a',label);n.href=url;if(/^https?:/.test(url)){n.target='_blank';n.rel='noopener noreferrer';n.setAttribute('aria-label',label+' (sito esterno, nuova scheda)');}return n;};
  const addOptions=(select,values)=>[...new Set(values)].sort((a,b)=>a.localeCompare(b,'it')).forEach(v=>{const o=el('option',v);o.value=v;select.append(o);});
  data.areas.forEach(a=>{const o=el('option',a.title);o.value=a.id;area.append(o);});
- addOptions(type,data.resources.map(r=>r.type));addOptions(language,data.resources.map(r=>r.language));addOptions(level,data.resources.map(r=>r.level));addOptions(source,data.resources.map(r=>r.source));
+ addOptions(type,resources.map(r=>r.type));addOptions(language,resources.map(r=>r.language));addOptions(level,resources.map(r=>r.level));addOptions(source,resources.map(r=>r.source));
  const params=new URLSearchParams(location.search);for(const [key,control]of Object.entries({q,area,type,language,level,source,sort})){const v=params.get(key);if(v!==null && (control===q||[...control.options].some(o=>o.value===v)))control.value=v;}
  const topics = window.AD_ASTRA_LIBRARY_TOPICS || {};
- const glossary = window.AdAstraGlossaryIndex || [];
- const glossaryHint = el('p', '', 'catalog-method');
+
+ const glossaryHint = el('div', '', 'catalog-method');
  glossaryHint.hidden = true;
  count.before(glossaryHint);
- const indexed = data.resources.map(resource => ({
+ const indexed = resources.map(resource => ({
   ...resource,
-  search: normalized([resource.title, resource.description, resource.source,
+  titleKey: key(resource.title),
+  search: key([resource.title, resource.description, resource.source,
    resource.year, resource.note, resource.scope, ...(topics[resource.id] || []),
    ...resource.areas.map(id => names[id])].join(' '))
  }));
@@ -46,31 +84,43 @@
   const a=r.areas[0];const lesson=link('Percorso AD ASTRA →',a==='astronautica'?'#astronautica':'area-'+a+'.html');lesson.setAttribute('aria-label','Esplora '+names[a]+' su AD ASTRA');actions.append(lesson);article.append(actions);return article;
  }
  function draw(update){
-  const words=normalized(applied.q).match(/[\p{L}\p{N}]+/gu) || [];
-  const term = words.join(' ');
-  const matches = term ? glossary.filter(([, ...labels]) => labels.some(label =>
-   (normalized(label).match(/[\p{L}\p{N}]+/gu) || []).join(' ') === term
-  )) : [];
+  const query = key(applied.q);
+  const matches = window.AdAstraGlossarySearch.lookup(applied.q);
+  const term = matches.length === 1 ? key(matches[0].name) : (aliases[query] || query);
+  const words = tokenize(term).filter(word => !['di','del','della','la','il','le','un','una','e'].includes(word));
+  const match = matches.length === 1 ? matches[0] : null;
   glossaryHint.replaceChildren();
-  glossaryHint.hidden = matches.length !== 1;
-  if (matches.length === 1) {
-   const [id, name] = matches[0];
-   glossaryHint.append(link('Leggi «' + name + '» nel Glossario →', 'glossario.html#' + encodeURIComponent(id)));
+  glossaryHint.hidden = !matches.length;
+  if (matches.length > 1) {
+   glossaryHint.append(el('strong', 'Scegli la voce del glossario'));
+   for (const {id, name} of matches) glossaryHint.append(el('br'), link(name, 'glossario.html#' + encodeURIComponent(id)));
   }
-  rows=indexed.filter(r=>words.every(w=>r.search.includes(w))&&(!applied.area||r.areas.includes(applied.area))&&(!applied.type||applied.type===r.type)&&(!applied.language||applied.language===r.language)&&(!applied.level||applied.level===r.level)&&(!applied.source||applied.source===r.source));
+  if (match) {
+   const {id, name} = match;
+   const [definition, lesson] = window.AdAstraGlossarySummaries?.[id] || [];
+   glossaryHint.append(el('strong', name + ' · Glossario'));
+   if (definition) glossaryHint.append(el('p', definition));
+   glossaryHint.append(link('Apri la voce del glossario →', 'glossario.html#' + encodeURIComponent(id)));
+   if (lesson) glossaryHint.append(document.createTextNode(' · '), link('Leggi la lezione →', lesson));
+  }
+  const variants = [words, ...Object.entries(aliases).filter(([, label]) => label === term).map(([alias]) => tokenize(alias))];
+  const contains = (field, tokens) => tokens.every(word => (' '+field+' ').includes(' '+word+' '));
+  const score = resource => !words.length ? 0 : variants.some(tokens => contains(resource.titleKey,tokens)) ? 2 : 1;
+  const relevant = resource => variants.some(tokens => contains(resource.search,tokens)) || (!match && words.length === 1 && resource.search.includes(words[0]));
+  rows=indexed.filter(r=>relevant(r)&&(!applied.area||r.areas.includes(applied.area))&&(!applied.type||applied.type===r.type)&&(!applied.language||applied.language===r.language)&&(!applied.level||applied.level===r.level)&&(!applied.source||applied.source===r.source));
   const order={'PDF e dispense':0,'Corsi e lezioni':1,'Portali e strumenti':2,'Approfondimenti':3,'Playlist':4,'Video':5};
   const institutionalSources = /^(?:edu inaf|inaf|nasa|esa|eso)(?:$|\s+[·–-])/i;
   const sourcePriority = resource => institutionalSources.test(resource.source) ? 0 : 1;
-  rows.sort((a,b)=>applied.sort==='title'?a.title.localeCompare(b.title,'it'):applied.sort==='source'?a.source.localeCompare(b.source,'it')||a.title.localeCompare(b.title,'it'):(Number(['restricted','unverified'].includes(a.linkState))-Number(['restricted','unverified'].includes(b.linkState)))||(words.length ? sourcePriority(a)-sourcePriority(b) : 0)||((order[a.type]??3)-(order[b.type]??3))||(a.language==='Italiano'?0:1)-(b.language==='Italiano'?0:1)||a.title.localeCompare(b.title,'it'));
+  rows.sort((a,b)=>applied.sort==='title'?a.title.localeCompare(b.title,'it'):applied.sort==='source'?a.source.localeCompare(b.source,'it')||a.title.localeCompare(b.title,'it'):(score(b)-score(a))||(Number(['restricted','unverified'].includes(a.linkState))-Number(['restricted','unverified'].includes(b.linkState)))||(words.length ? sourcePriority(a)-sourcePriority(b) : 0)||((order[a.type]??3)-(order[b.type]??3))||(a.language==='Italiano'?0:1)-(b.language==='Italiano'?0:1)||a.title.localeCompare(b.title,'it'));
   cards.replaceChildren(...rows.slice(0,limit).map(resourceCard));
   count.textContent=rows.length+' risors'+(rows.length===1?'a trovata':'e trovate')+' · '+Math.min(limit,rows.length)+' mostrat'+(Math.min(limit,rows.length)===1?'a':'e');
   $('library-empty').hidden=rows.length!==0;more.hidden=rows.length<=limit;
   if(update)storeFilters();
  }
  root.querySelector('form').addEventListener('submit',event=>{event.preventDefault();applied=readFilters();limit=24;draw(true);count.scrollIntoView({behavior:'auto',block:'center'});});
- reset.addEventListener('click',()=>{for(const c of[q,area,type,language,level,source])c.value='';sort.value='recommended';applied=readFilters();limit=24;rows=[];cards.replaceChildren();count.textContent='Imposta i filtri e premi «Avvia ricerca» per consultare le fonti.';$('library-empty').hidden=true;more.hidden=true;storeFilters();q.focus({preventScroll:true});root.querySelector('form').scrollIntoView({behavior:'auto',block:'start'});});
+ reset.addEventListener('click',()=>{for(const c of[q,area,type,language,level,source])c.value='';sort.value='recommended';applied=readFilters();limit=24;rows=[];cards.replaceChildren();glossaryHint.hidden=true;glossaryHint.replaceChildren();count.textContent='Imposta i filtri e premi «Avvia ricerca» per consultare le fonti.';$('library-empty').hidden=true;more.hidden=true;storeFilters();q.focus({preventScroll:true});root.querySelector('form').scrollIntoView({behavior:'auto',block:'start'});});
  document.querySelectorAll('[data-library-type]').forEach(b=>b.addEventListener('click',()=>{type.value=b.dataset.libraryType;q.focus({preventScroll:true});root.scrollIntoView({behavior:'auto',block:'start'});}));
  more.addEventListener('click',()=>{const old=limit;limit+=24;draw(false);const target=cards.children[old]?.querySelector('h3 a');target?.focus({preventScroll:true});});
  document.querySelectorAll('[data-library-source]').forEach(button=>button.addEventListener('click',()=>{for(const c of[q,area,type,language,level])c.value='';source.value=button.dataset.librarySource;root.scrollIntoView({behavior:'auto',block:'start'});$('library-search').focus({preventScroll:true});}));
- $('library-total').textContent=data.resources.length;draw(false);
+ $('library-total').textContent=resources.length;draw(false);
 })();

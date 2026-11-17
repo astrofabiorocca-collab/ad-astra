@@ -55681,5 +55681,296 @@ window.AdAstraGlossary = [
     "aliases": [
       "regioni radiative"
     ]
+  },
+  {
+    "id": "artemis",
+    "name": "Artemis",
+    "definition": "Programma NASA per l’esplorazione lunare con equipaggio, anche in preparazione di future missioni verso Marte.",
+    "source": "https://www.nasa.gov/humans-in-space/artemis/",
+    "lesson": "lezione-3-4.html",
+    "related": [
+      "apollo-11"
+    ],
+    "sections": [
+      {
+        "title": "Contesto storico",
+        "paragraphs": [
+          "Artemis I ha provato il lanciatore SLS e la capsula Orion senza equipaggio. Le missioni successive applicano questi collaudi al volo umano e alle attività lunari."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "NASA",
+        "url": "https://www.nasa.gov/humans-in-space/artemis/"
+      }
+    ],
+    "checked": "2026-11-17",
+    "aliases": [
+      "programma Artemis"
+    ]
+  },
+  {
+    "id": "artemis-i",
+    "name": "Artemis I",
+    "definition": "Volo di prova senza equipaggio che nel 2022 portò Orion attorno alla Luna.",
+    "source": "https://www.nasa.gov/mission/artemis-i/",
+    "lesson": "lezione-3-4.html",
+    "related": [
+      "apollo-11"
+    ],
+    "sections": [
+      {
+        "title": "Contesto storico",
+        "paragraphs": [
+          "La missione collaudò il lanciatore SLS, la navigazione nello spazio profondo e il rientro di Orion sulla Terra."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "NASA",
+        "url": "https://www.nasa.gov/mission/artemis-i/"
+      }
+    ],
+    "checked": "2026-11-17",
+    "aliases": []
+  },
+  {
+    "id": "artemis-ii",
+    "name": "Artemis II",
+    "definition": "Missione con equipaggio del programma Artemis dedicata al sorvolo della Luna.",
+    "source": "https://www.nasa.gov/mission/artemis-ii/",
+    "lesson": "lezione-3-4.html",
+    "related": [
+      "apollo-11"
+    ],
+    "sections": [
+      {
+        "title": "Contesto storico",
+        "paragraphs": [
+          "Il percorso attorno alla Luna permette di collaudare la capsula Orion con astronauti nello spazio profondo. È un passaggio preparatorio alle missioni di superficie."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "NASA",
+        "url": "https://www.nasa.gov/mission/artemis-ii/"
+      }
+    ],
+    "checked": "2026-11-17",
+    "aliases": []
+  },
+  {
+    "id": "orion-capsula",
+    "name": "Orion (capsula spaziale)",
+    "definition": "Veicolo progettato per trasportare astronauti oltre l’orbita terrestre bassa.",
+    "source": "https://www.nasa.gov/reference/orion-spacecraft/",
+    "lesson": "lezione-3-4.html",
+    "related": [
+      "apollo-11"
+    ],
+    "sections": [
+      {
+        "title": "Contesto storico",
+        "paragraphs": [
+          "Il modulo equipaggio rientra sulla Terra. Il modulo di servizio fornisce energia e propulsione durante il volo."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "NASA",
+        "url": "https://www.nasa.gov/reference/orion-spacecraft/"
+      }
+    ],
+    "checked": "2026-11-17",
+    "aliases": [
+      "capsula Orion"
+    ]
+  },
+  {
+    "id": "luna-2",
+    "name": "Luna 2",
+    "definition": "Sonda sovietica che nel 1959 diventò il primo manufatto umano a raggiungere la superficie lunare.",
+    "source": "https://www.nasa.gov/history/60-years-ago-luna-2-makes-impact-in-moon-race/",
+    "lesson": "lezione-3-4.html",
+    "related": [
+      "apollo-11"
+    ],
+    "sections": [
+      {
+        "title": "Contesto storico",
+        "paragraphs": [
+          "La missione si concluse con un impatto. Un allunaggio morbido richiede invece di ridurre la velocità prima del contatto con il suolo."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "NASA",
+        "url": "https://www.nasa.gov/history/60-years-ago-luna-2-makes-impact-in-moon-race/"
+      }
+    ],
+    "checked": "2026-11-17",
+    "aliases": []
+  },
+  {
+    "id": "luna-3",
+    "name": "Luna 3",
+    "definition": "Sonda sovietica che nel 1959 trasmise le prime fotografie della faccia lontana della Luna.",
+    "source": "https://nssdc.gsfc.nasa.gov/planetary/lunar/lunarussr.html",
+    "lesson": "lezione-3-4.html",
+    "related": [
+      "apollo-11"
+    ],
+    "sections": [
+      {
+        "title": "Contesto storico",
+        "paragraphs": [
+          "La sonda aggirò la Luna per riprendere una regione in gran parte invisibile dalla Terra. Anche questa regione riceve luce solare durante il ciclo lunare."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "NASA",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/lunarussr.html"
+      }
+    ],
+    "checked": "2026-11-17",
+    "aliases": []
+  },
+  {
+    "id": "giotto-sonda",
+    "name": "Giotto (sonda)",
+    "definition": "Sonda ESA che nel 1986 sorvolò la cometa di Halley e ne riprese il nucleo.",
+    "source": "https://www.esa.int/Science_Exploration/Space_Science/Giotto_overview",
+    "lesson": "lezione-3-5.html",
+    "related": [
+      "rosetta"
+    ],
+    "sections": [
+      {
+        "title": "Contesto storico",
+        "paragraphs": [
+          "Il sorvolo mostrò un nucleo scuro e irregolare, con getti di materiale. Giotto visitò poi anche la cometa Grigg–Skjellerup."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "ESA",
+        "url": "https://www.esa.int/Science_Exploration/Space_Science/Giotto_overview"
+      }
+    ],
+    "checked": "2026-11-17",
+    "aliases": [
+      "sonda Giotto"
+    ]
+  },
+  {
+    "id": "amplitudine-ortiva-e-occasa",
+    "name": "Amplitudine ortiva e occasa",
+    "definition": "Distanza angolare lungo l’orizzonte fra il punto in cui un astro sorge e l’est, oppure fra il punto in cui tramonta e l’ovest.",
+    "source": "https://www.gruppom1.it/wp-content/uploads/2012/04/mtm_terminiastronomici.pdf#page=1",
+    "lesson": "lezione-1-5.html",
+    "aliases": [
+      "amplitudine ortiva",
+      "amplitudine occasa"
+    ],
+    "related": [],
+    "sections": [
+      {
+        "title": "Come si interpreta",
+        "paragraphs": [
+          "Ortiva si riferisce al sorgere, occasa al tramonto. Il valore dipende dalla declinazione dell’astro e dalla latitudine dell’osservatore. Per il Sole, su un orizzonte ideale, il sorgere e il tramonto avvengono circa a est e a ovest agli equinozi."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "Michele T. Mazzucato · PDF p. 1",
+        "url": "https://www.gruppom1.it/wp-content/uploads/2012/04/mtm_terminiastronomici.pdf#page=1"
+      }
+    ],
+    "checked": "2026-11-17"
+  },
+  {
+    "id": "arco-diurno",
+    "name": "Arco diurno",
+    "definition": "Parte della traiettoria apparente di un astro che si trova sopra l’orizzonte nel corso del suo moto diurno.",
+    "source": "https://www.gruppom1.it/wp-content/uploads/2012/04/mtm_terminiastronomici.pdf#page=2",
+    "lesson": "lezione-1-3.html",
+    "aliases": [],
+    "related": [],
+    "sections": [
+      {
+        "title": "Come si interpreta",
+        "paragraphs": [
+          "Per un astro che sorge e tramonta, l’arco è compreso fra questi due passaggi. Un astro circumpolare descrive invece l’intero percorso sopra l’orizzonte. La latitudine e la declinazione determinano quanto del percorso risulta sopra l’orizzonte geometrico."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "Michele T. Mazzucato · PDF p. 2",
+        "url": "https://www.gruppom1.it/wp-content/uploads/2012/04/mtm_terminiastronomici.pdf#page=2"
+      }
+    ],
+    "checked": "2026-11-17"
+  },
+  {
+    "id": "anno-anomalistico",
+    "name": "Anno anomalistico",
+    "definition": "Intervallo medio fra due passaggi consecutivi della Terra al perielio, pari a circa 365,26 giorni.",
+    "source": "https://www.gruppom1.it/wp-content/uploads/2012/04/mtm_terminiastronomici.pdf#page=1",
+    "lesson": "lezione-3-6.html",
+    "aliases": [],
+    "related": [],
+    "sections": [
+      {
+        "title": "Come si interpreta",
+        "paragraphs": [
+          "La direzione del perielio cambia lentamente. Per questo il ritorno al perielio richiede un tempo leggermente diverso dal ritorno alla stessa direzione rispetto alle stelle lontane, che definisce l’anno siderale."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "Michele T. Mazzucato · PDF p. 1",
+        "url": "https://www.gruppom1.it/wp-content/uploads/2012/04/mtm_terminiastronomici.pdf#page=1"
+      },
+      {
+        "title": "INAF Torino · PDF p. 60",
+        "url": "https://www.oato.inaf.it/biblioteca/pdf/TechRep078_Lattanzi.pdf#page=60"
+      }
+    ],
+    "checked": "2026-11-17"
+  },
+  {
+    "id": "anno-draconico",
+    "name": "Anno draconico",
+    "definition": "Intervallo medio fra due passaggi del Sole apparente per lo stesso nodo dell’orbita lunare, circa 346,62 giorni.",
+    "source": "https://www.gruppom1.it/wp-content/uploads/2012/04/mtm_terminiastronomici.pdf#page=1",
+    "lesson": "lezione-2-6.html",
+    "aliases": [],
+    "related": [],
+    "sections": [
+      {
+        "title": "Come si interpreta",
+        "paragraphs": [
+          "I nodi sono i punti in cui l’orbita lunare attraversa il piano dell’orbita terrestre. Le eclissi diventano possibili quando il Sole apparente è vicino a un nodo e la Luna è nella fase adatta. Il movimento dei nodi rende questo intervallo più breve di un anno civile."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "Michele T. Mazzucato · PDF p. 1",
+        "url": "https://www.gruppom1.it/wp-content/uploads/2012/04/mtm_terminiastronomici.pdf#page=1"
+      }
+    ],
+    "checked": "2026-11-17"
   }
 ];
