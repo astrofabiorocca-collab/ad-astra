@@ -125,6 +125,9 @@
  }
  const reviewedConceptSources = {
   'afocale': [
+   ['Laboratorio sui telescopi rifrattori · posizione dell’immagine intermedia', 'https://wp.optics.arizona.edu/mnofziger/wp-content/uploads/sites/31/2016/05/OPTI202L-Lab-4-Telescopes-SP11.pdf', 'University of Arizona · EN'],
+   ['Verificare con un diagramma che il telescopio sia afocale', 'https://omlc.ogi.edu/classroom/oslotut/telescope/summary.html', 'Oregon Medical Laser Center · EN'],
+   ['Il telescopio afocale della missione WISE', 'https://irsa.ipac.caltech.edu/data/WISE/docs/release/All-Sky/expsup/sec3_2.html', 'Caltech IPAC · documentazione WISE · EN'],
    ['Sistemi afocali · fasci paralleli e ingrandimento angolare', 'https://wp.optics.arizona.edu/jgreivenkamp/wp-content/uploads/sites/11/2018/12/201-202-12-Afocal-Systems.pdf', 'University of Arizona · EN'],
    ['Ripresa attraverso l’oculare con una fotocamera dotata di obiettivo', 'https://rasc.ca/sites/default/files/ardocuments/Patterson-vector.pdf', 'Royal Astronomical Society of Canada · EN']
   ],
