@@ -124,6 +124,14 @@
   return details;
  }
  const reviewedConceptSources = {
+  'acromatico': [
+   ['Compensare la dispersione con due lenti', 'https://thesis.unipd.it/retrieve/ee7bf1eb-2f5b-4547-a7e2-1a0bd0c7fed6/Rossato_Matteo.pdf', 'Università di Padova · IT'],
+   ['Doppietto acromatico negli strumenti ottici', 'https://www.physics.brocku.ca/PPLATO/h-flap/phys6_4.html', 'Brock University · EN'],
+   ['Simulazione della correzione cromatica', 'https://micro.magnet.fsu.edu/primer/java/aberrations/chromatic/index.html', 'Florida State University · EN'],
+   ['Doppietto acromatico e numero di Abbe', 'https://www.iutenligne.net/rsc/rsc-public/rsc-externe/electronique/simulations-numeriques/optigeo/achromat.html', 'IUTenligne · FR'],
+   ['Obiettivo acromatico · terminologia e schema ottico', 'https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8875911/objectif-achromatique', 'Office québécois de la langue française · FR']
+  ],
+
   'afocale': [
    ['Laboratorio sui telescopi rifrattori · posizione dell’immagine intermedia', 'https://wp.optics.arizona.edu/mnofziger/wp-content/uploads/sites/31/2016/05/OPTI202L-Lab-4-Telescopes-SP11.pdf', 'University of Arizona · EN'],
    ['Verificare con un diagramma che il telescopio sia afocale', 'https://omlc.ogi.edu/classroom/oslotut/telescope/summary.html', 'Oregon Medical Laser Center · EN'],
@@ -168,9 +176,9 @@
    glossaryHint.append(el('strong', 'Scegli la voce del glossario'));
    for (const {id, name} of matches) glossaryHint.append(el('br'), link(name, 'glossario.html#' + encodeURIComponent(id)));
   }
+  const sheet = match && window.AdAstraGlossary?.find(entry => entry.id === match.id);
   if (match) {
    const {id, name} = match;
-   const sheet = window.AdAstraGlossary?.find(entry => entry.id === id);
    const [definition = sheet?.definition, lesson = sheet?.lesson] = window.AdAstraGlossarySummaries?.[id] || [];
    glossaryHint.append(el('strong', name + ' · Glossario'));
    if (definition) glossaryHint.append(el('p', definition));
@@ -180,12 +188,14 @@
    if (lesson) glossaryHint.append(document.createTextNode(' · '), link('Leggi la lezione →', lesson));
    const note = window.AdAstraWikipediaNote?.(id);
    if (note) glossaryHint.append(note);
-   if (typeof sheet?.source === 'string' && /^https?:[/][/]/i.test(sheet.source)) {
+   if (window.AdAstraWikipediaExcerpts?.[id] && typeof sheet?.source === 'string' && /^https?:[/][/]/i.test(sheet.source)) {
     const reference = el('p');
     reference.append(link('Fonte indicata nella scheda del glossario ↗', sheet.source));
     glossaryHint.append(reference);
    }
-   if (!note) glossaryHint.append(wikipediaCitation(match));
+   if (id === 'acromatico') {
+    glossaryHint.append(el('p', 'Un doppietto acromatico sfrutta due vetri che separano i colori in misura diversa. In una configurazione classica, una lente convergente in vetro crown e una divergente in vetro flint avvicinano i fuochi di due lunghezze d’onda scelte. L’obiettivo rimane convergente e riduce gli aloni colorati attorno ai dettagli ad alto contrasto. Le altre lunghezze d’onda possono conservare un piccolo scarto di fuoco, chiamato spettro secondario.'));
+   } else if (!note) glossaryHint.append(wikipediaCitation(match));
   }
   const variants = [words, ...Object.entries(aliases).filter(([, label]) => label === term).map(([alias]) => tokenize(alias))];
   const contains = (field, tokens) => tokens.every(word => (' '+field+' ').includes(' '+word+' '));
@@ -198,7 +208,10 @@
   rows.sort((a,b)=>applied.sort==='title'?a.title.localeCompare(b.title,'it'):applied.sort==='source'?a.source.localeCompare(b.source,'it')||a.title.localeCompare(b.title,'it'):(score(b)-score(a))||(Number(['restricted','unverified'].includes(a.linkState))-Number(['restricted','unverified'].includes(b.linkState)))||(words.length ? sourcePriority(a)-sourcePriority(b) : 0)||((order[a.type]??3)-(order[b.type]??3))||(a.language==='Italiano'?0:1)-(b.language==='Italiano'?0:1)||a.title.localeCompare(b.title,'it'));
   const handouts = match && !applied.source && !applied.type && !applied.area && !applied.language && !applied.level ? (window.AdAstraHandoutMatches?.[match.id] || []) : [];
   const reviewed = match && !applied.source && !applied.type && !applied.area && !applied.language && !applied.level ? (reviewedConceptSources[match.id] || []) : [];
-  if (words.length && (rows.length || handouts.length || reviewed.length)) {
+  const sheetSource = match && !window.AdAstraWikipediaExcerpts?.[match.id] &&
+   !applied.source && !applied.type && !applied.area && !applied.language && !applied.level &&
+   typeof sheet?.source === 'string' && /^https?:[/][/]/i.test(sheet.source) ? sheet.source : '';
+  if (words.length && (rows.length || handouts.length || reviewed.length || sheetSource)) {
    const references = el('ul');
    const destinations = new Set();
    const documentUrl = url => url.split('#')[0].replace(/[?&]usp=sharing$/, '');
@@ -217,6 +230,12 @@
     item.append(link(title, url), document.createTextNode(' · Dispensa INAF · testo a p. ' + page));
     references.append(item);
     if (destinations.size === 5) break;
+   }
+   if (sheetSource && destinations.size < 5 && !destinations.has(documentUrl(sheetSource))) {
+    destinations.add(documentUrl(sheetSource));
+    const item = el('li');
+    item.append(link('Consulta il riferimento della scheda del Glossario', sheetSource));
+    references.append(item);
    }
    for (const resource of rows) {
     if (destinations.size === 5) break;
