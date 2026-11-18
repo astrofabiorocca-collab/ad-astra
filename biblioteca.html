@@ -1763,7 +1763,18 @@
        DATI E FUNZIONAMENTO DEI POPUP
   ====================================================== -->
 
-  <script defer src="assets/biblioteca/biblioteca.js"></script>
+  <dialog id="author-profile" class="author-profile" aria-labelledby="author-profile-title">
+  <form method="dialog"><button autofocus>Chiudi</button></form>
+  <h2 id="author-profile-title"></h2>
+  <p class="author-profile-role"></p>
+  <img alt="" hidden>
+  <p class="author-profile-bio"></p>
+  <h3>Bibliografia essenziale</h3>
+  <ul></ul>
+</dialog>
+<script defer src="assets/biblioteca/autori-dossier.js"></script>
+<script defer src="assets/biblioteca/autori.js"></script>
+<script defer src="assets/biblioteca/biblioteca.js"></script>
 
 
 <script defer src="assets/menu-persistente.js"></script>

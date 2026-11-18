@@ -704,6 +704,23 @@
       transition: opacity 0.25s ease;
     }
 
+    @media (hover: none), (pointer: coarse) {
+      .main-card::before,
+      .tool-card::before {
+        background: linear-gradient(90deg, rgba(6, 16, 28, .18), rgba(6, 16, 28, .66) 36%, rgba(6, 16, 28, .55));
+      }
+
+      .main-card > *,
+      .tool-card > * {
+        text-shadow: 0 1px 4px #07101c, 0 1px 9px #07101c;
+      }
+
+      .main-card:active::before,
+      .tool-card:active::before {
+        opacity: .8;
+      }
+    }
+
     @media (hover: hover) and (pointer: fine) {
       .main-card::before,
       .tool-card::before,
