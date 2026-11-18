@@ -123,7 +123,17 @@
   });
   return details;
  }
+ const conceptNotes = {
+  'accrescimento': 'Quando il gas in orbita cede parte del suo momento angolare, può spostarsi verso il centro. In una stella giovane, parte del gas finisce sulla superficie e può lasciare un segnale ultravioletto. Vicino a un buco nero, invece, si osserva la radiazione del gas caldo prima che attraversi l’orizzonte. L’accrescimento è il trasferimento di materia; il disco è una delle strutture attraverso cui avviene.'
+ };
  const reviewedConceptSources = {
+  'accrescimento': [
+   ['Come una stella giovane riceve materia dal disco', 'https://www.oacn.inaf.it/rsn/rsn-2/dischi-circumstellari/', 'INAF Capodimonte · IT'],
+   ['Trasferimento di materia e momento angolare nel disco', 'https://ceti.obspm.fr/public/ressources_lu/pages_planetologie-formation/impression.html', 'Observatoire de Paris · FR'],
+   ['Il percorso del gas verso un buco nero', 'https://science.nasa.gov/universe/black-holes/anatomy/', 'NASA Science · EN'],
+   ['Come riconoscere un disco di accrescimento dalle osservazioni', 'https://science.nasa.gov/mission/webb/science-overview/science-explainers/how-do-we-know-there-are-black-holes/', 'NASA Webb · EN'],
+   ['Un episodio di rapido accrescimento attorno a un oggetto di massa planetaria', 'https://www.eso.org/public/news/eso2516/', 'ESO · EN']
+  ],
   'acromatico': [
    ['Compensare la dispersione con due lenti', 'https://thesis.unipd.it/retrieve/ee7bf1eb-2f5b-4547-a7e2-1a0bd0c7fed6/Rossato_Matteo.pdf', 'Università di Padova · IT'],
    ['Doppietto acromatico negli strumenti ottici', 'https://www.physics.brocku.ca/PPLATO/h-flap/phys6_4.html', 'Brock University · EN'],
@@ -193,7 +203,8 @@
     reference.append(link('Fonte indicata nella scheda del glossario ↗', sheet.source));
     glossaryHint.append(reference);
    }
-   if (id === 'acromatico') {
+   if (conceptNotes[id]) glossaryHint.append(el('p', conceptNotes[id]));
+   else if (id === 'acromatico') {
     glossaryHint.append(el('p', 'Un doppietto acromatico sfrutta due vetri che separano i colori in misura diversa. In una configurazione classica, una lente convergente in vetro crown e una divergente in vetro flint avvicinano i fuochi di due lunghezze d’onda scelte. L’obiettivo rimane convergente e riduce gli aloni colorati attorno ai dettagli ad alto contrasto. Le altre lunghezze d’onda possono conservare un piccolo scarto di fuoco, chiamato spettro secondario.'));
    } else if (!note) glossaryHint.append(wikipediaCitation(match));
   }
