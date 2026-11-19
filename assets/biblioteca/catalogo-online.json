@@ -21642,29 +21642,6 @@
       "linkLabel": "Controllato il 15 ottobre 2026"
     },
     {
-      "id": "unimi-dispense",
-      "title": "Introduzione all’astrofisica — dispense e slide",
-      "url": "https://astro.fisica.unimi.it/introduzione-allastrofisica/",
-      "source": "Università degli Studi di Milano",
-      "language": "Italiano",
-      "areas": [
-        "04",
-        "06",
-        "10"
-      ],
-      "level": "Avanzato",
-      "type": "Corsi e lezioni",
-      "description": "Raccolta universitaria con dispense e presentazioni di astrofisica.",
-      "note": "Date e livello variano fra i materiali; controllare la versione del singolo PDF.",
-      "year": "",
-      "sourcePage": "https://astro.fisica.unimi.it/introduzione-allastrofisica/",
-      "scope": "Scheda e raccolta ufficiale",
-      "review": "Selezione documentaria; livello indicativo, non revisione integrale",
-      "acquired": "2026-10-18",
-      "linkState": "ok",
-      "linkLabel": "Fonte reperita nella ricerca del 18 ottobre 2026"
-    },
-    {
       "id": "pisa-paolicchi",
       "title": "Astronomia — dispense di Paolo Paolicchi",
       "url": "https://osiris.df.unipi.it/~paolic/dispense.html",
@@ -21690,7 +21667,7 @@
     {
       "id": "cam-dispense",
       "title": "Corso di astronomia — dispense per astrofili",
-      "url": "https://www.astrofilimilano.org/le-dispense.html",
+      "url": "https://www.astrofilimilano.org/",
       "source": "Circolo Astrofili di Milano",
       "language": "Italiano",
       "areas": [
@@ -21704,7 +21681,7 @@
       "description": "Raccolta di sedici dispense: Luna, ottica, telescopi, luce, stelle e cosmologia.",
       "note": "Livello da valutare sul singolo documento; materiali fotografici e osservazione solare richiedono verifica specifica.",
       "year": "",
-      "sourcePage": "https://www.astrofilimilano.org/le-dispense.html",
+      "sourcePage": "https://www.astrofilimilano.org/",
       "scope": "Scheda e raccolta ufficiale",
       "review": "Selezione documentaria; livello indicativo, non revisione integrale",
       "acquired": "2026-10-18",
@@ -22048,6 +22025,54 @@
       "acquired": "2026-10-18",
       "linkState": "ok",
       "linkLabel": "Fonte reperita nella ricerca del 18 ottobre 2026"
+    },
+    {
+      "id": "gak-appunti-astronomia",
+      "title": "Appunti di astronomia — corso per appassionati",
+      "url": "https://gak.it/utility/dispense/",
+      "source": "Gruppo Astrofili Keplero",
+      "language": "Italiano",
+      "areas": [
+        "01",
+        "02",
+        "03",
+        "07",
+        "09"
+      ],
+      "level": "Medio",
+      "type": "PDF e dispense",
+      "year": "1996",
+      "description": "Sette capitoli PDF con spiegazioni, figure ed esercizi su cielo, tempo, pianeti, Luna, ottica, telescopi e osservazione. Pensato per lettori con preparazione da scuola superiore.",
+      "note": "Edizione cartacea del 1996. Fotografia, software e dati recenti richiedono riferimenti aggiornati. Autori: E. De Rosa, A. Rinalducci e F. Santi.",
+      "scope": "Raccolta di capitoli PDF",
+      "sourcePage": "https://gak.it/utility/dispense/",
+      "review": "Presentazione e struttura consultate; lettura integrale da completare",
+      "acquired": "2026-11-19",
+      "linkState": "ok",
+      "linkLabel": "Fonte consultata il 19 novembre 2026"
+    },
+    {
+      "id": "asi-explora",
+      "title": "EXPLORA — esplorazione umana e robotica dello spazio",
+      "url": "https://www.asi.it/wp-content/uploads/2021/12/EXPLORA-libro-completo.pdf",
+      "source": "Agenzia Spaziale Italiana",
+      "language": "Italiano",
+      "areas": [
+        "astronautica",
+        "03",
+        "10"
+      ],
+      "level": "Facile",
+      "type": "PDF e dispense",
+      "year": "2018",
+      "description": "Volume illustrato di 108 pagine su esplorazione umana e robotica, Stazione Spaziale Internazionale, piante nello spazio e astrobiologia.",
+      "note": "Edizione 2018. Leggere cronologie, programmi e interpretazioni scientifiche nel contesto della data di pubblicazione. Le conclusioni sull’acqua liquida sotto la superficie di Marte richiedono un confronto con studi successivi.",
+      "scope": "PDF completo",
+      "sourcePage": "https://www.asi.it/wp-content/uploads/2021/12/EXPLORA-libro-completo.pdf",
+      "review": "Presentazione e struttura consultate; lettura integrale da completare",
+      "acquired": "2026-11-19",
+      "linkState": "ok",
+      "linkLabel": "Fonte consultata il 19 novembre 2026"
     }
   ]
 }

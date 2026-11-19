@@ -41,7 +41,20 @@
   id,title,url,source,description,areas:[area],type:url.includes('.pdf#page=')?'PDF e dispense':source==='NASA'?'Portali e strumenti':'Corsi e lezioni',
   language:['NASA','OpenStax'].includes(source)?'Inglese':'Italiano',level:'Facile',scope:url.includes('.pdf#page=')?'Passaggio del PDF':source==='NASA'?'Pagina ufficiale':source==='OpenStax'?'Capitolo di manuale':'Lezione AD ASTRA',review:'Approfondimento tematico'
  }));
- const resources = [...data.resources,...supplement];
+ const federation = window.AdAstraFederatedSearch;
+ const resourceKey = value => {
+  const url = new URL(value, location.href);
+  url.hash = '';
+  url.searchParams.delete('usp');
+  url.pathname = url.pathname.replace(/\/$/, '');
+  return url.href;
+ };
+ const resourceMap = new Map();
+ for (const resource of [...data.resources, ...supplement, ...Object.values(federation?.resources || {})]) {
+  const id = resourceKey(resource.url);
+  if (!resourceMap.has(id)) resourceMap.set(id, resource);
+ }
+ const resources = [...resourceMap.values()];
  const names=Object.fromEntries(data.areas.map(a=>[a.id,a.title]));
  const el=(tag,text,className)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(className)n.className=className;return n;};
  const link=(label,url)=>{const n=el('a',label);n.href=url;if(/^https?:/.test(url)){n.target='_blank';n.rel='noopener noreferrer';n.setAttribute('aria-label',label+' (sito esterno, nuova scheda)');}return n;};
@@ -64,19 +77,19 @@
  const controls={q,area,type,language,level,source,sort};
  const readFilters=()=>Object.fromEntries(Object.entries(controls).map(([key,c])=>[key,c.value]));
  let applied=readFilters(),limit=24,rows=[];
- function storeFilters(){const u=new URL(location.href);for(const[key,c]of Object.entries({q,area,type,language,level,source,sort})){if(c.value && !(key==='sort'&&c.value==='recommended'))u.searchParams.set(key,c.value);else u.searchParams.delete(key);}try{history.replaceState(null,'',u);}catch{}}
+ function storeFilters(){const u=new URL(location.href);for(const name of ['video','termine','t'])u.searchParams.delete(name);for(const[key,c]of Object.entries({q,area,type,language,level,source,sort})){if(c.value && !(key==='sort'&&c.value==='recommended'))u.searchParams.set(key,c.value);else u.searchParams.delete(key);}try{history.replaceState(null,'',u);}catch{}}
  function resourceCard(r){
   const article=el('article',undefined,'catalog-card');article.id='risorsa-'+r.id;
   const meta=el('div',undefined,'catalog-card-meta');meta.append(el('span',r.type,'resource-type'),el('span',r.language));
   const h=el('h3');h.append(link(r.title,r.url));const credit=el('p',r.source+(r.year?' · '+r.year:''),'catalog-credit');
   article.append(meta,h,credit);if(['restricted','unverified'].includes(r.linkState))article.append(el('p','Accesso alla fonte da verificare','catalog-access-note'));article.append(el('p',r.description,'catalog-description'));
-  const tags=el('div',undefined,'catalog-tags');r.areas.forEach(a=>{const button=el('button',names[a]);button.type='button';button.addEventListener('click',()=>{area.value=a;$('library-query').focus({preventScroll:true});root.scrollIntoView({behavior:'auto',block:'start'});});tags.append(button);});article.append(tags);
+  const tags=el('div',undefined,'catalog-tags');r.areas.filter(a=>names[a]).forEach(a=>{const button=el('button',names[a]);button.type='button';button.addEventListener('click',()=>{area.value=a;$('library-query').focus({preventScroll:true});root.scrollIntoView({behavior:'auto',block:'start'});});tags.append(button);});article.append(tags);
   const details=el('details',undefined,'resource-details');details.append(el('summary','Contenuti, livello e provenienza'));
   const dl=el('dl');for(const[label,value]of [['Formato',r.scope],['Livello',r.level],['Fonte / autore',r.source],['Consultazione',r.review],['Link',r.linkLabel||'Collegamento alla fonte originale']]){dl.append(el('dt',label),el('dd',value));}details.append(dl);
   if(r.note)details.append(el('p',r.note,'resource-note'));
   if(r.author)details.append(el('p','Relatore: '+r.author));
   if(r.linkState==='unverified'||r.linkState==='restricted')details.append(el('p','La verifica automatica non ha confermato l’accesso. Il sito può richiedere una verifica del browser o applicare restrizioni.','resource-note'));
-  if(r.linkState==='metadata')details.append(el('p','Titolo catalogato da un elenco pubblico; disponibilità attuale e riproduzione da verificare su YouTube.','resource-note'));
+  if(r.linkState==='metadata' && ['Video','Playlist'].includes(r.type))details.append(el('p','Titolo catalogato da un elenco pubblico; disponibilità attuale e riproduzione da verificare su YouTube.','resource-note'));
   details.append(link('Pagina di provenienza ↗',r.sourcePage||r.url));
   for(const rel of r.related||[])details.append(link(rel.label+' ↗',rel.url));
   article.append(details);
@@ -86,219 +99,120 @@
    const id = url.hostname === 'youtu.be' ? url.pathname.slice(1) : url.searchParams.get('v');
    if (window.AdAstraVideoIds?.has(id)) actions.append(link('Apri nella Videoteca →', 'videoteca.html?video=' + encodeURIComponent(id)));
   }
-  const a=r.areas[0];const lesson=link('Percorso AD ASTRA →',a==='astronautica'?'#astronautica':'area-'+a+'.html');lesson.setAttribute('aria-label','Esplora '+names[a]+' su AD ASTRA');actions.append(lesson);article.append(actions);return article;
- }
- function wikipediaCitation(match) {
-  const details = el('details', undefined, 'catalog-criteria');
-  const status = el('p', 'Caricamento della citazione…');
-  status.setAttribute('aria-live', 'polite');
-  details.append(el('summary', 'Citazione da Wikipedia'), status);
-  details.addEventListener('toggle', async () => {
-   if (!details.open || details.dataset.loaded) return;
-   details.dataset.loaded = 'true';
-   const params = new URLSearchParams({
-    action: 'query', format: 'json', formatversion: '2', origin: '*', redirects: '1',
-    prop: 'extracts|info|pageprops', exintro: '1', explaintext: '1', exsentences: '1',
-    ppprop: 'disambiguation', titles: match.name
-   });
-   try {
-    const response = await fetch('https://it.wikipedia.org/w/api.php?' + params);
-    if (!response.ok) throw new Error('Wikipedia indisponibile');
-    const page = (await response.json()).query?.pages?.[0];
-    const words = page?.extract?.trim().split(/\s+/) || [];
-    if (page?.missing || page?.pageprops?.disambiguation !== undefined || !page?.lastrevid || !words.length) {
-     status.textContent = 'Nessuna citazione disponibile per questa voce.';
-     return;
-    }
-    const excerpt = words.slice(0, 25).join(' ') + (words.length > 25 ? ' […]' : '');
-    const revision = 'https://it.wikipedia.org/w/index.php?oldid=' + encodeURIComponent(page.lastrevid);
-    const credit = el('p');
-    credit.append(link('Wikipedia · ' + page.title, revision), document.createTextNode(' · '),
-      link('CC BY-SA 4.0', 'https://creativecommons.org/licenses/by-sa/4.0/'));
-    status.replaceWith(el('blockquote', excerpt), credit);
-   } catch {
-    status.textContent = 'Citazione temporaneamente indisponibile. Chiudi e riapri per riprovare.';
-    delete details.dataset.loaded;
-   }
-  });
-  return details;
+  if (r.reference?.page) article.append(el('p', 'Passaggio a pagina ' + r.reference.page + ' del PDF. Il lettore della fonte può richiedere la selezione manuale della pagina.', 'catalog-access-note'));
+  const a = r.areas.find(area => names[area]);
+  if (a) {
+   const lesson = link('Percorso AD ASTRA →', a === 'astronautica' ? '#astronautica' : 'area-' + a + '.html');
+   lesson.setAttribute('aria-label', 'Esplora ' + names[a] + ' su AD ASTRA');
+   actions.append(lesson);
+  }
+  article.append(actions);
+  return article;
  }
  const conceptNotes = {
   'accrescimento': 'Quando il gas in orbita cede parte del suo momento angolare, può spostarsi verso il centro. In una stella giovane, parte del gas finisce sulla superficie e può lasciare un segnale ultravioletto. Vicino a un buco nero, invece, si osserva la radiazione del gas caldo prima che attraversi l’orizzonte. L’accrescimento è il trasferimento di materia; il disco è una delle strutture attraverso cui avviene.'
  };
- const reviewedConceptSources = {
-  'accrescimento': [
-   ['Come una stella giovane riceve materia dal disco', 'https://www.oacn.inaf.it/rsn/rsn-2/dischi-circumstellari/', 'INAF Capodimonte · IT'],
-   ['Trasferimento di materia e momento angolare nel disco', 'https://ceti.obspm.fr/public/ressources_lu/pages_planetologie-formation/impression.html', 'Observatoire de Paris · FR'],
-   ['Il percorso del gas verso un buco nero', 'https://science.nasa.gov/universe/black-holes/anatomy/', 'NASA Science · EN'],
-   ['Come riconoscere un disco di accrescimento dalle osservazioni', 'https://science.nasa.gov/mission/webb/science-overview/science-explainers/how-do-we-know-there-are-black-holes/', 'NASA Webb · EN'],
-   ['Un episodio di rapido accrescimento attorno a un oggetto di massa planetaria', 'https://www.eso.org/public/news/eso2516/', 'ESO · EN']
-  ],
-  'acromatico': [
-   ['Compensare la dispersione con due lenti', 'https://thesis.unipd.it/retrieve/ee7bf1eb-2f5b-4547-a7e2-1a0bd0c7fed6/Rossato_Matteo.pdf', 'Università di Padova · IT'],
-   ['Doppietto acromatico negli strumenti ottici', 'https://www.physics.brocku.ca/PPLATO/h-flap/phys6_4.html', 'Brock University · EN'],
-   ['Simulazione della correzione cromatica', 'https://micro.magnet.fsu.edu/primer/java/aberrations/chromatic/index.html', 'Florida State University · EN'],
-   ['Doppietto acromatico e numero di Abbe', 'https://www.iutenligne.net/rsc/rsc-public/rsc-externe/electronique/simulations-numeriques/optigeo/achromat.html', 'IUTenligne · FR'],
-   ['Obiettivo acromatico · terminologia e schema ottico', 'https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8875911/objectif-achromatique', 'Office québécois de la langue française · FR']
-  ],
-
-  'afocale': [
-   ['Laboratorio sui telescopi rifrattori · posizione dell’immagine intermedia', 'https://wp.optics.arizona.edu/mnofziger/wp-content/uploads/sites/31/2016/05/OPTI202L-Lab-4-Telescopes-SP11.pdf', 'University of Arizona · EN'],
-   ['Verificare con un diagramma che il telescopio sia afocale', 'https://omlc.ogi.edu/classroom/oslotut/telescope/summary.html', 'Oregon Medical Laser Center · EN'],
-   ['Il telescopio afocale della missione WISE', 'https://irsa.ipac.caltech.edu/data/WISE/docs/release/All-Sky/expsup/sec3_2.html', 'Caltech IPAC · documentazione WISE · EN'],
-   ['Sistemi afocali · fasci paralleli e ingrandimento angolare', 'https://wp.optics.arizona.edu/jgreivenkamp/wp-content/uploads/sites/11/2018/12/201-202-12-Afocal-Systems.pdf', 'University of Arizona · EN'],
-   ['Ripresa attraverso l’oculare con una fotocamera dotata di obiettivo', 'https://rasc.ca/sites/default/files/ardocuments/Patterson-vector.pdf', 'Royal Astronomical Society of Canada · EN']
-  ],
-
-  'nube-molecolare': [
-   ['Gas molecolare freddo e traccianti del monossido di carbonio', 'https://www.oas.inaf.it/it/ricerca/m1-it/evoluzione-galassie/lato-freddo/', 'INAF OAS Bologna'],
-   ['Come si formano i pilastri nelle nubi molecolari', 'https://science.nasa.gov/asset/webb/how-dense-pillars-form-in-molecular-clouds/', 'NASA, ESA e STScI · animazione EN'],
-   ['Mezzo interstellare, formazione stellare e astrochimica', 'https://almascience.eso.org/alma-science/ism-star-formation-and-astrochemistry', 'ALMA Science Portal · EN'],
-   ['Nubi molecolari come luoghi di formazione stellare', 'https://openstax.org/books/astronomy/pages/21-1-star-formation', 'OpenStax · EN'],
-   ['Osservare le nubi interstellari con l’effetto Doppler', 'https://science.nasa.gov/wp-content/uploads/2023/09/Electromagnetic_Math.pdf', 'NASA · esercizio su dati radio · EN']
-  ],
-
-  'nana-bianca': [
-   ['Nane bianche · evoluzione del Sole', 'https://www.oacn.inaf.it/rsn/rsn-2/nane-bianche/', 'INAF · Osservatorio Astronomico di Capodimonte'],
-   ['Nane bianche · dimensioni, densità e raffreddamento', 'https://science.nasa.gov/universe/stars/types/', 'NASA Science · EN'],
-   ['La fine delle stelle di piccola massa', 'https://openstax.org/books/astronomy-2e/pages/23-1-the-death-of-low-mass-stars', 'OpenStax · EN'],
-   ['Il raffreddamento e la cristallizzazione delle nane bianche', 'https://www.media.inaf.it/2024/04/02/cristalli-ghiaccio-nane-bianche/', 'Media INAF'],
-   ['Una nana bianca osservata con il Very Large Telescope', 'https://messenger.eso.org/public/news/eso2403/', 'ESO · EN']
-  ],
-
-  'adattamento-al-buio': [
-   ['Quanto è buio il buio?', 'https://edu.inaf.it/astrodidattica/luce-buio/', 'EduINAF'],
-   ['Adattamento al buio · Sensazione e percezione', 'https://www.uniba.it/it/docenti/curci-antonietta/attivita-didattica/psicologia-generale/slides-psicologia-generale-n.3-sensazione', 'Università di Bari'],
-   ['Adattamento al buio e torce rosse', 'https://www.nps.gov/articles/dark-adaptation-of-the-human-eye-and-the-value-of-red-flashlights.htm', 'National Park Service · EN'],
-   ['Condizioni di osservazione al telescopio', 'https://www.cambridge.org/core/books/abs/celestial-objects-for-modern-telescopes/observing-sites-and-conditions/3BCB860EC821DF6B7E580310193B9402', 'Cambridge University Press · EN'],
-   ['Pigmenti visivi e sensibilità nella visione notturna', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC11761961/', 'Studio sperimentale · PubMed Central · EN']
-  ]
- };
- function draw(update){
+ function clearResults() {
+  rows = [];
+  cards.replaceChildren();
+  glossaryHint.replaceChildren();
+  glossaryHint.hidden = true;
+  count.textContent = 'Imposta i filtri e premi «Avvia ricerca» per consultare le fonti.';
+  $('library-empty').hidden = true;
+  more.hidden = true;
+ }
+ function draw(update) {
   const query = key(applied.q);
-  const matches = window.AdAstraGlossarySearch.lookup(applied.q);
-  const term = matches.length === 1 ? key(matches[0].name) : (aliases[query] || query);
-  const words = tokenize(term).filter(word => !['di','del','della','la','il','le','un','una','e'].includes(word));
+  const matches = (federation || window.AdAstraGlossarySearch).lookup(applied.q);
   const match = matches.length === 1 ? matches[0] : null;
+  const term = match ? key(match.name) : (aliases[query] || query);
+  const words = tokenize(term).filter(word => !['di','del','della','la','il','le','un','una','e'].includes(word));
+  const selected = match && federation ? federation.sources(match.id) : [];
+  const references = new Map(selected.map(resource => [resourceKey(resource.url), resource]));
+  const variants = [words, ...Object.entries(aliases).filter(([, name]) => name === term).map(([alias]) => tokenize(alias))];
+  const contains = (field, tokens) => tokens.length > 0 && tokens.every(word => (' ' + field + ' ').includes(' ' + word + ' '));
+  const isRelevant = resource => !words.length || references.has(resourceKey(resource.url)) ||
+   variants.some(tokens => contains(resource.search, tokens)) ||
+   (!match && words.length === 1 && resource.search.includes(words[0]));
+  const selectedConcepts = match && federation ? federation.terms[match.id] : null;
   glossaryHint.replaceChildren();
   glossaryHint.hidden = !matches.length;
   if (matches.length > 1) {
-   glossaryHint.append(el('strong', 'Scegli la voce del glossario'));
-   for (const {id, name} of matches) glossaryHint.append(el('br'), link(name, 'glossario.html#' + encodeURIComponent(id)));
+   glossaryHint.append(el('strong', 'Scegli la voce del Glossario'));
+   for (const {id, name} of matches) {
+    glossaryHint.append(el('br'), link(name, 'biblioteca-online.html?' + new URLSearchParams({q: name}) + '#catalogo'));
+   }
   }
-  const sheet = match && window.AdAstraGlossary?.find(entry => entry.id === match.id);
   if (match) {
-   const {id, name} = match;
-   const [definition = sheet?.definition, lesson = sheet?.lesson] = window.AdAstraGlossarySummaries?.[id] || [];
-   glossaryHint.append(el('strong', name + ' · Glossario'));
-   if (definition) glossaryHint.append(el('p', definition));
+   const sheet = window.AdAstraGlossary?.find(entry => entry.id === match.id);
+   const [definition] = window.AdAstraGlossarySummaries?.[match.id] || [];
+   glossaryHint.append(el('h2', match.name + ' · Glossario'));
+   glossaryHint.append(el('p', sheet?.definition || definition || '', 'catalog-concept-definition'));
    const expanded = sheet?.sections?.[0]?.paragraphs?.[0];
-   if (expanded && expanded !== definition) glossaryHint.append(el('p', expanded));
-   glossaryHint.append(link('Apri la voce del glossario →', 'glossario.html#' + encodeURIComponent(id)));
-   if (lesson) glossaryHint.append(document.createTextNode(' · '), link('Leggi la lezione →', lesson));
-   const note = window.AdAstraWikipediaNote?.(id);
-   if (note) glossaryHint.append(note);
-   if (window.AdAstraWikipediaExcerpts?.[id] && typeof sheet?.source === 'string' && /^https?:[/][/]/i.test(sheet.source)) {
-    const reference = el('p');
-    reference.append(link('Fonte indicata nella scheda del glossario ↗', sheet.source));
-    glossaryHint.append(reference);
-   }
-   if (conceptNotes[id]) glossaryHint.append(el('p', conceptNotes[id]));
-   else if (id === 'acromatico') {
-    glossaryHint.append(el('p', 'Un doppietto acromatico sfrutta due vetri che separano i colori in misura diversa. In una configurazione classica, una lente convergente in vetro crown e una divergente in vetro flint avvicinano i fuochi di due lunghezze d’onda scelte. L’obiettivo rimane convergente e riduce gli aloni colorati attorno ai dettagli ad alto contrasto. Le altre lunghezze d’onda possono conservare un piccolo scarto di fuoco, chiamato spettro secondario.'));
-   } else if (!note) glossaryHint.append(wikipediaCitation(match));
-  }
-  const variants = [words, ...Object.entries(aliases).filter(([, label]) => label === term).map(([alias]) => tokenize(alias))];
-  const contains = (field, tokens) => tokens.every(word => (' '+field+' ').includes(' '+word+' '));
-  const score = resource => !words.length ? 0 : variants.some(tokens => contains(resource.titleKey,tokens)) ? 2 : 1;
-  const relevant = resource => variants.some(tokens => contains(resource.search,tokens)) || (!match && words.length === 1 && resource.search.includes(words[0]));
-  rows=indexed.filter(r=>relevant(r)&&(!applied.area||r.areas.includes(applied.area))&&(!applied.type||applied.type===r.type)&&(!applied.language||applied.language===r.language)&&(!applied.level||applied.level===r.level)&&(!applied.source||applied.source===r.source));
-  const order={'PDF e dispense':0,'Corsi e lezioni':1,'Portali e strumenti':2,'Approfondimenti':3,'Playlist':4,'Video':5};
-  const institutionalSources = /^(?:edu inaf|inaf|nasa|esa|eso)(?:$|\s+[·–-])/i;
-  const sourcePriority = resource => institutionalSources.test(resource.source) ? 0 : 1;
-  rows.sort((a,b)=>applied.sort==='title'?a.title.localeCompare(b.title,'it'):applied.sort==='source'?a.source.localeCompare(b.source,'it')||a.title.localeCompare(b.title,'it'):(score(b)-score(a))||(Number(['restricted','unverified'].includes(a.linkState))-Number(['restricted','unverified'].includes(b.linkState)))||(words.length ? sourcePriority(a)-sourcePriority(b) : 0)||((order[a.type]??3)-(order[b.type]??3))||(a.language==='Italiano'?0:1)-(b.language==='Italiano'?0:1)||a.title.localeCompare(b.title,'it'));
-  const handouts = match && !applied.source && !applied.type && !applied.area && !applied.language && !applied.level ? (window.AdAstraHandoutMatches?.[match.id] || []) : [];
-  const reviewed = match && !applied.source && !applied.type && !applied.area && !applied.language && !applied.level ? (reviewedConceptSources[match.id] || []) : [];
-  const sheetSource = match && !window.AdAstraWikipediaExcerpts?.[match.id] &&
-   !applied.source && !applied.type && !applied.area && !applied.language && !applied.level &&
-   typeof sheet?.source === 'string' && /^https?:[/][/]/i.test(sheet.source) ? sheet.source : '';
-  if (words.length && (rows.length || handouts.length || reviewed.length || sheetSource)) {
-   const references = el('ul');
-   const destinations = new Set();
-   const documentUrl = url => url.split('#')[0].replace(/[?&]usp=sharing$/, '');
-   for (const [title, url, sourceName] of reviewed) {
-    destinations.add(documentUrl(url));
-    const item = el('li');
-    item.append(link(title, url), document.createTextNode(' · ' + sourceName));
-    references.append(item);
-   }
-   for (const [title, url, page] of handouts) {
-    if (destinations.size >= 5) break;
-    const destination = documentUrl(url);
-    if (destinations.has(destination)) continue;
-    destinations.add(destination);
-    const item = el('li');
-    item.append(link(title, url), document.createTextNode(' · Dispensa INAF · testo a p. ' + page));
-    references.append(item);
-    if (destinations.size === 5) break;
-   }
-   if (sheetSource && destinations.size < 5 && !destinations.has(documentUrl(sheetSource))) {
-    destinations.add(documentUrl(sheetSource));
-    const item = el('li');
-    item.append(link('Consulta il riferimento della scheda del Glossario', sheetSource));
-    references.append(item);
-   }
-   for (const resource of rows) {
-    if (destinations.size === 5) break;
-    const destination = documentUrl(resource.url);
-    if (destinations.has(destination) || ['restricted', 'unverified'].includes(resource.linkState)) continue;
-    destinations.add(destination);
-    const item = el('li');
-    item.append(link(resource.title, resource.url), document.createTextNode(' · ' + resource.source));
-    references.append(item);
-    if (destinations.size === 5) break;
-   }
-   if (destinations.size) {
-    glossaryHint.hidden = false;
-    glossaryHint.append(el('h3', 'Puoi approfondire qui'), references);
+   if (expanded && expanded !== definition) glossaryHint.append(el('p', expanded, 'catalog-concept-definition'));
+   glossaryHint.append(link('Leggi la voce completa →', 'glossario.html#' + encodeURIComponent(match.id)));
+   const wiki = window.AdAstraWikipediaNote?.(match.id);
+   if (wiki) glossaryHint.append(wiki);
+   if (conceptNotes[match.id]) glossaryHint.append(el('p', conceptNotes[match.id]));
+   if (federation) {
+    const showVideos = !applied.source && !applied.area && !applied.language && !applied.level &&
+     (!applied.type || applied.type === 'Video');
+    const panel = federation.referencePanel(match.id, {filters: applied, includeVideos: showVideos,
+      includeLessons: !applied.source && !applied.type && !applied.area && !applied.language && !applied.level});
+    if (panel) glossaryHint.append(panel);
    }
   }
-  const video = match && window.AdAstraConceptVideos?.[match.id];
-  if (video) {
-   const related = el('p');
-   related.append(document.createTextNode('In Videoteca · '),
-      link(video.title, 'videoteca.html?video=' + encodeURIComponent(video.id)));
-   glossaryHint.append(related);
-  }
+  rows = indexed.map(resource => {
+    const reference = references.get(resourceKey(resource.url));
+    return reference ? {...resource, ...reference, search: resource.search} : resource;
+   }).filter(resource => isRelevant(resource) &&
+   (!applied.area || resource.areas.includes(applied.area)) &&
+   (!applied.type || applied.type === resource.type) &&
+   (!applied.language || applied.language === resource.language) &&
+   (!applied.level || applied.level === resource.level) &&
+   (!applied.source || applied.source === resource.source));
+  const order = {'PDF e dispense': 0, 'Approfondimenti': 1, 'Portali e strumenti': 2, 'Corsi e lezioni': 3, 'Video': 4, 'Playlist': 5};
+  const score = resource => resource.reference?.score || (contains(resource.titleKey || key(resource.title), words) ? 55 : 30);
+  rows.sort((a, b) => applied.sort === 'title' ? a.title.localeCompare(b.title, 'it') :
+   applied.sort === 'source' ? a.source.localeCompare(b.source, 'it') || a.title.localeCompare(b.title, 'it') :
+   Number(!/^https?:/.test(a.url)) - Number(!/^https?:/.test(b.url)) ||
+   score(b) - score(a) || (order[a.type] ?? 3) - (order[b.type] ?? 3) ||
+   a.title.localeCompare(b.title, 'it'));
   const videoIndex = window.AdAstraVideoTitles || {};
   const requestedVideo = !update ? params.get('video') : null;
-  const selectedTitle = requestedVideo && videoIndex[requestedVideo];
-  const matchesVideoFilter = !applied.type || applied.type === 'Video';
-  const videoResults = !applied.source && !applied.area && !applied.language && !applied.level && matchesVideoFilter && words.length
-   ? Object.entries(videoIndex).filter(([, title]) => contains(key(title), words)).slice(0, 5) : [];
-  if (selectedTitle && key(selectedTitle) === query && !videoResults.some(([id]) => id === requestedVideo)) {
-   videoResults.unshift([requestedVideo, selectedTitle]);
-   videoResults.length = Math.min(5, videoResults.length);
-  }
+  const videoResults = !match && !applied.source && !applied.area && !applied.language && !applied.level &&
+   (!applied.type || applied.type === 'Video') && words.length
+   ? Object.entries(videoIndex).filter(([id, title]) => id === requestedVideo || contains(key(title), words)).slice(0, 5) : [];
   if (videoResults.length) {
-   const results = el('ul');
+   const list = el('ul');
    for (const [id, title] of videoResults) {
     const row = el('li');
     row.append(link(title, 'videoteca.html?video=' + encodeURIComponent(id)));
-    results.append(row);
+    list.append(row);
    }
    glossaryHint.hidden = false;
-   glossaryHint.append(el('h3', 'Video nella Videoteca'), results);
+   glossaryHint.append(el('h3', 'Video nella Videoteca'), list);
   }
-  cards.replaceChildren(...rows.slice(0,limit).map(resourceCard));
-  count.textContent=rows.length+' risors'+(rows.length===1?'a trovata':'e trovate')+' · '+Math.min(limit,rows.length)+' mostrat'+(Math.min(limit,rows.length)===1?'a':'e');
-  $('library-empty').hidden=rows.length!==0;more.hidden=rows.length<=limit;
-  if(update)storeFilters();
+  cards.replaceChildren(...rows.slice(0, limit).map(resourceCard));
+  const linkedVideoCount = (!applied.source && !applied.area && !applied.language && !applied.level &&
+   (!applied.type || applied.type === 'Video') ? selectedConcepts?.videos?.length : 0) || videoResults.length;
+  count.textContent = rows.length + ' risors' + (rows.length === 1 ? 'a trovata' : 'e trovate') +
+   ' · ' + Math.min(limit, rows.length) + ' mostrate';
+  $('library-empty').hidden = rows.length > 0 || linkedVideoCount > 0;
+  more.hidden = rows.length <= limit;
+  if (update) storeFilters();
  }
  root.querySelector('form').addEventListener('submit',event=>{event.preventDefault();applied=readFilters();limit=24;draw(true);count.scrollIntoView({behavior:'auto',block:'center'});});
- reset.addEventListener('click',()=>{for(const c of[q,area,type,language,level,source])c.value='';sort.value='recommended';applied=readFilters();limit=24;rows=[];cards.replaceChildren();glossaryHint.hidden=true;glossaryHint.replaceChildren();count.textContent='Imposta i filtri e premi «Avvia ricerca» per consultare le fonti.';$('library-empty').hidden=true;more.hidden=true;storeFilters();q.focus({preventScroll:true});root.querySelector('form').scrollIntoView({behavior:'auto',block:'start'});});
+ reset.addEventListener('click',()=>{for(const c of[q,area,type,language,level,source])c.value='';sort.value='recommended';applied=readFilters();limit=24;clearResults();storeFilters();q.focus({preventScroll:true});root.querySelector('form').scrollIntoView({behavior:'auto',block:'start'});});
  document.querySelectorAll('[data-library-type]').forEach(b=>b.addEventListener('click',()=>{type.value=b.dataset.libraryType;q.focus({preventScroll:true});root.scrollIntoView({behavior:'auto',block:'start'});}));
  more.addEventListener('click',()=>{const old=limit;limit+=24;draw(false);const target=cards.children[old]?.querySelector('h3 a');target?.focus({preventScroll:true});});
  document.querySelectorAll('[data-library-source]').forEach(button=>button.addEventListener('click',()=>{for(const c of[q,area,type,language,level])c.value='';source.value=button.dataset.librarySource;root.scrollIntoView({behavior:'auto',block:'start'});$('library-search').focus({preventScroll:true});}));
- $('library-total').textContent=resources.length;draw(false);
+ $('library-total').textContent=resources.length;
+ const requestedSearch = ['q','area','type','language','level','source','video'].some(name => params.get(name)?.trim());
+ if (!requestedSearch) {
+  count.textContent = 'Imposta i filtri e premi «Avvia ricerca» per consultare le fonti.';
+  cards.replaceChildren();
+  $('library-empty').hidden = true;
+  more.hidden = true;
+ } else draw(false);
 })();

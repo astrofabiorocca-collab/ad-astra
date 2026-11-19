@@ -1,0 +1,14 @@
+.federation-references { margin:1.5rem 0; padding:clamp(1rem,3vw,1.5rem); border:1px solid #c4aa78; border-radius:.85rem; background:#fbfdff; color:#152e4c; }
+.federation-references h3 { margin:0 0 1rem; font-size:1.3rem; }
+.federation-references h4 { margin:1.2rem 0 .5rem; font-size:1.08rem; }
+.federation-references ul { padding-left:1.3rem; margin:.8rem 0; }
+.federation-references li { margin:.8rem 0; line-height:1.5; overflow-wrap:anywhere; }
+.federation-references a { color:#1456ae; text-decoration:underline; text-underline-offset:.17em; }
+.federation-references small { display:block; color:#54667c; font-size:.83rem; margin:.25rem 0; line-height:1.5; }
+.federation-references details { margin-top:1rem; }
+.federation-references summary { color:#164f91; cursor:pointer; font-weight:600; }
+.federation-references a:focus-visible,.federation-references summary:focus-visible { outline:2px solid #92631a; outline-offset:3px; }
+#video-related { max-height:16rem; overflow:auto; }
+#video-related .video-concept { display:inline-flex; flex-wrap:wrap; gap:.25rem .5rem; align-items:baseline; border:1px solid #c4aa7855; border-radius:.4rem; padding:.3rem .5rem; }
+.catalog-concept-definition { font-size:1rem; line-height:1.75; }
+@media(max-width:520px) { .federation-references { padding:1rem; } }

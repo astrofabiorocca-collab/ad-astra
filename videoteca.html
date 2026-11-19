@@ -1004,6 +1004,7 @@ a{color:inherit}a:hover{text-decoration-thickness:2px}button{font:inherit;cursor
 .profile-avatar.loiacono img {width:285%;height:auto;max-width:none;inset:auto;left:-155%;top:-99%}
 </style>  <link rel="stylesheet" href="assets/banner-comuni.css">
 <link rel="stylesheet" href="assets/rimandi-editoriali.css">
+<link rel="stylesheet" href="assets/biblioteca/federazione.css?v=20261119">
 </head>
 
 
@@ -1333,6 +1334,9 @@ a{color:inherit}a:hover{text-decoration-thickness:2px}button{font:inherit;cursor
 
   </footer>
 <script src="assets/biblioteca/video-concetti.js"></script>
+<script src="assets/biblioteca/federazione-dati.js?v=20261119"></script>
+<script src="assets/biblioteca/federazione-ricerca.js?v=20261119"></script>
+
 <script>
 const channel = 'https://www.youtube.com/@UnioneAstrofiliItaliani';
 const playlistVideos = {
@@ -2276,6 +2280,8 @@ for (const area of groups.values()) {
 const videoList = byId('playlist-videos');
 
 function loadVideo(title, path) {
+  const params = new URLSearchParams(location.search);
+  const seconds = params.get('video') === path ? Math.max(0, Math.min(86400, Math.floor(Number(params.get('t')) || 0))) : 0;
   if (location.protocol === 'file:') {
     const preview = document.createElement('a');
     preview.className = 'play';
@@ -2287,66 +2293,50 @@ function loadVideo(title, path) {
   }
   const player = document.createElement('iframe');
   player.title = title + ' · YouTube';
-  player.src = 'https://www.youtube-nocookie.com/embed/' + path;
+  player.src = 'https://www.youtube-nocookie.com/embed/' + path + (seconds ? '?start=' + seconds : '');
   player.allowFullscreen = true;
   player.referrerPolicy = 'strict-origin-when-cross-origin';
   byId('screen').replaceChildren(player);
   return player;
 }
 
-const videoTopics = [
-  [/\bmarte\b|\bmars\b/i, 'Marte', 'marte', 'lezione-3-2.html#marte', 20],
-  [/radiogalass/i, 'Radiogalassie', 'radiogalassia', null, 2],
-  [/esopianet|exoplanet/i, 'Esopianeti', 'esopianeta', null, 18],
-  [/cosmologi|big bang|evoluzione dell.universo/i, 'Cosmologia', null, null, 5, 9],
-  [/neutrin/i, 'Neutrini', 'neutrino', null, 21],
-  [/autoguid|guiding/i, 'Autoguida', 'autoguida', 'astrofotografia.html#telescopio'],
-  [/montatur.{0,20}equatorial|allineamento polare/i, 'Montatura equatoriale', 'montatura-equatoriale', 'strumentazione.html#montature'],
-  [/bilanciam|bilanciare/i, 'Montature e bilanciamento', null, 'strumentazione.html#montature'],
-  [/darkflat|flat frame|dark frame|calibraz/i, 'Calibrazione delle immagini', null, 'astrofotografia.html#calibrazione'],
-  [/pixinsight|elaboraz|stacking/i, 'Elaborazione delle immagini', null, 'astrofotografia.html#elaborazione'],
-  [/supernov/i, 'Supernova', 'supernova'],
-  [/galass/i, 'Galassia', 'galassia'],
-  [/nebulos/i, 'Nebulosa', 'nebulosa'],
-  [/parallass/i, 'Parallasse', 'parallasse'],
-  [/telescop/i, 'Capire un telescopio', null, 'lezione-7-3.html'],
-  [/astrofotograf/i, 'Astrofotografia', 'astrofotografia', 'astrofotografia.html#occhio-camera']
-];
-
-const videoHandouts = {"corso-inaf-2026-02": "Vita, morte e miracoli delle radiogalassie", "corso-inaf-2026-05": "Cosmologia: da un universo con centro a un universo senza centro", "corso-inaf-2026-09": "Età ed evoluzione dell’Universo", "corso-inaf-2026-18": "Atmosfere di esopianeti", "corso-inaf-2026-20": "Destinazione Marte… ma vivi o morti?", "corso-inaf-2026-21": "Neutrini, messaggeri dell’universo profondo"};
-
 function showVideoRelated(playlist, videoTitle = '', videoId = playlist.videoId) {
-  const title = videoTitle || playlist.title;
-  const links = new Map();
-  const reviewed = Object.entries(window.AdAstraConceptVideos || {}).find(([, item]) => item.title === title);
-  if (reviewed) {
-    const [concept, item] = reviewed;
-    links.set('biblioteca-online.html?q=' + encodeURIComponent(item.concept) + '#catalogo', item.concept + ' · Biblioteca');
-    links.set('glossario.html#' + encodeURIComponent(concept), item.concept + ' · Glossario');
-  }
-  for (const [pattern, label, glossary, lesson, ...handouts] of videoTopics) {
-    if (!pattern.test(title)) continue;
-    if (glossary) {
-      links.set('biblioteca-online.html?q=' + encodeURIComponent(label) + '#catalogo', label + ' · Biblioteca');
-      links.set('glossario.html#' + glossary, label + ' · Glossario');
-    }
-    if (lesson) links.set(lesson, label + ' · Lezione');
-    for (const number of handouts) {
-      const id = 'corso-inaf-2026-' + String(number).padStart(2, '0');
-      links.set('biblioteca-online.html#' + id, videoHandouts[id] + ' · Biblioteca');
-    }
-  }
-  if (videoId) {
-    const query = new URLSearchParams({q: title, video: videoId});
-    links.set('biblioteca-online.html?' + query + '#catalogo', 'Cerca questo video in Biblioteca');
-  }
+  const service = window.AdAstraFederatedSearch;
+  const video = service?.videos[videoId];
   const related = byId('video-related');
   related.replaceChildren();
-  for (const [href, label] of [...links].slice(0, videoId ? links.size : 4)) {
-    const anchor = document.createElement('a');
-    anchor.href = href;
-    anchor.textContent = label;
-    related.append(anchor);
+  const requestedTerm = new URLSearchParams(location.search).get('termine');
+  const concepts = [...(video?.concepts || [])].sort((a,b) =>
+    Number(b.id === requestedTerm) - Number(a.id === requestedTerm) ||
+    Number(b.basis === 'transcript') - Number(a.basis === 'transcript') ||
+    service.terms[a.id].name.localeCompare(service.terms[b.id].name, 'it'));
+  for (const reference of concepts) {
+    const term = service.terms[reference.id];
+    const group = document.createElement('span');
+    group.className = 'video-concept';
+    const library = document.createElement('a');
+    library.href = 'biblioteca-online.html?' + new URLSearchParams({q:term.name}) + '#catalogo';
+    library.textContent = term.name + ' · fonti';
+    const glossary = document.createElement('a');
+    glossary.href = 'glossario.html#' + reference.id;
+    glossary.textContent = 'definizione';
+    group.append(library, glossary);
+    if (reference.basis === 'transcript') {
+      const passage = document.createElement('a');
+      const params = new URLSearchParams({video: videoId, t: reference.seconds, termine:reference.id});
+      passage.href = 'videoteca.html?' + params;
+      passage.textContent = 'sottotitoli ' + service.timeLabel(reference.seconds);
+      passage.title = 'Occorrenza nei sottotitoli' + (video.automatic ? ' automatici, da verificare nel video' : '');
+      group.append(passage);
+    }
+    related.append(group);
+  }
+  if (videoId) {
+    const query = new URLSearchParams({q:videoTitle || video?.title || playlist.title, video:videoId});
+    const link = document.createElement('a');
+    link.href = 'biblioteca-online.html?' + query + '#catalogo';
+    link.textContent = 'Questo video nella Biblioteca →';
+    related.append(link);
   }
 }
 
@@ -2433,7 +2423,7 @@ function select(playlist, requestedVideo) {
   const play = document.createElement('button');
   play.type = 'button';
   play.className = 'play';
-  const requestedTitle = (playlistVideos[playlist.id] || []).find(([id]) => id === requestedVideo)?.[1];
+  const requestedTitle = (playlistVideos[playlist.id] || []).find(([id]) => id === requestedVideo)?.[1] || (playlist.videoId === requestedVideo ? playlist.title : '');
   play.textContent = requestedTitle ? '▶ ' + requestedTitle : '▶ Carica il lettore YouTube';
   if (requestedTitle) showVideoRelated(playlist, requestedTitle, requestedVideo);
   play.addEventListener('click', () => {
