@@ -22,13 +22,14 @@
    button.addEventListener('click', () => {
     const profile = profiles[name];
     opener = button;
-    title.textContent = name;
+    title.textContent = profile.title || name;
+    dialog.querySelector('h3').textContent = profile.booksHeading || 'Bibliografia essenziale';
     role.textContent = profile.role;
     bio.textContent = profile.bio;
     portrait.hidden = !profile.image;
     if (profile.image) {
      portrait.src = profile.image;
-     portrait.alt = 'Ritratto di ' + name;
+     portrait.alt = profile.imageAlt || 'Ritratto di ' + name;
     } else {
      portrait.removeAttribute('src');
      portrait.alt = '';

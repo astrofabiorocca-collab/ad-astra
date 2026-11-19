@@ -1,0 +1,54 @@
+footer.site-footer.banner-eclissi.footer-revised{
+ --footer-height:450px;container-type:normal;height:auto;min-height:450px;
+ grid-template-columns:24% minmax(0,1fr);gap:4%;padding:72px 3.5% 36px;align-items:start;align-content:start;
+ scroll-margin-top:65px;
+}
+footer.site-footer.banner-eclissi.footer-revised .footer-sky img{width:max(450px,56.339vw)}
+.footer-revised .footer-sky:after{background:linear-gradient(90deg,transparent 20%,#080b122b 42%,#080b1255 100%)}
+.footer-revised .footer-brand{align-self:center;min-width:0;padding-top:22px}
+.footer-revised .footer-brand p{font-size:clamp(.75rem,1.05vw,1rem);line-height:1.7;max-width:27ch}
+footer.site-footer.banner-eclissi.footer-revised .footer-navigation{grid-template-columns:1.12fr 1fr 1fr 1.25fr;gap:clamp(16px,2vw,34px);align-items:start;min-width:0}
+footer.site-footer.banner-eclissi.footer-revised .footer-column h3{
+ color:#f3d692;font-weight:700;font-size:clamp(.85rem,1.08vw,1.05rem);line-height:1.4;
+ margin:0 0 16px;min-height:2.8em;text-shadow:0 1px 3px #000,0 2px 10px #000a;
+}
+.footer-revised .footer-column{min-width:0}
+footer.site-footer.banner-eclissi.footer-revised .footer-column ul{display:block;width:auto;padding:0;margin:0;list-style:none;text-align:left}
+footer.site-footer.banner-eclissi.footer-revised .footer-column li{display:block;position:relative;padding-left:15px;margin:0 0 11px;line-height:1.4}
+.footer-revised .footer-column li:before{content:'✦';position:absolute;left:0;top:.43em;color:#dfbf7f;font-size:8px;line-height:1;text-shadow:0 1px 3px #000;pointer-events:none}
+footer.site-footer.banner-eclissi.footer-revised .footer-column a{color:#f3f4f7;font-size:clamp(.76rem,.95vw,.94rem);font-weight:400;line-height:1.45;text-decoration:none;text-shadow:0 1px 4px #000,0 2px 8px #000a;overflow-wrap:normal}
+footer.site-footer.banner-eclissi.footer-revised .footer-column a:hover{color:#ffe1a1;text-decoration:underline;text-underline-offset:4px}
+.footer-revised .footer-column a:focus-visible{outline:2px solid #ffe1a1;outline-offset:5px;border-radius:2px}
+footer.site-footer.banner-eclissi.footer-revised .footer-journals-label{color:#e9cc93;font-size:clamp(.7rem,.86vw,.84rem);line-height:1.5;font-weight:600;margin:19px 0 13px;padding-top:14px;border-top:1px solid #e2c68d50;text-shadow:0 1px 4px #000}
+.footer-revised .footer-journals small{display:block;font-size:clamp(.61rem,.75vw,.73rem);font-weight:400;line-height:1.5;color:#e0ddd5;margin-top:3px;text-shadow:0 1px 4px #000}
+.footer-revised .journal-owner{font-size:.85em;color:#d5dbe1}
+.footer-revised .facebook-group-link{display:inline-flex;align-items:center;gap:7px}
+.footer-revised .facebook-mini{display:inline-grid;place-items:center;background:#1877f2;border:1px solid #ffffff30;border-radius:50%;width:23px;height:23px;flex-shrink:0;color:#fff;font:bold 18px/1 Arial,sans-serif;text-shadow:none;box-shadow:0 2px 5px #0004}
+@media(min-width:1800px){footer.site-footer.banner-eclissi.footer-revised{padding-top:85px;padding-bottom:45px}footer.site-footer.banner-eclissi.footer-revised .footer-sky img{width:max(510px,56.339vw)}}
+@media(max-width:1100px){footer.site-footer.banner-eclissi.footer-revised{grid-template-columns:20% minmax(0,1fr);gap:3%;padding-inline:3%}.footer-revised .footer-brand p{margin-left:8%;max-width:24ch}.footer-revised .footer-column li:before{font-size:7px}footer.site-footer.banner-eclissi.footer-revised .footer-column li{padding-left:12px}}
+@media(max-width:900px){
+ footer.site-footer.banner-eclissi.footer-revised{grid-template-columns:1fr;gap:30px;padding:68px 6% 38px;height:auto;min-height:0}
+ .footer-revised .footer-brand{max-width:340px;width:100%;margin:0 auto;padding:0}
+ .footer-revised .footer-brand p{margin-left:25%;font-size:.85rem;max-width:25ch}
+ footer.site-footer.banner-eclissi.footer-revised .footer-navigation{grid-template-columns:repeat(2,minmax(0,1fr));gap:30px 34px}
+ footer.site-footer.banner-eclissi.footer-revised .footer-column h3{min-height:0;margin-bottom:16px;font-size:1rem;line-height:1.4}
+ footer.site-footer.banner-eclissi.footer-revised .footer-column a{font-size:.88rem}
+ footer.site-footer.banner-eclissi.footer-revised .footer-column li{margin-bottom:12px;padding-left:15px}
+ .footer-revised .footer-column li:before{font-size:8px}
+ footer.site-footer.banner-eclissi.footer-revised .footer-journals-label{font-size:.82rem;margin-top:19px}
+ .footer-revised .footer-journals small{font-size:.72rem}
+ footer.site-footer.banner-eclissi.footer-revised .footer-sky img{width:max(1100px,177.5vw)}
+}
+@media(max-width:520px){
+ footer.site-footer.banner-eclissi.footer-revised{padding:58px 5% 32px;gap:30px}
+ .footer-revised .footer-brand{max-width:300px}
+ footer.site-footer.banner-eclissi.footer-revised .footer-navigation{grid-template-columns:repeat(2,minmax(0,1fr));gap:30px 20px;overflow-wrap:normal}
+ footer.site-footer.banner-eclissi.footer-revised .footer-column h3{font-size:.86rem;min-height:2.8em;margin-bottom:13px}
+ footer.site-footer.banner-eclissi.footer-revised .footer-column a{font-size:.77rem;line-height:1.5}
+ footer.site-footer.banner-eclissi.footer-revised .footer-column li{padding-left:13px;margin-bottom:11px}
+ .footer-revised .footer-column li:before{font-size:7px}
+ footer.site-footer.banner-eclissi.footer-revised .footer-journals-label{font-size:.73rem;line-height:1.5;margin-top:17px}
+ .footer-revised .footer-journals small{font-size:.64rem;line-height:1.55}
+ .footer-revised .facebook-mini{width:19px;height:19px;font-size:15px}
+ .footer-revised .facebook-group-link{gap:5px}
+}

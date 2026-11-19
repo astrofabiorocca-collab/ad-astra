@@ -1,0 +1,213 @@
+.library-preview .online-intro::before { display:none; }
+.library-preview .online-intro { padding:2rem 0 1rem; }
+.library-preview .online-intro h1 { font-size:clamp(2rem,4vw,3rem); }
+.library-preview .online-intro p { max-width:65ch; }
+.library-preview .container { width:min(1180px,calc(100% - 2.5rem)); max-width:1180px; }
+.library-preview .catalog-section { padding:1.5rem 0 3rem; }
+.library-preview #catalog-title { font-size:clamp(1.8rem,3vw,2.4rem); }
+.library-preview .catalog-controls { padding:clamp(1rem,3vw,2rem); border-radius:1rem; box-shadow:0 10px 30px #1433580d; }
+.library-preview .catalog-controls label { font-size:1rem; }
+.library-preview .catalog-controls input,.library-preview .catalog-controls select { font-size:1rem; min-height:3rem; }
+.library-preview .catalog-control-actions button { padding:.8rem 1.3rem; font-size:1rem; }
+.library-preview .catalog-grid h3 { font-size:1.25rem; line-height:1.4; }
+.library-preview .library-access { display:grid; gap:1.25rem; padding:1rem 0 3rem; }
+.library-access-banner { display:flex; align-items:center; gap:2rem; padding:clamp(1.3rem,4vw,2.5rem); border:1px solid #b7cfe3; border-radius:1rem; color:#123458; text-decoration:none; background:#e8f2fa; }
+.library-access-banner img { width:clamp(110px,20vw,200px); height:auto; }
+.library-access-banner h2 { font-size:clamp(1.5rem,3vw,2rem); margin:0 0 .6rem; }
+.library-access-banner p { max-width:65ch; margin:0 0 1rem; line-height:1.6; }
+.library-access-banner span { font-weight:700; text-decoration:underline; text-underline-offset:.2em; }
+.library-access-banner.space { min-height:210px; color:white; background:linear-gradient(90deg,#071b32f2,#071b3290),url("controllo-missioni.jpg") center/cover; }
+.library-access-banner:hover { outline:2px solid #3f79a5; outline-offset:3px; }
+.library-preview #dispense { padding-bottom:3rem; }
+.library-preview .dispense-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+.library-preview .dispensa h4 { font-size:1.12rem; line-height:1.4; }
+.library-preview .dispensa p,.library-preview .dispensa a { font-size:1rem; }
+@media(max-width:600px){
+ .library-preview .container { width:calc(100% - 2rem); }
+ .library-access-banner { flex-direction:column; align-items:flex-start; gap:1rem; }
+ .library-preview .dispense-grid { grid-template-columns:1fr; }
+}
+
+.library-access-banner.inaf {
+ background:linear-gradient(90deg,#e9f3fcfa 12%,#e9f3fce0 46%,#e9f3fc30),url("banner-aula-magna.png") center/cover;
+ min-height:260px;
+}
+.library-access-banner.space {
+ background:linear-gradient(90deg,#071b32f5,#071b32c0 40%,#071b3230),url("banner-missioni.png") center/cover;
+ min-height:260px;
+}
+.library-access-banner div { max-width:62%; }
+.library-access-banner.inaf img { align-self:flex-start; background:#fff; border-radius:1rem; padding:.5rem; }
+.library-access-banner small { display:block; margin-top:1rem; font-size:.75rem; opacity:.85; }
+@media(max-width:600px){
+ .library-access-banner div { max-width:100%; }
+ .library-access-banner.inaf { background:linear-gradient(90deg,#e9f3fcf2,#e9f3fcd9),url("banner-aula-magna.png") center/cover; }
+ .library-access-banner.space { background:linear-gradient(90deg,#071b32eb,#071b32a6),url("banner-missioni.png") center/cover; }
+}
+
+/* Illustrazioni contenute sul lato destro dei banner. */
+.library-access-banner.inaf,
+.library-access-banner.space {
+ position:relative;
+ isolation:isolate;
+ overflow:hidden;
+ min-height:220px;
+ background:#edf4fb;
+ color:#123458;
+}
+.library-access-banner.inaf::before,
+.library-access-banner.space::before {
+ content:"";
+ position:absolute;
+ inset:0 0 0 42%;
+ z-index:-1;
+ background-position:center;
+ background-size:cover;
+ background-repeat:no-repeat;
+ opacity:.65;
+ mask-image:linear-gradient(90deg,transparent,#000 28%);
+}
+.library-access-banner.inaf::before {
+ background-image:linear-gradient(#ffffff38,#ffffff38),url("banner-aula-magna.png");
+}
+.library-access-banner.space::before {
+ background-image:linear-gradient(#ffffff70,#ffffff70),url("banner-missioni.png");
+}
+.library-access-banner div { max-width:60%; }
+@media(max-width:600px){
+ .library-access-banner.inaf,
+ .library-access-banner.space { min-height:0; }
+ .library-access-banner.inaf::before,
+ .library-access-banner.space::before { inset:0 0 0 28%; opacity:.24; }
+ .library-access-banner div { max-width:100%; }
+}
+
+.inaf-collection { min-width:0; }
+.inaf-collection > summary { cursor:pointer; list-style:none; }
+.inaf-collection > summary::-webkit-details-marker { display:none; }
+.inaf-collection > summary:focus-visible { outline:3px solid #3f79a5; outline-offset:4px; }
+.inaf-toggle-mark { display:inline-block; text-decoration:none; transition:transform .2s; }
+.inaf-collection[open] .inaf-toggle-mark { transform:rotate(180deg); }
+.inaf-collection[open] > summary { border-radius:1rem 1rem 0 0; }
+.inaf-lesson-panel { padding:clamp(1rem,3vw,2rem); border:1px solid #b7cfe3; border-top:0; border-radius:0 0 1rem 1rem; background:#fff; }
+.inaf-lesson-panel h3 { font-size:1.35rem; margin-top:0; }
+.inaf-lesson-panel .dispense-grid { display:grid; gap:1rem; grid-template-columns:repeat(2,minmax(0,1fr)); }
+@media(max-width:600px) {
+ .inaf-lesson-panel .dispense-grid { grid-template-columns:minmax(0,1fr); }
+}
+
+.library-preview .online-intro { position:relative; isolation:isolate; }
+.library-preview .online-intro::before {
+ display:block;
+ content:"";
+ position:absolute;
+ inset:0;
+ width:100%;
+ height:100%;
+ max-height:none;
+ z-index:-1;
+ background:linear-gradient(90deg,#edf4fcfa 8%,#edf4fce8 32%,#edf4fc5c 70%,#edf4fc33),url("banner-fonti-connesse.png") right center/auto 100% no-repeat;
+ opacity:1;
+ mask-image:linear-gradient(to bottom,#000 75%,transparent);
+}
+.library-preview .online-intro .container { position:relative; }
+.library-preview .online-intro > .container > p:not(.portal-eyebrow) { max-width:58ch; }
+.library-preview .intro-image-note { font-size:.75rem; color:#4d6480; margin-top:.8rem; }
+@media(max-width:600px){
+ .library-preview .online-intro::before {
+  background:linear-gradient(90deg,#edf4fcf0,#edf4fcc9),url("banner-fonti-connesse.png") center/cover no-repeat;
+ }
+}
+
+/* Introduzione: la rete di fonti accompagna la lettura del testo. */
+.library-preview .online-intro::before {
+ background:
+  linear-gradient(90deg,#edf4fcfc 0%,#edf4fcf2 35%,#edf4fcb8 65%,#edf4fc87),
+  url("banner-fonti-connesse.png") right center/auto 100% no-repeat;
+ mask-image:linear-gradient(to bottom,#000 65%,transparent);
+}
+@media(max-width:600px){
+ .library-preview .online-intro::before {
+  background:
+   linear-gradient(90deg,#edf4fcf5,#edf4fce0),
+   url("banner-fonti-connesse.png") center/cover no-repeat;
+ }
+}
+
+.library-preview .young-entry > .container {
+ position:relative;
+ isolation:isolate;
+ overflow:hidden;
+ display:grid;
+ grid-template-columns:minmax(0,1fr);
+ gap:1rem;
+ padding:clamp(1.5rem,4vw,2.5rem);
+ background:#e3eff8;
+ border-radius:1rem;
+ min-height:300px;
+ align-content:center;
+}
+.library-preview .young-entry > .container::before {
+ content:"";
+ position:absolute;
+ inset:0;
+ z-index:-1;
+ background:linear-gradient(90deg,#e3eff8 0%,#e3eff8f5 33%,#e3eff84d 58%,transparent 74%),url("banner-giovani-telescopio.png") right center/cover no-repeat;
+}
+.library-preview .young-entry > .container > div { max-width:53%; }
+.library-preview .young-entry h2 { font-size:clamp(1.6rem,3vw,2.1rem); }
+.library-preview .young-entry .young-entry-link { justify-self:start; }
+.library-preview .young-entry .young-illustration-note { font-size:.75rem; margin:.75rem 0 0; }
+@media(max-width:600px){
+ .library-preview .young-entry > .container { padding:1.25rem; padding-bottom:200px; }
+ .library-preview .young-entry > .container::before {
+  background:linear-gradient(to bottom,#e3eff8 0%,#e3eff8f5 42%,transparent 70%),url("banner-giovani-telescopio.png") right bottom/auto 230px no-repeat;
+ }
+ .library-preview .young-entry > .container > div { max-width:100%; }
+}
+
+.library-preview .online-intro a,
+.library-preview .catalog-heading > a,
+.library-preview .online-back,
+.library-preview .library-pathways a,
+.library-preview .institution-grid a,
+.library-preview .dispensa a {
+ color:#165dce;
+ font-weight:700;
+ text-decoration:underline;
+ text-underline-offset:.2em;
+}
+.library-preview .catalog-heading > a {
+ padding:.65rem 1rem;
+ border:1px solid #c4a064;
+ border-radius:.65rem;
+ background:#fff9ed;
+ color:#785016;
+ box-shadow:0 3px 8px #71532512;
+}
+.library-preview .catalog-criteria {
+ border:1px solid #bda16d;
+ border-radius:.9rem;
+ background:linear-gradient(135deg,#ffffff,#edf4fc);
+ padding:1rem 1.2rem;
+ box-shadow:0 6px 18px #18375814,inset 0 1px 0 #fff;
+}
+.library-preview .catalog-criteria > summary {
+ color:#1554ae;
+ font-weight:700;
+ font-size:1.05rem;
+ cursor:pointer;
+}
+.library-preview .library-access-banner span,
+.library-preview .young-entry-link {
+ color:#144fb0;
+ font-weight:700;
+}
+.library-preview .library-access-banner:focus-visible,
+.library-preview a:focus-visible,
+.library-preview summary:focus-visible {
+ outline:3px solid #b88629;
+ outline-offset:4px;
+}
+.library-preview .library-access-banner:hover span,
+.library-preview a:hover { color:#84550d; }

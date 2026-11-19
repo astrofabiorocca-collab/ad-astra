@@ -110,5 +110,16 @@ window.AdAstraAuthorProfiles = {
       "2023 Lampi di genio. Nuove storie di uomini e stelle — Carocci."
     ],
     "image": "assets/biblioteca/autori/massimo-capaccioli.webp"
+  },
+  "Opera collettiva": {
+    "title": "Geo4Map · Libreria Geografica",
+    "role": "Editoria cartografica e divulgazione scientifica · Novara",
+    "bio": "Geo4Map è una realtà editoriale e cartografica italiana con sede a Novara, attiva nella produzione di atlanti, carte geografiche e strumenti di consultazione. Nata nel 2009 come spin-off dell’Istituto Geografico De Agostini, ha acquisito nel 2014 il settore redazionale geo-cartografico dell’istituto e nel 2015 ha avviato il marchio Libreria Geografica, dedicato alle pubblicazioni divulgative, educative e scolastiche. Nella Biblioteca Federata AD ASTRA viene presentata come realtà editoriale responsabile di un’opera collettiva, non come singolo autore. L’indicazione «Autori vari» identifica infatti una pubblicazione alla quale non è attribuito, nei cataloghi consultati, un autore individuale univoco. Non è possibile ricostruire da questa sola dicitura l’identità dei singoli collaboratori. L’Atlante di astronomia unisce indicazioni utili all’osservazione del cielo, mappe delle 88 costellazioni riconosciute dall’Unione Astronomica Internazionale e approfondimenti su pianeti, oggetti del cielo profondo, astronomia e astronautica. La nuova edizione del 2026 affianca alle carte un apparato illustrativo con immagini ottenute anche dalle missioni spaziali.",
+    "books": [
+      "Atlante di astronomia. Guida pratica all’osservazione del cielo — nuova edizione, Libreria Geografica, 2026. Autori vari. ISBN 9788869856693. Altre edizioni documentate: edizione 2024, ISBN 9788869856105; edizione precedente, ISBN 9788869853470."
+    ],
+    "booksHeading": "Opera presente nella Biblioteca",
+    "image": "assets/biblioteca/autori/geo4map.webp",
+    "imageAlt": "Immagine dell’atlante dal dossier Geo4Map"
   }
 };

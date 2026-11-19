@@ -1,0 +1,15 @@
+{
+  "type": "Anteprima editoriale e collegamento alla pubblicazione originale",
+  "publisher": "Urania",
+  "issue": "21",
+  "date": "novembre 2026",
+  "author": "Fabio Rocca",
+  "article": "Riavvolgere la Via Lattea",
+  "source": "https://online.fliphtml5.com/dlzow/eseq/#p=90",
+  "viewerPage": 90,
+  "printedPage": 88,
+  "images": "Due schermate fornite dall’autore, utilizzate come anteprime statiche. Ritaglio di presentazione via CSS; file originali conservati.",
+  "template": "Banner personale statico; rivista aperta centrale con anteprima cliccabile; pila a sinistra con copertina ospitante; raccolta per anno e mese; rimando alla fonte. Nessuno sfogliatore interno e nessuna copia dell’articolo integrale.",
+  "linkVerification": "Usato il formato pubblico FlipHTML5 #p=90. La rivista è raggiungibile, ma l’avvio automatico alla pagina 90 non è stato confermato nei test: il lettore inizialmente mostra la copertina. Il riferimento pagina 90 del lettore / 88 stampata è sempre visibile nel provino.",
+  "footerPublisherHome": "https://www.urania-rivista.com/"
+}
