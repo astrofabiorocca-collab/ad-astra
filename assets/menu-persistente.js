@@ -1,6 +1,38 @@
 (() => {
   const menu = document.querySelector('.main-navigation') || document.querySelector('header:has(.navbar)');
   if (!menu) return;
+  const navigation = menu.matches('.main-navigation') ? menu : menu.querySelector('.navbar nav');
+  if (navigation) {
+    const links = Array.from(navigation.querySelectorAll('a[href]'));
+    const filename = value => {
+      const url = new URL(value, window.location.href);
+      return url.pathname.split('/').pop() || 'index.html';
+    };
+    const section = name => {
+      if (name === 'pubblicazioni-fabio-rocca.html') return 'pubblicazioni-ad-astra.html';
+      if (/^(lezione-|area-)/.test(name) || ['lezioni.html','glossario.html','laboratorio.html','quiz-astronomia.html'].includes(name)) return 'scuola-astronomia.html';
+      if (/^(biblioteca|videoteca)/.test(name)) return 'biblioteca.html';
+      if (/^poster/.test(name)) return 'poster.html';
+      return name;
+    };
+    const activate = selected => links.forEach(link => {
+      link.classList.toggle('active', link === selected);
+      if (link === selected) link.setAttribute('aria-current', 'page');
+      else link.removeAttribute('aria-current');
+    });
+    const markCurrent = () => {
+      const current = section(filename(window.location.href));
+      const selected = links.find(link => filename(link.href) === current)
+        || links.find(link => link.classList.contains('active'));
+      activate(selected);
+    };
+    markCurrent();
+    window.addEventListener('pageshow', markCurrent);
+    links.forEach(link => link.addEventListener('click', event => {
+      if (event.defaultPrevented || event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey || link.target === '_blank') return;
+      activate(link);
+    }));
+  }
   const measure = () => document.documentElement.style.setProperty('--site-menu-height', `${Math.ceil(menu.getBoundingClientRect().height)}px`);
   measure();
   if ('ResizeObserver' in window) new ResizeObserver(measure).observe(menu);
