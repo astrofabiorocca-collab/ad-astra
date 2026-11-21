@@ -2,25 +2,20 @@
  'use strict';
  const data = window.AdAstraFederation;
  if (!data) return;
- const normalize = value => String(value ?? '').normalize('NFD')
-  .replace(/[\u0300-\u036f]/g, '').toLocaleLowerCase('it')
-  .replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
- const aliases = new Map();
- const titles = new Map();
- for (const [id, term] of Object.entries(data.terms)) {
-  titles.set(normalize(term.name), id);
-  for (const label of term.aliases) {
-   const key = normalize(label);
-   if (!aliases.has(key)) aliases.set(key, new Set());
-   aliases.get(key).add(id);
-  }
- }
- function lookup(value) {
-  const query = normalize(value).replace(
-   /^(?:cos e|che cos e|cosa e|che cosa e|cosa sono|che cosa sono|definisci|definizione di|spiegami)\s+(?:(?:il|lo|la|i|gli|le|un|uno|una|l)\s+)?/, '');
-  const exact = titles.get(query);
-  const ids = exact ? [exact] : [...(aliases.get(query) || [])];
-  return ids.map(id => ({id, name: data.terms[id].name}));
+ const search = window.AdAstraGlossarySearch;
+ if (!search) return;
+ const {normalize, lookup, resolve} = search;
+ // Le nuove schede hanno fonti proprie; i rimandi dei concetti affini restano distinti.
+ for (const record of search.records.filter(e => e.added)) {
+  if (data.terms[record.id]) continue;
+  const refs = (record.sources || []).map((source, i) => {
+   const id = 'concetti-' + record.id + '-' + i;
+   data.resources[id] = {id,title:source.title,url:source.url,source:new URL(source.url).hostname,
+    type:'Approfondimenti',language:'Inglese',level:'Medio',areas:[record.lesson?.match(/^lezione-(\d+)-/)?.[1]?.padStart(2,'0')||'07'],description:'Fonte della scheda '+record.name};
+   return {resource:id,score:100,reason:'Fonte specifica della definizione'};
+  });
+  data.terms[record.id] = {name:record.name,aliases:record.aliases,sources:refs,related:(record.related||[]).flatMap(id=>(data.terms[id]?.sources||[]).slice(0,3).map(ref=>({...ref,name:search.get(id)?.name||id}))),videos:[],
+   lessons:record.lesson?[{title:'Percorso sul concetto',href:record.lesson}]:[]};
  }
  function documentLink(resource, page) {
   if (!page) return resource.url;
@@ -158,9 +153,9 @@
   return section;
  }
  window.AdAstraFederatedSearch = {
-  normalize, lookup, sources, matchesFilters, videoUrl, timeLabel, referencePanel,
+  normalize, lookup, resolve, sources, matchesFilters, videoUrl, timeLabel, referencePanel,
   terms: data.terms, resources: data.resources, videos: data.videos
  };
  // Existing entry points (including the assistant prototype) share the same aliases.
- window.AdAstraGlossarySearch = {normalize, lookup};
+ // AdAstraGlossarySearch rimane l’unico motore lessicale condiviso.
 })();

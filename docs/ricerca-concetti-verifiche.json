@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-21",
+  "entries": 1019,
+  "indexedLessons": 58,
+  "aliases": 980,
+  "relations": 5772,
+  "newDefinitions": [
+    "interferometro",
+    "spettrometro",
+    "spettroscopio",
+    "spettrometria",
+    "fotometro",
+    "polarimetria",
+    "bolometria",
+    "cosmologia"
+  ],
+  "bytes": 2264079,
+  "scope": "Motore condiviso sul repertorio completo; nessuna equivalenza automatica fra concetti affini.",
+  "originalEntriesPreserved": 1011,
+  "definitionReview": "Otto schede integrative; non nuova revisione scientifica integrale delle precedenti 1011.",
+  "sourcesAndVideos": "Associazioni e trascrizioni preesistenti conservate; le nuove schede hanno fonti proprie e accesso ai concetti collegati. Nessuna nuova trascrizione acquisita.",
+  "checks": [
+    "1019 titoli canonici",
+    "alias originali e confronto Biblioteca/pannello",
+    "1011 schede originali invariate",
+    "relazioni reciproche valide",
+    "DOM Glossario, Biblioteca e pannello",
+    "refusi e ambiguità espliciti",
+    "ricerca vuota e Azzera",
+    "58 testi didattici indicizzati",
+    "generatore idempotente",
+    "ordine dei moduli nei 95 HTML"
+  ],
+  "browser": "Pannello: inferferometro → suggerimento → Interferometro; Biblioteca → definizione e fonti → Glossario; paralasse → suggerimento. Larghezza osservata 709 px, nessun overflow; il controllo di viewport richiesto a 390 non ha modificato la larghezza effettiva e non viene dichiarato superato.",
+  "widget": "Interfaccia preesistente presente in Home e lezione-4-6; nessuna distribuzione automatica del pulsante nelle altre pagine."
+}

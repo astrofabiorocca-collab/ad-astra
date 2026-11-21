@@ -55972,5 +55972,272 @@ window.AdAstraGlossary = [
       }
     ],
     "checked": "2026-11-17"
+  },
+  {
+    "id": "interferometro",
+    "name": "Interferometro",
+    "aliases": [
+      "interferometri",
+      "interferometer"
+    ],
+    "definition": "Un interferometro è uno strumento o un sistema che combina segnali ondulatori per misurarne le differenze attraverso l’interferenza. In astronomia può collegare telescopi separati: la tecnica impiegata si chiama interferometria.",
+    "source": "https://www.eso.org/public/teles-instr/technology/interferometry/",
+    "lesson": "lezione-7-3.html",
+    "related": [
+      "interferometria",
+      "interferenza",
+      "risoluzione-angolare"
+    ],
+    "checked": "2026-11-21",
+    "editorialStatus": "scheda-integrativa",
+    "example": "Non è un semplice accostamento di fotografie. La relazione fra i segnali permette di ricavare dettagli angolari; contano la separazione degli strumenti, la lunghezza d’onda e la qualità della misura. La risoluzione ottenibile non equivale automaticamente alla capacità di raccogliere luce di uno specchio pieno altrettanto grande.",
+    "sections": [
+      {
+        "title": "Come leggere il concetto",
+        "paragraphs": [
+          "Non è un semplice accostamento di fotografie. La relazione fra i segnali permette di ricavare dettagli angolari; contano la separazione degli strumenti, la lunghezza d’onda e la qualità della misura. La risoluzione ottenibile non equivale automaticamente alla capacità di raccogliere luce di uno specchio pieno altrettanto grande."
+        ]
+      }
+    ],
+    "facts": [],
+    "sources": [
+      {
+        "title": "ESO · Interferometry",
+        "url": "https://www.eso.org/public/teles-instr/technology/interferometry/"
+      }
+    ]
+  },
+  {
+    "id": "spettrometro",
+    "name": "Spettrometro",
+    "aliases": [
+      "spettrometri",
+      "spectrometer"
+    ],
+    "definition": "Uno spettrometro misura come un segnale è distribuito nelle sue componenti spettrali. Nel contesto astronomico si tratta soprattutto della radiazione elettromagnetica: la misura collega intensità e lunghezza d’onda o frequenza.",
+    "source": "https://www.nist.gov/spectroscopy/what-spectroscopy",
+    "lesson": "lezione-4-3.html",
+    "related": [
+      "spettroscopia",
+      "spettrografo",
+      "risoluzione-spettrale"
+    ],
+    "checked": "2026-11-21",
+    "editorialStatus": "scheda-integrativa",
+    "example": "Lo spettro aiuta a riconoscere righe, composizione e condizioni fisiche. La calibrazione e la risoluzione spettrale limitano ciò che si può distinguere. Non va confuso con lo spettrometro di massa, che separa particelle secondo il rapporto fra massa e carica.",
+    "sections": [
+      {
+        "title": "Come leggere il concetto",
+        "paragraphs": [
+          "Lo spettro aiuta a riconoscere righe, composizione e condizioni fisiche. La calibrazione e la risoluzione spettrale limitano ciò che si può distinguere. Non va confuso con lo spettrometro di massa, che separa particelle secondo il rapporto fra massa e carica."
+        ]
+      }
+    ],
+    "facts": [],
+    "sources": [
+      {
+        "title": "NIST · Spectroscopy: A Measurement Powerhouse",
+        "url": "https://www.nist.gov/spectroscopy/what-spectroscopy"
+      }
+    ]
+  },
+  {
+    "id": "spettroscopio",
+    "name": "Spettroscopio",
+    "aliases": [
+      "spettroscopi",
+      "spectroscope"
+    ],
+    "definition": "Uno spettroscopio separa la luce nelle sue componenti e permette di osservarne lo spettro. Nella forma visuale un prisma o un reticolo disperde la luce, che viene osservata attraverso un sistema ottico.",
+    "source": "https://science.nasa.gov/learn/basics-of-space-flight/chapter12-1/",
+    "lesson": "lezione-4-3.html",
+    "related": [
+      "spettroscopia",
+      "spettrografo",
+      "reticolo-di-diffrazione"
+    ],
+    "checked": "2026-11-21",
+    "editorialStatus": "scheda-integrativa",
+    "example": "Il nome descrive lo strumento, mentre spettroscopia indica lo studio degli spettri. Uno spettrografo registra lo spettro; uno spettrometro ne misura le caratteristiche. Nell’uso moderno le denominazioni possono sovrapporsi secondo la configurazione dello strumento.",
+    "sections": [
+      {
+        "title": "Come leggere il concetto",
+        "paragraphs": [
+          "Il nome descrive lo strumento, mentre spettroscopia indica lo studio degli spettri. Uno spettrografo registra lo spettro; uno spettrometro ne misura le caratteristiche. Nell’uso moderno le denominazioni possono sovrapporsi secondo la configurazione dello strumento."
+        ]
+      }
+    ],
+    "facts": [],
+    "sources": [
+      {
+        "title": "NASA · Basics of Space Flight, Science Instruments",
+        "url": "https://science.nasa.gov/learn/basics-of-space-flight/chapter12-1/"
+      }
+    ]
+  },
+  {
+    "id": "spettrometria",
+    "name": "Spettrometria",
+    "aliases": [
+      "spectrometry"
+    ],
+    "definition": "La spettrometria è la misura quantitativa di uno spettro. Nell’osservazione astronomica misura il segnale in funzione della lunghezza d’onda o della frequenza; la spettroscopia comprende anche l’interpretazione fisica delle caratteristiche osservate.",
+    "source": "https://www.nist.gov/spectroscopy/what-spectroscopy",
+    "lesson": "lezione-4-3.html",
+    "related": [
+      "spettroscopia",
+      "spettro"
+    ],
+    "checked": "2026-11-21",
+    "editorialStatus": "scheda-integrativa",
+    "example": "Le due attività sono strettamente connesse, ma non sono lo stesso nome dello strumento: lo spettrometro produce misure. Per confrontare osservazioni servono riferimenti di calibrazione e una descrizione della risposta strumentale.",
+    "sections": [
+      {
+        "title": "Come leggere il concetto",
+        "paragraphs": [
+          "Le due attività sono strettamente connesse, ma non sono lo stesso nome dello strumento: lo spettrometro produce misure. Per confrontare osservazioni servono riferimenti di calibrazione e una descrizione della risposta strumentale."
+        ]
+      }
+    ],
+    "facts": [],
+    "sources": [
+      {
+        "title": "NIST · Spectroscopy: A Measurement Powerhouse",
+        "url": "https://www.nist.gov/spectroscopy/what-spectroscopy"
+      }
+    ]
+  },
+  {
+    "id": "fotometro",
+    "name": "Fotometro",
+    "aliases": [
+      "fotometri",
+      "photometer"
+    ],
+    "definition": "Un fotometro misura la radiazione ricevuta da una sorgente in una determinata banda. In astronomia permette di quantificare la brillanza apparente e seguirne le variazioni nel tempo, per esempio durante un transito o un’occultazione.",
+    "source": "https://science.nasa.gov/learn/basics-of-space-flight/chapter12-1/",
+    "lesson": "lezione-4-2.html",
+    "related": [
+      "fotometria",
+      "banda-fotometrica",
+      "curva-di-luce"
+    ],
+    "checked": "2026-11-21",
+    "editorialStatus": "scheda-integrativa",
+    "example": "Il fotometro è lo strumento; la fotometria è la tecnica di misura. Il confronto richiede di specificare banda, risposta del rivelatore e calibrazione. Il segnale ricevuto non coincide con la luminosità intrinseca della sorgente.",
+    "sections": [
+      {
+        "title": "Come leggere il concetto",
+        "paragraphs": [
+          "Il fotometro è lo strumento; la fotometria è la tecnica di misura. Il confronto richiede di specificare banda, risposta del rivelatore e calibrazione. Il segnale ricevuto non coincide con la luminosità intrinseca della sorgente."
+        ]
+      }
+    ],
+    "facts": [],
+    "sources": [
+      {
+        "title": "NASA · Basics of Space Flight, Photometers",
+        "url": "https://science.nasa.gov/learn/basics-of-space-flight/chapter12-1/"
+      }
+    ]
+  },
+  {
+    "id": "polarimetria",
+    "name": "Polarimetria",
+    "aliases": [
+      "polarimetry"
+    ],
+    "definition": "La polarimetria misura lo stato di polarizzazione della radiazione, cioè proprietà legate all’orientamento e all’andamento dell’oscillazione del campo elettrico. Può rivelare informazioni sulla diffusione della luce e sulla geometria di sorgenti e materiali.",
+    "source": "https://www.eso.org/public/teles-instr/technology/polarimetry/",
+    "lesson": "lezione-4-3.html",
+    "related": [
+      "polarimetro",
+      "polarizzazione",
+      "spettropolarimetria"
+    ],
+    "checked": "2026-11-21",
+    "editorialStatus": "scheda-integrativa",
+    "example": "Il polarimetro è lo strumento utilizzato. Per interpretare la misura occorre tenere conto della polarizzazione introdotta dal telescopio e dagli apparati. La spettropolarimetria combina questa misura con l’informazione sulla lunghezza d’onda.",
+    "sections": [
+      {
+        "title": "Come leggere il concetto",
+        "paragraphs": [
+          "Il polarimetro è lo strumento utilizzato. Per interpretare la misura occorre tenere conto della polarizzazione introdotta dal telescopio e dagli apparati. La spettropolarimetria combina questa misura con l’informazione sulla lunghezza d’onda."
+        ]
+      }
+    ],
+    "facts": [],
+    "sources": [
+      {
+        "title": "ESO · Polarimetry",
+        "url": "https://www.eso.org/public/teles-instr/technology/polarimetry/"
+      }
+    ]
+  },
+  {
+    "id": "bolometria",
+    "name": "Bolometria",
+    "aliases": [
+      "bolometry"
+    ],
+    "definition": "La bolometria usa il riscaldamento prodotto dall’assorbimento di radiazione per ricavarne una misura. Il rivelatore, chiamato bolometro, trasforma una piccola variazione termica in un segnale misurabile.",
+    "source": "https://www.esa.int/esapub/br/br154/br154.pdf",
+    "lesson": "lezione-4-3.html",
+    "related": [
+      "bolometro",
+      "magnitudine-bolometrica",
+      "infrarosso"
+    ],
+    "checked": "2026-11-21",
+    "editorialStatus": "scheda-integrativa",
+    "example": "La sensibilità dipende dal collegamento termico, dal rumore e dalle condizioni di funzionamento. Uno specifico bolometro ha una risposta strumentale limitata: la misura non coincide automaticamente con tutta l’energia emessa da una stella a ogni lunghezza d’onda.",
+    "sections": [
+      {
+        "title": "Come leggere il concetto",
+        "paragraphs": [
+          "La sensibilità dipende dal collegamento termico, dal rumore e dalle condizioni di funzionamento. Uno specifico bolometro ha una risposta strumentale limitata: la misura non coincide automaticamente con tutta l’energia emessa da una stella a ogni lunghezza d’onda."
+        ]
+      }
+    ],
+    "facts": [],
+    "sources": [
+      {
+        "title": "ESA · Technologies, bolometers",
+        "url": "https://www.esa.int/esapub/br/br154/br154.pdf"
+      }
+    ]
+  },
+  {
+    "id": "cosmologia",
+    "name": "Cosmologia",
+    "aliases": [
+      "cosmologia fisica",
+      "cosmology"
+    ],
+    "definition": "La cosmologia studia l’Universo nel suo insieme: struttura su grande scala, evoluzione e proprietà fisiche. Confronta modelli teorici con osservazioni, fra cui espansione cosmica, radiazione di fondo e distribuzione delle galassie.",
+    "source": "https://asd.gsfc.nasa.gov/archive/mather/cosmology/",
+    "lesson": "lezione-6-5.html",
+    "related": [
+      "universo",
+      "big-bang"
+    ],
+    "checked": "2026-11-21",
+    "editorialStatus": "scheda-integrativa",
+    "example": "Non coincide con lo studio di un singolo astro e non offre risposte già definitive su ogni aspetto delle origini. Una spiegazione scientifica deve produrre conseguenze osservabili e restare confrontabile con i dati e le loro incertezze.",
+    "sections": [
+      {
+        "title": "Come leggere il concetto",
+        "paragraphs": [
+          "Non coincide con lo studio di un singolo astro e non offre risposte già definitive su ogni aspetto delle origini. Una spiegazione scientifica deve produrre conseguenze osservabili e restare confrontabile con i dati e le loro incertezze."
+        ]
+      }
+    ],
+    "facts": [],
+    "sources": [
+      {
+        "title": "NASA Goddard · Cosmology",
+        "url": "https://asd.gsfc.nasa.gov/archive/mather/cosmology/"
+      }
+    ]
   }
 ];

@@ -1,0 +1,50 @@
+.universe-launcher {
+  position: fixed;
+  z-index: 20;
+  right: max(1rem, env(safe-area-inset-right));
+  bottom: calc(1rem + env(safe-area-inset-bottom));
+  display: grid;
+  place-items: center;
+  width: 3.75rem;
+  height: 3.75rem;
+  padding: .18rem;
+  border: 1px solid #c4a25f;
+  border-radius: 50%;
+  background: #0a1728;
+  box-shadow: 0 .3rem 1rem #0005;
+  cursor: pointer;
+}
+.universe-launcher img { width: 100%; height: 100%; object-fit: contain; }
+.universe-panel {
+  box-sizing: border-box;
+  position: fixed;
+  inset: auto 1rem calc(5.5rem + env(safe-area-inset-bottom)) auto;
+  margin: 0;
+  width: min(24rem, calc(100% - 2rem));
+  max-height: 75dvh;
+  overflow: auto;
+  padding: 1rem;
+  border: 1px solid #c4a25f;
+  border-radius: 1rem;
+  background: #102036;
+  color: #f5f7fa;
+  font: 1rem/1.45 system-ui, sans-serif;
+}
+.universe-panel::backdrop { background: #03102166; }
+.universe-panel header { display: flex; justify-content: space-between; gap: 1rem; align-items: center; }
+.universe-panel h2 { font-size: 1.25rem; margin: 0; }
+.universe-panel input, .universe-panel button { font: inherit; border-radius: .45rem; padding: .45rem .65rem; }
+.universe-panel button { color: #142339; background: #efd7a1; border: 0; cursor: pointer; }
+.universe-panel form { margin: 0; }
+.universe-panel .universe-search { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: .5rem; margin-top: 1rem; }
+.universe-search label { grid-column: 1 / -1; }
+.universe-answer a { display: block; color: #c1e3ff; text-decoration: underline; margin: .45rem 0; }
+@media (max-width: 540px) {
+  .universe-panel { inset: auto .75rem calc(.75rem + env(safe-area-inset-bottom)) .75rem; width: auto; }
+}
+
+.universe-panel .concept-suggestions{padding:.6rem 0}.universe-panel .concept-suggestions p{margin:.6rem 0}
+.universe-panel ul{padding-left:1.2rem}.universe-panel li{margin:.45rem 0}
+.universe-panel .universe-answer>a{display:block;margin-top:.65rem;color:#b9dcfa}
+.universe-panel .universe-answer h3{margin:.8rem 0 .35rem}.universe-panel .universe-answer p{margin:.35rem 0 .65rem}
+.universe-panel summary{cursor:pointer;margin-top:.75rem;font-weight:700}.universe-panel .universe-answer button{white-space:normal;text-align:left}

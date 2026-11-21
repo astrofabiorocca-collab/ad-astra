@@ -12,3 +12,8 @@
 #video-related .video-concept { display:inline-flex; flex-wrap:wrap; gap:.25rem .5rem; align-items:baseline; border:1px solid #c4aa7855; border-radius:.4rem; padding:.3rem .5rem; }
 .catalog-concept-definition { font-size:1rem; line-height:1.75; }
 @media(max-width:520px) { .federation-references { padding:1rem; } }
+
+.concept-suggestions{margin:1rem 0;padding:1rem;border:1px solid #b4c7dd;border-radius:.7rem;background:#f4f8ff;color:#183247}
+.concept-suggestions>p:first-child{font-weight:700}.concept-suggestions li{margin:.4rem 0}
+.concept-suggestions a{color:#165bb2;text-decoration:underline;text-underline-offset:3px}
+.concept-suggestions button{font:inherit;text-align:left;cursor:pointer}

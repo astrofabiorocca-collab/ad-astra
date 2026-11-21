@@ -123,9 +123,11 @@
  }
  function draw(update) {
   const query = key(applied.q);
-  const matches = (federation || window.AdAstraGlossarySearch).lookup(applied.q);
+  const search = window.AdAstraGlossarySearch;
+  const resolution = search.resolve(applied.q);
+  const matches = resolution.matches;
   const match = matches.length === 1 ? matches[0] : null;
-  const term = match ? key(match.name) : (aliases[query] || query);
+  const term = match ? key(match.name) : (aliases[query] || search.queryKey(applied.q));
   const words = tokenize(term).filter(word => !['di','del','della','la','il','le','un','una','e'].includes(word));
   const selected = match && federation ? federation.sources(match.id) : [];
   const references = new Map(selected.map(resource => [resourceKey(resource.url), resource]));
@@ -136,7 +138,8 @@
    (!match && words.length === 1 && resource.search.includes(words[0]));
   const selectedConcepts = match && federation ? federation.terms[match.id] : null;
   glossaryHint.replaceChildren();
-  glossaryHint.hidden = !matches.length;
+  glossaryHint.hidden = !matches.length && !resolution.suggestions.length && !search.documents(applied.q).length;
+  search.renderSuggestions(glossaryHint,resolution,{href:(id,name)=>'biblioteca-online.html?'+new URLSearchParams({...applied,q:name})+'#catalogo'});
   if (matches.length > 1) {
    glossaryHint.append(el('strong', 'Scegli la voce del Glossario'));
    for (const {id, name} of matches) {
@@ -151,6 +154,12 @@
    const expanded = sheet?.sections?.[0]?.paragraphs?.[0];
    if (expanded && expanded !== definition) glossaryHint.append(el('p', expanded, 'catalog-concept-definition'));
    glossaryHint.append(link('Leggi la voce completa →', 'glossario.html#' + encodeURIComponent(match.id)));
+   const relations = search.related(match.id);
+   if(relations.length){
+    const details=el('details'),summary=el('summary','Concetti collegati'),list=el('ul');
+    for(const item of relations){const row=el('li');row.append(link(item.name,'biblioteca-online.html?'+new URLSearchParams({q:item.name})+'#catalogo'));list.append(row);}
+    details.append(summary,list);glossaryHint.append(details);
+   }
    const wiki = window.AdAstraWikipediaNote?.(match.id);
    if (wiki) glossaryHint.append(wiki);
    if (conceptNotes[match.id]) glossaryHint.append(el('p', conceptNotes[match.id]));
@@ -162,7 +171,9 @@
     if (panel) glossaryHint.append(panel);
    }
   }
-  rows = indexed.map(resource => {
+  const seen = new Set(indexed.map(r=>resourceKey(r.url)));
+  const additional = selected.filter(r=>!seen.has(resourceKey(r.url))).map(r=>({...r,search:key([r.title,r.description].join(' '))}));
+  rows = [...indexed,...additional].map(resource => {
     const reference = references.get(resourceKey(resource.url));
     return reference ? {...resource, ...reference, search: resource.search} : resource;
    }).filter(resource => isRelevant(resource) &&
