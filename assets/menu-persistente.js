@@ -26,6 +26,26 @@
         || links.find(link => link.classList.contains('active'));
       activate(selected);
     };
+    const list=navigation.querySelector('ul');
+    const mobile=window.matchMedia('(max-width: 1000px)');
+    let toggle,currentLabel;
+    if(list){
+      menu.classList.add('site-mobile-menu');
+      list.id='site-primary-menu';
+      toggle=document.createElement('button');toggle.type='button';toggle.className='site-menu-toggle';toggle.setAttribute('aria-controls',list.id);toggle.setAttribute('aria-expanded','false');
+      const caption=document.createElement('span');caption.textContent='☰ MENU';
+      currentLabel=document.createElement('span');currentLabel.className='site-menu-current';toggle.append(caption,currentLabel);
+      navigation.insertBefore(toggle,list);
+      const close=()=>{menu.classList.remove('site-menu-open');toggle.setAttribute('aria-expanded','false');};
+      toggle.addEventListener('click',()=>{const open=!menu.classList.contains('site-menu-open');menu.classList.toggle('site-menu-open',open);toggle.setAttribute('aria-expanded',String(open));});
+      menu.addEventListener('keydown',event=>{if(event.key==='Escape'){close();toggle.focus();}});
+      document.addEventListener('click',event=>{if(!menu.contains(event.target))close();});
+      links.forEach(link=>link.addEventListener('click',close));
+      const sync=()=>{close();const selected=links.find(a=>a.getAttribute('aria-current')==='page');currentLabel.textContent=selected?.textContent.trim()||'AD ASTRA';};
+      mobile.addEventListener?.('change',sync);window.addEventListener('pageshow',sync);
+      // Measurement concerns the collapsed menu bar: the list opens above the page.
+      requestAnimationFrame(sync);
+    }
     markCurrent();
     window.addEventListener('pageshow', markCurrent);
     links.forEach(link => link.addEventListener('click', event => {
