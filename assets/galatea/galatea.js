@@ -12,7 +12,7 @@
  const safeUrl=value=>{try{const u=new URL(value,siteRoot);return ['http:','https:'].includes(u.protocol)?u.href:null;}catch{return null;}};
  let messages=Array.isArray(saved.messages)?saved.messages.filter(m=>m&&['user','galatea'].includes(m.role)&&typeof m.text==='string').slice(-36):[];
  if(!messages.length)messages=[{role:'galatea',text:welcome}];
- let opened=false,busy=false,enginePromise,booksPromise,sitePromise;
+ let opened=false,busy=false,enginePromise,booksPromise,sitePromise,referencesPromise;
 
 
  const el=(tag,text,cls)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;};
@@ -68,22 +68,27 @@
  }
  async function getSiteSearch(){
   if(window.AdAstraSiteSearch)return window.AdAstraSiteSearch;
-  if(!sitePromise)sitePromise=loadScript('assets/galatea/contenuti-sito.js?v=20261124b').then(()=>loadScript('assets/galatea/ricerca-sito.js?v=20261124b')).then(()=>window.AdAstraSiteSearch).catch(e=>{sitePromise=null;throw e;});
+  if(!sitePromise)sitePromise=loadScript('assets/galatea/contenuti-sito.js?v=20261124c').then(()=>loadScript('assets/galatea/ricerca-sito.js?v=20261124c')).then(()=>window.AdAstraSiteSearch).catch(e=>{sitePromise=null;throw e;});
   return sitePromise;
  }
- async function siteResults(query){try{return (await getSiteSearch()).search(query);}catch{return {passages:[],videos:[]};}}
+ async function siteResults(query,options){try{return (await getSiteSearch()).search(query,options);}catch{return {passages:[],videos:[]};}}
+ async function referenceLinks(query){
+  try{if(!window.AdAstraFederatedSearch){if(!referencesPromise)referencesPromise=loadScript('assets/biblioteca/federazione-dati.js?v=20261119').then(()=>loadScript('assets/biblioteca/federazione-ricerca.js?v=20261121')).catch(e=>{referencesPromise=null;throw e;});await referencesPromise;}
+   return (await getSiteSearch()).external(query,2).map(r=>siteLink(r.source+' · '+r.title,r.url));
+  }catch{return [];}
+ }
  const excerpt=text=>{if(text.length<=780)return text;const end=text.lastIndexOf('. ',780);return text.slice(0,end>250?end+1:780)+(end>250?'':'…');};
  const passageLinks=(result,limit=3)=>result.passages.slice(0,limit).map(p=>siteLink(p.page+' · '+p.section,p.href));
- const videoLinks=result=>result.videos.slice(0,2).map(v=>siteLink('Videoteca · '+v.title,v.href));
+ const videoLinks=result=>result.videos.slice(0,2).map(v=>siteLink('Videoteca · '+v.title+(v.basis==='transcript'?' · sottotitoli '+(v.automatic?'automatici ':'')+'da '+Math.floor(v.seconds/60)+':'+String(v.seconds%60).padStart(2,'0'):''),v.href));
  const siteLink=(label,href)=>({label,href:new URL(href,siteRoot).href});
- const routes=[['biblioteca federata','biblioteca-online.html','Biblioteca Federata'],['biblioteca online','biblioteca-online.html','Biblioteca Federata'],['biblioteca','biblioteca.html','Biblioteca'],['videoteca','videoteca.html','Videoteca'],['glossario','glossario.html','Glossario scientifico'],['scuola di astronomia','scuola-astronomia.html','Scuola di Astronomia'],['scuola','scuola-astronomia.html','Scuola di Astronomia'],['lezioni','lezioni.html','Lezioni'],['laboratorio','laboratorio.html','Laboratorio didattico'],['poster','poster.html','Poster educativi'],['pubblicazioni di fabio rocca','pubblicazioni-fabio-rocca.html','Le pubblicazioni di Fabio Rocca'],['le mie pubblicazioni','pubblicazioni-fabio-rocca.html','Le pubblicazioni di Fabio Rocca'],['pubblicazioni di ad astra','pubblicazioni-ad-astra.html','Blog e pubblicazioni'],['pubblicazioni ad astra','pubblicazioni-ad-astra.html','Blog e pubblicazioni'],['pubblicazioni','pubblicazioni-ad-astra.html','Blog e pubblicazioni'],['notizie','notizie.html','Notizie'],['magazine','ventunesimo.html','Magazine'],['chi cura ad astra','chi-cura-ad-astra.html','Chi cura AD ASTRA'],['contatti','contatti.html','Contatti'],['home','index.html','Home']];
+ const routes=[['biblioteca federata','biblioteca-online.html','Biblioteca Federata'],['biblioteca online','biblioteca-online.html','Biblioteca Federata'],['biblioteca','biblioteca.html','Biblioteca'],['videoteca','videoteca.html','Videoteca'],['software','software.html','Software'],['glossario','glossario.html','Glossario scientifico'],['scuola di astronomia','scuola-astronomia.html','Scuola di Astronomia'],['scuola','scuola-astronomia.html','Scuola di Astronomia'],['lezioni','lezioni.html','Lezioni'],['laboratorio','laboratorio.html','Laboratorio didattico'],['poster','poster.html','Poster educativi'],['pubblicazioni di fabio rocca','pubblicazioni-fabio-rocca.html','Le pubblicazioni di Fabio Rocca'],['le mie pubblicazioni','pubblicazioni-fabio-rocca.html','Le pubblicazioni di Fabio Rocca'],['pubblicazioni di ad astra','pubblicazioni-ad-astra.html','Blog e pubblicazioni'],['pubblicazioni ad astra','pubblicazioni-ad-astra.html','Blog e pubblicazioni'],['pubblicazioni','pubblicazioni-ad-astra.html','Blog e pubblicazioni'],['notizie','notizie.html','Notizie'],['magazine','ventunesimo.html','Magazine'],['chi cura ad astra','chi-cura-ad-astra.html','Chi cura AD ASTRA'],['contatti','contatti.html','Contatti'],['home','index.html','Home']];
  function routeCommand(q){const value=q.replace(/^(?:apri|mostra|mostrami|vai|portami)\s+/,'').replace(/^(?:a|al|alla|alle|nel|nella|nelle|il|la|le|lo)\s+/,'');return value!==q?routes.find(r=>r[0]===value):null;}
  function topicQuery(q,mode){let t=q;if(mode==='lesson')t=t.replace(/^.*?lezion\w*\s*/,'');else if(mode==='book')t=t.replace(/^.*?libr\w*\s*/,'').replace(/^(?:sono|e|disponibili|disponibile|ci sono|avete|presenti)\s*/g,'');return t.replace(/^(?:sono\s+)?(?:disponibili\s+)?(?:su|sui|sugli|sulle|sul|sulla|sullo|di|del|della|dei|delle|gli|i|le|il|la|un|una)\s+/,'').trim();}
  async function answerQuestion(text){
   const q=normal(text),route=routeCommand(q);
   if(route)return {text:'Ti accompagno nella sezione '+route[2]+'. Puoi continuare a consultarmi mentre esplori.',links:[siteLink('Apri '+route[2],route[1])],navigate:route[1]};
   if(/^(ciao|buongiorno|buonasera|salve|buon pomeriggio)$/.test(q))return {text:welcome,choices:[{label:'Che cos’è una nana bianca?',query:'nana bianca'},{label:'Apri la Biblioteca',query:'apri la biblioteca'}]};
-  if(/^(chi sei|cosa puoi fare|come funzioni|chi e galatea|che cosa puoi fare)$/.test(q))return {text:'Sono l’operatrice digitale per consultare e navigare AD ASTRA. Cerco nelle schede del Glossario, nei passaggi delle pagine del sito e nei titoli disponibili della Videoteca, propongo fonti e riconosco comandi come “Apri la biblioteca”. Non genero nuove spiegazioni scientifiche e non uso un modello generativo.',links:[siteLink('Scopri il progetto AD ASTRA','chi-cura-ad-astra.html')]};
+  if(/^(chi sei|cosa puoi fare|come funzioni|chi e galatea|che cosa puoi fare)$/.test(q))return {text:'Sono l’operatrice digitale per consultare e navigare AD ASTRA. Cerco nelle schede del Glossario, nei passaggi delle pagine del sito e nelle schede software, nei poster catalogati e nei titoli e sottotitoli disponibili della Videoteca, propongo fonti e riconosco comandi come “Apri la biblioteca”. Non genero nuove spiegazioni scientifiche e non uso un modello generativo.',links:[siteLink('Scopri il progetto AD ASTRA','chi-cura-ad-astra.html')]};
   const search=await getEngine();
   if(/\blibr[oi]\b/.test(q)){
    const topic=topicQuery(q,'book');
@@ -98,7 +103,9 @@
   }
   if(/\blezion[ei]\b/.test(q)){
    const topic=topicQuery(q,'lesson'),result=search.resolve(topic),canonical=result.matches[0];
-   const docs=search.documents(canonical?.name||topic);
+   const corpus=await siteResults(canonical?.name||topic,{includeGlossary:false,limit:20});
+   const docs=corpus.passages.filter(r=>r.kind==='lezione').map(r=>({title:r.page+' · '+r.section,href:r.href}));
+   for(const d of search.documents(canonical?.name||topic))if(!docs.some(r=>r.href===d.href))docs.push(d);
    const links=docs.map(d=>siteLink(d.title,d.href));
    if(canonical){const lesson=search.get(canonical.id)?.lesson;if(lesson&&!links.some(l=>l.href===new URL(lesson,siteRoot).href))links.unshift(siteLink('Percorso consigliato: '+canonical.name,lesson));}
    return {text:links.length?'Ecco i percorsi in cui il tema è trattato. Le corrispondenze si basano sui titoli e sulle parole presenti nei testi.':'Non ho trovato una lezione specifica con queste parole. Puoi esplorare l’indice delle lezioni o provare un termine più breve.',links:[...links.slice(0,5),siteLink('Indice delle lezioni','lezioni.html')]};
@@ -106,14 +113,15 @@
   const query=text.replace(/^\s*(?:cerca(?:mi)?|trova(?:mi)?)\s+(?:il\s+)?(?:significato|la definizione|definizione)\s+(?:di|del|della|dell[’'])\s*/i,'');
   const resolution=search.resolve(query);
   if(resolution.matches.length===1){
-   const m=resolution.matches[0],record=search.get(m.id),site=await siteResults(m.name);
-   return {text:record.definition,links:[siteLink('Glossario · '+m.name,'glossario.html#'+encodeURIComponent(m.id)),...(record.lesson?[siteLink('Leggi la lezione',record.lesson)]:[]),...passageLinks(site,2).filter(l=>!record.lesson||l.href!==new URL(record.lesson,siteRoot).href),...videoLinks(site),siteLink('Puoi approfondire qui · Biblioteca Federata','biblioteca-online.html?'+new URLSearchParams({q:m.name})+'#catalogo')],choices:search.related(m.id).slice(0,3).map(r=>({label:'Concetto collegato: '+r.name,query:r.name}))};
+   const m=resolution.matches[0],record=search.get(m.id),site=await siteResults(m.name,{includeGlossary:false}),references=await referenceLinks(m.name);
+   return {text:record.definition,links:[siteLink('Glossario · '+m.name,'glossario.html#'+encodeURIComponent(m.id)),...(record.lesson?[siteLink('Leggi la lezione',record.lesson)]:[]),...passageLinks(site,2).filter(l=>!record.lesson||l.href!==new URL(record.lesson,siteRoot).href),...videoLinks(site),...references,siteLink('Puoi approfondire qui · Biblioteca Federata','biblioteca-online.html?'+new URLSearchParams({q:m.name})+'#catalogo')],choices:search.related(m.id).slice(0,3).map(r=>({label:'Concetto collegato: '+r.name,query:r.name}))};
   }
   // Search real site passages before proposing merely related glossary entries.
   if(!['typo','variant'].includes(resolution.kind)&&resolution.matches.length<=1){
    const site=await siteResults(query),first=site.passages[0];
-   if(first)return {text:(first.exact?'':'Nel sito, questo argomento è trattato così:\n\n')+excerpt(first.text),links:[...passageLinks(site),...videoLinks(site),siteLink('Approfondisci nelle fonti della Biblioteca','biblioteca-online.html?'+new URLSearchParams({q:search.queryKey(query)})+'#catalogo')]};
-   if(site.videos.length)return {text:'Nella Videoteca ho trovato video dedicati a questo tema. I collegamenti sono ricavati dai titoli disponibili: non dispongo qui di una definizione verificata nel testo del sito.',links:[...videoLinks(site),siteLink('Cerca anche nella Biblioteca Federata','biblioteca-online.html?'+new URLSearchParams({q:search.queryKey(query)})+'#catalogo')]};
+   if(first)return {text:(first.basis==='related'?'Non trovo una definizione esatta: questo passaggio tratta un concetto collegato.\n\n':first.kind==='poster'?'Ho trovato questa tavola. Questi sono gli argomenti indicizzati; aprila per leggere la spiegazione completa.\n\n':first.exact?'':'Nel sito, questo argomento è trattato così:\n\n')+excerpt(first.text),links:[...passageLinks(site),...videoLinks(site),...await referenceLinks(query),siteLink('Approfondisci nelle fonti della Biblioteca','biblioteca-online.html?'+new URLSearchParams({q:search.queryKey(query)})+'#catalogo')]};
+   if(site.suggestions?.length)return {text:'Forse intendevi stacking fotografico, cioè la combinazione di più immagini? Conferma il termine per vedere programmi e spiegazioni pertinenti.',choices:site.suggestions};
+   if(site.videos.length)return {text:'Nella Videoteca ho trovato video dedicati a questo tema. Le corrispondenze vengono dai titoli o dai sottotitoli disponibili, come indicato nei collegamenti. I sottotitoli automatici possono contenere errori; non li uso come definizione scientifica.',links:[...videoLinks(site),siteLink('Cerca anche nella Biblioteca Federata','biblioteca-online.html?'+new URLSearchParams({q:search.queryKey(query)})+'#catalogo')]};
   }
   if(resolution.matches.length>1||resolution.suggestions.length){const options=resolution.matches.length?resolution.matches:resolution.suggestions;return {text:resolution.kind==='typo'?'Forse cercavi una di queste voci? Scegli il termine prima di leggere la definizione.':resolution.matches.length?'La ricerca può riferirsi a più voci. Quale intendi?':'Ho trovato alcune voci collegate alle parole della tua ricerca. Sono suggerimenti, non definizioni equivalenti.',choices:options.slice(0,5).map(m=>({label:m.name,query:m.name})),links:[siteLink('Cerca anche nelle fonti della Biblioteca','biblioteca-online.html?'+new URLSearchParams({q:query})+'#catalogo')]};}
   const docs=search.documents(query);

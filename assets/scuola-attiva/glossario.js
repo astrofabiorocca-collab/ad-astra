@@ -5,6 +5,7 @@ const concepts=window.AdAstraGlossarySearch?.related(entry.id)||[];
 if(concepts.length){const details=document.createElement('details'),summary=document.createElement('summary'),list=document.createElement('ul');summary.textContent='Esplora i concetti collegati';for(const item of concepts){const li=document.createElement('li'),a=document.createElement('a');a.href='#'+item.id;a.textContent=item.name;li.append(a);list.append(li);}details.append(summary,list);panel.append(details);}
 const federationPanel=window.AdAstraFederatedSearch?.referencePanel(entry.id);
 if(federationPanel)panel.append(federationPanel);
+const connected=window.AdAstraSiteConnections?.render(entry.name);if(connected)panel.append(connected);
 const libraryLink = document.createElement('a');
 const libraryNote = document.createElement('p');
 const libraryQuery = new URLSearchParams({q: entry.name});
@@ -30,7 +31,9 @@ function render(){
   b.addEventListener('click',()=>{history.replaceState(null,'','#'+e.id);select(e.id,true);});li.append(b);ul.append(li);
  }
  count.textContent=filtered.length+' termini'+(!filtered.length&&resolution.suggestions.length?' · '+resolution.suggestions.length+' suggerimenti':'')+(!filtered.length&&service.documents(value).length?' · percorsi didattici disponibili':'');
- if(!filtered.length&&!resolution.suggestions.length&&!service.documents(value).length)index.textContent='Nessun termine corrispondente. Puoi cercare anche nella Biblioteca Federata.';
+ const connectedSearch=!filtered.length&&window.AdAstraSiteConnections?.render(value,{includeGlossary:true});
+ if(!filtered.length&&!connectedSearch&&!resolution.suggestions.length&&!service.documents(value).length)index.textContent='Nessun termine corrispondente. Puoi cercare anche nella Biblioteca Federata.';
+ if(connectedSearch)index.append(connectedSearch);
  if(resolution.matches.length===1&&value){const id=resolution.matches[0].id;history.replaceState(null,'','#'+id);select(id,false);}
 }
 search.addEventListener('input',()=>{render();select(decodeURIComponent(location.hash.slice(1))||'anno-luce');});window.addEventListener('hashchange',()=>select(decodeURIComponent(location.hash.slice(1)),true));render();select(decodeURIComponent(location.hash.slice(1))||'anno-luce');window.AdAstraGlossaryPage={select,render};})();

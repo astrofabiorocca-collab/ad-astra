@@ -63,5 +63,5 @@ articles.forEach((a,i)=>{if(topic&&topic!==a.category||author&&author!==a.author
 }
 for(const [id,values]of [['pub-topic',articles.map(a=>a.category)],['pub-author-filter',articles.map(a=>a.author)]]){for(const v of [...new Set(values)]){const option=document.createElement('option');option.value=option.textContent=v;q('#'+id).append(option);}q('#'+id).onchange=searchArchive;}
 q('#pub-search').oninput=searchArchive;searchArchive();
-mobile.addEventListener('change',e=>{single=e.matches;render();});choose(0,false);window.AdAstraPublicationReader={choose,move,get state(){return{article:articles[current].id,page:page+1,pages:articles[current].pages.length,single,zoom,authorCollection,turning};}};
+mobile.addEventListener('change',e=>{single=e.matches;render();});const requestedArticle=new URLSearchParams(location.search).get('articolo');const requestedIndex=articles.findIndex(a=>a.id===requestedArticle);choose(requestedIndex>=0?requestedIndex:0,false);window.AdAstraPublicationReader={choose,move,get state(){return{article:articles[current].id,page:page+1,pages:articles[current].pages.length,single,zoom,authorCollection,turning};}};
 })();

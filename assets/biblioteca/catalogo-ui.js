@@ -64,6 +64,7 @@
  const params=new URLSearchParams(location.search);for(const [key,control]of Object.entries({q,area,type,language,level,source,sort})){const v=params.get(key);if(v!==null && (control===q||[...control.options].some(o=>o.value===v)))control.value=v;}
  const topics = window.AD_ASTRA_LIBRARY_TOPICS || {};
 
+ const siteConnections=el('div');cards.after(siteConnections);
  const glossaryHint = el('div', '', 'catalog-method');
  glossaryHint.hidden = true;
  count.before(glossaryHint);
@@ -113,6 +114,7 @@
   'accrescimento': 'Quando il gas in orbita cede parte del suo momento angolare, può spostarsi verso il centro. In una stella giovane, parte del gas finisce sulla superficie e può lasciare un segnale ultravioletto. Vicino a un buco nero, invece, si osserva la radiazione del gas caldo prima che attraversi l’orizzonte. L’accrescimento è il trasferimento di materia; il disco è una delle strutture attraverso cui avviene.'
  };
  function clearResults() {
+  siteConnections.replaceChildren();
   rows = [];
   cards.replaceChildren();
   glossaryHint.replaceChildren();
@@ -129,7 +131,7 @@
   const match = matches.length === 1 ? matches[0] : null;
   const term = match ? key(match.name) : (aliases[query] || search.queryKey(applied.q));
   const words = tokenize(term).filter(word => !['di','del','della','la','il','le','un','una','e'].includes(word));
-  const selected = match && federation ? federation.sources(match.id) : [];
+  const selected = [...(match && federation ? federation.sources(match.id) : []),...(window.AdAstraSiteSearch?.external(applied.q,24)||[])];
   const references = new Map(selected.map(resource => [resourceKey(resource.url), resource]));
   const variants = [words, ...Object.entries(aliases).filter(([, name]) => name === term).map(([alias]) => tokenize(alias))];
   const contains = (field, tokens) => tokens.length > 0 && tokens.every(word => (' ' + field + ' ').includes(' ' + word + ' '));
@@ -205,11 +207,17 @@
    glossaryHint.append(el('h3', 'Video nella Videoteca'), list);
   }
   cards.replaceChildren(...rows.slice(0, limit).map(resourceCard));
+  siteConnections.replaceChildren();
+  const connected=window.AdAstraSiteConnections?.render(applied.q,{includeGlossary:!match});
+  const allowInternal=(!applied.source||applied.source==='AD ASTRA')&&(!applied.language||applied.language==='Italiano')&&!applied.level&&!applied.area&&!applied.type;
+  if(connected&&allowInternal)siteConnections.append(connected);
+  const siteCount=connected&&allowInternal?connected.querySelectorAll('li').length:0;
   const linkedVideoCount = (!applied.source && !applied.area && !applied.language && !applied.level &&
    (!applied.type || applied.type === 'Video') ? selectedConcepts?.videos?.length : 0) || videoResults.length;
   count.textContent = rows.length + ' risors' + (rows.length === 1 ? 'a trovata' : 'e trovate') +
    ' · ' + Math.min(limit, rows.length) + ' mostrate';
-  $('library-empty').hidden = rows.length > 0 || linkedVideoCount > 0;
+  $('library-empty').hidden = rows.length > 0 || linkedVideoCount > 0 || siteCount > 0;
+  if(siteCount)count.textContent+=' · '+siteCount+' rimandi nei contenuti del sito';
   more.hidden = rows.length <= limit;
   if (update) storeFilters();
  }

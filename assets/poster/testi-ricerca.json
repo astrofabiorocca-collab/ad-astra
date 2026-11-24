@@ -1,0 +1,608 @@
+{
+  "IC-01": {
+    "text": "Argomenti presenti nella tavola: Osservazione a occhio nudo; binocolo; telescopio; adattamento al buio; luce rossa; diario osservativo; data ora luogo; punti cardinali.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "1c1245756514739321c5effc092e9363f3dae260221707d4a2b1a830f8f235e8"
+  },
+  "IC-02": {
+    "text": "Argomenti presenti nella tavola: Orizzonte; zenit; altezza angolare; piano orizzontale; nord sud est ovest; linea di vista; ostacoli del paesaggio.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "331dba7ec60f992036cee1e97d4807badd284ccaf01a70c47b5f98088a8b2294"
+  },
+  "IC-03": {
+    "text": "Argomenti presenti nella tavola: Bussola; orientamento; nord magnetico; nord geografico; declinazione magnetica; Polare; punti cardinali; carta del cielo.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "a46ea9f74b3cc433abfe26d34a113272fdd048d098ca2f2436a96b9772dc1fe5"
+  },
+  "IC-04": {
+    "text": "Argomenti presenti nella tavola: Bussola orizzontale; declinazione magnetica; deviazione strumentale; nord del reticolo; interferenze magnetiche; allineamento polare.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "7967339c3bb9474576c75a9f7b5e073509ecc5c3703bfe45af0a242c016a80fc"
+  },
+  "IC-05": {
+    "text": "Argomenti presenti nella tavola: Gnomone; ombra; asta verticale; base orizzontale; filo a piombo; livella; altezza del Sole; meridiana; misure ed errori.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "1b1ef84cd32abe6d777169602b9b7b916919c3afde590e8e54b208364ceeafa3"
+  },
+  "IC-06": {
+    "text": "Argomenti presenti nella tavola: Gnomone; meridiano; linea nord sud; cerchi di uguale ombra; corda; perpendicolare; mezzogiorno solare; ora civile.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "5b3a483aebee108032a38e1e4e5a090ca69d7b93c1573c025e2b1841a3be47cc"
+  },
+  "IC-07": {
+    "text": "Argomenti presenti nella tavola: Distanza angolare; gradi; primi e secondi di arco; misura con la mano; pugno; diametro apparente della Luna; calibrazione.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "d1d1fbb9c111fc4976554340b58052b10be19fdbdc811c51093c25612b21c954"
+  },
+  "IC-08": {
+    "text": "Argomenti presenti nella tavola: Grande Carro; Orsa Maggiore; Orsa Minore; Merak; Dubhe; Polaris; Polare; Cassiopea; polo nord celeste; latitudine.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "4612cdcbf4f084453fa72a2ff808f65e1b78026ce932b76d0e0300d8d629453c"
+  },
+  "IC-09": {
+    "text": "Argomenti presenti nella tavola: Stelle circumpolari; sorgere e tramontare; latitudine; polo celeste; orizzonte; giorno siderale; giorno solare.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "21a50a9f340ffdf5b523489870f93da8a728fe6632f6748a2551bacee6260bdd"
+  },
+  "IC-10": {
+    "text": "Argomenti presenti nella tavola: Coordinate altazimutali; azimut; altezza; zenit; orizzonte; nord est sud ovest; posizione apparente; luogo data ora.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "98ed08e03e3b5f4d27555325fd2b600b5b431509adfa60ba64b6558d2fb5640a"
+  },
+  "IC-11": {
+    "text": "Argomenti presenti nella tavola: Carta del cielo; mappa locale; ascensione retta; declinazione; carta equatoriale; Vega Deneb Altair; proiezione azimutale; orientamento.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "3e47284a32f284cda315b34f3432ab3a13e482bbc9860a664f69de0e419f021d"
+  },
+  "IC-12": {
+    "text": "Argomenti presenti nella tavola: Planisfero girevole; cielo di cartone; data; ora solare; ora legale; longitudine; latitudine; ritaglio e assemblaggio.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "97a477cb013a1b909a590eb97d32599d2f6c8e66e22abf20753a10d13db55805"
+  },
+  "IC-13": {
+    "text": "Argomenti presenti nella tavola: Stelle guida; Vega; Deneb; Altair; Triangolo Estivo; Sirio; Orione; Arturo; Boote; Spica; Vergine; Polare; posizione stagionale.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "f469a49fead2abb5948039ebaa5cbea1b7c92bdb3d513cc458a047abb2885c08"
+  },
+  "IC-14": {
+    "text": "Argomenti presenti nella tavola: Prima osservazione; costellazioni; adattamento al buio; luce rossa; binocolo su cavalletto; diario fotografico; smartphone; scie stellari.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "83e46b5a85c23fee9d379b795dd7ff4ac9c3cd3fa4338026eb63a9659f3faf28"
+  },
+  "IC-15": {
+    "text": "Argomenti presenti nella tavola: Star hopping; salto stellare; Sirio; Arturo; Spica; Vega; Deneb; separazione angolare; carta celeste; cerchi di confronto.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "0001daeff896cc26205560067d3487c0882da8eb17a87c6f380725c2eedd6946"
+  },
+  "IC-16": {
+    "text": "Argomenti presenti nella tavola: Costellazione; asterismo; ammasso stellare; prospettiva; sfera celeste; distanze delle stelle; appartenenza fisica; punti di vista.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "2f4cbbfec94d2fae1d5e30fa5826fa456477fee8b43d3e75bc6c4e71ef8102be"
+  },
+  "IC-17": {
+    "text": "Argomenti presenti nella tavola: Costellazioni stagionali; carte altazimutali; zenit; azimut; ora civile; ora solare; ora legale; UTC; CET; CEST; giorno siderale.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "65658fa9343c642031d972036185f70d0e579a203c263fc654a33771a4f94766"
+  },
+  "IC-18": {
+    "text": "Argomenti presenti nella tavola: Moto apparente delle stelle; rotazione terrestre; Orione; Betelgeuse; Rigel; confronto fra notti; giorno siderale e giorno solare.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "57784b0234bfb7265a307d590340fddb4bc72c11a2af959299701946e6e88ab9"
+  },
+  "IC-19": {
+    "text": "Argomenti presenti nella tavola: Coordinate equatoriali; ascensione retta; declinazione; eclittica; punto equinoziale; equatore celeste; poli celesti; montatura equatoriale; asse AR; asse DEC; latitudine; epoca.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "7ef4e50d194484debf4f486349a23e929f9f8992bcc580bdea78be15fded3789"
+  },
+  "IC-21": {
+    "text": "Argomenti presenti nella tavola: Inquinamento luminoso; abbagliamento; luce intrusiva; chiarore del cielo; lampione schermato; spettro blu violetto; scala di Bortle; seeing; trasparenza; Light Pollution Map.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "b72955a3f5d94998102b36a25f9ea710296f24c791b77aab0c0db946efd8b452"
+  },
+  "IC-22": {
+    "text": "Argomenti presenti nella tavola: Stella o pianeta; scintillazione; turbolenza atmosferica; moto fra le stelle; eclittica; effemeridi; disco apparente; messa a fuoco; seeing; diffrazione.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "7b41d8844d4e8e47d0e10617093f1ea021584c3a768e2964063cdec72ca8860a"
+  },
+  "IC-23": {
+    "text": "Argomenti presenti nella tavola: Aloni; pareli; cani solari; cristalli di ghiaccio; rifrazione; corona lunare; diffrazione; nubi nottilucenti; mesosfera; crepuscolo.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "c23fabdbf4b4bca12df70e624302c631a9c204954602c67f19d4d01a8e079e75"
+  },
+  "IC-24": {
+    "text": "Argomenti presenti nella tavola: Luci nel cielo; satellite; aereo; meteora; drone; lampi lunari; allineamento planetario; eclittica; scia persistente; effemeridi; verifica delle osservazioni.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "6980285dcff53f70dd4b77e843491f3aae5cfdbc07234740709d9cd729e7c990"
+  },
+  "IC-26": {
+    "text": "Argomenti presenti nella tavola: Diario osservativo; data ora fuso; luogo; strumento; condizioni meteorologiche; ostacoli; disegno del cielo; orientamento; incertezza; osservato interpretato previsto.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "f89672ee8ec35ab64936b9e32de5bdce3ba65556ec09818c4d58f42bea89f51f"
+  },
+  "IC-20": {
+    "text": "Argomenti presenti nella tavola: Mappamondo parallelo; globo; nord geografico; declinazione magnetica; latitudine; asse terrestre; ombre; terminatore; giorno e notte; raggi solari.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "f0def53105e1541271d6c96554808c57e2497ff91bf3157aa315dd33aa1cfd1f"
+  },
+  "IC-25": {
+    "text": "Argomenti presenti nella tavola: Eratostene; misura della Terra; globo; meridiano; gnomone; spilli radiali; raggi solari paralleli; curvatura terrestre; proporzioni; circonferenza.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "dd7664447a5f0b698ee7fd19e0d16b0918536872b868629aa1baa43de30b8e31"
+  },
+  "UN-01": {
+    "text": "Argomenti presenti nella tavola: Scale cosmiche; Sistema solare; Via Lattea; Gruppo Locale; Andromeda; ammassi; filamenti; vuoti; Universo osservabile; orizzonte cosmologico.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "8a38f0d6a58e44d0c4bdf19cb375cde68b03238ee6dcf4f57bd83d9ff5138701"
+  },
+  "UN-02": {
+    "text": "Argomenti presenti nella tavola: Spettroscopia; spettro continuo; assorbimento; emissione; righe spettrali; temperatura; composizione chimica; atomi; ioni; effetto Doppler; calibrazione; plasma.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "9907e63e63bd8facb4d0302f7e7b37f5dd826eca71adc06844c1dfb8a99c6bcf"
+  },
+  "UN-03": {
+    "text": "Argomenti presenti nella tavola: Astronomia multibanda; onde radio; infrarosso; visibile; raggi X; polvere interstellare; gas caldo; telescopi spaziali; atmosfera; colori assegnati.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "5d524ac2f565afd8ed54238f86a5aee8501a3358e94139e41de2e59ddb831a92"
+  },
+  "UN-04": {
+    "text": "Argomenti presenti nella tavola: UnitÃ  astronomica; anno luce; parsec; parallasse annua; secondi arco; kiloparsec; megaparsec; distanze cosmiche; tempo di propagazione della luce.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "82efe5807386981e49c1c0dc24e2eefb4f5aa1546568ae5fdf00982b87cd2697"
+  },
+  "UN-05": {
+    "text": "Argomenti presenti nella tavola: Parallasse stellare; orbita terrestre; unitÃ  astronomica; angolo; parsec; secondi arco; moto proprio; misura della distanza; geometria.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "d2af7a26e0b5cb953d93d6d6c3b30931b5c2a634954c80fd2ee89fe4acec37b5"
+  },
+  "UN-06": {
+    "text": "Argomenti presenti nella tavola: Brillanza; luminositÃ ; flusso; magnitudine apparente; magnitudine assoluta; legge inverso quadrato; isotropia; logaritmo; assorbimento interstellare.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "9abc06bc45e363c14289b026a83a2d5f4d8a53a59d5037169853e48d25438d3e"
+  },
+  "UN-07": {
+    "text": "Argomenti presenti nella tavola: Nube molecolare; polvere; collasso gravitazionale; protostella; disco accrescimento; getti polari; campi magnetici; momento angolare; fusione; nana bruna.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "f28f3cb0a2520ff0442081d982ec7c7a903aa73ab4943ce0372dddcc3c5bbd56"
+  },
+  "UN-08": {
+    "text": "Argomenti presenti nella tavola: Equilibrio idrostatico; gravitÃ ; gradiente di pressione; pressione radiazione; fusione nucleare; idrogeno; elio; energia interna; convezione; evoluzione stellare.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "059caec109965fe8c92e4723b8d09a00234ef5bb99633ecbb015d1a21ca8ca7a"
+  },
+  "UN-09": {
+    "text": "Argomenti presenti nella tavola: Diagramma Hertzsprung Russell; diagramma HR; temperatura superficiale; luminositÃ ; sequenza principale; gigante rossa; nana bianca; evoluzione stellare.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "58e62981ad289209e91f5a4ca0d35b74a7df54e44cf97b968156c58dd1f3a638"
+  },
+  "UN-10": {
+    "text": "Argomenti presenti nella tavola: Esopianeta; transito; curva di luce; fotometria; raggio planetario; periodo orbitale; velocitÃ  radiale; macchie stellari; stella compagna; abitabilitÃ .",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "b8e4e7b9a51cc0933de30e8bda40d19bc7b7ee1ae4842962ef8a11eddec1545e"
+  },
+  "UN-11": {
+    "text": "Argomenti presenti nella tavola: Massa stellare; luminosità; durata della sequenza principale; consumo del combustibile; fusione; nucleo; pressione; gravità; composizione; perdita di massa.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "c52e13eaf74246e45f1ed9eaf893f957eb48c0f380bc77dfa81ebef7dc98234b"
+  },
+  "UN-12": {
+    "text": "Argomenti presenti nella tavola: Residui stellari; nana bianca; pressione degli elettroni degeneri; stella di neutroni; pulsar; buco nero stellare; supernova; gigante rossa; collasso.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "2abdc5d6c6ee34e176a0f671a0e3fe1463fc6ef3098da2ba28beb7b9f9ff5a4a"
+  },
+  "UN-13": {
+    "text": "Argomenti presenti nella tavola: Ammassi aperti; ammassi globulari; Pleiadi; M45; M13; evoluzione stellare; popolazioni stellari; distanza comune; binocolo; telescopio; seeing.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "06a11668957fd3cef153cc2e74a509b9a3b1d659601357dfa75d7c3cf0c5fb60"
+  },
+  "UN-14": {
+    "text": "Argomenti presenti nella tavola: Nebulosa emissione; nebulosa riflessione; nebulosa oscura; nebulosa planetaria; resto supernova; Orione M42; Pleiadi; Testa Cavallo; M57; M1; gas e polveri.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "d819d615ae045b1b1ab089a1401c4c8dcfa4f9c6d46972a9ca6ca4b7b92bf519"
+  },
+  "UN-15": {
+    "text": "Argomenti presenti nella tavola: Riciclo materia cosmica; nucleosintesi primordiale; idrogeno; elio; litio; fusione stellare; carbonio; ossigeno; ferro; venti stellari; supernova; fusione stelle neutroni; cattura neutronica.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "d34c2ff000bd8c5149c0d17379a21b6b05c73b2d46ce9e2c1764acaab265e93e"
+  },
+  "UN-16": {
+    "text": "Argomenti presenti nella tavola: Via Lattea; disco stellare; rigonfiamento centrale; alone; materia oscura; Braccio Locale; Sagittario; Perseo; Sagittarius A; Gaia; polvere interstellare; anno luce.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "95ff6bffd053f7a4ceac1e6be1123e429fc6a3f5f0b94d64ea66fd6cd2718725"
+  },
+  "UN-17": {
+    "text": "Argomenti presenti nella tavola: Galassie spirali; spirali barrate; ellittiche; lenticolari; irregolari; classificazione Hubble; inclinazione; formazione stellare; collisioni; fusioni; materia oscura.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "ba4b1c03d79f945d0a5563b8fdea37a2471bb21da00985a3668314f4d35ecd09"
+  },
+  "UN-18": {
+    "text": "Argomenti presenti nella tavola: Gruppo Locale; Andromeda; galassia Triangolo; gruppi; ammassi galassie; rete cosmica; filamenti; vuoti; materia oscura; gas caldo; redshift; megaparsec.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "327cf746c8866cc1bc304d6dc604715bf3957617e2ec3aa8c93f8f90939793da"
+  },
+  "UN-19": {
+    "text": "Argomenti presenti nella tavola: Buco nero; orizzonte eventi; ombra; disco accrescimento; getti; orbite stellari; raggi X; onde gravitazionali; interferometri radio; Event Horizon Telescope; M87; Sagittarius A; Gaia BH1; Hawking.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "2a206838ba0883132927ad35bc105619bc5a32a4d2347b8352bc17b76992ae64"
+  },
+  "UN-20": {
+    "text": "Argomenti presenti nella tavola: Lente gravitazionale; curvatura spazio tempo; immagini multiple; archi; anello Einstein; microlensing; curva luminosità; distribuzione massa; materia oscura.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "9a809120c7d142c7365a7860fbff4d98c30cbcd88f7d4c317907bd91376db126"
+  },
+  "UN-21": {
+    "text": "Argomenti presenti nella tavola: Redshift; righe spettrali; lunghezza onda; moto relativo; espansione cosmica; gravità; legge Hubble Lemaître; fattore scala; velocità Doppler; spettro laboratorio.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "e98476c26b54836e0cef84f33c9e87a991194ab45057a6f1e31ba69f84608fda"
+  },
+  "UN-22": {
+    "text": "Argomenti presenti nella tavola: Espansione spazio; distanze cosmiche; osservatore; fattore scala; legge Hubble Lemaître; velocità recessione; sistemi gravitazionalmente legati; modello cosmologico.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "07f77a67df5cac2922607490a3bdcaaa9e810fc30c129a563f43f2804edd2c10"
+  },
+  "UN-23": {
+    "text": "Argomenti presenti nella tavola: Big Bang; storia Universo; nucleosintesi; ricombinazione; fondo cosmico microonde; Planck; prime stelle; galassie; materia oscura; energia oscura; espansione accelerata.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "7bffe3ceed29ca2f0c382af96acd33a92682f9fbdcead4d734ceb9684cb5f5ac"
+  },
+  "UN-24": {
+    "text": "Argomenti presenti nella tavola: Metodo scientifico; osservazione; calibrazione; misure; incertezza; modelli; ipotesi; previsioni; controllo indipendente; fonti; spettro; orbita; mappa cosmica.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "cb57e773fc4a173bbc336d5e106f7d8c9cd618d333717ae405110821174f82d5"
+  },
+  "SS-01": {
+    "text": "Argomenti presenti nella tavola: Sistema solare in scala; dimensioni e distanze; diametro solare; unità astronomica; Terra; Giove; Nettuno; orbite; corpi transnettuniani.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "2969e132dd21ea9817538b0dca2148eab8bf7549dd1e03d4469421d4ea47ef17"
+  },
+  "SS-02": {
+    "text": "Argomenti presenti nella tavola: Leggi Keplero; orbita ellittica; fuoco; Sole; afelio; perielio; aree uguali; periodo; semiasse maggiore; unità astronomica; eccentricità.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "2719ad8eac0595d44c38940c6ed013e3d1b136da94a69c6a12e0810bcb380f84"
+  },
+  "SS-03": {
+    "text": "Argomenti presenti nella tavola: Sole; nucleo; fusione; idrogeno; elio; zona radiativa; zona convettiva; fotosfera; cromosfera; corona; plasma; temperatura.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "fcc021f219c3460eea086fe201d099a1fb90081c49accac71bb1224ea2ab0c93"
+  },
+  "SS-04": {
+    "text": "Argomenti presenti nella tavola: Aurora; vento solare; magnetosfera; coda magnetica; particelle cariche; ossigeno; azoto; eccitazione atomica; emissione luminosa; campo geomagnetico.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "f4f012fd6ff3f840a5ad9a913ed463bdb33e0c9159c14bdae09c6bef6d3d977d"
+  },
+  "SS-05": {
+    "text": "Argomenti presenti nella tavola: Pianeti rocciosi; Mercurio; Venere; Terra; Marte; crosta; mantello; nucleo; crateri; atmosfera; acqua; campo magnetico; effetto serra.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "137710f122598cb4dc39b2e2e0f28f9cbca9a2f3d0c243993f0ccd7d9cb6b775"
+  },
+  "SS-06": {
+    "text": "Argomenti presenti nella tavola: Atmosfere planetarie; Venere; Terra; Marte; anidride carbonica; azoto; ossigeno; vapore acqueo; acido solforico; pressione; effetto serra; infrarosso.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "9e884d5852ff4d6d753b44f2dd0fa6c24b8ecf8f5e8ca73aef2e65a700ebfbe2"
+  },
+  "SS-07": {
+    "text": "Argomenti presenti nella tavola: Giganti gassosi; giganti ghiacciati; Giove; Saturno; Urano; Nettuno; idrogeno; elio; metano; ammoniaca; massa; raggio; densità; Juno; nucleo diluito.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "416a1e774984ab797c09184c619a73cc997266344c7bd87b93a0215ed58550b5"
+  },
+  "SS-08": {
+    "text": "Argomenti presenti nella tavola: Pianeta nano; Cerere; Plutone; Eris; Haumea; Makemake; fascia asteroidi; transnettuniano; classificazione IAU; Dawn; New Horizons.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "147791789fa91f3ba708195fa791c0b31b55930168a9be13f037b8b4e9199860"
+  },
+  "SS-09": {
+    "text": "Argomenti presenti nella tavola: Fascia Kuiper; Plutone; Caronte; rotazione sincrona; New Horizons; Arrokoth; corpi transnettuniani; nube Oort; orbite; pianeta nano.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "db44199c1f863a3e993f9910e3c6f9d038ab089bff0a9f983275d5f43a53675e"
+  },
+  "SS-10": {
+    "text": "Argomenti presenti nella tavola: Anelli planetari; satelliti; ghiaccio; polveri; risonanze; lacune; Pan; Dafni; Saturno; orbita; perturbazioni gravitazionali; collisioni; frammentazione.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "0f4c3f08cf53e695bd6458cbe092a4a60a9cb2eca28de3aa4bb9e2147d3def4c"
+  },
+  "SS-11": {
+    "text": "Argomenti presenti nella tavola: Lune; Io; Europa; Ganimede; Callisto; Titano; Encelado; Phobos; Deimos; Caronte; oceano sotterraneo; riscaldamento mareale; metano; crateri.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "036146bf76aed7a538f081266783887114d320b25aa86370913ed34da74a3197"
+  },
+  "SS-12": {
+    "text": "Argomenti presenti nella tavola: Riconoscimento pianeti; Mercurio; Venere; Marte; Giove; Saturno; eclittica; scintillazione; moto retrogrado; carta celeste; crepuscolo; effemeridi.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "b3c1caa41f3904e8be87fa4a37d10f7e0efc93b56ddc65c8041ea120198051f6"
+  },
+  "SS-13": {
+    "text": "Argomenti presenti nella tavola: Stagioni; inclinazione asse terrestre; solstizio; emisfero nord; emisfero sud; durata giorno; angolo raggi solari; orbita; distanza Sole Terra.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "9406ff090f510a863542d28ac408e120a3d6cafb224f0cb9a96514df08b42aae"
+  },
+  "SS-14": {
+    "text": "Argomenti presenti nella tavola: Rotazione Luna; rivoluzione; rotazione sincrona; stessa faccia; mese siderale; mese sinodico; librazione; faccia lontana; fasi.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "4cf98a33f32c068edefd66c77d8b310d8c95eaeabc82dd9fc71986eb8dbbbb57"
+  },
+  "SS-15": {
+    "text": "Argomenti presenti nella tavola: Paesaggio lunare; mari basaltici; altopiani; crateri impatto; vulcanismo; terminatore; ombre; rilievi; librazione; osservazione telescopica.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "97731bea5b48233a20aa213354836175bbb4af44fc25a2a787e58bb482ed41c7"
+  },
+  "SS-16": {
+    "text": "Argomenti presenti nella tavola: Fasi lunari; Luna nuova; primo quarto; plenilunio; ultimo quarto; illuminazione solare; mese sinodico; mese siderale; orbita; eclissi.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "3e953f5510cc8843e92df8252c7ded823b6e2018af8906db4b693dfb0573f729"
+  },
+  "SS-17": {
+    "text": "Argomenti presenti nella tavola: Eclissi solare; ombra; penombra; antombra; eclissi totale; eclissi anulare; eclissi parziale; diametro apparente; filtri solari.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "3b6c67ae9fd8e3d99fbfb37d21354615335d097c4cd3bff3630707d8c2a8a5f1"
+  },
+  "SS-18": {
+    "text": "Argomenti presenti nella tavola: Eclissi lunare; penombra; parziale; totale; ombra terrestre; nodo orbitale; inclinazione orbita; plenilunio; osservazione; esposizione fotografica.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "e864065b7fea708a2e0b64e2b33a4a565fb3f91f81ed273beaef219169e57234"
+  },
+  "SS-19": {
+    "text": "Argomenti presenti nella tavola: Cometa; nucleo; sublimazione; chioma; coda ionica; coda polveri; vento solare; campo magnetico interplanetario; pressione radiazione; perielio.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "2636eb56e9aa810c98857a73f30baeddbb397e8c0c74ac5ff8fe48a40deca361"
+  },
+  "SS-20": {
+    "text": "Argomenti presenti nella tavola: Meteoroide; meteora; meteorite; bolide; ablazione; compressione aria; sciame meteorico; radiante; frammentazione; volo buio; PRISMA; rientro artificiale.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "c2455b029863b310e1d84b7902fd7704090257f1f457264d217b2f4e784829bd"
+  },
+  "SS-21": {
+    "text": "Argomenti presenti nella tavola: Meteoriti; condriti; acondriti; ferrose; metallo rocciose; pallasiti; mesosideriti; silicati; ferro; nichel; isotopi; crosta fusione; campioni lunari e marziani.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "5bbb9fa0d859517b287a24acbb0bdeb3606bda0be9fa621d6eedbe9139481dd9"
+  },
+  "SS-22": {
+    "text": "Argomenti presenti nella tavola: Asteroidi vicini; NEO; orbita; rischio impatto; incertezza; Sentry; NEOCC; radar; DART; Dimorphos; Didymos; Hera; difesa planetaria.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "4a4c4593db4fb913b3db9faa39b7bf010f4ed6441a52a39b5efebc0f0172d667"
+  },
+  "SS-23": {
+    "text": "Argomenti presenti nella tavola: Missione robotica; sonda; sorvolo; orbiter; lander; rover; controllo termico; energia; orientamento; telemetria; telecomunicazioni; calibrazione; analisi dati.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "d00e950b356cab3e928f205df29933cb555ca6d62bad27f053445a62c5df5e13"
+  },
+  "SS-24": {
+    "text": "Argomenti presenti nella tavola: Atmosfera terrestre; troposfera; stratosfera; mesosfera; termosfera; esosfera; orbite LEO MEO GEO; ISS; quota; missione interplanetaria; spazio profondo.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "e91b32672125dfda5f10752a9d55a945b478e15c4cd506671aabb51fd681a48f"
+  },
+  "SS-25": {
+    "text": "Argomenti presenti nella tavola: Lancio; razzo; spinta; stadi; orbita; caduta libera; gravità; inclinazione orbitale; finestra lancio; manovra; resistenza atmosferica.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "c09fabe900e58b92830757a011600873ae78cb626aadb9b009e3c2aba8089679"
+  },
+  "SS-26": {
+    "text": "Argomenti presenti nella tavola: Microgravità; caduta libera; ISS; massa; inerzia; corpo umano; muscoli; ossa; fluidi; tensione superficiale; convezione; volo parabolico.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "b5c3379714571a20dade3d3a62bf7fcde364c937c4deb7e60b1b1599d8f1a714"
+  },
+  "SS-27": {
+    "text": "Argomenti presenti nella tavola: Ritorno campioni; raccolta; contaminazione; rientro; camere pulite; analisi isotopica; spettrometro; Apollo; Stardust; Hayabusa2; Ryugu; OSIRIS REx; Bennu.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "76eb552c43523155905592d968b6e12c7edb01ec5e9d6f64797df6892ec744d9"
+  },
+  "SA-01": {
+    "text": "Argomenti presenti nella tavola: Serata osservativa; trasparenza; seeing; meteo; cercatore; acclimatamento; ingrandimento; visione notturna; luce rossa; diario; condensa; cura ottiche.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "0527720342c2766ba1282105495f8781f77eb8d76ef3cb7b9e6eae051bc749f6"
+  },
+  "SA-02": {
+    "text": "Argomenti presenti nella tavola: Binocolo; distanza interpupillare; messa a fuoco; compensazione diottrica; tremolio; pupilla uscita; diametro obiettivo; ingrandimento; Luna; ammassi aperti.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "7b6ba89ee43cd4545da51f26ecb0a10a86aa11b07b0f85407f312e50e20fb727"
+  },
+  "SA-03": {
+    "text": "Argomenti presenti nella tavola: Scelta binocolo; 7x50; 8x42; 10x50; pupilla uscita; campo reale; estrazione pupillare; occhiali; treppiede; nitidezza; immagine doppia.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "b6c383ef518ed942e8336270b41e49437f5b59f52ffe7866be3532137ee0ca32"
+  },
+  "SA-04": {
+    "text": "Argomenti presenti nella tavola: Cavalletto; treppiede; adattatore; piastra; portata; bilanciamento; contrappeso; montatura parallelogramma; binocolo; stabilità; sicurezza.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "b73f54958ea5cd63b0beb8ba66e52b569bcc21cae2340b33427f2ca054b2f72d"
+  },
+  "SA-05": {
+    "text": "Argomenti presenti nella tavola: Scelta telescopio; rifrattore; Newton; Dobson; catadiottrico; montatura; apertura; ingrandimento; visuale; astrofotografia; collimazione; rotazione campo.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "6c07ccee0ab2331c420853db3b5113f7770e3e171fd8826de2e9e9c47d9f2410"
+  },
+  "SA-06": {
+    "text": "Argomenti presenti nella tavola: Rifrattore; obiettivo; lenti; oculare; fuoco; focale; acromatico; apocromatico; aberrazione cromatica; campo; ingrandimento; diaframma campo.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "b5931c61723f53789c8c4741273793e2660a8fc479ca5363394d2a393081e105"
+  },
+  "SA-07": {
+    "text": "Argomenti presenti nella tavola: Newton; riflettore; specchio primario; specchio secondario; fuoco laterale; collimazione; coma; diffrazione; acclimatamento; seeing; focheggiatore.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "cec975a0afa6a89557f30e14cbbb44700bedd0d281d72e94dd7be5c49c2d1910"
+  },
+  "SA-08": {
+    "text": "Argomenti presenti nella tavola: Dobson; Newton; montatura altazimutale; apertura; collimazione; acclimatamento; puntamento; inseguimento; rotazione campo; fotografia planetaria.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "01e368b832087169f630251215bdb713d855a4ff1e139f745110020099364783"
+  },
+  "SA-09": {
+    "text": "Argomenti presenti nella tavola: Catadiottrici; Schmidt Cassegrain; Maksutov Cassegrain; lastra correttrice; menisco; primario; secondario; percorso ottico; focale; riduttore; rugiada.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "5f7c26886bbca0cfe6e24864c468027a3d2c9f8d2b3551ce4102d0bf3d4c2e52"
+  },
+  "SA-10": {
+    "text": "Argomenti presenti nella tavola: Montatura altazimutale; asse azimut verticale; asse altezza orizzontale; puntamento; inseguimento; rotazione campo; GoTo; bilanciamento; zenit.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "7a6cdd8da24f0d4d751f87adb4f41df6d656dec460c12ed8a99837d6cf489b91"
+  },
+  "SA-11": {
+    "text": "Argomenti presenti nella tavola: Montatura forcella; altazimutale; cuneo equatoriale; asse polare; ascensione retta; declinazione; latitudine; inseguimento siderale; GoTo; allineamento polare.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "a21f8d98c4e11c52f69b10399243c8142ceb9ad75e004c6a682bea9eb56970e4"
+  },
+  "SA-12": {
+    "text": "Argomenti presenti nella tavola: Montatura equatoriale; asse polare; ascensione retta AR; declinazione DEC; contrappesi; latitudine; Polare; stazionamento; allineamento GoTo; coda rondine; bilanciamento.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "f89a206dd98270fdc27fefdc4480d4f522a917ce04b4f6983fc4421f2ffe71ae"
+  },
+  "SA-13": {
+    "text": "Argomenti presenti nella tavola: Cercatore; red dot; reticolo; cercatore ottico; allineamento; oculare; basso ingrandimento; campo reale; star hopping; inversione immagine; GoTo.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "c2e1ff9335622937850008bf5c6bad098ba0c505e783fec7cbdeacd5ed10af56"
+  },
+  "SA-14": {
+    "text": "Argomenti presenti nella tavola: Oculare; campo apparente; campo reale; ingrandimento; focale; pupilla uscita; apertura; Barlow; riduttore focale; estrazione pupillare.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "e17d2195bf285ae7f45edb5a494fcc6c5ec4305e0268dc0cf3dfbee978ba3e7d"
+  },
+  "SA-15": {
+    "text": "Argomenti presenti nella tavola: Collimazione; primario; secondario; focheggiatore; Newton; Cheshire; tappo collimazione; laser; offset; test stellare; anelli diffrazione; equilibrio termico.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "669cd1deb97f884ae3dc034a7ceec2e3d135d10ab4e4f05a4f838e6908503d6c"
+  },
+  "SA-16": {
+    "text": "Argomenti presenti nella tavola: Messa a fuoco; seeing; trasparenza; acclimatamento; equilibrio termico; turbolenza; indice rifrazione; vibrazioni; maschera Bahtinov; autofocus; altezza astro.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "c9a4dc55912fdb10c433fb068b52f3c64c910f2eee54155ab25b3cd2c4273bb4"
+  },
+  "SA-17": {
+    "text": "Argomenti presenti nella tavola: Filtri; densità neutra; polarizzatore; filtri colorati; UHC; OIII; H beta; H alpha; nebulose emissione; inquinamento luminoso; LED; trasmissione; filtro solare frontale.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "17ba41948064972ec071219469d05029e9e2b679b9f8c5fa5849bf430e24f517"
+  },
+  "SA-18": {
+    "text": "Argomenti presenti nella tavola: Smart telescope; plate solving; riconoscimento campo stellare; puntamento; acquisizione; allineamento; integrazione; pose grezze; metadati; montatura altazimutale; equatoriale; GoTo.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "c359270f2714650301a4f43960a86021d751dbf732a3647905851816bb5665ad"
+  },
+  "SA-19": {
+    "text": "Argomenti presenti nella tavola: Sensore; fotositi; efficienza quantica; carica; ADU; matrice Bayer; demosaicizzazione; monocromatico; rumore fotonico; corrente buio; rumore lettura; raffreddamento; gain; saturazione; campionamento; dark.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "cafa87dfcb6114703532158ed603916b59cc34e559a4cc8716d7319b0d7ab378"
+  },
+  "SA-20": {
+    "text": "Argomenti presenti nella tavola: Esposizione; inseguimento; autoguida; camera guida; stella guida; errore guida; flessioni differenziali; dithering; rumore fisso; montatura; allineamento polare; automazione.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "3dd06bf86d4410dc75cdbb835f404465aaf34a13462d10240dde33d56b51d190"
+  },
+  "SA-21": {
+    "text": "Argomenti presenti nella tavola: Acquisizione; selezione pose; calibrazione; registrazione; integrazione; stacking; elaborazione; rapporto segnale rumore; saturazione; messa a fuoco; dati grezzi; metadati.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "0865b79871ce4efa0c9ce913aa192c9ec38acbd9e1723640619670a5b9881a1b"
+  },
+  "SA-22": {
+    "text": "Argomenti presenti nella tavola: Light; dark; bias; flat; master calibrazione; corrente buio; pixel caldi; offset elettronico; vignettatura; polvere; registrazione; gain; sensore CMOS; dark flat.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "0946603b280495ff00d35a63edfc71abb35c20d48fd23e89620a7108fca4009e"
+  },
+  "SA-23": {
+    "text": "Argomenti presenti nella tavola: Integrazione; stacking; rapporto segnale rumore; media aritmetica; rumore gaussiano indipendente; pose; calibrazione; allineamento; gradienti; saturazione; rumore correlato.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "d587f6324e34608788aed1824192d390cb329b3e8200c1e9f80647cc8b2c36e4"
+  },
+  "SA-24": {
+    "text": "Argomenti presenti nella tavola: Progetto osservativo; pianificazione; visibilità; luogo data ora; altezza; Luna; ostacoli; binocolo; telescopio; fotografia; fuoco; metadati; confronto; condensa.",
+    "terms": [],
+    "method": "lettura visiva dei riquadri; indice tematico, non trascrizione integrale",
+    "imageSha256": "1649951da4252bb9152571e33389f445070a7b3eb12cd19a49450c9b956f78fb"
+  }
+}

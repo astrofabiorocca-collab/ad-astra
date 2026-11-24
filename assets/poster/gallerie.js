@@ -3,6 +3,11 @@
  const viewer=document.querySelector('.poster-viewer');
  if(!viewer)return;
  let trigger;
+ const requested=new URLSearchParams(location.search).get('tavola');
+ for(const button of document.querySelectorAll('.poster-open')){
+  const id=(button.dataset.posterSrc||'').match(/\/([A-Z]{2}-\d+)\.png$/)?.[1];
+  if(id){button.id='tavola-'+id;if(id===requested)queueMicrotask(()=>button.click());}
+ }
  document.querySelectorAll('.poster-open').forEach(button=>button.addEventListener('click',()=>{
   trigger=button;
   document.getElementById('poster-viewer-title').textContent=button.dataset.posterTitle;
