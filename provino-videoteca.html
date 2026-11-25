@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="it">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Videoteca scientifica | AD ASTRA</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#0a1423;color:#f9f2e4;font:1rem/1.55 system-ui,sans-serif}
+a{color:inherit}a:hover{text-decoration-thickness:2px}button{font:inherit;cursor:pointer}
+header,main,footer{width:min(1200px,92%);margin:auto}
+header{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;padding:1.25rem 0;border-bottom:1px solid #cdb27b55}
+.modes{display:flex;gap:.8rem}.modes a[aria-current]{color:#f1cd87;text-decoration-thickness:2px}
+.intro{padding:clamp(2rem,6vw,5rem) 0 1.5rem}.intro p{max-width:60ch}
+h1,h2,h3{font-family:Georgia,serif;line-height:1.12;margin:.35em 0}h1{font-size:clamp(2.7rem,7vw,6rem)}h2{font-size:clamp(1.75rem,3vw,2.7rem)}
+.stage{display:grid;grid-template-columns:minmax(0,1.65fr) minmax(0,1fr);gap:clamp(1rem,3vw,2.5rem);align-items:center;padding:clamp(1rem,4vw,3rem);border:1px solid #b99660;border-radius:13px;background:linear-gradient(90deg,#1019279c,#101927),url('assets/provino-pubblicazioni-20261108/scrivania-celeste.png') center/cover;box-shadow:0 14px 28px #0007}
+.screen{aspect-ratio:16/9;background:linear-gradient(#05102045,#051020b5),var(--cover) center/cover;display:grid;place-items:center;border:1px solid #e1c08b88;border-radius:7px;overflow:hidden;box-shadow:0 7px 0 #030913,0 15px 26px #0008}
+.screen iframe{width:100%;height:100%;border:0}.play{padding:.65rem 1rem;background:#f2d396;color:#141b23;border:0;border-radius:5px;font-weight:700}
+.credit{color:#f1ce90}.links{display:flex;gap:.8rem;flex-wrap:wrap}.collection{margin:3rem 0}
+.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem}.card{background:#14243a;color:inherit;text-align:left;border:1px solid #bd9c6588;border-radius:8px;overflow:hidden;padding:0;box-shadow:0 5px 0 #060d18,0 12px 20px #0005;transition:transform .22s,box-shadow .22s}.card:hover,.card:focus-visible{transform:translateY(-4px);box-shadow:0 9px 0 #060d18,0 17px 24px #0006}.card[aria-pressed=true]{border-color:#f2d396}.card img{width:100%;aspect-ratio:2/1;object-fit:cover;display:block}.card span{display:block;padding:.8rem}.card strong,.card small{display:block}.card small{opacity:.88}
+.light{background:#f5f2e9;color:#172536}.light .modes a[aria-current]{color:#745219}.light .stage{color:#fff5e3;background:linear-gradient(110deg,#10223bd4,#162a41 85%),url('assets/lezioni/andromeda.jpg') center/cover}.light .card{background:linear-gradient(#fffaf1,#ede4d0);box-shadow:0 5px 0 #d4c5a8,0 12px 20px #42331b26}.light .card[aria-pressed=true]{border-color:#8d652a}.light .card:hover,.light .card:focus-visible{box-shadow:0 9px 0 #d4c5a8,0 17px 24px #42331b33}
+footer{padding:1rem 0 2rem;border-top:1px solid #bd9c6555;font-size:.9rem}
+@media(max-width:740px){.stage{grid-template-columns:1fr}.cards{grid-template-columns:1fr}.card{display:grid;grid-template-columns:35% 1fr;align-items:center}.card img{height:100%}}
+@media(prefers-reduced-motion:reduce){.card{transition:none}.card:hover,.card:focus-visible{transform:none}}
+</style>
+<header>
+  <a href="biblioteca-online.html">AD ASTRA · Biblioteca</a>
+  <nav class="modes" aria-label="Confronta i provini">
+    <a id="dark" href="?stile=sala">Sala di proiezione</a>
+    <a id="light" href="?stile=atlante">Atlante video</a>
+  </nav>
+</header>
+<main>
+  <div class="intro">
+    <h1>Videoteca scientifica</h1>
+    <p>Playlist di astronomia da guardare qui, con i rimandi alle raccolte e ai canali originali.</p>
+  </div>
+  <section class="stage" aria-label="Playlist selezionata">
+    <div class="screen" id="screen"></div>
+    <div aria-live="polite">
+      <p class="credit" id="publisher"></p>
+      <h2 id="title"></h2>
+      <p id="description"></p>
+      <div class="links">
+        <a id="playlist" target="_blank" rel="noopener">Apri su YouTube ↗</a>
+        <a id="channel" target="_blank" rel="noopener">Visita il canale ↗</a>
+      </div>
+    </div>
+  </section>
+  <section class="collection" aria-labelledby="collections">
+    <h2 id="collections">Scegli una playlist</h2>
+    <div class="cards" id="cards"></div>
+  </section>
+</main>
+<footer>AD ASTRA · Provino della Videoteca. Immagini di copertina illustrative.</footer>
+<script>
+const channel = 'https://www.youtube.com/@UnioneAstrofiliItaliani';
+const playlists = [
+  {title:'Pillole di astronomia', description:'Una raccolta di interventi brevi per entrare nei temi dell’astronomia.', id:'PLdN2BAVD9wRVG-sMOFbePPgnLkeonFmRu', image:'assets/lezioni/andromeda.jpg'},
+  {title:'Occhi al cielo del mese', description:'Una raccolta per orientarsi tra gli appuntamenti del cielo e preparare le osservazioni.', id:'PLdN2BAVD9wRW6uQwqdoge1lf-6V_TptPT', image:'assets/lezioni/orione-fotografico.jpg'},
+  {title:'Corso di astronomia cometaria', description:'Un percorso dedicato alle comete e alla loro osservazione.', id:'PLdN2BAVD9wRWtWeYRsBNNVWDqJgWVBT9j', image:'assets/lezioni/via-lattea-panorama.jpg'}
+];
+const byId = id => document.getElementById(id);
+const light = new URLSearchParams(location.search).get('stile') === 'atlante';
+document.body.classList.toggle('light', light);
+byId(light ? 'light' : 'dark').setAttribute('aria-current','page');
+const buttons = playlists.map(playlist => {
+  const button = document.createElement('button');
+  button.className = 'card';
+  button.type = 'button';
+  const image = new Image();
+  image.src = playlist.image;
+  image.alt = '';
+  const label = document.createElement('span');
+  const title = document.createElement('strong');
+  title.textContent = playlist.title;
+  const source = document.createElement('small');
+  source.textContent = 'Unione Astrofili Italiani';
+  label.append(title, source);
+  button.append(image, label);
+  button.addEventListener('click', () => select(playlist));
+  byId('cards').append(button);
+  return button;
+});
+function select(playlist) {
+  const screen = byId('screen');
+  screen.style.setProperty('--cover', 'url("' + playlist.image + '")');
+  byId('publisher').textContent = 'Unione Astrofili Italiani';
+  byId('title').textContent = playlist.title;
+  byId('description').textContent = playlist.description;
+  byId('playlist').href = 'https://www.youtube.com/playlist?list=' + playlist.id;
+  byId('channel').href = channel;
+  buttons.forEach((button, index) => button.setAttribute('aria-pressed', String(playlists[index] === playlist)));
+  const play = document.createElement('button');
+  play.type = 'button';
+  play.className = 'play';
+  play.textContent = '▶ Carica il lettore YouTube';
+  play.addEventListener('click', () => {
+    const player = document.createElement('iframe');
+    player.title = playlist.title + ' · YouTube';
+    player.src = 'https://www.youtube-nocookie.com/embed/videoseries?list=' + playlist.id;
+    player.allowFullscreen = true;
+    player.referrerPolicy = 'strict-origin-when-cross-origin';
+    screen.replaceChildren(player);
+    player.focus();
+  });
+  screen.replaceChildren(play);
+}
+select(playlists[0]);
+</script>
+</html>

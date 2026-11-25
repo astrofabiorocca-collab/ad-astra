@@ -1,0 +1,2199 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>AD ASTRA | Imparare a conoscere il cielo</title>
+
+  <meta
+    name="description"
+    content="AD ASTRA: astronomia, osservazione del cielo, astrofotografia, guide, effemeridi, software, biblioteca e divulgazione scientifica."
+  >
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  >
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+
+  <style>
+
+    /* =========================================================
+       BASE
+    ========================================================= */
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Helvetica,
+        Arial,
+        sans-serif;
+
+      background: #06101c;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+    }
+
+    .container {
+      width: min(1180px, 92%);
+      margin: 0 auto;
+    }
+
+
+    /* =========================================================
+       HEADER STICKY
+    ========================================================= */
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+
+      width: 100%;
+
+      background: rgba(3, 10, 18, 0.97);
+
+      border-bottom:
+        1px solid rgba(255, 255, 255, 0.08);
+
+      backdrop-filter: blur(10px);
+    }
+
+    .navbar {
+      width: min(1780px, 94%);
+      min-height: 108px;
+
+      margin: 0 auto;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+
+    /* =========================================================
+       NAVIGAZIONE
+    ========================================================= */
+
+    nav {
+      width: 100%;
+    }
+
+    nav ul {
+      width: 100%;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      flex-wrap: nowrap;
+
+      gap: clamp(14px, 1.25vw, 25px);
+
+      list-style: none;
+
+      font-size:
+        clamp(0.75rem, 0.83vw, 0.9rem);
+
+      white-space: nowrap;
+    }
+
+    nav a {
+      transition: color 0.2s ease;
+    }
+
+    nav a:hover {
+      color: #66b6ff;
+    }
+
+    nav a.active {
+      padding-bottom: 8px;
+
+      border-bottom: 2px solid #3099ff;
+    }
+
+
+    /* =========================================================
+       HERO
+    ========================================================= */
+
+    .hero {
+      position: relative;
+
+      min-height: 760px;
+
+      overflow: hidden;
+
+      background:
+        linear-gradient(
+          90deg,
+          rgba(3, 10, 18, 0.72) 0%,
+          rgba(3, 10, 18, 0.38) 45%,
+          rgba(3, 10, 18, 0.08) 100%
+        ),
+        url("home-ad-astra.png")
+        center center / cover no-repeat;
+    }
+
+    .hero::after {
+      content: "";
+
+      position: absolute;
+
+      left: 0;
+      right: 0;
+      bottom: 0;
+
+      height: 180px;
+
+      pointer-events: none;
+
+      background:
+        linear-gradient(
+          to bottom,
+          rgba(6, 16, 28, 0),
+          rgba(6, 16, 28, 0.45) 45%,
+          #06101c 100%
+        );
+    }
+
+
+    /* =========================================================
+       CONTENUTO HERO
+    ========================================================= */
+
+    .hero-layout {
+      position: relative;
+      z-index: 2;
+
+      width: min(1180px, 92%);
+
+      margin: 0 auto;
+
+      padding-top: 34px;
+    }
+
+
+    /* =========================================================
+       LOGO + AD ASTRA
+    ========================================================= */
+
+    .hero-brand {
+      display: flex;
+      align-items: center;
+
+      gap: 34px;
+
+      width: min(1080px, 82%);
+
+      min-height: 235px;
+    }
+
+
+    .hero-logo-wrap {
+      width: 205px;
+      height: 205px;
+
+      flex: 0 0 205px;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      overflow: hidden;
+
+      border-radius: 50%;
+    }
+
+
+    .hero-logo {
+      width: 205px;
+      height: 205px;
+
+      object-fit: contain;
+
+      mix-blend-mode: screen;
+
+      filter:
+        drop-shadow(
+          0 5px 14px
+          rgba(0, 0, 0, 0.35)
+        );
+    }
+
+
+    /*
+       AD ASTRA È TESTO HTML.
+       FONT ORBITRON.
+       NESSUNA IMMAGINE.
+    */
+
+    .hero-brand-name {
+      font-family: "Orbitron", sans-serif;
+
+      font-size:
+        clamp(3.5rem, 5.6vw, 5.6rem);
+
+      font-weight: 600;
+
+      line-height: 1;
+
+      letter-spacing: 0.075em;
+
+      white-space: nowrap;
+
+      background:
+        linear-gradient(
+          to bottom,
+          #ffffff 0%,
+          #f5f6f7 20%,
+          #c7ccd2 47%,
+          #8e959e 65%,
+          #e7e9ec 82%,
+          #ffffff 100%
+        );
+
+      -webkit-background-clip: text;
+      background-clip: text;
+
+      -webkit-text-fill-color: transparent;
+      color: transparent;
+
+      filter:
+        drop-shadow(
+          0 4px 7px
+          rgba(0, 0, 0, 0.38)
+        );
+    }
+
+
+    /* =========================================================
+       SOTTOTITOLO + DESCRIZIONE
+    ========================================================= */
+
+    .hero-copy {
+      max-width: 780px;
+
+      margin-top: 12px;
+      margin-left: 30px;
+    }
+
+    .hero-copy h1 {
+      margin-bottom: 20px;
+
+      color: #55aaff;
+
+      font-size:
+        clamp(2.1rem, 3.5vw, 3.4rem);
+
+      font-weight: 500;
+
+      line-height: 1.15;
+
+      text-shadow:
+        0 3px 12px
+        rgba(0, 0, 0, 0.40);
+    }
+
+    .hero-copy p {
+      max-width: 730px;
+
+      color: #e0e6ed;
+
+      font-size:
+        clamp(1rem, 1.25vw, 1.18rem);
+
+      line-height: 1.75;
+
+      text-shadow:
+        0 2px 8px
+        rgba(0, 0, 0, 0.45);
+    }
+
+
+    /* =========================================================
+       BOTTONI
+    ========================================================= */
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+
+      gap: 10px;
+
+      padding: 13px 22px;
+
+      border-radius: 6px;
+
+      background: #1673d1;
+      color: #ffffff;
+
+      font-weight: 600;
+
+      transition:
+        background 0.2s ease,
+        transform 0.2s ease;
+    }
+
+    .button:hover {
+      background: #2288ee;
+      transform: translateY(-2px);
+    }
+
+    .button-outline {
+      background: transparent;
+
+      border: 1px solid #318bdc;
+    }
+
+
+    /* =========================================================
+       SEZIONI
+    ========================================================= */
+
+    section {
+      padding: 70px 0;
+    }
+
+    .hero {
+      padding: 0;
+    }
+
+    .section-title {
+      margin-bottom: 8px;
+
+      text-align: center;
+
+      font-size:
+        clamp(1.8rem, 4vw, 2.45rem);
+
+      font-weight: 600;
+    }
+
+    .section-description {
+      max-width: 760px;
+
+      margin: 0 auto 32px;
+
+      color: #b9c6d5;
+
+      text-align: center;
+    }
+
+
+    /* =========================================================
+       PERCORSI PRINCIPALI
+    ========================================================= */
+
+    .main-grid {
+      display: grid;
+
+      grid-template-columns:
+        repeat(3, 1fr);
+
+      gap: 18px;
+    }
+
+    .main-card {
+      min-height: 225px;
+
+      display: flex;
+
+      gap: 20px;
+
+      padding: 28px;
+
+      border:
+        1px solid rgba(255, 255, 255, 0.11);
+
+      border-radius: 8px;
+
+      background:
+        linear-gradient(
+          145deg,
+          #0d1c2d,
+          #0a1624
+        );
+    }
+
+    .card-icon {
+      width: 58px;
+      height: 58px;
+
+      flex-shrink: 0;
+
+      display: grid;
+      place-items: center;
+
+      border:
+        1px solid #409cf2;
+
+      border-radius: 50%;
+
+      color: #63b5ff;
+
+      font-size: 1.8rem;
+    }
+
+    .main-card:nth-child(2) .card-icon {
+      border-color: #58ce7e;
+      color: #58ce7e;
+    }
+
+    .main-card:nth-child(3) .card-icon {
+      border-color: #bf79f2;
+      color: #bf79f2;
+    }
+
+    .main-card h3 {
+      margin-bottom: 8px;
+
+      font-size: 1.15rem;
+    }
+
+    .main-card p {
+      margin-bottom: 14px;
+
+      color: #c3ceda;
+
+      font-size: 0.92rem;
+    }
+
+    .card-link {
+      color: #55adff;
+
+      font-size: 0.91rem;
+      font-weight: 600;
+    }
+
+    .main-card:nth-child(2) .card-link {
+      color: #65da87;
+    }
+
+    .main-card:nth-child(3) .card-link {
+      color: #cb8bff;
+    }
+
+    /* Immagini di sfondo delle tre card principali.
+       La geometria originale delle card resta invariata. */
+
+    .main-card:nth-child(1) {
+      background:
+        url("home-scuola-astronomia.png") center / cover no-repeat;
+    }
+
+    .main-card:nth-child(2) {
+      background:
+        url("home-osservare-cielo.png") center / cover no-repeat;
+    }
+
+    .main-card:nth-child(3) {
+      background:
+        url("home-astrofotografia.png") center / cover no-repeat;
+    }
+
+
+    /* =========================================================
+       CIELO DEL MESE
+    ========================================================= */
+
+    .monthly-sky {
+      position: relative;
+
+      min-height: 270px;
+
+      display: flex;
+      align-items: center;
+
+      margin-top: 20px;
+
+      overflow: hidden;
+
+      border:
+        1px solid rgba(255, 255, 255, 0.14);
+
+      border-radius: 9px;
+
+      background:
+        linear-gradient(
+          90deg,
+          rgba(4, 15, 28, 0.95),
+          rgba(4, 15, 28, 0.52)
+        ),
+        url("https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?auto=format&fit=crop&w=1800&q=85")
+        center / cover no-repeat;
+    }
+
+    .monthly-content {
+      width: 60%;
+
+      padding: 40px;
+    }
+
+    .monthly-content h2 {
+      margin-bottom: 9px;
+
+      font-size: 2rem;
+    }
+
+    .monthly-content p {
+      margin-bottom: 20px;
+
+      color: #d1dae4;
+    }
+
+
+    /* =========================================================
+       STRUMENTI
+    ========================================================= */
+
+    .tools-grid {
+      display: grid;
+
+      grid-template-columns:
+        repeat(4, 1fr);
+
+      gap: 16px;
+
+      margin-top: 26px;
+    }
+
+    .tool-card {
+      min-height: 180px;
+
+      padding: 22px;
+
+      border:
+        1px solid rgba(255, 255, 255, 0.11);
+
+      border-radius: 8px;
+
+      background: #0b1828;
+    }
+
+    .tool-icon {
+      margin-bottom: 12px;
+
+      font-size: 2rem;
+    }
+
+    .tool-card:nth-child(1) .tool-icon,
+    .tool-card:nth-child(1) .tool-link {
+      color: #5eb5ff;
+    }
+
+    .tool-card:nth-child(2) .tool-icon,
+    .tool-card:nth-child(2) .tool-link {
+      color: #66d983;
+    }
+
+    .tool-card:nth-child(3) .tool-icon,
+    .tool-card:nth-child(3) .tool-link {
+      color: #c68aff;
+    }
+
+    .tool-card:nth-child(4) .tool-icon,
+    .tool-card:nth-child(4) .tool-link {
+      color: #f2a124;
+    }
+
+    .tool-card h3 {
+      margin-bottom: 7px;
+    }
+
+    .tool-card p {
+      margin-bottom: 13px;
+
+      color: #becbd8;
+
+      font-size: 0.88rem;
+    }
+
+    .tool-link {
+      font-size: 0.88rem;
+      font-weight: 600;
+    }
+
+    /* Immagini di sfondo delle quattro card Strumenti.
+       Dimensioni, griglia e spaziature restano quelle originali. */
+
+    .tool-card:nth-child(1) {
+      background:
+        url("home-stellarium-web.png") center / cover no-repeat;
+    }
+
+    .tool-card:nth-child(2) {
+      background:
+        url("home-effemeridi.png") center / cover no-repeat;
+    }
+
+    .tool-card:nth-child(3) {
+      background:
+        url("home-software.png") center / cover no-repeat;
+    }
+
+    .tool-card:nth-child(4) {
+      background:
+        url("home-biblioteca.png") center / cover no-repeat;
+    }
+
+
+    /* Contenuti e velatura sempre visibili sui dispositivi touch. */
+    .main-card,
+    .tool-card {
+      position: relative;
+      isolation: isolate;
+    }
+
+    .main-card::before,
+    .tool-card::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      border-radius: inherit;
+      background: linear-gradient(rgba(6, 16, 28, 0.76), rgba(6, 16, 28, 0.86));
+      pointer-events: none;
+      z-index: -1;
+      transition: opacity 0.25s ease;
+    }
+
+    .tool-card::before {
+      background: linear-gradient(rgba(6, 16, 28, 0.78), rgba(6, 16, 28, 0.88));
+    }
+
+    .main-card > *,
+    .tool-card > * {
+      transition: opacity 0.25s ease;
+    }
+
+    @media (hover: hover) and (pointer: fine) {
+      .main-card::before,
+      .tool-card::before,
+      .main-card > *,
+      .tool-card > * {
+        opacity: 0;
+      }
+
+      .main-card:hover::before,
+      .main-card:focus-within::before,
+      .tool-card:hover::before,
+      .tool-card:focus-within::before,
+      .main-card:hover > *,
+      .main-card:focus-within > *,
+      .tool-card:hover > *,
+      .tool-card:focus-within > * {
+        opacity: 1;
+      }
+    }
+
+    /* =========================================================
+       NOTIZIE
+    ========================================================= */
+
+    .news-section {
+      background: #071321;
+    }
+
+    .news-grid {
+      display: grid;
+
+      grid-template-columns:
+        repeat(3, 1fr);
+
+      gap: 18px;
+
+      margin-top: 26px;
+    }
+
+    .news-card {
+      overflow: hidden;
+
+      border:
+        1px solid rgba(255, 255,255, 0.10);
+
+      border-radius: 8px;
+
+      background: #0c1a2b;
+    }
+
+    .news-card img {
+      width: 100%;
+      height: 190px;
+
+      object-fit: cover;
+    }
+
+    .news-content {
+      padding: 20px;
+    }
+
+    .news-date {
+      margin-bottom: 8px;
+
+      color: #51a9f8;
+
+      font-size: 0.78rem;
+    }
+
+    .news-content h3 {
+      margin-bottom: 9px;
+
+      font-size: 1.05rem;
+    }
+
+    .news-content p {
+      margin-bottom: 12px;
+
+      color: #bac7d3;
+
+      font-size: 0.87rem;
+    }
+
+    .news-link {
+      color: #54abf7;
+
+      font-size: 0.87rem;
+      font-weight: 600;
+    }
+
+    .all-news {
+      margin-top: 24px;
+
+      text-align: center;
+    }
+
+
+    /* =========================================================
+       POSTER + VENTUNESIMO
+    ========================================================= */
+
+    .editorial-grid {
+      display: grid;
+
+      grid-template-columns:
+        1fr 1fr;
+
+      gap: 18px;
+    }
+
+    .editorial-card {
+      min-height: 275px;
+
+      display: grid;
+
+      grid-template-columns:
+        1.3fr 0.7fr;
+
+      overflow: hidden;
+
+      border:
+        1px solid rgba(255, 255, 255, 0.11);
+
+      border-radius: 8px;
+
+      background: #0b1828;
+    }
+
+    .editorial-text {
+      padding: 28px;
+    }
+
+    .editorial-text h2 {
+      margin-bottom: 8px;
+    }
+
+    .editorial-text p {
+      margin-bottom: 16px;
+
+      color: #bcc9d5;
+
+      font-size: 0.91rem;
+    }
+
+    .editorial-image {
+      width: 100%;
+      height: 100%;
+
+      object-fit: cover;
+      object-position: center top;
+    }
+
+    .poster-placeholder {
+      min-height: 100%;
+
+      display: grid;
+      place-items: center;
+
+      padding: 20px;
+
+      color: #9cacbc;
+
+      text-align: center;
+
+      background:
+        radial-gradient(
+          circle,
+          #18304a,
+          #07111d
+        );
+    }
+
+
+    /* =========================================================
+       FOOTER
+    ========================================================= */
+
+    footer {
+      width: 100%;
+
+      background: #020b18;
+
+      overflow: hidden;
+    }
+
+    .footer-banner {
+      position: relative;
+
+      width: 100%;
+
+      aspect-ratio: 2048 / 405;
+
+      overflow: hidden;
+
+      background:
+        url("banner 2.png")
+        left top / 100% auto
+        no-repeat;
+    }
+
+
+    /* =========================================================
+       MENU FOOTER
+    ========================================================= */
+
+    .footer-menu {
+      position: absolute;
+
+      top: 31%;
+      right: 8%;
+
+      width: 48%;
+
+      display: grid;
+
+      grid-template-columns:
+        repeat(3, 1fr);
+
+      column-gap: 34px;
+      row-gap: 21px;
+    }
+
+    .footer-menu a {
+      color: #e1e8f0;
+
+      font-size:
+        clamp(0.72rem, 0.85vw, 0.92rem);
+
+      line-height: 1.35;
+
+      transition: color 0.2s ease;
+    }
+
+    .footer-menu a:hover {
+      color: #66b6ff;
+    }
+
+
+    /* =========================================================
+       FACEBOOK
+    ========================================================= */
+
+    .footer-facebook {
+      position: absolute;
+
+      right: 4.5%;
+      top: 54%;
+
+      transform: translateY(-50%);
+
+      width: 48px;
+      height: 48px;
+
+      display: grid;
+      place-items: center;
+
+      border-radius: 50%;
+
+      background: #1877f2;
+      color: #ffffff;
+
+      font-family: Arial, sans-serif;
+
+      font-size: 1.55rem;
+      font-weight: 700;
+
+      line-height: 1;
+    }
+
+
+    /* =========================================================
+       TABLET
+    ========================================================= */
+
+    @media (max-width: 1200px) {
+
+      nav ul {
+        gap: 11px;
+        font-size: 0.72rem;
+      }
+
+      .hero-brand {
+        width: 90%;
+      }
+
+      .hero-logo-wrap {
+        width: 180px;
+        height: 180px;
+
+        flex-basis: 180px;
+      }
+
+      .hero-logo {
+        width: 180px;
+        height: 180px;
+      }
+
+      .hero-brand-name {
+        font-size:
+          clamp(3.2rem, 5.4vw, 5rem);
+      }
+
+      .footer-menu {
+        right: 7%;
+
+        width: 50%;
+
+        column-gap: 20px;
+        row-gap: 14px;
+      }
+
+    }
+
+
+    @media (max-width: 1000px) {
+
+      .navbar {
+        min-height: 92px;
+
+        overflow-x: auto;
+
+        justify-content: flex-start;
+      }
+
+      nav {
+        overflow-x: auto;
+      }
+
+      nav ul {
+        width: max-content;
+
+        justify-content: flex-start;
+
+        padding: 0 20px;
+      }
+
+      .hero {
+        min-height: 680px;
+      }
+
+      .hero-layout {
+        padding-top: 25px;
+      }
+
+      .hero-brand {
+        min-height: 190px;
+
+        gap: 20px;
+      }
+
+      .hero-logo-wrap {
+        width: 155px;
+        height: 155px;
+
+        flex-basis: 155px;
+      }
+
+      .hero-logo {
+        width: 155px;
+        height: 155px;
+      }
+
+      .hero-brand-name {
+        font-size:
+          clamp(2.8rem, 6vw, 4.4rem);
+      }
+
+      .hero-copy {
+        margin-left: 10px;
+      }
+
+      .main-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .tools-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .news-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .editorial-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .footer-banner {
+        aspect-ratio: 2048 / 450;
+      }
+
+      .footer-menu {
+        top: 25%;
+
+        width: 51%;
+
+        grid-template-columns:
+          repeat(2, 1fr);
+
+        row-gap: 8px;
+      }
+
+      .footer-facebook {
+        top: 70%;
+      }
+
+    }
+
+
+    /* =========================================================
+       SMARTPHONE
+    ========================================================= */
+
+    @media (max-width: 650px) {
+
+      .navbar {
+        min-height: 78px;
+      }
+
+      .hero {
+        min-height: 560px;
+
+        background-position:
+          63% center;
+      }
+
+      .hero-layout {
+        width: 94%;
+
+        padding-top: 20px;
+      }
+
+      .hero-brand {
+        width: 100%;
+
+        min-height: 135px;
+
+        gap: 12px;
+      }
+
+      .hero-logo-wrap {
+        width: 110px;
+        height: 110px;
+
+        flex-basis: 110px;
+      }
+
+      .hero-logo {
+        width: 110px;
+        height: 110px;
+      }
+
+      .hero-brand-name {
+        font-size:
+          clamp(2rem, 10vw, 3.2rem);
+
+        letter-spacing: 0.04em;
+      }
+
+      .hero-copy {
+        margin-top: 12px;
+        margin-left: 5px;
+
+        max-width: 90%;
+      }
+
+      .hero-copy h1 {
+        font-size:
+          clamp(1.75rem, 8vw, 2.4rem);
+      }
+
+      .hero-copy p {
+        font-size: 0.95rem;
+      }
+
+      section {
+        padding: 50px 0;
+      }
+
+      .hero {
+        padding: 0;
+      }
+
+      .monthly-content {
+        width: 100%;
+
+        padding: 28px;
+      }
+
+      .tools-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .news-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .editorial-card {
+        grid-template-columns: 1fr;
+      }
+
+      .editorial-image {
+        max-height: 450px;
+      }
+
+      .footer-banner {
+        min-height: 0;
+        aspect-ratio: auto;
+        overflow: visible;
+        background: #041529;
+      }
+
+      .footer-banner::before {
+        content: "";
+        display: block;
+        width: 100%;
+        aspect-ratio: 2048 / 405;
+        background:
+          url("banner 2.png")
+          center top / cover
+          no-repeat;
+      }
+
+      .footer-menu {
+        position: static;
+        width: 100%;
+        padding: 24px 7% 18px;
+        grid-template-columns: 1fr;
+        row-gap: 7px;
+        background: #041529;
+      }
+
+      .footer-menu a {
+        font-size: 0.78rem;
+        line-height: 1.4;
+      }
+
+      .footer-facebook {
+        position: static;
+        transform: none;
+        width: 38px;
+        height: 38px;
+        margin: 0 7% 24px auto;
+        font-size: 1.1rem;
+      }
+
+    }
+
+
+    /* Banner superiore: composizione e testi approvati. */
+    .hero {
+      background: url("home-ad-astra.png") center center / cover no-repeat;
+    }
+    .hero-layout {
+      width: min(1440px, 94%);
+      padding-top: 48px;
+    }
+    .hero-brand {
+      width: 100%;
+      min-height: 250px;
+      gap: 34px;
+      align-items: center;
+    }
+    .hero-logo-wrap,
+    .hero-logo {
+      width: 240px;
+      height: 240px;
+    }
+    .hero-logo-wrap { flex-basis: 240px; }
+    .hero-brand-text { min-width: 0; }
+    .hero-brand-name {
+      font-size: clamp(3.5rem, 6.5vw, 7rem);
+      font-weight: 600;
+      letter-spacing: 0.055em;
+    }
+    .hero-copy {
+      max-width: none;
+      margin: 20px 0 0;
+    }
+    .hero-copy h1 {
+      margin: 0;
+      font-size: clamp(1.6rem, 2.8vw, 3rem);
+      color: #69bdff;
+      font-weight: 400;
+      line-height: 1.25;
+    }
+    .hero-quotation {
+      width: fit-content;
+      max-width: min(1080px, 88%);
+      margin: 22px 0 0;
+      color: #f0eef0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(1.05rem, 1.5vw, 1.5rem);
+      line-height: 1.5;
+      text-shadow: 0 2px 8px rgba(0,0,0,.7);
+    }
+    .hero-quotation blockquote { font-style: italic; }
+    .hero-quotation figcaption {
+      margin-top: 6px;
+      text-align: right;
+    }
+    @media (min-width: 1001px) {
+      .hero-quotation blockquote {
+        font-size: clamp(1rem, 1.2vw, 1.125rem);
+      }
+    }
+    @media (max-width: 1000px) {
+      .hero-layout { padding-top: 30px; }
+      .hero-brand { min-height: 190px; gap: 22px; }
+      .hero-logo-wrap, .hero-logo { width: 170px; height: 170px; }
+      .hero-logo-wrap { flex-basis: 170px; }
+      .hero-brand-name { font-size: clamp(2.8rem, 7vw, 5rem); }
+      .hero-copy { margin: 15px 0 0; }
+      .hero-copy h1 { font-size: clamp(1.5rem, 3.2vw, 2.2rem); }
+      .hero-quotation { max-width: 90%; margin-top: 20px; }
+    }
+    @media (max-width: 650px) {
+      .hero { background-position: 63% center; }
+      .hero-layout { padding-top: 20px; }
+      .hero-brand { min-height: 110px; gap: 12px; }
+      .hero-logo-wrap, .hero-logo { width: 92px; height: 92px; }
+      .hero-logo-wrap { flex-basis: 92px; }
+      .hero-brand-name { font-size: clamp(1.7rem, 7vw, 3.2rem); letter-spacing: .04em; }
+      .hero-copy { max-width: 100%; margin: 12px 0 0; }
+      .hero-copy h1 { font-size: clamp(1.02rem, 4.3vw, 1.65rem); }
+      .hero-quotation { max-width: 100%; margin-top: 24px; font-size: 1rem; }
+    }
+
+
+    /* Banner inferiore comune: titoli leggibili, con margine superiore regolare. */
+    .site-footer{position:relative;width:100%;height:clamp(350px,22vw,510px);min-height:350px;overflow:hidden;background:#041529}
+    .site-footer .bottom-banner-image{display:block;width:100%;height:100%;object-fit:contain;object-position:left center}
+    .site-footer .footer-navigation{position:absolute;top:36px;right:3%;transform:none;width:53%;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;padding:0;background:transparent;color:#fff;align-items:start}
+    .site-footer .footer-column{min-width:0}
+    .site-footer .footer-column h3{margin:0 0 14px;color:#fff;font-size:.82rem;font-weight:700;line-height:1.4}
+    .site-footer .footer-column ul{list-style:none;margin:0;padding:0}
+    .site-footer .footer-column li{margin:0 0 7px;font-size:.76rem;line-height:1.5}
+    .site-footer .footer-column a{color:#bcc8d5;font-size:.76rem;line-height:1.5;text-decoration:none;transition:color .2s ease}
+    .site-footer .footer-column a:hover{color:#5eb5ff}
+    .site-footer .footer-column .footer-facebook{position:static;transform:none;margin:0;width:38px;height:38px;display:grid;place-items:center;border-radius:50%;background:#1877f2;color:#fff;font-size:1.25rem;font-weight:700;font-family:Arial,sans-serif}
+    @media(max-width:1100px) and (min-width:901px){.site-footer .footer-navigation{top:32px;right:2%;width:55%;gap:12px}.site-footer .footer-column h3{font-size:.75rem}.site-footer .footer-column a{font-size:.69rem}}
+    @media(max-width:900px){.site-footer{height:auto;min-height:0;overflow:visible}.site-footer .bottom-banner-image{width:100%;height:auto;object-fit:initial}.site-footer .footer-navigation{position:static;top:auto;right:auto;transform:none;width:100%;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 22px;padding:32px 5%;background:#041529}.site-footer .footer-column h3{font-size:.85rem}.site-footer .footer-column a{font-size:.8rem}}
+    @media(max-width:520px){.site-footer .footer-navigation{grid-template-columns:1fr;gap:26px;padding:30px 7%}}
+
+  </style>
+
+<style>
+/* Home: banner approvato e raccordo graduale al fondo della pagina. */
+.hero-banner11 + section .section-title,.hero-banner11 + section .section-description{position:relative;top:-22px}
+.hero.hero-banner11{--raccordo:clamp(130px,17vw,340px);position:relative;min-height:0;height:auto;aspect-ratio:auto;padding:0 0 var(--raccordo);background:#000;overflow:hidden;border:0}
+.hero-banner11 .banner11-image{display:block;width:100%;max-width:none;height:auto;object-fit:contain;margin:0;mask-image:linear-gradient(to bottom,#000 0%,#000 92%,rgba(0,0,0,.97) 94%,rgba(0,0,0,.8) 96%,rgba(0,0,0,.35) 98%,transparent 100%)}
+.hero.hero-banner11::after{content:'';position:absolute;left:0;right:0;bottom:0;height:var(--raccordo);background:linear-gradient(to bottom,#000 0%,#000 5%,#000102 15%,#010305 28%,#020609 43%,#03090f 59%,#050d16 76%,#06101b 91%,#06101c 100%);pointer-events:none}
+</style><link rel="stylesheet" href="assets/menu-persistente.css">
+<link rel="stylesheet" href="assets/biblioteca/giovani-richiami.css">
+<link rel="stylesheet" href="assets/home-lastra/home-lastra.css">
+
+<style>
+body .home-editorial{padding:0 0 clamp(24px,4vw,54px);color:#17344a}
+.home-editorial .he-switch{display:flex;flex-wrap:wrap;align-items:center;gap:.55rem;margin:0 0 1.5rem;padding:12px 0;border-bottom:1px solid #b9a783}
+.he-switch strong,.he-kicker{font:700 .76rem/1.4 system-ui,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:#77571f}
+.he-switch a,.he-jumps a{padding:.45rem .75rem;border:1px solid #b9a783;border-radius:5px;background:#fcfaf5;color:#17344a;text-decoration:none}
+.he-switch a[aria-current=page],.he-jumps a:first-child{background:#17344a;color:#fff}
+.he-switch a:hover,.he-jumps a:hover{text-decoration:underline}
+.he-intro,.he-school,.he-magazine{padding:clamp(18px,3vw,42px);border:1px solid #c6b592;border-radius:10px;background:#faf8f1}
+.he-intro{background:linear-gradient(116deg,#fcfaf5,#f0e8d7)}
+.he-intro h1,.he-school h2,.he-magazine h2{font-family:Georgia,serif;font-weight:500;line-height:1.12;margin:.35rem 0 .7rem}
+.he-intro h1{font-size:clamp(2.05rem,4.7vw,4.2rem);max-width:22ch}
+.he-intro p,.he-school p,.he-magazine p{margin:.4rem 0 .75rem;line-height:1.56}
+.he-intro p{max-width:76ch;font-size:1.08rem}
+.he-jumps{display:flex;flex-wrap:wrap;gap:.6rem;margin-top:1.15rem}
+.he-stack{display:grid;gap:1rem;margin-top:1rem}
+.he-school{background:#edf2f4}
+.he-school h2,.he-magazine h2{font-size:clamp(1.6rem,3vw,2.65rem)}
+.he-school p{max-width:76ch}
+.he-school a,.he-titles a{color:#174a65;font-weight:700;text-decoration:underline;text-underline-offset:.2em}
+.he-covers{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem;margin-top:1rem}
+.he-title{display:grid;grid-template-columns:minmax(66px,108px) minmax(0,1fr);gap:1rem;align-items:center;padding:1rem;background:#fff;border:1px solid #dfd4bd;border-radius:7px}
+.he-title img{width:100%;height:auto;display:block;border-radius:3px}
+.he-title h3{margin:.2rem 0;font-size:clamp(1rem,1.6vw,1.34rem);line-height:1.2}
+.he-title p{font-size:.94rem}
+.he-balance{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+.he-balance .he-covers{grid-template-columns:1fr}
+.he-balance .he-title{grid-template-columns:56px minmax(0,1fr);padding:.65rem}
+.he-balance .he-school{display:flex;flex-direction:column;justify-content:center}
+.he-school,.he-magazine{scroll-margin-top:110px}
+@media(max-width:750px){.he-balance,.he-covers{grid-template-columns:1fr}.he-title{grid-template-columns:75px minmax(0,1fr)}}
+</style>
+</head>
+
+
+<body>
+
+
+  <!-- =====================================================
+       HEADER STICKY
+  ====================================================== -->
+
+  <header>
+
+    <div class="navbar">
+
+      <nav>
+
+        <ul>
+
+          <li>
+            <a class="active" href="index.html">
+              Home
+            </a>
+          </li>
+
+          <li>
+            <a href="scuola-astronomia.html">
+              Scuola di Astronomia
+            </a>
+          </li>
+
+          <li>
+            <a href="guide.html">
+              Guide
+            </a>
+          </li>
+
+          <li>
+            <a href="strumentazione.html">
+              Strumentazione
+            </a>
+          </li>
+
+          <li>
+            <a href="astrofotografia.html">
+              Astrofotografia
+            </a>
+          </li>
+
+          <li>
+            <a href="poster.html">
+              Poster
+            </a>
+          </li>
+
+          <li>
+            <a href="cielo-del-mese.html">
+              Il Cielo del Mese
+            </a>
+          </li>
+
+          <li>
+            <a href="effemeridi.html">
+              Effemeridi
+            </a>
+          </li>
+
+          <li>
+            <a href="software.html">
+              Software
+            </a>
+          </li>
+
+          <li>
+            <a href="biblioteca.html">
+              Biblioteca
+            </a>
+          </li>
+
+          <li>
+            <a href="pubblicazioni-ad-astra.html">
+              PUBBLICAZIONI
+            </a>
+          </li>
+
+          <li>
+            <a href="notizie.html">
+              Notizie
+            </a>
+          </li>
+
+          <li>
+            <a href="ventunesimo.html">
+              VENTUNESIMO
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+
+
+  <main>
+
+
+    <!-- =====================================================
+         HERO
+    ====================================================== -->
+
+    <section class="hero hero-banner11" aria-label="AD ASTRA — Raccontare Mondi">
+<img class="banner11-image" src="banner-home-1.1.png" alt="AD ASTRA — Raccontare Mondi. Astronauta tra galassie e Saturno, con citazione di Stephen Hawking: Il mio obiettivo è semplice. È una comprensione completa dell’universo, perché è così com’è e perché esiste.">
+</section>
+
+
+
+
+    <div class="home-editorial">
+      <div class="container">
+        <nav class="he-switch" aria-label="Confronta i provini"><strong>Provini home</strong><a href="provino-home-rivista.html">1. Vetrina in primo piano</a> <a href="provino-home-scuola.html" aria-current="page">2. Scuola in primo piano</a> <a href="provino-home-portale.html">3. Portale a due ingressi</a><a href="index.html">Home attuale</a></nav>
+        <div class="he-intro">
+          <span class="he-kicker">Il progetto AD ASTRA</span>
+          <h1>Imparare a guardare il cielo</h1>
+          <p>AD ASTRA nasce da una domanda che ci accompagna ogni volta che alziamo lo sguardo: che cosa stiamo vedendo? La Scuola di Astronomia parte da qui. Guide, laboratori e carte aiutano a portare fuori le lezioni; i magazine aprono lo sguardo alle scoperte, alle missioni e ai cambiamenti della Terra.</p>
+          <div class="he-jumps"><a href="#provino-didattica">Esplora la didattica</a> <a href="#provino-magazine">Scopri le testate</a></div>
+        </div>
+        <div class="he-stack">
+<section class="he-school" id="provino-didattica" aria-labelledby="he-school">
+  <span class="he-kicker">Scuola di Astronomia</span>
+  <h2 id="he-school">Dal primo sguardo alla prossima domanda</h2>
+  <p>Parti dal cielo che vedi: orientati, riconosci le costellazioni e impara a leggere una carta. Poi segui la luce fino alla nascita delle stelle. Lezioni, laboratori, quiz e glossario ti aiutano a capire ciò che osservi, un passo alla volta.</p>
+  <div><a href="scuola-astronomia.html">Entra nella Scuola di Astronomia →</a></div>
+</section>
+
+<section class="he-magazine" id="provino-magazine" aria-labelledby="he-mag">
+  <span class="he-kicker">Le due testate</span>
+  <h2 id="he-mag">Dal cosmo alla Terra</h2>
+  <div class="he-covers">
+    <article class="he-title">
+      <img src="provino-home-copertina-europa.png" alt="Provino di copertina dedicato a Europa" width="1152" height="1536" loading="lazy">
+      <div><span class="he-kicker">Progetto editoriale</span><h3>AD ASTRA – Raccontare Mondi</h3>
+      <p>Astronomia, missioni spaziali ed esplorazione. In copertina, un’idea di apertura: l’oceano nascosto di Europa.</p></div>
+    </article>
+    <article class="he-title">
+      <img src="VENTUNESIMO_01_pietra_miliare.png" alt="Copertina di VENTUNESIMO" loading="lazy">
+      <div><span class="he-kicker">Il nostro secolo</span><h3>VENTUNESIMO</h3>
+      <p>La Terra e le trasformazioni che stiamo vivendo: clima, società e tecnologia.</p>
+      <a href="ventunesimo.html">Esplora la testata →</a></div>
+    </article>
+  </div>
+</section>
+</div>
+      </div>
+    </div>
+    <!-- =====================================================
+         DA DOVE INIZIARE
+    ====================================================== -->
+
+    <section>
+
+      <div class="container">
+
+        <h2 class="section-title">
+          Da dove vuoi iniziare?
+        </h2>
+
+        <p class="section-description">
+
+          AD ASTRA nasce per chi vuole comprendere
+          il cielo partendo dalle basi,
+          imparare a osservare e acquisire
+          progressivamente gli strumenti necessari
+          per avvicinarsi all'astronomia
+          e all'astrofotografia.
+
+        </p>
+
+
+        <div class="main-grid">
+
+
+          <article class="main-card">
+
+            <div class="card-icon">
+              ◈
+            </div>
+
+            <div>
+
+              <h3>
+                Scuola di Astronomia
+              </h3>
+
+              <p>
+                Lezioni strutturate per comprendere
+                stelle, pianeti, galassie, nebulose,
+                ammassi, coordinate celesti
+                e fenomeni astronomici.
+              </p>
+
+              <a
+                class="card-link"
+                href="scuola-astronomia.html"
+              >
+                Inizia a studiare →
+              </a>
+
+            </div>
+
+          </article>
+
+
+
+          <article class="main-card">
+
+            <div class="card-icon">
+              ✧
+            </div>
+
+            <div>
+
+              <h3>
+                Osservare il cielo
+              </h3>
+
+              <p>
+                Impara a orientarti,
+                riconoscere le costellazioni,
+                utilizzare mappe celesti
+                e programmare una sessione osservativa.
+              </p>
+
+              <a
+                class="card-link"
+                href="guide.html"
+              >
+                Vai alle guide →
+              </a>
+
+            </div>
+
+          </article>
+
+
+
+          <article class="main-card">
+
+            <div class="card-icon">
+              ◉
+            </div>
+
+            <div>
+
+              <h3>
+                Astrofotografia
+              </h3>
+
+              <p>
+                Dalle prime immagini del cielo
+                ai concetti fondamentali
+                di acquisizione, inseguimento,
+                stacking ed elaborazione.
+              </p>
+
+              <a
+                class="card-link"
+                href="astrofotografia.html"
+              >
+                Scopri come iniziare →
+              </a>
+
+            </div>
+
+          </article>
+
+
+        </div>
+
+
+
+        <!-- =================================================
+             CIELO DEL MESE
+        ================================================== -->
+
+        <article class="monthly-sky">
+
+          <div class="monthly-content">
+
+            <h2>
+              Il Cielo del Mese
+            </h2>
+
+            <p>
+              Una guida periodica per sapere cosa osservare:
+              costellazioni, pianeti, Luna,
+              congiunzioni, sciami meteorici
+              e principali oggetti del cielo profondo.
+            </p>
+
+            <a
+              class="button"
+              href="cielo-del-mese.html"
+            >
+              Scopri il cielo di questo mese →
+            </a>
+
+          </div>
+
+        </article>
+
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         STRUMENTI
+    ====================================================== -->
+
+    <section>
+
+      <div class="container">
+
+        <h2 class="section-title">
+          Strumenti per studiare e osservare
+        </h2>
+
+
+        <div class="tools-grid">
+
+
+          <article class="tool-card">
+
+            <div class="tool-icon">
+              ◎
+            </div>
+
+            <h3>
+              Stellarium Web
+            </h3>
+
+            <p>
+              Planetario online per esplorare
+              il cielo direttamente dal browser.
+            </p>
+
+            <a
+              class="tool-link"
+              href="https://stellarium-web.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Apri Stellarium Web →
+            </a>
+
+          </article>
+
+
+
+          <article class="tool-card">
+
+            <div class="tool-icon">
+              ▣
+            </div>
+
+            <h3>
+              Effemeridi
+            </h3>
+
+            <p>
+              Dati astronomici, fasi lunari,
+              pianeti, eventi e fenomeni celesti.
+            </p>
+
+            <a
+              class="tool-link"
+              href="effemeridi.html"
+            >
+              Consulta le effemeridi →
+            </a>
+
+          </article>
+
+
+
+          <article class="tool-card">
+
+            <div class="tool-icon">
+              ▱
+            </div>
+
+            <h3>
+              Software
+            </h3>
+
+            <p>
+              Programmi selezionati
+              per astronomia e astrofotografia,
+              con collegamenti alle fonti ufficiali.
+            </p>
+
+            <a
+              class="tool-link"
+              href="software.html"
+            >
+              Scopri i software →
+            </a>
+
+          </article>
+
+
+
+          <article class="tool-card tool-library-card" aria-labelledby="home-library-title">
+            <div class="tool-icon" aria-hidden="true">◫</div>
+            <h3 id="home-library-title">Biblioteca</h3>
+            <p>Libri consigliati, risorse online e attività per bambini e ragazzi.</p>
+            <a class="tool-link" href="biblioteca.html">Esplora la biblioteca →</a>
+            <nav class="home-library-shortcuts" aria-label="Percorsi della Biblioteca"><a href="biblioteca-online.html">Biblioteca online</a><a href="biblioteca-online.html?area=astronautica#catalogo">Astronautica</a><a href="giovani-esploratori.html">Giovani esploratori</a></nav>
+          </article>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         NOTIZIE
+    ====================================================== -->
+
+
+<section class="news-section">
+
+      <div class="container">
+
+        <h2 class="section-title">
+          Ultime Notizie
+        </h2>
+
+        <p class="section-description">
+          Astronomia, ricerca scientifica,
+          missioni spaziali e fenomeni celesti.
+        </p>
+
+
+        <div class="news-grid">
+
+
+          <article class="news-card">
+
+            <img
+              src="https://images.unsplash.com/photo-1462331940025-496dfbfc7564?auto=format&fit=crop&w=1000&q=85"
+              alt="Nebulosa nello spazio"
+            >
+
+            <div class="news-content">
+
+              <div class="news-date">
+                Notizie AD ASTRA
+              </div>
+
+              <h3>
+                Astronomia e ricerca
+              </h3>
+
+              <p>
+                In questo spazio compariranno
+                le notizie e gli approfondimenti
+                più recenti.
+              </p>
+
+              <a
+                class="news-link"
+                href="notizie.html"
+              >
+                Leggi di più →
+              </a>
+
+            </div>
+
+          </article>
+
+
+
+          <article class="news-card">
+
+            <img
+              src="home-esplorazione-spazio.png"
+              alt="Esplorazione dello spazio"
+            >
+
+            <div class="news-content">
+
+              <div class="news-date">
+                Missioni spaziali
+              </div>
+
+              <h3>
+                Esplorazione dello spazio
+              </h3>
+
+              <p>
+                Missioni, sonde, telescopi
+                e nuove esplorazioni
+                del Sistema Solare.
+              </p>
+
+              <a
+                class="news-link"
+                href="notizie.html"
+              >
+                Leggi di più →
+              </a>
+
+            </div>
+
+          </article>
+
+
+
+          <article class="news-card">
+
+            <img
+              src="home-eventi-astronomici-eclissi.png"
+              alt="Evento astronomico ed eclissi"
+            >
+
+            <div class="news-content">
+
+              <div class="news-date">
+                Il cielo
+              </div>
+
+              <h3>
+                Eventi astronomici
+              </h3>
+
+              <p>
+                Fenomeni osservabili,
+                eventi celesti e appuntamenti
+                da non perdere.
+              </p>
+
+              <a
+                class="news-link"
+                href="notizie.html"
+              >
+                Leggi di più →
+              </a>
+
+            </div>
+
+          </article>
+
+
+        </div>
+
+
+        <div class="all-news">
+
+          <a
+            class="button button-outline"
+            href="notizie.html"
+          >
+            Vai a tutte le notizie →
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         POSTER + VENTUNESIMO
+    ====================================================== -->
+
+    <section>
+
+      <div class="container">
+
+        <div class="editorial-grid">
+
+
+          <article class="editorial-card">
+
+            <div class="editorial-text">
+
+              <h2>
+                Poster e materiali divulgativi
+              </h2>
+
+              <p>
+                Schede, poster e materiali visuali
+                dedicati ai principali argomenti astronomici,
+                pensati per studio, divulgazione
+                e consultazione.
+              </p>
+
+              <a
+                class="card-link"
+                href="poster.html"
+              >
+                Vai ai Poster →
+              </a>
+
+            </div>
+
+
+            <img
+              class="editorial-image"
+              src="home-poster-divulgazione.png"
+              alt="Poster divulgativo AD ASTRA"
+            >
+
+          </article>
+
+
+
+          <article class="editorial-card">
+
+            <div class="editorial-text">
+
+              <h2>
+                VENTUNESIMO
+              </h2>
+
+              <p>
+                Una collana editoriale digitale dedicata
+                ad astronomia, spazio, scienza e cultura scientifica.
+                Articoli originali e approfondimenti pubblicati
+                senza periodicità fissa, con una vera
+                impaginazione editoriale.
+              </p>
+
+              <a
+                class="card-link"
+                href="ventunesimo.html"
+              >
+                Scopri VENTUNESIMO →
+              </a>
+
+            </div>
+
+
+            <img
+              class="editorial-image"
+              src="VENTUNESIMO_01_pietra_miliare.png"
+              alt="Copertina di VENTUNESIMO — Il nostro secolo"
+            >
+
+          </article>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+  </main>
+
+
+
+  <!-- =====================================================
+       FOOTER
+  ====================================================== -->
+
+  <footer class="site-footer">
+
+    <img
+      class="bottom-banner-image"
+      src="banner 2.png"
+      alt="AD ASTRA - Astronomia, osservazione del cielo, astrofotografia e divulgazione scientifica"
+    >
+
+
+    <div class="footer-navigation">
+
+
+      <div class="footer-column">
+
+        <h3>
+          Scuola di Astronomia
+        </h3>
+
+        <ul>
+
+          <li>
+            <a href="scuola-astronomia.html">
+              Scuola di Astronomia
+            </a>
+          </li>
+
+          <li><a href="#">Lezioni</a></li>
+
+          <li><a href="#">Approfondimenti</a></li>
+
+        <li><a href="laboratorio.html">Laboratorio</a></li><li><a href="quiz-astronomia.html">Quiz di astronomia</a></li><li><a href="glossario.html">Glossario scientifico</a></li></ul>
+
+      </div>
+
+
+      <div class="footer-column">
+
+        <h3>
+          Esplora
+        </h3>
+
+        <ul>
+
+          <li><a href="index.html">Home</a></li>
+
+          <li><a href="guide.html">Guide</a></li>
+
+          <li><a href="strumentazione.html">Strumentazione</a></li>
+
+          <li><a href="cielo-del-mese.html">Il Cielo del Mese</a></li>
+
+        </ul>
+
+      </div>
+
+
+      <div class="footer-column">
+
+        <h3>
+          Risorse
+        </h3>
+
+        <ul>
+
+          <li><a href="astrofotografia.html">Astrofotografia</a></li>
+
+          <li><a href="poster.html">Poster</a></li>
+
+          <li><a href="effemeridi.html">Effemeridi</a></li>
+
+          <li><a href="software.html">Software</a></li>
+
+          <li><a href="biblioteca.html">Biblioteca</a></li>
+
+          <li>
+            <a href="pubblicazioni-ad-astra.html">
+              Pubblicazioni
+            </a>
+          </li>
+
+          <li><a href="notizie.html">Notizie</a></li>
+
+          <li>
+            <a href="ventunesimo.html">
+              VENTUNESIMO
+            </a>
+          </li>
+
+
+
+          <li>
+            <a href="contatti.html">
+              Contatti
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+
+      <div class="footer-column">
+
+        <h3>
+          Seguici su
+        </h3>
+
+        <a
+          class="footer-facebook"
+          href="https://www.facebook.com/groups/881040268371551?locale=it_IT"
+          aria-label="Gruppo Facebook AD ASTRA"
+         target="_blank" rel="noopener noreferrer">
+          f
+        </a>
+
+      </div>
+
+
+    </div>
+
+  </footer>
+
+
+<script defer src="assets/menu-persistente.js"></script>
+</body>
+
+</html>

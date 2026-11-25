@@ -1,0 +1,34 @@
+{
+  "data": "2026-11-22",
+  "stato": "Anteprima locale non pubblicata",
+  "voce": "Sintesi vocale e microfono rimossi; nessun accesso alle API vocali, verificato con getter che generano errore se consultati.",
+  "animazione": "Livelli SVG sopra ritratto originale: chiusura palpebre periodica, ciocche locali in oscillazione, luci e stelle dietro. Animazione grafica, non avatar 3D o video.",
+  "icona": {
+    "desktop": 82,
+    "smartphone": 76,
+    "precedente": {
+      "desktop": 70,
+      "smartphone": 64
+    }
+  },
+  "accessibilita": [
+    "Pausa manuale persistente nella sessione",
+    "prefers-reduced-motion rispettato via CSS",
+    "Animazioni sospese a scheda nascosta",
+    "Comandi testuali e riposizionamento conservati"
+  ],
+  "verifiche": [
+    "node --check superato",
+    "verifica-galatea-animata-20261122.cjs superato",
+    "Browser: pausa/riattivazione, SVG attivi, nessun comando audio",
+    "Browser: pannello entro schermo e nessun overflow a 390x844 e 320x640",
+    "Browser: chiusura Escape e minimizzazione verificate",
+    "Nessun errore console rilevato"
+  ],
+  "limiti": [
+    "Palpebre e capelli sono una simulazione grafica su foto statica, da valutare visivamente da Fabio.",
+    "Non è una certificazione su tutti i browser/dispositivi.",
+    "File verifiche.json e verifica-galatea-prototipo-20261121.cjs descrivono la precedente versione vocale, ora superata da questo aggiornamento."
+  ],
+  "screenshot": "anteprima-animata-20261122.jpg"
+}

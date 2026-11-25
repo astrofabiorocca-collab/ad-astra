@@ -1,0 +1,69 @@
+.pub-preview{background:#fbfaf6;padding-top:24px}.pub-shell{width:min(1320px,92%)}
+.publication-preview-note{display:flex;justify-content:space-between;gap:1rem;padding:0 0 14px;color:#78613f;font-size:.7rem;letter-spacing:.08em}
+.publication-preview-note a{color:#63543d;text-underline-offset:4px}
+.author-top{display:flex;align-items:center;gap:clamp(22px,4vw,48px);padding:clamp(24px,4vw,44px);background:linear-gradient(115deg,#f4ecdb,#fcfaf4 72%,#eee5d4);border:1px solid #d7c299;border-radius:14px;box-shadow:0 10px 30px #51402609;margin:0 0 32px}
+.author-portrait{width:clamp(100px,12vw,158px);height:auto;aspect-ratio:1;object-fit:cover;border-radius:50%;border:2px solid #b39254;box-shadow:0 8px 18px #33231520;flex-shrink:0}
+.author-intro{max-width:900px}.author-intro h1{font:normal clamp(30px,3.4vw,48px)/1.15 Georgia,serif;color:#173345;letter-spacing:-.02em;margin:0 0 15px;text-transform:none}
+.author-intro p:last-child{font-size:clamp(.95rem,1.2vw,1.06rem);line-height:1.75;color:#475663;margin:0;max-width:790px}
+.author-intro .pub-kicker{font-size:.7rem!important;margin-bottom:10px!important}
+.publication-desk{border:1px solid #b29b70;border-radius:16px;overflow:hidden;background:#252420;box-shadow:0 20px 45px #28201418;scroll-margin-top:100px}
+.desk-heading{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:26px 32px;color:#f6efe1}
+.desk-heading .pub-kicker{color:#dbbd80;margin-bottom:8px!important;font-size:.67rem!important}
+.desk-heading h2{font:normal clamp(24px,2.5vw,34px)/1.2 Georgia,serif;color:#f6efe1;margin:0 0 8px}
+.desk-heading p:last-child{font-size:.85rem;color:#c5cbd0;margin:0}.desk-issue{font-size:.78rem;color:#dfc68e;text-decoration:underline;text-underline-offset:4px;white-space:nowrap}
+.desk-table{display:grid;grid-template-columns:26% 1fr;align-items:center;gap:4%;padding:52px 4% 32px;min-height:500px;background:linear-gradient(100deg,#1f0f0026,#f7d69a08 45%,#190f0033),url('../provino-pubblicazioni-20261108/scrivania-celeste.png') center 48%/cover;box-shadow:inset 0 2px 8px #17090055;perspective:1300px}
+.magazines-area{align-self:center;padding:18px 0 0}.magazine-stack{position:relative;display:block;width:78%;aspect-ratio:.76;margin:auto;transform:rotate(-9deg) rotateY(8deg);filter:drop-shadow(14px 21px 13px #130b0080)}
+.stack-sheet{position:absolute;inset:0;display:block;border-radius:2px 5px 5px 2px;background:repeating-linear-gradient(0deg,#cfc8b9 0,#eee7d8 1px,#dcd3c3 2px,#e5ddcd 4px);border:1px solid #d5c6a6;box-shadow:3px 4px 2px #21120245}
+.sheet-one{transform:translate(13px,20px) rotate(12deg);background:linear-gradient(135deg,#1b303c 0 12%,#c2bda8 12% 85%,#9e7a41 85%)}
+.sheet-two{transform:translate(3px,13px) rotate(-6deg);background:linear-gradient(160deg,#a48351 0 15%,#e1d7c4 15% 85%,#3b5056 85%)}
+.sheet-three{transform:translate(7px,6px) rotate(3deg)}
+.magazine-cover{display:block;position:absolute;inset:0;overflow:hidden;box-shadow:inset 6px 0 6px #fff4,3px 4px 3px #0007;border-radius:1px 3px 3px 1px;background:#121313}
+.magazine-cover img{position:absolute;width:113%;max-width:none;height:auto;left:-6.7%;top:-5.5%}
+.magazine-cover:after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,#0008,transparent 3%,#fff2 5%,transparent 10%,transparent 95%,#ffffff25);pointer-events:none}
+.stack-caption{text-align:center;color:#f7e9c8;font-size:.75rem;font-weight:700;letter-spacing:.16em;margin:35px -6% 0;text-shadow:0 1px 4px #000}
+.stack-caption span{display:block;font-size:.55rem;letter-spacing:.1em;font-weight:400;margin-top:7px}
+.opened-magazine{margin:0;position:relative;align-self:center;min-width:0;transform:rotate(-1deg)}
+.article-spread{position:relative;display:block;background:#fff;border:1px solid #d6d1c6;border-radius:3px 4px 8px 2px;box-shadow:0 3px 0 #cfcac1,0 6px 0 #e7e0d6,0 8px 1px #b4a590,7px 25px 23px #160b00a6;transition:transform .2s,box-shadow .2s}
+.article-spread:hover{transform:translateY(-4px);box-shadow:0 3px 0 #cfcac1,0 6px 0 #e7e0d6,0 8px 1px #b4a590,8px 30px 26px #160b00a6}
+.spread-crop{position:relative;display:block;width:100%;aspect-ratio:1954/1203;overflow:hidden;border-radius:2px 3px 5px 1px}
+.spread-crop img{position:absolute;width:145.65%;max-width:none;height:auto;left:-22.82%;top:-11.14%}
+.magazine-fold{pointer-events:none;position:absolute;inset:0;background:linear-gradient(90deg,#fff1,transparent 44%,#00000009 48%,#00000024 49.6%,#fff1 50.3%,#00000013 51.5%,transparent 56%,#fff1);border-radius:inherit}
+.open-caption{position:absolute;right:14px;bottom:14px;padding:9px 13px;border:1px solid #c8b98d;border-radius:5px;background:#fffaf0f5;box-shadow:0 3px 10px #0002;color:#233c4a;font-size:.68rem;font-weight:700}
+.open-caption span{padding-left:8px}.opened-magazine figcaption{color:#e8d9bd;text-align:center;font-size:.64rem;margin:20px 0 0;text-shadow:0 1px 3px #000}
+.desk-footer{display:flex;justify-content:space-between;gap:20px;align-items:center;padding:22px 30px;color:#e5dfd3}
+.desk-footer p{font-size:.78rem;line-height:1.7;margin:0}.desk-footer p span{color:#b8b8ae;font-size:.7rem}
+.original-link{display:inline-flex;gap:20px;align-items:center;justify-content:center;padding:13px 20px;border-radius:5px;background:#e5c78e;color:#282719;text-decoration:none;font-size:.83rem;font-weight:700;white-space:nowrap;box-shadow:0 3px 7px #0003}
+.original-link:hover{background:#f1d9a8}.publication-calendar{padding:62px 0 42px;scroll-margin-top:110px}
+.calendar-heading{display:flex;align-items:center;justify-content:space-between;gap:24px}.calendar-heading h2{font:normal clamp(26px,3vw,37px)/1.2 Georgia,serif;margin:0;color:#173345}
+.publication-year{font:normal 42px/1 Georgia,serif;color:#9a7a40;border-left:1px solid #cdbb97;padding-left:28px}
+.calendar-intro{max-width:820px;color:#647078;font-size:.93rem;line-height:1.7;margin:18px 0 30px}
+.publication-month{display:grid;grid-template-columns:145px 1fr;gap:30px;scroll-margin-top:110px}
+.month-label{border-top:2px solid #af8c4e;padding-top:19px}.month-label>span{display:block;font:normal 58px/1 Georgia,serif;color:#d1c09d;letter-spacing:-.05em}
+.month-label h3{font:normal 20px/1.5 Georgia,serif;margin:8px 0;color:#233c4c}.month-label h3 small{display:block;font-family:Arial,sans-serif;font-size:12px;color:#8c784e;letter-spacing:.1em}
+.publication-entry{display:grid;grid-template-columns:170px 1fr;gap:30px;padding:28px;border:1px solid #ddd4c4;border-radius:10px;background:#fff;box-shadow:0 10px 24px #4c381308;min-width:0}
+.calendar-cover{position:relative;display:block;aspect-ratio:.76;background:#151515;overflow:hidden;border-radius:2px;align-self:start;box-shadow:4px 8px 14px #17202b22}
+.calendar-cover img{position:absolute;left:-6.7%;top:-5.5%;width:113%;max-width:none;height:auto}
+.issue-meta{font-size:.7rem;font-weight:700;letter-spacing:.12em;color:#9a753a;margin:0 0 13px!important}.issue-meta span{font-size:.65rem;font-weight:400;letter-spacing:.04em;margin-left:12px;color:#6a7378}
+.entry-copy h4{font:normal clamp(24px,2.2vw,32px)/1.23 Georgia,serif;margin:0 0 9px}.entry-copy h4 a{color:#193b50;text-decoration:none}.entry-copy h4 a:hover{text-decoration:underline;text-underline-offset:5px}
+.entry-subtitle{font:italic 17px/1.5 Georgia,serif;color:#8b6e40;margin:0 0 13px!important}.entry-author{font-size:.75rem;color:#596c77;margin:0 0 15px!important}
+.entry-copy>p:not([class]){font-size:.88rem;line-height:1.8;color:#536572;margin:0 0 20px}
+.entry-actions{display:flex;flex-wrap:wrap;gap:14px 25px;align-items:center}.entry-actions a{font-size:.78rem;text-underline-offset:4px}.entry-read{color:#1757a1;font-weight:700}.entry-preview{color:#7f663b}
+.page-reference{font-size:.65rem;color:#727b7b;margin:15px 0 0!important}
+.publication-desk a:focus-visible,.publication-calendar a:focus-visible{outline:3px solid #e0b35c;outline-offset:6px}
+.pub-preview .join-panel{margin-top:8px}
+@media(min-width:1600px){.desk-table{padding-top:65px;padding-bottom:42px}}
+@media(max-width:900px){.desk-table{min-height:360px;padding:40px 4% 26px;grid-template-columns:25% 1fr;gap:4%}.desk-heading{padding:23px}.desk-issue{display:none}.publication-month{grid-template-columns:100px 1fr;gap:20px}.publication-entry{grid-template-columns:120px 1fr;gap:22px;padding:22px}.issue-meta span{display:block;margin:5px 0 0}.stack-caption{font-size:.65rem}.open-caption{font-size:.6rem;padding:7px 9px;bottom:10px;right:10px}}
+@media(max-width:600px){.pub-shell{width:92%}.pub-preview{padding-top:18px}.publication-preview-note{font-size:.57rem;letter-spacing:.025em}.author-top{gap:18px;align-items:flex-start;padding:23px 20px;flex-wrap:wrap;border-radius:10px;margin-bottom:24px}.author-portrait{width:88px}.author-intro{flex:1 1 200px}.author-intro h1{font-size:31px;margin-bottom:12px}.author-intro p:last-child{font-size:.87rem;line-height:1.7}.author-intro .pub-kicker{font-size:.58rem!important}.publication-desk{border-radius:10px}.desk-heading{padding:22px 20px}.desk-heading h2{font-size:25px}.desk-heading p:last-child{font-size:.68rem}.desk-table{grid-template-columns:1fr;gap:35px;padding:30px 6% 25px;min-height:0;background-position:center}.magazines-area{display:flex;align-items:center;justify-content:center;gap:32px;padding:0}.magazine-stack{width:96px;flex:0 0 96px;margin:0;transform:rotate(-8deg)}.stack-caption{margin:0;text-align:left;font-size:.78rem;max-width:130px}.stack-caption span{font-size:.57rem;line-height:1.8}.opened-magazine{transform:rotate(-1deg);width:100%}.opened-magazine figcaption{font-size:.58rem;margin-top:16px}.open-caption{font-size:.56rem;bottom:8px;right:8px;padding:6px 8px}.desk-footer{padding:20px;flex-direction:column;align-items:stretch;gap:14px}.desk-footer p{font-size:.72rem}.original-link{font-size:.78rem;padding:12px 14px;justify-content:space-between}.publication-calendar{padding-top:42px}.calendar-heading{gap:12px;align-items:flex-end}.calendar-heading h2{font-size:27px}.calendar-heading .pub-kicker{font-size:.58rem!important}.publication-year{font-size:30px;padding-left:14px}.calendar-intro{font-size:.84rem;margin-bottom:23px}.publication-month{grid-template-columns:1fr;gap:17px}.month-label{display:flex;align-items:center;gap:15px;padding-top:14px}.month-label>span{font-size:38px}.month-label h3{font-size:20px;margin:0}.month-label h3 small{display:inline;font-size:13px;margin-left:8px}.publication-entry{grid-template-columns:86px minmax(0,1fr);gap:18px;padding:19px 16px}.entry-copy h4{font-size:25px}.issue-meta{font-size:.61rem}.issue-meta span{font-size:.55rem;line-height:1.8}.entry-subtitle{font-size:15px}.entry-author{font-size:.67rem}.entry-copy>p:not([class]){font-size:.8rem;line-height:1.7}.entry-actions a{font-size:.73rem}.page-reference{font-size:.58rem}}
+@media(prefers-reduced-motion:reduce){.article-spread{transition:none}}
+@media(max-width:600px){
+ .author-top{display:grid;grid-template-columns:78px minmax(0,1fr);gap:10px 18px;align-items:center}
+ .author-portrait{grid-column:1;grid-row:1/3;width:78px}
+ .author-intro{display:contents}.author-intro .pub-kicker{grid-column:2;margin:0!important;align-self:end}
+ .author-intro h1{grid-column:2;font-size:29px;margin:0;align-self:start}
+ .author-intro p:last-child{grid-column:1/-1;margin-top:9px}
+ .publication-entry{grid-template-columns:80px minmax(0,1fr);row-gap:12px}
+ .entry-copy{display:contents}.issue-meta{grid-column:2;align-self:center;line-height:1.8}
+ .entry-copy h4,.entry-copy>p:not(.issue-meta),.entry-actions{grid-column:1/-1}
+ .entry-copy h4{margin:5px 0 0}.entry-copy>p:not([class]){margin:0 0 5px}
+ .entry-subtitle,.entry-author,.page-reference{margin:0!important}
+}

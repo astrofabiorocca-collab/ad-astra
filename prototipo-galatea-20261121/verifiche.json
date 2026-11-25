@@ -1,0 +1,73 @@
+{
+  "status": "Prototipo locale, non integrato nel sito definitivo e non pubblicato",
+  "image": "Originale conservato; derivati WebP proporzionali, senza rigenerazione del volto",
+  "functional": [
+    "Motore di ricerca esistente, caricato su richiesta",
+    "Conversazione testuale con definizioni, rimandi e suggerimenti",
+    "Ricerca nelle lezioni e nelle 12 schede di libri",
+    "Comandi espliciti di navigazione in contenitore di anteprima",
+    "Posizione trascinabile e riposizionamento da tastiera, con memoria locale",
+    "Conversazione mantenuta dopo navigazione e ricarica nella stessa scheda",
+    "Sintesi vocale italiana solo su richiesta e con voci effettivamente disponibili",
+    "Dettatura solo su richiesta, preceduta da informativa",
+    "Fallback testuale, storage negato, preferenze movimento ridotto"
+  ],
+  "voiceFeedback": "La voce di sistema è stata giudicata insoddisfacente dall’autore; non viene proposta come voce definitiva.",
+  "realVoiceTest": "Sono state rilevate Microsoft Elsa e Microsoft Cosimo nel browser Windows. Nessuna certificazione di qualità generale o di compatibilità audio su iOS/Android.",
+  "speechTest": "Controlli e gestione dei risultati verificati con API simulate; non è stato attivato il microfono reale dell’operatore durante il collaudo.",
+  "notImplemented": [
+    "Movimenti facciali, palpebre e sincronizzazione labiale",
+    "Voce neurale dedicata",
+    "Distribuzione del widget nelle pagine definitive",
+    "Modello generativo o backend IA"
+  ],
+  "costs": "Nessuna chiave API, abbonamento o servizio a pagamento attivato. Il riconoscimento del browser può usare il servizio esterno del suo fornitore.",
+  "dependencies": "HTML, CSS e JavaScript; repertorio esistente; API vocali del browser opzionali. Nessuna libreria runtime esterna aggiunta.",
+  "sources": [
+    "https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition",
+    "https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis/getVoices",
+    "https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage",
+    "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/text-to-speech",
+    "https://huggingface.co/hexgrad/Kokoro-82M",
+    "https://raw.githubusercontent.com/hexgrad/kokoro/main/kokoro.js/src/voices.js"
+  ],
+  "nodeTest": "verifica-galatea-prototipo-20261121.cjs, nella cartella privata del progetto; controlli superati.",
+  "browserChecks": {
+    "viewports": [
+      {
+        "width": 1440,
+        "height": 900,
+        "horizontalOverflow": false,
+        "panelInside": true
+      },
+      {
+        "width": 820,
+        "height": 1000,
+        "horizontalOverflow": false,
+        "panelInside": true
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "horizontalOverflow": false,
+        "panelInside": true
+      },
+      {
+        "width": 320,
+        "height": 640,
+        "horizontalOverflow": false,
+        "panelInside": true
+      }
+    ],
+    "passed": [
+      "Definizione interferometro con rimandi",
+      "Apertura Videoteca nel contenitore di prova",
+      "Conversazione conservata dopo ricarica",
+      "Posizione da tastiera e trascinamento reale",
+      "Voci italiane disponibili mostrate nelle preferenze",
+      "Ricerca dei libri di cosmologia",
+      "Risposta nana bianca senza avvio automatico della voce"
+    ],
+    "audioQuality": "Valutata negativamente dall’autore; voce di sistema mantenuta soltanto come prova facoltativa."
+  }
+}

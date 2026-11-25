@@ -1,0 +1,1367 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>Biblioteca online | AD ASTRA</title>
+
+  <meta
+    name="description"
+    content="Biblioteca online AD ASTRA: accesso a risorse didattiche e portali scientifici per approfondire astronomia e osservazione."
+  >
+
+
+  <style>
+
+    /* =========================================================
+       RESET E BASE
+    ========================================================= */
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f7f9fc;
+      color: #102342;
+      line-height: 1.65;
+    }
+
+    body.modal-open {
+      overflow: hidden;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    button {
+      font: inherit;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+    }
+
+    .container {
+      width: min(1180px, 92%);
+      margin: 0 auto;
+    }
+
+
+    /* =========================================================
+       BANNER SUPERIORE
+    ========================================================= */
+
+    .top-banner {
+      position: relative;
+      width: 100%;
+      height: clamp(270px, 16.6vw, 340px);
+      overflow: hidden;
+      background: #07152a;
+    }
+
+    .top-banner-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: top center;
+      display: block;
+    }
+
+    .banner-section-title {
+      position: absolute;
+      left: 55%;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 2;
+      max-width: 42%;
+      color: #ffffff;
+    }
+
+    .banner-section-title h1 {
+      margin-bottom: 5px;
+      color: #f4c84e;
+      font-size: clamp(1.45rem, 2.6vw, 2.55rem);
+      line-height: 1.15;
+      font-weight: 700;
+      text-shadow: 0 2px 8px rgba(0, 0, 0, 0.55);
+    }
+
+    .banner-section-title p {
+      color: #ffffff;
+      font-size: clamp(0.78rem, 1.35vw, 1.08rem);
+      text-shadow: 0 2px 6px rgba(0, 0, 0, 0.65);
+    }
+
+
+    /* =========================================================
+       MENU PRINCIPALE
+    ========================================================= */
+
+    .main-navigation {
+      width: 100%;
+      background:
+        linear-gradient(
+          180deg,
+          #07182d 0%,
+          #041326 100%
+        );
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+    }
+
+    .main-navigation ul {
+      min-height: 54px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: nowrap;
+      gap: 0;
+      list-style: none;
+    }
+
+    .main-navigation li {
+      position: relative;
+      flex-shrink: 0;
+    }
+
+    .main-navigation li + li::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 50%;
+      width: 1px;
+      height: 22px;
+      transform: translateY(-50%);
+      background: rgba(255, 255, 255, 0.28);
+    }
+
+    .main-navigation a {
+      display: block;
+      padding: 14px 9px 12px;
+      color: #e6edf5;
+      font-size: 0.64rem;
+      white-space: nowrap;
+      font-weight: 600;
+      transition:
+        color 0.2s ease,
+        background 0.2s ease;
+    }
+
+    .main-navigation a:hover {
+      color: #5eb5ff;
+    }
+
+    .main-navigation a.active {
+      color: #ffffff;
+      box-shadow: inset 0 -3px 0 #4aa7ff;
+    }
+
+
+    /* =========================================================
+       INTRODUZIONE
+    ========================================================= */
+
+    .intro {
+      padding: 54px 0 50px;
+      background: #ffffff;
+      border-bottom: 1px solid #dde5ed;
+    }
+
+    .intro-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 360px;
+      gap: 46px;
+      align-items: stretch;
+    }
+
+    .intro-lead {
+      margin-bottom: 11px;
+      color: #174fb9;
+      font-size: 1.17rem;
+      font-weight: 700;
+    }
+
+    .intro-line {
+      width: 72px;
+      height: 3px;
+      margin-bottom: 22px;
+      background: #2864d7;
+    }
+
+    .intro-text {
+      color: #48596c;
+      font-size: 0.96rem;
+    }
+
+    .intro-text p {
+      margin-bottom: 15px;
+      text-align: justify;
+    }
+
+    .intro-text p:last-child {
+      margin-bottom: 0;
+    }
+
+    .intro-box {
+      padding: 30px;
+      border-radius: 9px;
+      background:
+        linear-gradient(
+          145deg,
+          #102b4d,
+          #07182d
+        );
+      color: #ffffff;
+      box-shadow:
+        0 10px 28px rgba(9, 30, 55, 0.16);
+    }
+
+    .intro-box-symbol {
+      margin-bottom: 14px;
+      color: #f4c84e;
+      font-size: 2.5rem;
+      line-height: 1;
+    }
+
+    .intro-box h2 {
+      margin-bottom: 11px;
+      font-size: 1.05rem;
+    }
+
+    .intro-box p {
+      color: #d8e2ed;
+      font-size: 0.86rem;
+    }
+
+
+    /* =========================================================
+       SEZIONI BIBLIOTECA
+    ========================================================= */
+
+    .library-section {
+      padding: 58px 0 64px;
+      border-bottom: 1px solid #dfe6ee;
+    }
+
+    .library-section:nth-of-type(even) {
+      background: #f7f9fc;
+    }
+
+    .library-section:nth-of-type(odd) {
+      background: #ffffff;
+    }
+
+    .section-heading {
+      display: grid;
+      grid-template-columns: 62px minmax(0, 1fr);
+      gap: 18px;
+      align-items: center;
+      margin-bottom: 12px;
+    }
+
+    .section-number {
+      width: 52px;
+      height: 52px;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      background: #2864d7;
+      color: #ffffff;
+      font-size: 0.82rem;
+      font-weight: 700;
+    }
+
+    .section-heading h2 {
+      color: #102342;
+      font-size: clamp(1.45rem, 2.4vw, 1.95rem);
+      line-height: 1.2;
+    }
+
+    .section-description {
+      max-width: 850px;
+      margin: 0 0 30px 80px;
+      color: #58687a;
+      font-size: 0.92rem;
+    }
+
+
+    /* =========================================================
+       CARD LIBRI
+    ========================================================= */
+
+    .books-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 22px;
+    }
+
+    .book-card {
+      display: grid;
+      grid-template-columns: 112px minmax(0, 1fr);
+      gap: 19px;
+      min-height: 235px;
+      padding: 22px;
+      background: #ffffff;
+      border: 1px solid #dce4ed;
+      border-radius: 8px;
+      box-shadow:
+        0 5px 16px rgba(18, 39, 67, 0.05);
+    }
+
+    .library-section:nth-of-type(odd) .book-card {
+      background: #f9fbfd;
+    }
+
+    .book-open {
+      border: 0;
+      padding: 0;
+      background: transparent;
+      text-align: left;
+      cursor: pointer;
+    }
+
+    .book-cover {
+      width: 112px;
+      height: 166px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 13px;
+      border-radius: 4px;
+      background:
+        linear-gradient(
+          145deg,
+          #17365f,
+          #08182b
+        );
+      color: #ffffff;
+      text-align: center;
+      font-size: 0.73rem;
+      line-height: 1.35;
+      font-weight: 700;
+      box-shadow:
+        0 5px 13px rgba(16, 35, 58, 0.18);
+      transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+    }
+
+    .book-open:hover .book-cover {
+      transform: translateY(-3px);
+      box-shadow:
+        0 8px 18px rgba(16, 35, 58, 0.22);
+    }
+
+    .book-info {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .book-category {
+      margin-bottom: 5px;
+      color: #2864d7;
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .book-title {
+      margin-bottom: 6px;
+      color: #17365f;
+      font-size: 1rem;
+      line-height: 1.3;
+      font-weight: 700;
+      transition: color 0.2s ease;
+    }
+
+    .book-open:hover .book-title {
+      color: #2864d7;
+    }
+
+    .book-author {
+      margin-bottom: 13px;
+      color: #718095;
+      font-size: 0.79rem;
+    }
+
+    .book-note {
+      margin-top: auto;
+      color: #697789;
+      font-size: 0.76rem;
+      line-height: 1.5;
+    }
+
+    .book-level {
+      display: inline-block;
+      align-self: flex-start;
+      margin-top: 13px;
+      padding: 5px 9px;
+      border-radius: 4px;
+      background: #edf3fa;
+      color: #2864d7;
+      font-size: 0.69rem;
+      font-weight: 700;
+    }
+
+
+    /* =========================================================
+       RISORSE ISTITUZIONALI
+    ========================================================= */
+
+    .resources-section {
+      padding: 62px 0 68px;
+      background: #eef4fa;
+      border-top: 1px solid #d6e1ec;
+    }
+
+    .resources-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 18px;
+      margin-top: 28px;
+    }
+
+    .resource-card {
+      padding: 23px;
+      background: #ffffff;
+      border: 1px solid #d9e3ec;
+      border-radius: 7px;
+    }
+
+    .resource-card h3 {
+      margin-bottom: 8px;
+      color: #17365f;
+      font-size: 0.96rem;
+    }
+
+    .resource-card p {
+      color: #5c6c7e;
+      font-size: 0.8rem;
+      line-height: 1.55;
+    }
+
+    .resource-card span {
+      display: inline-block;
+      margin-top: 12px;
+      color: #2864d7;
+      font-size: 0.74rem;
+      font-weight: 700;
+    }
+
+
+    /* =========================================================
+       NOTA FINALE
+    ========================================================= */
+
+    .library-note {
+      padding: 48px 0 58px;
+      background: #ffffff;
+    }
+
+    .library-note-box {
+      padding: 27px 30px;
+      border-left: 4px solid #d5a821;
+      background: #f7f9fc;
+    }
+
+    .library-note-box h2 {
+      margin-bottom: 7px;
+      color: #17365f;
+      font-size: 1.05rem;
+    }
+
+    .library-note-box p {
+      color: #59697b;
+      font-size: 0.86rem;
+    }
+
+
+    /* =========================================================
+       MODALE LIBRO
+    ========================================================= */
+
+    .book-modal {
+      position: fixed;
+      inset: 0;
+      z-index: 3000;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 28px;
+      background: rgba(3, 12, 24, 0.77);
+    }
+
+    .book-modal.is-open {
+      display: flex;
+    }
+
+    .book-modal-window {
+      position: relative;
+      width: min(800px, 96%);
+      max-height: 90vh;
+      overflow-y: auto;
+      padding: 38px 42px 40px;
+      border-radius: 10px;
+      background: #ffffff;
+      color: #102342;
+      box-shadow:
+        0 24px 70px rgba(0, 0, 0, 0.38);
+    }
+
+    .modal-close {
+      position: absolute;
+      top: 13px;
+      right: 17px;
+      width: 38px;
+      height: 38px;
+      display: grid;
+      place-items: center;
+      border: 0;
+      background: transparent;
+      color: #526174;
+      font-size: 1.8rem;
+      line-height: 1;
+      cursor: pointer;
+    }
+
+    .modal-close:hover {
+      color: #102342;
+    }
+
+    .modal-grid {
+      display: grid;
+      grid-template-columns: 165px minmax(0, 1fr);
+      gap: 30px;
+      align-items: start;
+    }
+
+    .modal-cover {
+      width: 165px;
+      height: 245px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 18px;
+      border-radius: 5px;
+      background:
+        linear-gradient(
+          145deg,
+          #17365f,
+          #08182b
+        );
+      color: #ffffff;
+      text-align: center;
+      font-size: 0.85rem;
+      line-height: 1.4;
+      font-weight: 700;
+      box-shadow:
+        0 7px 18px rgba(13, 35, 61, 0.2);
+    }
+
+    .modal-title {
+      margin-bottom: 5px;
+      padding-right: 35px;
+      color: #17365f;
+      font-size: 1.55rem;
+      line-height: 1.2;
+    }
+
+    .modal-author {
+      margin-bottom: 18px;
+      color: #718095;
+      font-size: 0.88rem;
+    }
+
+    .modal-content {
+      color: #4f5f71;
+      font-size: 0.91rem;
+      line-height: 1.72;
+    }
+
+    .modal-content h3 {
+      margin: 21px 0 7px;
+      color: #17365f;
+      font-size: 0.97rem;
+    }
+
+    .modal-content p {
+      margin-bottom: 11px;
+    }
+
+    .modal-data {
+      margin-top: 21px;
+      padding: 17px 19px;
+      background: #f5f8fb;
+      border: 1px solid #dce5ed;
+      border-radius: 7px;
+    }
+
+    .modal-data-row {
+      display: grid;
+      grid-template-columns: 110px 1fr;
+      gap: 10px;
+      margin-bottom: 7px;
+      font-size: 0.81rem;
+    }
+
+    .modal-data-row:last-child {
+      margin-bottom: 0;
+    }
+
+    .modal-data-row strong {
+      color: #17365f;
+    }
+
+    .modal-data-row span {
+      color: #5d6c7d;
+    }
+
+
+    /* =========================================================
+       FOOTER
+    ========================================================= */
+
+    .site-footer {
+      position: relative;
+      width: 100%;
+      height: clamp(300px, 19.8vw, 405px);
+      overflow: hidden;
+      background: #041529;
+    }
+
+    .bottom-banner-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: top center;
+      display: block;
+    }
+
+    .footer-navigation {
+      position: absolute;
+      top: 47%;
+      right: 3%;
+      transform: translateY(-50%);
+      width: 53%;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 18px;
+      color: #ffffff;
+    }
+
+    .footer-column h3 {
+      margin-bottom: 10px;
+      color: #ffffff;
+      font-size: 0.82rem;
+    }
+
+    .footer-column ul {
+      list-style: none;
+    }
+
+    .footer-column li {
+      margin-bottom: 6px;
+    }
+
+    .footer-column a {
+      color: #bcc8d5;
+      font-size: 0.72rem;
+      transition: color 0.2s ease;
+    }
+
+    .footer-column a:hover {
+      color: #5eb5ff;
+    }
+
+    .footer-facebook {
+      width: 38px;
+      height: 38px;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      background: #1877f2;
+      color: #ffffff;
+      font-size: 1.25rem;
+      font-weight: 700;
+      font-family: Arial, sans-serif;
+    }
+
+
+    /* =========================================================
+       RESPONSIVE
+    ========================================================= */
+
+    @media (max-width: 1100px) {
+
+      .main-navigation ul {
+        justify-content: flex-start;
+        overflow-x: auto;
+      }
+
+      .main-navigation a {
+        padding-left: 8px;
+        padding-right: 8px;
+        font-size: 0.61rem;
+      }
+
+      .books-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .resources-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .footer-navigation {
+        width: 55%;
+        right: 2%;
+        gap: 12px;
+      }
+
+    }
+
+
+    @media (max-width: 850px) {
+
+      .top-banner {
+        height: clamp(210px, 29vw, 250px);
+      }
+
+      .banner-section-title {
+        left: 54%;
+        max-width: 43%;
+      }
+
+      .intro-grid {
+        grid-template-columns: 1fr;
+        gap: 28px;
+      }
+
+      .site-footer {
+        height: auto;
+      }
+
+      .bottom-banner-image {
+        width: 100%;
+        height: auto;
+        object-fit: initial;
+      }
+
+      .footer-navigation {
+        position: static;
+        width: 100%;
+        transform: none;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 30px 5%;
+        background: #041529;
+      }
+
+    }
+
+
+    @media (max-width: 650px) {
+
+      .top-banner {
+        height: auto;
+      }
+
+      .top-banner-image {
+        width: 100%;
+        height: auto;
+        object-fit: initial;
+      }
+
+      .banner-section-title {
+        position: static;
+        transform: none;
+        max-width: none;
+        padding: 18px 5%;
+        background: #07182d;
+      }
+
+      .banner-section-title h1 {
+        font-size: 1.35rem;
+      }
+
+      .main-navigation ul {
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        padding: 0 4%;
+      }
+
+      .library-section {
+        padding: 46px 0 50px;
+      }
+
+      .section-heading {
+        grid-template-columns: 48px 1fr;
+        gap: 13px;
+      }
+
+      .section-number {
+        width: 44px;
+        height: 44px;
+      }
+
+      .section-description {
+        margin-left: 61px;
+      }
+
+      .books-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .book-card {
+        grid-template-columns: 95px minmax(0, 1fr);
+      }
+
+      .book-cover {
+        width: 95px;
+        height: 142px;
+      }
+
+      .resources-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .book-modal {
+        padding: 14px;
+      }
+
+      .book-modal-window {
+        padding: 32px 23px 30px;
+      }
+
+      .modal-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .modal-cover {
+        width: 130px;
+        height: 195px;
+      }
+
+      .modal-title {
+        padding-right: 30px;
+        font-size: 1.32rem;
+      }
+
+      .modal-data-row {
+        grid-template-columns: 1fr;
+        gap: 2px;
+      }
+
+      .footer-navigation {
+        grid-template-columns: 1fr;
+      }
+
+    }
+
+
+    /* Fotografia e contenuti nel riquadro introduttivo. */
+    .intro-box {
+      position: relative;
+      isolation: isolate;
+      background: url("biblioteca-sala-lettura.png") center / cover no-repeat;
+    }
+    .intro-box::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      border-radius: inherit;
+      background: linear-gradient(rgba(6, 16, 28, 0.76), rgba(6, 16, 28, 0.86));
+      opacity: 1;
+      pointer-events: none;
+      z-index: -1;
+      transition: opacity 0.25s ease;
+    }
+    .intro-box > * {
+      transition: opacity 0.25s ease;
+    }
+    @media (hover: hover) and (pointer: fine) {
+      .intro-box::before,
+      .intro-box > * { opacity: 0; }
+      .intro-box:hover::before,
+      .intro-box:hover > *,
+      .intro-box:focus-within::before,
+      .intro-box:focus-within > * { opacity: 1; }
+    }
+
+
+    /* Banner inferiore comune: titoli leggibili, con margine superiore regolare. */
+    .site-footer{position:relative;width:100%;height:clamp(350px,22vw,510px);min-height:350px;overflow:hidden;background:#041529}
+    .site-footer .bottom-banner-image{display:block;width:100%;height:100%;object-fit:contain;object-position:left center}
+    .site-footer .footer-navigation{position:absolute;top:36px;right:3%;transform:none;width:53%;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;padding:0;background:transparent;color:#fff;align-items:start}
+    .site-footer .footer-column{min-width:0}
+    .site-footer .footer-column h3{margin:0 0 14px;color:#fff;font-size:.82rem;font-weight:700;line-height:1.4}
+    .site-footer .footer-column ul{list-style:none;margin:0;padding:0}
+    .site-footer .footer-column li{margin:0 0 7px;font-size:.76rem;line-height:1.5}
+    .site-footer .footer-column a{color:#bcc8d5;font-size:.76rem;line-height:1.5;text-decoration:none;transition:color .2s ease}
+    .site-footer .footer-column a:hover{color:#5eb5ff}
+    .site-footer .footer-column .footer-facebook{position:static;transform:none;margin:0;width:38px;height:38px;display:grid;place-items:center;border-radius:50%;background:#1877f2;color:#fff;font-size:1.25rem;font-weight:700;font-family:Arial,sans-serif}
+    @media(max-width:1100px) and (min-width:901px){.site-footer .footer-navigation{top:32px;right:2%;width:55%;gap:12px}.site-footer .footer-column h3{font-size:.75rem}.site-footer .footer-column a{font-size:.69rem}}
+    @media(max-width:900px){.site-footer{height:auto;min-height:0;overflow:visible}.site-footer .bottom-banner-image{width:100%;height:auto;object-fit:initial}.site-footer .footer-navigation{position:static;top:auto;right:auto;transform:none;width:100%;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 22px;padding:32px 5%;background:#041529}.site-footer .footer-column h3{font-size:.85rem}.site-footer .footer-column a{font-size:.8rem}}
+    @media(max-width:520px){.site-footer .footer-navigation{grid-template-columns:1fr;gap:26px;padding:30px 7%}}
+
+  </style>
+
+<link rel="stylesheet" href="assets/menu-persistente.css">
+<link rel="stylesheet" href="assets/biblioteca/biblioteca.css">
+<link rel="stylesheet" href="assets/biblioteca/catalogo-online.css">
+
+  <link rel="stylesheet" href="assets/banner-comuni.css">
+<style>#dispense{padding-block:2rem;scroll-margin-top:6rem}.dispense-entry{display:inline-flex;align-items:center;gap:1rem;padding:1rem;border:1px solid #00668b;border-radius:.7rem}.dispense-entry img{width:min(32vw,150px);height:auto}.dispense-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,17rem),1fr));gap:1rem}.dispensa{padding:1rem;border:1px solid #cadbe6;border-radius:.6rem;scroll-margin-top:6rem}.dispensa:target{outline:3px solid #00668b}#dispense-inaf{scroll-margin-top:6rem}</style>
+<link rel="stylesheet" href="assets/rimandi-editoriali.css">
+<link rel="stylesheet" href="assets/biblioteca/provino-ricerca.css">
+<link rel="stylesheet" href="assets/biblioteca/federazione.css?v=20261119">
+</head>
+
+
+<body>
+
+
+  <!-- =====================================================
+       BANNER SUPERIORE
+  ====================================================== -->
+
+  <header class="top-banner banner-nebulosa">
+
+    <div class="sky"><img src="provini-testata-stellare/nebulosa-estesa.jpg" alt=""></div>
+    <img class="logo-originale logo-raggi" src="provini-testata-stellare/logo-fornito.png" alt="">
+    <img class="logo-originale logo-interno" src="provini-testata-stellare/logo-fornito.png" alt="">
+    <img class="wordmark" src="banner.png" alt="">
+    <span class="rule" aria-hidden="true"></span>
+
+    <div class="banner-section-title">
+
+      <h1>BIBLIOTECA ONLINE</h1>
+
+      <p>
+        Una selezione essenziale per orientarsi nella letteratura astronomica
+      </p>
+
+    </div>
+
+  </header>
+
+
+
+  <!-- =====================================================
+       MENU PRINCIPALE
+  ====================================================== -->
+
+  <nav
+    class="main-navigation"
+    aria-label="Navigazione principale"
+  >
+
+    <ul>
+
+      <li>
+        <a href="index.html">
+          HOME
+        </a>
+      </li>
+
+      <li>
+        <a href="scuola-astronomia.html">
+          SCUOLA DI ASTRONOMIA
+        </a>
+      </li>
+
+      <li>
+        <a href="guide.html">
+          GUIDE
+        </a>
+      </li>
+
+      <li>
+        <a href="strumentazione.html">
+          STRUMENTAZIONE
+        </a>
+      </li>
+
+      <li>
+        <a href="astrofotografia.html">
+          ASTROFOTOGRAFIA
+        </a>
+      </li>
+
+      <li>
+        <a href="poster.html">
+          POSTER
+        </a>
+      </li>
+
+      <li>
+        <a href="cielo-del-mese.html">
+          IL CIELO DEL MESE
+        </a>
+      </li>
+
+      <li>
+        <a href="effemeridi.html">
+          EFFEMERIDI
+        </a>
+      </li>
+
+      <li>
+        <a href="software.html">
+          SOFTWARE
+        </a>
+      </li>
+
+      <li>
+        <a
+          class="active"
+          href="biblioteca.html"
+        >
+          BIBLIOTECA
+        </a>
+      </li>
+
+      <li>
+        <a href="pubblicazioni-ad-astra.html">
+          PUBBLICAZIONI
+        </a>
+      </li>
+
+      <li>
+        <a href="notizie.html">
+          NOTIZIE
+        </a>
+      </li>
+
+      <li>
+        <a href="ventunesimo.html">
+          MAGAZINE
+        </a>
+      </li>
+
+    </ul>
+
+  </nav>
+
+
+
+  <main class="online-library library-preview"><section class="online-intro"><div class="container"><nav aria-label="Percorso"><a href="biblioteca.html#biblioteca-online">Biblioteca</a> <span aria-hidden="true">›</span> Biblioteca online</nav>
+<p class="portal-eyebrow">AD ASTRA · RISORSE PER LO STUDIO</p><h1>Biblioteca Federata</h1><p>Una raccolta da esplorare, una domanda alla volta. Cerca dispense, carte, approfondimenti e lezioni, scegli un argomento e continua il percorso sulle fonti originali. I materiali sono organizzati secondo le dieci macroaree della Scuola di Astronomia, con un percorso dedicato all’astronautica.</p>
+<span id="library-total" hidden></span>
+<p><a href="videoteca.html">Entra nella Videoteca scientifica →</a></p>
+<p><a href="#raccolta-inaf">Consulta le dispense ↓</a></p><p class="intro-image-note">Illustrazione rappresentativa generata con IA.</p>
+
+</div></section><section class="catalog-section" id="catalogo" data-search-on-submit="true" aria-labelledby="catalog-title"><div class="container"><div class="catalog-heading"><div><p class="portal-eyebrow">CERCA · CONFRONTA · APPROFONDISCI</p><h2 id="catalog-title">Che cosa vuoi scoprire?</h2></div><a href="biblioteca.html">← I libri della Biblioteca</a></div>
+<form class="catalog-controls" role="search"><label class="catalog-search">Che cosa vuoi approfondire?<input id="library-query" type="search" placeholder="Polare, fasi lunari, montature, cosmologia…" autocomplete="off"></label>
+<label>Argomento<select id="library-area"><option value="">Tutte le macroaree</option></select></label><label>Formato<select id="library-type"><option value="">Tutti i formati</option></select></label><label>Lingua<select id="library-language"><option value="">Tutte le lingue</option></select></label><label>Livello<select id="library-level"><option value="">Tutti i livelli</option></select></label><label>Ente, autore o canale<select id="library-source"><option value="">Tutte le fonti</option></select></label><label>Ordina per<select id="library-sort"><option value="recommended">Formato e lingua italiana</option><option value="title">Titolo A–Z</option><option value="source">Fonte A–Z</option></select></label>
+<p class="catalog-search-help">Imposta i parametri e premi «Avvia ricerca» per aggiornare i risultati.</p><div class="catalog-control-actions"><button type="button" id="library-reset">Azzera</button><button type="submit" id="library-search">Avvia ricerca</button></div></form>
+<p id="library-count" role="status" aria-live="polite"></p><div id="library-results" class="catalog-grid"></div><div id="library-empty" class="catalog-empty" hidden><h3>Nessun risultato con questi filtri.</h3><p>Prova un termine più generale oppure azzera i filtri. Puoi cercare anche il nome di un autore o di un ente.</p></div><button type="button" id="library-more" class="portal-cta" hidden>Mostra altre 24 risorse</button>
+<noscript><p>Per usare ricerca e filtri attiva JavaScript. Puoi comunque consultare i portali qui sotto e questa selezione di documenti:</p><ul><li><a href="https://www.sait.it/sites/sait.interlandia.net/files/pictures/notizie/2022/Bignamino_astronomia_2022.pdf" target="_blank" rel="noopener noreferrer">Bignamino di astronomia — SAIt, 2022</a> — Società Astronomica Italiana</li><li><a href="https://www.oato.inaf.it/biblioteca/pdf/TechRep078_Lattanzi.pdf" target="_blank" rel="noopener noreferrer">Lezioni di astronomia fondamentale — Lattanzi e Pannunzio, 2007</a> — INAF – Osservatorio di Torino</li><li><a href="https://www.angeloangeletti.it/MATERIALI_LICEO/APPUNTI%20DI%20ASTRONOMIA.pdf" target="_blank" rel="noopener noreferrer">Appunti di astronomia — Angelo Angeletti</a> — Angelo Angeletti</li><li><a href="https://staticmy.zanichelli.it/catalogo/assets/9788808357441_04_CAP.pdf" target="_blank" rel="noopener noreferrer">Zanichelli — estratto didattico di astronomia</a> — Zanichelli</li><li><a href="https://www.fabiopacucci.com/wp-content/uploads/2018/09/astronomia_in_rete.pdf" target="_blank" rel="noopener noreferrer">Astronomia in rete — Fabio Pacucci</a> — Fabio Pacucci</li><li><a href="https://www.astroshop.it/Produktdownloads/60552_1_ATLANTE_TASCABILE_ASTRONOMIA.pdf" target="_blank" rel="noopener noreferrer">Atlante tascabile di astronomia — estratto</a> — Editore e crediti indicati nel PDF · ospitato da Astroshop</li><li><a href="https://www.campionatiastronomia.it/olimpiadiastronomia/wp-content/uploads/2026/03/Senior_Master_Syllabus_Finale.pdf" target="_blank" rel="noopener noreferrer">Campionati di astronomia — Senior/Master Syllabus, 2026</a> — Campionati Italiani di Astronomia</li><li><a href="https://www.latteseditori.it/images/sistemasolare.pdf" target="_blank" rel="noopener noreferrer">Lattes — Il Sistema Solare</a> — Lattes</li><li><a href="https://www.tsa-av.com/wp-content/uploads/2025/08/8.Astronomia.pdf" target="_blank" rel="noopener noreferrer">TSA — catalogo di astronomia</a> — TSA</li><li><a href="https://www.supportodidattico.it/attachments/article/171/astronomia%20001%20allegato%20stellarium.pdf" target="_blank" rel="noopener noreferrer">Supporto didattico — introduzione a Stellarium</a> — Supporto Didattico</li><li><a href="http://www.brera.inaf.it/universoinfiore/presentazioni/2014-15/introduzione-2014-15.pdf" target="_blank" rel="noopener noreferrer">L’Universo in fiore — introduzione, INAF Brera 2014/15</a> — INAF – Osservatorio di Brera</li><li><a href="https://www.lorenzoroi.net/prelievi/CorsoAstro1.pdf" target="_blank" rel="noopener noreferrer">Corso di astronomia 1 — Lorenzo Roi</a> — Lorenzo Roi</li><li><a href="https://www.lorenzoroi.net/prelievi/CorsoAstro2.pdf" target="_blank" rel="noopener noreferrer">Corso di astronomia 2 — Lorenzo Roi</a> — Lorenzo Roi</li><li><a href="https://cdn.tangramgroup.it/710/sette-lezioni-di-astronomia.pdf" target="_blank" rel="noopener noreferrer">Sette lezioni di astronomia. Corso introduttivo</a> — Ivan Spelti · Edizioni del Faro</li><li><a href="https://theeyepiece.org/wp-content/uploads/2024/11/The-Smart-Scope-Revolution.pdf" target="_blank" rel="noopener noreferrer">The Smart Scope Revolution — Thomas Shanos</a> — Thomas Shanos</li><li><a href="https://www.astroscu.unam.mx/rmaa/RMxAC..51/PDF/RMxAC..51_articulo10.pdf" target="_blank" rel="noopener noreferrer">U–SmART — rete di telescopi robotici universitari</a> — Autori e affiliazioni indicati nell’articolo · RMxAC</li><li><a href="https://www.unistellar.com/wp-content/uploads/2024/01/PR_Unistellar-Nikon-investment.pdf" target="_blank" rel="noopener noreferrer">Unistellar–Nikon — comunicato aziendale</a> — Unistellar</li><li><a href="https://static.treccani.it/export/sites/default/Portale/resources/multimedia/Lezioni_Astrofisica/Coordinate/Lezione.pdf" target="_blank" rel="noopener noreferrer">Treccani — Coordinate astronomiche</a> — Treccani</li><li><a href="https://static.treccani.it/export/sites/default/Portale/resources/multimedia/Lezioni_Astrofisica/stelle_caratteristiche/presentazione.pdf" target="_blank" rel="noopener noreferrer">Treccani — Caratteristiche delle stelle</a> — Treccani</li><li><a href="https://static.treccani.it/export/sites/default/Portale/resources/multimedia/Lezioni_Astrofisica/galassie/Le_galassie_LEZIONE.pdf" target="_blank" rel="noopener noreferrer">Treccani — Le galassie</a> — Treccani</li><li><a href="https://static.treccani.it/export/sites/default/Portale/resources/multimedia/Lezioni_fisica/astrofisica/cosmo_LEZIONE.pdf" target="_blank" rel="noopener noreferrer">Treccani — Astrofisica e cosmologia</a> — Treccani</li></ul></noscript><details class="catalog-criteria"><summary>Come leggere e usare questo catalogo</summary><p>Le schede sono indicazioni per orientarsi tra materiali esterni, non una certificazione scientifica di ogni documento. I video sono segnalati a partire dai titoli e dai metadati pubblici: non è dichiarata la visione integrale. Le recensioni di strumenti possono contenere sponsorizzazioni; verificare caratteristiche e versioni sulle fonti dei produttori.</p><p>Alcuni testi storici e alcuni estratti rimangono utili per lo studio: le note segnalano limiti e refusi già individuati. Per il corso INAF Torino 2025/2026 sono presenti soltanto rimandi ai materiali ufficiali; l’autorizzazione a ospitare copie è in attesa. Crediti e condizioni originali restano presso le rispettive fonti.</p><p>Le verifiche di accesso sono indicate nelle singole schede; la selezione è stata ampliata il 18 ottobre 2026. Le schede con accesso non confermato lo dichiarano; per YouTube la disponibilità si verifica sulla piattaforma. Il catalogo non si aggiorna automaticamente.</p></details></div></section><section class="library-access container" aria-label="Raccolte da esplorare">
+<details class="inaf-collection" id="raccolta-inaf"><summary class="library-access-banner inaf">
+<img src="assets/biblioteca/logo-inaf-dispense.png" alt="INAF">
+<div><h2>Dispense e slide INAF</h2><p>Apri i materiali del corso di astronomia e astrofisica, organizzati per lezione e relatore.</p><span>Esplora le dispense <span class="inaf-toggle-mark" aria-hidden="true">⌄</span></span><small>Illustrazione rappresentativa generata con IA.</small></div></summary><div class="inaf-lesson-panel"><h3 id="dispense-inaf">Corso INAF Torino 2025/2026</h3>
+<p>Materiali degli autori e degli enti partecipanti, raccolti dall’Osservatorio Astrofisico di Torino. <a href="https://www.oato.inaf.it/corso-di-formazione-per-docenti-anno-2025-2026/">Programma e fonti originali</a></p>
+<div class="dispense-grid">
+<article class="dispensa" id="corso-inaf-2026-01"><h4>Ipotesi chimica sull’origine della vita: dal Big Bang alla comparsa dei primi organismi viventi</h4><p>Prof. P. Ugliengo, UniTo / Dip. Chimica</p><p>Raccolta: corso INAF Torino 2025/2026</p><a href="https://drive.google.com/file/d/1riZRSUPXjMUhARm_iUQv2FKlhpFxKwE1/view?usp=sharing:">Apri il materiale originale</a></article>
+<article class="dispensa" id="corso-inaf-2026-02"><h4>Vita, morte e miracoli delle radiogalassie</h4><p>Prof.ssa L. Ostorero, UniTo / Dip. Fisica</p><p>Raccolta: corso INAF Torino 2025/2026</p><a href="https://drive.google.com/file/d/1HLiLmdOWROw9UKxgchuXnY4xzPlolycL/view?usp=sharing:">Apri il materiale originale</a></article>
+<article class="dispensa" id="corso-inaf-2026-03"><h4>Progetto NOCTIS — primo collegamento</h4><p>Team NOCTIS-INAF, primo collegamento</p><p>Raccolta: corso INAF Torino 2025/2026</p><a href="https://drive.google.com/file/d/1BhM0Mp5AJ8aKlBJ9TLiBfJrmNoHDYJe8/view?usp=sharing:">Apri il materiale originale</a></article>
+<article class="dispensa" id="corso-inaf-2026-05"><h4>Cosmologia: da un universo con centro a un universo senza centro</h4><p>Dr. A. Vecchiato, INAF-OATo</p><p>Raccolta: corso INAF Torino 2025/2026</p><a href="https://drive.google.com/file/d/1AfiFzgRYem5rX8KosfkVwBmXPllemjOQ/view?usp=sharing:">Apri il materiale originale</a></article>
+<article class="dispensa" id="corso-inaf-2026-06"><h4>SCONFINATO — alla ricerca dell’essere umano</h4><p>Don L. Peyron, Pastorale Tec. Scient. Arcidiocesi To / Uni. Cattolica Mi</p><p>Raccolta: corso INAF Torino 2025/2026</p><a href="https://drive.google.com/file/d/18jDc-14lzBetck8HTaPHql9jbsbYRO4Q/view?usp=sharing:">Apri il materiale originale</a></article>
+<article class="dispensa" id="corso-inaf-2026-07"><h4>Astronomy for Education e metodologie innovative</h4><p>Prof.ssa S. Zarrinchang, Associata INAF / NAEC IAU</p><p>Raccolta: corso INAF Torino 2025/2026</p><a href="https://www.canva.com/design/DAGoPT-zl7E/EvJnciFTnnAUyxjS3X2qxA/view?utm_campaign=designshare&amp;utm_content=DAGoPT-zl7E&amp;utm_medium=link&amp;utm_source=viewer:">Apri il materiale originale</a></article>
+<article class="dispensa" id="corso-inaf-2026-08"><h4>Fissione nucleare: miti e realtà</h4><p>Prof. A. Tartaglia, PoliTo</p><p>Raccolta: corso INAF Torino 2025/2026</p><a href="https://drive.google.com/file/d/1oFzVkA3UOkJ1WaBbPXfBQ8TQqPHHdtVl/view?usp=sharing:">Apri il materiale originale</a></article>
+<article class="dispensa" id="corso-inaf-2026-09"><h4>Età ed evoluzione dell’Universo</h4><p>Dr. R. Soria, INAF-OATo</p><p>Raccolta: corso INAF Torino 2025/2026</p><a href="https://drive.google.com/file/d/1V8Ruxw6CidFbJJW94IupFJ_Jzjeb0IQO/view?usp=sharing:">Apri il materiale originale</a></article>
+<article class="dispensa" id="corso-inaf-2026-10"><h4>Attività solare e clima sulla Terra</h4><p>Dr. L. Zangrilli, INAF-OATo</p><p>Raccolta: corso INAF Torino 2025/2026</p><a href="https://drive.google.com/file/d/1YGrWEX7zW1AINOtTUnhjPM4ikCP0rZlj/view?usp=sharing:">Apri il materiale originale</a></article>
+<article class="dispensa" id="corso-inaf-2026-11"><h4>Progetto NOCTIS — secondo collegamento</h4><p>Team NOCTIS-INAF, secondo collegamento</p><p>Raccolta: corso INAF Torino 2025/2026</p><a href="https://drive.google.com/file/d/1gWBew4sXf8FJJRxZpKlhre9tnja9ta8x/view?usp=sharing:">Apri il materiale originale</a></article>
+<article class="dispensa" id="corso-inaf-2026-12"><h4>Reti neurali per l’astrofisica: alla ricerca di pianeti abitabili</h4><p>Dr. A. Frassà, UniTo / Dip. Fisica / U.B.A.</p><p>Raccolta: corso INAF Torino 2025/2026</p><a href="https://drive.google.com/file/d/1_ZVSMvMT_1JILMS_f0oMf10BzVtL_4RK/view?usp=sharing:">Apri il materiale originale</a></article>
+<article class="dispensa" id="corso-inaf-2026-13"><h4>Strumentazioni e cupole amatoriali autocostruite</h4><p>P. Matassa, Ariel / ExoClock</p><p>Raccolta: corso INAF Torino 2025/2026</p><a href="https://drive.google.com/file/d/1_5IE0g49f0xLd9H-op0K_PtNkFkd4CVa/view?usp=sharing:">Apri il materiale originale</a></article>
+<article class="dispensa" id="corso-inaf-2026-14"><h4>AstroLab 1 — attività per la scuola primaria</h4><p>Relatore indicato nel programma ufficiale</p><p>Raccolta: corso INAF Torino 2025/2026</p><a href="https://canva.link/82ymtgkfai35d22:">Apri il materiale originale</a></article>
+<article class="dispensa" id="corso-inaf-2026-15"><h4>AstroLab 2 — attività per la scuola secondaria di primo grado</h4><p>Relatore indicato nel programma ufficiale</p><p>Raccolta: corso INAF Torino 2025/2026</p><a href="https://canva.link/qkmp8u9w5r0xill:">Apri il materiale originale</a></article>
+<article class="dispensa" id="corso-inaf-2026-16"><h4>AstroLab 3 — proposte laboratoriali</h4><p>Relatore indicato nel programma ufficiale</p><p>Raccolta: corso INAF Torino 2025/2026</p><a href="https://canva.link/wssld0i3xtcypl7:">Apri il materiale originale</a></article>
+<article class="dispensa" id="corso-inaf-2026-17"><h4>Relatività e Dei — paradosso dei gemelli e paradosso di Fermi</h4><p>Prof. L. Burderi, INAF-IASF, Relatività e Dei – come il Paradosso dei Gemelli ed il Principio Copernicano forniscono una</p><p>Raccolta: corso INAF Torino 2025/2026</p><a href="https://docs.google.com/presentation/d/1ds85yznKbovQwGJum7IAK7RlavidveDP/edit?ouid=106493409733248603095&amp;rtpof=true&amp;sd=true&amp;usp=sharing:">Apri il materiale originale</a></article>
+<article class="dispensa" id="corso-inaf-2026-18"><h4>Atmosfere di esopianeti</h4><p>Dr.ssa G. Guilluy, INAF-OATo</p><p>Raccolta: corso INAF Torino 2025/2026</p><a href="https://drive.google.com/file/d/1AxnSCqIm3lPqjxZzKyQ5aufavc5Sqzar/view?usp=sharing:">Apri il materiale originale</a></article>
+<article class="dispensa" id="corso-inaf-2026-19"><h4>La tempesta perfetta: anatomia di un temporale</h4><p>F. Lavarino, UniTo / Dip. Fisica / O.A.C.</p><p>Raccolta: corso INAF Torino 2025/2026</p><a href="https://drive.google.com/file/d/1EmcPN7LLUZDXDAtDC-jGnNBIyI-qYv-F/view?usp=sharing:">Apri il materiale originale</a></article>
+<article class="dispensa" id="corso-inaf-2026-20"><h4>Destinazione Marte… ma vivi o morti?</h4><p>Prof.ssa A. Zanini, UniTo / Dip. Fisica</p><p>Raccolta: corso INAF Torino 2025/2026</p><p>La pagina del corso non indica un link alla dispensa.</p></article>
+<article class="dispensa" id="corso-inaf-2026-21"><h4>Neutrini, messaggeri dell’universo profondo</h4><p>Prof. C. Vigorito, UniTo / Dip. Fisica</p><p>Raccolta: corso INAF Torino 2025/2026</p><a href="https://drive.google.com/file/d/1MQWW9fQ_vwdO0rtdH__XdEIFQ9kGNF1o/view?usp=sharing:">Apri il materiale originale</a></article>
+<article class="dispensa" id="corso-inaf-2026-22"><h4>Radioastronomia amatoriale ed equazione del tempo</h4><p>Dr. S. Lera e Prof. D. Mazza, URANIA e PoliTo</p><p>Raccolta: corso INAF Torino 2025/2026</p><a href="https://drive.google.com/file/d/1gYK2z-mchsPOpIyCIgKDaT5yDzgobtjk/view?usp=sharing:">Apri il materiale originale</a></article>
+<article class="dispensa" id="corso-inaf-2026-24"><h4>Star Trek parte quarta — ben oltre la TransCurvatura</h4><p>Dr. C. Benna, INAF-OATo</p><p>Raccolta: corso INAF Torino 2025/2026</p><a href="https://drive.google.com/file/d/1o8_wx90v7yu2iJrq3YUqcBjpu0k2Ix2m/view?usp=sharing:">Apri il materiale originale</a></article>
+</div>
+</div></details>
+<details class="inaf-collection" id="raccolta-missioni"><summary class="library-access-banner space">
+<div><h2>Missioni spaziali e astronautica</h2><p>Orbite, sonde, esplorazione della Luna e di Marte. Apri una selezione di missioni, guide e documenti delle agenzie spaziali.</p><span>Esplora le missioni <span class="inaf-toggle-mark" aria-hidden="true">⌄</span></span><small>Montaggio illustrativo generato con IA.</small></div></summary><div class="inaf-lesson-panel"><h2>Missioni e materiali per approfondire</h2><div class="dispense-grid"><article class="dispensa"><p class="mission-source">ESA Education</p><h3>Teach with Space — guide e attività</h3><p>Guide docenti, schede studenti e attività STEM legate allo spazio.</p><a href="https://www.esa.int/Education/Teachers_Corner/Teach_with_space3" target="_blank" rel="noopener noreferrer">Consulta la fonte ↗</a></article><article class="dispensa"><p class="mission-source">CNES · Francia</p><h3>Dossier educativi — Luna, Marte e satelliti</h3><p>Percorsi e kit didattici sull’esplorazione lunare e marziana e sull’osservazione della Terra.</p><a href="https://cnes.fr/education/dossiers-educatifs" target="_blank" rel="noopener noreferrer">Consulta la fonte ↗</a></article><article class="dispensa"><p class="mission-source">DLR · Germania</p><h3>Materiali per la scuola — spazio, Terra e Luna</h3><p>Fascicoli per studenti su spazio, Sistema solare, Terra e Luna.</p><a href="https://www.dlr.de/de/schoollab/medien/publikationen/materialien-fuer-den-unterricht" target="_blank" rel="noopener noreferrer">Consulta la fonte ↗</a></article><article class="dispensa"><p class="mission-source">JAXA · Giappone</p><h3>Hayabusa2 — schede e presentazioni ufficiali</h3><p>Schede e slide di conferenze stampa sulla missione e sull’esplorazione degli asteroidi.</p><a href="https://www.hayabusa2.jaxa.jp/en/enjoy/material/" target="_blank" rel="noopener noreferrer">Consulta la fonte ↗</a></article><article class="dispensa"><p class="mission-source">ISRO · India</p><h3>Chandrayaan-3 — missione, brochure e risultati</h3><p>Pagina ufficiale con brochure, strumenti scientifici e documentazione della missione lunare.</p><a href="https://www.isro.gov.in/ISRO_EN/Chandrayaan3.html" target="_blank" rel="noopener noreferrer">Consulta la fonte ↗</a></article><article class="dispensa"><p class="mission-source">ISRO · India</p><h3>Chandrayaan-2 — Handbook of Payloads, Data and Science</h3><p>Manuale tecnico della missione: strumenti, acquisizione dei dati e obiettivi scientifici lunari.</p><a href="https://www.isro.gov.in/media_isro/pdf/science/hand_book_payloads_data_and_science.pdf" target="_blank" rel="noopener noreferrer">Consulta la fonte ↗</a></article><article class="dispensa"><p class="mission-source">ISRO · India</p><h3>Missioni scientifiche ISRO — brochure 2025</h3><p>Panoramica illustrata di missioni e strumenti scientifici, utile per un primo orientamento.</p><a href="https://www.isro.gov.in/NSPD2025/assets/pdf/Scientific_Mission-Brochure.pdf" target="_blank" rel="noopener noreferrer">Consulta la fonte ↗</a></article><article class="dispensa"><p class="mission-source">NASA · inglese</p><h3>Hubble</h3><p>Immagini, strumenti e scienza del telescopio spaziale Hubble.</p><a href="https://science.nasa.gov/mission/hubble/" target="_blank" rel="noopener noreferrer">Consulta la fonte ↗</a></article><article class="dispensa"><p class="mission-source">NASA · inglese</p><h3>James Webb</h3><p>Osservazioni nell’infrarosso e strumenti del telescopio spaziale.</p><a href="https://science.nasa.gov/mission/webb/" target="_blank" rel="noopener noreferrer">Consulta la fonte ↗</a></article><article class="dispensa"><p class="mission-source">NASA · inglese</p><h3>Voyager</h3><p>Esplorazione dei pianeti esterni e dello spazio interstellare.</p><a href="https://science.nasa.gov/mission/voyager/" target="_blank" rel="noopener noreferrer">Consulta la fonte ↗</a></article><article class="dispensa"><p class="mission-source">NASA · inglese</p><h3>Cassini–Huygens</h3><p>Saturno, gli anelli e le lune esplorati dalla missione Cassini–Huygens.</p><a href="https://science.nasa.gov/mission/cassini/" target="_blank" rel="noopener noreferrer">Consulta la fonte ↗</a></article><article class="dispensa"><p class="mission-source">NASA · inglese</p><h3>Juno</h3><p>La missione dedicata alla struttura e all’atmosfera di Giove.</p><a href="https://science.nasa.gov/mission/juno/" target="_blank" rel="noopener noreferrer">Consulta la fonte ↗</a></article><article class="dispensa"><p class="mission-source">NASA · inglese</p><h3>New Horizons</h3><p>Il sorvolo di Plutone e l’esplorazione della fascia di Kuiper.</p><a href="https://science.nasa.gov/mission/new-horizons/" target="_blank" rel="noopener noreferrer">Consulta la fonte ↗</a></article><article class="dispensa"><p class="mission-source">NASA · inglese</p><h3>Perseverance</h3><p>Esplorazione di Marte, strumenti e raccolta di campioni del rover.</p><a href="https://science.nasa.gov/mission/mars-2020-perseverance/" target="_blank" rel="noopener noreferrer">Consulta la fonte ↗</a></article><article class="dispensa"><p class="mission-source">ESA · inglese</p><h3>Rosetta</h3><p>L’esplorazione della cometa 67P e del suo ambiente.</p><a href="https://www.esa.int/Science_Exploration/Space_Science/Rosetta" target="_blank" rel="noopener noreferrer">Consulta la fonte ↗</a></article><article class="dispensa"><p class="mission-source">ESA · inglese</p><h3>Gaia</h3><p>La misura delle posizioni, delle distanze e dei moti stellari.</p><a href="https://www.esa.int/Science_Exploration/Space_Science/Gaia" target="_blank" rel="noopener noreferrer">Consulta la fonte ↗</a></article><article class="dispensa"><p class="mission-source">ESA · inglese</p><h3>Euclid</h3><p>La struttura del cosmo studiata attraverso galassie e lenti gravitazionali.</p><a href="https://www.esa.int/Science_Exploration/Space_Science/Euclid" target="_blank" rel="noopener noreferrer">Consulta la fonte ↗</a></article><article class="dispensa"><p class="mission-source">ESA · inglese</p><h3>Juice</h3><p>Obiettivi e strumenti per studiare Giove e le sue lune ghiacciate.</p><a href="https://www.esa.int/Science_Exploration/Space_Science/Juice" target="_blank" rel="noopener noreferrer">Consulta la fonte ↗</a></article><article class="dispensa"><p class="mission-source">ESA · inglese</p><h3>BepiColombo</h3><p>La missione europea e giapponese dedicata a Mercurio.</p><a href="https://www.esa.int/Science_Exploration/Space_Science/BepiColombo" target="_blank" rel="noopener noreferrer">Consulta la fonte ↗</a></article><article class="dispensa"><p class="mission-source">ESA · inglese</p><h3>Solar Orbiter</h3><p>L’osservazione del Sole e dell’ambiente plasmatico che lo circonda.</p><a href="https://www.esa.int/Science_Exploration/Space_Science/Solar_Orbiter" target="_blank" rel="noopener noreferrer">Consulta la fonte ↗</a></article></div></div></details>
+</section><section id="dispense" class="container" aria-labelledby="dispense-title">
+<h2 id="dispense-title">Dispense di altri enti</h2>
+<p>Consulta slide e materiali didattici per argomento e autore.</p>
+<span id="dispense-altre-fonti"></span>
+<div class="dispense-grid">
+<article class="dispensa" id="dispensa-bignamino"><h4>Bignamino di astronomia — SAIt, 2022</h4><p>Società Astronomica Italiana</p><p>Un compendio di astronomia per ripassare i concetti e preparare uno studio più sistematico. Il documento comprende anche passaggi quantitativi.</p><a href="https://www.sait.it/sites/sait.interlandia.net/files/pictures/notizie/2022/Bignamino_astronomia_2022.pdf">Apri la fonte originale</a></article>
+<article class="dispensa" id="dispensa-gak-appunti-astronomia"><h4>Appunti di astronomia — corso per appassionati</h4><p>Gruppo Astrofili Keplero</p><p>Sette capitoli PDF con spiegazioni, figure ed esercizi su cielo, tempo, pianeti, Luna, ottica, telescopi e osservazione. Pensato per lettori con preparazione da scuola superiore.</p><p>Edizione cartacea del 1996. Fotografia, software e dati recenti richiedono riferimenti aggiornati. Autori: E. De Rosa, A. Rinalducci e F. Santi.</p><a href="https://gak.it/utility/dispense/" target="_blank" rel="noopener noreferrer">Apri la fonte originale ↗</a></article>
+<article class="dispensa" id="dispensa-asi-explora"><h4>EXPLORA — esplorazione umana e robotica dello spazio</h4><p>Agenzia Spaziale Italiana</p><p>Volume illustrato di 108 pagine su esplorazione umana e robotica, Stazione Spaziale Internazionale, piante nello spazio e astrobiologia.</p><p>Edizione 2018. Leggere cronologie, programmi e interpretazioni scientifiche nel contesto della data di pubblicazione. Le conclusioni sull’acqua liquida sotto la superficie di Marte richiedono un confronto con studi successivi.</p><a href="https://www.asi.it/wp-content/uploads/2021/12/EXPLORA-libro-completo.pdf" target="_blank" rel="noopener noreferrer">Apri la fonte originale ↗</a></article>
+<article class="dispensa" id="dispensa-cam-dispense"><h4>Corso di astronomia — dispense per astrofili</h4><p>Circolo Astrofili di Milano</p><p>Raccolta di sedici dispense: Luna, ottica, telescopi, luce, stelle e cosmologia.</p><a href="https://www.astrofilimilano.org/">Apri il Circolo · Sezione Neofiti → Le dispense</a></article>
+<article class="dispensa" id="dispensa-piombino-dispense"><h4>Dispense pratiche e presentazioni — NINA e osservazione</h4><p>Associazione Astrofili Piombino</p><p>Materiali pratici su telescopi, fotografia, misure e software; comprende NINA 101 indicata 2023.</p><a href="https://web.astropiombino.org/download/">Apri la fonte originale</a></article>
+</div>
+</section><section class="library-pathways" aria-labelledby="pathways-title"><div class="container"><p class="portal-eyebrow">NUOVI ORIZZONTI DI LETTURA</p><h2 id="pathways-title">Dalle dispense alle missioni spaziali.</h2><div class="library-pathway-grid"><article><h3>Università, osservatori e astrofili</h3><p>Dispense, slide e tesi, con provenienza e note sul livello. Le raccolte possono contenere materiali di anni e complessità differenti.</p><a href="?type=Corsi%20e%20lezioni#catalogo">Esplora corsi e raccolte →</a><a href="?type=Tesi%20universitarie#catalogo">Consulta le tesi →</a></article><article><h3>Campus documentario europeo</h3><p>ESA, CNES e DLR: guide, fascicoli e attività per studiare lo spazio. Ogni scheda indica la lingua originale.</p><a href="?source=ESA%20Education#catalogo">ESA →</a><a href="?source=CNES%20%C2%B7%20Francia#catalogo">CNES →</a><a href="?source=DLR%20%C2%B7%20Germania#catalogo">DLR →</a></article><article id="astronautica"><h3>Astronautica e missioni spaziali</h3><p>Orbite e propulsione · lanciatori e satelliti · esplorazione umana e robotica · Luna, <a class="rimando-editoriale" href="glossario.html#marte">Marte</a> e campioni · sonde scientifiche · osservazione della Terra.</p><p>Un primo nucleo di documentazione ESA, CNES, DLR, JAXA e ISRO per confrontare progetti, strumenti e risultati sulle fonti originali.</p><a href="?area=astronautica#catalogo">Esplora Astronautica →</a></article></div><details><summary>Livelli di lettura e traduzione assistita</summary><p><strong>Facile:</strong> termini spiegati ed esempi, senza preparazione matematica particolare. <strong>Medio:</strong> basi astronomiche, grafici e matematica scolastica. <strong>Avanzato:</strong> fisica universitaria, formalismo o metodi specialistici. «Più livelli» indica una raccolta; «Non indicato» segnala materiali ancora da valutare.</p><p>La lingua non determina il livello. Per i PDF testuali Google Traduttore accetta sul computer file fino a 10 MB e 300 pagine. Il normale flusso documenti non traduce il testo contenuto nelle immagini o nelle scansioni. Formule e termini scientifici vanno confrontati con l’originale; la traduzione non è stata collaudata per ogni file.</p><a href="https://support.google.com/translate/answer/2534559?hl=it" target="_blank" rel="noopener noreferrer">Come tradurre documenti con Google ↗</a></details></div></section><section class="young-entry"><div class="container"><div><p class="portal-eyebrow">UNO SPAZIO PER BAMBINI E RAGAZZI</p><h2>Giovani esploratori</h2><p>Letture, esperimenti e simulazioni per scoprire il cielo, dai primi perché ai modelli scientifici. Tre percorsi per età, con proposte per genitori e insegnanti.</p><p class="young-illustration-note">Illustrazione rappresentativa generata con IA.</p></div><a class="young-entry-link" href="giovani-esploratori.html">Esplora i percorsi →</a></div></section><section id="portali" class="online-portals" aria-labelledby="sources-title"><div class="container"><div class="portals-intro-banner"><div class="portals-photo-montage" aria-hidden="true"><img class="portal-photo launch" src="assets/biblioteca/lancio-artemis.jpg" alt="" loading="lazy"><img class="portal-photo control" src="assets/biblioteca/controllo-missioni.jpg" alt="" loading="lazy"><img class="portal-photo observatory" src="assets/lezioni/perseide-vlt-2010.jpg" alt="" loading="lazy"></div><p class="portal-eyebrow">OLTRE IL CATALOGO · LE FONTI ORIGINALI</p><div class="portals-nameplates" aria-label="Portali presenti nella sezione"><span>NASA</span><span>ESA</span><span>INAF</span><span>UAI</span></div><h2 id="sources-title">Portali scientifici e didattici</h2><p class="online-guidance">Le risorse si aprono sui siti degli enti. Controlla la lingua e il livello del singolo materiale: una raccolta può comprendere attività per età ed esigenze differenti.</p><details class="portal-banner-credits"><summary>Fotografie del banner · crediti</summary><p>Montaggio di fotografie d’archivio, non di un unico evento: <a href="https://www.nasa.gov/image-article/artemis-i-launch-3/" target="_blank" rel="noopener noreferrer">lancio Artemis I, 2022 — NASA/Joel Kowsky</a>; <a href="https://www.nasa.gov/johnson/jsc-mission-control-center/" target="_blank" rel="noopener noreferrer">Mission Control — NASA</a>; <a href="https://www.eso.org/public/images/potw1033a/" target="_blank" rel="noopener noreferrer">VLT, 2010 — ESO/S. Guisard, CC BY 4.0</a>. Ritagli e dissolvenze grafici. I nomi identificano le fonti consultabili.</p></details></div><div class="institution-grid">
+<article><p class="portal-eyebrow">ASTRONOMIA E ATTIVITÀ</p><h3>EduINAF</h3><p>La raccolta didattica dell’Istituto Nazionale di Astrofisica: attività, percorsi e materiali per esplorare i fenomeni astronomici.</p><small>Italiano · risorse per livelli diversi</small><a href="https://edu.inaf.it/astrodidattica/" target="_blank" rel="noopener noreferrer">Consulta le risorse didattiche ↗</a></article>
+<article><p class="portal-eyebrow">SCIENZE DELLO SPAZIO</p><h3>NASA Science</h3><p>Un catalogo di attività e materiali educativi sulle scienze spaziali, con strumenti di ricerca per trovare risorse pertinenti.</p><small>Prevalentemente inglese · catalogo educativo</small><a href="https://science.nasa.gov/learn/catalog/" target="_blank" rel="noopener noreferrer">Esplora il catalogo NASA ↗</a></article>
+<article><p class="portal-eyebrow">EDUCAZIONE SPAZIALE</p><h3>ESA</h3><p>Materiali online dell’Agenzia Spaziale Europea: percorsi e proposte didattiche legati allo spazio e alle missioni scientifiche.</p><small>Più lingue · italiano dove disponibile</small><a href="https://www.esa.int/Education/Online_material" target="_blank" rel="noopener noreferrer">Consulta i materiali ESA ↗</a></article>
+<article><p class="portal-eyebrow">ASTRONOMIA AMATORIALE</p><h3>Unione Astrofili Italiani</h3><p>Il portale nazionale dell’astronomia amatoriale: sezioni di ricerca, iniziative e informazioni per avvicinarsi all’osservazione del cielo.</p><small>Italiano · portale dell’associazione</small><a href="https://www.uai.it/" target="_blank" rel="noopener noreferrer">Visita il portale UAI ↗</a></article>
+</div><a class="online-back" href="biblioteca.html#biblioteca-online">← Torna alla Biblioteca</a></div></section></main>
+
+
+
+  <!-- =====================================================
+       MODALE LIBRI
+  ====================================================== -->
+
+
+
+
+
+  <!-- =====================================================
+       FOOTER
+  ====================================================== -->
+
+  <footer class="site-footer banner-eclissi">
+
+    <div class="footer-sky" aria-hidden="true"><img src="provini-testata-stellare/eclissi-footer.jpg" alt=""></div>
+  <div class="footer-brand">
+    <a class="footer-signature footer-home-link" href="index.html" aria-label="RITORNA ALLA HOME">
+      <img class="footer-rays" src="provini-testata-stellare/logo-fornito.png" alt="">
+      <img class="footer-emblem" src="provini-testata-stellare/logo-fornito.png" alt="">
+      <img class="footer-name" src="banner.png" alt="">
+    <span class="footer-home-tooltip" aria-hidden="true">RITORNA<br>ALLA<br>HOME</span>
+    </a>
+    <p>Astronomia, osservazione del cielo, astrofotografia e divulgazione scientifica.</p>
+  </div>
+
+
+    <div class="footer-navigation">
+
+
+      <div class="footer-column">
+
+        <h3>
+          Scuola di Astronomia
+        </h3>
+
+        <ul>
+
+          <li>
+            <a href="scuola-astronomia.html">
+              Scuola di Astronomia
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              Lezioni
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              Approfondimenti
+            </a>
+          </li>
+
+        <li><a href="laboratorio.html">Laboratorio</a></li><li><a href="quiz-astronomia.html">Quiz di astronomia</a></li><li><a href="glossario.html">Glossario scientifico</a></li></ul>
+
+      </div>
+
+
+
+      <div class="footer-column">
+
+        <h3>
+          Esplora
+        </h3>
+
+        <ul>
+
+          <li>
+            <a href="index.html">
+              Home
+            </a>
+          </li>
+
+          <li>
+            <a href="guide.html">
+              Guide
+            </a>
+          </li>
+
+          <li>
+            <a href="strumentazione.html">
+              Strumentazione
+            </a>
+          </li>
+
+          <li>
+            <a href="cielo-del-mese.html">
+              Il Cielo del Mese
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+
+
+      <div class="footer-column">
+
+        <h3>
+          Risorse
+        </h3>
+
+        <ul>
+
+          <li>
+            <a href="astrofotografia.html">
+              Astrofotografia
+            </a>
+          </li>
+
+          <li>
+            <a href="poster.html">
+              Poster
+            </a>
+          </li>
+
+          <li>
+            <a href="effemeridi.html">
+              Effemeridi
+            </a>
+          </li>
+
+          <li>
+            <a href="software.html">
+              Software
+            </a>
+          </li>
+
+          <li>
+            <a href="biblioteca.html">
+              Biblioteca
+            </a>
+          </li>
+
+          <li>
+            <a href="pubblicazioni-ad-astra.html">
+              Pubblicazioni
+            </a>
+          </li>
+
+          <li>
+            <a href="notizie.html">
+              Notizie
+            </a>
+          </li>
+
+          <li>
+            <a href="ventunesimo.html">
+              MAGAZINE
+            </a>
+          </li>
+
+          <li>
+            <a href="contatti.html">
+              Contatti
+            </a>
+          </li><li><a href="chi-cura-ad-astra.html">Chi cura AD ASTRA</a></li>
+
+        </ul>
+
+      </div>
+
+
+
+      <div class="footer-column">
+
+        <h3>
+          Seguici su
+        </h3>
+
+        <a
+          class="footer-facebook"
+          href="https://www.facebook.com/groups/881040268371551?locale=it_IT" target="_blank" rel="noopener noreferrer"
+          aria-label="Gruppo Facebook AD ASTRA"
+        >
+          f
+        </a>
+
+      </div>
+
+
+    </div>
+
+  </footer>
+
+
+
+  <!-- =====================================================
+       DATI E FUNZIONAMENTO DEI POPUP
+  ====================================================== -->
+
+
+
+
+
+
+<script defer src="assets/biblioteca/catalogo-online.js?v=20261119"></script>
+<script defer src="assets/biblioteca/catalogo-argomenti.js"></script>
+<script defer src="assets/biblioteca/glossario-indice.js"></script>
+<script defer src="assets/biblioteca/glossario-sintesi.js"></script>
+<script defer src="assets/biblioteca/glossario-ricerca.js"></script>
+<script defer src="assets/scuola-attiva/glossario-dati.js"></script>
+<script defer src="assets/biblioteca/glossario-wikipedia-indice.js"></script>
+<script defer src="assets/biblioteca/glossario-wikipedia.js?v=2"></script>
+<script defer src="assets/biblioteca/rimandi-dispense.js"></script>
+<script defer src="assets/biblioteca/video-indice.js?v=2"></script>
+<script defer src="assets/biblioteca/video-concetti.js"></script>
+<script defer src="assets/biblioteca/federazione-dati.js?v=20261119"></script>
+<script defer src="assets/biblioteca/federazione-ricerca.js?v=20261119"></script>
+<script defer src="assets/biblioteca/catalogo-ui.js?v=11"></script>
+<script defer src="assets/menu-persistente.js"></script>
+<svg width="0" height="0" aria-hidden="true" style="position:absolute" xmlns="http://www.w3.org/2000/svg">
+<defs><filter id="provino-scritta-opaca" color-interpolation-filters="sRGB">
+<feColorMatrix in="SourceGraphic" type="matrix" values="0 1 0 0 0  0 1 0 0 0  0 1 0 0 0  1 0 0 0 0"/>
+<feComponentTransfer><feFuncA type="linear" slope="10" intercept="-3.2"/></feComponentTransfer>
+</filter></defs></svg>
+<script>
+(() => {
+ const collections = [...document.querySelectorAll('.inaf-collection')];
+ const reveal = () => {
+  const id = decodeURIComponent(location.hash.slice(1));
+  const target = id && document.getElementById(id);
+  const collection = target && collections.find(item => item.contains(target));
+  if (collection) {
+   collection.open = true;
+   target.scrollIntoView({block: 'start'});
+  }
+ };
+ addEventListener('hashchange', reveal);
+ reveal();
+})();
+</script>
+</body>
+
+</html>

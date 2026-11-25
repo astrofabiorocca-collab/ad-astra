@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Provino del banner inferiore</title><style>
+body { margin: 0; background: #f4f6f9; color: #14243a; font: 16px/1.5 Arial,sans-serif; }
+main { padding: 3rem 4vw; }
+.site-footer { position: relative; isolation: isolate; overflow: hidden; --footer-height: 360px; height: var(--footer-height); }
+.footer-sky { position: absolute; inset: 0; z-index: -1; background: #101014; }
+.footer-sky img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: max(var(--footer-height), 56.339vw);
+  height: auto;
+  transform: translate(-50%, -50%) rotate(-90deg);
+}
+.footer-sky::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, transparent 30%, #080b1240 58%, #080b121a);
+}
+.footer-brand p, .footer-column {
+  text-shadow: 0 1px 3px #000, 0 1px 7px #000;
+}
+.site-footer { display: grid; grid-template-columns: 40% 1fr; gap: 4%; padding: 2rem 3% 3rem; box-sizing: border-box; color: #fff; }
+.footer-signature { position: relative; aspect-ratio: 4.2; max-width: 680px; }
+.footer-rays,.footer-emblem { position: absolute; left: 0; top: 50%; width: 24%; height: auto; transform: translateY(-50%); }
+.footer-rays { mix-blend-mode: screen; }
+.footer-emblem { clip-path: circle(45.6% at 50.1% 49.4%); }
+.footer-name { position: absolute; left: 0; top: 0; width: 161%; height: auto; clip-path: inset(40.8% 54% 43.7% 14.1%); filter: grayscale(1) brightness(.82) contrast(1.3); mix-blend-mode: screen; }
+.footer-brand p { margin: .25rem 0 0 25%; max-width: 32ch; font-size: clamp(1rem,1.5vw,1.4rem); }
+.footer-navigation { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: 1rem; }
+.footer-column h3 { font-size: .9rem; margin: 0 0 .75rem; }
+.footer-column ul { list-style: none; padding: 0; margin: 0; }
+.footer-column li { margin-bottom: .45rem; }
+.footer-column a { color: #f3f5fa; font-size: .85rem; text-decoration: none; }
+.footer-column a:hover { text-decoration: underline; }
+.footer-column .footer-facebook { display: grid; place-items: center; width: 38px; height: 38px; background: #1877f2; border-radius: 50%; font-size: 1.25rem; font-weight: bold; }
+@media(max-width:900px) { .site-footer { grid-template-columns: 1fr; --footer-height: 640px; gap: 1.5rem; align-content: start; } .footer-navigation { grid-template-columns: repeat(2,minmax(0,1fr)); } }
+@media(max-width:520px) { .site-footer { --footer-height: 950px; } .footer-navigation { grid-template-columns: 1fr; } }
+</style></head><body><main><h1>Provino del banner inferiore</h1></main><footer class="site-footer">
+
+    <div class="footer-sky" aria-hidden="true"><img src="provini-testata-stellare/eclissi-footer.jpg" alt=""></div>
+  <div class="footer-brand">
+    <div class="footer-signature" aria-label="AD ASTRA">
+      <img class="footer-rays" src="provini-testata-stellare/logo-fornito.png" alt="">
+      <img class="footer-emblem" src="provini-testata-stellare/logo-fornito.png" alt="">
+      <img class="footer-name" src="banner.png" alt="">
+    </div>
+    <p>Astronomia, osservazione del cielo, astrofotografia e divulgazione scientifica.</p>
+  </div>
+
+
+    <div class="footer-navigation">
+
+
+      <div class="footer-column">
+
+        <h3>
+          Scuola di Astronomia
+        </h3>
+
+        <ul>
+
+          <li>
+            <a href="scuola-astronomia.html">
+              Scuola di Astronomia
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              Lezioni
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              Approfondimenti
+            </a>
+          </li>
+
+        <li><a href="laboratorio.html">Laboratorio</a></li><li><a href="quiz-astronomia.html">Quiz di astronomia</a></li><li><a href="glossario.html">Glossario scientifico</a></li></ul>
+
+      </div>
+
+
+
+      <div class="footer-column">
+
+        <h3>
+          Esplora
+        </h3>
+
+        <ul>
+
+          <li>
+            <a href="index.html">
+              Home
+            </a>
+          </li>
+
+          <li>
+            <a href="guide.html">
+              Guide
+            </a>
+          </li>
+
+          <li>
+            <a href="strumentazione.html">
+              Strumentazione
+            </a>
+          </li>
+
+          <li>
+            <a href="cielo-del-mese.html">
+              Il Cielo del Mese
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+
+
+      <div class="footer-column">
+
+        <h3>
+          Risorse
+        </h3>
+
+        <ul>
+
+          <li>
+            <a href="astrofotografia.html">
+              Astrofotografia
+            </a>
+          </li>
+
+          <li>
+            <a href="poster.html">
+              Poster
+            </a>
+          </li>
+
+          <li>
+            <a href="effemeridi.html">
+              Effemeridi
+            </a>
+          </li>
+
+          <li>
+            <a href="software.html">
+              Software
+            </a>
+          </li>
+
+          <li>
+            <a href="biblioteca.html">
+              Biblioteca
+            </a>
+          </li>
+
+          <li>
+            <a href="pubblicazioni-ad-astra.html">
+              Pubblicazioni
+            </a>
+          </li>
+
+          <li>
+            <a href="notizie.html">
+              Notizie
+            </a>
+          </li>
+
+          <li>
+            <a href="ventunesimo.html">
+              VENTUNESIMO
+            </a>
+          </li>
+
+          <li>
+            <a href="contatti.html">
+              Contatti
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+
+
+      <div class="footer-column">
+
+        <h3>
+          Seguici su
+        </h3>
+
+        <a
+          class="footer-facebook"
+          href="https://www.facebook.com/groups/881040268371551?locale=it_IT"
+          aria-label="Gruppo Facebook AD ASTRA"
+         target="_blank" rel="noopener noreferrer">
+          f
+        </a>
+
+      </div>
+
+
+    </div>
+
+  </footer></body></html>
