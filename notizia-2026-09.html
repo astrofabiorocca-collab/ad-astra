@@ -1,0 +1,1019 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>Una probabile fusione di stelle di neutroni dentro i resti di un incontro galattico | AD ASTRA</title>
+
+  
+
+
+  <style>
+
+    /* =========================================================
+       RESET E BASE
+    ========================================================= */
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f7f9fc;
+      color: #102342;
+      line-height: 1.65;
+    }
+
+    body.modal-open {
+      overflow: hidden;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    button {
+      font: inherit;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+    }
+
+    .container {
+      width: min(1180px, 92%);
+      margin: 0 auto;
+    }
+
+
+    /* =========================================================
+       BANNER SUPERIORE
+    ========================================================= */
+
+    .top-banner {
+      position: relative;
+      width: 100%;
+      height: clamp(270px, 16.6vw, 340px);
+      overflow: hidden;
+      background: #07152a;
+    }
+
+    .top-banner-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: top center;
+      display: block;
+    }
+
+    .banner-section-title {
+      position: absolute;
+      left: 55%;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 2;
+      max-width: 42%;
+      color: #ffffff;
+    }
+
+    .banner-section-title h1 {
+      margin-bottom: 5px;
+      color: #f4c84e;
+      font-size: clamp(1.45rem, 2.6vw, 2.55rem);
+      line-height: 1.15;
+      font-weight: 700;
+      text-shadow: 0 2px 8px rgba(0,0,0,.55);
+    }
+
+    .banner-section-title p {
+      color:#fff;
+      font-size:clamp(.78rem,1.35vw,1.08rem);
+      text-shadow:0 2px 6px rgba(0,0,0,.65);
+    }
+
+
+    /* =========================================================
+       MENU PRINCIPALE
+    ========================================================= */
+
+    .main-navigation {
+      width:100%;
+      background:linear-gradient(180deg,#07182d 0%,#041326 100%);
+      border-top:1px solid rgba(255,255,255,.08);
+      border-bottom:1px solid rgba(255,255,255,.12);
+    }
+
+    .main-navigation ul {
+      min-height:54px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      flex-wrap:nowrap;
+      gap:0;
+      list-style:none;
+    }
+
+    .main-navigation li {
+      position:relative;
+      flex-shrink:0;
+    }
+
+    .main-navigation li + li::before {
+      content:"";
+      position:absolute;
+      left:0;
+      top:50%;
+      width:1px;
+      height:22px;
+      transform:translateY(-50%);
+      background:rgba(255,255,255,.28);
+    }
+
+    .main-navigation a {
+      display:block;
+      padding:14px 9px 12px;
+      color:#e6edf5;
+      font-size:.64rem;
+      white-space:nowrap;
+      font-weight:600;
+      transition:color .2s ease,background .2s ease;
+    }
+
+    .main-navigation a:hover {
+      color:#5eb5ff;
+    }
+
+    .main-navigation a.active {
+      color:#fff;
+      box-shadow:inset 0 -3px 0 #4aa7ff;
+    }
+
+
+    /* =========================================================
+       INTRODUZIONE
+    ========================================================= */
+
+    .intro {
+      padding: 54px 0 50px;
+      background: #ffffff;
+      border-bottom: 1px solid #dde5ed;
+    }
+
+    .intro-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 360px;
+      gap: 46px;
+      align-items: stretch;
+    }
+
+    .intro-lead {
+      margin-bottom: 11px;
+      color: #174fb9;
+      font-size: 1.17rem;
+      font-weight: 700;
+    }
+
+    .intro-line {
+      width: 72px;
+      height: 3px;
+      margin-bottom: 22px;
+      background: #2864d7;
+    }
+
+    .intro-text {
+      color: #48596c;
+      font-size: .96rem;
+    }
+
+    .intro-text p {
+      margin-bottom: 15px;
+      text-align: justify;
+    }
+
+    .intro-text p:last-child {
+      margin-bottom: 0;
+    }
+
+    .intro-box {
+      padding: 30px;
+      border-radius: 9px;
+      background:
+        linear-gradient(
+          145deg,
+          #102b4d,
+          #07182d
+        );
+      color: #ffffff;
+      box-shadow:
+        0 10px 28px rgba(9,30,55,.16);
+    }
+
+    .intro-box-symbol {
+      margin-bottom: 14px;
+      color: #f4c84e;
+      font-size: 2.45rem;
+      line-height: 1;
+    }
+
+    .intro-box h2 {
+      margin-bottom: 11px;
+      font-size: 1.05rem;
+    }
+
+    .intro-box p {
+      color: #d8e2ed;
+      font-size: .86rem;
+    }
+
+
+    /* =========================================================
+       IN EVIDENZA
+    ========================================================= */
+
+    .featured-section {
+      padding: 62px 0 66px;
+      background: #f7f9fc;
+    }
+
+    .section-heading {
+      display: grid;
+      grid-template-columns: 62px minmax(0,1fr);
+      gap: 18px;
+      align-items: center;
+      margin-bottom: 12px;
+    }
+
+    .section-number {
+      width: 52px;
+      height: 52px;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      background: #2864d7;
+      color: #ffffff;
+      font-size: .82rem;
+      font-weight: 700;
+    }
+
+    .section-heading h2 {
+      color: #102342;
+      font-size: clamp(1.45rem,2.4vw,1.95rem);
+      line-height: 1.2;
+    }
+
+    .section-description {
+      max-width: 850px;
+      margin: 0 0 30px 80px;
+      color: #58687a;
+      font-size: .92rem;
+    }
+
+    .featured-card {
+      display: grid;
+      grid-template-columns: 1.12fr .88fr;
+      min-height: 390px;
+      overflow: hidden;
+      background: #ffffff;
+      border: 1px solid #dce4ed;
+      border-radius: 9px;
+      box-shadow:
+        0 6px 20px rgba(18,39,67,.06);
+    }
+
+    .featured-image {
+      min-height: 390px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 30px;
+      background:
+        linear-gradient(
+          145deg,
+          #17365f,
+          #07182d
+        );
+      color: #dce8f5;
+      text-align: center;
+      font-weight: 700;
+      letter-spacing: .03em;
+    }
+
+    .featured-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 38px 40px;
+    }
+
+    .news-category {
+      margin-bottom: 7px;
+      color: #2864d7;
+      font-size: .72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .06em;
+    }
+
+    .news-date {
+      margin-bottom: 13px;
+      color: #8996a5;
+      font-size: .76rem;
+    }
+
+    .featured-content h3 {
+      margin-bottom: 15px;
+      color: #17365f;
+      font-size: clamp(1.45rem,2.4vw,2rem);
+      line-height: 1.25;
+    }
+
+    .featured-content p {
+      margin-bottom: 16px;
+      color: #5e6d7f;
+      font-size: .92rem;
+    }
+
+    .why-relevant {
+      margin-bottom: 20px;
+      padding-left: 15px;
+      border-left: 3px solid #d5a821;
+      color: #536477;
+      font-size: .84rem;
+    }
+
+    .news-open {
+      align-self: flex-start;
+      border: 0;
+      padding: 0;
+      background: transparent;
+      color: #2864d7;
+      font-size: .82rem;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+
+    /* =========================================================
+       NOTIZIE RECENTI
+    ========================================================= */
+
+    .recent-section {
+      padding: 62px 0 70px;
+      background: #ffffff;
+      border-top: 1px solid #e0e7ee;
+      border-bottom: 1px solid #e0e7ee;
+    }
+
+    .news-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 22px;
+    }
+
+    .news-card {
+      overflow: hidden;
+      background: #ffffff;
+      border: 1px solid #dce4ed;
+      border-radius: 8px;
+      box-shadow:
+        0 5px 16px rgba(18,39,67,.05);
+    }
+
+    .news-image {
+      height: 185px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      background:
+        linear-gradient(
+          145deg,
+          #18395f,
+          #0a1d32
+        );
+      color: #dce8f5;
+      text-align: center;
+      font-size: .76rem;
+      font-weight: 700;
+    }
+
+    .news-card-content {
+      padding: 22px 22px 23px;
+    }
+
+    .news-card h3 {
+      margin-bottom: 9px;
+      color: #17365f;
+      font-size: 1.05rem;
+      line-height: 1.35;
+    }
+
+    .news-card p {
+      margin-bottom: 13px;
+      color: #657486;
+      font-size: .82rem;
+      line-height: 1.55;
+    }
+
+    .news-card .why-relevant {
+      margin-bottom: 15px;
+      font-size: .77rem;
+    }
+
+
+    /* =========================================================
+       ARCHIVIO
+    ========================================================= */
+
+    .archive-section {
+      padding: 58px 0 66px;
+      background: #f1f5f9;
+    }
+
+    .archive-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+      margin-top: 28px;
+    }
+
+    .archive-item {
+      padding: 19px 21px;
+      background: #ffffff;
+      border: 1px solid #dbe4ec;
+      border-radius: 7px;
+    }
+
+    .archive-item strong {
+      display: block;
+      margin-bottom: 4px;
+      color: #17365f;
+      font-size: .9rem;
+    }
+
+    .archive-item span {
+      color: #6d7b8c;
+      font-size: .76rem;
+    }
+
+
+    /* =========================================================
+       MODALE NOTIZIE
+    ========================================================= */
+
+    .news-modal {
+      position: fixed;
+      inset: 0;
+      z-index: 3000;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 26px;
+      background: rgba(3,12,24,.79);
+    }
+
+    .news-modal.is-open {
+      display: flex;
+    }
+
+    .news-modal-window {
+      position: relative;
+      width: min(760px, 96%);
+      max-height: 90vh;
+      overflow-y: auto;
+      padding: 37px 40px 40px;
+      border-radius: 10px;
+      background: #ffffff;
+      color: #102342;
+      box-shadow:
+        0 24px 70px rgba(0,0,0,.38);
+    }
+
+    .modal-close {
+      position: absolute;
+      top: 13px;
+      right: 17px;
+      width: 38px;
+      height: 38px;
+      display: grid;
+      place-items: center;
+      border: 0;
+      background: transparent;
+      color: #526174;
+      font-size: 1.8rem;
+      line-height: 1;
+      cursor: pointer;
+    }
+
+    .modal-close:hover {
+      color: #102342;
+    }
+
+    .modal-category {
+      margin-bottom: 5px;
+      color: #2864d7;
+      font-size: .7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .06em;
+    }
+
+    .modal-date {
+      margin-bottom: 12px;
+      color: #8793a2;
+      font-size: .76rem;
+    }
+
+    .modal-title {
+      margin-bottom: 17px;
+      padding-right: 32px;
+      color: #17365f;
+      font-size: 1.55rem;
+      line-height: 1.25;
+    }
+
+    .modal-content {
+      color: #516173;
+      font-size: .91rem;
+      line-height: 1.72;
+    }
+
+    .modal-content p {
+      margin-bottom: 15px;
+    }
+
+    .modal-content h3 {
+      margin: 22px 0 8px;
+      color: #17365f;
+      font-size: .98rem;
+    }
+
+    .source-list {
+      margin-top: 10px;
+      list-style: none;
+    }
+
+    .source-list li {
+      margin-bottom: 8px;
+    }
+
+    .source-list a {
+      color: #2864d7;
+      font-size: .82rem;
+      font-weight: 700;
+    }
+
+
+    /* =========================================================
+       FOOTER
+    ========================================================= */
+
+    .site-footer {
+      position:relative;
+      width:100%;
+      height:clamp(300px,19.8vw,405px);
+      overflow:hidden;
+      background:#041529;
+    }
+
+    .bottom-banner-image {
+      width:100%;
+      height:100%;
+      object-fit:cover;
+      object-position:top center;
+      display:block;
+    }
+
+    .footer-navigation {
+      position:absolute;
+      top:47%;
+      right:3%;
+      transform:translateY(-50%);
+      width:53%;
+      display:grid;
+      grid-template-columns:repeat(4,1fr);
+      gap:18px;
+      color:#fff;
+    }
+
+    .footer-column h3 {
+      margin-bottom:10px;
+      color:#fff;
+      font-size:.82rem;
+    }
+
+    .footer-column ul {
+      list-style:none;
+    }
+
+    .footer-column li {
+      margin-bottom:6px;
+    }
+
+    .footer-column a {
+      color:#bcc8d5;
+      font-size:.72rem;
+      transition:color .2s ease;
+    }
+
+    .footer-column a:hover {
+      color:#5eb5ff;
+    }
+
+    .footer-facebook {
+      width:38px;
+      height:38px;
+      display:grid;
+      place-items:center;
+      border-radius:50%;
+      background:#1877f2;
+      color:#fff;
+      font-size:1.25rem;
+      font-weight:700;
+      font-family:Arial,sans-serif;
+    }
+
+
+    /* =========================================================
+       RESPONSIVE
+    ========================================================= */
+
+    @media (max-width: 1100px) {
+
+      .main-navigation ul {
+        justify-content:flex-start;
+        overflow-x:auto;
+      }
+
+      .news-grid {
+        grid-template-columns: repeat(2,1fr);
+      }
+
+      .archive-grid {
+        grid-template-columns: repeat(2,1fr);
+      }
+
+      .footer-navigation {
+        width:55%;
+        right:2%;
+        gap:12px;
+      }
+
+    }
+
+
+    @media (max-width: 850px) {
+
+      .top-banner {
+        height:clamp(210px,29vw,250px);
+      }
+
+      .banner-section-title {
+        left:54%;
+        max-width:43%;
+      }
+
+      .intro-grid {
+        grid-template-columns:1fr;
+        gap:28px;
+      }
+
+      .featured-card {
+        grid-template-columns:1fr;
+      }
+
+      .featured-image {
+        min-height:250px;
+      }
+
+      .site-footer {
+        height:auto;
+      }
+
+      .bottom-banner-image {
+        width:100%;
+        height:auto;
+        object-fit:initial;
+      }
+
+      .footer-navigation {
+        position:static;
+        width:100%;
+        transform:none;
+        grid-template-columns:repeat(2,1fr);
+        padding:30px 5%;
+        background:#041529;
+      }
+
+    }
+
+
+    @media (max-width: 650px) {
+
+      .top-banner {
+        height:auto;
+      }
+
+      .top-banner-image {
+        width:100%;
+        height:auto;
+        object-fit:initial;
+      }
+
+      .banner-section-title {
+        position:static;
+        transform:none;
+        max-width:none;
+        padding:18px 5%;
+        background:#07182d;
+      }
+
+      .banner-section-title h1 {
+        font-size:1.35rem;
+      }
+
+      .main-navigation ul {
+        justify-content:flex-start;
+        flex-wrap:nowrap;
+        overflow-x:auto;
+        padding:0 4%;
+      }
+
+      .section-heading {
+        grid-template-columns:48px 1fr;
+        gap:13px;
+      }
+
+      .section-number {
+        width:44px;
+        height:44px;
+      }
+
+      .section-description {
+        margin-left:61px;
+      }
+
+      .news-grid {
+        grid-template-columns:1fr;
+      }
+
+      .archive-grid {
+        grid-template-columns:1fr;
+      }
+
+      .featured-content {
+        padding:28px 24px;
+      }
+
+      .news-modal {
+        padding:14px;
+      }
+
+      .news-modal-window {
+        padding:32px 23px 30px;
+      }
+
+      .modal-title {
+        font-size:1.32rem;
+      }
+
+      .footer-navigation {
+        grid-template-columns:1fr;
+      }
+
+    }
+
+
+    /* Fotografia e contenuti nel riquadro introduttivo. */
+    .intro-box {
+      position: relative;
+      isolation: isolate;
+      background: url("notizie-selezione-scientifica.png") center / cover no-repeat;
+    }
+    .intro-box::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      border-radius: inherit;
+      background: linear-gradient(rgba(6, 16, 28, 0.76), rgba(6, 16, 28, 0.86));
+      opacity: 1;
+      pointer-events: none;
+      z-index: -1;
+      transition: opacity 0.25s ease;
+    }
+    .intro-box > * {
+      transition: opacity 0.25s ease;
+    }
+    @media (hover: hover) and (pointer: fine) {
+      .intro-box::before,
+      .intro-box > * { opacity: 0; }
+      .intro-box:hover::before,
+      .intro-box:hover > *,
+      .intro-box:focus-within::before,
+      .intro-box:focus-within > * { opacity: 1; }
+    }
+
+
+    /* Banner inferiore comune: titoli leggibili, con margine superiore regolare. */
+    .site-footer{position:relative;width:100%;height:clamp(350px,22vw,510px);min-height:350px;overflow:hidden;background:#041529}
+    .site-footer .bottom-banner-image{display:block;width:100%;height:100%;object-fit:contain;object-position:left center}
+    .site-footer .footer-navigation{position:absolute;top:36px;right:3%;transform:none;width:53%;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;padding:0;background:transparent;color:#fff;align-items:start}
+    .site-footer .footer-column{min-width:0}
+    .site-footer .footer-column h3{margin:0 0 14px;color:#fff;font-size:.82rem;font-weight:700;line-height:1.4}
+    .site-footer .footer-column ul{list-style:none;margin:0;padding:0}
+    .site-footer .footer-column li{margin:0 0 7px;font-size:.76rem;line-height:1.5}
+    .site-footer .footer-column a{color:#bcc8d5;font-size:.76rem;line-height:1.5;text-decoration:none;transition:color .2s ease}
+    .site-footer .footer-column a:hover{color:#5eb5ff}
+    .site-footer .footer-column .footer-facebook{position:static;transform:none;margin:0;width:38px;height:38px;display:grid;place-items:center;border-radius:50%;background:#1877f2;color:#fff;font-size:1.25rem;font-weight:700;font-family:Arial,sans-serif}
+    @media(max-width:1100px) and (min-width:901px){.site-footer .footer-navigation{top:32px;right:2%;width:55%;gap:12px}.site-footer .footer-column h3{font-size:.75rem}.site-footer .footer-column a{font-size:.69rem}}
+    @media(max-width:900px){.site-footer{height:auto;min-height:0;overflow:visible}.site-footer .bottom-banner-image{width:100%;height:auto;object-fit:initial}.site-footer .footer-navigation{position:static;top:auto;right:auto;transform:none;width:100%;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 22px;padding:32px 5%;background:#041529}.site-footer .footer-column h3{font-size:.85rem}.site-footer .footer-column a{font-size:.8rem}}
+    @media(max-width:520px){.site-footer .footer-navigation{grid-template-columns:1fr;gap:26px;padding:30px 7%}}
+
+  </style>
+
+<link rel="stylesheet" href="assets/menu-persistente.css?v=20261124">
+  <link rel="stylesheet" href="assets/banner-comuni.css">
+<link rel="stylesheet" href="assets/rimandi-editoriali.css">
+<link rel="stylesheet" href="assets/footer-comune.css?v=20261119">
+<link rel="stylesheet" href="assets/galatea/galatea.css?v=20261124">
+<link rel="stylesheet" href="assets/provino-notizia-20261124-v3.css"><link rel="stylesheet" href="assets/notizie-2026/bozze.css"><link rel="stylesheet" href="assets/notizie-2026/gallerie.css"><script defer src="assets/notizie-2026/gallerie.js"></script><link rel="stylesheet" href="assets/notizie-2026/pagina-notizie.css"><link rel="stylesheet" href="assets/notizie-2026/presentazione-editoriale.css"><meta name="author" content="Redazione AD ASTRA"><meta name="ad-astra-content-type" content="notizia"><meta name="ad-astra-editorial-status" content="approved"></head>
+
+
+<body>
+
+
+  <!-- =====================================================
+       BANNER SUPERIORE
+  ====================================================== -->
+
+  <header class="top-banner banner-nebulosa">
+
+    <div class="sky"><img src="provini-testata-stellare/nebulosa-estesa.jpg" alt=""></div>
+    <img class="logo-originale logo-raggi" src="provini-testata-stellare/logo-fornito.png" alt="">
+    <img class="logo-originale logo-interno" src="provini-testata-stellare/logo-fornito.png" alt="">
+    <img class="wordmark" src="banner.png" alt="">
+    <span class="rule" aria-hidden="true"></span>
+
+    <div class="banner-section-title">
+
+      <div class="np-masthead-title">NOTIZIE</div>
+
+      <p>
+        Una selezione ragionata dal mondo dell'astronomia e della ricerca
+      </p>
+
+    </div>
+
+  </header>
+
+
+
+  <!-- =====================================================
+       MENU PRINCIPALE
+  ====================================================== -->
+
+  <nav
+    class="main-navigation"
+    aria-label="Navigazione principale"
+  >
+
+    <ul>
+
+      <li>
+        <a href="index.html">
+          HOME
+        </a>
+      </li>
+
+      <li>
+        <a href="scuola-astronomia.html">
+          SCUOLA DI ASTRONOMIA
+        </a>
+      </li>
+
+      <li>
+        <a href="guide.html">
+          GUIDE
+        </a>
+      </li>
+
+      <li>
+        <a href="strumentazione.html">
+          STRUMENTAZIONE
+        </a>
+      </li>
+
+      <li>
+        <a href="astrofotografia.html">
+          ASTROFOTOGRAFIA
+        </a>
+      </li>
+
+      <li>
+        <a href="poster.html">
+          POSTER
+        </a>
+      </li>
+
+      <li>
+        <a href="cielo-del-mese.html">
+          IL CIELO DEL MESE
+        </a>
+      </li>
+
+      <li>
+        <a href="effemeridi.html">
+          EFFEMERIDI
+        </a>
+      </li>
+
+      <li>
+        <a href="software.html">
+          SOFTWARE
+        </a>
+      </li>
+
+      <li>
+        <a href="biblioteca.html">
+          BIBLIOTECA
+        </a>
+      </li>
+
+      <li>
+        <a href="pubblicazioni-ad-astra.html">
+          PUBBLICAZIONI
+        </a>
+      </li>
+
+      <li>
+        <a
+          class="active"
+          href="notizie.html"
+        >
+          NOTIZIE
+        </a>
+      </li>
+
+      <li>
+        <a href="ventunesimo.html">
+          MAGAZINE
+        </a>
+      </li>
+
+    </ul>
+
+  </nav>
+
+
+
+
+<main class="news-article-preview" id="contenuto" style="--draft-image:url('assets/notizie-2026/N26-09-reale.jpg')">
+ 
+ <nav class="np-breadcrumb" aria-label="Percorso"><a href="notizie.html">Tutte le notizie</a><span>/</span><a class="news-month-return" href="notizie.html#mese-3">Marzo 2026</a></nav>
+ <article aria-labelledby="np-title"><header class="np-heading"><p class="np-eyebrow">Astrofisica</p><h1 id="np-title">Una probabile fusione di stelle di neutroni dentro i resti di un incontro galattico</h1><div class="np-meta"><span class="np-byline">Redazione AD ASTRA</span><span>4 minuti di lettura</span><span>Comunicato · 10 marzo 2026</span></div></header>
+ <div class="np-news-opening"><div class="np-opening-copy"><p class="np-deck">Il luogo di GRB 230906A suggerisce una storia che unisce interazioni fra galassie, nascita stellare e produzione di elementi pesanti.</p><p class="np-opening">Il lampo è durato meno di un secondo, ma ricostruirne l’ambiente ha richiesto anni e più telescopi. GRB 230906A è stato osservato il 6 settembre 2023; la notizia del 10 marzo 2026 riguarda l’interpretazione del suo luogo d’origine. Secondo lo studio, una probabile fusione di stelle di neutroni sarebbe avvenuta in una galassia minuscola associata a una lunga struttura mareale, lasciata da precedenti interazioni fra galassie.</p><div class="np-opening-card"><p class="np-label">LA NOTIZIA IN BREVE</p><ul><li>L’evento gamma risale al 2023, lo studio è presentato nel marzo 2026.</li><li>Chandra ha ristretto la posizione; Hubble ha rivelato una sorgente molto debole.</li><li>L’associazione con una piccola galassia nella coda mareale resta un’interpretazione supportata, non unica.</li></ul><a href="#che-cosa">Leggi il risultato</a></div></div>
+ <div class="article-gallery" role="region" aria-roledescription="carosello" aria-label="Tre immagini della notizia"><p class="gallery-heading">La notizia in tre immagini</p><figure class="gallery-slide"><div class="gallery-image"><img src="assets/notizie-2026/N26-09-reale.jpg" alt="GRB 230906A e ambiente osservato: composito di dati X Chandra in blu e infrarossi Hubble in rosso, in falsi colori. Immagine osservativa separata dalle ricostruzioni artistiche del comunicato; dati relativi all’evento 2023, rilascio 10 marzo 2026."><button type="button" data-enlarge aria-label="Ingrandisci: Immagine autentica">Ingrandisci ⤢</button></div><figcaption><strong>1 · Immagine autentica</strong>GRB 230906A e ambiente osservato: composito di dati X Chandra in blu e infrarossi Hubble in rosso, in falsi colori. Immagine osservativa separata dalle ricostruzioni artistiche del comunicato; dati relativi all’evento 2023, rilascio 10 marzo 2026.<span>X-ray: NASA/CXC/Penn State Univ./S. Dichiara; IR: NASA/ESA/STScI; Image Processing: NASA/CXC/SAO/P. Edmonds · <a href="https://chandra.si.edu/photo/2026/nsmerger/" target="_blank" rel="noopener">Fonte e crediti</a> · <a href="https://chandra.si.edu/photo/image_use.html" target="_blank" rel="noopener">Condizioni d’uso</a></span></figcaption></figure><figure class="gallery-slide" hidden><div class="gallery-image"><img src="assets/notizie-2026/N26-09-evocativa-v1.png" alt="Interpretazione illustrativa del tema: non è una fotografia, una misura o una ricostruzione quantitativa del risultato." loading="lazy"><button type="button" data-enlarge aria-label="Ingrandisci: Illustrazione evocativa">Ingrandisci ⤢</button></div><figcaption><strong>2 · Illustrazione evocativa</strong>Interpretazione illustrativa del tema: non è una fotografia, una misura o una ricostruzione quantitativa del risultato.<span>Illustrazione generata con IA per AD ASTRA.</span></figcaption></figure><figure class="gallery-slide" hidden><div class="gallery-image"><img src="assets/notizie-2026/N26-09-infografica.svg" alt="Posizione X e debole sorgente infrarossa · Fermi, Swift, Chandra, Hubble e spettroscopia · Possibile fusione compatta in una struttura mareale · Associazione ambientale favorita ma non esclusiva" loading="lazy"><button type="button" data-enlarge aria-label="Ingrandisci: Il risultato spiegato">Ingrandisci ⤢</button></div><figcaption><strong>3 · Il risultato spiegato</strong>Posizione X e debole sorgente infrarossa · Fermi, Swift, Chandra, Hubble e spettroscopia · Possibile fusione compatta in una struttura mareale · Associazione ambientale favorita ma non esclusiva<span>Schema originale AD ASTRA; passaggi concettuali, senza scale quantitative.</span></figcaption></figure><div class="gallery-controls"><button type="button" data-prev aria-label="Immagine precedente">←</button><span class="gallery-counter" role="status" aria-live="polite">1 / 3</span><button type="button" data-next aria-label="Immagine successiva">→</button></div><div class="gallery-tabs" aria-label="Scegli immagine"><button type="button" data-slide="0" aria-pressed="true">1 · Autentica</button><button type="button" data-slide="1" aria-pressed="false">2 · Evocativa</button><button type="button" data-slide="2" aria-pressed="false">3 · Spiegazione</button></div></div></div>
+ <div class="np-reading-layout"><aside class="np-toc np-context"><section><p class="np-label">ORIENTATI NELL’ARTICOLO</p><a href="#che-cosa">La posizione cambia la domanda</a><a href="#come">Inseguire un lampo con strumenti differenti</a><a href="#significato">Gli elementi pesanti possono nascere anche in periferia</a><a href="#limiti">Una galassia di sfondo resta un’alternativa</a><a href="#fonti-articolo">Fonti e approfondimenti</a></section><section class="np-context-source"><p class="np-label">LA FONTE DI PARTENZA</p><strong>NASA, comunicato del 10 marzo</strong><p>Evento del 6 settembre 2023; annuncio dello studio nel 2026.</p><a href="https://www.nasa.gov/missions/chandra/nasa-discovers-crash-of-extreme-stars-in-unexpected-site/" target="_blank" rel="noopener">Consulta la fonte</a></section><section><p class="np-label">COLLEGA I CONCETTI</p><a href="glossario.html#stella-di-neutroni">Stella di neutroni</a><a href="glossario.html#lampo-gamma">Lampo gamma</a><a href="biblioteca-online.html?q=lampo+gamma+stella+di+neutroni+nucleosintesi#catalogo">Ricerca nella Biblioteca Federata</a></section><section class="news-month-related" aria-label="Altre notizie di marzo"><p class="np-label">ALTRE NOTIZIE DI MARZO</p><a class="news-month-link" href="notizia-2026-10.html"><img src="assets/notizie-2026/N26-10-evocativa-v1.png" alt="" loading="lazy" decoding="async" width="46" height="46"><span>Hubble sorprende la cometa K1 mentre si separa in più frammenti</span></a><a class="news-month-link" href="notizia-2026-11.html"><img src="assets/notizie-2026/N26-11-evocativa-v1.png" alt="" loading="lazy" decoding="async" width="46" height="46"><span>Il Granchio cambia forma: venticinque anni di espansione visti da Hubble</span></a><a class="news-month-link" href="notizia-2026-12.html"><img src="assets/notizie-2026/N26-12-evocativa-v1.png" alt="" loading="lazy" decoding="async" width="46" height="46"><span>Due pianeti prendono forma nel disco di WISPIT 2</span></a><a class="news-month-return" href="notizie.html#mese-3">Tutte le notizie di marzo →</a></section></aside>
+ <div class="np-body"><section id="che-cosa"><h2><span class="np-section-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="10" cy="10" r="6"/><path d="m15 15 6 6"/></svg></span>La posizione cambia la domanda</h2><p>Un lampo gamma breve può essere associato alla fusione di oggetti compatti. La domanda non riguarda soltanto che cosa sia esploso, ma dove: l’ambiente conserva informazioni sulle stelle progenitrici e sulla storia che ha portato all’evento. Qui il quadro favorito collega la sorgente a materiale strappato durante un’interazione galattica, lontano da un grande centro luminoso.</p><p>Il lavoro distingue però ciò che si osserva dall’interpretazione della sequenza. Sono misurati il lampo, la posizione della controparte X e il chiarore di una possibile galassia ospite. La nascita di una coppia stellare e la successiva fusione non sono state filmate: vengono ricostruite confrontando i dati con scenari fisici.</p></section><section id="come"><h2><span class="np-section-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19h16M6 15V8m6 7V4m6 11v-5"/></svg></span>Inseguire un lampo con strumenti differenti</h2><p>Fermi ha rivelato il segnale gamma. Le osservazioni successive, comprese quelle di Swift e Chandra, hanno aiutato a localizzare la sorgente, fino a delimitare una zona abbastanza piccola da cercare una controparte debole nelle immagini di Hubble. Questo ordine conta: una fotografia profonda di un’area troppo vasta contiene molte possibili associazioni.</p><p>La spettroscopia del gruppo di galassie fornisce un altro pezzo del confronto. Serve a stabilire se le strutture osservate possano appartenere allo stesso ambiente, mentre la geometria della coda suggerisce un’origine mareale. Una coda mareale nasce perché la gravità differenziale ridistribuisce stelle e gas durante un incontro: non è un getto sparato dal buco nero centrale.</p><p>Per comprendere perché la localizzazione sia decisiva, immaginiamo più galassie dentro una zona d’incertezza. Anche una sorgente luminosa e vicina al centro potrebbe essere un’associazione casuale. Restringere quella zona diminuisce le alternative, ma la coincidenza sul cielo va ancora confrontata con distanze e probabilità di proiezione. La precisione astrometrica precede dunque la ricostruzione della storia stellare.</p></section><section id="significato"><h2><span class="np-section-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m7 12 3 3 7-7"/></svg></span>Gli elementi pesanti possono nascere anche in periferia</h2><p>Quando due stelle di neutroni si fondono, parte della materia espulsa può attraversare una rapida cattura di neutroni. Questo processo contribuisce alla formazione di elementi più pesanti del ferro. Il materiale deve poi mescolarsi con il gas perché una generazione successiva di stelle ne conservi traccia: produrre un elemento e ritrovarlo in una stella sono passaggi diversi.</p><p>Un evento in un ambiente periferico aiuta quindi a esplorare come avvenga l’arricchimento lontano dalle regioni più luminose. Offre anche una possibile spiegazione per alcuni lampi apparentemente privi di galassia ospite: la galassia potrebbe essere semplicemente troppo debole per le osservazioni disponibili, anziché essere davvero assente. Questo caso non stabilisce che tutti i lampi senza ospite visibile abbiano tale origine.</p><p>Anche la durata del lampo aiuta la classificazione senza risolvere ogni ambiguità. Breve descrive una proprietà misurata del segnale; fusione descrive un processo fisico dedotto. Tenere separati i due livelli permette di discutere le eccezioni e di aggiornare l’interpretazione quando emergono nuove controparti o informazioni sull’ambiente.</p></section><section id="limiti"><h2><span class="np-section-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3 10 18H2zM12 9v5m0 3v1"/></svg></span>Una galassia di sfondo resta un’alternativa</h2><p>Gli autori considerano anche una possibilità diversa: la sorgente debole potrebbe essere una galassia molto più lontana, proiettata casualmente sul gruppo. L’allineamento risulta poco probabile, ma una probabilità bassa non equivale all’impossibilità. Distinguere una vicinanza apparente da un’associazione fisica è un problema ricorrente quando si studiano oggetti debolissimi.</p><p>Non è inoltre una rilevazione diretta di oro, platino o onde gravitazionali attribuiti a questo singolo evento. Il legame con la fusione di stelle di neutroni e con l’arricchimento chimico nasce dal confronto con la fisica e con altri eventi. La notizia è importante proprio se mantiene questa catena di inferenze leggibile, senza trasformarla in una cronaca osservata passo per passo.</p></section><section class="np-terms" aria-labelledby="np-terms-title"><p class="np-eyebrow">PER CAPIRE MEGLIO</p><h2 id="np-terms-title"><span class="np-section-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5c-3-2-6-2-10-1v15c4-1 7-1 10 1 3-2 6-2 10-1V4c-4-1-7-1-10 1zm0 0v15"/></svg></span>Le parole della notizia</h2><details><summary>Stella di neutroni<span>Apri la spiegazione</span></summary><p>Resto stellare estremamente compatto nel quale una massa paragonabile a quella del Sole è concentrata in poche decine di chilometri.</p><a href="glossario.html#stella-di-neutroni">Leggi la voce del Glossario</a></details><details><summary>Lampo gamma<span>Apri la spiegazione</span></summary><p>Breve emissione molto energetica di raggi gamma, associata a differenti fenomeni catastrofici a seconda delle sue caratteristiche.</p><a href="glossario.html#lampo-gamma">Leggi la voce del Glossario</a></details></section><section id="fonti-articolo" class="np-sources"><p class="np-eyebrow">RISALI ALL’ORIGINE</p><h2><span class="np-section-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5c-3-2-6-2-10-1v15c4-1 7-1 10 1 3-2 6-2 10-1V4c-4-1-7-1-10 1zm0 0v15"/></svg></span>Fonti e approfondimenti</h2><p>Il comunicato presenta il risultato al pubblico. Il lavoro scientifico e la sua cronologia sono indicati separatamente.</p><a class="np-source" href="https://www.nasa.gov/missions/chandra/nasa-discovers-crash-of-extreme-stars-in-unexpected-site/" target="_blank" rel="noopener noreferrer"><span class="np-source-type">COMUNICATO UFFICIALE</span><strong>NASA, comunicato del 10 marzo</strong><span>Evento del 6 settembre 2023; annuncio dello studio nel 2026.</span></a><a class="np-source" href="https://arxiv.org/abs/2510.15867" target="_blank" rel="noopener noreferrer"><span class="np-source-type">DOCUMENTO SCIENTIFICO E PROVENIENZA</span><strong>Dichiara et al., A merger within a merger</strong><span>Abstract e cronologia consultati: prima versione 17 ottobre 2025, revisione 4 marzo 2026; accettato su ApJ Letters.</span></a><a class="np-source" href="https://chandra.si.edu/photo/2026/nsmerger/" target="_blank" rel="noopener noreferrer"><span class="np-source-type">DOCUMENTO SCIENTIFICO E PROVENIENZA</span><strong>Chandra, scheda e dati dell’immagine</strong><span>Scheda istituzionale consultata; distingue esplicitamente composito osservativo e due ricostruzioni artistiche.</span></a><a class="np-source" href="biblioteca-online.html?q=lampo+gamma+stella+di+neutroni+nucleosintesi#catalogo"><span class="np-source-type">CONTINUA SU AD ASTRA</span><strong>Approfondisci nella Biblioteca Federata</strong><span>Una ricerca tematica fra i materiali disponibili.</span></a></section><div class="np-signoff"><span>Redazione AD ASTRA</span></div></div></div></article>
+ <section class="np-related"><p class="np-eyebrow">LA LETTURA CONTINUA</p><h2>Segui il filo della curiosità.</h2><div class="np-related-grid"><a href="biblioteca-online.html?q=lampo+gamma+stella+di+neutroni+nucleosintesi#catalogo"><span>BIBLIOTECA FEDERATA</span><strong>Dalla notizia alle fonti</strong><p>Documenti e materiali sul tema.</p></a><a href="lezione-10-3.html"><span>SCUOLA DI ASTRONOMIA</span><strong>Buchi neri e stelle di neutroni</strong><p>Ritrova i principi e i concetti della notizia.</p></a><a href="videoteca.html"><span>VIDEOTECA</span><strong>Esplora i video disponibili</strong><p>Video e percorsi per approfondire i concetti dell’articolo.</p></a></div></section>
+ <nav class="np-bottom" aria-label="Navigazione degli articoli"><a class="news-month-return" href="notizie.html#mese-3">Torna alle notizie di marzo</a><a href="notizia-2026-10.html">Articolo successivo</a></nav></main>
+  <footer id="footer-ad-astra" class="site-footer banner-eclissi footer-revised">
+
+    <div class="footer-sky" aria-hidden="true"><img src="provini-testata-stellare/eclissi-footer.jpg" alt=""></div>
+  <div class="footer-brand">
+    <a class="footer-signature footer-home-link" href="index.html" aria-label="RITORNA ALLA HOME">
+      <img class="footer-rays" src="provini-testata-stellare/logo-fornito.png" alt="">
+      <img class="footer-emblem" src="provini-testata-stellare/logo-fornito.png" alt="">
+      <img class="footer-name" src="banner.png" alt="">
+    <span class="footer-home-tooltip" aria-hidden="true">RITORNA<br>ALLA<br>HOME</span>
+    </a>
+    <p>Astronomia, osservazione del cielo, astrofotografia e divulgazione scientifica.</p>
+  </div>
+
+
+    <nav class="footer-navigation" aria-label="Navigazione e contatti AD ASTRA"><section class="footer-column"><h3>Scuola di Astronomia</h3><ul><li><a href="scuola-astronomia.html">Scuola di Astronomia</a></li><li><a href="lezioni.html">Lezioni</a></li><li><a href="area-10.html">Approfondimenti</a></li><li><a href="laboratorio.html">Laboratorio</a></li><li><a href="quiz-astronomia.html">Quiz di astronomia</a></li><li><a href="glossario.html">Glossario scientifico</a></li></ul></section><section class="footer-column"><h3>Esplora</h3><ul><li><a href="index.html">Home</a></li><li><a href="guide.html">Guide</a></li><li><a href="strumentazione.html">Strumentazione</a></li><li><a href="astrofotografia.html">Astrofotografia</a></li><li><a href="cielo-del-mese.html">Il Cielo del Mese</a></li><li><a href="effemeridi.html">Effemeridi</a></li></ul></section><section class="footer-column"><h3>Risorse e letture</h3><ul><li><a href="biblioteca.html">Biblioteca</a></li><li><a href="poster.html">Poster</a></li><li><a href="pubblicazioni-ad-astra.html">Pubblicazioni</a></li><li><a href="ventunesimo.html">Magazine</a></li><li><a href="notizie.html">Notizie</a></li><li><a href="software.html">Software</a></li></ul></section><section class="footer-column footer-connections"><h3>Contatti e collaborazioni</h3><ul>
+<li><a href="chi-cura-ad-astra.html">Chi cura AD ASTRA</a></li>
+<li><a href="contatti.html">Contatti</a></li>
+<li><a class="facebook-group-link" href="https://www.facebook.com/groups/881040268371551?locale=it_IT" target="_blank" rel="noopener noreferrer"><span class="facebook-mini" aria-hidden="true">f</span>Gruppo Facebook</a></li>
+</ul><h4 class="footer-journals-label">RIVISTE IN COLLABORAZIONE</h4><ul class="footer-journals">
+<li><a href="https://www.urania-rivista.com/" target="_blank" rel="noopener noreferrer">Urania</a></li>
+<li><a href="https://www.adaa.it/spazio-magazine/" target="_blank" rel="noopener noreferrer">Spazio Magazine</a><small>Rubrica da gennaio 2027</small></li>
+<li><a href="https://www.uai.it/sito/la-rivista-astronomia-uai/" target="_blank" rel="noopener noreferrer">Astronomia <span class="journal-owner">· UAI</span></a><small>Rubrica da gennaio 2027</small></li>
+</ul></section></nav>
+</footer><script defer src="assets/menu-persistente.js?v=20261124"></script><script defer src="assets/scuola-attiva/glossario-dati.js"></script><script defer src="assets/notizie-2026/rimandi-bozze.js"></script><script defer src="assets/galatea/galatea.js?v=20261124"></script></body></html>

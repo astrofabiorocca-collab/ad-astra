@@ -1,0 +1,20 @@
+/* Foto a tutta superficie; originale integro disponibile nell'ingrandimento.
+   Le infografiche conservano proporzioni e contenuto, senza tagli. */
+.gallery-image{overflow:hidden;background:#eaf1f7}
+.gallery-image img{object-fit:cover!important;object-position:center}
+.gallery-slide:last-of-type .gallery-image{aspect-ratio:auto}
+.gallery-slide:last-of-type .gallery-image img{height:auto!important;object-fit:contain!important}
+.np-news-opening .np-main-image>a{display:block;aspect-ratio:3/2;overflow:hidden;background:#eaf1f7}
+.np-news-opening .np-main-image img{display:block;width:100%;height:100%;max-height:none;object-fit:cover}
+.cards img,.edition-photo img,.edition-hero img{object-fit:cover!important}
+.np-signoff{padding-block:20px}
+.edition-month .archive-news-link{display:grid;grid-template-columns:64px minmax(0,1fr);align-items:center;gap:14px;text-decoration:none;min-height:52px}
+.archive-news-link>span{text-decoration:underline;text-underline-offset:.17em}
+.edition-month .archive-news-icon{display:block;width:64px;height:52px;object-fit:cover;border-radius:7px;border:1px solid #c6d5e3;background:#102c46}
+.edition-month li>span{margin-left:78px}
+@media(max-width:520px){.edition-month .archive-news-link{grid-template-columns:48px minmax(0,1fr);gap:12px}.edition-month .archive-news-icon{width:48px;height:48px}.edition-month li>span{margin-left:60px}}
+.edition-month{scroll-margin-top:calc(var(--site-menu-height,60px) + 20px)}
+.np-context .news-month-link{display:grid;grid-template-columns:46px minmax(0,1fr);gap:10px;align-items:center;padding-block:12px;font-size:13px;line-height:1.55}
+.news-month-link img{display:block;width:46px;height:46px;object-fit:cover;border-radius:8px;border:1px solid #c6d5e3}
+.np-context .news-month-return{display:block;font-weight:700;padding-top:15px;color:#155c9b}
+.np-breadcrumb .news-month-return{font-weight:700}

@@ -31,6 +31,12 @@ class Pages(HTMLParser):
   for i in range(len(self.stack)-1,-1,-1):
    if self.stack[i][0]==tag:self.stack=self.stack[:i];break
 files=[name for name in subprocess.check_output(['git','ls-files','*.html'],cwd=ROOT,text=True).splitlines() if not Path(name).name.startswith('provino-')]
+# Include nuove notizie approvate nell'anteprima prima del commit, senza indicizzare
+# bozze private o file temporanei. In produzione sono già file versionati.
+for candidate in sorted(ROOT.glob('notizia-*.html')):
+ if candidate.name not in files:
+  probe=Pages();probe.feed(candidate.read_text(encoding='utf-8-sig'))
+  if probe.metadata.get('ad-astra-editorial-status')=='approved':files.append(candidate.name)
 rows=[];article_sources=set();excluded_articles=0
 for name in files:
  if name in ['glossario.html','poster-imparare-il-cielo.html','poster-universo.html','poster-sistema-solare.html','poster-strumenti.html']:continue

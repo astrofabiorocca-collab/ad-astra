@@ -2184,6 +2184,33 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "amplitudine-ortiva-e-occasa",
+    "name": "Amplitudine ortiva e occasa",
+    "definition": "Distanza angolare lungo l’orizzonte fra il punto in cui un astro sorge e l’est, oppure fra il punto in cui tramonta e l’ovest.",
+    "source": "https://www.gruppom1.it/wp-content/uploads/2012/04/mtm_terminiastronomici.pdf#page=1",
+    "lesson": "lezione-1-5.html",
+    "aliases": [
+      "amplitudine ortiva",
+      "amplitudine occasa"
+    ],
+    "related": [],
+    "sections": [
+      {
+        "title": "Come si interpreta",
+        "paragraphs": [
+          "Ortiva si riferisce al sorgere, occasa al tramonto. Il valore dipende dalla declinazione dell’astro e dalla latitudine dell’osservatore. Per il Sole, su un orizzonte ideale, il sorgere e il tramonto avvengono circa a est e a ovest agli equinozi."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "Michele T. Mazzucato · PDF p. 1",
+        "url": "https://www.gruppom1.it/wp-content/uploads/2012/04/mtm_terminiastronomici.pdf#page=1"
+      }
+    ],
+    "checked": "2026-11-17"
+  },
+  {
     "id": "anello-planetario",
     "name": "Anello planetario",
     "definition": "Un anello planetario è un insieme di particelle che orbitano attorno a un pianeta, non una lastra solida fissata al suo equatore.",
@@ -2463,6 +2490,58 @@ window.AdAstraGlossary = [
         "url": "https://home.cern/science/physics/antimatter"
       }
     ]
+  },
+  {
+    "id": "anno-anomalistico",
+    "name": "Anno anomalistico",
+    "definition": "Intervallo medio fra due passaggi consecutivi della Terra al perielio, pari a circa 365,26 giorni.",
+    "source": "https://www.gruppom1.it/wp-content/uploads/2012/04/mtm_terminiastronomici.pdf#page=1",
+    "lesson": "lezione-3-6.html",
+    "aliases": [],
+    "related": [],
+    "sections": [
+      {
+        "title": "Come si interpreta",
+        "paragraphs": [
+          "La direzione del perielio cambia lentamente. Per questo il ritorno al perielio richiede un tempo leggermente diverso dal ritorno alla stessa direzione rispetto alle stelle lontane, che definisce l’anno siderale."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "Michele T. Mazzucato · PDF p. 1",
+        "url": "https://www.gruppom1.it/wp-content/uploads/2012/04/mtm_terminiastronomici.pdf#page=1"
+      },
+      {
+        "title": "INAF Torino · PDF p. 60",
+        "url": "https://www.oato.inaf.it/biblioteca/pdf/TechRep078_Lattanzi.pdf#page=60"
+      }
+    ],
+    "checked": "2026-11-17"
+  },
+  {
+    "id": "anno-draconico",
+    "name": "Anno draconico",
+    "definition": "Intervallo medio fra due passaggi del Sole apparente per lo stesso nodo dell’orbita lunare, circa 346,62 giorni.",
+    "source": "https://www.gruppom1.it/wp-content/uploads/2012/04/mtm_terminiastronomici.pdf#page=1",
+    "lesson": "lezione-2-6.html",
+    "aliases": [],
+    "related": [],
+    "sections": [
+      {
+        "title": "Come si interpreta",
+        "paragraphs": [
+          "I nodi sono i punti in cui l’orbita lunare attraversa il piano dell’orbita terrestre. Le eclissi diventano possibili quando il Sole apparente è vicino a un nodo e la Luna è nella fase adatta. Il movimento dei nodi rende questo intervallo più breve di un anno civile."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "Michele T. Mazzucato · PDF p. 1",
+        "url": "https://www.gruppom1.it/wp-content/uploads/2012/04/mtm_terminiastronomici.pdf#page=1"
+      }
+    ],
+    "checked": "2026-11-17"
   },
   {
     "id": "anno-giuliano",
@@ -3018,6 +3097,30 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "arco-diurno",
+    "name": "Arco diurno",
+    "definition": "Parte della traiettoria apparente di un astro che si trova sopra l’orizzonte nel corso del suo moto diurno.",
+    "source": "https://www.gruppom1.it/wp-content/uploads/2012/04/mtm_terminiastronomici.pdf#page=2",
+    "lesson": "lezione-1-3.html",
+    "aliases": [],
+    "related": [],
+    "sections": [
+      {
+        "title": "Come si interpreta",
+        "paragraphs": [
+          "Per un astro che sorge e tramonta, l’arco è compreso fra questi due passaggi. Un astro circumpolare descrive invece l’intero percorso sopra l’orizzonte. La latitudine e la declinazione determinano quanto del percorso risulta sopra l’orizzonte geometrico."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "Michele T. Mazzucato · PDF p. 2",
+        "url": "https://www.gruppom1.it/wp-content/uploads/2012/04/mtm_terminiastronomici.pdf#page=2"
+      }
+    ],
+    "checked": "2026-11-17"
+  },
+  {
     "id": "argon",
     "name": "Argon",
     "definition": "L’argon, o argo, è il gas nobile di numero atomico 18 e simbolo Ar. Le sue abbondanze isotopiche sono utili nello studio dell’evoluzione delle atmosfere e della storia delle rocce.",
@@ -3192,6 +3295,86 @@ window.AdAstraGlossary = [
         "url": "https://www.treccani.it/enciclopedia/idrocarburi/"
       }
     ]
+  },
+  {
+    "id": "artemis",
+    "name": "Artemis",
+    "definition": "Programma NASA per l’esplorazione lunare con equipaggio, anche in preparazione di future missioni verso Marte.",
+    "source": "https://www.nasa.gov/humans-in-space/artemis/",
+    "lesson": "lezione-3-4.html",
+    "related": [
+      "apollo-11"
+    ],
+    "sections": [
+      {
+        "title": "Contesto storico",
+        "paragraphs": [
+          "Artemis I ha provato il lanciatore SLS e la capsula Orion senza equipaggio. Le missioni successive applicano questi collaudi al volo umano e alle attività lunari."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "NASA",
+        "url": "https://www.nasa.gov/humans-in-space/artemis/"
+      }
+    ],
+    "checked": "2026-11-17",
+    "aliases": [
+      "programma Artemis"
+    ]
+  },
+  {
+    "id": "artemis-i",
+    "name": "Artemis I",
+    "definition": "Volo di prova senza equipaggio che nel 2022 portò Orion attorno alla Luna.",
+    "source": "https://www.nasa.gov/mission/artemis-i/",
+    "lesson": "lezione-3-4.html",
+    "related": [
+      "apollo-11"
+    ],
+    "sections": [
+      {
+        "title": "Contesto storico",
+        "paragraphs": [
+          "La missione collaudò il lanciatore SLS, la navigazione nello spazio profondo e il rientro di Orion sulla Terra."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "NASA",
+        "url": "https://www.nasa.gov/mission/artemis-i/"
+      }
+    ],
+    "checked": "2026-11-17",
+    "aliases": []
+  },
+  {
+    "id": "artemis-ii",
+    "name": "Artemis II",
+    "definition": "Missione con equipaggio del programma Artemis dedicata al sorvolo della Luna.",
+    "source": "https://www.nasa.gov/mission/artemis-ii/",
+    "lesson": "lezione-3-4.html",
+    "related": [
+      "apollo-11"
+    ],
+    "sections": [
+      {
+        "title": "Contesto storico",
+        "paragraphs": [
+          "Il percorso attorno alla Luna permette di collaudare la capsula Orion con astronauti nello spazio profondo. È un passaggio preparatorio alle missioni di superficie."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "NASA",
+        "url": "https://www.nasa.gov/mission/artemis-ii/"
+      }
+    ],
+    "checked": "2026-11-17",
+    "aliases": []
   },
   {
     "id": "ascensione-retta",
@@ -5545,64 +5728,6 @@ window.AdAstraGlossary = [
     ]
   },
   {
-    "id": "binocolo-tetto",
-    "name": "Binocolo a prismi a tetto",
-    "definition": "Un binocolo a prismi a tetto impiega sistemi prismatici con superfici disposte secondo una geometria detta a tetto, spesso in una struttura esterna più allineata e compatta.",
-    "example": "Il nome riguarda la geometria dei prismi",
-    "source": "https://www.treccani.it/enciclopedia/binocolo/",
-    "lesson": "lezione-7-2.html",
-    "related": [
-      "binocolo",
-      "binocolo-porro",
-      "catadiottrico"
-    ],
-    "checked": "2026-10-31",
-    "editorialStatus": "scheda-estesa",
-    "sections": [
-      {
-        "title": "Il tetto è una geometria ottica",
-        "paragraphs": [
-          "Il nome non indica una copertura aggiunta sopra il binocolo. Descrive una disposizione di superfici del prisma che contribuisce al percorso e al raddrizzamento dell’immagine. Esistono schemi diversi nella stessa famiglia. Molti strumenti hanno obiettivi e oculari più allineati rispetto alla sagoma classica di un Porro, ma la sola fotografia esterna non basta a ricostruire ogni riflessione e ogni trattamento del sistema."
-        ]
-      },
-      {
-        "title": "La compattezza non è una misura di qualità",
-        "paragraphs": [
-          "Un involucro sottile può essere comodo nel trasporto e nell’uso, ma non garantisce automaticamente una trasmissione o una risoluzione superiore. Precisione delle superfici, trattamenti e progetto complessivo influiscono sul risultato. Anche le esigenze di correzione proprie di alcuni sistemi a tetto devono essere affrontate dal costruttore. Non è utile stabilire una gerarchia assoluta fra tetto e Porro senza confrontare modelli, condizioni e compito osservativo."
-        ]
-      },
-      {
-        "title": "L’occhio deve poter lavorare comodamente",
-        "paragraphs": [
-          "Ingrandimento, diametro degli obiettivi, campo, estrazione pupillare e possibilità di regolazione contano per entrambi gli schemi. Un osservatore con occhiali può avere esigenze diverse da un altro, e una cerniera deve consentire la distanza interpupillare appropriata. Prima di giudicare la nitidezza verifica quindi che la regolazione sia corretta. Il tipo dei prismi non sostituisce la prova di comfort e non elimina il bisogno di un supporto quando il movimento delle mani disturba l’immagine."
-        ]
-      },
-      {
-        "title": "Una figura esplorabile utile",
-        "paragraphs": [
-          "Nella fotografia selezionabile distingui ciò che è realmente visibile da ciò che viene ricostruito in sezione. Obiettivi, oculari e comando di fuoco possono essere indicati sul corpo; il percorso interno richiede invece uno schema coerente e dichiarato. Non si devono collocare prismi immaginari dove rimane spazio nel disegno. Per accessori e attacco al treppiede segui il modello specifico: due sagome simili possono avere interfacce differenti e non accettare lo stesso adattatore."
-        ]
-      }
-    ],
-    "facts": [
-      "Il nome riguarda la geometria dei prismi",
-      "Compattezza e qualità ottica sono proprietà differenti"
-    ],
-    "sources": [
-      {
-        "title": "Treccani · riferimento terminologico",
-        "url": "https://www.treccani.it/enciclopedia/binocolo/"
-      },
-      {
-        "title": "ZEISS · confronto dei sistemi prismatici",
-        "url": "https://blogs.zeiss.com/sports-optics/hunting/en/about-binoculars/"
-      }
-    ],
-    "aliases": [
-      "binocoli a prismi a tetto"
-    ]
-  },
-  {
     "id": "binocolo-porro",
     "name": "Binocolo a prismi di Porro",
     "definition": "Un binocolo a prismi di Porro usa una disposizione di prismi per raddrizzare l’immagine e ripiegare il percorso ottico, spesso con obiettivi e oculari lateralmente sfalsati.",
@@ -5658,6 +5783,64 @@ window.AdAstraGlossary = [
     ],
     "aliases": [
       "binocoli a prismi di Porro"
+    ]
+  },
+  {
+    "id": "binocolo-tetto",
+    "name": "Binocolo a prismi a tetto",
+    "definition": "Un binocolo a prismi a tetto impiega sistemi prismatici con superfici disposte secondo una geometria detta a tetto, spesso in una struttura esterna più allineata e compatta.",
+    "example": "Il nome riguarda la geometria dei prismi",
+    "source": "https://www.treccani.it/enciclopedia/binocolo/",
+    "lesson": "lezione-7-2.html",
+    "related": [
+      "binocolo",
+      "binocolo-porro",
+      "catadiottrico"
+    ],
+    "checked": "2026-10-31",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Il tetto è una geometria ottica",
+        "paragraphs": [
+          "Il nome non indica una copertura aggiunta sopra il binocolo. Descrive una disposizione di superfici del prisma che contribuisce al percorso e al raddrizzamento dell’immagine. Esistono schemi diversi nella stessa famiglia. Molti strumenti hanno obiettivi e oculari più allineati rispetto alla sagoma classica di un Porro, ma la sola fotografia esterna non basta a ricostruire ogni riflessione e ogni trattamento del sistema."
+        ]
+      },
+      {
+        "title": "La compattezza non è una misura di qualità",
+        "paragraphs": [
+          "Un involucro sottile può essere comodo nel trasporto e nell’uso, ma non garantisce automaticamente una trasmissione o una risoluzione superiore. Precisione delle superfici, trattamenti e progetto complessivo influiscono sul risultato. Anche le esigenze di correzione proprie di alcuni sistemi a tetto devono essere affrontate dal costruttore. Non è utile stabilire una gerarchia assoluta fra tetto e Porro senza confrontare modelli, condizioni e compito osservativo."
+        ]
+      },
+      {
+        "title": "L’occhio deve poter lavorare comodamente",
+        "paragraphs": [
+          "Ingrandimento, diametro degli obiettivi, campo, estrazione pupillare e possibilità di regolazione contano per entrambi gli schemi. Un osservatore con occhiali può avere esigenze diverse da un altro, e una cerniera deve consentire la distanza interpupillare appropriata. Prima di giudicare la nitidezza verifica quindi che la regolazione sia corretta. Il tipo dei prismi non sostituisce la prova di comfort e non elimina il bisogno di un supporto quando il movimento delle mani disturba l’immagine."
+        ]
+      },
+      {
+        "title": "Una figura esplorabile utile",
+        "paragraphs": [
+          "Nella fotografia selezionabile distingui ciò che è realmente visibile da ciò che viene ricostruito in sezione. Obiettivi, oculari e comando di fuoco possono essere indicati sul corpo; il percorso interno richiede invece uno schema coerente e dichiarato. Non si devono collocare prismi immaginari dove rimane spazio nel disegno. Per accessori e attacco al treppiede segui il modello specifico: due sagome simili possono avere interfacce differenti e non accettare lo stesso adattatore."
+        ]
+      }
+    ],
+    "facts": [
+      "Il nome riguarda la geometria dei prismi",
+      "Compattezza e qualità ottica sono proprietà differenti"
+    ],
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/binocolo/"
+      },
+      {
+        "title": "ZEISS · confronto dei sistemi prismatici",
+        "url": "https://blogs.zeiss.com/sports-optics/hunting/en/about-binoculars/"
+      }
+    ],
+    "aliases": [
+      "binocoli a prismi a tetto"
     ]
   },
   {
@@ -5826,6 +6009,39 @@ window.AdAstraGlossary = [
       {
         "title": "Treccani · riferimento terminologico",
         "url": "https://www.treccani.it/enciclopedia/bolide/"
+      }
+    ]
+  },
+  {
+    "id": "bolometria",
+    "name": "Bolometria",
+    "aliases": [
+      "bolometry"
+    ],
+    "definition": "La bolometria usa il riscaldamento prodotto dall’assorbimento di radiazione per ricavarne una misura. Il rivelatore, chiamato bolometro, trasforma una piccola variazione termica in un segnale misurabile.",
+    "source": "https://www.esa.int/esapub/br/br154/br154.pdf",
+    "lesson": "lezione-4-3.html",
+    "related": [
+      "bolometro",
+      "magnitudine-bolometrica",
+      "infrarosso"
+    ],
+    "checked": "2026-11-21",
+    "editorialStatus": "scheda-integrativa",
+    "example": "La sensibilità dipende dal collegamento termico, dal rumore e dalle condizioni di funzionamento. Uno specifico bolometro ha una risposta strumentale limitata: la misura non coincide automaticamente con tutta l’energia emessa da una stella a ogni lunghezza d’onda.",
+    "sections": [
+      {
+        "title": "Come leggere il concetto",
+        "paragraphs": [
+          "La sensibilità dipende dal collegamento termico, dal rumore e dalle condizioni di funzionamento. Uno specifico bolometro ha una risposta strumentale limitata: la misura non coincide automaticamente con tutta l’energia emessa da una stella a ogni lunghezza d’onda."
+        ]
+      }
+    ],
+    "facts": [],
+    "sources": [
+      {
+        "title": "ESA · Technologies, bolometers",
+        "url": "https://www.esa.int/esapub/br/br154/br154.pdf"
       }
     ]
   },
@@ -9945,60 +10161,6 @@ window.AdAstraGlossary = [
     ]
   },
   {
-    "id": "conservazione-quantita-moto",
-    "name": "Conservazione della quantità di moto",
-    "definition": "La quantità di moto totale di un sistema rimane costante quando è nulla la risultante delle forze esterne, nel quadro classico considerato.",
-    "source": "https://www.treccani.it/enciclopedia/conservazione/",
-    "lesson": "lezione-3-6.html",
-    "related": [
-      "quantita-di-moto",
-      "vettore",
-      "forza"
-    ],
-    "checked": "2026-11-06",
-    "editorialStatus": "scheda-estesa",
-    "sections": [
-      {
-        "title": "Un bilancio con direzione",
-        "paragraphs": [
-          "La quantità di moto è una grandezza vettoriale: per un corpo nella meccanica classica si ottiene moltiplicando massa e velocità. Quando si sommano più contributi contano quindi direzione e verso, non soltanto i valori numerici positivi. Due corpi possono avere quantità di moto che si compensano pur essendo entrambi in movimento. Questa distinzione impedisce di trattare il bilancio come una semplice somma di rapidità o di confonderlo con l’energia cinetica totale."
-        ]
-      },
-      {
-        "title": "Le interazioni interne si scambiano il moto",
-        "paragraphs": [
-          "Se due corpi interagiscono, ciascuno può cambiare quantità di moto mentre il totale del sistema resta invariato nelle condizioni appropriate. Il confine scelto è essenziale: guardare un solo corpo significa lasciare fuori il contributo dell’altro. Un modello di urto deve dunque indicare quali oggetti comprenda e se gli effetti esterni siano trascurabili durante l’interazione. Senza questa informazione, uno scambio interno può essere interpretato erroneamente come creazione o perdita di quantità di moto."
-        ]
-      },
-      {
-        "title": "Il caso della propulsione",
-        "paragraphs": [
-          "Un razzo modifica il proprio movimento espellendo materiale. Nel bilancio bisogna includere anche ciò che viene espulso; la sola massa rimasta a bordo non è l’intero sistema. Non occorre che il razzo spinga contro l’aria per produrre l’effetto. Il confronto è utile per comprendere il moto nello spazio, ma il calcolo quantitativo richiede tenere conto della massa variabile e delle velocità appropriate. Una figura può mostrare lo scambio senza inventare una parete esterna invisibile contro cui il motore debba appoggiarsi."
-        ]
-      },
-      {
-        "title": "Non è la conservazione di ogni energia del moto",
-        "paragraphs": [
-          "La quantità di moto può conservarsi anche in un urto nel quale parte dell’energia cinetica viene trasformata in altre forme. Le due leggi non sono intercambiabili e rispondono a bilanci differenti. Nell’astronomia e nell’esplorazione spaziale servono entrambe, con ipotesi dichiarate. Per il lettore la domanda iniziale resta semplice: quali corpi stiamo includendo e quali forze vengono dall’esterno? Da questa scelta dipende se la conservazione sia applicabile al sistema che abbiamo disegnato."
-        ]
-      }
-    ],
-    "facts": [
-      "In un urto la quantità di moto può conservarsi senza che si conservi tutta l’energia cinetica"
-    ],
-    "example": "In un urto la quantità di moto può conservarsi senza che si conservi tutta l’energia cinetica",
-    "sources": [
-      {
-        "title": "Treccani · riferimento terminologico",
-        "url": "https://www.treccani.it/enciclopedia/conservazione/"
-      },
-      {
-        "title": "NASA Glenn · conservazione vettoriale della quantità di moto",
-        "url": "https://www.grc.nasa.gov/www/k-12/airplane/conmo.html"
-      }
-    ]
-  },
-  {
     "id": "conservazione-energia",
     "name": "Conservazione dell’energia",
     "definition": "La conservazione dell’energia afferma che l’energia totale di un sistema isolato resta costante, pur potendo essere trasferita o trasformata fra forme differenti.",
@@ -10049,6 +10211,60 @@ window.AdAstraGlossary = [
       {
         "title": "NASA Glenn · bilancio e conservazione dell’energia",
         "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/conservation-of-energy/"
+      }
+    ]
+  },
+  {
+    "id": "conservazione-quantita-moto",
+    "name": "Conservazione della quantità di moto",
+    "definition": "La quantità di moto totale di un sistema rimane costante quando è nulla la risultante delle forze esterne, nel quadro classico considerato.",
+    "source": "https://www.treccani.it/enciclopedia/conservazione/",
+    "lesson": "lezione-3-6.html",
+    "related": [
+      "quantita-di-moto",
+      "vettore",
+      "forza"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un bilancio con direzione",
+        "paragraphs": [
+          "La quantità di moto è una grandezza vettoriale: per un corpo nella meccanica classica si ottiene moltiplicando massa e velocità. Quando si sommano più contributi contano quindi direzione e verso, non soltanto i valori numerici positivi. Due corpi possono avere quantità di moto che si compensano pur essendo entrambi in movimento. Questa distinzione impedisce di trattare il bilancio come una semplice somma di rapidità o di confonderlo con l’energia cinetica totale."
+        ]
+      },
+      {
+        "title": "Le interazioni interne si scambiano il moto",
+        "paragraphs": [
+          "Se due corpi interagiscono, ciascuno può cambiare quantità di moto mentre il totale del sistema resta invariato nelle condizioni appropriate. Il confine scelto è essenziale: guardare un solo corpo significa lasciare fuori il contributo dell’altro. Un modello di urto deve dunque indicare quali oggetti comprenda e se gli effetti esterni siano trascurabili durante l’interazione. Senza questa informazione, uno scambio interno può essere interpretato erroneamente come creazione o perdita di quantità di moto."
+        ]
+      },
+      {
+        "title": "Il caso della propulsione",
+        "paragraphs": [
+          "Un razzo modifica il proprio movimento espellendo materiale. Nel bilancio bisogna includere anche ciò che viene espulso; la sola massa rimasta a bordo non è l’intero sistema. Non occorre che il razzo spinga contro l’aria per produrre l’effetto. Il confronto è utile per comprendere il moto nello spazio, ma il calcolo quantitativo richiede tenere conto della massa variabile e delle velocità appropriate. Una figura può mostrare lo scambio senza inventare una parete esterna invisibile contro cui il motore debba appoggiarsi."
+        ]
+      },
+      {
+        "title": "Non è la conservazione di ogni energia del moto",
+        "paragraphs": [
+          "La quantità di moto può conservarsi anche in un urto nel quale parte dell’energia cinetica viene trasformata in altre forme. Le due leggi non sono intercambiabili e rispondono a bilanci differenti. Nell’astronomia e nell’esplorazione spaziale servono entrambe, con ipotesi dichiarate. Per il lettore la domanda iniziale resta semplice: quali corpi stiamo includendo e quali forze vengono dall’esterno? Da questa scelta dipende se la conservazione sia applicabile al sistema che abbiamo disegnato."
+        ]
+      }
+    ],
+    "facts": [
+      "In un urto la quantità di moto può conservarsi senza che si conservi tutta l’energia cinetica"
+    ],
+    "example": "In un urto la quantità di moto può conservarsi senza che si conservi tutta l’energia cinetica",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/conservazione/"
+      },
+      {
+        "title": "NASA Glenn · conservazione vettoriale della quantità di moto",
+        "url": "https://www.grc.nasa.gov/www/k-12/airplane/conmo.html"
       }
     ]
   },
@@ -10973,6 +11189,39 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "cosmologia",
+    "name": "Cosmologia",
+    "aliases": [
+      "cosmologia fisica",
+      "cosmology"
+    ],
+    "definition": "La cosmologia studia l’Universo nel suo insieme: struttura su grande scala, evoluzione e proprietà fisiche. Confronta modelli teorici con osservazioni, fra cui espansione cosmica, radiazione di fondo e distribuzione delle galassie.",
+    "source": "https://asd.gsfc.nasa.gov/archive/mather/cosmology/",
+    "lesson": "lezione-6-5.html",
+    "related": [
+      "universo",
+      "big-bang"
+    ],
+    "checked": "2026-11-21",
+    "editorialStatus": "scheda-integrativa",
+    "example": "Non coincide con lo studio di un singolo astro e non offre risposte già definitive su ogni aspetto delle origini. Una spiegazione scientifica deve produrre conseguenze osservabili e restare confrontabile con i dati e le loro incertezze.",
+    "sections": [
+      {
+        "title": "Come leggere il concetto",
+        "paragraphs": [
+          "Non coincide con lo studio di un singolo astro e non offre risposte già definitive su ogni aspetto delle origini. Una spiegazione scientifica deve produrre conseguenze osservabili e restare confrontabile con i dati e le loro incertezze."
+        ]
+      }
+    ],
+    "facts": [],
+    "sources": [
+      {
+        "title": "NASA Goddard · Cosmology",
+        "url": "https://asd.gsfc.nasa.gov/archive/mather/cosmology/"
+      }
+    ]
+  },
+  {
     "id": "costante-avogadro",
     "name": "Costante di Avogadro",
     "definition": "La costante di Avogadro collega la quantità di sostanza al numero di entità: il suo valore SI è esattamente 6,02214076 × 10²³ per mole.",
@@ -11034,61 +11283,6 @@ window.AdAstraGlossary = [
     ]
   },
   {
-    "id": "costante-planck",
-    "name": "Costante di Planck",
-    "definition": "La costante di Planck, indicata con h, collega l’energia di un fotone alla sua frequenza e compare nella descrizione quantistica dei fenomeni.",
-    "example": "E = h × frequenza per il singolo fotone",
-    "source": "https://www.treccani.it/enciclopedia/costanti-fondamentali_(Enciclopedia-della-Scienza-e-della-Tecnica)/",
-    "lesson": "lezione-4-3.html",
-    "related": [
-      "fotone",
-      "frequenza",
-      "quanto"
-    ],
-    "checked": "2026-11-05",
-    "editorialStatus": "scheda-estesa",
-    "sections": [
-      {
-        "title": "Un collegamento fra luce ed energia",
-        "paragraphs": [
-          "Per un fotone l’energia è h moltiplicata per la frequenza. La frequenza descrive quante oscillazioni corrispondano a un secondo; h stabilisce il rapporto con l’energia del singolo quanto. Raddoppiare la frequenza raddoppia l’energia di ciascun fotone. Questo non equivale a raddoppiare necessariamente la luminosità totale: conta anche quanti fotoni arrivino. Separare energia individuale e quantità complessiva aiuta a capire perché colore e intensità siano informazioni differenti sulla radiazione."
-        ]
-      },
-      {
-        "title": "Il numero e la sua unità",
-        "paragraphs": [
-          "Nel Sistema Internazionale h vale esattamente 6,62607015 per dieci elevato a meno trentaquattro joule secondo. La potenza negativa indica un numero molto piccolo, non un’energia negativa. L’unità è il prodotto di energia e tempo; moltiplicando per una frequenza in inversi di secondo si ottengono joule. Il valore esatto è parte della definizione attuale delle unità. Le realizzazioni pratiche delle misure conservano però incertezze strumentali: una costante definita non rende perfetto ogni esperimento."
-        ]
-      },
-      {
-        "title": "Una soglia non superata dalla sola intensità",
-        "paragraphs": [
-          "Nell’effetto fotoelettrico l’energia dei fotoni deve essere appropriata al materiale e al processo. Aumentare soltanto il numero di fotoni di energia insufficiente non equivale automaticamente ad aumentare l’energia di ciascuno nel regime elementare considerato. Il collegamento introdotto da h aiuta a leggere questa differenza. Anche negli spettri, le energie dei fotoni corrispondono a differenze fra stati. La formula non autorizza però a descrivere ogni sistema come piccole palline che oscillano su orbite classiche."
-        ]
-      },
-      {
-        "title": "Usarla senza trasformarla in un ostacolo",
-        "paragraphs": [
-          "Nella divulgazione spesso basta confrontare rapporti: fotoni con frequenza doppia hanno energia doppia; nel vuoto una lunghezza d’onda minore corrisponde a frequenza maggiore. Non serve calcolare ogni volta numeri con molte cifre per comprendere il principio. Se si esegue un conto, bisogna mantenere unità e distinguere la costante h da una generica altezza indicata con la stessa lettera in un altro esperimento. Il simbolo prende significato dalla definizione, non dalla forma della lettera."
-        ]
-      }
-    ],
-    "facts": [
-      "E = h × frequenza per il singolo fotone",
-      "h = 6,62607015 × 10⁻³⁴ J·s nel SI"
-    ],
-    "sources": [
-      {
-        "title": "Treccani · riferimento terminologico",
-        "url": "https://www.treccani.it/enciclopedia/costanti-fondamentali_(Enciclopedia-della-Scienza-e-della-Tecnica)/"
-      },
-      {
-        "title": "BIPM · costanti che definiscono il SI",
-        "url": "https://www.bipm.org/en/measurement-units/si-defining-constants"
-      }
-    ]
-  },
-  {
     "id": "costante-gravitazionale",
     "name": "Costante gravitazionale",
     "definition": "La costante gravitazionale G fissa l’intensità dell’interazione nella legge newtoniana della gravitazione e viene determinata sperimentalmente.",
@@ -11144,6 +11338,61 @@ window.AdAstraGlossary = [
       {
         "title": "Treccani · misurare G",
         "url": "https://static.treccani.it/export/sites/default/Portale/resources/multimedia/Lezioni_fisica/costante_gravitazione/G__LEZIONE.pdf"
+      }
+    ]
+  },
+  {
+    "id": "costante-planck",
+    "name": "Costante di Planck",
+    "definition": "La costante di Planck, indicata con h, collega l’energia di un fotone alla sua frequenza e compare nella descrizione quantistica dei fenomeni.",
+    "example": "E = h × frequenza per il singolo fotone",
+    "source": "https://www.treccani.it/enciclopedia/costanti-fondamentali_(Enciclopedia-della-Scienza-e-della-Tecnica)/",
+    "lesson": "lezione-4-3.html",
+    "related": [
+      "fotone",
+      "frequenza",
+      "quanto"
+    ],
+    "checked": "2026-11-05",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un collegamento fra luce ed energia",
+        "paragraphs": [
+          "Per un fotone l’energia è h moltiplicata per la frequenza. La frequenza descrive quante oscillazioni corrispondano a un secondo; h stabilisce il rapporto con l’energia del singolo quanto. Raddoppiare la frequenza raddoppia l’energia di ciascun fotone. Questo non equivale a raddoppiare necessariamente la luminosità totale: conta anche quanti fotoni arrivino. Separare energia individuale e quantità complessiva aiuta a capire perché colore e intensità siano informazioni differenti sulla radiazione."
+        ]
+      },
+      {
+        "title": "Il numero e la sua unità",
+        "paragraphs": [
+          "Nel Sistema Internazionale h vale esattamente 6,62607015 per dieci elevato a meno trentaquattro joule secondo. La potenza negativa indica un numero molto piccolo, non un’energia negativa. L’unità è il prodotto di energia e tempo; moltiplicando per una frequenza in inversi di secondo si ottengono joule. Il valore esatto è parte della definizione attuale delle unità. Le realizzazioni pratiche delle misure conservano però incertezze strumentali: una costante definita non rende perfetto ogni esperimento."
+        ]
+      },
+      {
+        "title": "Una soglia non superata dalla sola intensità",
+        "paragraphs": [
+          "Nell’effetto fotoelettrico l’energia dei fotoni deve essere appropriata al materiale e al processo. Aumentare soltanto il numero di fotoni di energia insufficiente non equivale automaticamente ad aumentare l’energia di ciascuno nel regime elementare considerato. Il collegamento introdotto da h aiuta a leggere questa differenza. Anche negli spettri, le energie dei fotoni corrispondono a differenze fra stati. La formula non autorizza però a descrivere ogni sistema come piccole palline che oscillano su orbite classiche."
+        ]
+      },
+      {
+        "title": "Usarla senza trasformarla in un ostacolo",
+        "paragraphs": [
+          "Nella divulgazione spesso basta confrontare rapporti: fotoni con frequenza doppia hanno energia doppia; nel vuoto una lunghezza d’onda minore corrisponde a frequenza maggiore. Non serve calcolare ogni volta numeri con molte cifre per comprendere il principio. Se si esegue un conto, bisogna mantenere unità e distinguere la costante h da una generica altezza indicata con la stessa lettera in un altro esperimento. Il simbolo prende significato dalla definizione, non dalla forma della lettera."
+        ]
+      }
+    ],
+    "facts": [
+      "E = h × frequenza per il singolo fotone",
+      "h = 6,62607015 × 10⁻³⁴ J·s nel SI"
+    ],
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/costanti-fondamentali_(Enciclopedia-della-Scienza-e-della-Tecnica)/"
+      },
+      {
+        "title": "BIPM · costanti che definiscono il SI",
+        "url": "https://www.bipm.org/en/measurement-units/si-defining-constants"
       }
     ]
   },
@@ -12989,6 +13238,67 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "diagramma-hr",
+    "name": "Hertzsprung–Russell, diagramma di",
+    "definition": "Il diagramma di Hertzsprung–Russell confronta luminosità e temperatura efficace o tipo spettrale delle stelle, permettendo di studiarne struttura ed evoluzione.",
+    "example": "Nel diagramma consueto la temperatura aumenta verso sinistra",
+    "source": "https://www.treccani.it/enciclopedia/stella/",
+    "lesson": "lezione-4-4.html",
+    "related": [
+      "sequenza-principale",
+      "temperatura",
+      "luminosita"
+    ],
+    "checked": "2026-11-05",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Una mappa delle proprietà stellari",
+        "paragraphs": [
+          "Ogni punto rappresenta una stella o un modello con determinate proprietà. Nell’impostazione consueta la luminosità aumenta verso l’alto e la temperatura cresce andando verso sinistra. Leggere questo verso è essenziale, perché differisce da molte scale quotidiane. Una stella calda e poco luminosa occupa una zona diversa da una stella calda e molto luminosa. Il confronto rivela quindi informazioni che un semplice ordinamento per colore lascerebbe nascoste."
+        ]
+      },
+      {
+        "title": "Le regioni principali",
+        "paragraphs": [
+          "La sequenza principale raccoglie stelle che sostengono l’emissione soprattutto con fusione centrale dell’idrogeno. Giganti e supergiganti si trovano in altre regioni, mentre le nane bianche combinano temperature elevate con luminosità relativamente contenute per la piccola superficie. Il raggio contribuisce a spiegare queste differenze. La posizione sul grafico riguarda proprietà fisiche, quindi la vicinanza fra due punti non dimostra che le stelle siano vicine nella Galassia o facciano parte dello stesso sistema."
+        ]
+      },
+      {
+        "title": "Dati osservativi e modello",
+        "paragraphs": [
+          "Un diagramma può usare luminosità e temperatura oppure magnitudini e indici di colore. Le rappresentazioni sono collegate, ma richiedono distanze, correzioni e ipotesi appropriate. Assorbimento e sistemi multipli possono influire sulla posizione ricavata dai dati. La legenda deve dire quali quantità compaiono e quale campione viene mostrato. Un ammasso con stelle a distanza simile offre un contesto differente da un insieme di sorgenti distribuite a distanze molto diverse."
+        ]
+      },
+      {
+        "title": "Seguire una storia",
+        "paragraphs": [
+          "Una traccia evolutiva descrive come cambia un modello stellare nel tempo. La sua forma va distinta dalla distribuzione di stelle differenti che occupano la sequenza principale. Nel laboratorio si può selezionare una massa iniziale e seguire poche tappe commentate, mantenendo dichiarate le semplificazioni. Il lettore riconosce così il rapporto fra cambiamenti interni, temperatura, raggio e luce emessa, senza immaginare che ogni stella debba attraversare tutti i punti del grafico come una graduatoria universale."
+        ]
+      }
+    ],
+    "facts": [
+      "Nel diagramma consueto la temperatura aumenta verso sinistra",
+      "Posizione nel diagramma e posizione nello spazio sono dati differenti"
+    ],
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/stella/"
+      },
+      {
+        "title": "INAF Cagliari · diagramma HR",
+        "url": "https://glossario.oa-cagliari.inaf.it/Diagramma_HR2.html"
+      }
+    ],
+    "aliases": [
+      "diagramma di Hertzsprung-Russell",
+      "diagramma di Hertzsprung–Russell",
+      "diagramma HR",
+      "diagramma H-R"
+    ]
+  },
+  {
     "id": "diamagnetismo",
     "name": "Diamagnetismo",
     "definition": "Il diamagnetismo è una risposta della materia che produce una magnetizzazione opposta al campo magnetico applicato.",
@@ -13918,56 +14228,6 @@ window.AdAstraGlossary = [
     ]
   },
   {
-    "id": "distribuzione-probabilita",
-    "name": "Distribuzione di probabilità",
-    "definition": "Una distribuzione di probabilità descrive come la probabilità si ripartisce fra i possibili risultati di una variabile.",
-    "source": "https://www.treccani.it/enciclopedia/probabilita/",
-    "lesson": "lezione-9-4.html",
-    "related": [
-      "rumore-fotonico",
-      "deviazione-standard",
-      "incertezza-misura"
-    ],
-    "checked": "2026-11-07",
-    "editorialStatus": "scheda-estesa",
-    "sections": [
-      {
-        "title": "Non un unico risultato obbligato",
-        "paragraphs": [
-          "Ripetere una misura nelle stesse condizioni può produrre valori differenti. La distribuzione organizza quali risultati siano più o meno plausibili secondo il modello. Non dice necessariamente quale singolo valore comparirà nella prossima prova. Il significato è collettivo: descrive possibilità e frequenze attese in condizioni definite. Confondere il valore medio con un risultato garantito rende difficile capire rumore, incertezza e differenze fra esposizioni apparentemente identiche."
-        ]
-      },
-      {
-        "title": "Discreto e continuo",
-        "paragraphs": [
-          "Il numero di fotoni contati è discreto: non si registra mezzo evento nella stessa definizione di conteggio. Altre grandezze vengono modellate come continue. Nel caso continuo la probabilità riguarda intervalli e non va confusa con l’altezza della curva in un singolo punto. Una curva disegnata bene richiede assi e unità. L’area o la somma appropriata esprime il bilancio delle probabilità, non la sola impressione visiva del picco."
-        ]
-      },
-      {
-        "title": "Forme diverse per processi diversi",
-        "paragraphs": [
-          "La distribuzione normale è utile in molti contesti, ma non è una forma universale imposta a ogni fenomeno. Conteggi, limiti e selezioni possono richiedere modelli differenti. Un dato raro sotto una distribuzione scelta male non dimostra un nuovo oggetto astronomico. Bisogna verificare il modello del fondo e del rumore. La fisica della misura aiuta a scegliere la descrizione probabilistica, invece di adattare automaticamente la stessa campana a ogni grafico."
-        ]
-      },
-      {
-        "title": "Un linguaggio per l’incertezza",
-        "paragraphs": [
-          "Distribuzioni e intervalli permettono di comunicare risultati senza fingere precisione assoluta. Il loro significato dipende dal metodo: descrivere possibili dati e descrivere l’incertezza di un parametro non sono sempre la stessa operazione. Una divulgazione accessibile può chiarire questa distinzione con esempi prima dei simboli. Il concetto centrale è che la scienza può quantificare ciò che non è determinato con certezza, senza ridurre ogni dubbio a un generico non si sa."
-        ]
-      }
-    ],
-    "facts": [
-      "La media di una distribuzione non è il risultato garantito della prossima misura"
-    ],
-    "example": "La media di una distribuzione non è il risultato garantito della prossima misura",
-    "sources": [
-      {
-        "title": "Treccani · riferimento terminologico; testo originale AD ASTRA",
-        "url": "https://www.treccani.it/enciclopedia/probabilita/"
-      }
-    ]
-  },
-  {
     "id": "distribuzione-normale",
     "name": "Distribuzione normale",
     "definition": "La distribuzione normale, o gaussiana, è una distribuzione continua simmetrica a campana, determinata da media e deviazione standard.",
@@ -14018,6 +14278,56 @@ window.AdAstraGlossary = [
     ],
     "aliases": [
       "Distribuzione gaussiana"
+    ]
+  },
+  {
+    "id": "distribuzione-probabilita",
+    "name": "Distribuzione di probabilità",
+    "definition": "Una distribuzione di probabilità descrive come la probabilità si ripartisce fra i possibili risultati di una variabile.",
+    "source": "https://www.treccani.it/enciclopedia/probabilita/",
+    "lesson": "lezione-9-4.html",
+    "related": [
+      "rumore-fotonico",
+      "deviazione-standard",
+      "incertezza-misura"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Non un unico risultato obbligato",
+        "paragraphs": [
+          "Ripetere una misura nelle stesse condizioni può produrre valori differenti. La distribuzione organizza quali risultati siano più o meno plausibili secondo il modello. Non dice necessariamente quale singolo valore comparirà nella prossima prova. Il significato è collettivo: descrive possibilità e frequenze attese in condizioni definite. Confondere il valore medio con un risultato garantito rende difficile capire rumore, incertezza e differenze fra esposizioni apparentemente identiche."
+        ]
+      },
+      {
+        "title": "Discreto e continuo",
+        "paragraphs": [
+          "Il numero di fotoni contati è discreto: non si registra mezzo evento nella stessa definizione di conteggio. Altre grandezze vengono modellate come continue. Nel caso continuo la probabilità riguarda intervalli e non va confusa con l’altezza della curva in un singolo punto. Una curva disegnata bene richiede assi e unità. L’area o la somma appropriata esprime il bilancio delle probabilità, non la sola impressione visiva del picco."
+        ]
+      },
+      {
+        "title": "Forme diverse per processi diversi",
+        "paragraphs": [
+          "La distribuzione normale è utile in molti contesti, ma non è una forma universale imposta a ogni fenomeno. Conteggi, limiti e selezioni possono richiedere modelli differenti. Un dato raro sotto una distribuzione scelta male non dimostra un nuovo oggetto astronomico. Bisogna verificare il modello del fondo e del rumore. La fisica della misura aiuta a scegliere la descrizione probabilistica, invece di adattare automaticamente la stessa campana a ogni grafico."
+        ]
+      },
+      {
+        "title": "Un linguaggio per l’incertezza",
+        "paragraphs": [
+          "Distribuzioni e intervalli permettono di comunicare risultati senza fingere precisione assoluta. Il loro significato dipende dal metodo: descrivere possibili dati e descrivere l’incertezza di un parametro non sono sempre la stessa operazione. Una divulgazione accessibile può chiarire questa distinzione con esempi prima dei simboli. Il concetto centrale è che la scienza può quantificare ciò che non è determinato con certezza, senza ridurre ogni dubbio a un generico non si sa."
+        ]
+      }
+    ],
+    "facts": [
+      "La media di una distribuzione non è il risultato garantito della prossima misura"
+    ],
+    "example": "La media di una distribuzione non è il risultato garantito della prossima misura",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico; testo originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/probabilita/"
+      }
     ]
   },
   {
@@ -14722,6 +15032,68 @@ window.AdAstraGlossary = [
         "url": "https://www.treccani.it/vocabolario/effemeride/"
       }
     ]
+  },
+  {
+    "id": "effetto-cherenkov",
+    "name": "Effetto Cherenkov",
+    "aliases": [
+      "radiazione Cherenkov",
+      "luce Cherenkov",
+      "Cherenkov",
+      "effetto Čerenkov",
+      "effetto Cerenkov"
+    ],
+    "definition": "Emissione di luce da parte di una particella carica che attraversa un mezzo trasparente più velocemente della velocità di fase della luce in quel mezzo. Non viene superata la velocità della luce nel vuoto.",
+    "lesson": "lezione-10-5.html",
+    "related": [
+      "neutrino",
+      "luce",
+      "indice-di-rifrazione"
+    ],
+    "sections": [
+      {
+        "title": "La soglia dipende dal mezzo",
+        "paragraphs": [
+          "Nel vuoto la luce viaggia alla velocità indicata con c. In un materiale trasparente la propagazione delle onde luminose dipende dalle proprietà del materiale e dalla frequenza. Una particella carica abbastanza energetica può superare la velocità di fase della luce nell’acqua o nel ghiaccio, restando sotto c. Questa distinzione evita un equivoco importante: il fenomeno non costituisce una smentita della relatività. Non è sufficiente dire che la particella è veloce; occorre confrontarla con la soglia del mezzo attraversato."
+        ]
+      },
+      {
+        "title": "Come nasce il segnale",
+        "paragraphs": [
+          "Il passaggio della carica perturba la risposta elettrica del materiale. Sopra soglia, i contributi luminosi possono sommarsi in determinate direzioni, formando una distribuzione conica. L’analogia con il fronte prodotto da un oggetto supersonico aiuta a immaginare una soglia di propagazione, ma luce e suono hanno meccanismi diversi. Il colore blu spesso associato al fenomeno non identifica da solo una particella: lo spettro raccolto dipende anche da assorbimento, trasparenza, ottica e sensibilità dei sensori."
+        ]
+      },
+      {
+        "title": "Rivelare un neutrino indirettamente",
+        "paragraphs": [
+          "Un neutrino non possiede carica elettrica. In un telescopio come IceCube, una sua rara interazione può generare particelle secondarie cariche; sono queste a produrre luce Cherenkov quando soddisfano la condizione richiesta. I sensori registrano intensità e tempi dei segnali. Da tali informazioni si ricostruisce l’evento, con incertezze che richiedono calibrazione e modelli del ghiaccio. La mappa dei lampi non è una fotografia del neutrino o della sorgente celeste."
+        ]
+      },
+      {
+        "title": "Un principio, strumenti differenti",
+        "paragraphs": [
+          "L’effetto viene sfruttato anche in rivelatori in acqua e in strumenti che raccolgono luce generata da sciami di particelle nell’atmosfera. Apparati diversi osservano segnali differenti e non vanno confusi. Una semplice illustrazione del cono descrive il principio, mentre una misura scientifica richiede geometria dell’esperimento, risposta strumentale e controlli sui segnali di fondo. Nell’articolo conviene quindi distinguere sempre la particella cercata, le secondarie rivelate e il mezzo nel quale si produce la luce."
+        ]
+      }
+    ],
+    "facts": [
+      "La soglia riguarda la velocità della luce nel materiale, non nel vuoto.",
+      "Nei telescopi per neutrini la luce viene prodotta da particelle cariche secondarie."
+    ],
+    "sources": [
+      {
+        "title": "Treccani — luce di Čerenkov, riferimento fisico e storico",
+        "url": "https://www.treccani.it/enciclopedia/pavel-cerenkov_(Enciclopedia-Italiana)/"
+      },
+      {
+        "title": "IceCube — principio di rivelazione",
+        "url": "https://icecube.wisc.edu/science/icecube/"
+      }
+    ],
+    "source": "https://www.treccani.it/enciclopedia/pavel-cerenkov_(Enciclopedia-Italiana)/",
+    "checked": "2026-11-26",
+    "editorialStatus": "scheda-estesa",
+    "example": "La soglia riguarda la velocità della luce nel materiale, non nel vuoto."
   },
   {
     "id": "effetto-compton",
@@ -16171,6 +16543,60 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "energia-attivazione",
+    "name": "Energia di attivazione",
+    "definition": "L’energia di attivazione caratterizza la barriera energetica associata a un percorso di reazione e aiuta a comprendere perché una trasformazione possibile possa essere molto lenta.",
+    "source": "https://www.treccani.it/enciclopedia/energia-di-attivazione_(Enciclopedia-della-Scienza-e-della-Tecnica)/",
+    "lesson": "lezione-5-4.html",
+    "related": [
+      "catalisi",
+      "energia",
+      "molecola"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Possibile non significa rapido",
+        "paragraphs": [
+          "Due reagenti possono dare prodotti energeticamente favorevoli senza trasformarsi immediatamente. Per procedere lungo un certo percorso devono attraversare configurazioni intermedie: la barriera energetica aiuta a descrivere questo ostacolo. L’energia di attivazione non è semplicemente l’energia totale contenuta nei prodotti. Distingue invece la difficoltà del percorso dalla differenza energetica fra la situazione iniziale e quella finale. Sono due domande diverse: dove si arriva e quanto facilmente si può arrivare."
+        ]
+      },
+      {
+        "title": "Il disegno della collina",
+        "paragraphs": [
+          "Un diagramma può rappresentare l’energia come una collina fra reagenti e prodotti. L’asse orizzontale indica l’avanzamento lungo un percorso di reazione, non una distanza reale da percorrere su un paesaggio. Lo stato di transizione non è necessariamente una molecola stabile conservabile in un contenitore. L’analogia è utile se queste limitazioni sono dichiarate: altrimenti il lettore potrebbe attribuire agli atomi una traiettoria geometrica che il disegno non intende descrivere."
+        ]
+      },
+      {
+        "title": "Temperatura e velocità",
+        "paragraphs": [
+          "Aumentando la temperatura può crescere la frazione di incontri con energia sufficiente per una trasformazione. Questo non autorizza a usare una regola identica per ogni reazione: contano anche meccanismo, orientazione, ambiente e specie coinvolte. Nell’introduzione non serve calcolare esponenziali; si può confrontare una situazione in cui pochi incontri sono efficaci con un’altra in cui lo diventano più spesso. Il numero di urti da solo non garantisce che avvenga la reazione desiderata."
+        ]
+      },
+      {
+        "title": "La chimica del freddo",
+        "paragraphs": [
+          "Nelle nubi interstellari fredde alcune reazioni procedono attraverso vie differenti da quelle più intuitive in laboratorio. Superfici, ioni e fenomeni quantistici possono essere importanti; non si può dichiarare che ogni reazione si arresti soltanto perché la temperatura è bassa. Una spiegazione astrochimica deve indicare il meccanismo proposto e il suo campo di validità. L’energia di attivazione è quindi un criterio per formulare domande sui tempi chimici, non un divieto universale alla formazione di molecole nello spazio."
+        ]
+      }
+    ],
+    "facts": [
+      "Una reazione energeticamente favorevole può essere lenta se il suo percorso presenta una barriera"
+    ],
+    "example": "Una reazione energeticamente favorevole può essere lenta se il suo percorso presenta una barriera",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/energia-di-attivazione_(Enciclopedia-della-Scienza-e-della-Tecnica)/"
+      },
+      {
+        "title": "Treccani · cinetica chimica e percorsi di reazione",
+        "url": "https://www.treccani.it/enciclopedia/cinetica-chimica_(Enciclopedia-del-Novecento)/"
+      }
+    ]
+  },
+  {
     "id": "energia-cinetica",
     "name": "Energia cinetica",
     "definition": "L’energia cinetica è l’energia associata al movimento rispetto a un sistema di riferimento; nel regime classico dipende dalla massa e dal quadrato della velocità.",
@@ -16222,60 +16648,6 @@ window.AdAstraGlossary = [
       {
         "title": "Treccani · conservazione e bilanci meccanici",
         "url": "https://www.treccani.it/enciclopedia/conservazione/"
-      }
-    ]
-  },
-  {
-    "id": "energia-attivazione",
-    "name": "Energia di attivazione",
-    "definition": "L’energia di attivazione caratterizza la barriera energetica associata a un percorso di reazione e aiuta a comprendere perché una trasformazione possibile possa essere molto lenta.",
-    "source": "https://www.treccani.it/enciclopedia/energia-di-attivazione_(Enciclopedia-della-Scienza-e-della-Tecnica)/",
-    "lesson": "lezione-5-4.html",
-    "related": [
-      "catalisi",
-      "energia",
-      "molecola"
-    ],
-    "checked": "2026-11-06",
-    "editorialStatus": "scheda-estesa",
-    "sections": [
-      {
-        "title": "Possibile non significa rapido",
-        "paragraphs": [
-          "Due reagenti possono dare prodotti energeticamente favorevoli senza trasformarsi immediatamente. Per procedere lungo un certo percorso devono attraversare configurazioni intermedie: la barriera energetica aiuta a descrivere questo ostacolo. L’energia di attivazione non è semplicemente l’energia totale contenuta nei prodotti. Distingue invece la difficoltà del percorso dalla differenza energetica fra la situazione iniziale e quella finale. Sono due domande diverse: dove si arriva e quanto facilmente si può arrivare."
-        ]
-      },
-      {
-        "title": "Il disegno della collina",
-        "paragraphs": [
-          "Un diagramma può rappresentare l’energia come una collina fra reagenti e prodotti. L’asse orizzontale indica l’avanzamento lungo un percorso di reazione, non una distanza reale da percorrere su un paesaggio. Lo stato di transizione non è necessariamente una molecola stabile conservabile in un contenitore. L’analogia è utile se queste limitazioni sono dichiarate: altrimenti il lettore potrebbe attribuire agli atomi una traiettoria geometrica che il disegno non intende descrivere."
-        ]
-      },
-      {
-        "title": "Temperatura e velocità",
-        "paragraphs": [
-          "Aumentando la temperatura può crescere la frazione di incontri con energia sufficiente per una trasformazione. Questo non autorizza a usare una regola identica per ogni reazione: contano anche meccanismo, orientazione, ambiente e specie coinvolte. Nell’introduzione non serve calcolare esponenziali; si può confrontare una situazione in cui pochi incontri sono efficaci con un’altra in cui lo diventano più spesso. Il numero di urti da solo non garantisce che avvenga la reazione desiderata."
-        ]
-      },
-      {
-        "title": "La chimica del freddo",
-        "paragraphs": [
-          "Nelle nubi interstellari fredde alcune reazioni procedono attraverso vie differenti da quelle più intuitive in laboratorio. Superfici, ioni e fenomeni quantistici possono essere importanti; non si può dichiarare che ogni reazione si arresti soltanto perché la temperatura è bassa. Una spiegazione astrochimica deve indicare il meccanismo proposto e il suo campo di validità. L’energia di attivazione è quindi un criterio per formulare domande sui tempi chimici, non un divieto universale alla formazione di molecole nello spazio."
-        ]
-      }
-    ],
-    "facts": [
-      "Una reazione energeticamente favorevole può essere lenta se il suo percorso presenta una barriera"
-    ],
-    "example": "Una reazione energeticamente favorevole può essere lenta se il suo percorso presenta una barriera",
-    "sources": [
-      {
-        "title": "Treccani · riferimento terminologico",
-        "url": "https://www.treccani.it/enciclopedia/energia-di-attivazione_(Enciclopedia-della-Scienza-e-della-Tecnica)/"
-      },
-      {
-        "title": "Treccani · cinetica chimica e percorsi di reazione",
-        "url": "https://www.treccani.it/enciclopedia/cinetica-chimica_(Enciclopedia-del-Novecento)/"
       }
     ]
   },
@@ -20245,6 +20617,40 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "fotometro",
+    "name": "Fotometro",
+    "aliases": [
+      "fotometri",
+      "photometer"
+    ],
+    "definition": "Un fotometro misura la radiazione ricevuta da una sorgente in una determinata banda. In astronomia permette di quantificare la brillanza apparente e seguirne le variazioni nel tempo, per esempio durante un transito o un’occultazione.",
+    "source": "https://science.nasa.gov/learn/basics-of-space-flight/chapter12-1/",
+    "lesson": "lezione-4-2.html",
+    "related": [
+      "fotometria",
+      "banda-fotometrica",
+      "curva-di-luce"
+    ],
+    "checked": "2026-11-21",
+    "editorialStatus": "scheda-integrativa",
+    "example": "Il fotometro è lo strumento; la fotometria è la tecnica di misura. Il confronto richiede di specificare banda, risposta del rivelatore e calibrazione. Il segnale ricevuto non coincide con la luminosità intrinseca della sorgente.",
+    "sections": [
+      {
+        "title": "Come leggere il concetto",
+        "paragraphs": [
+          "Il fotometro è lo strumento; la fotometria è la tecnica di misura. Il confronto richiede di specificare banda, risposta del rivelatore e calibrazione. Il segnale ricevuto non coincide con la luminosità intrinseca della sorgente."
+        ]
+      }
+    ],
+    "facts": [],
+    "sources": [
+      {
+        "title": "NASA · Basics of Space Flight, Photometers",
+        "url": "https://science.nasa.gov/learn/basics-of-space-flight/chapter12-1/"
+      }
+    ]
+  },
+  {
     "id": "fotomoltiplicatore",
     "name": "Fotomoltiplicatore",
     "definition": "Un fotomoltiplicatore è un rivelatore che converte luce in elettroni e amplifica il segnale attraverso una catena di emissioni secondarie.",
@@ -20725,57 +21131,6 @@ window.AdAstraGlossary = [
     ]
   },
   {
-    "id": "fuoco-diretto",
-    "name": "Fuoco diretto",
-    "definition": "Nella fotografia al fuoco diretto il sensore registra l’immagine formata dal telescopio senza un oculare usato per proiettarla.",
-    "example": "Il sensore registra l’immagine del telescopio senza proiezione tramite oculare",
-    "source": "https://www.treccani.it/enciclopedia/telescopio/",
-    "lesson": "astrofotografia.html",
-    "related": [
-      "piano-focale",
-      "sensore",
-      "focheggiatore"
-    ],
-    "checked": "2026-11-05",
-    "editorialStatus": "scheda-estesa",
-    "sections": [
-      {
-        "title": "Il telescopio come obiettivo",
-        "paragraphs": [
-          "Una camera collegata al telescopio può usare l’ottica principale per formare l’immagine sul sensore. Non serve mantenere l’obiettivo fotografico davanti a un oculare, come nell’afocale. Il sensore deve trovarsi nella posizione adatta e gli adattatori devono conservare una connessione stabile. La luce non diventa un’immagine nitida soltanto perché la camera è fissata al tubo: corsa del fuoco, geometria degli accessori e compatibilità meccanica entrano nella configurazione."
-        ]
-      },
-      {
-        "title": "La scala dell’immagine",
-        "paragraphs": [
-          "La focale effettiva e le dimensioni dei pixel determinano la scala angolare campionata. Il campo complessivo dipende anche dall’estensione del sensore. In fotografia non basta quindi cercare un numero di ingrandimenti come nel visuale. Un ritaglio mostrato grande sullo schermo può dare un’impressione diversa senza aggiungere dettaglio fisico. Il confronto deve usare la stessa scala o dichiarare il ricampionamento, soprattutto quando si valutano stelle, dischi planetari o prestazioni di strumenti differenti."
-        ]
-      },
-      {
-        "title": "Correttori e distanze",
-        "paragraphs": [
-          "Una configurazione fotografica può includere elementi progettati come spianatori o correttori, con distanze precise dal sensore. Il termine fuoco diretto distingue il principio della ripresa dalla proiezione attraverso un oculare; gli accessori reali vanno comunque descritti. Se una Barlow o un riduttore cambia la focale, occorre usare il valore effettivo. Un sensore grande può inoltre richiedere un campo corretto e illuminato che il telescopio non offre automaticamente su tutta la sua superficie."
-        ]
-      },
-      {
-        "title": "Dopo il montaggio",
-        "paragraphs": [
-          "La messa a fuoco deve essere controllata sui dati e ripetuta quando condizioni o configurazione cambiano. Inseguimento e stabilità diventano importanti per pose sufficientemente lunghe. La calibrazione del sensore affronta invece altri contributi. Questi passaggi hanno funzioni diverse: un buon fuoco non cancella il mosso e un dark non raddrizza stelle trascinate. Il percorso pratico risulta comprensibile quando si vede quale problema risolva ogni fase, dall’assemblaggio alla verifica dell’immagine e alla conservazione dei file originali."
-        ]
-      }
-    ],
-    "facts": [
-      "Il sensore registra l’immagine del telescopio senza proiezione tramite oculare",
-      "Campo e scala dipendono da focale effettiva e sensore"
-    ],
-    "sources": [
-      {
-        "title": "Treccani · riferimento terminologico",
-        "url": "https://www.treccani.it/enciclopedia/telescopio/"
-      }
-    ]
-  },
-  {
     "id": "fuoco",
     "name": "Fuoco ottico",
     "definition": "Il fuoco e il piano focale descrivono dove un sistema ottico forma l’immagine di sorgenti lontane.",
@@ -20830,6 +21185,57 @@ window.AdAstraGlossary = [
     ],
     "aliases": [
       "fuoco"
+    ]
+  },
+  {
+    "id": "fuoco-diretto",
+    "name": "Fuoco diretto",
+    "definition": "Nella fotografia al fuoco diretto il sensore registra l’immagine formata dal telescopio senza un oculare usato per proiettarla.",
+    "example": "Il sensore registra l’immagine del telescopio senza proiezione tramite oculare",
+    "source": "https://www.treccani.it/enciclopedia/telescopio/",
+    "lesson": "astrofotografia.html",
+    "related": [
+      "piano-focale",
+      "sensore",
+      "focheggiatore"
+    ],
+    "checked": "2026-11-05",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Il telescopio come obiettivo",
+        "paragraphs": [
+          "Una camera collegata al telescopio può usare l’ottica principale per formare l’immagine sul sensore. Non serve mantenere l’obiettivo fotografico davanti a un oculare, come nell’afocale. Il sensore deve trovarsi nella posizione adatta e gli adattatori devono conservare una connessione stabile. La luce non diventa un’immagine nitida soltanto perché la camera è fissata al tubo: corsa del fuoco, geometria degli accessori e compatibilità meccanica entrano nella configurazione."
+        ]
+      },
+      {
+        "title": "La scala dell’immagine",
+        "paragraphs": [
+          "La focale effettiva e le dimensioni dei pixel determinano la scala angolare campionata. Il campo complessivo dipende anche dall’estensione del sensore. In fotografia non basta quindi cercare un numero di ingrandimenti come nel visuale. Un ritaglio mostrato grande sullo schermo può dare un’impressione diversa senza aggiungere dettaglio fisico. Il confronto deve usare la stessa scala o dichiarare il ricampionamento, soprattutto quando si valutano stelle, dischi planetari o prestazioni di strumenti differenti."
+        ]
+      },
+      {
+        "title": "Correttori e distanze",
+        "paragraphs": [
+          "Una configurazione fotografica può includere elementi progettati come spianatori o correttori, con distanze precise dal sensore. Il termine fuoco diretto distingue il principio della ripresa dalla proiezione attraverso un oculare; gli accessori reali vanno comunque descritti. Se una Barlow o un riduttore cambia la focale, occorre usare il valore effettivo. Un sensore grande può inoltre richiedere un campo corretto e illuminato che il telescopio non offre automaticamente su tutta la sua superficie."
+        ]
+      },
+      {
+        "title": "Dopo il montaggio",
+        "paragraphs": [
+          "La messa a fuoco deve essere controllata sui dati e ripetuta quando condizioni o configurazione cambiano. Inseguimento e stabilità diventano importanti per pose sufficientemente lunghe. La calibrazione del sensore affronta invece altri contributi. Questi passaggi hanno funzioni diverse: un buon fuoco non cancella il mosso e un dark non raddrizza stelle trascinate. Il percorso pratico risulta comprensibile quando si vede quale problema risolva ogni fase, dall’assemblaggio alla verifica dell’immagine e alla conservazione dei file originali."
+        ]
+      }
+    ],
+    "facts": [
+      "Il sensore registra l’immagine del telescopio senza proiezione tramite oculare",
+      "Campo e scala dipendono da focale effettiva e sensore"
+    ],
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/telescopio/"
+      }
     ]
   },
   {
@@ -21125,60 +21531,6 @@ window.AdAstraGlossary = [
     ]
   },
   {
-    "id": "galassia-seyfert",
-    "name": "Galassia di Seyfert",
-    "definition": "Una galassia di Seyfert ospita un nucleo attivo brillante con caratteristiche righe di emissione nello spettro; la galassia ospite è generalmente distinguibile.",
-    "source": "https://www.treccani.it/enciclopedia/universo_(Enciclopedia-della-Scienza-e-della-Tecnica)/",
-    "lesson": "lezione-6-2.html",
-    "related": [
-      "nucleo-galattico-attivo",
-      "riga-spettrale",
-      "accrescimento"
-    ],
-    "checked": "2026-11-07",
-    "editorialStatus": "scheda-estesa",
-    "sections": [
-      {
-        "title": "La galassia e il suo centro",
-        "paragraphs": [
-          "Osservando una galassia di Seyfert si distinguono due scale: la struttura estesa dell’insieme stellare e una regione nucleare particolarmente luminosa. L’attività non coincide con una concentrazione di normali stelle tutte uguali. Nel quadro fisico viene collegata all’accrescimento presso un buco nero supermassiccio. La luce proviene dal materiale e dai processi esterni all’orizzonte, non da una superficie luminosa del buco nero."
-        ]
-      },
-      {
-        "title": "Che cosa aggiunge lo spettro",
-        "paragraphs": [
-          "Le righe di emissione permettono di studiare gas eccitato e ionizzato nelle regioni nucleari. Larghezze e rapporti fra righe forniscono indizi su velocità e condizioni fisiche. La distinzione tradizionale fra tipi di Seyfert riguarda anche la presenza di componenti larghe o strette. Una fotografia da sola non contiene tutte queste informazioni: per capire la classificazione occorre collegare aspetto e spettroscopia, senza trasformare una differenza spettrale in una diversa forma geometrica obbligatoria."
-        ]
-      },
-      {
-        "title": "La direzione di osservazione",
-        "paragraphs": [
-          "Nel modello unificato degli oggetti attivi, orientamento e materiale oscurante contribuiscono a spiegare differenze osservate fra alcune classi. La geometria non è però una scusa per ignorare tutte le differenze fisiche. Potenza, contenuto di gas e variabilità possono contare. Il modello serve a formulare relazioni verificabili fra osservazioni, mantenendo distinto ciò che cambia con la visuale da ciò che cambia nella sorgente stessa."
-        ]
-      },
-      {
-        "title": "Un laboratorio su più bande",
-        "paragraphs": [
-          "Raggi X, luce visibile, infrarosso e radio descrivono componenti e processi differenti. Una campagna coordinata permette di confrontarne le variazioni. Il centro può apparire dominante in una banda e meno evidente in un’altra. Questo spiega perché una scheda divulgativa debba indicare quale immagine mostra e quale parte dell’attività rappresenta, evitando di usare la stessa fotografia come dimostrazione indistinta di tutte le proprietà della galassia."
-        ]
-      }
-    ],
-    "facts": [
-      "La classificazione Seyfert richiede informazioni spettrali, oltre alla fotografia"
-    ],
-    "example": "La classificazione Seyfert richiede informazioni spettrali, oltre alla fotografia",
-    "sources": [
-      {
-        "title": "Treccani · riferimento terminologico",
-        "url": "https://www.treccani.it/enciclopedia/universo_(Enciclopedia-della-Scienza-e-della-Tecnica)/"
-      },
-      {
-        "title": "NASA · tipi di galassie attive",
-        "url": "https://science.nasa.gov/universe/galaxies/types/"
-      }
-    ]
-  },
-  {
     "id": "galassia-ellittica",
     "name": "Galassia ellittica",
     "definition": "Una galassia ellittica ha una distribuzione della luce generalmente regolare, con contorni proiettati ellittici e senza evidenti bracci a spirale.",
@@ -21416,6 +21768,60 @@ window.AdAstraGlossary = [
     ],
     "aliases": [
       "galassie nane"
+    ]
+  },
+  {
+    "id": "galassia-seyfert",
+    "name": "Galassia di Seyfert",
+    "definition": "Una galassia di Seyfert ospita un nucleo attivo brillante con caratteristiche righe di emissione nello spettro; la galassia ospite è generalmente distinguibile.",
+    "source": "https://www.treccani.it/enciclopedia/universo_(Enciclopedia-della-Scienza-e-della-Tecnica)/",
+    "lesson": "lezione-6-2.html",
+    "related": [
+      "nucleo-galattico-attivo",
+      "riga-spettrale",
+      "accrescimento"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "La galassia e il suo centro",
+        "paragraphs": [
+          "Osservando una galassia di Seyfert si distinguono due scale: la struttura estesa dell’insieme stellare e una regione nucleare particolarmente luminosa. L’attività non coincide con una concentrazione di normali stelle tutte uguali. Nel quadro fisico viene collegata all’accrescimento presso un buco nero supermassiccio. La luce proviene dal materiale e dai processi esterni all’orizzonte, non da una superficie luminosa del buco nero."
+        ]
+      },
+      {
+        "title": "Che cosa aggiunge lo spettro",
+        "paragraphs": [
+          "Le righe di emissione permettono di studiare gas eccitato e ionizzato nelle regioni nucleari. Larghezze e rapporti fra righe forniscono indizi su velocità e condizioni fisiche. La distinzione tradizionale fra tipi di Seyfert riguarda anche la presenza di componenti larghe o strette. Una fotografia da sola non contiene tutte queste informazioni: per capire la classificazione occorre collegare aspetto e spettroscopia, senza trasformare una differenza spettrale in una diversa forma geometrica obbligatoria."
+        ]
+      },
+      {
+        "title": "La direzione di osservazione",
+        "paragraphs": [
+          "Nel modello unificato degli oggetti attivi, orientamento e materiale oscurante contribuiscono a spiegare differenze osservate fra alcune classi. La geometria non è però una scusa per ignorare tutte le differenze fisiche. Potenza, contenuto di gas e variabilità possono contare. Il modello serve a formulare relazioni verificabili fra osservazioni, mantenendo distinto ciò che cambia con la visuale da ciò che cambia nella sorgente stessa."
+        ]
+      },
+      {
+        "title": "Un laboratorio su più bande",
+        "paragraphs": [
+          "Raggi X, luce visibile, infrarosso e radio descrivono componenti e processi differenti. Una campagna coordinata permette di confrontarne le variazioni. Il centro può apparire dominante in una banda e meno evidente in un’altra. Questo spiega perché una scheda divulgativa debba indicare quale immagine mostra e quale parte dell’attività rappresenta, evitando di usare la stessa fotografia come dimostrazione indistinta di tutte le proprietà della galassia."
+        ]
+      }
+    ],
+    "facts": [
+      "La classificazione Seyfert richiede informazioni spettrali, oltre alla fotografia"
+    ],
+    "example": "La classificazione Seyfert richiede informazioni spettrali, oltre alla fotografia",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/universo_(Enciclopedia-della-Scienza-e-della-Tecnica)/"
+      },
+      {
+        "title": "NASA · tipi di galassie attive",
+        "url": "https://science.nasa.gov/universe/galaxies/types/"
+      }
     ]
   },
   {
@@ -22320,6 +22726,34 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "giotto-sonda",
+    "name": "Giotto (sonda)",
+    "definition": "Sonda ESA che nel 1986 sorvolò la cometa di Halley e ne riprese il nucleo.",
+    "source": "https://www.esa.int/Science_Exploration/Space_Science/Giotto_overview",
+    "lesson": "lezione-3-5.html",
+    "related": [
+      "rosetta"
+    ],
+    "sections": [
+      {
+        "title": "Contesto storico",
+        "paragraphs": [
+          "Il sorvolo mostrò un nucleo scuro e irregolare, con getti di materiale. Giotto visitò poi anche la cometa Grigg–Skjellerup."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "ESA",
+        "url": "https://www.esa.int/Science_Exploration/Space_Science/Giotto_overview"
+      }
+    ],
+    "checked": "2026-11-17",
+    "aliases": [
+      "sonda Giotto"
+    ]
+  },
+  {
     "id": "giove",
     "name": "Giove",
     "definition": "Giove è il pianeta più grande del Sistema solare, un gigante composto soprattutto da idrogeno ed elio, con atmosfera dinamica e un esteso sistema di satelliti.",
@@ -22932,68 +23366,6 @@ window.AdAstraGlossary = [
     ]
   },
   {
-    "id": "gruppo-periodico",
-    "name": "Gruppo della tavola periodica",
-    "definition": "Un gruppo è una colonna della tavola periodica; nella numerazione moderna le colonne principali sono identificate da numeri da 1 a 18.",
-    "source": "https://www.treccani.it/enciclopedia/elementi_(Enciclopedia-dei-ragazzi)/",
-    "lesson": "lezione-4-3.html",
-    "related": [
-      "tavola-periodica",
-      "configurazione-elettronica",
-      "periodo-chimico"
-    ],
-    "checked": "2026-11-06",
-    "editorialStatus": "scheda-estesa",
-    "sections": [
-      {
-        "title": "Una colonna, non un ammasso",
-        "paragraphs": [
-          "Nel contesto chimico gruppo indica la posizione verticale nella tavola periodica. Non è un gruppo di stelle e non significa che gli elementi della colonna si trovino necessariamente insieme nello stesso minerale. La disposizione evidenzia relazioni fra configurazioni elettroniche e comportamento chimico. Il lettore deve quindi partire dal contesto: la stessa parola usata in astronomia e in chimica può indicare strutture concettuali completamente diverse, pur comparendo nella medesima lezione divulgativa."
-        ]
-      },
-      {
-        "title": "Le somiglianze elettroniche",
-        "paragraphs": [
-          "Per molti elementi rappresentativi gli elettroni più esterni aiutano a comprendere la somiglianza delle reazioni. Fluoro e cloro, per esempio, appartengono alla famiglia degli alogeni. Questo non li rende sostanze intercambiabili: dimensioni atomiche, energia e condizioni influenzano le proprietà. Una regola introduttiva sugli elettroni di valenza non va estesa senza cautela a ogni elemento di transizione. La tavola è più utile quando suggerisce confronti motivati, anziché risposte automatiche prive di eccezioni."
-        ]
-      },
-      {
-        "title": "Leggere la numerazione",
-        "paragraphs": [
-          "La numerazione dei gruppi da 1 a 18 evita ambiguità presenti in vecchi sistemi con numeri romani e lettere. Una tavola storica può quindi riportare etichette differenti da una moderna. Prima di confrontare due fonti bisogna verificare la convenzione. Non è un cambiamento del numero di protoni degli elementi: cambia il modo in cui le colonne vengono chiamate. Questa distinzione impedisce di interpretare una differenza di nomenclatura come una contraddizione sulla struttura della materia."
-        ]
-      },
-      {
-        "title": "Una tendenza da applicare con criterio",
-        "paragraphs": [
-          "Scendere lungo un gruppo significa confrontare elementi con nuclei e distribuzioni elettroniche più complessi, non aggiungere semplicemente neutroni allo stesso atomo. Gli isotopi restano all’interno dello stesso elemento e della stessa casella. In astro-chimica il confronto tra gruppi può orientare la lettura delle molecole e dei materiali, ma le abbondanze dipendono anche dalla storia nucleare e dall’ambiente. Somiglianza chimica e frequenza cosmica sono domande distinte, che richiedono dati differenti."
-        ]
-      }
-    ],
-    "facts": [
-      "Un gruppo è una colonna; un periodo è una riga"
-    ],
-    "example": "Un gruppo è una colonna; un periodo è una riga",
-    "sources": [
-      {
-        "title": "Treccani · riferimento terminologico",
-        "url": "https://www.treccani.it/enciclopedia/elementi_(Enciclopedia-dei-ragazzi)/"
-      },
-      {
-        "title": "Università di Camerino · introduzione a gruppi e periodi",
-        "url": "https://tavolaperiodica.unicam.it/introduzione.html"
-      },
-      {
-        "title": "IUPAC · disposizione moderna degli elementi",
-        "url": "https://iupac.org/what-we-do/periodic-table-of-elements/"
-      }
-    ],
-    "linkNames": [
-      "gruppo della tavola periodica",
-      "gruppi della tavola periodica"
-    ]
-  },
-  {
     "id": "gruppo-funzionale",
     "name": "Gruppo funzionale",
     "definition": "Un gruppo funzionale è un insieme riconoscibile di atomi o legami che contribuisce al comportamento chimico di una molecola.",
@@ -23098,6 +23470,68 @@ window.AdAstraGlossary = [
       }
     ],
     "aliases": []
+  },
+  {
+    "id": "gruppo-periodico",
+    "name": "Gruppo della tavola periodica",
+    "definition": "Un gruppo è una colonna della tavola periodica; nella numerazione moderna le colonne principali sono identificate da numeri da 1 a 18.",
+    "source": "https://www.treccani.it/enciclopedia/elementi_(Enciclopedia-dei-ragazzi)/",
+    "lesson": "lezione-4-3.html",
+    "related": [
+      "tavola-periodica",
+      "configurazione-elettronica",
+      "periodo-chimico"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Una colonna, non un ammasso",
+        "paragraphs": [
+          "Nel contesto chimico gruppo indica la posizione verticale nella tavola periodica. Non è un gruppo di stelle e non significa che gli elementi della colonna si trovino necessariamente insieme nello stesso minerale. La disposizione evidenzia relazioni fra configurazioni elettroniche e comportamento chimico. Il lettore deve quindi partire dal contesto: la stessa parola usata in astronomia e in chimica può indicare strutture concettuali completamente diverse, pur comparendo nella medesima lezione divulgativa."
+        ]
+      },
+      {
+        "title": "Le somiglianze elettroniche",
+        "paragraphs": [
+          "Per molti elementi rappresentativi gli elettroni più esterni aiutano a comprendere la somiglianza delle reazioni. Fluoro e cloro, per esempio, appartengono alla famiglia degli alogeni. Questo non li rende sostanze intercambiabili: dimensioni atomiche, energia e condizioni influenzano le proprietà. Una regola introduttiva sugli elettroni di valenza non va estesa senza cautela a ogni elemento di transizione. La tavola è più utile quando suggerisce confronti motivati, anziché risposte automatiche prive di eccezioni."
+        ]
+      },
+      {
+        "title": "Leggere la numerazione",
+        "paragraphs": [
+          "La numerazione dei gruppi da 1 a 18 evita ambiguità presenti in vecchi sistemi con numeri romani e lettere. Una tavola storica può quindi riportare etichette differenti da una moderna. Prima di confrontare due fonti bisogna verificare la convenzione. Non è un cambiamento del numero di protoni degli elementi: cambia il modo in cui le colonne vengono chiamate. Questa distinzione impedisce di interpretare una differenza di nomenclatura come una contraddizione sulla struttura della materia."
+        ]
+      },
+      {
+        "title": "Una tendenza da applicare con criterio",
+        "paragraphs": [
+          "Scendere lungo un gruppo significa confrontare elementi con nuclei e distribuzioni elettroniche più complessi, non aggiungere semplicemente neutroni allo stesso atomo. Gli isotopi restano all’interno dello stesso elemento e della stessa casella. In astro-chimica il confronto tra gruppi può orientare la lettura delle molecole e dei materiali, ma le abbondanze dipendono anche dalla storia nucleare e dall’ambiente. Somiglianza chimica e frequenza cosmica sono domande distinte, che richiedono dati differenti."
+        ]
+      }
+    ],
+    "facts": [
+      "Un gruppo è una colonna; un periodo è una riga"
+    ],
+    "example": "Un gruppo è una colonna; un periodo è una riga",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/elementi_(Enciclopedia-dei-ragazzi)/"
+      },
+      {
+        "title": "Università di Camerino · introduzione a gruppi e periodi",
+        "url": "https://tavolaperiodica.unicam.it/introduzione.html"
+      },
+      {
+        "title": "IUPAC · disposizione moderna degli elementi",
+        "url": "https://iupac.org/what-we-do/periodic-table-of-elements/"
+      }
+    ],
+    "linkNames": [
+      "gruppo della tavola periodica",
+      "gruppi della tavola periodica"
+    ]
   },
   {
     "id": "guadagno-elettronico",
@@ -23729,67 +24163,6 @@ window.AdAstraGlossary = [
     ]
   },
   {
-    "id": "diagramma-hr",
-    "name": "Hertzsprung–Russell, diagramma di",
-    "definition": "Il diagramma di Hertzsprung–Russell confronta luminosità e temperatura efficace o tipo spettrale delle stelle, permettendo di studiarne struttura ed evoluzione.",
-    "example": "Nel diagramma consueto la temperatura aumenta verso sinistra",
-    "source": "https://www.treccani.it/enciclopedia/stella/",
-    "lesson": "lezione-4-4.html",
-    "related": [
-      "sequenza-principale",
-      "temperatura",
-      "luminosita"
-    ],
-    "checked": "2026-11-05",
-    "editorialStatus": "scheda-estesa",
-    "sections": [
-      {
-        "title": "Una mappa delle proprietà stellari",
-        "paragraphs": [
-          "Ogni punto rappresenta una stella o un modello con determinate proprietà. Nell’impostazione consueta la luminosità aumenta verso l’alto e la temperatura cresce andando verso sinistra. Leggere questo verso è essenziale, perché differisce da molte scale quotidiane. Una stella calda e poco luminosa occupa una zona diversa da una stella calda e molto luminosa. Il confronto rivela quindi informazioni che un semplice ordinamento per colore lascerebbe nascoste."
-        ]
-      },
-      {
-        "title": "Le regioni principali",
-        "paragraphs": [
-          "La sequenza principale raccoglie stelle che sostengono l’emissione soprattutto con fusione centrale dell’idrogeno. Giganti e supergiganti si trovano in altre regioni, mentre le nane bianche combinano temperature elevate con luminosità relativamente contenute per la piccola superficie. Il raggio contribuisce a spiegare queste differenze. La posizione sul grafico riguarda proprietà fisiche, quindi la vicinanza fra due punti non dimostra che le stelle siano vicine nella Galassia o facciano parte dello stesso sistema."
-        ]
-      },
-      {
-        "title": "Dati osservativi e modello",
-        "paragraphs": [
-          "Un diagramma può usare luminosità e temperatura oppure magnitudini e indici di colore. Le rappresentazioni sono collegate, ma richiedono distanze, correzioni e ipotesi appropriate. Assorbimento e sistemi multipli possono influire sulla posizione ricavata dai dati. La legenda deve dire quali quantità compaiono e quale campione viene mostrato. Un ammasso con stelle a distanza simile offre un contesto differente da un insieme di sorgenti distribuite a distanze molto diverse."
-        ]
-      },
-      {
-        "title": "Seguire una storia",
-        "paragraphs": [
-          "Una traccia evolutiva descrive come cambia un modello stellare nel tempo. La sua forma va distinta dalla distribuzione di stelle differenti che occupano la sequenza principale. Nel laboratorio si può selezionare una massa iniziale e seguire poche tappe commentate, mantenendo dichiarate le semplificazioni. Il lettore riconosce così il rapporto fra cambiamenti interni, temperatura, raggio e luce emessa, senza immaginare che ogni stella debba attraversare tutti i punti del grafico come una graduatoria universale."
-        ]
-      }
-    ],
-    "facts": [
-      "Nel diagramma consueto la temperatura aumenta verso sinistra",
-      "Posizione nel diagramma e posizione nello spazio sono dati differenti"
-    ],
-    "sources": [
-      {
-        "title": "Treccani · riferimento terminologico",
-        "url": "https://www.treccani.it/enciclopedia/stella/"
-      },
-      {
-        "title": "INAF Cagliari · diagramma HR",
-        "url": "https://glossario.oa-cagliari.inaf.it/Diagramma_HR2.html"
-      }
-    ],
-    "aliases": [
-      "diagramma di Hertzsprung-Russell",
-      "diagramma di Hertzsprung–Russell",
-      "diagramma HR",
-      "diagramma H-R"
-    ]
-  },
-  {
     "id": "herzberg-gerhard",
     "name": "Herzberg, Gerhard",
     "definition": "Gerhard Herzberg (1904–1999) fu un fisico e spettroscopista, premiato con il Nobel per la chimica nel 1971 per studi sulla struttura delle molecole e dei radicali.",
@@ -24252,6 +24625,70 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "hubble-lemaitre-legge",
+    "name": "Hubble–Lemaître, legge di",
+    "definition": "La legge di Hubble–Lemaître collega l’espansione cosmica alle distanze: nel regime osservativo vicino, la velocità di recessione è approssimativamente proporzionale alla distanza.",
+    "example": "v ≈ H₀ × d è la forma introduttiva nel regime vicino",
+    "source": "https://www.treccani.it/enciclopedia/universo_(Enciclopedia-della-Scienza-e-della-Tecnica)/",
+    "lesson": "lezione-6-5.html",
+    "related": [
+      "redshift",
+      "universo",
+      "parsec"
+    ],
+    "checked": "2026-11-05",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Più lontano, maggiore recessione media",
+        "paragraphs": [
+          "Confrontando galassie sufficientemente lontane perché i moti locali non dominino, emerge una relazione fra distanza e recessione associata all’espansione. Nel regime di piccoli spostamenti cosmologici verso il rosso, la forma introduttiva è v uguale H zero per d. La lettera v rappresenta la velocità di recessione, d la distanza e H zero il parametro di espansione all’epoca attuale. Non descrive l’allontanamento di ogni stella nella nostra Galassia né un’esplosione con la Terra al centro."
+        ]
+      },
+      {
+        "title": "Leggere le unità prima dei numeri",
+        "paragraphs": [
+          "H zero si esprime comunemente in chilometri al secondo per megaparsec. Come esempio puramente didattico, con un valore assunto di settanta, una distanza di dieci megaparsec darebbe circa settecento chilometri al secondo. A venti megaparsec il valore raddoppierebbe. Il settanta scelto serve a mostrare la proporzione, non certifica una misura definitiva. Un megaparsec corrisponde a un milione di parsec: l’unità di distanza deve essere compatibile con quella usata nel coefficiente prima di moltiplicare."
+        ]
+      },
+      {
+        "title": "Il limite dell’approssimazione",
+        "paragraphs": [
+          "A distanze cosmologiche il rapporto fra redshift, tempo e differenti definizioni di distanza richiede un modello dell’espansione. Non si deve applicare senza limite la conversione v circa c per z. Inoltre le galassie hanno movimenti dovuti alla gravità locale, che si aggiungono al quadro medio e possono essere importanti nei dintorni. Andromeda in avvicinamento non smentisce quindi l’espansione cosmica. Bisogna distinguere il comportamento di un sistema gravitazionalmente legato dalla relazione studiata su scale maggiori."
+        ]
+      },
+      {
+        "title": "Una misura e una storia da ricostruire",
+        "paragraphs": [
+          "Il parametro di espansione può cambiare con l’epoca cosmica; il termine costante si riferisce al valore usato per un’epoca nel modello. Metodi differenti di stima devono essere confrontati con incertezze e assunzioni. La denominazione Hubble–Lemaître riconosce contributi storici diversi alla relazione fra teoria e osservazioni. Per il lettore il nucleo rimane semplice: misurare spettri e distanze permette di interrogare l’evoluzione dell’Universo, mentre la formula introduttiva ha un campo di applicazione da mantenere esplicito."
+        ]
+      }
+    ],
+    "facts": [
+      "v ≈ H₀ × d è la forma introduttiva nel regime vicino",
+      "Moti locali e differenti distanze cosmologiche richiedono attenzione"
+    ],
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/universo_(Enciclopedia-della-Scienza-e-della-Tecnica)/"
+      },
+      {
+        "title": "NASA · parametro di Hubble e confronto dei metodi",
+        "url": "https://science.nasa.gov/mission/hubble/science/science-behind-the-discoveries/hubble-constant-and-tension/"
+      },
+      {
+        "title": "IAU · denominazione Hubble–Lemaître",
+        "url": "https://www.iau.org/Iau/News/PR2018/hubble-lemaitre-law-renamed.aspx"
+      }
+    ],
+    "aliases": [
+      "legge di Hubble",
+      "legge di Hubble–Lemaître",
+      "legge di Hubble-Lemaitre"
+    ]
+  },
+  {
     "id": "hubble-telescopio",
     "name": "Hubble, telescopio spaziale",
     "definition": "Hubble è un osservatorio spaziale NASA/ESA lanciato nel 1990, con specchio principale di 2,4 metri. Osserva soprattutto in ultravioletto, visibile e vicino infrarosso.",
@@ -24316,70 +24753,6 @@ window.AdAstraGlossary = [
       "telescopio Hubble",
       "Hubble Space Telescope",
       "HST"
-    ]
-  },
-  {
-    "id": "hubble-lemaitre-legge",
-    "name": "Hubble–Lemaître, legge di",
-    "definition": "La legge di Hubble–Lemaître collega l’espansione cosmica alle distanze: nel regime osservativo vicino, la velocità di recessione è approssimativamente proporzionale alla distanza.",
-    "example": "v ≈ H₀ × d è la forma introduttiva nel regime vicino",
-    "source": "https://www.treccani.it/enciclopedia/universo_(Enciclopedia-della-Scienza-e-della-Tecnica)/",
-    "lesson": "lezione-6-5.html",
-    "related": [
-      "redshift",
-      "universo",
-      "parsec"
-    ],
-    "checked": "2026-11-05",
-    "editorialStatus": "scheda-estesa",
-    "sections": [
-      {
-        "title": "Più lontano, maggiore recessione media",
-        "paragraphs": [
-          "Confrontando galassie sufficientemente lontane perché i moti locali non dominino, emerge una relazione fra distanza e recessione associata all’espansione. Nel regime di piccoli spostamenti cosmologici verso il rosso, la forma introduttiva è v uguale H zero per d. La lettera v rappresenta la velocità di recessione, d la distanza e H zero il parametro di espansione all’epoca attuale. Non descrive l’allontanamento di ogni stella nella nostra Galassia né un’esplosione con la Terra al centro."
-        ]
-      },
-      {
-        "title": "Leggere le unità prima dei numeri",
-        "paragraphs": [
-          "H zero si esprime comunemente in chilometri al secondo per megaparsec. Come esempio puramente didattico, con un valore assunto di settanta, una distanza di dieci megaparsec darebbe circa settecento chilometri al secondo. A venti megaparsec il valore raddoppierebbe. Il settanta scelto serve a mostrare la proporzione, non certifica una misura definitiva. Un megaparsec corrisponde a un milione di parsec: l’unità di distanza deve essere compatibile con quella usata nel coefficiente prima di moltiplicare."
-        ]
-      },
-      {
-        "title": "Il limite dell’approssimazione",
-        "paragraphs": [
-          "A distanze cosmologiche il rapporto fra redshift, tempo e differenti definizioni di distanza richiede un modello dell’espansione. Non si deve applicare senza limite la conversione v circa c per z. Inoltre le galassie hanno movimenti dovuti alla gravità locale, che si aggiungono al quadro medio e possono essere importanti nei dintorni. Andromeda in avvicinamento non smentisce quindi l’espansione cosmica. Bisogna distinguere il comportamento di un sistema gravitazionalmente legato dalla relazione studiata su scale maggiori."
-        ]
-      },
-      {
-        "title": "Una misura e una storia da ricostruire",
-        "paragraphs": [
-          "Il parametro di espansione può cambiare con l’epoca cosmica; il termine costante si riferisce al valore usato per un’epoca nel modello. Metodi differenti di stima devono essere confrontati con incertezze e assunzioni. La denominazione Hubble–Lemaître riconosce contributi storici diversi alla relazione fra teoria e osservazioni. Per il lettore il nucleo rimane semplice: misurare spettri e distanze permette di interrogare l’evoluzione dell’Universo, mentre la formula introduttiva ha un campo di applicazione da mantenere esplicito."
-        ]
-      }
-    ],
-    "facts": [
-      "v ≈ H₀ × d è la forma introduttiva nel regime vicino",
-      "Moti locali e differenti distanze cosmologiche richiedono attenzione"
-    ],
-    "sources": [
-      {
-        "title": "Treccani · riferimento terminologico",
-        "url": "https://www.treccani.it/enciclopedia/universo_(Enciclopedia-della-Scienza-e-della-Tecnica)/"
-      },
-      {
-        "title": "NASA · parametro di Hubble e confronto dei metodi",
-        "url": "https://science.nasa.gov/mission/hubble/science/science-behind-the-discoveries/hubble-constant-and-tension/"
-      },
-      {
-        "title": "IAU · denominazione Hubble–Lemaître",
-        "url": "https://www.iau.org/Iau/News/PR2018/hubble-lemaitre-law-renamed.aspx"
-      }
-    ],
-    "aliases": [
-      "legge di Hubble",
-      "legge di Hubble–Lemaître",
-      "legge di Hubble-Lemaitre"
     ]
   },
   {
@@ -25825,6 +26198,40 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "interferometro",
+    "name": "Interferometro",
+    "aliases": [
+      "interferometri",
+      "interferometer"
+    ],
+    "definition": "Un interferometro è uno strumento o un sistema che combina segnali ondulatori per misurarne le differenze attraverso l’interferenza. In astronomia può collegare telescopi separati: la tecnica impiegata si chiama interferometria.",
+    "source": "https://www.eso.org/public/teles-instr/technology/interferometry/",
+    "lesson": "lezione-7-3.html",
+    "related": [
+      "interferometria",
+      "interferenza",
+      "risoluzione-angolare"
+    ],
+    "checked": "2026-11-21",
+    "editorialStatus": "scheda-integrativa",
+    "example": "Non è un semplice accostamento di fotografie. La relazione fra i segnali permette di ricavare dettagli angolari; contano la separazione degli strumenti, la lunghezza d’onda e la qualità della misura. La risoluzione ottenibile non equivale automaticamente alla capacità di raccogliere luce di uno specchio pieno altrettanto grande.",
+    "sections": [
+      {
+        "title": "Come leggere il concetto",
+        "paragraphs": [
+          "Non è un semplice accostamento di fotografie. La relazione fra i segnali permette di ricavare dettagli angolari; contano la separazione degli strumenti, la lunghezza d’onda e la qualità della misura. La risoluzione ottenibile non equivale automaticamente alla capacità di raccogliere luce di uno specchio pieno altrettanto grande."
+        ]
+      }
+    ],
+    "facts": [],
+    "sources": [
+      {
+        "title": "ESO · Interferometry",
+        "url": "https://www.eso.org/public/teles-instr/technology/interferometry/"
+      }
+    ]
+  },
+  {
     "id": "intervallo-dinamico",
     "name": "Intervallo dinamico",
     "definition": "L’intervallo dinamico esprime il rapporto fra il segnale più grande utilizzabile e il livello minimo distinguibile secondo una definizione di misura dichiarata.",
@@ -25876,6 +26283,65 @@ window.AdAstraGlossary = [
     "aliases": [
       "Gamma dinamica"
     ]
+  },
+  {
+    "id": "invarianza-di-lorentz",
+    "name": "Invarianza di Lorentz",
+    "aliases": [
+      "invarianza Lorentz",
+      "simmetria di Lorentz",
+      "Lorentz invariance"
+    ],
+    "definition": "Simmetria della descrizione relativistica secondo cui le leggi fisiche mantengono la propria forma nel passaggio tra sistemi inerziali collegati da trasformazioni di Lorentz. Le singole misure di spazio e tempo possono invece cambiare.",
+    "lesson": "lezione-10-3.html",
+    "related": [
+      "relativita-ristretta",
+      "neutrino"
+    ],
+    "sections": [
+      {
+        "title": "Leggi coerenti tra osservatori",
+        "paragraphs": [
+          "Un sistema inerziale è un riferimento che non accelera. Due osservatori inerziali in moto relativo possono assegnare tempi e distanze diversi agli stessi eventi. Le trasformazioni di Lorentz collegano queste descrizioni rispettando la struttura dello spazio-tempo della relatività ristretta. Invarianza non significa che qualunque numero misurato sia identico per tutti. Significa conservare relazioni fisiche appropriate: certe quantità sono invarianti, mentre altre cambiano secondo regole definite. Occorre distinguere una legge fisica dal valore numerico di una sua particolare misura."
+        ]
+      },
+      {
+        "title": "Una simmetria non è una fotografia",
+        "paragraphs": [
+          "Non esiste un’immagine diretta dell’invarianza. Gli esperimenti confrontano osservazioni e previsioni, cercando eventuali scostamenti dalla simmetria entro modelli specifici. Un osservatore in movimento non dovrebbe introdurre una modifica arbitraria delle leggi fondamentali soltanto perché sceglie coordinate diverse. La verifica sperimentale mette alla prova conseguenze concrete di questo principio. Non richiede che un oggetto appaia uguale in ogni fotografia, né afferma che colori, energie o durate osservate debbano coincidere per tutti."
+        ]
+      },
+      {
+        "title": "Perché studiare i neutrini",
+        "paragraphs": [
+          "Le oscillazioni dei neutrini dipendono dal modo in cui questi stati quantistici si propagano. Alcune ipotesi di violazione dell’invarianza prevedono variazioni rispetto ai comportamenti attesi. Un esperimento può confrontare distribuzioni di energia e direzione con simulazioni che includono strumento, propagazione e fondi. L’assenza di uno scostamento significativo restringe lo spazio di parametri ammesso dalle ipotesi considerate; non trasforma lo studio in una verifica di ogni possibile alternativa alla relatività."
+        ]
+      },
+      {
+        "title": "Leggere correttamente un limite",
+        "paragraphs": [
+          "Un limite sperimentale specifica quali effetti sarebbero stati compatibili con dati, sensibilità e assunzioni dell’analisi. Non è la misura di una violazione quando nessun segnale è stato osservato. Il confronto tra rivelatori deve considerare configurazioni, tempi di raccolta e modelli impiegati. Per il lettore la domanda utile è quale previsione sia stata messa alla prova e con quale precisione, evitando di presentare ogni risultato nullo come dimostrazione definitiva di tutte le leggi della fisica."
+        ]
+      }
+    ],
+    "facts": [
+      "Le misure di spazio e tempo possono cambiare anche quando le leggi rispettano la simmetria.",
+      "Un limite su una violazione ipotizzata non equivale alla scoperta della violazione."
+    ],
+    "sources": [
+      {
+        "title": "Treccani — Luca Tomassini, invarianza di Lorentz",
+        "url": "https://www.treccani.it/enciclopedia/invarianza-di-lorentz_(Enciclopedia-della-Scienza-e-della-Tecnica)/"
+      },
+      {
+        "title": "KM3NeT — prova con neutrini atmosferici e limiti del modello",
+        "url": "https://www.km3net.org/lorentz-invariance/"
+      }
+    ],
+    "source": "https://www.treccani.it/enciclopedia/invarianza-di-lorentz_(Enciclopedia-della-Scienza-e-della-Tecnica)/",
+    "checked": "2026-11-26",
+    "editorialStatus": "scheda-estesa",
+    "example": "Le misure di spazio e tempo possono cambiare anche quando le leggi rispettano la simmetria."
   },
   {
     "id": "io-satellite",
@@ -28487,63 +28953,6 @@ window.AdAstraGlossary = [
     ]
   },
   {
-    "id": "legame-idrogeno",
-    "name": "Legame a idrogeno",
-    "definition": "Il legame a idrogeno è un’interazione nella quale un idrogeno già legato a un atomo partecipa a un’ulteriore associazione con un altro atomo o gruppo appropriato.",
-    "source": "https://www.treccani.it/enciclopedia/termodinamica-molecolare_(Enciclopedia-della-Scienza-e-della-Tecnica)/",
-    "lesson": "lezione-5-4.html",
-    "related": [
-      "acqua",
-      "legame-covalente",
-      "dipolo-elettrico"
-    ],
-    "checked": "2026-11-06",
-    "editorialStatus": "scheda-estesa",
-    "sections": [
-      {
-        "title": "Non è qualunque legame con idrogeno",
-        "paragraphs": [
-          "La presenza di H in una formula non basta a dimostrare un legame a idrogeno. Il termine descrive una specifica interazione aggiuntiva, non semplicemente il legame covalente che unisce l’idrogeno a un altro atomo. Gli esempi introduttivi coinvolgono spesso ossigeno, azoto o fluoro, ma la definizione scientifica richiede criteri più generali e riscontri. Una regola scolastica utile non deve essere presentata come un elenco assoluto di tutte le situazioni possibili."
-        ]
-      },
-      {
-        "title": "L’acqua come esempio",
-        "paragraphs": [
-          "Nell’acqua i legami covalenti O–H definiscono ciascuna molecola, mentre interazioni a idrogeno contribuiscono all’organizzazione fra molecole. Spezzare la rete di interazioni non equivale automaticamente a decomporre ogni molecola in atomi. Questa distinzione aiuta a comprendere perché cambiamenti di stato e reazioni chimiche non siano lo stesso processo. Le proprietà dell’insieme dipendono anche da come le molecole si associano, non soltanto dagli elementi presenti nella formula."
-        ]
-      },
-      {
-        "title": "Una geometria da rispettare",
-        "paragraphs": [
-          "Nei diagrammi si usa spesso una linea tratteggiata per distinguere l’interazione dal legame covalente. Il tratteggio non è un filamento materiale fotografato tra le molecole. Direzione, distanze e ambiente influenzano l’interazione, e una figura deve evitare collegamenti arbitrari tra tutti gli idrogeni visibili. Il modello può essere semplice, ma deve conservare le relazioni che intende spiegare. Anche una piccola legenda rende più chiara la differenza tra struttura molecolare e organizzazione dell’insieme."
-        ]
-      },
-      {
-        "title": "Ghiacci e superfici cosmiche",
-        "paragraphs": [
-          "I legami a idrogeno sono rilevanti per discutere materiali contenenti acqua e altre specie nei ghiacci e negli ambienti astrochimici. Non rendono però tutti i depositi ghiacciati identici né garantiscono la presenza di vita. Composizione, temperatura e struttura del solido modificano le proprietà. Il collegamento divulgativo utile è fra una relazione microscopica e un comportamento collettivo: riconoscere la molecola è il primo passo, capire come interagisce con le vicine aggiunge un livello diverso di informazione."
-        ]
-      }
-    ],
-    "facts": [
-      "Il legame covalente O–H e il legame a idrogeno fra molecole sono concetti distinti"
-    ],
-    "example": "Il legame covalente O–H e il legame a idrogeno fra molecole sono concetti distinti",
-    "sources": [
-      {
-        "title": "Treccani · quadro terminologico generale; dettagli nelle fonti specifiche",
-        "url": "https://www.treccani.it/enciclopedia/termodinamica-molecolare_(Enciclopedia-della-Scienza-e-della-Tecnica)/"
-      },
-      {
-        "title": "IUPAC · criteri per il legame a idrogeno",
-        "url": "https://publications.iupac.org/pac/pdf/2011/pdf/8308x1637.pdf"
-      }
-    ],
-    "aliases": [
-      "Ponte a idrogeno"
-    ]
-  },
-  {
     "id": "legame-chimico",
     "name": "Legame chimico",
     "definition": "Un legame chimico è un’interazione che mantiene una struttura di atomi in una configurazione legata, coinvolgendo nuclei ed elettroni.",
@@ -28646,6 +29055,63 @@ window.AdAstraGlossary = [
         "title": "Treccani · strutture e legami nei cristalli",
         "url": "https://www.treccani.it/enciclopedia/cristallo/"
       }
+    ]
+  },
+  {
+    "id": "legame-idrogeno",
+    "name": "Legame a idrogeno",
+    "definition": "Il legame a idrogeno è un’interazione nella quale un idrogeno già legato a un atomo partecipa a un’ulteriore associazione con un altro atomo o gruppo appropriato.",
+    "source": "https://www.treccani.it/enciclopedia/termodinamica-molecolare_(Enciclopedia-della-Scienza-e-della-Tecnica)/",
+    "lesson": "lezione-5-4.html",
+    "related": [
+      "acqua",
+      "legame-covalente",
+      "dipolo-elettrico"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Non è qualunque legame con idrogeno",
+        "paragraphs": [
+          "La presenza di H in una formula non basta a dimostrare un legame a idrogeno. Il termine descrive una specifica interazione aggiuntiva, non semplicemente il legame covalente che unisce l’idrogeno a un altro atomo. Gli esempi introduttivi coinvolgono spesso ossigeno, azoto o fluoro, ma la definizione scientifica richiede criteri più generali e riscontri. Una regola scolastica utile non deve essere presentata come un elenco assoluto di tutte le situazioni possibili."
+        ]
+      },
+      {
+        "title": "L’acqua come esempio",
+        "paragraphs": [
+          "Nell’acqua i legami covalenti O–H definiscono ciascuna molecola, mentre interazioni a idrogeno contribuiscono all’organizzazione fra molecole. Spezzare la rete di interazioni non equivale automaticamente a decomporre ogni molecola in atomi. Questa distinzione aiuta a comprendere perché cambiamenti di stato e reazioni chimiche non siano lo stesso processo. Le proprietà dell’insieme dipendono anche da come le molecole si associano, non soltanto dagli elementi presenti nella formula."
+        ]
+      },
+      {
+        "title": "Una geometria da rispettare",
+        "paragraphs": [
+          "Nei diagrammi si usa spesso una linea tratteggiata per distinguere l’interazione dal legame covalente. Il tratteggio non è un filamento materiale fotografato tra le molecole. Direzione, distanze e ambiente influenzano l’interazione, e una figura deve evitare collegamenti arbitrari tra tutti gli idrogeni visibili. Il modello può essere semplice, ma deve conservare le relazioni che intende spiegare. Anche una piccola legenda rende più chiara la differenza tra struttura molecolare e organizzazione dell’insieme."
+        ]
+      },
+      {
+        "title": "Ghiacci e superfici cosmiche",
+        "paragraphs": [
+          "I legami a idrogeno sono rilevanti per discutere materiali contenenti acqua e altre specie nei ghiacci e negli ambienti astrochimici. Non rendono però tutti i depositi ghiacciati identici né garantiscono la presenza di vita. Composizione, temperatura e struttura del solido modificano le proprietà. Il collegamento divulgativo utile è fra una relazione microscopica e un comportamento collettivo: riconoscere la molecola è il primo passo, capire come interagisce con le vicine aggiunge un livello diverso di informazione."
+        ]
+      }
+    ],
+    "facts": [
+      "Il legame covalente O–H e il legame a idrogeno fra molecole sono concetti distinti"
+    ],
+    "example": "Il legame covalente O–H e il legame a idrogeno fra molecole sono concetti distinti",
+    "sources": [
+      {
+        "title": "Treccani · quadro terminologico generale; dettagli nelle fonti specifiche",
+        "url": "https://www.treccani.it/enciclopedia/termodinamica-molecolare_(Enciclopedia-della-Scienza-e-della-Tecnica)/"
+      },
+      {
+        "title": "IUPAC · criteri per il legame a idrogeno",
+        "url": "https://publications.iupac.org/pac/pdf/2011/pdf/8308x1637.pdf"
+      }
+    ],
+    "aliases": [
+      "Ponte a idrogeno"
     ]
   },
   {
@@ -28807,56 +29273,6 @@ window.AdAstraGlossary = [
     ]
   },
   {
-    "id": "legge-inverso-quadrato",
-    "name": "Legge dell’inverso del quadrato",
-    "definition": "La legge dell’inverso del quadrato descrive una grandezza che diminuisce in proporzione al quadrato della distanza nelle condizioni fisiche cui la relazione si applica.",
-    "source": "https://www.treccani.it/enciclopedia/irraggiamento/",
-    "lesson": "lezione-4-2.html",
-    "related": [
-      "isotropia",
-      "flusso-radiativo",
-      "gravitazione"
-    ],
-    "checked": "2026-11-07",
-    "editorialStatus": "scheda-estesa",
-    "sections": [
-      {
-        "title": "La stessa energia su una superficie maggiore",
-        "paragraphs": [
-          "Se una sorgente emette uniformemente in tutte le direzioni e lo spazio non assorbe la radiazione, la potenza attraversa sfere via via più grandi. L’area cresce con il quadrato del raggio. Il flusso ricevuto per unità di superficie diminuisce di conseguenza. Non è necessario immaginare che i fotoni si stanchino durante il viaggio: la stessa emissione si distribuisce su un’area complessivamente più estesa."
-        ]
-      },
-      {
-        "title": "Due distanze facili da confrontare",
-        "paragraphs": [
-          "A distanza doppia, il flusso di una sorgente puntiforme isotropa diventa un quarto. A distanza tripla diventa un nono. I numeri quattro e nove sono due per due e tre per tre. Se la distanza si dimezza, il flusso quadruplica. Questi rapporti valgono a emissione uguale e nelle condizioni del modello: non si può usarli per confrontare sorgenti che abbiano potenze intrinseche differenti senza altre informazioni."
-        ]
-      },
-      {
-        "title": "Quando il modello non basta",
-        "paragraphs": [
-          "Assorbimento, emissione direzionale e dimensioni apparenti della sorgente possono richiedere correzioni. Per galassie cosmologicamente lontane entra una definizione appropriata della distanza e il redshift. Anche una superficie estesa risolta non va trattata semplicemente come un punto in ogni passaggio. Dichiarare le ipotesi non rende inutile la legge: chiarisce perché un principio semplice possa essere affidabile in un contesto e incompleto in un altro."
-        ]
-      },
-      {
-        "title": "Il collegamento con la gravità",
-        "paragraphs": [
-          "La gravitazione newtoniana fra masse puntiformi presenta una dipendenza inversa dal quadrato della distanza. Qui la grandezza descritta è una forza, non un flusso luminoso. L’analogia matematica non rende identici i fenomeni. Il vantaggio divulgativo è imparare a riconoscere la relazione: se la distanza cambia di un fattore, l’effetto cambia con il quadrato di quel fattore, rispettando sempre significato e condizioni della grandezza considerata."
-        ]
-      }
-    ],
-    "facts": [
-      "Distanza doppia significa flusso pari a un quarto, per una sorgente isotropa senza assorbimento"
-    ],
-    "example": "Distanza doppia significa flusso pari a un quarto, per una sorgente isotropa senza assorbimento",
-    "sources": [
-      {
-        "title": "Treccani · riferimento generale al tema; non riscontro puntuale di tutta la scheda",
-        "url": "https://www.treccani.it/enciclopedia/irraggiamento/"
-      }
-    ]
-  },
-  {
     "id": "legge-boyle",
     "name": "Legge di Boyle",
     "definition": "La legge di Boyle descrive l’inversa proporzionalità fra pressione e volume di una quantità fissata di gas ideale a temperatura costante.",
@@ -28903,6 +29319,56 @@ window.AdAstraGlossary = [
       {
         "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
         "url": "https://www.treccani.it/enciclopedia/robert-boyle/"
+      }
+    ]
+  },
+  {
+    "id": "legge-inverso-quadrato",
+    "name": "Legge dell’inverso del quadrato",
+    "definition": "La legge dell’inverso del quadrato descrive una grandezza che diminuisce in proporzione al quadrato della distanza nelle condizioni fisiche cui la relazione si applica.",
+    "source": "https://www.treccani.it/enciclopedia/irraggiamento/",
+    "lesson": "lezione-4-2.html",
+    "related": [
+      "isotropia",
+      "flusso-radiativo",
+      "gravitazione"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "La stessa energia su una superficie maggiore",
+        "paragraphs": [
+          "Se una sorgente emette uniformemente in tutte le direzioni e lo spazio non assorbe la radiazione, la potenza attraversa sfere via via più grandi. L’area cresce con il quadrato del raggio. Il flusso ricevuto per unità di superficie diminuisce di conseguenza. Non è necessario immaginare che i fotoni si stanchino durante il viaggio: la stessa emissione si distribuisce su un’area complessivamente più estesa."
+        ]
+      },
+      {
+        "title": "Due distanze facili da confrontare",
+        "paragraphs": [
+          "A distanza doppia, il flusso di una sorgente puntiforme isotropa diventa un quarto. A distanza tripla diventa un nono. I numeri quattro e nove sono due per due e tre per tre. Se la distanza si dimezza, il flusso quadruplica. Questi rapporti valgono a emissione uguale e nelle condizioni del modello: non si può usarli per confrontare sorgenti che abbiano potenze intrinseche differenti senza altre informazioni."
+        ]
+      },
+      {
+        "title": "Quando il modello non basta",
+        "paragraphs": [
+          "Assorbimento, emissione direzionale e dimensioni apparenti della sorgente possono richiedere correzioni. Per galassie cosmologicamente lontane entra una definizione appropriata della distanza e il redshift. Anche una superficie estesa risolta non va trattata semplicemente come un punto in ogni passaggio. Dichiarare le ipotesi non rende inutile la legge: chiarisce perché un principio semplice possa essere affidabile in un contesto e incompleto in un altro."
+        ]
+      },
+      {
+        "title": "Il collegamento con la gravità",
+        "paragraphs": [
+          "La gravitazione newtoniana fra masse puntiformi presenta una dipendenza inversa dal quadrato della distanza. Qui la grandezza descritta è una forza, non un flusso luminoso. L’analogia matematica non rende identici i fenomeni. Il vantaggio divulgativo è imparare a riconoscere la relazione: se la distanza cambia di un fattore, l’effetto cambia con il quadrato di quel fattore, rispettando sempre significato e condizioni della grandezza considerata."
+        ]
+      }
+    ],
+    "facts": [
+      "Distanza doppia significa flusso pari a un quarto, per una sorgente isotropa senza assorbimento"
+    ],
+    "example": "Distanza doppia significa flusso pari a un quarto, per una sorgente isotropa senza assorbimento",
+    "sources": [
+      {
+        "title": "Treccani · riferimento generale al tema; non riscontro puntuale di tutta la scheda",
+        "url": "https://www.treccani.it/enciclopedia/irraggiamento/"
       }
     ]
   },
@@ -29454,66 +29920,58 @@ window.AdAstraGlossary = [
     ]
   },
   {
-    "id": "riga-21cm",
-    "name": "Linea a 21 cm dell’idrogeno",
-    "definition": "La linea a circa 21 centimetri è una transizione iperfine dell’idrogeno atomico neutro, con frequenza a riposo di circa 1420 megahertz.",
-    "example": "21 cm è la lunghezza dell’onda, non la dimensione della nube",
-    "source": "https://www.treccani.it/enciclopedia/idrogeno/",
-    "lesson": "lezione-6-1.html",
+    "id": "linea-di-vista",
+    "name": "Linea di vista",
+    "definition": "La linea di vista è la direzione che collega l’osservatore al punto o all’oggetto osservato. Serve a distinguere proiezione apparente e posizione tridimensionale.",
+    "example": "La stessa direzione può contenere oggetti a distanze differenti",
+    "source": "https://www.treccani.it/enciclopedia/visione/",
+    "lesson": "lezione-1-4.html",
     "related": [
-      "idrogeno",
-      "radiotelescopio",
+      "distanza-angolare",
+      "moto-proprio",
       "velocita-radiale"
     ],
-    "checked": "2026-11-06",
+    "checked": "2026-11-05",
     "editorialStatus": "scheda-estesa",
     "sections": [
       {
-        "title": "Una firma radio dell’idrogeno",
+        "title": "La direzione del nostro sguardo",
         "paragraphs": [
-          "L’idrogeno neutro possiede un elettrone e un protone. Una piccola differenza energetica fra configurazioni legate alle loro proprietà magnetiche permette una transizione nello stato elettronico fondamentale. La radiazione corrispondente appartiene alle onde radio. La lunghezza di circa ventuno centimetri non è la dimensione dell’atomo o della nube: descrive l’onda emessa. Il nome iperfine segnala che la separazione energetica è molto piccola rispetto a quella di molte transizioni ottiche."
+          "Indicare una stella significa scegliere una direzione a partire dal luogo in cui ci troviamo. Lungo quella direzione possono trovarsi corpi a distanze molto diverse. Una nube vicina, una stella della Galassia e una galassia lontana possono sovrapporsi nella stessa piccola regione apparente. La linea di vista non assegna quindi una distanza unica a tutto ciò che compare nell’immagine. È il primo riferimento geometrico per descrivere ciò che arriva al nostro occhio o al telescopio."
         ]
       },
       {
-        "title": "Guardare il gas oltre la polvere",
+        "title": "Il disegno nasce dalla proiezione",
         "paragraphs": [
-          "La polvere interstellare ostacola fortemente alcune osservazioni visibili, mentre questa radiazione radio permette di studiare idrogeno neutro in molte regioni della Galassia. Una mappa radio non è una fotografia ottica ricolorata: nasce da misure specifiche, con una propria risoluzione e sensibilità. L’idrogeno neutro viene spesso indicato con H I. Non va confuso con H II, che indica idrogeno ionizzato, o con l’idrogeno molecolare formato da coppie di atomi."
+          "Le costellazioni sono un esempio immediato: stelle separate nello spazio formano una figura riconoscibile da qui. Spostare di poco la testa non ne modifica sensibilmente il disegno perché le distanze stellari sono enormi rispetto al movimento. In un esperimento con palline vicine, invece, spostare l’osservatore cambia rapidamente la figura proiettata. L’analogia aiuta a capire la prospettiva, ma deve dichiarare la differenza di scala per non suggerire che basti attraversare un prato per cambiare una costellazione."
         ]
       },
       {
-        "title": "La frequenza racconta anche il movimento",
+        "title": "La luce incontra materiale lungo il percorso",
         "paragraphs": [
-          "Confrontando la frequenza osservata con quella a riposo si può studiare la componente del moto lungo la linea di vista. Spettri differenti permettono di separare contributi di gas con velocità diverse nella stessa direzione. Ricostruire la posizione delle nubi richiede però geometria e modelli del moto galattico. Non basta trasformare ogni frequenza in una distanza unica. In alcune direzioni esistono ambiguità che altre informazioni devono aiutare a risolvere."
+          "Gas e polvere interposti possono assorbire, diffondere o modificare la luce che riceviamo. Uno spettro può quindi contenere firme della sorgente e del materiale attraversato. Una nube scura appare evidente quando si proietta contro uno sfondo luminoso adatto. Il contesto geometrico conta quanto la sua presenza fisica. Per interpretare una fotografia bisogna chiedersi quali strutture siano davanti, quali dietro e quali informazioni permettano davvero di stabilirlo, senza dedurre la profondità soltanto dal contrasto."
         ]
       },
       {
-        "title": "Una mappa con limiti fisici",
+        "title": "Separare le componenti del moto",
         "paragraphs": [
-          "Intensità della linea, temperatura, opacità e struttura del gas entrano nell’interpretazione. Il segnale può essere osservato in emissione oppure in assorbimento rispetto a un fondo. Non descrive indistintamente tutta la massa interstellare, perché gas molecolare e ionizzato richiedono altre diagnosi. Nel laboratorio mostra spettro e direzione osservata insieme, distinguendo dati e ricostruzione. Questa firma collega così una proprietà microscopica dell’atomo alla grande architettura della Via Lattea senza ridurre la Galassia a una semplice fotografia colorata."
+          "La velocità radiale descrive il moto lungo la linea di vista, mentre il moto proprio misura il cambiamento angolare della direzione. Per ricostruire una velocità spaziale occorrono anche distanza e riferimento appropriato. Un oggetto che si avvicina può contemporaneamente spostarsi di lato. Le frecce disegnate su una carta mostrano quindi soltanto alcune componenti del movimento. La linea di vista diventa un riferimento utile per unire coordinate, spettri e prospettiva senza confondere ciò che vediamo con tutta la geometria reale."
         ]
       }
     ],
     "facts": [
-      "21 cm è la lunghezza dell’onda, non la dimensione della nube"
+      "La stessa direzione può contenere oggetti a distanze differenti",
+      "Velocità radiale e moto proprio descrivono componenti diverse del moto"
     ],
     "sources": [
       {
-        "title": "Treccani · quadro terminologico generale; dettagli nelle fonti specifiche",
-        "url": "https://www.treccani.it/enciclopedia/idrogeno/"
+        "title": "Treccani · riferimento generale sulla visione; geometria astronomica nel confronto ESA",
+        "url": "https://www.treccani.it/enciclopedia/visione/"
       },
       {
-        "title": "NRAO · origine e uso della linea a 21 cm",
-        "url": "https://www.gb.nrao.edu/fgdocs/HI21cm/21cm.html"
-      },
-      {
-        "title": "NRAO · righe spettrali radio e interpretazione",
-        "url": "https://www.cv.nrao.edu/~sransom/web/Ch7.html"
+        "title": "ESA Gaia · moto proprio e velocità spaziale",
+        "url": "https://www.esa.int/Science_Exploration/Space_Science/Gaia/Proper_motion"
       }
-    ],
-    "aliases": [
-      "riga a 21 cm",
-      "linea a 21 centimetri",
-      "riga dell’idrogeno a 21 cm"
     ]
   },
   {
@@ -29567,61 +30025,6 @@ window.AdAstraGlossary = [
       {
         "title": "ESO · transizioni dei ghiacci nei dischi",
         "url": "https://www.hq.eso.org/public/news/eso1333/"
-      }
-    ]
-  },
-  {
-    "id": "linea-di-vista",
-    "name": "Linea di vista",
-    "definition": "La linea di vista è la direzione che collega l’osservatore al punto o all’oggetto osservato. Serve a distinguere proiezione apparente e posizione tridimensionale.",
-    "example": "La stessa direzione può contenere oggetti a distanze differenti",
-    "source": "https://www.treccani.it/enciclopedia/visione/",
-    "lesson": "lezione-1-4.html",
-    "related": [
-      "distanza-angolare",
-      "moto-proprio",
-      "velocita-radiale"
-    ],
-    "checked": "2026-11-05",
-    "editorialStatus": "scheda-estesa",
-    "sections": [
-      {
-        "title": "La direzione del nostro sguardo",
-        "paragraphs": [
-          "Indicare una stella significa scegliere una direzione a partire dal luogo in cui ci troviamo. Lungo quella direzione possono trovarsi corpi a distanze molto diverse. Una nube vicina, una stella della Galassia e una galassia lontana possono sovrapporsi nella stessa piccola regione apparente. La linea di vista non assegna quindi una distanza unica a tutto ciò che compare nell’immagine. È il primo riferimento geometrico per descrivere ciò che arriva al nostro occhio o al telescopio."
-        ]
-      },
-      {
-        "title": "Il disegno nasce dalla proiezione",
-        "paragraphs": [
-          "Le costellazioni sono un esempio immediato: stelle separate nello spazio formano una figura riconoscibile da qui. Spostare di poco la testa non ne modifica sensibilmente il disegno perché le distanze stellari sono enormi rispetto al movimento. In un esperimento con palline vicine, invece, spostare l’osservatore cambia rapidamente la figura proiettata. L’analogia aiuta a capire la prospettiva, ma deve dichiarare la differenza di scala per non suggerire che basti attraversare un prato per cambiare una costellazione."
-        ]
-      },
-      {
-        "title": "La luce incontra materiale lungo il percorso",
-        "paragraphs": [
-          "Gas e polvere interposti possono assorbire, diffondere o modificare la luce che riceviamo. Uno spettro può quindi contenere firme della sorgente e del materiale attraversato. Una nube scura appare evidente quando si proietta contro uno sfondo luminoso adatto. Il contesto geometrico conta quanto la sua presenza fisica. Per interpretare una fotografia bisogna chiedersi quali strutture siano davanti, quali dietro e quali informazioni permettano davvero di stabilirlo, senza dedurre la profondità soltanto dal contrasto."
-        ]
-      },
-      {
-        "title": "Separare le componenti del moto",
-        "paragraphs": [
-          "La velocità radiale descrive il moto lungo la linea di vista, mentre il moto proprio misura il cambiamento angolare della direzione. Per ricostruire una velocità spaziale occorrono anche distanza e riferimento appropriato. Un oggetto che si avvicina può contemporaneamente spostarsi di lato. Le frecce disegnate su una carta mostrano quindi soltanto alcune componenti del movimento. La linea di vista diventa un riferimento utile per unire coordinate, spettri e prospettiva senza confondere ciò che vediamo con tutta la geometria reale."
-        ]
-      }
-    ],
-    "facts": [
-      "La stessa direzione può contenere oggetti a distanze differenti",
-      "Velocità radiale e moto proprio descrivono componenti diverse del moto"
-    ],
-    "sources": [
-      {
-        "title": "Treccani · riferimento generale sulla visione; geometria astronomica nel confronto ESA",
-        "url": "https://www.treccani.it/enciclopedia/visione/"
-      },
-      {
-        "title": "ESA Gaia · moto proprio e velocità spaziale",
-        "url": "https://www.esa.int/Science_Exploration/Space_Science/Gaia/Proper_motion"
       }
     ]
   },
@@ -30613,6 +31016,58 @@ window.AdAstraGlossary = [
         "url": "https://science.nasa.gov/photojournal/luna-16/"
       }
     ]
+  },
+  {
+    "id": "luna-2",
+    "name": "Luna 2",
+    "definition": "Sonda sovietica che nel 1959 diventò il primo manufatto umano a raggiungere la superficie lunare.",
+    "source": "https://www.nasa.gov/history/60-years-ago-luna-2-makes-impact-in-moon-race/",
+    "lesson": "lezione-3-4.html",
+    "related": [
+      "apollo-11"
+    ],
+    "sections": [
+      {
+        "title": "Contesto storico",
+        "paragraphs": [
+          "La missione si concluse con un impatto. Un allunaggio morbido richiede invece di ridurre la velocità prima del contatto con il suolo."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "NASA",
+        "url": "https://www.nasa.gov/history/60-years-ago-luna-2-makes-impact-in-moon-race/"
+      }
+    ],
+    "checked": "2026-11-17",
+    "aliases": []
+  },
+  {
+    "id": "luna-3",
+    "name": "Luna 3",
+    "definition": "Sonda sovietica che nel 1959 trasmise le prime fotografie della faccia lontana della Luna.",
+    "source": "https://nssdc.gsfc.nasa.gov/planetary/lunar/lunarussr.html",
+    "lesson": "lezione-3-4.html",
+    "related": [
+      "apollo-11"
+    ],
+    "sections": [
+      {
+        "title": "Contesto storico",
+        "paragraphs": [
+          "La sonda aggirò la Luna per riprendere una regione in gran parte invisibile dalla Terra. Anche questa regione riceve luce solare durante il ciclo lunare."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "NASA",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/lunarussr.html"
+      }
+    ],
+    "checked": "2026-11-17",
+    "aliases": []
   },
   {
     "id": "lune-galileiane",
@@ -35130,7 +35585,9 @@ window.AdAstraGlossary = [
       }
     ],
     "aliases": [
-      "neutrini"
+      "neutrini",
+      "oscillazioni dei neutrini",
+      "oscillazione dei neutrini"
     ]
   },
   {
@@ -37803,6 +38260,34 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "orion-capsula",
+    "name": "Orion (capsula spaziale)",
+    "definition": "Veicolo progettato per trasportare astronauti oltre l’orbita terrestre bassa.",
+    "source": "https://www.nasa.gov/reference/orion-spacecraft/",
+    "lesson": "lezione-3-4.html",
+    "related": [
+      "apollo-11"
+    ],
+    "sections": [
+      {
+        "title": "Contesto storico",
+        "paragraphs": [
+          "Il modulo equipaggio rientra sulla Terra. Il modulo di servizio fornisce energia e propulsione durante il volo."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "NASA",
+        "url": "https://www.nasa.gov/reference/orion-spacecraft/"
+      }
+    ],
+    "checked": "2026-11-17",
+    "aliases": [
+      "capsula Orion"
+    ]
+  },
+  {
     "id": "orizzonte",
     "name": "Orizzonte",
     "definition": "Il piano astronomico locale perpendicolare alla verticale dell’osservatore. Il profilo visibile di monti e case è un riferimento diverso.",
@@ -39116,6 +39601,67 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "periodo-orbitale",
+    "name": "Periodo orbitale",
+    "definition": "Il periodo orbitale è il tempo necessario a completare un ciclo del moto orbitale rispetto al riferimento specificato.",
+    "example": "La relazione P² = a³ richiede anni, UA e un sistema dominato dal Sole",
+    "source": "https://www.treccani.it/enciclopedia/orbita/",
+    "lesson": "lezione-3-6.html",
+    "related": [
+      "periodo-sinodico",
+      "keplero-leggi",
+      "semiasse-maggiore"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un giro richiede un riferimento",
+        "paragraphs": [
+          "Dire quanto dura un giro sembra semplice, ma occorre stabilire rispetto a che cosa si riconosca il ritorno. Il periodo siderale si riferisce all’orientamento rispetto alle stelle lontane; altri periodi descrivono ritorni al pericentro o ai nodi. Nei sistemi perturbati questi intervalli possono differire. Anche il periodo sinodico, legato alla configurazione osservata rispetto a un altro corpo, non è automaticamente il tempo della rivoluzione rispetto al riferimento stellare."
+        ]
+      },
+      {
+        "title": "La scala dell’orbita conta",
+        "paragraphs": [
+          "Nel modello kepleriano il periodo dipende dal semiasse maggiore e dalla massa complessiva dei due corpi. Per pianeti di massa trascurabile rispetto al Sole, usando anni e unità astronomiche, la relazione numerica approssimata è P² = a³. P indica il periodo e a il semiasse maggiore. Non è una regola valida con qualunque unità o attorno a qualunque stella senza adattamenti. La distanza istantanea dal Sole non va sostituita al semiasse maggiore."
+        ]
+      },
+      {
+        "title": "Periodo e velocità locale non coincidono",
+        "paragraphs": [
+          "Un pianeta su un’orbita ellittica cambia velocità durante il giro. Il periodo è il tempo complessivo del ciclo, non il tempo trascorso in ogni tratto della stessa lunghezza. Disegnare avanzamenti angolari uguali a intervalli uguali è corretto soltanto per un modello circolare uniforme appropriato. Un’animazione può accelerare il tempo per leggibilità, ma deve mantenere i rapporti dichiarati e distinguere la semplificazione da un’effemeride calcolata."
+        ]
+      },
+      {
+        "title": "Leggere i dati prima di confrontarli",
+        "paragraphs": [
+          "Quando un catalogo riporta un periodo, controlla definizione, unità e modello. Un valore osculatore descrive condizioni associate a un’epoca e non promette un ritorno identico per un tempo illimitato. Nei sistemi multipli le perturbazioni possono essere importanti. Nel diario introduttivo è sufficiente distinguere il ciclo orbitale da quello apparente osservato nel cielo. Questo evita di interpretare il ritorno di un pianeta nella stessa posizione rispetto al Sole come una copia esatta della sua rivoluzione fisica."
+        ]
+      }
+    ],
+    "facts": [
+      "La relazione P² = a³ richiede anni, UA e un sistema dominato dal Sole"
+    ],
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/orbita/"
+      },
+      {
+        "title": "JPL · elementi orbitali e riferimenti",
+        "url": "https://ssd.jpl.nasa.gov/horizons/manual.html"
+      },
+      {
+        "title": "NASA · principi delle orbite planetarie",
+        "url": "https://science.nasa.gov/learn/basics-of-space-flight/chapter5-1/"
+      }
+    ],
+    "aliases": [
+      "periodi orbitali"
+    ]
+  },
+  {
     "id": "periodo-pulsazione",
     "name": "Periodo di pulsazione stellare",
     "definition": "Il periodo di pulsazione stellare è l’intervallo caratteristico di ripetizione di un’oscillazione fisica della stella, riconoscibile attraverso misure appropriate.",
@@ -39175,67 +39721,6 @@ window.AdAstraGlossary = [
     "aliases": [
       "periodo di pulsazione",
       "periodi di pulsazione"
-    ]
-  },
-  {
-    "id": "periodo-orbitale",
-    "name": "Periodo orbitale",
-    "definition": "Il periodo orbitale è il tempo necessario a completare un ciclo del moto orbitale rispetto al riferimento specificato.",
-    "example": "La relazione P² = a³ richiede anni, UA e un sistema dominato dal Sole",
-    "source": "https://www.treccani.it/enciclopedia/orbita/",
-    "lesson": "lezione-3-6.html",
-    "related": [
-      "periodo-sinodico",
-      "keplero-leggi",
-      "semiasse-maggiore"
-    ],
-    "checked": "2026-11-06",
-    "editorialStatus": "scheda-estesa",
-    "sections": [
-      {
-        "title": "Un giro richiede un riferimento",
-        "paragraphs": [
-          "Dire quanto dura un giro sembra semplice, ma occorre stabilire rispetto a che cosa si riconosca il ritorno. Il periodo siderale si riferisce all’orientamento rispetto alle stelle lontane; altri periodi descrivono ritorni al pericentro o ai nodi. Nei sistemi perturbati questi intervalli possono differire. Anche il periodo sinodico, legato alla configurazione osservata rispetto a un altro corpo, non è automaticamente il tempo della rivoluzione rispetto al riferimento stellare."
-        ]
-      },
-      {
-        "title": "La scala dell’orbita conta",
-        "paragraphs": [
-          "Nel modello kepleriano il periodo dipende dal semiasse maggiore e dalla massa complessiva dei due corpi. Per pianeti di massa trascurabile rispetto al Sole, usando anni e unità astronomiche, la relazione numerica approssimata è P² = a³. P indica il periodo e a il semiasse maggiore. Non è una regola valida con qualunque unità o attorno a qualunque stella senza adattamenti. La distanza istantanea dal Sole non va sostituita al semiasse maggiore."
-        ]
-      },
-      {
-        "title": "Periodo e velocità locale non coincidono",
-        "paragraphs": [
-          "Un pianeta su un’orbita ellittica cambia velocità durante il giro. Il periodo è il tempo complessivo del ciclo, non il tempo trascorso in ogni tratto della stessa lunghezza. Disegnare avanzamenti angolari uguali a intervalli uguali è corretto soltanto per un modello circolare uniforme appropriato. Un’animazione può accelerare il tempo per leggibilità, ma deve mantenere i rapporti dichiarati e distinguere la semplificazione da un’effemeride calcolata."
-        ]
-      },
-      {
-        "title": "Leggere i dati prima di confrontarli",
-        "paragraphs": [
-          "Quando un catalogo riporta un periodo, controlla definizione, unità e modello. Un valore osculatore descrive condizioni associate a un’epoca e non promette un ritorno identico per un tempo illimitato. Nei sistemi multipli le perturbazioni possono essere importanti. Nel diario introduttivo è sufficiente distinguere il ciclo orbitale da quello apparente osservato nel cielo. Questo evita di interpretare il ritorno di un pianeta nella stessa posizione rispetto al Sole come una copia esatta della sua rivoluzione fisica."
-        ]
-      }
-    ],
-    "facts": [
-      "La relazione P² = a³ richiede anni, UA e un sistema dominato dal Sole"
-    ],
-    "sources": [
-      {
-        "title": "Treccani · riferimento terminologico",
-        "url": "https://www.treccani.it/enciclopedia/orbita/"
-      },
-      {
-        "title": "JPL · elementi orbitali e riferimenti",
-        "url": "https://ssd.jpl.nasa.gov/horizons/manual.html"
-      },
-      {
-        "title": "NASA · principi delle orbite planetarie",
-        "url": "https://science.nasa.gov/learn/basics-of-space-flight/chapter5-1/"
-      }
-    ],
-    "aliases": [
-      "periodi orbitali"
     ]
   },
   {
@@ -40431,6 +40916,39 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "polarimetria",
+    "name": "Polarimetria",
+    "aliases": [
+      "polarimetry"
+    ],
+    "definition": "La polarimetria misura lo stato di polarizzazione della radiazione, cioè proprietà legate all’orientamento e all’andamento dell’oscillazione del campo elettrico. Può rivelare informazioni sulla diffusione della luce e sulla geometria di sorgenti e materiali.",
+    "source": "https://www.eso.org/public/teles-instr/technology/polarimetry/",
+    "lesson": "lezione-4-3.html",
+    "related": [
+      "polarimetro",
+      "polarizzazione",
+      "spettropolarimetria"
+    ],
+    "checked": "2026-11-21",
+    "editorialStatus": "scheda-integrativa",
+    "example": "Il polarimetro è lo strumento utilizzato. Per interpretare la misura occorre tenere conto della polarizzazione introdotta dal telescopio e dagli apparati. La spettropolarimetria combina questa misura con l’informazione sulla lunghezza d’onda.",
+    "sections": [
+      {
+        "title": "Come leggere il concetto",
+        "paragraphs": [
+          "Il polarimetro è lo strumento utilizzato. Per interpretare la misura occorre tenere conto della polarizzazione introdotta dal telescopio e dagli apparati. La spettropolarimetria combina questa misura con l’informazione sulla lunghezza d’onda."
+        ]
+      }
+    ],
+    "facts": [],
+    "sources": [
+      {
+        "title": "ESO · Polarimetry",
+        "url": "https://www.eso.org/public/teles-instr/technology/polarimetry/"
+      }
+    ]
+  },
+  {
     "id": "polarimetro",
     "name": "Polarimetro",
     "definition": "Un polarimetro misura proprietà della polarizzazione della radiazione, distinguendo contributi che una sola misura di intensità non conserva.",
@@ -41263,6 +41781,60 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "pressione-parziale",
+    "name": "Pressione parziale",
+    "definition": "La pressione parziale descrive il contributo di un componente di una miscela gassosa; nel modello ideale coincide con la pressione che quel gas eserciterebbe da solo nello stesso volume e alla stessa temperatura.",
+    "source": "https://www.treccani.it/enciclopedia/john-la-legge-di-dalton-dalton_(Enciclopedia-Italiana)/",
+    "lesson": "lezione-3-3.html",
+    "related": [
+      "gas-ideale",
+      "pressione",
+      "massa-molare"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un’atmosfera contiene più ingredienti",
+        "paragraphs": [
+          "Una miscela può comprendere specie gassose differenti. La pressione totale non dice da sola quanto contribuisca ciascuna. La pressione parziale permette di collegare composizione e stato del gas nel modello adottato. Non indica una regione separata del contenitore: le specie possono occupare lo stesso volume. La parola parziale riguarda il contributo alla pressione, non il fatto che un componente rimanga confinato in una porzione geometrica dell’atmosfera."
+        ]
+      },
+      {
+        "title": "La legge di Dalton nel caso ideale",
+        "paragraphs": [
+          "Per una miscela ideale, la pressione totale è la somma delle pressioni parziali. Se due contributi sono 30 e 70 kPa, il totale è 100 kPa. La pressione parziale di una specie è anche la sua frazione molare moltiplicata per la pressione totale. Una frazione molare del 20% a 100 kPa corrisponde quindi a 20 kPa. Non bisogna sostituire senza conversione una percentuale in massa alla frazione molare."
+        ]
+      },
+      {
+        "title": "Una stessa percentuale può dare pressioni diverse",
+        "paragraphs": [
+          "Due atmosfere possono avere la stessa percentuale numerica di una specie ma pressioni totali differenti. Cambia allora la pressione parziale. Una descrizione basata soltanto sulla percentuale non esaurisce quindi le condizioni fisiche. In astronomia servono anche temperatura, struttura e modello dell’atmosfera. Le righe spettrali possono vincolare la composizione, ma non trasformano ogni percentuale ricavata in una misura diretta della pressione parziale a tutte le quote."
+        ]
+      },
+      {
+        "title": "L’ideale va distinto dal reale",
+        "paragraphs": [
+          "La definizione semplice funziona nel quadro delle miscele ideali. Interazioni significative e condizioni lontane da quel regime richiedono trattamenti più accurati. Inoltre una reazione può cambiare il numero e il tipo di particelle presenti. Nel percorso divulgativo questa voce permette di leggere una miscela come insieme di contributi misurabili, mantenendo separate tre domande: quali specie ci sono, quante sono rispetto alle altre e quale pressione esercita complessivamente il gas."
+        ]
+      }
+    ],
+    "facts": [
+      "Nel modello ideale: 20% molare di 100 kPa corrisponde a 20 kPa di pressione parziale"
+    ],
+    "example": "Nel modello ideale: 20% molare di 100 kPa corrisponde a 20 kPa di pressione parziale",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/john-la-legge-di-dalton-dalton_(Enciclopedia-Italiana)/"
+      },
+      {
+        "title": "Università di Verona · gas ideali e composizione",
+        "url": "https://docs.univr.it/documenti/OccorrenzaIns/matdid/matdid715310.pdf"
+      }
+    ]
+  },
+  {
     "id": "pressione-radiazione",
     "name": "Pressione di radiazione",
     "definition": "La pressione di radiazione è il trasferimento di quantità di moto della radiazione alla materia, descritto come forza per unità di area.",
@@ -41371,60 +41943,6 @@ window.AdAstraGlossary = [
     ],
     "aliases": [
       "Tensione di vapore"
-    ]
-  },
-  {
-    "id": "pressione-parziale",
-    "name": "Pressione parziale",
-    "definition": "La pressione parziale descrive il contributo di un componente di una miscela gassosa; nel modello ideale coincide con la pressione che quel gas eserciterebbe da solo nello stesso volume e alla stessa temperatura.",
-    "source": "https://www.treccani.it/enciclopedia/john-la-legge-di-dalton-dalton_(Enciclopedia-Italiana)/",
-    "lesson": "lezione-3-3.html",
-    "related": [
-      "gas-ideale",
-      "pressione",
-      "massa-molare"
-    ],
-    "checked": "2026-11-06",
-    "editorialStatus": "scheda-estesa",
-    "sections": [
-      {
-        "title": "Un’atmosfera contiene più ingredienti",
-        "paragraphs": [
-          "Una miscela può comprendere specie gassose differenti. La pressione totale non dice da sola quanto contribuisca ciascuna. La pressione parziale permette di collegare composizione e stato del gas nel modello adottato. Non indica una regione separata del contenitore: le specie possono occupare lo stesso volume. La parola parziale riguarda il contributo alla pressione, non il fatto che un componente rimanga confinato in una porzione geometrica dell’atmosfera."
-        ]
-      },
-      {
-        "title": "La legge di Dalton nel caso ideale",
-        "paragraphs": [
-          "Per una miscela ideale, la pressione totale è la somma delle pressioni parziali. Se due contributi sono 30 e 70 kPa, il totale è 100 kPa. La pressione parziale di una specie è anche la sua frazione molare moltiplicata per la pressione totale. Una frazione molare del 20% a 100 kPa corrisponde quindi a 20 kPa. Non bisogna sostituire senza conversione una percentuale in massa alla frazione molare."
-        ]
-      },
-      {
-        "title": "Una stessa percentuale può dare pressioni diverse",
-        "paragraphs": [
-          "Due atmosfere possono avere la stessa percentuale numerica di una specie ma pressioni totali differenti. Cambia allora la pressione parziale. Una descrizione basata soltanto sulla percentuale non esaurisce quindi le condizioni fisiche. In astronomia servono anche temperatura, struttura e modello dell’atmosfera. Le righe spettrali possono vincolare la composizione, ma non trasformano ogni percentuale ricavata in una misura diretta della pressione parziale a tutte le quote."
-        ]
-      },
-      {
-        "title": "L’ideale va distinto dal reale",
-        "paragraphs": [
-          "La definizione semplice funziona nel quadro delle miscele ideali. Interazioni significative e condizioni lontane da quel regime richiedono trattamenti più accurati. Inoltre una reazione può cambiare il numero e il tipo di particelle presenti. Nel percorso divulgativo questa voce permette di leggere una miscela come insieme di contributi misurabili, mantenendo separate tre domande: quali specie ci sono, quante sono rispetto alle altre e quale pressione esercita complessivamente il gas."
-        ]
-      }
-    ],
-    "facts": [
-      "Nel modello ideale: 20% molare di 100 kPa corrisponde a 20 kPa di pressione parziale"
-    ],
-    "example": "Nel modello ideale: 20% molare di 100 kPa corrisponde a 20 kPa di pressione parziale",
-    "sources": [
-      {
-        "title": "Treccani · riferimento terminologico",
-        "url": "https://www.treccani.it/enciclopedia/john-la-legge-di-dalton-dalton_(Enciclopedia-Italiana)/"
-      },
-      {
-        "title": "Università di Verona · gas ideali e composizione",
-        "url": "https://docs.univr.it/documenti/OccorrenzaIns/matdid/matdid715310.pdf"
-      }
     ]
   },
   {
@@ -41641,63 +42159,6 @@ window.AdAstraGlossary = [
         "title": "ESO · catture lente nelle stelle AGB",
         "url": "https://www.eso.org/public/finland/news/eso0129/"
       }
-    ]
-  },
-  {
-    "id": "triplo-alfa",
-    "name": "Processo triplo alfa",
-    "definition": "Il processo triplo alfa costruisce carbonio-12 a partire da tre nuclei di elio-4, attraverso passaggi nucleari favoriti nelle condizioni del bruciamento dell’elio stellare.",
-    "source": "https://www.treccani.it/enciclopedia/origine-degli-elementi_(Enciclopedia-del-Novecento)/",
-    "lesson": "lezione-4-6.html",
-    "related": [
-      "elio",
-      "carbonio",
-      "fusione-nucleare"
-    ],
-    "checked": "2026-11-07",
-    "editorialStatus": "scheda-estesa",
-    "sections": [
-      {
-        "title": "Tre particelle alfa",
-        "paragraphs": [
-          "Una particella alfa è un nucleo di elio-4, con due protoni e due neutroni. Il nome triplo alfa descrive il bilancio che porta al carbonio-12. Non significa che tre atomi completi di elio si incollino con normali legami chimici. Nelle regioni stellari interessate la materia è ionizzata e il problema riguarda le interazioni nucleari. Separare atomo e nucleo evita un disegno in cui gusci elettronici diventano impropriamente la causa della formazione dell’elemento."
-        ]
-      },
-      {
-        "title": "Un percorso attraverso un intermedio instabile",
-        "paragraphs": [
-          "Il processo coinvolge il berillio-8, molto instabile, e condizioni che permettono la successiva formazione del carbonio. Le proprietà dei livelli nucleari sono importanti per la rapidità della reazione. Non è sufficiente immaginare un incontro geometrico casuale di tre sfere. Lo schema semplificato deve distinguere il bilancio complessivo dai passaggi intermedi. In questo modo si può spiegare l’origine del carbonio senza introdurre subito tutti i dettagli matematici della fisica nucleare."
-        ]
-      },
-      {
-        "title": "Una fase successiva della vita stellare",
-        "paragraphs": [
-          "Il bruciamento dell’elio richiede condizioni differenti da quelle che sostengono il bruciamento centrale dell’idrogeno. Una stella può raggiungerle attraverso la propria evoluzione, con trasformazioni della struttura interna. Non tutte le stelle seguono la stessa sequenza né completano tutti i processi possibili. Massa e storia contano. Nel racconto divulgativo è quindi utile mostrare una successione di fasi con condizioni dichiarate, evitando una catena universale identica per ogni oggetto luminoso del cielo."
-        ]
-      },
-      {
-        "title": "Il carbonio non resta necessariamente isolato",
-        "paragraphs": [
-          "Dopo la sua formazione, ulteriori reazioni possono modificare l’abbondanza del carbonio e produrre altri nuclei, fra cui ossigeno. Il risultato finale dipende da condizioni e tempi, non soltanto dall’esistenza di una singola reazione. La materia elaborata potrà contribuire all’arricchimento del mezzo interstellare se viene restituita all’esterno. Il processo triplo alfa collega così la fisica delle stelle alla presenza di un elemento fondamentale della chimica, senza implicare che ogni atomo sia stato prodotto nello stesso tipo di evento."
-        ]
-      }
-    ],
-    "facts": [
-      "Le particelle alfa sono nuclei di elio, non molecole o atomi neutri"
-    ],
-    "example": "Le particelle alfa sono nuclei di elio, non molecole o atomi neutri",
-    "sources": [
-      {
-        "title": "Treccani · riferimento terminologico",
-        "url": "https://www.treccani.it/enciclopedia/origine-degli-elementi_(Enciclopedia-del-Novecento)/"
-      },
-      {
-        "title": "Treccani · bruciamento dell’elio nell’evoluzione stellare",
-        "url": "https://static.treccani.it/export/sites/default/Portale/resources/multimedia/Lezioni_Astrofisica/evoluzione_stellare/Lezione_Evoluzione_stellare.pdf"
-      }
-    ],
-    "aliases": [
-      "Reazione triplo alfa"
     ]
   },
   {
@@ -42203,6 +42664,60 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "punto-equinoziale",
+    "name": "Punto equinoziale",
+    "definition": "Intersezione fra eclittica ed equatore celeste. Quello di primavera è l’origine convenzionale dell’ascensione retta.",
+    "example": "Il riferimento è una direzione del sistema di coordinate, non una stella fissata per sempre nel cielo.",
+    "source": "https://www.treccani.it/enciclopedia/equinozi_(Enciclopedia-Italiana)/",
+    "lesson": "lezione-1-6.html",
+    "related": [
+      "ascensione-retta",
+      "eclittica"
+    ],
+    "checked": "2026-10-30",
+    "sections": [
+      {
+        "title": "L’origine di una coordinata",
+        "paragraphs": [
+          "Nel sistema equatoriale classico il punto equinoziale di primavera è la direzione in cui l’eclittica incontra l’equatore celeste al passaggio del Sole dall’emisfero celeste sud a quello nord. Si chiama anche punto vernale o punto gamma. È un riferimento geometrico, non una stella e non il punto dell’orizzonte da cui il Sole sorge in una particolare città."
+        ]
+      },
+      {
+        "title": "Perché equatore ed eclittica si incontrano",
+        "paragraphs": [
+          "L’equatore celeste è il prolungamento del piano equatoriale terrestre. L’eclittica descrive il percorso annuo apparente del Sole sullo sfondo stellare, legato al piano dell’orbita terrestre. I due piani sono inclinati di circa 23,4° e si intersecano lungo una linea che individua due direzioni opposte. Una corrisponde all’equinozio di primavera, l’altra a quello d’autunno, usando i nomi stagionali convenzionali dell’emisfero nord."
+        ]
+      },
+      {
+        "title": "Da quel punto si misura l’ascensione retta",
+        "paragraphs": [
+          "L’origine dell’ascensione retta classica vale 0 h nel punto vernale. Da lì si misura verso est lungo l’equatore celeste fino al cerchio orario dell’astro. Un giro vale 24 h, equivalenti a 360°. La declinazione misura invece lo scostamento nord–sud dall’equatore. Le ore indicano qui una coordinata angolare: un oggetto a 6 h di ascensione retta non è per questo osservabile alle sei dell’orologio."
+        ]
+      },
+      {
+        "title": "Un riferimento con una storia",
+        "paragraphs": [
+          "La precessione modifica lentamente l’orientamento dell’asse e del riferimento equinoziale rispetto alle stelle. Perciò coordinate classiche riferite a equinozi diversi non si confrontano ignorando questa informazione. Nei cataloghi moderni esistono riferimenti come ICRS che richiedono una descrizione più precisa di quella scolastica. Il punto equinoziale resta essenziale per capire l’origine del sistema, ma non autorizza a trattare ogni catalogo come se usasse automaticamente lo stesso equinozio."
+        ]
+      }
+    ],
+    "facts": [
+      "Punto vernale: origine classica AR = 0 h",
+      "Eclittica ed equatore celeste si intersecano in due punti"
+    ],
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/equinozi_(Enciclopedia-Italiana)/"
+      },
+      {
+        "title": "USNO · ICRS",
+        "url": "https://aa.usno.navy.mil/faq/ICRS_doc"
+      }
+    ],
+    "editorialStatus": "scheda-estesa"
+  },
+  {
     "id": "punto-rugiada",
     "name": "Punto di rugiada",
     "definition": "Il punto di rugiada è la temperatura alla quale, raffreddando aria con contenuto di vapore e pressione considerati costanti, si raggiunge la saturazione rispetto all’acqua liquida.",
@@ -42259,60 +42774,6 @@ window.AdAstraGlossary = [
       "temperatura di rugiada",
       "dew point"
     ]
-  },
-  {
-    "id": "punto-equinoziale",
-    "name": "Punto equinoziale",
-    "definition": "Intersezione fra eclittica ed equatore celeste. Quello di primavera è l’origine convenzionale dell’ascensione retta.",
-    "example": "Il riferimento è una direzione del sistema di coordinate, non una stella fissata per sempre nel cielo.",
-    "source": "https://www.treccani.it/enciclopedia/equinozi_(Enciclopedia-Italiana)/",
-    "lesson": "lezione-1-6.html",
-    "related": [
-      "ascensione-retta",
-      "eclittica"
-    ],
-    "checked": "2026-10-30",
-    "sections": [
-      {
-        "title": "L’origine di una coordinata",
-        "paragraphs": [
-          "Nel sistema equatoriale classico il punto equinoziale di primavera è la direzione in cui l’eclittica incontra l’equatore celeste al passaggio del Sole dall’emisfero celeste sud a quello nord. Si chiama anche punto vernale o punto gamma. È un riferimento geometrico, non una stella e non il punto dell’orizzonte da cui il Sole sorge in una particolare città."
-        ]
-      },
-      {
-        "title": "Perché equatore ed eclittica si incontrano",
-        "paragraphs": [
-          "L’equatore celeste è il prolungamento del piano equatoriale terrestre. L’eclittica descrive il percorso annuo apparente del Sole sullo sfondo stellare, legato al piano dell’orbita terrestre. I due piani sono inclinati di circa 23,4° e si intersecano lungo una linea che individua due direzioni opposte. Una corrisponde all’equinozio di primavera, l’altra a quello d’autunno, usando i nomi stagionali convenzionali dell’emisfero nord."
-        ]
-      },
-      {
-        "title": "Da quel punto si misura l’ascensione retta",
-        "paragraphs": [
-          "L’origine dell’ascensione retta classica vale 0 h nel punto vernale. Da lì si misura verso est lungo l’equatore celeste fino al cerchio orario dell’astro. Un giro vale 24 h, equivalenti a 360°. La declinazione misura invece lo scostamento nord–sud dall’equatore. Le ore indicano qui una coordinata angolare: un oggetto a 6 h di ascensione retta non è per questo osservabile alle sei dell’orologio."
-        ]
-      },
-      {
-        "title": "Un riferimento con una storia",
-        "paragraphs": [
-          "La precessione modifica lentamente l’orientamento dell’asse e del riferimento equinoziale rispetto alle stelle. Perciò coordinate classiche riferite a equinozi diversi non si confrontano ignorando questa informazione. Nei cataloghi moderni esistono riferimenti come ICRS che richiedono una descrizione più precisa di quella scolastica. Il punto equinoziale resta essenziale per capire l’origine del sistema, ma non autorizza a trattare ogni catalogo come se usasse automaticamente lo stesso equinozio."
-        ]
-      }
-    ],
-    "facts": [
-      "Punto vernale: origine classica AR = 0 h",
-      "Eclittica ed equatore celeste si intersecano in due punti"
-    ],
-    "sources": [
-      {
-        "title": "Treccani · riferimento terminologico",
-        "url": "https://www.treccani.it/enciclopedia/equinozi_(Enciclopedia-Italiana)/"
-      },
-      {
-        "title": "USNO · ICRS",
-        "url": "https://aa.usno.navy.mil/faq/ICRS_doc"
-      }
-    ],
-    "editorialStatus": "scheda-estesa"
   },
   {
     "id": "punto-triplo",
@@ -42944,6 +43405,57 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "radiazione",
+    "name": "Radiazione elettromagnetica",
+    "definition": "La radiazione elettromagnetica trasporta energia e comprende onde radio, microonde, infrarosso, luce visibile, ultravioletto, raggi X e gamma.",
+    "example": "Visibile = una parte dello spettro elettromagnetico",
+    "source": "https://www.treccani.it/enciclopedia/radiazione/",
+    "lesson": "lezione-4-3.html",
+    "related": [
+      "fotone",
+      "spettro",
+      "redshift"
+    ],
+    "checked": "2026-10-30",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "La luce è una parte della storia",
+        "paragraphs": [
+          "L’occhio registra soltanto una porzione dello spettro elettromagnetico. Molti fenomeni astronomici emettono anche in bande invisibili per noi, osservate con strumenti adatti. Radio, infrarosso e raggi X non sono decorazioni aggiunte a una fotografia: sono modi differenti di raccogliere informazione fisica. Il termine radiazione è più generale e può comprendere anche particelle; qui specifichiamo il caso elettromagnetico."
+        ]
+      },
+      {
+        "title": "Lunghezza d’onda e frequenza",
+        "paragraphs": [
+          "La lunghezza d’onda è la distanza fra fasi equivalenti dell’onda, mentre la frequenza riguarda il numero di oscillazioni per unità di tempo. Nel vuoto, a lunghezza d’onda maggiore corrisponde frequenza minore. Le due descrizioni parlano dello stesso segnale. Non si tratta della dimensione dell’oggetto emittente: una galassia può essere studiata a lunghezze d’onda radio senza avere un diametro pari alla lunghezza di quell’onda."
+        ]
+      },
+      {
+        "title": "L’atmosfera seleziona quello che arriva",
+        "paragraphs": [
+          "Alcune bande attraversano bene l’atmosfera terrestre, altre vengono fortemente assorbite. Questo contribuisce a spiegare perché esistano telescopi spaziali e osservatori situati in ambienti particolari. Un telescopio al suolo non diventa sensibile a tutte le radiazioni soltanto aumentando il diametro. Rivelatore, ottiche, trasmissione atmosferica e disturbi devono essere adatti alla misura scelta."
+        ]
+      },
+      {
+        "title": "Leggere immagini oltre il visibile",
+        "paragraphs": [
+          "Per mostrare dati invisibili si assegnano colori alle bande registrate. Una composizione può rivelare strutture che l’occhio non vedrebbe direttamente e restare scientificamente informativa, purché la legenda chiarisca il significato. Colore rappresentato e colore naturale non sono automaticamente equivalenti. Confrontare la stessa regione in bande diverse permette di distinguere gas caldo, polveri, stelle e processi energetici, evitando di ridurre tutta l’astronomia a ciò che appare in una sola fotografia."
+        ]
+      }
+    ],
+    "facts": [
+      "Visibile = una parte dello spettro elettromagnetico",
+      "Colore assegnato ai dati ≠ necessariamente colore visto dall’occhio"
+    ],
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/radiazione/"
+      }
+    ]
+  },
+  {
     "id": "radiazione-cosmica-fondo",
     "name": "Radiazione cosmica di fondo",
     "definition": "La radiazione cosmica di fondo a microonde è una radiazione fossile dell’Universo caldo, osservata oggi con spettro quasi di corpo nero a circa 2,7 kelvin.",
@@ -43003,57 +43515,6 @@ window.AdAstraGlossary = [
     "aliases": [
       "CMB",
       "fondo cosmico a microonde"
-    ]
-  },
-  {
-    "id": "radiazione",
-    "name": "Radiazione elettromagnetica",
-    "definition": "La radiazione elettromagnetica trasporta energia e comprende onde radio, microonde, infrarosso, luce visibile, ultravioletto, raggi X e gamma.",
-    "example": "Visibile = una parte dello spettro elettromagnetico",
-    "source": "https://www.treccani.it/enciclopedia/radiazione/",
-    "lesson": "lezione-4-3.html",
-    "related": [
-      "fotone",
-      "spettro",
-      "redshift"
-    ],
-    "checked": "2026-10-30",
-    "editorialStatus": "scheda-estesa",
-    "sections": [
-      {
-        "title": "La luce è una parte della storia",
-        "paragraphs": [
-          "L’occhio registra soltanto una porzione dello spettro elettromagnetico. Molti fenomeni astronomici emettono anche in bande invisibili per noi, osservate con strumenti adatti. Radio, infrarosso e raggi X non sono decorazioni aggiunte a una fotografia: sono modi differenti di raccogliere informazione fisica. Il termine radiazione è più generale e può comprendere anche particelle; qui specifichiamo il caso elettromagnetico."
-        ]
-      },
-      {
-        "title": "Lunghezza d’onda e frequenza",
-        "paragraphs": [
-          "La lunghezza d’onda è la distanza fra fasi equivalenti dell’onda, mentre la frequenza riguarda il numero di oscillazioni per unità di tempo. Nel vuoto, a lunghezza d’onda maggiore corrisponde frequenza minore. Le due descrizioni parlano dello stesso segnale. Non si tratta della dimensione dell’oggetto emittente: una galassia può essere studiata a lunghezze d’onda radio senza avere un diametro pari alla lunghezza di quell’onda."
-        ]
-      },
-      {
-        "title": "L’atmosfera seleziona quello che arriva",
-        "paragraphs": [
-          "Alcune bande attraversano bene l’atmosfera terrestre, altre vengono fortemente assorbite. Questo contribuisce a spiegare perché esistano telescopi spaziali e osservatori situati in ambienti particolari. Un telescopio al suolo non diventa sensibile a tutte le radiazioni soltanto aumentando il diametro. Rivelatore, ottiche, trasmissione atmosferica e disturbi devono essere adatti alla misura scelta."
-        ]
-      },
-      {
-        "title": "Leggere immagini oltre il visibile",
-        "paragraphs": [
-          "Per mostrare dati invisibili si assegnano colori alle bande registrate. Una composizione può rivelare strutture che l’occhio non vedrebbe direttamente e restare scientificamente informativa, purché la legenda chiarisca il significato. Colore rappresentato e colore naturale non sono automaticamente equivalenti. Confrontare la stessa regione in bande diverse permette di distinguere gas caldo, polveri, stelle e processi energetici, evitando di ridurre tutta l’astronomia a ciò che appare in una sola fotografia."
-        ]
-      }
-    ],
-    "facts": [
-      "Visibile = una parte dello spettro elettromagnetico",
-      "Colore assegnato ai dati ≠ necessariamente colore visto dall’occhio"
-    ],
-    "sources": [
-      {
-        "title": "Treccani · riferimento terminologico",
-        "url": "https://www.treccani.it/enciclopedia/radiazione/"
-      }
     ]
   },
   {
@@ -43469,6 +43930,60 @@ window.AdAstraGlossary = [
     "aliases": [
       "radiazione gamma",
       "fotoni gamma"
+    ]
+  },
+  {
+    "id": "raggi-x",
+    "name": "X, raggi",
+    "definition": "I raggi X sono radiazione elettromagnetica con fotoni di energia superiore a quelli del visibile e dell’ultravioletto, usata per studiare molti ambienti astrofisici energetici.",
+    "example": "Le immagini X traducono dati fuori dalla sensibilità dell’occhio",
+    "source": "https://www.treccani.it/vocabolario/x/",
+    "lesson": "lezione-10-5.html",
+    "related": [
+      "spettro",
+      "fotone",
+      "buco-nero"
+    ],
+    "checked": "2026-11-05",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Una banda della stessa famiglia della luce",
+        "paragraphs": [
+          "Visibile, infrarosso e raggi X appartengono allo spettro elettromagnetico. Cambiano frequenza, lunghezza d’onda ed energia dei fotoni. Le suddivisioni delle bande hanno convenzioni e zone di transizione, quindi un confine numerico richiede un contesto dichiarato. L’occhio umano non registra direttamente i raggi X. Le immagini astronomiche vengono costruite a partire dalle misure dei rivelatori e tradotte in una rappresentazione che possiamo leggere sullo schermo."
+        ]
+      },
+      {
+        "title": "Quali ambienti possono rivelare",
+        "paragraphs": [
+          "Gas molto caldo, resti di supernova, sistemi compatti e ambienti di accrescimento possono produrre emissione X con processi differenti. La presenza di un segnale in questa banda invita a studiare condizioni fisiche e spettro, invece di attribuire automaticamente la sorgente a un buco nero. Anche una regione estesa di gas può emettere. Il confronto con altre bande aiuta a distinguere componenti e processi, mantenendo per ciascuna immagine fonte, scala e legenda."
+        ]
+      },
+      {
+        "title": "Il telescopio deve essere progettato per la banda",
+        "paragraphs": [
+          "L’atmosfera terrestre assorbe gran parte della radiazione X celeste, rendendo importanti gli osservatori sopra l’atmosfera. Le ottiche e i rivelatori hanno caratteristiche specifiche. I telescopi focalizzanti possono usare riflessioni a incidenza radente, con geometrie diverse da uno specchio visuale ordinario. Un disegno che copia semplicemente un rifrattore con una luce blu non rende comprensibile il principio. La forma dello strumento deve essere collegata al modo in cui interagisce con la radiazione."
+        ]
+      },
+      {
+        "title": "Leggere i colori assegnati",
+        "paragraphs": [
+          "In una composizione X i colori possono indicare intervalli energetici o essere combinati con dati ottici e infrarossi. La legenda permette di seguire il significato. Una zona blu nell’immagine non prova che quell’ambiente apparirebbe blu all’occhio di un viaggiatore. La rappresentazione visuale conserva valore scientifico quando traduce dati dichiarati. Nel percorso di studio, l’immagine diventa un invito a chiedere quale banda abbia misurato lo strumento e che cosa riveli del soggetto."
+        ]
+      }
+    ],
+    "facts": [
+      "Le immagini X traducono dati fuori dalla sensibilità dell’occhio",
+      "Ogni banda richiede strumenti e interpretazioni appropriati"
+    ],
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/vocabolario/x/"
+      }
+    ],
+    "aliases": [
+      "raggi X"
     ]
   },
   {
@@ -44931,6 +45446,69 @@ window.AdAstraGlossary = [
         "title": "Treccani · riferimento terminologico",
         "url": "https://www.treccani.it/enciclopedia/rifrazione/"
       }
+    ]
+  },
+  {
+    "id": "riga-21cm",
+    "name": "Linea a 21 cm dell’idrogeno",
+    "definition": "La linea a circa 21 centimetri è una transizione iperfine dell’idrogeno atomico neutro, con frequenza a riposo di circa 1420 megahertz.",
+    "example": "21 cm è la lunghezza dell’onda, non la dimensione della nube",
+    "source": "https://www.treccani.it/enciclopedia/idrogeno/",
+    "lesson": "lezione-6-1.html",
+    "related": [
+      "idrogeno",
+      "radiotelescopio",
+      "velocita-radiale"
+    ],
+    "checked": "2026-11-06",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Una firma radio dell’idrogeno",
+        "paragraphs": [
+          "L’idrogeno neutro possiede un elettrone e un protone. Una piccola differenza energetica fra configurazioni legate alle loro proprietà magnetiche permette una transizione nello stato elettronico fondamentale. La radiazione corrispondente appartiene alle onde radio. La lunghezza di circa ventuno centimetri non è la dimensione dell’atomo o della nube: descrive l’onda emessa. Il nome iperfine segnala che la separazione energetica è molto piccola rispetto a quella di molte transizioni ottiche."
+        ]
+      },
+      {
+        "title": "Guardare il gas oltre la polvere",
+        "paragraphs": [
+          "La polvere interstellare ostacola fortemente alcune osservazioni visibili, mentre questa radiazione radio permette di studiare idrogeno neutro in molte regioni della Galassia. Una mappa radio non è una fotografia ottica ricolorata: nasce da misure specifiche, con una propria risoluzione e sensibilità. L’idrogeno neutro viene spesso indicato con H I. Non va confuso con H II, che indica idrogeno ionizzato, o con l’idrogeno molecolare formato da coppie di atomi."
+        ]
+      },
+      {
+        "title": "La frequenza racconta anche il movimento",
+        "paragraphs": [
+          "Confrontando la frequenza osservata con quella a riposo si può studiare la componente del moto lungo la linea di vista. Spettri differenti permettono di separare contributi di gas con velocità diverse nella stessa direzione. Ricostruire la posizione delle nubi richiede però geometria e modelli del moto galattico. Non basta trasformare ogni frequenza in una distanza unica. In alcune direzioni esistono ambiguità che altre informazioni devono aiutare a risolvere."
+        ]
+      },
+      {
+        "title": "Una mappa con limiti fisici",
+        "paragraphs": [
+          "Intensità della linea, temperatura, opacità e struttura del gas entrano nell’interpretazione. Il segnale può essere osservato in emissione oppure in assorbimento rispetto a un fondo. Non descrive indistintamente tutta la massa interstellare, perché gas molecolare e ionizzato richiedono altre diagnosi. Nel laboratorio mostra spettro e direzione osservata insieme, distinguendo dati e ricostruzione. Questa firma collega così una proprietà microscopica dell’atomo alla grande architettura della Via Lattea senza ridurre la Galassia a una semplice fotografia colorata."
+        ]
+      }
+    ],
+    "facts": [
+      "21 cm è la lunghezza dell’onda, non la dimensione della nube"
+    ],
+    "sources": [
+      {
+        "title": "Treccani · quadro terminologico generale; dettagli nelle fonti specifiche",
+        "url": "https://www.treccani.it/enciclopedia/idrogeno/"
+      },
+      {
+        "title": "NRAO · origine e uso della linea a 21 cm",
+        "url": "https://www.gb.nrao.edu/fgdocs/HI21cm/21cm.html"
+      },
+      {
+        "title": "NRAO · righe spettrali radio e interpretazione",
+        "url": "https://www.cv.nrao.edu/~sransom/web/Ch7.html"
+      }
+    ],
+    "aliases": [
+      "riga a 21 cm",
+      "linea a 21 centimetri",
+      "riga dell’idrogeno a 21 cm"
     ]
   },
   {
@@ -48663,6 +49241,72 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "spettrometria",
+    "name": "Spettrometria",
+    "aliases": [
+      "spectrometry"
+    ],
+    "definition": "La spettrometria è la misura quantitativa di uno spettro. Nell’osservazione astronomica misura il segnale in funzione della lunghezza d’onda o della frequenza; la spettroscopia comprende anche l’interpretazione fisica delle caratteristiche osservate.",
+    "source": "https://www.nist.gov/spectroscopy/what-spectroscopy",
+    "lesson": "lezione-4-3.html",
+    "related": [
+      "spettroscopia",
+      "spettro"
+    ],
+    "checked": "2026-11-21",
+    "editorialStatus": "scheda-integrativa",
+    "example": "Le due attività sono strettamente connesse, ma non sono lo stesso nome dello strumento: lo spettrometro produce misure. Per confrontare osservazioni servono riferimenti di calibrazione e una descrizione della risposta strumentale.",
+    "sections": [
+      {
+        "title": "Come leggere il concetto",
+        "paragraphs": [
+          "Le due attività sono strettamente connesse, ma non sono lo stesso nome dello strumento: lo spettrometro produce misure. Per confrontare osservazioni servono riferimenti di calibrazione e una descrizione della risposta strumentale."
+        ]
+      }
+    ],
+    "facts": [],
+    "sources": [
+      {
+        "title": "NIST · Spectroscopy: A Measurement Powerhouse",
+        "url": "https://www.nist.gov/spectroscopy/what-spectroscopy"
+      }
+    ]
+  },
+  {
+    "id": "spettrometro",
+    "name": "Spettrometro",
+    "aliases": [
+      "spettrometri",
+      "spectrometer"
+    ],
+    "definition": "Uno spettrometro misura come un segnale è distribuito nelle sue componenti spettrali. Nel contesto astronomico si tratta soprattutto della radiazione elettromagnetica: la misura collega intensità e lunghezza d’onda o frequenza.",
+    "source": "https://www.nist.gov/spectroscopy/what-spectroscopy",
+    "lesson": "lezione-4-3.html",
+    "related": [
+      "spettroscopia",
+      "spettrografo",
+      "risoluzione-spettrale"
+    ],
+    "checked": "2026-11-21",
+    "editorialStatus": "scheda-integrativa",
+    "example": "Lo spettro aiuta a riconoscere righe, composizione e condizioni fisiche. La calibrazione e la risoluzione spettrale limitano ciò che si può distinguere. Non va confuso con lo spettrometro di massa, che separa particelle secondo il rapporto fra massa e carica.",
+    "sections": [
+      {
+        "title": "Come leggere il concetto",
+        "paragraphs": [
+          "Lo spettro aiuta a riconoscere righe, composizione e condizioni fisiche. La calibrazione e la risoluzione spettrale limitano ciò che si può distinguere. Non va confuso con lo spettrometro di massa, che separa particelle secondo il rapporto fra massa e carica."
+        ]
+      }
+    ],
+    "facts": [],
+    "sources": [
+      {
+        "title": "NIST · Spectroscopy: A Measurement Powerhouse",
+        "url": "https://www.nist.gov/spectroscopy/what-spectroscopy"
+      }
+    ]
+  },
+  {
     "id": "spettropolarimetria",
     "name": "Spettropolarimetria",
     "definition": "La spettropolarimetria misura la polarizzazione in funzione della lunghezza d’onda, collegando informazione spettrale e stato della radiazione.",
@@ -48771,6 +49415,40 @@ window.AdAstraGlossary = [
       {
         "title": "ESO · che cosa si apprende dagli spettri",
         "url": "https://www.hq.eso.org/public/teles-instr/technology/spectroscopy/"
+      }
+    ]
+  },
+  {
+    "id": "spettroscopio",
+    "name": "Spettroscopio",
+    "aliases": [
+      "spettroscopi",
+      "spectroscope"
+    ],
+    "definition": "Uno spettroscopio separa la luce nelle sue componenti e permette di osservarne lo spettro. Nella forma visuale un prisma o un reticolo disperde la luce, che viene osservata attraverso un sistema ottico.",
+    "source": "https://science.nasa.gov/learn/basics-of-space-flight/chapter12-1/",
+    "lesson": "lezione-4-3.html",
+    "related": [
+      "spettroscopia",
+      "spettrografo",
+      "reticolo-di-diffrazione"
+    ],
+    "checked": "2026-11-21",
+    "editorialStatus": "scheda-integrativa",
+    "example": "Il nome descrive lo strumento, mentre spettroscopia indica lo studio degli spettri. Uno spettrografo registra lo spettro; uno spettrometro ne misura le caratteristiche. Nell’uso moderno le denominazioni possono sovrapporsi secondo la configurazione dello strumento.",
+    "sections": [
+      {
+        "title": "Come leggere il concetto",
+        "paragraphs": [
+          "Il nome descrive lo strumento, mentre spettroscopia indica lo studio degli spettri. Uno spettrografo registra lo spettro; uno spettrometro ne misura le caratteristiche. Nell’uso moderno le denominazioni possono sovrapporsi secondo la configurazione dello strumento."
+        ]
+      }
+    ],
+    "facts": [],
+    "sources": [
+      {
+        "title": "NASA · Basics of Space Flight, Science Instruments",
+        "url": "https://science.nasa.gov/learn/basics-of-space-flight/chapter12-1/"
       }
     ]
   },
@@ -52020,6 +52698,63 @@ window.AdAstraGlossary = [
     ]
   },
   {
+    "id": "triplo-alfa",
+    "name": "Processo triplo alfa",
+    "definition": "Il processo triplo alfa costruisce carbonio-12 a partire da tre nuclei di elio-4, attraverso passaggi nucleari favoriti nelle condizioni del bruciamento dell’elio stellare.",
+    "source": "https://www.treccani.it/enciclopedia/origine-degli-elementi_(Enciclopedia-del-Novecento)/",
+    "lesson": "lezione-4-6.html",
+    "related": [
+      "elio",
+      "carbonio",
+      "fusione-nucleare"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Tre particelle alfa",
+        "paragraphs": [
+          "Una particella alfa è un nucleo di elio-4, con due protoni e due neutroni. Il nome triplo alfa descrive il bilancio che porta al carbonio-12. Non significa che tre atomi completi di elio si incollino con normali legami chimici. Nelle regioni stellari interessate la materia è ionizzata e il problema riguarda le interazioni nucleari. Separare atomo e nucleo evita un disegno in cui gusci elettronici diventano impropriamente la causa della formazione dell’elemento."
+        ]
+      },
+      {
+        "title": "Un percorso attraverso un intermedio instabile",
+        "paragraphs": [
+          "Il processo coinvolge il berillio-8, molto instabile, e condizioni che permettono la successiva formazione del carbonio. Le proprietà dei livelli nucleari sono importanti per la rapidità della reazione. Non è sufficiente immaginare un incontro geometrico casuale di tre sfere. Lo schema semplificato deve distinguere il bilancio complessivo dai passaggi intermedi. In questo modo si può spiegare l’origine del carbonio senza introdurre subito tutti i dettagli matematici della fisica nucleare."
+        ]
+      },
+      {
+        "title": "Una fase successiva della vita stellare",
+        "paragraphs": [
+          "Il bruciamento dell’elio richiede condizioni differenti da quelle che sostengono il bruciamento centrale dell’idrogeno. Una stella può raggiungerle attraverso la propria evoluzione, con trasformazioni della struttura interna. Non tutte le stelle seguono la stessa sequenza né completano tutti i processi possibili. Massa e storia contano. Nel racconto divulgativo è quindi utile mostrare una successione di fasi con condizioni dichiarate, evitando una catena universale identica per ogni oggetto luminoso del cielo."
+        ]
+      },
+      {
+        "title": "Il carbonio non resta necessariamente isolato",
+        "paragraphs": [
+          "Dopo la sua formazione, ulteriori reazioni possono modificare l’abbondanza del carbonio e produrre altri nuclei, fra cui ossigeno. Il risultato finale dipende da condizioni e tempi, non soltanto dall’esistenza di una singola reazione. La materia elaborata potrà contribuire all’arricchimento del mezzo interstellare se viene restituita all’esterno. Il processo triplo alfa collega così la fisica delle stelle alla presenza di un elemento fondamentale della chimica, senza implicare che ogni atomo sia stato prodotto nello stesso tipo di evento."
+        ]
+      }
+    ],
+    "facts": [
+      "Le particelle alfa sono nuclei di elio, non molecole o atomi neutri"
+    ],
+    "example": "Le particelle alfa sono nuclei di elio, non molecole o atomi neutri",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico",
+        "url": "https://www.treccani.it/enciclopedia/origine-degli-elementi_(Enciclopedia-del-Novecento)/"
+      },
+      {
+        "title": "Treccani · bruciamento dell’elio nell’evoluzione stellare",
+        "url": "https://static.treccani.it/export/sites/default/Portale/resources/multimedia/Lezioni_Astrofisica/evoluzione_stellare/Lezione_Evoluzione_stellare.pdf"
+      }
+    ],
+    "aliases": [
+      "Reazione triplo alfa"
+    ]
+  },
+  {
     "id": "tritone",
     "name": "Tritone",
     "definition": "Tritone è il maggiore satellite di Nettuno e percorre un’orbita retrograda rispetto alla rotazione del pianeta.",
@@ -52915,56 +53650,6 @@ window.AdAstraGlossary = [
     ]
   },
   {
-    "id": "velocita-suono",
-    "name": "Velocità del suono",
-    "definition": "La velocità del suono è la rapidità con cui una piccola perturbazione meccanica di pressione si propaga in un mezzo nelle condizioni considerate.",
-    "source": "https://www.treccani.it/enciclopedia/suono/",
-    "lesson": "lezione-4-1.html",
-    "related": [
-      "pressione",
-      "onda-gravitazionale",
-      "plasma"
-    ],
-    "checked": "2026-11-07",
-    "editorialStatus": "scheda-estesa",
-    "sections": [
-      {
-        "title": "Un disturbo che passa fra particelle",
-        "paragraphs": [
-          "Il suono richiede un mezzo capace di trasmettere una perturbazione. Le particelle oscillano o vengono perturbate localmente mentre il segnale si propaga. Non devono viaggiare tutte dalla sorgente all’orecchio. La velocità dipende dalle proprietà del mezzo, non soltanto dalla forza con cui si produce il rumore. Aumentare l’ampiezza di un piccolo segnale non significa automaticamente aumentarne la velocità nel modello lineare."
-        ]
-      },
-      {
-        "title": "Non esiste un valore universale",
-        "paragraphs": [
-          "Il valore spesso ricordato per l’aria riguarda condizioni terrestri specifiche. Temperatura e composizione possono modificarlo; nei liquidi e nei solidi entrano proprietà diverse. Anche un gas astrofisico ha una propria risposta. Perciò non si può usare il numero valido nell’aria di una stanza per descrivere onde in una stella. Occorre precisare il materiale e il regime fisico nel quale la perturbazione si muove."
-        ]
-      },
-      {
-        "title": "Il vuoto e lo spazio",
-        "paragraphs": [
-          "Nel vuoto ideale non si propaga il suono ordinario perché manca il mezzo materiale. Questo non significa che ogni ambiente cosmico sia vuoto o incapace di onde. Gas e plasma possono sostenere perturbazioni appropriate. Le sonificazioni divulgative possono inoltre tradurre misure in suoni udibili: questa scelta non deve essere presentata come una registrazione effettuata da un microfono che ascolti direttamente nello spazio privo di aria."
-        ]
-      },
-      {
-        "title": "La voce interna delle stelle",
-        "paragraphs": [
-          "Oscillazioni stellari forniscono informazioni sulle strutture attraversate dalle onde. La velocità locale di propagazione dipende dalle condizioni interne e contribuisce al comportamento dei modi osservati. Non stiamo ascoltando una melodia arrivata attraverso il vuoto fino alla Terra: misuriamo variazioni di luce o velocità della superficie. Il collegamento fra oscillazioni e interno viene ricostruito con modelli, come in altre indagini che ricavano una struttura dalla risposta alle perturbazioni."
-        ]
-      }
-    ],
-    "facts": [
-      "Il suono richiede un mezzo; una sonificazione di dati non equivale sempre a un suono registrato direttamente"
-    ],
-    "example": "Il suono richiede un mezzo; una sonificazione di dati non equivale sempre a un suono registrato direttamente",
-    "sources": [
-      {
-        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
-        "url": "https://www.treccani.it/enciclopedia/suono/"
-      }
-    ]
-  },
-  {
     "id": "velocita-della-luce",
     "name": "Velocità della luce",
     "definition": "Nel vuoto la velocità della luce, indicata con c, vale esattamente 299.792.458 metri al secondo nel Sistema Internazionale.",
@@ -53183,6 +53868,56 @@ window.AdAstraGlossary = [
       {
         "title": "Treccani · riferimento terminologico",
         "url": "https://www.treccani.it/enciclopedia/effetto-doppler/"
+      }
+    ]
+  },
+  {
+    "id": "velocita-suono",
+    "name": "Velocità del suono",
+    "definition": "La velocità del suono è la rapidità con cui una piccola perturbazione meccanica di pressione si propaga in un mezzo nelle condizioni considerate.",
+    "source": "https://www.treccani.it/enciclopedia/suono/",
+    "lesson": "lezione-4-1.html",
+    "related": [
+      "pressione",
+      "onda-gravitazionale",
+      "plasma"
+    ],
+    "checked": "2026-11-07",
+    "editorialStatus": "scheda-estesa",
+    "sections": [
+      {
+        "title": "Un disturbo che passa fra particelle",
+        "paragraphs": [
+          "Il suono richiede un mezzo capace di trasmettere una perturbazione. Le particelle oscillano o vengono perturbate localmente mentre il segnale si propaga. Non devono viaggiare tutte dalla sorgente all’orecchio. La velocità dipende dalle proprietà del mezzo, non soltanto dalla forza con cui si produce il rumore. Aumentare l’ampiezza di un piccolo segnale non significa automaticamente aumentarne la velocità nel modello lineare."
+        ]
+      },
+      {
+        "title": "Non esiste un valore universale",
+        "paragraphs": [
+          "Il valore spesso ricordato per l’aria riguarda condizioni terrestri specifiche. Temperatura e composizione possono modificarlo; nei liquidi e nei solidi entrano proprietà diverse. Anche un gas astrofisico ha una propria risposta. Perciò non si può usare il numero valido nell’aria di una stanza per descrivere onde in una stella. Occorre precisare il materiale e il regime fisico nel quale la perturbazione si muove."
+        ]
+      },
+      {
+        "title": "Il vuoto e lo spazio",
+        "paragraphs": [
+          "Nel vuoto ideale non si propaga il suono ordinario perché manca il mezzo materiale. Questo non significa che ogni ambiente cosmico sia vuoto o incapace di onde. Gas e plasma possono sostenere perturbazioni appropriate. Le sonificazioni divulgative possono inoltre tradurre misure in suoni udibili: questa scelta non deve essere presentata come una registrazione effettuata da un microfono che ascolti direttamente nello spazio privo di aria."
+        ]
+      },
+      {
+        "title": "La voce interna delle stelle",
+        "paragraphs": [
+          "Oscillazioni stellari forniscono informazioni sulle strutture attraversate dalle onde. La velocità locale di propagazione dipende dalle condizioni interne e contribuisce al comportamento dei modi osservati. Non stiamo ascoltando una melodia arrivata attraverso il vuoto fino alla Terra: misuriamo variazioni di luce o velocità della superficie. Il collegamento fra oscillazioni e interno viene ricostruito con modelli, come in altre indagini che ricavano una struttura dalla risposta alle perturbazioni."
+        ]
+      }
+    ],
+    "facts": [
+      "Il suono richiede un mezzo; una sonificazione di dati non equivale sempre a un suono registrato direttamente"
+    ],
+    "example": "Il suono richiede un mezzo; una sonificazione di dati non equivale sempre a un suono registrato direttamente",
+    "sources": [
+      {
+        "title": "Treccani · riferimento terminologico e tematico; spiegazione originale AD ASTRA",
+        "url": "https://www.treccani.it/enciclopedia/suono/"
       }
     ]
   },
@@ -54696,60 +55431,6 @@ window.AdAstraGlossary = [
     ]
   },
   {
-    "id": "raggi-x",
-    "name": "X, raggi",
-    "definition": "I raggi X sono radiazione elettromagnetica con fotoni di energia superiore a quelli del visibile e dell’ultravioletto, usata per studiare molti ambienti astrofisici energetici.",
-    "example": "Le immagini X traducono dati fuori dalla sensibilità dell’occhio",
-    "source": "https://www.treccani.it/vocabolario/x/",
-    "lesson": "lezione-10-5.html",
-    "related": [
-      "spettro",
-      "fotone",
-      "buco-nero"
-    ],
-    "checked": "2026-11-05",
-    "editorialStatus": "scheda-estesa",
-    "sections": [
-      {
-        "title": "Una banda della stessa famiglia della luce",
-        "paragraphs": [
-          "Visibile, infrarosso e raggi X appartengono allo spettro elettromagnetico. Cambiano frequenza, lunghezza d’onda ed energia dei fotoni. Le suddivisioni delle bande hanno convenzioni e zone di transizione, quindi un confine numerico richiede un contesto dichiarato. L’occhio umano non registra direttamente i raggi X. Le immagini astronomiche vengono costruite a partire dalle misure dei rivelatori e tradotte in una rappresentazione che possiamo leggere sullo schermo."
-        ]
-      },
-      {
-        "title": "Quali ambienti possono rivelare",
-        "paragraphs": [
-          "Gas molto caldo, resti di supernova, sistemi compatti e ambienti di accrescimento possono produrre emissione X con processi differenti. La presenza di un segnale in questa banda invita a studiare condizioni fisiche e spettro, invece di attribuire automaticamente la sorgente a un buco nero. Anche una regione estesa di gas può emettere. Il confronto con altre bande aiuta a distinguere componenti e processi, mantenendo per ciascuna immagine fonte, scala e legenda."
-        ]
-      },
-      {
-        "title": "Il telescopio deve essere progettato per la banda",
-        "paragraphs": [
-          "L’atmosfera terrestre assorbe gran parte della radiazione X celeste, rendendo importanti gli osservatori sopra l’atmosfera. Le ottiche e i rivelatori hanno caratteristiche specifiche. I telescopi focalizzanti possono usare riflessioni a incidenza radente, con geometrie diverse da uno specchio visuale ordinario. Un disegno che copia semplicemente un rifrattore con una luce blu non rende comprensibile il principio. La forma dello strumento deve essere collegata al modo in cui interagisce con la radiazione."
-        ]
-      },
-      {
-        "title": "Leggere i colori assegnati",
-        "paragraphs": [
-          "In una composizione X i colori possono indicare intervalli energetici o essere combinati con dati ottici e infrarossi. La legenda permette di seguire il significato. Una zona blu nell’immagine non prova che quell’ambiente apparirebbe blu all’occhio di un viaggiatore. La rappresentazione visuale conserva valore scientifico quando traduce dati dichiarati. Nel percorso di studio, l’immagine diventa un invito a chiedere quale banda abbia misurato lo strumento e che cosa riveli del soggetto."
-        ]
-      }
-    ],
-    "facts": [
-      "Le immagini X traducono dati fuori dalla sensibilità dell’occhio",
-      "Ogni banda richiede strumenti e interpretazioni appropriati"
-    ],
-    "sources": [
-      {
-        "title": "Treccani · riferimento terminologico",
-        "url": "https://www.treccani.it/vocabolario/x/"
-      }
-    ],
-    "aliases": [
-      "raggi X"
-    ]
-  },
-  {
     "id": "xeno",
     "name": "Xeno",
     "definition": "Lo xeno, o xenon, è l’elemento chimico di simbolo Xe e numero atomico 54, appartenente al gruppo dei gas nobili.",
@@ -55680,564 +56361,6 @@ window.AdAstraGlossary = [
     ],
     "aliases": [
       "regioni radiative"
-    ]
-  },
-  {
-    "id": "artemis",
-    "name": "Artemis",
-    "definition": "Programma NASA per l’esplorazione lunare con equipaggio, anche in preparazione di future missioni verso Marte.",
-    "source": "https://www.nasa.gov/humans-in-space/artemis/",
-    "lesson": "lezione-3-4.html",
-    "related": [
-      "apollo-11"
-    ],
-    "sections": [
-      {
-        "title": "Contesto storico",
-        "paragraphs": [
-          "Artemis I ha provato il lanciatore SLS e la capsula Orion senza equipaggio. Le missioni successive applicano questi collaudi al volo umano e alle attività lunari."
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "title": "NASA",
-        "url": "https://www.nasa.gov/humans-in-space/artemis/"
-      }
-    ],
-    "checked": "2026-11-17",
-    "aliases": [
-      "programma Artemis"
-    ]
-  },
-  {
-    "id": "artemis-i",
-    "name": "Artemis I",
-    "definition": "Volo di prova senza equipaggio che nel 2022 portò Orion attorno alla Luna.",
-    "source": "https://www.nasa.gov/mission/artemis-i/",
-    "lesson": "lezione-3-4.html",
-    "related": [
-      "apollo-11"
-    ],
-    "sections": [
-      {
-        "title": "Contesto storico",
-        "paragraphs": [
-          "La missione collaudò il lanciatore SLS, la navigazione nello spazio profondo e il rientro di Orion sulla Terra."
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "title": "NASA",
-        "url": "https://www.nasa.gov/mission/artemis-i/"
-      }
-    ],
-    "checked": "2026-11-17",
-    "aliases": []
-  },
-  {
-    "id": "artemis-ii",
-    "name": "Artemis II",
-    "definition": "Missione con equipaggio del programma Artemis dedicata al sorvolo della Luna.",
-    "source": "https://www.nasa.gov/mission/artemis-ii/",
-    "lesson": "lezione-3-4.html",
-    "related": [
-      "apollo-11"
-    ],
-    "sections": [
-      {
-        "title": "Contesto storico",
-        "paragraphs": [
-          "Il percorso attorno alla Luna permette di collaudare la capsula Orion con astronauti nello spazio profondo. È un passaggio preparatorio alle missioni di superficie."
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "title": "NASA",
-        "url": "https://www.nasa.gov/mission/artemis-ii/"
-      }
-    ],
-    "checked": "2026-11-17",
-    "aliases": []
-  },
-  {
-    "id": "orion-capsula",
-    "name": "Orion (capsula spaziale)",
-    "definition": "Veicolo progettato per trasportare astronauti oltre l’orbita terrestre bassa.",
-    "source": "https://www.nasa.gov/reference/orion-spacecraft/",
-    "lesson": "lezione-3-4.html",
-    "related": [
-      "apollo-11"
-    ],
-    "sections": [
-      {
-        "title": "Contesto storico",
-        "paragraphs": [
-          "Il modulo equipaggio rientra sulla Terra. Il modulo di servizio fornisce energia e propulsione durante il volo."
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "title": "NASA",
-        "url": "https://www.nasa.gov/reference/orion-spacecraft/"
-      }
-    ],
-    "checked": "2026-11-17",
-    "aliases": [
-      "capsula Orion"
-    ]
-  },
-  {
-    "id": "luna-2",
-    "name": "Luna 2",
-    "definition": "Sonda sovietica che nel 1959 diventò il primo manufatto umano a raggiungere la superficie lunare.",
-    "source": "https://www.nasa.gov/history/60-years-ago-luna-2-makes-impact-in-moon-race/",
-    "lesson": "lezione-3-4.html",
-    "related": [
-      "apollo-11"
-    ],
-    "sections": [
-      {
-        "title": "Contesto storico",
-        "paragraphs": [
-          "La missione si concluse con un impatto. Un allunaggio morbido richiede invece di ridurre la velocità prima del contatto con il suolo."
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "title": "NASA",
-        "url": "https://www.nasa.gov/history/60-years-ago-luna-2-makes-impact-in-moon-race/"
-      }
-    ],
-    "checked": "2026-11-17",
-    "aliases": []
-  },
-  {
-    "id": "luna-3",
-    "name": "Luna 3",
-    "definition": "Sonda sovietica che nel 1959 trasmise le prime fotografie della faccia lontana della Luna.",
-    "source": "https://nssdc.gsfc.nasa.gov/planetary/lunar/lunarussr.html",
-    "lesson": "lezione-3-4.html",
-    "related": [
-      "apollo-11"
-    ],
-    "sections": [
-      {
-        "title": "Contesto storico",
-        "paragraphs": [
-          "La sonda aggirò la Luna per riprendere una regione in gran parte invisibile dalla Terra. Anche questa regione riceve luce solare durante il ciclo lunare."
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "title": "NASA",
-        "url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/lunarussr.html"
-      }
-    ],
-    "checked": "2026-11-17",
-    "aliases": []
-  },
-  {
-    "id": "giotto-sonda",
-    "name": "Giotto (sonda)",
-    "definition": "Sonda ESA che nel 1986 sorvolò la cometa di Halley e ne riprese il nucleo.",
-    "source": "https://www.esa.int/Science_Exploration/Space_Science/Giotto_overview",
-    "lesson": "lezione-3-5.html",
-    "related": [
-      "rosetta"
-    ],
-    "sections": [
-      {
-        "title": "Contesto storico",
-        "paragraphs": [
-          "Il sorvolo mostrò un nucleo scuro e irregolare, con getti di materiale. Giotto visitò poi anche la cometa Grigg–Skjellerup."
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "title": "ESA",
-        "url": "https://www.esa.int/Science_Exploration/Space_Science/Giotto_overview"
-      }
-    ],
-    "checked": "2026-11-17",
-    "aliases": [
-      "sonda Giotto"
-    ]
-  },
-  {
-    "id": "amplitudine-ortiva-e-occasa",
-    "name": "Amplitudine ortiva e occasa",
-    "definition": "Distanza angolare lungo l’orizzonte fra il punto in cui un astro sorge e l’est, oppure fra il punto in cui tramonta e l’ovest.",
-    "source": "https://www.gruppom1.it/wp-content/uploads/2012/04/mtm_terminiastronomici.pdf#page=1",
-    "lesson": "lezione-1-5.html",
-    "aliases": [
-      "amplitudine ortiva",
-      "amplitudine occasa"
-    ],
-    "related": [],
-    "sections": [
-      {
-        "title": "Come si interpreta",
-        "paragraphs": [
-          "Ortiva si riferisce al sorgere, occasa al tramonto. Il valore dipende dalla declinazione dell’astro e dalla latitudine dell’osservatore. Per il Sole, su un orizzonte ideale, il sorgere e il tramonto avvengono circa a est e a ovest agli equinozi."
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "title": "Michele T. Mazzucato · PDF p. 1",
-        "url": "https://www.gruppom1.it/wp-content/uploads/2012/04/mtm_terminiastronomici.pdf#page=1"
-      }
-    ],
-    "checked": "2026-11-17"
-  },
-  {
-    "id": "arco-diurno",
-    "name": "Arco diurno",
-    "definition": "Parte della traiettoria apparente di un astro che si trova sopra l’orizzonte nel corso del suo moto diurno.",
-    "source": "https://www.gruppom1.it/wp-content/uploads/2012/04/mtm_terminiastronomici.pdf#page=2",
-    "lesson": "lezione-1-3.html",
-    "aliases": [],
-    "related": [],
-    "sections": [
-      {
-        "title": "Come si interpreta",
-        "paragraphs": [
-          "Per un astro che sorge e tramonta, l’arco è compreso fra questi due passaggi. Un astro circumpolare descrive invece l’intero percorso sopra l’orizzonte. La latitudine e la declinazione determinano quanto del percorso risulta sopra l’orizzonte geometrico."
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "title": "Michele T. Mazzucato · PDF p. 2",
-        "url": "https://www.gruppom1.it/wp-content/uploads/2012/04/mtm_terminiastronomici.pdf#page=2"
-      }
-    ],
-    "checked": "2026-11-17"
-  },
-  {
-    "id": "anno-anomalistico",
-    "name": "Anno anomalistico",
-    "definition": "Intervallo medio fra due passaggi consecutivi della Terra al perielio, pari a circa 365,26 giorni.",
-    "source": "https://www.gruppom1.it/wp-content/uploads/2012/04/mtm_terminiastronomici.pdf#page=1",
-    "lesson": "lezione-3-6.html",
-    "aliases": [],
-    "related": [],
-    "sections": [
-      {
-        "title": "Come si interpreta",
-        "paragraphs": [
-          "La direzione del perielio cambia lentamente. Per questo il ritorno al perielio richiede un tempo leggermente diverso dal ritorno alla stessa direzione rispetto alle stelle lontane, che definisce l’anno siderale."
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "title": "Michele T. Mazzucato · PDF p. 1",
-        "url": "https://www.gruppom1.it/wp-content/uploads/2012/04/mtm_terminiastronomici.pdf#page=1"
-      },
-      {
-        "title": "INAF Torino · PDF p. 60",
-        "url": "https://www.oato.inaf.it/biblioteca/pdf/TechRep078_Lattanzi.pdf#page=60"
-      }
-    ],
-    "checked": "2026-11-17"
-  },
-  {
-    "id": "anno-draconico",
-    "name": "Anno draconico",
-    "definition": "Intervallo medio fra due passaggi del Sole apparente per lo stesso nodo dell’orbita lunare, circa 346,62 giorni.",
-    "source": "https://www.gruppom1.it/wp-content/uploads/2012/04/mtm_terminiastronomici.pdf#page=1",
-    "lesson": "lezione-2-6.html",
-    "aliases": [],
-    "related": [],
-    "sections": [
-      {
-        "title": "Come si interpreta",
-        "paragraphs": [
-          "I nodi sono i punti in cui l’orbita lunare attraversa il piano dell’orbita terrestre. Le eclissi diventano possibili quando il Sole apparente è vicino a un nodo e la Luna è nella fase adatta. Il movimento dei nodi rende questo intervallo più breve di un anno civile."
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "title": "Michele T. Mazzucato · PDF p. 1",
-        "url": "https://www.gruppom1.it/wp-content/uploads/2012/04/mtm_terminiastronomici.pdf#page=1"
-      }
-    ],
-    "checked": "2026-11-17"
-  },
-  {
-    "id": "interferometro",
-    "name": "Interferometro",
-    "aliases": [
-      "interferometri",
-      "interferometer"
-    ],
-    "definition": "Un interferometro è uno strumento o un sistema che combina segnali ondulatori per misurarne le differenze attraverso l’interferenza. In astronomia può collegare telescopi separati: la tecnica impiegata si chiama interferometria.",
-    "source": "https://www.eso.org/public/teles-instr/technology/interferometry/",
-    "lesson": "lezione-7-3.html",
-    "related": [
-      "interferometria",
-      "interferenza",
-      "risoluzione-angolare"
-    ],
-    "checked": "2026-11-21",
-    "editorialStatus": "scheda-integrativa",
-    "example": "Non è un semplice accostamento di fotografie. La relazione fra i segnali permette di ricavare dettagli angolari; contano la separazione degli strumenti, la lunghezza d’onda e la qualità della misura. La risoluzione ottenibile non equivale automaticamente alla capacità di raccogliere luce di uno specchio pieno altrettanto grande.",
-    "sections": [
-      {
-        "title": "Come leggere il concetto",
-        "paragraphs": [
-          "Non è un semplice accostamento di fotografie. La relazione fra i segnali permette di ricavare dettagli angolari; contano la separazione degli strumenti, la lunghezza d’onda e la qualità della misura. La risoluzione ottenibile non equivale automaticamente alla capacità di raccogliere luce di uno specchio pieno altrettanto grande."
-        ]
-      }
-    ],
-    "facts": [],
-    "sources": [
-      {
-        "title": "ESO · Interferometry",
-        "url": "https://www.eso.org/public/teles-instr/technology/interferometry/"
-      }
-    ]
-  },
-  {
-    "id": "spettrometro",
-    "name": "Spettrometro",
-    "aliases": [
-      "spettrometri",
-      "spectrometer"
-    ],
-    "definition": "Uno spettrometro misura come un segnale è distribuito nelle sue componenti spettrali. Nel contesto astronomico si tratta soprattutto della radiazione elettromagnetica: la misura collega intensità e lunghezza d’onda o frequenza.",
-    "source": "https://www.nist.gov/spectroscopy/what-spectroscopy",
-    "lesson": "lezione-4-3.html",
-    "related": [
-      "spettroscopia",
-      "spettrografo",
-      "risoluzione-spettrale"
-    ],
-    "checked": "2026-11-21",
-    "editorialStatus": "scheda-integrativa",
-    "example": "Lo spettro aiuta a riconoscere righe, composizione e condizioni fisiche. La calibrazione e la risoluzione spettrale limitano ciò che si può distinguere. Non va confuso con lo spettrometro di massa, che separa particelle secondo il rapporto fra massa e carica.",
-    "sections": [
-      {
-        "title": "Come leggere il concetto",
-        "paragraphs": [
-          "Lo spettro aiuta a riconoscere righe, composizione e condizioni fisiche. La calibrazione e la risoluzione spettrale limitano ciò che si può distinguere. Non va confuso con lo spettrometro di massa, che separa particelle secondo il rapporto fra massa e carica."
-        ]
-      }
-    ],
-    "facts": [],
-    "sources": [
-      {
-        "title": "NIST · Spectroscopy: A Measurement Powerhouse",
-        "url": "https://www.nist.gov/spectroscopy/what-spectroscopy"
-      }
-    ]
-  },
-  {
-    "id": "spettroscopio",
-    "name": "Spettroscopio",
-    "aliases": [
-      "spettroscopi",
-      "spectroscope"
-    ],
-    "definition": "Uno spettroscopio separa la luce nelle sue componenti e permette di osservarne lo spettro. Nella forma visuale un prisma o un reticolo disperde la luce, che viene osservata attraverso un sistema ottico.",
-    "source": "https://science.nasa.gov/learn/basics-of-space-flight/chapter12-1/",
-    "lesson": "lezione-4-3.html",
-    "related": [
-      "spettroscopia",
-      "spettrografo",
-      "reticolo-di-diffrazione"
-    ],
-    "checked": "2026-11-21",
-    "editorialStatus": "scheda-integrativa",
-    "example": "Il nome descrive lo strumento, mentre spettroscopia indica lo studio degli spettri. Uno spettrografo registra lo spettro; uno spettrometro ne misura le caratteristiche. Nell’uso moderno le denominazioni possono sovrapporsi secondo la configurazione dello strumento.",
-    "sections": [
-      {
-        "title": "Come leggere il concetto",
-        "paragraphs": [
-          "Il nome descrive lo strumento, mentre spettroscopia indica lo studio degli spettri. Uno spettrografo registra lo spettro; uno spettrometro ne misura le caratteristiche. Nell’uso moderno le denominazioni possono sovrapporsi secondo la configurazione dello strumento."
-        ]
-      }
-    ],
-    "facts": [],
-    "sources": [
-      {
-        "title": "NASA · Basics of Space Flight, Science Instruments",
-        "url": "https://science.nasa.gov/learn/basics-of-space-flight/chapter12-1/"
-      }
-    ]
-  },
-  {
-    "id": "spettrometria",
-    "name": "Spettrometria",
-    "aliases": [
-      "spectrometry"
-    ],
-    "definition": "La spettrometria è la misura quantitativa di uno spettro. Nell’osservazione astronomica misura il segnale in funzione della lunghezza d’onda o della frequenza; la spettroscopia comprende anche l’interpretazione fisica delle caratteristiche osservate.",
-    "source": "https://www.nist.gov/spectroscopy/what-spectroscopy",
-    "lesson": "lezione-4-3.html",
-    "related": [
-      "spettroscopia",
-      "spettro"
-    ],
-    "checked": "2026-11-21",
-    "editorialStatus": "scheda-integrativa",
-    "example": "Le due attività sono strettamente connesse, ma non sono lo stesso nome dello strumento: lo spettrometro produce misure. Per confrontare osservazioni servono riferimenti di calibrazione e una descrizione della risposta strumentale.",
-    "sections": [
-      {
-        "title": "Come leggere il concetto",
-        "paragraphs": [
-          "Le due attività sono strettamente connesse, ma non sono lo stesso nome dello strumento: lo spettrometro produce misure. Per confrontare osservazioni servono riferimenti di calibrazione e una descrizione della risposta strumentale."
-        ]
-      }
-    ],
-    "facts": [],
-    "sources": [
-      {
-        "title": "NIST · Spectroscopy: A Measurement Powerhouse",
-        "url": "https://www.nist.gov/spectroscopy/what-spectroscopy"
-      }
-    ]
-  },
-  {
-    "id": "fotometro",
-    "name": "Fotometro",
-    "aliases": [
-      "fotometri",
-      "photometer"
-    ],
-    "definition": "Un fotometro misura la radiazione ricevuta da una sorgente in una determinata banda. In astronomia permette di quantificare la brillanza apparente e seguirne le variazioni nel tempo, per esempio durante un transito o un’occultazione.",
-    "source": "https://science.nasa.gov/learn/basics-of-space-flight/chapter12-1/",
-    "lesson": "lezione-4-2.html",
-    "related": [
-      "fotometria",
-      "banda-fotometrica",
-      "curva-di-luce"
-    ],
-    "checked": "2026-11-21",
-    "editorialStatus": "scheda-integrativa",
-    "example": "Il fotometro è lo strumento; la fotometria è la tecnica di misura. Il confronto richiede di specificare banda, risposta del rivelatore e calibrazione. Il segnale ricevuto non coincide con la luminosità intrinseca della sorgente.",
-    "sections": [
-      {
-        "title": "Come leggere il concetto",
-        "paragraphs": [
-          "Il fotometro è lo strumento; la fotometria è la tecnica di misura. Il confronto richiede di specificare banda, risposta del rivelatore e calibrazione. Il segnale ricevuto non coincide con la luminosità intrinseca della sorgente."
-        ]
-      }
-    ],
-    "facts": [],
-    "sources": [
-      {
-        "title": "NASA · Basics of Space Flight, Photometers",
-        "url": "https://science.nasa.gov/learn/basics-of-space-flight/chapter12-1/"
-      }
-    ]
-  },
-  {
-    "id": "polarimetria",
-    "name": "Polarimetria",
-    "aliases": [
-      "polarimetry"
-    ],
-    "definition": "La polarimetria misura lo stato di polarizzazione della radiazione, cioè proprietà legate all’orientamento e all’andamento dell’oscillazione del campo elettrico. Può rivelare informazioni sulla diffusione della luce e sulla geometria di sorgenti e materiali.",
-    "source": "https://www.eso.org/public/teles-instr/technology/polarimetry/",
-    "lesson": "lezione-4-3.html",
-    "related": [
-      "polarimetro",
-      "polarizzazione",
-      "spettropolarimetria"
-    ],
-    "checked": "2026-11-21",
-    "editorialStatus": "scheda-integrativa",
-    "example": "Il polarimetro è lo strumento utilizzato. Per interpretare la misura occorre tenere conto della polarizzazione introdotta dal telescopio e dagli apparati. La spettropolarimetria combina questa misura con l’informazione sulla lunghezza d’onda.",
-    "sections": [
-      {
-        "title": "Come leggere il concetto",
-        "paragraphs": [
-          "Il polarimetro è lo strumento utilizzato. Per interpretare la misura occorre tenere conto della polarizzazione introdotta dal telescopio e dagli apparati. La spettropolarimetria combina questa misura con l’informazione sulla lunghezza d’onda."
-        ]
-      }
-    ],
-    "facts": [],
-    "sources": [
-      {
-        "title": "ESO · Polarimetry",
-        "url": "https://www.eso.org/public/teles-instr/technology/polarimetry/"
-      }
-    ]
-  },
-  {
-    "id": "bolometria",
-    "name": "Bolometria",
-    "aliases": [
-      "bolometry"
-    ],
-    "definition": "La bolometria usa il riscaldamento prodotto dall’assorbimento di radiazione per ricavarne una misura. Il rivelatore, chiamato bolometro, trasforma una piccola variazione termica in un segnale misurabile.",
-    "source": "https://www.esa.int/esapub/br/br154/br154.pdf",
-    "lesson": "lezione-4-3.html",
-    "related": [
-      "bolometro",
-      "magnitudine-bolometrica",
-      "infrarosso"
-    ],
-    "checked": "2026-11-21",
-    "editorialStatus": "scheda-integrativa",
-    "example": "La sensibilità dipende dal collegamento termico, dal rumore e dalle condizioni di funzionamento. Uno specifico bolometro ha una risposta strumentale limitata: la misura non coincide automaticamente con tutta l’energia emessa da una stella a ogni lunghezza d’onda.",
-    "sections": [
-      {
-        "title": "Come leggere il concetto",
-        "paragraphs": [
-          "La sensibilità dipende dal collegamento termico, dal rumore e dalle condizioni di funzionamento. Uno specifico bolometro ha una risposta strumentale limitata: la misura non coincide automaticamente con tutta l’energia emessa da una stella a ogni lunghezza d’onda."
-        ]
-      }
-    ],
-    "facts": [],
-    "sources": [
-      {
-        "title": "ESA · Technologies, bolometers",
-        "url": "https://www.esa.int/esapub/br/br154/br154.pdf"
-      }
-    ]
-  },
-  {
-    "id": "cosmologia",
-    "name": "Cosmologia",
-    "aliases": [
-      "cosmologia fisica",
-      "cosmology"
-    ],
-    "definition": "La cosmologia studia l’Universo nel suo insieme: struttura su grande scala, evoluzione e proprietà fisiche. Confronta modelli teorici con osservazioni, fra cui espansione cosmica, radiazione di fondo e distribuzione delle galassie.",
-    "source": "https://asd.gsfc.nasa.gov/archive/mather/cosmology/",
-    "lesson": "lezione-6-5.html",
-    "related": [
-      "universo",
-      "big-bang"
-    ],
-    "checked": "2026-11-21",
-    "editorialStatus": "scheda-integrativa",
-    "example": "Non coincide con lo studio di un singolo astro e non offre risposte già definitive su ogni aspetto delle origini. Una spiegazione scientifica deve produrre conseguenze osservabili e restare confrontabile con i dati e le loro incertezze.",
-    "sections": [
-      {
-        "title": "Come leggere il concetto",
-        "paragraphs": [
-          "Non coincide con lo studio di un singolo astro e non offre risposte già definitive su ogni aspetto delle origini. Una spiegazione scientifica deve produrre conseguenze osservabili e restare confrontabile con i dati e le loro incertezze."
-        ]
-      }
-    ],
-    "facts": [],
-    "sources": [
-      {
-        "title": "NASA Goddard · Cosmology",
-        "url": "https://asd.gsfc.nasa.gov/archive/mather/cosmology/"
-      }
     ]
   }
 ];
